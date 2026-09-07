@@ -1,7 +1,5 @@
 .env
 credentials.local.yaml
-data/*.db-wal
-data/*.db-shm
 .venv/
 venv/
 __pycache__/
