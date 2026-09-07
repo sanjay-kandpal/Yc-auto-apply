@@ -1,0 +1,47 @@
+name: scan
+
+on:
+  schedule:
+    - cron: "0 4,14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    env:
+      YC_SESSION_COOKIES: ${{ secrets.YC_SESSION_COOKIES }}
+      GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      APPROVAL_HMAC_SECRET: ${{ secrets.APPROVAL_HMAC_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install chromium --with-deps
+      - name: Init DB
+        run: python src/db.py --init
+      - name: Scrape
+        run: python src/scrape.py
+      - name: Match
+        run: python src/match.py
+      - name: Draft
+        run: python src/draft.py
+      - name: Email digest
+        run: python src/email_digest.py
+      - name: Dashboard
+        run: python src/dashboard.py
+      - name: Commit state
+        run: |
+          git config user.name "yc-job-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.db docs/index.html
+          git commit -m "scan run" || true
+          git push

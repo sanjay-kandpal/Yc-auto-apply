@@ -1,0 +1,7 @@
+Replace this file with your real backend resume bullets (plain text).
+Used for matching and as LLM voice/context — keep 8–15 bullets, first person, with metrics.
+
+Example shape (delete these lines and write your own):
+- Designed Python/Go services, Postgres schemas, and background jobs for X.
+- Owned APIs, observability, and production incidents for Y.
+- Comfortable remote, India timezone, backend / platform engineering roles.

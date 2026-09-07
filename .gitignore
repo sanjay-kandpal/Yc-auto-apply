@@ -1,0 +1,16 @@
+.env
+data/*.db-wal
+data/*.db-shm
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.playwright/
+playwright-report/
+test-results/
+node_modules/
+.wrangler/
+*.log
+.DS_Store
+Thumbs.db

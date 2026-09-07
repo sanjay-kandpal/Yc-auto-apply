@@ -1,0 +1,77 @@
+# Filters, thresholds, and rate limits. Secrets stay in env / GitHub / Worker.
+
+search:
+  # Open this URL logged-in, copy from the address bar after setting filters.
+  url: "https://www.workatastartup.com/companies?demographic=any&hideJobless=true&quick_apply=true&hasSalary=any&usVisaNotRequired=true&jobType=fulltime&sortBy=created_desc&role=eng&remote=only"
+  max_pages: 20
+  delay_seconds: [2, 6]
+  job_url_template: "https://www.workatastartup.com/jobs/{job_id}"
+
+filters:
+  role_keywords:
+    - software engineer
+    - backend
+    - back-end
+    - fullstack
+    - full-stack
+    - full stack
+    - frontend
+    - front-end
+    - machine learning
+    - ml engineer
+    - ml
+    - data scientist
+    - python
+    - typescript
+    - react
+  skip_keywords:
+    - intern
+    - internship
+    - principal
+    - staff
+    - distinguished
+    - director
+    - vp
+    - head of
+    - founder
+  require_remote_or_india: true
+  remote_or_india_keywords:
+    - remote
+    - india
+    - bengaluru
+    - bangalore
+    - worldwide
+    - anywhere
+    - work from anywhere
+    - visa not required
+    - us visa not required
+
+match:
+  threshold: 70
+  resume_variants:
+    fullstack: data/resumes/fullstack.txt
+    backend: data/resumes/backend.txt
+    ml: data/resumes/ml.txt
+
+draft:
+  provider: groq # groq | gemini
+  groq_model: llama-3.3-70b-versatile
+  gemini_model: gemini-2.0-flash
+  max_sentences: 5
+
+submit:
+  daily_cap: 5
+  dry_run: true
+  resume_pdfs:
+    fullstack: data/resumes/fullstack.pdf
+    backend: data/resumes/backend.pdf
+    ml: data/resumes/ml.pdf
+
+email:
+  digest_subject: "YC jobs digest — {n} to review"
+  approval_base_url: "https://YOUR_SUBDOMAIN.workers.dev"
+  token_ttl_hours: 48
+
+github:
+  owner: YOUR_GITHUB_USER
+  repo: Yc-auto-apply

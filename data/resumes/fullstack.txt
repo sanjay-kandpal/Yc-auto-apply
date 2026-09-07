@@ -1,0 +1,7 @@
+Replace this file with your real fullstack resume bullets (plain text).
+Used for matching and as LLM voice/context — keep 8–15 bullets, first person, with metrics.
+
+Example shape (delete these lines and write your own):
+- Built React + TypeScript product UIs and Python/Node APIs for X, serving N users.
+- Shipped end-to-end features: Postgres, REST, auth, CI, and production debugging.
+- Comfortable remote, India timezone, full-time software engineering roles.

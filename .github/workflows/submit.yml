@@ -1,0 +1,44 @@
+name: submit
+
+on:
+  repository_dispatch:
+    types: [job_approved, job_rejected]
+
+permissions:
+  contents: write
+
+jobs:
+  handle:
+    runs-on: ubuntu-latest
+    env:
+      YC_SESSION_COOKIES: ${{ secrets.YC_SESSION_COOKIES }}
+      GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+      APPROVAL_HMAC_SECRET: ${{ secrets.APPROVAL_HMAC_SECRET }}
+      SUBMIT_DRY_RUN: ${{ secrets.SUBMIT_DRY_RUN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install chromium --with-deps
+      - name: Reject
+        if: github.event.action == 'job_rejected'
+        run: python src/db.py --mark-rejected "${{ github.event.client_payload.job_id }}"
+      - name: Submit
+        if: github.event.action == 'job_approved'
+        run: python src/submit.py --job-id "${{ github.event.client_payload.job_id }}"
+      - name: Notify
+        run: python src/notify.py --job-id "${{ github.event.client_payload.job_id }}"
+      - name: Dashboard
+        run: python src/dashboard.py
+      - name: Commit state
+        run: |
+          git config user.name "yc-job-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.db docs/index.html
+          git commit -m "submit run" || true
+          git push

@@ -1,0 +1,12 @@
+name = "yc-job-approve"
+main = "approve.js"
+compatibility_date = "2026-01-01"
+
+# Set real values before wrangler deploy.
+[vars]
+GH_OWNER = "YOUR_GITHUB_USER"
+GH_REPO = "Yc-auto-apply"
+
+# Secrets (wrangler secret put):
+#   APPROVAL_HMAC_SECRET
+#   GH_PAT_FOR_DISPATCH
