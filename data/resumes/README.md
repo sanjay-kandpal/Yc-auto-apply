@@ -1,6 +1,7 @@
 # Resumes
 
-- `*.txt` — required. Matching and draft generation read these.
-- `fullstack.pdf`, `backend.pdf`, `ml.pdf` — required before live submit. Playwright uploads the PDF that matches `resume_variant`.
+`fullstack.txt`, `backend.txt`, and `frontend.txt` are required.
 
-Do not commit secrets. PDFs can be committed if they contain only your public resume.
+They are used for matching, Gemini drafts, and the application message (draft + resume text). PDFs are optional and not used by default.
+
+Do not put secrets in these files.

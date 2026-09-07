@@ -32,7 +32,7 @@ Status flow: `discovered` → `drafted` → `pending_approval` → `submitted` /
 1. Python 3.12+: `pip install -r requirements.txt && python -m playwright install chromium`
 2. Copy `.env.example` to `.env` **or** `credentials.local.yaml.example` to `credentials.local.yaml` and put your Work at a Startup email/password there. Never commit those files.
 3. Replace `data/resumes/*.txt` with your real bullets (matching + LLM voice).
-4. Add `data/resumes/fullstack.pdf`, `backend.pdf`, `ml.pdf` before any live submit.
+4. Fill `data/resumes/*.txt` (matching, drafts, and the apply message). PDFs are not required.
 5. Edit `config.yaml`: search URL (copy from the jobs board after you set filters), `email.approval_base_url`, `github.owner` / `github.repo`.
 6. Edit `worker/wrangler.toml` `[vars]` `GH_OWNER` / `GH_REPO` to match.
 7. `python src/db.py --init` (already done in a fresh clone if `data/jobs.db` exists).

@@ -57,13 +57,35 @@ def _fill_message(page: Page, text: str) -> None:
     raise RuntimeError("Could not find the application message field.")
 
 
-def _upload_resume(page: Page, pdf: Path) -> None:
-    if not pdf.exists():
-        raise RuntimeError(f"Resume PDF missing: {pdf}")
+def _resume_path(cfg: dict, variant: str) -> Path | None:
+    files = cfg["submit"].get("resume_files") or cfg["submit"].get("resume_pdfs") or {}
+    rel = files.get(variant) or files.get("fullstack")
+    return repo_path(rel) if rel else None
+
+
+def _message_text(job, resume_path: Path | None) -> str:
+    draft = (job["draft_answer"] or "").strip()
+    resume = ""
+    if resume_path and resume_path.suffix.lower() == ".txt" and resume_path.exists():
+        resume = resume_path.read_text(encoding="utf-8").strip()
+    if draft and resume:
+        return f"{draft}\n\n---\nResume\n{resume}"
+    return draft or resume
+
+
+def _upload_resume_if_present(page: Page, path: Path | None) -> None:
+    if not path or not path.exists() or path.suffix.lower() != ".txt":
+        print("Text-only apply (no file upload).")
+        return
     file_input = page.locator("input[type='file']")
     if file_input.count() == 0:
-        raise RuntimeError("Could not find a resume file input.")
-    file_input.first.set_input_files(str(pdf))
+        print("No file input on this form; using resume text in the message.")
+        return
+    try:
+        file_input.first.set_input_files(str(path))
+        print(f"Attached {path.name}")
+    except Exception as exc:
+        print(f"Skip file upload ({exc}); using resume text in the message.")
 
 
 def _click_submit(page: Page) -> None:
@@ -98,7 +120,11 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
         return
 
     variant = job["resume_variant"] or "fullstack"
-    pdf = repo_path(cfg["submit"]["resume_pdfs"][variant])
+    resume_path = _resume_path(cfg, variant)
+    message = _message_text(job, resume_path)
+    if not message:
+        conn.close()
+        raise SystemExit(f"No draft or resume text for {job_id}.")
     print(f"{'DRY RUN' if dry else 'LIVE'} apply: {job['company']} — {job['role']}")
 
     try:
@@ -108,8 +134,8 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             page.wait_for_timeout(2000)
             if _looks_external(page):
                 raise RuntimeError("Listing looks like an external/company-site apply — skipped.")
-            _fill_message(page, job["draft_answer"] or "")
-            _upload_resume(page, pdf)
+            _fill_message(page, message)
+            _upload_resume_if_present(page, resume_path)
             if dry:
                 print("Dry-run: form filled, Send not clicked.")
             else:
