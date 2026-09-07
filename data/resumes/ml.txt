@@ -1,7 +1,0 @@
-Replace this file with your real ML resume bullets (plain text).
-Used for matching and as LLM voice/context — keep 8–15 bullets, first person, with metrics.
-
-Example shape (delete these lines and write your own):
-- Trained and shipped models (Python, PyTorch) for X with measurable lift.
-- Built data pipelines, evals, and inference APIs used in production.
-- Comfortable remote, India timezone, ML / applied science roles.

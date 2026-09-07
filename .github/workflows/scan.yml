@@ -2,7 +2,7 @@ name: scan
 
 on:
   schedule:
-    - cron: "0 4,14 * * *"
+    - cron: "0 */4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,6 +12,8 @@ jobs:
   scan:
     runs-on: ubuntu-latest
     env:
+      YC_EMAIL: ${{ secrets.YC_EMAIL }}
+      YC_PASSWORD: ${{ secrets.YC_PASSWORD }}
       YC_SESSION_COOKIES: ${{ secrets.YC_SESSION_COOKIES }}
       GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
       GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}

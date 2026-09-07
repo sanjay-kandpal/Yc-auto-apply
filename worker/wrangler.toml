@@ -4,7 +4,7 @@ compatibility_date = "2026-01-01"
 
 # Set real values before wrangler deploy.
 [vars]
-GH_OWNER = "YOUR_GITHUB_USER"
+GH_OWNER = "sanjay-kandpal"
 GH_REPO = "Yc-auto-apply"
 
 # Secrets (wrangler secret put):

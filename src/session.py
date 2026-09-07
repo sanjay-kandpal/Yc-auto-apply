@@ -8,22 +8,21 @@ from contextlib import contextmanager
 from dotenv import load_dotenv
 from playwright.sync_api import Browser, BrowserContext, Playwright, sync_playwright
 
+from login import cookies_still_valid, ensure_logged_in, load_credentials, notify_login_failed
+
 load_dotenv()
 
 
 def load_cookies() -> list[dict]:
     raw = os.environ.get("YC_SESSION_COOKIES", "").strip()
     if not raw:
-        raise SystemExit(
-            "YC_SESSION_COOKIES is not set. Run python scripts/export_session.py and "
-            "store the base64 blob as a secret / in .env."
-        )
+        return []
     try:
         decoded = base64.b64decode(raw)
         cookies = json.loads(decoded.decode("utf-8"))
     except Exception as exc:
         raise SystemExit(f"YC_SESSION_COOKIES is not valid base64 JSON: {exc}") from exc
-    if not isinstance(cookies, list) or not cookies:
+    if not isinstance(cookies, list):
         raise SystemExit("YC_SESSION_COOKIES must be a JSON array of Playwright cookies.")
     cleaned = []
     for cookie in cookies:
@@ -36,7 +35,15 @@ def load_cookies() -> list[dict]:
 
 @contextmanager
 def waas_context(headless: bool = True):
+    email, password = load_credentials()
     cookies = load_cookies()
+    if not (email and password) and not cookies:
+        notify_login_failed(
+            "No credentials set. Add YC_EMAIL and YC_PASSWORD "
+            "(GitHub secrets or credentials.local.yaml)."
+        )
+        raise SystemExit("No YC_EMAIL/YC_PASSWORD and no YC_SESSION_COOKIES.")
+
     playwright: Playwright | None = None
     browser: Browser | None = None
     context: BrowserContext | None = None
@@ -49,7 +56,22 @@ def waas_context(headless: bool = True):
                 "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
             )
         )
-        context.add_cookies(cookies)
+        used_cookies = False
+        if cookies:
+            context.add_cookies(cookies)
+            used_cookies = cookies_still_valid(context)
+            if used_cookies:
+                print("Using YC_SESSION_COOKIES.")
+            else:
+                print("Session cookies expired or invalid.")
+        if not used_cookies:
+            if email and password:
+                ensure_logged_in(context)
+            else:
+                notify_login_failed(
+                    "Cookies failed and YC_EMAIL / YC_PASSWORD are not set."
+                )
+                raise SystemExit("Need valid cookies or YC_EMAIL / YC_PASSWORD.")
         yield context
     finally:
         if context:

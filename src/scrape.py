@@ -74,8 +74,13 @@ def scrape() -> None:
         page.goto(search["url"], wait_until="domcontentloaded", timeout=90000)
         page.wait_for_timeout(3000)
         _merge(collected, jobs_from_inertia_html(page.content()))
-        if "sign in" in page.content().lower() and not collected:
-            raise SystemExit("Login wall detected. Export a fresh YC_SESSION_COOKIES blob.")
+        from login import is_waas_logged_in, notify_login_failed
+
+        if not is_waas_logged_in(page) and not collected:
+            notify_login_failed(
+                "Still seeing the Log In button after auth. Update YC_EMAIL / YC_PASSWORD."
+            )
+            raise SystemExit("Login wall detected. Update YC_EMAIL and YC_PASSWORD.")
 
         for _ in range(max(0, max_pages - 1)):
             more = page.locator(

@@ -25,3 +25,15 @@ def send_html_email(subject: str, html: str, to_addr: str | None = None) -> None
         smtp.login(address, password)
         smtp.sendmail(address, [recipient], msg.as_string())
     print(f"Sent email to {recipient}: {subject}")
+
+
+def try_send_html_email(subject: str, html: str, to_addr: str | None = None) -> bool:
+    try:
+        send_html_email(subject, html, to_addr)
+        return True
+    except SystemExit as exc:
+        print(f"Could not send email: {exc}")
+        return False
+    except Exception as exc:
+        print(f"Could not send email: {exc}")
+        return False

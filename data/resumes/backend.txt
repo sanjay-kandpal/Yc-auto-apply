@@ -1,7 +1,46 @@
-Replace this file with your real backend resume bullets (plain text).
-Used for matching and as LLM voice/context — keep 8–15 bullets, first person, with metrics.
+SANJAY KANDPAL — BACKEND HIGHLIGHTS
++917355151245 | sanjaykandpal4@gmail.com | linkedin.com/sanjaykandpal | github.com/sanjaykandpal
 
-Example shape (delete these lines and write your own):
-- Designed Python/Go services, Postgres schemas, and background jobs for X.
-- Owned APIs, observability, and production incidents for Y.
-- Comfortable remote, India timezone, backend / platform engineering roles.
+EXPERIENCE
+
+NeoStats Analytics Solutions PVT LTD — Associate FullStack Engineer (Oct 2025–Present), Bengaluru
+- Built the FastAPI backend for a government mining-safety regulator's occupational hygiene reporting portal; scoped requirements directly with the client.
+- Owned core backend modules of a cloud-native compliance platform on Microsoft Fabric & Azure — onboarded 80+ client organizations, automated 90% of previously manual reporting workflows.
+- Owned deployment inside client's Azure tenant — AKS with ingress-nginx and cert-manager for automated TLS; introduced Azure DevOps CI/CD with blue-green releases for zero-downtime rollout and safe rollback.
+- Diagnosed tight coupling between backend and database as a production concurrency risk — introduced RabbitMQ as a message broker to guarantee delivery and prevent data loss under high load.
+- Load-tested reporting APIs with Locust, traced p95 degradation under sustained load to redundant per-request reads, and integrated Redis caching — cut fetch latency from 500ms to 10ms (98% faster).
+
+NeoStats Analytics Solutions PVT LTD — FullStack Engineer Intern (Apr 2025–Oct 2025), Bengaluru
+- Cut data load time from 15s to 6s by migrating to Azure Blob Storage, eliminating a SharePoint API bottleneck — adopted in production.
+- Reduced real-time data refresh delay by 30 seconds for active client users.
+- Implemented ACID-compliant transactions with email notifications in a multi-threaded environment, ensuring data integrity under concurrent load.
+
+RELEVANT PROJECTS
+
+Local AI Agent — Python, Ollama, Phi-4-mini, Docker
+- Ran an open-weight LLM locally on constrained hardware, validated tool-calling reliability against the model API, containerized with Docker.
+
+RailwayApi — React, Express.js, MongoDB, Docker, Azure
+- Designed a microservices architecture with RESTful APIs; containerized with Docker (40% faster deployment); deployed on Azure.
+
+PixSort — React, Node.js, Express.js, AWS, MySQL
+- Built a serverless image-sharing platform using AWS S3, Lambda, and Rekognition with facial-analysis auto-tagging; designed an access-code system for private retrieval.
+
+AkaBite: Order, Food — Next.js, Express.js, MongoDB, Node.js
+- Implemented secure auth with real-time cart sync; designed REST APIs with robust error handling and input validation.
+
+TECHNICAL SKILLS
+Languages: Python, JavaScript, Java, SQL
+Backend: FastAPI, Express.js, REST
+Cloud & DevOps: Azure (AKS, App Service, DevOps Pipelines, ACR, Blob Storage), AWS (S3, Lambda), Docker, Kubernetes, ingress-nginx, cert-manager
+Data & Messaging: SQL Server, MongoDB, MySQL, Microsoft Fabric, RabbitMQ, Redis
+AI: LLM tool-calling and agents, RAG, Ollama, scikit-learn
+Delivery & Security: Client requirements gathering, UAT planning, Locust load testing, blue-green deployment, Microsoft Entra (Azure AD), RBAC
+Tools: Git, Postman, Cursor, Eclipse
+
+EDUCATION
+CHRIST (Deemed to be University), Bangalore — Master of Computer Applications, 71.7% (Jul 2023–Apr 2025)
+School of Management Sciences (Lucknow University), Lucknow — Bachelor of Computer Application, 72.3% (Aug 2019–May 2022)
+
+ACHIEVEMENTS
+500+ LeetCode problems solved — algorithms and data structures, focus on Java.

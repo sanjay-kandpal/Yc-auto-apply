@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import sys
 import tempfile
 import time
@@ -10,6 +11,7 @@ SRC = ROOT / "src"
 sys.path.insert(0, str(SRC))
 
 from db import connect, insert_discovered, job_id_for, submitted_today, update_job, utc_now  # noqa: E402
+from login import load_credentials  # noqa: E402
 from match import hard_filter_reason  # noqa: E402
 from tokens import sign, verify  # noqa: E402
 from waas_parse import walk_jobs  # noqa: E402
@@ -83,10 +85,28 @@ def test_db_dedup_and_cap() -> None:
         conn.close()
 
 
+def test_load_credentials() -> None:
+    old_email = os.environ.pop("YC_EMAIL", None)
+    old_password = os.environ.pop("YC_PASSWORD", None)
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "credentials.local.yaml"
+            path.write_text("email: tester@example.com\npassword: unit-secret\n", encoding="utf-8")
+            email, password = load_credentials(path)
+            assert email == "tester@example.com"
+            assert password == "unit-secret"
+    finally:
+        if old_email is not None:
+            os.environ["YC_EMAIL"] = old_email
+        if old_password is not None:
+            os.environ["YC_PASSWORD"] = old_password
+
+
 if __name__ == "__main__":
     test_tokens()
     test_job_id_stable()
     test_walk_jobs()
     test_hard_filter()
     test_db_dedup_and_cap()
+    test_load_credentials()
     print("all checks passed")

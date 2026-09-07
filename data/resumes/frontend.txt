@@ -1,0 +1,38 @@
+SANJAY KANDPAL — FRONTEND HIGHLIGHTS
++917355151245 | sanjaykandpal4@gmail.com | linkedin.com/sanjaykandpal | github.com/sanjaykandpal
+
+EXPERIENCE
+
+NeoStats Analytics Solutions PVT LTD — Associate FullStack Engineer (Oct 2025–Present), Bengaluru
+- Built the React front end for a government mining-safety regulator's occupational hygiene reporting portal end to end — scoped requirements with the client, drove client-side UAT across mine, regional, and national user groups.
+- Owned core client-facing modules of a cloud-native compliance platform on Microsoft Fabric & Azure — onboarded 80+ client organizations, replacing 90% of previously manual reporting workflows with automated pipelines.
+- Load-tested reporting APIs with Locust, traced p95 degradation to redundant per-request reads, integrated Redis caching — cut fetch latency from 500ms to 10ms (98% faster), directly improving perceived UI responsiveness.
+
+NeoStats Analytics Solutions PVT LTD — FullStack Engineer Intern (Apr 2025–Oct 2025), Bengaluru
+- Cut data load time from 15s to 6s by migrating to Azure Blob Storage, eliminating a SharePoint API bottleneck — adopted in production.
+- Reduced real-time data refresh delay by 30 seconds, directly improving the experience for active client users.
+
+RELEVANT PROJECTS
+
+RailwayApi — React, Express.js, MongoDB, Docker, Azure
+- Built the React front end for a microservices-backed app with RESTful APIs; containerized with Docker (40% faster deployment); deployed on Azure.
+
+PixSort — React, Node.js, Express.js, AWS, MySQL
+- Built a serverless image-sharing platform front end with facial-analysis auto-tagging and cookie-based auth; designed an access-code system for private retrieval, adopted by 50+ users.
+
+AkaBite: Order, Food — Next.js, Express.js, MongoDB, Node.js
+- Built a Next.js client with secure auth, real-time cart sync, and a multi-device cart system supporting concurrent users and inventory management.
+
+TECHNICAL SKILLS
+Languages: JavaScript, Python, Java, SQL
+Frontend: React, Next.js
+Backend (supporting): FastAPI, Express.js, REST
+Cloud & DevOps: Azure (AKS, App Service, DevOps Pipelines, ACR, Blob Storage), AWS (S3, Lambda), Docker, Kubernetes
+Tools: Git, Postman, Cursor, Eclipse
+
+EDUCATION
+CHRIST (Deemed to be University), Bangalore — Master of Computer Applications, 71.7% (Jul 2023–Apr 2025)
+School of Management Sciences (Lucknow University), Lucknow — Bachelor of Computer Application, 72.3% (Aug 2019–May 2022)
+
+ACHIEVEMENTS
+500+ LeetCode problems solved — algorithms and data structures, focus on Java.
