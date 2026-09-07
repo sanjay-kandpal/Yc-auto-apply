@@ -108,7 +108,11 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
     conn = connect()
     job = get_job(conn, job_id)
     if not job:
-        raise SystemExit(f"Unknown job_id: {job_id}")
+        raise SystemExit(
+            f"Unknown job_id: {job_id}. "
+            "GitHub's data/jobs.db does not have this row. "
+            "After a local digest, commit and push data/jobs.db, then click Approve again."
+        )
     if job["status"] != "pending_approval":
         print(f"Skip submit: {job_id} is {job['status']} (need pending_approval).")
         conn.close()
