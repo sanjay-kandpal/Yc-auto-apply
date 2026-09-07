@@ -26,8 +26,8 @@ def notify(job_id: str) -> None:
     elif status == "pending_approval":
         subject = f"Dry-run only: {job['role']} at {job['company']}"
         body = (
-            "<p>Submit ran in dry-run mode, so nothing was sent. "
-            "Set SUBMIT_DRY_RUN=false to allow live apply after Approve.</p>"
+            "<p>Submit ran in dry-run mode, so Send was not clicked. "
+            "Approve on GitHub Actions is live (Apply → fill → Send).</p>"
         )
     else:
         subject = f"Failed to submit — {job['role']} at {job['company']}"

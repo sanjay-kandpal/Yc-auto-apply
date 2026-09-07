@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import os
-from pathlib import Path
 
 from dotenv import load_dotenv
 from playwright.sync_api import Page, TimeoutError as PlaywrightTimeout
@@ -26,9 +25,9 @@ def _dry_run(cli_dry: bool, cfg: dict) -> bool:
     if cli_dry:
         return True
     env = os.getenv("SUBMIT_DRY_RUN")
-    if env is not None:
+    if env is not None and env.strip():
         return env.strip().lower() not in ("0", "false", "no")
-    return bool(cfg["submit"].get("dry_run", True))
+    return bool(cfg["submit"].get("dry_run", False))
 
 
 def _looks_external(page: Page) -> bool:
@@ -36,69 +35,82 @@ def _looks_external(page: Page) -> bool:
     return any(hint in body for hint in EXTERNAL_HINTS)
 
 
-def _fill_message(page: Page, text: str) -> None:
-    selectors = [
-        "textarea",
-        "textarea[name*='message' i]",
-        "textarea[placeholder*='why' i]",
-        "[contenteditable='true']",
-    ]
-    for selector in selectors:
-        loc = page.locator(selector)
-        if loc.count() == 0:
-            continue
-        box = loc.first
+def _message_box(page: Page):
+    specific = page.locator("textarea[placeholder*='Hi! My name is']")
+    if specific.count():
+        return specific.first
+    return page.locator("textarea").first
+
+
+def _form_is_open(page: Page) -> bool:
+    box = page.locator("textarea[placeholder*='Hi! My name is']")
+    try:
+        return box.count() > 0 and box.first.is_visible()
+    except Exception:
+        return False
+
+
+def _click_apply(page: Page) -> None:
+    if _form_is_open(page):
+        return
+    candidates = (
+        page.get_by_role("link", name="Apply", exact=True),
+        page.get_by_role("button", name="Apply", exact=True),
+        page.locator("a", has_text="Apply"),
+        page.locator("button", has_text="Apply"),
+    )
+    for loc in candidates:
         try:
-            box.click(timeout=3000)
-            box.fill(text)
-            return
+            if loc.count() and loc.first.is_visible():
+                loc.first.click(timeout=5000)
+                page.wait_for_timeout(1500)
+                if _form_is_open(page) or page.locator("textarea").count():
+                    return
         except Exception:
             continue
-    raise RuntimeError("Could not find the application message field.")
+    raise RuntimeError("Could not find the Apply control that opens the message form.")
 
 
-def _resume_path(cfg: dict, variant: str) -> Path | None:
-    files = cfg["submit"].get("resume_files") or cfg["submit"].get("resume_pdfs") or {}
-    rel = files.get(variant) or files.get("fullstack")
-    return repo_path(rel) if rel else None
-
-
-def _message_text(job, resume_path: Path | None) -> str:
-    draft = (job["draft_answer"] or "").strip()
-    resume = ""
-    if resume_path and resume_path.suffix.lower() == ".txt" and resume_path.exists():
-        resume = resume_path.read_text(encoding="utf-8").strip()
-    if draft and resume:
-        return f"{draft}\n\n---\nResume\n{resume}"
-    return draft or resume
-
-
-def _upload_resume_if_present(page: Page, path: Path | None) -> None:
-    if not path or not path.exists() or path.suffix.lower() != ".txt":
-        print("Text-only apply (no file upload).")
-        return
-    file_input = page.locator("input[type='file']")
-    if file_input.count() == 0:
-        print("No file input on this form; using resume text in the message.")
-        return
+def _fill_message(page: Page, text: str) -> None:
+    box = _message_box(page)
+    box.wait_for(state="visible", timeout=15000)
+    box.click(timeout=5000)
+    box.fill(text)
     try:
-        file_input.first.set_input_files(str(path))
-        print(f"Attached {path.name}")
-    except Exception as exc:
-        print(f"Skip file upload ({exc}); using resume text in the message.")
+        box.dispatch_event("input")
+        box.dispatch_event("change")
+    except Exception:
+        pass
 
 
-def _click_submit(page: Page) -> None:
-    for label in ("Send", "Submit", "Apply", "Send application"):
-        btn = page.get_by_role("button", name=label)
-        if btn.count():
-            btn.first.click()
-            return
-        link = page.get_by_role("link", name=label)
-        if link.count():
-            link.first.click()
-            return
-    raise RuntimeError("Could not find a Send/Submit/Apply button.")
+def _message_text(job) -> str:
+    draft = (job["draft_answer"] or "").strip()
+    if draft:
+        return draft
+    cfg = load_config()
+    variant = job["resume_variant"] or "fullstack"
+    files = cfg["submit"].get("resume_files") or {}
+    rel = files.get(variant) or files.get("fullstack")
+    if not rel:
+        return ""
+    path = repo_path(rel)
+    if path.exists() and path.suffix.lower() == ".txt":
+        return path.read_text(encoding="utf-8").strip()
+    return ""
+
+
+def _click_send(page: Page) -> None:
+    btn = page.get_by_role("button", name="Send", exact=True)
+    btn.first.wait_for(state="visible", timeout=10000)
+    page.wait_for_function(
+        """() => {
+            const buttons = [...document.querySelectorAll('button')];
+            const send = buttons.find((b) => (b.textContent || '').trim() === 'Send');
+            return Boolean(send && !send.disabled);
+        }""",
+        timeout=10000,
+    )
+    btn.first.click()
 
 
 def submit_job(job_id: str, cli_dry: bool = False) -> None:
@@ -123,12 +135,10 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
         conn.close()
         return
 
-    variant = job["resume_variant"] or "fullstack"
-    resume_path = _resume_path(cfg, variant)
-    message = _message_text(job, resume_path)
+    message = _message_text(job)
     if not message:
         conn.close()
-        raise SystemExit(f"No draft or resume text for {job_id}.")
+        raise SystemExit(f"No draft text for {job_id}.")
     print(f"{'DRY RUN' if dry else 'LIVE'} apply: {job['company']} — {job['role']}")
 
     try:
@@ -138,12 +148,12 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             page.wait_for_timeout(2000)
             if _looks_external(page):
                 raise RuntimeError("Listing looks like an external/company-site apply — skipped.")
+            _click_apply(page)
             _fill_message(page, message)
-            _upload_resume_if_present(page, resume_path)
             if dry:
-                print("Dry-run: form filled, Send not clicked.")
+                print("Dry-run: Apply clicked and note filled; Send not clicked.")
             else:
-                _click_submit(page)
+                _click_send(page)
                 page.wait_for_timeout(3000)
             update_job(
                 conn,

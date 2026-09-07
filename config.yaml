@@ -67,7 +67,8 @@ draft:
 
 submit:
   daily_cap: 5
-  dry_run: true
+  # Approve path is live (Apply → fill LLM note → Send). Local: --dry-run.
+  dry_run: false
   # Text resumes only (same files as matching). No PDF required.
   resume_files:
     fullstack: data/resumes/fullstack.txt

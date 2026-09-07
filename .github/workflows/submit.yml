@@ -17,7 +17,8 @@ jobs:
       GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
       GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       APPROVAL_HMAC_SECRET: ${{ secrets.APPROVAL_HMAC_SECRET }}
-      SUBMIT_DRY_RUN: ${{ secrets.SUBMIT_DRY_RUN }}
+      # Approve always sends. Scan and Reject never apply. Local --dry-run still works.
+      SUBMIT_DRY_RUN: "false"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

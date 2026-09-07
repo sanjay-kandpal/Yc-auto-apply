@@ -6,6 +6,8 @@ Zero-cost stack: GitHub Actions + Cloudflare Worker + SQLite in this repo + Gmai
 
 Automated apply is likely against the site’s terms. Keep the approval gate and daily cap on. Never turn this into fully autonomous submit.
 
+**Deep product guide (architecture, every module, incidents, backlog):** [docs/YC-auto-apply-product-guide.docx](docs/YC-auto-apply-product-guide.docx)
+
 ## What exists
 
 | Path | Role |
@@ -16,7 +18,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `src/draft.py` | One Groq or Gemini call per job above threshold. Caps at `draft.requests_per_minute` (default 5); waits 60s and retries once on 429. |
 | `src/email_digest.py` | HTML digest with HMAC Approve/Reject links. Sets `pending_approval`. |
 | `worker/approve.js` | Verifies the link, fires GitHub `repository_dispatch`. |
-| `src/submit.py` | Playwright fill + resume upload. Dry-run by default. Daily cap. |
+| `src/submit.py` | After Approve only: click Apply → fill LLM note → Send. Daily cap. Local `--dry-run` skips Send. |
 | `src/notify.py` | Confirmation email after approve/reject/submit. |
 | `src/dashboard.py` | Writes `docs/index.html` for GitHub Pages. |
 | `src/db.py` | SQLite helpers. `python src/db.py --init` / `--mark-rejected ID`. |
@@ -47,7 +49,7 @@ Status flow: `discovered` → `drafted` → `pending_approval` → `submitted` /
 | `GMAIL_ADDRESS` / `GMAIL_APP_PASSWORD` | digest + confirmation mail |
 | `LLM_API_KEY` | Groq or Gemini (must match `draft.provider`) |
 | `APPROVAL_HMAC_SECRET` | signs/verifies approval links (same value as the Worker secret) |
-| `SUBMIT_DRY_RUN` | leave unset or `true` until you want live apply; set `false` to allow Send |
+| `SUBMIT_DRY_RUN` | unused on GitHub now (`submit.yml` forces live Send after Approve). Use `--dry-run` locally only. |
 
 ### Cloudflare Worker
 
@@ -85,6 +87,8 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 ## Notes
 
 - Login goes to `account.ycombinator.com` username/password (not the magic-link email page). Valid `YC_SESSION_COOKIES` are tried first. 2FA/CAPTCHA will email you.
-- `SUBMIT_DRY_RUN` defaults to true: Approve still runs submit, fills the form, and does **not** click Send.
+- Approve is the only apply trigger. Scan (every 4 hours) and Reject never click Apply or Send.
+- After Approve, `submit.yml` is live: click **Apply**, paste the Gemini draft into the “about me” textarea, click **Send**. Status becomes `submitted`.
+- Local testing: `python src/submit.py --job-id ID --dry-run` still fills and does not Send.
 - Daily cap (`submit.daily_cap`, default 5) applies even after Approve.
 - External/company-site apply listings are skipped and marked `failed`.
