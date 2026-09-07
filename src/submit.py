@@ -71,16 +71,54 @@ def _click_apply(page: Page) -> None:
     raise RuntimeError("Could not find the Apply control that opens the message form.")
 
 
-def _fill_message(page: Page, text: str) -> None:
+def _set_textarea_value(page: Page, text: str) -> None:
+    """Set the apply note so React/Inertia enables Send (fill() alone leaves it disabled)."""
     box = _message_box(page)
     box.wait_for(state="visible", timeout=15000)
     box.click(timeout=5000)
-    box.fill(text)
+    box.fill("")
+    box.evaluate(
+        """(el, value) => {
+            const desc = Object.getOwnPropertyDescriptor(
+                window.HTMLTextAreaElement.prototype, "value"
+            );
+            if (desc && desc.set) {
+                desc.set.call(el, value);
+            } else {
+                el.value = value;
+            }
+            el.dispatchEvent(new InputEvent("input", {
+                bubbles: true, cancelable: true, inputType: "insertText", data: value,
+            }));
+            el.dispatchEvent(new Event("change", { bubbles: true }));
+        }""",
+        text,
+    )
+
+
+def _send_button(page: Page):
+    return page.get_by_role("button", name="Send", exact=True).first
+
+
+def _send_enabled(page: Page) -> bool:
+    btn = _send_button(page)
     try:
-        box.dispatch_event("input")
-        box.dispatch_event("change")
+        return btn.is_visible() and btn.is_enabled()
     except Exception:
-        pass
+        return False
+
+
+def _fill_message(page: Page, text: str) -> None:
+    _set_textarea_value(page, text)
+    if _send_enabled(page):
+        return
+    print("Send still disabled after programmatic fill; typing the note.")
+    box = _message_box(page)
+    box.click(timeout=5000)
+    box.fill("")
+    box.press_sequentially(text, delay=8)
+    if not _send_enabled(page):
+        raise RuntimeError("Apply note was filled but Send stayed disabled.")
 
 
 def _message_text(job) -> str:
@@ -100,17 +138,17 @@ def _message_text(job) -> str:
 
 
 def _click_send(page: Page) -> None:
-    btn = page.get_by_role("button", name="Send", exact=True)
-    btn.first.wait_for(state="visible", timeout=10000)
+    btn = _send_button(page)
+    btn.wait_for(state="visible", timeout=15000)
     page.wait_for_function(
         """() => {
             const buttons = [...document.querySelectorAll('button')];
             const send = buttons.find((b) => (b.textContent || '').trim() === 'Send');
             return Boolean(send && !send.disabled);
         }""",
-        timeout=10000,
+        timeout=20000,
     )
-    btn.first.click()
+    btn.click()
 
 
 def submit_job(job_id: str, cli_dry: bool = False) -> None:
@@ -125,8 +163,8 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             "GitHub's data/jobs.db does not have this row. "
             "After a local digest, commit and push data/jobs.db, then click Approve again."
         )
-    if job["status"] != "pending_approval":
-        print(f"Skip submit: {job_id} is {job['status']} (need pending_approval).")
+    if job["status"] not in ("pending_approval", "failed"):
+        print(f"Skip submit: {job_id} is {job['status']} (need pending_approval or failed retry).")
         conn.close()
         return
     already = submitted_today(conn)

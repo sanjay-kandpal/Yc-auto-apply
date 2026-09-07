@@ -88,7 +88,8 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 
 - Login goes to `account.ycombinator.com` username/password (not the magic-link email page). Valid `YC_SESSION_COOKIES` are tried first. 2FA/CAPTCHA will email you.
 - Approve is the only apply trigger. Scan (every 4 hours) and Reject never click Apply or Send.
-- After Approve, `submit.yml` is live: click **Apply**, paste the Gemini draft into the “about me” textarea, click **Send**. Status becomes `submitted`.
+- After Approve, `submit.yml` is live: click **Apply**, set the Gemini draft on the “about me” textarea (native input event so **Send** enables), click **Send**. Status becomes `submitted`.
+- A prior `failed` apply can be retried by clicking Approve again on that digest card.
 - Local testing: `python src/submit.py --job-id ID --dry-run` still fills and does not Send.
 - Daily cap (`submit.daily_cap`, default 5) applies even after Approve.
 - External/company-site apply listings are skipped and marked `failed`.
