@@ -8,6 +8,8 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 
 **Deep product guide (architecture, every module, incidents, backlog):** [docs/YC-auto-apply-product-guide.docx](docs/YC-auto-apply-product-guide.docx)
 
+**Production hardening and free path toward ~100 users:** [docs/YC-auto-apply-production-scale.docx](docs/YC-auto-apply-production-scale.docx)
+
 ## What exists
 
 | Path | Role |
@@ -92,4 +94,5 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 - A prior `failed` apply can be retried by clicking Approve again on that digest card.
 - Local testing: `python src/submit.py --job-id ID --dry-run` still fills and does not Send.
 - Daily cap (`submit.daily_cap`, default 5) applies even after Approve.
+- Scan and submit share concurrency group `jobs-db` (one git writer at a time, no cancel). Commit pulls `--rebase` and retries push so multiple Approves do not fail with `fetch first`.
 - External/company-site apply listings are skipped and marked `failed`.

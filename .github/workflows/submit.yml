@@ -4,6 +4,10 @@ on:
   repository_dispatch:
     types: [job_approved, job_rejected]
 
+concurrency:
+  group: jobs-db
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -21,6 +25,8 @@ jobs:
       SUBMIT_DRY_RUN: "false"
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -39,9 +45,22 @@ jobs:
       - name: Dashboard
         run: python src/dashboard.py
       - name: Commit state
+        env:
+          BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           git config user.name "yc-job-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/jobs.db docs/index.html
           git commit -m "submit run" || true
-          git push
+          ok=0
+          for i in 1 2 3; do
+            git fetch origin "$BRANCH"
+            if git pull --rebase origin "$BRANCH" && git push origin "HEAD:$BRANCH"; then
+              ok=1
+              break
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "git push race, retry $i"
+            sleep $((i * 5))
+          done
+          test "$ok" -eq 1
