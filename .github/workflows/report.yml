@@ -1,0 +1,32 @@
+name: daily-report
+
+on:
+  schedule:
+    # 10:00pm IST = 16:30 UTC
+    - cron: "30 16 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: jobs-db
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    env:
+      GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Init DB
+        run: python src/db.py --init
+      - name: Send daily report
+        run: python src/daily_report.py

@@ -24,18 +24,34 @@ CREATE TABLE IF NOT EXISTS jobs (
   approval_token TEXT,
   discovered_at TEXT,
   decided_at TEXT,
-  submitted_at TEXT
+  submitted_at TEXT,
+  error_message TEXT
 );
 """
+
+ERROR_MESSAGE_MAX_LEN = 500
 
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
+def truncate_error(message: str, max_len: int = ERROR_MESSAGE_MAX_LEN) -> str:
+    text = (message or "").strip()
+    if len(text) <= max_len:
+        return text
+    return text[: max_len - 3] + "..."
+
+
 def job_id_for(company: str, role: str, url: str) -> str:
     raw = f"{company.strip().lower()}|{role.strip().lower()}|{url.strip()}"
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:32]
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    cols = {row[1] for row in conn.execute("PRAGMA table_info(jobs)").fetchall()}
+    if "error_message" not in cols:
+        conn.execute("ALTER TABLE jobs ADD COLUMN error_message TEXT")
 
 
 def connect(path: Path | None = None) -> sqlite3.Connection:
@@ -45,6 +61,7 @@ def connect(path: Path | None = None) -> sqlite3.Connection:
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA journal_mode=DELETE;")
     conn.execute(SCHEMA)
+    _migrate(conn)
     return conn
 
 

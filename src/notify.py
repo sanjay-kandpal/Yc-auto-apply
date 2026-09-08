@@ -31,9 +31,11 @@ def notify(job_id: str) -> None:
         )
     else:
         subject = f"Failed to submit — {job['role']} at {job['company']}"
+        err = html.escape((job["error_message"] or "").strip() or "No error recorded")
         body = (
             f"<p>Failed to submit <strong>{role}</strong> at <strong>{company}</strong>. "
             "Needs manual follow-up.</p>"
+            f"<p><strong>Error:</strong> {err}</p>"
         )
     body += f'<p><a href="{url}">Open listing</a></p>'
     send_html_email(subject, body)

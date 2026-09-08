@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from playwright.sync_api import Page, TimeoutError as PlaywrightTimeout
 
 from config_loader import load_config, repo_path
-from db import connect, get_job, submitted_today, update_job, utc_now
+from db import connect, get_job, submitted_today, truncate_error, update_job, utc_now
 from session import waas_context
 
 load_dotenv()
@@ -193,22 +193,35 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             else:
                 _click_send(page)
                 page.wait_for_timeout(3000)
-            update_job(
-                conn,
-                job_id,
-                status="submitted" if not dry else "pending_approval",
-                decided_at=utc_now(),
-                submitted_at=utc_now() if not dry else job["submitted_at"],
-            )
+            fields: dict = {
+                "status": "submitted" if not dry else "pending_approval",
+                "decided_at": utc_now(),
+                "submitted_at": utc_now() if not dry else job["submitted_at"],
+            }
+            if not dry:
+                fields["error_message"] = None
+            update_job(conn, job_id, **fields)
             if dry:
                 print("Dry-run left status as pending_approval.")
             else:
                 print("Submitted.")
     except PlaywrightTimeout as exc:
-        update_job(conn, job_id, status="failed", decided_at=utc_now())
+        update_job(
+            conn,
+            job_id,
+            status="failed",
+            decided_at=utc_now(),
+            error_message=truncate_error(f"timeout: {exc}"),
+        )
         print(f"Failed (timeout): {exc}")
     except Exception as exc:
-        update_job(conn, job_id, status="failed", decided_at=utc_now())
+        update_job(
+            conn,
+            job_id,
+            status="failed",
+            decided_at=utc_now(),
+            error_message=truncate_error(str(exc)),
+        )
         print(f"Failed: {exc}")
     conn.commit()
     conn.close()
