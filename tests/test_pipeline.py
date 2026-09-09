@@ -13,6 +13,7 @@ sys.path.insert(0, str(SRC))
 from db import connect, insert_discovered, job_id_for, submitted_today, update_job, utc_now  # noqa: E402
 from login import load_credentials  # noqa: E402
 from match import hard_filter_reason  # noqa: E402
+from scrape import search_sources  # noqa: E402
 from tokens import sign, verify  # noqa: E402
 from waas_parse import walk_jobs  # noqa: E402
 
@@ -85,6 +86,24 @@ def test_db_dedup_and_cap() -> None:
         conn.close()
 
 
+def test_search_sources() -> None:
+    sources = search_sources(
+        {
+            "url": "https://example.com/legacy",
+            "max_pages": 20,
+            "sources": [
+                {"name": "remote_eng", "url": "https://example.com/remote", "max_pages": 20},
+                {"name": "india_eng", "url": "https://example.com/india", "max_pages": 12},
+                {"name": "exp_1_2", "url": "https://example.com/exp", "max_pages": 12},
+            ],
+        }
+    )
+    assert [s["name"] for s in sources] == ["remote_eng", "india_eng", "exp_1_2"]
+    assert sources[1]["max_pages"] == 12
+    fallback = search_sources({"url": "https://example.com/legacy", "max_pages": 8})
+    assert fallback == [{"name": "default", "url": "https://example.com/legacy", "max_pages": 8}]
+
+
 def test_load_credentials() -> None:
     old_email = os.environ.pop("YC_EMAIL", None)
     old_password = os.environ.pop("YC_PASSWORD", None)
@@ -108,5 +127,6 @@ if __name__ == "__main__":
     test_walk_jobs()
     test_hard_filter()
     test_db_dedup_and_cap()
+    test_search_sources()
     test_load_credentials()
     print("all checks passed")

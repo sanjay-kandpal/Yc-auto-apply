@@ -15,7 +15,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | Path | Role |
 |---|---|
 | `src/login.py` | Playwright email/password login. On failure, emails you to update credentials; next 4-hour run (or manual scan) retries. |
-| `src/scrape.py` | Playwright after login. Intercepts Algolia / `companies/fetch` JSON and Inertia `data-page`, then stores new rows. |
+| `src/scrape.py` | Playwright after login. Walks `search.sources` (remote, India, 1–2 years). Intercepts Algolia / `companies/fetch` JSON and Inertia `data-page`, then stores new rows (dedup by URL). |
 | `src/match.py` | TF-IDF + keyword overlap + hard filters. Writes `match_score` and `resume_variant`. |
 | `src/draft.py` | One Groq or Gemini call per job above threshold. Caps at `draft.requests_per_minute` (default 5); waits 60s and retries once on 429. |
 | `src/email_digest.py` | HTML digest with HMAC Approve/Reject links. Sets `pending_approval`. |
@@ -39,7 +39,7 @@ Status flow: `discovered` → `drafted` → `pending_approval` → `submitted` /
 2. Copy `.env.example` to `.env` **or** `credentials.local.yaml.example` to `credentials.local.yaml` and put your Work at a Startup email/password there. Never commit those files.
 3. Replace `data/resumes/*.txt` with your real bullets (matching + LLM voice).
 4. Fill `data/resumes/*.txt` (matching, drafts, and the apply message). PDFs are not required.
-5. Edit `config.yaml`: search URL (copy from the jobs board after you set filters), `email.approval_base_url`, `github.owner` / `github.repo`.
+5. Edit `config.yaml`: `search.sources` URLs (copy from the jobs board after you set filters), `email.approval_base_url`, `github.owner` / `github.repo`.
 6. Edit `worker/wrangler.toml` `[vars]` `GH_OWNER` / `GH_REPO` to match.
 7. `python src/db.py --init` (already done in a fresh clone if `data/jobs.db` exists).
 8. Set `YC_EMAIL` and `YC_PASSWORD` (preferred). Cookie export is only a fallback.
@@ -91,6 +91,7 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 ## Notes
 
 - Login goes to `account.ycombinator.com` username/password (not the magic-link email page). Valid `YC_SESSION_COOKIES` are tried first. 2FA/CAPTCHA will email you.
+- Each scan walks three WAAS listings from `search.sources`: remote engineering (`remote=only`), India (`locations=India`), and 1–2 years (`minExperience=1&minExperience=2`). Experience is not stacked onto the India/remote URLs. Same job URL from two feeds inserts once. If a filter looks wrong in the UI, copy the address bar into that source’s `url`.
 - Approve is the only apply trigger. Scan (every 4 hours) and Reject never click Apply or Send.
 - After Approve, `submit.yml` is live: click **Apply**, set the Gemini draft on the “about me” textarea (native input event so **Send** enables), click **Send**. Status becomes `submitted`.
 - A prior `failed` apply can be retried by clicking Approve again on that digest card.

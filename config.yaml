@@ -6,11 +6,22 @@ login:
   check_url: "https://www.workatastartup.com/companies"
 
 search:
-  # Open this URL logged-in, copy from the address bar after setting filters.
+  # Fallback if search.sources is empty. Copy a filtered WAAS URL from the address bar.
   url: "https://www.workatastartup.com/companies?demographic=any&hideJobless=true&quick_apply=true&hasSalary=any&usVisaNotRequired=true&jobType=fulltime&sortBy=created_desc&role=eng&remote=only"
   max_pages: 20
   delay_seconds: [2, 6]
   job_url_template: "https://www.workatastartup.com/jobs/{job_id}"
+  # Three separate listings. Overlaps insert once (same job URL).
+  sources:
+    - name: remote_eng
+      url: "https://www.workatastartup.com/companies?demographic=any&hideJobless=true&quick_apply=true&hasSalary=any&usVisaNotRequired=true&jobType=fulltime&sortBy=created_desc&role=eng&remote=only"
+      max_pages: 20
+    - name: india_eng
+      url: "https://www.workatastartup.com/companies?demographic=any&hideJobless=true&quick_apply=true&hasSalary=any&usVisaNotRequired=true&jobType=fulltime&sortBy=created_desc&role=eng&locations=India"
+      max_pages: 12
+    - name: exp_1_2
+      url: "https://www.workatastartup.com/companies?demographic=any&hideJobless=true&quick_apply=true&hasSalary=any&usVisaNotRequired=true&jobType=fulltime&sortBy=created_desc&role=eng&minExperience=1&minExperience=2"
+      max_pages: 12
 
 filters:
   role_keywords:

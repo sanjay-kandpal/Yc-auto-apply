@@ -11,6 +11,31 @@ from waas_parse import jobs_from_inertia_html, jobs_from_json_text, job_url, par
 INTERESTING = ("algolia.net", "companies/fetch", "workatastartup.com/companies")
 
 
+def search_sources(search: dict) -> list[dict]:
+    default_pages = int(search.get("max_pages", 20))
+    raw = search.get("sources") or []
+    sources = []
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        url = str(item.get("url") or "").strip()
+        if not url:
+            continue
+        sources.append(
+            {
+                "name": str(item.get("name") or "default").strip() or "default",
+                "url": url,
+                "max_pages": int(item.get("max_pages", default_pages)),
+            }
+        )
+    if sources:
+        return sources
+    url = str(search.get("url") or "").strip()
+    if not url:
+        raise SystemExit("Set search.sources or search.url in config.yaml")
+    return [{"name": "default", "url": url, "max_pages": default_pages}]
+
+
 def _delay(bounds: list[float]) -> None:
     lo, hi = float(bounds[0]), float(bounds[1])
     time.sleep(random.uniform(lo, hi))
@@ -47,11 +72,37 @@ def _enrich_from_job_page(page, job: dict, delay: list[float]) -> dict:
     return job
 
 
+def _load_more(page, delay: list[float], collected: dict[str, dict], extra_pages: int) -> None:
+    for _ in range(max(0, extra_pages)):
+        more = page.locator(
+            "button:has-text('Show more'), button:has-text('Load more'), "
+            "a:has-text('Show more'), button:has-text('More')"
+        )
+        try:
+            if more.count() and more.first.is_visible():
+                more.first.click()
+            else:
+                page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        except Exception:
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        page.wait_for_timeout(1500)
+        _merge(collected, jobs_from_inertia_html(page.content()))
+        _delay(delay)
+
+
+def _collect_source(page, source: dict, delay: list[float], collected: dict[str, dict]) -> None:
+    print(f"Scraping {source['name']} ...")
+    page.goto(source["url"], wait_until="domcontentloaded", timeout=90000)
+    page.wait_for_timeout(3000)
+    _merge(collected, jobs_from_inertia_html(page.content()))
+    _load_more(page, delay, collected, int(source["max_pages"]) - 1)
+
+
 def scrape() -> None:
     cfg = load_config()
     search = cfg["search"]
     delay = search.get("delay_seconds", [2, 6])
-    max_pages = int(search.get("max_pages", 20))
+    sources = search_sources(search)
     collected: dict[str, dict] = {}
 
     with waas_context(headless=True) as context:
@@ -71,9 +122,7 @@ def scrape() -> None:
             _merge(collected, jobs_from_json_text(text))
 
         page.on("response", on_response)
-        page.goto(search["url"], wait_until="domcontentloaded", timeout=90000)
-        page.wait_for_timeout(3000)
-        _merge(collected, jobs_from_inertia_html(page.content()))
+        _collect_source(page, sources[0], delay, collected)
         from login import is_waas_logged_in, notify_login_failed
 
         if not is_waas_logged_in(page) and not collected:
@@ -82,21 +131,8 @@ def scrape() -> None:
             )
             raise SystemExit("Login wall detected. Update YC_EMAIL and YC_PASSWORD.")
 
-        for _ in range(max(0, max_pages - 1)):
-            more = page.locator(
-                "button:has-text('Show more'), button:has-text('Load more'), "
-                "a:has-text('Show more'), button:has-text('More')"
-            )
-            try:
-                if more.count() and more.first.is_visible():
-                    more.first.click()
-                else:
-                    page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            except Exception:
-                page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            page.wait_for_timeout(1500)
-            _merge(collected, jobs_from_inertia_html(page.content()))
-            _delay(delay)
+        for source in sources[1:]:
+            _collect_source(page, source, delay, collected)
 
         conn = connect()
         existing = {row["url"] for row in conn.execute("SELECT url FROM jobs")}
