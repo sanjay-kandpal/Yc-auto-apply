@@ -70,9 +70,11 @@ match:
     frontend: data/resumes/frontend.txt
 
 draft:
-  provider: gemini # groq | gemini
-  groq_model: llama-3.3-70b-versatile
+  provider: gemini
+  fallback_provider: openrouter
   gemini_model: gemini-2.5-flash
+  # OpenRouter free-tier model (:free). Swap if this endpoint is delisted.
+  openrouter_model: google/gemma-4-31b-it:free
   max_sentences: 5
   requests_per_minute: 5
 
