@@ -12,9 +12,9 @@ sys.path.insert(0, str(SRC))
 
 from db import connect, insert_discovered, job_id_for, submitted_today, update_job, utc_now  # noqa: E402
 from login import load_credentials  # noqa: E402
+from draft import validate_draft, with_github  # noqa: E402
 from match import hard_filter_reason  # noqa: E402
 from scrape import search_sources  # noqa: E402
-from draft import with_github  # noqa: E402
 from tokens import sign, verify  # noqa: E402
 from waas_parse import walk_jobs  # noqa: E402
 
@@ -113,6 +113,19 @@ def test_with_github() -> None:
     assert again.count("github.com/sanjay-kandpal") == 1
 
 
+def test_validate_draft() -> None:
+    gh = "https://github.com/sanjay-kandpal"
+    good = (
+        "I ship FastAPI services for regulated workflows. "
+        f"I want to help Acme scale the same way.\n\nGitHub: {gh}"
+    )
+    assert validate_draft(good, gh, max_sentences=2) == []
+    bad = f"Hi there, I love your product. Thanks!\n\nGitHub: {gh}"
+    fails = validate_draft(bad, gh, max_sentences=2)
+    assert any("greeting" in f for f in fails)
+    assert any("sign-off" in f for f in fails)
+
+
 def test_load_credentials() -> None:
     old_email = os.environ.pop("YC_EMAIL", None)
     old_password = os.environ.pop("YC_PASSWORD", None)
@@ -138,5 +151,6 @@ if __name__ == "__main__":
     test_db_dedup_and_cap()
     test_search_sources()
     test_with_github()
+    test_validate_draft()
     test_load_credentials()
     print("all checks passed")

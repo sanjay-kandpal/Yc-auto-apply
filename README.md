@@ -17,7 +17,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `src/login.py` | Playwright email/password login. On failure, emails you to update credentials; next 4-hour run (or manual scan) retries. |
 | `src/scrape.py` | Playwright after login. Walks `search.sources` (remote, India, 1–2 years). Intercepts Algolia / `companies/fetch` JSON and Inertia `data-page`, then stores new rows (dedup by URL). |
 | `src/match.py` | TF-IDF + keyword overlap + hard filters. Writes `match_score` and `resume_variant`. |
-| `src/draft.py` | One Gemini call per job above threshold; OpenRouter `:free` if Gemini fails. OpenRouter is also capped at `draft.requests_per_minute` (default 5) and retries once after 60s on 429. Always appends `github.profile_url`. |
+| `src/draft.py` | Gemini (OpenRouter fallback) drafts notes, validates prompt rules (sentence count, no greeting/sign-off, first person, GitHub line), and re-asks up to `validation_retries` times. |
 | `src/email_digest.py` | HTML digest with HMAC Approve/Reject links. Sets `pending_approval`. |
 | `worker/approve.js` | Verifies the link, fires GitHub `repository_dispatch`. |
 | `src/submit.py` | After Approve only: click Apply → fill LLM note → Send. Daily cap. Local `--dry-run` skips Send. |

@@ -75,7 +75,9 @@ draft:
   gemini_model: gemini-2.5-flash
   # OpenRouter free-tier model (:free). Swap if this endpoint is delisted.
   openrouter_model: google/gemma-4-31b-it:free
-  max_sentences: 5
+  max_sentences: 2
+  max_chars: 900
+  validation_retries: 2
   requests_per_minute: 5
 
 submit:
