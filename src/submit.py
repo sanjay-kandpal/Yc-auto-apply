@@ -8,6 +8,7 @@ from playwright.sync_api import Page, TimeoutError as PlaywrightTimeout
 
 from config_loader import load_config, repo_path
 from db import connect, get_job, submitted_today, truncate_error, update_job, utc_now
+from draft import with_github
 from session import waas_context
 
 load_dotenv()
@@ -122,19 +123,19 @@ def _fill_message(page: Page, text: str) -> None:
 
 
 def _message_text(job) -> str:
+    cfg = load_config()
     draft = (job["draft_answer"] or "").strip()
     if draft:
-        return draft
-    cfg = load_config()
+        return with_github(draft, cfg)
     variant = job["resume_variant"] or "fullstack"
     files = cfg["submit"].get("resume_files") or {}
     rel = files.get(variant) or files.get("fullstack")
     if not rel:
-        return ""
+        return with_github("", cfg)
     path = repo_path(rel)
     if path.exists() and path.suffix.lower() == ".txt":
-        return path.read_text(encoding="utf-8").strip()
-    return ""
+        return with_github(path.read_text(encoding="utf-8").strip(), cfg)
+    return with_github("", cfg)
 
 
 def _click_send(page: Page) -> None:

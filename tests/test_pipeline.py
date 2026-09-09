@@ -14,6 +14,7 @@ from db import connect, insert_discovered, job_id_for, submitted_today, update_j
 from login import load_credentials  # noqa: E402
 from match import hard_filter_reason  # noqa: E402
 from scrape import search_sources  # noqa: E402
+from draft import with_github  # noqa: E402
 from tokens import sign, verify  # noqa: E402
 from waas_parse import walk_jobs  # noqa: E402
 
@@ -104,6 +105,14 @@ def test_search_sources() -> None:
     assert fallback == [{"name": "default", "url": "https://example.com/legacy", "max_pages": 8}]
 
 
+def test_with_github() -> None:
+    cfg = {"github": {"profile_url": "https://github.com/sanjay-kandpal"}}
+    text = with_github("I build APIs.", cfg)
+    assert "https://github.com/sanjay-kandpal" in text
+    again = with_github(text, cfg)
+    assert again.count("github.com/sanjay-kandpal") == 1
+
+
 def test_load_credentials() -> None:
     old_email = os.environ.pop("YC_EMAIL", None)
     old_password = os.environ.pop("YC_PASSWORD", None)
@@ -128,5 +137,6 @@ if __name__ == "__main__":
     test_hard_filter()
     test_db_dedup_and_cap()
     test_search_sources()
+    test_with_github()
     test_load_credentials()
     print("all checks passed")

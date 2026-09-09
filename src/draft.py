@@ -10,6 +10,7 @@ from llm import complete
 PROMPT = """Write a 3–4 sentence application note in first person for this YC-startup role.
 Sound like a specific human engineer, not a cover-letter template. No greeting, no sign-off.
 Ground every claim in the resume bullets. Mention the company or product only using facts from the JD.
+End with exactly this line (do not omit it): GitHub: {github}
 
 Resume bullets:
 {resume}
@@ -20,6 +21,28 @@ Role: {role}
 Job description:
 {jd}
 """
+
+
+def github_profile_url(cfg: dict | None = None) -> str:
+    data = cfg or load_config()
+    gh = data.get("github") or {}
+    url = str(gh.get("profile_url") or "").strip()
+    if url:
+        return url.rstrip("/")
+    owner = str(gh.get("owner") or "").strip()
+    return f"https://github.com/{owner}" if owner else ""
+
+
+def with_github(text: str, cfg: dict | None = None) -> str:
+    url = github_profile_url(cfg)
+    body = (text or "").strip()
+    if not url:
+        return body
+    handle = url.rstrip("/").split("/")[-1].lower()
+    lowered = body.lower()
+    if url.lower() in lowered or f"github.com/{handle}" in lowered:
+        return body
+    return f"{body}\n\nGitHub: {url}" if body else f"GitHub: {url}"
 
 
 def _resume_text(cfg: dict, variant: str) -> str:
@@ -82,12 +105,14 @@ def draft() -> None:
             company=job["company"],
             role=job["role"],
             jd=(job["jd_text"] or "")[:6000],
+            github=github_profile_url(cfg),
         )
         try:
             answer, last_call = _complete_paced(prompt, last_call, interval)
         except Exception as exc:
             print(f"LLM failed for {job['id']}: {exc}")
             continue
+        answer = with_github(answer, cfg)
         update_job(conn, job["id"], draft_answer=answer, status="drafted")
         conn.commit()
         print(f"drafted {job['company']} — {job['role']}\n{answer}\n")

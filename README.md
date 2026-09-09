@@ -17,7 +17,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `src/login.py` | Playwright email/password login. On failure, emails you to update credentials; next 4-hour run (or manual scan) retries. |
 | `src/scrape.py` | Playwright after login. Walks `search.sources` (remote, India, 1–2 years). Intercepts Algolia / `companies/fetch` JSON and Inertia `data-page`, then stores new rows (dedup by URL). |
 | `src/match.py` | TF-IDF + keyword overlap + hard filters. Writes `match_score` and `resume_variant`. |
-| `src/draft.py` | One Gemini call per job above threshold; OpenRouter `:free` if Gemini fails. Caps at `draft.requests_per_minute` (default 5); waits 60s and retries once on 429. |
+| `src/draft.py` | One Gemini call per job above threshold; OpenRouter `:free` if Gemini fails. Always appends `github.profile_url`. Caps at `draft.requests_per_minute` (default 5); waits 60s and retries once on 429. |
 | `src/email_digest.py` | HTML digest with HMAC Approve/Reject links. Sets `pending_approval`. |
 | `worker/approve.js` | Verifies the link, fires GitHub `repository_dispatch`. |
 | `src/submit.py` | After Approve only: click Apply → fill LLM note → Send. Daily cap. Local `--dry-run` skips Send. |
@@ -94,7 +94,7 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 - Login goes to `account.ycombinator.com` username/password (not the magic-link email page). Valid `YC_SESSION_COOKIES` are tried first. 2FA/CAPTCHA will email you.
 - Each scan walks three WAAS listings from `search.sources`: remote engineering (`remote=only`), India (`locations=India`), and 1–2 years (`minExperience=1&minExperience=2`). Experience is not stacked onto the India/remote URLs. Same job URL from two feeds inserts once. If a filter looks wrong in the UI, copy the address bar into that source’s `url`.
 - Approve is the only apply trigger. Scan (every 4 hours) and Reject never click Apply or Send.
-- After Approve, `submit.yml` is live: click **Apply**, set the Gemini draft on the “about me” textarea (native input event so **Send** enables), click **Send**. Status becomes `submitted`.
+- After Approve, `submit.yml` is live: click **Apply**, set the Gemini draft on the “about me” textarea (native input event so **Send** enables), click **Send**. Every sent note includes `github.profile_url` (`https://github.com/sanjay-kandpal`). Status becomes `submitted`.
 - A prior `failed` apply can be retried by clicking Approve again on that digest card.
 - Local testing: `python src/submit.py --job-id ID --dry-run` still fills and does not Send.
 - Daily cap (`submit.daily_cap`, default 5) applies even after Approve.
