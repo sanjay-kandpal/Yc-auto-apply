@@ -47,20 +47,5 @@ jobs:
       - name: Commit state
         env:
           BRANCH: ${{ github.event.repository.default_branch }}
-        run: |
-          git config user.name "yc-job-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.db docs/index.html
-          git commit -m "submit run" || true
-          ok=0
-          for i in 1 2 3; do
-            git fetch origin "$BRANCH"
-            if git pull --rebase origin "$BRANCH" && git push origin "HEAD:$BRANCH"; then
-              ok=1
-              break
-            fi
-            git rebase --abort 2>/dev/null || true
-            echo "git push race, retry $i"
-            sleep $((i * 5))
-          done
-          test "$ok" -eq 1
+          COMMIT_MSG: submit run
+        run: bash scripts/commit_state.sh
