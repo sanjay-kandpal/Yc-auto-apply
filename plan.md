@@ -1,35 +1,59 @@
-# YC Job Apply Automation — Implementation Plan
+# YC Job Apply Automation — Current Plan
 
-Zero-cost stack: GitHub Actions + Cloudflare Workers (free tier) + SQLite-in-repo + Gmail SMTP + Groq/Gemini free LLM tier.
+Human-gated pipeline for [Work at a Startup](https://www.workatastartup.com): scrape → score → draft → email digest → Approve/Reject → submit (Approve only).
+
+Zero-cost stack: GitHub Actions + Cloudflare Workers + SQLite-in-repo + Gmail SMTP + Gemini free tier (OpenRouter `:free` fallback).
+
+**This document matches the shipped code.** Day-to-day setup lives in `README.md`. Deeper product notes: `docs/YC-auto-apply-product-guide.docx`.
+
+Automated apply may conflict with the site’s ToS. Keep the approval gate and daily cap. Never fully autonomous submit.
 
 ---
 
 ## 1. Repo structure
 
 ```
-yc-job-bot/
-├── .github/
-│   └── workflows/
-│       ├── scan.yml            # cron: discover + draft + email digest
-│       └── submit.yml          # triggered by repository_dispatch on approval
+Yc-auto-apply/
+├── .github/workflows/
+│   ├── scan.yml              # every 4h: login → scrape → match → draft → digest → dashboard → commit
+│   ├── submit.yml            # repository_dispatch: approve submit / reject mark + notify
+│   └── report.yml            # ~10pm IST: daily report email
 ├── worker/
-│   └── approve.js              # Cloudflare Worker: handles approve-link clicks
+│   ├── approve.js            # Cloudflare Worker: HMAC verify → GitHub repository_dispatch
+│   └── wrangler.toml
 ├── src/
-│   ├── scrape.py                # Playwright: pull job listings
-│   ├── match.py                  # score jobs against resume
-│   ├── draft.py                  # LLM call: tailored answer per job
-│   ├── email_digest.py           # build + send daily digest email
-│   ├── submit.py                  # Playwright: log in, fill form, submit
-│   ├── notify.py                  # confirmation email
-│   └── db.py                      # SQLite helpers
+│   ├── login.py              # YC email/password login (cookies fallback)
+│   ├── session.py            # Playwright browser/context lifecycle
+│   ├── scrape.py             # Walk search.sources; parse Algolia / fetch / Inertia
+│   ├── waas_parse.py         # Listing JSON → company/role/url/jd helpers
+│   ├── match.py              # TF-IDF + keyword overlap + hard filters
+│   ├── draft.py              # LLM notes + validation retries
+│   ├── llm.py                # Gemini primary, OpenRouter fallback (httpx)
+│   ├── email_digest.py       # HTML digest + HMAC Approve/Reject links
+│   ├── tokens.py             # Sign/verify approval tokens
+│   ├── submit.py             # Apply → fill note → Send (or --dry-run)
+│   ├── notify.py             # Per-job confirmation email
+│   ├── daily_report.py       # IST day rollup email
+│   ├── dashboard.py          # Writes docs/index.html
+│   ├── mailer.py             # Shared Gmail SMTP
+│   ├── db.py                 # SQLite helpers + migrations
+│   └── config_loader.py      # config.yaml + repo paths
+├── scripts/
+│   ├── export_session.py     # Optional cookie export if password login blocked
+│   └── commit_state.sh       # Commit DB + dashboard with conflict recovery
+├── tests/
+│   └── test_pipeline.py
 ├── data/
-│   ├── jobs.db                     # SQLite (committed after each run)
+│   ├── jobs.db               # SQLite (committed after scan/submit)
 │   └── resumes/
-│       ├── fullstack.pdf
-│       ├── backend.pdf
-│       └── ml.pdf
-├── config.yaml                      # your filters, thresholds, rate limits
-└── requirements.txt
+│       ├── fullstack.txt
+│       ├── backend.txt
+│       └── frontend.txt
+├── docs/
+│   └── index.html            # GitHub Pages status dashboard
+├── config.yaml
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -38,159 +62,160 @@ yc-job-bot/
 
 ```sql
 CREATE TABLE jobs (
-  id TEXT PRIMARY KEY,          -- hash of company+role+url
+  id TEXT PRIMARY KEY,          -- sha256(company|role|url)[:32]
   company TEXT,
   role TEXT,
   url TEXT,
   jd_text TEXT,
   match_score REAL,
-  resume_variant TEXT,
+  resume_variant TEXT,          -- fullstack | backend | frontend
   draft_answer TEXT,
   status TEXT,                  -- discovered | drafted | pending_approval | approved | rejected | submitted | failed
   approval_token TEXT,
   discovered_at TEXT,
   decided_at TEXT,
-  submitted_at TEXT
+  submitted_at TEXT,
+  error_message TEXT            -- truncated; cleared on successful retry
 );
 ```
 
-SQLite as a committed file works fine at this scale (tens of jobs/day) and needs zero external infra. If it ever gets awkward with Git conflicts, swap in Supabase's free Postgres tier — same schema.
+`db.py` creates the schema on connect and migrates `error_message` if missing.
+
+**Status flow:** `discovered` → `drafted` → `pending_approval` → `submitted` / `failed` / `rejected`. Below-threshold jobs stay `discovered` and never hit email. A prior `failed` apply can be retried via Approve again.
+
+SQLite-as-committed-file is fine at this scale. Scan / submit / report share concurrency group `jobs-db` (one writer, no cancel). `scripts/commit_state.sh` recovers from push conflicts by resetting to remote, restoring this run’s DB, regenerating the dashboard, and retrying with backoff.
 
 ---
 
-## 3. Component details
+## 3. Component details (as built)
 
-### 3.1 Discovery (`scrape.py`)
-- Playwright (headless Chromium) navigates the "Work at a Startup" jobs board using your logged-in session (cookies stored as a GitHub Actions secret, base64-encoded).
-- Pull: company, role, JD text, listing URL, posted date.
-- Insert new rows into `jobs` with `status = discovered`. Skip anything whose `id` hash already exists (dedup).
-- **Rate limit yourself**: random delay (2–6s) between page loads, cap total pages per run (e.g. 20), run at most twice a day. This matters more than anything else for not tripping anti-bot detection.
+### 3.1 Auth (`login.py` + `session.py`)
+- Prefer `YC_EMAIL` / `YC_PASSWORD` against `account.ycombinator.com` (not magic-link email).
+- Valid `YC_SESSION_COOKIES` tried first; `scripts/export_session.py` if password login is blocked (OAuth / 2FA).
+- Login failure emails you; next scan (≤4h or manual) retries.
 
-### 3.2 Matching (`match.py`)
-- Simple, cheap approach that doesn't need an LLM call per job: TF-IDF or keyword overlap between your resume text and the JD, plus hard filters (role type, remote/India-friendly, seniority keywords).
-- Output a 0–100 `match_score`. Anything below your threshold (`config.yaml`, e.g. 70) gets logged but never reaches an email — keeps the digest short.
-- Pick the best-matching resume variant (`fullstack` / `backend` / `ml`) by keyword overlap with each variant.
+### 3.2 Discovery (`scrape.py` + `waas_parse.py`)
+- After login, walks `search.sources` in `config.yaml` (default: remote eng, India eng, 1–2 years experience) with delays and page caps.
+- Intercepts Algolia / `companies/fetch` JSON and Inertia `data-page`; inserts new rows as `discovered` (dedup by job URL / id hash).
+- External/company-site apply listings are skipped later on submit and marked `failed` with `error_message`.
 
-### 3.3 Drafting (`draft.py`)
-- Only runs for jobs above threshold.
-- One LLM call per job: prompt = your base resume bullet points + the JD + a short instruction to write the "why this company / why this role" answer in your voice, 3–5 sentences.
-- Use Groq (Llama 3.1/3.3, generous free tier, very fast) or Gemini free tier for $0 token cost. Store the API key as a GitHub secret.
-- Save result to `draft_answer`, set `status = drafted`.
+### 3.3 Matching (`match.py`)
+- Hard filters (skip keywords, remote/India, role keywords) + TF-IDF cosine similarity + keyword overlap vs resume `.txt` variants.
+- Writes `match_score` and best `resume_variant`. Below `match.threshold` never reaches digest.
 
-### 3.4 Approval email (`email_digest.py`)
-- One run at the end of `scan.yml`: bundle all `drafted` jobs into a single HTML email — company, role, match score, the drafted answer, and two links per job: **Approve** and **Reject**.
-- Each link encodes a signed token: `HMAC(job_id + action + expiry, secret)` as a query param — this is what lets the Worker trust the click without a login system.
-- Send via Gmail SMTP (app password stored as a secret) — free, no third-party email service needed.
+### 3.4 Drafting (`draft.py` + `llm.py`)
+- Only jobs above threshold. Gemini primary (`LLM_API_KEY`); OpenRouter free model fallback (`OPENROUTER_API_KEY`).
+- Validates sentence count, no greeting/sign-off, first person, GitHub profile line; re-asks up to `draft.validation_retries`.
+- Saves `draft_answer`, status `drafted`.
 
-### 3.5 Approval handling (`worker/approve.js`, Cloudflare Worker)
-- Public HTTPS endpoint the email links point to.
-- On request: verify the HMAC signature and expiry, then call the GitHub REST API to fire a `repository_dispatch` event on your repo with `event_type: job_approved` (or `job_rejected`) and the `job_id` as payload.
-- GitHub Personal Access Token (repo scope only) stored as a Worker secret.
-- Respond with a plain "✅ Approved — application will be submitted shortly" HTML page.
-- Cloudflare Workers free tier gives 100,000 requests/day — vastly more than you'll ever need.
+### 3.5 Approval email (`email_digest.py` + `tokens.py` + `mailer.py`)
+- Bundles `drafted` jobs into one HTML email: company, role, score, draft, **Approve** / **Reject** links.
+- Links use HMAC token (`job_id` + action + expiry) with `APPROVAL_HMAC_SECRET`.
+- Sets status `pending_approval`. Sent via Gmail SMTP.
 
-### 3.6 Submission (`submit.yml` → `submit.py`)
-- Triggered only by the `repository_dispatch` event above (not on a schedule).
-- Reads the `job_id` from the event payload, loads the row, checks `status == pending_approval` (idempotency guard against double-clicks).
-- Playwright: restore session cookies, navigate to the job's apply page, fill in the drafted answer + resume upload, submit.
-- On success: `status = submitted`, `submitted_at = now`. On failure: `status = failed`, log the error.
-- **Daily cap**: check how many jobs already have `status = submitted` today before proceeding; hard-stop past your configured limit (e.g. 5/day) regardless of how many approvals came in.
+### 3.6 Approval handling (`worker/approve.js`)
+- Verifies HMAC + expiry, fires GitHub `repository_dispatch` (`job_approved` / `job_rejected`) with `job_id`.
+- Worker secrets: `APPROVAL_HMAC_SECRET`, `GH_PAT_FOR_DISPATCH` (repo scope). URL → `email.approval_base_url`.
 
-### 3.7 Confirmation (`notify.py`)
-- After `submit.py` finishes (success or failure), send a short email: "Applied to {role} at {company}" or "Failed to submit — needs manual follow-up," with a link to the listing.
-- Commit the updated `jobs.db` back to the repo as the last step of the workflow (`git add data/jobs.db && git commit && git push` using the built-in `GITHUB_TOKEN`).
+### 3.7 Submission (`submit.yml` → `submit.py`)
+- Approve only: Apply → fill LLM note (native input so Send enables) → Send. Note includes `github.profile_url`.
+- Idempotency + `submit.daily_cap` (default 5). Reject path only marks rejected.
+- Local: `python src/submit.py --job-id ID --dry-run` fills without Send. Actions force live Send after Approve (`SUBMIT_DRY_RUN=false`).
+
+### 3.8 Notify + daily report + dashboard
+- `notify.py` — email after approve/reject/submit (includes `error_message` on failure).
+- `daily_report.py` + `report.yml` — ~10pm IST: applied/failed counts, failed jobs, errors grouped by message.
+- `dashboard.py` — regenerates `docs/index.html` for GitHub Pages (scan + submit commit it).
 
 ---
 
-## 4. GitHub Actions workflows (sketch)
+## 4. GitHub Actions (current)
 
-**`scan.yml`**
-```yaml
-on:
-  schedule:
-    - cron: "0 4,14 * * *"   # twice daily
-  workflow_dispatch: {}
-jobs:
-  scan:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
-      - run: pip install -r requirements.txt && playwright install chromium
-      - run: python src/scrape.py
-      - run: python src/match.py
-      - run: python src/draft.py
-      - run: python src/email_digest.py
-      - run: git config user.email "bot@you" && git add data/jobs.db && git commit -m "scan run" || true
-      - run: git push
-```
+| Workflow | Trigger | Main steps |
+|---|---|---|
+| `scan.yml` | `0 */4 * * *` + `workflow_dispatch` | init DB → scrape → match → draft → digest → dashboard → `commit_state.sh` |
+| `submit.yml` | `job_approved` / `job_rejected` | reject mark **or** submit → notify → dashboard → commit |
+| `report.yml` | `30 16 * * *` UTC (~10pm IST) + manual | `daily_report.py` (read-only on repo contents) |
 
-**`submit.yml`**
-```yaml
-on:
-  repository_dispatch:
-    types: [job_approved, job_rejected]
-jobs:
-  handle:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
-      - run: pip install -r requirements.txt && playwright install chromium
-      - if: github.event.action == 'job_approved'
-        run: python src/submit.py --job-id "${{ github.event.client_payload.job_id }}"
-      - if: github.event.action == 'job_rejected'
-        run: python src/db.py --mark-rejected "${{ github.event.client_payload.job_id }}"
-      - run: python src/notify.py --job-id "${{ github.event.client_payload.job_id }}"
-      - run: git config user.email "bot@you" && git add data/jobs.db && git commit -m "submit run" || true
-      - run: git push
-```
+All three use concurrency group `jobs-db` with `cancel-in-progress: false`.
 
 ---
 
-## 5. Secrets to configure (GitHub repo → Settings → Secrets)
+## 5. Secrets
+
+### GitHub repo secrets
 
 | Secret | Purpose |
 |---|---|
-| `YC_SESSION_COOKIES` | base64-encoded logged-in session for workatastartup.com |
-| `GMAIL_ADDRESS` / `GMAIL_APP_PASSWORD` | sending digest + confirmation emails |
-| `LLM_API_KEY` | Groq or Gemini free-tier key for drafting |
-| `APPROVAL_HMAC_SECRET` | signs/verifies approval links |
-| `GH_PAT_FOR_DISPATCH` | used by the Cloudflare Worker to call `repository_dispatch` (repo scope only) |
+| `YC_EMAIL` / `YC_PASSWORD` | Preferred auto-login |
+| `YC_SESSION_COOKIES` | Optional cookie fallback |
+| `GMAIL_ADDRESS` / `GMAIL_APP_PASSWORD` | Digest, notify, daily report |
+| `LLM_API_KEY` | Gemini drafts |
+| `OPENROUTER_API_KEY` | Free-tier fallback |
+| `APPROVAL_HMAC_SECRET` | Sign/verify approval links (same as Worker) |
 
-Cloudflare Worker secrets are set separately via `wrangler secret put`.
+### Cloudflare Worker secrets (`wrangler secret put`)
+
+| Secret | Purpose |
+|---|---|
+| `APPROVAL_HMAC_SECRET` | Verify email links |
+| `GH_PAT_FOR_DISPATCH` | Fire `repository_dispatch` |
+
+Local: `.env` or `credentials.local.yaml` (never commit). See `.env.example` / `credentials.local.yaml.example`.
 
 ---
 
-## 6. Cost breakdown
+## 6. Dependencies (`requirements.txt`)
 
-| Component | Free tier limit | Your expected usage |
+| Package | Use |
+|---|---|
+| `playwright` | Browser login / scrape / submit |
+| `pyyaml` | `config.yaml` + local credentials |
+| `scikit-learn` | TF-IDF matching |
+| `httpx` | LLM HTTP |
+| `python-dotenv` | `.env` loading |
+| `tzdata` | `ZoneInfo("Asia/Kolkata")` on Windows / lean images |
+
+Also: `python -m playwright install chromium` after pip.
+
+---
+
+## 7. Cost (unchanged intent)
+
+| Component | Free tier | Expected use |
 |---|---|---|
-| GitHub Actions (private repo) | 2,000 min/month | Well under, a few min/run × 2/day |
-| Cloudflare Workers | 100k requests/day | A handful of clicks/day |
-| Groq/Gemini free tier | Thousands of tokens/day free | A few dozen drafts/day |
-| Gmail SMTP | No hard cap for personal volume | 1–2 emails/day |
-| SQLite in repo | N/A | Free, just repo storage |
+| GitHub Actions | 2,000 min/month (private) | Few min/run × scan every 4h + submits |
+| Cloudflare Workers | 100k req/day | A few clicks/day |
+| Gemini / OpenRouter free | Generous free quotas | Dozens of drafts/day |
+| Gmail SMTP | Personal volume | Digest + notify + 1 daily report |
+| SQLite in repo | N/A | Free storage |
 
-**Total: $0/month** at this usage level.
-
----
-
-## 7. Build order (suggested milestones)
-
-1. `scrape.py` — get job discovery + dedup working, print to console first, no DB yet.
-2. Add SQLite + `match.py` — verify scoring makes sense on real listings before automating further.
-3. `draft.py` — wire up the free LLM tier, sanity-check the tone of generated answers manually.
-4. `email_digest.py` — get the digest email looking right (this is what you'll see every day).
-5. Cloudflare Worker + HMAC tokens — the trickiest plumbing; test with a manual token first.
-6. `submit.py` — build and test against a throwaway/test application before trusting it on real ones.
-7. Wire the two GitHub Actions workflows together, add the daily cap + idempotency checks.
-8. Add the GitHub Pages status dashboard once the core loop is stable.
+**Target: $0/month** at personal volume.
 
 ---
 
-## 8. Key risk to keep in mind
+## 8. Build status
 
-Automated submission on workatastartup.com likely isn't sanctioned by their ToS, and aggressive automation can get an account flagged. The design here keeps every submission gated behind your explicit approval and caps daily volume — treat that gate as non-negotiable even as you iterate, rather than ever moving to a fully autonomous auto-submit.
+| Milestone | Status |
+|---|---|
+| Scrape + dedup + multi-source search | Done |
+| SQLite + match + resume variants (`.txt`) | Done |
+| Draft (Gemini + OpenRouter + validation) | Done |
+| Email digest + HMAC tokens | Done |
+| Cloudflare Worker + repository_dispatch | Done |
+| Submit with daily cap + dry-run locally | Done |
+| Password login + cookie fallback | Done |
+| Notify + daily IST report | Done |
+| GitHub Pages dashboard + conflict-safe commit | Done |
+| Pipeline tests (`tests/test_pipeline.py`) | Done |
+
+**Local smoke order:** `test_pipeline.py` → scrape → match → draft → digest → `submit.py --dry-run` → dashboard.
+
+---
+
+## 9. Key risks
+
+- Automated submission on workatastartup.com may violate ToS; aggressive automation can flag accounts. Approval gate + daily cap stay non-negotiable.
+- Site DOM / Algolia / login flows change; scrape and submit are the fragile edges.
+- LLM free tiers rate-limit or delist models — keep OpenRouter model configurable in `config.yaml`.
+- Concurrent Actions writing `jobs.db` — mitigated by `jobs-db` concurrency + `commit_state.sh`.

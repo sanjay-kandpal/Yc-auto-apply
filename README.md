@@ -6,6 +6,8 @@ Zero-cost stack: GitHub Actions + Cloudflare Worker + SQLite in this repo + Gmai
 
 Automated apply is likely against the site’s terms. Keep the approval gate and daily cap on. Never turn this into fully autonomous submit.
 
+**Current architecture plan (modules, schema, workflows, secrets):** [plan.md](plan.md)
+
 **Deep product guide (architecture, every module, incidents, backlog):** [docs/YC-auto-apply-product-guide.docx](docs/YC-auto-apply-product-guide.docx)
 
 **Production hardening and free path toward ~100 users:** [docs/YC-auto-apply-production-scale.docx](docs/YC-auto-apply-production-scale.docx)
