@@ -7,7 +7,7 @@ from db import connect, update_job
 from llm import complete
 
 
-PROMPT = """Write a 3–5 sentence application note in first person for this YC-startup role.
+PROMPT = """Write a 3–4 sentence application note in first person for this YC-startup role.
 Sound like a specific human engineer, not a cover-letter template. No greeting, no sign-off.
 Ground every claim in the resume bullets. Mention the company or product only using facts from the JD.
 
