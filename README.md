@@ -21,7 +21,9 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `src/match.py` | TF-IDF + keyword overlap + hard filters. Writes `match_score` and `resume_variant`. |
 | `src/draft.py` | Gemini (OpenRouter fallback) drafts notes, validates prompt rules (sentence count, no greeting/sign-off, first person, GitHub line), and re-asks up to `validation_retries` times. |
 | `src/email_digest.py` | HTML digest with HMAC Approve/Reject links. Sets `pending_approval`. |
-| `worker/approve.js` | Verifies the link, fires GitHub `repository_dispatch`. |
+| `worker/index.js` | Cloudflare Worker router: `/` approve links, `/resumes` editor. |
+| `worker/approve.js` | Verifies the HMAC link, fires GitHub `repository_dispatch`. |
+| `worker/resumes.js` | Password login + hosted editor; commits `data/resumes/*.txt` via GitHub Contents API. |
 | `src/submit.py` | After Approve only: click Apply → fill LLM note → Send. Daily cap. Local `--dry-run` skips Send. |
 | `src/notify.py` | Confirmation email after approve/reject/submit (includes stored error on failure). |
 | `src/daily_report.py` | 10pm IST daily email: applied/failed counts, failed jobs, errors grouped by identical message. |
@@ -41,12 +43,11 @@ Status flow: `discovered` → `drafted` → `pending_approval` → `submitted` /
 
 1. Python 3.12+: `pip install -r requirements.txt && python -m playwright install chromium`
 2. Copy `.env.example` to `.env` **or** `credentials.local.yaml.example` to `credentials.local.yaml` and put your Work at a Startup email/password there. Never commit those files.
-3. Replace `data/resumes/*.txt` with your real bullets (matching + LLM voice).
-4. Fill `data/resumes/*.txt` (matching, drafts, and the apply message). PDFs are not required.
-5. Edit `config.yaml`: `search.sources` URLs (copy from the jobs board after you set filters), `email.approval_base_url`, `github.owner` / `github.repo`.
-6. Edit `worker/wrangler.toml` `[vars]` `GH_OWNER` / `GH_REPO` to match.
-7. `python src/db.py --init` (already done in a fresh clone if `data/jobs.db` exists).
-8. Set `YC_EMAIL` and `YC_PASSWORD` (preferred). Cookie export is only a fallback.
+3. Update resume bullets via the hosted editor (`https://yc-job-approve.sanjaykandpal4.workers.dev/resumes`, name `dev`) **or** edit `data/resumes/*.txt` locally. They are used for matching, Gemini drafts, and the apply message. PDFs are not required.
+4. Edit `config.yaml`: `search.sources` URLs (copy from the jobs board after you set filters), `email.approval_base_url`, `github.owner` / `github.repo`.
+5. Edit `worker/wrangler.toml` `[vars]` `GH_OWNER` / `GH_REPO` to match.
+6. `python src/db.py --init` (already done in a fresh clone if `data/jobs.db` exists).
+7. Set `YC_EMAIL` and `YC_PASSWORD` (preferred). Cookie export is only a fallback.
 
 ### GitHub secrets (repo → Settings → Secrets)
 
@@ -70,7 +71,9 @@ npx wrangler secret put GH_PAT_FOR_DISPATCH
 npx wrangler deploy
 ```
 
-The PAT needs `repo` scope so it can send `repository_dispatch`. Put the Worker URL into `email.approval_base_url`.
+The PAT needs `repo` scope so it can send `repository_dispatch` and commit resume files from `/resumes`. Put the Worker URL into `email.approval_base_url`.
+
+Resume editor: `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes` — name `dev`, password hardcoded in `worker/resumes.js`. After save, the next scan uses the new `.txt` files. Already-scored or drafted jobs are not re-matched.
 
 ### GitHub Pages
 
@@ -107,3 +110,4 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 - External/company-site apply listings are skipped and marked `failed` (error stored in `error_message`).
 - Failed submits store `error_message` (truncated). Successful retries clear it.
 - Daily report email (~10pm IST via `report.yml`) covers that IST calendar day: success/fail counts, failed jobs with errors, and identical errors grouped with counts. Manual: **Actions → daily-report → Run workflow** or `python src/daily_report.py`.
+- Resume editor lives on the Worker (`/resumes`), not GitHub Pages. Save writes `data/resumes/*.txt` through the GitHub Contents API.

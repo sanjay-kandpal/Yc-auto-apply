@@ -21,7 +21,9 @@ Yc-auto-apply/
 │       ├── submit.yml        # repository_dispatch: approve submit / reject mark + notify
 │       └── report.yml        # ~10pm IST: daily report email
 ├── worker/
-│   ├── approve.js            # Cloudflare Worker: HMAC verify → GitHub repository_dispatch
+│   ├── index.js              # Router: / approve, /resumes editor
+│   ├── approve.js            # HMAC verify → GitHub repository_dispatch
+│   ├── resumes.js            # Login + editor; commits data/resumes/*.txt
 │   └── wrangler.toml
 ├── src/
 │   ├── login.py              # YC email/password login (cookies fallback)
@@ -115,9 +117,14 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 - Links use HMAC token (`job_id` + action + expiry) with `APPROVAL_HMAC_SECRET`.
 - Sets status `pending_approval`. Sent via Gmail SMTP.
 
-### 3.6 Approval handling (`worker/approve.js`)
-- Verifies HMAC + expiry, fires GitHub `repository_dispatch` (`job_approved` / `job_rejected`) with `job_id`.
+### 3.6 Approval handling (`worker/index.js` + `worker/approve.js`)
+- `/` verifies HMAC + expiry, fires GitHub `repository_dispatch` (`job_approved` / `job_rejected`) with `job_id`.
 - Worker secrets: `APPROVAL_HMAC_SECRET`, `GH_PAT_FOR_DISPATCH` (repo scope). URL → `email.approval_base_url`.
+
+### 3.6b Resume editor (`worker/resumes.js`)
+- `/resumes` is a password-gated form (hardcoded name `dev` in `worker/resumes.js`). Session cookie is HMAC-signed with `APPROVAL_HMAC_SECRET`.
+- After login, loads and saves `data/resumes/fullstack.txt`, `backend.txt`, and `frontend.txt` via the GitHub Contents API (`GH_PAT_FOR_DISPATCH`).
+- Next `scan.yml` checkout uses the new text. Already-scored / drafted jobs are not re-matched.
 
 ### 3.7 Submission (`submit.yml` → `submit.py`)
 - Approve only: Apply → fill LLM note (native input so Send enables) → Send. Note includes `github.profile_url`.
@@ -160,8 +167,8 @@ All three use concurrency group `jobs-db` with `cancel-in-progress: false`. Shar
 
 | Secret | Purpose |
 |---|---|
-| `APPROVAL_HMAC_SECRET` | Verify email links |
-| `GH_PAT_FOR_DISPATCH` | Fire `repository_dispatch` |
+| `APPROVAL_HMAC_SECRET` | Verify email links and sign `/resumes` session cookie |
+| `GH_PAT_FOR_DISPATCH` | Fire `repository_dispatch` and commit resume files from `/resumes` |
 
 Local: `.env` or `credentials.local.yaml` (never commit). See `.env.example` / `credentials.local.yaml.example`.
 
@@ -205,6 +212,7 @@ Also: `python -m playwright install chromium` after pip.
 | Draft (Gemini + OpenRouter + validation) | Done |
 | Email digest + HMAC tokens | Done |
 | Cloudflare Worker + repository_dispatch | Done |
+| Hosted `/resumes` editor (Worker → GitHub Contents API) | Done |
 | Submit with daily cap + dry-run locally | Done |
 | Password login + cookie fallback | Done |
 | Notify + daily IST report | Done |
