@@ -27,13 +27,9 @@ jobs:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v6
+      - uses: ./.github/actions/setup-cached-python
         with:
-          python-version: "3.12"
-      - name: Install
-        run: |
-          pip install -r requirements.txt
-          python -m playwright install chromium --with-deps
+          with-playwright: "true"
       - name: Reject
         if: github.event.action == 'job_rejected'
         run: python src/db.py --mark-rejected "${{ github.event.client_payload.job_id }}"

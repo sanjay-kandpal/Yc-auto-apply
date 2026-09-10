@@ -1,0 +1,50 @@
+name: Setup cached Python
+description: Restore a cached venv from requirements.txt, or pip install on cache miss.
+
+inputs:
+  with-playwright:
+    description: Also cache and install Playwright Chromium (scan/submit).
+    required: false
+    default: "false"
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v6
+      id: setup-python
+      with:
+        python-version: "3.12"
+
+    - uses: actions/cache@v4
+      id: cache-venv
+      with:
+        path: .venv
+        key: ${{ runner.os }}-venv-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}
+
+    - name: Install Python deps
+      if: steps.cache-venv.outputs.cache-hit != 'true'
+      shell: bash
+      run: |
+        python -m venv .venv
+        .venv/bin/pip install -r requirements.txt
+
+    - name: Use venv
+      shell: bash
+      run: echo "$GITHUB_WORKSPACE/.venv/bin" >> "$GITHUB_PATH"
+
+    - uses: actions/cache@v4
+      if: inputs.with-playwright == 'true'
+      id: cache-playwright
+      with:
+        path: ~/.cache/ms-playwright
+        key: ${{ runner.os }}-playwright-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}
+
+    - name: Install Playwright browsers
+      if: inputs.with-playwright == 'true' && steps.cache-playwright.outputs.cache-hit != 'true'
+      shell: bash
+      run: python -m playwright install chromium --with-deps
+
+    - name: Install Playwright OS deps
+      if: inputs.with-playwright == 'true' && steps.cache-playwright.outputs.cache-hit == 'true'
+      shell: bash
+      run: python -m playwright install-deps chromium

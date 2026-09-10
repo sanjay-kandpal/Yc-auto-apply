@@ -29,6 +29,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `src/db.py` | SQLite helpers. Migrates `error_message` on connect. `python src/db.py --init` / `--mark-rejected ID`. |
 | `scripts/export_session.py` | Optional cookie fallback if password login is blocked (OAuth / 2FA). |
 | `scripts/commit_state.sh` | Shared Actions commit/push with conflict recovery (restore DB + regenerate dashboard). |
+| `.github/actions/setup-cached-python` | Shared Actions setup: restore `.venv` (and Playwright browsers on scan/submit) or install on cache miss. |
 | `config.yaml` | Filters, threshold, delays, cap, LLM provider, Worker URL. |
 | `.github/workflows/scan.yml` | Every 4 hours (`0 */4 * * *`) plus manual Run workflow. |
 | `.github/workflows/submit.yml` | Runs on `job_approved` / `job_rejected`. |
@@ -102,6 +103,7 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 - Local testing: `python src/submit.py --job-id ID --dry-run` still fills and does not Send.
 - Daily cap (`submit.daily_cap`, default 5) applies even after Approve.
 - Scan, submit, and daily-report share concurrency group `jobs-db` (one writer at a time, no cancel). Commit uses `scripts/commit_state.sh`: on rebase/push conflict it resets to remote, restores this run’s `data/jobs.db`, regenerates `docs/index.html`, and retries with exponential backoff.
+- Actions Python deps are cached via `.github/actions/setup-cached-python`. Cache key is OS + Python version + `requirements.txt` hash. Hit → skip `pip install` and reuse `.venv`. Miss → create venv, install, save cache. Scan/submit also cache `~/.cache/ms-playwright`; on a browser cache hit they only install OS deps (`playwright install-deps`). Changing `requirements.txt` or the Python patch version forces a fresh install.
 - External/company-site apply listings are skipped and marked `failed` (error stored in `error_message`).
 - Failed submits store `error_message` (truncated). Successful retries clear it.
 - Daily report email (~10pm IST via `report.yml`) covers that IST calendar day: success/fail counts, failed jobs with errors, and identical errors grouped with counts. Manual: **Actions → daily-report → Run workflow** or `python src/daily_report.py`.

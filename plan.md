@@ -14,10 +14,12 @@ Automated apply may conflict with the site’s ToS. Keep the approval gate and d
 
 ```
 Yc-auto-apply/
-├── .github/workflows/
-│   ├── scan.yml              # every 4h: login → scrape → match → draft → digest → dashboard → commit
-│   ├── submit.yml            # repository_dispatch: approve submit / reject mark + notify
-│   └── report.yml            # ~10pm IST: daily report email
+├── .github/
+│   ├── actions/setup-cached-python/  # restore .venv (+ Playwright) or pip install on miss
+│   └── workflows/
+│       ├── scan.yml          # every 4h: login → scrape → match → draft → digest → dashboard → commit
+│       ├── submit.yml        # repository_dispatch: approve submit / reject mark + notify
+│       └── report.yml        # ~10pm IST: daily report email
 ├── worker/
 │   ├── approve.js            # Cloudflare Worker: HMAC verify → GitHub repository_dispatch
 │   └── wrangler.toml
@@ -133,11 +135,11 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 
 | Workflow | Trigger | Main steps |
 |---|---|---|
-| `scan.yml` | `0 */4 * * *` + `workflow_dispatch` | init DB → scrape → match → draft → digest → dashboard → `commit_state.sh` |
-| `submit.yml` | `job_approved` / `job_rejected` | reject mark **or** submit → notify → dashboard → commit |
-| `report.yml` | `30 16 * * *` UTC (~10pm IST) + manual | `daily_report.py` (read-only on repo contents) |
+| `scan.yml` | `0 */4 * * *` + `workflow_dispatch` | cached Python + Playwright → init DB → scrape → match → draft → digest → dashboard → `commit_state.sh` |
+| `submit.yml` | `job_approved` / `job_rejected` | cached Python + Playwright → reject mark **or** submit → notify → dashboard → commit |
+| `report.yml` | `30 16 * * *` UTC (~10pm IST) + manual | cached Python → `daily_report.py` (read-only on repo contents) |
 
-All three use concurrency group `jobs-db` with `cancel-in-progress: false`.
+All three use concurrency group `jobs-db` with `cancel-in-progress: false`. Shared composite `.github/actions/setup-cached-python` restores `.venv` (and Playwright browsers for scan/submit) when `requirements.txt` + Python version match; otherwise it installs and saves the cache.
 
 ---
 
