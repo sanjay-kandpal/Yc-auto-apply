@@ -47,45 +47,45 @@ function html(title, body, status = 200) {
   );
 }
 
-export default {
-  async fetch(request, env) {
-    const url = new URL(request.url);
-    const jobId = url.searchParams.get("job_id") || "";
-    const action = url.searchParams.get("action") || "";
-    const expiry = url.searchParams.get("expiry") || "";
-    const token = url.searchParams.get("token") || "";
+export async function handleApprove(request, env) {
+  const url = new URL(request.url);
+  const jobId = url.searchParams.get("job_id") || "";
+  const action = url.searchParams.get("action") || "";
+  const expiry = url.searchParams.get("expiry") || "";
+  const token = url.searchParams.get("token") || "";
 
-    const ok = await verify(jobId, action, expiry, token, env.APPROVAL_HMAC_SECRET);
-    if (!ok) {
-      return html("Link invalid", "This approval link is invalid or expired.", 400);
+  const ok = await verify(jobId, action, expiry, token, env.APPROVAL_HMAC_SECRET);
+  if (!ok) {
+    return html("Link invalid", "This approval link is invalid or expired.", 400);
+  }
+
+  const eventType = action === "approve" ? "job_approved" : "job_rejected";
+  const gh = await fetch(
+    `https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}/dispatches`,
+    {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${env.GH_PAT_FOR_DISPATCH}`,
+        Accept: "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": "yc-job-bot",
+      },
+      body: JSON.stringify({
+        event_type: eventType,
+        client_payload: { job_id: jobId },
+      }),
     }
+  );
 
-    const eventType = action === "approve" ? "job_approved" : "job_rejected";
-    const gh = await fetch(
-      `https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}/dispatches`,
-      {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${env.GH_PAT_FOR_DISPATCH}`,
-          Accept: "application/vnd.github+json",
-          "X-GitHub-Api-Version": "2022-11-28",
-          "User-Agent": "yc-job-bot",
-        },
-        body: JSON.stringify({
-          event_type: eventType,
-          client_payload: { job_id: jobId },
-        }),
-      }
-    );
+  if (!gh.ok) {
+    const detail = await gh.text();
+    return html("GitHub error", `Could not start the workflow (${gh.status}). ${detail}`, 502);
+  }
 
-    if (!gh.ok) {
-      const detail = await gh.text();
-      return html("GitHub error", `Could not start the workflow (${gh.status}). ${detail}`, 502);
-    }
+  if (action === "approve") {
+    return html("Approved", "Application will be submitted shortly (subject to the daily cap).");
+  }
+  return html("Rejected", "This listing will be marked rejected.");
+}
 
-    if (action === "approve") {
-      return html("Approved", "Application will be submitted shortly (subject to the daily cap).");
-    }
-    return html("Rejected", "This listing will be marked rejected.");
-  },
-};
+export default { fetch: handleApprove };
