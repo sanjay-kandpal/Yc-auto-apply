@@ -1,9 +1,10 @@
 from __future__ import annotations
 
+import argparse
 import html
 import re
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
@@ -15,6 +16,7 @@ from mailer import send_html_email
 load_dotenv()
 
 IST = ZoneInfo("Asia/Kolkata")
+REPORT_HOUR = 22  # 10pm IST
 _WS = re.compile(r"\s+")
 
 
@@ -33,17 +35,36 @@ def _parse_ts(value: str | None) -> datetime | None:
     return dt
 
 
-def _ist_day_bounds(now: datetime | None = None) -> tuple[datetime, datetime, str]:
-    now_ist = (now or datetime.now(tz=IST)).astimezone(IST)
-    start = now_ist.replace(hour=0, minute=0, second=0, microsecond=0)
-    return start, now_ist, now_ist.date().isoformat()
+def _close_at(day: datetime) -> datetime:
+    return day.astimezone(IST).replace(hour=REPORT_HOUR, minute=0, second=0, microsecond=0)
+
+
+def _report_window(
+    now: datetime | None = None,
+    close_date: str | None = None,
+) -> tuple[datetime, datetime, str]:
+    """Most recent completed 10pm→10pm IST period.
+
+    If scan holds the jobs-db lock past midnight, a delayed run still uses last
+    night's 10pm close — not the new calendar day — so that day's applies are kept.
+    Windows are [start, end) so adjacent reports do not double-count.
+    """
+    if close_date:
+        day = datetime.fromisoformat(close_date.strip()).date()
+        end = datetime(day.year, day.month, day.day, REPORT_HOUR, 0, 0, tzinfo=IST)
+    else:
+        now_ist = (now or datetime.now(tz=IST)).astimezone(IST)
+        today_close = _close_at(now_ist)
+        end = today_close if now_ist >= today_close else today_close - timedelta(days=1)
+    start = end - timedelta(days=1)
+    return start, end, end.date().isoformat()
 
 
 def _in_window(ts: str | None, start: datetime, end: datetime) -> bool:
     dt = _parse_ts(ts)
     if dt is None:
         return False
-    return start <= dt <= end
+    return start <= dt < end
 
 
 def _normalize_error(message: str | None) -> str:
@@ -95,7 +116,7 @@ def build_report_html(submitted: list, failed: list, date_ist: str) -> str:
     return f"""
     <div style="font-family:sans-serif;max-width:640px">
       <h1 style="margin:0 0 8px">YC daily report</h1>
-      <p style="margin:0 0 16px;color:#555">IST day {html.escape(date_ist)} (midnight → report time)</p>
+      <p style="margin:0 0 16px;color:#555">10pm IST window ending {html.escape(date_ist)} (previous 10pm → this 10pm)</p>
       <p style="margin:0 0 16px">
         <strong>{len(submitted)}</strong> successfully applied ·
         <strong>{len(failed)}</strong> failed
@@ -110,9 +131,9 @@ def build_report_html(submitted: list, failed: list, date_ist: str) -> str:
     """
 
 
-def send_daily_report() -> None:
+def send_daily_report(now: datetime | None = None, close_date: str | None = None) -> None:
     cfg = load_config()
-    start, end, date_ist = _ist_day_bounds()
+    start, end, date_ist = _report_window(now=now, close_date=close_date)
     conn = connect()
     rows = list(conn.execute("SELECT * FROM jobs"))
     conn.close()
@@ -137,11 +158,21 @@ def send_daily_report() -> None:
     subject = template.format(submitted=len(submitted), failed=len(failed), date=date_ist)
     body = build_report_html(submitted, failed, date_ist)
     send_html_email(subject, body)
-    print(f"Daily report: {len(submitted)} submitted, {len(failed)} failed for IST {date_ist}")
+    print(
+        f"Daily report: {len(submitted)} submitted, {len(failed)} failed "
+        f"for {start.isoformat()} → {end.isoformat()} (close {date_ist})"
+    )
 
 
 def main() -> None:
-    send_daily_report()
+    parser = argparse.ArgumentParser(description="Email the 10pm IST daily apply report")
+    parser.add_argument(
+        "--date",
+        dest="close_date",
+        help="IST date whose 10pm closes the window (YYYY-MM-DD). Default: last completed 10pm period.",
+    )
+    args = parser.parse_args()
+    send_daily_report(close_date=args.close_date)
 
 
 if __name__ == "__main__":

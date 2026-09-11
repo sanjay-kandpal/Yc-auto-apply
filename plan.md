@@ -37,7 +37,7 @@ Yc-auto-apply/
 │   ├── tokens.py             # Sign/verify approval tokens
 │   ├── submit.py             # Apply → fill note → Send (or --dry-run)
 │   ├── notify.py             # Per-job confirmation email
-│   ├── daily_report.py       # IST day rollup email
+│   ├── daily_report.py       # 10pm→10pm IST rollup email
 │   ├── dashboard.py          # Writes docs/index.html
 │   ├── mailer.py             # Shared Gmail SMTP
 │   ├── db.py                 # SQLite helpers + migrations
@@ -133,7 +133,7 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 
 ### 3.8 Notify + daily report + dashboard
 - `notify.py` — email after approve/reject/submit (includes `error_message` on failure).
-- `daily_report.py` + `report.yml` — ~10pm IST: applied/failed counts, failed jobs, errors grouped by message.
+- `daily_report.py` + `report.yml` — ~10pm IST: previous 10pm→10pm window (survives post-midnight delay), applied/failed counts, failed jobs, errors grouped by message.
 - `dashboard.py` — regenerates `docs/index.html` for GitHub Pages (scan + submit commit it).
 
 ---

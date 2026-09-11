@@ -10,6 +10,10 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "src"
 sys.path.insert(0, str(SRC))
 
+from datetime import datetime  # noqa: E402
+from zoneinfo import ZoneInfo  # noqa: E402
+
+from daily_report import _in_window, _report_window  # noqa: E402
 from db import connect, insert_discovered, job_id_for, submitted_today, update_job, utc_now  # noqa: E402
 from login import load_credentials  # noqa: E402
 from draft import validate_draft, with_github  # noqa: E402
@@ -17,6 +21,8 @@ from match import hard_filter_reason  # noqa: E402
 from scrape import search_sources  # noqa: E402
 from tokens import sign, verify  # noqa: E402
 from waas_parse import walk_jobs  # noqa: E402
+
+IST = ZoneInfo("Asia/Kolkata")
 
 
 def test_tokens() -> None:
@@ -126,6 +132,34 @@ def test_validate_draft() -> None:
     assert any("sign-off" in f for f in fails)
 
 
+def test_report_window() -> None:
+    start, end, date = _report_window(now=datetime(2026, 9, 10, 22, 0, tzinfo=IST))
+    assert date == "2026-09-10"
+    assert start == datetime(2026, 9, 9, 22, 0, tzinfo=IST)
+    assert end == datetime(2026, 9, 10, 22, 0, tzinfo=IST)
+
+    delayed = datetime(2026, 9, 11, 0, 22, tzinfo=IST)
+    start, end, date = _report_window(now=delayed)
+    assert date == "2026-09-10"
+    assert start == datetime(2026, 9, 9, 22, 0, tzinfo=IST)
+    assert end == datetime(2026, 9, 10, 22, 0, tzinfo=IST)
+
+    morning = datetime(2026, 9, 11, 11, 54, tzinfo=IST)
+    _, _, date = _report_window(now=morning)
+    assert date == "2026-09-10"
+
+    mixrank = "2026-09-10T08:59:03+00:00"
+    loopfour = "2026-09-10T15:57:17+00:00"
+    aiprise = "2026-09-09T09:38:55+00:00"
+    assert _in_window(mixrank, start, end)
+    assert _in_window(loopfour, start, end)
+    assert not _in_window(aiprise, start, end)
+    assert not _in_window(end.isoformat(), start, end)
+
+    pinned_start, pinned_end, pinned_date = _report_window(close_date="2026-09-10")
+    assert (pinned_start, pinned_end, pinned_date) == (start, end, "2026-09-10")
+
+
 def test_load_credentials() -> None:
     old_email = os.environ.pop("YC_EMAIL", None)
     old_password = os.environ.pop("YC_PASSWORD", None)
@@ -152,5 +186,6 @@ if __name__ == "__main__":
     test_search_sources()
     test_with_github()
     test_validate_draft()
+    test_report_window()
     test_load_credentials()
     print("all checks passed")

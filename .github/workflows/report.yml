@@ -5,6 +5,11 @@ on:
     # 10:00pm IST = 16:30 UTC
     - cron: "30 16 * * *"
   workflow_dispatch:
+    inputs:
+      date:
+        description: IST date whose 10pm closes the window (YYYY-MM-DD). Leave empty for the last completed 10pm period.
+        required: false
+        type: string
 
 concurrency:
   group: jobs-db
@@ -25,4 +30,11 @@ jobs:
       - name: Init DB
         run: python src/db.py --init
       - name: Send daily report
-        run: python src/daily_report.py
+        env:
+          REPORT_DATE: ${{ github.event.inputs.date }}
+        run: |
+          if [ -n "$REPORT_DATE" ]; then
+            python src/daily_report.py --date "$REPORT_DATE"
+          else
+            python src/daily_report.py
+          fi
