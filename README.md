@@ -27,6 +27,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `src/submit.py` | After Approve only: click Apply → fill LLM note → Send. Daily cap. Local `--dry-run` skips Send. |
 | `src/notify.py` | Confirmation email after approve/reject/submit (includes stored error on failure). |
 | `src/daily_report.py` | 10pm IST daily email over the previous 10pm→10pm window: applied/failed counts, failed jobs, errors grouped by identical message. |
+| `src/log_config.py` | Stdout `logging` for Actions (`LOG_LEVEL`, default INFO). |
 | `src/dashboard.py` | Writes `docs/index.html` for GitHub Pages. |
 | `src/db.py` | SQLite helpers. Migrates `error_message` on connect. `python src/db.py --init` / `--mark-rejected ID`. |
 | `scripts/export_session.py` | Optional cookie fallback if password login is blocked (OAuth / 2FA). |
@@ -110,4 +111,5 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 - External/company-site apply listings are skipped and marked `failed` (error stored in `error_message`).
 - Failed submits store `error_message` (truncated). Successful retries clear it.
 - Daily report email (~10pm IST via `report.yml`) covers the previous **10pm→10pm IST** window (not midnight→now). If scan holds the `jobs-db` lock past midnight, the delayed run still uses last night’s 10pm close so that day’s applies are not dropped. Manual: **Actions → daily-report → Run workflow** (optional date input) or `python src/daily_report.py` / `--date YYYY-MM-DD`.
+- Pipeline Python modules log to stdout via `src/log_config.py` (Actions job logs). INFO for milestones, WARNING for retries/fallbacks, ERROR with traceback for submit/LLM failures. Per-job scrape/match lines are DEBUG. Set `LOG_LEVEL=DEBUG` locally. Emails and `error_message` are unchanged. `scripts/commit_state.sh` still uses `echo`.
 - Resume editor lives on the Worker (`/resumes`), not GitHub Pages. Save writes `data/resumes/*.txt` through the GitHub Contents API.

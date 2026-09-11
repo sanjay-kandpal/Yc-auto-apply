@@ -1,12 +1,16 @@
 from __future__ import annotations
 
+import logging
 import random
 import time
 
 from config_loader import load_config
 from db import connect, insert_discovered
+from log_config import setup_logging
 from session import waas_context
 from waas_parse import jobs_from_inertia_html, jobs_from_json_text, job_url, parse_inertia_page
+
+log = logging.getLogger(__name__)
 
 INTERESTING = ("algolia.net", "companies/fetch", "workatastartup.com/companies")
 
@@ -91,7 +95,7 @@ def _load_more(page, delay: list[float], collected: dict[str, dict], extra_pages
 
 
 def _collect_source(page, source: dict, delay: list[float], collected: dict[str, dict]) -> None:
-    print(f"Scraping {source['name']} ...")
+    log.info("Scraping source %s", source["name"])
     page.goto(source["url"], wait_until="domcontentloaded", timeout=90000)
     page.wait_for_timeout(3000)
     _merge(collected, jobs_from_inertia_html(page.content()))
@@ -99,6 +103,7 @@ def _collect_source(page, source: dict, delay: list[float], collected: dict[str,
 
 
 def scrape() -> None:
+    setup_logging()
     cfg = load_config()
     search = cfg["search"]
     delay = search.get("delay_seconds", [2, 6])
@@ -126,6 +131,7 @@ def scrape() -> None:
         from login import is_waas_logged_in, notify_login_failed
 
         if not is_waas_logged_in(page) and not collected:
+            log.error("Login wall detected after auth")
             notify_login_failed(
                 "Still seeing the Log In button after auth. Update YC_EMAIL / YC_PASSWORD."
             )
@@ -137,7 +143,7 @@ def scrape() -> None:
         conn = connect()
         existing = {row["url"] for row in conn.execute("SELECT url FROM jobs")}
         new_jobs = [job for job in collected.values() if job["url"] not in existing]
-        print(f"Discovered {len(collected)} listings, {len(new_jobs)} new.")
+        log.info("Discovered %s listings, %s new.", len(collected), len(new_jobs))
 
         inserted = 0
         for job in new_jobs:
@@ -145,19 +151,19 @@ def scrape() -> None:
                 try:
                     job = _enrich_from_job_page(page, job, delay)
                 except Exception as exc:
-                    print(f"Skip {job.get('url')}: {exc}")
+                    log.warning("Skip enrich %s: %s", job.get("url"), exc)
                     continue
             if not job.get("company") or not job.get("role"):
                 continue
             job.setdefault("url", job_url(job.get("waas_id", "")))
             if insert_discovered(conn, job["company"], job["role"], job["url"], job.get("jd_text") or ""):
                 inserted += 1
-                print(f"+ {job['company']} — {job['role']}\n  {job['url']}")
+                log.debug("+ %s — %s %s", job["company"], job["role"], job["url"])
             else:
-                print(f"= dup {job['company']} — {job['role']}")
+                log.debug("= dup %s — %s", job["company"], job["role"])
         conn.commit()
         conn.close()
-        print(f"Inserted {inserted} new jobs.")
+        log.info("Inserted %s new jobs.", inserted)
 
 
 if __name__ == "__main__":

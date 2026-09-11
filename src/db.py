@@ -2,12 +2,15 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import logging
 import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 
 from config_loader import ROOT
+from log_config import setup_logging
 
+log = logging.getLogger(__name__)
 DB_PATH = ROOT / "data" / "jobs.db"
 
 SCHEMA = """
@@ -124,23 +127,24 @@ def mark_rejected(job_id: str) -> None:
     if not job:
         raise SystemExit(f"Unknown job_id: {job_id}")
     if job["status"] not in ("pending_approval", "drafted"):
-        print(f"Skip reject: {job_id} is {job['status']}")
+        log.info("Skip reject: %s is %s", job_id, job["status"])
         conn.close()
         return
     update_job(conn, job_id, status="rejected", decided_at=utc_now())
     conn.commit()
     conn.close()
-    print(f"Rejected {job_id}")
+    log.info("Rejected %s", job_id)
 
 
 def main() -> None:
+    setup_logging()
     parser = argparse.ArgumentParser(description="SQLite helpers for the YC job bot")
     parser.add_argument("--init", action="store_true")
     parser.add_argument("--mark-rejected", dest="mark_rejected_id")
     args = parser.parse_args()
     if args.init:
         init_db()
-        print(f"Initialized {DB_PATH}")
+        log.info("Initialized %s", DB_PATH)
         return
     if args.mark_rejected_id:
         mark_rejected(args.mark_rejected_id)

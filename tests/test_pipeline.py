@@ -14,6 +14,7 @@ from datetime import datetime  # noqa: E402
 from zoneinfo import ZoneInfo  # noqa: E402
 
 from daily_report import _in_window, _report_window  # noqa: E402
+from log_config import setup_logging  # noqa: E402
 from db import connect, insert_discovered, job_id_for, submitted_today, update_job, utc_now  # noqa: E402
 from login import load_credentials  # noqa: E402
 from draft import validate_draft, with_github  # noqa: E402
@@ -160,6 +161,15 @@ def test_report_window() -> None:
     assert (pinned_start, pinned_end, pinned_date) == (start, end, "2026-09-10")
 
 
+def test_setup_logging_idempotent() -> None:
+    import logging
+
+    setup_logging()
+    n = len(logging.getLogger().handlers)
+    setup_logging()
+    assert len(logging.getLogger().handlers) == n >= 1
+
+
 def test_load_credentials() -> None:
     old_email = os.environ.pop("YC_EMAIL", None)
     old_password = os.environ.pop("YC_PASSWORD", None)
@@ -187,5 +197,6 @@ if __name__ == "__main__":
     test_with_github()
     test_validate_draft()
     test_report_window()
+    test_setup_logging_idempotent()
     test_load_credentials()
     print("all checks passed")

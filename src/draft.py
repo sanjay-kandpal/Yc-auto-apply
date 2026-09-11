@@ -1,11 +1,15 @@
 from __future__ import annotations
 
+import logging
 import re
 import time
 
 from config_loader import load_config, repo_path
 from db import connect, update_job
 from llm import complete
+from log_config import setup_logging
+
+log = logging.getLogger(__name__)
 
 PROMPT = """Write a {max_sentences}-sentence application note in first person for this YC-startup role.
 Sound like a specific human engineer, not a cover-letter template. No greeting, no sign-off.
@@ -155,7 +159,7 @@ def _pace(last_call: float, interval: float) -> float:
         return time.time()
     wait = interval - (time.time() - last_call)
     if wait > 0:
-        print(f"Rate buffer: waiting {wait:.1f}s (max 5 calls/min)")
+        log.debug("Rate buffer: waiting %.1fs (max 5 calls/min)", wait)
         time.sleep(wait)
     return time.time()
 
@@ -167,7 +171,7 @@ def _complete_paced(prompt: str, last_call: float, interval: float) -> tuple[str
     except Exception as exc:
         if not _is_rate_limited(exc):
             raise
-        print("429 from model — waiting 60s then retrying once")
+        log.warning("429 from model — waiting 60s then retrying once")
         time.sleep(60)
         last_call = time.time()
         return complete(prompt), last_call
@@ -203,7 +207,14 @@ def _draft_with_validation(
     attempt = 0
     while failures and attempt < max_retries:
         attempt += 1
-        print(f"Draft validation failed (retry {attempt}/{max_retries}): {'; '.join(failures)}")
+        log.warning(
+            "Draft retry %s/%s for %s — %s: %s",
+            attempt,
+            max_retries,
+            company,
+            role,
+            "; ".join(failures),
+        )
         repair = REPAIR_PROMPT.format(
             failures="\n".join(f"- {f}" for f in failures),
             max_sentences=max_sentences,
@@ -222,6 +233,7 @@ def _draft_with_validation(
 
 
 def draft() -> None:
+    setup_logging()
     cfg = load_config()
     threshold = float(cfg["match"]["threshold"])
     rpm = max(1, int(cfg["draft"].get("requests_per_minute", 5)))
@@ -240,7 +252,7 @@ def draft() -> None:
         """,
         (threshold,),
     ).fetchall()
-    print(f"{len(rows)} jobs above threshold to draft ({rpm}/min).")
+    log.info("%s jobs above threshold to draft (%s/min).", len(rows), rpm)
     last_call = 0.0
     github = github_profile_url(cfg)
     for job in rows:
@@ -257,14 +269,20 @@ def draft() -> None:
                 last_call=last_call,
                 interval=interval,
             )
-        except Exception as exc:
-            print(f"LLM failed for {job['id']}: {exc}")
+        except Exception:
+            log.exception("LLM failed for %s", job["id"])
             continue
         if failures:
-            print(f"Draft still invalid for {job['company']} — {job['role']}: {failures}; saving best effort")
+            log.error(
+                "Draft still invalid for %s — %s: %s; saving best effort",
+                job["company"],
+                job["role"],
+                failures,
+            )
         update_job(conn, job["id"], draft_answer=answer, status="drafted")
         conn.commit()
-        print(f"drafted {job['company']} — {job['role']}\n{answer}\n")
+        log.info("drafted %s — %s", job["company"], job["role"])
+        log.debug("draft text for %s: %s", job["id"], answer)
     conn.close()
 
 

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 import os
 import time
 
@@ -9,6 +10,7 @@ from dotenv import load_dotenv
 from config_loader import load_config
 
 load_dotenv()
+log = logging.getLogger(__name__)
 
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
@@ -25,7 +27,7 @@ def complete(prompt: str) -> str:
     except Exception as exc:
         if not fallback or fallback == provider:
             raise
-        print(f"{provider} failed ({exc}); falling back to {fallback}")
+        log.warning("%s failed (%s); falling back to %s", provider, exc, fallback)
         return _dispatch(fallback, prompt, cfg)
 
 
@@ -63,7 +65,7 @@ def _pace(last_call: float, interval: float, label: str) -> float:
     wait = interval - (time.time() - last_call)
     if wait > 0:
         rpm = max(1, int(round(60.0 / interval)))
-        print(f"{label} rate buffer: waiting {wait:.1f}s (max {rpm} calls/min)")
+        log.debug("%s rate buffer: waiting %.1fs (max %s calls/min)", label, wait, rpm)
         time.sleep(wait)
     return time.time()
 
@@ -77,7 +79,7 @@ def _openrouter(prompt: str, api_key: str, model: str, rpm: int) -> str:
     except Exception as exc:
         if not _is_rate_limited(exc):
             raise
-        print("429 from OpenRouter — waiting 60s then retrying once")
+        log.warning("429 from OpenRouter — waiting 60s then retrying once")
         time.sleep(60)
         _openrouter_last_call = time.time()
         return _openrouter_post(prompt, api_key, model)

@@ -1,16 +1,19 @@
 from __future__ import annotations
 
 import html
+import logging
 import os
 
 from dotenv import load_dotenv
 
 from config_loader import load_config
 from db import connect, jobs_with_status, update_job
+from log_config import setup_logging
 from mailer import send_html_email
 from tokens import approval_link, sign, token_expiry
 
 load_dotenv()
+log = logging.getLogger(__name__)
 
 
 def _card(job, approve: str, reject: str) -> str:
@@ -35,11 +38,12 @@ def _card(job, approve: str, reject: str) -> str:
 
 
 def send_digest() -> None:
+    setup_logging()
     cfg = load_config()
     conn = connect()
     jobs = jobs_with_status(conn, "drafted")
     if not jobs:
-        print("No drafted jobs to email.")
+        log.info("No drafted jobs to email.")
         conn.close()
         return
 
@@ -76,7 +80,7 @@ def send_digest() -> None:
         update_job(conn, job_id, status="pending_approval", approval_token=token)
     conn.commit()
     conn.close()
-    print(f"Emailed {len(jobs)} jobs and marked pending_approval.")
+    log.info("Emailed %s jobs and marked pending_approval.", len(jobs))
 
 
 if __name__ == "__main__":

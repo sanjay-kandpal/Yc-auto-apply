@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import logging
 import os
 
 from dotenv import load_dotenv
@@ -9,9 +10,11 @@ from playwright.sync_api import Page, TimeoutError as PlaywrightTimeout
 from config_loader import load_config, repo_path
 from db import connect, get_job, submitted_today, truncate_error, update_job, utc_now
 from draft import with_github
+from log_config import setup_logging
 from session import waas_context
 
 load_dotenv()
+log = logging.getLogger(__name__)
 
 EXTERNAL_HINTS = (
     "apply on company",
@@ -113,7 +116,7 @@ def _fill_message(page: Page, text: str) -> None:
     _set_textarea_value(page, text)
     if _send_enabled(page):
         return
-    print("Send still disabled after programmatic fill; typing the note.")
+    log.warning("Send still disabled after programmatic fill; typing the note.")
     box = _message_box(page)
     box.click(timeout=5000)
     box.fill("")
@@ -153,6 +156,7 @@ def _click_send(page: Page) -> None:
 
 
 def submit_job(job_id: str, cli_dry: bool = False) -> None:
+    setup_logging()
     cfg = load_config()
     dry = _dry_run(cli_dry, cfg)
     cap = int(cfg["submit"].get("daily_cap", 5))
@@ -165,12 +169,12 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             "After a local digest, commit and push data/jobs.db, then click Approve again."
         )
     if job["status"] not in ("pending_approval", "failed"):
-        print(f"Skip submit: {job_id} is {job['status']} (need pending_approval or failed retry).")
+        log.info("Skip submit: %s is %s (need pending_approval or failed retry).", job_id, job["status"])
         conn.close()
         return
     already = submitted_today(conn)
     if already >= cap:
-        print(f"Daily cap reached ({already}/{cap}). Not submitting {job_id}.")
+        log.warning("Daily cap reached (%s/%s). Not submitting %s.", already, cap, job_id)
         conn.close()
         return
 
@@ -178,7 +182,7 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
     if not message:
         conn.close()
         raise SystemExit(f"No draft text for {job_id}.")
-    print(f"{'DRY RUN' if dry else 'LIVE'} apply: {job['company']} — {job['role']}")
+    log.info("%s apply: %s — %s", "DRY RUN" if dry else "LIVE", job["company"], job["role"])
 
     try:
         with waas_context(headless=True) as context:
@@ -190,7 +194,7 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             _click_apply(page)
             _fill_message(page, message)
             if dry:
-                print("Dry-run: Apply clicked and note filled; Send not clicked.")
+                log.info("Dry-run: Apply clicked and note filled; Send not clicked.")
             else:
                 _click_send(page)
                 page.wait_for_timeout(3000)
@@ -203,9 +207,9 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
                 fields["error_message"] = None
             update_job(conn, job_id, **fields)
             if dry:
-                print("Dry-run left status as pending_approval.")
+                log.info("Dry-run left status as pending_approval.")
             else:
-                print("Submitted.")
+                log.info("Submitted %s — %s", job["company"], job["role"])
     except PlaywrightTimeout as exc:
         update_job(
             conn,
@@ -214,7 +218,7 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             decided_at=utc_now(),
             error_message=truncate_error(f"timeout: {exc}"),
         )
-        print(f"Failed (timeout): {exc}")
+        log.exception("Submit timeout for %s — %s", job["company"], job["role"])
     except Exception as exc:
         update_job(
             conn,
@@ -223,7 +227,7 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             decided_at=utc_now(),
             error_message=truncate_error(str(exc)),
         )
-        print(f"Failed: {exc}")
+        log.exception("Submit failed for %s — %s", job["company"], job["role"])
     conn.commit()
     conn.close()
 

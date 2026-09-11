@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import logging
 import re
 from collections import defaultdict
 from datetime import datetime, timedelta
@@ -11,9 +12,11 @@ from dotenv import load_dotenv
 
 from config_loader import load_config
 from db import connect
+from log_config import setup_logging
 from mailer import send_html_email
 
 load_dotenv()
+log = logging.getLogger(__name__)
 
 IST = ZoneInfo("Asia/Kolkata")
 REPORT_HOUR = 22  # 10pm IST
@@ -132,6 +135,7 @@ def build_report_html(submitted: list, failed: list, date_ist: str) -> str:
 
 
 def send_daily_report(now: datetime | None = None, close_date: str | None = None) -> None:
+    setup_logging()
     cfg = load_config()
     start, end, date_ist = _report_window(now=now, close_date=close_date)
     conn = connect()
@@ -158,9 +162,13 @@ def send_daily_report(now: datetime | None = None, close_date: str | None = None
     subject = template.format(submitted=len(submitted), failed=len(failed), date=date_ist)
     body = build_report_html(submitted, failed, date_ist)
     send_html_email(subject, body)
-    print(
-        f"Daily report: {len(submitted)} submitted, {len(failed)} failed "
-        f"for {start.isoformat()} → {end.isoformat()} (close {date_ist})"
+    log.info(
+        "Daily report: %s submitted, %s failed for %s → %s (close %s)",
+        len(submitted),
+        len(failed),
+        start.isoformat(),
+        end.isoformat(),
+        date_ist,
     )
 
 

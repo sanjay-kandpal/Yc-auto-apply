@@ -1,9 +1,13 @@
 from __future__ import annotations
 
 import html
+import logging
+
 from config_loader import ROOT
 from db import all_jobs, connect
+from log_config import setup_logging
 
+log = logging.getLogger(__name__)
 OUT = ROOT / "docs" / "index.html"
 
 
@@ -12,6 +16,7 @@ def _esc(value) -> str:
 
 
 def render() -> None:
+    setup_logging()
     conn = connect()
     jobs = all_jobs(conn)
     conn.close()
@@ -64,7 +69,7 @@ def render() -> None:
 """
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(page, encoding="utf-8")
-    print(f"Wrote {OUT} ({len(jobs)} jobs)")
+    log.info("Wrote %s (%s jobs)", OUT, len(jobs))
 
 
 if __name__ == "__main__":

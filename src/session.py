@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import base64
 import json
+import logging
 import os
 from contextlib import contextmanager
 
@@ -11,6 +12,7 @@ from playwright.sync_api import Browser, BrowserContext, Playwright, sync_playwr
 from login import cookies_still_valid, ensure_logged_in, load_credentials, notify_login_failed
 
 load_dotenv()
+log = logging.getLogger(__name__)
 
 
 def load_cookies() -> list[dict]:
@@ -61,9 +63,9 @@ def waas_context(headless: bool = True):
             context.add_cookies(cookies)
             used_cookies = cookies_still_valid(context)
             if used_cookies:
-                print("Using YC_SESSION_COOKIES.")
+                log.info("Using YC_SESSION_COOKIES.")
             else:
-                print("Session cookies expired or invalid.")
+                log.warning("Session cookies expired or invalid.")
         if not used_cookies:
             if email and password:
                 ensure_logged_in(context)

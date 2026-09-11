@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 import os
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -8,6 +9,7 @@ from email.mime.text import MIMEText
 from dotenv import load_dotenv
 
 load_dotenv()
+log = logging.getLogger(__name__)
 
 
 def send_html_email(subject: str, html: str, to_addr: str | None = None) -> None:
@@ -24,7 +26,7 @@ def send_html_email(subject: str, html: str, to_addr: str | None = None) -> None
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(address, password)
         smtp.sendmail(address, [recipient], msg.as_string())
-    print(f"Sent email to {recipient}: {subject}")
+    log.info("Sent email to %s: %s", recipient, subject)
 
 
 def try_send_html_email(subject: str, html: str, to_addr: str | None = None) -> bool:
@@ -32,8 +34,8 @@ def try_send_html_email(subject: str, html: str, to_addr: str | None = None) -> 
         send_html_email(subject, html, to_addr)
         return True
     except SystemExit as exc:
-        print(f"Could not send email: {exc}")
+        log.warning("Could not send email: %s", exc)
         return False
-    except Exception as exc:
-        print(f"Could not send email: {exc}")
+    except Exception:
+        log.exception("Could not send email")
         return False

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 import re
 
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -7,6 +8,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from config_loader import load_config, repo_path
 from db import connect, jobs_with_status, update_job
+from log_config import setup_logging
+
+log = logging.getLogger(__name__)
 
 
 def _load_resumes(cfg: dict) -> dict[str, str]:
@@ -58,6 +62,7 @@ def score_job(role: str, jd: str, resumes: dict[str, str]) -> tuple[float, str]:
 
 
 def match() -> None:
+    setup_logging()
     cfg = load_config()
     resumes = _load_resumes(cfg)
     threshold = float(cfg["match"]["threshold"])
@@ -70,17 +75,17 @@ def match() -> None:
         reason = hard_filter_reason(job["role"] or "", job["jd_text"] or "", cfg)
         if reason:
             update_job(conn, job["id"], match_score=0.0, resume_variant="")
-            print(f"filter {reason}: {job['company']} — {job['role']}")
+            log.debug("filter %s: %s — %s", reason, job["company"], job["role"])
             scored += 1
             continue
         score, variant = score_job(job["role"] or "", job["jd_text"] or "", resumes)
         update_job(conn, job["id"], match_score=score, resume_variant=variant)
         flag = "PASS" if score >= threshold else "low"
-        print(f"{flag} {score:5.1f} [{variant}] {job['company']} — {job['role']}")
+        log.debug("%s %s [%s] %s — %s", flag, f"{score:5.1f}", variant, job["company"], job["role"])
         scored += 1
     conn.commit()
     conn.close()
-    print(f"Scored {scored} jobs.")
+    log.info("Scored %s jobs.", scored)
 
 
 if __name__ == "__main__":

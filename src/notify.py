@@ -2,12 +2,17 @@ from __future__ import annotations
 
 import argparse
 import html
+import logging
 
 from db import connect, get_job
+from log_config import setup_logging
 from mailer import send_html_email
+
+log = logging.getLogger(__name__)
 
 
 def notify(job_id: str) -> None:
+    setup_logging()
     conn = connect()
     job = get_job(conn, job_id)
     conn.close()
@@ -39,6 +44,7 @@ def notify(job_id: str) -> None:
         )
     body += f'<p><a href="{url}">Open listing</a></p>'
     send_html_email(subject, body)
+    log.info("Notify %s for %s — %s", status, job["company"], job["role"])
 
 
 def main() -> None:

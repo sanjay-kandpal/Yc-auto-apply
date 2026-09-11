@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import html
+import logging
 import os
 from pathlib import Path
 
@@ -9,9 +10,11 @@ from dotenv import load_dotenv
 from playwright.sync_api import Page
 
 from config_loader import ROOT, load_config
+from log_config import setup_logging
 from mailer import try_send_html_email
 
 load_dotenv()
+log = logging.getLogger(__name__)
 
 CREDENTIALS_FILE = ROOT / "credentials.local.yaml"
 PASSWORD_LOGIN_URL = (
@@ -170,9 +173,9 @@ def notify_login_failed(reason: str) -> None:
     """
     sent = try_send_html_email("YC job bot: login failed — update email/password", body)
     if sent:
-        print("Sent login-failure email.")
+        log.info("Sent login-failure email.")
     else:
-        print("Login failed and no failure email could be sent. Set GMAIL_ADDRESS / GMAIL_APP_PASSWORD.")
+        log.warning("Login failed and no failure email could be sent. Set GMAIL_ADDRESS / GMAIL_APP_PASSWORD.")
 
 
 def ensure_logged_in(context) -> None:
@@ -188,17 +191,18 @@ def ensure_logged_in(context) -> None:
     if not ok:
         notify_login_failed(err)
         raise SystemExit(f"Login failed: {err}")
-    print("Logged in with YC username/password.")
+    log.info("Logged in with YC username/password.")
 
 
 def main() -> None:
     from session import waas_context
 
+    setup_logging()
     with waas_context(headless=True) as context:
         page = context.new_page()
         page.goto("https://www.workatastartup.com/companies", wait_until="domcontentloaded")
-        print(f"Login check URL: {page.url}")
-        print(f"Logged in: {is_waas_logged_in(page)}")
+        log.info("Login check URL: %s", page.url)
+        log.info("Logged in: %s", is_waas_logged_in(page))
 
 
 if __name__ == "__main__":

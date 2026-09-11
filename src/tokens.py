@@ -2,9 +2,14 @@ from __future__ import annotations
 
 import hashlib
 import hmac
+import logging
 import time
 from base64 import urlsafe_b64decode, urlsafe_b64encode
 from urllib.parse import urlencode
+
+from log_config import setup_logging
+
+log = logging.getLogger(__name__)
 
 
 def _b64url(raw: bytes) -> str:
@@ -51,10 +56,11 @@ def token_expiry(ttl_hours: int) -> int:
 
 
 if __name__ == "__main__":
+    setup_logging()
     secret = "test-secret"
     expiry = int(time.time()) + 3600
     token = sign("abc", "approve", expiry, secret)
     assert verify("abc", "approve", expiry, token, secret)
     assert not verify("abc", "reject", expiry, token, secret)
     assert not verify("abc", "approve", 1, token, secret)
-    print("token self-check ok")
+    log.info("token self-check ok")
