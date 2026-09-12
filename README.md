@@ -31,7 +31,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `src/daily_report.py` | 10pm IST daily email over the previous 10pm→10pm window: applied/failed counts, failed jobs, errors grouped by identical message. |
 | `src/log_config.py` | Stdout `logging` for Actions (`LOG_LEVEL`, default INFO). |
 | `src/dashboard.py` | Writes `docs/index.html` for GitHub Pages and `data/jobs.json` for the Worker viewer. |
-| `src/db.py` | SQLite helpers. Migrates `error_message` on connect. `python src/db.py --init` / `--mark-rejected ID`. |
+| `src/db.py` | SQLite helpers. Migrates `error_message` and `sent_message` on connect. `python src/db.py --init` / `--mark-rejected ID`. |
 | `scripts/export_session.py` | Optional cookie fallback if password login is blocked (OAuth / 2FA). |
 | `scripts/commit_state.sh` | Shared Actions commit/push with conflict recovery (restore DB + regenerate dashboard and `jobs.json`). |
 | `.github/actions/setup-cached-python` | Shared Actions setup: restore `.venv` (and Playwright browsers on scan/submit) or install on cache miss. |
@@ -78,7 +78,7 @@ The PAT needs `repo` scope so it can send `repository_dispatch`, commit resume f
 
 Resume editor: `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes` — name `dev`, password hardcoded in `worker/resumes.js`. After save, the next scan uses the new `.txt` files. Already-scored or drafted jobs are not re-matched.
 
-Jobs visualizer (same login): `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes/jobs` — read-only snapshot of `data/jobs.json` from the last scan/submit commit. Deploy the Worker after this change (`npx wrangler deploy` in `worker/`).
+Jobs visualizer (same login): `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes/jobs` — read-only snapshot of `data/jobs.json` from the last scan/submit commit. Lists **10 rows per page**; `/resumes/jobs.json?page=N` returns only that page (plus `total_pages`). Click page numbers or Next to fetch the next 10. Deploy the Worker after this change (`npx wrangler deploy` in `worker/`).
 
 ### GitHub Pages
 
@@ -113,7 +113,7 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 - Scan, submit, and daily-report share concurrency group `jobs-db` (one writer at a time, no cancel). Commit uses `scripts/commit_state.sh`: on rebase/push conflict it resets to remote, restores this run’s `data/jobs.db`, regenerates `docs/index.html` and `data/jobs.json`, and retries with exponential backoff.
 - Actions Python deps are cached via `.github/actions/setup-cached-python`. Cache key is OS + Python version + `requirements.txt` hash. Hit → skip `pip install` and reuse `.venv`. Miss → create venv, install, save cache. Scan/submit also cache `~/.cache/ms-playwright`; on a browser cache hit they only install OS deps (`playwright install-deps`). Changing `requirements.txt` or the Python patch version forces a fresh install.
 - External/company-site apply listings are skipped and marked `failed` (error stored in `error_message`).
-- Failed submits store `error_message` (truncated). Successful retries clear it.
+- Failed submits store `error_message` (truncated). Successful retries clear it. The exact apply note (draft + GitHub line, or resume fallback) is stored in `sent_message` on submit, dry-run fill, and failed apply.
 - Daily report email (~10pm IST via `report.yml`) covers the previous **10pm→10pm IST** window (not midnight→now). If scan holds the `jobs-db` lock past midnight, the delayed run still uses last night’s 10pm close so that day’s applies are not dropped. Manual: **Actions → daily-report → Run workflow** (optional date input) or `python src/daily_report.py` / `--date YYYY-MM-DD`.
 - Pipeline Python modules log to stdout via `src/log_config.py` (Actions job logs). INFO for milestones, WARNING for retries/fallbacks, ERROR with traceback for submit/LLM failures. Per-job scrape/match lines are DEBUG. Set `LOG_LEVEL=DEBUG` locally. Emails and `error_message` are unchanged. `scripts/commit_state.sh` still uses `echo`.
-- Resume editor lives on the Worker (`/resumes`), not GitHub Pages. Save writes `data/resumes/*.txt` through the GitHub Contents API. The Jobs viewer is `/resumes/jobs` (same cookie). It is only as fresh as the last committed `data/jobs.json`.
+- Resume editor lives on the Worker (`/resumes`), not GitHub Pages. Save writes `data/resumes/*.txt` through the GitHub Contents API. The Jobs viewer is `/resumes/jobs` (same cookie): 10 rows per page from `/resumes/jobs.json?page=`, not the full snapshot. It is only as fresh as the last committed `data/jobs.json`.

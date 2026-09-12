@@ -27,6 +27,7 @@ JOB_FIELDS = (
     "decided_at",
     "submitted_at",
     "error_message",
+    "sent_message",
 )
 
 
@@ -35,7 +36,7 @@ def snapshot(conn: sqlite3.Connection) -> dict:
     counts: dict[str, int] = {}
     jobs = []
     for row in all_jobs(conn):
-        item = {key: row[key] for key in JOB_FIELDS}
+        item = {key: (row[key] if key in row.keys() else None) for key in JOB_FIELDS}
         status = item["status"] or "unknown"
         counts[status] = counts.get(status, 0) + 1
         jobs.append(item)

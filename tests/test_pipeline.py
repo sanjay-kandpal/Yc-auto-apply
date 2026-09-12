@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import sqlite3
 import sys
 import tempfile
 import time
@@ -186,6 +187,7 @@ def test_jobs_export_omits_token() -> None:
             match_score=42.5,
             resume_variant="backend",
             draft_answer="I build APIs.",
+            sent_message="I build APIs.\n\nGitHub: https://github.com/sanjay-kandpal",
             approval_token="should-not-export",
         )
         conn.commit()
@@ -196,11 +198,34 @@ def test_jobs_export_omits_token() -> None:
         assert set(job) == set(JOB_FIELDS)
         assert job["company"] == "Acme"
         assert job["draft_answer"] == "I build APIs."
+        assert job["sent_message"].startswith("I build APIs.")
         assert job["match_score"] == 42.5
         assert data["daily_cap"] == 5
         assert data["counts"]["pending_approval"] == 1
         saved = json.loads(json_path.read_text(encoding="utf-8"))
         assert "approval_token" not in saved["jobs"][0]
+
+
+def test_sent_message_migrates() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        db_path = Path(tmp) / "jobs.db"
+        raw = sqlite3.connect(db_path)
+        raw.execute(
+            """
+            CREATE TABLE jobs (
+              id TEXT PRIMARY KEY, company TEXT, role TEXT, url TEXT, jd_text TEXT,
+              match_score REAL, resume_variant TEXT, draft_answer TEXT, status TEXT,
+              approval_token TEXT, discovered_at TEXT, decided_at TEXT, submitted_at TEXT
+            )
+            """
+        )
+        raw.commit()
+        raw.close()
+        conn = connect(db_path)
+        cols = {row[1] for row in conn.execute("PRAGMA table_info(jobs)").fetchall()}
+        assert "sent_message" in cols
+        assert "error_message" in cols
+        conn.close()
 
 
 def test_load_credentials() -> None:
@@ -232,5 +257,6 @@ if __name__ == "__main__":
     test_report_window()
     test_setup_logging_idempotent()
     test_jobs_export_omits_token()
+    test_sent_message_migrates()
     test_load_credentials()
     print("all checks passed")

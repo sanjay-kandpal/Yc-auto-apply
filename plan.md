@@ -25,8 +25,9 @@ Yc-auto-apply/
 │   ├── common.js             # Shared login cookie + HTML helpers
 │   ├── approve.js            # HMAC verify → GitHub repository_dispatch
 │   ├── resumes.js            # Login + editor; commits data/resumes/*.txt
-│   ├── jobs.js               # Read-only DB viewer (fetches data/jobs.json)
-│   ├── jobs_ui.js            # Jobs table + detail page
+│   ├── jobs.js               # Read-only DB viewer (paginated jobs.json)
+│   ├── jobs_query.js         # Filter / sort / 10-per-page slice
+│   ├── jobs_ui.js            # Jobs table + pagination
 │   └── wrangler.toml
 ├── src/
 │   ├── login.py              # YC email/password login (cookies fallback)
@@ -85,11 +86,12 @@ CREATE TABLE jobs (
   discovered_at TEXT,
   decided_at TEXT,
   submitted_at TEXT,
-  error_message TEXT            -- truncated; cleared on successful retry
+  error_message TEXT,           -- truncated; cleared on successful retry
+  sent_message TEXT             -- exact apply note filled on submit (GitHub line included)
 );
 ```
 
-`db.py` creates the schema on connect and migrates `error_message` if missing.
+`db.py` creates the schema on connect and migrates `error_message` / `sent_message` if missing.
 
 **Status flow:** `discovered` → `drafted` → `pending_approval` → `submitted` / `failed` / `rejected`. Below-threshold jobs stay `discovered` and never hit email. A prior `failed` apply can be retried via Approve again.
 
@@ -131,10 +133,10 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 - `/resumes` is a password-gated form (hardcoded name `dev` in `worker/resumes.js`). Session cookie is HMAC-signed with `APPROVAL_HMAC_SECRET` (`Path=/resumes`).
 - After login, loads and saves `data/resumes/fullstack.txt`, `backend.txt`, and `frontend.txt` via the GitHub Contents API (`GH_PAT_FOR_DISPATCH`).
 - Next `scan.yml` checkout uses the new text. Already-scored / drafted jobs are not re-matched.
-- `/resumes/jobs` (same cookie) is a read-only DB visualizer. It fetches `data/jobs.json` written by `export_jobs.py` during scan/submit. `/resumes/jobs?id=` shows one row (JD, draft, error, timestamps). No `approval_token`. Not live — last committed snapshot only.
+- `/resumes/jobs` (same cookie) is a read-only DB visualizer. List calls `/resumes/jobs.json?page=` (10 rows per page, `total_pages` in metadata). Page buttons show 10 at a time; Next/Prev and page numbers fetch the next slice from the Worker (the browser does not load the full snapshot). `/resumes/jobs?id=` loads one row (JD, draft, sent message, error, timestamps). No `approval_token`. Not live — last committed snapshot only.
 
 ### 3.7 Submission (`submit.yml` → `submit.py`)
-- Approve only: Apply → fill LLM note (native input so Send enables) → Send. Note includes `github.profile_url`.
+- Approve only: Apply → fill LLM note (native input so Send enables) → Send. Note includes `github.profile_url`. The exact filled text is stored in `sent_message` (live Send, local dry-run, and failed apply).
 - Idempotency + `submit.daily_cap` (default 5). Reject path only marks rejected.
 - Local: `python src/submit.py --job-id ID --dry-run` fills without Send. Actions force live Send after Approve (`SUBMIT_DRY_RUN=false`).
 

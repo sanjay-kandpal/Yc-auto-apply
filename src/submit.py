@@ -202,6 +202,7 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
                 "status": "submitted" if not dry else "pending_approval",
                 "decided_at": utc_now(),
                 "submitted_at": utc_now() if not dry else job["submitted_at"],
+                "sent_message": message,
             }
             if not dry:
                 fields["error_message"] = None
@@ -217,6 +218,7 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             status="failed",
             decided_at=utc_now(),
             error_message=truncate_error(f"timeout: {exc}"),
+            sent_message=message,
         )
         log.exception("Submit timeout for %s — %s", job["company"], job["role"])
     except Exception as exc:
@@ -226,6 +228,7 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             status="failed",
             decided_at=utc_now(),
             error_message=truncate_error(str(exc)),
+            sent_message=message,
         )
         log.exception("Submit failed for %s — %s", job["company"], job["role"])
     conn.commit()

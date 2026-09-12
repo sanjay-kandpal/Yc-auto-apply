@@ -28,7 +28,8 @@ CREATE TABLE IF NOT EXISTS jobs (
   discovered_at TEXT,
   decided_at TEXT,
   submitted_at TEXT,
-  error_message TEXT
+  error_message TEXT,
+  sent_message TEXT
 );
 """
 
@@ -55,6 +56,8 @@ def _migrate(conn: sqlite3.Connection) -> None:
     cols = {row[1] for row in conn.execute("PRAGMA table_info(jobs)").fetchall()}
     if "error_message" not in cols:
         conn.execute("ALTER TABLE jobs ADD COLUMN error_message TEXT")
+    if "sent_message" not in cols:
+        conn.execute("ALTER TABLE jobs ADD COLUMN sent_message TEXT")
 
 
 def connect(path: Path | None = None) -> sqlite3.Connection:
