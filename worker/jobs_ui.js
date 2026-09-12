@@ -16,6 +16,7 @@ tr.pending_approval { background: #fff8e6; }
 tr.submitted { background: #f1faf1; }
 tr.rejected { color: #666; }
 .pre { white-space: pre-wrap; background: #f7f7f7; padding: 12px; border-radius: 6px; font-size: 13px; }
+.msg { max-width: 260px; white-space: pre-wrap; }
 .meta dt { font-weight: 600; margin-top: 10px; }
 .meta dd { margin: 2px 0 0; }
 `;
@@ -29,8 +30,13 @@ function text(value) {
   if (value == null || value === "") return "—";
   return String(value);
 }
+function clip(value, n) {
+  const s = String(value == null ? "" : value).trim();
+  if (!s) return "—";
+  return s.length > n ? s.slice(0, n - 3) + "..." : s;
+}
 function searchBlob(job) {
-  return [job.id, job.company, job.role, job.error_message, job.resume_variant]
+  return [job.id, job.company, job.role, job.error_message, job.resume_variant, job.sent_message, job.draft_answer]
     .map((v) => String(v || "").toLowerCase()).join(" ");
 }
 function sortJobs(jobs, sort) {
@@ -65,17 +71,16 @@ function renderList(data) {
   if (q) rows = rows.filter((j) => searchBlob(j).includes(q));
   document.getElementById("count").textContent = rows.length + " shown";
   document.getElementById("rows").innerHTML = rows.map((job) => {
-    const err = String(job.error_message || "").trim();
-    const shortErr = err.length > 80 ? err.slice(0, 77) + "..." : err;
     return "<tr class=\\"" + esc(job.status || "") + "\\"><td>" + esc(job.status) +
       "</td><td>" + esc(text(job.match_score)) +
       "</td><td><a href=\\"/resumes/jobs?id=" + encodeURIComponent(job.id || "") + "\\">" +
       esc(text(job.company)) + "</a></td><td>" + esc(text(job.role)) +
       "</td><td>" + esc(text(job.resume_variant)) +
+      "</td><td class=\\"msg\\">" + esc(clip(job.sent_message, 80)) +
       "</td><td>" + esc(text(job.discovered_at)) +
-      "</td><td>" + esc(shortErr || "—") +
+      "</td><td>" + esc(clip(job.error_message, 80)) +
       "</td><td>" + (job.url ? "<a href=\\"" + esc(job.url) + "\\">listing</a>" : "—") + "</td></tr>";
-  }).join("") || "<tr><td colspan=\\"8\\">No jobs match these filters.</td></tr>";
+  }).join("") || "<tr><td colspan=\\"9\\">No jobs match these filters.</td></tr>";
 }
 function renderDetail(data, id) {
   const job = (data.jobs || []).find((j) => j.id === id);
@@ -89,6 +94,7 @@ function renderDetail(data, id) {
     ["url", job.url], ["match_score", job.match_score], ["resume_variant", job.resume_variant],
     ["discovered_at", job.discovered_at], ["decided_at", job.decided_at],
     ["submitted_at", job.submitted_at], ["error_message", job.error_message],
+    ["sent_message", job.sent_message],
   ];
   const dts = fields.map(([k, v]) => k === "url" && v
     ? "<dt>" + k + "</dt><dd><a href=\\"" + esc(v) + "\\">" + esc(v) + "</a></dd>"
@@ -96,6 +102,7 @@ function renderDetail(data, id) {
   root.innerHTML = "<p><a href=\\"/resumes/jobs\\">Back to jobs</a></p>" +
     "<h2>" + esc(text(job.company)) + " — " + esc(text(job.role)) + "</h2>" +
     "<dl class=\\"meta\\">" + dts + "</dl>" +
+    "<h3>Sent message</h3><div class=\\"pre\\">" + esc(text(job.sent_message)) + "</div>" +
     "<h3>Draft</h3><div class=\\"pre\\">" + esc(text(job.draft_answer)) + "</div>" +
     "<h3>Job description</h3><div class=\\"pre\\">" + esc(text(job.jd_text)) + "</div>";
 }
@@ -144,7 +151,7 @@ export function jobsPage() {
          </select>
        </label>
        <label>Search
-         <input id="q" type="text" placeholder="company, role, id, error"/>
+         <input id="q" type="text" placeholder="company, role, id, error, sent"/>
        </label>
        <label>Sort
          <select id="sort">
@@ -166,10 +173,10 @@ export function jobsPage() {
            <thead>
              <tr>
                <th>status</th><th>score</th><th>company</th><th>role</th>
-               <th>resume</th><th>discovered</th><th>error</th><th>url</th>
+               <th>resume</th><th>sent</th><th>discovered</th><th>error</th><th>url</th>
              </tr>
            </thead>
-           <tbody id="rows"><tr><td colspan="8">Loading…</td></tr></tbody>
+           <tbody id="rows"><tr><td colspan="9">Loading…</td></tr></tbody>
          </table>
        </div>
      </div>
