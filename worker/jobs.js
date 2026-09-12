@@ -7,6 +7,7 @@ import {
   page,
 } from "./common.js";
 import { jobsPage } from "./jobs_ui.js";
+import { buildListResponse, queryFromUrl } from "./jobs_query.js";
 
 function emptySnapshot() {
   return {
@@ -112,7 +113,18 @@ export async function handleJobs(request, env) {
   }
 
   try {
-    return jsonResponse(await loadSnapshot(env));
+    const snapshot = await loadSnapshot(env);
+    const query = queryFromUrl(url);
+    if (query.id) {
+      const job = (snapshot.jobs || []).find((row) => row.id === query.id);
+      if (!job) return jsonResponse({ error: "Unknown job id" }, 404);
+      return jsonResponse({
+        missing: Boolean(snapshot.missing),
+        exported_at: snapshot.exported_at || null,
+        job,
+      });
+    }
+    return jsonResponse(buildListResponse(snapshot, query));
   } catch (exc) {
     return jsonResponse({ error: String(exc.message || exc) }, 502);
   }
