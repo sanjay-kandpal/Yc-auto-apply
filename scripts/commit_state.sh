@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Commit data/jobs.db + docs/index.html and push with conflict recovery.
+# Commit data/jobs.db + data/jobs.json + docs/index.html and push with conflict recovery.
 # Usage: COMMIT_MSG="scan run" BRANCH=main bash scripts/commit_state.sh
 set -euo pipefail
 
@@ -8,12 +8,13 @@ COMMIT_MSG="${COMMIT_MSG:?COMMIT_MSG is required}"
 MAX_RETRIES="${MAX_RETRIES:-5}"
 BACKOFF_BASE="${BACKOFF_BASE:-5}"
 RUN_DB="${RUNNER_TEMP:-/tmp}/yc-jobs-db-run.sqlite"
+STATE_PATHS="data/jobs.db data/jobs.json docs/index.html"
 
 git config user.name "yc-job-bot"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
 cp data/jobs.db "$RUN_DB"
-git add data/jobs.db docs/index.html
+git add $STATE_PATHS
 git commit -m "$COMMIT_MSG" || true
 
 rebuild_from_run_db() {
@@ -22,7 +23,7 @@ rebuild_from_run_db() {
   git reset --hard "origin/$BRANCH"
   cp "$RUN_DB" data/jobs.db
   python src/dashboard.py
-  git add data/jobs.db docs/index.html
+  git add $STATE_PATHS
   git commit -m "$COMMIT_MSG (rebuilt after conflict)" || true
 }
 

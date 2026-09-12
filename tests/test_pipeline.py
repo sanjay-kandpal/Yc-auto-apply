@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import os
 import sys
 import tempfile
@@ -16,6 +17,7 @@ from zoneinfo import ZoneInfo  # noqa: E402
 from daily_report import _in_window, _report_window  # noqa: E402
 from log_config import setup_logging  # noqa: E402
 from db import connect, insert_discovered, job_id_for, submitted_today, update_job, utc_now  # noqa: E402
+from export_jobs import JOB_FIELDS, export as export_jobs  # noqa: E402
 from login import load_credentials  # noqa: E402
 from draft import validate_draft, with_github  # noqa: E402
 from match import hard_filter_reason  # noqa: E402
@@ -170,6 +172,37 @@ def test_setup_logging_idempotent() -> None:
     assert len(logging.getLogger().handlers) == n >= 1
 
 
+def test_jobs_export_omits_token() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        db_path = Path(tmp) / "jobs.db"
+        json_path = Path(tmp) / "jobs.json"
+        conn = connect(db_path)
+        assert insert_discovered(conn, "Acme", "Backend", "https://example.com/j/1", "remote python")
+        job_id = job_id_for("Acme", "Backend", "https://example.com/j/1")
+        update_job(
+            conn,
+            job_id,
+            status="pending_approval",
+            match_score=42.5,
+            resume_variant="backend",
+            draft_answer="I build APIs.",
+            approval_token="should-not-export",
+        )
+        conn.commit()
+        data = export_jobs(conn, json_path)
+        conn.close()
+        job = data["jobs"][0]
+        assert "approval_token" not in job
+        assert set(job) == set(JOB_FIELDS)
+        assert job["company"] == "Acme"
+        assert job["draft_answer"] == "I build APIs."
+        assert job["match_score"] == 42.5
+        assert data["daily_cap"] == 5
+        assert data["counts"]["pending_approval"] == 1
+        saved = json.loads(json_path.read_text(encoding="utf-8"))
+        assert "approval_token" not in saved["jobs"][0]
+
+
 def test_load_credentials() -> None:
     old_email = os.environ.pop("YC_EMAIL", None)
     old_password = os.environ.pop("YC_PASSWORD", None)
@@ -198,5 +231,6 @@ if __name__ == "__main__":
     test_validate_draft()
     test_report_window()
     test_setup_logging_idempotent()
+    test_jobs_export_omits_token()
     test_load_credentials()
     print("all checks passed")

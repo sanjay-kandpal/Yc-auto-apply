@@ -21,9 +21,12 @@ Yc-auto-apply/
 │       ├── submit.yml        # repository_dispatch: approve submit / reject mark + notify
 │       └── report.yml        # ~10pm IST: daily report email
 ├── worker/
-│   ├── index.js              # Router: / approve, /resumes editor
+│   ├── index.js              # Router: / approve, /resumes editor, /resumes/jobs
+│   ├── common.js             # Shared login cookie + HTML helpers
 │   ├── approve.js            # HMAC verify → GitHub repository_dispatch
 │   ├── resumes.js            # Login + editor; commits data/resumes/*.txt
+│   ├── jobs.js               # Read-only DB viewer (fetches data/jobs.json)
+│   ├── jobs_ui.js            # Jobs table + detail page
 │   └── wrangler.toml
 ├── src/
 │   ├── login.py              # YC email/password login (cookies fallback)
@@ -39,17 +42,19 @@ Yc-auto-apply/
 │   ├── notify.py             # Per-job confirmation email
 │   ├── daily_report.py       # 10pm→10pm IST rollup email
 │   ├── log_config.py         # Stdout logging for Actions / local CLI
-│   ├── dashboard.py          # Writes docs/index.html
+│   ├── dashboard.py          # Writes docs/index.html + data/jobs.json
+│   ├── export_jobs.py        # SQLite snapshot for the Worker Jobs viewer
 │   ├── mailer.py             # Shared Gmail SMTP
 │   ├── db.py                 # SQLite helpers + migrations
 │   └── config_loader.py      # config.yaml + repo paths
 ├── scripts/
 │   ├── export_session.py     # Optional cookie export if password login blocked
-│   └── commit_state.sh       # Commit DB + dashboard with conflict recovery
+│   └── commit_state.sh       # Commit DB + jobs.json + dashboard with conflict recovery
 ├── tests/
 │   └── test_pipeline.py
 ├── data/
 │   ├── jobs.db               # SQLite (committed after scan/submit)
+│   ├── jobs.json             # Snapshot for /resumes/jobs (no approval_token)
 │   └── resumes/
 │       ├── fullstack.txt
 │       ├── backend.txt
@@ -122,10 +127,11 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 - `/` verifies HMAC + expiry, fires GitHub `repository_dispatch` (`job_approved` / `job_rejected`) with `job_id`.
 - Worker secrets: `APPROVAL_HMAC_SECRET`, `GH_PAT_FOR_DISPATCH` (repo scope). URL → `email.approval_base_url`.
 
-### 3.6b Resume editor (`worker/resumes.js`)
-- `/resumes` is a password-gated form (hardcoded name `dev` in `worker/resumes.js`). Session cookie is HMAC-signed with `APPROVAL_HMAC_SECRET`.
+### 3.6b Resume editor + jobs viewer (`worker/resumes.js` + `worker/jobs.js`)
+- `/resumes` is a password-gated form (hardcoded name `dev` in `worker/resumes.js`). Session cookie is HMAC-signed with `APPROVAL_HMAC_SECRET` (`Path=/resumes`).
 - After login, loads and saves `data/resumes/fullstack.txt`, `backend.txt`, and `frontend.txt` via the GitHub Contents API (`GH_PAT_FOR_DISPATCH`).
 - Next `scan.yml` checkout uses the new text. Already-scored / drafted jobs are not re-matched.
+- `/resumes/jobs` (same cookie) is a read-only DB visualizer. It fetches `data/jobs.json` written by `export_jobs.py` during scan/submit. `/resumes/jobs?id=` shows one row (JD, draft, error, timestamps). No `approval_token`. Not live — last committed snapshot only.
 
 ### 3.7 Submission (`submit.yml` → `submit.py`)
 - Approve only: Apply → fill LLM note (native input so Send enables) → Send. Note includes `github.profile_url`.
@@ -136,7 +142,7 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 - `notify.py` — email after approve/reject/submit (includes `error_message` on failure).
 - `daily_report.py` + `report.yml` — ~10pm IST: previous 10pm→10pm window (survives post-midnight delay), applied/failed counts, failed jobs, errors grouped by message.
 - `log_config.py` — stdout logging (`LOG_LEVEL`, default INFO) used by pipeline modules. `commit_state.sh` stays on `echo`.
-- `dashboard.py` — regenerates `docs/index.html` for GitHub Pages (scan + submit commit it).
+- `dashboard.py` — regenerates `docs/index.html` for GitHub Pages and `data/jobs.json` for `/resumes/jobs` (scan + submit commit both).
 
 ---
 
@@ -170,7 +176,7 @@ All three use concurrency group `jobs-db` with `cancel-in-progress: false`. Shar
 | Secret | Purpose |
 |---|---|
 | `APPROVAL_HMAC_SECRET` | Verify email links and sign `/resumes` session cookie |
-| `GH_PAT_FOR_DISPATCH` | Fire `repository_dispatch` and commit resume files from `/resumes` |
+| `GH_PAT_FOR_DISPATCH` | Fire `repository_dispatch`, commit resume files from `/resumes`, read `data/jobs.json` |
 
 Local: `.env` or `credentials.local.yaml` (never commit). See `.env.example` / `credentials.local.yaml.example`.
 
@@ -215,6 +221,7 @@ Also: `python -m playwright install chromium` after pip.
 | Email digest + HMAC tokens | Done |
 | Cloudflare Worker + repository_dispatch | Done |
 | Hosted `/resumes` editor (Worker → GitHub Contents API) | Done |
+| Hosted `/resumes/jobs` DB visualizer (`data/jobs.json`) | Done |
 | Submit with daily cap + dry-run locally | Done |
 | Password login + cookie fallback | Done |
 | Notify + daily IST report | Done |

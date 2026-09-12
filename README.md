@@ -21,17 +21,19 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `src/match.py` | TF-IDF + keyword overlap + hard filters. Writes `match_score` and `resume_variant`. |
 | `src/draft.py` | Gemini (OpenRouter fallback) drafts notes, validates prompt rules (sentence count, no greeting/sign-off, first person, GitHub line), and re-asks up to `validation_retries` times. |
 | `src/email_digest.py` | HTML digest with HMAC Approve/Reject links. Sets `pending_approval`. |
-| `worker/index.js` | Cloudflare Worker router: `/` approve links, `/resumes` editor. |
+| `worker/index.js` | Cloudflare Worker router: `/` approve links, `/resumes` editor, `/resumes/jobs` DB viewer. |
 | `worker/approve.js` | Verifies the HMAC link, fires GitHub `repository_dispatch`. |
 | `worker/resumes.js` | Password login + hosted editor; commits `data/resumes/*.txt` via GitHub Contents API. |
+| `worker/jobs.js` | Read-only jobs visualizer; loads `data/jobs.json` via GitHub Contents API. |
+| `src/export_jobs.py` | Writes `data/jobs.json` (all job columns except `approval_token`). |
 | `src/submit.py` | After Approve only: click Apply → fill LLM note → Send. Daily cap. Local `--dry-run` skips Send. |
 | `src/notify.py` | Confirmation email after approve/reject/submit (includes stored error on failure). |
 | `src/daily_report.py` | 10pm IST daily email over the previous 10pm→10pm window: applied/failed counts, failed jobs, errors grouped by identical message. |
 | `src/log_config.py` | Stdout `logging` for Actions (`LOG_LEVEL`, default INFO). |
-| `src/dashboard.py` | Writes `docs/index.html` for GitHub Pages. |
+| `src/dashboard.py` | Writes `docs/index.html` for GitHub Pages and `data/jobs.json` for the Worker viewer. |
 | `src/db.py` | SQLite helpers. Migrates `error_message` on connect. `python src/db.py --init` / `--mark-rejected ID`. |
 | `scripts/export_session.py` | Optional cookie fallback if password login is blocked (OAuth / 2FA). |
-| `scripts/commit_state.sh` | Shared Actions commit/push with conflict recovery (restore DB + regenerate dashboard). |
+| `scripts/commit_state.sh` | Shared Actions commit/push with conflict recovery (restore DB + regenerate dashboard and `jobs.json`). |
 | `.github/actions/setup-cached-python` | Shared Actions setup: restore `.venv` (and Playwright browsers on scan/submit) or install on cache miss. |
 | `config.yaml` | Filters, threshold, delays, cap, LLM provider, Worker URL. |
 | `.github/workflows/scan.yml` | Every 4 hours (`0 */4 * * *`) plus manual Run workflow. |
@@ -72,9 +74,11 @@ npx wrangler secret put GH_PAT_FOR_DISPATCH
 npx wrangler deploy
 ```
 
-The PAT needs `repo` scope so it can send `repository_dispatch` and commit resume files from `/resumes`. Put the Worker URL into `email.approval_base_url`.
+The PAT needs `repo` scope so it can send `repository_dispatch`, commit resume files from `/resumes`, and read `data/jobs.json` for the Jobs viewer. Put the Worker URL into `email.approval_base_url`.
 
 Resume editor: `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes` — name `dev`, password hardcoded in `worker/resumes.js`. After save, the next scan uses the new `.txt` files. Already-scored or drafted jobs are not re-matched.
+
+Jobs visualizer (same login): `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes/jobs` — read-only snapshot of `data/jobs.json` from the last scan/submit commit. Deploy the Worker after this change (`npx wrangler deploy` in `worker/`).
 
 ### GitHub Pages
 
@@ -106,10 +110,10 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 - A prior `failed` apply can be retried by clicking Approve again on that digest card.
 - Local testing: `python src/submit.py --job-id ID --dry-run` still fills and does not Send.
 - Daily cap (`submit.daily_cap`, default 5) applies even after Approve.
-- Scan, submit, and daily-report share concurrency group `jobs-db` (one writer at a time, no cancel). Commit uses `scripts/commit_state.sh`: on rebase/push conflict it resets to remote, restores this run’s `data/jobs.db`, regenerates `docs/index.html`, and retries with exponential backoff.
+- Scan, submit, and daily-report share concurrency group `jobs-db` (one writer at a time, no cancel). Commit uses `scripts/commit_state.sh`: on rebase/push conflict it resets to remote, restores this run’s `data/jobs.db`, regenerates `docs/index.html` and `data/jobs.json`, and retries with exponential backoff.
 - Actions Python deps are cached via `.github/actions/setup-cached-python`. Cache key is OS + Python version + `requirements.txt` hash. Hit → skip `pip install` and reuse `.venv`. Miss → create venv, install, save cache. Scan/submit also cache `~/.cache/ms-playwright`; on a browser cache hit they only install OS deps (`playwright install-deps`). Changing `requirements.txt` or the Python patch version forces a fresh install.
 - External/company-site apply listings are skipped and marked `failed` (error stored in `error_message`).
 - Failed submits store `error_message` (truncated). Successful retries clear it.
 - Daily report email (~10pm IST via `report.yml`) covers the previous **10pm→10pm IST** window (not midnight→now). If scan holds the `jobs-db` lock past midnight, the delayed run still uses last night’s 10pm close so that day’s applies are not dropped. Manual: **Actions → daily-report → Run workflow** (optional date input) or `python src/daily_report.py` / `--date YYYY-MM-DD`.
 - Pipeline Python modules log to stdout via `src/log_config.py` (Actions job logs). INFO for milestones, WARNING for retries/fallbacks, ERROR with traceback for submit/LLM failures. Per-job scrape/match lines are DEBUG. Set `LOG_LEVEL=DEBUG` locally. Emails and `error_message` are unchanged. `scripts/commit_state.sh` still uses `echo`.
-- Resume editor lives on the Worker (`/resumes`), not GitHub Pages. Save writes `data/resumes/*.txt` through the GitHub Contents API.
+- Resume editor lives on the Worker (`/resumes`), not GitHub Pages. Save writes `data/resumes/*.txt` through the GitHub Contents API. The Jobs viewer is `/resumes/jobs` (same cookie). It is only as fresh as the last committed `data/jobs.json`.

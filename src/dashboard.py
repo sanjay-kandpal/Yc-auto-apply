@@ -5,6 +5,7 @@ import logging
 
 from config_loader import ROOT
 from db import all_jobs, connect
+from export_jobs import export as export_jobs
 from log_config import setup_logging
 
 log = logging.getLogger(__name__)
@@ -19,7 +20,6 @@ def render() -> None:
     setup_logging()
     conn = connect()
     jobs = all_jobs(conn)
-    conn.close()
     counts: dict[str, int] = {}
     for job in jobs:
         counts[job["status"] or "unknown"] = counts.get(job["status"] or "unknown", 0) + 1
@@ -70,6 +70,8 @@ def render() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(page, encoding="utf-8")
     log.info("Wrote %s (%s jobs)", OUT, len(jobs))
+    export_jobs(conn)
+    conn.close()
 
 
 if __name__ == "__main__":
