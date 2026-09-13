@@ -106,4 +106,5 @@ spectate:
   record_video_size: [1280, 720]
   crf: 32
   maxrate_k: 800
+  retain_hours: 24
   keep_releases: 30

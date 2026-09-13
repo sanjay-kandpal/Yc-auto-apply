@@ -34,7 +34,7 @@ runs:
         name: spectate-${{ inputs.workflow }}-${{ github.run_id }}
         path: ${{ runner.temp }}/spectate-out/*.mp4
         if-no-files-found: ignore
-        retention-days: 14
+        retention-days: 1
 
     - name: Publish GitHub Release
       shell: bash

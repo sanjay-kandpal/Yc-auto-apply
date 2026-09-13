@@ -30,7 +30,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `src/session.py` | Playwright browser/context. Login is unrecorded; if `RECORD_RUN=true`, a second context records scrape/submit. |
 | `src/record_video.py` | Concatenate Playwright `.webm` clips, transcode to one H.264 mp4, write `meta.json`. |
 | `src/publish_release.py` | Attach the mp4 to a `recording-<run_id>` GitHub Release (`GITHUB_TOKEN`). |
-| `src/prune_recordings.py` | Keep the last `spectate.keep_releases` (default 30) `recording-*` releases. |
+| `src/prune_recordings.py` | Delete `recording-*` releases older than `spectate.retain_hours` (24) and over `keep_releases`. |
 | `src/spectate_email.py` | Scan recap email with Release download link and/or Actions artifact link. |
 | `src/notify.py` | Confirmation email after approve/reject/submit (includes stored error on failure, plus recording links when present). |
 | `src/daily_report.py` | 10pm IST daily email over the previous 10pm→10pm window: applied/failed counts, failed jobs, errors grouped by identical message. |
@@ -45,6 +45,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `.github/workflows/scan.yml` | Every 4 hours (`0 */4 * * *`) plus manual Run workflow. |
 | `.github/workflows/submit.yml` | Runs on `job_approved` / `job_rejected`. |
 | `.github/workflows/report.yml` | ~10pm IST (`30 16 * * *` UTC) plus manual Run workflow — emails the daily report. |
+| `.github/workflows/prune-recordings.yml` | Hourly (`20 * * * *`) plus manual — delete `recording-*` Releases older than 24 hours. |
 
 Status flow: `discovered` → `drafted` → `pending_approval` → `submitted` / `failed` / `rejected`. Below-threshold jobs stay `discovered` and never hit email.
 
@@ -86,7 +87,7 @@ Resume editor: `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes` — n
 
 Jobs visualizer (same login): `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes/jobs` — read-only snapshot of `data/jobs.json` from the last scan/submit commit. Lists **10 rows per page**; `/resumes/jobs.json?page=N` returns only that page (plus `total_pages`). Click page numbers or Next to fetch the next 10. Deploy the Worker after pulling Worker changes (`npx wrangler deploy` in `worker/`).
 
-Run recordings: GitHub **Releases** tagged `recording-<run_id>` (keep last 30 via `spectate.keep_releases`). The email link downloads the mp4 (GitHub does not play it inline). You must be logged into GitHub if the repo is private. Workflow artifacts are a 14-day backup.
+Run recordings: GitHub **Releases** tagged `recording-<run_id>`. They are deleted after **24 hours** (`spectate.retain_hours`; hourly `prune-recordings.yml` plus after each spectate job). A count cap (`keep_releases`) is a backup. The email link downloads the mp4 (GitHub does not play it inline) and 404s after prune. You must be logged into GitHub if the repo is private. Workflow artifacts expire after 1 day.
 
 ### GitHub Pages
 
@@ -121,7 +122,7 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 - Local testing: `python src/submit.py --job-id ID --dry-run` still fills and does not Send.
 - Daily cap (`submit.daily_cap`, default 5) applies even after Approve.
 - Scan, submit, and daily-report share concurrency group `jobs-db` (one writer at a time, no cancel). Encoding/upload runs in a follow-on `spectate` job **outside** that group so ffmpeg does not block Approve. Commit uses `scripts/commit_state.sh`: on rebase/push conflict it resets to remote, restores this run’s `data/jobs.db`, regenerates `docs/index.html` and `data/jobs.json`, and retries with exponential backoff.
-- Spectate: Actions sets `RECORD_RUN=true`. Playwright records scrape/submit after login, a follow-on job merges to mp4 (artifact, 14 days), publishes a `recording-<run_id>` GitHub Release, prunes older recording releases, and emails the Release URL plus the Actions run URL. Failed runs still publish whatever video exists. Recordings are not committed. Default `RECORD_RUN` is off locally. The Release link downloads the file; keep the repo private.
+- Spectate: Actions sets `RECORD_RUN=true`. Playwright records scrape/submit after login, a follow-on job merges to mp4 (artifact, 1 day), publishes a `recording-<run_id>` GitHub Release, and emails the Release URL plus the Actions run URL. Releases older than 24 hours are deleted (`spectate.retain_hours`, hourly `prune-recordings.yml` and after each spectate job). Failed runs still publish whatever video exists. Recordings are not committed. Default `RECORD_RUN` is off locally. The Release link downloads the file and 404s after prune; keep the repo private.
 - Resume editor lives on the Worker (`/resumes`), not GitHub Pages. Save writes `data/resumes/*.txt` through the GitHub Contents API. The Jobs viewer is `/resumes/jobs` (same cookie): 10 rows per page from `/resumes/jobs.json?page=`, not the full snapshot. It is only as fresh as the last committed `data/jobs.json`.
 - Actions Python deps are cached via `.github/actions/setup-cached-python`. Cache key is OS + Python version + `requirements.txt` hash. Hit → skip `pip install` and reuse `.venv`. Miss → create venv, install, save cache. Scan/submit also cache `~/.cache/ms-playwright`; on a browser cache hit they only install OS deps (`playwright install-deps`). Changing `requirements.txt` or the Python patch version forces a fresh install.
 - External/company-site apply listings are skipped and marked `failed` (error stored in `error_message`).

@@ -59,14 +59,26 @@ def test_spectate_keys() -> None:
         assert release_page_url("recording-123", "sanjay-kandpal/Yc-auto-apply").endswith(
             "/releases/tag/recording-123"
         )
+        now = datetime(2026, 9, 13, 12, 0, tzinfo=ZoneInfo("UTC"))
         entries = [
-            {"tagName": "recording-a", "createdAt": "2026-09-13T00:00:00Z"},
-            {"tagName": "v1.0.0", "createdAt": "2026-09-12T00:00:00Z"},
-            {"tagName": "recording-b", "createdAt": "2026-09-11T00:00:00Z"},
-            {"tagName": "recording-c", "createdAt": "2026-09-10T00:00:00Z"},
+            {"tagName": "recording-fresh", "createdAt": "2026-09-13T11:00:00Z"},
+            {"tagName": "v1.0.0", "createdAt": "2026-09-01T00:00:00Z"},
+            {"tagName": "recording-old", "createdAt": "2026-09-12T11:00:00Z"},
+            {"tagName": "recording-older", "createdAt": "2026-09-11T00:00:00Z"},
         ]
-        assert tags_to_delete(entries, keep=2) == ["recording-c"]
-        assert tags_to_delete(entries, keep=30) == []
+        assert tags_to_delete(entries, retain_hours=24, now=now) == [
+            "recording-old",
+            "recording-older",
+        ]
+        assert tags_to_delete(entries, retain_hours=24, keep=1, now=now) == [
+            "recording-old",
+            "recording-older",
+        ]
+        assert tags_to_delete(entries, retain_hours=48, keep=1, now=now) == [
+            "recording-old",
+            "recording-older",
+        ]
+        assert tags_to_delete(entries, retain_hours=72, keep=30, now=now) == []
     finally:
         if old is not None:
             os.environ["RECORD_RUN"] = old

@@ -58,7 +58,7 @@ jobs:
           name: spectate-raw-${{ github.run_id }}
           path: ${{ runner.temp }}/spectate-raw
           if-no-files-found: ignore
-          retention-days: 3
+          retention-days: 1
 
   spectate:
     needs: scan

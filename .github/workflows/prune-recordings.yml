@@ -1,0 +1,20 @@
+name: prune-recordings
+
+on:
+  schedule:
+    - cron: "20 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ./.github/actions/setup-cached-python
+      - name: Prune recording releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python src/prune_recordings.py

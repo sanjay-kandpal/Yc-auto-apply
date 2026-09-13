@@ -6,6 +6,7 @@ import logging
 import os
 import shutil
 import subprocess
+from datetime import datetime, timedelta, timezone
 
 from dotenv import load_dotenv
 
@@ -17,14 +18,48 @@ load_dotenv()
 log = logging.getLogger(__name__)
 
 
+def retain_hours() -> int:
+    return int((load_config().get("spectate") or {}).get("retain_hours") or 24)
+
+
 def keep_count() -> int:
     return int((load_config().get("spectate") or {}).get("keep_releases") or 30)
 
 
-def tags_to_delete(entries: list[dict], keep: int) -> list[str]:
+def _parse_created(value: str | None) -> datetime | None:
+    text = (value or "").strip()
+    if not text:
+        return None
+    if text.endswith("Z"):
+        text = text[:-1] + "+00:00"
+    try:
+        dt = datetime.fromisoformat(text)
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
+
+
+def tags_to_delete(
+    entries: list[dict],
+    retain_hours: int,
+    keep: int | None = None,
+    now: datetime | None = None,
+) -> list[str]:
     tagged = [item for item in entries if str(item.get("tagName") or "").startswith(TAG_PREFIX)]
-    tagged.sort(key=lambda item: str(item.get("createdAt") or ""), reverse=True)
-    return [str(item["tagName"]) for item in tagged[max(0, keep) :]]
+    moment = now or datetime.now(timezone.utc)
+    cutoff = moment - timedelta(hours=max(0, retain_hours))
+    doomed: set[str] = set()
+    for item in tagged:
+        created = _parse_created(item.get("createdAt"))
+        if created is not None and created < cutoff:
+            doomed.add(str(item["tagName"]))
+    if keep is not None and keep >= 0:
+        tagged.sort(key=lambda item: str(item.get("createdAt") or ""), reverse=True)
+        for item in tagged[keep:]:
+            doomed.add(str(item["tagName"]))
+    return sorted(doomed)
 
 
 def list_releases(repo: str) -> list[dict]:
@@ -54,26 +89,30 @@ def delete_tag(repo: str, tag: str) -> None:
     log.info("Deleted release %s", tag)
 
 
-def prune(keep: int | None = None) -> list[str]:
-    limit = keep_count() if keep is None else keep
+def prune(hours: int | None = None, keep: int | None = None) -> list[str]:
+    age = retain_hours() if hours is None else hours
+    cap = keep_count() if keep is None else keep
     repo = github_repo()
-    doomed = tags_to_delete(list_releases(repo), limit)
+    doomed = tags_to_delete(list_releases(repo), retain_hours=age, keep=cap)
     for tag in doomed:
         try:
             delete_tag(repo, tag)
         except Exception:
             log.exception("Could not delete %s", tag)
     if not doomed:
-        log.info("No recording releases to prune (keep %s).", limit)
+        log.info("No recording releases to prune (retain %sh, keep %s).", age, cap)
+    else:
+        log.info("Pruned %s recording release(s) (retain %sh, keep %s).", len(doomed), age, cap)
     return doomed
 
 
 def main() -> None:
     setup_logging()
-    parser = argparse.ArgumentParser(description="Delete old recording-* GitHub Releases")
+    parser = argparse.ArgumentParser(description="Delete recording-* GitHub Releases older than retain_hours")
+    parser.add_argument("--retain-hours", type=int)
     parser.add_argument("--keep", type=int)
     args = parser.parse_args()
-    prune(args.keep)
+    prune(hours=args.retain_hours, keep=args.keep)
 
 
 if __name__ == "__main__":

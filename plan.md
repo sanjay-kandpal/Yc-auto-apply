@@ -21,7 +21,8 @@ Yc-auto-apply/
 │       ├── scan.yml          # every 4h: login → scrape → match → draft → digest → dashboard → commit
 │       │                     # follow-on spectate job (no jobs-db lock)
 │       ├── submit.yml        # repository_dispatch: approve submit / reject mark + spectate notify
-│       └── report.yml        # ~10pm IST: daily report email
+│       ├── report.yml        # ~10pm IST: daily report email
+│       └── prune-recordings.yml  # hourly: delete recording-* older than 24h
 ├── worker/
 │   ├── index.js              # Router: / approve, /resumes, /resumes/jobs
 │   ├── common.js             # Shared login cookie + HTML helpers
@@ -36,7 +37,7 @@ Yc-auto-apply/
 │   ├── session.py            # Playwright browser/context lifecycle (record after login)
 │   ├── record_video.py       # Merge .webm → mp4, object keys, manifest
 │   ├── publish_release.py    # Attach mp4 to recording-* GitHub Release
-│   ├── prune_recordings.py   # Keep last N recording-* releases
+│   ├── prune_recordings.py   # Delete recording-* older than retain_hours
 │   ├── spectate_email.py     # Scan recording recap email
 │   ├── scrape.py             # Walk search.sources; parse Algolia / fetch / Inertia
 │   ├── waas_parse.py         # Listing JSON → company/role/url/jd helpers
@@ -154,7 +155,8 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 
 ### 3.9 Spectate (run recordings)
 - `RECORD_RUN` defaults off. Scan/submit Actions set it `true`. Login/cookie check use an unrecorded context; scrape/submit use a second context with `record_video_dir`.
-- Raw `.webm` clips stay on the runner and are uploaded as a short-lived artifact. A follow-on `spectate` job (not in `jobs-db`) merges with ffmpeg to H.264 mp4 (`spectate.crf` / `maxrate_k`), attaches it to a GitHub Release tagged `recording-<run_id>` (reruns: `recording-<run_id>-<attempt>`), prunes older `recording-*` tags down to `spectate.keep_releases` (default 30), and emails the Release page URL plus the Actions run URL.
+- Raw `.webm` clips stay on the runner and are uploaded as a 1-day artifact. A follow-on `spectate` job (not in `jobs-db`) merges with ffmpeg to H.264 mp4 (`spectate.crf` / `maxrate_k`), attaches it to a GitHub Release tagged `recording-<run_id>` (reruns: `recording-<run_id>-<attempt>`), and emails the Release page URL plus the Actions run URL.
+- Prune deletes `recording-*` releases older than `spectate.retain_hours` (24) and any extras beyond `keep_releases`. It runs after each spectate job and hourly via `prune-recordings.yml` (no `jobs-db` lock). Email links 404 after delete.
 - Releases are created with `GITHUB_TOKEN` (`contents: write`). They are not the Worker’s concern. The mp4 **downloads**; GitHub does not stream it inline. Keep the repo private. Videos are never committed.
 
 ---
@@ -166,6 +168,7 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 | `scan.yml` | `0 */4 * * *` + `workflow_dispatch` | Job `scan` (`jobs-db`): cached Python + Playwright → init DB → scrape → match → draft → digest → dashboard → `commit_state.sh` → raw video artifact. Job `spectate` (no lock): merge → mp4 artifact → GitHub Release → prune → recap email. |
 | `submit.yml` | `job_approved` / `job_rejected` | Job `handle` (`jobs-db`): reject **or** submit → notify payload → dashboard → commit → artifacts. Job `spectate`: merge → Release → prune → notify email with recording link. |
 | `report.yml` | `30 16 * * *` UTC (~10pm IST) + manual | cached Python → `daily_report.py` (read-only on repo contents) |
+| `prune-recordings.yml` | `20 * * * *` + manual | cached Python → `prune_recordings.py` (no `jobs-db` lock) |
 
 All three use concurrency group `jobs-db` with `cancel-in-progress: false` **on the DB-writing job only** (scan/handle/report). Spectate jobs are outside that group. Shared composite `.github/actions/setup-cached-python` restores `.venv` (and Playwright browsers for scan/submit) when `requirements.txt` + Python version match; otherwise it installs and saves the cache.
 
@@ -218,7 +221,7 @@ Also: `python -m playwright install chromium` after pip.
 | Cloudflare Workers | 100k req/day | A few clicks/day |
 | Gemini / OpenRouter free | Generous free quotas | Dozens of drafts/day |
 | Gmail SMTP | Personal volume | Digest + notify + scan recap + 1 daily report |
-| GitHub Releases | Repo storage | Last 30 `recording-*` mp4s |
+| GitHub Releases | Repo storage | `recording-*` mp4s, deleted after 24h |
 | SQLite in repo | N/A | Free storage |
 
 **Target: $0/month** at personal volume.
