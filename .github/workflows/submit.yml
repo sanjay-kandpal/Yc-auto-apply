@@ -23,7 +23,6 @@ jobs:
       # Approve always sends. Scan and Reject never apply. Local --dry-run still works.
       SUBMIT_DRY_RUN: "false"
       RECORD_RUN: "true"
-      RECORDING_DIR: ${{ runner.temp }}/spectate-raw
       SPECTATE_WORKFLOW: submit
     steps:
       - uses: actions/checkout@v5
@@ -37,6 +36,8 @@ jobs:
         run: python src/db.py --mark-rejected "${{ github.event.client_payload.job_id }}"
       - name: Submit
         if: github.event.action == 'job_approved'
+        env:
+          RECORDING_DIR: ${{ runner.temp }}/spectate-raw
         run: python src/submit.py --job-id "${{ github.event.client_payload.job_id }}"
       - name: Write notify payload
         if: always()

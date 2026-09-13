@@ -24,7 +24,6 @@ jobs:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       APPROVAL_HMAC_SECRET: ${{ secrets.APPROVAL_HMAC_SECRET }}
       RECORD_RUN: "true"
-      RECORDING_DIR: ${{ runner.temp }}/spectate-raw
       SPECTATE_WORKFLOW: scan
     steps:
       - uses: actions/checkout@v5
@@ -36,6 +35,8 @@ jobs:
       - name: Init DB
         run: python src/db.py --init
       - name: Scrape
+        env:
+          RECORDING_DIR: ${{ runner.temp }}/spectate-raw
         run: python src/scrape.py
       - name: Match
         run: python src/match.py
