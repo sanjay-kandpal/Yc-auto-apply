@@ -100,3 +100,10 @@ github:
   owner: sanjay-kandpal
   repo: Yc-auto-apply
   profile_url: "https://github.com/sanjay-kandpal"
+
+spectate:
+  # RECORD_RUN=true in Actions only. Login is never recorded.
+  record_video_size: [1280, 720]
+  crf: 32
+  maxrate_k: 800
+  keep_releases: 30

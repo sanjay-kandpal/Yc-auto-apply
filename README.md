@@ -27,7 +27,12 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `worker/jobs.js` | Read-only jobs visualizer; loads `data/jobs.json` via GitHub Contents API. |
 | `src/export_jobs.py` | Writes `data/jobs.json` (all job columns except `approval_token`). |
 | `src/submit.py` | After Approve only: click Apply → fill LLM note → Send. Daily cap. Local `--dry-run` skips Send. |
-| `src/notify.py` | Confirmation email after approve/reject/submit (includes stored error on failure). |
+| `src/session.py` | Playwright browser/context. Login is unrecorded; if `RECORD_RUN=true`, a second context records scrape/submit. |
+| `src/record_video.py` | Concatenate Playwright `.webm` clips, transcode to one H.264 mp4, write `meta.json`. |
+| `src/publish_release.py` | Attach the mp4 to a `recording-<run_id>` GitHub Release (`GITHUB_TOKEN`). |
+| `src/prune_recordings.py` | Keep the last `spectate.keep_releases` (default 30) `recording-*` releases. |
+| `src/spectate_email.py` | Scan recap email with Release download link and/or Actions artifact link. |
+| `src/notify.py` | Confirmation email after approve/reject/submit (includes stored error on failure, plus recording links when present). |
 | `src/daily_report.py` | 10pm IST daily email over the previous 10pm→10pm window: applied/failed counts, failed jobs, errors grouped by identical message. |
 | `src/log_config.py` | Stdout `logging` for Actions (`LOG_LEVEL`, default INFO). |
 | `src/dashboard.py` | Writes `docs/index.html` for GitHub Pages and `data/jobs.json` for the Worker viewer. |
@@ -35,7 +40,8 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `scripts/export_session.py` | Optional cookie fallback if password login is blocked (OAuth / 2FA). |
 | `scripts/commit_state.sh` | Shared Actions commit/push with conflict recovery (restore DB + regenerate dashboard and `jobs.json`). |
 | `.github/actions/setup-cached-python` | Shared Actions setup: restore `.venv` (and Playwright browsers on scan/submit) or install on cache miss. |
-| `config.yaml` | Filters, threshold, delays, cap, LLM provider, Worker URL. |
+| `.github/actions/publish-recording` | Follow-on job: ffmpeg merge, mp4 artifact, GitHub Release, prune, recording email. |
+| `config.yaml` | Filters, threshold, delays, cap, LLM provider, Worker URL, spectate bitrate/retention. |
 | `.github/workflows/scan.yml` | Every 4 hours (`0 */4 * * *`) plus manual Run workflow. |
 | `.github/workflows/submit.yml` | Runs on `job_approved` / `job_rejected`. |
 | `.github/workflows/report.yml` | ~10pm IST (`30 16 * * *` UTC) plus manual Run workflow — emails the daily report. |
@@ -58,7 +64,7 @@ Status flow: `discovered` → `drafted` → `pending_approval` → `submitted` /
 |---|---|
 | `YC_EMAIL` / `YC_PASSWORD` | auto-login on every scan/submit |
 | `YC_SESSION_COOKIES` | optional cookie fallback |
-| `GMAIL_ADDRESS` / `GMAIL_APP_PASSWORD` | digest + confirmation + daily report mail |
+| `GMAIL_ADDRESS` / `GMAIL_APP_PASSWORD` | digest + confirmation + scan recording + daily report mail |
 | `LLM_API_KEY` | Gemini (primary drafts) |
 | `OPENROUTER_API_KEY` | OpenRouter free-tier fallback (`google/gemma-4-31b-it:free`) |
 | `APPROVAL_HMAC_SECRET` | signs/verifies approval links (same value as the Worker secret) |
@@ -78,7 +84,9 @@ The PAT needs `repo` scope so it can send `repository_dispatch`, commit resume f
 
 Resume editor: `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes` — name `dev`, password hardcoded in `worker/resumes.js`. After save, the next scan uses the new `.txt` files. Already-scored or drafted jobs are not re-matched.
 
-Jobs visualizer (same login): `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes/jobs` — read-only snapshot of `data/jobs.json` from the last scan/submit commit. Lists **10 rows per page**; `/resumes/jobs.json?page=N` returns only that page (plus `total_pages`). Click page numbers or Next to fetch the next 10. Deploy the Worker after this change (`npx wrangler deploy` in `worker/`).
+Jobs visualizer (same login): `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes/jobs` — read-only snapshot of `data/jobs.json` from the last scan/submit commit. Lists **10 rows per page**; `/resumes/jobs.json?page=N` returns only that page (plus `total_pages`). Click page numbers or Next to fetch the next 10. Deploy the Worker after pulling Worker changes (`npx wrangler deploy` in `worker/`).
+
+Run recordings: GitHub **Releases** tagged `recording-<run_id>` (keep last 30 via `spectate.keep_releases`). The email link downloads the mp4 (GitHub does not play it inline). You must be logged into GitHub if the repo is private. Workflow artifacts are a 14-day backup.
 
 ### GitHub Pages
 
@@ -97,6 +105,8 @@ python src/submit.py --job-id ID --dry-run
 python src/dashboard.py
 ```
 
+Local spectate (optional, needs ffmpeg): `RECORD_RUN=true python src/submit.py --job-id ID --dry-run` writes `.webm` clips under `RECORDING_DIR` or `data/recordings/`. Login typing is not recorded.
+
 Scrape and submit need `YC_EMAIL`/`YC_PASSWORD` (or cookies). Digest needs Gmail + HMAC + a real Worker URL in config.
 
 If login fails, you get an email: update secrets or `credentials.local.yaml`, then **Actions → scan → Run workflow** (or wait up to 4 hours).
@@ -110,10 +120,11 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 - A prior `failed` apply can be retried by clicking Approve again on that digest card.
 - Local testing: `python src/submit.py --job-id ID --dry-run` still fills and does not Send.
 - Daily cap (`submit.daily_cap`, default 5) applies even after Approve.
-- Scan, submit, and daily-report share concurrency group `jobs-db` (one writer at a time, no cancel). Commit uses `scripts/commit_state.sh`: on rebase/push conflict it resets to remote, restores this run’s `data/jobs.db`, regenerates `docs/index.html` and `data/jobs.json`, and retries with exponential backoff.
+- Scan, submit, and daily-report share concurrency group `jobs-db` (one writer at a time, no cancel). Encoding/upload runs in a follow-on `spectate` job **outside** that group so ffmpeg does not block Approve. Commit uses `scripts/commit_state.sh`: on rebase/push conflict it resets to remote, restores this run’s `data/jobs.db`, regenerates `docs/index.html` and `data/jobs.json`, and retries with exponential backoff.
+- Spectate: Actions sets `RECORD_RUN=true`. Playwright records scrape/submit after login, a follow-on job merges to mp4 (artifact, 14 days), publishes a `recording-<run_id>` GitHub Release, prunes older recording releases, and emails the Release URL plus the Actions run URL. Failed runs still publish whatever video exists. Recordings are not committed. Default `RECORD_RUN` is off locally. The Release link downloads the file; keep the repo private.
+- Resume editor lives on the Worker (`/resumes`), not GitHub Pages. Save writes `data/resumes/*.txt` through the GitHub Contents API. The Jobs viewer is `/resumes/jobs` (same cookie): 10 rows per page from `/resumes/jobs.json?page=`, not the full snapshot. It is only as fresh as the last committed `data/jobs.json`.
 - Actions Python deps are cached via `.github/actions/setup-cached-python`. Cache key is OS + Python version + `requirements.txt` hash. Hit → skip `pip install` and reuse `.venv`. Miss → create venv, install, save cache. Scan/submit also cache `~/.cache/ms-playwright`; on a browser cache hit they only install OS deps (`playwright install-deps`). Changing `requirements.txt` or the Python patch version forces a fresh install.
 - External/company-site apply listings are skipped and marked `failed` (error stored in `error_message`).
 - Failed submits store `error_message` (truncated). Successful retries clear it. The exact apply note (draft + GitHub line, or resume fallback) is stored in `sent_message` on submit, dry-run fill, and failed apply.
 - Daily report email (~10pm IST via `report.yml`) covers the previous **10pm→10pm IST** window (not midnight→now). If scan holds the `jobs-db` lock past midnight, the delayed run still uses last night’s 10pm close so that day’s applies are not dropped. Manual: **Actions → daily-report → Run workflow** (optional date input) or `python src/daily_report.py` / `--date YYYY-MM-DD`.
 - Pipeline Python modules log to stdout via `src/log_config.py` (Actions job logs). INFO for milestones, WARNING for retries/fallbacks, ERROR with traceback for submit/LLM failures. Per-job scrape/match lines are DEBUG. Set `LOG_LEVEL=DEBUG` locally. Emails and `error_message` are unchanged. `scripts/commit_state.sh` still uses `echo`.
-- Resume editor lives on the Worker (`/resumes`), not GitHub Pages. Save writes `data/resumes/*.txt` through the GitHub Contents API. The Jobs viewer is `/resumes/jobs` (same cookie): 10 rows per page from `/resumes/jobs.json?page=`, not the full snapshot. It is only as fresh as the last committed `data/jobs.json`.

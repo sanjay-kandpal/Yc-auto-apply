@@ -24,6 +24,9 @@ from draft import validate_draft, with_github  # noqa: E402
 from match import hard_filter_reason  # noqa: E402
 from scrape import search_sources  # noqa: E402
 from tokens import sign, verify  # noqa: E402
+from record_video import build_object_key, object_key_allowed, recording_enabled, workflow_slug  # noqa: E402
+from prune_recordings import tags_to_delete  # noqa: E402
+from publish_release import release_page_url, release_tag  # noqa: E402
 from waas_parse import walk_jobs  # noqa: E402
 
 IST = ZoneInfo("Asia/Kolkata")
@@ -36,6 +39,37 @@ def test_tokens() -> None:
     assert verify("job1", "approve", expiry, token, secret)
     assert not verify("job1", "reject", expiry, token, secret)
     assert not verify("other", "approve", expiry, token, secret)
+    assert not verify("job1", "view", expiry, token, secret)
+
+
+def test_spectate_keys() -> None:
+    old = os.environ.pop("RECORD_RUN", None)
+    try:
+        assert recording_enabled() is False
+        assert workflow_slug("submit") == "submit"
+        assert workflow_slug("scan") == "scan"
+        key = build_object_key("scan", "1234567", day="2026-09-13")
+        assert key == "2026-09-13/scan-1234567.mp4"
+        assert object_key_allowed(key)
+        assert object_key_allowed(build_object_key("YC submit", "88", day="2026-09-13"))
+        assert not object_key_allowed("../secret.mp4")
+        assert not object_key_allowed("2026-09-13/scan-123.webm")
+        assert release_tag("123", "1") == "recording-123"
+        assert release_tag("123", "2") == "recording-123-2"
+        assert release_page_url("recording-123", "sanjay-kandpal/Yc-auto-apply").endswith(
+            "/releases/tag/recording-123"
+        )
+        entries = [
+            {"tagName": "recording-a", "createdAt": "2026-09-13T00:00:00Z"},
+            {"tagName": "v1.0.0", "createdAt": "2026-09-12T00:00:00Z"},
+            {"tagName": "recording-b", "createdAt": "2026-09-11T00:00:00Z"},
+            {"tagName": "recording-c", "createdAt": "2026-09-10T00:00:00Z"},
+        ]
+        assert tags_to_delete(entries, keep=2) == ["recording-c"]
+        assert tags_to_delete(entries, keep=30) == []
+    finally:
+        if old is not None:
+            os.environ["RECORD_RUN"] = old
 
 
 def test_job_id_stable() -> None:
@@ -247,6 +281,7 @@ def test_load_credentials() -> None:
 
 if __name__ == "__main__":
     test_tokens()
+    test_spectate_keys()
     test_job_id_stable()
     test_walk_jobs()
     test_hard_filter()

@@ -16,12 +16,14 @@ Automated apply may conflict with the site’s ToS. Keep the approval gate and d
 Yc-auto-apply/
 ├── .github/
 │   ├── actions/setup-cached-python/  # restore .venv (+ Playwright) or pip install on miss
+│   ├── actions/publish-recording/    # ffmpeg merge, mp4 artifact, GitHub Release, prune, email
 │   └── workflows/
 │       ├── scan.yml          # every 4h: login → scrape → match → draft → digest → dashboard → commit
-│       ├── submit.yml        # repository_dispatch: approve submit / reject mark + notify
+│       │                     # follow-on spectate job (no jobs-db lock)
+│       ├── submit.yml        # repository_dispatch: approve submit / reject mark + spectate notify
 │       └── report.yml        # ~10pm IST: daily report email
 ├── worker/
-│   ├── index.js              # Router: / approve, /resumes editor, /resumes/jobs
+│   ├── index.js              # Router: / approve, /resumes, /resumes/jobs
 │   ├── common.js             # Shared login cookie + HTML helpers
 │   ├── approve.js            # HMAC verify → GitHub repository_dispatch
 │   ├── resumes.js            # Login + editor; commits data/resumes/*.txt
@@ -31,7 +33,11 @@ Yc-auto-apply/
 │   └── wrangler.toml
 ├── src/
 │   ├── login.py              # YC email/password login (cookies fallback)
-│   ├── session.py            # Playwright browser/context lifecycle
+│   ├── session.py            # Playwright browser/context lifecycle (record after login)
+│   ├── record_video.py       # Merge .webm → mp4, object keys, manifest
+│   ├── publish_release.py    # Attach mp4 to recording-* GitHub Release
+│   ├── prune_recordings.py   # Keep last N recording-* releases
+│   ├── spectate_email.py     # Scan recording recap email
 │   ├── scrape.py             # Walk search.sources; parse Algolia / fetch / Inertia
 │   ├── waas_parse.py         # Listing JSON → company/role/url/jd helpers
 │   ├── match.py              # TF-IDF + keyword overlap + hard filters
@@ -141,10 +147,15 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 - Local: `python src/submit.py --job-id ID --dry-run` fills without Send. Actions force live Send after Approve (`SUBMIT_DRY_RUN=false`).
 
 ### 3.8 Notify + daily report + dashboard
-- `notify.py` — email after approve/reject/submit (includes `error_message` on failure).
+- `notify.py` — email after approve/reject/submit (includes `error_message` on failure). Submit workflow writes a JSON payload in the `jobs-db` job, then the spectate job sends the mail so it can include the recording link without re-reading a stale checkout of `jobs.db`.
 - `daily_report.py` + `report.yml` — ~10pm IST: previous 10pm→10pm window (survives post-midnight delay), applied/failed counts, failed jobs, errors grouped by message.
 - `log_config.py` — stdout logging (`LOG_LEVEL`, default INFO) used by pipeline modules. `commit_state.sh` stays on `echo`.
 - `dashboard.py` — regenerates `docs/index.html` for GitHub Pages and `data/jobs.json` for `/resumes/jobs` (scan + submit commit both).
+
+### 3.9 Spectate (run recordings)
+- `RECORD_RUN` defaults off. Scan/submit Actions set it `true`. Login/cookie check use an unrecorded context; scrape/submit use a second context with `record_video_dir`.
+- Raw `.webm` clips stay on the runner and are uploaded as a short-lived artifact. A follow-on `spectate` job (not in `jobs-db`) merges with ffmpeg to H.264 mp4 (`spectate.crf` / `maxrate_k`), attaches it to a GitHub Release tagged `recording-<run_id>` (reruns: `recording-<run_id>-<attempt>`), prunes older `recording-*` tags down to `spectate.keep_releases` (default 30), and emails the Release page URL plus the Actions run URL.
+- Releases are created with `GITHUB_TOKEN` (`contents: write`). They are not the Worker’s concern. The mp4 **downloads**; GitHub does not stream it inline. Keep the repo private. Videos are never committed.
 
 ---
 
@@ -152,11 +163,11 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 
 | Workflow | Trigger | Main steps |
 |---|---|---|
-| `scan.yml` | `0 */4 * * *` + `workflow_dispatch` | cached Python + Playwright → init DB → scrape → match → draft → digest → dashboard → `commit_state.sh` |
-| `submit.yml` | `job_approved` / `job_rejected` | cached Python + Playwright → reject mark **or** submit → notify → dashboard → commit |
+| `scan.yml` | `0 */4 * * *` + `workflow_dispatch` | Job `scan` (`jobs-db`): cached Python + Playwright → init DB → scrape → match → draft → digest → dashboard → `commit_state.sh` → raw video artifact. Job `spectate` (no lock): merge → mp4 artifact → GitHub Release → prune → recap email. |
+| `submit.yml` | `job_approved` / `job_rejected` | Job `handle` (`jobs-db`): reject **or** submit → notify payload → dashboard → commit → artifacts. Job `spectate`: merge → Release → prune → notify email with recording link. |
 | `report.yml` | `30 16 * * *` UTC (~10pm IST) + manual | cached Python → `daily_report.py` (read-only on repo contents) |
 
-All three use concurrency group `jobs-db` with `cancel-in-progress: false`. Shared composite `.github/actions/setup-cached-python` restores `.venv` (and Playwright browsers for scan/submit) when `requirements.txt` + Python version match; otherwise it installs and saves the cache.
+All three use concurrency group `jobs-db` with `cancel-in-progress: false` **on the DB-writing job only** (scan/handle/report). Spectate jobs are outside that group. Shared composite `.github/actions/setup-cached-python` restores `.venv` (and Playwright browsers for scan/submit) when `requirements.txt` + Python version match; otherwise it installs and saves the cache.
 
 ---
 
@@ -168,7 +179,7 @@ All three use concurrency group `jobs-db` with `cancel-in-progress: false`. Shar
 |---|---|
 | `YC_EMAIL` / `YC_PASSWORD` | Preferred auto-login |
 | `YC_SESSION_COOKIES` | Optional cookie fallback |
-| `GMAIL_ADDRESS` / `GMAIL_APP_PASSWORD` | Digest, notify, daily report |
+| `GMAIL_ADDRESS` / `GMAIL_APP_PASSWORD` | Digest, notify, scan recap, daily report |
 | `LLM_API_KEY` | Gemini drafts |
 | `OPENROUTER_API_KEY` | Free-tier fallback |
 | `APPROVAL_HMAC_SECRET` | Sign/verify approval links (same as Worker) |
@@ -206,7 +217,8 @@ Also: `python -m playwright install chromium` after pip.
 | GitHub Actions | 2,000 min/month (private) | Few min/run × scan every 4h + submits |
 | Cloudflare Workers | 100k req/day | A few clicks/day |
 | Gemini / OpenRouter free | Generous free quotas | Dozens of drafts/day |
-| Gmail SMTP | Personal volume | Digest + notify + 1 daily report |
+| Gmail SMTP | Personal volume | Digest + notify + scan recap + 1 daily report |
+| GitHub Releases | Repo storage | Last 30 `recording-*` mp4s |
 | SQLite in repo | N/A | Free storage |
 
 **Target: $0/month** at personal volume.
@@ -229,8 +241,9 @@ Also: `python -m playwright install chromium` after pip.
 | Notify + daily IST report | Done |
 | GitHub Pages dashboard + conflict-safe commit | Done |
 | Pipeline tests (`tests/test_pipeline.py`) | Done |
+| Spectate (record after login, mp4 artifact, GitHub Release, prune, email link) | Done |
 
-**Local smoke order:** `test_pipeline.py` → scrape → match → draft → digest → `submit.py --dry-run` → dashboard.
+**Local smoke order:** `test_pipeline.py` → scrape → match → draft → digest → `submit.py --dry-run` → dashboard. Optional: `RECORD_RUN=true` on scrape/submit to write local `.webm` clips.
 
 ---
 

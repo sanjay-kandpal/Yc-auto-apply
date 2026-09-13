@@ -10,9 +10,15 @@ from dotenv import load_dotenv
 from playwright.sync_api import Browser, BrowserContext, Playwright, sync_playwright
 
 from login import cookies_still_valid, ensure_logged_in, load_credentials, notify_login_failed
+from record_video import attach_page_tracker, finalize_recordings, recording_dir, recording_enabled, video_size
 
 load_dotenv()
 log = logging.getLogger(__name__)
+
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+)
 
 
 def load_cookies() -> list[dict]:
@@ -35,8 +41,18 @@ def load_cookies() -> list[dict]:
     return cleaned
 
 
-@contextmanager
-def waas_context(headless: bool = True):
+def _new_context(browser: Browser, *, record_dir=None, storage_state=None) -> BrowserContext:
+    kwargs: dict = {"user_agent": USER_AGENT}
+    if storage_state is not None:
+        kwargs["storage_state"] = storage_state
+    if record_dir is not None:
+        width, height = video_size()
+        kwargs["record_video_dir"] = str(record_dir)
+        kwargs["record_video_size"] = {"width": width, "height": height}
+    return browser.new_context(**kwargs)
+
+
+def _login(context: BrowserContext) -> None:
     email, password = load_credentials()
     cookies = load_cookies()
     if not (email and password) and not cookies:
@@ -45,39 +61,51 @@ def waas_context(headless: bool = True):
             "(GitHub secrets or credentials.local.yaml)."
         )
         raise SystemExit("No YC_EMAIL/YC_PASSWORD and no YC_SESSION_COOKIES.")
+    used_cookies = False
+    if cookies:
+        context.add_cookies(cookies)
+        used_cookies = cookies_still_valid(context)
+        if used_cookies:
+            log.info("Using YC_SESSION_COOKIES.")
+        else:
+            log.warning("Session cookies expired or invalid.")
+    if used_cookies:
+        return
+    if email and password:
+        ensure_logged_in(context)
+        return
+    notify_login_failed("Cookies failed and YC_EMAIL / YC_PASSWORD are not set.")
+    raise SystemExit("Need valid cookies or YC_EMAIL / YC_PASSWORD.")
 
+
+@contextmanager
+def waas_context(headless: bool = True):
     playwright: Playwright | None = None
     browser: Browser | None = None
     context: BrowserContext | None = None
+    pages: list = []
+    dest_dir = None
     try:
         playwright = sync_playwright().start()
         browser = playwright.chromium.launch(headless=headless)
-        context = browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-            )
-        )
-        used_cookies = False
-        if cookies:
-            context.add_cookies(cookies)
-            used_cookies = cookies_still_valid(context)
-            if used_cookies:
-                log.info("Using YC_SESSION_COOKIES.")
-            else:
-                log.warning("Session cookies expired or invalid.")
-        if not used_cookies:
-            if email and password:
-                ensure_logged_in(context)
-            else:
-                notify_login_failed(
-                    "Cookies failed and YC_EMAIL / YC_PASSWORD are not set."
-                )
-                raise SystemExit("Need valid cookies or YC_EMAIL / YC_PASSWORD.")
+        context = _new_context(browser)
+        _login(context)
+        if recording_enabled():
+            dest_dir = recording_dir()
+            state = context.storage_state()
+            context.close()
+            context = _new_context(browser, record_dir=dest_dir, storage_state=state)
+            pages = attach_page_tracker(context)
+            log.info("Spectate recording to %s", dest_dir)
         yield context
     finally:
         if context:
             context.close()
+        if dest_dir:
+            try:
+                finalize_recordings(pages, dest_dir)
+            except Exception:
+                log.exception("Failed to finalize spectate recording")
         if browser:
             browser.close()
         if playwright:

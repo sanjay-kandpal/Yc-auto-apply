@@ -10,6 +10,9 @@ playwright-report/
 test-results/
 node_modules/
 .wrangler/
+data/recordings/
+*.webm
+*.mp4
 *.log
 .DS_Store
 Thumbs.db
