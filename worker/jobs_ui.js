@@ -38,6 +38,21 @@ function clip(value, n) {
   if (!s) return "—";
   return s.length > n ? s.slice(0, n - 3) + "..." : s;
 }
+function formatIst(value) {
+  const raw = String(value == null ? "" : value).trim();
+  if (!raw) return "—";
+  const dt = new Date(raw);
+  if (Number.isNaN(dt.getTime())) return raw;
+  return new Intl.DateTimeFormat("en-IN", {
+    timeZone: "Asia/Kolkata",
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+  }).format(dt) + " IST";
+}
 function pageWindow(page, totalPages, width) {
   if (totalPages < 1) return [];
   const block = Math.floor((Math.max(1, page) - 1) / width);
@@ -100,7 +115,7 @@ function renderRows(jobs) {
       esc(text(job.company)) + "</a></td><td>" + esc(text(job.role)) +
       "</td><td>" + esc(text(job.resume_variant)) +
       "</td><td class=\\"msg\\">" + esc(clip(job.sent_message, 80)) +
-      "</td><td>" + esc(text(job.discovered_at)) +
+      "</td><td>" + esc(formatIst(job.discovered_at)) +
       "</td><td>" + esc(clip(job.error_message, 80)) +
       "</td><td>" + (job.url ? "<a href=\\"" + esc(job.url) + "\\">listing</a>" : "—") + "</td></tr>";
   }).join("") || "<tr><td colspan=\\"9\\">No jobs match these filters.</td></tr>";
@@ -119,9 +134,12 @@ function renderDetail(payload) {
     ["submitted_at", job.submitted_at], ["error_message", job.error_message],
     ["sent_message", job.sent_message],
   ];
-  const dts = fields.map(([k, v]) => k === "url" && v
-    ? "<dt>" + k + "</dt><dd><a href=\\"" + esc(v) + "\\">" + esc(v) + "</a></dd>"
-    : "<dt>" + k + "</dt><dd>" + esc(text(v)) + "</dd>").join("");
+  const timeKeys = { discovered_at: 1, decided_at: 1, submitted_at: 1 };
+  const dts = fields.map(([k, v]) => {
+    if (k === "url" && v) return "<dt>" + k + "</dt><dd><a href=\\"" + esc(v) + "\\">" + esc(v) + "</a></dd>";
+    if (timeKeys[k]) return "<dt>" + k + "</dt><dd>" + esc(formatIst(v)) + "</dd>";
+    return "<dt>" + k + "</dt><dd>" + esc(text(v)) + "</dd>";
+  }).join("");
   root.innerHTML = "<p><a href=\\"/resumes/jobs\\">Back to jobs</a></p>" +
     "<h2>" + esc(text(job.company)) + " — " + esc(text(job.role)) + "</h2>" +
     "<dl class=\\"meta\\">" + dts + "</dl>" +
@@ -148,7 +166,7 @@ async function loadList(page) {
   const data = await fetchJson(params);
   document.getElementById("note").textContent = data.missing
     ? "No snapshot yet. Wait for the next scan/submit, or run python src/dashboard.py and commit data/jobs.json."
-    : "Snapshot " + (data.exported_at || "unknown") + " (last committed scan/submit). Read-only.";
+    : "Snapshot " + formatIst(data.exported_at) + " (last committed scan/submit). Read-only.";
   document.getElementById("chips").innerHTML = renderChips(data);
   document.getElementById("count").textContent = (data.jobs || []).length + " on this page · " + (data.total || 0) + " match";
   renderRows(data.jobs);
@@ -163,7 +181,7 @@ async function main() {
     if (id) {
       const payload = await fetchJson(new URLSearchParams({ id: id }));
       document.getElementById("note").textContent = payload.exported_at
-        ? "Snapshot " + payload.exported_at + " (last committed scan/submit). Read-only."
+        ? "Snapshot " + formatIst(payload.exported_at) + " (last committed scan/submit). Read-only."
         : "";
       renderDetail(payload);
       return;
