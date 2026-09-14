@@ -6,6 +6,7 @@ compatibility_date = "2026-01-01"
 [vars]
 GH_OWNER = "sanjay-kandpal"
 GH_REPO = "Yc-auto-apply"
+GH_BRANCH = "master"
 
 # Secrets (wrangler secret put):
 #   APPROVAL_HMAC_SECRET

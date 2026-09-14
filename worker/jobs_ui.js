@@ -275,7 +275,7 @@ export function jobsPage() {
      ${logoutForm()}
      <script>${VIEWER_JS}</script>`,
     200,
-    {},
+    { "cache-control": "no-store" },
     JOBS_CSS
   );
 }

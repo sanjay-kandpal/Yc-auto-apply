@@ -158,6 +158,17 @@ export function ghHeaders(env) {
   };
 }
 
+export function ghFetch(env, url, extraHeaders = {}) {
+  return fetch(url, {
+    headers: {
+      ...ghHeaders(env),
+      "Cache-Control": "no-cache",
+      ...extraHeaders,
+    },
+    cf: { cacheTtl: 0 },
+  });
+}
+
 export function decodeGithubContent(content) {
   const b64 = (content || "").replace(/\s/g, "");
   const bin = atob(b64);

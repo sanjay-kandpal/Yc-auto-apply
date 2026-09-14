@@ -1,7 +1,7 @@
 import { isAuthed } from "./auth.js";
 import {
   decodeGithubContent,
-  ghHeaders,
+  ghFetch,
   githubError,
   loginPage,
   page,
@@ -38,18 +38,31 @@ function parseSnapshot(text) {
   };
 }
 
-async function loadBlob(env, sha) {
-  const url = `https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}/git/blobs/${sha}`;
-  const res = await fetch(url, { headers: ghHeaders(env) });
-  if (!res.ok) throw new Error(githubError(res.status, await res.text()));
-  const data = await res.json();
-  if (!data.content) throw new Error("git blob has no content");
-  return parseSnapshot(decodeGithubContent(data.content));
+function contentsUrl(env, path, ref) {
+  const url = `https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}/contents/${path}`;
+  return ref ? `${url}?ref=${encodeURIComponent(ref)}` : url;
 }
 
-async function shaFromDataDir(env) {
-  const url = `https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}/contents/data`;
-  const res = await fetch(url, { headers: ghHeaders(env) });
+async function headCommitSha(env) {
+  const branch = env.GH_BRANCH || "master";
+  const url = `https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}/commits/${encodeURIComponent(branch)}`;
+  const res = await ghFetch(env, url);
+  const raw = await res.text();
+  if (!res.ok) throw new Error(githubError(res.status, raw));
+  const data = JSON.parse(raw);
+  if (!data.sha) throw new Error("GitHub commit has no sha");
+  return data.sha;
+}
+
+async function loadBlob(env, sha) {
+  const url = `https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}/git/blobs/${sha}`;
+  const res = await ghFetch(env, url, { Accept: "application/vnd.github.raw" });
+  if (!res.ok) throw new Error(githubError(res.status, await res.text()));
+  return parseSnapshot(await res.text());
+}
+
+async function shaFromDataDir(env, ref) {
+  const res = await ghFetch(env, contentsUrl(env, "data", ref));
   if (!res.ok) throw new Error(githubError(res.status, await res.text()));
   const entries = await res.json();
   const entry = Array.isArray(entries) ? entries.find((item) => item.name === "jobs.json") : null;
@@ -57,8 +70,8 @@ async function shaFromDataDir(env) {
 }
 
 async function loadSnapshot(env) {
-  const url = `https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}/contents/data/jobs.json`;
-  const res = await fetch(url, { headers: ghHeaders(env) });
+  const commit = await headCommitSha(env);
+  const res = await ghFetch(env, contentsUrl(env, "data/jobs.json", commit));
   if (res.status === 404) return emptySnapshot();
   const raw = await res.text();
   let meta = null;
@@ -67,16 +80,12 @@ async function loadSnapshot(env) {
   } catch {
     meta = null;
   }
-  if (res.ok && meta?.content) {
-    return parseSnapshot(decodeGithubContent(meta.content));
-  }
-  if (res.ok && meta?.download_url) {
-    const file = await fetch(meta.download_url, { headers: ghHeaders(env) });
-    if (file.ok) return parseSnapshot(await file.text());
-  }
-  const sha = meta?.sha || (await shaFromDataDir(env));
+  if (!res.ok) throw new Error(githubError(res.status, raw));
+  // jobs.json is >1MB so Contents omits `content`. Never use download_url
+  // (raw.githubusercontent.com) — GitHub CDN serves a stale copy for hours.
+  const sha = meta?.sha || (await shaFromDataDir(env, commit));
   if (sha) return loadBlob(env, sha);
-  if (res.status === 404) return emptySnapshot();
+  if (meta?.content) return parseSnapshot(decodeGithubContent(meta.content));
   throw new Error(githubError(res.status, raw));
 }
 
