@@ -1,12 +1,12 @@
 {
-  "exported_at": "2026-09-14T17:49:41+00:00",
+  "exported_at": "2026-09-14T17:53:19+00:00",
   "daily_cap": 5,
-  "submitted_today": 0,
+  "submitted_today": 1,
   "counts": {
     "discovered": 581,
-    "pending_approval": 115,
+    "submitted": 5,
+    "pending_approval": 114,
     "failed": 3,
-    "submitted": 4,
     "rejected": 3
   },
   "jobs": [
@@ -35,12 +35,12 @@
       "match_score": 12.38,
       "resume_variant": "frontend",
       "draft_answer": "My experience owning end-to-end client-facing modules for a government regulator's occupational hygiene reporting portal, automating 90% of manual workflows for 80+ client organizations, and building systems with secure authentication and real-time data synchronization directly aligns with taking Beagle's complex state machines and critical integrations from MVP to production-grade for multiple user types. I am comfortable building data ingestion pipelines and integrating external platforms, having optimized API latency by 98%, cut data load times by 60% with Azure Blob Storage, and deployed containerized applications using Docker and Azure for robust, scalable solutions.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "pending_approval",
+      "status": "submitted",
       "discovered_at": "2026-09-14T17:48:40+00:00",
-      "decided_at": null,
-      "submitted_at": null,
+      "decided_at": "2026-09-14T17:53:18+00:00",
+      "submitted_at": "2026-09-14T17:53:18+00:00",
       "error_message": null,
-      "sent_message": null
+      "sent_message": "My experience owning end-to-end client-facing modules for a government regulator's occupational hygiene reporting portal, automating 90% of manual workflows for 80+ client organizations, and building systems with secure authentication and real-time data synchronization directly aligns with taking Beagle's complex state machines and critical integrations from MVP to production-grade for multiple user types. I am comfortable building data ingestion pipelines and integrating external platforms, having optimized API latency by 98%, cut data load times by 60% with Azure Blob Storage, and deployed containerized applications using Docker and Azure for robust, scalable solutions.\nGitHub: https://github.com/sanjay-kandpal"
     },
     {
       "id": "57d52800db374cfcd7a727946a5f4efa",
