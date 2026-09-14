@@ -1,23 +1,18 @@
+import { credentialsMatch, isAuthed, sessionToken } from "./auth.js";
 import {
   decodeGithubContent,
   esc,
   ghHeaders,
   githubError,
-  hmacSign,
-  isAuthed,
   loginPage,
   logoutForm,
   nav,
   page,
   redirect,
   safeNext,
-  SESSION_MSG,
   setCookie,
-  timingEqualStr,
 } from "./common.js";
 
-const RESUME_USER = "dev";
-const RESUME_PASSWORD = "Sank@9876";
 const VARIANTS = ["fullstack", "backend", "frontend"];
 
 function editorPage(files, notice = "", error = "") {
@@ -109,12 +104,10 @@ export async function handleResumes(request, env) {
     const user = String(form.get("username") || "");
     const pass = String(form.get("password") || "");
     const next = safeNext(String(form.get("next") || "/resumes"));
-    const userOk = timingEqualStr(user, RESUME_USER);
-    const passOk = timingEqualStr(pass, RESUME_PASSWORD);
-    if (!userOk || !passOk || !env.APPROVAL_HMAC_SECRET) {
+    if (!(await credentialsMatch(env, user, pass))) {
       return loginPage("Invalid name or password.", next);
     }
-    const token = await hmacSign(SESSION_MSG, env.APPROVAL_HMAC_SECRET);
+    const token = await sessionToken(env);
     return redirect(next, { "Set-Cookie": setCookie(token) });
   }
 
@@ -123,7 +116,15 @@ export async function handleResumes(request, env) {
   }
 
   if (!authed) {
-    return loginPage("", path === "/resumes" ? "/resumes" : `${path}${url.search}`);
+    const updated = url.searchParams.get("updated") || "";
+    const notice =
+      updated === "password"
+        ? "Password updated. Log in with the new password."
+        : updated === "name"
+          ? "Name updated. Log in with the new name."
+          : "";
+    const next = path === "/resumes" ? "/resumes" : `${path}${url.search}`;
+    return loginPage("", next, notice);
   }
 
   if (path === "/resumes" && request.method === "POST") {

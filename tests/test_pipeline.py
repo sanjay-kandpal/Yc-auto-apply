@@ -27,6 +27,7 @@ from tokens import sign, verify  # noqa: E402
 from record_video import build_object_key, object_key_allowed, recording_enabled, workflow_slug  # noqa: E402
 from prune_recordings import tags_to_delete  # noqa: E402
 from publish_release import release_page_url, release_tag  # noqa: E402
+from resume_otp_email import html_body, subject_for, validate_otp  # noqa: E402
 from waas_parse import walk_jobs  # noqa: E402
 
 IST = ZoneInfo("Asia/Kolkata")
@@ -274,6 +275,19 @@ def test_sent_message_migrates() -> None:
         conn.close()
 
 
+def test_resume_otp_email() -> None:
+    assert "password reset" in subject_for("password")
+    assert "name reset" in subject_for("name")
+    assert subject_for("password").startswith("YC resume login")
+    html = html_body("123456", "password")
+    assert "123456" in html
+    assert "10 minutes" in html
+    assert validate_otp("123456")
+    assert not validate_otp("12345")
+    assert not validate_otp("abcdef")
+    assert not validate_otp("")
+
+
 def test_load_credentials() -> None:
     old_email = os.environ.pop("YC_EMAIL", None)
     old_password = os.environ.pop("YC_PASSWORD", None)
@@ -305,5 +319,6 @@ if __name__ == "__main__":
     test_setup_logging_idempotent()
     test_jobs_export_omits_token()
     test_sent_message_migrates()
+    test_resume_otp_email()
     test_load_credentials()
     print("all checks passed")

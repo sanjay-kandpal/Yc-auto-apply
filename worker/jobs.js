@@ -1,8 +1,8 @@
+import { isAuthed } from "./auth.js";
 import {
   decodeGithubContent,
   ghHeaders,
   githubError,
-  isAuthed,
   loginPage,
   page,
 } from "./common.js";

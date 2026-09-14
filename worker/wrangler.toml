@@ -10,3 +10,8 @@ GH_REPO = "Yc-auto-apply"
 # Secrets (wrangler secret put):
 #   APPROVAL_HMAC_SECRET
 #   GH_PAT_FOR_DISPATCH
+#   RECOVERY_EMAIL   # same inbox as GMAIL_ADDRESS (digest Gmail)
+
+[[kv_namespaces]]
+binding = "RESUME_AUTH"
+id = "6079077b09b34f55a52e08fd00c22b06"

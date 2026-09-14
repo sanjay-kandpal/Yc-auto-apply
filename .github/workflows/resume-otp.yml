@@ -1,0 +1,23 @@
+name: resume-otp
+
+on:
+  repository_dispatch:
+    types: [resume_otp]
+
+permissions:
+  contents: read
+
+jobs:
+  email:
+    runs-on: ubuntu-latest
+    env:
+      GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ./.github/actions/setup-cached-python
+      - name: Send OTP email
+        env:
+          RESUME_OTP: ${{ github.event.client_payload.otp }}
+          RESUME_OTP_PURPOSE: ${{ github.event.client_payload.purpose }}
+        run: python src/resume_otp_email.py

@@ -22,10 +22,13 @@ Yc-auto-apply/
 │       │                     # follow-on spectate job (no jobs-db lock)
 │       ├── submit.yml        # repository_dispatch: approve submit / reject mark + spectate notify
 │       ├── report.yml        # ~10pm IST: daily report email
+│       ├── resume-otp.yml    # repository_dispatch: email resume-login OTP
 │       └── prune-recordings.yml  # hourly: delete recording-* older than 24h
 ├── worker/
-│   ├── index.js              # Router: / approve, /resumes, /resumes/jobs
+│   ├── index.js              # Router: / approve, /resumes, /resumes/jobs, forgot
 │   ├── common.js             # Shared login cookie + HTML helpers
+│   ├── auth.js               # KV credentials, session nonce, OTP
+│   ├── forgot.js             # Forgot password/name OTP flow
 │   ├── approve.js            # HMAC verify → GitHub repository_dispatch
 │   ├── resumes.js            # Login + editor; commits data/resumes/*.txt
 │   ├── jobs.js               # Read-only DB viewer (paginated jobs.json)
@@ -49,6 +52,7 @@ Yc-auto-apply/
 │   ├── submit.py             # Apply → fill note → Send (or --dry-run)
 │   ├── notify.py             # Per-job confirmation email
 │   ├── daily_report.py       # 10pm→10pm IST rollup email
+│   ├── resume_otp_email.py   # 6-digit resume-login OTP email (no code in logs)
 │   ├── log_config.py         # Stdout logging for Actions / local CLI
 │   ├── dashboard.py          # Writes docs/index.html + data/jobs.json
 │   ├── export_jobs.py        # SQLite snapshot for the Worker Jobs viewer
@@ -134,10 +138,11 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 
 ### 3.6 Approval handling (`worker/index.js` + `worker/approve.js`)
 - `/` verifies HMAC + expiry, fires GitHub `repository_dispatch` (`job_approved` / `job_rejected`) with `job_id`.
-- Worker secrets: `APPROVAL_HMAC_SECRET`, `GH_PAT_FOR_DISPATCH` (repo scope). URL → `email.approval_base_url`.
+- Worker secrets: `APPROVAL_HMAC_SECRET`, `GH_PAT_FOR_DISPATCH` (repo scope), `RECOVERY_EMAIL`. KV binding `RESUME_AUTH`. URL → `email.approval_base_url`.
 
 ### 3.6b Resume editor + jobs viewer (`worker/resumes.js` + `worker/jobs.js`)
-- `/resumes` is a password-gated form (hardcoded name `dev` in `worker/resumes.js`). Session cookie is HMAC-signed with `APPROVAL_HMAC_SECRET` (`Path=/resumes`).
+- `/resumes` is a password-gated form. Seed name `dev` and seed password apply only when KV is empty. After a reset, name and password HMAC live in Cloudflare KV (`RESUME_AUTH`). Session cookie is HMAC of `resume-ui|{username}|{nonce}` with `APPROVAL_HMAC_SECRET` (`Path=/resumes`). Changing name or password bumps the nonce and logs everyone out.
+- Forgot password / name (`worker/forgot.js` + `worker/auth.js`): enter `RECOVERY_EMAIL` → 6-digit OTP hashed in KV (10 min, 5 tries, 3 sends / 15 min) → GitHub `repository_dispatch` `resume_otp` → `resume-otp.yml` emails the code to `GMAIL_ADDRESS` only (30s–2min). Then set a new password or name. Wrong email still shows the code form (no leak). Keep the repo private; the OTP is in the Actions event payload until it expires.
 - After login, loads and saves `data/resumes/fullstack.txt`, `backend.txt`, and `frontend.txt` via the GitHub Contents API (`GH_PAT_FOR_DISPATCH`).
 - Next `scan.yml` checkout uses the new text. Already-scored / drafted jobs are not re-matched.
 - `/resumes/jobs` (same cookie) is a read-only DB visualizer. List calls `/resumes/jobs.json?page=` (10 rows per page, `total_pages` in metadata). Page buttons show 10 at a time; Next/Prev and page numbers fetch the next slice from the Worker (the browser does not load the full snapshot). `/resumes/jobs?id=` loads one row (JD, draft, sent message, error, timestamps). No `approval_token`. Not live — last committed snapshot only.
@@ -168,9 +173,10 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 | `scan.yml` | `0 */4 * * *` + `workflow_dispatch` | Job `scan` (`jobs-db`): cached Python + Playwright → init DB → scrape → match → draft → digest → dashboard → `commit_state.sh` → raw video artifact. Job `spectate` (no lock): merge → mp4 artifact → GitHub Release → prune → recap email. |
 | `submit.yml` | `job_approved` / `job_rejected` | Job `handle` (`jobs-db`): reject **or** submit → notify payload → dashboard → commit → artifacts. Job `spectate`: merge → Release → prune → notify email with recording link. |
 | `report.yml` | `30 16 * * *` UTC (~10pm IST) + manual | cached Python → `daily_report.py` (read-only on repo contents) |
+| `resume-otp.yml` | `repository_dispatch` `resume_otp` | cached Python → `resume_otp_email.py` (Gmail to `GMAIL_ADDRESS` only; not in `jobs-db`) |
 | `prune-recordings.yml` | `20 * * * *` + manual | cached Python → `prune_recordings.py` (no `jobs-db` lock) |
 
-All three use concurrency group `jobs-db` with `cancel-in-progress: false` **on the DB-writing job only** (scan/handle/report). Spectate jobs are outside that group. Shared composite `.github/actions/setup-cached-python` restores `.venv` (and Playwright browsers for scan/submit) when `requirements.txt` + Python version match; otherwise it installs and saves the cache.
+Scan / submit / report use concurrency group `jobs-db` with `cancel-in-progress: false` **on the DB-writing job only**. Spectate and resume-otp jobs are outside that group. Shared composite `.github/actions/setup-cached-python` restores `.venv` (and Playwright browsers for scan/submit) when `requirements.txt` + Python version match; otherwise it installs and saves the cache.
 
 ---
 
@@ -182,7 +188,7 @@ All three use concurrency group `jobs-db` with `cancel-in-progress: false` **on 
 |---|---|
 | `YC_EMAIL` / `YC_PASSWORD` | Preferred auto-login |
 | `YC_SESSION_COOKIES` | Optional cookie fallback |
-| `GMAIL_ADDRESS` / `GMAIL_APP_PASSWORD` | Digest, notify, scan recap, daily report |
+| `GMAIL_ADDRESS` / `GMAIL_APP_PASSWORD` | Digest, notify, scan recap, daily report, resume-login OTP |
 | `LLM_API_KEY` | Gemini drafts |
 | `OPENROUTER_API_KEY` | Free-tier fallback |
 | `APPROVAL_HMAC_SECRET` | Sign/verify approval links (same as Worker) |
@@ -192,7 +198,8 @@ All three use concurrency group `jobs-db` with `cancel-in-progress: false` **on 
 | Secret | Purpose |
 |---|---|
 | `APPROVAL_HMAC_SECRET` | Verify email links and sign `/resumes` session cookie |
-| `GH_PAT_FOR_DISPATCH` | Fire `repository_dispatch`, commit resume files from `/resumes`, read `data/jobs.json` |
+| `GH_PAT_FOR_DISPATCH` | Fire `repository_dispatch` (approve/reject + resume OTP), commit resume files from `/resumes`, read `data/jobs.json` |
+| `RECOVERY_EMAIL` | Inbox that may request a forgot-password/name code (same as `GMAIL_ADDRESS`) |
 
 Local: `.env` or `credentials.local.yaml` (never commit). See `.env.example` / `credentials.local.yaml.example`.
 
@@ -220,7 +227,8 @@ Also: `python -m playwright install chromium` after pip.
 | GitHub Actions | 2,000 min/month (private) | Few min/run × scan every 4h + submits |
 | Cloudflare Workers | 100k req/day | A few clicks/day |
 | Gemini / OpenRouter free | Generous free quotas | Dozens of drafts/day |
-| Gmail SMTP | Personal volume | Digest + notify + scan recap + 1 daily report |
+| Gmail SMTP | Personal volume | Digest + notify + scan recap + 1 daily report + resume OTP |
+| Cloudflare KV | 100k reads / 1k writes / day | Resume login name, password HMAC, OTP |
 | GitHub Releases | Repo storage | `recording-*` mp4s, deleted after 24h |
 | SQLite in repo | N/A | Free storage |
 
@@ -245,6 +253,7 @@ Also: `python -m playwright install chromium` after pip.
 | GitHub Pages dashboard + conflict-safe commit | Done |
 | Pipeline tests (`tests/test_pipeline.py`) | Done |
 | Spectate (record after login, mp4 artifact, GitHub Release, prune, email link) | Done |
+| Resume login forgot password / name (OTP via Actions + KV) | Done |
 
 **Local smoke order:** `test_pipeline.py` → scrape → match → draft → digest → `submit.py --dry-run` → dashboard. Optional: `RECORD_RUN=true` on scrape/submit to write local `.webm` clips.
 

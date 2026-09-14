@@ -1,5 +1,4 @@
 export const COOKIE = "yc_resume_auth";
-export const SESSION_MSG = "resume-ui|dev";
 
 export function b64url(bytes) {
   let bin = "";
@@ -58,7 +57,7 @@ export function page(title, body, status = 200, extraHeaders = {}, extraCss = ""
   <style>
     body { font-family: sans-serif; margin: 24px; max-width: 960px; }
     label { display: block; margin: 12px 0 4px; font-weight: 600; }
-    input[type=text], input[type=password], textarea { width: 100%; box-sizing: border-box; padding: 8px; }
+    input[type=text], input[type=password], input[type=email], textarea { width: 100%; box-sizing: border-box; padding: 8px; }
     textarea { min-height: 220px; font-family: ui-monospace, Consolas, monospace; font-size: 13px; }
     .row { display: flex; gap: 12px; margin-top: 16px; align-items: center; }
     button { padding: 8px 16px; }
@@ -75,35 +74,26 @@ export function page(title, body, status = 200, extraHeaders = {}, extraCss = ""
   );
 }
 
-function cookieValue(request) {
+export function cookieNamed(request, name) {
   const header = request.headers.get("Cookie") || "";
   for (const part of header.split(";")) {
     const [key, ...rest] = part.trim().split("=");
-    if (key === COOKIE) return rest.join("=");
+    if (key === name) return rest.join("=");
   }
   return "";
 }
 
-export function setCookie(token, clear = false) {
+export function setCookie(token, clear = false, options = {}) {
+  const name = options.name || COOKIE;
+  const maxAge = clear ? 0 : (options.maxAge ?? 60 * 60 * 24 * 14);
   const value = clear ? "" : token;
-  const maxAge = clear ? 0 : 60 * 60 * 24 * 14;
-  return `${COOKIE}=${value}; Path=/resumes; HttpOnly; Secure; SameSite=Lax; Max-Age=${maxAge}`;
+  return `${name}=${value}; Path=/resumes; HttpOnly; Secure; SameSite=Lax; Max-Age=${maxAge}`;
 }
 
 export function redirect(location, headers = {}) {
-  return new Response(null, { status: 303, headers: { Location: location, ...headers } });
-}
-
-export async function isAuthed(request, env) {
-  const secret = env.APPROVAL_HMAC_SECRET;
-  const token = cookieValue(request);
-  if (!secret || !token) return false;
-  const expected = await hmacSign(SESSION_MSG, secret);
-  try {
-    return timingEqualBytes(b64urlDecode(expected), b64urlDecode(token));
-  } catch {
-    return false;
-  }
+  const h = headers instanceof Headers ? new Headers(headers) : new Headers(headers);
+  h.set("Location", location);
+  return new Response(null, { status: 303, headers: h });
 }
 
 export function safeNext(value) {
@@ -111,18 +101,29 @@ export function safeNext(value) {
   if (!raw.startsWith("/resumes")) return "/resumes";
   if (raw.includes("://") || raw.startsWith("//") || raw.includes("\\")) return "/resumes";
   const path = raw.split("?")[0];
-  if (path === "/resumes/login" || path === "/resumes/logout") return "/resumes";
+  const blocked = new Set([
+    "/resumes/login",
+    "/resumes/logout",
+    "/resumes/forgot",
+    "/resumes/forgot-password",
+    "/resumes/forgot-name",
+    "/resumes/otp",
+    "/resumes/reset",
+  ]);
+  if (blocked.has(path)) return "/resumes";
   if (path !== "/resumes" && !path.startsWith("/resumes/")) return "/resumes";
   return raw;
 }
 
-export function loginPage(error = "", next = "/resumes") {
+export function loginPage(error = "", next = "/resumes", notice = "") {
   const dest = safeNext(next);
   const err = error ? `<p class="error">${esc(error)}</p>` : "";
+  const ok = notice ? `<p class="ok">${esc(notice)}</p>` : "";
   return page(
     "Resume login",
     `<h1>Resume login</h1>
      ${err}
+     ${ok}
      <form method="post" action="/resumes/login">
        <input type="hidden" name="next" value="${esc(dest)}"/>
        <label for="username">Name</label>
@@ -130,7 +131,9 @@ export function loginPage(error = "", next = "/resumes") {
        <label for="password">Password</label>
        <input id="password" name="password" type="password" autocomplete="current-password" required/>
        <div class="row"><button type="submit">Log in</button></div>
-     </form>`
+     </form>
+     <p class="muted"><a href="/resumes/forgot-password">Forgot password?</a>
+     · <a href="/resumes/forgot-name">Forgot name?</a></p>`
   );
 }
 
