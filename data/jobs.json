@@ -1,15 +1,31 @@
 {
-  "exported_at": "2026-09-14T23:01:32+00:00",
+  "exported_at": "2026-09-15T03:33:37+00:00",
   "daily_cap": 5,
-  "submitted_today": 1,
+  "submitted_today": 0,
   "counts": {
-    "discovered": 584,
+    "discovered": 585,
     "submitted": 5,
     "pending_approval": 114,
     "failed": 3,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "21bb21bc9a9bbaaeda1fa76eb7e5ff0c",
+      "company": "VectorShift",
+      "role": "Chief of Staff",
+      "url": "https://www.workatastartup.com/jobs/109938",
+      "jd_text": "VectorShift is the AI operating system for private market investors. We give private equity firms intelligence that compounds across every deal: VDR analysis, IC memos, portfolio monitoring, and LP reporting, with every figure and finding traced back to the exact document and page. Diligence findings, IC decisions, and realized outcomes become the firm's living record, so cross-deal patterns surface at underwriting and associates learn faster because the firm's playbook is alongside them on every deal.\n\nWe're trusted by enterprises and portfolio companies managing billions in AUM.  \n\nAbout the role\n\nWe're looking for a Chief of Staff to work directly with the founders and drive the company's highest-priority initiatives.\n\nWhat you'll do\n\nYou'll partner with the CEO to own whatever matters most in a given week:\n\n* Prospect key accounts and build relationships with partners and decision-makers at private equity firms\n* Drive enterprise pilots through to adoption and conversion\n* Run day-to-day operations and admin\n* Stand up cross-functional initiatives to drive growth and tighten internal operations\n* Support hiring, from sourcing through closing candidates\n\nThis is a rare chance to see every part of a startup up close, spanning enterprise sales, customer success, hiring, marketing, and operations, while working with some of the most sophisticated investors in private markets.\n\nWhat we're looking for\n\n* Comfortable in a technical and financial environment. We build AI infrastructure for investment teams. You don't need an engineering or finance background, but you do need to hold your own in conversations with both engineers and PE professionals and quickly understand the problems they're solving.\n* Highly organized and independent. You might be reviewing an enterprise contract one hour and building a marketing process the next. We want someone who can build whatever structure they need to keep things moving and make sure nothing slips.\n* A true generalist. You'll take on whatever needs to get done for the company to grow. If you're only interested in one kind of work, this role isn't for you.\n* Proactive and solution-focused. There's no shortage of ways to grow. We want someone who seeks those opportunities out and drives them to real impact without being asked.\n\nInterview process\n\n1. Intro call (30 min). A quick conversation to get to know each other.\n2. Case study (60 min). We'll work through a hypothetical scenario together. New York, NY, US fulltime yes\nlocations: New York, NY, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-15T03:33:31+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null
+    },
     {
       "id": "2ff91acd51225229e732a84340aa9bcd",
       "company": "ClaimSorted",
