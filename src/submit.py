@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import os
+import re
 
 from dotenv import load_dotenv
 from playwright.sync_api import Page, TimeoutError as PlaywrightTimeout
@@ -22,6 +24,14 @@ EXTERNAL_HINTS = (
     "company website",
     "external application",
     "apply via",
+)
+CONFIRM_HINTS = (
+    "applied",
+    "application",
+    "thank you",
+    "thanks for applying",
+    "we've received",
+    "we have received",
 )
 
 
@@ -141,6 +151,26 @@ def _message_text(job) -> str:
     return with_github("", cfg)
 
 
+def confirmation_payload(*, ok: bool, url: str = "", text: str = "") -> str:
+    snippet = re.sub(r"\s+", " ", (text or "").strip())[:240]
+    return json.dumps({"ok": bool(ok), "url": url or "", "text": snippet}, ensure_ascii=False)
+
+
+def capture_confirmation(page: Page) -> str:
+    url = page.url
+    try:
+        body = page.inner_text("body")
+    except Exception:
+        body = ""
+    blob = (body or "").lower()
+    ok = any(hint in blob for hint in CONFIRM_HINTS)
+    return confirmation_payload(ok=ok, url=url, text=body)
+
+
+def _github_run_id() -> str | None:
+    return os.getenv("GITHUB_RUN_ID", "").strip() or None
+
+
 def _click_send(page: Page) -> None:
     btn = _send_button(page)
     btn.wait_for(state="visible", timeout=15000)
@@ -195,14 +225,18 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             _fill_message(page, message)
             if dry:
                 log.info("Dry-run: Apply clicked and note filled; Send not clicked.")
+                signal = confirmation_payload(ok=False, url=page.url, text="dry-run: Send not clicked")
             else:
                 _click_send(page)
                 page.wait_for_timeout(3000)
+                signal = capture_confirmation(page)
             fields: dict = {
                 "status": "submitted" if not dry else "pending_approval",
                 "decided_at": utc_now(),
                 "submitted_at": utc_now() if not dry else job["submitted_at"],
                 "sent_message": message,
+                "confirmation_signal": signal,
+                "github_run_id": _github_run_id(),
             }
             if not dry:
                 fields["error_message"] = None
@@ -219,6 +253,8 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             decided_at=utc_now(),
             error_message=truncate_error(f"timeout: {exc}"),
             sent_message=message,
+            confirmation_signal=confirmation_payload(ok=False, text=f"timeout: {exc}"),
+            github_run_id=_github_run_id(),
         )
         log.exception("Submit timeout for %s — %s", job["company"], job["role"])
     except Exception as exc:
@@ -229,6 +265,8 @@ def submit_job(job_id: str, cli_dry: bool = False) -> None:
             decided_at=utc_now(),
             error_message=truncate_error(str(exc)),
             sent_message=message,
+            confirmation_signal=confirmation_payload(ok=False, text=str(exc)),
+            github_run_id=_github_run_id(),
         )
         log.exception("Submit failed for %s — %s", job["company"], job["role"])
     conn.commit()

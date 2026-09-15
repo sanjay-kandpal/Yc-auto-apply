@@ -5,7 +5,7 @@ import re
 import time
 
 from config_loader import load_config, repo_path
-from db import connect, update_job
+from db import connect, update_job, utc_now
 from llm import complete
 from log_config import setup_logging
 
@@ -279,7 +279,7 @@ def draft() -> None:
                 job["role"],
                 failures,
             )
-        update_job(conn, job["id"], draft_answer=answer, status="drafted")
+        update_job(conn, job["id"], draft_answer=answer, status="drafted", drafted_at=utc_now())
         conn.commit()
         log.info("drafted %s — %s", job["company"], job["role"])
         log.debug("draft text for %s: %s", job["id"], answer)

@@ -1,7 +1,7 @@
 export const PAGE_SIZE = 10;
 export const PAGE_BUTTONS = 10;
 
-const LIST_OMIT = new Set(["jd_text", "draft_answer", "approval_token"]);
+const LIST_OMIT = new Set(["jd_text", "draft_answer", "approval_token", "match_breakdown"]);
 
 export function searchBlob(job) {
   return [job.id, job.company, job.role, job.error_message, job.resume_variant, job.sent_message, job.draft_answer]

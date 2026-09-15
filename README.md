@@ -18,17 +18,17 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 |---|---|
 | `src/login.py` | Playwright email/password login. On failure, emails you to update credentials; next 4-hour run (or manual scan) retries. |
 | `src/scrape.py` | Playwright after login. Walks `search.sources` (remote, India, 1–2 years). Intercepts Algolia / `companies/fetch` JSON and Inertia `data-page`, then stores new rows (dedup by URL). |
-| `src/match.py` | TF-IDF + keyword overlap + hard filters. Writes `match_score` and `resume_variant`. |
-| `src/draft.py` | Gemini (OpenRouter fallback) drafts notes, validates prompt rules (sentence count, no greeting/sign-off, first person, GitHub line), and re-asks up to `validation_retries` times. |
+| `src/match.py` | TF-IDF + keyword overlap + hard filters. Writes `match_score`, `resume_variant`, `match_breakdown`, and a hashed resume snapshot. |
+| `src/draft.py` | Gemini (OpenRouter fallback) drafts notes, validates prompt rules (sentence count, no greeting/sign-off, first person, GitHub line), and re-asks up to `validation_retries` times. Sets `drafted_at`. |
 | `src/email_digest.py` | HTML digest with HMAC Approve/Reject links. Sets `pending_approval`. |
 | `worker/index.js` | Cloudflare Worker router: `/` approve links, `/resumes` editor, `/resumes/jobs` DB viewer, forgot password/name. |
 | `worker/approve.js` | Verifies the HMAC link, fires GitHub `repository_dispatch`. |
 | `worker/auth.js` | KV login credentials, session nonce, OTP hash/tries. Seed name `dev` until reset. |
 | `worker/forgot.js` | Forgot password/name: email → 6-digit OTP → set new value. |
 | `worker/resumes.js` | Password login + hosted editor; commits `data/resumes/*.txt` via GitHub Contents API. |
-| `worker/jobs.js` | Read-only jobs visualizer; loads `data/jobs.json` via GitHub Contents API. |
-| `src/export_jobs.py` | Writes `data/jobs.json` (all job columns except `approval_token`). |
-| `src/submit.py` | After Approve only: click Apply → fill LLM note → Send. Daily cap. Local `--dry-run` skips Send. |
+| `worker/jobs.js` | Read-only jobs visualizer; loads `data/jobs.json` + `data/resume_versions.json` via Git blobs API. |
+| `src/export_jobs.py` | Writes `data/jobs.json` (all job columns except `approval_token`) and `data/resume_versions.json`. |
+| `src/submit.py` | After Approve only: click Apply → fill LLM note → Send. Stores `sent_message`, `confirmation_signal`, `github_run_id`. Daily cap. Local `--dry-run` skips Send. |
 | `src/session.py` | Playwright browser/context. Login is unrecorded; if `RECORD_RUN=true`, a second context records scrape/submit. |
 | `src/record_video.py` | Concatenate Playwright `.webm` clips, transcode to one H.264 mp4, write `meta.json`. |
 | `src/publish_release.py` | Attach the mp4 to a `recording-<run_id>` GitHub Release (`GITHUB_TOKEN`). |
@@ -38,10 +38,10 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `src/daily_report.py` | 10pm IST daily email over the previous 10pm→10pm window: applied / rejected / failed counts, job lists, errors grouped by identical message. |
 | `src/resume_otp_email.py` | Emails a 6-digit resume-login OTP (Gmail SMTP). Never logs the code. |
 | `src/log_config.py` | Stdout `logging` for Actions (`LOG_LEVEL`, default INFO). |
-| `src/dashboard.py` | Writes `docs/index.html` for GitHub Pages and `data/jobs.json` for the Worker viewer. |
-| `src/db.py` | SQLite helpers. Migrates `error_message` and `sent_message` on connect. `python src/db.py --init` / `--mark-rejected ID`. |
+| `src/dashboard.py` | Writes `docs/index.html` for GitHub Pages and `data/jobs.json` + `data/resume_versions.json` for the Worker viewer. |
+| `src/db.py` | SQLite helpers. Migrates receipt columns and `resume_versions` on connect. `python src/db.py --init` / `--mark-rejected ID`. |
 | `scripts/export_session.py` | Optional cookie fallback if password login is blocked (OAuth / 2FA). |
-| `scripts/commit_state.sh` | Shared Actions commit/push with conflict recovery (restore DB + regenerate dashboard and `jobs.json`). |
+| `scripts/commit_state.sh` | Shared Actions commit/push with conflict recovery (restore DB + regenerate dashboard, `jobs.json`, `resume_versions.json`). |
 | `.github/actions/setup-cached-python` | Shared Actions setup: restore `.venv` (and Playwright browsers on scan/submit) or install on cache miss. |
 | `.github/actions/publish-recording` | Follow-on job: ffmpeg merge, mp4 artifact, GitHub Release, prune, recording email. |
 | `config.yaml` | Filters, threshold, delays, cap, LLM provider, Worker URL, spectate bitrate/retention. |
@@ -94,7 +94,7 @@ Resume editor: `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes` — s
 
 Forgot password / name: on the login page, enter `RECOVERY_EMAIL`, wait for the 6-digit Gmail code (`resume-otp.yml`, 30s–2min), then set a new password or name. Codes expire in 10 minutes. New values live in Cloudflare KV (`RESUME_AUTH`); a credential change logs out existing sessions. Keep the repo private — the OTP is in the Actions event payload until it expires.
 
-Jobs visualizer (same login): `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes/jobs` — read-only snapshot of `data/jobs.json` from the last scan/submit commit. The Worker loads the **latest commit** on `GH_BRANCH` via the Git blobs API (not GitHub’s cached raw CDN). Lists **10 rows per page**; `/resumes/jobs.json?page=N` returns only that page (plus `total_pages`). Click page numbers or Next to fetch the next 10. Deploy the Worker after pulling Worker changes (`npx wrangler deploy` in `worker/`).
+Jobs visualizer (same login): `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes/jobs` — read-only snapshot of `data/jobs.json` from the last scan/submit commit. The Worker loads the **latest commit** on `GH_BRANCH` via the Git blobs API (not GitHub’s cached raw CDN). Lists **10 rows per page**; `/resumes/jobs.json?page=N` returns only that page (plus `total_pages`). Click a company for the receipt: score breakdown, hashed resume text, timeline, Send confirmation. Deploy the Worker after pulling Worker changes (`npx wrangler deploy` in `worker/`).
 
 Run recordings: GitHub **Releases** tagged `recording-<run_id>`. They are deleted after **24 hours** (`spectate.retain_hours`; hourly `prune-recordings.yml` plus after each spectate job). A count cap (`keep_releases`) is a backup. The email link downloads the mp4 (GitHub does not play it inline) and 404s after prune. You must be logged into GitHub if the repo is private. Workflow artifacts expire after 1 day.
 
@@ -132,7 +132,7 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 - Daily cap (`submit.daily_cap`, default 5) applies even after Approve.
 - Scan, submit, and daily-report share concurrency group `jobs-db` (one writer at a time, no cancel). Encoding/upload runs in a follow-on `spectate` job **outside** that group so ffmpeg does not block Approve. Commit uses `scripts/commit_state.sh`: on rebase/push conflict it resets to remote, restores this run’s `data/jobs.db`, regenerates `docs/index.html` and `data/jobs.json`, and retries with exponential backoff.
 - Spectate: Actions sets `RECORD_RUN=true`. Playwright records scrape/submit after login, a follow-on job merges to mp4 (artifact, 1 day), publishes a `recording-<run_id>` GitHub Release, and emails the Release URL plus the Actions run URL. Releases older than 24 hours are deleted (`spectate.retain_hours`, hourly `prune-recordings.yml` and after each spectate job). Failed runs still publish whatever video exists. Recordings are not committed. Default `RECORD_RUN` is off locally. The Release link downloads the file and 404s after prune; keep the repo private.
-- Resume editor lives on the Worker (`/resumes`), not GitHub Pages. Save writes `data/resumes/*.txt` through the GitHub Contents API. Login is name + password (seed `dev` until you reset). **Forgot password?** / **Forgot name?** email a 6-digit code to `RECOVERY_EMAIL` via `resume-otp.yml` (always `GMAIL_ADDRESS`). The Jobs viewer is `/resumes/jobs` (same cookie): 10 rows per page from `/resumes/jobs.json?page=`, not the full snapshot. It reads the latest `GH_BRANCH` commit through the Git blobs API so the table is not stuck on a cached `raw.githubusercontent.com` copy.
+- Resume editor lives on the Worker (`/resumes`), not GitHub Pages. Save writes `data/resumes/*.txt` through the GitHub Contents API. Login is name + password (seed `dev` until you reset). **Forgot password?** / **Forgot name?** email a 6-digit code to `RECOVERY_EMAIL` via `resume-otp.yml` (always `GMAIL_ADDRESS`). The Jobs viewer is `/resumes/jobs` (same cookie): 10 rows per page from `/resumes/jobs.json?page=`, not the full snapshot. Job detail (`?id=`) is the application receipt (score breakdown, resume snapshot from `data/resume_versions.json`, timeline). It reads the latest `GH_BRANCH` commit through the Git blobs API so the table is not stuck on a cached `raw.githubusercontent.com` copy.
 - Actions Python deps are cached via `.github/actions/setup-cached-python`. Cache key is OS + Python version + `requirements.txt` hash. Hit → skip `pip install` and reuse `.venv`. Miss → create venv, install, save cache. Scan/submit also cache `~/.cache/ms-playwright`; on a browser cache hit they only install OS deps (`playwright install-deps`). Changing `requirements.txt` or the Python patch version forces a fresh install.
 - External/company-site apply listings are skipped and marked `failed` (error stored in `error_message`).
 - Failed submits store `error_message` (truncated). Successful retries clear it. The exact apply note (draft + GitHub line, or resume fallback) is stored in `sent_message` on submit, dry-run fill, and failed apply.

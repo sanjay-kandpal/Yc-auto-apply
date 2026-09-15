@@ -35,9 +35,30 @@ CREATE TABLE IF NOT EXISTS jobs (
 
 ERROR_MESSAGE_MAX_LEN = 500
 
+RESUME_VERSIONS_SCHEMA = """
+CREATE TABLE IF NOT EXISTS resume_versions (
+  hash TEXT PRIMARY KEY,
+  variant TEXT,
+  content TEXT,
+  created_at TEXT
+);
+"""
+
+JOB_RECEIPT_COLUMNS = (
+    "match_breakdown",
+    "resume_version_hash",
+    "drafted_at",
+    "confirmation_signal",
+    "github_run_id",
+)
+
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def resume_hash(text: str) -> str:
+    return hashlib.sha256((text or "").encode("utf-8")).hexdigest()
 
 
 def truncate_error(message: str, max_len: int = ERROR_MESSAGE_MAX_LEN) -> str:
@@ -58,6 +79,10 @@ def _migrate(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE jobs ADD COLUMN error_message TEXT")
     if "sent_message" not in cols:
         conn.execute("ALTER TABLE jobs ADD COLUMN sent_message TEXT")
+    for col in JOB_RECEIPT_COLUMNS:
+        if col not in cols:
+            conn.execute(f"ALTER TABLE jobs ADD COLUMN {col} TEXT")
+    conn.execute(RESUME_VERSIONS_SCHEMA)
 
 
 def connect(path: Path | None = None) -> sqlite3.Connection:
@@ -69,6 +94,25 @@ def connect(path: Path | None = None) -> sqlite3.Connection:
     conn.execute(SCHEMA)
     _migrate(conn)
     return conn
+
+
+def ensure_resume_version(conn: sqlite3.Connection, variant: str, content: str) -> str:
+    digest = resume_hash(content)
+    row = conn.execute("SELECT hash FROM resume_versions WHERE hash = ?", (digest,)).fetchone()
+    if row:
+        return digest
+    conn.execute(
+        """
+        INSERT INTO resume_versions (hash, variant, content, created_at)
+        VALUES (?, ?, ?, ?)
+        """,
+        (digest, variant, content, utc_now()),
+    )
+    return digest
+
+
+def all_resume_versions(conn: sqlite3.Connection) -> list[sqlite3.Row]:
+    return list(conn.execute("SELECT hash, variant, content, created_at FROM resume_versions"))
 
 
 def init_db(path: Path | None = None) -> None:

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Commit data/jobs.db + data/jobs.json + docs/index.html and push with conflict recovery.
+# Commit data/jobs.db + data/jobs.json + data/resume_versions.json + docs/index.html
 # Usage: COMMIT_MSG="scan run" BRANCH=main bash scripts/commit_state.sh
 set -euo pipefail
 
@@ -8,7 +8,7 @@ COMMIT_MSG="${COMMIT_MSG:?COMMIT_MSG is required}"
 MAX_RETRIES="${MAX_RETRIES:-5}"
 BACKOFF_BASE="${BACKOFF_BASE:-5}"
 RUN_DB="${RUNNER_TEMP:-/tmp}/yc-jobs-db-run.sqlite"
-STATE_PATHS="data/jobs.db data/jobs.json docs/index.html"
+STATE_PATHS="data/jobs.db data/jobs.json data/resume_versions.json docs/index.html"
 
 git config user.name "yc-job-bot"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

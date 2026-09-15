@@ -38,6 +38,15 @@ function parseSnapshot(text) {
   };
 }
 
+function parseVersions(text) {
+  try {
+    const parsed = JSON.parse(text);
+    return parsed.versions && typeof parsed.versions === "object" ? parsed.versions : {};
+  } catch {
+    return {};
+  }
+}
+
 function contentsUrl(env, path, ref) {
   const url = `https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}/contents/${path}`;
   return ref ? `${url}?ref=${encodeURIComponent(ref)}` : url;
@@ -54,25 +63,24 @@ async function headCommitSha(env) {
   return data.sha;
 }
 
-async function loadBlob(env, sha) {
+async function loadRawBlob(env, sha) {
   const url = `https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}/git/blobs/${sha}`;
   const res = await ghFetch(env, url, { Accept: "application/vnd.github.raw" });
   if (!res.ok) throw new Error(githubError(res.status, await res.text()));
-  return parseSnapshot(await res.text());
+  return res.text();
 }
 
-async function shaFromDataDir(env, ref) {
+async function shaFromDataDir(env, ref, fileName) {
   const res = await ghFetch(env, contentsUrl(env, "data", ref));
   if (!res.ok) throw new Error(githubError(res.status, await res.text()));
   const entries = await res.json();
-  const entry = Array.isArray(entries) ? entries.find((item) => item.name === "jobs.json") : null;
+  const entry = Array.isArray(entries) ? entries.find((item) => item.name === fileName) : null;
   return entry?.sha || "";
 }
 
-async function loadSnapshot(env) {
-  const commit = await headCommitSha(env);
-  const res = await ghFetch(env, contentsUrl(env, "data/jobs.json", commit));
-  if (res.status === 404) return emptySnapshot();
+async function loadDataFile(env, commit, fileName) {
+  const res = await ghFetch(env, contentsUrl(env, `data/${fileName}`, commit));
+  if (res.status === 404) return null;
   const raw = await res.text();
   let meta = null;
   try {
@@ -81,12 +89,39 @@ async function loadSnapshot(env) {
     meta = null;
   }
   if (!res.ok) throw new Error(githubError(res.status, raw));
-  // jobs.json is >1MB so Contents omits `content`. Never use download_url
-  // (raw.githubusercontent.com) — GitHub CDN serves a stale copy for hours.
-  const sha = meta?.sha || (await shaFromDataDir(env, commit));
-  if (sha) return loadBlob(env, sha);
-  if (meta?.content) return parseSnapshot(decodeGithubContent(meta.content));
+  const sha = meta?.sha || (await shaFromDataDir(env, commit, fileName));
+  if (sha) return loadRawBlob(env, sha);
+  if (meta?.content) return decodeGithubContent(meta.content);
   throw new Error(githubError(res.status, raw));
+}
+
+async function loadSnapshot(env) {
+  const commit = await headCommitSha(env);
+  const jobsText = await loadDataFile(env, commit, "jobs.json");
+  if (!jobsText) return { snapshot: emptySnapshot(), versions: {} };
+  const snapshot = parseSnapshot(jobsText);
+  let versions = {};
+  try {
+    const versionsText = await loadDataFile(env, commit, "resume_versions.json");
+    if (versionsText) versions = parseVersions(versionsText);
+  } catch {
+    versions = {};
+  }
+  return { snapshot, versions };
+}
+
+function newestHashForVariant(versions, variant) {
+  let best = "";
+  let bestAt = "";
+  for (const [hash, row] of Object.entries(versions || {})) {
+    if (!row || row.variant !== variant) continue;
+    const at = String(row.created_at || "");
+    if (at >= bestAt) {
+      bestAt = at;
+      best = hash;
+    }
+  }
+  return best;
 }
 
 function jsonResponse(data, status = 200) {
@@ -122,15 +157,20 @@ export async function handleJobs(request, env) {
   }
 
   try {
-    const snapshot = await loadSnapshot(env);
+    const { snapshot, versions } = await loadSnapshot(env);
     const query = queryFromUrl(url);
     if (query.id) {
       const job = (snapshot.jobs || []).find((row) => row.id === query.id);
       if (!job) return jsonResponse({ error: "Unknown job id" }, 404);
+      const hash = job.resume_version_hash || "";
+      const resume = hash && versions[hash] ? { hash, ...versions[hash] } : null;
+      const live_resume_hash = newestHashForVariant(versions, job.resume_variant || "");
       return jsonResponse({
         missing: Boolean(snapshot.missing),
         exported_at: snapshot.exported_at || null,
         job,
+        resume,
+        live_resume_hash: live_resume_hash || null,
       });
     }
     return jsonResponse(buildListResponse(snapshot, query));

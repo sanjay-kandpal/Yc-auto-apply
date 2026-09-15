@@ -34,6 +34,7 @@ Yc-auto-apply/
 │   ├── jobs.js               # Read-only DB viewer (paginated jobs.json)
 │   ├── jobs_query.js         # Filter / sort / 10-per-page slice
 │   ├── jobs_ui.js            # Jobs table + pagination
+│   ├── jobs_receipt.js       # Detail receipt sections (score, resume snapshot, timeline)
 │   └── wrangler.toml
 ├── src/
 │   ├── login.py              # YC email/password login (cookies fallback)
@@ -61,12 +62,13 @@ Yc-auto-apply/
 │   └── config_loader.py      # config.yaml + repo paths
 ├── scripts/
 │   ├── export_session.py     # Optional cookie export if password login blocked
-│   └── commit_state.sh       # Commit DB + jobs.json + dashboard with conflict recovery
+│   └── commit_state.sh       # Commit DB + jobs.json + resume_versions.json + dashboard with conflict recovery
 ├── tests/
 │   └── test_pipeline.py
 ├── data/
 │   ├── jobs.db               # SQLite (committed after scan/submit)
 │   ├── jobs.json             # Snapshot for /resumes/jobs (no approval_token)
+│   ├── resume_versions.json  # Hash → resume text for receipts
 │   └── resumes/
 │       ├── fullstack.txt
 │       ├── backend.txt
@@ -98,11 +100,22 @@ CREATE TABLE jobs (
   decided_at TEXT,
   submitted_at TEXT,
   error_message TEXT,           -- truncated; cleared on successful retry
-  sent_message TEXT             -- exact apply note filled on submit (GitHub line included)
+  sent_message TEXT,            -- exact apply note filled on submit (GitHub line included)
+  match_breakdown TEXT,         -- JSON: filters, per-variant scores, top keywords
+  resume_version_hash TEXT,     -- sha256 of winning resume text at match time
+  drafted_at TEXT,
+  confirmation_signal TEXT,     -- JSON after Send: {ok, url, text}
+  github_run_id TEXT            -- GITHUB_RUN_ID when submit ran in Actions
+);
+CREATE TABLE resume_versions (
+  hash TEXT PRIMARY KEY,
+  variant TEXT,
+  content TEXT,
+  created_at TEXT
 );
 ```
 
-`db.py` creates the schema on connect and migrates `error_message` / `sent_message` if missing.
+`db.py` creates the schema on connect and migrates missing job columns (`error_message`, `sent_message`, receipt fields) plus `resume_versions`.
 
 **Status flow:** `discovered` → `drafted` → `pending_approval` → `submitted` / `failed` / `rejected`. Below-threshold jobs stay `discovered` and never hit email. A prior `failed` apply can be retried via Approve again.
 
@@ -124,12 +137,12 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 
 ### 3.3 Matching (`match.py`)
 - Hard filters (skip keywords, remote/India, role keywords) + TF-IDF cosine similarity + keyword overlap vs resume `.txt` variants.
-- Writes `match_score` and best `resume_variant`. Below `match.threshold` never reaches digest.
+- Writes `match_score`, best `resume_variant`, `match_breakdown` JSON (per-variant cosine/overlap, top overlapping terms, no hard-filter bonus), and `resume_version_hash` via `resume_versions`. Filtered jobs store breakdown with `match_score=0` and no hash. Below `match.threshold` never reaches digest.
 
 ### 3.4 Drafting (`draft.py` + `llm.py`)
 - Only jobs above threshold. Gemini primary (`LLM_API_KEY`); OpenRouter free model fallback (`OPENROUTER_API_KEY`).
 - Validates sentence count, no greeting/sign-off, first person, GitHub profile line; re-asks up to `draft.validation_retries`.
-- Saves `draft_answer`, status `drafted`.
+- Saves `draft_answer`, status `drafted`, `drafted_at`.
 
 ### 3.5 Approval email (`email_digest.py` + `tokens.py` + `mailer.py`)
 - Bundles `drafted` jobs into one HTML email: company, role, score, draft, **Approve** / **Reject** links.
@@ -145,10 +158,10 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 - Forgot password / name (`worker/forgot.js` + `worker/auth.js`): enter `RECOVERY_EMAIL` → 6-digit OTP hashed in KV (10 min, 5 tries, 3 sends / 15 min) → GitHub `repository_dispatch` `resume_otp` → `resume-otp.yml` emails the code to `GMAIL_ADDRESS` only (30s–2min). Then set a new password or name. Wrong email still shows the code form (no leak). Keep the repo private; the OTP is in the Actions event payload until it expires.
 - After login, loads and saves `data/resumes/fullstack.txt`, `backend.txt`, and `frontend.txt` via the GitHub Contents API (`GH_PAT_FOR_DISPATCH`).
 - Next `scan.yml` checkout uses the new text. Already-scored / drafted jobs are not re-matched.
-- `/resumes/jobs` (same cookie) is a read-only DB visualizer. List calls `/resumes/jobs.json?page=` (10 rows per page, `total_pages` in metadata). Page buttons show 10 at a time; Next/Prev and page numbers fetch the next slice from the Worker (the browser does not load the full snapshot). `/resumes/jobs?id=` loads one row (JD, draft, sent message, error, timestamps). No `approval_token`. Snapshot is the latest commit on `GH_BRANCH` (`worker/wrangler.toml`), loaded via Git blobs API with cache bypass. `data/jobs.json` is larger than 1MB, so the Contents API omits `content` and `raw.githubusercontent.com` would stay stale for hours.
+- `/resumes/jobs` (same cookie) is a read-only DB visualizer. List calls `/resumes/jobs.json?page=` (10 rows per page, `total_pages` in metadata). Page buttons show 10 at a time; Next/Prev and page numbers fetch the next slice from the Worker (the browser does not load the full snapshot). `/resumes/jobs?id=` loads one row (JD, draft, sent message, error, timestamps, score breakdown, hashed resume snapshot, timeline, Send confirmation). Joins `resume_version_hash` against `data/resume_versions.json`. No `approval_token`. Snapshot is the latest commit on `GH_BRANCH` (`worker/wrangler.toml`), loaded via Git blobs API with cache bypass. `data/jobs.json` is larger than 1MB, so the Contents API omits `content` and `raw.githubusercontent.com` would stay stale for hours.
 
 ### 3.7 Submission (`submit.yml` → `submit.py`)
-- Approve only: Apply → fill LLM note (native input so Send enables) → Send. Note includes `github.profile_url`. The exact filled text is stored in `sent_message` (live Send, local dry-run, and failed apply).
+- Approve only: Apply → fill LLM note (native input so Send enables) → Send. Note includes `github.profile_url`. The exact filled text is stored in `sent_message` (live Send, local dry-run, and failed apply). After Send, stores `confirmation_signal` (`ok` + page URL + body snippet) and `github_run_id`.
 - Idempotency + `submit.daily_cap` (default 5). Reject path only marks rejected.
 - Local: `python src/submit.py --job-id ID --dry-run` fills without Send. Actions force live Send after Approve (`SUBMIT_DRY_RUN=false`).
 
@@ -156,7 +169,7 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 - `notify.py` — email after approve/reject/submit (includes `error_message` on failure). Submit workflow writes a JSON payload in the `jobs-db` job, then the spectate job sends the mail so it can include the recording link without re-reading a stale checkout of `jobs.db`.
 - `daily_report.py` + `report.yml` — ~10pm IST: previous 10pm→10pm window (survives post-midnight delay), applied/rejected/failed counts, rejected and failed job lists, errors grouped by message.
 - `log_config.py` — stdout logging (`LOG_LEVEL`, default INFO) used by pipeline modules. `commit_state.sh` stays on `echo`.
-- `dashboard.py` — regenerates `docs/index.html` for GitHub Pages and `data/jobs.json` for `/resumes/jobs` (scan + submit commit both).
+- `dashboard.py` — regenerates `docs/index.html` for GitHub Pages and `data/jobs.json` + `data/resume_versions.json` for `/resumes/jobs` (scan + submit commit both).
 
 ### 3.9 Spectate (run recordings)
 - `RECORD_RUN` defaults off. Scan/submit Actions set it `true`. Login/cookie check use an unrecorded context; scrape/submit use a second context with `record_video_dir`.
@@ -254,6 +267,7 @@ Also: `python -m playwright install chromium` after pip.
 | Pipeline tests (`tests/test_pipeline.py`) | Done |
 | Spectate (record after login, mp4 artifact, GitHub Release, prune, email link) | Done |
 | Resume login forgot password / name (OTP via Actions + KV) | Done |
+| Application receipt (match breakdown, hashed resume versions, Send confirmation on `/resumes/jobs?id=`) | Done |
 
 **Local smoke order:** `test_pipeline.py` → scrape → match → draft → digest → `submit.py --dry-run` → dashboard. Optional: `RECORD_RUN=true` on scrape/submit to write local `.webm` clips.
 

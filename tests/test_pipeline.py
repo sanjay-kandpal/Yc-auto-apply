@@ -22,12 +22,23 @@ from daily_report import (  # noqa: E402
     collect_report_jobs,
 )
 from log_config import setup_logging  # noqa: E402
-from db import connect, insert_discovered, job_id_for, submitted_today, update_job, utc_now  # noqa: E402
+from db import (  # noqa: E402
+    all_resume_versions,
+    connect,
+    ensure_resume_version,
+    insert_discovered,
+    job_id_for,
+    resume_hash,
+    submitted_today,
+    update_job,
+    utc_now,
+)
 from export_jobs import JOB_FIELDS, export as export_jobs  # noqa: E402
 from login import load_credentials  # noqa: E402
 from draft import validate_draft, with_github  # noqa: E402
-from match import hard_filter_reason  # noqa: E402
+from match import empty_breakdown, evaluate_hard_filters, hard_filter_reason, score_job  # noqa: E402
 from scrape import search_sources  # noqa: E402
+from submit import confirmation_payload  # noqa: E402
 from tokens import sign, verify  # noqa: E402
 from record_video import build_object_key, object_key_allowed, recording_enabled, workflow_slug  # noqa: E402
 from prune_recordings import tags_to_delete  # noqa: E402
@@ -133,6 +144,57 @@ def test_hard_filter() -> None:
     assert hard_filter_reason("Sales Lead", "remote closing deals", cfg) == "role_mismatch"
     assert hard_filter_reason("Backend Engineer", "on-site NYC only", cfg) == "not_remote_or_india"
     assert hard_filter_reason("Backend Engineer", "Remote Python APIs", cfg) is None
+
+
+def test_match_breakdown_and_resume_versions() -> None:
+    cfg = {
+        "filters": {
+            "skip_keywords": ["intern"],
+            "require_remote_or_india": True,
+            "remote_or_india_keywords": ["remote", "india"],
+            "role_keywords": ["backend", "software engineer"],
+        }
+    }
+    hard, reason = evaluate_hard_filters("Engineering Intern", "remote python", cfg)
+    assert reason == "skip_keyword"
+    assert hard["skip_keyword"] is False
+    assert hard["passed"] is False
+    skipped = empty_breakdown(hard, reason)
+    assert skipped["final_score"] == 0.0
+    assert skipped["variant_scores"] == {}
+    assert "bonus" not in json.dumps(skipped)
+
+    resumes = {
+        "fullstack": "Python APIs React remote TypeScript backend engineer",
+        "backend": "Python APIs remote backend engineer",
+        "frontend": "React TypeScript CSS",
+    }
+    hard_ok, reason_ok = evaluate_hard_filters("Backend Engineer", "Remote Python APIs", cfg)
+    assert reason_ok is None
+    assert hard_ok["passed"] is True
+    breakdown = score_job("Backend Engineer", "Remote Python APIs", resumes, hard=hard_ok)
+    assert 0 <= breakdown["final_score"] <= 100
+    assert breakdown["winning_variant"] in resumes
+    assert set(breakdown["variant_scores"]) == set(resumes)
+    assert breakdown["weights_version"] == "v1"
+    assert "bonus" not in json.dumps(breakdown)
+    for scores in breakdown["variant_scores"].values():
+        assert set(scores) == {"cosine", "overlap", "combined"}
+
+    with tempfile.TemporaryDirectory() as tmp:
+        conn = connect(Path(tmp) / "jobs.db")
+        first = ensure_resume_version(conn, "backend", resumes["backend"])
+        second = ensure_resume_version(conn, "backend", resumes["backend"])
+        assert first == second == resume_hash(resumes["backend"])
+        assert len(all_resume_versions(conn)) == 1
+        other = ensure_resume_version(conn, "frontend", resumes["frontend"])
+        assert other != first
+        assert len(all_resume_versions(conn)) == 2
+        conn.close()
+
+    dry = json.loads(confirmation_payload(ok=False, text="dry-run: Send not clicked"))
+    assert dry["ok"] is False
+    assert "dry-run" in dry["text"]
 
 
 def test_db_dedup_and_cap() -> None:
@@ -307,10 +369,13 @@ def test_jobs_export_omits_token() -> None:
         assert job["draft_answer"] == "I build APIs."
         assert job["sent_message"].startswith("I build APIs.")
         assert job["match_score"] == 42.5
+        assert job["match_breakdown"] is None
         assert data["daily_cap"] == 5
         assert data["counts"]["pending_approval"] == 1
         saved = json.loads(json_path.read_text(encoding="utf-8"))
         assert "approval_token" not in saved["jobs"][0]
+        versions = json.loads(json_path.with_name("resume_versions.json").read_text(encoding="utf-8"))
+        assert "versions" in versions
 
 
 def test_sent_message_migrates() -> None:
@@ -332,6 +397,13 @@ def test_sent_message_migrates() -> None:
         cols = {row[1] for row in conn.execute("PRAGMA table_info(jobs)").fetchall()}
         assert "sent_message" in cols
         assert "error_message" in cols
+        assert "match_breakdown" in cols
+        assert "resume_version_hash" in cols
+        assert "drafted_at" in cols
+        assert "confirmation_signal" in cols
+        assert "github_run_id" in cols
+        tables = {row[0] for row in conn.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()}
+        assert "resume_versions" in tables
         conn.close()
 
 
@@ -371,6 +443,7 @@ if __name__ == "__main__":
     test_job_id_stable()
     test_walk_jobs()
     test_hard_filter()
+    test_match_breakdown_and_resume_versions()
     test_db_dedup_and_cap()
     test_search_sources()
     test_with_github()

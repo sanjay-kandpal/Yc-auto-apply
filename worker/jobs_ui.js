@@ -1,4 +1,5 @@
 import { logoutForm, nav, page } from "./common.js";
+import { RECEIPT_VIEWER_JS } from "./jobs_receipt.js";
 
 const JOBS_CSS = `
 body { max-width: 1200px; }
@@ -16,6 +17,11 @@ tr.pending_approval { background: #fff8e6; }
 tr.submitted { background: #f1faf1; }
 tr.rejected { color: #666; }
 .pre { white-space: pre-wrap; background: #f7f7f7; padding: 12px; border-radius: 6px; font-size: 13px; }
+.bars { display: grid; gap: 6px; margin: 8px 0 16px; max-width: 480px; }
+.bar-row { display: grid; grid-template-columns: 90px 1fr 48px; gap: 8px; align-items: center; font-size: 13px; }
+.bar { background: #eee; height: 8px; border-radius: 4px; }
+.bar > span { display: block; height: 8px; background: #444; border-radius: 4px; }
+.timeline { padding-left: 20px; }
 .msg { max-width: 260px; white-space: pre-wrap; }
 .meta dt { font-weight: 600; margin-top: 10px; }
 .meta dd { margin: 2px 0 0; }
@@ -120,6 +126,7 @@ function renderRows(jobs) {
       "</td><td>" + (job.url ? "<a href=\\"" + esc(job.url) + "\\">listing</a>" : "—") + "</td></tr>";
   }).join("") || "<tr><td colspan=\\"9\\">No jobs match these filters.</td></tr>";
 }
+${RECEIPT_VIEWER_JS}
 function renderDetail(payload) {
   const job = payload.job;
   const root = document.getElementById("app");
@@ -130,22 +137,28 @@ function renderDetail(payload) {
   const fields = [
     ["id", job.id], ["status", job.status], ["company", job.company], ["role", job.role],
     ["url", job.url], ["match_score", job.match_score], ["resume_variant", job.resume_variant],
-    ["discovered_at", job.discovered_at], ["decided_at", job.decided_at],
+    ["resume_version_hash", job.resume_version_hash],
+    ["discovered_at", job.discovered_at], ["drafted_at", job.drafted_at],
+    ["decided_at", job.decided_at],
     ["submitted_at", job.submitted_at], ["error_message", job.error_message],
     ["sent_message", job.sent_message],
   ];
-  const timeKeys = { discovered_at: 1, decided_at: 1, submitted_at: 1 };
+  const timeKeys = { discovered_at: 1, drafted_at: 1, decided_at: 1, submitted_at: 1 };
   const dts = fields.map(([k, v]) => {
     if (k === "url" && v) return "<dt>" + k + "</dt><dd><a href=\\"" + esc(v) + "\\">" + esc(v) + "</a></dd>";
-    if (timeKeys[k]) return "<dt>" + k + "</dt><dd>" + esc(formatIst(v)) + "</dd>";
+    if (timeKeys[k]) return "<dt>" + k + "</dt><dd>" + esc(v ? formatIst(v) : tracked(null)) + "</dd>";
+    if (v == null || v === "") return "<dt>" + k + "</dt><dd class=\\"muted\\">" + esc(tracked(null)) + "</dd>";
     return "<dt>" + k + "</dt><dd>" + esc(text(v)) + "</dd>";
   }).join("");
   root.innerHTML = "<p><a href=\\"/resumes/jobs\\">Back to jobs</a></p>" +
     "<h2>" + esc(text(job.company)) + " — " + esc(text(job.role)) + "</h2>" +
     "<dl class=\\"meta\\">" + dts + "</dl>" +
-    "<h3>Sent message</h3><div class=\\"pre\\">" + esc(text(job.sent_message)) + "</div>" +
-    "<h3>Draft</h3><div class=\\"pre\\">" + esc(text(job.draft_answer)) + "</div>" +
-    "<h3>Job description</h3><div class=\\"pre\\">" + esc(text(job.jd_text)) + "</div>";
+    renderScoreSection(job) +
+    renderResumeSection(payload) +
+    renderTimeline(job) +
+    "<h3>Sent message</h3><div class=\\"pre\\">" + esc(tracked(job.sent_message === "" ? null : job.sent_message)) + "</div>" +
+    "<h3>Draft</h3><div class=\\"pre\\">" + esc(tracked(job.draft_answer === "" ? null : job.draft_answer)) + "</div>" +
+    "<h3>Job description</h3><div class=\\"pre\\">" + esc(tracked(job.jd_text === "" ? null : job.jd_text)) + "</div>";
 }
 async function fetchJson(qs) {
   const res = await fetch("/resumes/jobs.json?" + qs.toString(), { credentials: "same-origin", cache: "no-store" });
