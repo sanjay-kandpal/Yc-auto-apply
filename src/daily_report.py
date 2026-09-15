@@ -82,16 +82,38 @@ def _job_line(job) -> str:
     return f'<li><strong>{company}</strong> — {role} · <a href="{url}">listing</a></li>'
 
 
-def build_report_html(submitted: list, failed: list, date_ist: str) -> str:
+def _jobs_in_window(rows: list, status: str, ts_field: str, start: datetime, end: datetime) -> list:
+    matched = [
+        row
+        for row in rows
+        if row["status"] == status and _in_window(row[ts_field], start, end)
+    ]
+    matched.sort(key=lambda row: row[ts_field] or "", reverse=True)
+    return matched
+
+
+def collect_report_jobs(rows: list, start: datetime, end: datetime) -> tuple[list, list, list]:
+    """submitted / rejected / failed rows inside [start, end)."""
+    submitted = _jobs_in_window(rows, "submitted", "submitted_at", start, end)
+    rejected = _jobs_in_window(rows, "rejected", "decided_at", start, end)
+    failed = _jobs_in_window(rows, "failed", "decided_at", start, end)
+    return submitted, rejected, failed
+
+
+def _list_or_none(jobs: list) -> str:
+    if not jobs:
+        return "<p>None.</p>"
+    return "<ul>" + "".join(_job_line(j) for j in jobs) + "</ul>"
+
+
+def build_report_html(submitted: list, failed: list, date_ist: str, rejected: list | None = None) -> str:
     groups: dict[str, list] = defaultdict(list)
     for job in failed:
         groups[_normalize_error(job["error_message"])].append(job)
 
-    submitted_block = (
-        "<ul>" + "".join(_job_line(j) for j in submitted) + "</ul>"
-        if submitted
-        else "<p>None.</p>"
-    )
+    rejected = list(rejected or [])
+    submitted_block = _list_or_none(submitted)
+    rejected_block = _list_or_none(rejected)
     failed_items = []
     for job in failed:
         company = html.escape(job["company"] or "")
@@ -122,10 +144,13 @@ def build_report_html(submitted: list, failed: list, date_ist: str) -> str:
       <p style="margin:0 0 16px;color:#555">10pm IST window ending {html.escape(date_ist)} (previous 10pm → this 10pm)</p>
       <p style="margin:0 0 16px">
         <strong>{len(submitted)}</strong> successfully applied ·
+        <strong>{len(rejected)}</strong> rejected ·
         <strong>{len(failed)}</strong> failed
       </p>
       <h2 style="margin:24px 0 8px">Successfully applied</h2>
       {submitted_block}
+      <h2 style="margin:24px 0 8px">Rejected</h2>
+      {rejected_block}
       <h2 style="margin:24px 0 8px">Failed</h2>
       {failed_block}
       <h2 style="margin:24px 0 8px">Errors grouped</h2>
@@ -142,29 +167,24 @@ def send_daily_report(now: datetime | None = None, close_date: str | None = None
     rows = list(conn.execute("SELECT * FROM jobs"))
     conn.close()
 
-    submitted = [
-        row
-        for row in rows
-        if row["status"] == "submitted" and _in_window(row["submitted_at"], start, end)
-    ]
-    failed = [
-        row
-        for row in rows
-        if row["status"] == "failed" and _in_window(row["decided_at"], start, end)
-    ]
-    submitted.sort(key=lambda r: r["submitted_at"] or "", reverse=True)
-    failed.sort(key=lambda r: r["decided_at"] or "", reverse=True)
+    submitted, rejected, failed = collect_report_jobs(rows, start, end)
 
     template = cfg.get("email", {}).get(
         "daily_report_subject",
-        "YC daily report — {submitted} applied, {failed} failed ({date})",
+        "YC daily report — {submitted} applied, {rejected} rejected, {failed} failed ({date})",
     )
-    subject = template.format(submitted=len(submitted), failed=len(failed), date=date_ist)
-    body = build_report_html(submitted, failed, date_ist)
+    subject = template.format(
+        submitted=len(submitted),
+        rejected=len(rejected),
+        failed=len(failed),
+        date=date_ist,
+    )
+    body = build_report_html(submitted, failed, date_ist, rejected=rejected)
     send_html_email(subject, body)
     log.info(
-        "Daily report: %s submitted, %s failed for %s → %s (close %s)",
+        "Daily report: %s submitted, %s rejected, %s failed for %s → %s (close %s)",
         len(submitted),
+        len(rejected),
         len(failed),
         start.isoformat(),
         end.isoformat(),

@@ -15,7 +15,12 @@ sys.path.insert(0, str(SRC))
 from datetime import datetime  # noqa: E402
 from zoneinfo import ZoneInfo  # noqa: E402
 
-from daily_report import _in_window, _report_window  # noqa: E402
+from daily_report import (  # noqa: E402
+    _in_window,
+    _report_window,
+    build_report_html,
+    collect_report_jobs,
+)
 from log_config import setup_logging  # noqa: E402
 from db import connect, insert_discovered, job_id_for, submitted_today, update_job, utc_now  # noqa: E402
 from export_jobs import JOB_FIELDS, export as export_jobs  # noqa: E402
@@ -211,6 +216,61 @@ def test_report_window() -> None:
     assert (pinned_start, pinned_end, pinned_date) == (start, end, "2026-09-10")
 
 
+def test_report_includes_rejects() -> None:
+    start, end, date = _report_window(close_date="2026-09-14")
+    rows = [
+        {
+            "company": "Loop",
+            "role": "Eng",
+            "url": "https://example.com/loop",
+            "status": "submitted",
+            "submitted_at": "2026-09-14T08:00:00+00:00",
+            "decided_at": "2026-09-14T08:00:00+00:00",
+            "error_message": None,
+        },
+        {
+            "company": "NoGo",
+            "role": "Intern",
+            "url": "https://example.com/nogo",
+            "status": "rejected",
+            "submitted_at": None,
+            "decided_at": "2026-09-14T10:15:00+00:00",
+            "error_message": None,
+        },
+        {
+            "company": "OldRej",
+            "role": "QA",
+            "url": "https://example.com/old",
+            "status": "rejected",
+            "submitted_at": None,
+            "decided_at": "2026-09-08T07:00:00+00:00",
+            "error_message": None,
+        },
+        {
+            "company": "Broken",
+            "role": "SWE",
+            "url": "https://example.com/fail",
+            "status": "failed",
+            "submitted_at": None,
+            "decided_at": "2026-09-14T04:00:00+00:00",
+            "error_message": "Send stayed disabled.",
+        },
+    ]
+    submitted, rejected, failed = collect_report_jobs(rows, start, end)
+    assert date == "2026-09-14"
+    assert [j["company"] for j in submitted] == ["Loop"]
+    assert [j["company"] for j in rejected] == ["NoGo"]
+    assert [j["company"] for j in failed] == ["Broken"]
+    html = build_report_html(submitted, failed, date, rejected=rejected)
+    assert "1</strong> successfully applied" in html
+    assert "1</strong> rejected" in html
+    assert "1</strong> failed" in html
+    assert "Rejected" in html
+    assert "NoGo" in html
+    assert "OldRej" not in html
+    assert "Send stayed disabled." in html
+
+
 def test_setup_logging_idempotent() -> None:
     import logging
 
@@ -316,6 +376,7 @@ if __name__ == "__main__":
     test_with_github()
     test_validate_draft()
     test_report_window()
+    test_report_includes_rejects()
     test_setup_logging_idempotent()
     test_jobs_export_omits_token()
     test_sent_message_migrates()

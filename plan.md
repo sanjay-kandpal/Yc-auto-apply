@@ -154,7 +154,7 @@ SQLite-as-committed-file is fine at this scale. Scan / submit / report share con
 
 ### 3.8 Notify + daily report + dashboard
 - `notify.py` — email after approve/reject/submit (includes `error_message` on failure). Submit workflow writes a JSON payload in the `jobs-db` job, then the spectate job sends the mail so it can include the recording link without re-reading a stale checkout of `jobs.db`.
-- `daily_report.py` + `report.yml` — ~10pm IST: previous 10pm→10pm window (survives post-midnight delay), applied/failed counts, failed jobs, errors grouped by message.
+- `daily_report.py` + `report.yml` — ~10pm IST: previous 10pm→10pm window (survives post-midnight delay), applied/rejected/failed counts, rejected and failed job lists, errors grouped by message.
 - `log_config.py` — stdout logging (`LOG_LEVEL`, default INFO) used by pipeline modules. `commit_state.sh` stays on `echo`.
 - `dashboard.py` — regenerates `docs/index.html` for GitHub Pages and `data/jobs.json` for `/resumes/jobs` (scan + submit commit both).
 

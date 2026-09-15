@@ -35,7 +35,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `src/prune_recordings.py` | Delete `recording-*` releases older than `spectate.retain_hours` (24) and over `keep_releases`. |
 | `src/spectate_email.py` | Scan recap email with Release download link and/or Actions artifact link. |
 | `src/notify.py` | Confirmation email after approve/reject/submit (includes stored error on failure, plus recording links when present). |
-| `src/daily_report.py` | 10pm IST daily email over the previous 10pm→10pm window: applied/failed counts, failed jobs, errors grouped by identical message. |
+| `src/daily_report.py` | 10pm IST daily email over the previous 10pm→10pm window: applied / rejected / failed counts, job lists, errors grouped by identical message. |
 | `src/resume_otp_email.py` | Emails a 6-digit resume-login OTP (Gmail SMTP). Never logs the code. |
 | `src/log_config.py` | Stdout `logging` for Actions (`LOG_LEVEL`, default INFO). |
 | `src/dashboard.py` | Writes `docs/index.html` for GitHub Pages and `data/jobs.json` for the Worker viewer. |
@@ -136,5 +136,5 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 - Actions Python deps are cached via `.github/actions/setup-cached-python`. Cache key is OS + Python version + `requirements.txt` hash. Hit → skip `pip install` and reuse `.venv`. Miss → create venv, install, save cache. Scan/submit also cache `~/.cache/ms-playwright`; on a browser cache hit they only install OS deps (`playwright install-deps`). Changing `requirements.txt` or the Python patch version forces a fresh install.
 - External/company-site apply listings are skipped and marked `failed` (error stored in `error_message`).
 - Failed submits store `error_message` (truncated). Successful retries clear it. The exact apply note (draft + GitHub line, or resume fallback) is stored in `sent_message` on submit, dry-run fill, and failed apply.
-- Daily report email (~10pm IST via `report.yml`) covers the previous **10pm→10pm IST** window (not midnight→now). If scan holds the `jobs-db` lock past midnight, the delayed run still uses last night’s 10pm close so that day’s applies are not dropped. Manual: **Actions → daily-report → Run workflow** (optional date input) or `python src/daily_report.py` / `--date YYYY-MM-DD`.
+- Daily report email (~10pm IST via `report.yml`) covers the previous **10pm→10pm IST** window (not midnight→now). It counts **applied** (`submitted_at`), **rejected** (`decided_at` on Reject), and **failed** submit errors. If scan holds the `jobs-db` lock past midnight, the delayed run still uses last night’s 10pm close so that day’s applies are not dropped. Manual: **Actions → daily-report → Run workflow** (optional date input) or `python src/daily_report.py` / `--date YYYY-MM-DD`.
 - Pipeline Python modules log to stdout via `src/log_config.py` (Actions job logs). INFO for milestones, WARNING for retries/fallbacks, ERROR with traceback for submit/LLM failures. Per-job scrape/match lines are DEBUG. Set `LOG_LEVEL=DEBUG` locally. Emails and `error_message` are unchanged. `scripts/commit_state.sh` still uses `echo`.
