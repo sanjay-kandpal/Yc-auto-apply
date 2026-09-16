@@ -51,7 +51,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `.github/workflows/scan-wellfound.yml` | Every 8 hours at 02:00/10:00/18:00 UTC (`0 2,10,18 * * *`) plus manual. Offset 2h from YC so both can run without sharing a start hour. |
 | `.github/workflows/submit.yml` | Runs on `job_approved` / `job_rejected` (YC Playwright Send). |
 | `.github/workflows/submit-wellfound.yml` | `wellfound_job_approved` / `wellfound_job_rejected`. Approve is a stub (no live Send). |
-| `src/wellfound/` | Wellfound login, scrape, parse, submit stub. |
+| `src/wellfound/` | Wellfound login, `/jobs` Filters UI scrape, parse, submit stub. |
 | `.github/workflows/report.yml` | ~10pm IST (`30 16 * * *` UTC) plus manual Run workflow — emails the daily report. |
 | `.github/workflows/resume-otp.yml` | `repository_dispatch` `resume_otp` — emails the 6-digit resume-login code. |
 | `.github/workflows/prune-recordings.yml` | Hourly (`20 * * * *`) plus manual — delete `recording-*` Releases older than 24 hours. |
@@ -136,7 +136,7 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 
 ## Notes
 
-- Wellfound is a second board in this repo: [wellfound-plan.md](wellfound-plan.md). It shares Gmail, the Cloudflare Worker, Gemini, and OpenRouter. Login uses `WELLFOUND_*` secrets. Live Easy Apply is not wired; Approve records `approved` only. Redeploy the Worker after pulling `worker/approve.js` so Wellfound digest links dispatch `wellfound_job_*` instead of the YC submit job.
+- Wellfound is a second board in this repo: [wellfound-plan.md](wellfound-plan.md). It shares Gmail, the Cloudflare Worker, Gemini, and OpenRouter. Login uses `WELLFOUND_*` secrets. Scrape opens [wellfound.com/jobs](https://wellfound.com/jobs), clicks **Filters** (Software Engineer + Full-Stack Engineer, Full Time, 0–3 years), then **View results**. Live Easy Apply is not wired; Approve records `approved` only. Redeploy the Worker after pulling `worker/approve.js` so Wellfound digest links dispatch `wellfound_job_*` instead of the YC submit job.
 - Login goes to `account.ycombinator.com` username/password (not the magic-link email page). Valid `YC_SESSION_COOKIES` are tried first. 2FA/CAPTCHA will email you.
 - Each scan walks three WAAS listings from `search.sources`: remote engineering (`remote=only`), India (`locations=India`), and 1–2 years (`minExperience=1&minExperience=2`). Experience is not stacked onto the India/remote URLs. Same job URL from two feeds inserts once. If a filter looks wrong in the UI, copy the address bar into that source’s `url`.
 - Approve is the only apply trigger. Scan (every 4 hours) and Reject never click Apply or Send.

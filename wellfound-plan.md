@@ -23,7 +23,8 @@ Yc-auto-apply/
 │   ├── login.py              # WELLFOUND_EMAIL / password (cookies fallback)
 │   ├── session.py            # Playwright context; record after login
 │   ├── parse.py              # Listing JSON / __NEXT_DATA__ → company/role/url/jd
-│   ├── scrape.py             # Walk wellfound.search.sources; intercept XHR/GraphQL
+│   ├── filters.py            # /jobs Filters popup: roles, full-time, 0–3y, View results
+│   ├── scrape.py             # Login → /jobs → filters UI → intercept XHR/GraphQL
 │   └── submit.py             # Stub: status approved, no live Send
 ├── src/
 │   ├── db.py                 # jobs.source (yc | wellfound)
@@ -64,10 +65,12 @@ Scan / submit-wellfound share concurrency group `jobs-db` with YC writers (one S
 - Login failure emails you; next scan (≤8h or manual) retries.
 - Do not use `YC_*` secrets.
 
-### 3.2 Discovery (`scrape.py` + `parse.py`)
+### 3.2 Discovery (`filters.py` + `scrape.py` + `parse.py`)
 
-- After login, walks `wellfound.search.sources` in `config.yaml` (default: remote eng, India eng) with delays and page caps.
-- Intercepts GraphQL / jobs JSON and `__NEXT_DATA__`; inserts new rows as `discovered` with `source=wellfound`.
+- After login, opens `wellfound.search.jobs_url` (`https://wellfound.com/jobs`), clicks **Filters**, applies config-driven roles (Software Engineer + Full-Stack Engineer), **Full Time**, experience **0–3 years** (include listings with no experience), then **View results**.
+- Does **not** navigate to pre-baked `/role/...` URLs.
+- Network JSON is collected by enqueueing interesting responses (graphql / job search / algolia only) and reading bodies on the main thread — never inside the sync `page.on("response")` handler (that deadlocks Playwright).
+- Intercepts job JSON and `__NEXT_DATA__`; inserts new rows as `discovered` with `source=wellfound`.
 - Company-site / ATS-only listings are skipped when the apply URL is off wellfound.com.
 
 ### 3.3 Matching / drafting / digest
@@ -144,6 +147,7 @@ Same free-tier intent as `plan.md`. Extra Actions minutes: Wellfound scan every 
 | `source` column + YC backfill | Done |
 | Source-signed HMAC + Worker dispatch split | Done |
 | Wellfound login + scrape + parse | Done |
+| `/jobs` Filters UI (roles, full-time, 0–3y, View results) | Done |
 | Match / draft / digest `--source wellfound` | Done |
 | `scan-wellfound.yml` (8h + spectate) | Done |
 | `submit-wellfound.yml` approve stub (no live Send) | Done |

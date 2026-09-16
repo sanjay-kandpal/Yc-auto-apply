@@ -114,16 +114,19 @@ wellfound:
     start_url: "https://wellfound.com/login"
     check_url: "https://wellfound.com/jobs"
   search:
+    # After login: open /jobs → Filters UI → View results (not pre-baked role URLs).
+    jobs_url: "https://wellfound.com/jobs"
     job_url_template: "https://wellfound.com/jobs/{job_id}"
-    max_pages: 12
-    delay_seconds: [2, 6]
-    sources:
-      - name: remote_eng
-        url: "https://wellfound.com/role/software-engineer?remote=true"
-        max_pages: 12
-      - name: india_eng
-        url: "https://wellfound.com/role/software-engineer?location=India"
-        max_pages: 10
+    max_pages: 3
+    delay_seconds: [1, 2]
+    filters:
+      roles:
+        - Software Engineer
+        - Full-Stack Engineer
+      job_types:
+        - full_time
+      experience_years: [0, 3]
+      include_jobs_without_experience: true
   submit:
     enabled: false
     daily_cap: 5
