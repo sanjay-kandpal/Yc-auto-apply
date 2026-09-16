@@ -1,15 +1,124 @@
 {
-  "exported_at": "2026-09-16T03:29:26+00:00",
+  "exported_at": "2026-09-16T09:09:18+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 585,
+    "discovered": 587,
     "submitted": 5,
     "pending_approval": 114,
     "failed": 3,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "0cbef6b8e3db49b7030ec1aa08d15434",
+      "company": "Salus",
+      "role": "Founding GTM / BDR — AI Agent Infrastructure",
+      "url": "https://www.workatastartup.com/jobs/95662",
+      "jd_text": "**Salus (YC W26)** is building the runtime control plane for AI agents. We intercept and enforce policy on agent actions before they execute. We're early, growing fast, and looking for a GTM operator to own top-of-funnel.\n\n### What you'll do:\n\n\\- Run cold outbound to a defined ICP\n\n\\- Tap your own network for warm intros\n\n\\- Book qualified meetings and hand them to the founder for demos and close\n\n\\- Draft LinkedIn and Twitter/X posts in the founder's voice (we provide the technical angle, you shape and schedule)\n\n\\- Own list-building, sequencing, and follow-up cadence\n\n### What we're looking for:\n\n\\- Deeply plugged into the SF / Bay Area startup scene. You know people, you can open doors, and warm intros are a real part of how you operate\n\n\\- You've done cold outbound that actually booked meetings, and can show it\n\n\\- Strong, fast writer who can match a technical voice without sounding like generic B2B\n\n\\- Comfortable in a fast, scrappy, solo-founder environment\n\n\\- Bonus: existing relationships in AI / dev infra, or experience selling to developers\n\n\\- Most importantly, be chill\n\n### How we hire: \n\nPaid 1-week trial before anything permanent. We'll hand you our real prospect lists and ask you to book 5 qualified meetings and draft 5 posts. If you ship, we keep working together.\n\n**Contract, remote but SF-based strongly preferred. Compensation is base + per-meeting bonus on qualified meetings that hold.** contract yes\nlocations: \nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-16T09:09:10+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null
+    },
+    {
+      "id": "ff68747a5befb62020e6884c31d64096",
+      "company": "Salus",
+      "role": "Founding SWE / MLE",
+      "url": "https://www.workatastartup.com/jobs/110168",
+      "jd_text": "Salus is the runtime enforcement layer for AI agents. We sit between an agent and its tools, intercept every action before it executes, and check it against declarative policy, so agents can take real actions in production without doing the wrong thing. We're YC W26, we’re a group of researchers and engineers trying to combine both to get the best results in a productized manner.\n\nWe're looking for a founding engineer who is genuinely cracked across three things most people are only good at one of: LLMs and agents, systems, and shipping real software. You'd be one of our first engineers, working directly with me on everything from the core product to deploying Salus inside customer codebases to the research that keeps us ahead.\n\n**What you'd do:**\n\n* Build the core enforcement engine, the thing that intercepts tool calls, evaluates policy deterministically, and returns something the agent can actually recover from\n* Go into customer codebases and get Salus deployed against real agent stacks (LangChain, LangGraph, MCP, whatever they're running)\n* Work on the research side with us, benchmarks, adversarial evaluation, and the harder problems around agent authorization and provenance that our papers come out of\n* Own real surface area from day one, this is a founding role, not a ticket queue\n\n**What we're looking for:**\n\n* Deep with LLMs and agents, you understand tool calling, context, eval, and where agents actually break in production\n* Strong systems engineer, low-latency and correctness-critical code doesn't scare you\n* Excellent all-around SWE, you go from a vague problem to a working thing fast\n* Comfortable straddling product and research, you want to build the thing and figure out the hard open problems behind it\n* You move fast, have taste, and want to be early at something that matters\n* Honestly, just be cracked at anything. If you’re really good at anything, please apply\n\nBonus if you've built agent infrastructure, worked on security, verification, or formal methods, deployed into enterprise environments, or have research chops (papers welcome, not required).\n\nThis is an in-person role in San Francisco / NYC. We're small, we're moving fast, and the ceiling here is enormous. San Francisco, CA, US New York, NY, US jobs_skill 107 Python 288 jobs_skill 138 TypeScript 45 jobs_skill 324 LLMs 0 jobs_skill 331 AI Agents 0 fulltime possible\nlocations: San Francisco, CA, US New York, NY, US\nremote: yes\nmin_experience: 1",
+      "match_score": 6.73,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-16T09:09:10+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.82,
+            "overlap": 9.6,
+            "combined": 6.25
+          },
+          "backend": {
+            "cosine": 5.27,
+            "overlap": 10.15,
+            "combined": 6.73
+          },
+          "frontend": {
+            "cosine": 2.86,
+            "overlap": 9.22,
+            "combined": 4.77
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.27,
+        "keyword_overlap_score": 10.15,
+        "final_score": 6.73,
+        "top_keywords": [
+          {
+            "term": "agents",
+            "weight": 0.2082
+          },
+          {
+            "term": "agent",
+            "weight": 0.1735
+          },
+          {
+            "term": "real",
+            "weight": 0.1135
+          },
+          {
+            "term": "ai",
+            "weight": 0.0694
+          },
+          {
+            "term": "tool",
+            "weight": 0.0694
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null
+    },
     {
       "id": "21bb21bc9a9bbaaeda1fa76eb7e5ff0c",
       "company": "VectorShift",
