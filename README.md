@@ -8,6 +8,8 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 
 **Current architecture plan (modules, schema, workflows, secrets):** [plan.md](plan.md)
 
+**Wellfound board (scan + digest only, shared Gmail/Worker/LLM):** [wellfound-plan.md](wellfound-plan.md)
+
 **Deep product guide (architecture, every module, incidents, backlog):** [docs/YC-auto-apply-product-guide.docx](docs/YC-auto-apply-product-guide.docx)
 
 **Production hardening and free path toward ~100 users:** [docs/YC-auto-apply-production-scale.docx](docs/YC-auto-apply-production-scale.docx)
@@ -46,12 +48,15 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `.github/actions/publish-recording` | Follow-on job: ffmpeg merge, mp4 artifact, GitHub Release, prune, recording email. |
 | `config.yaml` | Filters, threshold, delays, cap, LLM provider, Worker URL, spectate bitrate/retention. |
 | `.github/workflows/scan.yml` | Every 4 hours (`0 */4 * * *`) plus manual Run workflow. |
-| `.github/workflows/submit.yml` | Runs on `job_approved` / `job_rejected`. |
+| `.github/workflows/scan-wellfound.yml` | Every 8 hours (`0 */8 * * *`) plus manual. Wellfound scrape → match/draft/digest `--source wellfound`. |
+| `.github/workflows/submit.yml` | Runs on `job_approved` / `job_rejected` (YC Playwright Send). |
+| `.github/workflows/submit-wellfound.yml` | `wellfound_job_approved` / `wellfound_job_rejected`. Approve is a stub (no live Send). |
+| `src/wellfound/` | Wellfound login, scrape, parse, submit stub. |
 | `.github/workflows/report.yml` | ~10pm IST (`30 16 * * *` UTC) plus manual Run workflow — emails the daily report. |
 | `.github/workflows/resume-otp.yml` | `repository_dispatch` `resume_otp` — emails the 6-digit resume-login code. |
 | `.github/workflows/prune-recordings.yml` | Hourly (`20 * * * *`) plus manual — delete `recording-*` Releases older than 24 hours. |
 
-Status flow: `discovered` → `drafted` → `pending_approval` → `submitted` / `failed` / `rejected`. Below-threshold jobs stay `discovered` and never hit email.
+Status flow: `discovered` → `drafted` → `pending_approval` → `submitted` / `failed` / `rejected`. Wellfound Approve currently records `approved` (no live Send). Below-threshold jobs stay `discovered` and never hit email.
 
 ## One-time setup
 
@@ -67,8 +72,10 @@ Status flow: `discovered` → `drafted` → `pending_approval` → `submitted` /
 
 | Secret | Purpose |
 |---|---|
-| `YC_EMAIL` / `YC_PASSWORD` | auto-login on every scan/submit |
+| `YC_EMAIL` / `YC_PASSWORD` | auto-login on every YC scan/submit |
 | `YC_SESSION_COOKIES` | optional cookie fallback |
+| `WELLFOUND_EMAIL` / `WELLFOUND_PASSWORD` | Wellfound scan login |
+| `WELLFOUND_SESSION_COOKIES` | optional Wellfound cookie fallback |
 | `GMAIL_ADDRESS` / `GMAIL_APP_PASSWORD` | digest + confirmation + scan recording + daily report + resume-login OTP |
 | `LLM_API_KEY` | Gemini (primary drafts) |
 | `OPENROUTER_API_KEY` | OpenRouter free-tier fallback (`google/gemma-4-31b-it:free`) |
@@ -113,6 +120,12 @@ python src/draft.py
 python src/email_digest.py
 python src/submit.py --job-id ID --dry-run
 python src/dashboard.py
+
+# Wellfound (after WELLFOUND_* credentials)
+python src/wellfound/scrape.py
+python src/match.py --source wellfound
+python src/draft.py --source wellfound
+python src/email_digest.py --source wellfound
 ```
 
 Local spectate (optional, needs ffmpeg): `RECORD_RUN=true python src/submit.py --job-id ID --dry-run` writes `.webm` clips under `RECORDING_DIR` or `data/recordings/`. Login typing is not recorded.
@@ -123,6 +136,7 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 
 ## Notes
 
+- Wellfound is a second board in this repo: [wellfound-plan.md](wellfound-plan.md). It shares Gmail, the Cloudflare Worker, Gemini, and OpenRouter. Login uses `WELLFOUND_*` secrets. Live Easy Apply is not wired; Approve records `approved` only. Redeploy the Worker after pulling `worker/approve.js` so Wellfound digest links dispatch `wellfound_job_*` instead of the YC submit job.
 - Login goes to `account.ycombinator.com` username/password (not the magic-link email page). Valid `YC_SESSION_COOKIES` are tried first. 2FA/CAPTCHA will email you.
 - Each scan walks three WAAS listings from `search.sources`: remote engineering (`remote=only`), India (`locations=India`), and 1–2 years (`minExperience=1&minExperience=2`). Experience is not stacked onto the India/remote URLs. Same job URL from two feeds inserts once. If a filter looks wrong in the UI, copy the address bar into that source’s `url`.
 - Approve is the only apply trigger. Scan (every 4 hours) and Reject never click Apply or Send.

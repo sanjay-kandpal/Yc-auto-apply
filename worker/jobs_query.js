@@ -4,7 +4,7 @@ export const PAGE_BUTTONS = 10;
 const LIST_OMIT = new Set(["jd_text", "draft_answer", "approval_token", "match_breakdown"]);
 
 export function searchBlob(job) {
-  return [job.id, job.company, job.role, job.error_message, job.resume_variant, job.sent_message, job.draft_answer]
+  return [job.id, job.source, job.company, job.role, job.error_message, job.resume_variant, job.sent_message, job.draft_answer]
     .map((value) => String(value || "").toLowerCase())
     .join(" ");
 }
@@ -20,10 +20,12 @@ export function sortJobs(jobs, sort) {
   return copy;
 }
 
-export function filterJobs(jobs, { status = "", q = "", errors = false } = {}) {
+export function filterJobs(jobs, { status = "", q = "", errors = false, source = "" } = {}) {
   const query = String(q || "").trim().toLowerCase();
+  const board = String(source || "").trim().toLowerCase();
   return jobs.filter((job) => {
     if (status && (job.status || "") !== status) return false;
+    if (board && String(job.source || "yc").toLowerCase() !== board) return false;
     if (errors && !String(job.error_message || "").trim()) return false;
     if (query && !searchBlob(job).includes(query)) return false;
     return true;
@@ -74,6 +76,7 @@ export function queryFromUrl(url) {
     q: params.get("q") || "",
     errors: ["1", "true", "on"].includes((params.get("errors") || "").toLowerCase()),
     sort: params.get("sort") || "discovered",
+    source: params.get("source") || "",
   };
 }
 

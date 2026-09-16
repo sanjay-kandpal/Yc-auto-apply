@@ -108,3 +108,24 @@ spectate:
   maxrate_k: 800
   retain_hours: 24
   keep_releases: 30
+
+wellfound:
+  login:
+    start_url: "https://wellfound.com/login"
+    check_url: "https://wellfound.com/jobs"
+  search:
+    job_url_template: "https://wellfound.com/jobs/{job_id}"
+    max_pages: 12
+    delay_seconds: [2, 6]
+    sources:
+      - name: remote_eng
+        url: "https://wellfound.com/role/software-engineer?remote=true"
+        max_pages: 12
+      - name: india_eng
+        url: "https://wellfound.com/role/software-engineer?location=India"
+        max_pages: 10
+  submit:
+    enabled: false
+    daily_cap: 5
+  email:
+    digest_subject: "Wellfound jobs digest — {n} to review"

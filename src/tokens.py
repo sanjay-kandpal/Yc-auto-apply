@@ -21,13 +21,31 @@ def _b64url_decode(text: str) -> bytes:
     return urlsafe_b64decode(text + padding)
 
 
-def sign(job_id: str, action: str, expiry: int, secret: str) -> str:
-    msg = f"{job_id}|{action}|{expiry}".encode("utf-8")
+def canonical_source(source: str | None) -> str:
+    text = (source or "").strip().lower()
+    if not text or text == "yc":
+        return ""
+    return text
+
+
+def sign(job_id: str, action: str, expiry: int, secret: str, source: str = "") -> str:
+    extra = canonical_source(source)
+    if extra:
+        msg = f"{job_id}|{action}|{expiry}|{extra}".encode("utf-8")
+    else:
+        msg = f"{job_id}|{action}|{expiry}".encode("utf-8")
     digest = hmac.new(secret.encode("utf-8"), msg, hashlib.sha256).digest()
     return _b64url(digest)
 
 
-def verify(job_id: str, action: str, expiry: int | str, token: str, secret: str) -> bool:
+def verify(
+    job_id: str,
+    action: str,
+    expiry: int | str,
+    token: str,
+    secret: str,
+    source: str = "",
+) -> bool:
     try:
         expiry_i = int(expiry)
     except (TypeError, ValueError):
@@ -36,18 +54,32 @@ def verify(job_id: str, action: str, expiry: int | str, token: str, secret: str)
         return False
     if action not in ("approve", "reject"):
         return False
-    expected = sign(job_id, action, expiry_i, secret)
+    expected = sign(job_id, action, expiry_i, secret, source=source)
     try:
         return hmac.compare_digest(_b64url_decode(expected), _b64url_decode(token))
     except Exception:
         return False
 
 
-def approval_link(base_url: str, job_id: str, action: str, expiry: int, secret: str) -> str:
-    token = sign(job_id, action, expiry, secret)
-    query = urlencode(
-        {"job_id": job_id, "action": action, "expiry": str(expiry), "token": token}
-    )
+def approval_link(
+    base_url: str,
+    job_id: str,
+    action: str,
+    expiry: int,
+    secret: str,
+    source: str = "",
+) -> str:
+    token = sign(job_id, action, expiry, secret, source=source)
+    params = {
+        "job_id": job_id,
+        "action": action,
+        "expiry": str(expiry),
+        "token": token,
+    }
+    extra = canonical_source(source)
+    if extra:
+        params["source"] = extra
+    query = urlencode(params)
     return f"{base_url.rstrip('/')}/?{query}"
 
 
@@ -63,4 +95,8 @@ if __name__ == "__main__":
     assert verify("abc", "approve", expiry, token, secret)
     assert not verify("abc", "reject", expiry, token, secret)
     assert not verify("abc", "approve", 1, token, secret)
+    wf = sign("abc", "approve", expiry, secret, source="wellfound")
+    assert verify("abc", "approve", expiry, wf, secret, source="wellfound")
+    assert not verify("abc", "approve", expiry, token, secret, source="wellfound")
+    assert not verify("abc", "approve", expiry, wf, secret)
     log.info("token self-check ok")

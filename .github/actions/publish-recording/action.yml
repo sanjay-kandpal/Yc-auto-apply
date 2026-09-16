@@ -55,7 +55,7 @@ runs:
       run: python src/prune_recordings.py
 
     - name: Email scan recording
-      if: ${{ inputs.workflow == 'scan' }}
+      if: ${{ startsWith(inputs.workflow, 'scan') }}
       shell: bash
       run: python src/spectate_email.py --out-dir "$RUNNER_TEMP/spectate-out"
 

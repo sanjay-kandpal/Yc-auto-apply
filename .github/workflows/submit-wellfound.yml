@@ -1,0 +1,44 @@
+name: submit-wellfound
+
+on:
+  repository_dispatch:
+    types: [wellfound_job_approved, wellfound_job_rejected]
+
+permissions:
+  contents: write
+
+jobs:
+  handle:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: jobs-db
+      cancel-in-progress: false
+    env:
+      GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+      APPROVAL_HMAC_SECRET: ${{ secrets.APPROVAL_HMAC_SECRET }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: ./.github/actions/setup-cached-python
+      - name: Reject
+        if: github.event.action == 'wellfound_job_rejected'
+        run: python src/db.py --mark-rejected "${{ github.event.client_payload.job_id }}"
+      - name: Approve stub
+        if: github.event.action == 'wellfound_job_approved'
+        run: python src/wellfound/submit.py --job-id "${{ github.event.client_payload.job_id }}"
+      - name: Write notify payload
+        if: always()
+        run: python src/notify.py --job-id "${{ github.event.client_payload.job_id }}" --write-payload "$RUNNER_TEMP/notify-payload.json"
+      - name: Notify
+        if: always()
+        continue-on-error: true
+        run: python src/notify.py --payload "$RUNNER_TEMP/notify-payload.json"
+      - name: Dashboard
+        run: python src/dashboard.py
+      - name: Commit state
+        env:
+          BRANCH: ${{ github.event.repository.default_branch }}
+          COMMIT_MSG: wellfound submit stub
+        run: bash scripts/commit_state.sh

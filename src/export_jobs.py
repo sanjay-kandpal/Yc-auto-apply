@@ -16,6 +16,7 @@ VERSIONS_OUT = ROOT / "data" / "resume_versions.json"
 # Omit approval_token — HMAC material must not ship in the Worker snapshot.
 JOB_FIELDS = (
     "id",
+    "source",
     "company",
     "role",
     "url",

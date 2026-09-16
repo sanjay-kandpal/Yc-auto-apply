@@ -4,7 +4,7 @@ Human-gated pipeline for [Work at a Startup](https://www.workatastartup.com): sc
 
 Zero-cost stack: GitHub Actions + Cloudflare Workers + SQLite-in-repo + Gmail SMTP + Gemini free tier (OpenRouter `:free` fallback).
 
-**This document matches the shipped code.** Day-to-day setup lives in `README.md`. Deeper product notes: `docs/YC-auto-apply-product-guide.docx`.
+**This document matches the shipped YC board.** Day-to-day setup lives in `README.md`. Deeper product notes: `docs/YC-auto-apply-product-guide.docx`. Wellfound (same repo, separate scan, shared Gmail/Worker/LLM) is documented in [`wellfound-plan.md`](wellfound-plan.md).
 
 Automated apply may conflict with the site’s ToS. Keep the approval gate and daily cap. Never fully autonomous submit.
 

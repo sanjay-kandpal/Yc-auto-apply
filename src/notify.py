@@ -61,6 +61,14 @@ def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
             "<p>Submit ran in dry-run mode, so Send was not clicked. "
             "Approve on GitHub Actions is live (Apply → fill → Send).</p>"
         )
+    elif status == "approved":
+        subject = f"Approved (send not implemented) — {job['role']} at {job['company']}"
+        err = html.escape((job["error_message"] or "").strip() or "Live send is not implemented.")
+        body = (
+            f"<p>Approve recorded for <strong>{role}</strong> at <strong>{company}</strong>. "
+            "No application was sent.</p>"
+            f"<p>{err}</p>"
+        )
     else:
         subject = f"Failed to submit — {job['role']} at {job['company']}"
         err = html.escape((job["error_message"] or "").strip() or "No error recorded")

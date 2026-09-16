@@ -13,6 +13,9 @@ from log_config import setup_logging
 log = logging.getLogger(__name__)
 DB_PATH = ROOT / "data" / "jobs.db"
 
+SOURCES = ("yc", "wellfound")
+DEFAULT_SOURCE = "yc"
+
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS jobs (
   id TEXT PRIMARY KEY,
@@ -29,7 +32,8 @@ CREATE TABLE IF NOT EXISTS jobs (
   decided_at TEXT,
   submitted_at TEXT,
   error_message TEXT,
-  sent_message TEXT
+  sent_message TEXT,
+  source TEXT
 );
 """
 
@@ -73,6 +77,27 @@ def job_id_for(company: str, role: str, url: str) -> str:
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:32]
 
 
+def normalize_source(source: str | None) -> str:
+    text = (source or DEFAULT_SOURCE).strip().lower() or DEFAULT_SOURCE
+    if text not in SOURCES:
+        raise ValueError(f"Unknown source {source!r}. Use yc or wellfound.")
+    return text
+
+
+def source_clause(source: str) -> tuple[str, tuple]:
+    board = normalize_source(source)
+    if board == DEFAULT_SOURCE:
+        return "(source IS NULL OR source = ?)", (DEFAULT_SOURCE,)
+    return "source = ?", (board,)
+
+
+def parse_source_arg(argv: list[str] | None = None) -> str:
+    parser = argparse.ArgumentParser(add_help=True)
+    parser.add_argument("--source", default=DEFAULT_SOURCE, choices=SOURCES)
+    args, _ = parser.parse_known_args(argv)
+    return normalize_source(args.source)
+
+
 def _migrate(conn: sqlite3.Connection) -> None:
     cols = {row[1] for row in conn.execute("PRAGMA table_info(jobs)").fetchall()}
     if "error_message" not in cols:
@@ -82,6 +107,14 @@ def _migrate(conn: sqlite3.Connection) -> None:
     for col in JOB_RECEIPT_COLUMNS:
         if col not in cols:
             conn.execute(f"ALTER TABLE jobs ADD COLUMN {col} TEXT")
+    if "source" not in cols:
+        conn.execute("ALTER TABLE jobs ADD COLUMN source TEXT")
+        cols.add("source")
+    if "source" in cols:
+        conn.execute(
+            "UPDATE jobs SET source = ? WHERE source IS NULL OR source = ''",
+            (DEFAULT_SOURCE,),
+        )
     conn.execute(RESUME_VERSIONS_SCHEMA)
 
 
@@ -121,15 +154,23 @@ def init_db(path: Path | None = None) -> None:
     conn.close()
 
 
-def insert_discovered(conn: sqlite3.Connection, company: str, role: str, url: str, jd_text: str) -> bool:
+def insert_discovered(
+    conn: sqlite3.Connection,
+    company: str,
+    role: str,
+    url: str,
+    jd_text: str,
+    source: str = DEFAULT_SOURCE,
+) -> bool:
     job_id = job_id_for(company, role, url)
+    board = normalize_source(source)
     try:
         conn.execute(
             """
-            INSERT INTO jobs (id, company, role, url, jd_text, status, discovered_at)
-            VALUES (?, ?, ?, ?, ?, 'discovered', ?)
+            INSERT INTO jobs (id, company, role, url, jd_text, status, discovered_at, source)
+            VALUES (?, ?, ?, ?, ?, 'discovered', ?, ?)
             """,
-            (job_id, company, role, url, jd_text, utc_now()),
+            (job_id, company, role, url, jd_text, utc_now(), board),
         )
         return True
     except sqlite3.IntegrityError:
@@ -140,8 +181,23 @@ def get_job(conn: sqlite3.Connection, job_id: str) -> sqlite3.Row | None:
     return conn.execute("SELECT * FROM jobs WHERE id = ?", (job_id,)).fetchone()
 
 
-def jobs_with_status(conn: sqlite3.Connection, status: str) -> list[sqlite3.Row]:
-    return list(conn.execute("SELECT * FROM jobs WHERE status = ? ORDER BY discovered_at DESC", (status,)))
+def jobs_with_status(
+    conn: sqlite3.Connection, status: str, source: str | None = None
+) -> list[sqlite3.Row]:
+    if source is None:
+        return list(
+            conn.execute(
+                "SELECT * FROM jobs WHERE status = ? ORDER BY discovered_at DESC",
+                (status,),
+            )
+        )
+    clause, params = source_clause(source)
+    return list(
+        conn.execute(
+            f"SELECT * FROM jobs WHERE status = ? AND {clause} ORDER BY discovered_at DESC",
+            (status, *params),
+        )
+    )
 
 
 def all_jobs(conn: sqlite3.Connection) -> list[sqlite3.Row]:

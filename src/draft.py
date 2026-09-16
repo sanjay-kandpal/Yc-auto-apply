@@ -5,13 +5,13 @@ import re
 import time
 
 from config_loader import load_config, repo_path
-from db import connect, update_job, utc_now
+from db import connect, parse_source_arg, source_clause, update_job, utc_now
 from llm import complete
 from log_config import setup_logging
 
 log = logging.getLogger(__name__)
 
-PROMPT = """Write a {max_sentences}-sentence application note in first person for this YC-startup role.
+PROMPT = """Write a {max_sentences}-sentence application note in first person for {role_kind}.
 Sound like a specific human engineer, not a cover-letter template. No greeting, no sign-off.
 Ground every claim in the resume bullets. Mention the company or product only using facts from the JD.
 End with exactly this line (do not omit it): GitHub: {github}
@@ -187,6 +187,7 @@ def _draft_with_validation(
     github: str,
     last_call: float,
     interval: float,
+    role_kind: str = "this YC-startup role",
 ) -> tuple[str, float, list[str]]:
     max_sentences = max(1, int(cfg["draft"].get("max_sentences", 2)))
     max_chars = max(200, int(cfg["draft"].get("max_chars", 900)))
@@ -199,6 +200,7 @@ def _draft_with_validation(
         jd=jd,
         github=github,
         max_sentences=max_sentences,
+        role_kind=role_kind,
     )
     answer, last_call = _complete_paced(prompt, last_call, interval)
     answer = with_github(answer, cfg)
@@ -232,15 +234,16 @@ def _draft_with_validation(
     return answer, last_call, failures
 
 
-def draft() -> None:
+def draft(source: str = "yc") -> None:
     setup_logging()
     cfg = load_config()
     threshold = float(cfg["match"]["threshold"])
     rpm = max(1, int(cfg["draft"].get("requests_per_minute", 5)))
     interval = 60.0 / rpm
     conn = connect()
+    clause, source_params = source_clause(source)
     rows = conn.execute(
-        """
+        f"""
         SELECT * FROM jobs
         WHERE status = 'discovered'
           AND match_score IS NOT NULL
@@ -248,13 +251,15 @@ def draft() -> None:
           AND (draft_answer IS NULL OR draft_answer = '')
           AND resume_variant IS NOT NULL
           AND resume_variant != ''
+          AND {clause}
         ORDER BY match_score DESC
         """,
-        (threshold,),
+        (threshold, *source_params),
     ).fetchall()
-    log.info("%s jobs above threshold to draft (%s/min).", len(rows), rpm)
+    log.info("%s %s jobs above threshold to draft (%s/min).", len(rows), source, rpm)
     last_call = 0.0
     github = github_profile_url(cfg)
+    role_kind = "this role" if source == "wellfound" else "this YC-startup role"
     for job in rows:
         resume = _resume_text(cfg, job["resume_variant"])
         jd = (job["jd_text"] or "")[:6000]
@@ -268,6 +273,7 @@ def draft() -> None:
                 github=github,
                 last_call=last_call,
                 interval=interval,
+                role_kind=role_kind,
             )
         except Exception:
             log.exception("LLM failed for %s", job["id"])
@@ -287,4 +293,4 @@ def draft() -> None:
 
 
 if __name__ == "__main__":
-    draft()
+    draft(parse_source_arg())

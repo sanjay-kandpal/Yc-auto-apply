@@ -28,6 +28,7 @@ from db import (  # noqa: E402
     ensure_resume_version,
     insert_discovered,
     job_id_for,
+    jobs_with_status,
     resume_hash,
     submitted_today,
     update_job,
@@ -39,12 +40,14 @@ from draft import validate_draft, with_github  # noqa: E402
 from match import empty_breakdown, evaluate_hard_filters, hard_filter_reason, score_job  # noqa: E402
 from scrape import search_sources  # noqa: E402
 from submit import confirmation_payload  # noqa: E402
-from tokens import sign, verify  # noqa: E402
+from tokens import approval_link, sign, verify  # noqa: E402
+from wellfound.login import load_credentials as load_wellfound_credentials  # noqa: E402
+from wellfound.parse import jobs_from_html, walk_jobs as walk_wellfound_jobs  # noqa: E402
 from record_video import build_object_key, object_key_allowed, recording_enabled, workflow_slug  # noqa: E402
 from prune_recordings import tags_to_delete  # noqa: E402
 from publish_release import release_page_url, release_tag  # noqa: E402
 from resume_otp_email import html_body, subject_for, validate_otp  # noqa: E402
-from waas_parse import walk_jobs  # noqa: E402
+from waas_parse import walk_jobs as walk_waas_jobs  # noqa: E402
 
 IST = ZoneInfo("Asia/Kolkata")
 
@@ -57,6 +60,17 @@ def test_tokens() -> None:
     assert not verify("job1", "reject", expiry, token, secret)
     assert not verify("other", "approve", expiry, token, secret)
     assert not verify("job1", "view", expiry, token, secret)
+    yc_link = approval_link("https://example.com", "job1", "approve", expiry, secret)
+    assert "source=" not in yc_link
+    wf = sign("job1", "approve", expiry, secret, source="wellfound")
+    assert verify("job1", "approve", expiry, wf, secret, source="wellfound")
+    assert not verify("job1", "approve", expiry, token, secret, source="wellfound")
+    assert not verify("job1", "approve", expiry, wf, secret)
+    wf_link = approval_link(
+        "https://example.com", "job1", "approve", expiry, secret, source="wellfound"
+    )
+    assert "source=wellfound" in wf_link
+    assert "token=" in wf_link
 
 
 def test_spectate_keys() -> None:
@@ -124,7 +138,7 @@ def test_walk_jobs() -> None:
             }
         ]
     }
-    jobs = walk_jobs(payload)
+    jobs = walk_waas_jobs(payload)
     assert len(jobs) == 1
     assert jobs[0]["company"] == "Acme"
     assert jobs[0]["role"] == "Backend Engineer"
@@ -205,6 +219,8 @@ def test_db_dedup_and_cap() -> None:
         assert not insert_discovered(conn, "Acme", "Backend", "https://example.com/j/1", "jd")
         conn.commit()
         job_id = job_id_for("Acme", "Backend", "https://example.com/j/1")
+        row = conn.execute("SELECT source FROM jobs WHERE id = ?", (job_id,)).fetchone()
+        assert row["source"] == "yc"
         update_job(conn, job_id, status="submitted", submitted_at=utc_now())
         conn.commit()
         assert submitted_today(conn) == 1
@@ -366,6 +382,7 @@ def test_jobs_export_omits_token() -> None:
         assert "approval_token" not in job
         assert set(job) == set(JOB_FIELDS)
         assert job["company"] == "Acme"
+        assert job["source"] == "yc"
         assert job["draft_answer"] == "I build APIs."
         assert job["sent_message"].startswith("I build APIs.")
         assert job["match_score"] == 42.5
@@ -402,6 +419,7 @@ def test_sent_message_migrates() -> None:
         assert "drafted_at" in cols
         assert "confirmation_signal" in cols
         assert "github_run_id" in cols
+        assert "source" in cols
         tables = {row[0] for row in conn.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()}
         assert "resume_versions" in tables
         conn.close()
@@ -418,6 +436,90 @@ def test_resume_otp_email() -> None:
     assert not validate_otp("12345")
     assert not validate_otp("abcdef")
     assert not validate_otp("")
+
+
+def test_source_isolation() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        conn = connect(Path(tmp) / "jobs.db")
+        assert insert_discovered(conn, "Acme", "Backend", "https://www.workatastartup.com/jobs/1", "jd")
+        assert insert_discovered(
+            conn,
+            "Beta",
+            "Frontend",
+            "https://wellfound.com/jobs/99",
+            "remote react",
+            source="wellfound",
+        )
+        conn.commit()
+        yc = jobs_with_status(conn, "discovered", source="yc")
+        wf = jobs_with_status(conn, "discovered", source="wellfound")
+        assert [row["company"] for row in yc] == ["Acme"]
+        assert [row["company"] for row in wf] == ["Beta"]
+        assert wf[0]["source"] == "wellfound"
+        conn.close()
+
+
+def test_wellfound_parse() -> None:
+    payload = {
+        "data": {
+            "talent": {
+                "jobSearch": {
+                    "jobs": [
+                        {
+                            "id": 4242,
+                            "title": "Backend Engineer",
+                            "description": "Remote Python APIs",
+                            "startup": {"name": "Acme"},
+                        },
+                        {
+                            "id": 7,
+                            "title": "Staff Engineer",
+                            "description": "ATS only",
+                            "startup": {"name": "Offsite"},
+                            "apply_url": "https://boards.greenhouse.io/offsite/jobs/7",
+                        },
+                    ]
+                }
+            }
+        }
+    }
+    jobs = walk_wellfound_jobs(payload)
+    assert len(jobs) == 1
+    assert jobs[0]["company"] == "Acme"
+    assert jobs[0]["role"] == "Backend Engineer"
+    assert "4242" in jobs[0]["url"]
+    html = (
+        '<script id="__NEXT_DATA__" type="application/json">'
+        '{"props":{"pageProps":{"job":{"id":"88","title":"Frontend Engineer",'
+        '"description":"React remote","startup":{"name":"Beta"}}}}}'
+        "</script>"
+    )
+    from_html = jobs_from_html(html)
+    assert len(from_html) == 1
+    assert from_html[0]["company"] == "Beta"
+    assert from_html[0]["role"] == "Frontend Engineer"
+
+
+def test_wellfound_credentials_ignore_yc() -> None:
+    old = {
+        key: os.environ.pop(key, None)
+        for key in ("WELLFOUND_EMAIL", "WELLFOUND_PASSWORD", "YC_EMAIL", "YC_PASSWORD")
+    }
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "credentials.local.yaml"
+            path.write_text(
+                "email: yc@example.com\npassword: yc-secret\n"
+                "wellfound_email: wf@example.com\nwellfound_password: wf-secret\n",
+                encoding="utf-8",
+            )
+            email, password = load_wellfound_credentials(path)
+            assert email == "wf@example.com"
+            assert password == "wf-secret"
+    finally:
+        for key, value in old.items():
+            if value is not None:
+                os.environ[key] = value
 
 
 def test_load_credentials() -> None:
@@ -454,5 +556,8 @@ if __name__ == "__main__":
     test_jobs_export_omits_token()
     test_sent_message_migrates()
     test_resume_otp_email()
+    test_source_isolation()
+    test_wellfound_parse()
+    test_wellfound_credentials_ignore_yc()
     test_load_credentials()
     print("all checks passed")

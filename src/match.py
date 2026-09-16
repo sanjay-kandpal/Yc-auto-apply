@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 from config_loader import load_config, repo_path
-from db import connect, ensure_resume_version, jobs_with_status, update_job
+from db import connect, ensure_resume_version, jobs_with_status, parse_source_arg, update_job
 from log_config import setup_logging
 
 log = logging.getLogger(__name__)
@@ -129,13 +129,13 @@ def score_job(role: str, jd: str, resumes: dict[str, str], hard: dict | None = N
     }
 
 
-def match() -> None:
+def match(source: str = "yc") -> None:
     setup_logging()
     cfg = load_config()
     resumes = _load_resumes(cfg)
     threshold = float(cfg["match"]["threshold"])
     conn = connect()
-    jobs = jobs_with_status(conn, "discovered")
+    jobs = jobs_with_status(conn, "discovered", source=source)
     scored = 0
     for job in jobs:
         if job["match_score"] is not None:
@@ -173,8 +173,8 @@ def match() -> None:
         scored += 1
     conn.commit()
     conn.close()
-    log.info("Scored %s jobs.", scored)
+    log.info("Scored %s jobs (%s).", scored, source)
 
 
 if __name__ == "__main__":
-    match()
+    match(parse_source_arg())

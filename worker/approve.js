@@ -13,7 +13,13 @@ function b64urlDecode(text) {
   return out;
 }
 
-async function sign(jobId, action, expiry, secret) {
+function canonicalSource(source) {
+  const text = String(source || "").trim().toLowerCase();
+  if (!text || text === "yc") return "";
+  return text;
+}
+
+async function sign(jobId, action, expiry, secret, source) {
   const key = await crypto.subtle.importKey(
     "raw",
     new TextEncoder().encode(secret),
@@ -21,16 +27,20 @@ async function sign(jobId, action, expiry, secret) {
     false,
     ["sign"]
   );
-  const msg = new TextEncoder().encode(`${jobId}|${action}|${expiry}`);
+  const extra = canonicalSource(source);
+  const payload = extra
+    ? `${jobId}|${action}|${expiry}|${extra}`
+    : `${jobId}|${action}|${expiry}`;
+  const msg = new TextEncoder().encode(payload);
   return b64url(await crypto.subtle.sign("HMAC", key, msg));
 }
 
-async function verify(jobId, action, expiry, token, secret) {
+async function verify(jobId, action, expiry, token, secret, source) {
   const exp = Number(expiry);
   if (!jobId || !token || !secret) return false;
   if (!Number.isFinite(exp) || exp < Math.floor(Date.now() / 1000)) return false;
   if (action !== "approve" && action !== "reject") return false;
-  const expected = await sign(jobId, action, exp, secret);
+  const expected = await sign(jobId, action, exp, secret, source);
   const a = b64urlDecode(expected);
   const b = b64urlDecode(token);
   if (a.length !== b.length) return false;
@@ -47,19 +57,28 @@ function html(title, body, status = 200) {
   );
 }
 
+function eventTypeFor(action, source) {
+  const extra = canonicalSource(source);
+  if (extra === "wellfound") {
+    return action === "approve" ? "wellfound_job_approved" : "wellfound_job_rejected";
+  }
+  return action === "approve" ? "job_approved" : "job_rejected";
+}
+
 export async function handleApprove(request, env) {
   const url = new URL(request.url);
   const jobId = url.searchParams.get("job_id") || "";
   const action = url.searchParams.get("action") || "";
   const expiry = url.searchParams.get("expiry") || "";
   const token = url.searchParams.get("token") || "";
+  const source = url.searchParams.get("source") || "";
 
-  const ok = await verify(jobId, action, expiry, token, env.APPROVAL_HMAC_SECRET);
+  const ok = await verify(jobId, action, expiry, token, env.APPROVAL_HMAC_SECRET, source);
   if (!ok) {
     return html("Link invalid", "This approval link is invalid or expired.", 400);
   }
 
-  const eventType = action === "approve" ? "job_approved" : "job_rejected";
+  const eventType = eventTypeFor(action, source);
   const gh = await fetch(
     `https://api.github.com/repos/${env.GH_OWNER}/${env.GH_REPO}/dispatches`,
     {
@@ -72,7 +91,7 @@ export async function handleApprove(request, env) {
       },
       body: JSON.stringify({
         event_type: eventType,
-        client_payload: { job_id: jobId },
+        client_payload: { job_id: jobId, source: canonicalSource(source) || "yc" },
       }),
     }
   );
@@ -83,6 +102,12 @@ export async function handleApprove(request, env) {
   }
 
   if (action === "approve") {
+    if (canonicalSource(source) === "wellfound") {
+      return html(
+        "Approved",
+        "Approve recorded. Live Wellfound submit is not implemented yet."
+      );
+    }
     return html("Approved", "Application will be submitted shortly (subject to the daily cap).");
   }
   return html("Rejected", "This listing will be marked rejected.");

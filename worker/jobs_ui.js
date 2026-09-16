@@ -14,6 +14,7 @@ th, td { border-bottom: 1px solid #ddd; padding: 8px; text-align: left; font-siz
 th { background: #f4f4f4; }
 tr.failed { background: #fff2f2; }
 tr.pending_approval { background: #fff8e6; }
+tr.approved { background: #f4f1fa; }
 tr.submitted { background: #f1faf1; }
 tr.rejected { color: #666; }
 .pre { white-space: pre-wrap; background: #f7f7f7; padding: 12px; border-radius: 6px; font-size: 13px; }
@@ -74,14 +75,16 @@ function listQuery(page) {
   const status = document.getElementById("status").value;
   const q = document.getElementById("q").value.trim();
   const sort = document.getElementById("sort").value;
+  const source = document.getElementById("source").value;
   if (status) params.set("status", status);
   if (q) params.set("q", q);
   if (document.getElementById("errors").checked) params.set("errors", "1");
   if (sort && sort !== "discovered") params.set("sort", sort);
+  if (source) params.set("source", source);
   return params;
 }
 function renderChips(data) {
-  const order = ["discovered", "drafted", "pending_approval", "submitted", "failed", "rejected"];
+  const order = ["discovered", "drafted", "pending_approval", "approved", "submitted", "failed", "rejected"];
   const counts = data.counts || {};
   const chips = order.map((status) => '<span class="chip">' + esc(status) + ": " + (counts[status] || 0) + "</span>");
   Object.keys(counts).sort().forEach((status) => {
@@ -116,6 +119,7 @@ function renderPager(data) {
 function renderRows(jobs) {
   document.getElementById("rows").innerHTML = (jobs || []).map((job) => {
     return "<tr class=\\"" + esc(job.status || "") + "\\"><td>" + esc(job.status) +
+      "</td><td>" + esc(text(job.source || "yc")) +
       "</td><td>" + esc(text(job.match_score)) +
       "</td><td><a href=\\"/resumes/jobs?id=" + encodeURIComponent(job.id || "") + "\\">" +
       esc(text(job.company)) + "</a></td><td>" + esc(text(job.role)) +
@@ -124,7 +128,7 @@ function renderRows(jobs) {
       "</td><td>" + esc(formatIst(job.discovered_at)) +
       "</td><td>" + esc(clip(job.error_message, 80)) +
       "</td><td>" + (job.url ? "<a href=\\"" + esc(job.url) + "\\">listing</a>" : "—") + "</td></tr>";
-  }).join("") || "<tr><td colspan=\\"9\\">No jobs match these filters.</td></tr>";
+  }).join("") || "<tr><td colspan=\\"10\\">No jobs match these filters.</td></tr>";
 }
 ${RECEIPT_VIEWER_JS}
 function renderDetail(payload) {
@@ -135,7 +139,7 @@ function renderDetail(payload) {
     return;
   }
   const fields = [
-    ["id", job.id], ["status", job.status], ["company", job.company], ["role", job.role],
+    ["id", job.id], ["source", job.source || "yc"], ["status", job.status], ["company", job.company], ["role", job.role],
     ["url", job.url], ["match_score", job.match_score], ["resume_variant", job.resume_variant],
     ["resume_version_hash", job.resume_version_hash],
     ["discovered_at", job.discovered_at], ["drafted_at", job.drafted_at],
@@ -175,7 +179,7 @@ async function loadList(page) {
   const params = listQuery(page);
   const errEl = document.getElementById("list-error");
   errEl.hidden = true;
-  document.getElementById("rows").innerHTML = "<tr><td colspan=\\"9\\">Loading…</td></tr>";
+  document.getElementById("rows").innerHTML = "<tr><td colspan=\\"10\\">Loading…</td></tr>";
   const data = await fetchJson(params);
   document.getElementById("note").textContent = data.missing
     ? "No snapshot yet. Wait for the next scan/submit, or run python src/dashboard.py and commit data/jobs.json."
@@ -203,6 +207,7 @@ async function main() {
     if (params.get("status")) document.getElementById("status").value = params.get("status");
     if (params.get("q")) document.getElementById("q").value = params.get("q");
     if (params.get("sort")) document.getElementById("sort").value = params.get("sort");
+    if (params.get("source")) document.getElementById("source").value = params.get("source");
     document.getElementById("errors").checked = params.get("errors") === "1";
     let current = Number(params.get("page") || 1) || 1;
     let searchTimer = 0;
@@ -211,7 +216,7 @@ async function main() {
       errEl.textContent = err.message;
       errEl.hidden = false;
     });
-    ["status", "sort", "errors"].forEach((name) => {
+    ["status", "sort", "errors", "source"].forEach((name) => {
       document.getElementById(name).addEventListener("change", () => reload(1));
     });
     document.getElementById("q").addEventListener("input", () => {
@@ -248,9 +253,17 @@ export function jobsPage() {
            <option>discovered</option>
            <option>drafted</option>
            <option>pending_approval</option>
+           <option>approved</option>
            <option>submitted</option>
            <option>failed</option>
            <option>rejected</option>
+         </select>
+       </label>
+       <label>Board
+         <select id="source">
+           <option value="">all</option>
+           <option value="yc">yc</option>
+           <option value="wellfound">wellfound</option>
          </select>
        </label>
        <label>Search
@@ -276,11 +289,11 @@ export function jobsPage() {
          <table>
            <thead>
              <tr>
-               <th>status</th><th>score</th><th>company</th><th>role</th>
+               <th>status</th><th>source</th><th>score</th><th>company</th><th>role</th>
                <th>resume</th><th>sent</th><th>discovered</th><th>error</th><th>url</th>
              </tr>
            </thead>
-           <tbody id="rows"><tr><td colspan="9">Loading…</td></tr></tbody>
+           <tbody id="rows"><tr><td colspan="10">Loading…</td></tr></tbody>
          </table>
        </div>
        <nav id="pager" class="pager" hidden></nav>
