@@ -48,7 +48,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `.github/actions/publish-recording` | Follow-on job: ffmpeg merge, mp4 artifact, GitHub Release, prune, recording email. |
 | `config.yaml` | Filters, threshold, delays, cap, LLM provider, Worker URL, spectate bitrate/retention. |
 | `.github/workflows/scan.yml` | Every 4 hours (`0 */4 * * *`) plus manual Run workflow. |
-| `.github/workflows/scan-wellfound.yml` | Every 8 hours (`0 */8 * * *`) plus manual. Wellfound scrape → match/draft/digest `--source wellfound`. |
+| `.github/workflows/scan-wellfound.yml` | Every 8 hours at 02:00/10:00/18:00 UTC (`0 2,10,18 * * *`) plus manual. Offset 2h from YC so both can run without sharing a start hour. |
 | `.github/workflows/submit.yml` | Runs on `job_approved` / `job_rejected` (YC Playwright Send). |
 | `.github/workflows/submit-wellfound.yml` | `wellfound_job_approved` / `wellfound_job_rejected`. Approve is a stub (no live Send). |
 | `src/wellfound/` | Wellfound login, scrape, parse, submit stub. |

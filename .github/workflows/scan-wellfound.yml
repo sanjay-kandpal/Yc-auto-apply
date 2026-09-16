@@ -2,7 +2,8 @@ name: scan-wellfound
 
 on:
   schedule:
-    - cron: "0 */8 * * *"
+    # 02:00, 10:00, 18:00 UTC — 2h from YC scan (00/04/08/12/16/20) so jobs-db never starts together.
+    - cron: "0 2,10,18 * * *"
   workflow_dispatch:
 
 permissions:

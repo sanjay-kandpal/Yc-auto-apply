@@ -17,7 +17,7 @@ Yc-auto-apply/
 ├── wellfound-plan.md         # this file
 ├── plan.md                   # YC board (unchanged product)
 ├── .github/workflows/
-│   ├── scan-wellfound.yml    # every 8h: login → scrape → match → draft → digest → dashboard → commit
+│   ├── scan-wellfound.yml    # 02:00/10:00/18:00 UTC (8h, 2h off YC): scrape → match → draft → digest → commit
 │   └── submit-wellfound.yml  # repository_dispatch: reject mark / approve stub (no Playwright Send)
 ├── src/wellfound/
 │   ├── login.py              # WELLFOUND_EMAIL / password (cookies fallback)
@@ -101,7 +101,7 @@ Resumes editor, jobs viewer (`source` column + filter), dashboard, Gmail, specta
 
 | Workflow | Trigger | Main steps |
 |---|---|---|
-| `scan-wellfound.yml` | `0 */8 * * *` + `workflow_dispatch` | Job `scan` (`jobs-db`): cached Python + Playwright → init DB → wellfound scrape → `match.py --source wellfound` → `draft.py --source wellfound` → `email_digest.py --source wellfound` → dashboard → `commit_state.sh` → raw video. Job `spectate` (no lock): merge → Release → prune → recap email. |
+| `scan-wellfound.yml` | `0 2,10,18 * * *` UTC + `workflow_dispatch` | Job `scan` (`jobs-db`): cached Python + Playwright → init DB → wellfound scrape → `match.py --source wellfound` → `draft.py --source wellfound` → `email_digest.py --source wellfound` → dashboard → `commit_state.sh` → raw video. Job `spectate` (no lock): merge → Release → prune → recap email. Starts 2h after a YC 4h scan so the two boards never share a start hour (YC is `0 */4 * * *`). |
 | `submit-wellfound.yml` | `wellfound_job_approved` / `wellfound_job_rejected` | Job `handle` (`jobs-db`): reject **or** approve stub → notify payload → dashboard → commit. No spectate. |
 
 YC `scan.yml` / `submit.yml` event types are unchanged.
