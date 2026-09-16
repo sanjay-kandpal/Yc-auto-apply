@@ -1,15 +1,245 @@
 {
-  "exported_at": "2026-09-16T21:08:09+00:00",
+  "exported_at": "2026-09-16T22:43:36+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 620,
     "pending_approval": 127,
-    "discovered": 616,
     "submitted": 5,
     "failed": 3,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "0cbef6b8e3db49b7030ec1aa08d15434",
+      "source": "yc",
+      "company": "Salus",
+      "role": "Founding GTM / BDR — AI Agent Infrastructure",
+      "url": "https://www.workatastartup.com/jobs/95662",
+      "jd_text": "**Salus (YC W26)** is building the runtime control plane for AI agents. We intercept and enforce policy on agent actions before they execute. We're early, growing fast, and looking for a GTM operator to own top-of-funnel.\n\n### What you'll do:\n\n\\- Run cold outbound to a defined ICP\n\n\\- Tap your own network for warm intros\n\n\\- Book qualified meetings and hand them to the founder for demos and close\n\n\\- Draft LinkedIn and Twitter/X posts in the founder's voice (we provide the technical angle, you shape and schedule)\n\n\\- Own list-building, sequencing, and follow-up cadence\n\n### What we're looking for:\n\n\\- Deeply plugged into the SF / Bay Area startup scene. You know people, you can open doors, and warm intros are a real part of how you operate\n\n\\- You've done cold outbound that actually booked meetings, and can show it\n\n\\- Strong, fast writer who can match a technical voice without sounding like generic B2B\n\n\\- Comfortable in a fast, scrappy, solo-founder environment\n\n\\- Bonus: existing relationships in AI / dev infra, or experience selling to developers\n\n\\- Most importantly, be chill\n\n### How we hire: \n\nPaid 1-week trial before anything permanent. We'll hand you our real prospect lists and ask you to book 5 qualified meetings and draft 5 posts. If you ship, we keep working together.\n\n**Contract, remote but SF-based strongly preferred. Compensation is base + per-meeting bonus on qualified meetings that hold.** contract yes\nlocations: \nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-16T22:43:30+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ff68747a5befb62020e6884c31d64096",
+      "source": "yc",
+      "company": "Salus",
+      "role": "Founding SWE / MLE",
+      "url": "https://www.workatastartup.com/jobs/110168",
+      "jd_text": "Salus is the runtime enforcement layer for AI agents. We sit between an agent and its tools, intercept every action before it executes, and check it against declarative policy, so agents can take real actions in production without doing the wrong thing. We're YC W26, we’re a group of researchers and engineers trying to combine both to get the best results in a productized manner.\n\nWe're looking for a founding engineer who is genuinely cracked across three things most people are only good at one of: LLMs and agents, systems, and shipping real software. You'd be one of our first engineers, working directly with me on everything from the core product to deploying Salus inside customer codebases to the research that keeps us ahead.\n\n**What you'd do:**\n\n* Build the core enforcement engine, the thing that intercepts tool calls, evaluates policy deterministically, and returns something the agent can actually recover from\n* Go into customer codebases and get Salus deployed against real agent stacks (LangChain, LangGraph, MCP, whatever they're running)\n* Work on the research side with us, benchmarks, adversarial evaluation, and the harder problems around agent authorization and provenance that our papers come out of\n* Own real surface area from day one, this is a founding role, not a ticket queue\n\n**What we're looking for:**\n\n* Deep with LLMs and agents, you understand tool calling, context, eval, and where agents actually break in production\n* Strong systems engineer, low-latency and correctness-critical code doesn't scare you\n* Excellent all-around SWE, you go from a vague problem to a working thing fast\n* Comfortable straddling product and research, you want to build the thing and figure out the hard open problems behind it\n* You move fast, have taste, and want to be early at something that matters\n* Honestly, just be cracked at anything. If you’re really good at anything, please apply\n\nBonus if you've built agent infrastructure, worked on security, verification, or formal methods, deployed into enterprise environments, or have research chops (papers welcome, not required).\n\nThis is an in-person role in San Francisco / NYC. We're small, we're moving fast, and the ceiling here is enormous. San Francisco, CA, US New York, NY, US jobs_skill 107 Python 288 jobs_skill 138 TypeScript 45 jobs_skill 324 LLMs 0 jobs_skill 331 AI Agents 0 fulltime possible\nlocations: San Francisco, CA, US New York, NY, US\nremote: yes\nmin_experience: 1",
+      "match_score": 6.73,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-16T22:43:30+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.82,
+            "overlap": 9.6,
+            "combined": 6.25
+          },
+          "backend": {
+            "cosine": 5.27,
+            "overlap": 10.15,
+            "combined": 6.73
+          },
+          "frontend": {
+            "cosine": 2.86,
+            "overlap": 9.22,
+            "combined": 4.77
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.27,
+        "keyword_overlap_score": 10.15,
+        "final_score": 6.73,
+        "top_keywords": [
+          {
+            "term": "agents",
+            "weight": 0.2082
+          },
+          {
+            "term": "agent",
+            "weight": 0.1735
+          },
+          {
+            "term": "real",
+            "weight": 0.1135
+          },
+          {
+            "term": "ai",
+            "weight": 0.0694
+          },
+          {
+            "term": "tool",
+            "weight": 0.0694
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a50c238f8f17b71558b32607cf059b2b",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Senior Content Marketing Manager",
+      "url": "https://www.workatastartup.com/jobs/110241",
+      "jd_text": "# **Senior Content Marketing Manager**\n\n**About AiPrise**\n\nAiPrise is the global compliance platform for companies that operate across borders. We cover the full KYB lifecycle in a single API, with AI agents handling the case work that used to eat analyst hours. Customers include Meta, Bridge (a Stripe company), Airwallex, and Nivoda. We're a YC company (S22), Series A backed by Headline, and growing fast.\n\n**About this role**\n\nWe're looking for a Senior Content Marketing Manager to lead our media engine.\n\nThis is a builder role. You'll own the strategy, creation, and growth of our content across long-form research, newsletter, podcast, and social. Some of this exists and needs to be taken to the next level. Some of it you'll build from scratch. Either way, you'll shape how the market understands AiPrise.\n\nOur audience is compliance leaders. They've been doing this work for 15+ years, they know the vocabulary, and they can smell marketing from a mile away. The content that wins with them is specific, sourced, and useful. That's the bar.\n\nYou'll work directly with our founders, product team, customers, and industry experts to turn real insight into content people in this industry actually read, share, and act on.\n\n**What you'll own**\n\n- Content strategy across channels, from a clear editorial point of view to a consistent publishing engine.\n\n- Long-form content: original research, industry reports, white papers, and guides that become reference material for compliance teams.\n\n- Our newsletter, Compliance Compass. It has a real subscriber base and a monthly cadence. Your job is to make it the industry read.\n\n- Our podcast, from concept and guest selection through production, distribution, and growth. You may be the face of it. Comfort on camera is a real part of this role.\n\n- Organic social content that builds audience and earns attention.\n\n- Repurposing systems: turning one strong idea into many pieces across channels.\n\n- Working with our founders and subject matter experts to turn their insight into stories worth sharing.\n\n- Measurement. Every piece of content gets judged on results, and what isn't working gets killed fast.\n\n**Who you are**\n\n- 5+ years in content marketing, editorial, or journalism.\n\n- You've built content programs from the ground up and can show the results.\n\n- An exceptional writer and editor with a strong point of view on what makes content great.\n\n- Comfortable on camera and behind a mic. You can host a conversation with an industry expert and hold your own.\n\n- You take complex, technical subject matter and make it clear without dumbing it down.\n\n- You treat accuracy as non-negotiable. Every stat you publish is sourced and defensible. This is a hard requirement, not a preference.\n\n- Comfortable working directly with founders, executives, and subject matter experts.\n\n- High ownership, high autonomy, fast pace, and real care about the quality of what ships.\n\n**Nice to have**\n\n- Experience in compliance, fintech, or another regulated industry.\n\n- Experience creating category-defining thought leadership.\n\n- Strong instincts for social distribution and audience building.\n\n- Experience with SEO, analytics, and content growth loops.\n\n- Fluency with AI tools for research, workflows, and content production.\n\n**Why this role matters**\n\nContent is how we educate the market, build trust, and earn the attention of an audience that's skeptical by profession. This role shapes how AiPrise is understood as we grow.\n\n New York City fulltime yes\nlocations: New York City\nremote: no\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-16T22:43:30+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0f1568ce3fab7458b1fc395b3a59f5f9",
+      "source": "yc",
+      "company": "Solve Intelligence",
+      "role": "Data Engineer",
+      "url": "https://www.workatastartup.com/jobs/110240",
+      "jd_text": "# 💡 About Us\n\nWe're the fastest-growing startup transforming the IP industry.\n\n- **Traction:** 20-30% MoM revenue growth; selling to 700+ global IP teams (DLA Piper, tech boutiques, and global enterprises).\n\n- **Proven Value:** Users report 50-90% efficiency gains using our AI platform.\n\n- **Backing:** Recently featured in Sifted following our $40M Series B announcement, bringing our total funding to $55M from elite investors including Y Combinator, 20VC, Visionaries, Microsoft and Thomson Reuters.\n\n## **🏗️ About the role**\n\nWe’re hiring a data engineer to build the ingestion and search systems behind Solve Intelligence’s AI products.\n\nOur sources include global patent literature, case law, technical standards and contributions, scientific databases, academic papers, and content from across the web. The data spans structured records, documents, images, audio and video. You’ll work across bulk ingestion and on-demand retrieval, making this information searchable and useful in our products\n\nYou’ll own systems from source acquisition through to serving queries. The work includes:\n\n- **Large-scale ingestion.** Build and operate high-throughput, resumable pipelines for large datasets, with efficient incremental updates, monitoring and recovery from failures.\n\n- **Document processing and data quality.** Extract useful content from complex documents and other formats. Handle malformed records and changing schemas, and validate outputs while preserving structure and metadata.\n\n- **Search and serving.** Build keyword, vector and structured search, and design schemas, indexes and partitioning for fast queries over tens to hundreds of millions of records.\n\n- **Connecting information across sources.** Link patents, scientific records and supporting documents, preserve dates and versions, and make results traceable to their original sources.\n\n- **Performance engineering.** Profile parsing, ingestion, database builds and queries throughout development, testing against representative datasets at realistic scale. Diagnose CPU, memory and storage I/O bottlenecks, and tune jobs and infrastructure for throughput, latency and cost.\n\nYou’ll work closely with our AI researchers and product engineers, with substantial freedom to choose the approach and build the systems yourself.\n\n## 🛠️ What you bring\n\n**Must haves:**\n\n- Strong Python and SQL, with experience designing and operating production databases.\n\n- Solid experience building and operating production data pipelines over large, messy datasets.\n\n- Expertise with running search systems over large document collections.\n\n- End-to-end ownership from raw data to user-facing functionality.\n\n- A good understanding of schema design, indexing and query optimisation.\n\n- A track record of diagnosing and fixing performance bottlenecks in live systems through profiling and measurement.\n\n**Nice to Have:**\n\n- Experience with PostgreSQL/pgvector, OpenSearch (or Elasticsearch), Spark/Delta Lake, AWS, NoSQL databases, or Rust/C++ is useful.\n\n## **👋 The Founders**\n\nYou'll partner with a founding team of AI PhDs and elite systems engineers:\n\n- **Sanj** (CRO): PhD in AI (Gatsby Unit, UCL), ex-Huawei R&D, former lead at Magic Carpet AI (acquired).\n\n- **Chris** (CEO): PhD in AI (UCL), published researcher, ex-Dyson and Alan Turing Institute.\n\n- **Angus** (CTO): MEng Computer Science, ex-Qualcomm and Coremont (Brevan Howard).\n\n## What we offer\n\n- **Competitive Salary + Significant Equity:** We want you to have true ownership in the success of the company.\n\n- **Founding Impact:** You'll have a direct hand in how we build out the data infrastructure the rest of the product depends on.\n\n- **Support:** Full visa sponsorship and private medical insurance.\n\n- **The Environment:** Free meals and a seat at the table with an incredibly smart, ambitious team.\n\n&nbsp;\n London fulltime yes\nlocations: London\nremote: no",
+      "match_score": 8.36,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-16T22:43:30+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.11,
+            "overlap": 11.26,
+            "combined": 8.35
+          },
+          "backend": {
+            "cosine": 6.55,
+            "overlap": 9.77,
+            "combined": 7.52
+          },
+          "frontend": {
+            "cosine": 5.75,
+            "overlap": 12.62,
+            "combined": 7.81
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.11,
+        "keyword_overlap_score": 11.26,
+        "final_score": 8.36,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.183
+          },
+          {
+            "term": "data",
+            "weight": 0.1496
+          },
+          {
+            "term": "team",
+            "weight": 0.0646
+          },
+          {
+            "term": "experience",
+            "weight": 0.0641
+          },
+          {
+            "term": "end",
+            "weight": 0.0523
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "c06203958047d4ebad5c7a4394fb9223",
       "source": "wellfound",
