@@ -147,7 +147,7 @@ wellfound:
       - no sponsorship
       - citizenship required
   submit:
-    enabled: false
+    enabled: true
     daily_cap: 5
   email:
     digest_subject: "Wellfound jobs digest — {n} to review"

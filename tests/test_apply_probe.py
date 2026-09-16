@@ -11,6 +11,7 @@ from wellfound.apply_probe import (  # noqa: E402
     classify_form_snapshot,
     looks_eligibility_blocked,
 )
+from wellfound.apply_flow import extract_job_description_text  # noqa: E402
 
 
 def test_cover_letter_only() -> None:
@@ -68,6 +69,26 @@ def test_unknown_empty_form() -> None:
     assert result.apply_kind == "unknown"
 
 
+def test_custom_question_answer_name_as_cover() -> None:
+    result = classify_form_snapshot(
+        textareas=["cover letter"],
+        inputs=[],
+        page_text="",
+    )
+    assert result.apply_kind == "cover_letter_only"
+
+
+def test_extract_job_description_text() -> None:
+    html = """
+    <div class="mt-6 rounded-xl border"><h2>About the job</h2>
+    <div id="job-description"><p>Fully <strong>remote</strong> Python APIs at Acme.</p></div>
+    </div>
+    """
+    text = extract_job_description_text(html)
+    assert "remote" in text.lower()
+    assert "Python APIs" in text or "python apis" in text.lower()
+
+
 if __name__ == "__main__":
     test_cover_letter_only()
     test_cover_letter_unnamed_textarea()
@@ -76,4 +97,6 @@ if __name__ == "__main__":
     test_eligibility_blocked()
     test_external_url()
     test_unknown_empty_form()
+    test_custom_question_answer_name_as_cover()
+    test_extract_job_description_text()
     print("apply_probe checks passed")

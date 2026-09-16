@@ -170,7 +170,7 @@ def classify_form_snapshot(
     if cover_count >= 1 or textareas:
         return ProbeResult(
             apply_kind="cover_letter_only",
-            reason="Cover-letter/note form only; live Send deferred.",
+            reason="Cover-letter/note form only.",
         )
 
     return ProbeResult(

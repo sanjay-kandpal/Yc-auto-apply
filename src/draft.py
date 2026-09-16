@@ -234,6 +234,45 @@ def _draft_with_validation(
     return answer, last_call, failures
 
 
+def draft_note_for_job(
+    *,
+    cfg: dict,
+    company: str,
+    role: str,
+    jd: str,
+    resume_variant: str,
+    role_kind: str = "this role",
+) -> str:
+    """Generate one application note (LLM + validation) for apply-time use."""
+    variants = cfg["match"]["resume_variants"]
+    variant = (resume_variant or "").strip() or "fullstack"
+    if variant not in variants:
+        variant = next(iter(variants))
+    resume = _resume_text(cfg, variant)
+    github = github_profile_url(cfg)
+    rpm = max(1, int(cfg["draft"].get("requests_per_minute", 5)))
+    interval = 60.0 / rpm
+    answer, _, failures = _draft_with_validation(
+        cfg=cfg,
+        resume=resume,
+        company=company,
+        role=role,
+        jd=jd,
+        github=github,
+        last_call=0.0,
+        interval=interval,
+        role_kind=role_kind,
+    )
+    if failures:
+        log.warning(
+            "Draft still has validation issues for %s — %s: %s",
+            company,
+            role,
+            "; ".join(failures),
+        )
+    return with_github((answer or "").strip(), cfg)
+
+
 def draft(source: str = "yc") -> None:
     setup_logging()
     cfg = load_config()

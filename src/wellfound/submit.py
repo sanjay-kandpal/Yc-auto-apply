@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 
 from dotenv import load_dotenv
+from playwright.sync_api import TimeoutError as PlaywrightTimeout
 
 _SRC = Path(__file__).resolve().parent.parent
 if str(_SRC) not in sys.path:
@@ -14,16 +15,19 @@ if str(_SRC) not in sys.path:
 
 from config_loader import load_config
 from db import connect, get_job, submitted_today, truncate_error, update_job, utc_now
+from draft import draft_note_for_job
 from log_config import setup_logging
-from wellfound.apply_probe import ProbeResult, probe_apply_form
+from wellfound.apply_flow import (
+    ApplyFlowError,
+    ApplyOutcome,
+    confirmation_payload,
+    open_job_and_read_jd,
+    run_apply_after_draft,
+)
 from wellfound.session import wellfound_context
 
 load_dotenv()
 log = logging.getLogger(__name__)
-
-SEND_DEFERRED = (
-    "Form probe: cover_letter_only. Live Send is deferred; no application was sent."
-)
 
 
 def _submit_enabled(cfg: dict) -> bool:
@@ -34,34 +38,34 @@ def _daily_cap(cfg: dict) -> int:
     return int(((cfg.get("wellfound") or {}).get("submit") or {}).get("daily_cap", 5))
 
 
-def _persist_probe(conn, job_id: str, result: ProbeResult, draft_answer: str | None) -> None:
-    run_id = os.getenv("GITHUB_RUN_ID") or None
-    decided = utc_now()
-    if result.apply_kind == "cover_letter_only":
-        update_job(
-            conn,
-            job_id,
-            status="approved",
-            apply_kind=result.apply_kind,
-            decided_at=decided,
-            error_message=truncate_error(SEND_DEFERRED),
-            sent_message=(draft_answer or "").strip() or None,
-            github_run_id=run_id,
-        )
-        return
+def _github_run_id() -> str | None:
+    return os.getenv("GITHUB_RUN_ID", "").strip() or None
+
+
+def _fail(
+    conn,
+    job_id: str,
+    *,
+    apply_kind: str,
+    reason: str,
+    sent_message: str | None = None,
+    signal: str | None = None,
+) -> None:
     update_job(
         conn,
         job_id,
         status="failed",
-        apply_kind=result.apply_kind,
-        decided_at=decided,
-        error_message=truncate_error(result.error_message()),
-        github_run_id=run_id,
+        apply_kind=apply_kind,
+        decided_at=utc_now(),
+        error_message=truncate_error(reason),
+        sent_message=sent_message,
+        confirmation_signal=signal or confirmation_payload(ok=False, text=reason),
+        github_run_id=_github_run_id(),
     )
 
 
-def probe_job(job_id: str, *, headless: bool = True) -> None:
-    """Login, open Apply, classify form. Never clicks Send."""
+def submit_job(job_id: str, *, headless: bool = True, dry_run: bool = False) -> None:
+    """Learn more → draft from modal JD → Apply → fill → Send application."""
     setup_logging()
     cfg = load_config()
     conn = connect()
@@ -76,65 +80,141 @@ def probe_job(job_id: str, *, headless: bool = True) -> None:
         conn.close()
         raise SystemExit(f"Job {job_id} is source={source}, not wellfound")
 
-    if job["status"] not in ("pending_approval", "drafted", "approved"):
-        log.info("Skip Wellfound probe: %s is %s", job_id, job["status"])
+    if job["status"] not in ("pending_approval", "drafted", "approved", "failed"):
+        log.info("Skip Wellfound submit: %s is %s", job_id, job["status"])
         conn.close()
         return
 
-    # Cap is reserved for live Send; check still runs so wiring is ready.
-    already = submitted_today(conn, source="wellfound")
-    cap = _daily_cap(cfg)
-    if already >= cap:
-        log.warning(
-            "Wellfound daily cap reached (%s/%s); probe still runs (Send remains disabled).",
-            already,
-            cap,
-        )
-
-    if _submit_enabled(cfg):
-        # This stage never Sends even if someone flips the flag early.
-        log.warning(
-            "wellfound.submit.enabled is true, but this build only probes forms and refuses Send."
-        )
-
-    url = (job["url"] or "").strip()
-    if not url:
-        _persist_probe(
+    enabled = _submit_enabled(cfg)
+    if not enabled and not dry_run:
+        _fail(
             conn,
             job_id,
-            ProbeResult(apply_kind="unknown", reason="Job has no URL."),
-            job["draft_answer"],
+            apply_kind="unknown",
+            reason="wellfound.submit.enabled is false; refusing Send.",
         )
         conn.commit()
         conn.close()
         return
 
+    already = submitted_today(conn, source="wellfound")
+    cap = _daily_cap(cfg)
+    if already >= cap and not dry_run:
+        log.warning("Wellfound daily cap reached (%s/%s). Not submitting %s.", already, cap, job_id)
+        conn.close()
+        return
+
+    url = (job["url"] or "").strip()
+    if not url:
+        _fail(conn, job_id, apply_kind="unknown", reason="Job has no URL.")
+        conn.commit()
+        conn.close()
+        return
+
+    message = ""
     try:
         with wellfound_context(headless=headless) as context:
             page = context.new_page()
-            result = probe_apply_form(page, url)
-    except Exception as exc:
-        log.exception("Wellfound apply probe failed for %s", job_id)
-        result = ProbeResult(apply_kind="unknown", reason=f"Probe error: {exc}")
+            jd = open_job_and_read_jd(page, url)
+            message = draft_note_for_job(
+                cfg=cfg,
+                company=job["company"] or "",
+                role=job["role"] or "",
+                jd=jd,
+                resume_variant=job["resume_variant"] or "",
+                role_kind="this role",
+            )
+            if not message.strip():
+                raise RuntimeError("LLM draft was empty.")
 
-    _persist_probe(conn, job_id, result, job["draft_answer"])
+            live = enabled and not dry_run
+            outcome: ApplyOutcome = run_apply_after_draft(
+                page, message, dry_run=not live
+            )
+
+            if not outcome.ok:
+                _fail(
+                    conn,
+                    job_id,
+                    apply_kind=outcome.apply_kind,
+                    reason=outcome.reason,
+                    sent_message=message,
+                    signal=outcome.confirmation_signal,
+                )
+            elif outcome.dry_run or not live:
+                update_job(
+                    conn,
+                    job_id,
+                    status="pending_approval",
+                    apply_kind=outcome.apply_kind,
+                    decided_at=utc_now(),
+                    error_message=truncate_error(
+                        "Dry-run: Learn more → Apply → fill done; Send not clicked."
+                    ),
+                    sent_message=message,
+                    confirmation_signal=outcome.confirmation_signal,
+                    github_run_id=_github_run_id(),
+                )
+                log.info("Wellfound dry-run filled note for %s (no Send).", job_id)
+            else:
+                update_job(
+                    conn,
+                    job_id,
+                    status="submitted",
+                    apply_kind="cover_letter_only",
+                    decided_at=utc_now(),
+                    submitted_at=utc_now(),
+                    error_message=None,
+                    sent_message=message,
+                    confirmation_signal=outcome.confirmation_signal,
+                    github_run_id=_github_run_id(),
+                )
+                log.info("Wellfound submitted %s — %s", job["company"], job["role"])
+    except ApplyFlowError as exc:
+        _fail(
+            conn,
+            job_id,
+            apply_kind=exc.apply_kind,
+            reason=exc.reason,
+            sent_message=message or None,
+        )
+        log.exception("Wellfound apply flow error for %s", job_id)
+    except PlaywrightTimeout as exc:
+        _fail(
+            conn,
+            job_id,
+            apply_kind="unknown",
+            reason=f"timeout: {exc}",
+            sent_message=message or None,
+        )
+        log.exception("Wellfound submit timeout for %s", job_id)
+    except Exception as exc:
+        _fail(
+            conn,
+            job_id,
+            apply_kind="unknown",
+            reason=str(exc),
+            sent_message=message or None,
+        )
+        log.exception("Wellfound submit failed for %s", job_id)
+
     conn.commit()
     conn.close()
-    log.info(
-        "Wellfound probe %s → apply_kind=%s status written (no Send).",
-        job_id,
-        result.apply_kind,
-    )
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Wellfound apply form probe (classify only; no Send)"
+        description="Wellfound live apply (Learn more → draft → Apply → Send application)"
     )
     parser.add_argument("--job-id", required=True)
     parser.add_argument("--headed", action="store_true", help="Run browser headed")
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Fill the answer but do not click Send application",
+    )
     args = parser.parse_args()
-    probe_job(args.job_id, headless=not args.headed)
+    submit_job(args.job_id, headless=not args.headed, dry_run=args.dry_run)
 
 
 if __name__ == "__main__":

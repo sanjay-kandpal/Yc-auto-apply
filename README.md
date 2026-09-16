@@ -8,7 +8,7 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 
 **Current architecture plan (modules, schema, workflows, secrets):** [plan.md](plan.md)
 
-**Wellfound board (scan + digest + form probe on Approve; no live Send):** [wellfound-plan.md](wellfound-plan.md)
+**Wellfound board (scan + digest + live Send on Approve):** [wellfound-plan.md](wellfound-plan.md)
 
 **Deep product guide (architecture, every module, incidents, backlog):** [docs/YC-auto-apply-product-guide.docx](docs/YC-auto-apply-product-guide.docx)
 
@@ -50,13 +50,13 @@ Automated apply is likely against the site’s terms. Keep the approval gate and
 | `.github/workflows/scan.yml` | Every 4 hours (`0 */4 * * *`) plus manual Run workflow. |
 | `.github/workflows/scan-wellfound.yml` | Every 8 hours at 02:00/10:00/18:00 UTC (`0 2,10,18 * * *`) plus manual. Offset 2h from YC so both can run without sharing a start hour. |
 | `.github/workflows/submit.yml` | Runs on `job_approved` / `job_rejected` (YC Playwright Send). |
-| `.github/workflows/submit-wellfound.yml` | `wellfound_job_approved` / `wellfound_job_rejected`. Approve runs an Apply form probe (classify only; no live Send) + spectate. |
-| `src/wellfound/` | Wellfound login, `/jobs` Filters UI scrape, parse, apply form probe. |
+| `.github/workflows/submit-wellfound.yml` | `wellfound_job_approved` / `wellfound_job_rejected`. Approve: Learn more → LLM draft → Apply → Send application (+ spectate). |
+| `src/wellfound/` | Wellfound login, scrape, apply flow (Learn more → Send application). |
 | `.github/workflows/report.yml` | ~10pm IST (`30 16 * * *` UTC) plus manual Run workflow — emails the daily report. |
 | `.github/workflows/resume-otp.yml` | `repository_dispatch` `resume_otp` — emails the 6-digit resume-login code. |
 | `.github/workflows/prune-recordings.yml` | Hourly (`20 * * * *`) plus manual — delete `recording-*` Releases older than 24 hours. |
 
-Status flow: `discovered` → `drafted` → `pending_approval` → `submitted` / `failed` / `rejected`. Wellfound Approve probes the Apply form: `cover_letter_only` → `approved` (Send deferred); questions / blockers / ATS → `failed` + `apply_kind`. Below-threshold jobs stay `discovered` and never hit email.
+Status flow: `discovered` → `drafted` → `pending_approval` → `submitted` / `failed` / `rejected`. Wellfound Approve: Learn more → draft from live JD → Apply → Send application when the form is a single answer field; otherwise `failed` + `apply_kind`. Below-threshold jobs stay `discovered` and never hit email.
 
 ## One-time setup
 
@@ -136,7 +136,7 @@ If login fails, you get an email: update secrets or `credentials.local.yaml`, th
 
 ## Notes
 
-- Wellfound is a second board in this repo: [wellfound-plan.md](wellfound-plan.md). It shares Gmail, the Cloudflare Worker, Gemini, and OpenRouter. Login uses `WELLFOUND_*` secrets. Scrape opens [wellfound.com/jobs](https://wellfound.com/jobs), clicks **Filters** (Software Engineer + Full-Stack Engineer, Full Time, 0–3 years), then **View results**. Approve opens the listing and classifies the Apply form (`apply_kind`); live Send is not wired. Redeploy the Worker after pulling `worker/approve.js` / jobs UI so Wellfound digest links dispatch `wellfound_job_*` and `apply_kind` shows in `/resumes/jobs`.
+- Wellfound is a second board in this repo: [wellfound-plan.md](wellfound-plan.md). It shares Gmail, the Cloudflare Worker, Gemini, and OpenRouter. Login uses `WELLFOUND_*` secrets. Scrape opens [wellfound.com/jobs](https://wellfound.com/jobs), clicks **Filters**, then **View results**. Approve runs live apply (Learn more → draft → Apply → Send application). Redeploy the Worker after jobs UI changes so `apply_kind` shows in `/resumes/jobs`.
 - Login goes to `account.ycombinator.com` username/password (not the magic-link email page). Valid `YC_SESSION_COOKIES` are tried first. 2FA/CAPTCHA will email you.
 - Each scan walks three WAAS listings from `search.sources`: remote engineering (`remote=only`), India (`locations=India`), and 1–2 years (`minExperience=1&minExperience=2`). Experience is not stacked onto the India/remote URLs. Same job URL from two feeds inserts once. If a filter looks wrong in the UI, copy the address bar into that source’s `url`.
 - Approve is the only apply trigger. Scan (every 4 hours) and Reject never click Apply or Send.

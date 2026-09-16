@@ -48,6 +48,14 @@ def _apply_kind(job) -> str:
     return ""
 
 
+def _job_source(job) -> str:
+    if isinstance(job, dict):
+        return str(job.get("source") or "yc").strip().lower() or "yc"
+    if hasattr(job, "keys") and "source" in job.keys():
+        return str(job["source"] or "yc").strip().lower() or "yc"
+    return "yc"
+
+
 def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
     setup_logging()
     job = _load_job(job_id, payload_path)
@@ -59,9 +67,16 @@ def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
     status = job["status"]
     kind = html.escape(_apply_kind(job))
     kind_line = f"<p>apply_kind: <code>{kind or '—'}</code></p>"
+    board = _job_source(job)
     if status == "submitted":
-        subject = f"Applied to {job['role']} at {job['company']}"
-        body = f"<p>Submitted the application for <strong>{role}</strong> at <strong>{company}</strong>.</p>"
+        board_label = "Wellfound" if board == "wellfound" else "YC"
+        subject = f"Applied ({board_label}) to {job['role']} at {job['company']}"
+        body = (
+            f"<p>Submitted the {board_label} application for <strong>{role}</strong> at "
+            f"<strong>{company}</strong>.</p>"
+        )
+        if kind:
+            body += kind_line
     elif status == "rejected":
         subject = f"Rejected {job['role']} at {job['company']}"
         body = f"<p>Marked rejected: <strong>{role}</strong> at <strong>{company}</strong>.</p>"
@@ -69,14 +84,14 @@ def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
         subject = f"Dry-run only: {job['role']} at {job['company']}"
         body = (
             "<p>Submit ran in dry-run mode, so Send was not clicked. "
-            "Approve on GitHub Actions is live (Apply → fill → Send).</p>"
+            "Approve on GitHub Actions is live (Learn more → Apply → fill → Send application).</p>"
         )
     elif status == "approved":
-        subject = f"Approved (probe only) — {job['role']} at {job['company']}"
-        err = html.escape((job["error_message"] or "").strip() or "Live send is not implemented.")
+        subject = f"Approved (not sent) — {job['role']} at {job['company']}"
+        err = html.escape((job["error_message"] or "").strip() or "Application was not sent.")
         body = (
             f"<p>Approve recorded for <strong>{role}</strong> at <strong>{company}</strong>. "
-            "Form was probed; no application was sent.</p>"
+            "No application was sent.</p>"
             f"{kind_line}"
             f"<p>{err}</p>"
         )

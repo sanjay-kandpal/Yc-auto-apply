@@ -20,6 +20,8 @@ jobs:
       GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
       GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       APPROVAL_HMAC_SECRET: ${{ secrets.APPROVAL_HMAC_SECRET }}
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       RECORD_RUN: "true"
       SPECTATE_WORKFLOW: submit-wellfound
     steps:
@@ -32,7 +34,7 @@ jobs:
       - name: Reject
         if: github.event.action == 'wellfound_job_rejected'
         run: python src/db.py --mark-rejected "${{ github.event.client_payload.job_id }}"
-      - name: Apply form probe
+      - name: Submit
         if: github.event.action == 'wellfound_job_approved'
         env:
           RECORDING_DIR: ${{ runner.temp }}/spectate-raw
@@ -49,7 +51,7 @@ jobs:
       - name: Commit state
         env:
           BRANCH: ${{ github.event.repository.default_branch }}
-          COMMIT_MSG: wellfound apply probe
+          COMMIT_MSG: wellfound submit
         run: bash scripts/commit_state.sh
       - name: Upload raw recordings
         if: always()
