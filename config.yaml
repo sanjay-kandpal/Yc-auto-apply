@@ -127,6 +127,25 @@ wellfound:
         - full_time
       experience_years: [0, 3]
       include_jobs_without_experience: true
+  # Extra JD hard-filters for Wellfound only (YC shared filters still apply).
+  filters:
+    eligibility_skip_keywords:
+      - us citizen
+      - u.s. citizen
+      - united states citizen
+      - must be based in the us
+      - must be based in the u.s
+      - must live in the us
+      - must live in the u.s
+      - us only
+      - u.s. only
+      - nyc only
+      - new york only
+      - bay area only
+      - require sponsorship
+      - requires sponsorship
+      - no sponsorship
+      - citizenship required
   submit:
     enabled: false
     daily_cap: 5

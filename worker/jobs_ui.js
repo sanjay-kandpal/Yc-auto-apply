@@ -76,11 +76,13 @@ function listQuery(page) {
   const q = document.getElementById("q").value.trim();
   const sort = document.getElementById("sort").value;
   const source = document.getElementById("source").value;
+  const applyKind = document.getElementById("apply_kind").value;
   if (status) params.set("status", status);
   if (q) params.set("q", q);
   if (document.getElementById("errors").checked) params.set("errors", "1");
   if (sort && sort !== "discovered") params.set("sort", sort);
   if (source) params.set("source", source);
+  if (applyKind) params.set("apply_kind", applyKind);
   return params;
 }
 function renderChips(data) {
@@ -120,6 +122,7 @@ function renderRows(jobs) {
   document.getElementById("rows").innerHTML = (jobs || []).map((job) => {
     return "<tr class=\\"" + esc(job.status || "") + "\\"><td>" + esc(job.status) +
       "</td><td>" + esc(text(job.source || "yc")) +
+      "</td><td>" + esc(text(job.apply_kind)) +
       "</td><td>" + esc(text(job.match_score)) +
       "</td><td><a href=\\"/resumes/jobs?id=" + encodeURIComponent(job.id || "") + "\\">" +
       esc(text(job.company)) + "</a></td><td>" + esc(text(job.role)) +
@@ -128,7 +131,7 @@ function renderRows(jobs) {
       "</td><td>" + esc(formatIst(job.discovered_at)) +
       "</td><td>" + esc(clip(job.error_message, 80)) +
       "</td><td>" + (job.url ? "<a href=\\"" + esc(job.url) + "\\">listing</a>" : "—") + "</td></tr>";
-  }).join("") || "<tr><td colspan=\\"10\\">No jobs match these filters.</td></tr>";
+  }).join("") || "<tr><td colspan=\\"11\\">No jobs match these filters.</td></tr>";
 }
 ${RECEIPT_VIEWER_JS}
 function renderDetail(payload) {
@@ -139,7 +142,8 @@ function renderDetail(payload) {
     return;
   }
   const fields = [
-    ["id", job.id], ["source", job.source || "yc"], ["status", job.status], ["company", job.company], ["role", job.role],
+    ["id", job.id], ["source", job.source || "yc"], ["apply_kind", job.apply_kind],
+    ["status", job.status], ["company", job.company], ["role", job.role],
     ["url", job.url], ["match_score", job.match_score], ["resume_variant", job.resume_variant],
     ["resume_version_hash", job.resume_version_hash],
     ["discovered_at", job.discovered_at], ["drafted_at", job.drafted_at],
@@ -179,7 +183,7 @@ async function loadList(page) {
   const params = listQuery(page);
   const errEl = document.getElementById("list-error");
   errEl.hidden = true;
-  document.getElementById("rows").innerHTML = "<tr><td colspan=\\"10\\">Loading…</td></tr>";
+  document.getElementById("rows").innerHTML = "<tr><td colspan=\\"11\\">Loading…</td></tr>";
   const data = await fetchJson(params);
   document.getElementById("note").textContent = data.missing
     ? "No snapshot yet. Wait for the next scan/submit, or run python src/dashboard.py and commit data/jobs.json."
@@ -208,6 +212,7 @@ async function main() {
     if (params.get("q")) document.getElementById("q").value = params.get("q");
     if (params.get("sort")) document.getElementById("sort").value = params.get("sort");
     if (params.get("source")) document.getElementById("source").value = params.get("source");
+    if (params.get("apply_kind")) document.getElementById("apply_kind").value = params.get("apply_kind");
     document.getElementById("errors").checked = params.get("errors") === "1";
     let current = Number(params.get("page") || 1) || 1;
     let searchTimer = 0;
@@ -216,7 +221,7 @@ async function main() {
       errEl.textContent = err.message;
       errEl.hidden = false;
     });
-    ["status", "sort", "errors", "source"].forEach((name) => {
+    ["status", "sort", "errors", "source", "apply_kind"].forEach((name) => {
       document.getElementById(name).addEventListener("change", () => reload(1));
     });
     document.getElementById("q").addEventListener("input", () => {
@@ -266,6 +271,16 @@ export function jobsPage() {
            <option value="wellfound">wellfound</option>
          </select>
        </label>
+       <label>Apply kind
+         <select id="apply_kind">
+           <option value="">all</option>
+           <option value="cover_letter_only">cover_letter_only</option>
+           <option value="has_questions">has_questions</option>
+           <option value="eligibility_blocked">eligibility_blocked</option>
+           <option value="external_ats">external_ats</option>
+           <option value="unknown">unknown</option>
+         </select>
+       </label>
        <label>Search
          <input id="q" type="text" placeholder="company, role, id, error, sent"/>
        </label>
@@ -289,11 +304,11 @@ export function jobsPage() {
          <table>
            <thead>
              <tr>
-               <th>status</th><th>source</th><th>score</th><th>company</th><th>role</th>
+               <th>status</th><th>source</th><th>apply_kind</th><th>score</th><th>company</th><th>role</th>
                <th>resume</th><th>sent</th><th>discovered</th><th>error</th><th>url</th>
              </tr>
            </thead>
-           <tbody id="rows"><tr><td colspan="10">Loading…</td></tr></tbody>
+           <tbody id="rows"><tr><td colspan="11">Loading…</td></tr></tbody>
          </table>
        </div>
        <nav id="pager" class="pager" hidden></nav>

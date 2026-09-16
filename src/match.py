@@ -31,7 +31,7 @@ def _contains_any(text: str, keywords: list[str]) -> bool:
     return any(k.lower() in text for k in keywords)
 
 
-def hard_filter_reason(role: str, jd: str, cfg: dict) -> str | None:
+def hard_filter_reason(role: str, jd: str, cfg: dict, source: str = "yc") -> str | None:
     blob = f"{role}\n{jd}".lower()
     filters = cfg["filters"]
     if _contains_any(role.lower(), filters.get("skip_keywords", [])):
@@ -42,10 +42,17 @@ def hard_filter_reason(role: str, jd: str, cfg: dict) -> str | None:
         return "not_remote_or_india"
     if not _contains_any(blob, filters.get("role_keywords", [])):
         return "role_mismatch"
+    if source == "wellfound":
+        wf = (cfg.get("wellfound") or {}).get("filters") or {}
+        eligibility_skip = wf.get("eligibility_skip_keywords") or []
+        if eligibility_skip and _contains_any(blob, eligibility_skip):
+            return "eligibility_skip"
     return None
 
 
-def evaluate_hard_filters(role: str, jd: str, cfg: dict) -> tuple[dict, str | None]:
+def evaluate_hard_filters(
+    role: str, jd: str, cfg: dict, source: str = "yc"
+) -> tuple[dict, str | None]:
     blob = f"{role}\n{jd}".lower()
     filters = cfg["filters"]
     skip_ok = not _contains_any(role.lower(), filters.get("skip_keywords", []))
@@ -54,13 +61,20 @@ def evaluate_hard_filters(role: str, jd: str, cfg: dict) -> tuple[dict, str | No
     else:
         remote_ok = True
     role_ok = _contains_any(blob, filters.get("role_keywords", []))
+    eligibility_ok = True
+    if source == "wellfound":
+        wf = (cfg.get("wellfound") or {}).get("filters") or {}
+        eligibility_skip = wf.get("eligibility_skip_keywords") or []
+        if eligibility_skip and _contains_any(blob, eligibility_skip):
+            eligibility_ok = False
     hard = {
         "skip_keyword": skip_ok,
         "remote_or_india": remote_ok,
         "role_keyword": role_ok,
-        "passed": skip_ok and remote_ok and role_ok,
+        "eligibility": eligibility_ok,
+        "passed": skip_ok and remote_ok and role_ok and eligibility_ok,
     }
-    return hard, hard_filter_reason(role, jd, cfg)
+    return hard, hard_filter_reason(role, jd, cfg, source=source)
 
 
 def _tokenize(text: str) -> set[str]:
@@ -142,7 +156,7 @@ def match(source: str = "yc") -> None:
             continue
         role = job["role"] or ""
         jd = job["jd_text"] or ""
-        hard, reason = evaluate_hard_filters(role, jd, cfg)
+        hard, reason = evaluate_hard_filters(role, jd, cfg, source=source)
         if reason:
             breakdown = empty_breakdown(hard, reason)
             update_job(

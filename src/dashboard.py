@@ -30,6 +30,7 @@ def render() -> None:
             "<tr>"
             f"<td>{_esc(job['status'])}</td>"
             f"<td>{_esc(job['source'] if 'source' in job.keys() else 'yc')}</td>"
+            f"<td>{_esc(job['apply_kind'] if 'apply_kind' in job.keys() else '')}</td>"
             f"<td>{_esc(job['match_score'])}</td>"
             f"<td>{_esc(job['company'])}</td>"
             f"<td>{_esc(job['role'])}</td>"
@@ -38,7 +39,7 @@ def render() -> None:
             f"<td>{_esc(job['discovered_at'])}</td>"
             "</tr>"
         )
-    table = "\n".join(rows) or "<tr><td colspan='8'>Empty database.</td></tr>"
+    table = "\n".join(rows) or "<tr><td colspan='9'>Empty database.</td></tr>"
     page = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -57,7 +58,7 @@ def render() -> None:
   <table>
     <thead>
       <tr>
-        <th>status</th><th>source</th><th>score</th><th>company</th><th>role</th>
+        <th>status</th><th>source</th><th>apply_kind</th><th>score</th><th>company</th><th>role</th>
         <th>resume</th><th>url</th><th>discovered</th>
       </tr>
     </thead>

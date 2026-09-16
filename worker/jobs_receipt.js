@@ -14,7 +14,7 @@ function renderScoreSection(job) {
     return "<h3>Score breakdown</h3><p class=\\"muted\\">not tracked for this application</p>";
   }
   const hard = breakdown.hard_filters || {};
-  const filterRows = ["skip_keyword", "remote_or_india", "role_keyword"].map((key) => {
+  const filterRows = ["skip_keyword", "remote_or_india", "role_keyword", "eligibility"].map((key) => {
     const ok = hard[key];
     return "<li>" + esc(key) + ": " + (ok === true ? "pass" : ok === false ? "fail" : "—") + "</li>";
   }).join("");

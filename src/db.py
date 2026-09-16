@@ -33,11 +33,20 @@ CREATE TABLE IF NOT EXISTS jobs (
   submitted_at TEXT,
   error_message TEXT,
   sent_message TEXT,
-  source TEXT
+  source TEXT,
+  apply_kind TEXT
 );
 """
 
 ERROR_MESSAGE_MAX_LEN = 500
+
+APPLY_KINDS = (
+    "cover_letter_only",
+    "has_questions",
+    "eligibility_blocked",
+    "external_ats",
+    "unknown",
+)
 
 RESUME_VERSIONS_SCHEMA = """
 CREATE TABLE IF NOT EXISTS resume_versions (
@@ -115,6 +124,8 @@ def _migrate(conn: sqlite3.Connection) -> None:
             "UPDATE jobs SET source = ? WHERE source IS NULL OR source = ''",
             (DEFAULT_SOURCE,),
         )
+    if "apply_kind" not in cols:
+        conn.execute("ALTER TABLE jobs ADD COLUMN apply_kind TEXT")
     conn.execute(RESUME_VERSIONS_SCHEMA)
 
 
@@ -212,14 +223,25 @@ def update_job(conn: sqlite3.Connection, job_id: str, **fields) -> None:
     conn.execute(f"UPDATE jobs SET {assignments} WHERE id = ?", values)
 
 
-def submitted_today(conn: sqlite3.Connection) -> int:
+def submitted_today(conn: sqlite3.Connection, source: str | None = None) -> int:
     today = datetime.now(timezone.utc).date().isoformat()
+    if source is None:
+        row = conn.execute(
+            """
+            SELECT COUNT(*) AS n FROM jobs
+            WHERE status = 'submitted' AND submitted_at IS NOT NULL AND submitted_at LIKE ?
+            """,
+            (f"{today}%",),
+        ).fetchone()
+        return int(row["n"] if row else 0)
+    clause, params = source_clause(source)
     row = conn.execute(
-        """
+        f"""
         SELECT COUNT(*) AS n FROM jobs
         WHERE status = 'submitted' AND submitted_at IS NOT NULL AND submitted_at LIKE ?
+          AND {clause}
         """,
-        (f"{today}%",),
+        (f"{today}%", *params),
     ).fetchone()
     return int(row["n"] if row else 0)
 

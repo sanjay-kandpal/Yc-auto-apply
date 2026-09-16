@@ -160,6 +160,49 @@ def test_hard_filter() -> None:
     assert hard_filter_reason("Backend Engineer", "Remote Python APIs", cfg) is None
 
 
+def test_wellfound_eligibility_filter() -> None:
+    cfg = {
+        "filters": {
+            "skip_keywords": ["intern"],
+            "require_remote_or_india": True,
+            "remote_or_india_keywords": ["remote", "india"],
+            "role_keywords": ["backend", "software engineer"],
+        },
+        "wellfound": {
+            "filters": {
+                "eligibility_skip_keywords": ["us citizen", "us only", "must be based in the us"],
+            }
+        },
+    }
+    assert (
+        hard_filter_reason(
+            "Backend Engineer",
+            "Remote role. US citizen required.",
+            cfg,
+            source="wellfound",
+        )
+        == "eligibility_skip"
+    )
+    assert (
+        hard_filter_reason(
+            "Backend Engineer",
+            "Remote role. US citizen required.",
+            cfg,
+            source="yc",
+        )
+        is None
+    )
+    hard, reason = evaluate_hard_filters(
+        "Backend Engineer",
+        "Remote Python. Must be based in the US.",
+        cfg,
+        source="wellfound",
+    )
+    assert reason == "eligibility_skip"
+    assert hard["eligibility"] is False
+    assert hard["passed"] is False
+
+
 def test_match_breakdown_and_resume_versions() -> None:
     cfg = {
         "filters": {
@@ -224,6 +267,19 @@ def test_db_dedup_and_cap() -> None:
         update_job(conn, job_id, status="submitted", submitted_at=utc_now())
         conn.commit()
         assert submitted_today(conn) == 1
+        assert submitted_today(conn, source="yc") == 1
+        assert submitted_today(conn, source="wellfound") == 0
+        wf_id = job_id_for("Beta", "Frontend", "https://wellfound.com/jobs/9")
+        assert insert_discovered(
+            conn, "Beta", "Frontend", "https://wellfound.com/jobs/9", "jd", source="wellfound"
+        )
+        update_job(conn, wf_id, status="submitted", submitted_at=utc_now(), apply_kind="cover_letter_only")
+        conn.commit()
+        assert submitted_today(conn) == 2
+        assert submitted_today(conn, source="yc") == 1
+        assert submitted_today(conn, source="wellfound") == 1
+        row = conn.execute("SELECT apply_kind FROM jobs WHERE id = ?", (wf_id,)).fetchone()
+        assert row["apply_kind"] == "cover_letter_only"
         conn.close()
 
 
@@ -420,6 +476,7 @@ def test_sent_message_migrates() -> None:
         assert "confirmation_signal" in cols
         assert "github_run_id" in cols
         assert "source" in cols
+        assert "apply_kind" in cols
         tables = {row[0] for row in conn.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()}
         assert "resume_versions" in tables
         conn.close()
@@ -545,6 +602,7 @@ if __name__ == "__main__":
     test_job_id_stable()
     test_walk_jobs()
     test_hard_filter()
+    test_wellfound_eligibility_filter()
     test_match_breakdown_and_resume_versions()
     test_db_dedup_and_cap()
     test_search_sources()

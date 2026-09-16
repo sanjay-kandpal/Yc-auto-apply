@@ -40,6 +40,14 @@ def _load_job(job_id: str | None, payload_path: Path | None):
     return job
 
 
+def _apply_kind(job) -> str:
+    if isinstance(job, dict):
+        return str(job.get("apply_kind") or "").strip()
+    if hasattr(job, "keys") and "apply_kind" in job.keys():
+        return str(job["apply_kind"] or "").strip()
+    return ""
+
+
 def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
     setup_logging()
     job = _load_job(job_id, payload_path)
@@ -49,6 +57,8 @@ def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
     role = html.escape(job["role"] or "")
     url = html.escape(job["url"] or "")
     status = job["status"]
+    kind = html.escape(_apply_kind(job))
+    kind_line = f"<p>apply_kind: <code>{kind or '—'}</code></p>"
     if status == "submitted":
         subject = f"Applied to {job['role']} at {job['company']}"
         body = f"<p>Submitted the application for <strong>{role}</strong> at <strong>{company}</strong>.</p>"
@@ -62,11 +72,12 @@ def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
             "Approve on GitHub Actions is live (Apply → fill → Send).</p>"
         )
     elif status == "approved":
-        subject = f"Approved (send not implemented) — {job['role']} at {job['company']}"
+        subject = f"Approved (probe only) — {job['role']} at {job['company']}"
         err = html.escape((job["error_message"] or "").strip() or "Live send is not implemented.")
         body = (
             f"<p>Approve recorded for <strong>{role}</strong> at <strong>{company}</strong>. "
-            "No application was sent.</p>"
+            "Form was probed; no application was sent.</p>"
+            f"{kind_line}"
             f"<p>{err}</p>"
         )
     else:
@@ -75,6 +86,7 @@ def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
         body = (
             f"<p>Failed to submit <strong>{role}</strong> at <strong>{company}</strong>. "
             "Needs manual follow-up.</p>"
+            f"{kind_line}"
             f"<p><strong>Error:</strong> {err}</p>"
         )
     body += f'<p><a href="{url}">Open listing</a></p>'

@@ -35,6 +35,7 @@ JOB_FIELDS = (
     "drafted_at",
     "confirmation_signal",
     "github_run_id",
+    "apply_kind",
 )
 JSON_FIELDS = frozenset({"match_breakdown", "confirmation_signal"})
 

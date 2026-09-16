@@ -14,19 +14,28 @@ jobs:
       group: jobs-db
       cancel-in-progress: false
     env:
+      WELLFOUND_EMAIL: ${{ secrets.WELLFOUND_EMAIL }}
+      WELLFOUND_PASSWORD: ${{ secrets.WELLFOUND_PASSWORD }}
+      WELLFOUND_SESSION_COOKIES: ${{ secrets.WELLFOUND_SESSION_COOKIES }}
       GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
       GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       APPROVAL_HMAC_SECRET: ${{ secrets.APPROVAL_HMAC_SECRET }}
+      RECORD_RUN: "true"
+      SPECTATE_WORKFLOW: submit-wellfound
     steps:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - uses: ./.github/actions/setup-cached-python
+        with:
+          with-playwright: "true"
       - name: Reject
         if: github.event.action == 'wellfound_job_rejected'
         run: python src/db.py --mark-rejected "${{ github.event.client_payload.job_id }}"
-      - name: Approve stub
+      - name: Apply form probe
         if: github.event.action == 'wellfound_job_approved'
+        env:
+          RECORDING_DIR: ${{ runner.temp }}/spectate-raw
         run: python src/wellfound/submit.py --job-id "${{ github.event.client_payload.job_id }}"
       - name: Write notify payload
         if: always()
@@ -40,5 +49,47 @@ jobs:
       - name: Commit state
         env:
           BRANCH: ${{ github.event.repository.default_branch }}
-          COMMIT_MSG: wellfound submit stub
+          COMMIT_MSG: wellfound apply probe
         run: bash scripts/commit_state.sh
+      - name: Upload raw recordings
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spectate-raw-${{ github.run_id }}
+          path: ${{ runner.temp }}/spectate-raw
+          if-no-files-found: ignore
+          retention-days: 1
+      - name: Upload notify payload
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: notify-payload-${{ github.run_id }}
+          path: ${{ runner.temp }}/notify-payload.json
+          if-no-files-found: ignore
+          retention-days: 1
+
+  spectate:
+    needs: handle
+    if: always() && needs.handle.result != 'cancelled'
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    env:
+      GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ./.github/actions/setup-cached-python
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: spectate-raw-${{ github.run_id }}
+          path: ${{ runner.temp }}/spectate-raw
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: notify-payload-${{ github.run_id }}
+          path: ${{ runner.temp }}
+      - uses: ./.github/actions/publish-recording
+        with:
+          workflow: submit-wellfound
+          job_id: ${{ github.event.client_payload.job_id }}

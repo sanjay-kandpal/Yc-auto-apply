@@ -84,7 +84,8 @@ def send_digest(source: str = "yc") -> None:
 
     subject = _digest_subject(cfg, source, len(jobs))
     extra = (
-        " Wellfound Approve records the decision only; live send is not implemented."
+        " Wellfound Approve opens the listing and <strong>probes the Apply form only</strong> "
+        "(cover-letter vs questions). Live Send is not implemented yet."
         if source == "wellfound"
         else " Each Approve click can trigger a real application."
     )
