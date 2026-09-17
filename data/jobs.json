@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-09-17T15:10:23+00:00",
+  "exported_at": "2026-09-17T15:11:16+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "failed": 4,
-    "discovered": 632,
     "pending_approval": 130,
+    "discovered": 632,
+    "failed": 4,
     "submitted": 5,
     "rejected": 3
   },
@@ -20,11 +20,11 @@
       "match_score": 10.95,
       "resume_variant": "fullstack",
       "draft_answer": "My experience includes running open-weight LLMs locally, validating their tool-calling reliability, and building RAG pipelines, directly supporting Redule Ai's goal of integrating LLMs to automate processes. As a FullStack Engineer, I've consistently delivered production-ready systems, from owning end-to-end deployments with blue-green releases to cutting API fetch latency by 98% using Redis caching and diagnosing concurrency risks with RabbitMQ.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "failed",
+      "status": "pending_approval",
       "discovered_at": "2026-09-17T14:48:12+00:00",
-      "decided_at": "2026-09-17T15:10:23+00:00",
+      "decided_at": null,
       "submitted_at": null,
-      "error_message": "Could not find Learn more button.",
+      "error_message": null,
       "sent_message": null,
       "match_breakdown": {
         "weights_version": "v1",
@@ -82,13 +82,9 @@
       },
       "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
       "drafted_at": "2026-09-17T14:49:12+00:00",
-      "confirmation_signal": {
-        "ok": false,
-        "url": "",
-        "text": "Could not find Learn more button."
-      },
-      "github_run_id": "35238355809",
-      "apply_kind": "unknown"
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
     },
     {
       "id": "eb76799db3cf6f7b93a5fd517ada219c",
@@ -443,11 +439,11 @@
       "match_score": 14.27,
       "resume_variant": "fullstack",
       "draft_answer": "I build and ship robust full-stack products end-to-end, from architecting cloud-native compliance platforms for 80+ client organizations to designing RESTful APIs for complex systems, demonstrating my capacity for delivering client projects, including those in real estate marketing and lead generation, using modern frameworks like React, Next.js, FastAPI, and Node.js. I embrace AI-assisted development, having validated LLM tool-calling reliability and integrated Cursor into my workflow, where I apply a critical eye to review code for security vulnerabilities and optimize performance, drawing on experience debugging high-concurrency risks and cutting fetch latency by 98%.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "pending_approval",
+      "status": "failed",
       "discovered_at": "2026-09-17T14:48:12+00:00",
-      "decided_at": null,
+      "decided_at": "2026-09-17T15:11:14+00:00",
       "submitted_at": null,
-      "error_message": null,
+      "error_message": "Could not find Learn more button.",
       "sent_message": null,
       "match_breakdown": {
         "weights_version": "v1",
@@ -505,9 +501,13 @@
       },
       "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
       "drafted_at": "2026-09-17T14:48:49+00:00",
-      "confirmation_signal": null,
-      "github_run_id": null,
-      "apply_kind": null
+      "confirmation_signal": {
+        "ok": false,
+        "url": "",
+        "text": "Could not find Learn more button."
+      },
+      "github_run_id": "35238365630",
+      "apply_kind": "unknown"
     },
     {
       "id": "2f5ec47d30f22fe112d5e97c7b6aef49",
