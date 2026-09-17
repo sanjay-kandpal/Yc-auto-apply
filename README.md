@@ -103,6 +103,20 @@ Forgot password / name: on the login page, enter `RECOVERY_EMAIL`, wait for the 
 
 Jobs visualizer (same login): `https://yc-job-approve.sanjaykandpal4.workers.dev/resumes/jobs` — read-only snapshot of `data/jobs.json` from the last scan/submit commit. The Worker loads the **latest commit** on `GH_BRANCH` via the Git blobs API (not GitHub’s cached raw CDN). Lists **10 rows per page**; `/resumes/jobs.json?page=N` returns only that page (plus `total_pages`). Click a company for the receipt: score breakdown, hashed resume text, timeline, Send confirmation. Deploy the Worker after pulling Worker changes (`npx wrangler deploy` in `worker/`).
 
+### Local Worker (prefer this while iterating)
+
+Do **not** deploy on every UI tweak. Run the Worker locally:
+
+```bash
+cd worker
+cp .dev.vars.example .dev.vars   # once; fill secrets
+npx wrangler dev
+```
+
+Open `http://127.0.0.1:8787/resumes` and `http://127.0.0.1:8787/resumes/jobs`. Secrets come from `.dev.vars` (gitignored); use the same `APPROVAL_HMAC_SECRET` as digest signing if you test Approve links. Jobs/resume routes still call GitHub with `GH_PAT_FOR_DISPATCH`, so the PAT must be valid — but nothing is published to `*.workers.dev` until you `npx wrangler deploy`.
+
+Other local checks that skip the Worker: `python src/dashboard.py` (static `docs/index.html`), Python CLI for scrape/match/draft/submit, and `python tests/test_pipeline.py` for HMAC signing.
+
 Run recordings: GitHub **Releases** tagged `recording-<run_id>`. They are deleted after **24 hours** (`spectate.retain_hours`; hourly `prune-recordings.yml` plus after each spectate job). A count cap (`keep_releases`) is a backup. The email link downloads the mp4 (GitHub does not play it inline) and 404s after prune. You must be logged into GitHub if the repo is private. Workflow artifacts expire after 1 day.
 
 ### GitHub Pages

@@ -10,6 +10,7 @@ playwright-report/
 test-results/
 node_modules/
 .wrangler/
+worker/.dev.vars
 data/recordings/
 *.webm
 *.mp4

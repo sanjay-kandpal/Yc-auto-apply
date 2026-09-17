@@ -1,0 +1,9 @@
+# Local Wrangler secrets (copy to .dev.vars — never commit .dev.vars).
+# Same names as production: wrangler secret put …
+#
+# APPROVAL_HMAC_SECRET must match the value used to sign digest links
+# (GitHub secret / .env) or local Approve links will fail verify.
+
+APPROVAL_HMAC_SECRET=
+GH_PAT_FOR_DISPATCH=
+RECOVERY_EMAIL=
