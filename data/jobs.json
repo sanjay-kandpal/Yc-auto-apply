@@ -1,15 +1,206 @@
 {
-  "exported_at": "2026-09-17T03:35:21+00:00",
+  "exported_at": "2026-09-17T07:26:32+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 620,
+    "discovered": 623,
     "pending_approval": 127,
     "submitted": 5,
     "failed": 3,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "73858d6ae2dbae6dd0eb0bfd7c39f48c",
+      "source": "wellfound",
+      "company": "ParallelDots",
+      "role": "Machine Learning Engineer",
+      "url": "https://wellfound.com/jobs/4176912-machine-learning-engineer",
+      "jd_text": "About The Role:\nWe are currently looking to hire Machine Learning Engineer for our organisation.\n \nThe Required Skillset:\n\n* Excellent at Python programming and some experience with PyTorch\n* Some work experience in training Image Classification and Object Detection algorithms is necessary\n* Diligence and Attention to detail. Some experience with NLP is good but not necessary\n* Any experience with Web Development and model serving with Torchserve is an added bonus\n* Some experience around OCR will be helpful\n\nDay to Day:\n\n* Train and Deploy classification and object detection models. Work will involve PyTorch, ONNX Runtime, transformers and web framework like FastAPI\n* Develop thorough insights about our Computer Vision pipelines and change and modify them for any new projects\n\nEligibility:\nFreshers who are pursuing or have already pursued internship into Data science domain must explore this opportunity Gurgaon\nlocationNames: Gurgaon\nremote: true",
+      "match_score": 5.06,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T07:26:30+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.56,
+            "overlap": 4.97,
+            "combined": 3.98
+          },
+          "backend": {
+            "cosine": 3.8,
+            "overlap": 5.64,
+            "combined": 4.35
+          },
+          "frontend": {
+            "cosine": 4.32,
+            "overlap": 6.8,
+            "combined": 5.07
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 4.32,
+        "keyword_overlap_score": 6.8,
+        "final_score": 5.06,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2565
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1026
+          },
+          {
+            "term": "algorithms",
+            "weight": 0.0513
+          },
+          {
+            "term": "computer",
+            "weight": 0.0513
+          },
+          {
+            "term": "data",
+            "weight": 0.0513
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "60081d1111d729e651776b845a664ca1",
+      "source": "wellfound",
+      "company": "ParallelDots",
+      "role": "Solutions Consultant",
+      "url": "https://wellfound.com/jobs/4584305-solutions-consultant",
+      "jd_text": "**About the role**\n\nShelfWatch is a retail shelf monitoring and execution platform used by global CPG and FMCG brands across 50+ markets. Every one of those clients arrives with the same underlying need described in a different vocabulary, a different store format, and a different set of internal metrics.\nYour job is to be the person who knows, precisely, what our product already does — and who can look at a client requirement and say this is a configuration, this is a roadmap item, or this is something you shouldn't want, and here's what to do instead.\nYou will work alongside a Project Manager on each account. They own the plan, the timeline and the commercials. You own the solution: what gets switched on, how it gets configured, and whether what we deliver actually answers what the client asked for.\nThis is a client-facing role. You will be on the weekly and monthly calls, running demos and fielding questions directly — not briefing someone else to do it.\n \n**What you'll do**\n\nTranslate client requirements into ShelfWatch capability — map the ask to what exists, specify the configuration, and define what \"done\" looks like in terms the client will accept\nOwn the solution design across the account lifecycle, from scoping through go-live and into steady state\nRun client calls: walk through the solution as it's being built, demo new capability, work through queries and concerns in the room\nPush back where it matters — steer clients toward standard product instead of bespoke workarounds, and say plainly when something is not feasible\nRoute escalations to the right internal team with enough diagnosis attached that they can act on it, rather than passing the message along\nPartner with Product and Engineering — you'll be one of the sharpest sources of signal on what real clients actually need\nBuild the internal reference material for your specialization, so the next account doesn't start from zero.\n \n**What you won't do**\n\nWe're being explicit about this because it changes who is right for the role.\nYou will not write client-specific production code. Every bespoke script becomes a permanent maintenance liability that nobody owns, and enough of them stop a product from being a product. The constraint is deliberate. If shipping code is the part of the work you enjoy most, you'll find this role frustrating — and we'd rather you know that now.\n \n**What we're looking for\nRequired**\n\n- 2+ years in a client-facing implementation, functional consulting, or post-sales solutions role, with enterprise customers\n- Hands-on experience configuring a productized platform — SAP, Salesforce, ServiceNow, Workday, Icertis, StayinFront, Zoho, Freshworks or similar. \n- A track record of mapping client requirements onto existing product capability rather than building around it\n- Ran client calls independently — demos, scope discussions, escalations — without a PM or account manager in front of you\n \n**Technical literacy — not engineering**\n\n- Comfortable reading JSON, logs and API documentation\n- Can write SQL, or an equivalent way of pulling and sanity-checking data yourself\n- Uses AI tools to investigate a problem before escalating it. We'll ask for a specific example\n- Can tell a client on a live call that something isn't technically feasible, without needing to check first\n \n**Nice to have**\n\n- Background in retail execution, FMCG/CPG, or any field-force software\n- Experience across multiple countries or regions\n- Worked with an India-based delivery team serving global clients India Gate\nlocationNames: India Gate\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T07:26:30+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e7b55324f205d294466c076b8d481e3a",
+      "source": "wellfound",
+      "company": "Pragma (formerly Logisy)",
+      "role": "Production Support Engineer — Python/Django",
+      "url": "https://wellfound.com/jobs/4717831-production-support-engineer-python-django",
+      "jd_text": "## About Pragma\n\nPragma builds an integrated suite of applications for e-commerce merchants, used by some of India’s fastest-growing brands. Our platform connects merchant workflows, payments, third-party integrations, and background processing across multiple systems.\n\nWe’re looking for a hands-on **Production Support Engineer** to investigate issues across our platform and implement reliable fixes. This role focuses on maintaining and improving existing systems, with production troubleshooting and bug resolution as the primary responsibilities.\n\n## What You Will Do\n\n- Investigate issues reported by internal teams, merchants, and monitoring systems.\n- Trace problems through application code, logs, APIs, database records, and background jobs.\n- Identify root causes and implement focused fixes in our Python/Django applications.\n- Troubleshoot third-party integrations, including failed API requests, missing webhooks, authentication errors, and data-sync issues.\n- Write regression tests to ensure resolved issues do not recur.\n- Verify fixes and monitor affected workflows after deployment.\n- Document findings, resolutions, and troubleshooting steps.\n- Build small scripts or automation to reduce repetitive support work.\n- Communicate progress clearly and escalate complex or high-impact issues with supporting evidence.\n- Follow code-review and deployment processes, taking care when working with production systems and customer data.\n\n## What We’re Looking For\n\n- **1–2 years of professional experience** in Python backend development or application/production support involving code changes.\n- Hands-on experience with **Python and Django**; familiarity with Django REST Framework.\n- Working knowledge of **SQL**, preferably PostgreSQL, including joins and investigating inconsistent records.\n- Understanding of REST APIs, HTTP status codes, authentication, and webhooks.\n- Ability to read an existing codebase, interpret logs and tracebacks, and reproduce bugs.\n- Familiarity with Git, Linux commands, Docker, and Docker Compose.\n- Ability to write and test small, maintainable fixes.\n- A methodical approach to debugging, attention to detail, and ownership through resolution.\n- Clear communication and the judgment to ask for help when needed.\n\n## Good to Have\n\n- Experience supporting a live SaaS or e-commerce application.\n- Exposure to Celery, Redis, task queues, or scheduled jobs.\n- Experience troubleshooting payments, logistics, or other third-party integrations.\n- Familiarity with application monitoring and error-tracking tools.\n\n## Role Focus\n\nThis is a technical role that involves reading and changing application code. Your primary focus will be investigating production issues, fixing defects, and preventing repeat incidents across the platform. You will work with the engineering team on complex issues and changes requiring broader review. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 9.03,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T07:26:30+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.93,
+            "overlap": 11.59,
+            "combined": 9.03
+          },
+          "backend": {
+            "cosine": 7.86,
+            "overlap": 11.65,
+            "combined": 9.0
+          },
+          "frontend": {
+            "cosine": 6.99,
+            "overlap": 15.05,
+            "combined": 9.41
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.93,
+        "keyword_overlap_score": 11.59,
+        "final_score": 9.03,
+        "top_keywords": [
+          {
+            "term": "production",
+            "weight": 0.1497
+          },
+          {
+            "term": "application",
+            "weight": 0.1247
+          },
+          {
+            "term": "code",
+            "weight": 0.0998
+          },
+          {
+            "term": "experience",
+            "weight": 0.0998
+          },
+          {
+            "term": "python",
+            "weight": 0.0998
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "0cbef6b8e3db49b7030ec1aa08d15434",
       "source": "yc",
