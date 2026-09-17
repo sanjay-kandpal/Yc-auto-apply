@@ -66,7 +66,7 @@ Daily cap: `submitted_today(conn, source="wellfound")` vs `wellfound.submit.dail
 | Workflow | Role |
 |---|---|
 | `scan-wellfound.yml` | scrape → match → draft → digest |
-| `submit-wellfound.yml` | Reject / live Submit + LLM keys + spectate |
+| `submit-wellfound.yml` | Reject / live Submit + LLM keys; notify + recording link from spectate job (same as YC submit) |
 
 Secrets: `WELLFOUND_*`, shared Gmail/HMAC, `LLM_API_KEY` / `OPENROUTER_API_KEY`.
 

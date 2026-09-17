@@ -42,10 +42,6 @@ jobs:
       - name: Write notify payload
         if: always()
         run: python src/notify.py --job-id "${{ github.event.client_payload.job_id }}" --write-payload "$RUNNER_TEMP/notify-payload.json"
-      - name: Notify
-        if: always()
-        continue-on-error: true
-        run: python src/notify.py --payload "$RUNNER_TEMP/notify-payload.json"
       - name: Dashboard
         run: python src/dashboard.py
       - name: Commit state
