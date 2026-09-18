@@ -64,43 +64,108 @@ def extract_job_description_text(html_or_text: str) -> str:
 
 
 def read_modal_jd(page: Page) -> str:
+    """Read JD from public #job-description, About the job block, or logged-in JobDetail."""
     loc = page.locator("#job-description")
     try:
         if loc.count() and loc.first.is_visible():
-            return (loc.first.inner_text() or "").strip()
+            text = (loc.first.inner_text() or "").strip()
+            if text:
+                return text
     except Exception:
         pass
+
     about = page.get_by_role("heading", name=re.compile(r"about the job", re.I))
     try:
         if about.count():
             container = about.first.locator("xpath=ancestor::div[contains(@class,'rounded')][1]")
             if container.count():
-                return (container.first.inner_text() or "").strip()
+                text = (container.first.inner_text() or "").strip()
+                if text:
+                    return text
+    except Exception:
+        pass
+
+    # Logged-in candidate job view: full description lives under JobDetail (no #job-description).
+    detail = page.locator('[data-test="JobDetail"]')
+    try:
+        if detail.count() and detail.first.is_visible():
+            raw = (detail.first.inner_text() or "").strip()
+            raw = re.split(r"\n\s*Similar jobs\b", raw, maxsplit=1, flags=re.I)[0].strip()
+            if len(raw) >= 80:
+                return raw
     except Exception:
         pass
     return ""
 
 
-def click_learn_more(page: Page) -> None:
+def click_learn_more(page: Page) -> bool:
+    """Legacy feed/modal opener. Returns True if clicked; False if absent."""
     candidates = (
         page.locator('button[data-test="LearnMoreButton"]'),
-        page.get_by_role("button", name=re.compile(r"learn more", re.I)),
+        page.get_by_role("button", name=re.compile(r"^\s*learn more\s*$", re.I)),
+        page.locator("button", has_text=re.compile(r"^\s*learn more\s*$", re.I)),
+        page.get_by_role("link", name=re.compile(r"^\s*learn more\s*$", re.I)),
     )
     for loc in candidates:
         try:
             if loc.count() and loc.first.is_visible():
                 loc.first.click(timeout=8000)
                 page.wait_for_timeout(1500)
-                return
+                return True
         except Exception:
             continue
-    raise RuntimeError("Could not find Learn more button.")
+    return False
+
+
+def ensure_job_details(page: Page) -> None:
+    """Ensure JD is readable. Logged-in pages already show [data-test=JobDetail]."""
+    if read_modal_jd(page).strip():
+        return
+    if click_learn_more(page):
+        page.wait_for_timeout(1000)
+        if read_modal_jd(page).strip():
+            return
+    raise RuntimeError(
+        "Could not find job description "
+        "(no #job-description / JobDetail / About the job, and no Learn more)."
+    )
 
 
 def click_dialog_apply(page: Page) -> None:
+    """Open apply form. Prefer Apply now inside JobDetail (logged-in) or JobListing."""
+    for scope_sel in ('[data-test="JobDetail"]', '[data-test="JobListing"]'):
+        scope = page.locator(scope_sel)
+        if not scope.count():
+            continue
+        scoped_candidates = (
+            scope.get_by_role("button", name=re.compile(r"^\s*apply now\s*$", re.I)),
+            scope.locator(
+                'button[data-test="Button"]',
+                has_text=re.compile(r"^\s*apply now\s*$", re.I),
+            ),
+            scope.locator("button", has_text=re.compile(r"^\s*apply now\s*$", re.I)),
+            scope.get_by_role("button", name=re.compile(r"^\s*apply\s*$", re.I)),
+            scope.locator(
+                'button[data-test="Button"]',
+                has_text=re.compile(r"^\s*apply\s*$", re.I),
+            ),
+        )
+        for loc in scoped_candidates:
+            try:
+                if loc.count() and loc.first.is_visible():
+                    loc.first.click(timeout=8000)
+                    page.wait_for_timeout(1500)
+                    return
+            except Exception:
+                continue
+
     candidates = (
+        page.get_by_role("button", name=re.compile(r"^\s*apply now\s*$", re.I)),
+        page.locator(
+            'button[data-test="Button"]',
+            has_text=re.compile(r"^\s*apply(\s+now)?\s*$", re.I),
+        ),
         page.get_by_role("button", name=re.compile(r"^\s*apply\s*$", re.I)),
-        page.locator('button[data-test="Button"]', has_text=re.compile(r"^\s*apply\s*$", re.I)),
         page.locator("button", has_text=re.compile(r"^\s*apply\s*$", re.I)),
     )
     for loc in candidates:
@@ -111,7 +176,7 @@ def click_dialog_apply(page: Page) -> None:
                 return
         except Exception:
             continue
-    raise RuntimeError("Could not find Apply button in the job dialog.")
+    raise RuntimeError("Could not find Apply / Apply Now button.")
 
 
 def _answer_textarea(page: Page):
@@ -249,12 +314,14 @@ def open_job_and_read_jd(page: Page, job_url: str) -> str:
             "external_ats",
             f"External / ATS apply detected ({page.url}).",
         )
-    click_learn_more(page)
-    page.wait_for_timeout(1000)
+    try:
+        ensure_job_details(page)
+    except RuntimeError as exc:
+        raise ApplyFlowError("unknown", str(exc)) from exc
     if classify_external_from_url(page.url) or looks_external_on_page(page):
         raise ApplyFlowError(
             "external_ats",
-            f"Navigated off Wellfound after Learn more ({page.url}).",
+            f"Navigated off Wellfound after opening job details ({page.url}).",
         )
     jd = read_modal_jd(page)
     if not jd.strip():

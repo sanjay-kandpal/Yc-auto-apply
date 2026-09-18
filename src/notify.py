@@ -84,7 +84,7 @@ def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
         subject = f"Dry-run only: {job['role']} at {job['company']}"
         body = (
             "<p>Submit ran in dry-run mode, so Send was not clicked. "
-            "Approve on GitHub Actions is live (Learn more → Apply → fill → Send application).</p>"
+            "Approve on GitHub Actions is live (open JD → Apply Now → fill → Send application).</p>"
         )
     elif status == "approved":
         subject = f"Approved (not sent) — {job['role']} at {job['company']}"

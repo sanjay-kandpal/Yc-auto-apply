@@ -65,7 +65,7 @@ def _fail(
 
 
 def submit_job(job_id: str, *, headless: bool = True, dry_run: bool = False) -> None:
-    """Learn more → draft from modal JD → Apply → fill → Send application."""
+    """Open job JD → draft → Apply Now → fill → Send application."""
     setup_logging()
     cfg = load_config()
     conn = connect()
@@ -149,7 +149,7 @@ def submit_job(job_id: str, *, headless: bool = True, dry_run: bool = False) -> 
                     apply_kind=outcome.apply_kind,
                     decided_at=utc_now(),
                     error_message=truncate_error(
-                        "Dry-run: Learn more → Apply → fill done; Send not clicked."
+                        "Dry-run: open JD → Apply Now → fill done; Send not clicked."
                     ),
                     sent_message=message,
                     confirmation_signal=outcome.confirmation_signal,
@@ -204,7 +204,7 @@ def submit_job(job_id: str, *, headless: bool = True, dry_run: bool = False) -> 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Wellfound live apply (Learn more → draft → Apply → Send application)"
+        description="Wellfound live apply (open JD → draft → Apply Now → Send application)"
     )
     parser.add_argument("--job-id", required=True)
     parser.add_argument("--headed", action="store_true", help="Run browser headed")

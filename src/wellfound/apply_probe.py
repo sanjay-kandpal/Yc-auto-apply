@@ -231,7 +231,26 @@ def _collect_form_fields(page: Page) -> tuple[list[str], list[dict]]:
 
 
 def _click_apply(page: Page) -> bool:
+    for scope_sel in ('[data-test="JobDetail"]', '[data-test="JobListing"]'):
+        scope = page.locator(scope_sel)
+        if not scope.count():
+            continue
+        scoped = (
+            scope.get_by_role("button", name=re.compile(r"^\s*apply now\s*$", re.I)),
+            scope.locator("button", has_text=re.compile(r"^\s*apply now\s*$", re.I)),
+            scope.get_by_role("button", name=re.compile(r"^\s*apply\s*$", re.I)),
+        )
+        for loc in scoped:
+            try:
+                if loc.count() and loc.first.is_visible():
+                    loc.first.click(timeout=5000)
+                    page.wait_for_timeout(1500)
+                    return True
+            except Exception:
+                continue
+
     candidates = (
+        page.get_by_role("button", name=re.compile(r"^\s*apply now\s*$", re.I)),
         page.get_by_role("button", name=re.compile(r"^\s*apply\s*$", re.I)),
         page.get_by_role("link", name=re.compile(r"^\s*apply\s*$", re.I)),
         page.get_by_role("button", name=re.compile(r"easy apply|apply now", re.I)),

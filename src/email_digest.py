@@ -84,7 +84,7 @@ def send_digest(source: str = "yc") -> None:
 
     subject = _digest_subject(cfg, source, len(jobs))
     extra = (
-        " Wellfound Approve runs Learn more → drafts a note from the live JD → Apply → "
+        " Wellfound Approve opens the job JD → drafts a note → Apply Now → "
         "Send application (fails + emails if the form has extra questions or is external)."
         if source == "wellfound"
         else " Each Approve click can trigger a real application."

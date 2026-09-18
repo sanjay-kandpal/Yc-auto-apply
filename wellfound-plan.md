@@ -1,6 +1,6 @@
 # Wellfound Job Apply Automation — Current Plan
 
-Human-gated pipeline for [Wellfound](https://wellfound.com) (formerly AngelList Talent): scrape → score → draft → email digest → Approve runs **live Send**: Learn more → read modal JD → LLM note → Apply → fill → Send application.
+Human-gated pipeline for [Wellfound](https://wellfound.com) (formerly AngelList Talent): scrape → score → draft → email digest → Approve runs **live Send**: open job (detail page JD or Learn more) → LLM note → Apply Now → fill → Send application.
 
 YC Work at a Startup stays on its own plan: [`plan.md`](plan.md). Same repo, same Gmail inbox, same Cloudflare Worker, same Gemini / OpenRouter keys. Separate login, scrape, scan workflow, and dispatch events.
 
@@ -22,7 +22,7 @@ Yc-auto-apply/
 ├── src/wellfound/
 │   ├── login.py / session.py / parse.py / filters.py / scrape.py
 │   ├── apply_probe.py        # Form field classifier helpers
-│   ├── apply_flow.py         # Learn more → JD → Apply → fill → Send application
+│   ├── apply_flow.py         # Open JD → Apply Now → fill → Send application
 │   └── submit.py             # Orchestrates live apply (cap, draft, persist)
 ├── src/
 │   ├── db.py                 # source + apply_kind; submitted_today(source=)
@@ -41,8 +41,8 @@ apply_kind TEXT   -- cover_letter_only | has_questions | eligibility_blocked | e
 ```
 
 **Funnel on Approve:**
-- Learn more → read `#job-description` → `draft_note_for_job` (resume variant + `with_github`)
-- Apply → if single answer textarea only → fill → **Send application** → `submitted`
+- Open job URL (after login) → read `[data-test="JobDetail"]` / `#job-description` → `draft_note_for_job` (resume variant + `with_github`)
+- Apply now → if single answer textarea only → fill → **Send application** → `submitted`
 - Extra questions / eligibility / external / UI mismatch → `failed` + email notify
 
 Daily cap: `submitted_today(conn, source="wellfound")` vs `wellfound.submit.daily_cap`.
@@ -51,11 +51,13 @@ Daily cap: `submitted_today(conn, source="wellfound")` vs `wellfound.submit.dail
 
 ## 3. Live apply DOM
 
-1. `button[data-test="LearnMoreButton"]`
-2. Read `#job-description` (“About the job”)
-3. Dialog Apply (`button` Apply / `data-test="Button"`)
-4. `textarea[name^="customQuestionAnswers"][name$="[answer]"]`
-5. `button[data-test="JobApplicationModal--SubmitButton"]` — Send application
+**Logged-in candidate job URL** (`/jobs/<id>-…`):
+1. Read JD from `[data-test="JobDetail"]` (no `#job-description`, no Learn more)
+2. Click **Apply now** / **Apply** inside `JobDetail` → `[data-test="JobApplication-Modal"]`
+3. `textarea[name^="customQuestionAnswers"][name$="[answer]"]`
+4. `button[data-test="JobApplicationModal--SubmitButton"]` — Send application
+
+**Fallbacks:** public `#job-description` / “About the job”; legacy `LearnMoreButton` if JD missing; `[data-test="JobListing"]` Apply Now.
 
 `--dry-run` fills but does not click Send. `wellfound.submit.enabled: false` refuses Send.
 
@@ -79,6 +81,6 @@ Secrets: `WELLFOUND_*`, shared Gmail/HMAC, `LLM_API_KEY` / `OPENROUTER_API_KEY`.
 | Scrape / match / digest / HMAC | Done |
 | Eligibility skip keywords | Done |
 | `apply_kind` classifier helpers | Done |
-| Live Send (Learn more → Send application) | Done |
+| Live Send (detail JD / Learn more → Apply Now → Send) | Done |
 
 **Local smoke:** unit tests → scrape/match/draft/digest → `python src/wellfound/submit.py --job-id ID --headed` (or `--dry-run` first).
