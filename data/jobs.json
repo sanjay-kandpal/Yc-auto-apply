@@ -1,15 +1,469 @@
 {
-  "exported_at": "2026-09-18T03:21:10+00:00",
+  "exported_at": "2026-09-18T07:16:24+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 637,
-    "pending_approval": 130,
+    "pending_approval": 133,
+    "discovered": 641,
     "failed": 4,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "92676fb9a179832cd6be659b0c28e776",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Frontend Software Development Engineer",
+      "url": "https://wellfound.com/jobs/4601020-frontend-software-development-engineer",
+      "jd_text": "# Software Development Engineer (SDE) – Frontend\n\n**On-Site, Hyderabad, India · Full-Time**\n\n**Only apply if:** You have **≥ 2 year** of production-grade frontend experience with strong, demonstrable expertise building and shipping scalable **React / Next.js** applications — **and** you can point us to **live, deployed products** you have built.\n\n---\n\n## About Steps AI\n\nWe are a fast-growing product startup building intelligent, AI-powered software for modern businesses. Our focus is on crafting seamless, high-performance user experiences powered by scalable backend systems and data-driven intelligence — and we ship to real customers every week.\n\nAs we scale, we are looking for a **Frontend-focused SDE** who thrives in a fast-paced environment and can take end-to-end ownership of frontend architecture and user experience across a complex, multi-surface product.\n\n---\n\n## What You'll Do\n\n### Core Frontend Development\n- Build production-grade applications using **Next.js (App Router), React 19, TypeScript, and Tailwind CSS**.\n- Architect scalable, reusable component libraries and design systems on top of **shadcn/ui / Radix primitives**.\n- Implement modern UI patterns using hooks, context, and advanced state management.\n- Optimize performance using code-splitting, lazy loading, caching, and **SSR / SSG / ISR / CSR** strategies.\n- Ensure pixel-perfect, responsive, accessible UI across devices and browsers.\n\n### UI/UX Engineering Excellence\n- Translate product requirements and Figma designs into robust frontend implementations.\n- Build complex **dashboards, data visualizations, and interactive multi-step workflows** (charts, tables, maps, geographic intelligence, analytics views).\n- Build **AI-driven, streaming interfaces** — chat/agent UIs, token-by-token streaming, real-time updates, and rich message rendering (markdown, code, math).\n- Integrate real-time features using **WebSockets, SSE / streaming APIs, or event-driven updates**.\n- Ship accessible, SEO-friendly, high-performance web interfaces measured against Lighthouse best practices.\n\n### Frontend Architecture &amp; Scalability\n- Design scalable folder structures and modular, maintainable frontend architecture.\n- Implement server- and client-state management using **TanStack Query** and **Zustand** (or equivalent modern solutions).\n- Build robust forms with **React Hook Form + Zod** validation.\n- Integrate with backend services (TypeScript/Node and Python) over **REST and/or GraphQL** APIs.\n- Ensure robust error handling, observability, and performance monitoring.\n- Drive frontend testing strategy with **Vitest / Jest, React Testing Library, and Cypress/Playwright**.\n- Contribute to **embeddable / SDK-style frontend artifacts** (e.g. CDN-delivered, shadow-DOM-isolated widgets) where relevant.\n\n### Engineering &amp; Collaboration\n- Conduct structured code reviews and enforce high-quality coding standards.\n- Collaborate closely with backend engineers, product managers, and designers.\n- Contribute to CI/CD workflows and deployment pipelines.\n- Take ownership of features from concept to production release.\n- Mentor junior engineers and uphold engineering best practices.\n\n---\n\n## Must-Have Qualifications\n\n### Core Frontend Expertise\n- **≥ 2 year** of production experience building scalable web applications.\n- Strong command over **Next.js, React, TypeScript, and modern JavaScript (ES6+)**.\n- Deep understanding of rendering strategies (**SSR, SSG, ISR, CSR**) and when to use each.\n- Advanced **Tailwind CSS** knowledge and experience building custom design systems.\n- Experience with frontend performance optimization and profiling.\n\n### API &amp; Integration\n- Experience integrating frontend applications with **Node.js and Python** backends.\n- Strong understanding of **REST APIs and/or GraphQL**.\n- Familiarity with authentication systems (**JWT, OAuth, session-based auth**).\n- Experience handling large datasets, paginated/infinite APIs, and streaming responses.\n\n### Frontend Ecosystem Knowledge\n- Server/client state management (**TanStack Query / React Query, Zustand, Redux Toolkit**).\n- Form management (**React Hook Form, Zod/Yup validation**).\n- Data fetching and caching strategies.\n- Component-driven development; experience with design systems / Storybook is a plus.\n- **Data visualization** libraries (Recharts, D3, ECharts, Nivo, or similar).\n\n### DevOps &amp; Quality\n- Experience with **Docker-based local development** workflows.\n- CI/CD familiarity (GitHub Actions, GitLab CI, etc.).\n- Strong Git workflows and collaborative branching strategies.\n- Testing mindset spanning unit, integration, and E2E coverage.\n\n### Engineering Mindset\n- Clean, maintainable code adhering to SOLID principles.\n- Strong debugging and performance-profiling skills.\n- Ownership-driven, product-first thinking.\n- Comfortable working independently in an **in-office startup environment**.\n\n---\n\n## Critical Requirements – High Weightage\n\n&gt; **This is non-negotiable. Applications without these will not be prioritized.**\n\n### Portfolio, Live Products &amp; Demos\nYou must be able to **show, not just tell**. With your application, explicitly share:\n\n- **An active GitHub profile** showcasing real, production-grade frontend code (not just tutorials or forks).\n- **Live, deployed projects** — public URLs we can open and interact with right now. Next.js + TypeScript projects strongly preferred.\n- **Live demos / a portfolio site** where you specifically showcase your **UI/UX work** — the visual quality, interaction design, responsiveness, and polish you are personally responsible for.\n- Demonstrated ability to build **complex dashboards, SaaS products, AI-integrated UIs, or data-heavy interfaces**.\n- Clean code structure, thoughtful architecture, and clear documentation.\n\n**In your application, please include direct links to:**\nhttps://forms.gle/FPUtQZ9ebgHPeAH59 \n1. Your GitHub profile (and 1–3 specific repos you're proud of).\n2. At least one **live deployed product** (URL) you built or substantially contributed to.\n3. A **portfolio / demo** that highlights your UI/UX craftsmanship.\n\nTell us, for each link, exactly what you built and which parts are yours.\n\n### Technical Assessment\nWe will evaluate your:\n- Frontend architecture design and scalability decisions.\n- Code quality and maintainability.\n- Performance optimization strategy.\n- Ability to convert product requirements into production-ready UI.\n- End-to-end ownership during feature implementation.\n\n---\n\n## Nice-to-Have\n- Experience building **AI-powered, streaming, or data-heavy interfaces**.\n- Knowledge of **WebSockets, streaming UIs, and real-time collaboration** features.\n- Experience building **embeddable widgets / SDKs** (shadow-DOM isolation, CDN delivery).\n- Experience with design systems and internal UI libraries.\n- Exposure to animation libraries (**Framer Motion, GSAP**).\n- Contributions to open-source React/Next.js projects.\n- Experience working in early-stage startups.\n\n---\n\n## What We Offer\n- Competitive salary (Base Pay: 50-75K per month) with a strong growth trajectory.\n- High-impact role with direct influence on product direction.\n- Opportunity to work on cutting-edge AI-driven products.\n- Fast execution cycles and a strong ownership culture.\n- Learning budget for courses and certifications.\n- Collaborative in-office engineering culture in **Hyderabad**.\n\n---\n**https://forms.gle/FPUtQZ9ebgHPeAH59**\nIf you are passionate about building scalable, beautiful, and high-performance frontend systems — and want to shape the product experience of a growing startup — **send us your GitHub, your live products, and your portfolio.** We'd love to see what you've shipped. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 19.9,
+      "resume_variant": "frontend",
+      "draft_answer": "I've consistently delivered end-to-end React and Next.js solutions for client-facing platforms, from driving UAT across user groups to optimizing API performance by 98% for seamless user experiences. My experience includes building complex dashboards, interactive multi-step workflows, and real-time data streaming interfaces, making me well-prepared to contribute to Steps AI's intelligent, AI-powered software for real customers.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 14.33,
+            "overlap": 23.18,
+            "combined": 16.99
+          },
+          "backend": {
+            "cosine": 12.9,
+            "overlap": 24.06,
+            "combined": 16.25
+          },
+          "frontend": {
+            "cosine": 17.19,
+            "overlap": 26.21,
+            "combined": 19.9
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 17.19,
+        "keyword_overlap_score": 26.21,
+        "final_score": 19.9,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.2696
+          },
+          {
+            "term": "experience",
+            "weight": 0.1715
+          },
+          {
+            "term": "ui",
+            "weight": 0.148
+          },
+          {
+            "term": "react",
+            "weight": 0.098
+          },
+          {
+            "term": "code",
+            "weight": 0.0857
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-18T07:15:54+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c3ace0a6307e985511d88b1b629d94e0",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Sr. GenAI Engineer",
+      "url": "https://wellfound.com/jobs/4349707-sr-genai-engineer",
+      "jd_text": "**Steps AI · On-Site, Hyderabad, India · Full-Time**\n\n---\n\n## About Steps AI\n\nSteps AI is an agentic AI platform that powers customer-facing AI agents for businesses across e-commerce, SaaS, healthcare, real estate, EdTech, and financial services. Our agents go live in under five minutes from a single URL, learn the business by ingesting websites, documents, FAQs, and product catalogs, and deploy across web, messaging, and social channels.\n\nWe are profitable, growing fast, and shipping production AI to customers every week.\n\n---\n\n## The Role\n\nWe are hiring a **GenAI Engineer** to own the agentic AI layer of our platform — the brains of every conversation our agents have. You will design and evolve our agent runtime, integrate new tools and channels, advance our retrieval and memory systems, and own end-to-end LLM observability.\n\nThis role is AI-focused but not AI-only. You will also contribute to the surrounding backend services and data pipelines that power the AI layer. You will work alongside a peer Software Engineer focused on the platform side; together you will set the technical direction for major product areas.\n\n---\n\n**Resumes will only be reviewed if the application form is completed.**\n\n**Application form:** https://forms.gle/mGF2DNVoNNmLxZsi9\n\n---\n\n## What You Will Own\n\n### Agentic AI Systems (Primary)\n\n- **Agent runtime &amp; control flow** — design and evolve how our agents reason, route, recover, and hand off; build robust patterns for human escalation, partial-state resumption, and graceful tool failure\n- **Persona &amp; behaviour engineering** — shape how agents adapt across channels, business verticals, and brand voices; encode domain guardrails, retrieval mandates, and structured-output contracts\n- **Multi-provider LLM orchestration** — abstract across leading model providers with per-persona routing, fallbacks, retries, and cost/latency tradeoffs\n- **Tool ecosystem** — extend, debug, and ship integrations across CRMs, helpdesks, calendars, productivity suites, e-commerce backends, logistics carriers, messaging platforms, and internal services. A new provider should reach production in days, not weeks\n- **Retrieval &amp; ranking** — own the hybrid retrieval stack across vector and lexical signals, including reranking, recall/precision tuning, and ingestion-time quality controls\n- **Memory systems** — long-term cross-session memory and short-term per-thread state, with clear contracts between them\n- **Streaming protocols** — token-level streaming, intermediate event emission, interruption and resume semantics, and structured terminal events for client integration\n\n### Workflow Orchestration &amp; Data Engineering\n\n- **Long-running workflows** for ingestion, crawling, FAQ and Q&amp;A synthesis, product discovery, sentiment work, outbound campaigns, and channel onboarding\n- **Queue &amp; worker design** — separation of heavy and light work, concurrency control, retry semantics, and end-to-end tracing\n- **Embedding &amp; indexing pipelines** — async batched writes, idempotent reindexing, provider rate-limit safety, and intermediate object-store staging\n- **Document understanding** — multi-format parsing, OCR for scanned content, and structured extraction\n- **Web acquisition** — adapter-based crawling with rate limiting and resilience; pluggable backends for varied site profiles\n- **Provider-agnostic embedding layer** — designed so new embedding models drop in without touching downstream consumers\n\n### AI / Backend Integration\n\nYou will not throw work over the wall. You will go into the backend stack when needed.\n\n- The agent configuration pipeline that turns persona definitions into runnable behaviour\n- New API endpoints powering AI-driven features — summarisation, FAQ synthesis, recommendation flows, and more\n- Inbound webhook flows from commerce platforms and messaging providers that drive agent behaviour\n- The plumbing that ties skill and tool configuration across our service boundaries\n\n---\n\n## You Lead. You Don't Just Code.\n\n- Own the AI roadmap for your area and propose what to build next\n- Mentor and review the work of junior engineers as the team grows\n- Run weekly architecture reviews with the founders\n- Defend tradeoffs in writing through RFCs, design docs, and postmortems\n- Be the on-call escalation point for AI / agent production issues\n- Set the bar for code quality, testing rigour, and observability across the AI stack\n\n---\n\n## Required Skills\n\nYou should have shipped these to production and be able to demonstrate them live:\n\n  **Agent frameworks**  Production experience with LangGraph, LangChain, or comparable agent runtimes — tool calling, state machines, checkpointing, streaming, human-in-the-loop\n  **LLM APIs**  OpenAI, Azure OpenAI, Anthropic, Google Gemini — direct integration and proxying patterns\n  **Vector databases**  At least one of Milvus, Pinecone, Weaviate, or Qdrant — schema design, dense + sparse retrieval, batched upsert, idempotency\n  **Embeddings &amp; reranking**  Modern embedding models, dimensionality and quality tradeoffs, cross-encoder reranking\n  **Workflow orchestration**  Temporal, Airflow, Prefect, or equivalent at production scale\n  **Backend (Python)**  FastAPI, async I/O, Pydantic, structured logging\n  **Backend (TypeScript)**  Node or NestJS — comfortable enough to ship full-stack features\n  **Observability**  LLM tracing (Langfuse or similar), OpenTelemetry, error monitoring\n  **Cloud + DevOps**  Docker, AWS or GCP, CI/CD, production debugging\n\n---\n\n## Strong Plus\n\n- Multimodal model integration — vision and audio\n- Speech: transcription and streaming synthesis\n- Layout-aware document AI and advanced structured extraction\n- Multi-agent patterns beyond single-loop architectures\n- Advanced retrieval research — late-interaction models, learned sparse retrieval, and similar\n- Open-source contributions to agent frameworks or vector databases\n- Published papers, patents, or conference talks in the GenAI / agentic space\n- Domain expertise in e-commerce, govtech, healthtech, or financial services\n\n---\n\n## Mindset We Hire For\n\n- **You think like a system architect, not a prompt engineer.** Prompt-only \"AI engineers\" are not the right fit.\n- **You ship rapidly and iterate publicly.** A new integration goes from idea to production in days.\n- **You read source code instead of asking Stack Overflow.** When a framework behaves unexpectedly, you read its internals.\n- **You measure what you ship.** Token usage, latency, retrieval quality, regression rates — all instrumented from day one.\n- **You take ownership of failures.** When a customer reports a bad outcome, you trace it through prompt, retrieval, and tool output, then fix the root cause.\n- **You operate well in fast-paced, high-ownership environments.** This is not a slow shop.\n\n---\n\n## Qualifications\n\n- B.Tech / M.Tech / MS in CS, Software Engineering, AI/ML, or a related field\n- 2+ years of professional engineering experience with a strong production track record\n- Demonstrable experience shipping agentic AI systems to real users\n- On-site availability in **Hyderabad** — every working day, in person, with the team\n\n---\n\n## Compensation\n\n- Top-of-market base, calibrated to live demonstration of capability\n- Meaningful equity for a senior IC role\n- Direct, no-gatekeeper access to the founders\n- Full ownership of the AI roadmap within your scope from day one\n\n---\n\n## To Apply\n\n**Resumes will only be reviewed if the application form is completed.**\n\n**Application form:** https://forms.gle/mGF2DNVoNNmLxZsi9\n\nThe form takes 5 minutes. Submitting a CV outside the form will not be reviewed. Shortlisted candidates will be contacted within 48 hours of submission.\n\n---\n\n*Steps AI · stepsai.co · Hyderabad, India* Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 14.76,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience building FastAPI/React systems, owning core cloud-native compliance modules, and introducing RabbitMQ for guaranteed delivery and Redis for 98% faster API responses under load, directly applies to designing robust agent runtimes and backend services for your customer-facing AI agents. Leveraging RAG, LLM tool-calling, and production Azure CI/CD with blue-green deployments, I am ready to evolve the agentic AI platform's retrieval and memory systems while ensuring reliable, zero-downtime rollouts.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.57,
+            "overlap": 22.19,
+            "combined": 14.76
+          },
+          "backend": {
+            "cosine": 11.31,
+            "overlap": 20.3,
+            "combined": 14.01
+          },
+          "frontend": {
+            "cosine": 6.53,
+            "overlap": 21.36,
+            "combined": 10.98
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 11.57,
+        "keyword_overlap_score": 22.19,
+        "final_score": 14.76,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.353
+          },
+          {
+            "term": "agent",
+            "weight": 0.1444
+          },
+          {
+            "term": "production",
+            "weight": 0.1181
+          },
+          {
+            "term": "retrieval",
+            "weight": 0.1181
+          },
+          {
+            "term": "stack",
+            "weight": 0.0991
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-18T07:16:21+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "96c8e178dcaa49f4f42f33af20658c6e",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Senior Data & AI Systems Engineer (SDE — ML / Data Engineering)",
+      "url": "https://wellfound.com/jobs/4098532-senior-data-ai-systems-engineer-sde-ml-data-engineering",
+      "jd_text": "---\n\n**Lead Data &amp; AI Systems Engineer (SDE — ML / Data Engineering)**\n\nOn-Site | Hyderabad, India | Full-Time\n\n---\n\n**About StepsAI**\n\nWe build AI-powered agentic chatbots for websites, WhatsApp, Instagram, and Messenger. Our growth runs on a large-scale cold outreach engine targeting 2,00,000+ companies/month across India, USA, Canada, and globally. We're hiring someone to architect, build, and own the entire lead generation and cold emailing platform end-to-end — not just the data pipelines, but the full web application that the team uses daily to manage, monitor, and operate millions of leads across scraping, enrichment, verification, campaign execution, and analytics. You'll build it, ship it, host it, and keep it running.\n\n---\n\n**The Problem**\n\nWe have millions of raw store records. Our sending infra handles lakhs of leads/month. Today everything runs on spreadsheets, manual CSV exports, and laptop-by-laptop processing. Your job: replace all of this with a single, production-grade web application backed by autonomous pipelines.\n\n---\n\n**What You'll Build**\n\n*The Application — Full-Stack Lead Generation Platform (30%)*\n- Design, develop, and deploy a production web application (React/Next.js frontend + FastAPI/Python backend + PostgreSQL) for the entire lead generation and cold emailing operation\n- Dashboard views: real-time funnel visualization, source-wise ingestion stats, enrichment progress, email verification rates, campaign health, domain/sender scores, cost-per-lead analytics\n- Lead management UI: search, filter, segment, tag, and export leads across companies, people, emails, and phone numbers\n- Campaign management module: create campaigns, assign email IDs, set sequences (primary + follow-ups), configure geo/industry/persona targeting, monitor sends/bounces/replies in real-time\n- Admin panels for scraper management (start/stop/schedule jobs, view logs, manage proxy pools), enrichment tool configuration (API keys, credit tracking, waterfall priority), and domain/email-ID health monitoring\n- Host and maintain the application on AWS/GCP with CI/CD, proper auth, role-based access, and production-grade reliability\n\n*Data Engineering &amp; Scraping (30%)*\n- Production web scrapers (Scrapy, Playwright, Apify) for Google Maps, IndiaMART, JustDial, Yelp, BBB, government registries (MCA, FSSAI, US SoS portals)\n- ETL pipelines to ingest, deduplicate, and normalize millions of records from 8+ parallel sourcing channels\n- PostgreSQL database architecture for 24L+ cumulative company/people/email/phone records\n- Website contact crawlers extracting emails, phone numbers, and WhatsApp links at scale\n- Proxy rotation, anti-bot evasion, rate limiting for sustained large-scale scraping\n\n*GenAI &amp; Agentic Systems (20%)*\n- Waterfall enrichment pipelines: Apollo → Hunter → Snov.io → RocketReach with fallback logic and credit optimization\n- Multi-agent workflows (LangChain/LangGraph) for lead qualification, persona classification, and enrichment routing\n- LLM-powered hyper-personalized cold email generation using company context, tech stack, and persona data\n- Pattern-based email generation + bulk verification via MillionVerifier/ZeroBounce APIs\n\n*Infrastructure &amp; Automation (20%)*\n- Autonomous campaign scheduling engine: queue management → AI email generation → capacity allocation → health monitoring\n- Cron jobs, event-driven triggers, and workflow orchestration (n8n/Temporal) for fully autonomous 24/7 operation\n- Email infrastructure management: warm-up ramp logic, auto-pause on high bounce, capacity redistribution across 127 domains / 381 email IDs\n- CI/CD pipelines, Docker deployments, monitoring, logging, alerting\n- Integration with existing StepsAI platform (Next.js frontend, NestJS backend) where needed\n\n---\n\n**Required Skills**\n\n- **Full-stack development:** React/Next.js frontend + FastAPI/Python backend — must be able to build, ship, and host a complete production web application independently\n- **Strong Python:** Scrapy, Playwright, pandas, BeautifulSoup, regex-based extraction, API integrations\n- **PostgreSQL:** schema design for millions of records, indexing, deduplication, query optimization\n- **LLM/GenAI:** hands-on with OpenAI/Anthropic APIs, LangChain/LangGraph, agentic workflows, RAG architectures\n- **Web scraping at scale:** proxy management, anti-bot techniques, handling diverse data formats (HTML, JSON, CSV, government portals)\n- **DevOps fundamentals:** Docker, AWS/GCP deployment, CI/CD, domain management, SSL, basic Kubernetes\n- **Data quality mindset:** deduplication, normalization, validation, audit logging\n- **Git, cron-based automation, webhook integrations**\n\n**Strong Plus**\n\n- MCP (Model Context Protocol) experience for tool integration\n- Workflow orchestration: n8n, Temporal, Airflow, Prefect\n- B2B data enrichment platforms: Apollo, Hunter, Clay, BuiltWith, Snov.io\n- Email deliverability knowledge: domain warm-up, SPF/DKIM/DMARC, sender reputation\n- OSINT tools: theHarvester, Maltego, SpiderFoot\n- Government data scraping (India MCA/GST/Udyam, US SEC/SAM.gov)\n- Experience building internal tools or SaaS dashboards from scratch\n\n---\n\n**Qualifications**\n\n- B.Tech/M.Tech/MS in CS, Data Engineering, AI/ML, or related field\n- 1–4 years experience (strong freshers with exceptional project portfolios welcome)\n- Must work on-site from Hyderabad\n\n---\n\n**What We Offer**\n\n- Own an entire platform from Day 1 — architecture, tech choices, UI design, deployment, everything\n- Work directly with co-founders on a system that directly drives revenue\n- Existing frontend and backend teams available to support — but you should be capable of building independently\n\n---\n\n**To Apply:** Send your resume with links to any projects (especially full-stack apps, scraping tools, or data platforms you've built and deployed) and a brief note on how you'd approach building a web application that handles 2L leads/month end-to-end from scraping to campaign delivery. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 16.35,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience delivering full-stack FastAPI/React systems end-to-end, including scoping, building, client UAT, and deployment with blue-green CI/CD on AKS, has prepared me to architect and own the lead generation and cold emailing platform for your AI-powered agentic chatbots. I've optimized production APIs for 98% faster fetch latency with Redis, guaranteed data integrity under high load via RabbitMQ and ACID transactions, automated 90% of manual workflows, and validated LLM tool-calling reliability for agentic systems, all critical for handling millions of leads across your large-scale cold outreach engine.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 14.42,
+            "overlap": 20.86,
+            "combined": 16.35
+          },
+          "backend": {
+            "cosine": 13.78,
+            "overlap": 21.05,
+            "combined": 15.96
+          },
+          "frontend": {
+            "cosine": 13.1,
+            "overlap": 23.79,
+            "combined": 16.31
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 14.42,
+        "keyword_overlap_score": 20.86,
+        "final_score": 16.35,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.1876
+          },
+          {
+            "term": "email",
+            "weight": 0.1765
+          },
+          {
+            "term": "application",
+            "weight": 0.101
+          },
+          {
+            "term": "management",
+            "weight": 0.101
+          },
+          {
+            "term": "ai",
+            "weight": 0.0882
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-18T07:16:09+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8e55f58c9881557d715a8ed041f4a979",
+      "source": "wellfound",
+      "company": "Nexa Consultancy",
+      "role": "Automation Developer (GoHighLevel, n8n, Make.com)",
+      "url": "https://wellfound.com/jobs/4722420-automation-developer-gohighlevel-n8n-make-com",
+      "jd_text": "## About Nexa Consultancy\nNexa Consultancy Inc is a Surrey, British Columbia (Canada) based company that helps other businesses set up everything they need to run and grow: dashboards, CRM, automation, reporting and marketing. We run our own operations on GoHighLevel, n8n and Make.com and build the same systems for our clients. Because this is ongoing work for our clients, we are looking for long-term people who will grow with us, not short-term contractors. We are hiring a full-time, remote Automation Developer in India to own this stack end to end.\n\n## What you will do\n- Build, maintain and document automations in n8n and Make.com (lead intake, follow-up sequences, appointment booking, WhatsApp and email notifications, reporting).\n- Own our GoHighLevel setup: pipelines, workflows, custom fields, calendars, forms, funnels and integrations.\n- Connect tools through REST APIs and webhooks (GoHighLevel, Google Sheets, Gmail, WhatsApp, Meta lead forms, Cloudflare Workers, AI APIs).\n- Write small scripts and serverless functions (JavaScript or Python) where a no-code step is not enough.\n- Monitor scenarios, fix failures fast, and keep an eye on run quotas and costs.\n- Build dashboards and reports so the team can see leads, follow-ups and conversions without asking.\n- Turn a plain-English request from the Director into a working, tested automation.\n\n## What we are looking for\n- 2 to 5 years of hands-on automation or integration work, with real n8n and Make.com scenarios you can show.\n- Solid GoHighLevel experience (workflows, pipelines, snapshots, API). Other CRMs are a plus.\n- Comfortable with REST APIs, webhooks, JSON, OAuth and debugging failed runs.\n- Working JavaScript or Python for custom code steps; SQL or Google Sheets formulas are a plus.\n- Clear written English. You will document what you build and explain it to non-technical teammates.\n- Self-directed. This is a remote role with a small team; you will own outcomes, not just tickets.\n\n## Nice to have\n- Cloudflare Workers, Zapier, Airtable, Notion, WhatsApp Business API, Meta or Google Ads integrations, OpenAI or Claude APIs.\n\n## Work setup\n- Full-time, remote, from India.\n- Long-term role. We want someone who stays, learns our clients' businesses and grows with the team.\n- Must overlap with Canadian Pacific Time business hours for part of each day; exact schedule agreed at offer.\n- Your own laptop, reliable high-speed internet and a smartphone are required.\n- Notice period: able to join within 30 days.\n\n## Compensation\n- INR 9.6 - 13.2 lakh per year (80,000 - 1,10,000 per month).\n\n## How we hire\n- Short screening call, then a practical exercise (build a small n8n or Make.com scenario), then a final interview with the Director. Surrey\nlocationNames: Surrey\nremote: true",
+      "match_score": 8.37,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.2,
+            "overlap": 10.26,
+            "combined": 7.42
+          },
+          "backend": {
+            "cosine": 5.51,
+            "overlap": 9.77,
+            "combined": 6.79
+          },
+          "frontend": {
+            "cosine": 6.55,
+            "overlap": 12.62,
+            "combined": 8.37
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.55,
+        "keyword_overlap_score": 12.62,
+        "final_score": 8.37,
+        "top_keywords": [
+          {
+            "term": "com",
+            "weight": 0.1188
+          },
+          {
+            "term": "apis",
+            "weight": 0.0951
+          },
+          {
+            "term": "time",
+            "weight": 0.0713
+          },
+          {
+            "term": "end",
+            "weight": 0.0581
+          },
+          {
+            "term": "api",
+            "weight": 0.0475
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1721c1951cc4bbe93ed64c4a617a7204",
+      "source": "wellfound",
+      "company": "Kortingscodeheld.nl",
+      "role": "Webdeveloper / Backend- & Frontenddeveloper (m/v/x)",
+      "url": "https://wellfound.com/jobs/4716477-webdeveloper-backend-frontenddeveloper-m-v-x",
+      "jd_text": "Voor de technische verdere ontwikkeling van Kortingscodeheld.nl zoeken we een webdeveloper die zich zowel bezighoudt met de zichtbare onderdelen van de website als met de technische processen achter de schermen.\n\nJouw taken\nOnze WordPress-installatie verder ontwikkelen en onderhouden\nThemes, plugins en maatwerkfunctionaliteiten aanpassen\nLaadtijden en technische stabiliteit optimaliseren\nNieuwe functies ontwikkelen voor shops, kortingscodes en categorieën\nTechnische problemen analyseren en oplossen\nDe weergave op smartphones, tablets en computers verbeteren\nExterne API’s en affiliatenetwerken koppelen\nJouw profiel\nJe hebt goede kennis van PHP, HTML, CSS en JavaScript. Ervaring met WordPress, databases, API’s en versiebeheer is voor deze functie een voordeel. Je kunt technische onderwerpen duidelijk uitleggen en houdt tijdens de ontwikkeling rekening met zowel het redactieteam als de bezoekers van de website.\n\nWat wij bieden\nBij ons werk je niet alleen aan kleine verbeteringen, maar kun je de technische ontwikkeling van het platform actief mede vormgeven. Beslissingen worden rechtstreeks besproken, waardoor nieuwe functies zonder lange besluitvormingstrajecten kunnen worden gerealiseerd. We zijn nadrukkelijk op zoek naar een langdurige samenwerking.\n\nhttps://kortingscodeheld.nl/vacatures/ Amsterdam\nlocationNames: Amsterdam\nremote: true",
+      "match_score": 0.97,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.63,
+            "overlap": 0.99,
+            "combined": 0.74
+          },
+          "backend": {
+            "cosine": 0.9,
+            "overlap": 1.13,
+            "combined": 0.97
+          },
+          "frontend": {
+            "cosine": 0.52,
+            "overlap": 1.46,
+            "combined": 0.8
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 0.9,
+        "keyword_overlap_score": 1.13,
+        "final_score": 0.97,
+        "top_keywords": [
+          {
+            "term": "api",
+            "weight": 0.0538
+          },
+          {
+            "term": "backend",
+            "weight": 0.0269
+          },
+          {
+            "term": "javascript",
+            "weight": 0.0269
+          },
+          {
+            "term": "platform",
+            "weight": 0.0269
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "713be2c41e7212f0c974317399206547",
+      "source": "wellfound",
+      "company": "AXS Solutions and Consulting",
+      "role": "MERN Stack Developer",
+      "url": "https://wellfound.com/jobs/4703972-mern-stack-developer",
+      "jd_text": "Position: Full Stack Developer (React.js + Node.js)\nExperience: 0.6 - 1 year\nLocation: Mumbai – Chembur West (Onsite)\nJob Summary\nWe are looking for a Full Stack Developer with strong hands-on experience in\nReact.js and Node.js to build scalable, secure, and high-performance web\napplications. The ideal candidate should be comfortable owning features end-to-end,\ndeveloping responsive UI, building REST APIs, integrating databases, and\nsupporting production systems.\n\nKey Responsibilities\n Build responsive UI using React.js, HTML5, CSS3, JavaScript (ES6+)\n Develop scalable backend services and RESTful APIs using Node.js\n   (Express.js / NestJS)\n Work with MongoDB and MySQL (schema design, indexing, query\n   optimization)\n Implement authentication &amp; authorization using JWT , RBAC , Oauth\n Integrate third-party APIs, Webhooks\n Build real-time features using Socket.io / WebSockets\n Ensure performance, scalability, and security (validation, sanitization)\n Implement caching using Redis (if applicable) and optimize API response\n    times\n Support API testing (Postman/Supertest)\n Maintain API documentation using Swagger / OpenAPI\n Debug and resolve defects, handle RCA, and support production\n    troubleshooting using logs/monitoring\n Follow Git-based workflows, participate in code reviews, and collaborate with\n   QA/product teams in Agile delivery\n\nMandatory Skills\n React.js, Node.js, JavaScript (ES6+)\n MongoDB (must), MySQL\n\n REST API development &amp; integration\n Socket.io / WebSockets, Webhooks\n HTML5, CSS3\n Git\n TypeScript, Express.js / NestJS\n jQuery / AJAX (basic / legacy support)\n\nGood to Have\n Redis, Swagger/OpenAPI\n Docker, CI/CD (GitHub Actions/Jenkins)\n Cloud exposure (AWS/Azure/GCP)\n\nQualification\nBE / BTech / MCA / MSc IT / BSc IT with 0.6 - 1 year relevant experience.\n\nCTC: As per Industry std Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "40fb74c8a7d8785554f176947105db6b",
+      "source": "wellfound",
+      "company": "AXS Solutions and Consulting",
+      "role": "Junior Software Developer - AI/ML",
+      "url": "https://wellfound.com/jobs/4018706-junior-software-developer-ai-ml",
+      "jd_text": "Name of the Position: Junior Software Developer (AI / ML)\n\nAI (our general term for data science, machine learning, and deep learning) is one of the most exciting technologies of the decade. This role is your opportunity to build and deploy new AI products and projects from the ground up.\n\nYou will be part of a team helping chart our AI strategy and define the problems we are solving with AI. You will help build our AI development and production infrastructure and set our technical standards. To succeed you must become an expert in building AI models and putting them into production.\n\nResponsibilities:\nSet up and manage our AI development and production infrastructure.\n\nBuild data ingest and data transformation infrastructure.\n\nIdentify transfer learning opportunities and new training datasets.\n\nBuild AI models from scratch and help stakeholders understand results.\n\nDeploy AI models into production.\n\nCreate APIs and help business customers put results of your AI models into operations.\n\nKeep the latest AI research relevant to our business domain.\n\nSkills &amp; experience:\nDemonstrated proficiency in multiple programming languages with a strong foundation in statistical platforms such as Python, R, SAS, or MatLab.\n\nExperience building AI models in platforms such as Keras, TensorFlow, LLM, API Creations, Generative AI, Langchain, Hugging Face,My Sql, Mongo db.\n\nDemonstrated commitment to learning about AI through your own initiatives, such as courses, books, or side projects.\n\nExperience: 1 - 2 yrs\n\nLocation: Chembur West\n\nRequirement: Immediate Joining OR 1 Month Chembur\nlocationNames: Chembur",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "a48caf0a0466158aaf06a73f846986a2",
       "source": "yc",
