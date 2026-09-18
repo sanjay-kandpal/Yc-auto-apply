@@ -1,15 +1,360 @@
 {
-  "exported_at": "2026-09-18T08:50:19+00:00",
+  "exported_at": "2026-09-18T14:16:06+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 645,
+    "pending_approval": 134,
     "failed": 5,
-    "pending_approval": 132,
-    "discovered": 641,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "37dd5bf5b335ae9ffc1b54516b4df3f2",
+      "source": "wellfound",
+      "company": "Kraftbase",
+      "role": "Software Engineer - Frontend",
+      "url": "https://wellfound.com/jobs/3025852-software-engineer-frontend",
+      "jd_text": "We are seeking an experienced Frontend Engineer to join our dynamic team. You will be responsible for developing and maintaining our cutting-edge web applications using modern front-end technologies like React, Next.js, TypeScript, and JavaScript.\n\n**Responsibilities:**\n1. Develop high-quality, responsive, and accessible user interfaces using React and Next.js.\n2. Write clean, maintainable, and well-documented code following best practices and coding standards.\n3. Collaborate closely with designers to pixel-perfectly translate UI designs from tools like Figma into functional and visually appealing components.\n4. Optimize web applications for performance, accessibility, and search engine optimization (SEO) using techniques such as code splitting, caching, and server-side rendering.\n5. Implement state management solutions and integrate with APIs and backend services.\n6. Ensure cross-browser compatibility and responsiveness across various devices and screen sizes.\n7. Participate in code reviews and provide constructive feedback to maintain high code quality.\n8. Stay up-to-date with the latest front-end technologies, trends, and best practices.\n9 .  We have 6 days a week. \n\n**Requirements and Qualifications:**\n1. Bachelor's degree in Computer Science, Information Technology, or a related field, or equivalent experience.\n2. Minimum of 2+ years of experience in front-end development, with a strong emphasis on React and Next.js.\n3. Proficiency in TypeScript, JavaScript (ES6+), and related front-end technologies like HTML, CSS, and CSS preprocessors.\n4. Experience with state management libraries such as Redux or React Context API.\n5. Familiarity with modern front-end build tools and workflows (e.g., Webpack, Babel, npm, yarn).\n6. Knowledge of performance optimization techniques, accessibility standards, and SEO best practices.\n7. Ability to pixel-perfectly replicate UI designs from tools like Figma, Sketch, or Adobe XD.\n8. Experience with version control systems, preferably Git.\n9. Strong problem-solving and debugging skills.\n10. Excellent communication and collaboration skills, with the ability to work in a team environment.\n11. Passion for learning and staying up-to-date with the latest front-end technologies and trends.\n\n**Preferred Qualifications:**\n1. Experience with server-side rendering (SSR) and static site generation (SSG) using Next.js.\n2. Familiarity with testing frameworks such as Jest, Enzyme, or Cypress.\n3. Knowledge of responsive design techniques and mobile-first development principles.\n4. Experience with UI component libraries like Material-UI, Ant Design, or Chakra UI.\n5. Understanding of web accessibility standards (WCAG) and techniques.\n6. Experience with Three.js, WebGL, or GSAP for creating advanced 3D and animations on the web.\n\nIf you possess the required skills and qualifications, and are passionate about building high-quality, performant, and user-friendly web applications, we encourage you to apply for this exciting opportunity. Vadodara\nlocationNames: Vadodara",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T14:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "16872d4b19d179863b9b7d93495d0182",
+      "source": "wellfound",
+      "company": "Kraftbase",
+      "role": "Design Engineer",
+      "url": "https://wellfound.com/jobs/3239950-design-engineer",
+      "jd_text": "We are seeking an experienced Design Engineer to join our dynamic team. Your primary responsibility will be creating animated websites using modern front-end technologies like React, Next.js, TypeScript, and JavaScript, with a strong focus on animation and interactive experiences.\n\n### Responsibilities:\n1. Develop visually stunning, animated user interfaces using React and Next.js\n2. Create smooth, performant animations and transitions using GSAP and Framer Motion\n3. Collaborate closely with designers to translate UI designs into interactive, animated components\n4. Optimize animations for performance across various devices\n5. Implement creative visual effects and micro-interactions to enhance user experience\n6. Write clean, maintainable code following best practices\n\n### Requirements:\n1. 1-2 years of experience in front-end development with React and Next.js\n2. Proficiency in animation libraries like GSAP and Framer Motion\n3. Strong skills in TypeScript, JavaScript, HTML, and CSS\n4. Experience implementing complex animations and interactive elements\n5. Ability to pixel-perfectly replicate and animate UI designs from Figma\n6. Knowledge of performance optimization for animations\n7. Experience with version control systems, preferably Git\n8. Excellent problem-solving skills and attention to detail\n\n### Preferred Qualifications:\n1. Experience with Three.js or WebGL for creating 3D animations\n2. Familiarity with CSS animations and transitions\n3. Knowledge of responsive design for animations across devices\n4. Experience with interactive data visualizations\n5. Understanding of web accessibility standards for animated content\n6. Portfolio showcasing animation and interactive web projects\n\nIf you're passionate about creating engaging, animated web experiences and have the technical skills to bring designs to life, we encourage you to apply for this exciting opportunity. Vadodara\nlocationNames: Vadodara\nremote: true",
+      "match_score": 10.41,
+      "resume_variant": "frontend",
+      "draft_answer": "Having built React and Next.js front ends end-to-end for critical client-facing platforms, including a government occupational hygiene portal, I’ve directly driven user acceptance and significant workflow automation for 80+ organizations. My experience optimizing perceived UI responsiveness by cutting API latency 98% and reducing real-time data refresh delays by 30 seconds uniquely positions me to deliver the performant and interactive web experiences essential for animated websites.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-18T14:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.06,
+            "overlap": 7.62,
+            "combined": 7.23
+          },
+          "backend": {
+            "cosine": 5.54,
+            "overlap": 7.14,
+            "combined": 6.02
+          },
+          "frontend": {
+            "cosine": 10.3,
+            "overlap": 10.68,
+            "combined": 10.41
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.3,
+        "keyword_overlap_score": 10.68,
+        "final_score": 10.41,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.177
+          },
+          {
+            "term": "js",
+            "weight": 0.118
+          },
+          {
+            "term": "ui",
+            "weight": 0.0892
+          },
+          {
+            "term": "react",
+            "weight": 0.0885
+          },
+          {
+            "term": "skills",
+            "weight": 0.0885
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-18T14:16:05+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "327ea84ef853ff2212097e7a332d3fcb",
+      "source": "wellfound",
+      "company": "Kraftbase",
+      "role": "React Native Developer",
+      "url": "https://wellfound.com/jobs/3235840-react-native-developer",
+      "jd_text": "# React Native Developer Job Description\n\nWe are looking for a skilled React Native Developer to join our team and help build cross-platform mobile applications. In this role, you will design, develop, and maintain high-quality mobile apps for iOS and Android platforms using React Native framework with TypeScript, global state management solutions, and Expo.\n\n## Responsibilities:\n1. Design and develop robust and scalable mobile applications using React Native, TypeScript, and Expo\n2. Create reusable components and libraries for future use\n3. Implement and maintain global state management solutions using Redux, MobX, or Context API\n4. Leverage Expo's tools and services to streamline development and deployment processes\n5. Translate designs and wireframes into high-quality TypeScript code\n6. Optimize application performance across both iOS and Android platforms\n7. Collaborate with cross-functional teams to define, design, and ship new features\n8. Integrate with RESTful APIs and third-party services\n9. Identify and fix bugs and performance bottlenecks\n10. Write clean, maintainable, and well-documented TypeScript code\n11. Participate in code reviews and contribute to team knowledge sharing\n\n## Requirements and Qualifications:\n1. Bachelor's degree in Computer Science, Information Technology, or a related field, or equivalent experience\n2. 1-2 years of experience with React Native development\n3. Strong proficiency in TypeScript and React/React Native\n4. Proven experience working with Expo framework and its ecosystem\n5. Advanced knowledge of global state management (Redux, MobX, Zustand, or Context API)\n6. Understanding of Expo's capabilities, limitations, and configuration options\n7. Experience with Expo's build service, OTA updates, and publishing workflow\n8. Understanding of RESTful APIs and integration techniques\n9. Familiarity with TypeScript-based design patterns and best practices\n10. Knowledge of mobile UI/UX design principles and best practices\n11. Experience with version control systems, preferably Git\n12. Problem-solving aptitude with attention to detail\n13. Excellent communication skills and ability to work in a team environment\n\n## Preferred Qualifications:\n1. Experience with Expo modules and custom native code integration\n2. Experience with ejecting from Expo or using Expo's development clients\n3. Knowledge of Expo's notification system, deep linking, and authentication solutions\n4. Experience with navigation libraries in Expo projects (React Navigation)\n5. Advanced skills in global state architecture design and implementation\n6. Experience with TypeScript configuration and optimization in React Native/Expo projects\n7. Familiarity with automated testing frameworks for TypeScript/React Native/Expo\n8. Experience with offline storage, threading, and performance optimization\n9. Understanding of CI/CD workflows for Expo applications\n10. Experience with app deployment to Google Play Store and Apple App Store via Expo or EAS\n11. Knowledge of app security best practices\n12. Experience with real-time communication (WebSockets, Firebase) in Expo applications\n13. Familiarity with analytics and crash reporting tools integrated with Expo\n14. Contributions to open-source projects or personal projects demonstrating React Native, TypeScript, and Expo skills\n\nIf you are passionate about creating seamless mobile experiences and have a strong foundation in React Native development with TypeScript, global state management, and Expo, we encourage you to apply for this exciting opportunity. Vadodara\nlocationNames: Vadodara",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T14:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "4df9dd5d91d8de3633568c1fb826c942",
+      "source": "wellfound",
+      "company": "SciSpace",
+      "role": "AI Product Manager (With Software Engineering Experience)",
+      "url": "https://wellfound.com/jobs/4735114-senior-ai-product-manager-with-software-engineering-experience-clone",
+      "jd_text": "**Looking for AI Product Manager (With Software Engineering Experience) for research-focused, product-based, US-based Startup**\n\n**[SciSpace](http://scispace.com) is an AI-native platform for scientific research, designed to support researchers across their everyday workflows.**\n\nSciSpace is building the AI Research Co-Scientist - a product that helps researchers understand, create, collaborate on, and publish research faster. The company uses large language models to automate and streamline research workflows and make high-quality research more accessible to researchers, academics, students, universities, publishers, and R&amp;D teams globally.\n\nSciSpace is an AI, Education Technology, SaaS, and Enterprise Software company based in Bengaluru. The product has reached millions of users and operates in a fast-moving environment with frequent AI-powered feature launches, a high-ownership culture, and an ambitious mission to reshape how research is created and consumed.\n\nThe ideal candidate is someone who is self-motivated, empathetic, passionate about helping others, can communicate effectively with diverse groups and has a desire to build a positive relationship with our users. Knowledge of Research writing is not a must, however, applicants interested in the domain are encouraged to apply! :)\n\n\n**Responsibilities**:\n* Own the SciSpace Agent for Research Workflows end-to-end. Define vision, strategy, and roadmap for an AI agent that assists researchers.\n* Build a modular, extensible agent platform that works across multiple research domains and user segments.\n* Lead cross-functional execution across engineering, NLP, design, growth, and data teams to deliver an agent-first research experience.\n* Do prompt engineering and evals for agentic systems. \n* Translate ambiguous user problems into structured product requirements and intelligent system behaviors.\n* Continuously refine the agent through user insights, experimentation, and iterative learning loops.\n* Work closely with software development teams on defining, designing and delivering high-quality products; provide feedback on architecture, design, and priorities.\n* Interact with the design team to convert product requirements into actionable prototypes. \n* Closely work with engineering to flush out the product requirements into clear executable tasks with quick time-to-market and optimal resources.\n* Use a combination of outstanding analytical skills, business judgment, and strategic thinking to innovate and create world-class experiences.\n* Take initiative. Don't wait to be asked. Plans efficiently while avoiding analysis paralysis\n* Proactively filling communication gaps amongst all team members – We believe good communication solves half the problem\n\n\n**Our ideal candidates would:**\n* 3+ years of relevant work experience in software development in product management or similar roles.\n* Must possess a good understanding of LLMs, agentic systems, orchestration, and modern AI architectures.Have experience with prompt engineering, fine-tuning, and AI evaluation techniques. \n* Experience leading product design through the entire lifecycle, from concept and wireframes to MVP and final release.\n* Hands-on experience with LLM-based agent frameworks (LangChain, LangGraph, or equivalent). \n* Be comfortable defining and optimizing system-level metrics such as accuracy, completion rate, latency, and user trust\n* Experience working with engineering teams to define, scope, and prioritize product requirements.\n* Experience leading cross-functional teams to deliver products and projects on tight deadlines. \n* Strong problem-solving skills and willingness to roll up one’s sleeves to get the job\n* Communicate clearly and persuasively, with the ability to drive alignment and decision-making at multiple levels \n* MS/BS degree in Computer Science, Engineering or equivalent preferred\n\n\n**Company Culture**\n\n**In the words of one of the employees:**\n*  Tons of independence\n*  Mission led company which drives everything that we do\n*  Great environment, great colleagues and we are well looked after\n*  Fast-paced and constantly changing with an ambition to always do better.\n*  Flexible hours\n*  High impact projects and Highly talented co-workers Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 9.7,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T14:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.89,
+            "overlap": 13.91,
+            "combined": 9.69
+          },
+          "backend": {
+            "cosine": 6.02,
+            "overlap": 12.03,
+            "combined": 7.82
+          },
+          "frontend": {
+            "cosine": 5.66,
+            "overlap": 14.56,
+            "combined": 8.33
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.89,
+        "keyword_overlap_score": 13.91,
+        "final_score": 9.7,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1959
+          },
+          {
+            "term": "experience",
+            "weight": 0.1602
+          },
+          {
+            "term": "agent",
+            "weight": 0.1306
+          },
+          {
+            "term": "based",
+            "weight": 0.0871
+          },
+          {
+            "term": "high",
+            "weight": 0.0871
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7d472bef26c4079346a967200a97a3b3",
+      "source": "wellfound",
+      "company": "Beyond Technologies",
+      "role": "Founding AI Engineer",
+      "url": "https://wellfound.com/jobs/4728341-founding-ai-engineer",
+      "jd_text": "Job Title: Founding AI Engineer\nLocation: Mumbai\nExperience Level: 2 to 3 years\nSalary Range: 10 LPA - 16 LPA\n\nDescription:\nAs a Founding AI Engineer at Predflow, you will own and improve the core of our agentic platform. You will work on multi-agent systems and LLM orchestration, and design AI agents that carry out real business processes from start to finish. This is a hands-on role where you will work directly with the founders, help decide how systems take shape, and own what you ship from design to production. You will build our agentic services platform, own the backend architecture end-to-end, build reliable agentic workflows, integrate with client systems and third-party tools, design scalable data models and databases, set up automated workflows, deploy and run services on the cloud, build internal tools, and help shape the engineering team's growth and hiring.\n\nRequirements:\n- 2 to 3 years of software engineering experience\n- Production-quality Python skills, including vector stores, prompt management, eval frameworks, and observability tools\n- Hands-on experience building Agentic AI or LLM applications\n- Solid experience with Postgres\n- Ability to think in systems, mapping reasoning, state, tool calls, and human review points in workflows\n- Experience setting up automated workflows or custom skills for development processes\n- Ability to take vague problems and ship working answers independently\n- Desire to learn how to make AI work well in production systems\n- Experience with n8n, Make.com or similar workflow tools (Good to have)\n- DevOps on AWS or Google Cloud (Good to have)\n- React (Good to have)\n- Pydantic AI or OpenRouter (Good to have)\n- Temporal.io or another durable workflow engine (Good to have) Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T14:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "989f52644450430ab78ad9eb472ff96d",
+      "source": "wellfound",
+      "company": "Beyond Technologies",
+      "role": "Platform Engineer",
+      "url": "https://wellfound.com/jobs/4703956-platform-engineer",
+      "jd_text": "Job Title: Platform Engineer\nLocation: Bangalore(Onsite)\nExperience Level: 3-8\nSalary Range: 20-30LPA\n\nDescription:\nJoin a team building an AI-native enterprise platform that helps businesses make faster, smarter and more consistent operational decisions using AI, enterprise data and workflow automation.\n\nDesign and build the core platform for enterprise decision workflows. Develop reusable workflow and decision runtimes. Build scalable, cloud-native distributed systems and event-driven architectures. Design enterprise-grade APIs and platform services. Build integrations with systems such as SAP and Oracle. Develop secure multi-tenant services with authentication and RBAC. Build and manage AWS cloud infrastructure and deployment systems. Implement monitoring and observability for production systems. Support both cloud and on-premise deployments. Enable faster onboarding and deployment of new enterprise workflows.\n\nRequirements:\n- Strong hands-on experience with Python\n- FastAPI\n- PostgreSQL\n- Docker\n- AWS\n- Practical experience with Redis\n- Kafka/event streaming\n- REST APIs\n- CI/CD\n- Git\n- Good understanding of Kubernetes\n- Distributed systems\n- Event-driven architecture\n- Enterprise SaaS\n- Microservices\n- Strong backend engineering fundamentals\n- Ability to design scalable, reliable and production-ready systems HSR Layout\nlocationNames: HSR Layout",
+      "match_score": 10.72,
+      "resume_variant": "backend",
+      "draft_answer": "I've developed FastAPI backends for cloud-native compliance platforms, leveraging Redis caching and RabbitMQ for event-driven architectures, and implementing zero-downtime blue-green deployments with Kubernetes on Azure. I have also designed secure, enterprise-grade APIs for multi-tenant systems, ensured data integrity under concurrent loads, and have experience with AWS infrastructure and deployment systems to enable faster onboarding of new workflows.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-18T14:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.32,
+            "overlap": 11.26,
+            "combined": 9.9
+          },
+          "backend": {
+            "cosine": 10.0,
+            "overlap": 12.41,
+            "combined": 10.72
+          },
+          "frontend": {
+            "cosine": 7.34,
+            "overlap": 13.59,
+            "combined": 9.22
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 10.0,
+        "keyword_overlap_score": 12.41,
+        "final_score": 10.72,
+        "top_keywords": [
+          {
+            "term": "platform",
+            "weight": 0.1727
+          },
+          {
+            "term": "cloud",
+            "weight": 0.1036
+          },
+          {
+            "term": "experience",
+            "weight": 0.1036
+          },
+          {
+            "term": "ai",
+            "weight": 0.0845
+          },
+          {
+            "term": "apis",
+            "weight": 0.0691
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-18T14:15:52+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "92676fb9a179832cd6be659b0c28e776",
       "source": "wellfound",
