@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-09-18T20:42:33+00:00",
+  "exported_at": "2026-09-18T20:43:56+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 137,
+    "pending_approval": 136,
+    "failed": 6,
     "discovered": 650,
-    "failed": 5,
     "submitted": 5,
     "rejected": 3
   },
@@ -96,12 +96,12 @@
       "match_score": 15.15,
       "resume_variant": "fullstack",
       "draft_answer": "I've developed Python microservices using FastAPI and implemented RabbitMQ for guaranteed delivery, mirroring the core components of your client's data platform. My work cutting API fetch latency by 98% with Redis caching and deploying production systems with Azure DevOps CI/CD demonstrates my focus on delivering robust, performant, and streamlined solutions.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "pending_approval",
+      "status": "failed",
       "discovered_at": "2026-09-18T20:42:05+00:00",
-      "decided_at": null,
+      "decided_at": "2026-09-18T20:43:55+00:00",
       "submitted_at": null,
-      "error_message": null,
-      "sent_message": null,
+      "error_message": "Apply form has screening inputs beyond a single cover letter/note. | Questions: Search everything",
+      "sent_message": "My experience delivering Python microservices includes building a FastAPI/React system and designing RESTful APIs for client solutions, where I introduced RabbitMQ to guarantee delivery under high load and implemented ACID-compliant transactions in a multi-threaded environment. I further optimized performance by integrating Redis caching, cutting API fetch latency by 98%, and owned cloud-native deployments on Azure with AKS, blue-green CI/CD, and troubleshooting production concurrency risks.\nGitHub: https://github.com/sanjay-kandpal",
       "match_breakdown": {
         "weights_version": "v1",
         "hard_filters": {
@@ -158,9 +158,13 @@
       },
       "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
       "drafted_at": "2026-09-18T20:42:19+00:00",
-      "confirmation_signal": null,
-      "github_run_id": null,
-      "apply_kind": null
+      "confirmation_signal": {
+        "ok": false,
+        "url": "https://wellfound.com/jobs/2785138-python-developer",
+        "text": "Apply form has screening inputs beyond a single cover letter/note. | Questions: Search everything"
+      },
+      "github_run_id": "35392969695",
+      "apply_kind": "has_questions"
     },
     {
       "id": "f92f81539eb9cb59a6a30bddb28dd673",
