@@ -1,15 +1,319 @@
 {
-  "exported_at": "2026-09-18T18:57:19+00:00",
+  "exported_at": "2026-09-18T20:42:33+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 135,
-    "discovered": 648,
+    "pending_approval": 137,
+    "discovered": 650,
     "failed": 5,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "5e56a53c3d9c38c44fc13ca802ac92ef",
+      "source": "wellfound",
+      "company": "ZenTrades",
+      "role": "Senior Software Engineer",
+      "url": "https://wellfound.com/jobs/4735247-senior-software-engineer",
+      "jd_text": "# Senior Software Engineer / SDE II / SDE III\n\n**Clara AI · Bangalore · Full-time**\n\n## ABOUT CLARA AI\n\nClara AI is building an AI operating system for commercial service businesses across Fire Protection, HVAC, Electrical, and Plumbing.\n\nThese businesses rely on complex workflows, phone-based operations, and legacy systems. We are building AI agents that fundamentally change how they operate.\n\nOur products include:\n\n* **AI Answering Agent** that handles customer calls 24/7\n* **Collections Agent** that helps businesses recover outstanding revenue\n* **Field Co-Pilot** that supports technicians in the field\n\nOur vision is to build an AI-native platform where intelligent agents understand workflows, take actions, and become an essential operating layer for commercial service businesses.\n\nWe are past zero. Customers are actively using our products, and we are scaling rapidly. The next phase requires engineers who can build reliable systems, move quickly, and take ownership beyond just completing assigned tasks.\n\n## THE ROLE\n\nAs a Senior Software Engineer at Clara AI, you will be a hands-on engineer responsible for building and scaling AI-native products from concept to production.\n\nYou will work closely with product, engineering, and customers to understand problems, design solutions, and ship production-quality software.\n\nThis is not a role where you simply execute predefined technical tasks. We are looking for engineers who can identify problems, make sound technical decisions, and own solutions end-to-end.\n\n## WHAT YOU'LL OWN\n\n### Build AI-native products\n\nYou will work on products where AI is a core capability.\n\nYou may work across:\n\n* AI agents and autonomous workflows\n* LLM-powered applications\n* Intelligent automation systems\n* Knowledge retrieval and reasoning systems\n* AI evaluation and improvement frameworks\n\n### Own technical problems end-to-end\n\nYou will:\n\n* Design and build production systems\n* Make technical decisions and evaluate tradeoffs\n* Build scalable APIs and backend systems\n* Work across the stack where required\n* Debug complex technical problems\n* Improve system reliability, performance, and maintainability\n* Take ownership of features from idea to production\n\n### Work closely with product and customers\n\nYou will work closely with product and business teams to understand real customer problems and translate them into technical solutions.\n\nYou will be expected to think beyond the implementation and understand the business impact of what you build.\n\n### Stay hands-on\n\nThis is a highly hands-on engineering role.\n\nYou will:\n\n* Write production-quality code\n* Prototype and test new ideas\n* Participate in architecture and system design discussions\n* Review code and improve engineering practices\n* Use AI tools extensively to improve engineering velocity\n* Continuously learn and adapt to new technologies\n\n## WHAT SUCCESS LOOKS LIKE\n\n### First 30 Days\n\n* Build strong context around Clara AI's technology and customers\n* Understand existing systems and engineering practices\n* Start shipping meaningful improvements\n* Identify opportunities to improve product or engineering velocity\n\n### First 60 Days\n\n* Own significant technical initiatives\n* Deliver production features independently\n* Improve system quality, reliability, or performance\n* Contribute meaningfully to architecture and technical decisions\n\n### First 90 Days\n\n* Independently own important areas of the product\n* Ship meaningful AI-native capabilities\n* Raise engineering quality and technical standards\n* Become a reliable technical owner within the team\n\n## WHO WE'RE LOOKING FOR\n\n### Must Have\n\n* **3–7 years of software engineering experience**\n* Strong hands-on engineering background\n* Experience building and scaling production systems\n* Strong problem-solving and engineering fundamentals\n* Experience owning features or technical initiatives end-to-end\n* Strong understanding of backend systems and APIs\n* Product mindset and ability to understand customer problems\n* Comfortable working in ambiguity and fast-changing environments\n\n### Strong Signals\n\n* Has been an early engineer or worked in a startup environment\n* Has built products or features from zero to one\n* Experience with AI-powered products or LLM applications\n* Uses AI tools extensively to improve engineering velocity\n* Strong full-stack experience\n* Has worked closely with product or customers\n* Demonstrates strong ownership beyond their defined role\n* Has a track record of learning new technologies quickly\n\n## TECHNICAL EXPECTATIONS\n\nExperience with some of the following:\n\n* MERN stack: React, Node.js, TypeScript\n* Backend architecture and APIs\n* Databases and distributed systems\n* Cloud infrastructure\n* AI/LLM applications\n* Agentic workflows\n* System design and scalability\n\nWe value strong engineering judgment and the ability to learn quickly over specific technology keywords.\n\n## THIS IS NOT FOR YOU IF\n\n* You prefer only executing predefined technical tasks\n* You need a highly structured or mature engineering environment\n* You avoid product or customer discussions\n* You are not excited about building with AI\n* You are uncomfortable taking ownership beyond your immediate task\n* You prefer optimizing for technical complexity over solving real customer problems\n\n## WHAT WE OFFER\n\n### High Ownership\n\nOwn meaningful technical problems and see your work directly impact the product.\n\n### Build with AI\n\nWork on products where AI is fundamentally changing how businesses operate.\n\n### Direct Impact\n\nYour work will power products used by real businesses every day.\n\n### High Autonomy\n\nIdentify problems, propose solutions, make technical decisions, and build.\n\n**Bangalore · Full-time · AI-native environment** Bengaluru Bengaluru\nlocationNames: Bengaluru Bengaluru",
+      "match_score": 11.33,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently owned the end-to-end delivery of full-stack platforms for commercial entities, from client requirements to blue-green deployments, scaling compliance solutions for 80+ organizations and driving a 98% latency reduction with Redis and RabbitMQ. This experience, combined with validating local AI agent reliability for LLM-powered applications, positions me to build and scale products for an AI operating system handling commercial service workflows.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-18T20:42:05+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.23,
+            "overlap": 16.23,
+            "combined": 11.33
+          },
+          "backend": {
+            "cosine": 9.04,
+            "overlap": 15.79,
+            "combined": 11.07
+          },
+          "frontend": {
+            "cosine": 7.92,
+            "overlap": 17.48,
+            "combined": 10.79
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.23,
+        "keyword_overlap_score": 16.23,
+        "final_score": 11.33,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3453
+          },
+          {
+            "term": "technical",
+            "weight": 0.1964
+          },
+          {
+            "term": "problems",
+            "weight": 0.1105
+          },
+          {
+            "term": "end",
+            "weight": 0.0901
+          },
+          {
+            "term": "production",
+            "weight": 0.0859
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-18T20:42:32+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e55cf9f813ee990db2375673dd9949cc",
+      "source": "wellfound",
+      "company": "Sosuv Consulting",
+      "role": "Python Developer",
+      "url": "https://wellfound.com/jobs/2785138-python-developer",
+      "jd_text": "**Job description**\n\n**Company Profile:**\nWe are a technology firm with a presence in the UK and India focussed on the financial services domain. Our clients are the world's major fintech players. We are looking for smart, talented and motivated individuals who are up for a challenge and believe in our vision. We need individuals with a passion for technology, and a desire to learn about the business.\nAs a company, we are committed to the growth, development, and well-being of our people. We encourage our people to pursue their passion, develop their skills, and launch a meaningful and rewarding career. We offer a highly competitive pay package, free meals, health insurance and other benefits. We are an equal-opportunity employer.\n\n\nWe have an urgent requirement for Python Developers (3-5 years of exp).\n\n\n**Job Description:**\n\nOur client’s data platform consists of a series of Python microservices, which become integrated through REST and RabbitMQ. We are actively searching for an enthusiastic Core Python Developer to become a valuable member of our vibrant team. The selected individual will play a pivotal role in advancing our platform, making it more feature-rich, robust, streamlined, and performant by employing innovative architectural and development principles. \n\n**Responsibilities:\n\n**Python Development: **\n\nWrite clean, maintainable, and efficient Python code in line with common Pythonic principles. \nDevelop and maintain Python microservices, ensuring seamless integration with our existing platform stack. \nUtilize common Python data libraries, such as Pandas, Polars, NumPy, and SciPy for data manipulation and analysis tasks. \nFamiliarity with asynchronous programming in Python using libraries like asyncio or Dask and understanding of concurrency and parallelism concepts. \nWrite unit tests for developed code using pytest to ensure functionality and reliability. \nCollaborate with the QA team to ensure comprehensive test coverage. \n\n**API Development &amp; Integration: **\n\nDesign and develop RESTful APIs using frameworks like FastAPI and Flask. \nEnsure smooth communication between microservices via REST and message brokers like RabbitMQ. \n\n**Messaging/Caching Systems:** \nUnderstand and work with pub/sub architectures and are familiar with message brokers including RabbitMQ and Kafka. \nImplement and manage caching solutions using Redis to enhance application performance. \n\n\n**Version Control: **\n\nUse Git for source code management, adhering to best practices for branching, merging, and collaborative development. \n\n\n**Database Operations:**\n\n Work with database technologies such as PostgreSQL and SQLite, understanding schema design, querying, and optimization. \n\n\n**Technical Skills Required :**\n\nBachelor’s degree in Computer Science, Engineering, or a related field. \n3-5 years minimum as a Python Developer with a solid understanding of the Python language and its best practices, adhering to common Pythonic principles. \nDevelopment experience within the paradigms of microservices, cloud technologies and modern containerization platforms, e.g. AWS, Azure, GCP, Docker, and Kubernetes. \nProficient in implementing and managing Redis as an in-memory data structure store, used for caching, session management, and real-time analytics. \nFamiliarity with Redis data types, such as strings, lists, sets, and hashes, and their appropriate use cases. \nStrong understanding of RabbitMQ as a message broker, facilitating asynchronous processing and inter-service communication. Familiarity with RabbitMQ's exchange types, routing, and queue bindings, and the ability to troubleshoot common RabbitMQ issues. \nProficient in writing tests using libraries like pytest or unit test to ensure code reliability and functionality. \nExperience with Object-Relational Mapping tools like SQLAlchemy or Django ORM, simplifying database operations and queries. \nStrong understanding of relational database concepts, with hands-on experience in designing, querying, and managing data using PostgreSQL, SQLite and Cloud Data Warehouses. Familiarity with normalization, indexing, and optimization techniques to ensure efficient data retrieval and storage. \nExperience in developing applications using frameworks like FastAPI, Flask or Django to simplify tasks like routing, database operations, and security authentication/authorization flows as examples. \n Familiar with tools like Jenkins, Travis CI, or GitHub Actions to automate the building, testing, and deployment of applications throughout the CI/CD lifecycle. \nProactively identify challenges and bottlenecks, employing strong troubleshooting skills to address them. \n\n\n**Soft Skills Required :**\n\nStrong verbal and written communication skills. \nEnergetic, self-directed, and comfortable in a fast-paced environment. \nTeam player with good interpersonal skills and quick to learn. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 15.15,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've developed Python microservices using FastAPI and implemented RabbitMQ for guaranteed delivery, mirroring the core components of your client's data platform. My work cutting API fetch latency by 98% with Redis caching and deploying production systems with Azure DevOps CI/CD demonstrates my focus on delivering robust, performant, and streamlined solutions.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-18T20:42:05+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 13.41,
+            "overlap": 19.21,
+            "combined": 15.15
+          },
+          "backend": {
+            "cosine": 13.19,
+            "overlap": 20.3,
+            "combined": 15.32
+          },
+          "frontend": {
+            "cosine": 8.31,
+            "overlap": 19.9,
+            "combined": 11.79
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 13.41,
+        "keyword_overlap_score": 19.21,
+        "final_score": 15.15,
+        "top_keywords": [
+          {
+            "term": "python",
+            "weight": 0.2064
+          },
+          {
+            "term": "using",
+            "weight": 0.1607
+          },
+          {
+            "term": "data",
+            "weight": 0.1501
+          },
+          {
+            "term": "rabbitmq",
+            "weight": 0.1377
+          },
+          {
+            "term": "database",
+            "weight": 0.1148
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-18T20:42:19+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f92f81539eb9cb59a6a30bddb28dd673",
+      "source": "wellfound",
+      "company": "Sosuv Consulting",
+      "role": "FIX Analyst",
+      "url": "https://wellfound.com/jobs/2827065-fix-analyst",
+      "jd_text": "**Job Description: FIX Analyst**\n\n**Company Profile:**\n\nWe are a technology firm in the UK, and India focussed on the financial services domain. Our clients are the world's major fintech players. We are looking for intelligent, talented and motivated individuals who are up for a challenge and believe in our vision.\nAs a company, we are committed to our people's growth, development, and well-being. We offer a highly competitive pay package and other benefits. We are an equal-opportunity employer.\nWe seek FIX Analysts (1-3 yrs of exp) to work on FIX Connectivity projects.\n\n\n**Role Description:**\n\nAre you a FIX protocol expert? Do you want to gain an in-depth understanding of the electronic trading business? Are you passionate about solving complex problems? Do you have strong analytical and logical thinking capabilities? Are you well organised, detail-oriented, with exceptional communication skills? If yes, we would like to speak with you about the FIX Analyst role.\nWe are looking for experienced and energetic FIX Analysts to join us and be part of a global FIX Connectivity team. The FIX team works closely with Sales and Implementations teams, Development, Product Dev, and Support teams to understand bespoke business workflows and translate them into a software solution. On a day-to-day basis, the role involves much external communication with tech teams of clients/brokers and their technology vendors. The FIX team also gets involved in various strategic projects ranging from the rollout of new functionalities on the platform to system improvements, regulatory changes, etc. The successful candidate will undergo extensive training in various applications in the product stack.\n\n\n**Essential Skills:**\n\n* Excellent understanding of FIX protocol (ver. 4.2/4.4)\n* Experience with any programming language (Java, C++, C, Python).\n* Must know Unix/Linux-based O/S Applications.\n* Experience working with Databases on writing basic SQL queries- Oracle/SQL.\n* Excellent understanding of the FIX certification process.\n* Experience working in an electronic trading environment in a FIX onboarding or FIX Support capacity.\n* Familiarity with networking protocols, VPN, Extranet connectivity, and understanding of TCP/IP concepts.\n* Exposure to any of the following asset classes: Equities, Futures, Options, FX.\n* Exceptional communication skills, both written and verbal.\n* Flexible to work in multiple time zones (HK/EU/US hours).\n* Quick learner with strong attention to detail and ability to think outside the box.\n* Strong analytical and logical thinking capabilities.\n* Highly motivated with strong interpersonal skills.\n\n **Desired Skills:**\n\n* Scripting knowledge in one of the following languages: Shell/Python.\n* Familiarity with Algorithmic Trading and TCA.\n* Previous experience with any OMS/EMS, exchanges or trading firms would be a plus.\n* Previous experience in developing tooling &amp; and processes to drive efficiencies.\n* Previous experience with Jira for project tracking, confluence for documentation and knowledge sharing.\n\n**Education:**\n\nEngineering Graduate from any premier institution. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 4.63,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T20:42:05+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.35,
+            "overlap": 7.62,
+            "combined": 4.63
+          },
+          "backend": {
+            "cosine": 2.53,
+            "overlap": 7.89,
+            "combined": 4.14
+          },
+          "frontend": {
+            "cosine": 2.98,
+            "overlap": 10.19,
+            "combined": 5.14
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.35,
+        "keyword_overlap_score": 7.62,
+        "final_score": 4.63,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1294
+          },
+          {
+            "term": "skills",
+            "weight": 0.1079
+          },
+          {
+            "term": "communication",
+            "weight": 0.0978
+          },
+          {
+            "term": "team",
+            "weight": 0.0978
+          },
+          {
+            "term": "applications",
+            "weight": 0.0431
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7676914a91434a3f88b934e17e5f644f",
+      "source": "wellfound",
+      "company": "Sosuv Consulting",
+      "role": "Fullstack Developer",
+      "url": "https://wellfound.com/jobs/3094756-fullstack-developer",
+      "jd_text": "**Job Description: Full Stack Developer**\n\n**Company Profile:**\nWe are a technology firm in the UK, and India focussed on the financial services domain. Our clients are the world's major fintech players. We are looking for intelligent, talented and motivated individuals who are up for a challenge and believe in our vision.\nWe are an equal opportunity employer. We value diversity and inclusion and encourage all qualified individuals to apply.\n\nWe're looking for exceptional Full Stack Developers who are passionate about technology and coding.\n\n**What we offer:**\nHighly competitive compensation, performance-based bonuses, and comprehensive benefits package.\nExposure to the exciting and fast-paced world of financial trading.\nMentorship and guidance from industry experts.\nOpportunities for professional growth and development.\nA collaborative and dynamic work environment.\nFree office lunch/dinner and fun activities.\n\n**Key Responsibilities:**\nCollaborate with senior developers and product managers to design and implement trading and risk management software solutions.\nWrite efficient, high-performance code that meets the demands of real-time trading environments.\nParticipate in the entire software development lifecycle, from design and coding to testing and deployment.\nAnalyse and optimise code for maximum efficiency.\nStay current with the latest trends and technologies in the financial trading industry.\n\n**Qualifications:**\nBachelor's degree in Computer Science, Software Engineering, or a related field from a premier institution like IITs/NITs.\nMinimum 3+ years of professional software development experience.\nStrong knowledge of programming languages (e.g., Python, C++, Java, React) and DSA concepts.\nUnderstanding of financial markets, trading concepts, and algorithms would be a plus.\nExperience with trading platforms and APIs would be a plus.\nKnowledge of quantitative analysis, statistics, and risk management.\nFamiliarity with order execution systems, FIX Protocol and market data feeds would be a plus.\nStrong mathematical and statistical skills.\nGood rating on competitive coding platforms such as Codeforces, HackerRank, LeetCode, CodeChef etc.\nAbility to work under pressure in a fast-paced environment.\nExcellent problem-solving and analytical skills.\nStrong communication and teamwork skills. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 7.09,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T20:42:05+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.45,
+            "overlap": 10.93,
+            "combined": 7.09
+          },
+          "backend": {
+            "cosine": 4.59,
+            "overlap": 10.53,
+            "combined": 6.37
+          },
+          "frontend": {
+            "cosine": 4.61,
+            "overlap": 12.62,
+            "combined": 7.02
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.45,
+        "keyword_overlap_score": 10.93,
+        "final_score": 7.09,
+        "top_keywords": [
+          {
+            "term": "stack",
+            "weight": 0.0892
+          },
+          {
+            "term": "skills",
+            "weight": 0.0885
+          },
+          {
+            "term": "environment",
+            "weight": 0.0722
+          },
+          {
+            "term": "risk",
+            "weight": 0.0722
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.059
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "75650588ef1cd58d4321ae05694d0e7d",
       "source": "yc",
