@@ -1,15 +1,1549 @@
 {
-  "exported_at": "2026-09-17T09:17:23+00:00",
+  "exported_at": "2026-09-18T08:50:19+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 623,
-    "pending_approval": 127,
+    "failed": 5,
+    "pending_approval": 132,
+    "discovered": 641,
     "submitted": 5,
-    "failed": 3,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "92676fb9a179832cd6be659b0c28e776",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Frontend Software Development Engineer",
+      "url": "https://wellfound.com/jobs/4601020-frontend-software-development-engineer",
+      "jd_text": "# Software Development Engineer (SDE) – Frontend\n\n**On-Site, Hyderabad, India · Full-Time**\n\n**Only apply if:** You have **≥ 2 year** of production-grade frontend experience with strong, demonstrable expertise building and shipping scalable **React / Next.js** applications — **and** you can point us to **live, deployed products** you have built.\n\n---\n\n## About Steps AI\n\nWe are a fast-growing product startup building intelligent, AI-powered software for modern businesses. Our focus is on crafting seamless, high-performance user experiences powered by scalable backend systems and data-driven intelligence — and we ship to real customers every week.\n\nAs we scale, we are looking for a **Frontend-focused SDE** who thrives in a fast-paced environment and can take end-to-end ownership of frontend architecture and user experience across a complex, multi-surface product.\n\n---\n\n## What You'll Do\n\n### Core Frontend Development\n- Build production-grade applications using **Next.js (App Router), React 19, TypeScript, and Tailwind CSS**.\n- Architect scalable, reusable component libraries and design systems on top of **shadcn/ui / Radix primitives**.\n- Implement modern UI patterns using hooks, context, and advanced state management.\n- Optimize performance using code-splitting, lazy loading, caching, and **SSR / SSG / ISR / CSR** strategies.\n- Ensure pixel-perfect, responsive, accessible UI across devices and browsers.\n\n### UI/UX Engineering Excellence\n- Translate product requirements and Figma designs into robust frontend implementations.\n- Build complex **dashboards, data visualizations, and interactive multi-step workflows** (charts, tables, maps, geographic intelligence, analytics views).\n- Build **AI-driven, streaming interfaces** — chat/agent UIs, token-by-token streaming, real-time updates, and rich message rendering (markdown, code, math).\n- Integrate real-time features using **WebSockets, SSE / streaming APIs, or event-driven updates**.\n- Ship accessible, SEO-friendly, high-performance web interfaces measured against Lighthouse best practices.\n\n### Frontend Architecture &amp; Scalability\n- Design scalable folder structures and modular, maintainable frontend architecture.\n- Implement server- and client-state management using **TanStack Query** and **Zustand** (or equivalent modern solutions).\n- Build robust forms with **React Hook Form + Zod** validation.\n- Integrate with backend services (TypeScript/Node and Python) over **REST and/or GraphQL** APIs.\n- Ensure robust error handling, observability, and performance monitoring.\n- Drive frontend testing strategy with **Vitest / Jest, React Testing Library, and Cypress/Playwright**.\n- Contribute to **embeddable / SDK-style frontend artifacts** (e.g. CDN-delivered, shadow-DOM-isolated widgets) where relevant.\n\n### Engineering &amp; Collaboration\n- Conduct structured code reviews and enforce high-quality coding standards.\n- Collaborate closely with backend engineers, product managers, and designers.\n- Contribute to CI/CD workflows and deployment pipelines.\n- Take ownership of features from concept to production release.\n- Mentor junior engineers and uphold engineering best practices.\n\n---\n\n## Must-Have Qualifications\n\n### Core Frontend Expertise\n- **≥ 2 year** of production experience building scalable web applications.\n- Strong command over **Next.js, React, TypeScript, and modern JavaScript (ES6+)**.\n- Deep understanding of rendering strategies (**SSR, SSG, ISR, CSR**) and when to use each.\n- Advanced **Tailwind CSS** knowledge and experience building custom design systems.\n- Experience with frontend performance optimization and profiling.\n\n### API &amp; Integration\n- Experience integrating frontend applications with **Node.js and Python** backends.\n- Strong understanding of **REST APIs and/or GraphQL**.\n- Familiarity with authentication systems (**JWT, OAuth, session-based auth**).\n- Experience handling large datasets, paginated/infinite APIs, and streaming responses.\n\n### Frontend Ecosystem Knowledge\n- Server/client state management (**TanStack Query / React Query, Zustand, Redux Toolkit**).\n- Form management (**React Hook Form, Zod/Yup validation**).\n- Data fetching and caching strategies.\n- Component-driven development; experience with design systems / Storybook is a plus.\n- **Data visualization** libraries (Recharts, D3, ECharts, Nivo, or similar).\n\n### DevOps &amp; Quality\n- Experience with **Docker-based local development** workflows.\n- CI/CD familiarity (GitHub Actions, GitLab CI, etc.).\n- Strong Git workflows and collaborative branching strategies.\n- Testing mindset spanning unit, integration, and E2E coverage.\n\n### Engineering Mindset\n- Clean, maintainable code adhering to SOLID principles.\n- Strong debugging and performance-profiling skills.\n- Ownership-driven, product-first thinking.\n- Comfortable working independently in an **in-office startup environment**.\n\n---\n\n## Critical Requirements – High Weightage\n\n&gt; **This is non-negotiable. Applications without these will not be prioritized.**\n\n### Portfolio, Live Products &amp; Demos\nYou must be able to **show, not just tell**. With your application, explicitly share:\n\n- **An active GitHub profile** showcasing real, production-grade frontend code (not just tutorials or forks).\n- **Live, deployed projects** — public URLs we can open and interact with right now. Next.js + TypeScript projects strongly preferred.\n- **Live demos / a portfolio site** where you specifically showcase your **UI/UX work** — the visual quality, interaction design, responsiveness, and polish you are personally responsible for.\n- Demonstrated ability to build **complex dashboards, SaaS products, AI-integrated UIs, or data-heavy interfaces**.\n- Clean code structure, thoughtful architecture, and clear documentation.\n\n**In your application, please include direct links to:**\nhttps://forms.gle/FPUtQZ9ebgHPeAH59 \n1. Your GitHub profile (and 1–3 specific repos you're proud of).\n2. At least one **live deployed product** (URL) you built or substantially contributed to.\n3. A **portfolio / demo** that highlights your UI/UX craftsmanship.\n\nTell us, for each link, exactly what you built and which parts are yours.\n\n### Technical Assessment\nWe will evaluate your:\n- Frontend architecture design and scalability decisions.\n- Code quality and maintainability.\n- Performance optimization strategy.\n- Ability to convert product requirements into production-ready UI.\n- End-to-end ownership during feature implementation.\n\n---\n\n## Nice-to-Have\n- Experience building **AI-powered, streaming, or data-heavy interfaces**.\n- Knowledge of **WebSockets, streaming UIs, and real-time collaboration** features.\n- Experience building **embeddable widgets / SDKs** (shadow-DOM isolation, CDN delivery).\n- Experience with design systems and internal UI libraries.\n- Exposure to animation libraries (**Framer Motion, GSAP**).\n- Contributions to open-source React/Next.js projects.\n- Experience working in early-stage startups.\n\n---\n\n## What We Offer\n- Competitive salary (Base Pay: 50-75K per month) with a strong growth trajectory.\n- High-impact role with direct influence on product direction.\n- Opportunity to work on cutting-edge AI-driven products.\n- Fast execution cycles and a strong ownership culture.\n- Learning budget for courses and certifications.\n- Collaborative in-office engineering culture in **Hyderabad**.\n\n---\n**https://forms.gle/FPUtQZ9ebgHPeAH59**\nIf you are passionate about building scalable, beautiful, and high-performance frontend systems — and want to shape the product experience of a growing startup — **send us your GitHub, your live products, and your portfolio.** We'd love to see what you've shipped. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 19.9,
+      "resume_variant": "frontend",
+      "draft_answer": "I've consistently delivered end-to-end React and Next.js solutions for client-facing platforms, from driving UAT across user groups to optimizing API performance by 98% for seamless user experiences. My experience includes building complex dashboards, interactive multi-step workflows, and real-time data streaming interfaces, making me well-prepared to contribute to Steps AI's intelligent, AI-powered software for real customers.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "failed",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": "2026-09-18T07:52:13+00:00",
+      "submitted_at": null,
+      "error_message": "Could not find Learn more button.",
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 14.33,
+            "overlap": 23.18,
+            "combined": 16.99
+          },
+          "backend": {
+            "cosine": 12.9,
+            "overlap": 24.06,
+            "combined": 16.25
+          },
+          "frontend": {
+            "cosine": 17.19,
+            "overlap": 26.21,
+            "combined": 19.9
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 17.19,
+        "keyword_overlap_score": 26.21,
+        "final_score": 19.9,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.2696
+          },
+          {
+            "term": "experience",
+            "weight": 0.1715
+          },
+          {
+            "term": "ui",
+            "weight": 0.148
+          },
+          {
+            "term": "react",
+            "weight": 0.098
+          },
+          {
+            "term": "code",
+            "weight": 0.0857
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-18T07:15:54+00:00",
+      "confirmation_signal": {
+        "ok": false,
+        "url": "",
+        "text": "Could not find Learn more button."
+      },
+      "github_run_id": "35321478122",
+      "apply_kind": "unknown"
+    },
+    {
+      "id": "c3ace0a6307e985511d88b1b629d94e0",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Sr. GenAI Engineer",
+      "url": "https://wellfound.com/jobs/4349707-sr-genai-engineer",
+      "jd_text": "**Steps AI · On-Site, Hyderabad, India · Full-Time**\n\n---\n\n## About Steps AI\n\nSteps AI is an agentic AI platform that powers customer-facing AI agents for businesses across e-commerce, SaaS, healthcare, real estate, EdTech, and financial services. Our agents go live in under five minutes from a single URL, learn the business by ingesting websites, documents, FAQs, and product catalogs, and deploy across web, messaging, and social channels.\n\nWe are profitable, growing fast, and shipping production AI to customers every week.\n\n---\n\n## The Role\n\nWe are hiring a **GenAI Engineer** to own the agentic AI layer of our platform — the brains of every conversation our agents have. You will design and evolve our agent runtime, integrate new tools and channels, advance our retrieval and memory systems, and own end-to-end LLM observability.\n\nThis role is AI-focused but not AI-only. You will also contribute to the surrounding backend services and data pipelines that power the AI layer. You will work alongside a peer Software Engineer focused on the platform side; together you will set the technical direction for major product areas.\n\n---\n\n**Resumes will only be reviewed if the application form is completed.**\n\n**Application form:** https://forms.gle/mGF2DNVoNNmLxZsi9\n\n---\n\n## What You Will Own\n\n### Agentic AI Systems (Primary)\n\n- **Agent runtime &amp; control flow** — design and evolve how our agents reason, route, recover, and hand off; build robust patterns for human escalation, partial-state resumption, and graceful tool failure\n- **Persona &amp; behaviour engineering** — shape how agents adapt across channels, business verticals, and brand voices; encode domain guardrails, retrieval mandates, and structured-output contracts\n- **Multi-provider LLM orchestration** — abstract across leading model providers with per-persona routing, fallbacks, retries, and cost/latency tradeoffs\n- **Tool ecosystem** — extend, debug, and ship integrations across CRMs, helpdesks, calendars, productivity suites, e-commerce backends, logistics carriers, messaging platforms, and internal services. A new provider should reach production in days, not weeks\n- **Retrieval &amp; ranking** — own the hybrid retrieval stack across vector and lexical signals, including reranking, recall/precision tuning, and ingestion-time quality controls\n- **Memory systems** — long-term cross-session memory and short-term per-thread state, with clear contracts between them\n- **Streaming protocols** — token-level streaming, intermediate event emission, interruption and resume semantics, and structured terminal events for client integration\n\n### Workflow Orchestration &amp; Data Engineering\n\n- **Long-running workflows** for ingestion, crawling, FAQ and Q&amp;A synthesis, product discovery, sentiment work, outbound campaigns, and channel onboarding\n- **Queue &amp; worker design** — separation of heavy and light work, concurrency control, retry semantics, and end-to-end tracing\n- **Embedding &amp; indexing pipelines** — async batched writes, idempotent reindexing, provider rate-limit safety, and intermediate object-store staging\n- **Document understanding** — multi-format parsing, OCR for scanned content, and structured extraction\n- **Web acquisition** — adapter-based crawling with rate limiting and resilience; pluggable backends for varied site profiles\n- **Provider-agnostic embedding layer** — designed so new embedding models drop in without touching downstream consumers\n\n### AI / Backend Integration\n\nYou will not throw work over the wall. You will go into the backend stack when needed.\n\n- The agent configuration pipeline that turns persona definitions into runnable behaviour\n- New API endpoints powering AI-driven features — summarisation, FAQ synthesis, recommendation flows, and more\n- Inbound webhook flows from commerce platforms and messaging providers that drive agent behaviour\n- The plumbing that ties skill and tool configuration across our service boundaries\n\n---\n\n## You Lead. You Don't Just Code.\n\n- Own the AI roadmap for your area and propose what to build next\n- Mentor and review the work of junior engineers as the team grows\n- Run weekly architecture reviews with the founders\n- Defend tradeoffs in writing through RFCs, design docs, and postmortems\n- Be the on-call escalation point for AI / agent production issues\n- Set the bar for code quality, testing rigour, and observability across the AI stack\n\n---\n\n## Required Skills\n\nYou should have shipped these to production and be able to demonstrate them live:\n\n  **Agent frameworks**  Production experience with LangGraph, LangChain, or comparable agent runtimes — tool calling, state machines, checkpointing, streaming, human-in-the-loop\n  **LLM APIs**  OpenAI, Azure OpenAI, Anthropic, Google Gemini — direct integration and proxying patterns\n  **Vector databases**  At least one of Milvus, Pinecone, Weaviate, or Qdrant — schema design, dense + sparse retrieval, batched upsert, idempotency\n  **Embeddings &amp; reranking**  Modern embedding models, dimensionality and quality tradeoffs, cross-encoder reranking\n  **Workflow orchestration**  Temporal, Airflow, Prefect, or equivalent at production scale\n  **Backend (Python)**  FastAPI, async I/O, Pydantic, structured logging\n  **Backend (TypeScript)**  Node or NestJS — comfortable enough to ship full-stack features\n  **Observability**  LLM tracing (Langfuse or similar), OpenTelemetry, error monitoring\n  **Cloud + DevOps**  Docker, AWS or GCP, CI/CD, production debugging\n\n---\n\n## Strong Plus\n\n- Multimodal model integration — vision and audio\n- Speech: transcription and streaming synthesis\n- Layout-aware document AI and advanced structured extraction\n- Multi-agent patterns beyond single-loop architectures\n- Advanced retrieval research — late-interaction models, learned sparse retrieval, and similar\n- Open-source contributions to agent frameworks or vector databases\n- Published papers, patents, or conference talks in the GenAI / agentic space\n- Domain expertise in e-commerce, govtech, healthtech, or financial services\n\n---\n\n## Mindset We Hire For\n\n- **You think like a system architect, not a prompt engineer.** Prompt-only \"AI engineers\" are not the right fit.\n- **You ship rapidly and iterate publicly.** A new integration goes from idea to production in days.\n- **You read source code instead of asking Stack Overflow.** When a framework behaves unexpectedly, you read its internals.\n- **You measure what you ship.** Token usage, latency, retrieval quality, regression rates — all instrumented from day one.\n- **You take ownership of failures.** When a customer reports a bad outcome, you trace it through prompt, retrieval, and tool output, then fix the root cause.\n- **You operate well in fast-paced, high-ownership environments.** This is not a slow shop.\n\n---\n\n## Qualifications\n\n- B.Tech / M.Tech / MS in CS, Software Engineering, AI/ML, or a related field\n- 2+ years of professional engineering experience with a strong production track record\n- Demonstrable experience shipping agentic AI systems to real users\n- On-site availability in **Hyderabad** — every working day, in person, with the team\n\n---\n\n## Compensation\n\n- Top-of-market base, calibrated to live demonstration of capability\n- Meaningful equity for a senior IC role\n- Direct, no-gatekeeper access to the founders\n- Full ownership of the AI roadmap within your scope from day one\n\n---\n\n## To Apply\n\n**Resumes will only be reviewed if the application form is completed.**\n\n**Application form:** https://forms.gle/mGF2DNVoNNmLxZsi9\n\nThe form takes 5 minutes. Submitting a CV outside the form will not be reviewed. Shortlisted candidates will be contacted within 48 hours of submission.\n\n---\n\n*Steps AI · stepsai.co · Hyderabad, India* Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 14.76,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience building FastAPI/React systems, owning core cloud-native compliance modules, and introducing RabbitMQ for guaranteed delivery and Redis for 98% faster API responses under load, directly applies to designing robust agent runtimes and backend services for your customer-facing AI agents. Leveraging RAG, LLM tool-calling, and production Azure CI/CD with blue-green deployments, I am ready to evolve the agentic AI platform's retrieval and memory systems while ensuring reliable, zero-downtime rollouts.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.57,
+            "overlap": 22.19,
+            "combined": 14.76
+          },
+          "backend": {
+            "cosine": 11.31,
+            "overlap": 20.3,
+            "combined": 14.01
+          },
+          "frontend": {
+            "cosine": 6.53,
+            "overlap": 21.36,
+            "combined": 10.98
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 11.57,
+        "keyword_overlap_score": 22.19,
+        "final_score": 14.76,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.353
+          },
+          {
+            "term": "agent",
+            "weight": 0.1444
+          },
+          {
+            "term": "production",
+            "weight": 0.1181
+          },
+          {
+            "term": "retrieval",
+            "weight": 0.1181
+          },
+          {
+            "term": "stack",
+            "weight": 0.0991
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-18T07:16:21+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "96c8e178dcaa49f4f42f33af20658c6e",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Senior Data & AI Systems Engineer (SDE — ML / Data Engineering)",
+      "url": "https://wellfound.com/jobs/4098532-senior-data-ai-systems-engineer-sde-ml-data-engineering",
+      "jd_text": "---\n\n**Lead Data &amp; AI Systems Engineer (SDE — ML / Data Engineering)**\n\nOn-Site | Hyderabad, India | Full-Time\n\n---\n\n**About StepsAI**\n\nWe build AI-powered agentic chatbots for websites, WhatsApp, Instagram, and Messenger. Our growth runs on a large-scale cold outreach engine targeting 2,00,000+ companies/month across India, USA, Canada, and globally. We're hiring someone to architect, build, and own the entire lead generation and cold emailing platform end-to-end — not just the data pipelines, but the full web application that the team uses daily to manage, monitor, and operate millions of leads across scraping, enrichment, verification, campaign execution, and analytics. You'll build it, ship it, host it, and keep it running.\n\n---\n\n**The Problem**\n\nWe have millions of raw store records. Our sending infra handles lakhs of leads/month. Today everything runs on spreadsheets, manual CSV exports, and laptop-by-laptop processing. Your job: replace all of this with a single, production-grade web application backed by autonomous pipelines.\n\n---\n\n**What You'll Build**\n\n*The Application — Full-Stack Lead Generation Platform (30%)*\n- Design, develop, and deploy a production web application (React/Next.js frontend + FastAPI/Python backend + PostgreSQL) for the entire lead generation and cold emailing operation\n- Dashboard views: real-time funnel visualization, source-wise ingestion stats, enrichment progress, email verification rates, campaign health, domain/sender scores, cost-per-lead analytics\n- Lead management UI: search, filter, segment, tag, and export leads across companies, people, emails, and phone numbers\n- Campaign management module: create campaigns, assign email IDs, set sequences (primary + follow-ups), configure geo/industry/persona targeting, monitor sends/bounces/replies in real-time\n- Admin panels for scraper management (start/stop/schedule jobs, view logs, manage proxy pools), enrichment tool configuration (API keys, credit tracking, waterfall priority), and domain/email-ID health monitoring\n- Host and maintain the application on AWS/GCP with CI/CD, proper auth, role-based access, and production-grade reliability\n\n*Data Engineering &amp; Scraping (30%)*\n- Production web scrapers (Scrapy, Playwright, Apify) for Google Maps, IndiaMART, JustDial, Yelp, BBB, government registries (MCA, FSSAI, US SoS portals)\n- ETL pipelines to ingest, deduplicate, and normalize millions of records from 8+ parallel sourcing channels\n- PostgreSQL database architecture for 24L+ cumulative company/people/email/phone records\n- Website contact crawlers extracting emails, phone numbers, and WhatsApp links at scale\n- Proxy rotation, anti-bot evasion, rate limiting for sustained large-scale scraping\n\n*GenAI &amp; Agentic Systems (20%)*\n- Waterfall enrichment pipelines: Apollo → Hunter → Snov.io → RocketReach with fallback logic and credit optimization\n- Multi-agent workflows (LangChain/LangGraph) for lead qualification, persona classification, and enrichment routing\n- LLM-powered hyper-personalized cold email generation using company context, tech stack, and persona data\n- Pattern-based email generation + bulk verification via MillionVerifier/ZeroBounce APIs\n\n*Infrastructure &amp; Automation (20%)*\n- Autonomous campaign scheduling engine: queue management → AI email generation → capacity allocation → health monitoring\n- Cron jobs, event-driven triggers, and workflow orchestration (n8n/Temporal) for fully autonomous 24/7 operation\n- Email infrastructure management: warm-up ramp logic, auto-pause on high bounce, capacity redistribution across 127 domains / 381 email IDs\n- CI/CD pipelines, Docker deployments, monitoring, logging, alerting\n- Integration with existing StepsAI platform (Next.js frontend, NestJS backend) where needed\n\n---\n\n**Required Skills**\n\n- **Full-stack development:** React/Next.js frontend + FastAPI/Python backend — must be able to build, ship, and host a complete production web application independently\n- **Strong Python:** Scrapy, Playwright, pandas, BeautifulSoup, regex-based extraction, API integrations\n- **PostgreSQL:** schema design for millions of records, indexing, deduplication, query optimization\n- **LLM/GenAI:** hands-on with OpenAI/Anthropic APIs, LangChain/LangGraph, agentic workflows, RAG architectures\n- **Web scraping at scale:** proxy management, anti-bot techniques, handling diverse data formats (HTML, JSON, CSV, government portals)\n- **DevOps fundamentals:** Docker, AWS/GCP deployment, CI/CD, domain management, SSL, basic Kubernetes\n- **Data quality mindset:** deduplication, normalization, validation, audit logging\n- **Git, cron-based automation, webhook integrations**\n\n**Strong Plus**\n\n- MCP (Model Context Protocol) experience for tool integration\n- Workflow orchestration: n8n, Temporal, Airflow, Prefect\n- B2B data enrichment platforms: Apollo, Hunter, Clay, BuiltWith, Snov.io\n- Email deliverability knowledge: domain warm-up, SPF/DKIM/DMARC, sender reputation\n- OSINT tools: theHarvester, Maltego, SpiderFoot\n- Government data scraping (India MCA/GST/Udyam, US SEC/SAM.gov)\n- Experience building internal tools or SaaS dashboards from scratch\n\n---\n\n**Qualifications**\n\n- B.Tech/M.Tech/MS in CS, Data Engineering, AI/ML, or related field\n- 1–4 years experience (strong freshers with exceptional project portfolios welcome)\n- Must work on-site from Hyderabad\n\n---\n\n**What We Offer**\n\n- Own an entire platform from Day 1 — architecture, tech choices, UI design, deployment, everything\n- Work directly with co-founders on a system that directly drives revenue\n- Existing frontend and backend teams available to support — but you should be capable of building independently\n\n---\n\n**To Apply:** Send your resume with links to any projects (especially full-stack apps, scraping tools, or data platforms you've built and deployed) and a brief note on how you'd approach building a web application that handles 2L leads/month end-to-end from scraping to campaign delivery. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 16.35,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience delivering full-stack FastAPI/React systems end-to-end, including scoping, building, client UAT, and deployment with blue-green CI/CD on AKS, has prepared me to architect and own the lead generation and cold emailing platform for your AI-powered agentic chatbots. I've optimized production APIs for 98% faster fetch latency with Redis, guaranteed data integrity under high load via RabbitMQ and ACID transactions, automated 90% of manual workflows, and validated LLM tool-calling reliability for agentic systems, all critical for handling millions of leads across your large-scale cold outreach engine.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 14.42,
+            "overlap": 20.86,
+            "combined": 16.35
+          },
+          "backend": {
+            "cosine": 13.78,
+            "overlap": 21.05,
+            "combined": 15.96
+          },
+          "frontend": {
+            "cosine": 13.1,
+            "overlap": 23.79,
+            "combined": 16.31
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 14.42,
+        "keyword_overlap_score": 20.86,
+        "final_score": 16.35,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.1876
+          },
+          {
+            "term": "email",
+            "weight": 0.1765
+          },
+          {
+            "term": "application",
+            "weight": 0.101
+          },
+          {
+            "term": "management",
+            "weight": 0.101
+          },
+          {
+            "term": "ai",
+            "weight": 0.0882
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-18T07:16:09+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8e55f58c9881557d715a8ed041f4a979",
+      "source": "wellfound",
+      "company": "Nexa Consultancy",
+      "role": "Automation Developer (GoHighLevel, n8n, Make.com)",
+      "url": "https://wellfound.com/jobs/4722420-automation-developer-gohighlevel-n8n-make-com",
+      "jd_text": "## About Nexa Consultancy\nNexa Consultancy Inc is a Surrey, British Columbia (Canada) based company that helps other businesses set up everything they need to run and grow: dashboards, CRM, automation, reporting and marketing. We run our own operations on GoHighLevel, n8n and Make.com and build the same systems for our clients. Because this is ongoing work for our clients, we are looking for long-term people who will grow with us, not short-term contractors. We are hiring a full-time, remote Automation Developer in India to own this stack end to end.\n\n## What you will do\n- Build, maintain and document automations in n8n and Make.com (lead intake, follow-up sequences, appointment booking, WhatsApp and email notifications, reporting).\n- Own our GoHighLevel setup: pipelines, workflows, custom fields, calendars, forms, funnels and integrations.\n- Connect tools through REST APIs and webhooks (GoHighLevel, Google Sheets, Gmail, WhatsApp, Meta lead forms, Cloudflare Workers, AI APIs).\n- Write small scripts and serverless functions (JavaScript or Python) where a no-code step is not enough.\n- Monitor scenarios, fix failures fast, and keep an eye on run quotas and costs.\n- Build dashboards and reports so the team can see leads, follow-ups and conversions without asking.\n- Turn a plain-English request from the Director into a working, tested automation.\n\n## What we are looking for\n- 2 to 5 years of hands-on automation or integration work, with real n8n and Make.com scenarios you can show.\n- Solid GoHighLevel experience (workflows, pipelines, snapshots, API). Other CRMs are a plus.\n- Comfortable with REST APIs, webhooks, JSON, OAuth and debugging failed runs.\n- Working JavaScript or Python for custom code steps; SQL or Google Sheets formulas are a plus.\n- Clear written English. You will document what you build and explain it to non-technical teammates.\n- Self-directed. This is a remote role with a small team; you will own outcomes, not just tickets.\n\n## Nice to have\n- Cloudflare Workers, Zapier, Airtable, Notion, WhatsApp Business API, Meta or Google Ads integrations, OpenAI or Claude APIs.\n\n## Work setup\n- Full-time, remote, from India.\n- Long-term role. We want someone who stays, learns our clients' businesses and grows with the team.\n- Must overlap with Canadian Pacific Time business hours for part of each day; exact schedule agreed at offer.\n- Your own laptop, reliable high-speed internet and a smartphone are required.\n- Notice period: able to join within 30 days.\n\n## Compensation\n- INR 9.6 - 13.2 lakh per year (80,000 - 1,10,000 per month).\n\n## How we hire\n- Short screening call, then a practical exercise (build a small n8n or Make.com scenario), then a final interview with the Director. Surrey\nlocationNames: Surrey\nremote: true",
+      "match_score": 8.37,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.2,
+            "overlap": 10.26,
+            "combined": 7.42
+          },
+          "backend": {
+            "cosine": 5.51,
+            "overlap": 9.77,
+            "combined": 6.79
+          },
+          "frontend": {
+            "cosine": 6.55,
+            "overlap": 12.62,
+            "combined": 8.37
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.55,
+        "keyword_overlap_score": 12.62,
+        "final_score": 8.37,
+        "top_keywords": [
+          {
+            "term": "com",
+            "weight": 0.1188
+          },
+          {
+            "term": "apis",
+            "weight": 0.0951
+          },
+          {
+            "term": "time",
+            "weight": 0.0713
+          },
+          {
+            "term": "end",
+            "weight": 0.0581
+          },
+          {
+            "term": "api",
+            "weight": 0.0475
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1721c1951cc4bbe93ed64c4a617a7204",
+      "source": "wellfound",
+      "company": "Kortingscodeheld.nl",
+      "role": "Webdeveloper / Backend- & Frontenddeveloper (m/v/x)",
+      "url": "https://wellfound.com/jobs/4716477-webdeveloper-backend-frontenddeveloper-m-v-x",
+      "jd_text": "Voor de technische verdere ontwikkeling van Kortingscodeheld.nl zoeken we een webdeveloper die zich zowel bezighoudt met de zichtbare onderdelen van de website als met de technische processen achter de schermen.\n\nJouw taken\nOnze WordPress-installatie verder ontwikkelen en onderhouden\nThemes, plugins en maatwerkfunctionaliteiten aanpassen\nLaadtijden en technische stabiliteit optimaliseren\nNieuwe functies ontwikkelen voor shops, kortingscodes en categorieën\nTechnische problemen analyseren en oplossen\nDe weergave op smartphones, tablets en computers verbeteren\nExterne API’s en affiliatenetwerken koppelen\nJouw profiel\nJe hebt goede kennis van PHP, HTML, CSS en JavaScript. Ervaring met WordPress, databases, API’s en versiebeheer is voor deze functie een voordeel. Je kunt technische onderwerpen duidelijk uitleggen en houdt tijdens de ontwikkeling rekening met zowel het redactieteam als de bezoekers van de website.\n\nWat wij bieden\nBij ons werk je niet alleen aan kleine verbeteringen, maar kun je de technische ontwikkeling van het platform actief mede vormgeven. Beslissingen worden rechtstreeks besproken, waardoor nieuwe functies zonder lange besluitvormingstrajecten kunnen worden gerealiseerd. We zijn nadrukkelijk op zoek naar een langdurige samenwerking.\n\nhttps://kortingscodeheld.nl/vacatures/ Amsterdam\nlocationNames: Amsterdam\nremote: true",
+      "match_score": 0.97,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.63,
+            "overlap": 0.99,
+            "combined": 0.74
+          },
+          "backend": {
+            "cosine": 0.9,
+            "overlap": 1.13,
+            "combined": 0.97
+          },
+          "frontend": {
+            "cosine": 0.52,
+            "overlap": 1.46,
+            "combined": 0.8
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 0.9,
+        "keyword_overlap_score": 1.13,
+        "final_score": 0.97,
+        "top_keywords": [
+          {
+            "term": "api",
+            "weight": 0.0538
+          },
+          {
+            "term": "backend",
+            "weight": 0.0269
+          },
+          {
+            "term": "javascript",
+            "weight": 0.0269
+          },
+          {
+            "term": "platform",
+            "weight": 0.0269
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "713be2c41e7212f0c974317399206547",
+      "source": "wellfound",
+      "company": "AXS Solutions and Consulting",
+      "role": "MERN Stack Developer",
+      "url": "https://wellfound.com/jobs/4703972-mern-stack-developer",
+      "jd_text": "Position: Full Stack Developer (React.js + Node.js)\nExperience: 0.6 - 1 year\nLocation: Mumbai – Chembur West (Onsite)\nJob Summary\nWe are looking for a Full Stack Developer with strong hands-on experience in\nReact.js and Node.js to build scalable, secure, and high-performance web\napplications. The ideal candidate should be comfortable owning features end-to-end,\ndeveloping responsive UI, building REST APIs, integrating databases, and\nsupporting production systems.\n\nKey Responsibilities\n Build responsive UI using React.js, HTML5, CSS3, JavaScript (ES6+)\n Develop scalable backend services and RESTful APIs using Node.js\n   (Express.js / NestJS)\n Work with MongoDB and MySQL (schema design, indexing, query\n   optimization)\n Implement authentication &amp; authorization using JWT , RBAC , Oauth\n Integrate third-party APIs, Webhooks\n Build real-time features using Socket.io / WebSockets\n Ensure performance, scalability, and security (validation, sanitization)\n Implement caching using Redis (if applicable) and optimize API response\n    times\n Support API testing (Postman/Supertest)\n Maintain API documentation using Swagger / OpenAPI\n Debug and resolve defects, handle RCA, and support production\n    troubleshooting using logs/monitoring\n Follow Git-based workflows, participate in code reviews, and collaborate with\n   QA/product teams in Agile delivery\n\nMandatory Skills\n React.js, Node.js, JavaScript (ES6+)\n MongoDB (must), MySQL\n\n REST API development &amp; integration\n Socket.io / WebSockets, Webhooks\n HTML5, CSS3\n Git\n TypeScript, Express.js / NestJS\n jQuery / AJAX (basic / legacy support)\n\nGood to Have\n Redis, Swagger/OpenAPI\n Docker, CI/CD (GitHub Actions/Jenkins)\n Cloud exposure (AWS/Azure/GCP)\n\nQualification\nBE / BTech / MCA / MSc IT / BSc IT with 0.6 - 1 year relevant experience.\n\nCTC: As per Industry std Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "40fb74c8a7d8785554f176947105db6b",
+      "source": "wellfound",
+      "company": "AXS Solutions and Consulting",
+      "role": "Junior Software Developer - AI/ML",
+      "url": "https://wellfound.com/jobs/4018706-junior-software-developer-ai-ml",
+      "jd_text": "Name of the Position: Junior Software Developer (AI / ML)\n\nAI (our general term for data science, machine learning, and deep learning) is one of the most exciting technologies of the decade. This role is your opportunity to build and deploy new AI products and projects from the ground up.\n\nYou will be part of a team helping chart our AI strategy and define the problems we are solving with AI. You will help build our AI development and production infrastructure and set our technical standards. To succeed you must become an expert in building AI models and putting them into production.\n\nResponsibilities:\nSet up and manage our AI development and production infrastructure.\n\nBuild data ingest and data transformation infrastructure.\n\nIdentify transfer learning opportunities and new training datasets.\n\nBuild AI models from scratch and help stakeholders understand results.\n\nDeploy AI models into production.\n\nCreate APIs and help business customers put results of your AI models into operations.\n\nKeep the latest AI research relevant to our business domain.\n\nSkills &amp; experience:\nDemonstrated proficiency in multiple programming languages with a strong foundation in statistical platforms such as Python, R, SAS, or MatLab.\n\nExperience building AI models in platforms such as Keras, TensorFlow, LLM, API Creations, Generative AI, Langchain, Hugging Face,My Sql, Mongo db.\n\nDemonstrated commitment to learning about AI through your own initiatives, such as courses, books, or side projects.\n\nExperience: 1 - 2 yrs\n\nLocation: Chembur West\n\nRequirement: Immediate Joining OR 1 Month Chembur\nlocationNames: Chembur",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T07:15:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a48caf0a0466158aaf06a73f846986a2",
+      "source": "yc",
+      "company": "VectorShift",
+      "role": "Chief of Staff",
+      "url": "https://www.workatastartup.com/jobs/110616",
+      "jd_text": "VectorShift is the AI operating system for private market investors. We give private equity firms intelligence that compounds across every deal: VDR analysis, IC memos, portfolio monitoring, and LP reporting, with every figure and finding traced back to the exact document and page. Diligence findings, IC decisions, and realized outcomes become the firm's living record, so cross-deal patterns surface at underwriting and associates learn faster because the firm's playbook is alongside them on every deal.\n\nWe're trusted by enterprises and portfolio companies managing billions in AUM.  \n\nAbout the role\n\nWe're looking for a Chief of Staff to work directly with the founders and drive the company's highest-priority initiatives.\n\nWhat you'll do\n\nYou'll partner with the CEO to own whatever matters most in a given week:\n\n* Prospect key accounts and build relationships with partners and decision-makers at private equity firms\n* Drive enterprise pilots through to adoption and conversion\n* Run day-to-day operations and admin\n* Stand up cross-functional initiatives to drive growth and tighten internal operations\n* Support hiring, from sourcing through closing candidates\n\nThis is a rare chance to see every part of a startup up close, spanning enterprise sales, customer success, hiring, marketing, and operations, while working with some of the most sophisticated investors in private markets.\n\nWhat we're looking for\n\n* Comfortable in a technical and financial environment. We build AI infrastructure for investment teams. You don't need an engineering or finance background, but you do need to hold your own in conversations with both engineers and PE professionals and quickly understand the problems they're solving.\n* Highly organized and independent. You might be reviewing an enterprise contract one hour and building a marketing process the next. We want someone who can build whatever structure they need to keep things moving and make sure nothing slips.\n* A true generalist. You'll take on whatever needs to get done for the company to grow. If you're only interested in one kind of work, this role isn't for you.\n* Proactive and solution-focused. There's no shortage of ways to grow. We want someone who seeks those opportunities out and drives them to real impact without being asked.\n\nInterview process\n\n1. Intro call (30 min). A quick conversation to get to know each other.\n2. Case study (60 min). We'll work through a hypothetical scenario together. New York, NY, US fulltime yes\nlocations: New York, NY, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T22:44:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "624ae8a00bd111e131a84419e38c9ccb",
+      "source": "yc",
+      "company": "Corgi Insurance",
+      "role": "Project Manager (Operations Team)",
+      "url": "https://www.workatastartup.com/jobs/110610",
+      "jd_text": "**About Corgi**\n\nCorgi is vertically integrating the entire insurance industry. We design, underwrite, price, and issue insurance directly: no brokers, no third-party administrators. Insurance is the largest unautomated industry in financial services, and we're rebuilding it from the ground up using AI. We've raised $350M+ from Kindred, TCV, and others to do so.\n\nBuilding something great requires working hard. We are in the office 7 days a week. We are meritocratic with very high standards. If you don't meet them, you'll get cut. But if you deliver, you have unlimited scope to grow.\n\n**About the Role**\n\nWe're hiring a Project Manager for the Operations Team to own delivery across the systems and workflows our ops and engineering teams ship.\n\nInsurance is an operations problem. Quoting, underwriting, binding, claims, renewals: every one of those still has people moving work between systems. Your job is to make that work get done: prioritize the backlog, drive execution with engineers and ops, keep stakeholders aligned, and turn messy process into shipped product. You'll work closely with the Software Engineers on the Operations Team and with underwriting, claims, and policy admin.\n\nThis role is based in our London office.\n\n**What You'll Do**\n\n* Own the Operations Team delivery cadence from day one.\n* Turn ops pain into clear specs, priorities, and shipped outcomes.\n* Drive cross-functional work between engineering, underwriting, claims, and policy admin.\n* Track progress, unblock people, and keep quality high without slowing the team down.\n* Use AI tooling to move faster than a team our size should be able to.\n\n**Who You Are**\n\n* Strong project / program management fundamentals.\n* High ownership and relentless execution. You get things done.\n* Product and business intuition.\n* You can look at a messy process or a half-built workflow and tell what's wrong, then drive the fix.\n\n**Preferred Qualifications**\n\n* 2+ years of project management, program management, or ops-heavy product delivery.\n* Comfortable working with engineers and technical systems (schema, APIs, UI, deployments) even if you aren't writing the code.\n* Experience with TypeScript/Python/React stacks is helpful for communication, not required to code in them.\n* Very fluent with AI tooling.\n* Experience in fintech, insurance, or workflow automation is helpful but not required.\n\n**About the interview**\n\n* Step 1: 15-minute intro call with the hiring manager.\n* Step 2: Take-home task.\n* Step 3: 48-hour in-person work trial in our London office. London, England, GB fulltime none\nlocations: London, England, GB\nremote: no\nmin_experience: 1",
+      "match_score": 6.14,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T22:44:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.36,
+            "overlap": 7.95,
+            "combined": 6.13
+          },
+          "backend": {
+            "cosine": 3.92,
+            "overlap": 7.52,
+            "combined": 5.0
+          },
+          "frontend": {
+            "cosine": 3.0,
+            "overlap": 8.74,
+            "combined": 4.72
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.36,
+        "keyword_overlap_score": 7.95,
+        "final_score": 6.14,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.2254
+          },
+          {
+            "term": "ai",
+            "weight": 0.0912
+          },
+          {
+            "term": "delivery",
+            "weight": 0.0912
+          },
+          {
+            "term": "high",
+            "weight": 0.0912
+          },
+          {
+            "term": "manager",
+            "weight": 0.0912
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a9087d420e0d8c4750e1a2d685686698",
+      "source": "wellfound",
+      "company": "Auroscale",
+      "role": "Full Stack Engineer Intern",
+      "url": "https://wellfound.com/jobs/4688521-full-stack-engineer-intern",
+      "jd_text": "**About the Role**\n\nWe are looking for a Full-Stack Engineer Intern to assist in building and improving our AI Agent-led workflow automation and integration platform. You will work on both frontend and backend components, contributing to real product features including connectors, workflows, and AI-driven automations.\n\nFollow for more details: https://www.linkedin.com/company/langslide\n\n* **Key Responsibilities**\n*  Assist in developing frontend features using React and TypeScript\n*  Support backend development for APIs, workflows, and integrations\n*  Work on basic connectors and API integrations with third-party platforms\n*  Help implement and test workflow automation logic\n*  Assist in integrating AI Agent features, such as:\n*  Trigger-based actions\n*  Simple decision flows\n*  Data handling between systems\n*  Debug issues, fix bugs, and improve performance\n*  Write clean, maintainable, and well-documented code\n*  Collaborate with engineers, product, and QA teams\n\n**Required Skills &amp; Qualifications**\n*  B.Tech. / BE / B.Sc. / BCA / MCA in Computer Science or IT from a reputed institution\n*  Basic understanding of JavaScript and TypeScript\n*  Familiarity with React.js fundamentals (components, state, props)\n*  Basic knowledge of APIs and HTTP requests\n*  Understanding of Git/version control\n*  Strong problem-solving mindset and willingness to learn\n\n**Good to Have**\n* Exposure to Node.js or backend development basics\n* Familiarity with JSON, REST APIs, and webhooks\n* Awareness of SaaS tools and integrations\n* Interest in AI, LLMs, and automation platforms\n\n**What You’ll Gain**\n* Hands-on experience building full-stack features in a real product\n* Exposure to AI-powered automation and integration systems\n* Understanding of end-to-end product development lifecycle\n* Mentorship and opportunity for full-time conversion Delhi\nlocationNames: Delhi\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T21:09:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d0dca84070c6ae712fbe631421422886",
+      "source": "wellfound",
+      "company": "Neural Niti",
+      "role": "Full Stack Software Engineer",
+      "url": "https://wellfound.com/jobs/4322020-full-stack-software-engineer",
+      "jd_text": "### Full Stack Software Engineer### \n\n**About the job**\n\nNeuralniti’s core infrastructure team builds the scalable, fault-tolerant systems required to integrate artificial intelligence into highly regulated clinical and enterprise environments. We are responsible for the foundational architecture that bridges probabilistic machine learning models with deterministic, mission-critical applications. Our work directly impacts how healthcare, financial, and industrial organizations deploy AI securely and reliably.\n\nAs a Staff Full-Stack Engineer, you are the technical anchor of our product suite. You own the complete lifecycle of our applications. You will navigate deep technical ambiguity to design systems that span from complex relational databases and intensive ML orchestration, all the way to highly optimized, concurrent frontend interfaces. You will be expected to resolve systemic bottlenecks, define strict API boundaries, and ensure seamless, type-safe data flow across the entire stack. In this role, you will not only ship critical infrastructure but also elevate the engineering culture by mentoring engineers and setting the standard for full-stack technical excellence.\n\n**Responsibilities**\n\n* Lead the end-to-end design, implementation, and deployment of highly scalable, secure full-stack web applications for enterprise and clinical environments.\n* Architect resilient backend services (Node.js, Python) to handle complex data orchestration, business logic, and foundation model integrations.\n* Drive frontend technical direction (React, Next.js, TypeScript), optimizing for complex state management, rendering performance, and high-fidelity user experiences under heavy data loads.\n* Design and scale relational databases (PostgreSQL/pgvector), owning schema evolution, query optimization, and data access patterns under high concurrency.\n* Establish and enforce strict, type-safe API contracts (REST, GraphQL, or tRPC) to guarantee seamless, low-latency data hydration between client interfaces and distributed backend services.\n* Provide technical leadership and mentorship to engineers, driving engineering best practices through design documents, code reviews, and architectural guidance.\n* Identify, measure, and resolve systemic architectural debt, frontend rendering bottlenecks, and backend latency issues across the full stack.\n\n**Minimum qualifications:**\n\n* Bachelor’s degree in Computer Science, a related technical field, or equivalent practical experience.\n* 3+ years of experience with software development in one or more programming languages (e.g., TypeScript, Python, Java, C++).\n* Deep, hands-on experience architecting, building, and maintaining large-scale distributed systems and full-stack web applications.\n* Expertise across both modern frontend frameworks (e.g., React, Next.js) and backend ecosystems (e.g., Node.js, Python).\n* Experience in a technical leadership role, leading project teams and setting full-stack technical direction.\n\n**Preferred qualifications:**\n\n* Experience building full-stack applications that integrate machine learning models, multimodal AI architectures, or LLMs into production environments.\n* Demonstrated experience architecting secure, zero-trust systems for highly regulated workflows (e.g., clinical decision-support systems, HIPAA-compliant pipelines, high-frequency financial platforms).\n* Advanced expertise in relational database internals, transaction isolation, and complex query execution planning.\n* Excellent communication skills, with a track record of authoring comprehensive technical design documents and aligning cross-functional teams.\n\n**To Apply**\n\n*Please submit your resume alongside a technical artifact (such as a full-stack system design document you authored, a major open-source contribution, or a deep-dive post-mortem of a complex full-stack engineering problem you solved end-to-end) to hr@neuralniti.com and aadityajain@neuralniti.com.* Faridabad\nlocationNames: Faridabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T21:09:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1a5b1a4a24573bd312b1d9937e91d9fb",
+      "source": "wellfound",
+      "company": "Langslide",
+      "role": "GTM & Sales Engineer (Outbound + Inbound Growth)",
+      "url": "https://wellfound.com/jobs/4102024-gtm-sales-engineer-outbound-inbound-growth",
+      "jd_text": "**About the Role**\n\nWe are hiring a GTM Engineer to design, build, and scale our outbound and inbound growth engine. This is a hybrid role combining growth marketing, automation, and lightweight engineering, focused on generating qualified leads through outbound channels (email, LinkedIn, calls) and building scalable inbound pipelines via SEO, content automation, and landing pages. You will work closely with product and sales to create a high-performing, data-driven growth system.\n\nFollow for more details: https://www.linkedin.com/company/langslide\n\n**Key Responsibilities**\n\n*Outbound Growth (Lead Generation Engine)*\n1. Build and scale cold email and LinkedIn outbound campaigns\n2. Set up and manage multi-step sequences (email, LinkedIn, calls)\n3. Source and enrich lead data using tools and APIs\n4. Optimize messaging, targeting, and deliverability\n5. Track campaign performance and iterate based on conversion metrics\n\n*Inbound Growth (Automated Funnel Creation)*\n1. Build and manage SEO-driven content pipelines\n2. Create and optimize landing pages for campaigns and use cases\n3. Develop automated content workflows (blogs, social, lead magnets)\n4. Implement conversion funnels (visitor → lead → qualified opportunity)\n5. Work on programmatic SEO and AI-assisted content generation\n\n*Growth Infrastructure &amp; Automation*\n1.  Set up and manage CRM and lead management systems\n2.  Build automations and workflows for lead capture, scoring, and routing\n3.  Integrate tools across the stack (CRM, email, analytics, enrichment tools)\n4.  Use APIs/webhooks to streamline data flow between systems\n5.  Maintain clean data pipelines and reporting dashboards\n\n**Required Skills &amp; Qualifications**\n* Hands-on experience with outbound tools (cold email platforms, LinkedIn outreach)\n* Understanding of SEO fundamentals and content marketing\n* Experience with CRM tools (e.g., HubSpot or similar)\n* Familiarity with no-code/low-code automation tools or workflows\n* Strong analytical mindset with focus on conversion metrics and funnel optimization\n* Basic technical understanding of APIs, webhooks, and data flows\n\n**Good to Have**\n* Experience with AI tools for content generation and personalization\n* Familiarity with programmatic SEO and growth hacking techniques\n* Basic knowledge of HTML/CSS or landing page builders\n* Experience with data enrichment tools and scraping workflows\n* Exposure to B2B SaaS growth strategies\n\n**What You’ll Gain**\n* Ownership of the end-to-end growth engine (outbound + inbound)\n* Work at the intersection of AI, automation, and growth\n* Opportunity to build scalable acquisition systems from scratch\n* High-impact role with direct influence on revenue India\nlocationNames: India\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T21:09:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a39642bf984317cbe3595ba96c28eaae",
+      "source": "wellfound",
+      "company": "Redule Ai",
+      "role": "AI Engineer",
+      "url": "https://wellfound.com/jobs/4722367-ai-engineer",
+      "jd_text": "**Job Summary**\nWe are seeking a talented and innovative AI Engineer to join our growing engineering team. In this role, you will bridge the gap between AI research and practical software products. You will be responsible for implementing, optimizing, and deploying AI models—specifically Large Language Models (LLMs) and predictive algorithms—into our core product infrastructure to automate processes and deliver intelligent user experiences.\n\n**Key Responsibilities**\nModel Integration &amp; Software Development\nBuild and deploy production-ready AI applications and workflows using APIs and microservices.Utilize pre-trained foundation models (e.g., OpenAI GPT, Anthropic Claude, Google Gemini, Meta Llama) to develop features like chatbots and automation tools.Design RAG pipelines and semantic search systems to query proprietary datasets securely.Write clean, scalable code in Python, Java, or C++ to embed AI functionality into existing software infrastructure.\n\n**Data Engineering &amp; Infrastructure**\nDevelop data pipelines for data ingestion, transformation, and feature engineering.\nManage vector databases (e.g., Pinecone, Milvus, Chroma) and optimize embedding models.\nDeploy AI systems to cloud platforms using tools like AWS SageMaker or Google Cloud Vertex AI.\n\n**Optimization &amp; Collaboration**\nApply prompt engineering techniques and in-context learning to maximize model efficiency.Fine-tune models and monitor performance, latency, and costs in production.Partner with cross-functional teams, including Data Scientists, Product Managers, and frontend engineers, to align AI solutions with business goals.\n\n**Required Skills &amp; Qualifications**\nTechnical CompetenciesProgramming Languages: Mastery of Python is required; experience with Java, C++, or R is a plus.AI Orchestration Frameworks: Deep experience with LangChain, LangGraph, or LlamaIndex.Machine Learning Libraries: Familiarity with PyTorch, TensorFlow, Keras, or Hugging Face Transformers.Core Concepts: Strong understanding of transformer architectures, attention mechanisms, and tokenization.Mathematics: Practical knowledge of linear algebra, calculus, probability, and statistics.\n\n**Soft Skills &amp; Professional** \nAttributesProblem-solving: Ability to creatively troubleshoot unpredictable model behaviors or \"hallucinations\".\nCommunication: Capacity to explain complex technical AI behaviors to non-technical stakeholders and executives.\nAdaptability: A proactive mindset geared toward keeping up with weekly advancements in the open-source and frontier AI spaces.\n\n**Education &amp; Experience Requirements**\nDegree: Bachelor's degree in Computer Science, Data Science, AI, Mathematics, or a highly technical related field (Master's or Ph.D. preferred for research-heavy roles).\nExperience: 2–5+ years of software engineering experience, with at least 1–2 years explicitly focused on building and shipping AI-powered features or machine learning workflows. Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 10.95,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience includes running open-weight LLMs locally, validating their tool-calling reliability, and building RAG pipelines, directly supporting Redule Ai's goal of integrating LLMs to automate processes. As a FullStack Engineer, I've consistently delivered production-ready systems, from owning end-to-end deployments with blue-green releases to cutting API fetch latency by 98% using Redis caching and diagnosing concurrency risks with RabbitMQ.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.96,
+            "overlap": 13.25,
+            "combined": 10.94
+          },
+          "backend": {
+            "cosine": 9.65,
+            "overlap": 13.16,
+            "combined": 10.7
+          },
+          "frontend": {
+            "cosine": 6.24,
+            "overlap": 15.05,
+            "combined": 8.88
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.96,
+        "keyword_overlap_score": 13.25,
+        "final_score": 10.95,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.4102
+          },
+          {
+            "term": "data",
+            "weight": 0.1198
+          },
+          {
+            "term": "experience",
+            "weight": 0.1198
+          },
+          {
+            "term": "technical",
+            "weight": 0.0958
+          },
+          {
+            "term": "model",
+            "weight": 0.0879
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-17T14:49:12+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "eb76799db3cf6f7b93a5fd517ada219c",
+      "source": "wellfound",
+      "company": "Decentro",
+      "role": "Senior Software Development Engineer",
+      "url": "https://wellfound.com/jobs/3128883-senior-software-development-engineer",
+      "jd_text": "**About Decentro**\n\nDecentro is a Y-Combinator backed banking &amp; payments infrastructure company. Decentro provides building blocks that help companies stitch their fintech workflows in a few weeks. While starting our first fintech venture back in 2014, we spent years convincing banks to partner with us. Before we could launch our fintech product (more here), we had to convince different departments within banks - including technology, business, leadership, legal, and support to get the green signal. Fast forward to today, we realise that banks &amp; regulatory institutions find it difficult to help the longer tail of companies build innovative &amp; compliant fintech solutions.\n\nWhat if there was a platform (think AWS for cloud or Twilio for messaging) that abstracts the complexities of banking, identity, payments, lending, and provides simple APIs so that companies do not have to spend years dealing with banks?\n\nWe’re solving this pain point at Decentro since 2020. We’ve scaled to process $4 billion + in payment volumes &amp; have 1400+ customers across India &amp; Singapore in multiple verticals such as marketplaces, banks, regulated institutions, fintechs, lenders, gaming, and more.\n\n**What is expected from you -**\n\n* Design and Development: Lead the design and development of new banking API modules from scratch, ensuring robust, secure, and scalable solutions.\n* Hands-on Implementation: Build and implement financial APIs and integrations to ensure seamless communication with external and internal services.\n* Database Design: Collaborate on the design and integration of new and existing databases, ensuring optimal performance and maintainability.\n* Performance and Scalability: Architect and optimize the entire stack for maximum speed and scalability.\n* Security: Design and build REST APIs with a focus on high-level security, ensuring encryption and other best-in-class security mechanisms are in place.\n* CI/CD Pipelines: Work closely with team members to design and implement continuous integration and deployment pipelines to enhance development workflows and speed up releases.\n\n**What We're Looking For:**\n\n* Python Expertise: At least 3+ years of experience in Python development, with a strong understanding of Python 3 and the latest best practices.\n* Team Player: High-energy individual who is eager to learn, collaborate, and adapt in a fast-paced environment.\n* Database Proficiency: 3+ years of experience in database design and management, staying current with the latest versions and practices.\n* Framework Knowledge: Familiarity with relevant back-end frameworks, such as Flask, Django or any other python web framework, and ability to apply them to real-world projects.\n* Product Vision: Solid understanding of product strategy and user experience to ensure that technical decisions align with business goals.\n* Testing Experience: Hands-on experience with implementing code-level unit tests to maintain code quality and reliability.\n* Version Control: Proficiency with Git or other version control systems, ensuring smooth collaboration and code management.\n* Code Quality: Strong appreciation for clean, well-structured, and well-documented code.\n\n**What we offer -**\n\n* The ability for you to make an impact and lay a foundation for the upcoming fin-tech innovations across the globe.\n* A multicultural and diverse team of colleagues from different regions that speak on average 3 global languages.\n* Progressive and flexible work hours that match your personality and lifestyle.\n* Backed by global investors such as Ycombinator &amp; Rapyd, we're a contrarian and progressive culture of independent thinkers and systematic executors that are driven to build cool things that matter.\n\nIf this aligns with you, time to hop on!\n\n*We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, colour, religion, sex, disability status, or any other characteristic protected by the law.* Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 9.07,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.99,
+            "overlap": 13.91,
+            "combined": 9.07
+          },
+          "backend": {
+            "cosine": 6.46,
+            "overlap": 13.91,
+            "combined": 8.7
+          },
+          "frontend": {
+            "cosine": 5.77,
+            "overlap": 16.02,
+            "combined": 8.84
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.99,
+        "keyword_overlap_score": 13.91,
+        "final_score": 9.07,
+        "top_keywords": [
+          {
+            "term": "code",
+            "weight": 0.1074
+          },
+          {
+            "term": "experience",
+            "weight": 0.1074
+          },
+          {
+            "term": "ensuring",
+            "weight": 0.105
+          },
+          {
+            "term": "team",
+            "weight": 0.0973
+          },
+          {
+            "term": "python",
+            "weight": 0.0859
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "4e3b3c5a11b98ab5447fe9507eaad287",
+      "source": "wellfound",
+      "company": "Decentro",
+      "role": "Site Reliability Engineer",
+      "url": "https://wellfound.com/jobs/4351308-site-reliability-engineer",
+      "jd_text": "**About Decentro**\n\nDecentro is a Y-Combinator backed banking &amp; payments infrastructure company. Decentro provides building blocks that help companies stitch their fintech workflows in a few weeks. While starting our first fintech venture back in 2014, we spent years convincing banks to partner with us. Before we could launch our fintech product (more here), we had to convince different departments within banks - including technology, business, leadership, legal, and support to get the green signal. Fast forward to today, we realise that banks &amp; regulatory institutions find it difficult to help the longer tail of companies build innovative &amp; compliant fintech solutions.\n\nWhat if there was a platform (think AWS for cloud or Twilio for messaging) that abstracts the complexities of banking, identity, payments, lending, and provides simple APIs so that companies do not have to spend years dealing with banks?\n\nWe’re solving this pain point at Decentro since 2020. We’ve scaled to process $4 billion + in payment volumes &amp; have 1400+ customers across India &amp; Singapore in multiple verticals such as marketplaces, banks, regulated institutions, fintechs, lenders, gaming, and more.\n\n**About the role**\n\nWe are looking for a highly motivated and experienced Site Reliability Engineer to join our engineering team. This role will focus on improving the reliability, visibility and operational excellence of our production systems. You will work closely with the SRE and engineering teams to build comprehensive observability and SLO coverage across our products and infrastructure.\n\n**What is expected from you -**\n\n1. Operate, stabilise and continuously improve our production observability stack, with hands-on experience in Prometheus, Grafana and related monitoring systems.\n\n2. Implement and maintain SLIs, SLOs, error budgets, recording rules, dashboards and burn-rate alerts for critical user journeys and services.\n\n3. Drive OpenTelemetry adoption across product teams, including service instrumentation, telemetry pipelines and correlation across metrics, logs and traces.\n\n4. Operate and troubleshoot observability workloads on Kubernetes, including stateful, multi-node and highly available production workloads.\n\n5. Own PromQL and Prometheus-based monitoring, including query optimisation, recording rules, metric types, histograms and identifying high-cardinality issues.\n\n6. Own alert quality and incident response, improving alerting, routing and escalation while reducing noisy and non-actionable alerts.\n\n7. Manage and optimise the AWS telemetry surface across CloudWatch, ALB, WAF, VPC Flow Logs and ECS, including multiple accounts and regions.\n\n8. Build automation and tooling using Python, including custom exporters, log-processing Lambdas, SLI computation jobs and other data-processing workflows.\n\n9. Improve telemetry efficiency and cost through cardinality management, retention, sampling and data-volume optimisation, while ensuring appropriate security and compliance for sensitive data.\n\n10. Work closely with engineering and SRE teams to audit and improve observability coverage across services and infrastructure, contribute to the migration towards a highly available LGTM stack (Loki, Grafana, Tempo and Mimir) with Prometheus on Kubernetes, and continuously improve production reliability based on operational feedback.\n\n**What we are looking for -**\n\n1. 3+ years of hands-on experience in SRE, Observability, Production Engineering or Reliability Engineering, with 4-5 years of total engineering experience.\n\n2. Strong production experience with Prometheus and Grafana, including PromQL, recording rules, dashboards, alerting and troubleshooting monitoring issues.\n\n3. Hands-on experience operating observability workloads on Kubernetes, including stateful, multi-node and highly available production environments.\n\n4. Practical experience with OpenTelemetry, including SDKs, collectors, service instrumentation and telemetry pipelines across metrics, logs and traces.\n\n5. Proven experience implementing SLIs, SLOs, error budgets and burn-rate based alerting for production systems.\n\n6. Strong understanding of observability best practices, including alert quality, incident management, cardinality management, retention, sampling and telemetry cost optimisation.\n\n7. Hands-on experience with AWS observability and monitoring, particularly CloudWatch, ALB, WAF, VPC Flow Logs and ECS, preferably across multiple accounts and regions.\n\n8. Strong Python scripting and automation skills, with experience building exporters, pipelines, Lambda functions or data-processing workflows.\n\n9. Experience with Terraform and Helm, along with exposure to LGTM components, continuous profiling (Pyroscope), eBPF-based observability (Beyla/Alloy), SQL and analytical stores (Athena, Doris, Iceberg), frontend/RUM observability, or load/chaos testing is a strong plus.\n\n10. Experience with live system/platform migrations, observability checks integrated into CI/CD (Jenkins), and Payments / Fintech / Banking is a plus. Strong problem-solving, ownership and communication skills, with the ability to collaborate effectively with engineering teams, are essential.\n\n\n**Why join Decentro**\n\nYou will work on high-scale payment infrastructure, solve real production reliability challenges, and contribute to systems that power critical financial workflows. This is an opportunity to build strong platform and reliability depth while working with a fast-moving team in one of the most interesting segments of fintech.\n\n**What We Offer**\n\nThe ability for you to make an impact and lay a foundation for the upcoming fin-tech innovations.\nA multicultural and diverse team of colleagues from different states that speak in total of 6 Indian and global languages.\nProgressive and flexible work hours that match your personality and lifestyle.\n\nThe best-in-class perks and benefits for the team. Check out our careers page for the same: https://decentro.tech/careers/https://decentro.tech/careers/\n\nBacked by global investors such as Ycombinator &amp; Rapyd, we're a contrarian and progressive culture of independent thinkers and systematic executors that are driven to build cool things that matter.\n\nIf this aligns with you, time to hop on!\n\nWe are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, colour, religion, sex, disability status, or any other characteristic protected by law. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 9.72,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.08,
+            "overlap": 15.89,
+            "combined": 9.72
+          },
+          "backend": {
+            "cosine": 6.38,
+            "overlap": 15.41,
+            "combined": 9.09
+          },
+          "frontend": {
+            "cosine": 6.29,
+            "overlap": 17.48,
+            "combined": 9.65
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.08,
+        "keyword_overlap_score": 15.89,
+        "final_score": 9.72,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1525
+          },
+          {
+            "term": "production",
+            "weight": 0.1248
+          },
+          {
+            "term": "reliability",
+            "weight": 0.1187
+          },
+          {
+            "term": "team",
+            "weight": 0.0838
+          },
+          {
+            "term": "based",
+            "weight": 0.0678
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "32bf4caaff4fa909d9b9db118f29791f",
+      "source": "wellfound",
+      "company": "Purple Block",
+      "role": "Tech Lead",
+      "url": "https://wellfound.com/jobs/4716161-tech-lead",
+      "jd_text": "Work Mode: Work From Office (6 days/week)\n\nLocation- Bangalore/HSR Layout\n\nWork Experience-2-5 years\n\nCompensation- 15lpa-22lpa\n\nJob Overview We are seeking a highly skilled Tech Lead with strong expertise in both frontend and backend development, with a primary focus on backend architecture and development. The ideal candidate will have hands-on experience building scalable applications, leading technical initiatives, mentoring developers, and driving best engineering practices.\n\nKey Responsibilities\n\n* Design, develop, and maintain scalable backend services and APIs.\n* Lead the technical design and architecture of web applications.\n* Collaborate with product managers, designers, and engineering teams to deliver high-quality solutions.\n* Develop and maintain frontend components and user-facing features when required.\n* Review code, enforce coding standards, and ensure overall code quality.\n* Optimize application performance, scalability, and security.\n* Troubleshoot complex technical issues and provide effective solutions.\n* Mentor junior developers and contribute to team growth.\n* Participate in sprint planning, estimation, and technical discussions.\n* Ensure timely delivery of projects and technical deliverables.\n\nRequired Skills\n\nBackend (Primary Focus)\n* Strong experience with Node.js, Express.js, NestJS, Python, Django, Java Spring Boot, or similar backend frameworks\n* Expertise in designing and developing REST APIs and Microservices\n* Strong knowledge of SQL and NoSQL databases (PostgreSQL, MySQL, MongoDB, etc.)\n* Experience with authentication, authorization, and security best practices\n* Understanding of system design, scalability, and performance optimization\n* Frontend\n* Experience with React.js, Angular, or Vue.js\n* Strong understanding of JavaScript/TypeScript, HTML5, and CSS3\n* Experience integrating frontend applications with backend services\n\nAdditional Skills\n* Experience with AWS, Azure, or Google Cloud Platform\n* Familiarity with Docker, Kubernetes, and CI/CD pipelines\n* Knowledge of Git and Agile development methodologies\n* Strong problem-solving and leadership skills\n* Excellent communication and stakeholder management abilities\n\nQualifications\n* Bachelor's degree in Computer Science, Information Technology, or a related field.\n* 2–6 years of full-stack development experience with significant backend expertise.\n* Prior experience leading projects, mentoring developers, or owning technical deliverables is preferred.\n\nWhat We Offer\nCompetitive compensation of ₹15 – ₹20 LPA\nOpportunity to lead impactful projects and influence technical decisions\nCollaborative and innovation-driven work environment\nCareer growth and leadership opportunities\n\nJob Type: Full-time Bangalore Urban HSR Layout\nlocationNames: Bangalore Urban HSR Layout",
+      "match_score": 15.63,
+      "resume_variant": "frontend",
+      "draft_answer": "I've repeatedly owned backend initiatives, like optimizing reporting APIs with Redis caching to cut latency by 98% and driving the migration to Azure Blob Storage to halve data load times, directly impacting user experience and platform scalability. My experience building full-stack applications with React, Node.js, and Azure, including scoping requirements and leading client UAT for an occupational hygiene portal, aligns well with the Tech Lead role's focus on technical design, development, and mentoring.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.74,
+            "overlap": 16.89,
+            "combined": 13.99
+          },
+          "backend": {
+            "cosine": 13.27,
+            "overlap": 16.54,
+            "combined": 14.25
+          },
+          "frontend": {
+            "cosine": 13.8,
+            "overlap": 19.9,
+            "combined": 15.63
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 13.8,
+        "keyword_overlap_score": 19.9,
+        "final_score": 15.63,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2319
+          },
+          {
+            "term": "backend",
+            "weight": 0.1804
+          },
+          {
+            "term": "technical",
+            "weight": 0.1804
+          },
+          {
+            "term": "frontend",
+            "weight": 0.1261
+          },
+          {
+            "term": "js",
+            "weight": 0.1031
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-17T14:48:31+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f60f7a24346e179b31df7b23e67cf93c",
+      "source": "wellfound",
+      "company": "Gunpowder Innovations",
+      "role": "AI Engineer",
+      "url": "https://wellfound.com/jobs/4718739-ai-engineer",
+      "jd_text": "About the role\n\nWe’re building AI systems for clients who need more than a chatbot bolted onto an API. This role is for someone who can go deep: fine-tuning models, deploying open-source LLMs, building agentic systems, and designing the infrastructure that makes AI products actually work in production.\n\nKey Responsibilities\n\nDesign and own the architecture for AI-powered features across client projects, from model selection through to production deployment\nBuild agentic systems: tool use, multi-step reasoning, orchestration frameworks, and the harnesses that let models act reliably in real environments\nWork hands-on with open-source models, including fine-tuning, quantisation, evaluation, and self-hosting where it makes sense\nBuild the infrastructure around AI systems: retrieval pipelines, vector stores, inference optimisation, monitoring and evals\nMake the call on when to use a foundation model API versus when to fine-tune or self-host, and be able to justify it\nCollaborate directly with clients to translate ambiguous problems into working AI systems\nStay ahead of the open-source and agentic tooling ecosystem so Gunpowder’s clients get informed, current recommendations, not last year’s stack\n\nRequirements\n\nReal experience building agentic systems, fine tuning models and opensource work, not just prompting a hosted API\nHands-on experience building agentic workflows: designing harnesses, tool-calling logic, and evaluation loops for agents that operate with real autonomy\nStrong grasp of the open-source LLM landscape: tools, frameworks, trade-offs, licensing\nComfortable owning technical decisions end-to-end, from architecture to deployment\nPractical engineering skills: Python, ML infra (Docker, cloud deployment, vector DBs), and the judgement to know what’s overkill and what isn’t\nA builder’s instinct: you’d rather ship something real than write another slide about AI strategy Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 9.84,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.8,
+            "overlap": 12.25,
+            "combined": 9.84
+          },
+          "backend": {
+            "cosine": 8.5,
+            "overlap": 12.41,
+            "combined": 9.67
+          },
+          "frontend": {
+            "cosine": 6.11,
+            "overlap": 14.08,
+            "combined": 8.5
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.8,
+        "keyword_overlap_score": 12.25,
+        "final_score": 9.84,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2421
+          },
+          {
+            "term": "open",
+            "weight": 0.1384
+          },
+          {
+            "term": "real",
+            "weight": 0.1131
+          },
+          {
+            "term": "api",
+            "weight": 0.0848
+          },
+          {
+            "term": "deployment",
+            "weight": 0.0848
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a0c17e61e770d90389f808d780bb01b3",
+      "source": "wellfound",
+      "company": "SarkariSage",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4722366-software-engineer",
+      "jd_text": "SarkariSage is building a personalized platform that helps aspirants discover government examinations and job opportunities that match their education, qualifications, skills, experience, and profile.\n\nInstead of manually searching through multiple government job and examination notifications and checking eligibility for every opportunity, users can create their profile on SarkariSage and receive relevant opportunities and timely notifications based on their individual profile.\n\nWe are looking for a **Software Engineer** to join our early-stage team and help us build, improve, and scale the SarkariSage platform.\n\nThis role is open to candidates across experience levels, including **freshers, recent graduates, interns transitioning to full-time roles, and experienced software engineers**.\n\nYou will work closely with the founding team and contribute to building real product features across the frontend, backend, APIs, databases, and notification systems.\n\n### Responsibilities\n\n* Build and improve features for the SarkariSage web application.\n* Develop clean and user-friendly frontend experiences.\n* Build and maintain backend APIs and application functionality.\n* Work with databases to store and manage user profiles, examination data, and job information.\n* Contribute to the profile-to-opportunity matching system.\n* Build and improve notification systems for relevant government examinations and opportunities.\n* Integrate APIs and third-party services.\n* Debug issues and improve application reliability and performance.\n* Write clean, maintainable, and well-structured code.\n* Test new features and help maintain product quality.\n* Collaborate with the founding team to turn product ideas into working features.\n* Learn and work with new technologies as the product evolves.\n\n### What we're looking for\n\n* Strong fundamentals in programming and software development.\n* Familiarity with web development and modern development practices.\n* Knowledge of JavaScript/TypeScript, React, Next.js, Node.js, Python, or similar technologies is a plus.\n* Basic understanding of databases, APIs, and application architecture.\n* Familiarity with Git/GitHub is a plus.\n* Good problem-solving and logical-thinking skills.\n* Ability to learn quickly and work independently.\n* Good communication and collaboration skills.\n* Comfortable working in an early-stage startup environment.\n\n### Freshers are welcome\n\nFresh graduates and candidates with **internships, academic projects, freelance work, or personal software projects** are encouraged to apply.\n\nWe are open to candidates from different experience levels and will consider applicants based on their skills, potential, problem-solving ability, and ability to build and learn.\n\n### Nice to have\n\n* Experience with React or Next.js.\n* Experience with Node.js or Python.\n* Experience working with REST APIs.\n* Familiarity with SQL or PostgreSQL.\n* Personal projects or a GitHub portfolio.\n* Internship or previous software development experience.\n* Interest in AI, search, recommendation systems, or personalized technology. Mumbai Mumbai\nlocationNames: Mumbai Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "04b31cb8dd2878e58927917ad8270a7f",
+      "source": "wellfound",
+      "company": "Stylabs Technologies",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/3081258-full-stack-developer",
+      "jd_text": "We're looking for a Full Stack Developer who thrives in the era of AI-assisted development. You'll work alongside AI coding agents to ship products faster while maintaining the critical thinking and architectural judgment that only humans provide. This role is ideal for someone who sees AI tools as force multipliers, not replacements.\n\n---\n\n## What You'll Actually Do\n\n- **Build and ship products** using modern frameworks (React, Next.js, Astro, Node.js) with AI coding assistants as your pair programming partners\n- **Architect solutions** that AI agents can help implement—breaking down complex problems into well-defined, promptable tasks\n- **Review and refine AI-generated code** for security vulnerabilities, edge cases, and maintainability issues that AI often misses\n- **Design and integrate APIs** for client projects, particularly in real estate marketing and lead generation systems\n- **Manage AI agent workflows** using tools like Claude Code, Cursor, or similar—knowing when to let AI run and when to intervene\n- **Write effective prompts and specifications** that produce consistent, high-quality output from AI tools\n- **Debug the weird stuff**—when AI confidently produces broken code, you'll need to understand *why* and fix it\n\n---\n\n## What We're Looking For\n\n### Core Technical Skills\n\n- 2-4 years building web applications (the fundamentals still matter)\n- Strong JavaScript/TypeScript, HTML, CSS foundation\n- Experience with React, Next.js, or Vue.js\n- Backend comfort with Node.js and database work (PostgreSQL, MongoDB)\n- Git proficiency and understanding of deployment pipelines\n\n### AI Development Skills\n\n- Demonstrated experience using AI coding tools (Claude, GPT, Copilot, Cursor, etc.) in production work\n- Ability to write clear, specific prompts that get usable results on the first or second try\n- Critical eye for reviewing AI output—catching hallucinations, security issues, and suboptimal patterns\n- Understanding of when AI accelerates work vs. when it creates more problems than it solves\n\n### The Human Stuff\n\n- Strong architectural thinking—AI can write code, but you decide *what* to build\n- Debugging intuition that goes beyond \"ask the AI again\"\n- Clear communication skills for client work and team collaboration\n- Self-direction and ownership over your projects\n\n---\n\n## Nice to Have\n\n- Experience with Vercel, AWS, or similar cloud deployment\n- Familiarity with AI agent frameworks and MCP servers\n- Background in SEO implementation or real estate tech\n- Mobile development exposure (React Native)\n\n---\n\n## What We Offer\n\n- Competitive salary based on your ability to deliver, not just years of experience\n- Access to premium AI tools and subscriptions\n- Remote-friendly work environment\n- Opportunity to work on diverse client projects across industries\n- Small team where your contributions are visible and valued\n\n---\n\n## How to Stand Out\n\nInstead of (or in addition to) a traditional resume, show us:\n\n- A project where you used AI tools effectively—what worked, what didn't\n- Your approach to a complex problem that AI couldn't solve on its own\n- How you'd architect a solution for a real estate lead generation platform\n\n---\n\n**To Apply:** Send your portfolio and a brief note on how you currently use AI in your development workflow. Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 14.27,
+      "resume_variant": "fullstack",
+      "draft_answer": "I build and ship robust full-stack products end-to-end, from architecting cloud-native compliance platforms for 80+ client organizations to designing RESTful APIs for complex systems, demonstrating my capacity for delivering client projects, including those in real estate marketing and lead generation, using modern frameworks like React, Next.js, FastAPI, and Node.js. I embrace AI-assisted development, having validated LLM tool-calling reliability and integrated Cursor into my workflow, where I apply a critical eye to review code for security vulnerabilities and optimize performance, drawing on experience debugging high-concurrency risks and cutting fetch latency by 98%.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "failed",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": "2026-09-17T15:11:14+00:00",
+      "submitted_at": null,
+      "error_message": "Could not find Learn more button.",
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 13.57,
+            "overlap": 15.89,
+            "combined": 14.27
+          },
+          "backend": {
+            "cosine": 12.9,
+            "overlap": 15.79,
+            "combined": 13.76
+          },
+          "frontend": {
+            "cosine": 10.42,
+            "overlap": 17.96,
+            "combined": 12.68
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 13.57,
+        "keyword_overlap_score": 15.89,
+        "final_score": 14.27,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.5665
+          },
+          {
+            "term": "tools",
+            "weight": 0.1263
+          },
+          {
+            "term": "js",
+            "weight": 0.1053
+          },
+          {
+            "term": "code",
+            "weight": 0.0842
+          },
+          {
+            "term": "experience",
+            "weight": 0.0842
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-17T14:48:49+00:00",
+      "confirmation_signal": {
+        "ok": false,
+        "url": "",
+        "text": "Could not find Learn more button."
+      },
+      "github_run_id": "35238365630",
+      "apply_kind": "unknown"
+    },
+    {
+      "id": "2f5ec47d30f22fe112d5e97c7b6aef49",
+      "source": "wellfound",
+      "company": "DataBrain",
+      "role": "Senior Product Engineer",
+      "url": "https://wellfound.com/jobs/4697826-senior-product-engineer",
+      "jd_text": "**About DataBrain**\nDataBrain is an AI-powered embedded analytics platform that helps modern software companies ship powerful in-product analytics, dashboards, and reporting in days instead of months. We work with SaaS teams from fast-growing startups to global enterprises, helping them unlock new revenue and improve customer experience with world-class analytics.\n\n**About the role**\nWe’re looking for a Senior Product Engineer to own our embed: guest tokens, tenancy, filters, dashboard chrome, exports, and the plugin customers drop into their apps. You’ll sit with technical customers, judge whether a request is feasible on this product, and decide if it becomes a durable capability, a paid exception, or a no — then ship it. This is not a PM role and not a ticket-taking SWE role. You own this surface end to end.\n\n**What you’ll do**\n- Own the embed contract across the stack: API tokens, tenant isolation, filters, pivot, PDF/CSV, dashboard chrome, and plugin APIs.\n- Hear customer requirements yourself — CTOs and product engineers talking in tokens, RLS, SDK props, and warehouse constraints — and turn them into a clear problem statement.\n- Evaluate feasibility on *this* product: can we do it on the embed, tenancy, and query layer without lying, or is it a different product?\n- Decide primitive vs paid exception vs no, even when the one-off is technically feasible. Sequence that backlog; no customer-named forks.\n- Design and ship the API contracts, data models, and UI for data-heavy embed surfaces: tables, filters, charting, and configuration.\n- Improve performance, reliability, and fail-closed tenancy — a scoping bug is a security incident, not a UX issue.\n- Write the brief for what you are about to build, ship it in React/TypeScript and Node/TypeScript, and tell the team what actually landed.\n- Partner with the founders on this surface. Your no will not get reversed in Slack.\n\n**What we’re looking for**\n- 5-8 years of experience building web applications in a product company, including a surface you owned (API + UI + the customer who used it).\n- Strong proficiency in React and TypeScript, plus deep experience with Node.js (or Python) and REST APIs.\n- Proven ability to design and ship complex, data-heavy product experiences across frontend and backend.\n- Comfort evaluating technical customer requirements: you can tell a real embed/tenancy constraint from a wishlist, and you can say no.\n- Strong understanding of databases, data modeling, and multi-tenant data access; analytical databases like ClickHouse are a plus.\n- Track record of debugging production issues, improving performance, and treating isolation and auth as correctness properties.\n- High ownership and product judgment: UX details, edge cases, tradeoffs, and shipping capabilities — not one-off custom work.\n- Comfortable making architectural decisions, breaking down ambiguous problems, and driving work independently in a fast-moving startup.\n\n**Nice to have**\n- Embedded analytics, BI, a public SDK/web component, or multi-tenant SaaS you shipped and supported.\n- Hands-on experience with Python/FastAPI in production.\n- Experience with charting/visualization libraries.\n- You’ve been the engineer customers message when something is wrong, and you turned that into a product change, not a pile of hotfixes.\n- Prior startup experience or working closely with founders and customers.\n\n**How we work**\n- Location: Chennai (preferred), with overlap to IST working hours. Some overlap with US customer hours for calls.\n- Small, senior team with high ownership and direct collaboration with the founders.\n- Opportunity to influence architecture, product direction, and early culture while owning a real product surface. Chennai\nlocationNames: Chennai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6cfc80c2ae5e31bd2b0a9939b97619b1",
+      "source": "wellfound",
+      "company": "Taskclan",
+      "role": "Founding AI/ML Engineer",
+      "url": "https://wellfound.com/jobs/4697976-founding-ai-ml-engineer",
+      "jd_text": "About Taskclan\n\nTaskclan is a Canadian AI company building one connected ecosystem across Intelligence, Cloud, Studio, Engine, Enterprise and Lab.\n\nTaskclan Intelligence develops our T1 model family: T1 Core, T1 Flow and T1 Max. These models will power capabilities across Taskclan Cloud, T1 Studio, our enterprise platform and products including GameNova, Nani, Forge3D and Spaces, TalentKit, ProposalAI and Ostrae.\n\nThe opportunity\n\nWe are looking for a Founding AI/ML Engineer to help build the technical foundation of Taskclan Intelligence. You will work directly with the founder on model development, evaluation, inference and deployment.\n\nThis is a hands-on founding role for someone who wants to build practical AI systems rather than simply integrate third-party APIs.\n\nWhat you will own\n\n• Advance the training and fine-tuning of T1 Core, T1 Flow and T1 Max\n• Design reliable model evaluation, benchmarking and promotion pipelines\n• Build high-quality training and preference datasets\n• Improve inference performance, quantization and deployment efficiency\n• Develop model-serving infrastructure for Taskclan Cloud and T1 Studio\n• Strengthen model safety, security and production-readiness evaluations\n• Monitor quality, latency, GPU usage and inference costs\n• Contribute to our multimodal and agentic AI roadmap\n• Document technical decisions and help shape the research culture\n\nWhat we are looking for\n\n• Strong experience with Python, PyTorch and transformer-based models\n• Experience fine-tuning or evaluating open-weight language models\n• Familiarity with Hugging Face, LoRA, quantization and GPU environments\n• Understanding of inference systems, model serving and MLOps\n• Evidence of shipped AI systems, research, open-source work or strong personal projects\n• The ability to work independently and make evidence-based technical decisions\n• The ability to commit approximately 15–20 hours per week initially\n• At least three hours of collaboration availability with Eastern Time on agreed working days\n\nCompensation and commitment\n\nThis is initially a part-time, equity-only founding role. There is no cash salary at present. The proposed equity range is 1.5%–2.5%, depending on experience, commitment and the final scope of the role.\n\nAny equity grant will be governed by a formal agreement, four-year vesting, a one-year cliff and board approval. Our intention is to transition the position into a paid role once Taskclan secures sufficient financing or recurring revenue.\n\nWhy join now\n\nYou will help define Taskclan’s model architecture, evaluation standards, deployment infrastructure and long-term technical direction. Your work will influence every pillar and product across the Taskclan ecosystem.\n\nTo apply, share a model, research project, repository or production AI system you have built. Explain the problem, your specific contribution, the technical decisions you made and the results you achieved. Toronto\nlocationNames: Toronto\nremote: true",
+      "match_score": 7.07,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.46,
+            "overlap": 9.27,
+            "combined": 6.6
+          },
+          "backend": {
+            "cosine": 5.75,
+            "overlap": 10.15,
+            "combined": 7.07
+          },
+          "frontend": {
+            "cosine": 3.82,
+            "overlap": 10.68,
+            "combined": 5.88
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.75,
+        "keyword_overlap_score": 10.15,
+        "final_score": 7.07,
+        "top_keywords": [
+          {
+            "term": "model",
+            "weight": 0.2079
+          },
+          {
+            "term": "ai",
+            "weight": 0.1819
+          },
+          {
+            "term": "technical",
+            "weight": 0.1062
+          },
+          {
+            "term": "cloud",
+            "weight": 0.0637
+          },
+          {
+            "term": "deployment",
+            "weight": 0.0637
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "822f8585f9faeb0e0c057b8d65828c91",
+      "source": "wellfound",
+      "company": "Cloudesign Technology Solutions",
+      "role": "Golang Developer",
+      "url": "https://wellfound.com/jobs/4722368-golang-developer",
+      "jd_text": "Role: Golang Developer\nExperience: 4+Years\nWork Location: Mumbai(Kanjurmarg)\nNotice Period: Immediate\n\nRequired Skills\nGolang: 4+years hands-on experience building production services.\nAPI Protocols: REST/JSON, gRPC, protobuf; API versioning and backward compatibility.\nArchitecture: Clean Architecture, DDD (aggregates, repositories), SOLID, hexagonal architecture.\nDatabases: PostgreSQL/MySQL; indexing, query optimization, transactions, isolation levels, migrations (e.g., golang-migrate).\n\nNice-to-Have\nEvent-driven systems (Kafka/RabbitMQ), CQRS and Saga patterns.\nConcurrency: Goroutines, channels, sync primitives (mutex, wait groups), context cancellation, worker pools.\nContainers &amp; Cloud: Docker, Kubernetes; familiarity with AWS/GCP/Azure (IAM, networking, managed DBs).\nCI/CD &amp; Git: Branching strategies, automated tests, code quality checks, artifacts.\nCaching (Redis/Memcached), rate limiting, and feature flags.\nSecurity: OAuth2/OIDC, JWT, mTLS, secrets management (Vault/SSM).\nInfrastructure as Code (Terraform), Helm charts.\nExperience with performance tooling.\n\nEducation\n·  Bachelor’s in Computer Science/Engineering Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c2c529751cdc2917922cd7c03b9bd3d6",
+      "source": "wellfound",
+      "company": "Clappia",
+      "role": "Software Development Engineer - II (SDE-II)",
+      "url": "https://wellfound.com/jobs/3153039-software-development-engineer-ii-sde-ii",
+      "jd_text": "As a Software Development Engineer II at Clappia, you will build and scale core platform capabilities used by businesses across industries. You will work across the stack and contribute to designing reliable, high-performance systems.\n\n**Key Responsibilities**:\n\n* Design, develop, and maintain scalable full-stack applications across frontend and backend systems\n* Take ownership of end-to-end feature development from requirement understanding to deployment and monitoring\n* Contribute to system design and architecture decisions, ensuring scalability, reliability, and maintainability\n* Work with a modern tech stack including Angular, Node.js, TypeScript, Ionic, Material UI, NoSQL databases, and Elasticsearch\n* Build and optimize microservices in a serverless, AWS-based architecture\n* Work with modern AI-assisted development tools such as Cursor to significantly improve productivity and ship features faster\n* Write clean, efficient, and well-structured code following best practices and coding standards\n* Debug production issues, improve system performance, and ensure high availability of services\n* Collaborate closely with product and engineering teams to translate requirements into technical solutions\n\n**Requirements**:\n\n* 2+ years of experience in software development with a focus on full-stack web applications\n* Strong understanding of computer science fundamentals including data structures, algorithms, object-oriented design, and complexity analysis\n* Hands-on experience with at least one modern frontend framework such as Angular or React\n* Good understanding of backend development and RESTful APIs\n* Familiarity with distributed systems, microservices architecture, and cloud platforms, preferably AWS\n* Understanding of web fundamentals including security, session management, and performance optimization\n* Ability to work in a fast-paced environment and handle ambiguity\n* Demonstrated curiosity to learn and build through side projects, contributions, or practical work\n\n**About Clappia**\n\nClappia is a no-code platform that enables businesses to build customized mobile and web applications without dealing with underlying technical complexity. It is widely used to streamline business operations across enterprises, governments, and SMEs.\n\nFounded in 2017 by IIT Kharagpur alumni and headquartered in Bangalore, Clappia is a self-funded and profitable company serving customers globally. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 12.58,
+      "resume_variant": "frontend",
+      "draft_answer": "Having owned end-to-end full-stack development for enterprise clients, I reduced API fetch latency by 98% with Redis caching and built a serverless platform on AWS, directly improving workflows for over 80 organizations. I'm ready to leverage this experience, alongside my familiarity with Cursor, to build and scale the core capabilities of Clappia's no-code platform for businesses across industries.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.26,
+            "overlap": 17.22,
+            "combined": 11.65
+          },
+          "backend": {
+            "cosine": 8.3,
+            "overlap": 16.54,
+            "combined": 10.78
+          },
+          "frontend": {
+            "cosine": 9.45,
+            "overlap": 19.9,
+            "combined": 12.59
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 9.45,
+        "keyword_overlap_score": 19.9,
+        "final_score": 12.58,
+        "top_keywords": [
+          {
+            "term": "applications",
+            "weight": 0.0831
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.0831
+          },
+          {
+            "term": "end",
+            "weight": 0.0677
+          },
+          {
+            "term": "frontend",
+            "weight": 0.0677
+          },
+          {
+            "term": "aws",
+            "weight": 0.0554
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-17T14:49:00+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f03b3513a5009c9d61a41861f0a414a1",
+      "source": "wellfound",
+      "company": "Clappia",
+      "role": "Software Development Engineer - I",
+      "url": "https://wellfound.com/jobs/4701945-software-development-engineer-clone",
+      "jd_text": "**About the job:**\nAs a Software Development Engineer at Clappia, you will have the opportunity to work with cutting-edge technologies such as NodeJS, TypeScript, AWS, Serverless, JavaScript, Angular, NoSQL databases, and Elasticsearch to develop innovative features for our platform.\n\n**Key Responsibilities:**\n\n1. Design and develop robust and scalable software applications using a combination of front-end and back-end technologies.\n2. Collaborate with cross-functional teams to gather requirements, define technical solutions, and implement features.\n3. Write clean, maintainable, and efficient code while following best practices and coding standards.\n4. Perform code reviews, provide constructive feedback, and mentor junior team members.\n5. Troubleshoot and debug issues, conduct performance tuning, and optimize application performance.\n6. Stay updated on the latest trends and advancements in software development to continuously improve our products.\n7. Contribute to the overall success of the team by actively participating in meetings, sharing ideas, and contributing to the team's success.\n\nIf you are passionate about software development and eager to work on challenging projects, then Clappia is the perfect place for you to grow and thrive in your career. Join us in revolutionizing the way businesses operate with our innovative technology solutions.\n\n**Requirements:**\n\n1. 1-2 years of full time experience in software development with a focus on full-stack web applications\n2. Strong knowledge of computer science fundamentals in object-oriented design, data structures, algorithm design, problem-solving, and complexity analysis\n3. Understanding of the fundamentals of UI/UX\n4. Hands-on experience on any one front-end framework - Angular, React, etc.\n5. Good understanding of how web applications work and fundamentals of security, session management, and best development practices\n6. Ability to work and thrive in a fast-paced environment\n7. Must have some examples to demonstrate your curiosity to learn\n8. Ability to work successfully in an ambiguous environment, to meet tight deadlines, and prioritize workload\n\nAbout Clappia\nClappia (https://www.clappia.com/) is a no-code platform that enables businesses to build customized mobile and web apps without coding or other technical complexities. It is best used in streamlining the business operations of any organization. The company was founded in 2017 by two IIT Kharagpur alumni and is headquartered in Bangalore, India. It is a self-funded and profitable company that serves multiple Fortune 500 companies, governments, and SMEs throughout the world. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 9.44,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.75,
+            "overlap": 12.91,
+            "combined": 8.6
+          },
+          "backend": {
+            "cosine": 5.23,
+            "overlap": 12.41,
+            "combined": 7.38
+          },
+          "frontend": {
+            "cosine": 7.45,
+            "overlap": 14.08,
+            "combined": 9.44
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 7.45,
+        "keyword_overlap_score": 14.08,
+        "final_score": 9.44,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.0991
+          },
+          {
+            "term": "applications",
+            "weight": 0.081
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.081
+          },
+          {
+            "term": "code",
+            "weight": 0.081
+          },
+          {
+            "term": "engineer",
+            "weight": 0.054
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e646a5140ac0ba614d82964acf73d767",
+      "source": "wellfound",
+      "company": "The Developers Arena",
+      "role": "Software Developer Intern",
+      "url": "https://wellfound.com/jobs/4716173-software-developer-intern",
+      "jd_text": "About the Role\n\n[The Developers Arena](https://www.thedevelopersarena.com/apply) is looking for motivated and enthusiastic Software Developer Interns to gain practical experience by working on real-world software development projects.\n\nWhat you’ll do\n\nWork on real-world software development projects\n\nBuild and improve web/software applications\n\nWrite, test, debug, and maintain code\n\nCollaborate with other developers and team members\n\nLearn industry-oriented development practices\n\nContribute to assigned projects and technical tasks\n\n\nWho can apply\n\nStudents, freshers, and aspiring software developers\n\nBasic knowledge of programming and software development\n\nGood problem-solving and learning ability\n\nFamiliarity with any programming language or development technology is a plus\n\n\nWhat you’ll gain\n\nPractical software development experience\n\nExperience working on real-world projects\n\nIndustry-oriented learning\n\nProject experience for your portfolio\n\nInternship completion certificate and other applicable documentation\n\n\nWork Mode: Remote\nLocation: India\n\nApply if you are passionate about software development and want to build practical experience. Maharashtra\nlocationNames: Maharashtra\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-17T14:48:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "73858d6ae2dbae6dd0eb0bfd7c39f48c",
       "source": "wellfound",
