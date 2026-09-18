@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-09-18T07:16:24+00:00",
+  "exported_at": "2026-09-18T07:52:14+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 133,
+    "failed": 5,
+    "pending_approval": 132,
     "discovered": 641,
-    "failed": 4,
     "submitted": 5,
     "rejected": 3
   },
@@ -20,11 +20,11 @@
       "match_score": 19.9,
       "resume_variant": "frontend",
       "draft_answer": "I've consistently delivered end-to-end React and Next.js solutions for client-facing platforms, from driving UAT across user groups to optimizing API performance by 98% for seamless user experiences. My experience includes building complex dashboards, interactive multi-step workflows, and real-time data streaming interfaces, making me well-prepared to contribute to Steps AI's intelligent, AI-powered software for real customers.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "pending_approval",
+      "status": "failed",
       "discovered_at": "2026-09-18T07:15:34+00:00",
-      "decided_at": null,
+      "decided_at": "2026-09-18T07:52:13+00:00",
       "submitted_at": null,
-      "error_message": null,
+      "error_message": "Could not find Learn more button.",
       "sent_message": null,
       "match_breakdown": {
         "weights_version": "v1",
@@ -82,9 +82,13 @@
       },
       "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
       "drafted_at": "2026-09-18T07:15:54+00:00",
-      "confirmation_signal": null,
-      "github_run_id": null,
-      "apply_kind": null
+      "confirmation_signal": {
+        "ok": false,
+        "url": "",
+        "text": "Could not find Learn more button."
+      },
+      "github_run_id": "35321478122",
+      "apply_kind": "unknown"
     },
     {
       "id": "c3ace0a6307e985511d88b1b629d94e0",
