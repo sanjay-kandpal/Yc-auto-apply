@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-09-18T15:56:09+00:00",
+  "exported_at": "2026-09-18T18:57:19+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 647,
-    "pending_approval": 134,
+    "pending_approval": 135,
+    "discovered": 648,
     "failed": 5,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "75650588ef1cd58d4321ae05694d0e7d",
+      "source": "yc",
+      "company": "Opusense AI",
+      "role": "Software Engineer",
+      "url": "https://www.workatastartup.com/jobs/96641",
+      "jd_text": "### **About Opusense** \r\n\r\n**Opusense is building the AI operating system for field work.**\r\n\r\nEvery day, millions of engineers, inspectors, consultants, and operators collect information in the field that ultimately drives critical decisions about buildings, infrastructure, and assets. Yet much of that knowledge remains trapped in photos, voice notes, PDFs, spreadsheets, and manually written reports.\r\n\r\n**We're changing that.**\r\n\r\nOpusense uses AI to transform unstructured field information into structured knowledge, professional documentation, actionable insights, and automated workflows. Our platform is already helping organizations across construction, engineering, trades, and property management dramatically reduce administrative work while improving the quality and consistency of their outputs.\r\n\r\n**We're still at the beginning of what we believe is a massive opportunity.** Documentation is only the first step. Our vision is to build AI systems that understand projects, learn from organizational knowledge, surface insights across thousands of reports, and become an intelligent partner for every field team.\r\n\r\nYou'll work directly with the founders, own major technical decisions, ship products used by real customers, and help define both the architecture and culture of the engineering organization. The systems you build won't be incremental improvements, they'll fundamentally change how technical professionals capture, use, and act on information.\r\n\r\n### **What You'll Do** \r\n\r\n* Build across the whole product: web, mobile, backend, and the AI that ties it together\r\n* Own features end-to-end: speak directly with users, ship prototypes fast, and refine them into what customers rely on every day\r\n* Help set the technical direction and standards as one of the first engineers on the team\r\n* Turn messy, real-world field data into clear, useful reports and insights\r\n* Move between problems quickly — wherever the biggest impact is that week\r\n\r\n### **What We're Looking For** \r\n\r\n* 4+ years software experience with strong TypeScript/JavaScript and Python\r\n* Experience building on LLMs and agent frameworks\r\n* Strong with React/Next.js\r\n* Cloud experience (AWS, Azure, or GCP)\r\n* 0 to 1 builder that has built something people used/paid for (founder/startup)\r\n\r\n### **Bonus Points** \r\n\r\n* AEC related experience or proven interest in AEC industry\r\n* DOCX/PDF automation experience (templating engines, OpenXML, or similar)\r\n\r\n### **Tech Stack** \r\n\r\nWe work across AI, full-stack web/mobile, and cloud infrastructure:\r\n\r\n* Next.js + React Native (Expo) + Tailwind\r\n* TypeScript &amp; Python backends on AWS Lambda\r\n* Multimodal AI agents + RAG\r\n* Relational databases with vector search\r\n* Automated document generation (Word / Excel / PDF)\r\n* Event-driven and scheduled data pipelines\r\n\r\nIf you like AI agents, turning messy field data into polished reports, or building tools that construction crews and engineers actually use in the field, this is your place. jobs_skill 5 Amazon Web Services (AWS) 125 jobs_skill 63 JavaScript 314 jobs_skill 112 React Native 70 jobs_skill 138 TypeScript 45 jobs_skill 311 Next.js 0 jobs_skill 324 LLMs 0 jobs_skill 326 RAG 0 jobs_skill 328 Vector Databases 0 jobs_skill 331 AI Agents 0 fulltime none\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 12.59,
+      "resume_variant": "frontend",
+      "draft_answer": "I built the React front end for a government mining-safety regulator's occupational hygiene reporting portal and owned client-facing modules of a compliance platform, replacing 90% of manual reporting workflows with automated pipelines to transform messy field information into structured knowledge. My experience driving client-side UAT, cutting fetch latency by 98% for perceived UI responsiveness, and building client-facing products adopted by 80+ organizations and 50+ users shows I can own features end-to-end from prototype to customer reliance.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-18T18:56:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.53,
+            "overlap": 14.24,
+            "combined": 11.64
+          },
+          "backend": {
+            "cosine": 9.73,
+            "overlap": 14.29,
+            "combined": 11.09
+          },
+          "frontend": {
+            "cosine": 10.71,
+            "overlap": 16.99,
+            "combined": 12.59
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.71,
+        "keyword_overlap_score": 16.99,
+        "final_score": 12.59,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1116
+          },
+          {
+            "term": "aws",
+            "weight": 0.067
+          },
+          {
+            "term": "data",
+            "weight": 0.067
+          },
+          {
+            "term": "js",
+            "weight": 0.067
+          },
+          {
+            "term": "react",
+            "weight": 0.067
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-18T18:57:16+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "92dca28274ffbe90de07a0120d8e7ebb",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Senior Manager, Revenue Partnerships",
+      "url": "https://www.workatastartup.com/jobs/110847",
+      "jd_text": "# **About AiPrise Inc.**\n\nAiPrise is a YC-backed, Series A company building the global compliance infrastructure for financial services. We help banks, fintechs, cross-border payment providers, stablecoin and crypto companies, and marketplaces gain a 360° view of every business they onboard, anywhere in the world.\n\nThrough a single integration, we connect 800+ data sources and 80+ verification partners across 200+ countries, powering KYB, KYC, AML, sanctions screening, and ongoing monitoring for companies like Meta, Airwallex, Fireblocks, and Bridge.\n\nOur AI Agents help compliance teams do more with less, resolving more cases, catching more fraud, and scaling operations without scaling headcount.\n\nWe're \\~60 people, Series A funded, and obsessed with a single problem: making compliance feel simple for the teams who live in it every day.\n\nBorders shouldn't be blockers. Compliance is hard. AiPrise shouldn't be.\n\n### \\\n**The role**\n\nYou'll own revenue generating partnerships end to end: finding and signing new partners, running and growing the partners we already have, and shaping how the partnerships strategy evolves as the company scales.\n\nThis is a senior individual-contributor role on a small, ambitious team. You'll work directly with the Head of Partnerships, sit very close to Sales, Finance and Product, and have a lot of autonomy to build. You will spend real time in the field because the relationships that move revenue are built in person.\n\n## **What you'll do**\n\n**Source and sign new revenue partners**\n\n* Build and work a pipeline of prospective partners across referral, reseller, technology/ISV, BPO, and platform categories.\n* Qualify partners against fit, overlap, and revenue potential; prioritize ruthlessly.\n* Run the full partner sales cycle: outreach, discovery, business case, commercial structure, and agreement.\n* Represent AiPrise at conferences and industry events; turn event conversations into signed partnerships.\n\n**Run and grow existing partners**\n\n* Own the relationship, cadence, and revenue plan for a portfolio of active partners.\n* Build joint go-to-market plans with each priority partner: target accounts, plays, enablement, marketing, and a shared pipeline.\n* Drive co-selling with our AEs: account mapping, warm intros, joint calls, and deal coordination.\n* Enable partner teams to position and sell AiPrise properly; keep them informed and motivated as our product evolves.\n* Track partner-sourced and partner-influenced pipeline and revenue; run regular partner reviews.\n* Grow into ownership of a partner revenue target as the motion matures.\n\n**Shape the strategy**\n\n* Bring a point of view on which partner categories and specific partners we should pursue, and why.\n* Feed market, competitive, and customer intelligence from the partner ecosystem back into Sales, Product, and Leadership.\n* Help design and refine partner program mechanics: tiers, incentives, referral and reseller economics, enablement.\n* Contribute to the partnerships operating model through reporting, tooling (HubSpot, Crossbeam), and process as the team and company grows.\n\n## **What success looks like**\n\n* **First 90 days:** Ramped on market, product, ICP, and current partner portfolio; owning day-to-day relationships with existing revenue partners; a qualified pipeline of new partner opportunities; first 1-2 conference or on-site trips completed.\n* **First 6 months:** New revenue partners signed; joint GTM plans in place with priority partners; partner-sourced pipeline visible and growing.\n* **First 12 months:** A repeatable partner motion producing a 20+% of total revenue opportunities with clear attribution and a documented playbook.\n\n## **What we're looking for**\n\n* Builder mindset. You've operated in an early-stage or high-growth environment and know how to create structure without waiting for it.\n* 5–8 years in partnerships, alliances, channel, or business development at a B2B SaaS or fintech company\n* Experience across more than one partner type (referral/reseller, technology integrations, services/BPO) and an understanding of how the economics differ.\n* Comfortable running a full commercial cycle from cold outreach through negotiated agreement.\n* Strong co-selling instincts: you know how to work with AEs, map accounts, and make a partner intro.\n* Excellent written and verbal communication; credible with senior partner stakeholders.\n* Willing and able to travel \\~10–20%\n\n**Nice to have**\n\n* Background in identity verification, KYC/KYB/AML, fraud prevention, payments, FinCrime or adjacent compliance/fintech infrastructure.\n* Experience with partner ecosystem tooling (Crossbeam, PartnerStack, or similar) and HubSpot.\n* Existing relationships in the fintech, crypto, marketplace, or BPO ecosystems.\n* \n\n**Benefits and perks** \\\n**Time Off**\n\n* Flexible/PTO policy (accrued each pay period, usable from day one).\n* Paid parental leave.\n* Company holidays observed annually.\n\n**Perks**\n\n* $350 home office stipend - one-time reimbursement to set up your workspace.\n* Annual company onsite - the full team comes together once a year, with travel and accommodation fully covered.\n* Annual performance bonus based on company plan.\n* Medical, dental, and vision coverage (US benefits). San Jose, CA, US fulltime yes\nlocations: San Jose, CA, US\nremote: yes\nmin_experience: 6",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-18T18:56:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "966c4c0b07e425b7512b108f9512a69a",
       "source": "yc",
