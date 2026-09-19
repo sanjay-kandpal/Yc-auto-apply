@@ -1,15 +1,169 @@
 {
-  "exported_at": "2026-09-18T22:22:50+00:00",
+  "exported_at": "2026-09-19T03:17:20+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 653,
     "pending_approval": 136,
     "failed": 6,
-    "discovered": 650,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "7d4b68b3ef8177bcbe46c4004f0b004c",
+      "source": "yc",
+      "company": "WarpBuild",
+      "role": "Chief of Staff to the CEO",
+      "url": "https://www.workatastartup.com/jobs/110903",
+      "jd_text": "_Location - India (Remote)_\n\nWork directly with the CEO on the most important problems at WarpBuild: strategy, growth, finance, hiring and operations.\n\nWarpBuild provides compute infrastructure and tools for enabling AI-powered teams to work efficiently. We are a small team working on multiple products: WarpBuild CI (blazing fast GitHub Actions runners), and Helios (agentic harness for your company's knowledge).\n\nThis is a breadth-first role. You own problems end to end across functions. You use AI tools to do the work of a team.\n\n## What you'll do\n\n* Own cross-functional projects for the CEO, from problem statement to shipped result.\n* Run the company cadence: planning, goals, metrics, and follow-through on decisions.\n* Build financial and operating models: pricing, unit economics, infrastructure cost and capacity.\n* Run growth experiments: channel strategy, attribution, signup funnel and budget allocation.\n* Research markets, competitors and customers. Turn the research into clear recommendations.\n* Run hiring pipelines, and vendor, legal and finance processes.\n* Build AI agents and automations that replace recurring manual work.\n* Prepare investor updates and key external communication.\n\n## What you'll bring\n\n* AI-first way of working. Daily use of AI tools for research, analysis, writing and automation.\n* Breadth. Comfort moving between strategy, finance, marketing, operations and product in the same week.\n* Very high agency. You find the problem, decide, and finish without being asked.\n* Structured problem solving and strong quantitative skills. Fast in a spreadsheet.\n* Clear, concise writing.\n* Top-tier academic record.\n* Experience at a top strategy consulting firm, in a founder's office, or as a founder is a plus.\n* Interest in developer tools and infrastructure. No industry experience is required.\n\n## What we offer\n\n* High equity and compensation.\n* Direct work with the CEO of a high growth, profitable startup.\n* A very wide and interesting set of problems to work on.\n\nThe process is quick and we review every application. Apply only through this page. Applications sent by LinkedIn message lead to instant disqualification. fulltime none\nremote: only\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-19T03:17:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3bf28ab4eb03b6ce6e59e9fb011649a8",
+      "source": "yc",
+      "company": "WarpBuild",
+      "role": "Senior Network Engineer",
+      "url": "https://www.workatastartup.com/jobs/110902",
+      "jd_text": "_Location - India (Remote)_\n\nBuild WarpBuild's datacenter network from empty racks to production traffic. Run it and grow it to new sites.\n\nWarpBuild runs fast CI runners for GitHub Actions. We are building our own bare-metal infrastructure in colocation datacenters. We are a small team, and every engineer owns a large part of the product.\n\nYou will be our first network engineer. This is a hands-on role with full ownership of design, deployment, automation and operations. You will work directly with the founders and the platform engineering team.\n\n## What you'll do\n\n* Design, deploy and operate leaf-spine datacenter networks, including the edge and the out-of-band network.\n* Run the internet edge: BGP with transit providers and peers, routing security, and DDoS protection.\n* Lead new site turn-ups from planning to handover: cabling plans, device staging, validation and acceptance testing.\n* Manage network configuration as code, with a source of truth, templates, automated checks and zero-touch provisioning.\n* Direct remote hands, cabling vendors, carriers and hardware vendors. Our sites have no on-site staff.\n* Build monitoring and alerting for the network. Use the data for capacity planning.\n* Work with platform engineers on Linux host networking for our virtualization stack.\n* Write the designs, procedures and runbooks that the rest of the team relies on.\n* Take part in the on-call rotation.\n\n## What you'll bring\n\n* 7+ years in network engineering, mostly on production datacenter, cloud or service provider networks.\n* Experience building a datacenter or PoP network from the ground up at least once.\n* Strong knowledge of BGP, ECMP, leaf-spine fabrics, link aggregation and fast convergence.\n* Experience running an internet edge: transit and peering turn-ups, IRR and RPKI, and traffic engineering.\n* Production experience with at least one major switching platform, such as Arista, Juniper, Cisco or SONiC.\n* Strong automation skills with Python and Ansible or similar tools. Config lives in Git.\n* Good knowledge of the physical layer: optics, DAC and fiber cabling, structured cabling and cross-connects.\n* Comfort on the Linux command line and a working understanding of the Linux network stack.\n* Clear written English. A technician who has never seen the site can follow your procedure.\n\n## Nice to have\n\n* Experience at a cloud provider, CDN, carrier or internet exchange.\n* NetBox or another network source of truth.\n* Streaming telemetry and flow monitoring, such as gNMI and sFlow.\n* KVM and virtual machine networking, NAT at scale, nftables.\n* IPv6 in production.\n* Participation in SANOG, INNOG, APNIC or a similar operator community.\n\n## What we offer\n\n* High equity and compensation.\n* Full ownership of the network at an early stage of the company.\n* Remote work from anywhere in India.\n* Occasional international travel for site builds.\n\nThe process is quick and we review every application. Apply only through this page. Applications sent by LinkedIn message lead to instant disqualification. jobs_skill 107 Python 288 jobs_skill 171 Linux 14 fulltime none\nremote: only\nmin_experience: 7",
+      "match_score": 6.47,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-19T03:17:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.99,
+            "overlap": 9.93,
+            "combined": 6.47
+          },
+          "backend": {
+            "cosine": 4.46,
+            "overlap": 10.15,
+            "combined": 6.17
+          },
+          "frontend": {
+            "cosine": 3.62,
+            "overlap": 10.19,
+            "combined": 5.59
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.99,
+        "keyword_overlap_score": 9.93,
+        "final_score": 6.47,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1017
+          },
+          {
+            "term": "experience",
+            "weight": 0.0898
+          },
+          {
+            "term": "production",
+            "weight": 0.0898
+          },
+          {
+            "term": "stack",
+            "weight": 0.0678
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0673
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a568ed789343aafff1df5e80dafe0bf0",
+      "source": "yc",
+      "company": "WarpBuild",
+      "role": "GTM Engineer",
+      "url": "https://www.workatastartup.com/jobs/80216",
+      "jd_text": "_Location - India (Remote)_\n\nWarpBuild provides compute infrastructure and tools for enabling AI-powered teams to work efficiently.\n\nWe are a small team working on multiple products: WarpBuild CI (blazing fast github actions runners), and Helios (always-on AI automation). You’ll play a role in everything we do.\n\n**The key indicator of success for this role is customer growth. The ideal candidate is technical, has taste, is an exceptional communicator, gets hands dirty to create content and has a strong affinity for automation.**\n\n## Some areas where you will contribute\n\n* Automate every aspect of your day-to-day and for the company. Your job is to automate and manage agents to do the work for you.\n* Engaging with users across various channels and creating user-focused content.\n* Creating videos, technical blogs, feature walkthroughs and more.\n* Own the website, docs, blog and other user facing surfaces.\n\n## What you'll bring\n\n* You are an engineer with first-principles thinking and passionate about product and user experience. Customers are at the heart of everything you do.\n* You have a strong entrepreneurial mindset. You might have been a founder previously, have built an impressive side project or led on a project in our day job.\n\n## What we offer\n\n* High equity and compensation.\n* High impact role as a founding member of a high growth, profitable startup.\n* A very wide and interesting set of problems to work on.\n\nBonus: write a poem you wrote and we’ll place you in the fast track queue for interviews. jobs_skill 294 Marketing design 0 fulltime none\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-19T03:17:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "5e56a53c3d9c38c44fc13ca802ac92ef",
       "source": "wellfound",
