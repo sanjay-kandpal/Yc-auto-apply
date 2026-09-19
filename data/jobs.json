@@ -1,15 +1,321 @@
 {
-  "exported_at": "2026-09-19T03:17:20+00:00",
+  "exported_at": "2026-09-19T07:12:44+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 653,
-    "pending_approval": 136,
+    "discovered": 657,
+    "pending_approval": 137,
     "failed": 6,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "5a41b8d925783feb624ccf8efffbf031",
+      "source": "wellfound",
+      "company": "The Date Crew",
+      "role": "Product Engineer",
+      "url": "https://wellfound.com/jobs/4735211-product-engineer",
+      "jd_text": "Product Engineer\nExperience: 1–3 years\nLocation: Remote\nCompensation: ₹10–12 LPA + ESOPs\n\n\n**About The Date Crew\n**\n\nThe Date Crew is building a human-first matchmaking platform for relationship-ready professionals.\nWe don’t believe finding a life partner should be reduced to swipes, filters or endless profiles. We combine human judgment, psychology, technology and data to make matchmaking more thoughtful, efficient and effective.\n\nAs we scale, some of our most interesting challenges sit at the intersection of technology, product, operations and human behaviour.\nAnd that’s exactly where this role comes in.\n\n\n**The Role\n**\n\nWe are looking for a slightly unusual person.\nSomeone technical, but not obsessed with writing code for the sake of writing code.\nSomeone who sees a messy business problem and instinctively starts asking:\n\n* Why is this happening?\n* What does the data say?\n* Where exactly is the bottleneck?\n* Can this be solved with a process change?\n* Should we automate it?\n* Should we build a product for it?\n* Can AI solve part of it?\n\nWhat is the quickest way to test whether the solution actually works?\nYou will work across different parts of The Date Crew and solve problems spanning matchmaking, product, sales, marketing, customer experience and internal operations.\n\nOne week you could be improving how our matchmaking algorithm ranks profiles.\nAnother week you could be figuring out why customers are dropping off at a particular stage of the sales funnel.\n\nThe next problem could involve psychometric analysis, building an internal AI workflow, improving matchmaker productivity or automating a repetitive operational process.\nYour job is not simply to build what someone tells you to build.\nYour job is to understand the problem deeply and figure out the best way to solve it.\n\n**What You’ll Work On\n**\n\nExamples of problems you may solve:\n\nMatchmaking &amp; Recommendation Systems\n-Improve the way profiles are ranked and recommended.\n-Identify signals that actually predict compatibility.\n-Analyse acceptance/rejection behaviour and improve recommendation quality.\n-Build internal tools that help matchmakers make better decisions.\n\nPsychology &amp; Compatibility\n-Help structure psychometric or behavioural information.\n-Explore how qualitative information can become useful product signals.\n-Build tools that help our team better understand compatibility between two people.\n\nSales &amp; Growth\n-Analyse funnel drop-offs.\n-Identify why leads don't convert.\n-Build tools or automations to help the sales team prioritise leads.\n-Experiment with new ways of improving conversion.\n\nOperations\n-Identify repetitive processes that should disappear.\n-Build internal dashboards, automations and lightweight tools.\n-Reduce operational errors and manual work.\n-Improve how information flows between teams.\n\nAI &amp; Automation\n-Prototype AI agents and workflows.\n-Connect APIs, LLMs, CRMs and internal systems.\n-Use AI where it genuinely improves speed or decision-making—not because AI sounds cool.\n\n**What We’re Looking For\n**\n\nYou probably have 1–3 years of experience in engineering, product, automation, data or an early-stage startup environment.\n\nMore importantly, you think like a builder.\n\n**You should be comfortable with:\n**\n\n-Breaking ambiguous problems into smaller pieces.\n-Understanding APIs, databases and system architecture.\n-Writing enough code to build working solutions.\n-Using AI coding tools to prototype quickly.\n-Vibe coding and stitching different tools/services together.\n-Working with SQL or analysing data.\n-Thinking in terms of metrics and outcomes.\n-Building MVPs before building perfect systems.\n-Talking to users and internal teams before deciding what to build.\n\nYou don't necessarily need to be the world's best engineer.\n\nBut you should understand technology deeply enough to know what is possible, what is difficult and what is unnecessarily complicated.\n\n**You’ll Probably Love This Role If\n**\n\n-You frequently build random tools because something annoys you.\n-You have automated parts of your own life or work just because you could.\n-You enjoy figuring out why something is happening more than simply completing assigned tasks.\n-You can open a spreadsheet, look at a funnel and start forming hypotheses.\n-You can talk to an operations person in the morning and build a prototype for them by evening.\n-You are comfortable saying: “I don't think we should build this yet. Let me first understand whether this is actually the problem.”\n\n**You Might Not Enjoy This Role If\n**\n\n-You want clearly defined tickets and specifications before starting work.\n-You prefer working only on frontend, backend, data or one specific technical area.\n-You measure productivity primarily through lines of code shipped.\n-You dislike ambiguous problems.\n\nThis role will involve a lot of ambiguity.\n\n**What Success Looks Like\n**\n\n-Within your first few months, we would expect you to:\n-Identify high-impact problems independently.\n-Develop clear hypotheses around those problems.\n-Use data to validate them.\n-Prototype solutions quickly.\n-Work closely with the team using the solution.\n-Measure whether the solution actually improved the metric.\n-Kill ideas that don't work and iterate on the ones that do.\n-Ultimately, your output isn't software.\n-Your output is problems solved.\n\n**Compensation**\n₹10–12 lakh per annum + ESOPs\n\nFor the right person, this role can grow significantly as the product and technology organisation at The Date Crew evolves. Delhi\nlocationNames: Delhi\nremote: true",
+      "match_score": 7.27,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-19T07:12:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.32,
+            "overlap": 11.59,
+            "combined": 7.2
+          },
+          "backend": {
+            "cosine": 5.39,
+            "overlap": 11.65,
+            "combined": 7.27
+          },
+          "frontend": {
+            "cosine": 4.46,
+            "overlap": 14.08,
+            "combined": 7.34
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.39,
+        "keyword_overlap_score": 11.65,
+        "final_score": 7.27,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.13
+          },
+          {
+            "term": "problems",
+            "weight": 0.1062
+          },
+          {
+            "term": "tools",
+            "weight": 0.1062
+          },
+          {
+            "term": "data",
+            "weight": 0.0911
+          },
+          {
+            "term": "code",
+            "weight": 0.0607
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "812c71de17cdbbab4acb00db18ebb141",
+      "source": "wellfound",
+      "company": "ordflo",
+      "role": "Full Stack Developer (React / Node.js) - 0-1 Yrs",
+      "url": "https://wellfound.com/jobs/4718772-full-stack-developer-react-node-js-0-1-yrs",
+      "jd_text": "### About ordflo\nordflo (https://ordflo.com) is an AI-powered operational platform transforming how WhatsApp-first small and medium businesses (SMBs) run their daily operations. \n\nWe build autonomous AI agents that plug into official WhatsApp Business accounts to parse customer orders, answer queries, schedule appointments, and coordinate deliveries—all synchronized in real time to our native Android mobile dashboard.\n\nWe are looking for an ambitious, builder-minded *Full Stack Developer (Node.js / React / AI)* to help us expand our core platform and AI workflows.\n\n---\n\n### What You Will Work On\n* *AI Pipelines &amp; Message Processing:* Build and optimize backend microservices that interface with the *Meta WhatsApp Cloud API* and LLMs (OpenAI/Gemini APIs) to extract structured data from unstructured user messages.\n* *Full-Stack Development:* Build snappy web dashboards and admin tools using *React.js / Next.js, Node.js, and TypeScript*.\n* *Database &amp; Cloud Services:* Design and maintain low-latency database queries and real-time data sync using *Firebase / Cloud Firestore, MongoDB, or PostgreSQL*.\n* *Integrations:* Work on webhook listeners, asynchronous queues, payment gateways, and delivery notification triggers.\n* *Product Ownership:* Collaborate directly with the founding team to design, ship, and test features used by real businesses every day.\n\n---\n\n### What We Are Looking For\n* *Strong JavaScript / TypeScript Core:* Proficiency in modern JavaScript (ES6+), async/await, and RESTful API design.\n* *Hands-on Backend &amp; Frontend:* Practical experience building and deploying projects with *Node.js/Express* and *React.js*.\n* *Curiosity for AI / LLMs:* Understanding of how to call LLM APIs (OpenAI, Gemini), craft structured prompts, and parse JSON outputs.\n* *Familiarity with Cloud / NoSQL:* Working knowledge of Firebase/Firestore, MongoDB, or SQL databases.\n* *Git &amp; Version Control:* Comfortable with Git workflows, GitHub branches, and pull requests.\n* *Proof of Work:* Real projects, active GitHub profile, or deployed live web applications. *We value tangible proof of work over college pedigree.*\n\n---\n\n### Nice-to-Haves (Bonus)\n* Prior experience with WhatsApp Cloud API or chatbot development.\n* Basic familiarity with Android / Kotlin development.\n* Experience with Redis, message queues (BullMQ), or serverless functions.\n\n---\n\n### Why Join ordflo?\n* *High-Growth Frontier:* You will work on real-world generative AI automation solving tangible operational pain for thousands of businesses.\n* *100% Remote &amp; Autonomous:* Work from anywhere in India with flexible scheduling and a deep-work culture.\n* *Fast-Paced Learning:* Direct mentorship from founders, with zero bureaucracy—ship your code to production in your first week. Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 17.05,
+      "resume_variant": "frontend",
+      "draft_answer": "My experience building React/Node.js compliance platforms, including cutting fetch latency by 98% with Redis caching and automating workflows for 80+ client organizations, aligns with building snappy web dashboards and optimizing the real-time operational platform for WhatsApp Business accounts. I have built microservices-backed applications and handled end-to-end client requirements, which directly applies to designing and shipping features that process messages from official WhatsApp Business accounts.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-19T07:12:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 15.96,
+            "overlap": 17.22,
+            "combined": 16.34
+          },
+          "backend": {
+            "cosine": 15.7,
+            "overlap": 17.67,
+            "combined": 16.29
+          },
+          "frontend": {
+            "cosine": 16.04,
+            "overlap": 19.42,
+            "combined": 17.05
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 16.04,
+        "keyword_overlap_score": 19.42,
+        "final_score": 17.05,
+        "top_keywords": [
+          {
+            "term": "js",
+            "weight": 0.1726
+          },
+          {
+            "term": "cloud",
+            "weight": 0.1233
+          },
+          {
+            "term": "real",
+            "weight": 0.1233
+          },
+          {
+            "term": "node",
+            "weight": 0.0987
+          },
+          {
+            "term": "react",
+            "weight": 0.0987
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-19T07:12:42+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "66a85d36465a933e32cd6796c2c61024",
+      "source": "wellfound",
+      "company": "Ambrosia Botanicals",
+      "role": "JUNIOR FULL STACK DEVELOPER",
+      "url": "https://wellfound.com/jobs/4735136-junior-full-stack-developer",
+      "jd_text": "We are seeking a Junior Full Stack Developer who combines strong development fundamentals with practical use of AI, OpenAI Codex, and agentic AI workflows to deliver reliable web applications faster. This hands-on, in-office role covers front-end and back-end development, integrations, and internal tools. You will work with senior developers and designers, turn business needs into small testable tasks, and use AI thoughtfully for planning, implementation, debugging, testing, and documentation. You must understand, verify, and take responsibility for every change you deliver, whether written manually or with AI assistance. Gurgaon\nlocationNames: Gurgaon",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-19T07:12:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6acf73d386a560d3cbbcfd7011c8fc85",
+      "source": "wellfound",
+      "company": "fundary.ai",
+      "role": "Agent 架构工程师",
+      "url": "https://wellfound.com/jobs/4718610-agent",
+      "jd_text": "- 设计并实现 Agent 执行框架（Harness）：支持多轮工具调用、长程任务的跨会话连续执行，以及失败恢复与任务状态管理\n- 负责 Agent 的安全边界设计：沙盒隔离、权限控制、执行环境的安全加固，确保 Agent 作为云端服务安全可靠地运行\n- 负责 Context 管理机制：将 context 作为有限资源精细化调度，实现上下文压缩、裁剪、Agentic Memory 等机制，保障 Agent 在长程任务中的连贯性\n- 设计工具调用体系：工具集的最小化与规范化设计，确保调用链路清晰、token 高效、行为可预期\n- 建立 Agent 评估体系：设计多轮评估流程，结合确定性测试与模型评分，追踪 Agent 能力演进，识别回归与失败模式\n- 参与 Agent 产品的架构决策，推动系统从原型走向生产级稳定性 Beijing\nlocationNames: Beijing",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-19T07:12:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a45028660bd327b722a1254ece9257b9",
+      "source": "wellfound",
+      "company": "Zorqiva",
+      "role": "Junior Frontend Developer-US Based",
+      "url": "https://wellfound.com/jobs/4717777-junior-frontend-developer-us-based",
+      "jd_text": "**Company:** Zorqiva  \n**Location:** Remote (United States)  \n\n## About the Role\n\n**Zorqiva** is an early-stage startup building modern digital products. We are looking for a Junior Frontend Developer who enjoys turning ideas and designs into clean, responsive user experiences.\n\nYou will work closely with our engineering, product, and design teams to ship real features, improve the product, and grow quickly in a hands-on startup environment. We are looking for someone who is curious, reliable, detail-oriented, and excited to learn by building.\n\n## What You’ll Do\n\n- Build user-facing features using React, JavaScript or TypeScript, HTML, and CSS.\n- Turn Figma designs and product requirements into responsive, polished interfaces.\n- Build reusable components and connect frontend features to REST APIs.\n- Debug UI issues and help improve performance, usability, and accessibility.\n- Collaborate through GitHub pull requests, code reviews, and product discussions.\n\n## What We’re Looking For\n\n- Hands-on React experience through projects, internships, freelance work, coursework, or previous roles.\n- Bachelor’s degree in Computer Science, Software Engineering, or a closely related technical field.\n- Working knowledge of JavaScript or TypeScript, HTML, CSS, responsive design, Git, and REST APIs.\n- Evidence of completed frontend work through a LinkedIn profile, portfolio, personal project, internship, freelance engagement, or other relevant experience.\n- Strong communication skills, attention to detail, and willingness to learn.\n- Comfortable working in a fast-moving, remote startup environment.\n- Currently located in the United States and authorized to work in the United States.\n- Zorqiva cannot provide current or future employment visa sponsorship for this role.\n\n## Nice to Have\n\n- Experience with TypeScript, Next.js, Vite, Tailwind CSS, Material UI, or similar tools.\n- Familiarity with Figma, accessibility, frontend testing, or deployment workflows.\n- Experience working on a SaaS product, startup, agency, freelance project, or customer-facing application.\n\n## Why Zorqiva\n\n- Work directly on real product features and see the impact of your work.\n- Learn through hands-on development, mentorship, feedback, and code reviews.\n- Take ownership early in a growing startup.\n- Work remotely with flexible scheduling and agreed collaboration hours.\n- Base salary of $45,000–$60,000 per year, depending on skills and experience.\n\n## Eligibility\n\nThis is a remote position for candidates currently located in the United States. Applicants must be authorized to work in the United States. Zorqiva cannot provide current or future employment visa sponsorship for this role.\n\n## How to Apply\n\nPlease submit all of the following:\n\n- Your current resume.\n- Your LinkedIn profile URL.\n- A required 2–3 minute Loom video introduction.\n\nIn your Loom video, please share:\n\n- Who you are and where you are based.\n- Your React or frontend-development experience.\n- One project you are proud of building.\n- Why you are interested in joining Zorqiva.\n\nOptional: GitHub, portfolio, deployed application links, and code samples are welcome but not required.\n\nZorqiva is an equal opportunity employer. Anchorage\nlocationNames: Anchorage\nremote: true",
+      "match_score": 9.32,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-19T07:12:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.21,
+            "overlap": 9.93,
+            "combined": 6.63
+          },
+          "backend": {
+            "cosine": 4.31,
+            "overlap": 10.53,
+            "combined": 6.17
+          },
+          "frontend": {
+            "cosine": 7.49,
+            "overlap": 13.59,
+            "combined": 9.32
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 7.49,
+        "keyword_overlap_score": 13.59,
+        "final_score": 9.32,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.1521
+          },
+          {
+            "term": "experience",
+            "weight": 0.1244
+          },
+          {
+            "term": "facing",
+            "weight": 0.0626
+          },
+          {
+            "term": "ui",
+            "weight": 0.0626
+          },
+          {
+            "term": "code",
+            "weight": 0.0622
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "7d4b68b3ef8177bcbe46c4004f0b004c",
       "source": "yc",
