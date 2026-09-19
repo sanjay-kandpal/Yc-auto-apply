@@ -1,15 +1,243 @@
 {
-  "exported_at": "2026-09-19T08:37:05+00:00",
+  "exported_at": "2026-09-19T13:49:06+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 657,
-    "pending_approval": 137,
+    "discovered": 659,
+    "pending_approval": 138,
     "failed": 6,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "9eac4f8dc554bacd0b5a1711347d3883",
+      "source": "wellfound",
+      "company": "Neugence Technology",
+      "role": "Founding Software Engineer",
+      "url": "https://wellfound.com/jobs/4742380-founding-software-engineer",
+      "jd_text": "# Build With Us — WhipScribe Founding Software Engineer\n\nWe're looking for a **Founding Software Engineer** to join WhipScribe and work directly with the founding team on a real product used by real customers.\n\nInstead of evaluating candidates only through resumes and interviews, we want to see **how you think, what you build, and how you ship**.\n\n## Start Here\n\n### 🚀 [Open the WhipScribe Buildathon &amp; Hiring Challenge](https://github.com/neugence/whipscribe-buildathon)\n\n**Please read the complete challenge repository before submitting your application.**\n\nThe repository contains the complete hiring challenge, available tracks, instructions, evaluation criteria, setup information, and submission process.\n\nYou can choose the challenge that best demonstrates your strengths — whether that's **desktop development, web/product engineering, APIs, AI workflows, MCP integrations, UI/UX, or something you want to build from scratch.**\n\n## What We're Looking For\n\nWe're looking for someone who:\n\n* Builds without waiting for detailed instructions.\n* Can take an idea from **problem → solution → implementation → deployment**.\n* Has strong product and UI/UX judgment.\n* Uses AI tools such as Claude, ChatGPT, Cursor, Copilot, and coding agents effectively.\n* Understands, validates, and improves AI-generated work rather than blindly accepting it.\n* Is comfortable working across technologies and learning quickly.\n* Cares about what reaches the customer, not just what works locally.\n* Takes ownership and enjoys working in a fast-moving startup environment.\n\n## Your First Step\n\nBefore building anything, **show us what you've already built.**\n\nShare your:\n\n* GitHub\n* LinkedIn\n* Portfolio\n* Shipped applications\n* Hackathon projects\n* Open-source work\n* Projects you're proud of\n* Team or leadership experience\n\nThen use WhipScribe yourself and look at the product as both an engineer and a user.\n\nFind something that could be better.\n\nThen **build.**\n\n## The Challenge\n\nThe Buildathon repository contains multiple tracks, including:\n\n**Track 1 — Find What Is Wrong**\nUse WhipScribe on desktop and mobile, identify meaningful product/UI/UX problems, and propose improvements.\n\n**Track 2 — Build the Desktop App**\nBuild a real desktop meeting-recording experience integrated with WhipScribe.\n\n**Track 3 — Google Drive, Bulk Upload &amp; Search**\nBuild a workflow for processing recordings from Google Drive and searching across their transcripts.\n\n**Track 4 — Invent a Workflow**\nIdentify a real problem that can be solved with audio/video intelligence and build the workflow using the WhipScribe API, MCP server, or both.\n\nYou can choose one or more tracks.\n\n## Don't Optimize for Size\n\nWe don't expect you to build a huge system.\n\n**One small, polished feature that actually works is better than a massive unfinished project.**\n\nWe want to see:\n\n* Your product thinking\n* Your engineering ability\n* Your UI/UX judgment\n* Your ability to use AI effectively\n* Your attention to detail\n* Your ability to finish\n* Your ability to learn\n* Your ownership\n\n## How to Submit\n\nFollow the instructions inside the Buildathon repository:\n\n### 👉 [View the Full Challenge &amp; Submit Your Work](https://github.com/neugence/whipscribe-buildathon)\n\nYour submission should include your project/source code, explanation of what you built, demo where applicable, and the other information requested by the selected challenge track.\n\n**Please do not submit a proposal without first reading the Buildathon repository.**\n\n## What Happens Next\n\nWe review your work based on the quality of your thinking, implementation, product sense, and ability to ship.\n\nStrong candidates may be invited to work with us on the real product before receiving the full-time offer, allowing both sides to evaluate the fit through actual work.\n\n### The Opportunity\n\n**Role:** Founding Software Engineer\n**Company:** Neugence Technology — WhipScribe\n**Work:** Fully Remote\n**Compensation:** ₹6–10 LPA, negotiable based on skills and ownership\n**Type:** Full-time\n**Joining:** Immediate\n\nYou'll work directly with the founding team and have ownership over real product areas from the beginning.\n\n---\n\n## Ready?\n\nDon't just tell us you're a builder.\n\n### **Show us.**\n\n🚀 **[Start the WhipScribe Buildathon →](https://github.com/neugence/whipscribe-buildathon)** Gurugram\nlocationNames: Gurugram\nremote: true",
+      "match_score": 7.56,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-19T13:48:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.4,
+            "overlap": 11.59,
+            "combined": 6.56
+          },
+          "backend": {
+            "cosine": 4.34,
+            "overlap": 12.03,
+            "combined": 6.64
+          },
+          "frontend": {
+            "cosine": 4.76,
+            "overlap": 14.08,
+            "combined": 7.56
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 4.76,
+        "keyword_overlap_score": 14.08,
+        "final_score": 7.56,
+        "top_keywords": [
+          {
+            "term": "ui",
+            "weight": 0.0956
+          },
+          {
+            "term": "real",
+            "weight": 0.0949
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0791
+          },
+          {
+            "term": "github",
+            "weight": 0.0633
+          },
+          {
+            "term": "com",
+            "weight": 0.0474
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0f2188bdd7e99d64b4a28d971b6d27df",
+      "source": "wellfound",
+      "company": "Neugence Technology",
+      "role": "Founding Product Engineer — Web, Android & Desktop (AI-Native)",
+      "url": "https://wellfound.com/jobs/4597496-founding-product-engineer-web-android-desktop-ai-native",
+      "jd_text": "# Founding Product Engineer — Whipscribe\n\n**Company:** Whipscribe by Neugence Technology\n**Location:** Fully Remote\n**Type:** Full-time\n**Probation:** 3 Months\n\n## About Whipscribe\n\nWhipscribe is an AI-powered audio and video intelligence platform. Users can record or upload media, transcribe content in 100+ languages, use speaker diarization and word-level timestamps, generate AI insights, create clips and captions, and access Whipscribe through APIs and integrations.\n\nWe are looking for a **Founding Product Engineer** who wants to build, experiment, and take ownership—not simply execute assigned tickets.\n\nYou will work directly with the founder across **engineering, product, and AI**, owning features from idea to production.\n\n## Skills\nReact / Next.js, TypeScript / JavaScript, Android / Kotlin, Electron / Tauri, Node.js / Python, REST APIs, PostgreSQL / MongoDB, AI / LLM APIs, Claude / Cursor / AI Coding Agents, FFmpeg &amp; Audio/Video Processing, Git / CI/CD / Testing, Product Thinking &amp; Technical Problem Solving\n\n## What You'll Do\n\n* Build and ship features across **Web, Android, Desktop, Backend, and AI**\n* Research problems and evaluate technical and product solutions\n* Build AI-powered workflows using LLM APIs\n* Use AI coding tools such as **Claude/Opus, ChatGPT, Cursor, and GitHub Copilot**\n* Review, test, and validate AI-generated code\n* Work with APIs, databases, authentication, and backend systems\n* Improve UX, performance, reliability, and product quality\n* Research competitors and emerging technologies\n* Prototype and validate ideas quickly\n* Own features end-to-end: **Problem → Research → Build → Test → Launch → Iterate**\n* Identify problems proactively and propose solutions\n\n## What We're Looking For\n\n### Must Have\n\n* Strong programming fundamentals\n* Experience building production applications\n* Strong web development skills\n* Android development experience\n* Ability to build and ship independently\n* Understanding of APIs, databases, and backend systems\n* Strong debugging and problem-solving skills\n* Git and modern development workflows\n* Ability to work effectively with AI coding tools\n* Strong communication, ownership, and attention to detail\n\n### Strongly Preferred\n\n* React / Next.js\n* Android / Kotlin\n* Electron / Tauri\n* Node.js / Python\n* AI / LLM APIs\n* FFmpeg and audio/video processing\n* Startup or 0→1 product experience\n* Experience independently launching products\n\n## AI-Native Engineering\n\nAI is a core part of our development workflow.\n\nYou should be able to use AI aggressively while still exercising strong engineering judgment:\n\n* Provide the right context\n* Break complex problems into smaller tasks\n* Review and validate generated code\n* Verify technical claims and documentation\n* Test edge cases and security\n* Benchmark solutions\n* Know when AI is wrong\n\n**AI should make you faster—not less thoughtful.**\n\n## Product Mindset\n\nYou won't just receive specifications. You will be expected to think about:\n\n* What problem are we solving?\n* Who is the user?\n* Is there a simpler solution?\n* What are competitors doing?\n* Can we validate the idea before building it?\n* How will we measure success?\n\nYou will own **product and technical due diligence** for the work you take on.\n\n## Who We're Looking For\n\nWe want someone who is **self-driven, curious, and hungry to grow**.\n\nSomeone who:\n\n* Learns without being told\n* Builds because they are curious\n* Reads documentation and figures things out\n* Uses AI intelligently\n* Takes ownership when things break\n* Is comfortable saying \"I don't know\" and finding the answer\n* Cares about product quality and user experience\n* Wants to become significantly better over the next 2–3 years\n\nThis role is **not for someone who only wants to complete tickets**. It is for someone who wants to become a strong product-minded engineer and eventually own major parts of a startup.\n\n## First 90 Days\n\n**0–30 Days**\n\n* Understand the architecture and product\n* Learn user workflows\n* Fix important bugs and UX issues\n* Ship meaningful improvements\n* Adopt our AI-assisted development workflow\n\n**30–60 Days**\n\n* Own complete features independently\n* Improve existing workflows\n* Research new product opportunities\n* Contribute to Android/Desktop development\n* Strengthen testing and release practices\n\n**60–90 Days**\n\n* Own a major product area\n* Ship multiple meaningful improvements\n* Propose and validate new ideas\n* Improve product quality, performance, and UX\n* Demonstrate end-to-end ownership\n\n## How We Hire\n\nWe care more about **what you can build** than your resume.\n\nThe process may include a practical product assignment involving:\n\n1. Researching a real problem\n2. Evaluating solutions\n3. Using AI tools effectively\n4. Building a working prototype\n5. Explaining technical decisions\n6. Discussing what you'd improve for production\n\n\n**If you want to build, experiment, learn fast, and take ownership—apply.**\n\n**Build, don't just code.** Gurugram\nlocationNames: Gurugram\nremote: true",
+      "match_score": 11.84,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently taken end-to-end ownership, building full-stack systems from client requirements to 98% performance optimizations via caching and zero-downtime blue-green deployments for robust web applications. My experience integrating AI tool-calling agents and implementing high-concurrency backend solutions prepares me to build and improve core features for an AI-powered audio/video intelligence platform like Whipscribe.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-19T13:48:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.96,
+            "overlap": 16.23,
+            "combined": 11.84
+          },
+          "backend": {
+            "cosine": 9.9,
+            "overlap": 16.92,
+            "combined": 12.0
+          },
+          "frontend": {
+            "cosine": 9.1,
+            "overlap": 19.9,
+            "combined": 12.34
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.96,
+        "keyword_overlap_score": 16.23,
+        "final_score": 11.84,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.345
+          },
+          {
+            "term": "apis",
+            "weight": 0.0987
+          },
+          {
+            "term": "experience",
+            "weight": 0.0705
+          },
+          {
+            "term": "technical",
+            "weight": 0.0705
+          },
+          {
+            "term": "end",
+            "weight": 0.069
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-19T13:49:02+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e17355cab48d87350219a97a25742557",
+      "source": "wellfound",
+      "company": "Impact Analytics",
+      "role": "Python Developer",
+      "url": "https://wellfound.com/jobs/1053169-python-developer",
+      "jd_text": "**Job Description**\r\nExpert in Python. Comfortable with Web frameworks, such as Flask or Django\r\nFamiliarity with Object Relational Mapping Libraries and ability to Integrate with Multiple Data Sources into One System\r\nUnderstanding of Limitations of Python and Multi Process Architecture. Understanding of Design Principles of Scalable Application\r\nHas familiarity with data frameworks in Python - Pandas or PySpark.\r\nGood object-oriented design skills and knowledge of design patterns.\r\nKnowledge of key-value stores, caching, search, messaging queues Bengaluru Bangalore Urban\nlocationNames: Bengaluru Bangalore Urban",
+      "match_score": 5.31,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-19T13:48:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.45,
+            "overlap": 3.97,
+            "combined": 5.01
+          },
+          "backend": {
+            "cosine": 5.65,
+            "overlap": 4.51,
+            "combined": 5.31
+          },
+          "frontend": {
+            "cosine": 3.96,
+            "overlap": 5.34,
+            "combined": 4.38
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.65,
+        "keyword_overlap_score": 4.51,
+        "final_score": 5.31,
+        "top_keywords": [
+          {
+            "term": "python",
+            "weight": 0.2451
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.1225
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.1225
+          },
+          {
+            "term": "data",
+            "weight": 0.1225
+          },
+          {
+            "term": "architecture",
+            "weight": 0.0749
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "5a41b8d925783feb624ccf8efffbf031",
       "source": "wellfound",
