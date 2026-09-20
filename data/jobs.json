@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-09-20T03:34:04+00:00",
+  "exported_at": "2026-09-20T07:37:40+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 660,
+    "discovered": 661,
     "pending_approval": 138,
     "failed": 6,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "f6f899131d06fb460f1214fb6a05d4ec",
+      "source": "wellfound",
+      "company": "Redule Ai",
+      "role": "Frontend Designer / Developer",
+      "url": "https://wellfound.com/jobs/4745946-frontend-designer-developer",
+      "jd_text": "###  Interface Design &amp; Development\n* Design and build responsive, modern web interfaces on top of Laravel Blade, Tailwind CSS, and Alpine.js.\n* Create 3D-animated interface elements — onboarding flows, live agent-activity visualizations, campaign-approval screens, and other moments where a flat UI won't do the product justice.\n* Own the design system — our dense, high-signal, command-driven visual language (inspired by tools like the GCP/AWS console, not generic purple-gradient SaaS templates).\n### Product Collaboration\n* Work directly with the backend/AI team to wire real, live data into clean, fast interfaces — leads, AI agent timelines, support tickets, billing, and (soon) ad-campaign drafts awaiting human approval.\n* Turn rough product requirements into working screens quickly, iterating with a solo technical founder rather than a large design committee.\n### Quality &amp; Performance\n* Fix real UX issues in the live product (layout bugs, responsiveness gaps, information density problems) as they're identified.\n* Keep animations and 3D elements performant across devices — beautiful but never sluggish.\n* Maintain cross-browser and mobile responsiveness across the full workspace.\n### Core Technical Skills\n* Strong hands-on experience with Laravel (ideally Laravel 13) and PHP 8.4+\n* Comfortable working directly in Blade templates within a real, live Laravel codebase\n* Real experience designing responsive, user-friendly web application interfaces — portfolio or live product examples required\n* Genuine, demonstrable experience building 3D and animated web interfaces, using tools such as:\n* Three.js or raw WebGL for 3D scenes and objects\n* GSAP (GreenSock) or a comparable animation library for complex motion sequences\n* CSS3 3D transforms, perspective, and transitions for lighter-weight 3D effects\n* Solid command of Tailwind CSS (or a comparable utility-first CSS framework)\n* Experience with Alpine.js or a similarly lightweight JS framework (we are intentionally not a heavy SPA)\n* Comfortable with Git-based collaborative workflows\n### Nice to Have\n* Experience designing UX for AI or agentic products — approval flows, live status/timeline views, real-time activity feeds\n* A strong eye for dark-themed, high-contrast interface design\n* Experience with data-dense dashboards (analytics tools, admin consoles, developer tools)\n* Motion-design background — Lottie, After Effects export workflows, or similar Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 9.71,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-20T07:37:38+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.31,
+            "overlap": 10.26,
+            "combined": 8.19
+          },
+          "backend": {
+            "cosine": 7.34,
+            "overlap": 9.4,
+            "combined": 7.96
+          },
+          "frontend": {
+            "cosine": 8.46,
+            "overlap": 12.62,
+            "combined": 9.71
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 8.46,
+        "keyword_overlap_score": 12.62,
+        "final_score": 9.71,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1448
+          },
+          {
+            "term": "real",
+            "weight": 0.1207
+          },
+          {
+            "term": "js",
+            "weight": 0.0965
+          },
+          {
+            "term": "tools",
+            "weight": 0.0965
+          },
+          {
+            "term": "responsiveness",
+            "weight": 0.0729
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "d287fe459a6d471a39d36e45a6287653",
       "source": "yc",
