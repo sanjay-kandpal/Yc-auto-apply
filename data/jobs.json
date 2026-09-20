@@ -1,15 +1,473 @@
 {
-  "exported_at": "2026-09-20T18:33:54+00:00",
+  "exported_at": "2026-09-20T20:35:54+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 664,
-    "pending_approval": 139,
+    "discovered": 669,
+    "pending_approval": 141,
     "failed": 6,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "fd0bbd94dca44f1e707a8be9439f6126",
+      "source": "wellfound",
+      "company": "Unetra",
+      "role": "Senior Mobile App Developer",
+      "url": "https://wellfound.com/jobs/4745954-senior-mobile-app-developer",
+      "jd_text": "UNETRA is looking for an experienced developer to build high-quality Android and iOS applications.\n\n\n\nPrimary Role-\nBuild and maintain UNETRA's mobile applications including onboarding, properties, dashboards, payments, documents, notifications and customer workflows.\n\n**Work Experience:**\n3+ years in mobile application development, preferably with production Flutter applications.\n\n**Skills:**\nFlutter, Dart, REST APIs, Firebase, push notifications, mobile security, state management, Android/iOS deployment and debugging. Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-20T20:35:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a5a1afcc51af334376655223c5de927c",
+      "source": "wellfound",
+      "company": "Unetra",
+      "role": "Senior Full Stack Engineer",
+      "url": "https://wellfound.com/jobs/4745953-senior-full-stack-engineer",
+      "jd_text": "UNETRA is looking for a strong Full-Stack Engineer to build and scale our rental technology platform\nand Develop UNETRA's website, backend, APIs, databases and tenant, landlord, broker and administrative dashboards. Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 4.26,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-20T20:35:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.67,
+            "overlap": 3.31,
+            "combined": 4.26
+          },
+          "backend": {
+            "cosine": 4.58,
+            "overlap": 3.01,
+            "combined": 4.11
+          },
+          "frontend": {
+            "cosine": 2.81,
+            "overlap": 2.91,
+            "combined": 2.84
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.67,
+        "keyword_overlap_score": 3.31,
+        "final_score": 4.26,
+        "top_keywords": [
+          {
+            "term": "stack",
+            "weight": 0.2918
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1931
+          },
+          {
+            "term": "broker",
+            "weight": 0.1181
+          },
+          {
+            "term": "tenant",
+            "weight": 0.1181
+          },
+          {
+            "term": "apis",
+            "weight": 0.0966
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7f594f92745f24ce6ecfb9e783674777",
+      "source": "wellfound",
+      "company": "The Prompt Academy",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4372312-software-engineer",
+      "jd_text": "**Company Description**\nThe Prompt Academy is hiring a Software Engineer to transform how people learn AI and technology skills. We're looking for a driven, product-minded, AI-first engineer who treats AI tools and automation as a default part of how they build — someone who can do the output of a much larger team by leaning on AI agents, code generation, and smart workflows. If you're excited to build a platform that teaches the world AI skills while using those same tools to scale your own impact, we'd love to hear from you!\n\n**Role Description**\nThis is a full-time, Software Engineer role working remotely from anywhere, U.S. preferred. The Software Engineer will be responsible for designing, building, and scaling features across our learning and assessment platform, from frontend interfaces to backend services.\n\nResponsibilities include day-to-day development across the full stack, building and integrating AI-powered functionality, and supporting product initiatives from concept to launch. The role will also involve writing clean, well-tested code, maintaining the assessment and credentialing infrastructure, and collaborating closely with the broader product and design teams to drive user engagement and a high-quality experience.\n\n**What You Will Do**\nUse AI coding tools to design, build, and ship software faster and at higher quality\nBuild and maintain automated workflows and agents that take manual, repetitive tasks off your plate\nDesign, develop, and maintain features across the web application, from frontend interfaces to backend services\nBuild and integrate AI-powered functionality, including LLM-based features, evaluations, and orchestration logic\nDevelop and maintain the assessment and credentialing infrastructure that scores and verifies user proficiency\nWrite clean, maintainable, and well-tested code, and participate in code reviews\nContribute to technical decisions, including architecture, scoping, and prioritization\nTrack and improve application performance, reliability, and quality\nCollaborate with product, design, and content teams in a fast-moving environment\n\n\n**Qualifications**\n1–3 years of experience in software engineering or a related role\nAn AI-first mindset — you reach for AI tools by default to build faster, smarter, and at greater scale\nHands-on experience using AI tools and building agents with ChatGPT, Claude, and Generative AI models for coding, research, and product work\nExperience building automated workflows and connecting tools to eliminate manual work\nHands-on experience building and shipping full-stack web applications\nStrong skills with a modern web stack such as TypeScript, React, Next.js, Node.js, and PostgreSQL\nSolid understanding of building, testing, and maintaining production software\nStrong problem-solving skills and comfort working in a fast-paced environment\n\n\n**Nice To Have**\nExperience integrating LLM APIs into production applications a plus (prompt engineering, RAG, evaluations, streaming)\nFamiliarity with B2B or B2C SaaS products a plus\nEdTech experience a plus\nExperience with real-time or interactive web technologies such as WebGL or Three.js a plus\nStrong organizational skills, attention to detail, and a proactive, test-and-learn mindset Los Angeles\nlocationNames: Los Angeles\nremote: true",
+      "match_score": 12.03,
+      "resume_variant": "fullstack",
+      "draft_answer": "As a full-stack engineer, I consistently leverage AI tool-calling agents and build automated workflows to enhance development and achieve significant performance gains, such as cutting API fetch latency by 98%. I am eager to apply my experience in building and scaling full-stack applications and integrating LLM-based features to develop and maintain your learning and assessment platform that teaches AI skills.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-20T20:35:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.66,
+            "overlap": 15.23,
+            "combined": 12.03
+          },
+          "backend": {
+            "cosine": 10.21,
+            "overlap": 13.91,
+            "combined": 11.32
+          },
+          "frontend": {
+            "cosine": 8.83,
+            "overlap": 15.05,
+            "combined": 10.69
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.66,
+        "keyword_overlap_score": 15.23,
+        "final_score": 12.03,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3091
+          },
+          {
+            "term": "experience",
+            "weight": 0.1685
+          },
+          {
+            "term": "tools",
+            "weight": 0.1263
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1053
+          },
+          {
+            "term": "skills",
+            "weight": 0.1053
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-20T20:35:52+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "adf40db83d989a8e910f2eb9fa985d39",
+      "source": "wellfound",
+      "company": "Bytenest",
+      "role": "OPT / STEM OPT Technology Career Opportunities (Clone)",
+      "url": "https://wellfound.com/jobs/4733673-opt-stem-opt-technology-career-opportunities-clone",
+      "jd_text": "Are you an international student or recent graduate looking to begin your U.S. technology career?\n\n**We work with candidates in areas including:**\n\n* Software Engineering\n* Data Engineering\n* Data Science\n* Cloud/AWS/Azure\n* DevOps\n* Cybersecurity\n* AI/ML\n* Business Analysis\n\n\n**Support may include:**\n\n✓ Career guidance\n✓ Resume/profile preparation\n✓ Technical training\n✓ In-house projects\n✓ Employment onboarding\n✓ Professional development\n\nEligibility and employment arrangements are evaluated individually based on applicable U.S. work-authorization and employer requirements. Alabama Arkansas California Delaware Minnesota Mississippi Missouri New York City North Carolina Ohio Pennsylvania Tennessee Texas Utah Virginia Washington DC Florida Massachusetts Vermont Maine New Hampshire Rhode Island Connecticut New Jersey Oklahoma City Louisiana Oregon Colorado Illinois Kentucky Michigan Kansas Georgia Nevada Wisconsin Arizona Idaho Montana New Mexico Wyoming Alaska Hawaii Maryland Indiana Nebraska Iowa South Carolina North Dakota Kansas City South Dakota West Virginia Texas City Northern California\nlocationNames: Alabama Arkansas California Delaware Minnesota Mississippi Missouri New York City North Carolina Ohio Pennsylvania Tennessee Texas Utah Virginia Washington DC Florida Massachusetts Vermont Maine New Hampshire Rhode Island Connecticut New Jersey Oklahoma City Louisiana Oregon Colorado Illinois Kentucky Michigan Kansas Georgia Nevada Wisconsin Arizona Idaho Montana New Mexico Wyoming Alaska Hawaii Maryland Indiana Nebraska Iowa South Carolina North Dakota Kansas City South Dakota West Virginia Texas City Northern California\nremote: true",
+      "match_score": 2.9,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-20T20:35:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.31,
+            "overlap": 3.97,
+            "combined": 2.81
+          },
+          "backend": {
+            "cosine": 2.37,
+            "overlap": 4.14,
+            "combined": 2.9
+          },
+          "frontend": {
+            "cosine": 1.7,
+            "overlap": 5.83,
+            "combined": 2.94
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 2.37,
+        "keyword_overlap_score": 4.14,
+        "final_score": 2.9,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.0463
+          },
+          {
+            "term": "ai",
+            "weight": 0.0283
+          },
+          {
+            "term": "analysis",
+            "weight": 0.0232
+          },
+          {
+            "term": "aws",
+            "weight": 0.0232
+          },
+          {
+            "term": "azure",
+            "weight": 0.0232
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f302f7d124491f78eb8749684777d1de",
+      "source": "wellfound",
+      "company": "Artha Logic",
+      "role": "AI Data Specialist",
+      "url": "https://wellfound.com/jobs/4728379-ai-data-specialist",
+      "jd_text": "As an AI Data Specialist, you will directly shape the intelligence, reasoning capabilities, and alignment of our custom SLMs. You won't just be clicking boxes; you will be authoring complex reasoning steps, stress-testing model responses, evaluating edge-case logic, and providing granular feedback on nuanced outputs.\n\nYou will perform your work through our dedicated, high-speed remote annotation platform. San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-20T20:35:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "895f29c64762316ba911296850f6e344",
+      "source": "wellfound",
+      "company": "Super",
+      "role": "Agentic Engineer (Voice AI)",
+      "url": "https://wellfound.com/jobs/3346686-agentic-engineer-voice-ai",
+      "jd_text": "We believe the next era of software is underway. AI is set to transform enterprise operations and B2B software in favor of agentic AI. As an early-stage company, Super has big ambitions to rapidly deploy agents at scale to disrupt real estate industry operations. We have demonstrated rapid traction with property managers with our AI customer service agent that saves time and reduces overhead operational costs.\n\nWe are building an engineering team that is equally audacious.\n\nWe're seeking a hands-on Agentic Engineer who can push the boundaries of what's possible with voice AI. You'll be working with cutting-edge LiveKit technology to create low-latency, personalized voice experiences that differentiate Super in the market. This is a high-agency role where your curiosity, experimentation, and technical innovation will directly shape our product roadmap.\n\n**What You'll Build**\nOur voice product is well-defined and structured—now we need someone to envision and build what comes next. \n\nYou'll be creating:\n- Ultra-low latency voice agents using LiveKit Agents, deconstructed voice pipelines, and real-time streaming\n- Personalized conversational experiences that dynamically fetch contextual information about companies, contacts, and property data and solve customer problems as effectively and efficiently as possible\n- Specialized agentic workflows for real estate actions like lease showings, bookings, and property management\n- Real-time synchronization between voice interactions and our event-driven backend systems\n- You'll work with the full voice stack: Speech-to-Text (STT), Text-to-Speech (TTS), LLM orchestration, and agentic toolkits like LangChain—all optimized for minimal latency and maximum user engagement.\n\n**The Role**\nYou'll design and implement voice agents using LiveKit's pipeline approach, experimenting with novel agentic behaviors while maintaining production-quality performance. Your discoveries and insights will inform our product roadmap as you communicate learnings to help make strategic decisions about voice AI capabilities.\n\n**Core Technical Skills:**\n- Python expertise for agent development and orchestration\n- TypeScript proficiency for API integration and real-time data flows\n- LiveKit experience with agents, deconstructed pipelines, and real-time streaming\n- Voice/audio processing knowledge with STT, TTS, or conversational AI systems\n- Agentic frameworks like LangChain, or similar LLM orchestration tools\n\n**Preferred Experience:**\n- Real-time systems experience with WebRTC, streaming protocols, or event-driven architectures\n- Low-latency system optimization and performance tuning\n- Building conversational AI products or voice user interfaces\n- Event-driven architecture and microservices\n\n**What Makes You Stand Out:**\n- Entrepreneurial mindset with high autonomy and ownership for customer problems and shared team goals\n- Thrive in ambiguity - you excel where experimentation and building go hand-in-hand\n- Insatiable curiosity about voice AI technology and exploring what's possible at the cutting edge\n- Strong communication skills to help teams make informed technical and architectural tradeoffs based on your discoveries\n- Passion for user experience - you're driven to create voice experiences that delight users and solve real problems\n- Iteration mindset - you understand that innovation happens through building, testing, and rebuilding\n- Customer-oriented thinking - you balance technical possibilities with real user needs\n\n**Why This Role Matters**\nVoice Agent software represents a new paradigm whose technology opens up a whole new range of applications. You'd be among the first engineers globally to master this emerging field and define what world-class voice AI looks like. Your work will:\n- Pioneer new interaction patterns that other companies will follow\n- Directly influence our product strategy in a fast-moving startup environment\n- Solve real problems for property managers and tenants through voice-first experiences\n- Build technology moats that establish Super as the voice AI leader in real estate\n\n**Benefits and Perks**\n- Competitive salary and equity in a fast-growing AI company\n- Remote-first culture with workplace flexibility\n- High autonomy and ownership - your experiments help shape our product roadmap\n- Cutting-edge technology stack - work with the newest voice AI tools and tech\n- Direct customer impact - see your voice agents solve real problems for real users\n- Nimble team, big influence - your voice matters in every product decision\n\nReady to define the future of voice AI? We're looking for someone who gets excited about millisecond optimizations, technical infrastructure, loves experimenting with agentic behaviors, and wants to build voice experiences that feel like magic to users Los Angeles New York City\nlocationNames: Los Angeles New York City\nremote: true",
+      "match_score": 9.21,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-20T20:35:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.2,
+            "overlap": 13.91,
+            "combined": 9.21
+          },
+          "backend": {
+            "cosine": 6.88,
+            "overlap": 13.53,
+            "combined": 8.87
+          },
+          "frontend": {
+            "cosine": 5.2,
+            "overlap": 14.56,
+            "combined": 8.01
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.2,
+        "keyword_overlap_score": 13.91,
+        "final_score": 9.21,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2275
+          },
+          {
+            "term": "real",
+            "weight": 0.1727
+          },
+          {
+            "term": "agents",
+            "weight": 0.0975
+          },
+          {
+            "term": "time",
+            "weight": 0.0797
+          },
+          {
+            "term": "problems",
+            "weight": 0.0664
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ee36926b387e25962fc9e67b9b3ff224",
+      "source": "wellfound",
+      "company": "PadosiPro",
+      "role": "Full-Stack App & Web Developer — React Native, Next.js, Node (Remote, India)",
+      "url": "https://wellfound.com/jobs/4728462-full-stack-app-web-developer-react-native-next-js-node-remote-india",
+      "jd_text": "**PadosiPro Private Limited** runs two products. We are hiring one developer to own both.\n\n**PadosiPro** is a lifestyle management service for Indian households. A household sends us anything that needs handling — a repair, an errand, a doctor's appointment, travel, vendor coordination, paperwork — and a dedicated Lifestyle Manager owns it until it is done. A large share of our customers live abroad while their parents live in India.\n\n**Fofees** is a foods-and-festivals travel concierge for foreigners visiting India — itineraries, on-ground hosts, and the coordination behind them.\n\nBoth are live, both have paying customers, and both are held together by more manual work than they should be. Your job is to close that gap.\n\n## What already exists\n\nSo you know what you are joining rather than guessing:\n\n- A customer mobile app on **React Native / Expo**, live on the web, with email OTP authentication in production.\n- A **Node/TypeScript** API on Postgres, deployed on Vercel, with Razorpay wallet payments and a WhatsApp Business integration.\n- An internal founder dashboard — **Next.js, TypeScript, Prisma, Postgres** — that runs leads, hiring, vendors and operations across both companies.\n- Two marketing sites, both indexed and both with real organic traffic to protect.\n\nThis is not a greenfield project and it is not a legacy mess. It is an early codebase that works, shipped fast, and now needs someone who will own it properly.\n\n## What you will do\n\n**Own development end to end** — architecture, UI/UX, deployment, monitoring, optimisation and maintenance. There is no separate DevOps person, no separate designer, and no one to hand a ticket to.\n\n**Build the four applications, properly.** Premium, minimal and genuinely fast:\n\n- **Customer** — authentication, service discovery, booking and request flows, notifications, payments, live tracking, reviews, support.\n- **Vendor** — onboarding, dashboards, service and catalogue management, availability, order handling, payouts, performance tracking.\n- **Lifestyle Manager / Admin / Founder** — assignment, escalation, SLA visibility, and the operational reporting the business actually runs on.\n\n**Make the websites earn their traffic.** Technical SEO, Core Web Vitals, performance, accessibility, analytics, conversion and organic search growth — as an owned number, not a one-off audit.\n\n**Integrate the things the business runs on.** Payment gateways, WhatsApp, email and SMS, CRM, analytics, advertising platforms and third-party APIs.\n\n**Build automated lead funnels.** Capture leads from the websites, Instagram, WhatsApp and marketing campaigns, and route them into one central CRM and founder dashboard, without anyone copying a row by hand.\n\n**Build AI-powered automations and agentic workflows** for lead qualification, follow-ups, customer support, vendor coordination, marketing and internal operations. This is a real part of the role, not a buzzword at the bottom of the post — the manual coordination load is the single biggest constraint on the business, and automating it is the highest-leverage engineering work here.\n\n## What we are looking for\n\nStrong, hands-on expertise in:\n\n**React Native / Expo · React · Next.js · TypeScript · Node.js / Fastify · REST APIs · PostgreSQL / Supabase · AWS · Docker · Git / GitHub**\n\nHighly preferred, and increasingly central to the role:\n\n**LLM APIs · workflow automation · webhooks · queues · CI/CD · cloud infrastructure · security · scalable system design**\n\nAbove all we need a **high-ownership builder**: someone who moves extremely fast, automates their own repetitive work, solves problems independently, and can take a product from idea to production to scale.\n\n## The hard parts, stated honestly\n\nYou will be the engineering function, not a member of it. That means the interesting architectural calls are yours, and so are the 11pm production issues. There is no one to escalate to.\n\nYou will work directly with the founder, on a business that is still finding its shape. Priorities will change, and some of what you build will be thrown away. If you need a settled roadmap and a defined ticket queue, this will frustrate you.\n\nThe scope on this page is genuinely large — two products, four applications, two websites, plus the automation layer. Nobody ships all of it in a quarter. We are looking for someone who can sequence it honestly and say what they are *not* doing this month, rather than someone who agrees to everything.\n\n## What we do not require\n\nA computer science degree, a particular college, or a specific number of years. We care about what you have actually built and whether you can show it to us and explain the decisions in it.\n\nIf you have shipped and operated something real — your own product, a freelance build you still maintain, or a startup codebase you owned — that is worth more here than a title at a large company.\n\n## How to apply\n\nSend your CV along with links to what you have built: repositories, live products, or an app someone can install. If your best work is under NDA, describe the system and the decisions instead.\n\nTell us one thing in either product — **padosipro.com**, **app.padosipro.com** or **fofees.com** — that you would change in your first week, and why. A short, specific answer is far better than a long general one, and it is the part of your application we will read first. Hyderabad\nlocationNames: Hyderabad\nremote: true",
+      "match_score": 14.71,
+      "resume_variant": "frontend",
+      "draft_answer": "Having built client portals end-to-end, driving user acceptance and automating 90% of manual reporting workflows, I'm skilled at delivering the robust, performant solutions needed to close the manual work gap across your React Native customer app and Next.js internal dashboards. My record of owning architecture and deployment for React and Next.js applications, from containerization to integrating performance optimizations like Redis caching and Azure Blob Storage, ensures I can rapidly build and maintain the premium, fast applications required while automating critical workflows.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-20T20:35:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.26,
+            "overlap": 18.54,
+            "combined": 12.75
+          },
+          "backend": {
+            "cosine": 9.78,
+            "overlap": 19.55,
+            "combined": 12.71
+          },
+          "frontend": {
+            "cosine": 11.65,
+            "overlap": 21.84,
+            "combined": 14.71
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.65,
+        "keyword_overlap_score": 21.84,
+        "final_score": 14.71,
+        "top_keywords": [
+          {
+            "term": "app",
+            "weight": 0.0778
+          },
+          {
+            "term": "js",
+            "weight": 0.0778
+          },
+          {
+            "term": "react",
+            "weight": 0.0778
+          },
+          {
+            "term": "apis",
+            "weight": 0.0583
+          },
+          {
+            "term": "com",
+            "weight": 0.0583
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-20T20:35:29+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "d80ab667654ac177bef61079ca5553f0",
       "source": "wellfound",
