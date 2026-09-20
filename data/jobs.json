@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-09-20T20:35:54+00:00",
+  "exported_at": "2026-09-20T21:04:05+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
     "discovered": 669,
-    "pending_approval": 141,
-    "failed": 6,
+    "failed": 7,
+    "pending_approval": 140,
     "submitted": 5,
     "rejected": 3
   },
@@ -135,12 +135,12 @@
       "match_score": 12.03,
       "resume_variant": "fullstack",
       "draft_answer": "As a full-stack engineer, I consistently leverage AI tool-calling agents and build automated workflows to enhance development and achieve significant performance gains, such as cutting API fetch latency by 98%. I am eager to apply my experience in building and scaling full-stack applications and integrating LLM-based features to develop and maintain your learning and assessment platform that teaches AI skills.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "pending_approval",
+      "status": "failed",
       "discovered_at": "2026-09-20T20:35:15+00:00",
-      "decided_at": null,
+      "decided_at": "2026-09-20T21:04:04+00:00",
       "submitted_at": null,
-      "error_message": null,
-      "sent_message": null,
+      "error_message": "Apply form has screening inputs beyond a single cover letter/note. | Questions: Search everything",
+      "sent_message": "My experience running open-weight LLMs locally and validating tool-calling reliability, combined with automating 90% of manual reporting workflows and deploying blue-green releases, positions me to leverage AI tools and smart workflows to build faster. I’m ready to contribute to your learning and assessment platform, having designed, built, and owned end-to-end FastAPI/React systems, significantly cutting data load times and fetch latency by 98% for cloud-native solutions deployed on Azure.\nGitHub: https://github.com/sanjay-kandpal",
       "match_breakdown": {
         "weights_version": "v1",
         "hard_filters": {
@@ -197,9 +197,13 @@
       },
       "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
       "drafted_at": "2026-09-20T20:35:52+00:00",
-      "confirmation_signal": null,
-      "github_run_id": null,
-      "apply_kind": null
+      "confirmation_signal": {
+        "ok": false,
+        "url": "https://wellfound.com/jobs/4372312-software-engineer",
+        "text": "Apply form has screening inputs beyond a single cover letter/note. | Questions: Search everything"
+      },
+      "github_run_id": "35537483204",
+      "apply_kind": "has_questions"
     },
     {
       "id": "adf40db83d989a8e910f2eb9fa985d39",
