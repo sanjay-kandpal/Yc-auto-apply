@@ -18,6 +18,19 @@ load_dotenv()
 log = logging.getLogger(__name__)
 
 
+def board_label(workflow: str | None = None) -> str:
+    """YC vs Wellfound from workflow name / Actions env."""
+    text = (
+        workflow
+        or os.getenv("SPECTATE_WORKFLOW")
+        or os.getenv("GITHUB_WORKFLOW")
+        or ""
+    ).lower()
+    if "wellfound" in text:
+        return "Wellfound"
+    return "YC"
+
+
 def actions_run_url() -> str:
     run_id = os.getenv("GITHUB_RUN_ID", "").strip()
     if not run_id:
@@ -43,7 +56,7 @@ def recording_release_url(out_dir: Path | None = None) -> str:
     return str(meta.get("release_url") or "").strip()
 
 
-def send_scan_recap(out_dir: Path | None = None) -> None:
+def send_scan_recap(out_dir: Path | None = None, workflow: str | None = None) -> None:
     setup_logging()
     video = recording_release_url(out_dir)
     run_url = actions_run_url()
@@ -51,31 +64,41 @@ def send_scan_recap(out_dir: Path | None = None) -> None:
         log.info("Skip scan recording email: no release and no Actions run URL.")
         return
     day = datetime.now(timezone.utc).date().isoformat()
+    board = board_label(workflow)
     parts = [
-        "<p style='font-family:sans-serif'>Scan browser session recording.</p>",
+        f"<p style='font-family:sans-serif'>{html.escape(board)} scan browser session recording.</p>",
         "<p style='font-family:sans-serif;color:#555'>Login is not recorded. "
         "The GitHub Release link downloads the mp4 (it does not play inline).</p>",
     ]
     if video:
         parts.append(
-            f'<p style="font-family:sans-serif"><a href="{html.escape(video)}">Download this scan run</a></p>'
+            f'<p style="font-family:sans-serif"><a href="{html.escape(video)}">'
+            f"Download this {html.escape(board)} scan run</a></p>"
         )
     if run_url:
         parts.append(
             f'<p style="font-family:sans-serif"><a href="{html.escape(run_url)}">'
             "GitHub Actions run (mp4 artifact)</a></p>"
         )
-    if try_send_html_email(f"YC scan recording — {day}", "".join(parts)):
-        log.info("Sent scan recording email.")
+    if try_send_html_email(f"{board} scan recording — {day}", "".join(parts)):
+        log.info("Sent %s scan recording email.", board)
     else:
-        log.warning("Could not send scan recording email.")
+        log.warning("Could not send %s scan recording email.", board)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Email a scan-run recording link")
     parser.add_argument("--out-dir", default="")
+    parser.add_argument(
+        "--workflow",
+        default="",
+        help="Workflow name (e.g. scan-wellfound). Defaults to SPECTATE_WORKFLOW / GITHUB_WORKFLOW.",
+    )
     args = parser.parse_args()
-    send_scan_recap(Path(args.out_dir) if args.out_dir else None)
+    send_scan_recap(
+        Path(args.out_dir) if args.out_dir else None,
+        workflow=args.workflow or None,
+    )
 
 
 if __name__ == "__main__":

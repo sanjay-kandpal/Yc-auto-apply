@@ -57,7 +57,12 @@ runs:
     - name: Email scan recording
       if: ${{ startsWith(inputs.workflow, 'scan') }}
       shell: bash
-      run: python src/spectate_email.py --out-dir "$RUNNER_TEMP/spectate-out"
+      env:
+        SPECTATE_WORKFLOW: ${{ inputs.workflow }}
+      run: |
+        python src/spectate_email.py \
+          --out-dir "$RUNNER_TEMP/spectate-out" \
+          --workflow "${{ inputs.workflow }}"
 
     - name: Notify submit
       if: ${{ inputs.job_id != '' }}

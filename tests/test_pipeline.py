@@ -45,6 +45,7 @@ from wellfound.login import load_credentials as load_wellfound_credentials  # no
 from wellfound.parse import jobs_from_html, walk_jobs as walk_wellfound_jobs  # noqa: E402
 from record_video import build_object_key, object_key_allowed, recording_enabled, workflow_slug  # noqa: E402
 from prune_recordings import tags_to_delete  # noqa: E402
+from spectate_email import board_label  # noqa: E402
 from publish_release import release_page_url, release_tag  # noqa: E402
 from resume_otp_email import html_body, subject_for, validate_otp  # noqa: E402
 from waas_parse import walk_jobs as walk_waas_jobs  # noqa: E402
@@ -90,6 +91,10 @@ def test_spectate_keys() -> None:
         assert release_page_url("recording-123", "sanjay-kandpal/Yc-auto-apply").endswith(
             "/releases/tag/recording-123"
         )
+        assert board_label("scan-wellfound") == "Wellfound"
+        assert board_label("submit-wellfound") == "Wellfound"
+        assert board_label("scan") == "YC"
+        assert board_label("submit") == "YC"
         now = datetime(2026, 9, 13, 12, 0, tzinfo=ZoneInfo("UTC"))
         entries = [
             {"tagName": "recording-fresh", "createdAt": "2026-09-13T11:00:00Z"},

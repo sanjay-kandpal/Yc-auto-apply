@@ -68,8 +68,8 @@ def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
     kind = html.escape(_apply_kind(job))
     kind_line = f"<p>apply_kind: <code>{kind or '—'}</code></p>"
     board = _job_source(job)
+    board_label = "Wellfound" if board == "wellfound" else "YC"
     if status == "submitted":
-        board_label = "Wellfound" if board == "wellfound" else "YC"
         subject = f"Applied ({board_label}) to {job['role']} at {job['company']}"
         body = (
             f"<p>Submitted the {board_label} application for <strong>{role}</strong> at "
@@ -78,29 +78,32 @@ def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
         if kind:
             body += kind_line
     elif status == "rejected":
-        subject = f"Rejected {job['role']} at {job['company']}"
-        body = f"<p>Marked rejected: <strong>{role}</strong> at <strong>{company}</strong>.</p>"
-    elif status == "pending_approval":
-        subject = f"Dry-run only: {job['role']} at {job['company']}"
+        subject = f"Rejected ({board_label}) — {job['role']} at {job['company']}"
         body = (
-            "<p>Submit ran in dry-run mode, so Send was not clicked. "
+            f"<p>Marked rejected on {board_label}: <strong>{role}</strong> at "
+            f"<strong>{company}</strong>.</p>"
+        )
+    elif status == "pending_approval":
+        subject = f"Dry-run only ({board_label}): {job['role']} at {job['company']}"
+        body = (
+            f"<p>{board_label} submit ran in dry-run mode, so Send was not clicked. "
             "Approve on GitHub Actions is live (open JD → Apply Now → fill → Send application).</p>"
         )
     elif status == "approved":
-        subject = f"Approved (not sent) — {job['role']} at {job['company']}"
+        subject = f"Approved not sent ({board_label}) — {job['role']} at {job['company']}"
         err = html.escape((job["error_message"] or "").strip() or "Application was not sent.")
         body = (
-            f"<p>Approve recorded for <strong>{role}</strong> at <strong>{company}</strong>. "
-            "No application was sent.</p>"
+            f"<p>Approve recorded for <strong>{role}</strong> at <strong>{company}</strong> "
+            f"({board_label}). No application was sent.</p>"
             f"{kind_line}"
             f"<p>{err}</p>"
         )
     else:
-        subject = f"Failed to submit — {job['role']} at {job['company']}"
+        subject = f"Failed to submit ({board_label}) — {job['role']} at {job['company']}"
         err = html.escape((job["error_message"] or "").strip() or "No error recorded")
         body = (
-            f"<p>Failed to submit <strong>{role}</strong> at <strong>{company}</strong>. "
-            "Needs manual follow-up.</p>"
+            f"<p>Failed to submit <strong>{role}</strong> at <strong>{company}</strong> "
+            f"on {board_label}. Needs manual follow-up.</p>"
             f"{kind_line}"
             f"<p><strong>Error:</strong> {err}</p>"
         )
@@ -108,7 +111,7 @@ def notify(job_id: str | None = None, payload_path: Path | None = None) -> None:
     recording = recording_release_url()
     if recording:
         body += (
-            f'<p><a href="{html.escape(recording)}">Download this submit run</a> '
+            f'<p><a href="{html.escape(recording)}">Download this {board_label} submit run</a> '
             "(mp4; GitHub does not play it inline)</p>"
         )
     run_url = actions_run_url()
