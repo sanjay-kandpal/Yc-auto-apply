@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-09-21T17:57:33+00:00",
+  "exported_at": "2026-09-21T21:52:14+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 673,
+    "discovered": 674,
     "pending_approval": 141,
     "failed": 7,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "365fd432d8be0f73ce5dd88da8c0d77d",
+      "source": "wellfound",
+      "company": "Klaimify",
+      "role": "ERPNext Developer",
+      "url": "https://wellfound.com/jobs/4124747-erpnext-python-developer",
+      "jd_text": "* Location: Raipur/ Rajnandgaon, Chhattisgarh\n* Experience: 1 – 5 Years\n* Employment Type: Full-Time\n\nRole Overview:-\nWe are looking for a skilled and experienced ERPNext Python Developer with a strong understanding of ERPNext and the Frappe framework. The ideal candidate will be responsible for developing, customizing, and implementing ERP solutions tailored to client requirements.\n\n**Key Responsibilities:**-\n* Develop, customize, and maintain ERPNext modules using Python and Frappe framework \n* Understand business requirements and translate them into technical solutions within ERPNext \n* Design and implement new features, reports, and integrations \n* Customize forms, workflows, scripts, and dashboards in ERPNext \n* Perform code reviews, debugging, and optimization of existing applications \n* Integrate ERPNext with third-party systems via APIs \n* Ensure data integrity, security, and system performance \n* Collaborate with functional consultants and cross-functional teams for successful project delivery \n* Provide technical documentation and user support during implementation and post-go-live \n\n**Required Skills &amp; Qualifications:-**\n* Strong experience in Python development (3–7 years) \n* Hands-on experience with ERPNext and Frappe Framework \n* Good understanding of ERPNext modules (Accounts, HR, Purchase, Sales, Manufacturing, CRM, etc.) \n* Experience in REST APIs, integrations, and third-party tools \n* Knowledge of MariaDB/MySQL, JavaScript, HTML, CSS \n* Familiarity with Git/version control systems \n* Understanding of software development lifecycle (SDLC) \n* Strong problem-solving and analytical skills \n\n\n**Preferred Skills:-**\n* Hardware Integrations like weighbridge, CCTV\n* Experience in ERP implementations (end-to-end lifecycle) \n* Exposure to cloud deployment and server management \n* Knowledge of business processes in manufacturing, finance, or supply chain \n* Experience working in client-facing roles \n* AI integration and automation in user workflow\n* Open source contributions\n\n**Soft Skills:-**\n* Strong communication and stakeholder management skills \n* Ability to work independently and in a team environment \n* Proactive, solution-oriented mindset \n\n**Why Join Klaimify?**\n* Opportunity to work on cutting-edge ERP implementations \n* Dynamic and growth-driven work environment \n* Exposure to diverse industries and business challenges \n* Career growth and learning opportunities Raipur Rajnandgaon\nlocationNames: Raipur Rajnandgaon",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-21T21:52:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "c3b9a436ef4cf9ecb83c9d1dfe5a8290",
       "source": "wellfound",
