@@ -4,6 +4,7 @@ import json
 import logging
 import re
 from dataclasses import dataclass
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from playwright.sync_api import Page
 
@@ -131,51 +132,174 @@ def ensure_job_details(page: Page) -> None:
     )
 
 
-def click_dialog_apply(page: Page) -> None:
-    """Open apply form. Prefer Apply now inside JobDetail (logged-in) or JobListing."""
-    for scope_sel in ('[data-test="JobDetail"]', '[data-test="JobListing"]'):
-        scope = page.locator(scope_sel)
-        if not scope.count():
-            continue
-        scoped_candidates = (
-            scope.get_by_role("button", name=re.compile(r"^\s*apply now\s*$", re.I)),
-            scope.locator(
-                'button[data-test="Button"]',
-                has_text=re.compile(r"^\s*apply now\s*$", re.I),
-            ),
-            scope.locator("button", has_text=re.compile(r"^\s*apply now\s*$", re.I)),
-            scope.get_by_role("button", name=re.compile(r"^\s*apply\s*$", re.I)),
-            scope.locator(
-                'button[data-test="Button"]',
-                has_text=re.compile(r"^\s*apply\s*$", re.I),
-            ),
-        )
-        for loc in scoped_candidates:
-            try:
-                if loc.count() and loc.first.is_visible():
-                    loc.first.click(timeout=8000)
-                    page.wait_for_timeout(1500)
-                    return
-            except Exception:
-                continue
+APPLY_NOW_NAME = re.compile(
+    r"^[\s\u00a0]*(?:easy[\s\u00a0]+apply|apply[\s\u00a0]+now)\b",
+    re.I,
+)
+APPLY_NAME = re.compile(r"^[\s\u00a0]*apply(?!ied)\b", re.I)
+_APPLIED_NAME = re.compile(r"^[\s\u00a0]*applied\b", re.I)
+_JOB_SLUG = re.compile(r"/jobs/([^/?#]+)")
+_TARGET_JOB = re.compile(r"/jobs/([^/'\"?\s#]+)")
 
-    candidates = (
-        page.get_by_role("button", name=re.compile(r"^\s*apply now\s*$", re.I)),
-        page.locator(
-            'button[data-test="Button"]',
-            has_text=re.compile(r"^\s*apply(\s+now)?\s*$", re.I),
-        ),
-        page.get_by_role("button", name=re.compile(r"^\s*apply\s*$", re.I)),
-        page.locator("button", has_text=re.compile(r"^\s*apply\s*$", re.I)),
-    )
-    for loc in candidates:
+
+def is_apply_now_name(name: str) -> bool:
+    """True for Apply now / Easy Apply, including a short suffix after the label."""
+    return bool(APPLY_NOW_NAME.match(re.sub(r"\s+", " ", (name or "").strip())))
+
+
+def is_apply_name(name: str) -> bool:
+    """True for Apply, Apply now, Easy Apply, or Apply plus extra words. Not Applied."""
+    text = re.sub(r"\s+", " ", (name or "").strip())
+    if _APPLIED_NAME.match(text):
+        return False
+    return bool(APPLY_NAME.match(text) or is_apply_now_name(text))
+
+
+def job_slug_from_url(url: str) -> str:
+    match = _JOB_SLUG.search(urlsplit(url or "").path)
+    if not match:
+        return ""
+    slug = match.group(1)
+    if slug in {"signup", "login"}:
+        return ""
+    return slug
+
+
+def targets_other_job(target: str, slug: str) -> bool:
+    """True when a control's href/onclick points at a different Wellfound job."""
+    if not target or not slug:
+        return False
+    found = _TARGET_JOB.findall(target)
+    if not found:
+        return False
+    return not any(item == slug for item in found)
+
+
+def with_auto_open_query(url: str) -> str | None:
+    """Job URL plus autoOpenApplication=true. None if already set or not a job page."""
+    parts = urlsplit(url or "")
+    host = (parts.netloc or "").lower()
+    if "wellfound.com" not in host and not host.endswith("angel.co"):
+        return None
+    if not job_slug_from_url(url):
+        return None
+    query = dict(parse_qsl(parts.query, keep_blank_values=True))
+    if query.get("autoOpenApplication") == "true":
+        return None
+    query["autoOpenApplication"] = "true"
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
+
+
+def _control_target(el) -> str:
+    parts = []
+    for attr in ("href", "onclick", "formaction"):
         try:
-            if loc.count() and loc.first.is_visible():
-                loc.first.click(timeout=8000)
-                page.wait_for_timeout(1500)
-                return
+            value = el.get_attribute(attr) or ""
+        except Exception:
+            value = ""
+        if value:
+            parts.append(value)
+    return " ".join(parts)
+
+
+def _click_visible(locator, *, slug: str, timeout: int = 8000) -> bool:
+    try:
+        count = locator.count()
+    except Exception:
+        return False
+    for i in range(min(count, 12)):
+        el = locator.nth(i)
+        try:
+            if not el.is_visible():
+                continue
+            if targets_other_job(_control_target(el), slug):
+                continue
+            el.scroll_into_view_if_needed(timeout=2000)
+            el.click(timeout=timeout)
+            return True
         except Exception:
             continue
+    return False
+
+
+def _apply_locators(scope):
+    now_text = re.compile(
+        r"^[\s\u00a0]*(?:easy[\s\u00a0]+apply|apply[\s\u00a0]+now)[\s\u00a0]*$",
+        re.I,
+    )
+    return (
+        scope.get_by_role("button", name=APPLY_NOW_NAME),
+        scope.get_by_role("link", name=APPLY_NOW_NAME),
+        scope.locator("button, a", has_text=now_text),
+        scope.locator('a[href*="autoOpenApplication"], button[onclick*="autoOpenApplication"]'),
+        scope.get_by_role("button", name=APPLY_NAME),
+        scope.get_by_role("link", name=APPLY_NAME),
+        scope.locator('button[data-test="Button"]', has_text=APPLY_NAME),
+    )
+
+
+def _apply_ui_visible(page: Page) -> bool:
+    selectors = (
+        '[data-test="JobApplication-Modal"]',
+        '[data-test="JobApplicationModal--SubmitButton"]',
+        'textarea[name^="customQuestionAnswers"]',
+    )
+    for sel in selectors:
+        loc = page.locator(sel)
+        try:
+            if loc.count() and loc.first.is_visible():
+                return True
+        except Exception:
+            continue
+    return False
+
+
+def _click_apply_control(page: Page) -> bool:
+    slug = job_slug_from_url(page.url)
+    scopes = []
+    for scope_sel in ('[data-test="JobDetail"]', '[data-test="JobListing"]'):
+        scope = page.locator(scope_sel)
+        try:
+            if scope.count():
+                scopes.append(scope)
+        except Exception:
+            continue
+    scopes.append(page)
+    for scope in scopes:
+        for loc in _apply_locators(scope):
+            if _click_visible(loc, slug=slug):
+                return True
+    return False
+
+
+def _goto_auto_open(page: Page) -> bool:
+    target = with_auto_open_query(page.url)
+    if not target:
+        return False
+    page.goto(target, wait_until="domcontentloaded", timeout=90000)
+    page.wait_for_timeout(1500)
+    return True
+
+
+def open_apply_ui(page: Page) -> bool:
+    """Open the apply form. Skips hidden duplicates and other jobs' Apply buttons."""
+    if _apply_ui_visible(page):
+        return True
+    if _click_apply_control(page):
+        page.wait_for_timeout(1500)
+        return True
+    if not _goto_auto_open(page):
+        return False
+    if _apply_ui_visible(page) or _click_apply_control(page):
+        page.wait_for_timeout(1500)
+        return True
+    return False
+
+
+def click_dialog_apply(page: Page) -> None:
+    """Open apply form. Prefer Apply now inside JobDetail (logged-in) or JobListing."""
+    if open_apply_ui(page):
+        return
     raise RuntimeError("Could not find Apply / Apply Now button.")
 
 

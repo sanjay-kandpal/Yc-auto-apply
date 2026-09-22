@@ -11,7 +11,13 @@ from wellfound.apply_probe import (  # noqa: E402
     classify_form_snapshot,
     looks_eligibility_blocked,
 )
-from wellfound.apply_flow import extract_job_description_text  # noqa: E402
+from wellfound.apply_flow import (  # noqa: E402
+    extract_job_description_text,
+    is_apply_name,
+    is_apply_now_name,
+    targets_other_job,
+    with_auto_open_query,
+)
 
 
 def test_cover_letter_only() -> None:
@@ -78,6 +84,36 @@ def test_custom_question_answer_name_as_cover() -> None:
     assert result.apply_kind == "cover_letter_only"
 
 
+def test_apply_control_names() -> None:
+    assert is_apply_now_name("Apply Now")
+    assert is_apply_now_name("Easy Apply")
+    assert is_apply_now_name("Apply now to Stylework")
+    assert not is_apply_now_name("Apply")
+    assert is_apply_name("Apply")
+    assert is_apply_name("Apply to this job")
+    assert is_apply_name("Apply Now")
+    assert not is_apply_name("Applied")
+    assert not is_apply_name("Save")
+
+
+def test_auto_open_stays_on_this_job() -> None:
+    slug = "4750168-junior-full-stack-engineer"
+    url = f"https://wellfound.com/jobs/{slug}"
+    opened = with_auto_open_query(url)
+    assert opened == f"{url}?autoOpenApplication=true"
+    assert with_auto_open_query(opened) is None
+    assert with_auto_open_query("https://boards.greenhouse.io/acme/jobs/1") is None
+    assert not targets_other_job(
+        "window.location.href='/jobs/4750168-junior-full-stack-engineer?autoOpenApplication=true'",
+        slug,
+    )
+    assert targets_other_job(
+        "window.location.href='/jobs/930533-full-stack-engineer-mern?autoOpenApplication=true'",
+        slug,
+    )
+    assert not targets_other_job("", slug)
+
+
 def test_extract_job_description_text() -> None:
     html = """
     <div class="mt-6 rounded-xl border"><h2>About the job</h2>
@@ -98,5 +134,7 @@ if __name__ == "__main__":
     test_external_url()
     test_unknown_empty_form()
     test_custom_question_answer_name_as_cover()
+    test_apply_control_names()
+    test_auto_open_stays_on_this_job()
     test_extract_job_description_text()
     print("apply_probe checks passed")

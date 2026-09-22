@@ -102,12 +102,6 @@ export async function handleApprove(request, env) {
   }
 
   if (action === "approve") {
-    if (canonicalSource(source) === "wellfound") {
-      return html(
-        "Approved",
-        "Approve recorded. Live Wellfound submit is not implemented yet."
-      );
-    }
     return html("Approved", "Application will be submitted shortly (subject to the daily cap).");
   }
   return html("Rejected", "This listing will be marked rejected.");
