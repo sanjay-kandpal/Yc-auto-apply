@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-09-22T07:38:59+00:00",
+  "exported_at": "2026-09-22T09:05:31+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 681,
     "failed": 8,
-    "discovered": 680,
     "pending_approval": 147,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "371faa946b3b47344fbb46deb4d665f2",
+      "source": "yc",
+      "company": "SuperKalam",
+      "role": "Product Designer (Internship)",
+      "url": "https://www.workatastartup.com/jobs/66020",
+      "jd_text": "**Duration: 4-6 months**\n\n> _A good design not only makes world beautiful, but also more functional._\n\nWe are here to make a phenomenal experience for our users, which makes our bar for design role really high. We are eager to talk to you if you have an amazing sense of quality and ownership.\n\n**Application form: [https://forms.gle/4tp6hnUHkCPfpiJMA](https://forms.gle/4tp6hnUHkCPfpiJMA)**\n\n### **About us?**\n\nWe are the crazy ones - shaping education with a deep commitment to our students, building a generational company along the way, and having a blast doing it. We absolutely love people who communicate smoothly, take ownership naturally, and are eager to grow and move fast.\n\n### **What you will work on?**\n\nYou will be joining us in this 1-100 journey, building the best AI tutor platform out of India (likes of Duolingo). So there is tons of UX, personalisation, gamification, complex problems, and new ideas to work upon that comes along.\n\n### **Requirements:**\n\n* **Proof of work is a must -** Prior internships as product designer / Strong design portfolio\n* Someone who would love to build a true Ed-tech with us and cruise in a fast-pace environment\n* Asks right Product questions to understand problem statement deeply\n* Can dig deep to understand target audience\n* Can make workflows by understanding different cohorts of this audience\n* **BONUS skills**\n  * Basic motion designs using [https://jitter.video,](https://jitter.video/) [Rive.app](https://rive.app/)\n\n**Strong match:** If you have worked on deeper workflows of gamification, learning, personalisation, habit building or related apps.\n\n**Important:** We thrive on smooth communication, ownership and agility. It’s a must 🤠\n\n### **Responsibilities:**\n\n* You will work closely with our product and growth teams\n* Design product features with a structured process - research, user insights & competitive analysis\n* Be aware of the problems across the platforms and can suggest what can be solved with design\n* Participate in collating user feedback from different mechanisms\n* Take data-driven decisions wherever needed\n* Make functional and beautiful UI\n\n### Who will thrive here:\n\n* Has worked in product based startups before\n* Enjoys going deeper into solving product problems\n* Hunger to learn and grow\n* Strong individual contributor, with ownership mindset Bengaluru, KA, IN Bengaluru, Karnataka, IN jobs_skill 296 Figma 0 intern none\nlocations: Bengaluru, KA, IN Bengaluru, Karnataka, IN\nremote: yes",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T09:05:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "bcf1cc9650cdc07ebbb21a4e68cee885",
       "source": "wellfound",
