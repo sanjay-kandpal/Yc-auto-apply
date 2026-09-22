@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-09-22T07:34:27+00:00",
+  "exported_at": "2026-09-22T07:38:59+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 148,
+    "failed": 8,
     "discovered": 680,
-    "failed": 7,
+    "pending_approval": 147,
     "submitted": 5,
     "rejected": 3
   },
@@ -20,12 +20,12 @@
       "match_score": 13.79,
       "resume_variant": "frontend",
       "draft_answer": "I've consistently driven features from design to production for various product platforms, building React frontends, designing RESTful APIs, and deploying containerized applications on Azure and AWS. My experience extends to independently owning services and shipping features to production, like cutting API fetch latency by 98% with Redis and reducing data load times by 60% by migrating to Azure Blob Storage.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "pending_approval",
+      "status": "failed",
       "discovered_at": "2026-09-22T07:32:54+00:00",
-      "decided_at": null,
+      "decided_at": "2026-09-22T07:38:59+00:00",
       "submitted_at": null,
-      "error_message": null,
-      "sent_message": null,
+      "error_message": "Could not find Apply / Apply Now button.",
+      "sent_message": "I've independently owned and deployed full-stack solutions end-to-end across product platforms, building React frontends, their backing Express.js/Node.js APIs, and the deployment pipelines on Azure/AWS for projects like a government mining-safety portal or a Dockerized microservices app. My focus on performance optimization, from integrating Redis caching to migrating data storage to cut data load times, has directly improved UI responsiveness and overall experience for client users across those platforms.\nGitHub: https://github.com/sanjay-kandpal",
       "match_breakdown": {
         "weights_version": "v1",
         "hard_filters": {
@@ -82,9 +82,13 @@
       },
       "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
       "drafted_at": "2026-09-22T07:33:45+00:00",
-      "confirmation_signal": null,
-      "github_run_id": null,
-      "apply_kind": null
+      "confirmation_signal": {
+        "ok": false,
+        "url": "",
+        "text": "Could not find Apply / Apply Now button."
+      },
+      "github_run_id": "35700568458",
+      "apply_kind": "unknown"
     },
     {
       "id": "7dfe95fc7292a4c4f41a87a4d8f7b84a",
