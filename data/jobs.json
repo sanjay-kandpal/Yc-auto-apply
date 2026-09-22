@@ -1,15 +1,705 @@
 {
-  "exported_at": "2026-09-22T09:05:31+00:00",
+  "exported_at": "2026-09-22T14:34:11+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 681,
+    "discovered": 690,
+    "pending_approval": 150,
     "failed": 8,
-    "pending_approval": 147,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "f421fe2f682e973b41f2e8e8b9502096",
+      "source": "wellfound",
+      "company": "Aikenist",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/586522-software-engineer",
+      "jd_text": "Come join us one of earliest software engineers in the team. You will learn while performing your job. You can go deep or broad based on your interests. You will get ring side view in building a deep tech product in Artificial Intelligence in healthcare space, while also doing full stack developement on cloud, data engineering, distributed systems and tradeoffs, devops. We are looking for engineers who willing to learn and ready to take ownership of key modules. Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 4.94,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.36,
+            "overlap": 3.97,
+            "combined": 4.94
+          },
+          "backend": {
+            "cosine": 4.44,
+            "overlap": 3.01,
+            "combined": 4.01
+          },
+          "frontend": {
+            "cosine": 3.79,
+            "overlap": 4.37,
+            "combined": 3.97
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.36,
+        "keyword_overlap_score": 3.97,
+        "final_score": 4.94,
+        "top_keywords": [
+          {
+            "term": "learn",
+            "weight": 0.1848
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.1511
+          },
+          {
+            "term": "stack",
+            "weight": 0.1141
+          },
+          {
+            "term": "team",
+            "weight": 0.1141
+          },
+          {
+            "term": "based",
+            "weight": 0.0924
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "49d24b0ca19a296b87e1374a4df57165",
+      "source": "wellfound",
+      "company": "Emplay",
+      "role": "Frontend Developer (AI)",
+      "url": "https://wellfound.com/jobs/4751195-frontend-developer-ai",
+      "jd_text": "**Post:** Frontend Developer (AI)\n\n**Experience-** 2-3 yrs\n\n**No of Positions-** 4\n\n**Organization-** Emplay Analytics Inc \n\n**Job Location-** Remote/Work from home\n\n**Salary(CTC) offered-** 8 LPA - 10 LPA\n\nWe are looking for a Frontend Developer to join our team.\n\n**Skillset-**\n**Must-have**\n\n* **Angular 21+** — hands-on experience with standalone components, signals, modern Angular patterns, dependency injection, lifecycle hooks, and a good understanding of Angular change detection and performance optimization.\n\n* **JavaScript / TypeScript** — strong fundamentals in JavaScript and TypeScript; comfortable with types, interfaces, generics, classes, OOP concepts, async/await, promises, closures, and the JavaScript event loop (call stack, microtasks, task queue, etc.).\n\n* **RxJS &amp; Reactive Programming** — good understanding of Observables, Subjects, operators such as map, switchMap, mergeMap, catchError, tap, debounceTime, distinctUntilChanged, takeUntil, etc.; understands subscriptions, unsubscription, memory leaks, and handling asynchronous streams.\n\n* **Real-time Communication – WebSockets / SSE** — practical experience working with WebSockets and/or Server-Sent Events. Should understand streaming data, connection lifecycle, reconnection/error handling, subscriptions, and updating the UI efficiently as real-time data arrives.\n\n* **HTML5 &amp; CSS/SCSS** — strong understanding of semantic HTML, responsive layouts, CSS fundamentals, Flexbox/Grid, and SCSS. Should be comfortable building and styling UI without depending entirely on CSS frameworks.\n\n* **Forms in Angular** — hands-on experience with both Reactive Forms and Template-driven Forms, including form validation, custom validators, dynamic forms, nested/form groups, form arrays, error handling, and managing form state.\n\n* **API Integration** — experience consuming REST/HTTP APIs using Angular's HttpClient, handling loading/success/error states, request cancellation, retries where appropriate, interceptors, and asynchronous API responses.\n\n* **State Management** — understanding of state management beyond component-local variables. Experience with Angular Signals, shared services, RxJS-based state, or state management libraries.\n\n* **Data Visualization** – Charts &amp; Graphs — experience working with charts/graphs and transforming API data into visualization-ready formats. Experience with ngx-charts or similar charting libraries is highly preferred.\n\n* **Authentication &amp; Authorization** — understanding of token-based authentication and OAuth/OIDC concepts, including access tokens, refresh tokens, token expiration, login/logout flows, route guards, and HTTP interceptors.\n\n* **Angular Material / Component Libraries** — practical experience with Angular Material or similar UI component libraries, including dialogs, tables, forms, menus, tooltips, buttons, pagination, and theming/customization.\n\n* **Git** — comfortable with branching, pull requests, merging/rebasing, resolving conflicts, reviewing changes, and maintaining a clean and meaningful commit history.\n\n* **Unit Testing** — understanding of what should be tested and why. Experience with Jest, Jasmine, Karma, Vitest, or similar frameworks; able to write tests for components, services, utilities, and \n important business logic.\n\n*  **Debugging &amp; Problem Solving** — strong debugging skills using browser DevTools, network inspection, console/debugger, Angular DevTools, reading stack traces, identifying root causes, and isolating frontend vs. backend issues.\n\n* **Code Quality &amp; Clean Code** — follows readable, maintainable, reusable code practices. Understands DRY, basic SOLID principles, separation of concerns, appropriate component/service design, performance optimization, and working within linting/formatting standards.\n\n* **Angular Performance** — awareness of unnecessary change detection, efficient rendering of lists and large datasets, avoiding memory leaks, lazy loading, appropriate use of signals/RxJS, and optimizing components that handle frequently changing or streaming data.\n\n* **Team Collaboration** — comfortable participating in code reviews, addressing review feedback, communicating blockers, discussing technical trade-offs, and pairing with other developers when needed.\n\n* **Learning &amp; Ownership** — demonstrates the ability to learn new technologies and patterns, investigate unfamiliar problems independently, close knowledge gaps, and take ownership of tasks through completion.\n\n\n**Good-to-have**\n\n* **Accessibility (a11y)** — understanding of semantic HTML, keyboard navigation, ARIA, focus management, and basic accessibility practices.\n\n* **E2E Testing** — exposure to Playwright, Cypress, or similar end-to-end testing frameworks.\n\n* **CI/CD** — basic understanding of frontend build and deployment pipelines, environments, build configurations, and automated checks.\n\n* **AI / LLM Product UI** — experience building AI-powered interfaces such as chat applications, streaming responses, typing indicators, conversation history, markdown rendering, file uploads, or \ntoken-by-token response streaming.\n\n* **Advanced Data Visualization** — experience with interactive charts, dashboards, large datasets, real-time chart updates, custom chart configurations, or libraries such as ngx-charts, D3.js, Chart.js, ECharts, etc.\n\n* **Canvas / SVG**— exposure to SVG, Canvas, or visualization libraries for building interactive diagrams, graphs, flow editors, or node-based interfaces.\n\n* **Cloud / AWS** — basic familiarity with AWS services commonly used by frontend applications, such as Cognito, S3, CloudWatch, or API Gateway.\n\n* **Web Performance** — familiarity with browser rendering, network optimization, bundle size optimization, lazy loading, caching, and performance profiling.\n\n* **Responsive &amp; Cross-browser Development** — experience ensuring applications work consistently across different browsers, screen sizes, and devices.\n\n* **NgRx** — basic understanding of NgRx and its core architecture, including the unidirectional data flow pattern; familiarity with when and why to use NgRx for predictable state management in larger Angular applications. Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 11.7,
+      "resume_variant": "fullstack",
+      "draft_answer": "My track record building reporting portals and compliance platforms includes cutting API fetch latency by 98% with Redis caching and reducing real-time data refresh delays, demonstrating my focus on high-performance, data-driven applications with robust API integration. I'm skilled at transforming backend data for user-facing applications, including work with an LLM agent, which aligns directly with developing AI-powered interfaces for Emplay.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.2,
+            "overlap": 17.55,
+            "combined": 11.71
+          },
+          "backend": {
+            "cosine": 8.16,
+            "overlap": 17.29,
+            "combined": 10.9
+          },
+          "frontend": {
+            "cosine": 9.08,
+            "overlap": 19.42,
+            "combined": 12.18
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.2,
+        "keyword_overlap_score": 17.55,
+        "final_score": 11.7,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1841
+          },
+          {
+            "term": "frontend",
+            "weight": 0.1039
+          },
+          {
+            "term": "data",
+            "weight": 0.0991
+          },
+          {
+            "term": "management",
+            "weight": 0.0708
+          },
+          {
+            "term": "ai",
+            "weight": 0.0693
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-22T14:34:09+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7df99e7506b1fbeac32144a06e938e48",
+      "source": "wellfound",
+      "company": "Emplay",
+      "role": "Knowledge Graph Engineer (AI)",
+      "url": "https://wellfound.com/jobs/4751182-knowledge-graph-engineer-ai",
+      "jd_text": "**Position:** Knowledge Graph Engineer (AI)\n\n**Experience:** 2–3 years \n\n**No of Positions-** 4\n\n**Location:** Remote / Work from Home \n\n**Organization-** Emplay Analytics Inc     \n\n**Salary (CTC):** 8 LPA- 12 LPA    \n\n**Role Overview**\n\nWe are looking for a Graph Expert with strong, demonstrable expertise in graph technologies to join our team. The ideal candidate will have hands-on experience designing, building, and querying knowledge graphs or semantic graphs, working with Neo4j (Cypher, APOC, GDS), and integrating graph databases into AI and data pipelines. This role sits at the intersection of knowledge graph engineering, LLM-powered application development, and cloud-native AI infrastructure.  \n\n**Key Responsibilities**\n\n* Design and build production-grade knowledge graphs and semantic graphs, defining entities, relationships, ontologies, and graph schemas. \n\n* Write, optimise, and maintain Cypher queries; leverage APOC procedures and Graph Data Science (GDS) library for advanced analytics. \n\n* Integrate Neo4j (or Amazon Neptune) into AI and data pipelines alongside vector databases and relational stores. \n\n* Build and maintain Retrieval-Augmented Generation (RAG) pipelines covering document ingestion, chunking, embedding generation, vector search, and LLM grounding. \n\n* Develop LLM-powered applications using LangChain - chains, agents, tools, memory modules, and custom retrievers. \n\n* Integrate Amazon Bedrock to invoke foundation models, manage configurations, and embed them into backend pipelines and agentic workflows. \n\n* Design and implement autonomous or semi-autonomous AI agents with tool use, planning, and multi-step reasoning. \n\n* Collaborate on AWS serverless architecture (Lambda, API Gateway, DynamoDB, S3) to deploy and scale AI components. \n\n* Participate in code reviews, communicate blockers early, and take tasks through to completion with minimal supervision. \n\n* Document technical design decisions, graph schemas, and pipeline architecture clearly for cross-functional audiences. \n \n**Core Skills (Required)**\n\n\n**Knowledge Graph / Semantic Graph Construction**\n\n* Experience designing and building knowledge graphs or semantic graphs. \n\n* Understanding of entities, relationships, graph schema design, ontology modelling, and querying graph data. \n\n* Hands-on experience with Neo4j strongly preferred: Cypher query language, graph data modelling, and integrating Neo4j into AI or data pipelines. \n\n**Graph Databases**\n\n* Hands-on experience with graph databases such as Neo4j or Amazon Neptune. \n\n* Understanding of graph storage models, indexing, querying, and when to choose a graph database over relational or document stores. \n\n**Python**\n\n* Strong fundamentals: typing, async/await, decorators, context managers, OOP concepts, and robust error handling. \n\n* Comfortable writing clean, maintainable, production-grade Python code. \n\n**Amazon Bedrock**\n\n* Practical experience invoking foundation models, managing model configurations, and prompt engineering via Amazon Bedrock. \n\n* Experience integrating Bedrock into backend pipelines and agent workflows. \n\n**RAG Pipelines** \n\n* Hands-on experience building Retrieval-Augmented Generation pipelines: document ingestion, chunking strategies, embedding generation, vector search, retrieval, and grounding LLM responses. \n\n**LangChain** \n\n* Practical experience building LLM-powered applications with LangChain: chains, agents, tools, memory modules, and retrievers. \n\n* Familiarity integrating LangChain with external data sources and APIs. \n\n**Team Collaboration &amp; Ownership**\n\n* Comfortable with code reviews, communicating blockers, and discussing technical trade-offs. \n\n* Able to independently investigate unfamiliar problems, close knowledge gaps, and drive tasks to completion. \n \n \n**Preferred Skills**\n\n**Advanced Graph Analytics**\n\n* Experience with graph algorithms: shortest path, centrality, community detection, and graph traversal strategies. \n\n* Applying graph-based reasoning to enhance retrieval and contextual grounding in AI systems. \n\n**Neo4j Ecosystem**\n\n* Deep familiarity with Cypher, APOC procedures, Graph Data Science (GDS) library, and integrating Neo4j with Python-based AI pipelines. \n\n**AWS Services** \n\n* Hands-on experience with Lambda, API Gateway, DynamoDB, and S3. \n\n* Understanding of serverless architecture, IAM roles and permissions, and event-driven patterns. \n\n**A2A (Agent-to-Agent Communication)** \n\n* Understanding of agent-to-agent communication patterns and protocols. \n\n* Experience building multi-agent systems where agents collaborate, delegate tasks, or exchange context. \n\n**MCP (Model Context Protocol)** \n\n* Understanding of MCP as a standard for connecting AI models to tools, data sources, and external systems. \n\n* Experience building or integrating MCP servers/clients into agentic architectures. \n\n**Vector Databases** \n\n* Exposure to vector databases such as Amazon OpenSearch and Elasticsearch for storing and querying embeddings in RAG workflows.\n\n**AI Agents &amp; Agentic Workflows**\n\n* Experience designing and building autonomous or semi-autonomous AI agents. \n\n* Understanding of agent loops, tool use, memory, planning, and multi-step reasoning patterns. Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 11.77,
+      "resume_variant": "backend",
+      "draft_answer": "I have built production-grade FastAPI backends that onboarded 80+ client organizations and significantly optimized performance, while also designing LLM-powered applications, RAG pipelines, and autonomous AI agents for reliable tool-calling. My experience owning cloud-native compliance platforms on Azure, deploying with AKS and CI/CD for zero-downtime, and building serverless image-sharing platforms on AWS Lambda and S3, prepares me to contribute immediately to Emplay's knowledge graph engineering and cloud-native AI infrastructure initiatives.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.36,
+            "overlap": 16.89,
+            "combined": 11.62
+          },
+          "backend": {
+            "cosine": 9.56,
+            "overlap": 16.92,
+            "combined": 11.77
+          },
+          "frontend": {
+            "cosine": 5.88,
+            "overlap": 16.99,
+            "combined": 9.21
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 9.56,
+        "keyword_overlap_score": 16.92,
+        "final_score": 11.77,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1968
+          },
+          {
+            "term": "experience",
+            "weight": 0.1733
+          },
+          {
+            "term": "data",
+            "weight": 0.1114
+          },
+          {
+            "term": "pipelines",
+            "weight": 0.1114
+          },
+          {
+            "term": "agent",
+            "weight": 0.106
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-22T14:33:58+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2a82a807cfd90d739d07603f983a5acf",
+      "source": "wellfound",
+      "company": "Emplay",
+      "role": "Associate AI Engineer",
+      "url": "https://wellfound.com/jobs/4750179-associate-ai-engineer",
+      "jd_text": "**Position:** Associate AI Engineer \n\n**Experience:** 1–2 years \n\n**Location -** Remote / Work from Home\n\n**Salary (CTC) -** 8 -10 LPA\n\n**No of Position -** 4\n\n\n**Associate AI Engineer**\n\nWe are looking for an AI Engineer with 1–2 years of hands-on experience in Generative AI, LLM\napplications, Python, and cloud technologies. You will work on building and improving AI-powered features, RAG-based applications, conversational systems, and integrations on AWS. The role involves working closely with senior engineers and product teams to develop, test, debug, and deploy reliable AI solutions while gaining exposure to production-scale AI systems.\n\n\n**Key Responsibilities**\n\n* Build and maintain LLM-powered features and conversational AI applications.\n\n* Develop and improve RAG pipelines including document processing, embeddings, vector search, and retrieval.\n\n* Work with LLM APIs such as AWS Bedrock, OpenAI, or Anthropic.\n\n* Implement AI agents and tool-based workflows using frameworks such as LangChain or LlamaIndex.\n\n* Develop backend services and APIs using Python (FastAPI / Flask).\n\n* Integrate third-party platforms and services using REST APIs and webhooks.\n\n* Work with AWS services such as Lambda, S3, DynamoDB, OpenSearch, SQS, and API Gateway.\n\n* Write unit tests, integration tests, and automated regression tests for AI features.\n\n* Monitor application logs, usage metrics, errors, and performance in development and production environments.\n\n* Troubleshoot issues across AI, backend, API, and cloud components.\n\n* Contribute to CI/CD pipelines and deployment processes.\n\n* Follow security, authentication, access-control, and data-privacy practices.\n\n* Collaborate with senior engineers and product teams to understand requirements and deliver features.\n\n* Participate in code reviews and contribute to improving engineering practices.\n\n**Qualifications**\n\n* 1–2 years of experience in software engineering, AI/ML engineering, or a related technical role.\n\n* Good programming experience in Python and familiarity with FastAPI or Flask.\n\n* Hands-on experience with LLM APIs such as AWS Bedrock, OpenAI, or Anthropic.\n\n* Understanding of Generative AI concepts, prompt engineering, and conversational AI.\n\n* Basic to intermediate understanding of RAG, embeddings, vector databases, and semantic search.\n\n* Familiarity with AI/agent frameworks such as LangChain or LlamaIndex.\n\n* Working knowledge of AWS services such as Lambda, S3, DynamoDB, OpenSearch, SQS, and API Gateway.\n\n* Experience building and consuming REST APIs.\n\n* Familiarity with Git and basic CI/CD concepts.\n\n* Understanding of databases and data processing concepts.\n\n* Good debugging and problem-solving skills.\n\n* Ability to work in a collaborative engineering environment and learn new technologies quickly.\n\n* Good communication skills and ability to explain technical issues clearly.\n\n**Preferred Skills**\n\n* Exposure to MCP (Model Context Protocol) and tool-based AI workflows.\n\n* Experience with vector databases such as OpenSearch, Pinecone, or pgvector.\n\n* Experience integrating enterprise platforms or SaaS APIs. Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 14.86,
+      "resume_variant": "backend",
+      "draft_answer": "I've built and optimized FastAPI backends for high-load systems, cutting API fetch latency by 98% with Redis caching and ensuring data integrity under concurrent load, while also building LLM tool-calling agents, RAG systems, and containerizing open-weight LLMs in Python. My experience extends to owning CI/CD pipelines with zero-downtime blue-green deployments, integrating external platforms, and deploying serverless solutions on AWS S3 and Lambda.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 13.46,
+            "overlap": 15.56,
+            "combined": 14.09
+          },
+          "backend": {
+            "cosine": 14.14,
+            "overlap": 16.54,
+            "combined": 14.86
+          },
+          "frontend": {
+            "cosine": 8.24,
+            "overlap": 16.99,
+            "combined": 10.86
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 14.14,
+        "keyword_overlap_score": 16.54,
+        "final_score": 14.86,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.44
+          },
+          {
+            "term": "experience",
+            "weight": 0.1693
+          },
+          {
+            "term": "apis",
+            "weight": 0.127
+          },
+          {
+            "term": "aws",
+            "weight": 0.1058
+          },
+          {
+            "term": "llm",
+            "weight": 0.1035
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-22T14:33:33+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c864a3a541d77acc1f4de7a411ee1ca9",
+      "source": "wellfound",
+      "company": "Astiva AI",
+      "role": "Full Stack Engineering Intern (Python + React + AI)",
+      "url": "https://wellfound.com/jobs/4751235-full-stack-engineering-intern-python-react-ai",
+      "jd_text": "Astiva AI is the Competitive Intelligence platform for AI Search and Visibility. Our platform monitors how brands appear across AI platforms including ChatGPT, Claude, Gemini, and Perplexity — and tells them exactly how to improve.\n\nWe are post-launch with paying customers, based in Bengaluru, actively building RAG pipelines and Agentic AI capabilities as core product features.\n\n**The role**\n\nYou will work inside a real, production-grade AI platform not a sandbox, not a mock project. Real users. Real data. Real stakes.\n\nYou will contribute across the full stack: Python backend, React.js frontend, RAG pipelines, and Agentic AI workflows. The Co-Founder who built the entire platform reviews your PRs directly. Week one, you ship to production.\n\nThis is a mentored role inside an established architecture.\n\nWhat you will work on\n\n**Backend (Python):**\n\nREST APIs, background processing jobs, LLM API integrations\nUnit and integration tests, production debugging\n\n**Frontend (React.js):**\n\nDashboard components across platform modules\nModern React patterns, backend API integration\n\n**RAG Pipelines:**\n\nRAG pipelines with vector databases and embedding models\nChunking, indexing, retrieval strategy development\n\n**Agentic AI:**\n\nMulti-step agentic workflows (LangChain, LangGraph, CrewAI)\nAgent tools, function calling with LLM providers\nProduction pipeline optimization\n\n**What we need**\n\nStrong Python fundamentals — show us something you built\nReact.js — hooks, functional components, API integration\nREST API and relational database fundamentals\nGit (clean PRs, clear commits)\nRAG understanding — embeddings, vector stores, retrieval\nGenuine exposure to Agentic AI frameworks\nGitHub profile with code you actually wrote\n\n**Bonus:** LLM API experience, vector DB exposure, Docker, personal RAG or agent projects\n\n**Why join**\n\nAt a large company you shadow engineers for months before touching production code. At Astiva, you ship in week one.\n\nBy the end of 6 months you will have worked across Python backend, React frontend, RAG pipelines, and Agentic AI. That is a skillset most engineers take years to assemble.\n\nYou work on the exact stack defining where software engineering is heading — multi-LLM orchestration, agentic workflows, AI-native product development.\n\nCompetitive stipend · Hybrid (Bengaluru) · 6 months Full-time conversion for top performers Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0c777b276ccd0b0b93de1c319d8fb950",
+      "source": "wellfound",
+      "company": "Unize",
+      "role": "Full-Stack Developer",
+      "url": "https://wellfound.com/jobs/4751185-full-stack-developer",
+      "jd_text": "[Unize](https://unize.com) is seeking a full-time Full-Stack Developer to help us build [Web 10](https://www.web10.ai/), an advanced, societally beneficial design for the future of knowledge work, operating systems, and the internet. If you’re interested in developing transformative technologies that could help [solve humanity’s greatest challenges](https://dougengelbart.org/content/view/172/), participating in the upside of a startup with the job security and growth opportunities of our parent organization Better, and trying and learning lots of new things, please apply!\n\nAs one of the two main developers on our team, you’ll own major parts of the Unize application. You’ll research how to implement new capabilities efficiently using JavaScript and our full-stack framework, Convex; contribute to architecture decisions; build prototypes and features; and improve reliability and scalability.\n\nStrong JavaScript full-stack development experience will be particularly helpful, especially experience developing and launching applications from scratch. Familiarity with any of the following is helpful (but can be learned after starting): knowledge management apps, graph databases, Convex, and integrating AI into apps (including building MCP servers, RAG workflows, and agents/harnesses).\n\nKey benefits of this role include: (1) creating a large positive social impact with your work, (2) having the opportunity to work on what interests you, (3) unlimited paid time off, (4) flexible working hours and location, (5) having lots of time and mentorship to learn new things, and (6) the opportunity to participate in our profit sharing plan as Unize generates revenue and expands. This role is not the best fit for someone looking for a high immediate salary, although we will raise salary fairly quickly (i.e. within 3–12 months) if performance is impressive.\n\nAs a bonus point to indicate if you've fully read the application, please include in your application if you have any preferred note taking / knowledge management apps San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 5.54,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.65,
+            "overlap": 7.62,
+            "combined": 5.54
+          },
+          "backend": {
+            "cosine": 3.76,
+            "overlap": 7.52,
+            "combined": 4.89
+          },
+          "frontend": {
+            "cosine": 2.92,
+            "overlap": 6.31,
+            "combined": 3.94
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.65,
+        "keyword_overlap_score": 7.62,
+        "final_score": 5.54,
+        "top_keywords": [
+          {
+            "term": "stack",
+            "weight": 0.1942
+          },
+          {
+            "term": "application",
+            "weight": 0.0964
+          },
+          {
+            "term": "time",
+            "weight": 0.0964
+          },
+          {
+            "term": "ai",
+            "weight": 0.0786
+          },
+          {
+            "term": "experience",
+            "weight": 0.0643
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e17e4c012baa265f7f71d5b9445b74c7",
+      "source": "wellfound",
+      "company": "Unize",
+      "role": "AI Engineer",
+      "url": "https://wellfound.com/jobs/4751176-ai-engineer",
+      "jd_text": "[Unize](https://unize.com) is seeking a full-time AI Engineer to help us build [Web 10](https://www.web10.ai/), an advanced, societally beneficial design for the future of knowledge work, operating systems, and the internet. If you’re interested in developing transformative technologies that could help [solve humanity’s greatest challenges](https://dougengelbart.org/content/view/172/), participating in the upside of a startup with the job security and growth opportunities of our parent organization Better, and trying and learning lots of new things, please apply!\n\nAs the main AI Engineer on our team, your primary focus will be building [Unize AI](https://developers.unize.org/), a long-term initiative improving how people and AI can work together on knowledge and collaboratively achieve goals. You may also contribute to other AI initiatives. You’ll build AI workflows (essentially AI agents and AI harnesses) using Python or JavaScript, ideate on how to improve them, and create/run automated evaluations/benchmarks for those workflows so we can see if our improvements work. Familiarity with any of the following is helpful: building AI agents/harnesses, creating and running AI benchmarks/evaluations, RAG/GraphRAG, integrating AI into apps (MCP, model routing, etc.), graph databases, and knowledge management apps.\n\nWhile we’re interested in candidates with applied AI experience, strong full-stack developers with a demonstrated interest in AI will also be considered. If you are familiar with full-stack development, especially with JavaScript, you could also help with integrating AI into Unize, including building an MVP server, tool registry, and even full-stack user-facing AI features.\n\nKey benefits of this role include: (1) creating a large positive social impact with your work, (2) having the opportunity to work on what interests you, (3) unlimited paid time off, (4) flexible working hours and location, (5) having lots of time and mentorship to learn new things, and (6) the opportunity to participate in our profit sharing plan as Unize generates revenue and expands. This role is not the best fit for someone looking for a high immediate salary, although we will raise salary fairly quickly (i.e. within 3–12 months) if performance is impressive.\n\nAs a bonus point to indicate if you've fully read the application, please include in your application if you have any preferred note taking / knowledge management apps. San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 7.86,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.25,
+            "overlap": 9.27,
+            "combined": 7.86
+          },
+          "backend": {
+            "cosine": 6.87,
+            "overlap": 9.02,
+            "combined": 7.52
+          },
+          "frontend": {
+            "cosine": 3.38,
+            "overlap": 9.22,
+            "combined": 5.13
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.25,
+        "keyword_overlap_score": 9.27,
+        "final_score": 7.86,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.5085
+          },
+          {
+            "term": "stack",
+            "weight": 0.1108
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0734
+          },
+          {
+            "term": "time",
+            "weight": 0.0734
+          },
+          {
+            "term": "agents",
+            "weight": 0.0598
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cb1aaa20b5f1b29672b546fb3aefb6b8",
+      "source": "wellfound",
+      "company": "Navtech",
+      "role": "Performance Engineer",
+      "url": "https://wellfound.com/jobs/4750174-performance-engineer",
+      "jd_text": "Navtech is looking for a Performance Engineer to characterize, benchmark, and optimize application workloads across CPU and GPU architectures — in bare-metal, virtualized, and distributed/cluster environments. You'll work with cross-functional teams to identify software bottlenecks and drive performance improvements.\n \n**Working as a Performance Engineer at Navtech, you will:**\n\n* Benchmark and profile workloads on CPU/GPU architectures using tracing tools like VTune and Linux Perf.\n* Analyze performance data to identify software bottlenecks and recommend optimizations.\n* Tune applications running in cluster and distributed environments.\n* Build performance monitoring scripts and automation using C, C++, and Python.\n* Apply knowledge of server ecosystem components (memory, storage, networking), virtualization, and Linux internals to performance tuning.\n* Document benchmarks and optimization findings for engineering and client stakeholders.\n\n**Who Are We Looking For Exactly?**\n\n* 2+ years of experience in bare-metal and virtual machine environments, with 2+ years of software development in C, C++, and Python.\n* Hands-on experience with benchmarking, tracing tools, VTune, and Linux Perf.\n* Working knowledge of server architecture, virtualization, and Linux OS internals.\n* Experience with distributed/cluster application environments.\n* Exposure to simulation technologies (functional, cycle-accurate/timing, performance) and profile-guided optimization is a plus.\n* Strong problem-solving, communication, and documentation skills.\n* B.S./M.S. in Computer Engineering, Computer Science, or related field.\n\n**Why Navtech?**\n* Performance review and Appraisal Twice a year.\n* Competitive pay package with additional bonus and benefits.\n* Work with US, UK and Europe based industry-renowned clients.\n* Medical Insurance cover for self and immediate family.\n* Culturally diverse team across global geographies.\n\n**About us:**\n\nNavtech is a premier IT software and Services provider. Navtech’s mission is to increase public cloud adoption and build cloud-first solutions that become trendsetting platforms of the future. We have been recognized as the Best Cloud Service Provider at GoodFirms for ensuring good results with quality services.\n\nHere, we strive to innovate and push technology and service boundaries to provide best-in-class technology solutions to our clients at scale. We deliver to our clients globally from our state-of-the-art design and development centers in the US, Hyderabad, and Pune. We’re a fast-growing company with clients in the United States, UK and Europe. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7cc68d5ddc1e3a376a9eabb26ceb37e6",
+      "source": "wellfound",
+      "company": "Navtech",
+      "role": "React Native Developer",
+      "url": "https://wellfound.com/jobs/2442984-react-native-developer",
+      "jd_text": "Navtech is looking for a React Native Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment. \n\nAs a React Native Developer, interested in building performant mobile apps on both the iOS and Android platforms. You will be responsible for architecting and building these applications, as well as coordinating with the teams responsible for other layers of the product infrastructure. Building a product is a highly collaborative effort, and as such, a strong team player with a commitment to perfection is required. You should also be a team player with a knack for visual design and utility. If you’re also familiar with Agile methodologies, we’d like to meet you. \n\n**Working as a React Native Developer at Navtech, you will: **\n\n* Perform all phases of software engineering including requirements analysis, application design, architecture design, code development and testing. \n* Build pixel-perfect, buttery smooth UIs across platforms. \n* Leverage native APIs for deep integrations with both platforms. \n* Diagnose and fix bugs and performance bottlenecks for performance that feels native. \n* Reach out to the open source community to encourage and help implement mission-critical software fixes—React Native moves fast and often breaks things. \n* Maintain code and write automated tests to ensure the product is of the highest quality. \n* Participate in an Agile/Scrum methodology to deliver high-quality software releases every 2 weeks through Sprints. \n* Review code and provide feedback related to best practices and improving performance. \n* Troubleshoot production support issues post-deployment and come up with solutions as required. \n \nYou’ll be rewarded and recognized for your performance in an environment that will challenge you and give you clear direction on what it takes to succeed in your role as well as provide development for other roles you may be interested in. \n\n**Who Are We Looking For Exactly? **\n\n* A React Native developer with 1+yrs of experience with expertise on multiple phases of a project lifecycle from concept development to solutions design, implementation, optimization and support. \n* Good Experience with React JS, React Native, JavaScript including DOM Manipulation and JavaScript object model. \n* Knowledge of REACT tools including React.js, Webpack, Enzyme, Redux, and Flux. \n* Good understanding of Object-oriented programming. \n* Ability to write well-documented, clean Javascript code. \n* Rock solid at working with third-party dependencies and debugging dependency conflicts. \n* Understanding of REST APIs, the document request model, and offline storage. \n* Experience with Native Mobile app releases on App store and google play store. (A plus) \n* Experience with cloud technologies like AWS is also a plus. \n* Must have excellent communication and interpersonal skills. \n* Ability to operate in a systematic and logical manner. \n* Should have a Master’s Degree /Bachelors (BS) in computer science, Software Engineering, IT, Technology Management or related degrees and throughout education in English medium.  \n\n**Why choose us**\n\n* Performance review and Appraisal Twice a year. \n* Competitive pay package with additional bonus &amp; benefits. \n* Work with US, UK &amp; Europe based industry renowned clients for exponential technical growth.  \n* Medical Insurance cover for self &amp; family. \n* Work with a culturally diverse team from different geographies.\n\n**About us:**\n\nNavtech is a premier IT software and Services provider. Navtech’s mission is to increase public cloud adoption and build cloud-first solutions that become trendsetting platforms of the future. We have been recognized as the Best Cloud Service Provider at GoodFirms for ensuring good results with quality services. Here, we strive to innovate and push technology and service boundaries to provide best-in-class technology solutions to our clients at scale. We deliver to our clients globally from our state-of-the-art design and development centers in the US, Hyderabad, and Pune. \n\nWe’re a fast-growing company with clients in the United States, UK, and Europe. You will join a team of talented developers, quality engineers, product managers whose mission is to impact above 100 million people across the world with technological services by the year 2030. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ccf9c85b60054cf027fe2202f500eac5",
+      "source": "wellfound",
+      "company": "Navtech",
+      "role": "WordPress/CRM Developer",
+      "url": "https://wellfound.com/jobs/4562441-wordpress-crm-developer",
+      "jd_text": "We are looking for a WordPress/CRM Developer who can also take ownership of our internal CRM system, combining website development with CRM configuration and automation responsibilities.\n\n**Working as a WordPress/CRM Developer at Navtech, you will:**\n* Design, develop, and maintain WordPress websites, including custom themes, plugins, and page layouts\n* Ensure website performance, security, and responsiveness across devices\n* Manage website updates, bug fixes, and ongoing maintenance\n* Build and maintain lead capture forms and landing pages, ensuring smooth data flow into the CRM\n* Own, configure, and maintain Navtech's CRM system (Pipedrive) — including custom fields, workflows, automations, and API level integrations\n* Configure custom CRM dashboards, views, and automated workflows and alerts for leadership visibility\n* Support sales/BD teams with deal stages, activity logs, pipeline records\n* Ensure CRM data quality and hygiene through structured validation and clean-up processes\n* Take up CRM development and automation-related tasks beyond standard configuration\n* Onboard team members, create SOPs, provide training\n\n**Who Are We Looking For Exactly?**\n* Proven experience as a WordPress Developer, with strong knowledge of HTML, CSS, JavaScript, and PHP\n* Experience building and customizing WordPress themes and plugins\n* Working knowledge of any CRM platform, such as Pipedrive, Salesforce, or HubSpot\n* Experience working with APIs, webhooks, or automation platforms such as Zapier or Make\n* Good understanding of CRM data structures and workflow automation\n* Good debugging and troubleshooting skills across both website and CRM systems\n* Strong communication skills to coordinate with sales, marketing, and leadership teams\n\n**Why Navtech?**\n* Yearly performance review and Appraisals.\n* Competitive pay package with additional bonus and benefits.\n* Work with US, UK and Europe based industry-renowned clients for exponential technical growth.\n* Opportunities to work on multiple projects.\n* Medical Insurance cover for self and immediate family.\n* Work with a culturally diverse team from different geographies.\n\n\n**About us:**\nNavtech is a premier IT software and Services provider. Navtech’s mission is to increase public cloud adoption and build cloud-first solutions that become trendsetting platforms of the future. We have been recognized as the Best Cloud Service Provider at GoodFirms for ensuring good results with quality services.\nHere, we strive to innovate and push technology and service boundaries to provide best-in-class technology solutions to our clients at scale. We deliver to our clients globally from our state-of-the-art design and development centers in the US, Hyderabad, and Pune. We’re a fast-growing company with clients in the United States, UK and Europe. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a120dcae83c55b395954b589bc01ba94",
+      "source": "wellfound",
+      "company": "BlackLight Studio Works",
+      "role": "Unity Game Developer",
+      "url": "https://wellfound.com/jobs/4751248-unity-game-developer",
+      "jd_text": "### Job Description :\n### \n**What You Bring to the team :**\n\n- 2-7 years of working experience in game development, preferable 2D games.\n- Excellent knowledge of Unity, including experience with scripting, textures, animation, GUI styles, user session management.\n- Good knowledge of game physics and particle systems\n- Experience of shipping out games on Android/ iOS and rolling out updates to them\n- Ability to plan and estimate timelines of new features/ releases.\n- Expert in debugging\n- Strong understanding of object-oriented programming, data structure and algorithms\n\n**Extra Gems for :**\n- Experience of working in Product industry\n- Good understanding of client/ server interaction\n- Experience of working on a mobile multiplayer games on scale, will be a huge plus\n- Experience with Android development / Objective C\n- Open source contributions, interesting hobby projects.\n- Experience optimising\n\n**Your responsibilities would include :**\n- As an Associate Unity game developer, you will be part of the Unity Dev team and will be responsible for the front-end (client) side development.\n- You would design, build and maintain efficient, reusable, and reliable code\n- Implement new game features and services\n- Continuously improve the game quality by fixing crashes, ANRs, performance related issues to deliver exceptional experience to our users.\n- Integrate third party SDKs like Analytics, Monetisation, Crash reporting etc. space\n- Create, debug, maintain and optimise the game, and related in-house written libraries used for the game's development.\n- Reporting to team lead regularly in clear and structured way regarding your progress. Proactive communication is a must when deadlines are getting missed. Noida\nlocationNames: Noida",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7ebec6fdbdecc3d49025b2b63a284b9f",
+      "source": "wellfound",
+      "company": "BlackLight Studio Works",
+      "role": "Android Developer - BlackLight Studio Works Private Limited",
+      "url": "https://wellfound.com/jobs/4491440-android-developer-blacklight-studio-works-private-limited",
+      "jd_text": "**About Us :**\n\nWe are BlackLight Games; we bring culturally relevant synchronous multiplayer games\nexperience to mobile. Our games have been rocking the Play Stores since launch.\nWe have built cutting-edge back-end technology; we take pride that our games are played by\nmore than 1 million players daily.\n\nOur flagship game, Ludo SuperStar has been downloaded more than 100 million times.\nOther titles include CallBreak, Carrom, Solitaire, Spider Solitaire and Word games.\n\n**Position :** Android Developer\n**Location :** Noida\n**Educational Qualification :** B.Tech/ MCA / M.Tech / M.Sc or relevant professional experience;\npreferably in Computer Science Noida\nlocationNames: Noida",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T14:33:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "371faa946b3b47344fbb46deb4d665f2",
       "source": "yc",
