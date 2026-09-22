@@ -1,15 +1,853 @@
 {
-  "exported_at": "2026-09-22T03:28:08+00:00",
+  "exported_at": "2026-09-22T07:34:27+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 675,
-    "pending_approval": 141,
+    "pending_approval": 148,
+    "discovered": 680,
     "failed": 7,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "bcf1cc9650cdc07ebbb21a4e68cee885",
+      "source": "wellfound",
+      "company": "Stylework",
+      "role": "Junior full stack engineer",
+      "url": "https://wellfound.com/jobs/4750168-junior-full-stack-engineer",
+      "jd_text": "**About the Role**\nAt Stylework, you will work across our product platforms and backend services, taking features from\ndesign through to production. This is a hands-on role with end-to-end ownership: you will build the\nfrontend, the APIs behind it, and the deployment pipeline that ships it. You will work closely with a\nsmall, senior engineering team where individual ownership is high and scope is broad.\n\nExperience Required\n• 2–4 years of professional experience as a Full Stack Engineer.\n\n**Must-Have Skills**\n* React.js \n* Node.js CI/CD\n* TypeScript \n* MongoDB \n* AWS or GCP\n* PostgreSQL\n\n**Good-to-Have Skills**\n• Golang\n• CI/CD pipeline design and implementation\n• Kubernetes deployments\n• System architecture and design\n• Microservices architecture\n• Performance optimization and scalability best practices\n\n**Key Expectations**\n• Independently design, develop, and deploy full-stack applications.\n• Strong understanding of backend APIs, database design, and cloud infrastructure.\n• Experience with modern engineering practices, including automated testing, code reviews, and\nDevOps workflows.\n\n**What Success Looks Like**\n• In the first 90 days: shipping features to production independently and owning at least one service\nend to end.\n• Comfortable being on-call for the systems you own, with support from the wider team.\n• Raising engineering standards through code review, documentation, and test coverage. Bengaluru Gurgaon\nlocationNames: Bengaluru Gurgaon",
+      "match_score": 13.79,
+      "resume_variant": "frontend",
+      "draft_answer": "I've consistently driven features from design to production for various product platforms, building React frontends, designing RESTful APIs, and deploying containerized applications on Azure and AWS. My experience extends to independently owning services and shipping features to production, like cutting API fetch latency by 98% with Redis and reducing data load times by 60% by migrating to Azure Blob Storage.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.37,
+            "overlap": 11.92,
+            "combined": 12.23
+          },
+          "backend": {
+            "cosine": 10.5,
+            "overlap": 11.28,
+            "combined": 10.73
+          },
+          "frontend": {
+            "cosine": 14.08,
+            "overlap": 13.11,
+            "combined": 13.79
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 14.08,
+        "keyword_overlap_score": 13.11,
+        "final_score": 13.79,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.2031
+          },
+          {
+            "term": "experience",
+            "weight": 0.1245
+          },
+          {
+            "term": "apis",
+            "weight": 0.083
+          },
+          {
+            "term": "backend",
+            "weight": 0.083
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.083
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-22T07:33:45+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7dfe95fc7292a4c4f41a87a4d8f7b84a",
+      "source": "wellfound",
+      "company": "Confidential Company",
+      "role": "SDET",
+      "url": "https://wellfound.com/jobs/4748769-software-development-engineer-in-test-sdet",
+      "jd_text": "This is an exciting opportunity to help build our technical team from the ground up at a mission-driven company advancing medical education for healthcare professionals worldwide. We are seeking an experienced Software Development Engineer in Test (SDET) to own test automation and release verification during a pivotal platform transition. \n\nYou'll build and maintain end-to-end test coverage, working closely with a small, collaborative engineering team to make sure every system we modernize continues to behave exactly as expected before it goes live. We're looking for someone who takes real ownership and pride in getting the details right, and who genuinely enjoys solving hard problems as part of a team.\n\n### Qualifications:\n* 3–5 years of experience building test automation, not manual QA\n* Strong hands-on experience with Playwright and Jest\n* Comfortable working inside CI/CD pipelines, particularly GitHub Actions\n* AWS experience: standing up and tearing down test environments, ECS task definitions, and seeded databases from RDS snapshots\n* Experience using AI tools to generate and maintain test cases\n* Bachelor's degree in Computer Science or a related field, or equivalent professional experience\n* A genuine team player who communicates openly, collaborates generously, and helps build a supportive, culture-first environment for the people around them\n\n### Key Responsibilities:\n* Own and rehome our end-to-end test suite onto modern infrastructure\n* Build a parity-testing harness that proves a rebuilt screen behaves identically to the one it replaced\n* Gate CI pipelines with automated test coverage for every screen migrated off legacy code\n* Own release verification and the sign-off process that determines when a system transfers to its internal owner\n* Use AI tools to accelerate test case generation and maintenance\n* Show up as a collaborative, culture-first team member as we build our technical organization from the ground up\n\n### About the Organization:\nWe are a leading emergency medical education organization dedicated to providing high-quality, cutting-edge educational content for healthcare professionals. We are a mission-driven team committed to advancing medical knowledge and improving patient care through innovative solutions and educational programs — and we take as much pride in how we work together as in what we build.\n\n#### What We Offer:\n**The Best Team:** Highly cohesive and dedicated remote-first team of kind and smart doctors, educators, designers, videographers, audio engineers, project managers, artists, innovators, leaders and travelers. We are committed to our work, our mission and each other in a very familial atmosphere, valuing mutual respect and collaboration.\n\n**Benefits:** Employees are offered a robust and comprehensive benefits package including health/dental/vision, 401K Deferral Program, generous holiday, vacation and sick time, Green Initiatives Program, remote-work set-up – and so much more.\n\n**Opportunity:** Professional development and learning opportunities are at the forefront of our employee enrichment. We ensure our team members are supported to grow as professionals individually and collectively for the benefit of themselves, their team and the company.\n\n#### EEO Statement:\nWe are an Equal Opportunity Employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or any other characteristic protected by applicable law. California\nlocationNames: California\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7d03f0bd7b5c7dd7274d14197aa694e9",
+      "source": "wellfound",
+      "company": "Confidential Company",
+      "role": "Frontend Engineer",
+      "url": "https://wellfound.com/jobs/4748771-frontend-engineer",
+      "jd_text": "This is an exciting opportunity to help build our technical team from the ground up at a mission-driven company advancing medical education for healthcare professionals worldwide. We're looking for a strong React and Next.js engineer who is comfortable reading and safely modifying PHP.\n\nThis is a migration-focused role: you will move screens off legacy PHP onto our modern React/Next.js\nstack, shrinking our PHP footprint one screen at a time rather than maintaining it long-term. We're\nlooking for a thoughtful collaborator who communicates clearly with teammates and takes genuine\npride in doing careful, high-quality work.\n\n### Qualifications:\n* Strong professional experience with React and Next.js\n* Ability to read and safely change PHP codebases; this is not a PHP framework specialist role\n* AWS experience across two deploy paths, plus enough CloudWatch experience to debug a route that behaves differently after moving\n* Experience using AI coding assistants for code porting and migration work\n* 3+ years of professional frontend engineering experience\n* A genuine team player who communicates openly, collaborates generously, and helps build a\n* supportive, culture-first environment for the people around them\n\n### Key Responsibilities:\n* Migrate priority screens from PHP to React/Next.js while maintaining functional parity with the original\n* Make PHP maintenance changes as needed under an active feature freeze\n* Debug and resolve routing or behavior differences that surface after a screen moves to the new stack\n* Use AI-assisted porting techniques to accelerate the PHP-to-React migration\n* Collaborate closely with QA on parity testing for every migrated screen\n* Show up as a collaborative, culture-first team member as we build our technical organization from the ground up\n\n### About the Organization:\nWe are a leading emergency medical education organization dedicated to providing high-quality, cutting-edge educational content for healthcare professionals. We are a mission-driven team committed to advancing medical knowledge and improving patient care through innovative solutions and educational programs — and we take as much pride in how we work together as in what we build.\n\n#### What We Offer:\n**The Best Team:** Highly cohesive and dedicated remote-first team of kind and smart doctors, educators, designers, videographers, audio engineers, project managers, artists, innovators, leaders and travelers. We are committed to our work, our mission and each other in a very familial atmosphere, valuing mutual respect and collaboration.\n\n**Benefits:** Employees are offered a robust and comprehensive benefits package including health/dental/vision, 401K Deferral Program, generous holiday, vacation and sick time, Green Initiatives Program, remote-work set-up – and so much more.\n\n**Opportunity:** Professional development and learning opportunities are at the forefront of our employee enrichment. We ensure our team members are supported to grow as professionals individually and collectively for the benefit of themselves, their team and the company.\n\n#### EEO Statement:\nWe are an Equal Opportunity Employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or any other characteristic protected by applicable law. California\nlocationNames: California\nremote: true",
+      "match_score": 8.34,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.58,
+            "overlap": 9.93,
+            "combined": 8.29
+          },
+          "backend": {
+            "cosine": 5.29,
+            "overlap": 8.65,
+            "combined": 6.3
+          },
+          "frontend": {
+            "cosine": 7.76,
+            "overlap": 9.71,
+            "combined": 8.35
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 7.76,
+        "keyword_overlap_score": 9.71,
+        "final_score": 8.34,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1123
+          },
+          {
+            "term": "react",
+            "weight": 0.1123
+          },
+          {
+            "term": "js",
+            "weight": 0.0899
+          },
+          {
+            "term": "frontend",
+            "weight": 0.055
+          },
+          {
+            "term": "education",
+            "weight": 0.0449
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1c69d09506fcd4ed501f76627078d362",
+      "source": "wellfound",
+      "company": "SynergyBoat Solutions",
+      "role": "Forward Deployed Engineer",
+      "url": "https://wellfound.com/jobs/4750167-forward-deployed-engineer-node-react-aws",
+      "jd_text": "## About SynergyBoat\n\nSynergyBoat builds software with clients and stays involved after launch. We are a remote-first team of engineers, designers, and operators. Our founders work on delivery, with open feedback across roles. We frame problems, own outcomes, and leave systems stronger than we found them.\n\nWe're building toward an AI-native company. We use our own products: HirePulse in hiring, Draftly in content, and an Agents SDK behind production AI workflows for clients. AI expands what the team can do; people remain accountable for what ships.\n\n## The Role\n\nWe're hiring a Forward Deployed Engineer to own engineering delivery for a long-running EV charging engagement. You'll work with the client and our team from problem discovery through design, implementation, testing, release, and production support. This will be your primary engagement. If capacity permits, you may take on similar work for other clients.\n\nThe platform covers charging operations, operator and host portals, integrations, and billing reconciliation. Near-term work is mainly backend and integrations in Node.js and TypeScript, with MongoDB and Redis. You'll also build React interfaces as the portals evolve and read or patch existing Angular code when needed.\n\nYou'll work directly with Abhishek, our CTO, and the engineering team. You'll make technical decisions, with support on architecture, reviews, and difficult releases. As you learn the platform, you'll speak directly with the client about problems, progress, risks, and what you have verified.\n\nWe use AI tools as a force multiplier: to explore unfamiliar code, test hypotheses, draft tests, and speed up routine implementation. We expect you to check the output against the real system and explain the decisions you keep.\n\n## What You'll Do\n\n- **Own work end to end:** clarify the client's need, scope a solution, build it, take it through review and release, and check the result in production.\n- **Engineer across the system:** work on APIs, data flows, third-party integrations, and user interfaces where the problem leads.\n- **Keep releases trustworthy:** test failure paths, review data changes, use observability, and plan deployments and rollbacks with the team.\n- **Communicate with context:** write clear updates, surface risks and changing estimates early, and explain trade-offs to the client and your teammates.\n- **Make the next project easier:** turn recurring problems and lessons from production into reusable code, tests, or playbooks.\n\n## Your First 90 Days\n\nYou'll learn the client's operating workflows, take a meaningful change from investigation through a reviewed production release, and own an integration or operational issue through resolution. You'll begin representing your work in client conversations, with support from Abhishek and the team.\n\n## What We're Looking For\n\n**Must have**\n\n- 3+ years building production software, with evidence of ownership beyond the merge.\n- Strong Node.js and TypeScript skills, plus the ability to build production React interfaces.\n- Experience debugging across APIs, data stores, queues, and external systems.\n- Experience shipping changes safely and verifying what happened after release.\n- Clear writing and calm communication with clients or senior stakeholders.\n- Habitual use of AI engineering tools, with examples of how you checked their output and where you chose not to use them.\n\n**Useful, not required:** Angular, AWS, MongoDB, Redis, EV charging, payments, or building and evaluating LLM-backed workflows. We value evidence of what you've built over degrees or a particular job title.\n\n## How We Work\n\nWe work with high context and low ego. You can challenge a plan with evidence, ask for help early, and expect direct, respectful feedback. We ship in small steps, learn from production, and share responsibility when something breaks. This role suits an engineer who wants to stay close to both the code and the people using it.\n\n## Benefits\n\n₹12–15 LPA per year, depending on experience and the scope you can own; company-provided hardware, a learning budget, paid leave, and health insurance. The role is remote within India, with flexible hours and some US-evening overlap for client conversations.\n\n## How Hiring Works\n\nA short introduction call, a realistic work sample, a technical discussion of your approach and production judgment, and a founder conversation. The process runs in HirePulse, our recruiting platform. AI assists review; people make the hiring decisions.\n\n[About SynergyBoat](https://www.synergyboat.com/about) · [Meet the team](https://www.synergyboat.com/team) · [Careers](https://www.synergyboat.com/careers) India Remote\nlocationNames: India Remote\nremote: true",
+      "match_score": 13.0,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently owned end-to-end delivery for clients, from scoping requirements to driving UAT for systems built with React, Express.js, and MongoDB, and introduced blue-green deployments for zero-downtime rollouts and Redis caching to cut latency by 98%. I'm prepared to apply this deep backend expertise—including using RabbitMQ to prevent data loss under high load and validating LLM tool-calling reliability—to build robust integrations for an EV charging engagement and contribute to production AI workflows.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.76,
+            "overlap": 15.89,
+            "combined": 13.0
+          },
+          "backend": {
+            "cosine": 10.8,
+            "overlap": 16.92,
+            "combined": 12.63
+          },
+          "frontend": {
+            "cosine": 11.06,
+            "overlap": 17.48,
+            "combined": 12.99
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 11.76,
+        "keyword_overlap_score": 15.89,
+        "final_score": 13.0,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.2099
+          },
+          {
+            "term": "production",
+            "weight": 0.1563
+          },
+          {
+            "term": "ai",
+            "weight": 0.1274
+          },
+          {
+            "term": "client",
+            "weight": 0.1216
+          },
+          {
+            "term": "code",
+            "weight": 0.0695
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-22T07:34:02+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "04dc8538dce42050e98567a1623b1d8c",
+      "source": "wellfound",
+      "company": "Tachys Capital",
+      "role": "Full Stack Developer/Technology Lead",
+      "url": "https://wellfound.com/jobs/4746848-full-stack-developer-technology-lead",
+      "jd_text": "Role: Full-Stack Developer/Technology Lead\n\nU.S. - Based Real Estate Investment &amp; Private Credit Firm\n\nLocation: Remote. Candidates must currently be based in Coimbatore or have strong personal or family roots in Coimbatore and a genuine intention to return there. Candidates based elsewhere will not be considered.\n\nWork Arrangement : Full-time or Part-time, Monday-Friday | Opportunity to transition to Full-time based on performance and mutual fit.\n\nHours : Approximately 2 - 3 hours of overlap with New York business hours; remaining hours flexible. Greater availability initially preferred.\n\nThe Opportunity :\n\nThis is not a traditional developer role. We are looking for a highly capable, entrepreneurial full-stack developer to become our first technology hire and work directly with the founder of a growing NYC-based real estate investment and private-credit firm.\n\nYou will build our technology platform from the ground up rather than inherit an existing codebase. You will help determine how technology and AI can improve the business, solve problems independently, and eventually build and lead a technology team in India.\n\nWhat You'll Build :\n\n- Loan &amp; Investment Technology : Origination, underwriting, borrower onboarding, portfolio management, servicing, construction draws and investor reporting\n\n- AI &amp; Automation : AI/LLM applications, document processing, analysis, workflows and reporting\n\n- Data &amp; Business Development : Data collection, scraping, prospecting, lead generation and CRM\n\n- Web &amp; Marketing Technology : Websites, landing pages, SEO, analytics and marketing automation\n\n- Infrastructure : Cloud systems, APIs, integrations, security, email, hosting and internal tools\n\nWhat We're Looking For :\n\n- 2 - 7 years of experience building production web applications\n\n- Strong full-stack development skills\n\n- Experience with technologies such as Python, Node.js, React/Next.js, SQL and APIs\n\n- Interest or experience in AI/LLM APIs and automation\n\n- Strong problem-solving and analytical ability\n\n- Able to learn unfamiliar technologies independently\n\n- Strong written and spoken English\n\n- Comfortable working directly with a founder and significant autonomy\n\n- Commercially minded and interested in how technology can generate revenue and improve efficiency\n\n- Bachelor's degree in CS/Engineering or equivalent practical experience\n\nThe Long-Term Opportunity :\n\nThis can begin as a part-time role, with the potential to transition to full-time based on performance and mutual fit. Initially, you will personally build much of the platform. As the business grows, you will help determine what should be built internally, recruit additional technical resources in India, and eventually lead the firm's technology and AI function.\n\nWhat We Offer :\n\n- Significant ownership and autonomy\n\n- Direct access to the founder and decision-makers\n\n- Opportunity to build a platform from scratch\n\n- Extensive exposure to AI, software, data, finance and automation\n\n- Opportunity to eventually build and lead a technology team\n\n- Direct visibility into how your work drives business growth Coimbatore\nlocationNames: Coimbatore",
+      "match_score": 10.09,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently delivered end-to-end full-stack systems and owned cloud deployments, from scoping requirements to automating reporting workflows and implementing blue-green releases, often as the sole engineer on core modules. My experience running open-weight LLMs locally for tool-calling validation, coupled with optimizing API fetch latency by 98% using Redis caching and ensuring data integrity under concurrent load with message brokers, directly aligns with building investment technology and AI applications for business workflows.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.88,
+            "overlap": 12.91,
+            "combined": 10.09
+          },
+          "backend": {
+            "cosine": 7.89,
+            "overlap": 13.53,
+            "combined": 9.59
+          },
+          "frontend": {
+            "cosine": 8.15,
+            "overlap": 16.02,
+            "combined": 10.51
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.88,
+        "keyword_overlap_score": 12.91,
+        "final_score": 10.09,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.148
+          },
+          {
+            "term": "based",
+            "weight": 0.148
+          },
+          {
+            "term": "stack",
+            "weight": 0.1219
+          },
+          {
+            "term": "time",
+            "weight": 0.1008
+          },
+          {
+            "term": "experience",
+            "weight": 0.0807
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-22T07:34:26+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "25e9feb66e4a3582b4de44c649b52a29",
+      "source": "wellfound",
+      "company": "Kraftshala",
+      "role": "Senior Software Developer - Full Stack & AI Product Engineering",
+      "url": "https://wellfound.com/jobs/4750148-senior-software-developer-full-stack-ai-product-engineering",
+      "jd_text": "### The Short Version\n\n**Who we're looking for:** A strong full-stack engineer who deeply knows their stack and can also build AI products end-to-end. You write clean, performant Node.js and TypeScript, model data well in SQL, build fast search with Elasticsearch, work comfortably on AWS, and ship polished React and Gatsby frontends. You're backend-heavy and genuinely hands-on, but comfortable across the full stack. You can take an AI product from idea to production using LLMs, AI agents, APIs, and production-grade infrastructure, and you take real ownership of what you build.\n\n**What the role is about:** You'll design and build the systems behind our web experience - APIs, data models, search, infrastructure, and AI-powered products and workflows. You'll work across the full product lifecycle, from architecture and development to deployment and iteration. Strong engineering craft, AI product-building ability, and product sense are all core to this role.\n\n**Why you should apply:** If you love building solid systems and turning AI capabilities into real products, this role gives you deep technical ownership and the opportunity to work on products that directly impact thousands of learners. You'll get to work across traditional software engineering and hands-on AI product development, with the freedom to build, ship, and iterate rather than simply consume AI tools.\n\n**About us:** Kraftshala is India's largest higher-education institution in terms of marketing placements, with a 94% placement rate, and we are gunning to become the world's largest career launchpad, across domains.\n\nWe're backed by a number of eminent investors including ex-unicorn startup founders and CXOs of global giants like RedBus, NoBroker, Nestlé, and Performics.\n\n### The Detailed Version\n\nAs a Senior Software Developer (Backend-Heavy &amp; AI Product Engineering) at Kraftshala, you'll work closely with product, design, and other engineers to build fast, reliable, scalable web applications and AI-powered products. This role suits someone with strong engineering fundamentals and depth in their tools, combined with hands-on AI product-building ability, product thinking, attention to detail, and the ability to take ownership in a fast-moving startup.\n\n**Responsibilities &amp; Metrics:**\n\n* **Build and ship backend services and APIs:** Design and build scalable backend systems in Node.js and TypeScript. Metrics to measure: API performance, reliability, delivery timelines, and post-release defects.\n* **Build AI-powered products end-to-end:** Build production-ready AI products using LLMs, AI agents, APIs, and external systems - from architecture and implementation through production deployment and iteration. Metrics to measure: time to production, reliability, adoption, task completion, latency, and cost efficiency.\n* **Build and optimise data and search systems:** Design performant SQL data models and Elasticsearch-powered search and discovery experiences. Metrics to measure: query/search performance, data integrity, relevance, and indexing reliability.\n* **Own cloud infrastructure and deployment:** Deploy, scale, monitor, and optimise backend and AI systems on AWS. Metrics to measure: uptime, incident frequency/recovery, deployment reliability, and infrastructure/AI costs.\n* **Build user-facing product experiences:** Develop polished React/Gatsby experiences on top of the systems you own. Metrics to measure: feature adoption, page performance, and post-release defects.\n* **Own technical architecture and projects end-to-end:** Make sound frontend, backend, and AI architecture decisions and independently take projects from problem definition through production. Metrics to measure: on-time delivery, system reliability and scalability, technical debt, and production performance.\n\n### Top Grading\n\n* **Problem Solving:** An A-player breaks complex engineering and AI problems into elegant solutions independently, whereas a B-player needs frequent direction.\n* **Code Quality &amp; Craft:** An A-player consistently writes clean, well-tested, maintainable code and builds reliable production systems, whereas a B-player prioritises getting something working over long-term quality.\n* **Ownership &amp; Accountability:** An A-player takes full ownership of product outcomes from idea to production - including what happens after deployment - whereas a B-player limits responsibility to assigned tickets.\n* **AI Product Engineering:** An A-player can independently turn an AI product idea into a reliable production system using LLMs, agents, APIs, and application engineering, whereas a B-player has primarily experimented with AI tools without being able to build complete products.\n* **Product Thinking:** An A-player deeply understands user needs and identifies where technology can genuinely improve the product, whereas a B-player implements requirements without enough consideration of the underlying user problem.\n\n### Must Haves\n\n* 2-3 years of experience building web applications with Node.js and TypeScript on the backend, and React on the frontend. *(We are not too fussed about the number of years - experience is simply a proxy for capability, which is what we really care about.)*\n* Hands-on experience building AI products end-to-end using LLMs, AI agents, and APIs, from problem definition and architecture through implementation, production deployment, and iteration.\n* Strong proficiency in JavaScript/TypeScript fundamentals, including ES6+ features, asynchronous programming, and modular architecture.\n* Solid experience designing and consuming RESTful APIs, and building backend services that are efficient, secure, well-documented, and clean.\n* Strong command of SQL and relational database concepts - schema design, indexing, and writing performant queries.\n* Hands-on experience with Elasticsearch for indexing, querying, and relevance tuning.\n* Working knowledge of AWS for deploying, scaling, and monitoring services.\n* Experience building frontends in React, with familiarity with Gatsby, and an eye for product polish and detail.\n\n### Good to Haves\n\n* Familiarity with GraphQL alongside REST.\n* Experience with infrastructure-as-code and CI/CD pipelines on AWS.\n* Exposure to caching, queuing, or event-driven architectures.\n* Familiarity with Netlify, WordPress, or other JAMstack tooling.\n* Contributions to the open-source ecosystem.\n* Comfort with observability tooling such as logging, metrics, and tracing.\n\n### Selection Process\n\nAs a small team, it's imperative that we get to know each other before taking the leap. We want to ensure you succeed in your role within our team. Each conversation with us will last about 40-60 minutes. The process will occur over a mix of online calls and in-person conversations.\n\n1. **Setting Expectations:** A call with the HR team to understand your profile and share the details of the selection process.\n2. **Technical Assessment:** An assessment designed to evaluate your fit for the role, with a focus on backend problem-solving and hands-on AI product building.\n3. **Technical Interview:** A conversation with our Tech Lead covering the core competencies needed for the role, including backend engineering, system design, product thinking, and AI product development.\n4. **Culture Fit Conversation:** A conversation with our CEO to ensure there is a fit with the Kraftshala Kode.\n5. **Extending an Offer:** If all goes well, we'll extend an offer with the relevant details.\n\n### Location\n\nDelhi\n\n### Know more about Kraftshala’s philosophy, culture, and investors [here](https://https://www.kraftshala.com/kraftshala-careers/). Delhi\nlocationNames: Delhi",
+      "match_score": 14.25,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've engineered robust full-stack platforms from requirements to blue-green deployment, cutting API latency by 98% with caching and preventing data loss with message brokers, and I've built AI agents validating tool-calling reliability end-to-end. I'm eager to bring this ownership and experience to building backend systems and AI products that directly impact thousands of learners.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.56,
+            "overlap": 20.53,
+            "combined": 14.25
+          },
+          "backend": {
+            "cosine": 11.51,
+            "overlap": 20.3,
+            "combined": 14.15
+          },
+          "frontend": {
+            "cosine": 9.56,
+            "overlap": 23.79,
+            "combined": 13.83
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 11.56,
+        "keyword_overlap_score": 20.53,
+        "final_score": 14.25,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3268
+          },
+          {
+            "term": "production",
+            "weight": 0.1131
+          },
+          {
+            "term": "backend",
+            "weight": 0.1028
+          },
+          {
+            "term": "end",
+            "weight": 0.1006
+          },
+          {
+            "term": "experience",
+            "weight": 0.0822
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-22T07:33:37+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8b3b004d52406e33b423a7a66f78e629",
+      "source": "wellfound",
+      "company": "Drona Pay",
+      "role": "Fullstack Engineer (React, Spring, Postgres)",
+      "url": "https://wellfound.com/jobs/2533390-senior-engineer-fullstack-react-spring-postgres",
+      "jd_text": "Experience in React web app developement\nExperience in Springboot API development\nExposure to database query optimization and design\nIntegration with SSO, Metrics, SAML and external APIs\nImplementation &amp; troubleshooting on Docker, K8s, AWS, GCP, Azure Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 8.78,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.22,
+            "overlap": 4.3,
+            "combined": 7.74
+          },
+          "backend": {
+            "cosine": 8.8,
+            "overlap": 4.89,
+            "combined": 7.62
+          },
+          "frontend": {
+            "cosine": 10.05,
+            "overlap": 5.83,
+            "combined": 8.78
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.05,
+        "keyword_overlap_score": 5.83,
+        "final_score": 8.78,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1852
+          },
+          {
+            "term": "react",
+            "weight": 0.1852
+          },
+          {
+            "term": "api",
+            "weight": 0.0926
+          },
+          {
+            "term": "apis",
+            "weight": 0.0926
+          },
+          {
+            "term": "app",
+            "weight": 0.0926
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "048346cb91c726228289028b43ffeb18",
+      "source": "wellfound",
+      "company": "Drona Pay",
+      "role": "Data Engineer (Python & SQL)",
+      "url": "https://wellfound.com/jobs/3626686-data-engineer-python-sql",
+      "jd_text": "Designing and developing Data Pipelines for Data Ingestion or Transformation using Python and SQL\nExperience with Python &amp; SQL is mandatory\nExposure to training and deployment of ML Models will be a plus\nBFSI exposue is a plus Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "4541c7e3cb413af1f1c28dad9eb04df9",
+      "source": "wellfound",
+      "company": "Emplay",
+      "role": "Senior Associate AI Engineer",
+      "url": "https://wellfound.com/jobs/4750163-senior-associate-ai-engineer",
+      "jd_text": "**Position:** Senior Associate AI Engineer \n\n**Experience:** 2–3 years \n\n**No of Position -** 3\n\n**Location -** Remote / Work from Home\n\n**Salary (CTC) -** 10 LPA - 14 LPA\n\n**Role Overview**\n\nWe are looking for a Senior AI Engineer with hands-on experience in Generative AI, Retrieval-Augmented Generation (RAG), and AWS cloud services. You will design and deliver production-grade LLM-powered features, build intelligent agents, and integrate enterprise tools — working closely with cross-functional teams to ship high-quality AI solutions at scale.\n\n**Key Responsibilities**\n\n* Design, build, and deploy LLM-powered agents and conversational AI features on AWS.\n\n* Architect and optimise end-to-end RAG pipelines — embedding, vector indexing, and context retrieval.\n\n* Implement Model Context Protocol (MCP) servers to support multi-agent orchestration       workflows.\n\n* Develop and maintain LLM evaluation frameworks for quality assurance and regression tracking.\n\n* Build scalable, multi-region cloud infrastructure leveraging core AWS services.\n\n* Secure APIs and enforce access controls, authentication flows, and data privacy standards.\n\n* Integrate third-party platforms (CRM, Sales Enablement, analytics tools) via REST APIs and webhooks.\n\n* Build bulk data ingestion/export pipelines and instrument usage analytics and logging.\n\n* Own CI/CD pipelines, automated regression testing, and production reliability.\n\n* Collaborate with product and engineering teams to scope, estimate, and deliver features on time.\n\n**Qualifications**\n* 2–3 years of experience in AI/ML engineering or a related technical role, preferably in SaaS or a cloud-native environment.\n\n* Hands-on experience with LLM APIs — AWS Bedrock, OpenAI, or Anthropic — and building production-ready GenAI features.\n\n* Strong knowledge of RAG pipeline design — embeddings, vector stores (OpenSearch, Pinecone, pgvector),and retrieval strategies.\n\n* Proficiency with agent frameworks such as LangChain or LlamaIndex; familiarity with MCP (Model Context Protocol).Solid AWS skills — Lambda, ECS/EKS, S3, DynamoDB, OpenSearch, SQS, and multi-region architecture patterns.\n\n* Backend development in Python (FastAPI / Flask) — able to write and maintain production-quality services and APIs.\n\n* REST / GraphQL API design with OpenAPI documentation; experience with OAuth 2.0, SAML, and OIDC.\n\n* Infrastructure-as-code experience using Terraform or AWS CDK; CI/CD pipelines with GitHub Actions or equivalent.\n\n* Strong problem-solving skills and ability to work with ambiguous requirements.\n\n* Good communication skills, able to work with both technical and non-technical stakeholders.\n\n**Preferred Skills**\n\n* Experience with Sales Enablement or CRM integrations\n\n* Familiarity with advanced agent orchestration and multi-tool LLM workflows.\n\n* Prior experience in a B2B SaaS or enterprise software environment. Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 15.29,
+      "resume_variant": "fullstack",
+      "draft_answer": "Having built an LLM agent with tool-calling reliability and implemented RAG principles, I've also owned end-to-end delivery of cloud-native enterprise platforms, automating workflows for 80+ clients and introducing robust CI/CD and API performance optimizations. My expertise deploying FastAPI services on Kubernetes with automated TLS, optimizing APIs for high load, and leveraging cloud services like AWS S3/Lambda and Docker, aligns directly with building scalable LLM-powered features and intelligent agents for Emplay.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 15.04,
+            "overlap": 15.89,
+            "combined": 15.3
+          },
+          "backend": {
+            "cosine": 14.82,
+            "overlap": 16.54,
+            "combined": 15.34
+          },
+          "frontend": {
+            "cosine": 10.77,
+            "overlap": 16.02,
+            "combined": 12.34
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 15.04,
+        "keyword_overlap_score": 15.89,
+        "final_score": 15.29,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2138
+          },
+          {
+            "term": "experience",
+            "weight": 0.1997
+          },
+          {
+            "term": "llm",
+            "weight": 0.1527
+          },
+          {
+            "term": "aws",
+            "weight": 0.1498
+          },
+          {
+            "term": "apis",
+            "weight": 0.0999
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-22T07:33:08+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d1303b55fd9a85168fd2cd61324917f6",
+      "source": "wellfound",
+      "company": "Emplay",
+      "role": "Lead- AI Engineer",
+      "url": "https://wellfound.com/jobs/4750136-lead-ai-engineer",
+      "jd_text": "**Position:** Lead- AI Engineer \n\n**Experience:** 3-4 years \n\n**No of Position -** 1\n\n**Location -** Remote / Work from Home\n\n**Salary (CTC) -** 12- 15 LPA\n\n**Role Overview**\n\nWe are looking for a Lead- AI Engineer with hands-on experience in Generative AI, Retrieval-Augmented Generation (RAG), and AWS cloud services. You will work with teams to design and deliver production-grade LLM-powered features, build intelligent agents, and integrate enterprise tools — working closely with cross-functional teams to ship high-quality AI solutions at scale.\n\n**Key Responsibilities**\n\n* Design, build, and deploy LLM-powered agents and conversational AI features on AWS.\n\n* Architect and optimise end-to-end RAG pipelines — embedding, vector indexing, and context retrieval.\n\n* Implement Model Context Protocol (MCP) servers to support multi-agent orchestration workflows.\n\n* Develop and maintain LLM evaluation frameworks for quality assurance and regression tracking.\n\n* Build scalable, multi-region cloud infrastructure leveraging core AWS services.\n\n* Secure APIs and enforce access controls, authentication flows, and data privacy standards.\n\n* Integrate third-party platforms (CRM, Sales Enablement, analytics tools) via REST APIs and webhooks.\n\n* Build bulk data ingestion/export pipelines and instrument usage analytics and logging.\n\n* Own CI/CD pipelines, automated regression testing, and production reliability.\n\n* Collaborate with product and engineering teams to scope, estimate, and deliver features on time.\n\n**Qualifications**\n\n* 3-4 years of experience AI/ML engineering or a related technical role, preferably in SaaS or a cloud-native environment.\n\n* Hands-on experience with LLM APIs — AWS Bedrock, OpenAI, or Anthropic — and building production-ready GenAI features.\n\n* Strong knowledge of RAG pipeline design — embeddings, vector stores (OpenSearch, Pinecone, pgvector),and retrieval strategies.\n\n* Proficiency with agent frameworks such as LangChain or LlamaIndex; familiarity with MCP (Model ontext Protocol).Solid AWS skills — Lambda, ECS/EKS, S3, DynamoDB, OpenSearch, SQS, and multiregion architecture patterns.\n\n* Backend development in Python (FastAPI / Flask) — able to write and maintain production-quality services and APIs.\n\n* REST / GraphQL API design with OpenAPI documentation; experience with OAuth 2.0, SAML and OIDC.\n\n* Infrastructure-as-code experience using Terraform or AWS CDK; CI/CD pipelines with GitHub Actions or equivalent.\n\n* Strong problem-solving skills and ability to work with ambiguous requirements.\n\n* Good communication skills, able to work with both technical and non-technical stakeholders.\n\n**Preferred Skills**\n\n* Experience with Sales Enablement or CRM integrations\n\n* Familiarity with advanced agent orchestration and multi-tool LLM workflows.\n\n* Prior experience in a B2B SaaS or enterprise software environment Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 15.11,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience validating LLM tool-calling reliability and a strong background in RAG enable me to design and deliver production-grade LLM-powered features and intelligent agents. Leveraging FastAPI for backend development and prior experience deploying serverless platforms on AWS, I can build scalable AWS cloud services and own CI/CD pipelines with blue-green releases, ensuring production reliability for integrated enterprise tools.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 14.77,
+            "overlap": 15.89,
+            "combined": 15.11
+          },
+          "backend": {
+            "cosine": 14.6,
+            "overlap": 16.54,
+            "combined": 15.18
+          },
+          "frontend": {
+            "cosine": 10.51,
+            "overlap": 15.53,
+            "combined": 12.02
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 14.77,
+        "keyword_overlap_score": 15.89,
+        "final_score": 15.11,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2138
+          },
+          {
+            "term": "experience",
+            "weight": 0.1997
+          },
+          {
+            "term": "llm",
+            "weight": 0.1527
+          },
+          {
+            "term": "aws",
+            "weight": 0.1498
+          },
+          {
+            "term": "apis",
+            "weight": 0.0999
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-22T07:33:23+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d0eff91723c83da1837a5cb426def36a",
+      "source": "wellfound",
+      "company": "Rescue Rituals",
+      "role": "Software Engineer, Backend (NestJS / PostgreSQL), Early-Stage Startup (Remote, IST/ET overlap)",
+      "url": "https://wellfound.com/jobs/4750114-software-engineer-frontend-react-react-native-early-stage-startup-remote-ist-et-overlap-clone",
+      "jd_text": "We're a young, pre-product startup building a consumer platform from the ground up, led by a founder based in the US. We move fast and need someone who thrives on urgency and takes real ownership, this is early-stage building, not maintaining an existing system.\n\n**What you'll do**\n* Design, build, and maintain backend services using NestJS, often from scratch\n* Model and manage data in PostgreSQL, with attention to performance and data integrity\n* Build and document APIs consumed by the frontend and mobile apps\n* Take ownership of your modules end to end, from architecture decisions to execution\n* Handle authentication, authorization, and general system reliability\n* Move fast, iterate quickly, and adjust as the product direction evolves\n\n**What we're looking for**\n* 3+ years of experience building backend systems with NestJS or a similar Node.js framework\n* Strong working knowledge of PostgreSQL, including schema design and query optimization\n* A genuine sense of urgency and ownership, comfortable operating in an undefined, pre-product environment\n* Comfortable working directly with a small team, minimal handholding\n* Strong sense of logic and structured problem-solving\n* Overlap availability across IST and ET working hours\n\n**Nice to have**\n* Experience with AWS\n* Experience with GenAI integrations\n* Prior experience at an early-stage or pre-product startup\n\n**Details**\n* Remote, full time role\n* Company and product details shared during the interview process New York City\nlocationNames: New York City\nremote: true",
+      "match_score": 8.2,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.97,
+            "overlap": 9.6,
+            "combined": 7.06
+          },
+          "backend": {
+            "cosine": 6.23,
+            "overlap": 9.02,
+            "combined": 7.07
+          },
+          "frontend": {
+            "cosine": 7.14,
+            "overlap": 10.68,
+            "combined": 8.2
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 7.14,
+        "keyword_overlap_score": 10.68,
+        "final_score": 8.2,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1312
+          },
+          {
+            "term": "backend",
+            "weight": 0.0984
+          },
+          {
+            "term": "end",
+            "weight": 0.0802
+          },
+          {
+            "term": "data",
+            "weight": 0.0656
+          },
+          {
+            "term": "based",
+            "weight": 0.0401
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "76309114029cdc5b129dbe7d628eec6e",
+      "source": "wellfound",
+      "company": "Rescue Rituals",
+      "role": "Software Engineer, Frontend (React / React Native), Early-Stage Startup (Remote, IST/ET overlap)",
+      "url": "https://wellfound.com/jobs/4750112-software-engineer-frontend-react-react-native-early-stage-startup-remote-ist-et-overlap",
+      "jd_text": "We're a young, pre-product startup building a consumer platform from the ground up, led by a founder based in the US. We move fast and need someone who thrives on urgency and takes real ownership, this is early-stage building, not maintaining an existing system.\n\n**What you'll do**\n* Build and ship features using React and React Native across web and mobile, often from scratch\n* Work closely with the Product Manager and Designer to translate designs into functional, polished interfaces quickly\n* Take ownership of your modules end to end, from decision-making to execution to debugging\n* Collaborate with backend engineers to integrate APIs and ensure smooth end-to-end functionality\n* Move fast, iterate quickly, and adjust as the product direction evolves\n\n**What we're looking for**\n* 3+ years of experience building production applications with React and React Native\n* Strong understanding of component architecture, state management, and mobile performance considerations\n* A genuine sense of urgency and ownership, comfortable operating in an undefined, pre-product environment\n* Comfortable working directly with a small team, minimal handholding\n* Strong sense of logic and structured problem-solving\n* Overlap availability across IST and ET working hours\n\n**Nice to have**\n* Experience with TypeScript\n* Experience shipping apps to the App Store or Play Store\n* Prior experience at an early-stage or pre-product startup\n\n**Details**\n* Remote, full time role\n* Company and product details shared during the interview process New York City\nlocationNames: New York City\nremote: true",
+      "match_score": 10.63,
+      "resume_variant": "frontend",
+      "draft_answer": "Having owned the end-to-end React build of a government reporting portal and critical client-facing modules, I'm prepared to drive a consumer platform from initial concept to launch, having previously cut UI fetch latency by 98%. My track record of tracing API degradation to cut latency and building several independent projects demonstrates the structured problem-solving and ownership crucial for an early-stage build.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-22T07:32:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.49,
+            "overlap": 9.6,
+            "combined": 7.42
+          },
+          "backend": {
+            "cosine": 4.61,
+            "overlap": 9.02,
+            "combined": 5.93
+          },
+          "frontend": {
+            "cosine": 10.4,
+            "overlap": 11.17,
+            "combined": 10.63
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.4,
+        "keyword_overlap_score": 11.17,
+        "final_score": 10.63,
+        "top_keywords": [
+          {
+            "term": "react",
+            "weight": 0.1928
+          },
+          {
+            "term": "end",
+            "weight": 0.1573
+          },
+          {
+            "term": "experience",
+            "weight": 0.1286
+          },
+          {
+            "term": "native",
+            "weight": 0.0964
+          },
+          {
+            "term": "based",
+            "weight": 0.0393
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-22T07:34:17+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "431a9829fdd444a955db421c6c5f27ba",
       "source": "yc",
