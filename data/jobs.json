@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-09-23T07:38:08+00:00",
+  "exported_at": "2026-09-23T07:39:32+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "failed": 9,
-    "discovered": 695,
     "pending_approval": 152,
+    "discovered": 695,
+    "failed": 9,
     "submitted": 5,
     "rejected": 3
   },
@@ -20,12 +20,12 @@
       "match_score": 12.32,
       "resume_variant": "frontend",
       "draft_answer": "I've owned and shipped end-to-end React front ends for critical compliance platforms, including a government mining-safety regulator's portal, where I directly improved UI responsiveness by cutting API fetch latency by 98% through Redis caching. My full-stack experience includes Docker-based deployment and owning client-facing modules for live production applications, equipping me to contribute across the stack on your bilingual medical platform.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "failed",
+      "status": "pending_approval",
       "discovered_at": "2026-09-23T07:35:40+00:00",
-      "decided_at": "2026-09-23T07:38:07+00:00",
+      "decided_at": null,
       "submitted_at": null,
-      "error_message": "Apply form has screening inputs beyond a single cover letter/note. | Questions: Search everything",
-      "sent_message": "I've built end-to-end React front ends and Node/Express back ends for regulated compliance platforms, including for a government mining-safety regulator, where I owned core client-facing modules and cut API latency by 98% by tracing and resolving redundant reads in production. My experience owning cloud deployments on Azure with Docker, from migrating data to eliminating bottlenecks and reducing data refresh delays for active users, aligns with owning the full product surface of a live, bilingual medical platform.\nGitHub: https://github.com/sanjay-kandpal",
+      "error_message": null,
+      "sent_message": null,
       "match_breakdown": {
         "weights_version": "v1",
         "hard_filters": {
@@ -82,13 +82,9 @@
       },
       "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
       "drafted_at": "2026-09-23T07:36:18+00:00",
-      "confirmation_signal": {
-        "ok": false,
-        "url": "https://wellfound.com/jobs/4750129-full-stack-engineer",
-        "text": "Apply form has screening inputs beyond a single cover letter/note. | Questions: Search everything"
-      },
-      "github_run_id": "35832659653",
-      "apply_kind": "has_questions"
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
     },
     {
       "id": "33535633866edb911524c54fbfa50085",
@@ -254,12 +250,12 @@
       "match_score": 17.77,
       "resume_variant": "fullstack",
       "draft_answer": "I've consistently delivered production-grade, multi-user applications end-to-end, from scoping client requirements and building FastAPI/React systems to owning secure Azure AKS deployments with CI/CD, blue-green releases, and UAT across diverse user groups. My focus on operational quality includes introducing RabbitMQ to guarantee delivery under high load, integrating Redis caching to cut API latency by 98% after load testing, and establishing ACID-compliant transactions to ensure data integrity for concurrent operations within client environments.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "pending_approval",
+      "status": "failed",
       "discovered_at": "2026-09-23T07:35:40+00:00",
-      "decided_at": null,
+      "decided_at": "2026-09-23T07:39:29+00:00",
       "submitted_at": null,
-      "error_message": null,
-      "sent_message": null,
+      "error_message": "Apply form has screening inputs beyond a single cover letter/note. | Questions: Search everything; react-select-form-input--qualification.location.locationId-input",
+      "sent_message": "I have driven end-to-end delivery and architectural hardening of multi-user production systems, including an occupational hygiene reporting portal built with FastAPI/React, where I led client requirements, full-stack development, and deployment with blue-green CI/CD and critical reliability features like RabbitMQ and Redis caching. My background implementing RBAC, establishing operational discipline through Azure DevOps CI/CD and AKS deployments, and exploring LLM tool-calling aligns directly with Steps AI's mission to deliver secure, role-aware, and intelligent, AI-powered software for modern businesses.\nGitHub: https://github.com/sanjay-kandpal",
       "match_breakdown": {
         "weights_version": "v1",
         "hard_filters": {
@@ -316,9 +312,13 @@
       },
       "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
       "drafted_at": "2026-09-23T07:36:05+00:00",
-      "confirmation_signal": null,
-      "github_run_id": null,
-      "apply_kind": null
+      "confirmation_signal": {
+        "ok": false,
+        "url": "https://wellfound.com/jobs/4754609-senior-software-development-engineer-sr-sde-full-stack",
+        "text": "Apply form has screening inputs beyond a single cover letter/note. | Questions: Search everything; react-select-form-input--qualification.location.locationId-input"
+      },
+      "github_run_id": "35832670069",
+      "apply_kind": "has_questions"
     },
     {
       "id": "990ca8173cfa716438912e5cccf78f3a",
