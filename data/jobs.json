@@ -1,15 +1,358 @@
 {
-  "exported_at": "2026-09-23T16:13:44+00:00",
+  "exported_at": "2026-09-23T21:21:17+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 152,
-    "discovered": 695,
+    "discovered": 697,
+    "pending_approval": 155,
     "failed": 9,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "69ee7a7e1708bf5f06cbc12839a8f9d9",
+      "source": "wellfound",
+      "company": "Tapza Technologies",
+      "role": "AI Engineering Intern",
+      "url": "https://wellfound.com/jobs/4627329-ai-engineering-intern",
+      "jd_text": "**AI Engineer Intern**\n\nCompany: Tapza Technologies\nIndustry: Healthcare Technology\nLocation: Hyderabad, Telangana\nWork Mode: On-Site\nEmployment Type: Full-Time Internship\nStipend: ₹15,000 – ₹25,000 per month\nExperience: Freshers / Experienced Candidates\n\n**About Tapza Technologies**\n\nTapza Technologies is a healthcare technology company building AI-powered software solutions for pharmacies, healthcare providers, and the broader healthcare ecosystem.\nWe are looking for an enthusiastic and technically strong AI Engineer Intern to join our engineering team and work on real-world AI applications involving LLMs, Generative AI, AI Agents, RAG, Voice AI, OCR, and Open-Source AI Models.\nThis is a hands-on engineering role where you will experiment with emerging AI technologies, build prototypes, solve real-world healthcare problems, and contribute to taking successful AI solutions toward production.\n\n**Key Responsibilities**\n\n•\tBuild LLM-powered applications and AI agents for real-world healthcare use cases.\n•\tDesign and develop agentic workflows using LangGraph and related frameworks.\n•\tBuild Retrieval-Augmented Generation (RAG) systems using embeddings, vector databases, retrieval, and reranking.\n•\tExperiment with and integrate open-source LLMs such as Llama, Qwen, Mistral, Gemma, and other emerging models.\n•\tDevelop conversational AI applications integrating Speech-to-Text (STT), LLMs, and Text-to-Speech (TTS).\n•\tWork on AI-powered solutions for pharmacy and healthcare workflows.\n•\tBuild and optimize real-time AI systems with a focus on responsiveness, reliability, and scalability.\n•\tWork on Real-Time AI and Low-Latency Systems, optimizing end-to-end AI pipelines.\n•\tExplore streaming, asynchronous processing, caching, parallel execution, and efficient model inference.\n•\tIntegrate AI systems with APIs, databases, vector databases, and external healthcare tools.\n•\tExperiment with different models, prompts, retrieval strategies, and agent architectures.\n•\tEvaluate AI systems based on accuracy, latency, relevance, reliability, and hallucination.\n•\tBuild prototypes and contribute to converting successful AI experiments into production-ready solutions.\n•\tWrite clean, modular, maintainable, and well-tested Python code.\n•\tStay updated with the latest developments in Generative AI, Agentic AI, open-source models, and AI engineering.\n\n**Required Skills**\n\n•\tStrong programming skills in Python.\n•\tGood understanding of Machine Learning and Deep Learning fundamentals.\n•\tStrong understanding or practical interest in LLMs and Generative AI.\n•\tFamiliarity with RAG, embeddings, and vector search.\n•\tFamiliarity with LangChain, LangGraph, or similar AI frameworks.\n•\tUnderstanding of REST APIs and software engineering fundamentals.\n•\tStrong problem-solving and debugging skills.\n•\tAbility to learn new AI technologies and frameworks quickly.\n•\tStrong interest in building practical AI applications.\n\n**Nice to Have**\n\n•\tHands-on experience with LangGraph and AI Agents.\n•\tExperience building RAG applications.\n•\tExperience with vector databases such as FAISS, Qdrant, Pinecone, Weaviate, or Milvus.\n•\tExperience with Hugging Face Transformers.\n•\tExperience working with Llama, Qwen, Mistral, Gemma, or other open-source LLMs.\n•\tExposure to STT/TTS and Voice AI systems.\n•\tExperience with Whisper or other speech models.\n•\tFamiliarity with PyTorch.\n•\tExposure to vLLM, Ollama, or other LLM inference frameworks.\n•\tUnderstanding of Real-Time AI and Low-Latency Systems.\n•\tExperience with Git, Docker, or cloud platforms.\n•\tExperience with AI/ML personal projects, GitHub contributions, hackathons, research, or open-source projects.\n•\tExposure to OCR, document intelligence, medical data, pharmacy systems, or healthcare applications is an added advantage.\nReal-Time AI &amp; Low-Latency Systems\n\n**You may work on real-time AI pipelines such as:**\n\nUser Input → STT → AI Agent / LangGraph → RAG / Tools → LLM → TTS → Real-Time Response\nYou will explore ways to make these systems faster, more reliable, and production-ready through:\n•\tStreaming inference\n•\tAsynchronous processing\n•\tParallel execution\n•\tCaching\n•\tEfficient retrieval\n•\tModel and inference optimization\n•\tReducing unnecessary LLM calls\n•\tIdentifying and resolving pipeline bottlenecks\n•\tImproving end-to-end response latency\n\n**Healthcare AI Applications\n\nAt Tapza Technologies, you may work on AI applications related to:**\n\n•\tPharmacy management\n•\tMedicine and product intelligence\n•\tPrescription and medical document processing\n•\tAI-powered OCR and document extraction\n•\tHealthcare data processing\n•\tIntelligent search and retrieval\n•\tPharmacy inventory intelligence\n•\tConversational AI for healthcare workflows\n•\tAutomated reports and insights\n•\tAI-powered healthcare assistants\n•\tVoice-enabled healthcare applications\n\n**Who Should Apply?**\n\nWe are looking for freshers and experienced candidates who are passionate about AI and enjoy building real-world applications.\nYou do not need to know every technology listed above. We value candidates who demonstrate:\n\n•\tStrong Python and programming fundamentals\n•\tPractical understanding of AI/ML concepts\n•\tCuriosity about Generative AI and emerging technologies\n•\tHands-on project experience\n•\tStrong problem-solving and debugging skills\n•\tAbility to learn quickly\n•\tA strong builder mindset\n•\tWillingness to experiment, test, and iterate\nCandidates with personal projects involving LLMs, RAG, AI Agents, Voice AI, OCR, or open-source models will be highly valued.\n\n**Educational Background**\n\nCandidates with a degree or relevant technical background in:\n•\tComputer Science\n•\tArtificial Intelligence\n•\tData Science\n•\tInformation Technology\n•\tElectronics / Electrical Engineering\n•\tOr a related technical field\nFreshers with strong practical AI/ML projects are encouraged to apply.\n\n**Core Technologies**\n\nPython · LLMs · LangGraph · RAG · AI Agents · Open-Source LLMs · STT · TTS · OCR · Vector Databases · APIs · Real-Time AI · Low-Latency Systems · PyTorch\n\n**What You Will Get**\n\n•\tHands-on experience building real-world AI applications for healthcare.\n•\tExposure to modern Generative AI and Agentic AI technologies.\n•\tOpportunity to work with LLMs, RAG, AI Agents, Voice AI, OCR, and real-time AI systems.\n•\tPractical experience in AI prototyping and production engineering.\n•\tOpportunity to work on AI products used in the pharmacy and healthcare ecosystem.\n•\tExposure to real-world healthcare data and workflows.\n•\tMentorship and experience working in a product-focused technology environment.\n•\tPotential opportunity for a full-time position based on performance and business requirements. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-23T21:20:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "901a44115a8ad2439ec319d710525ad3",
+      "source": "wellfound",
+      "company": "Shipthis Inc",
+      "role": "Security & DevOps Engineer",
+      "url": "https://wellfound.com/jobs/4718603-2-security-devops-engineer",
+      "jd_text": "At **Shipthis**, we are building a better future for freight forwarders by evolving traditional operations into fully digital, efficient, and scalable systems. We’re a fast-growing product company where every individual has the opportunity to take ownership, move fast, and create real impact. If you enjoy solving complex problems, shaping products from the ground up, and influencing technical direction, Shipthis is the place for you.\n\nLearn more at www.shipthis.co\n\n**Role Overview**\n\nWe are looking for an associate-level Security &amp; DevOps Engineer to support security operations, compliance, endpoint management, cloud infrastructure, and DevOps engineering. The role will work closely with the CTO/CISO and engineering team. Security and compliance are core responsibilities; when those priorities are lighter, the engineer will focus on CI/CD, infrastructure automation, reliability, monitoring, performance, and cloud cost optimization.\n\n**What You’ll be Doing**\n\nSecurity Operations\n* Monitor infrastructure, application, and security alerts and assist with incident investigation.\n* Review access controls, privileged accounts, service accounts, permissions, and periodic access reviews.\n* Support infrastructure hardening, logging, monitoring, backup, recovery, and other security controls.\n* Track security issues and corrective actions through closure.\nVulnerability Management\n* Run and review application and infrastructure vulnerability scans.\n* Maintain a vulnerability register and coordinate remediation with engineering teams.\n* Support VAPT and penetration-testing exercises and validate closure of findings.\n* Monitor dependencies, containers, operating systems, and cloud infrastructure for known vulnerabilities and patching needs.\nCompliance &amp; Governance\n* Support ongoing ISO/IEC 27001, SOC 2, GDPR, customer-security, and internal-policy requirements.\n* Maintain audit evidence, control registers, security policies, procedures, risk items, and remediation records.\n* Assist with internal/external audits, vendor assessments, customer security questionnaires, and asset inventories.\n* Maintain evidence for access reviews, vulnerability management, incidents, onboarding/offboarding, backups, and infrastructure changes.\nMDM &amp; Endpoint Security\n* Administer the company MDM platform and enroll/manage company laptops, desktops, and mobile devices.\n* Maintain device inventory and monitor endpoint compliance.\n* Enforce approved controls such as disk encryption, screen locks, password requirements, patching, and endpoint protection.\n* Support employee device onboarding/offboarding, approved application deployment, lost/stolen-device procedures, and remote wipe where authorized.\n* Maintain endpoint security and MDM evidence required for audits and troubleshoot enrollment or policy issues.\nDevOps, CI/CD &amp; Cloud\n* Maintain and improve CI/CD pipelines, deployment workflows, build times, caching, and rollback processes.\n* Support production and non-production cloud infrastructure, networking, DNS, TLS certificates, IAM, and secrets.\n* Automate repetitive deployment, infrastructure, security, and compliance tasks.\n* Improve monitoring, logging, alerting, reliability, resource utilization, and cloud costs.\n* Troubleshoot pipeline, deployment, and infrastructure issues and participate in root-cause analysis.\n\n**Required Fundamentals**\n\n* Basic knowledge of Linux, networking, HTTP/HTTPS, DNS, TLS, Git, Docker, cloud computing, APIs, and web applications.\n* Understanding of IAM, MFA, least privilege, vulnerabilities/CVEs, encryption, logging, patching, and secrets management.\n* Strong troubleshooting, ownership, attention to detail, and willingness to learn.\n\n**Desired Qualifications**\n\n* 1–2 years of experience with strong fundamentals are welcome.\n* Basic scripting knowledge in Python, Bash, or similar.\n* Interest in cybersecurity, cloud infrastructure, automation, and troubleshooting.\n* Exposure to AWS/GCP/Azure, Terraform, GitHub Actions, Cloudflare, OWASP, vulnerability scanners, MDM, ISO 27001, or SOC 2 is a plus, not mandatory.\n\n**We Welcome Candidates:**\n\n* Who is immediate joining\n* Female candidates returning to work after a career break are strongly encouraged.\n\n**We are an equal opportunity employer and are committed to fostering diversity and inclusivity. We do not discriminate based on race, religion, color, gender, sexual orientation, age, marital status, or disability status.**\n\n**Job Synopsys**\n* Location: Bangalore\n* Job Type: Full-time, Permanent\n* Experience: 1-2 years\n* Industry: Software Product Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 10.22,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've automated 90% of manual reporting workflows and introduced Azure DevOps CI/CD with blue-green releases for zero-downtime rollouts, ensuring robust, scalable systems that could contribute to Shipthis’s mission of building a better future for freight forwarders. My experience load-testing APIs to cut latency by 98% with Redis caching, diagnosing concurrency risks with RabbitMQ, and managing access controls via Microsoft Entra and RBAC, directly aligns with improving the performance, reliability, and security of fully digital operations.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-23T21:20:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.21,
+            "overlap": 14.9,
+            "combined": 10.22
+          },
+          "backend": {
+            "cosine": 7.98,
+            "overlap": 15.04,
+            "combined": 10.09
+          },
+          "frontend": {
+            "cosine": 6.11,
+            "overlap": 18.45,
+            "combined": 9.81
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.21,
+        "keyword_overlap_score": 14.9,
+        "final_score": 10.22,
+        "top_keywords": [
+          {
+            "term": "security",
+            "weight": 0.2999
+          },
+          {
+            "term": "cloud",
+            "weight": 0.1401
+          },
+          {
+            "term": "compliance",
+            "weight": 0.0876
+          },
+          {
+            "term": "deployment",
+            "weight": 0.07
+          },
+          {
+            "term": "devops",
+            "weight": 0.07
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-23T21:21:16+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "30da1f693f5ad1d1150b93bd8a0d4f72",
+      "source": "wellfound",
+      "company": "Aiking Software Solutions",
+      "role": "Software Enginner",
+      "url": "https://wellfound.com/jobs/4751303-software-enginner",
+      "jd_text": "We are seeking a motivated and analytical Junior Software Engineer to join our growing engineering team. In this entry-level role, you will help design, build, and test efficient software solutions. You will work closely with senior developers, learn our core tech stack, and assist in maintaining high-quality applications.\n## Key Responsibilities\n\n* Write Code: Build clean, readable, and testable code using modern programming languages.\n* Test and Debug: Assist in running unit tests, finding software bugs, and troubleshooting code issues.\n* Collaborate: Attend team meetings, share ideas, and work with cross-functional teams.\n* Learn and Adapt: Quickly grasp new tools, frameworks, and engineering best practices.\n* Document: Help create and update technical documentation, system layouts, and basic flowcharts.\n\n## Required Skills and Qualifications\n\n* Education: Bachelor’s degree in Computer Science, Information Technology, Software Engineering, or a related field.\n* Technical Knowledge: Basic understanding of Object-Oriented Programming (OOP) and languages such as Python, Java, or C++.\n* Core Concepts: Familiarity with data structures, algorithms, and relational databases (SQL).\n* Tools: Basic knowledge of version control tools like Git/GitHub.\n* Soft Skills: Strong problem-solving mindset, eager to learn, and good communication skills.\n\n## What We Offer\n\n* Comprehensive training and mentorship from senior engineers.\n* Competitive starting salary and health benefits.\n* Flexible work environment and opportunities for career growth. Pune\nlocationNames: Pune\nremote: true",
+      "match_score": 7.22,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-23T21:20:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.06,
+            "overlap": 9.93,
+            "combined": 7.22
+          },
+          "backend": {
+            "cosine": 5.05,
+            "overlap": 9.77,
+            "combined": 6.47
+          },
+          "frontend": {
+            "cosine": 4.17,
+            "overlap": 10.68,
+            "combined": 6.13
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.06,
+        "keyword_overlap_score": 9.93,
+        "final_score": 7.22,
+        "top_keywords": [
+          {
+            "term": "learn",
+            "weight": 0.1346
+          },
+          {
+            "term": "team",
+            "weight": 0.1109
+          },
+          {
+            "term": "code",
+            "weight": 0.1101
+          },
+          {
+            "term": "skills",
+            "weight": 0.1101
+          },
+          {
+            "term": "tools",
+            "weight": 0.1101
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b4ffee03bf7a13d592ae01187a46dccb",
+      "source": "wellfound",
+      "company": "AnswerThis",
+      "role": "Product Engineer (Full-Time, Remote)",
+      "url": "https://wellfound.com/jobs/3284965-product-engineer-full-time-remote",
+      "jd_text": "**Product Engineer (Full-Time, Remote)**\nLocation: Remote (must be available during PST working hours)\n\n**Compensation: $2,000 - $3,500/month (based on experience)**\n\n### **About AnswerThis**\n\nAnswerThis is an AI-powered research platform built to eliminate the most time-consuming part\nof academic research: the literature review. We serve researchers globally, from PhD students\nto academic professionals, helping them go from query to a comprehensive, cited review in\nminutes.\n\nOur system understands how papers connect, ranks relevance, summarizes insights, and maps\ncitations - removing weeks of manual work. But that’s just the beginning. We’re building a\nvertically integrated AI research suite that streamlines every stage of academic discovery.\nThis is a high-velocity, high-impact product environment. If you’ve ever wanted to ship fast, take\nreal ownership, and contribute to technology used by researchers making breakthroughs in\nmedicine, AI, climate, and more this is it.\nThe Role\n\nWe're hiring a full-time Product Engineer who will design, code, and ship high-impact features\nacross the stack. You’ll work directly with the founding team in 1–2 week product sprints and\nown the outcome of every feature you build.\n\nThis role requires strong frontend experience, particularly in Next.js, as well as the ability to\nwork independently across backend services and AI infrastructure.\n\n**What You’ll Do**\n\n● Design, build, and ship features from scratch across both frontend and backend.\n\n● Create polished user interfaces and seamless user experiences with React/Next.js.\n\n● Build AI-powered tools for search, citation mapping, summarization, and more.\n\n● Develop backend APIs using Python and FastAPI, with database logic in Postgres.\n\n● Work with semantic search, vector databases, and retrieval pipelines for AI features.\n\n● Participate in fast product sprints with rapid feedback and tight iteration loops.\n\n● Take full ownership of your work—from architecture to deployment to performance\nmonitoring.\n\n**Requirements**\n\n● Frontend: Strong skills in React and Next.js, with a clear eye for UI/UX.\n\n● Backend: Proficient in Python, with hands-on experience using FastAPI in production.\n\n● AI Infrastructure: Familiarity with LLM pipelines, RAG frameworks, and vector\ndatabases (e.g., FAISS, Weaviate, Pinecone).\n\n● Databases: Solid experience with Postgres and database design.\n\n● Styling/UI: Experience using Tailwind or similar utility-first CSS frameworks.\n\n● Workflow Tools: Proficient with Git, Docker, and modern CI/CD pipelines.\n\n● Academic context: Understanding of citation networks, research tooling, or academic\nworkflows.\n\n● Able to work in a remote environment aligned to EST hours, with daily standups.\nCompensation\n\n$2,000–$3,500/month initially, depending on experience and ownership scope. This is a\nfull-time role with significant responsibility and growth potential.\n\n**How to Apply**\n\nSend a brief introduction and links to your work to:\n\nayush@answerthis.io\n\nSubject: Product Engineer Application\n\nInclude:\n\n● A project you’re proud of and your role in building it.\n\n● Why you want to work at AnswerThis.\n\n● Your availability and preferred start date. San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 11.9,
+      "resume_variant": "backend",
+      "draft_answer": "I have directly owned the development and deployment of production FastAPI backends, implementing zero-downtime releases, optimizing API performance by 98% through caching, and building AI tools with LLM tool-calling and RAG frameworks. My experience crafting Next.js user interfaces and ensuring data integrity with ACID-compliant transactions makes me a strong fit for contributing to AnswerThis's rapid product sprints and vertically integrated AI research suite.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-23T21:20:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.42,
+            "overlap": 15.56,
+            "combined": 11.96
+          },
+          "backend": {
+            "cosine": 10.55,
+            "overlap": 15.04,
+            "combined": 11.9
+          },
+          "frontend": {
+            "cosine": 10.12,
+            "overlap": 17.96,
+            "combined": 12.47
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 10.55,
+        "keyword_overlap_score": 15.04,
+        "final_score": 11.9,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1891
+          },
+          {
+            "term": "experience",
+            "weight": 0.1325
+          },
+          {
+            "term": "time",
+            "weight": 0.1104
+          },
+          {
+            "term": "backend",
+            "weight": 0.0883
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0883
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-23T21:21:04+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "fb689e2748c313b0459bf5453ddbb1ec",
+      "source": "wellfound",
+      "company": "StackPro",
+      "role": "Senior Developer",
+      "url": "https://wellfound.com/jobs/972113-senior-developer",
+      "jd_text": "#### **About StackPro Technologies**  \nStackPro Technologies is a premium boutique product development company focused on **building high-end engineering solutions**. We help clients develop and scale their software products using cutting-edge technologies in **full-stack development, data engineering, AI/ML, and cloud computing**. Our team of **Stacksmen** thrives on solving complex problems with innovative solutions.  \n\n#### **Role Overview**  \nAs a **Senior Developer** at StackPro Technologies, you will play a key role in designing, developing, and delivering high-quality software solutions. You will work on **full-stack, cloud-native, and data-driven applications**, collaborating with cross-functional teams to ensure scalable and robust architectures. The ideal candidate is **hands-on, detail-oriented, and proactive** in driving technical excellence.  \n\n#### **Key Responsibilities**  \n- **Develop &amp; Maintain:** Write clean, efficient, and maintainable code across front-end (React, Angular) and back-end (Django, Node.js) technologies.  \n- **Architect &amp; Optimize:** Design scalable software architectures and optimize applications for performance and cost efficiency.  \n- **Data Engineering &amp; Integrations:** Work with **Snowflake, Azure Data Factory, PySpark, and Kafka** to build and optimize data pipelines.  \n- **API Development:** Build and maintain **RESTful and GraphQL APIs** to support high-traffic applications.  \n- **Cloud &amp; DevOps:** Deploy and manage applications on **AWS, ECS, Kubernetes, and Terraform**, ensuring high availability.  \n- **Collaborate &amp; Innovate:** Work closely with designers, product managers, and other engineers to develop features and enhancements.  \n- **Code Reviews &amp; Best Practices:** Conduct peer reviews, enforce coding standards, and mentor junior developers.  \n- **AI/ML &amp; GenAI Projects:** Contribute to AI-powered solutions, including **LLM-based chatbot applications and AI-driven insights**.  \n\n#### **Skills &amp; Qualifications**  \n- **3+ years** of experience in software development.  \n- Strong expertise in **React, Angular, Django, Node.js, and PostgreSQL**.  \n- Experience with **data engineering tools** like **PySpark, Apache Kafka, and Snowflake** is a plus.  \n- Hands-on experience with **Docker, Kubernetes, AWS, and CI/CD pipelines**.  \n- Familiarity with **AI/ML concepts, LangChain, and chatbot development** is a bonus.  \n- Strong debugging, problem-solving, and performance optimization skills.  \n- Ability to work independently and within an agile team environment.  \n- Excellent communication skills and a proactive attitude.  \n\n#### **Why Join StackPro?**  \n- Work on **challenging, high-impact projects** across multiple domains.  \n- Collaborate with a **highly skilled team of engineers and innovators**.  \n- Exposure to **full-stack, AI/ML, and data-intensive applications**.  \n- Opportunity to grow into a **Technical Lead or Architect role**.  \n- Competitive salary, flexible work environment, and continuous learning opportunities.  \n\nIf you are passionate about **building world-class software solutions** and want to work in a **fast-paced, innovation-driven** environment, we’d love to hear from you! 🚀  \n\n👉 **Apply Now!** Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 13.15,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently delivered full-stack, cloud-native solutions end-to-end, owning Azure deployments with blue-green CI/CD and architecting optimizations that cut API latency by 98% and prevented data loss under high load. Beyond optimizing data pipelines with message brokers, I've also validated LLM tool-calling reliability and am keen to apply this problem-solving mindset to the full-stack, AI/ML, and data-intensive applications at StackPro Technologies.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-23T21:20:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.68,
+            "overlap": 14.24,
+            "combined": 13.15
+          },
+          "backend": {
+            "cosine": 11.17,
+            "overlap": 13.16,
+            "combined": 11.77
+          },
+          "frontend": {
+            "cosine": 10.75,
+            "overlap": 16.5,
+            "combined": 12.47
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 12.68,
+        "keyword_overlap_score": 14.24,
+        "final_score": 13.15,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1585
+          },
+          {
+            "term": "data",
+            "weight": 0.1512
+          },
+          {
+            "term": "high",
+            "weight": 0.1321
+          },
+          {
+            "term": "applications",
+            "weight": 0.1296
+          },
+          {
+            "term": "solutions",
+            "weight": 0.108
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-23T21:20:38+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "8071af9eed3ba1507531f108cfc1f66f",
       "source": "wellfound",
