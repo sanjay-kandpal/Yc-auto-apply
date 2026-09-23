@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-09-23T21:21:17+00:00",
+  "exported_at": "2026-09-23T22:45:35+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 697,
+    "discovered": 699,
     "pending_approval": 155,
     "failed": 9,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "50ba8d80edfeec4941d7fa8d4c7dd832",
+      "source": "yc",
+      "company": "SiPhox Health",
+      "role": "Senior Mechanical Design Engineer",
+      "url": "https://www.workatastartup.com/jobs/111653",
+      "jd_text": "# **About us**\n\nSiPhox Health is building a first-of-its-kind consumer diagnostics platform that brings complex biochemical analyses into the home through integrated silicon photonics, microfluidics, embedded systems, and advanced assay development. Our chip-based solution integrates state-of-the-art biochemistry, photonics, electronics, and microfluidics to deliver the power of large laboratory instruments in a portable device.\n\n# **The role**\n\nYou will be hands on designing and building the first of its kind home testing system. This person will directly own key parts of the system, with a wide scope to have an impact. You will work closely with the production teams to create systems that are elegant to use, but also manufacturable at scale.\n\n### **Responsibilities**\n\n* Lead mechanical designs for defined subsystems of medical and diagnostic devices, ensuring functionality, reliability, and manufacturability\n* Design and review parts and assemblies optimized for high-volume injection molding and automated assembly methods\n* Apply rapid prototyping techniques to accelerate product development and iteration, with minimal guidance\n* Plan and execute engineering tests to validate designs and improve performance\n* Create and review detailed design specifications, including 3D and 2D MCAD models following ASME Y14.5 or ISO 8015 standards\n* Closely collaborate with cross-functional teams, including manufacturing engineers and scientists, often owning the mechanical side of complex technical challenges\n* Lead root cause analysis and drive design or process changes to enhance product quality and performance\n* Own system design, system and sub-system requirements and verification plans for your subsystems\n* Mentor Mechanical Design Engineers on MCAD practices, DFM/DFA, and design-verification approach\n* Review other engineers' designs and drawings for manufacturability and compliance with design standards\n* Take a leading role in supplier and vendor conversations for the components/subsystems you own\n\n### **What we’re looking for**\n\n* Deep knowledge of the challenges of scaling products from prototype to high volume production\n* Real experience working with pilot and full volume production systems, implementing quality controls and maximizing the product’s quality and yield\n* Excellent knowledge of injection molding design, including tolerance studies\n* Excellent knowledge of mechanical assembly techniques, including ultrasonic welding, laser welding, clip design and adhesives\n* Creative problem solver\n* Expert MCAD user\n\n### **Nice to have**\n\n* Demonstrated ability to design mechanical mechanisms, from concepting through to volume production\n* Experience in medical devices, or with ISO 13485, ISO 14971, or other design controls process\n* Experience working at a manufacturing site, as a process, test or tool engineer\n* Optics, photonics, fluidics, or microfluidics exposure\n* Experience in SolidWorks and OnShape\n\n# **Employment Details**\n\n**Department:** Product Engineering\n\n**Work location:** Burlington, MA (on-site), with some travel to manufacturing sites in the US, Europe and Asia. Trips typically for 1-2 weeks in duration as required.\n\n**Salary Range:** $100,000 – $200,000 (depending on experience)\n\n### **Benefits:**\n\n* 401K\n* Health Insurance\n* Dental Insurance\n* Vision Insurance\n* Health Savings Account\n* Health Flexible Savings Account\n* Dependent Care Flexible Savings Account\n* Life Insurance\n* Paid Time Off\n* Parental Leave\n* Long Term Disability \n* Equity\n* Gym Membership (Lifetime Fitness — one block from the office)\n\n### **Physical Requirements**\n\n* Ability to lift up to 20 pounds.\n* Ability to do dexterous tasks with hands, e.g. manual assembly with small tools, soldering\n* This role involves physical activity and routine handling of chemicals. Candidates must adhere to all laboratory safety protocols and be comfortable using appropriate personal protective equipment (PPE).\n\n### **Who Thrives Here**\n\nThis role is a strong fit for someone who takes ownership without being asked, is energized by variety rather than routine. They are highly motivated by SiPhox’s mission.\n\n### **Why Join SiPhox Health**\n\n* Help bring a first-of-its-kind at-home diagnostics platform to market.\n* Work alongside multidisciplinary engineering and scientific teams solving complex technical challenges.\n* Competitive compensation, equity, and benefits (including Lifetime Fitness membership).\n\n### **Equal Opportunity Employer**\n\nSiPhox Health is an equal opportunity employer committed to building an inclusive workplace. Applicants of all backgrounds and experiences are encouraged to apply. Burlington, MA, US jobs_skill 220 CAD Design 2 fulltime yes\nlocations: Burlington, MA, US\nremote: no\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-23T22:45:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c63c2fb8b265a69cfa0bf1a403c3f2e5",
+      "source": "yc",
+      "company": "SiPhox Health",
+      "role": "System Integration & Test Engineer",
+      "url": "https://www.workatastartup.com/jobs/111719",
+      "jd_text": "# **About us**\n\nSiPhox Health is building a first-of-its-kind consumer diagnostics platform that brings complex biochemical analyses into the home through integrated silicon photonics, microfluidics, embedded systems, and advanced assay development. Our chip-based solution integrates state-of-the-art biochemistry, photonics, electronics, and microfluidics to deliver the power of large laboratory instruments in a portable device.\n\n# **The role**\n\nYou will be hands on building and testing the first of its kind home testing system. This is a hands-on bench role for someone who likes taking things apart to find out why they misbehave. You'll work directly with mechanical, electrical, optical, and software engineers, and you'll be the person who finds out what actually happens when all of it is assembled into one box.\n\n### **What you'll do**\n\n* Assemble instruments and subassemblies using hand tools and benchtop equipment\n* Run system-level tests and bring-up on new builds\n* Design and write test procedures, then improve them as you learn where they fall short\n* Analyze test data and report what it means, not just what it says\n* Troubleshoot failures down to root cause, pulling in the right subject matter expert when a problem crosses into someone else's domain\n* Document test results and write test reports\n* Write assembly and test work instructions clear enough that someone new can follow them\n* Contribute to risk management: feed real failure modes back into the hazard analysis\n\n### **What we're looking for**\n\n* A technical degree in engineering or a physical science, or equivalent hands-on experience\n* Solid troubleshooting instincts: forming a hypothesis, isolating a variable, testing it\n* Genuine comfort with hand tools, benchtop instruments, and soldering \n* Ability to read schematics, wiring diagrams, and mechanical drawings\n* Clear technical writing. A large part of this job is making your work legible to other people\n* Data literacy. Able to use Python to contribute to the data analysis\n* AI forward, you understand how to use AI tools effectively in your workflow as well as their limitations\n\n### **Nice to have**\n\n* Experience in medical devices, or with ISO 13485, ISO 14971, or design controls\n* Optics, photonics, fluidics, or microfluidics exposure\n* Test automation and instrument scripting\n* Experience taking a product from prototype into production\n\n# **Employment Details**\n\n**Department:** Product Engineering\n\n**Work location:** Burlington, MA (on-site)\n\n**Salary Range:** $70,000 – $120,000 (depending on experience)\n\n**Benefits:**\n\n* 401K\n* Health Insurance\n* Dental Insurance\n* Vision Insurance\n* Health Savings Account\n* Health Flexible Savings Account\n* Dependent Care Flexible Savings Account\n* Life Insurance\n* Paid Time Off\n* Parental Leave\n* Long Term Disability \n* Equity\n* Gym Membership (Lifetime Fitness — one block from the office)\n\n**Physical Requirements**\n\n* Ability to lift up to 20 pounds.\n* Ability to do dexterous tasks with hands, e.g. soldering, cable crimping.\n* This role involves physical activity and routine handling of chemicals. Candidates must adhere to all laboratory safety protocols and be comfortable using appropriate personal protective equipment (PPE).\n\n**Who Thrives Here**\n\nThis role is a strong fit for someone who takes ownership without being asked, is energized by variety rather than routine. The ideal candidate is a hands-on builder who documents their work, communicates clearly with engineering partners, and takes pride in the craftsmanship of every system they touch.\n\n# **Why Join SiPhox Health**\n\n* Help bring a first-of-its-kind at-home diagnostics platform to market.\n* Work alongside multidisciplinary engineering and scientific teams solving complex technical challenges.\n* Competitive compensation, equity, and benefits (including Lifetime Fitness membership).\n\n# **Equal Opportunity Employer**\n\nSiPhox Health is an equal opportunity employer committed to building an inclusive workplace. Applicants of all backgrounds and experiences are encouraged to apply. Burlington, MA, US fulltime yes\nlocations: Burlington, MA, US\nremote: no\nmin_experience: 1",
+      "match_score": 5.81,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-23T22:45:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.05,
+            "overlap": 9.93,
+            "combined": 5.82
+          },
+          "backend": {
+            "cosine": 3.93,
+            "overlap": 10.15,
+            "combined": 5.8
+          },
+          "frontend": {
+            "cosine": 3.21,
+            "overlap": 10.68,
+            "combined": 5.45
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.05,
+        "keyword_overlap_score": 9.93,
+        "final_score": 5.81,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.0803
+          },
+          {
+            "term": "testing",
+            "weight": 0.0737
+          },
+          {
+            "term": "data",
+            "weight": 0.0603
+          },
+          {
+            "term": "technical",
+            "weight": 0.0603
+          },
+          {
+            "term": "tools",
+            "weight": 0.0603
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "69ee7a7e1708bf5f06cbc12839a8f9d9",
       "source": "wellfound",
