@@ -1,15 +1,321 @@
 {
-  "exported_at": "2026-09-23T03:29:40+00:00",
+  "exported_at": "2026-09-23T07:36:21+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 693,
-    "pending_approval": 150,
+    "pending_approval": 153,
+    "discovered": 695,
     "failed": 8,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "8071af9eed3ba1507531f108cfc1f66f",
+      "source": "wellfound",
+      "company": "Sanad Care",
+      "role": "Full Stack Engineer",
+      "url": "https://wellfound.com/jobs/4750129-full-stack-engineer",
+      "jd_text": "**Company Description** \nWe're a stealth-stage healthtech startup building AI-powered clinical software for the Gulf healthcare market. Our platform is already live in production, and we're now building our early engineering team.\n\n**Role Description** \nYou'll own the full product surface — web frontend, backend API, and cloud deployment — for a live, bilingual (Arabic/English) medical platform. This is a generalist role by design: our team is small, so you'll move across the stack rather than staying in one lane.\n\n**What you'll work on**\nBuild and ship features across React/TypeScript and Node.js/Express\nWork with PostgreSQL and own database changes and migrations\nOwn Docker-based deployment, monitoring, logging, and production debugging\nMaintain and improve our Linux/cloud infrastructure\nHelp ship and maintain our Capacitor-based iOS/Android app\nIntegrate with internal AI services at the application layer\nTake ownership of reliability, backups, and day-to-day production engineering\n\n**Our stack**\nFrontend: React 19 + TypeScript, Vite, TanStack Query, Tailwind\nBackend: Node.js + TypeScript, Express, PostgreSQL (Drizzle ORM)\nInfra: Docker, Linux, a single cloud VM behind nginx — not a large distributed system\nMobile: we're in process of shipping our first mobile release. \nAuth: Clerk\n\n**What we're looking for**\n**Strong experience with:**\nReact + TypeScript\nNode.js / Express\nPostgreSQL\nProduction application development\n**Good practical experience with:**\nDocker and Linux\nCloud deployment\nCI/CD\nLogging, monitoring, and production debugging\n**Nice to have:**\nArabic / RTL or bilingual product experience (our platform is Arabic + English)\nCapacitor / React Native / Expo\niOS / Android release experience\nResumable media uploads or audio workflows\nHealthcare or regulated-product experience\n\n**What we value**\nThis is an early engineering hire, so we're looking for someone who enjoys ownership and autonomy — someone who can build, deploy, debug, and improve systems rather than only work from predefined tickets.\n\nWe're currently operating in stealth. The detailed product information will be shared with shortlisted candidates. Riyadh Province\nlocationNames: Riyadh Province\nremote: true",
+      "match_score": 12.32,
+      "resume_variant": "frontend",
+      "draft_answer": "I've owned and shipped end-to-end React front ends for critical compliance platforms, including a government mining-safety regulator's portal, where I directly improved UI responsiveness by cutting API fetch latency by 98% through Redis caching. My full-stack experience includes Docker-based deployment and owning client-facing modules for live production applications, equipping me to contribute across the stack on your bilingual medical platform.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-23T07:35:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.41,
+            "overlap": 9.93,
+            "combined": 11.66
+          },
+          "backend": {
+            "cosine": 11.3,
+            "overlap": 9.02,
+            "combined": 10.62
+          },
+          "frontend": {
+            "cosine": 12.61,
+            "overlap": 11.65,
+            "combined": 12.32
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 12.61,
+        "keyword_overlap_score": 11.65,
+        "final_score": 12.32,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1461
+          },
+          {
+            "term": "production",
+            "weight": 0.1461
+          },
+          {
+            "term": "cloud",
+            "weight": 0.1169
+          },
+          {
+            "term": "react",
+            "weight": 0.1169
+          },
+          {
+            "term": "deployment",
+            "weight": 0.0877
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-23T07:36:18+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "33535633866edb911524c54fbfa50085",
+      "source": "wellfound",
+      "company": "Gabeo.ai",
+      "role": "Head of Engineering",
+      "url": "https://wellfound.com/jobs/4751260-head-of-engineering",
+      "jd_text": "🚀 I'm hiring a **hands-on Head of Engineering** at Gabeo.ai.\n\n📍 US-based · Fully remote · Full-time\n\nEvery dollar lost to a misinterpreted contract is a dollar that never reaches patient care. We exist to make sure that doesn't happen.\n\nWe're building AI that reconciles contracts, claims and policies to deliver measurable financial outcomes: finding the dollars healthcare organizations have earned but never collected, and making sure every agreement is understood, every responsibility is clear, and **every dollar supports better care.**\n\nI'm looking for a builder who takes ownership, solves hard problems and gets things done, and helps everyone around them do the same.\n\nYou'll work directly with me, our CTO and our engineering team. You'll write Python, review code, shape architecture alongside our CTO and work with the team to take products from 0 to 1 and into dependable production.\n\n🎯 What you'll own\n\n• Architecture and execution, from technical decisions to shipped features.\n• Hands-on development, thoughtful code reviews and unblocking engineers.\n• Reliable integrations with healthcare payer and provider systems.\n• Engineering quality: testing, security, observability and incident response.\n• Helping the team move quickly without creating problems customers pay for later.\n\n🛠️ What you should bring\n\n• Strong Python and backend engineering skills, with products you've personally shipped and operated.\n• Experience leading an engineering team while staying close to the code.\n• Practical judgment about what to build, what to simplify and when to change direction.\n• Production experience with LLMs, RAG, agentic frameworks, tool calling and vector databases.\n• An understanding of AI evaluation, retrieval quality, hallucination controls, latency and cost.\n• Experience turning messy documents into usable data: OCR, extraction and validation. Healthcare contracts, claims and policy experience is a strong plus.\n• The ability to design secure, auditable workflows with human review where it matters.\n\nStartup experience is a plus. Clear evidence of ownership and execution matters more.\n\nHungry is the name of the game. When something breaks or a problem is ambiguous, you investigate, make a decision and drive it to resolution. You raise the team's standards through the work you do and the help you give.\n\n📩 Interested? DM me with something you built, the hardest problem you solved and what you personally owned.\n\nCompetitive market salary and equity compensation based on the candidate's qualifications and experience. San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-23T07:35:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cc065af1a8f4476ed7a0015352dc6e67",
+      "source": "wellfound",
+      "company": "Avive Solutions",
+      "role": "Test Automation Engineer",
+      "url": "https://wellfound.com/jobs/4751315-test-automation-engineer",
+      "jd_text": "**Job Title:** Test Automation Engineer \n**Experience Required:** 2+ Yrs. of very recent experience \n**Work Location:** Gurugram, Haryana (Regular Work from Office) \n**Work Timings:** 04:30 PM 01:30 AM IST (Monday Friday) \n**Employer Company:** Alldomainsoft.com Pvt. Ltd. (alldomainsoft.com) \n**US Client:** Avive Solutions, Inc. (avive.life) \n\n**About the Role**\nAs a Test Automation Engineer at Avive, you will play a critical role in ensuring the quality and reliability of our software products. You will build and maintain automated test coverage using Python, Pytest, and BDD frameworks alongside Selenium, focused on validating web application behavior, data accuracy, user permissions, and simulated device communication protocols. Partnering closely with Software Engineering, you will help shape test strategy and expand coverage as new features and functionality are shipped. \n\n**What You'll Do** including but not limited to: \n\n1. Test Automation Development Design, build, and maintain automated test suites using Python, pytest, and BDD frameworks to validate web application functionality.\n•\tDevelop and maintain Selenium-based automation to verify data is displayed accurately across the website.\n•\tCreate automation that simulates device communication protocols to validate that data generated by connected devices is correctly received, processed, and reflected on the website. \n\n2. Software Verification\n•\tExpand and maintain automated regression suites that catch defects early and give the team confidence as new features are released.\n•\tIdentify gaps in existing test coverage and prioritize new automation based on risk and impact.\n•\tInvestigate test failures, determine root cause, and work with Software Engineering to resolve issues. \n\n3. Process &amp; Tooling\n•\tDocument, organize, and maintain test cases in Jira using Xray, ensuring traceability between requirements, test coverage, and results.\n•\tReport, track, and prioritize bugs in Jira, working with Software Engineering through resolution.\n•\tEvaluate and integrate new tools, libraries, or frameworks that improve test efficiency, coverage, or maintainability.\n•\tContribute to CI/CD pipeline integration for automated test execution.\n•\tContinuously refine test strategy and best practices as the product and codebase evolve. \n\n**Who You Are**\n•\tBS/B.Tech./B.E. in Computer Science, Software Engineering, or a related field (equivalent experience considered).\n•\t2+ years of experience in software test automation.\n•\tStrong proficiency in Python, with hands-on experience using pytest and BDD frameworks (e.g., pytest-bdd, Behave, or Cucumber)\n•\tSolid experience building and maintaining automated UI tests with Selenium.\n•\tExperience testing web applications, including validating data accuracy, user permissions/access control, and integrations with external or simulated data sources.\n•\tFamiliarity with Jira and Xray (or similar tools) for bug tracking and test case management.\n•\tComfortable working with APIs and simulating device or system communication protocols for test purposes.\n•\tExposure to CI/CD pipelines and integrating automated tests into a continuous delivery workflow is a plus.\n•\tStrong analytical and debugging skills, with the ability to trace issues from symptom to root cause.\n•\tOrganized, independent, and results-oriented, with the ability to manage multiple test efforts simultaneously.\n•\tExcellent communication skills and strong attention to detail, with a collaborative, process-oriented approach to working with Software Engineering. \n\n**LinkedIn:** www.linkedin.com/in/rkd94 \n**Email:** rajesh@avive.life \n**Apply Link:** https://jobs.lever.co/AviveSolutions/c20d1002-7998-4e8b-9209-0a4c590d0c7c\n\n**Note:** Delhi/NCR candidates preferred. Java based profiles are unsuitable. Gurugram\nlocationNames: Gurugram",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-23T07:35:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0a9338e51197d79c7686e51c7e550122",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Software Development Engineer (SDE) – Full Stack",
+      "url": "https://wellfound.com/jobs/4754610-software-development-engineer-sde-full-stack",
+      "jd_text": "**Only apply if: **You have 1–2 years of production full-stack experience, you have shipped live products end to end (interface, APIs, data, and deployment), and you can point us to URLs we can open today.\n\n**Who We Are**\nSteps AI is a product company building intelligent, AI-powered software for modern businesses. We design and ship production systems that combine strong user experience, reliable backends, and data-driven intelligence. We work with real customers, deploy to both cloud and on-premises environments, and move from prototype to production with a high bar for security, access control, and operational quality.\n\nWe are growing, shipping every week, and looking for engineers who can own a problem end to end — interface, API, data, security, and deployment — rather than a single layer of the stack.\n\n**The Role**\n* We are hiring a Full-Stack SDE who can take a working product, demo, or prototype and turn it into a reliable, role-based, securely deployed application that real users can operate on. You will work across the frontend, backend APIs, database, and deployment — and you will be expected to raise the quality of design, access control, and operations as you go, not just add screens.\n* This is an individual-contributor role with real ownership. You will implement features from specification to production, participate in reviews, and support releases to cloud and on-premises environments.\n\n**What You Will Do**\n\n**Frontend**\n* Build production web applications in React and TypeScript (Next.js experience is a strong plus) with a clear, consistent UI.\n* Implement dashboards, tables, filters, forms, maps or geographic views, and multi-step workflows that stay usable under real data volumes.\n* Translate product requirements and design intent into responsive, accessible interfaces. You will make design decisions when a finished mock is not available.\n* Integrate the UI with backend APIs using disciplined client state, caching, error states, and loading behaviour.\n\n**Backend and APIs**\n* Design and implement REST APIs (Python/FastAPI or Node/TypeScript) with clear contracts, validation, and error handling.\n* Implement authentication and session handling (JWT, OAuth, or server sessions) and enforce authorization on every sensitive path.\n* Build workflow, notification, file, and reporting endpoints that are safe to expose in a multi-user system.\n* Write services that are observable: structured logs, meaningful status codes, and failure modes that operators can diagnose.\n\n**Database and Data**\n* Model relational data (PostgreSQL or equivalent), write migrations, and keep schemas versioned and reviewable.\n* Index, query, and paginate so list and analytics views stay fast as data grows.\n* Handle imports, exports, and data-quality checks without corrupting the system of record.\n* Participate in backup, restore, and environment-promotion practices for the data layer.\n\n**Security, RBAC, and Hardening**\n* Implement role-based access control so users only see and change what their role and scope allow.\n* Harden applications that began as demos: remove unsafe defaults, lock down admin paths, add audit trails, and treat secrets correctly.\n* Apply basic application security: input validation, CSRF/CORS discipline, password hashing, session expiry, least privilege.\n* Support secure configuration for on-premises installs (environment separation, TLS, controlled admin access).\n\n**Deployment and Operations**\n* Package and deploy the full application (web + API + database) using Docker and a documented release path.\n* Contribute to CI/CD, environment promotion (dev / staging / production), and rollback discipline.\n* Debug production issues across the stack instead of stopping at the layer you last touched.\n* Travel when needed to client or on-premises sites in Hyderabad to install, verify, or support a release.\n\n**Must-Have Qualifications**\n* Bachelor's or Master's in Computer Science, Engineering, or equivalent practical experience.\n* 2–4 years of professional software engineering with production systems in use by real users.\n* Proven ability to ship a feature across UI, API, and database — not only one of the three.\n* Strong TypeScript or modern JavaScript, and solid Python or Node on the server.\n* Working knowledge of relational databases, migrations, and query basics.\n* Practical experience with Git, code review, and collaborative branching.\n* Comfort with Docker-based local development and at least one CI/CD system.\n* Clear written communication: you can turn a product note into a technical plan without many clarification rounds.\n* Willingness to work on-site in Hyderabad and to travel to client or on-premises locations as required.\n* Next.js (App Router), TanStack Query, and a modern component system (for example shadcn/ui).\n* FastAPI or NestJS in production.\n* Experience adding RBAC, audit logs, or approval workflows to an existing application.\n* Maps, charts, or other data-heavy interfaces.\n* AI-assisted product features (assistants, retrieval, streaming UIs) as a consumer of APIs.\n* On-premises or restricted-network deployment experience.\n* Basic automated tests (unit, API, or Playwright/Cypress).\n\n**Location, Work Mode, and Travel**\nThis is a full-time, on-site role in Hyderabad, India. You will work in person with the engineering team.\nOccasional travel is required. This includes travel to on-premises deployment locations and travel to client sites in Hyderabad for implementation, go-live, reviews, or production support. Travel is typically short-duration and planned; willingness to travel within Hyderabad (and occasionally nearby) is a condition of the role.\n\n**What We Offer**\n* Competitive salary with a clear growth path. Add salary range at posting.\n* High-ownership work: you will influence architecture, security, and how the product is shipped.\n* Exposure to AI-assisted products, enterprise-grade access control, and real production deployments.\n* Fast execution cycles and a culture that values demonstrated capability over credentials alone.\n* Learning budget for courses and certifications.\n* Collaborative in-office engineering culture in Hyderabad. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 18.67,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've shipped multiple end-to-end full-stack products, from scoping FastAPI/React systems with clients to owning cloud-native platforms with zero-downtime deployments, where I automated workflows and cut API latency by 98%. My experience delivering secure, high-performance applications, implementing RBAC, and preparing AI agents on constrained hardware aligns with building intelligent, securely deployed software for real users.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-23T07:35:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 16.46,
+            "overlap": 23.84,
+            "combined": 18.67
+          },
+          "backend": {
+            "cosine": 15.48,
+            "overlap": 23.68,
+            "combined": 17.94
+          },
+          "frontend": {
+            "cosine": 14.11,
+            "overlap": 25.24,
+            "combined": 17.45
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 16.46,
+        "keyword_overlap_score": 23.84,
+        "final_score": 18.67,
+        "top_keywords": [
+          {
+            "term": "production",
+            "weight": 0.1704
+          },
+          {
+            "term": "data",
+            "weight": 0.1549
+          },
+          {
+            "term": "stack",
+            "weight": 0.117
+          },
+          {
+            "term": "experience",
+            "weight": 0.1084
+          },
+          {
+            "term": "security",
+            "weight": 0.0947
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-23T07:35:53+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "dc59416521879ca9fd6428495cfdebbb",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Senior Software Development Engineer (Sr. SDE) – Full Stack",
+      "url": "https://wellfound.com/jobs/4754609-senior-software-development-engineer-sr-sde-full-stack",
+      "jd_text": "**Only apply if:** You have 2+ years shipping production systems, you have led end-to-end delivery of a multi-user application (RBAC, data model, APIs, UI, and deployment), and you can walk us through live products you architected or substantially owned.\n\n**Who We Are**\nSteps AI is a product company building intelligent, AI-powered software for modern businesses. We design and ship production systems that combine strong user experience, reliable backends, and data-driven intelligence. We work with real customers, deploy to both cloud and on-premises environments, and move from prototype to production with a high bar for security, access control, and operational quality.\nWe are growing, shipping every week, and looking for engineers who can own a problem end to end — interface, API, data, security, and deployment — rather than a single layer of the stack.\n**The Role**\nWe are hiring a Senior Full-Stack SDE to own technical direction for product surfaces that must become production-grade: secure, role-aware, observable, and deployable in both cloud and on-premises settings.\nYou will often start from something that already works as a demonstration — a dashboard, a workflow, an API — and you will be responsible for turning it into a system an institution can run: identity and RBAC, hard boundaries between roles and data scopes, auditability, environment strategy, database operations, and a release path that survives real users.\nThis is a senior individual-contributor role with leadership scope. You will set standards, review others' work, write design notes, and be the escalation point when production or a client deployment breaks.\n\n**What You Will Own**\n\n**Architecture and End-to-End Delivery**\n* Define the target architecture for web application, API, data store, file/object storage, and deployment topology.\n* Take existing demos or internal builds and produce a full production plan: threat model, role matrix, schema, environments, and cutover.\n* Make explicit tradeoffs (monolith vs services, session vs JWT, cloud vs on-prem) and defend them in writing.\n* Keep the system scalable: pagination, indexing, caching, background jobs, and a folder/module structure that a growing team can extend.\n\n**Frontend**\n* Set the standard for the product UI: information hierarchy, reusable components, and performance on data-heavy views.\n* Guide implementation of complex operational interfaces — filtered registers, drill-downs, maps or spatial views, reports, and approval flows.\n* Ensure the frontend enforces the same authorization story the API does; the UI is not a substitute for server-side checks.\n* Raise design quality when there is no dedicated designer: spacing, density, empty/error states, and consistency across surfaces.\n\n**Backend, Security, and RBAC**\n* Design and review APIs (Python/FastAPI and/or Node/TypeScript) with validated contracts, idempotency where needed, and clear failure modes.\n* Own authentication, authorization, and session lifecycle. Implement and review role- and scope-based access (organization, unit, record).\n* Introduce audit logs, least-privilege service accounts, secrets management, and safe admin tooling.\n* Harden anything that was built as a demo: remove debug paths, lock CORS and hosts, rotate credentials, and document a security baseline.\n* Plan for high-assurance environments: TLS, network isolation, backup/restore drills, and controlled on-premises configuration.\n\n**Database and Data Platform**\n* Own schema design at a production bar: normalization where it matters, indexes, constraints, and migration discipline.\n* Define how analytical or operational reads stay fast without putting the write path at risk.\n* Specify backup, point-in-time recovery expectations, and data-retention basics.\n* Review imports and seed processes so production data is never treated casually.\n* Cloud, On-Prem, and DevOps\n* Own Docker packaging, CI/CD, and promotion across environments.\n* Lead or personally execute on-premises installations at client locations in Hyderabad, including networking, certificates, and smoke tests.\n* Establish logging, metrics, and error tracking sufficient to debug without guessing.\n* Be the on-call escalation for platform issues in your scope.\n\n**Required Skills**\n* You should have shipped the following to production and be able to demonstrate them live or from a real repository:\n* React and TypeScript at production quality; Next.js App Router strongly preferred. Server/client state (TanStack Query or equivalent), forms with schema validation, and a coherent component system.\n* Python (FastAPI) and/or Node (NestJS / Fastify / Express) with typed contracts and tests where they matter.\n* Authentication and authorization: sessions or JWT with rotation, password hashing, OAuth familiarity, and server-side checks on every route.\n* PostgreSQL (or equivalent) schema design, migrations, indexing, and query diagnosis.\n* Docker, CI/CD, environment promotion, TLS/DNS basics, and production debugging across services.\n* RBAC design, auditability, secrets handling, and the habit of assuming the UI will be bypassed.\n* Mentor SDEs; run structured code reviews; raise the quality bar without blocking delivery.\n* Write short design documents and postmortems. Prefer written tradeoffs over hallway decisions.\n* Translate business or client requirements into a technical specification and a realistic release plan.\n\n**Must-Have Qualifications**\n* Bachelor's or Master's in Computer Science, Engineering, or equivalent, plus 5+ years of professional engineering.\n* A experience of owning a multi-user application through production — not only contributing tickets.\n* Demonstrated experience introducing or tightening RBAC, environments, and operational discipline on a live system.\n* Comfort presenting architecture to founders and to a technical client contact.\n* On-site availability in Hyderabad, every working day, with the team.\n* Willingness to travel to on-premises deployment sites and client locations in Hyderabad.\n\n**Location, Work Mode, and Travel**\nThis is a full-time, on-site role in Hyderabad, India. You will work in person with the engineering team.\nOccasional travel is required. This includes travel to on-premises deployment locations and travel to client sites in Hyderabad for implementation, go-live, reviews, or production support. Travel is typically short-duration and planned; willingness to travel within Hyderabad (and occasionally nearby) is a condition of the role.\n\n**What We Offer**\n* Competitive salary with a clear growth path. Add salary range at posting.\n* High-ownership work: you will influence architecture, security, and how the product is shipped.\n* Exposure to AI-assisted products, enterprise-grade access control, and real production deployments.\n* Fast execution cycles and a culture that values demonstrated capability over credentials alone.\n* Learning budget for courses and certifications.\n* Collaborative in-office engineering culture in Hyderabad. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 17.77,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently delivered production-grade, multi-user applications end-to-end, from scoping client requirements and building FastAPI/React systems to owning secure Azure AKS deployments with CI/CD, blue-green releases, and UAT across diverse user groups. My focus on operational quality includes introducing RabbitMQ to guarantee delivery under high load, integrating Redis caching to cut API latency by 98% after load testing, and establishing ACID-compliant transactions to ensure data integrity for concurrent operations within client environments.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-23T07:35:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 15.73,
+            "overlap": 22.52,
+            "combined": 17.76
+          },
+          "backend": {
+            "cosine": 14.48,
+            "overlap": 22.18,
+            "combined": 16.79
+          },
+          "frontend": {
+            "cosine": 13.98,
+            "overlap": 23.79,
+            "combined": 16.92
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 15.73,
+        "keyword_overlap_score": 22.52,
+        "final_score": 17.77,
+        "top_keywords": [
+          {
+            "term": "production",
+            "weight": 0.2069
+          },
+          {
+            "term": "data",
+            "weight": 0.133
+          },
+          {
+            "term": "end",
+            "weight": 0.1085
+          },
+          {
+            "term": "client",
+            "weight": 0.1035
+          },
+          {
+            "term": "rbac",
+            "weight": 0.0904
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-23T07:36:05+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "990ca8173cfa716438912e5cccf78f3a",
       "source": "yc",
