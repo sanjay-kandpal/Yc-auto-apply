@@ -1,15 +1,282 @@
 {
-  "exported_at": "2026-09-24T14:48:02+00:00",
+  "exported_at": "2026-09-24T16:36:44+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 705,
-    "pending_approval": 159,
+    "pending_approval": 160,
+    "discovered": 708,
     "failed": 9,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "be72090f32330015bc3cf202e9dec0ee",
+      "source": "yc",
+      "company": "Clara",
+      "role": "Full-Stack Engineer (Healthcare)",
+      "url": "https://www.workatastartup.com/jobs/111884",
+      "jd_text": "Clara is building the first AI-first medical practice from the ground up. Unlike most health AI startups, we deliver actual care: our clinicians write prescriptions, order labs and manage patients, supervised by human providers who review every medical decision. Clara's founders built and scaled Circle Medical to over $100M in revenue, and we are funded by Y Combinator and top investors.\n\nThis is a mission-driven, high-performance team working in person in San Francisco five days a week. We will assist with relocation and work visas for the right candidate.\n\n## What you'll build\n\nYou'll own product surfaces end to end: the patient app, the clinician-facing EHR, the API underneath them, and the seams where our LLM agent meets a real person. A typical month touches a React screen a patient sees, the Django endpoint behind it, the Celery job that follows up, the Amplitude event that tells us whether it worked, and the review queue a nurse practitioner uses to approve what the AI proposed. You'll write the code, ship it, wire the events, read the results and fix what they tell you.\n\n## Your responsibilities\n\n**Product engineering (60%)**\n\n- Ship features across the patient app, staff EHR, and backend (React + TypeScript front end, Django on PostgreSQL)\n- Build the surfaces where the AI agent meets people: streaming chat, tool-call results, clinician review and approval flows\n- Design onboarding that gets patients to first real value fast, then to habitual use\n- Own the mobile shell (Capacitor, iOS and Android) alongside the web app\n- Instrument what you ship (Amplitude) and read the results, so the next iteration is driven by what patients and clinicians actually did\n\n**Platform and integrations (40%)**\n\n- Own integrations with the services a medical practice runs on: Stripe, Twilio, medical-records APIs, Customer.io, identity verification\n- Model clinical data in PostgreSQL so the product and the AI can reason over it\n- Keep the system observable and safe: Sentry, Datadog, audit trails, HIPAA-conscious data handling\n- Continuous integration and delivery; improve the developer loop (Tilt, mise, hk) as you go\n- Build the internal tooling and background jobs that keep a medical practice running between patient visits\n\n## How we level this role\n\nOne posting, two seats. We decide the level from what you have shipped, not from the title on your last business card.\n\n| Level | Typical profile | What we expect on day one |\n| ----- | --------------- | ------------------------- |\n| **Software Engineer** | 2+ years, has shipped React + TypeScript and a typed backend to real users | Ships well-scoped features end to end with review; learns the clinical domain fast |\n| **Senior Engineer** | 5+ years, has owned a product area in production | Owns a domain (EHR, onboarding, integrations) end to end; makes and defends architecture calls; early hires grow into engineering management as the team scales |\n\nCompensation tracks the level: **$130K – $210K base · 0.10%  0.40% equity · health insurance and standard benefits.**\n## What we're looking for\n\n**Required at every level:**\n\n- React + TypeScript in production, with users you can name\n- A typed backend language in production; Python preferred, Django a plus\n- Relational data modelling and SQL; you have designed a schema and lived with it\n- You have shipped, owned the result, and can tell a story about something that broke and what you changed\n- AI-native: you use Claude, Cursor or similar every day and can say what it is bad at\n- Care about correctness and safety in a domain where mistakes reach patients\n\n**Additionally at Senior:**\n\n- Owned a product domain end to end, including the on-call and the roadmap\n- Led a migration or re-architecture in a live system without breaking it for users\n- Raised the bar for the engineers around you: reviews, patterns, mentoring\n\n**Nice to have:**\n\n- Healthcare or HIPAA experience; FHIR familiarity\n- Django / Django Ninja, Celery, PostgreSQL JSONB\n- Capacitor or native mobile\n- Product analytics and experimentation (Amplitude or similar)\n- LLMs as a production tool: content, creative, internal tooling, or building on top of an agent\n## What Clara offers\n\n- Ship code that affects real patient health outcomes, and talk to real patients and providers regularly\n- Make architectural decisions for an AI-first medical practice, working directly with the founders and CTO\n- Ownership of entire domains (product, platform, integrations), and a path into engineering management as the team scales\n- In-person collaboration in San Francisco, five days a week; no bureaucracy, ship fast\n\n## About the interview\n\n1. Intro call (30 min): meet the founding team, learn about Clara's mission\n2. Technical screen (60 min): a full-stack pairing problem, leveled to the seat\n3. Onsite (4 hours): system design, code pairing, team fit\n4. Reference checks and offer San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 12.42,
+      "resume_variant": "frontend",
+      "draft_answer": "I've built React front ends end-to-end for client-facing platforms, scoping requirements and driving UAT for diverse user groups, directly improving perceived UI responsiveness by cutting API fetch latency by 98%. My experience includes owning core backend modules for cloud-native compliance platforms, automating reporting workflows for 80+ client organizations and modeling data for robust systems, while leveraging AI tools like Cursor daily to ensure correctness for critical user experiences.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-24T16:36:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.98,
+            "overlap": 16.89,
+            "combined": 12.05
+          },
+          "backend": {
+            "cosine": 8.0,
+            "overlap": 16.17,
+            "combined": 10.45
+          },
+          "frontend": {
+            "cosine": 10.25,
+            "overlap": 17.48,
+            "combined": 12.41
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.25,
+        "keyword_overlap_score": 17.48,
+        "final_score": 12.42,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1893
+          },
+          {
+            "term": "real",
+            "weight": 0.086
+          },
+          {
+            "term": "production",
+            "weight": 0.0688
+          },
+          {
+            "term": "react",
+            "weight": 0.0688
+          },
+          {
+            "term": "app",
+            "weight": 0.0516
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-24T16:36:43+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ee1bb57e312dbe4584f6823778aef571",
+      "source": "yc",
+      "company": "Clara",
+      "role": "Founding AI Engineer (Healthcare)",
+      "url": "https://www.workatastartup.com/jobs/87899",
+      "jd_text": "Clara is building the first AI-first medical practice from the ground up. We're reimagining primary care and providing patients with deep insights and immediate diagnosis and treatment in ways not previously possible.\r\n\r\nClara's founders have built and scaled a previous telemedicine company to over $100m in revenue and we're funded by top investors.\r\n\r\nThis is a mission-driven, high-performance team at the forefront of healthcare and AI, working in person in San Francisco 5 days per week. We will assist with relocation and work visas for the right candidate.\r\n\r\n### **What you'll build**\r\n\r\nYou'll own Clara's AI brain - the LLM-powered system that enables immediate diagnosis and treatment. This isn't chatbot work; it's medical AI that needs to be accurate, safe, and cost-effective at scale.\r\n\r\n### **Your responsibilities**\r\n\r\n**LLM integration & optimization (50%):**\r\n\r\n* Build and optimize LLM integration for medical insights, diagnosis and treatment\r\n* Implement streaming chat responses with proper error handling\r\n* Manage context windows for complex medical conversations\r\n* Optimize prompt engineering for clinical accuracy and safety\r\n* Control LLM costs through model selection, caching, and prompt efficiency\r\n\r\n**AI infrastructure (30%):**\r\n\r\n* Build semantic search and RAG systems\r\n* Implement vector similarity search for medical record retrieval\r\n* Design memory systems for patient conversation context\r\n* Build evaluation framework for groundedness, safety, and correctness\r\n\r\n**Medical AI safety (20%):**\r\n\r\n* Ensure AI responses are medically grounded (no hallucinations)\r\n* Implement guardrails for high-risk medical scenarios\r\n* Monitor and improve AI quality metrics\r\n* Token management and cost monitoring\r\n\r\n### **What we're looking for**\r\n\r\n**Required:**\r\n\r\n* 3+ years software engineering, including 12+ months shipping LLM applications to production\r\n* Strong prompt engineering skills with measurable results\r\n* Experience with RAG systems and semantic search\r\n* Python for AI/ML workflows\r\n* Understanding of token economics and cost optimization\r\n* Care about AI safety in high-stakes domains\r\n\r\n**Ideal:**\r\n\r\n* Medical domain knowledge or healthcare AI experience\r\n* Experience with embedding models\r\n* Built evaluation frameworks for LLM quality\r\n* Vector databases and semantic search systems\r\n* Memory systems for multi-turn conversations\r\n\r\n### **What Clara offers founding engineers**\r\n\r\n**Impact:**\r\n\r\n* Ship code that affects real patient health outcomes\r\n* Make architectural decisions for an AI-first medical practice\r\n* Work directly with CTO on technical strategy\r\n\r\n**Team & culture:**\r\n\r\n* High-performance founding team at the forefront of healthcare AI\r\n* In-person collaboration in San Francisco (5 days/week)\r\n* Talk to real patients and providers regularly\r\n* No bureaucracy, ship fast\r\n\r\n**Compensation:**\r\n\r\n* Competitive SF salary ranges\r\n* Meaningful founding team equity\r\n* Health insurance and standard benefits\r\n\r\n**Growth:**\r\n\r\n* First engineering hires → opportunity to become engineering managers as team scales\r\n* Ownership of entire domains (data, AI, product, platform)\r\n* Work with cutting-edge AI and healthcare technology San Francisco, CA, US jobs_skill 83 ML 10 jobs_skill 107 Python 288 fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 3",
+      "match_score": 8.52,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T16:36:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.2,
+            "overlap": 11.59,
+            "combined": 8.51
+          },
+          "backend": {
+            "cosine": 6.83,
+            "overlap": 12.41,
+            "combined": 8.5
+          },
+          "frontend": {
+            "cosine": 3.06,
+            "overlap": 12.62,
+            "combined": 5.93
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.2,
+        "keyword_overlap_score": 11.59,
+        "final_score": 8.52,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3769
+          },
+          {
+            "term": "team",
+            "weight": 0.1455
+          },
+          {
+            "term": "llm",
+            "weight": 0.1413
+          },
+          {
+            "term": "high",
+            "weight": 0.0942
+          },
+          {
+            "term": "safety",
+            "weight": 0.077
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "80dc02f9b71c1094e7a9bd8326ef2061",
+      "source": "yc",
+      "company": "Clara",
+      "role": "Founding full-stack growth Engineer",
+      "url": "https://www.workatastartup.com/jobs/106311",
+      "jd_text": "You'll own Clara's growth engine, supporting our mission by helping more patients discover Clara and turn to it for their day-to-day primary care needs. Landing pages, onboarding funnel, experimentation, attribution, and lifecycle messaging all belong to you. You'll work across the entire funnel - from the first ad impression or search result, through signup and onboarding, into first chat, subscription and long-term retention. You'll write the code, ship the pages, wire the events, run the tests, and read the results yourself. You'll partner closely with our clinical and compliance teams to make sure every page, claim and experiment is medically accurate and HIPAA-safe.\n\n### **Your responsibilities**\n\n**Acquisition and conversion surfaces:**\n\n* Ship programmatic and SEO-driven page systems for condition, medication and geo intent\n* Integrate paid ad platforms with our attribution stack so every channel's true contribution is measurable\n* Build and iterate high-velocity landing pages and funnels in React + TypeScript\n* Own patient acquisition and onboarding end to end\n\n**Product-led growth:**\n\n* Build in-product growth loops — activation nudges, referrals, sharing and re-engagement surfaces\n* Design onboarding that gets patients to first real value fast, then to habitual use\n* Design, build and launch experiments and MVPs autonomously — from hypothesis to shipped test to readout, without waiting to be told what to try\n* Turn patient behavior signals into personalized in-product prompts, with clinical review in the loop\n\n**Experimentation and attribution:**\n\n* Own the experimentation platform end to end — assignment, exposure, guardrails, readouts\n* Instrument the funnel in Amplitude and keep the event taxonomy trustworthy\n\n**Lifecycle:**\n\n* Partner with the clinical team to keep patients engaged with Clara over the long term and realize better health outcomes\n* Build event-triggered lifecycle journeys across onboarding rescue, reactivation and re-engagement\n* Own the CRM surfaces — email, SMS and in-product notifications — and the logic that decides who hears what, when\n\n### **What we're looking for**\n\n**Required**:\n\n* 3+ years software engineering, including 12+ months in a dedicated growth engineering role\n* Strong full-stack ability — React + TypeScript front end, Python or TypeScript services\n* Experience with product analytics instrumentation (Amplitude, Mixpanel or similar) and event taxonomy design\n* Experience scoping and prioritizing initiatives using RICE or a similar framework, and defending the call\n\n**Nice to haves:**\n\n* Medical domain knowledge or healthcare AI experience\n* Comfortable using LLMs as a production tool for content, creative and internal tooling\n\n### **What Clara offers founding engineers**\n\n**Impact:**\n\n* Ship code that affects real patient health outcomes\n* Make architectural decisions for an AI-first medical practice\n* Work directly with founders on technical strategy\n\n**Team &amp; culture:**\n\n* High-performance founding team at the forefront of healthcare AI\n* In-person collaboration in San Francisco (5 days/week)\n* Talk to real patients and providers regularly\n* No bureaucracy, ship fast\n\n**Technology stack**\n\nGrowth stack: Amplitude (incl. session replay + Experiment), [Customer.io](http://Customer.io), Stripe, Google/Meta/Reddit Ads APIs. Underneath: React 19 + TypeScript product app, Next.js + Payload CMS marketing site on Vercel, Python/Django backend on AWS, and frontier LLMs with proprietary prompts and tool calls.\n\n**Visa sponsorship**\n\nWe will sponsor TN, OPT and H1B transfer work permits for the right candidate. San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 3",
+      "match_score": 8.49,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T16:36:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.74,
+            "overlap": 11.92,
+            "combined": 8.3
+          },
+          "backend": {
+            "cosine": 4.78,
+            "overlap": 10.53,
+            "combined": 6.5
+          },
+          "frontend": {
+            "cosine": 6.93,
+            "overlap": 12.14,
+            "combined": 8.49
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.93,
+        "keyword_overlap_score": 12.14,
+        "final_score": 8.49,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1243
+          },
+          {
+            "term": "experience",
+            "weight": 0.061
+          },
+          {
+            "term": "react",
+            "weight": 0.061
+          },
+          {
+            "term": "real",
+            "weight": 0.061
+          },
+          {
+            "term": "code",
+            "weight": 0.0407
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f7759e02409eaa7cd47b27a05d645064",
+      "source": "yc",
+      "company": "SuperKalam",
+      "role": "Founding Product Manager",
+      "url": "https://www.workatastartup.com/jobs/92808",
+      "jd_text": "This is a **founding PM role focused on taking the product from 1 → 10**. We are eager to talk to you if you have strong product judgment, a sharp sense of quality, and high ownership in building and improving products.\n\nApplication form: [**FORM LINK**](https://forms.gle/MD4m3FYnjyPfhc6e8)\n\n### What you will work on\n\nYou will be helping in building the best AI-powered mentor for competitive exams. This involves improving how users experience the product - from first interaction to daily usage to conversion - across learning, practice, and consistency.\n\n### Requirements\n\n* 0–2 years of experience or strong proof of work\n* Strong product thinking and attention to detail\n* Comfortable working with product data (PostHog) and writing SQL\n* Ability to work closely with design and engineering\n* Clear thinking and structured communication\n* High ownership and bias for action\n* Strong taste in product and UX\n* Uses AI actively &amp; have build products with it\n* Have knack of vibe coding\n\n**PS:** Can you break down a vague product problem and turn it into something that ships and improves metrics?\n\n### Responsibilities\n\n* Improve user journeys across activation, engagement, retention, and conversion\n* Identify problems using data and user behavior, and prioritize what to solve\n* Work with design and engineering to ship product improvements\n* Collaborate with the growth team on experiments and product-led initiatives\n* Continuously iterate based on user insights and performance\n* Contribute to product and design reviews\n* Take decisions balancing speed and quality\n\nWe thrive on smooth communication, ownership, and speed. It’s a must.\n\n### Who will thrive here\n\n* Curious, fast learner, and wants to grow with a startup\n* Has worked on product, growth, analytics, or design problems (including internships or projects)\n* Enjoys solving messy, ambiguous problems\n* Has built side projects, experiments, vibe coding or product improvements\n* Strong ownership mindset with ability to execute independently\n* Cares deeply about product quality and user experience Bengaluru, Karnataka, IN jobs_skill 149 SQL 12 jobs_skill 225 Data Analytics 4 fulltime yes\nlocations: Bengaluru, Karnataka, IN\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T16:36:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "94d50edea2b039c58512b6066c3b710d",
       "source": "wellfound",
