@@ -1,12 +1,12 @@
 {
-  "exported_at": "2026-09-24T16:36:44+00:00",
+  "exported_at": "2026-09-24T16:37:56+00:00",
   "daily_cap": 5,
-  "submitted_today": 0,
+  "submitted_today": 1,
   "counts": {
-    "pending_approval": 160,
+    "submitted": 6,
     "discovered": 708,
+    "pending_approval": 159,
     "failed": 9,
-    "submitted": 5,
     "rejected": 3
   },
   "jobs": [
@@ -20,12 +20,12 @@
       "match_score": 12.42,
       "resume_variant": "frontend",
       "draft_answer": "I've built React front ends end-to-end for client-facing platforms, scoping requirements and driving UAT for diverse user groups, directly improving perceived UI responsiveness by cutting API fetch latency by 98%. My experience includes owning core backend modules for cloud-native compliance platforms, automating reporting workflows for 80+ client organizations and modeling data for robust systems, while leveraging AI tools like Cursor daily to ensure correctness for critical user experiences.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "pending_approval",
+      "status": "submitted",
       "discovered_at": "2026-09-24T16:36:24+00:00",
-      "decided_at": null,
-      "submitted_at": null,
+      "decided_at": "2026-09-24T16:37:56+00:00",
+      "submitted_at": "2026-09-24T16:37:56+00:00",
       "error_message": null,
-      "sent_message": null,
+      "sent_message": "I've built React front ends end-to-end for client-facing platforms, scoping requirements and driving UAT for diverse user groups, directly improving perceived UI responsiveness by cutting API fetch latency by 98%. My experience includes owning core backend modules for cloud-native compliance platforms, automating reporting workflows for 80+ client organizations and modeling data for robust systems, while leveraging AI tools like Cursor daily to ensure correctness for critical user experiences.\nGitHub: https://github.com/sanjay-kandpal",
       "match_breakdown": {
         "weights_version": "v1",
         "hard_filters": {
@@ -82,8 +82,12 @@
       },
       "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
       "drafted_at": "2026-09-24T16:36:43+00:00",
-      "confirmation_signal": null,
-      "github_run_id": null,
+      "confirmation_signal": {
+        "ok": true,
+        "url": "https://www.workatastartup.com/jobs/111884",
+        "text": "Companies & jobs Inbox Education Resume Review My profile sanjay Companies/Clara (P26)/Jobs Full-Stack Engineer (Healthcare) at Clara(P26) $130K - $210K • 0.10% - 0.40% AI primary care doctor San Francisco, CA, US Full-time Will sponsor 1+ "
+      },
+      "github_run_id": "36028621543",
       "apply_kind": null
     },
     {
