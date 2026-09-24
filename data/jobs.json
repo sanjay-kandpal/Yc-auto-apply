@@ -1,15 +1,206 @@
 {
-  "exported_at": "2026-09-24T16:37:56+00:00",
+  "exported_at": "2026-09-24T21:22:02+00:00",
   "daily_cap": 5,
   "submitted_today": 1,
   "counts": {
+    "discovered": 711,
     "submitted": 6,
-    "discovered": 708,
     "pending_approval": 159,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "16380f6ecd3fce0face574e7d1ec5b84",
+      "source": "wellfound",
+      "company": "VinMotion",
+      "role": "AI Engineer (HRI)",
+      "url": "https://wellfound.com/jobs/4760703-ai-engineer-hri",
+      "jd_text": "About VinMotion and Vingroup \n\nVinMotion is a pioneering subsidiary of Vingroup, a trailblazer in Vietnam’s robotics revolution, forging a future where advanced technology seamlessly integrates with human progress. With a strong commitment to technological excellence and innovation, VinMotion is dedicated to advancing cutting-edge AI for humanoid robotics. Our mission extends beyond research and development—we strive to attract top global talent, foster AI applications in robotics, and elevate the reputation of VinMotion, Vingroup, and Vietnam as global technology leaders. \n\nJob Overview \n\nVinMotion USA is looking for an AI Communication Engineer to design and implement AI-driven speech, NLP, vision, and multimodal interaction solutions for humanoid robots. This role focuses on Generative AI, Physical AI, and AI Vision to enable intelligent, real-time robotic communication. \n\nKey Responsibilities \n* Develop Generative AI models for natural, human-like conversations in humanoid robots. \n* Implement speech-to-text (ASR), text-to-speech (TTS), and chatbot functionalities. \n* Optimize transformer-based NLP models (GPT, BERT, Whisper, etc.) for real-time execution. \n* Enhance robotic perception using AI Vision models for lip-reading, facial expression recognition, and gaze tracking. \n* Integrate Physical AI by combining NLP with gesture recognition and emotion-aware interactions. \n* Work with multimodal AI to fuse speech, vision, and movement for natural human-robot interactions. \n* Deploy AI models in edge computing environments for real-time robotic processing. \n\nQualifications &amp; Experience \n* Bachelor’s or Master’s degree in AI, NLP, Computer Vision, Robotics, or related fields. \n* 2+ years of experience in AI development, NLP, or AI Vision. \n* Strong knowledge of transformer models, LLMs, and generative AI. \n* Proficiency in Python, TensorFlow, PyTorch, OpenCV, and NLP frameworks. \n* Experience with robotics perception, ASR, TTS, and multimodal AI is a plus. \n\nBenefits \n* Competitive compensation package with performance-based bonuses. \n* Work with top AI and robotics experts in a cutting-edge environment. \n* Access to top-tier AI talent, global research partnerships, and cutting-edge technology. \n* Work in a dynamic and innovation-driven environment with Vingroup’s strong backing. \n\nJoin us and shape the future of AI-powered human-robot communication! Cypress\nlocationNames: Cypress\nremote: true",
+      "match_score": 6.22,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T21:22:01+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.91,
+            "overlap": 6.95,
+            "combined": 6.22
+          },
+          "backend": {
+            "cosine": 5.62,
+            "overlap": 6.77,
+            "combined": 5.97
+          },
+          "frontend": {
+            "cosine": 2.48,
+            "overlap": 8.25,
+            "combined": 4.21
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.91,
+        "keyword_overlap_score": 6.95,
+        "final_score": 6.22,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.5159
+          },
+          {
+            "term": "communication",
+            "weight": 0.091
+          },
+          {
+            "term": "experience",
+            "weight": 0.0602
+          },
+          {
+            "term": "real",
+            "weight": 0.0602
+          },
+          {
+            "term": "time",
+            "weight": 0.0602
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f89e6cf5e1d21ded3ce896f953007a04",
+      "source": "wellfound",
+      "company": "Solea Academy",
+      "role": "Software Engineer (Clone)",
+      "url": "https://wellfound.com/jobs/4760790-software-engineer-clone",
+      "jd_text": "About UsWe are a fast-growing technology company building reliable, scalable software solutions. Our team values collaboration, clean code, and continuous learning. We use modern tools to solve complex problems and deliver great experiences to our users.Role OverviewWe are looking for a Software Engineer to design, build, and test applications. You will work with product managers, designers, and other engineers to launch new features and keep our systems running smoothly.Key ResponsibilitiesWrite clean, secure, and maintainable code in languages like Python, JavaScript, or Java.Design and develop software architectures for scalable applications.Test and debug programs to fix errors and optimize performance.Participate in code reviews and share feedback with team members.Deploy updates and help maintain cloud infrastructure (e.g., AWS).What We Are Looking ForExperience: 3+ years of professional software development experience.Technical Skills: Proficiency in modern programming languages and relational databases.Problem Solving: Ability to analyze user needs and turn them into functional code.Communication: Strong teamwork skills and clear written communication.Education: Bachelor’s degree in Computer Science or equivalent practical experience.Benefits &amp; PerksCompetitive salary and performance bonuses.Comprehensive health, dental, and vision insurance.Flexible working hours and remote work options.Generous paid time off (PTO) and parental leave.Annual budget for professional development and learning.If you want to customize this further, tell me:The tech stack you use (e.g., React, Node.js, Python, AWS)The seniority level (Junior, Mid-level, Senior)The industry (FinTech, Healthcare, E-commerce) San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 8.28,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T21:22:01+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.19,
+            "overlap": 7.95,
+            "combined": 7.42
+          },
+          "backend": {
+            "cosine": 5.61,
+            "overlap": 7.52,
+            "combined": 6.18
+          },
+          "frontend": {
+            "cosine": 7.46,
+            "overlap": 10.19,
+            "combined": 8.28
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 7.46,
+        "keyword_overlap_score": 10.19,
+        "final_score": 8.28,
+        "top_keywords": [
+          {
+            "term": "code",
+            "weight": 0.1417
+          },
+          {
+            "term": "applications",
+            "weight": 0.0709
+          },
+          {
+            "term": "aws",
+            "weight": 0.0709
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0709
+          },
+          {
+            "term": "experience",
+            "weight": 0.0709
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "096a95ae63f81dce9dc71a97f08f513b",
+      "source": "wellfound",
+      "company": "Floe",
+      "role": "Founding Financial Data Infra Engineer",
+      "url": "https://wellfound.com/jobs/4762915-founding-financial-data-infra-engineer",
+      "jd_text": "Every enterprise requires ROI for their AI investment. Every AI company is about to switch from charging for seats to charging for outcomes. none of them know what an outcome costs or ROI is. \n\nOne AI task spends across a dozen vendors (the model, tools, retrieval, voice, carrier, infra), and  those bills come in separately, in different units, days apart. Finance ends up guessing with a blended average and pricing deals on vibes.\n \nFloe is the ledger underneath AI pricing. We cost every task the moment it ends, match it to the vendor's actual  bill, tag it to the client and campaign, and show margin per contract. It's already live in production.\n\nWhat you own: the ledger becoming something finance teams can rely on. That means locked, tamper-proof records, safe re-processing of vendor bills without double-counting, month-end close, and variance and forecast reporting. It also includes the analytics warehouse when Postgres p95/p99 queries start to slow down.\n\nIdeal experience: built ledgers or billing infrastructure at Stripe, Modern Treasury, Ramp, Brex, Metronome or Orb. San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T21:22:01+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "be72090f32330015bc3cf202e9dec0ee",
       "source": "yc",
