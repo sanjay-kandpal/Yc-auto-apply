@@ -53,16 +53,13 @@ def load_credentials(path: Path | None = None) -> tuple[str, str]:
     return email, password
 
 
-def _first_visible(page: Page, selector: str):
-    loc = page.locator(selector)
-    if loc.count() == 0:
-        return None
+def _wait_visible(page: Page, selector: str, timeout: int = 8000):
+    loc = page.locator(selector).first
     try:
-        if loc.first.is_visible():
-            return loc.first
+        loc.wait_for(state="visible", timeout=timeout)
+        return loc
     except Exception:
-        return loc.first
-    return None
+        return None
 
 
 def _click_first(page: Page, selectors: tuple[str, ...]) -> bool:
@@ -82,6 +79,29 @@ def _page_text(page: Page) -> str:
         return page.inner_text("body").lower()
     except Exception:
         return page.content().lower()
+
+
+def _page_extra(page: Page) -> str:
+    url = ""
+    title = ""
+    try:
+        url = page.url
+    except Exception:
+        pass
+    try:
+        title = page.title()
+    except Exception:
+        pass
+    parts = [p for p in (url, title) if p]
+    return "\n".join(parts)
+
+
+def _save_screenshot(page: Page, path: Path) -> None:
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        page.screenshot(path=str(path), full_page=True)
+    except Exception:
+        log.exception("Could not save Wellfound login screenshot to %s", path)
 
 
 def is_wellfound_logged_in(page: Page) -> bool:
@@ -123,14 +143,20 @@ def perform_login(page: Page, email: str, password: str) -> tuple[bool, str]:
     if blocked:
         return False, blocked
 
-    user_box = _first_visible(page, USERNAME_SELECTORS)
-    password_box = _first_visible(page, PASSWORD_SELECTORS)
+    user_box = _wait_visible(page, USERNAME_SELECTORS)
+    password_box = _wait_visible(page, PASSWORD_SELECTORS)
     if not user_box or not password_box:
         return False, "Wellfound email/password fields not found. Try WELLFOUND_SESSION_COOKIES."
     user_box.fill(email)
     password_box.fill(password)
     if not _click_first(page, SUBMIT_SELECTORS):
-        password_box.press("Enter")
+        try:
+            password_box.press("Enter", timeout=5000)
+        except Exception:
+            try:
+                page.keyboard.press("Enter")
+            except Exception:
+                return False, "Could not submit Wellfound login form."
 
     try:
         page.wait_for_url("**wellfound.com/**", timeout=30000)
@@ -148,6 +174,32 @@ def perform_login(page: Page, email: str, password: str) -> tuple[bool, str]:
     return False, "Wellfound login did not reach the jobs page. Check WELLFOUND_EMAIL / WELLFOUND_PASSWORD."
 
 
+def attempt_password_login(
+    context,
+    *,
+    screenshot_path: Path | None = None,
+) -> tuple[bool, str, str]:
+    email, password = load_credentials()
+    if not email or not password:
+        return False, "WELLFOUND_EMAIL / WELLFOUND_PASSWORD are empty.", ""
+    page = context.new_page()
+    extra = ""
+    try:
+        ok, err = perform_login(page, email, password)
+        extra = _page_extra(page)
+        if not ok and screenshot_path:
+            _save_screenshot(page, screenshot_path)
+        return ok, err, extra
+    except Exception as exc:
+        extra = _page_extra(page)
+        if screenshot_path:
+            _save_screenshot(page, screenshot_path)
+        log.exception("Wellfound password login raised")
+        return False, f"{type(exc).__name__}: {exc}", extra
+    finally:
+        page.close()
+
+
 def cookies_still_valid(context) -> bool:
     cfg = load_config().get("wellfound") or {}
     check = (cfg.get("login") or {}).get("check_url", "https://wellfound.com/jobs")
@@ -162,18 +214,47 @@ def cookies_still_valid(context) -> bool:
         page.close()
 
 
-def notify_login_failed(reason: str) -> None:
+def notify_login_failed(
+    reason: str,
+    *,
+    attachments: list[Path | str] | None = None,
+    extra: str = "",
+    after_retries: bool = False,
+) -> None:
     cfg = load_config()
     owner = cfg.get("github", {}).get("owner", "YOUR_GITHUB_USER")
     repo = cfg.get("github", {}).get("repo", "Yc-auto-apply")
-    actions = f"https://github.com/{owner}/{repo}/actions/workflows/scan-wellfound.yml"
+    run_id = os.environ.get("GITHUB_RUN_ID", "").strip()
+    if run_id:
+        actions = f"https://github.com/{owner}/{repo}/actions/runs/{run_id}"
+        actions_label = "Open this Actions run"
+    else:
+        actions = f"https://github.com/{owner}/{repo}/actions/workflows/scan-wellfound.yml"
+        actions_label = "Open the Wellfound scan workflow"
+    if after_retries:
+        subject = "Wellfound job bot: login failed after 2 attempts"
+        headline = (
+            "Wellfound <strong>login failed after 2 attempts</strong>. "
+            "The scan did not scrape jobs."
+        )
+        evidence = (
+            "<p>A screenshot and recording clip are attached when available. "
+            "The scan recording (if Actions finished spectate) is on the same run.</p>"
+        )
+    else:
+        subject = "Wellfound job bot: login failed — update email/password"
+        headline = "Wellfound <strong>login failed</strong>. The scan did not scrape jobs."
+        evidence = ""
+    extra_html = f"<p>{html.escape(extra)}</p>" if extra else ""
     body = f"""
-    <p>Wellfound <strong>login failed</strong>. The scan did not scrape jobs.</p>
+    <p>{headline}</p>
     <p><strong>Reason:</strong> {html.escape(reason)}</p>
+    {extra_html}
+    {evidence}
     <p>Set <em>WELLFOUND_EMAIL</em> / <em>WELLFOUND_PASSWORD</em> or cookie fallback, then re-run scan-wellfound.</p>
-    <p><a href="{html.escape(actions)}">Open the Wellfound scan workflow</a></p>
+    <p><a href="{html.escape(actions)}">{html.escape(actions_label)}</a></p>
     """
-    sent = try_send_html_email("Wellfound job bot: login failed — update email/password", body)
+    sent = try_send_html_email(subject, body, attachments=attachments)
     if sent:
         log.info("Sent Wellfound login-failure email.")
     else:
@@ -185,12 +266,8 @@ def ensure_logged_in(context) -> None:
     if not email or not password:
         notify_login_failed("WELLFOUND_EMAIL / WELLFOUND_PASSWORD are empty.")
         raise SystemExit("WELLFOUND_EMAIL / WELLFOUND_PASSWORD are empty.")
-    page = context.new_page()
-    try:
-        ok, err = perform_login(page, email, password)
-    finally:
-        page.close()
+    ok, err, extra = attempt_password_login(context)
     if not ok:
-        notify_login_failed(err)
+        notify_login_failed(err, extra=extra)
         raise SystemExit(f"Wellfound login failed: {err}")
     log.info("Logged in with Wellfound email/password.")

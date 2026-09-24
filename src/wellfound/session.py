@@ -16,7 +16,7 @@ if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
 
 from record_video import attach_page_tracker, finalize_recordings, recording_dir, recording_enabled, video_size
-from wellfound.login import cookies_still_valid, ensure_logged_in, load_credentials, notify_login_failed
+from wellfound.login import attempt_password_login, cookies_still_valid, load_credentials, notify_login_failed
 
 load_dotenv()
 log = logging.getLogger(__name__)
@@ -58,7 +58,74 @@ def _new_context(browser: Browser, *, record_dir=None, storage_state=None) -> Br
     return browser.new_context(**kwargs)
 
 
-def _login(context: BrowserContext) -> None:
+def _login_attachments(dest: Path, screenshot: Path) -> list[Path]:
+    files: list[Path] = []
+    if screenshot.is_file():
+        files.append(screenshot)
+    files.extend(sorted(dest.glob("clip-*.webm")))
+    return files
+
+
+def _drop_raw_videos(dest: Path) -> None:
+    for path in dest.glob("*.webm"):
+        if path.name.startswith("clip-"):
+            continue
+        try:
+            path.unlink()
+        except OSError:
+            log.warning("Could not remove leftover login video %s", path)
+
+
+def _password_login_with_retry(browser: Browser, context: BrowserContext) -> None:
+    ok, err, extra = attempt_password_login(context)
+    if ok:
+        log.info("Logged in with Wellfound email/password (attempt 1).")
+        return
+    log.warning("Wellfound login attempt 1/2 failed: %s", err)
+
+    dest = recording_dir()
+    rec_ctx: BrowserContext | None = None
+    pages: list = []
+    screenshot = dest / "login-fail.png"
+    last_err = err
+    last_extra = extra
+    succeeded = False
+    try:
+        rec_ctx = _new_context(browser, record_dir=dest)
+        pages = attach_page_tracker(rec_ctx)
+        ok, last_err, last_extra = attempt_password_login(rec_ctx, screenshot_path=screenshot)
+        if ok:
+            context.add_cookies(rec_ctx.cookies())
+            succeeded = True
+            log.info("Logged in with Wellfound email/password (attempt 2).")
+    except Exception as exc:
+        last_err = f"{type(exc).__name__}: {exc}"
+        log.exception("Wellfound login attempt 2 crashed")
+    finally:
+        if rec_ctx:
+            rec_ctx.close()
+
+    if succeeded:
+        _drop_raw_videos(dest)
+        if screenshot.exists():
+            screenshot.unlink(missing_ok=True)
+        return
+
+    try:
+        finalize_recordings(pages, dest)
+    except Exception:
+        log.exception("Failed to finalize Wellfound login-failure recording")
+
+    notify_login_failed(
+        last_err,
+        attachments=_login_attachments(dest, screenshot),
+        extra=last_extra,
+        after_retries=True,
+    )
+    raise SystemExit(f"Wellfound login failed after 2 attempts: {last_err}")
+
+
+def _login(browser: Browser, context: BrowserContext) -> None:
     email, password = load_credentials()
     cookies = load_cookies()
     if not (email and password) and not cookies:
@@ -78,7 +145,7 @@ def _login(context: BrowserContext) -> None:
     if used_cookies:
         return
     if email and password:
-        ensure_logged_in(context)
+        _password_login_with_retry(browser, context)
         return
     notify_login_failed("Cookies failed and WELLFOUND_EMAIL / WELLFOUND_PASSWORD are not set.")
     raise SystemExit("Need valid cookies or WELLFOUND_EMAIL / WELLFOUND_PASSWORD.")
@@ -95,7 +162,7 @@ def wellfound_context(headless: bool = True):
         playwright = sync_playwright().start()
         browser = playwright.chromium.launch(headless=headless)
         context = _new_context(browser)
-        _login(context)
+        _login(browser, context)
         if recording_enabled():
             dest_dir = recording_dir()
             state = context.storage_state()
