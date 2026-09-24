@@ -1,15 +1,664 @@
 {
-  "exported_at": "2026-09-24T09:05:05+00:00",
+  "exported_at": "2026-09-24T14:48:02+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 699,
-    "pending_approval": 155,
+    "discovered": 705,
+    "pending_approval": 159,
     "failed": 9,
     "submitted": 5,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "94d50edea2b039c58512b6066c3b710d",
+      "source": "wellfound",
+      "company": "Dreamlayer",
+      "role": "Game Developer",
+      "url": "https://wellfound.com/jobs/3351119-research-engineer-diffusion-model",
+      "jd_text": "**About DreamLayer AI**\n\nDreamLayer is an AI agent for creative work. You describe what you want to create, and DreamLayer selects and orchestrates the right image models. We’re currently focused on helping game developers create and iterate on characters, environments, items, UI, textures, and other visual assets.\n\nWe’re looking for a Game Developer to work closely with the founding team and help shape DreamLayer around real game-development workflows. You’ll build games with DreamLayer, identify where AI-generated assets work or fail in production, and prototype new workflows and integrations.\n\nThis is a product-focused engineering role for someone who enjoys building games, experimenting quickly, and turning real developer needs into better tools.\n\n\n**Responsibilities**\n\n* Build playable games and prototypes using DreamLayer as part of the visual asset workflow\n* Dogfood DreamLayer and identify where it succeeds or breaks down in real game-development workflows\n* Prototype workflows for characters, environments, props, UI, textures, animations, and other game assets\n* Build tools, scripts, plugins, and integrations that make DreamLayer assets easier to use in Unity, Godot, and Unreal\n* Explore workflows around character consistency, sprite sheets, animation, asset variations, and game-ready exports\n* Turn insights from real game development into product improvements and new DreamLayer features\n* Create reference projects, demos, and examples that show what developers can build with DreamLayer\n\n**Requirements**\n\n* Strong experience building games with Unity, Godot, or Unreal Engine, including taking projects from prototype to a playable state\n* Strong programming ability in relevant languages such as C#, C++, GDScript, JavaScript/TypeScript, or Python\n* Solid understanding of game asset pipelines, including sprites, animation, textures, UI, environments, and asset importing\n* Ability to prototype quickly and independently, with strong product instincts and an interest in developer tools\n* Genuine interest in generative AI and how it can improve real game-development workflows\n\n**Nice to Have**\n\n* Experience building editor extensions, plugins, importers, or developer tools for game engines\n* Experience with technical art, sprite sheets, animation, tilesets, textures, or procedural asset generation\n* Experience using AI coding agents, MCP, or agentic development workflows\n* Experience shipping an indie game or contributing to open-source game/developer tools\n\n\n**Application process**\n\n1. End September: Build and submit a small playable game prototype using DreamLayer as part of the visual workflow\n2. Early October: product + technical interviews\n3. Mid October: final interviews with the founding team San Francisco Toronto\nlocationNames: San Francisco Toronto\nremote: true",
+      "match_score": 5.44,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T14:47:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.59,
+            "overlap": 8.61,
+            "combined": 5.1
+          },
+          "backend": {
+            "cosine": 3.41,
+            "overlap": 9.02,
+            "combined": 5.09
+          },
+          "frontend": {
+            "cosine": 3.61,
+            "overlap": 9.71,
+            "combined": 5.44
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 3.61,
+        "keyword_overlap_score": 9.71,
+        "final_score": 5.44,
+        "top_keywords": [
+          {
+            "term": "workflows",
+            "weight": 0.127
+          },
+          {
+            "term": "experience",
+            "weight": 0.0907
+          },
+          {
+            "term": "real",
+            "weight": 0.0907
+          },
+          {
+            "term": "tools",
+            "weight": 0.0907
+          },
+          {
+            "term": "ui",
+            "weight": 0.0822
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d992b6b262122c1a9f31e35cb9221ce8",
+      "source": "wellfound",
+      "company": "Shipthis Inc",
+      "role": "SecOps Engineer",
+      "url": "https://wellfound.com/jobs/4760728-security-devops-engineer-clone",
+      "jd_text": "At **Shipthis**, we are building a better future for freight forwarders by evolving traditional operations into fully digital, efficient, and scalable systems. We’re a fast-growing product company where every individual has the opportunity to take ownership, move fast, and create real impact. If you enjoy solving complex problems, shaping products from the ground up, and influencing technical direction, Shipthis is the place for you.\n\nLearn more at www.shipthis.co\n\n**Role Overview**\n\nWe are looking for an associate-level SecOps Engineer to support security operations, compliance, endpoint management, cloud infrastructure, and DevOps engineering. The role will work closely with the CTO/CISO and engineering team. Security and compliance are core responsibilities; when those priorities are lighter, the engineer will focus on CI/CD, infrastructure automation, reliability, monitoring, performance, and cloud cost optimization.\n\n**What You’ll be Doing**\n\nSecurity Operations\n* Monitor infrastructure, application, and security alerts and assist with incident investigation.\n* Review access controls, privileged accounts, service accounts, permissions, and periodic access reviews.\n* Support infrastructure hardening, logging, monitoring, backup, recovery, and other security controls.\n* Track security issues and corrective actions through closure.\nVulnerability Management\n* Run and review application and infrastructure vulnerability scans.\n* Maintain a vulnerability register and coordinate remediation with engineering teams.\n* Support VAPT and penetration-testing exercises and validate closure of findings.\n* Monitor dependencies, containers, operating systems, and cloud infrastructure for known vulnerabilities and patching needs.\nCompliance &amp; Governance\n* Support ongoing ISO/IEC 27001, SOC 2, GDPR, customer-security, and internal-policy requirements.\n* Maintain audit evidence, control registers, security policies, procedures, risk items, and remediation records.\n* Assist with internal/external audits, vendor assessments, customer security questionnaires, and asset inventories.\n* Maintain evidence for access reviews, vulnerability management, incidents, onboarding/offboarding, backups, and infrastructure changes.\nMDM &amp; Endpoint Security\n* Administer the company MDM platform and enroll/manage company laptops, desktops, and mobile devices.\n* Maintain device inventory and monitor endpoint compliance.\n* Enforce approved controls such as disk encryption, screen locks, password requirements, patching, and endpoint protection.\n* Support employee device onboarding/offboarding, approved application deployment, lost/stolen-device procedures, and remote wipe where authorized.\n* Maintain endpoint security and MDM evidence required for audits and troubleshoot enrollment or policy issues.\nDevOps, CI/CD &amp; Cloud\n* Maintain and improve CI/CD pipelines, deployment workflows, build times, caching, and rollback processes.\n* Support production and non-production cloud infrastructure, networking, DNS, TLS certificates, IAM, and secrets.\n* Automate repetitive deployment, infrastructure, security, and compliance tasks.\n* Improve monitoring, logging, alerting, reliability, resource utilization, and cloud costs.\n* Troubleshoot pipeline, deployment, and infrastructure issues and participate in root-cause analysis.\n\n**Required Fundamentals**\n\n* Basic knowledge of Linux, networking, HTTP/HTTPS, DNS, TLS, Git, Docker, cloud computing, APIs, and web applications.\n* Understanding of IAM, MFA, least privilege, vulnerabilities/CVEs, encryption, logging, patching, and secrets management.\n* Strong troubleshooting, ownership, attention to detail, and willingness to learn.\n\n**Desired Qualifications**\n\n* 1–2 years of experience with strong fundamentals are welcome.\n* Basic scripting knowledge in Python, Bash, or similar.\n* Interest in cybersecurity, cloud infrastructure, automation, and troubleshooting.\n* Exposure to AWS/GCP/Azure, Terraform, GitHub Actions, Cloudflare, OWASP, vulnerability scanners, MDM, ISO 27001, or SOC 2 is a plus, not mandatory.\n\n**We Welcome Candidates:**\n\n* Who is immediate joining\n* Female candidates returning to work after a career break are strongly encouraged.\n\n**We are an equal opportunity employer and are committed to fostering diversity and inclusivity. We do not discriminate based on race, religion, color, gender, sexual orientation, age, marital status, or disability status.**\n\n**Job Synopsys**\n* Location: Bangalore\n* Job Type: Full-time, Permanent\n* Experience: 1-2 years\n* Industry: Software Product Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 10.01,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've owned Azure deployments with AKS, cert-manager for automated TLS, and implemented Azure DevOps CI/CD pipelines with blue-green releases, ensuring zero-downtime rollouts and safe rollbacks for digital, efficient systems. My experience in diagnosing and mitigating production risks, like introducing RabbitMQ for guaranteed delivery to prevent data loss or integrating Redis for 98% faster fetch latency, directly supports the reliable and secure digital transformation freight forwarders need.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-24T14:47:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.91,
+            "overlap": 14.9,
+            "combined": 10.01
+          },
+          "backend": {
+            "cosine": 7.64,
+            "overlap": 15.04,
+            "combined": 9.86
+          },
+          "frontend": {
+            "cosine": 5.98,
+            "overlap": 18.45,
+            "combined": 9.72
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.91,
+        "keyword_overlap_score": 14.9,
+        "final_score": 10.01,
+        "top_keywords": [
+          {
+            "term": "security",
+            "weight": 0.2611
+          },
+          {
+            "term": "cloud",
+            "weight": 0.1423
+          },
+          {
+            "term": "compliance",
+            "weight": 0.0889
+          },
+          {
+            "term": "deployment",
+            "weight": 0.0712
+          },
+          {
+            "term": "management",
+            "weight": 0.0712
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-24T14:48:01+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a97a05470d111a8ce2855bbb400ab62b",
+      "source": "wellfound",
+      "company": "Binocs.co",
+      "role": "SDE- I",
+      "url": "https://wellfound.com/jobs/4762758-sde-i",
+      "jd_text": "About Us :\n\nBinocs.co empowers institutional lenders with next-generation loan management software, streamlining the entire loan lifecycle and facilitating seamless interaction among stakeholders.\n\nTeam: Binocs.co is led by a passionate team with extensive experience in financial technology, lending, AI, and software development.\n\nInvestors: Our journey is backed by renowned investors who share our vision for transforming the loan management landscape: Beenext, Arkam Ventures, Accel, Saison Capital, Blume Ventures, Premji Invest, and Better Capital.\n\nWhat we're looking for :\n\nWe seek a motivated, talented, and intelligent individual who shares our vision of being a changemaker. We value individuals dissatisfied with the status quo, strive to make improvements, and envision making significant contributions. We look for those who embrace challenges and dedicate themselves to solutions. We seek individuals who push for data-driven decisions, are unconstrained by titles, and value collaboration. We are building a fast-paced team to shape various business and technology aspects.\n\nResponsibilities :\n\nBe a part of the initial team to define and set up a best-in-class digital platform for the Private Credit industry, and take full ownership of the components of the digital platform\nYou will build robust and scalable web-based applications and need to think of platforms &amp; reuse\nDriving and active contribution to High-Level Designs(HLDs) and Low-Level Designs (LLDs).\nCollaborate with frontend developers, product managers, and other stakeholders to understand requirements and translate them into technical specifications.\nMentor team members in adopting effective coding practices. Conduct comprehensive code reviews, focusing on both functional and non-functional aspects.\nEnsure the security, performance, and reliability of backend systems through proper testing, monitoring, and optimization.\nParticipate in code reviews, sprint planning, and agile development processes to maintain code quality and project timelines.\nSimply, be an owner of the platform and do whatever it takes to get the required output for customers\nBe curious about product problems and have an open mind to dive into new domains eg: gen-AI.\nStay up-to-date with the latest development trends, tools, and technologies.\n\nQualifications :\n\n0-1 years of experience in backend development, with a strong track record of successfully architecting and implementing scalable and high-performance backend systems.\nProficiency in at least one backend programming language (e.g.,Python, Golang, Node.js, Java) &amp; tech stack to write maintainable, scalable, unit-tested code.\nGood understanding of databases (e.g. MySQL, PostgreSQL) and NoSQL (e.g. MongoDB, Elasticsearch, etc)\nSolid understanding of RESTful API design principles and best practices.\nExperience with multi-threading and concurrency programming\nExtensive experience in object-oriented design skills, knowledge of design patterns, and huge passion and ability to design intuitive module and class-level interfaces.\nExperience of cloud computing platforms and services (e.g., AWS, Azure, Google Cloud Platform)\nKnowledge of Test Driven Development\n\nGood to have:\n\nExperience with microservices architecture\nKnowledge of serverless computing and event-driven architectures (e.g., AWS Lambda, Azure Functions)\nUnderstanding of DevOps practices and tools for continuous integration and deployment (CI/CD).\nContributions to open-source projects or active participation in developer communities.\nExperience working LLMs and AI technologies\n\nBenefits :\n\nBy joining Binocs, you’ll become part of a vibrant and dynamic team dedicated to disrupting the fintech space with cutting-edge solutions. We offer a stimulating work environment where innovation is at the heart of everything we do. Our competitive compensation package, inclusive of equity, is designed to reward your contributions to our success. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 13.05,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience owning core modules of cloud-native compliance platforms, from scoping requirements and building FastAPI/React systems to implementing blue-green Azure DevOps CI/CD and optimizing APIs for 98% faster fetch latency, aligns with your need for an owner of a next-generation digital platform. I've ensured data integrity under concurrent load using RabbitMQ and ACID transactions in multi-threaded environments, architected microservices, and leveraged LLMs in local agent development, ready to contribute to your mission of streamlining the loan lifecycle.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-24T14:47:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.98,
+            "overlap": 17.88,
+            "combined": 13.05
+          },
+          "backend": {
+            "cosine": 10.96,
+            "overlap": 18.05,
+            "combined": 13.09
+          },
+          "frontend": {
+            "cosine": 8.64,
+            "overlap": 19.9,
+            "combined": 12.02
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.98,
+        "keyword_overlap_score": 17.88,
+        "final_score": 13.05,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.2125
+          },
+          {
+            "term": "experience",
+            "weight": 0.1641
+          },
+          {
+            "term": "backend",
+            "weight": 0.0938
+          },
+          {
+            "term": "code",
+            "weight": 0.0938
+          },
+          {
+            "term": "platform",
+            "weight": 0.0938
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-24T14:47:26+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0b5693d4562c80f506f7701e2d512ae1",
+      "source": "wellfound",
+      "company": "Binocs.co",
+      "role": "Forward Deployment Engineer",
+      "url": "https://wellfound.com/jobs/4697879-forward-deployment-engineer",
+      "jd_text": "# Forward Deployed Engineer\n\n**Experience:** 0–2 years\n\n**Location:** Bengaluru — From Office\n\n**Reporting to:** CTO / Founders\n\n### About Binocs\n\nBinocs is building the next-generation operating system for investment research and underwriting. Our proprietary GenAI agent architecture enables private equity, private credit, and M&amp;A teams to complete deep, investment-grade diligence in hours instead of weeks.\n\n### About the Role\n\nWe are looking for a **Forward Deployed Engineer** who is excited about AI, technology, and solving real-world customer problems. You will work closely with our Product, Engineering, and customer-facing teams to understand business requirements, build AI-powered solutions, and help deploy them in real-world environments.\n\nThis is a highly hands-on role suited for someone who enjoys **building, experimenting, debugging, and learning quickly**.\n\n### What You’ll Do\n\n* Work with Product and customer-facing teams to understand customer workflows and requirements.\n\n* Build and customize **AI/LLM-powered solutions** for real-world use cases.\n\n* Develop prototypes, integrations, APIs, and automation workflows.\n\n* Work with LLMs, RAG, AI agents, and relevant AI tools/frameworks.\n\n* Debug issues and improve the performance and reliability of deployed solutions.\n\n* Collaborate with Engineering to take successful prototypes into production.\n\n* Gather customer feedback and translate it into product improvements.\n\n* Learn and work across **engineering, AI, product, and customer implementation**.\n\n### What We’re Looking For\n\n* 0–1 years of experience; **fresh graduates with strong technical projects are welcome**.\n\n* Strong programming fundamentals, preferably **Python**.\n\n* Understanding of APIs, databases, and basic software engineering concepts.\n\n* Exposure to **LLMs, Generative AI, RAG, AI agents, or ML projects** through internships, projects, or coursework.\n\n* Strong problem-solving and debugging skills.\n\n* Ability to understand ambiguous problems and find practical solutions.\n\n* Strong communication and willingness to work directly with customers.\n\n* High ownership, curiosity, and a strong bias toward learning and execution.\n\n### Good to Have\n\n* Experience with OpenAI/Anthropic APIs, LangChain, LangGraph, or similar frameworks.\n\n* Experience building AI/GenAI projects or deploying applications.\n\n* Familiarity with Git, Docker, cloud platforms, or SQL.\n\n* Interest or exposure to **fintech, financial research, or investment workflows**.\n\n### Why Join Binocs?\n\n* Work directly on **production-grade GenAI applications**.\n\n* Get exposure to customers, product, and engineering—not just coding in isolation.\n\n* Work closely with the founders and senior technology team.\n\n* Opportunity to take ownership early and grow rapidly in a high-impact startup environment. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 10.73,
+      "resume_variant": "backend",
+      "draft_answer": "Having scoped requirements directly with clients and owned deployments for critical backend systems—including introducing blue-green releases and cutting API latency by 98% with Redis caching—I'm adept at building and deploying reliable solutions. My experience developing a local LLM agent, validating its tool-calling reliability against a model API, directly translates to building out the GenAI agent architecture for investment research at Binocs.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-24T14:47:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.31,
+            "overlap": 12.91,
+            "combined": 9.69
+          },
+          "backend": {
+            "cosine": 8.89,
+            "overlap": 15.04,
+            "combined": 10.73
+          },
+          "frontend": {
+            "cosine": 6.57,
+            "overlap": 16.02,
+            "combined": 9.41
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 8.89,
+        "keyword_overlap_score": 15.04,
+        "final_score": 10.73,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2595
+          },
+          {
+            "term": "experience",
+            "weight": 0.0943
+          },
+          {
+            "term": "projects",
+            "weight": 0.0943
+          },
+          {
+            "term": "solutions",
+            "weight": 0.0943
+          },
+          {
+            "term": "apis",
+            "weight": 0.0707
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-24T14:47:47+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9c6db9df55b47962af1032e7afd2493d",
+      "source": "wellfound",
+      "company": "SalaryBox (YC S21)",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/4762729-full-stack-developer",
+      "jd_text": "**About SalaryBox**\n\nIt’s an amazing time to be joining SalaryBox as we continue to transform attendance and payroll for over 60 million MSME’s in India. We launched the app in Jan 2021, and now have more than 4 million downloads of the app. Backed by Y-Combinator, SalaryBox is India’s leading attendance and payroll app. Considered to be the engine of economies around the world, the MSME segment in India alone has ~63 million units, and employs ~100 million people. The sector accounts for 27% of GDP and is crucial to the functioning of the economy. We are on a mission to make work easier for these business owners, managers, and employees so that they can focus on the things they do best. Today, SalaryBox is a fun bunch of analytical and ambitious folks building the first-of-its-kind technologies for the MSME ecosystem. Our mission is big, so we act with urgency in everything we do. We find creative ways to test ideas and learn today so that we focus on the right things tomorrow.\n\nWe are looking for a candidate who is willing to work with an early-age startup and help us grow. You will be working with an agile team where your ideas have the potential to reach millions. You will be an integral part of the organization where you will be a critical voice in the decision-making process.\n\nWebsite : https://www.salarybox.in/\nLinkedIn : https://www.linkedin.com/company/salaryboxapp \n\n**About the Role**\nWe are looking for a Full Stack Developer who enjoys building products end-to-end and solving complex engineering problems. We are technology-agnostic when it comes to programming languages and frameworks. What matters most is strong engineering fundamentals, product mindset, ownership, and the ability to learn and work across the stack.\n\n**What You’ll Do**\n\n● Build, ship, and scale end-to-end product features across frontend and backend.\n● Work closely with Product and Engineering teams to convert requirements into reliable and scalable solutions.\n● Take ownership of features from technical design and development through testing, deployment, and iteration.\n● Design and build APIs, backend services, databases, integrations, and responsive user interfaces.\n● Debug production issues and continuously improve application performance, scalability, and reliability.\n● Stay curious about emerging technologies and experiment with new tools, frameworks, and approaches.\n\n\n**Must-Have**\n\n● 1+ year of experience in a product-based company/startup.\n● Strong DSA and problem-solving fundamentals.\n● Full-stack development experience.\n● Experience shipping features used by real users.\n● Hands-on experience with AI Agents / LLM-powered applications.\n● Strong ownership and ability to work independently. Gurgaon\nlocationNames: Gurgaon",
+      "match_score": 8.77,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T14:47:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.07,
+            "overlap": 10.6,
+            "combined": 7.43
+          },
+          "backend": {
+            "cosine": 4.68,
+            "overlap": 9.02,
+            "combined": 5.98
+          },
+          "frontend": {
+            "cosine": 7.33,
+            "overlap": 12.14,
+            "combined": 8.77
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 7.33,
+        "keyword_overlap_score": 12.14,
+        "final_score": 8.77,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1317
+          },
+          {
+            "term": "experience",
+            "weight": 0.1077
+          },
+          {
+            "term": "app",
+            "weight": 0.0808
+          },
+          {
+            "term": "backend",
+            "weight": 0.0538
+          },
+          {
+            "term": "focus",
+            "weight": 0.0538
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1cda6c7b2fbb5f65cc657ac5a2bfdce9",
+      "source": "wellfound",
+      "company": "SalaryBox (YC S21)",
+      "role": "Mobile App Developer",
+      "url": "https://wellfound.com/jobs/4697898-mobile-app-developer",
+      "jd_text": "**About SalaryBox**\n\nIt’s an amazing time to be joining SalaryBox as we continue to transform attendance and payroll for over 60 million MSME’s in India. We launched the app in Jan 2021, and now have more than 4 million downloads of the app. Backed by Y-Combinator, SalaryBox is India’s leading attendance and payroll app. Considered to be the engine of economies around the world, the MSME segment in India alone has ~63 million units, and employs ~100 million people. The sector accounts for 27% of GDP and is crucial to the functioning of the economy. We are on a mission to make work easier for these business owners, managers, and employees so that they can focus on the things they do best. Today, SalaryBox is a fun bunch of analytical and ambitious folks building the first-of-its-kind technologies for the MSME ecosystem. Our mission is big, so we act with urgency in everything we do. We find creative ways to test ideas and learn today so that we focus on the right things tomorrow.\n\nWe are looking for a candidate who is willing to work with an early-age startup and help us grow. You will be working with an agile team where your ideas have the potential to reach millions. You will be an integral part of the organization where you will be a critical voice in the decision-making process.\n\n**Website : https://www.salarybox.in/\n\nLinkedIn : https://www.linkedin.com/company/salaryboxapp **\n\n**What you will do:**\n\n* Ship features end to end, covering API integration, local persistence, offline behaviour, and state management.\n* Own releases through Play Console and App Store Connect, including staged rollouts and post-release monitoring.\n* Build and maintain the app architecture.\n* Handle platform-specific work such as permissions, background execution, push notifications, and deep links.\n* Investigate crashes, ANRs, and performance regressions on real devices.\n* Write unit and UI tests, and review code, including code generated with AI.\n\n**What we’re looking for:**\n\n* **1–3 years of experience building and shipping production mobile apps,** with releases you owned end to end, including signing, Play Console / App Store Connect submission, and staged rollout.\n* **Strong Kotlin (and/or Swift) experience** with coroutines and Flow (or async/await), plus a modern UI toolkit such as Jetpack Compose and/or SwiftUI.\n* **Hands-on experience with the data layer,** including REST/GraphQL via Retrofit/Ktor/URLSession, caching, and offline behaviour.\n* **Experience with Profiler/Instruments and Crashlytics** to detect crashes, ANRs, memory, and startup performance issues.\n* **Working fluency with AI coding agents** (Claude Code, Cursor, Copilot), with the judgment to review, test, and correct generated code before it ships. Gurgaon\nlocationNames: Gurgaon",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T14:47:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c9b09e670848a023c2911bcb6469a9e2",
+      "source": "wellfound",
+      "company": "Neli Arabi",
+      "role": "WordPress Developer — Remote, Full-Time, 40 Hours per Week",
+      "url": "https://wellfound.com/jobs/4760682-wordpress-developer-remote-full-time-40-hours-per-week",
+      "jd_text": "We are looking for an experienced WordPress Developer to build, maintain and improve our websites, dynamic catalogues and data integrations, working with our custom plugins and backend team.\n\n**WORKING HOURS, PAID EVALUATION PERIOD AND LONG-TERM OPPORTUNITY**\n\nThis is a full-time, remote position with **40 working hours per week**. We are looking for someone interested in a long-term collaboration.\n\nThe role starts with a **two-month paid evaluation period**. This period gives both sides the opportunity to assess whether the role, working methods and expectations are a good fit for a long-term collaboration.\n\nDuring this period, you will become familiar with our websites, existing systems and team, and demonstrate your WordPress development skills through practical work. We will assess technical quality, independent problem-solving, reliability, communication, delivery and the ability to thoroughly test your own work.\n\nDuring this two-month evaluation period, the pay is **USD 2 per hour** worked.\n\nAfter a successful evaluation, **compensation will be reviewed and adjusted** based on demonstrated performance, experience and the responsibilities you take on. Strong performance may lead to an **earlier compensation review**.\n\n**Hubstaff** is required for tracking working time throughout the collaboration. The tracking scope and monitoring settings will be explained before you start.\n\n**RESPONSIBILITIES**\n\n- Build and maintain WordPress pages, templates and features.\n\n- Create dynamic catalogues with filters, pagination and detail pages.\n\n- Integrate and display external API and backend data; coordinate with our backend team and existing custom plugins.\n\n- Build enquiry forms that securely retain and validate the originating page or listing information.\n\n- Deliver correct desktop, tablet and mobile layouts.\n\n- Maintain performance, security, accessibility and search engine optimisation; fix defects and safely update themes and plugins.\n\n- Test on staging before controlled live deployment, with backups and rollback.\n\n**REQUIRED SKILLS**\n\n- **At least 3 years** of professional WordPress development, demonstrated by websites you personally built or maintained.\n\n- Strong **Elementor Pro**: dynamic templates and loop/listing grids.\n\n- **JetEngine and JetSmartFilters**, or equivalent tools such as ACF or Pods: custom post types, dynamic fields, listings and filters.\n\n- Strong **PHP and JavaScript**, plus **HTML and CSS** for responsive layouts and troubleshooting.\n\n- Read, maintain and modify existing custom themes and plugins.\n\n- **REST API integrations**: connect external services and display their data correctly.\n\n- Forms that securely receive and validate page/listing context.\n\n- Staging, backups, migrations, controlled releases and rollback.\n\n- Accessibility and SEO fundamentals: headings, meta descriptions and keyboard navigation.\n\n- **Good written English**, clear progress reports, reliable instruction-following, independent problem-solving and prompt reporting of blockers.\n\n**HELPFUL ADDITIONAL SKILLS**\n\nWooCommerce; Contact Form 7 and form integrations; WP All Import or similar tools; XML/CSV feeds; cPanel hosting administration.\n\n**QUALITY AND COMPLETION**\n\nCheck the existing setup, requirements and dependencies before changes. Develop and test on staging. Maintain a current backup and prepare recovery before deployment.\n\nIndependently test affected pages and complete visitor journeys on desktop and mobile: filters, pagination, details, enquiry forms and external data where relevant. Check success and error cases.\n\nReport changes, tests, results and unresolved issues. Only report completion after these checks. After approved deployment, verify affected live functions again.\n\n**HOW TO APPLY**\n\nApply through Wellfound in English with:\n\n1. Your CV or relevant WordPress experience summary.\n\n2. 3–5 live website links, explaining your personal contribution to each.\n\n3. Examples of Elementor Pro, dynamic catalogues, filters, API integrations or contextual enquiry forms.\n\n4. A code sample you may share, or a technical explanation of a custom feature you personally developed.\n\n5. Earliest start date, country of work, time zone, available workdays and hours.\n\n**EXPLICITLY CONFIRM EACH CONDITION**\n\n- I am available for 40 remote working hours per week.\n\n- I accept two calendar months of paid probation from the agreed start date.\n\n- I accept USD 2 per hour worked during probation.\n\n- I agree to Hubstaff work-time tracking, with scope and monitoring settings explained before starting.\n\n- I understand the purpose of the mutual evaluation and the performance-based compensation review described above.\n\n- I can meet the development, testing and completion standards above. Berlin\nlocationNames: Berlin\nremote: true",
+      "match_score": 7.04,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T14:47:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.19,
+            "overlap": 11.59,
+            "combined": 7.11
+          },
+          "backend": {
+            "cosine": 5.23,
+            "overlap": 11.28,
+            "combined": 7.04
+          },
+          "frontend": {
+            "cosine": 3.72,
+            "overlap": 11.65,
+            "combined": 6.1
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.23,
+        "keyword_overlap_score": 11.28,
+        "final_score": 7.04,
+        "top_keywords": [
+          {
+            "term": "time",
+            "weight": 0.085
+          },
+          {
+            "term": "data",
+            "weight": 0.068
+          },
+          {
+            "term": "40",
+            "weight": 0.051
+          },
+          {
+            "term": "api",
+            "weight": 0.051
+          },
+          {
+            "term": "backend",
+            "weight": 0.051
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "dce3b1b1fc5d5ba860e34f4787dec3bb",
+      "source": "wellfound",
+      "company": "Exaful",
+      "role": "Intern - Software Enginner with AI Skill",
+      "url": "https://wellfound.com/jobs/4519612-intern-software-enginner-with-ai-skill",
+      "jd_text": "**About Exaful (exaful.com)**\nExaful is a next-generation software engineering and intelligent automation partner. We build high-precision web applications, enterprise AI systems, custom RAG pipelines, autonomous agents, and scalable cloud infrastructure. We don't just build static apps—we embed machine intelligence deep into workflows to automate business operations.\n\n**About the Role**\nWe are looking for a proactive, multi-talented Software &amp; Tech Operations Intern to join our team. This is a unique dual-focus role designed for a motivated fresher or final-year student who wants hands-on engineering experience with modern AI/LLM tech stacks, alongside gaining real startup exposure in app maintenance, customer inquiry handling, and digital brand management.\n\nIf you love writing clean JavaScript/TypeScript code, playing with AI models, and taking complete ownership of projects from code to customer touchpoints, this role is for you!\n\n**Key Responsibilities**\n\n1. Software &amp; AI Development:\n- Assist in developing, testing, and shipping features for client and internal web applications using JavaScript and TypeScript.\n- Work on integrating LLM APIs (OpenAI, Anthropic, open-source models) and AI tools into real-world applications.\n\n2. App Maintenance &amp; Cloud Operations:\n- Monitor live applications, track bug reports, and assist with application maintenance and updates.\n- Work with Git version control, GitHub workflows, and cloud/hosting environments (e.g., Vercel, AWS, Docker).\n\n3. Social Media &amp; Tech Brand Presence:\n- Manage Exaful’s social media presence (LinkedIn, X, Tech Blogs).\n- Share regular updates about project launches, technical engineering insights, and startup milestones.\n\n4. Website Customer Inquiries &amp; Operations:\n- Manage incoming website customer inquiries, client contact forms, and lead messages.\n- Ensure prompt, polite, and professional communication with potential clients and users.\n\n**What We Are Looking For**\n\n- Programming Foundations: Strong working knowledge of JavaScript and TypeScript.\n- Version Control: Familiarity with Git/GitHub workflows.\n- AI &amp; Cloud Interest: Curiosity and foundational understanding of AI, LLMs, Prompt Engineering, and basic Cloud infrastructure.\n- Dual-Mindset (Dev + Ops): Willingness to jump between coding tasks, managing app health, creating social media updates, and talking to prospective clients.\n- Communication Skills: Excellent written and spoken English for client inquiries and content creation.\n- Self-Driven: A fresher/intern who takes initiative, learns quickly, and thrives in a fast-paced remote startup environment.\n\n**What You Will Gain**\n\n- Direct hands-on experience building full-stack applications with GenAI &amp; LLM integrations.\n- Direct mentorship from core engineering leadership.\n- 100% remote flexibility and complete task ownership.\n- Official Internship Certificate and LinkedIn Recommendation.\n- High potential for conversion into a Full-Time Role (FTE) based on stellar performance.\n\n**Compensation &amp; Details**\n- Stipend: ₹5,000 – ₹8,000 per month\n- Work Type: 100% Remote\n- Internship Period: 3 to 6 Months Chennai\nlocationNames: Chennai\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T14:47:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "72fedd8bfae71b0579ef8ce05928db61",
+      "source": "wellfound",
+      "company": "Centous Solutions",
+      "role": "Senior Shopify Developer",
+      "url": "https://wellfound.com/jobs/3807523-senior-shopify-developer",
+      "jd_text": "**Job Overview**\nCentous Solutions is looking for an experienced Shopify Developer to join our Ahmedabad-based team.\n\nThe ideal candidate will have a strong background in Shopify theme customization, advanced JavaScript skills, and the ability to communicate effectively with clients in English. You should be well-versed in Shopify Markets, Checkout Extensibility, and Shopify B2B functionalities.\n\n**This is strictly a Work From Office position, only candidates willing to work on-site in Ahmedabad should apply.\n\n**Key Responsibilities**\n*  Customize and develop Shopify themes to meet project requirements.\n*  Implement and configure Shopify Markets for multi-region selling.\n*  Develop and deploy Shopify Checkout Extensibility extensions.\n*  Work on Shopify B2B features, including customer-specific pricing, catalogs, and workflows.\n*  Collaborate directly with clients to understand requirements and provide technical solutions.\n*  Write clean, maintainable, and efficient JavaScript code for custom functionalities.\n*  Troubleshoot, debug, and optimize Shopify stores for performance and user experience.\n*  Stay up to date with Shopify platform updates and new features.\n*  \n\n\n**Required Qualifications**\n* Minimum 3 years of professional experience in Shopify development.\n* Familiarity with API integrations (REST/GraphQL).\n* Strong experience in Shopify theme customization (Liquid, HTML, CSS, JS).\n* Excellent English speaking and client communication skills.\n* Proficient in JavaScript (ES6+), DOM manipulation, and event handling.\n* Solid knowledge of Shopify Markets setup and management.\n* Experience building and deploying Checkout Extensibility extensions.\n* Hands-on experience working with Shopify B2B features.\n* Familiarity with version control (Git) and collaborative workflows.\n* Must be willing to work full-time from our Ahmedabad office.\n\n\n**What We Offer**\n* Competitive salary based on experience.\n* Opportunity to work on diverse and challenging projects.\n* Collaborative and growth-oriented work environment.\n* Continuous learning and professional development opportunities.\n\n\n\n\n** Ahmedabad\nlocationNames: Ahmedabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-24T14:47:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ba85d901462ed59ba66bf2f5d9c139d1",
+      "source": "wellfound",
+      "company": "Aris Investing",
+      "role": "AI/ML Engineer",
+      "url": "https://wellfound.com/jobs/3298168-ai-ml-engineer-intern",
+      "jd_text": "At Aris Investing, we’re building next-gen financial intelligence systems driven by real-time insights,\nthematic data, and secure, scalable architecture. As an AI/ML Associate Engineer, you will play a key\nrole in prototyping and deploying AI-driven solutions, particularly around LLM-based applications and\nmodern ML infrastructure.\nThis is a hands-on, R&amp;D-heavy role—perfect for an AI enthusiast eager to explore the intersection of\nlarge language models, financial data, and real-world applications.\n\nAssist in building context-aware LLM applications using LangChain, LlamaIndex, and vector\ndatabases.\nImplement and evaluate retrieval-augmented generation (RAG) systems tailored to internal\nknowledge (JSONs, tabular data, metadata).\nRun R&amp;D experiments on embedding models, fine-tuning strategies, and open-source LLMs\n(Mistral, LLaMA 3, etc.).\nContribute to MLOps pipelines for managing and deploying ML models (versioning, monitoring, API\nendpoints).\nDesign and test prompt engineering strategies, tool-based agents, and multi-modal extensions.\nCollaborate with backend, data, and platform teams to integrate AI solutions into production systems\n(AWS, Lambda, Glue, Iceberg).\nDocument findings, build reusable modules, and maintain AI playground notebooks and dashboards.\n\nProficiency in Python and basic experience with LangChain, HuggingFace Transformers, or\nLlamaIndex.\nFamiliarity with foundational models (GPT, Claude, Mistral, etc.) and prompt engineering.\nUnderstanding of RAG workflows and semantic search.\nBasic understanding of ML model life cycles and evaluation.\nGood communication skills and strong curiosity.\n\nExperience with AWS tools (S3, Lambda, Glue) or vector DBs (Weaviate, FAISS, Pinecone).\nExposure to orchestration tools (Airflow, Dagster) or CI/CD pipelines.\nBackground in finance, knowledge graphs, or structured JSON data parsing. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 11.95,
+      "resume_variant": "backend",
+      "draft_answer": "My experience owning cloud-native backend deployments with Azure DevOps CI/CD and optimizing reporting APIs from 500ms to 10ms positions me well to contribute to the secure, scalable architecture of Aris Investing’s AI-driven financial intelligence systems. Additionally, my project validating tool-calling reliability with an open-weight LLM and explicit skills in LLM tool-calling, agents, and RAG align directly with prototyping and deploying your LLM-based applications.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-24T14:47:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.23,
+            "overlap": 11.59,
+            "combined": 11.34
+          },
+          "backend": {
+            "cosine": 11.76,
+            "overlap": 12.41,
+            "combined": 11.96
+          },
+          "frontend": {
+            "cosine": 7.14,
+            "overlap": 14.08,
+            "combined": 9.22
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 11.76,
+        "keyword_overlap_score": 12.41,
+        "final_score": 11.95,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2356
+          },
+          {
+            "term": "data",
+            "weight": 0.1605
+          },
+          {
+            "term": "applications",
+            "weight": 0.0963
+          },
+          {
+            "term": "llm",
+            "weight": 0.0785
+          },
+          {
+            "term": "rag",
+            "weight": 0.0785
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-24T14:47:37+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "50ba8d80edfeec4941d7fa8d4c7dd832",
       "source": "yc",
