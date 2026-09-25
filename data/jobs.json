@@ -1,15 +1,358 @@
 {
-  "exported_at": "2026-09-25T03:36:10+00:00",
+  "exported_at": "2026-09-25T07:28:07+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 711,
+    "pending_approval": 161,
+    "discovered": 714,
     "submitted": 6,
-    "pending_approval": 159,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "3bfe4113f687f28acdece7ea833db4fe",
+      "source": "wellfound",
+      "company": "Cogniify",
+      "role": "Java + AI Tools (Claude code) - USA",
+      "url": "https://wellfound.com/jobs/4763408-java-ai-tools-claude-code-usa",
+      "jd_text": "**The Role**\n\nCogniify is hiring a Full Stack Java Engineer to build and improve web applications. You will work on Java-based backend services and user-facing features, with Python used where it fits the work. We are looking for someone who can deliver features end to end and use AI development tools such as Claude Code to support coding, testing, and debugging.\n\n**What You’ll Do**\n\nBuild and maintain Java backend services, APIs, and application features.\nDevelop frontend features using a modern JavaScript framework and integrate them with backend APIs.\nWork with Python for scripts, integrations, or supporting services when needed.\nUse Claude Code or similar AI coding tools to help with development, while reviewing and testing the output before release.\nWrite tests, troubleshoot issues, and support the deployment and maintenance of applications.\nWork with the team on design decisions, code reviews, and practical improvements to application quality.\n\n**What We’re Looking For**\n\n3 to 6 years of professional software development experience.\nHands-on Java development experience, including backend services and REST APIs.\nFull-stack experience building both backend and frontend application features.\nWorking knowledge of Python.\nFamiliarity with Claude Code or another AI coding assistant in a software development workflow.\nExposure to building or running applications on a cloud platform such as AWS, Azure, or Google Cloud.\nAbility to test and debug your work and communicate clearly with other engineers.\n\n**Preferred Qualifications**\n\nExperience with Spring Boot and a frontend framework such as React, Angular, or Vue.\nFamiliarity with SQL databases, Git, and CI/CD practices.\n\n**Perks And Benefits Of Working With Us**\nUnlimited PTO.\nPlease ask us about our very generous parental leave, much above industry standards!.\nEntrepreneurial culture where pushing limits and taking risks is everyday business.\nOpen communication with management and company leadership.\nSmall, dynamic teams = massive impact.\nMedical, Dental and Vision coverage for employees.\nAccess to Disability &amp; Life insurance.\nMental health and wellbeing support\nAnnual bonus program\nEmployer Stock Purchase Program (ESPP)\nYearly Team building experiences\nMentorship and sponsorship opportunities\nManager resources and support\n\nWe are an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or any other protected characteristic. California\nlocationNames: California\nremote: true",
+      "match_score": 11.35,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've delivered end-to-end full-stack solutions, from scoping requirements and optimizing reporting APIs by 98% to deploying cloud-native platforms on Azure AKS with blue-green releases, demonstrating my commitment to robust application quality. My backend experience, leveraging message brokers for concurrency and ensuring data integrity, combines with a strong Java background and practical exposure to LLM tool-calling, making me well-suited to build and enhance Cogniify's web applications using AI tools such as Claude Code.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-25T07:26:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.25,
+            "overlap": 13.91,
+            "combined": 11.35
+          },
+          "backend": {
+            "cosine": 9.57,
+            "overlap": 11.65,
+            "combined": 10.19
+          },
+          "frontend": {
+            "cosine": 9.61,
+            "overlap": 16.02,
+            "combined": 11.53
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.25,
+        "keyword_overlap_score": 13.91,
+        "final_score": 11.35,
+        "top_keywords": [
+          {
+            "term": "backend",
+            "weight": 0.133
+          },
+          {
+            "term": "code",
+            "weight": 0.133
+          },
+          {
+            "term": "java",
+            "weight": 0.133
+          },
+          {
+            "term": "ai",
+            "weight": 0.1302
+          },
+          {
+            "term": "experience",
+            "weight": 0.1064
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-25T07:28:04+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6866ab77e9ce8da7cb79566ffa9274da",
+      "source": "wellfound",
+      "company": "Leegality",
+      "role": "Software Engineer/ Senior Software Engineer : Python",
+      "url": "https://wellfound.com/jobs/4762723-software-engineer-senior-software-engineer-python",
+      "jd_text": "This is a remote position.\n\nAbout Leegality:\n\nLeegality works with large Indian businesses to digitally transform critical compliance processes in a fast, easy and secure way.\n\nWe have multiple products across 2 categories:\n\nDocument Infrastructure:\n\nProducts that help businesses build paperless processes at scale:\n\nDocument Execution Workflow: A unified platform for businesses to digitally execute (eSign, eStamp, Template Pre-fill, Document Fraud Prevention etc.) agreements, forms and other documents in a compliant way. Currently in use by 2000+ Indian businesses from giants like HDFC and SBI Cards to high-growth disruptors like goDigit and Cars24.\n\nContract Management: An AI-powered platform for businesses to quickly review, negotiate and take action on contracts\n\nSignstation: A simple platform for businesses to digitally sign simple documents like invoices, policies and letters in a cost effective manner\n\nConsent Infrastructure:\n\nConsentin: An end-to-end DPDP and Privacy compliance platform for Indian businesses\n\nConsentin Lens: A data discovery platform for businesses to identify the personal data they collect and store.\n\nIf you’re interested in building mission critical software that operates at population scale (75 million + Indians have signed at least one document through Leegality) then join Leegality.\n\nCurious about our impact? Explore our customer success stories: leegality.com/case-studies\n\nOur Culture\nAt Leegality, trust, ownership, transparency, and having fun while doing meaningful work are core to how we operate — not just values on paper. Our team rated us an incredible 97 eNPS for FY 2023–24 — the highest among 175+ startups surveyed.\n\nWe focus deeply on helping our people grow and stay motivated. Some of the perks you’ll enjoy:\n\nFlexible working hours\n\nHybrid work setup\n\nBi-annual performance appraisals\n\nA culture that rewards initiative, curiosity, and impact\n\nIf you're looking for a place where you can make a real difference while working with smart, driven, and genuinely nice people, welcome to Leegality.\n\nLocation: Hybrid\n\n\nRole Brief\n\nAs Backend Engineer, you will develop solutions to interesting technical problems, explore exciting growth opportunities and have a real impact on our product.\n\nFor this, you need to be strong in development processes and methods and deep knowledge of application, database, and security are required. A basic understanding of front-end technologies is good to have.\n\n\n\nKey Responsibilities:\n\nYour core objectives are to take conceptual ideas and design and deliver highly scalable, multi-tiered web services while constantly working to better your craft.\n\nWe truly value people who are self-directed and can work independently as well as across teams to solve technical roadblocks for our customers.\n\nYou should apply if you can write clean and highly maintainable code. The ability to leave code in a better position than you found is always good to have.\n\nYou will be working with an agile and cross-functional team that is constantly pushing each other to solve production issues and improve the operational efficiency of the platform.\n\nYou need excellent communication skills to discuss and explain technical concepts internally with engineering, operation teams.\n\nBasic understanding of front-end technologies is good to have.\n\nAssess and prioritize feature requests\n\nCoordinate with internal teams to understand user requirements and provide technical solutions.\n\n\nDesired Skills and Experience:\n\nProgramming Language: Python \n\nFramework: Django, Flask\n\nDatabase: MySQL, MongoDB\n\nCloud: AWS\n\nMust: TDD (Test Driven Development), exposure to CI/CD, exposure to microservices. \n\nExperience with end-to-end solution development, deployment, and maintenance\n\n1-6 years of hands-on experience with Python web services and an understanding of SAAS, and REST/OAuth/JSON architectures and services.\n\nExperience in developing extensible APIs and highly maintainable services.\n\nGood communication skills\n\nStart-up experience is must\n\nWilling to join immediately ideally.\n\nFemale candidates are preferred\n\n​We value strong communication, a collaborative and positive attitude, and a professional presence - especially when working with team members and contributing to a healthy and productive internal culture.\n\n\n\nRecruitment Process:\n\n\nOur hiring process combines AI-powered evaluations with structured interviews to ensure a fair and seamless experience.\n\nYou will be contacted via email with the next steps upon being shortlisted.\n\nThe process may include Assessments, AI-enabled interviews, and In-Person Interviews with our team.\n\nFinal selection and CTC will be based on your overall performance and experience.\n\n\nApply directly through our career page: https://careers.leegality.com/jobs/Careers\n\nFor more information about us please visit our:\n\nOur Company and Culture: https://bit.ly/3Iqm5SB\n\nOur Website: www.leegality.com/\n\nOur LinkedIn Page: www.linkedin.com/company/leegality/\n\nLeegality's Privacy Notice: https://www.leegality.com/employee-privacy-notice Gurgaon\nlocationNames: Gurgaon\nremote: true",
+      "match_score": 11.82,
+      "resume_variant": "frontend",
+      "draft_answer": "I have directly impacted the efficiency of critical compliance processes by automating 90% of manual reporting workflows and optimizing backend performance, cutting API latency from 500ms to 10ms with Redis caching. My hands-on experience developing microservices, combined with my proficiency in Python and deploying scalable solutions across Azure and AWS, including migrating data to Azure Blob to cut load times from 15s to 6s, positions me to deliver highly scalable, multi-tiered web services for Leegality's population-scale platform.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-25T07:26:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.4,
+            "overlap": 15.89,
+            "combined": 10.65
+          },
+          "backend": {
+            "cosine": 6.84,
+            "overlap": 15.04,
+            "combined": 9.3
+          },
+          "frontend": {
+            "cosine": 8.77,
+            "overlap": 18.93,
+            "combined": 11.82
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 8.77,
+        "keyword_overlap_score": 18.93,
+        "final_score": 11.82,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1265
+          },
+          {
+            "term": "experience",
+            "weight": 0.1206
+          },
+          {
+            "term": "platform",
+            "weight": 0.1034
+          },
+          {
+            "term": "com",
+            "weight": 0.0862
+          },
+          {
+            "term": "technical",
+            "weight": 0.0689
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-25T07:27:47+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "182885c0f42befe8f2b2d8f577df4e15",
+      "source": "wellfound",
+      "company": "Nixora",
+      "role": "Founding Developer",
+      "url": "https://wellfound.com/jobs/4763404-founding-developer",
+      "jd_text": "🚀 **Nixora is hiring a Founding Developer**\n\nNixora is building the **autonomous control plane for AI-generated software and AI agents**.\n\nAI coding agents can now build applications and agents in minutes. But building them is only the beginning.\n\nNixora handles what comes next: **deployment, infrastructure, operations, scaling, monitoring, and lifecycle management**.\n\nWe are looking for a **Founding Developer** who wants to build this from the ground up with the founding team.\n\n### What you'll work on\n\n* Build the core Nixora platform and control plane\n* Design infrastructure automation for AI-generated applications and agents\n* Work across cloud, containers, APIs, orchestration, and developer tooling\n* Build systems that can deploy, monitor, scale, and manage software autonomously\n* Make key architecture and product decisions alongside the founders\n* Move quickly from idea → prototype → production\n\n### Who we're looking for\n\nYou don't need a perfect resume. We care more about **what you can build**.\n\nYou should:\n\n* Be a strong full-stack/backend engineer\n* Be comfortable with Python/TypeScript and modern cloud infrastructure\n* Understand APIs, databases, containers, and distributed systems\n* Have experience building and shipping real products\n* Be highly autonomous and comfortable with ambiguity\n* Think like a product builder, not just an implementer\n* Be excited about AI agents, AI-generated software, and autonomous infrastructure\n\n### Why join early?\n\nThis is a **founding-level role**.\n\nYou'll have significant ownership over the technology, architecture, and product direction, and work directly with the founders.\n\n**Compensation:** Founder-level ESOP/equity structure at the current stage, with salary to follow as funding is secured.\n\nIf you're the kind of engineer who wants to **build the infrastructure layer for the next generation of software**, DM me with:\n\n**1. What you've built**\n**2. Your GitHub/portfolio**\n**3. Why Nixora interests you**\n**4. Your availability**\n\nLet's build something that matters. 🚀 Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 6.16,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-25T07:26:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.98,
+            "overlap": 7.95,
+            "combined": 5.87
+          },
+          "backend": {
+            "cosine": 5.26,
+            "overlap": 8.27,
+            "combined": 6.16
+          },
+          "frontend": {
+            "cosine": 3.15,
+            "overlap": 9.71,
+            "combined": 5.11
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.26,
+        "keyword_overlap_score": 8.27,
+        "final_score": 6.16,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.202
+          },
+          {
+            "term": "agents",
+            "weight": 0.1683
+          },
+          {
+            "term": "architecture",
+            "weight": 0.0673
+          },
+          {
+            "term": "apis",
+            "weight": 0.055
+          },
+          {
+            "term": "applications",
+            "weight": 0.055
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d1b3ed4ea28958877638d9453529567f",
+      "source": "wellfound",
+      "company": "Shunya",
+      "role": "Software Engineer - I (Backend)",
+      "url": "https://wellfound.com/jobs/4760775-software-engineer-i-backend",
+      "jd_text": "Shunya is a multi-module app that brings OTT video streaming, e-commerce, games in one app. We're engineering and looking for people who want to build systems that hold up at scale.\n\n*We are already live on play store and app store.*\n\nHow your day would look like:\n* Building APIs (REST) in Go &amp; Typescript\n* Working with PostgreSQL\n* Working with Helm charts for deployments\n* Using AWS Services like SSM, CDN, S3, EKS\n* Using observability tools like Signoz, Elasticsearch etc.\n\nYou will get an opportunity to engineer systems to handle massive scale (seriously!). Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-25T07:26:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a3853004d162c924c64604eab9273cd8",
+      "source": "wellfound",
+      "company": "Color Neon",
+      "role": "Shopify / Full-Stack Developer",
+      "url": "https://wellfound.com/jobs/4748779-shopify-full-stack-developer",
+      "jd_text": "Color Neon (colorneon.com) is a French brand making custom LED neon signs for customers across France and Europe. We run on Shopify, we built our own 3D neon configurator, and we work AI-first. We are opening our first engineering seat in India, here in Indore.\n\nYou will work directly with the founder - in person in Indore from October to January, and from our Indore office day to day after that.\n\nWHAT YOU WILL BUILD\n\nCustom Shopify apps: Remix/Node, Admin GraphQL API, App Bridge, Polaris\nOur Dawn-based storefront: Liquid sections, metafields, Core Web Vitals\nThe neon configurator: live preview, pricing logic, customer logo uploads\nInternal automation: order routing, quote generation, logistics workflows\nAI features in the product, and AI in how we work every day\n\nWHAT YOU NEED\n\n2 to 4 years building real, live e-commerce sites\nStrong JavaScript/TypeScript, Node, React, Git\nHands-on Shopify: Liquid and themes, plus at least one custom app you actually shipped\nYou use AI tools daily and can show us what you have built with them\n\nNICE TO HAVE\n\nShopify Functions or checkout extensions, Three.js/Canvas, Klaviyo, GA4/GTM, Python, Google Ads API.\n\nWHAT WE OFFER\n\nRs 45,000 to 50,000 in-hand per month, paid on time\nClaude Pro and Codex/Cursor paid by us, plus a budget for tools\nA direct line to the founder. You will see the whole business, not a ticket queue.\nFirst engineer here, and the person who leads the team as we grow it\n\nHOW WE HIRE - FAST\n\n1. Apply with your CV and 2 live store links you worked on\n2. A short online video interview, about 25 minutes on Google Meet\n3. If that goes well we move quickly, and we will tell you the next steps on the call\n\nWhen you apply, tell us in three lines: what you built, and which part was yours. Indore Eaubonne\nlocationNames: Indore Eaubonne",
+      "match_score": 8.09,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-25T07:26:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.92,
+            "overlap": 8.61,
+            "combined": 6.72
+          },
+          "backend": {
+            "cosine": 5.27,
+            "overlap": 7.89,
+            "combined": 6.06
+          },
+          "frontend": {
+            "cosine": 6.56,
+            "overlap": 11.65,
+            "combined": 8.08
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.56,
+        "keyword_overlap_score": 11.65,
+        "final_score": 8.09,
+        "top_keywords": [
+          {
+            "term": "built",
+            "weight": 0.0956
+          },
+          {
+            "term": "api",
+            "weight": 0.0638
+          },
+          {
+            "term": "app",
+            "weight": 0.0638
+          },
+          {
+            "term": "node",
+            "weight": 0.0638
+          },
+          {
+            "term": "tools",
+            "weight": 0.0638
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "16380f6ecd3fce0face574e7d1ec5b84",
       "source": "wellfound",
