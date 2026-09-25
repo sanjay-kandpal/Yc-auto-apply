@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-09-25T21:21:09+00:00",
+  "exported_at": "2026-09-25T23:09:51+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 722,
+    "discovered": 723,
     "pending_approval": 162,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "6f6fbe50da734c23ef09c5d61a818616",
+      "source": "yc",
+      "company": "Corgi Insurance",
+      "role": "Head of Specialty Product & Underwriting",
+      "url": "https://www.workatastartup.com/jobs/112085",
+      "jd_text": "**About Corgi**\n\nCorgi is an AI-first property and casualty insurance carrier backed by Y Combinator (S24). We're building a surplus lines carrier from the ground up: our own paper, our own forms, our own rating, and software that gets a policy bound in hours instead of weeks.\n\nOur E&amp;S program is live and the first book is flowing. Now we need someone to own it.\n\n**The Role**\n\nAs Head of Specialty Product &amp; Underwriting, you'll own Corgi's E&amp;S book end to end. You'll set appetite, write the guidelines, shape the products, and be accountable for how the book performs. You'll work side by side with our software engineers and product team to turn underwriting judgment into forms, rating logic, and workflows that let us quote and bind at a speed the market hasn't seen.\n\nThis is a builder role on a small, fast-moving team. You won't inherit a mature department. You'll design one.\n\n**What You'll Own**\n\n* **Appetite and guidelines:** Define what we write, where, and on what terms. Write and maintain underwriting guidelines, authority levels, and referral rules as the book grows.\n* **Product:** Shape coverage across our E&amp;S lines. Partner on policy forms, endorsements, and filings for our own paper.\n* **Rating and pricing:** Work with software engineers and actuarial resources to build and refine rating logic, and make sure what the system produces reflects sound underwriting.\n* **Risk and portfolio management:** Support portfolio strategy by tracking exposure, concentration, and aggregation across the book, and help shape reinsurance and risk decisions as we scale.\n* **Book performance:** Own loss ratio, mix, rate adequacy, and growth. Monitor results, spot trends early, and adjust appetite and pricing accordingly.\n* **Team:** Hire and lead underwriters as the book scales, and set the standard for how underwriting is done at Corgi.\n\n**You'd Be a Great Fit If You**\n\n* Have 5+ years in commercial E&amp;S and have owned a book and its results\n* Have set appetite and written underwriting guidelines\n* Bring strong wholesale broker relationships\n* Enjoy building on a small, fast-moving team\n\n**Bonus Points If You**\n\n* Have worked closely with software engineers or a rating engine\n\n**Why Corgi**\n\n* Own a live E&amp;S book from day one at a carrier built on modern infrastructure\n* Build the underwriting function, the products, and the team from the ground up\n* Work directly with founders and engineers who can ship what you design, fast\n* Meaningful early-stage equity in a company rethinking how insurance gets written\n\n**Location**\n\nChicago, in office.\\\n\\\n**Compensation** \n\n$150,000 - $300,000, equity included.  Chicago, IL, US fulltime yes\nlocations: Chicago, IL, US\nremote: no\nmin_experience: 6",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-25T23:09:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "4278e1cea4c96d0ef30e730341dc68c9",
       "source": "wellfound",
