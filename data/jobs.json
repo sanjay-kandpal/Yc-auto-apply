@@ -1,15 +1,286 @@
 {
-  "exported_at": "2026-09-25T15:05:53+00:00",
+  "exported_at": "2026-09-25T16:39:49+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 721,
     "pending_approval": 162,
-    "discovered": 715,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "b8f914e7ac56a8f2ea8ed983f0e579b8",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Performance Marketing Manager",
+      "url": "https://www.workatastartup.com/jobs/112058",
+      "jd_text": "# **About AiPrise**\n\nAiPrise is the global compliance platform for companies that operate across borders. We cover the full KYB lifecycle in a single API, with AI agents handling the case work that used to eat analyst hours. Customers include Meta, Bridge (a Stripe company), Airwallex, Fireblocks, and Nivoda. We're a YC company (S22), Series A backed by Headline, and growing fast.\n\n#   \n**About this role**\n\nWe're looking for a Performance Marketing Manager to own paid media at AiPrise, end to end.  \nLinkedIn is our proven channel. Google runs brand search today. Meta, Reddit, TV, radio, and channels we haven't named yet are on the list to test. You'll run all of it: the platforms, the creative, the budgets, the tests, and the reporting.\n\nOur audience is compliance leaders at fintech, payments, stablecoin, and marketplace companies. It's a small audience by paid media standards, which means precision beats volume, and every dollar gets judged on pipeline, not clicks.\n\nThis is a hands-on role with real authority. You set the approach: how much a test needs to be conclusive, when to stop it, and when to scale it. Then you report what happened, every week, in plain numbers. You report to the Head of Marketing and work closely with our Growth Marketing Manager, as well as sales, product marketing, content, and design.\n\n#   \n**What you'll own**\n\n- Every paid platform: LinkedIn, Google, Meta, Reddit, and offline tests including TV and radio. Strategy, setup, targeting, budgets, bidding, and optimization, hands on keyboard.\n\n- The test program. A budget, a hypothesis, and a verdict date for every test. Kill fast, scale what works, and put the decision in writing.\n\n- Creative, from concept to live ad. You develop the angles, write the copy, brief design and video on the assets, and iterate on what the numbers say. Buyer language over marketing language.\n\n- Weekly reporting: spend, leads, SQLs, pipeline, and cost per SQL by channel and by test. Honest, sourced, reproducible.\n\n- Account-based campaigns: paid programs against named target accounts, coordinated with sales.\n\n- Event campaigns: pre-event targeting and post-event retargeting across our conference calendar.\n\n- What happens after the click: landing pages and forms that match the ad and convert, working with web and content.\n\n# **Who you are**\n\n- 4+ years running paid campaigns for B2B, with hands-on platform experience across at least three of LinkedIn, Google, Meta, and Reddit.\n\n- You've managed monthly paid budgets between $20K and $100K and can show what they produced.\n\n- You know the platforms cold: campaign structure, audiences, bidding, conversion tracking, and the settings most people leave on default.\n\n- You can take a concept from a sentence to a live ad: the angle, the copy, the creative brief, the landing page ask, and the test design around it.\n\n- You think in pipeline, not impressions. Comfortable in HubSpot or an equivalent CRM, spreadsheets, and attribution data, and you know when the numbers are lying.\n\n- You set the approach. You've sized test budgets, called tests early when they were failing, and scaled winners without being told to.\n\n- You use AI tools every day for creative development and analysis. This is a requirement, not a nice to have.\n\n- You treat accuracy as non-negotiable. Every number you report is sourced and reproducible. This is a hard requirement, not a preference.\n\n- You write clearly and work well remotely. Your weekly update should be readable by a founder in two minutes.\n\n- High ownership, high autonomy, fast pace, and real care about the quality of what ships.\n\n# **Nice to have**\n\n- Offline media experience: TV, radio, out-of-home, or podcast advertising, including how to measure it.\n\n- Experience with account-based marketing programs.\n\n- Experience marketing to compliance, risk, or fintech buyers.\n\n# **Why this role matters**\n\nPaid is how we get in front of the right person at the right account. This role decides where the money goes and proves what it returned.\n\n New York, NY fulltime yes\nlocations: New York, NY\nremote: only\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-25T16:39:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1eca70686cf5a62fa1f9f4d3efa8c655",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Senior Product Marketing Manager",
+      "url": "https://www.workatastartup.com/jobs/112059",
+      "jd_text": "**About this role**  \nWe're looking for a Senior Product Marketing Manager to own how AiPrise's products are positioned, launched, and proven.\n\nThe product moves fast. New AI agents ship on a regular cadence, the platform keeps deepening, and every launch needs a clear story, a page, a one-pager, and a sales team that can tell it. Today that work runs through the Head of Marketing. It needs an owner.  \nYou'll be the bridge between marketing and product. You'll know what's shipping and when, and turn the roadmap into a narrative the market understands.\n\nOur buyers are compliance leaders. They've been doing this work for 15+ years, they know the vocabulary, and they buy on proof, not adjectives. Positioning that wins with them is specific, defensible, and grounded in how compliance work actually gets done. That's why the second half of this role is building the machine that produces proof: case studies, testimonials, and stats that hold up.\n\nYou'll work directly with our founders, product team, sales team, customer success, and customers. You report to the Head of Marketing.\n\n**What you'll own**\n\n- Product launches, end to end. The launch calendar with product, the positioning and messaging for every release, and everything that ships around it: launch page, one-pager, demo storyline, video brief, sales enablement, and the moment it goes public.\n\n- Positioning and messaging for the platform and each product, from the core narrative down to the words on the page. One source of truth the whole company works from.\n\n- The bridge to product. A seat in roadmap and release conversations, a clear read on what's coming, and a steady flow of market, customer, and competitive insight going the other way.\n\n- The customer proof engine. You'll build and run the process for turning customer outcomes into published proof: identifying reference customers with sales and customer success, securing permissions, running the interviews, drafting the case studies, and maintaining the library of approved quotes and stats that every team pulls from. Every number sourced and cleared before anyone uses it.\n\n- Asset production with content, design, and video. You'll brief and partner on launch pages, one-pagers, decks, comparison pages, and product video. You don't need to make them yourself. You need to know exactly what they should say and get them shipped.\n\n- Competitive intelligence. Where we win, how we compare, and what we say when a prospect names another vendor. Comparison pages and battlecards that sales actually uses.\n\n- Sales enablement. Decks, one-pagers, objection handling, and the proof behind them, kept current as the product changes.\n\n- Buyer and market research. Win/loss, customer conversations, and regulatory shifts, fed back into positioning and product decisions.\n\n**Who you are**\n\n- 5+ years in product marketing for B2B software, ideally sold to technical or regulated buyers.\n\n- You've owned launches from positioning through enablement and can show what happened after.\n\n- You've worked closely with product teams. You can read a spec, sit in a roadmap review, and come out with the story.\n\n- A sharp writer. You can take a complex product and a skeptical buyer and find the one sentence that matters.\n\n- You've built repeatable processes, not just one-off assets. A customer reference program, a launch playbook, an approved-claims library, something that ran after you stopped pushing it.\n\n- Comfortable on a call with a customer's Head of Compliance, asking for a quote or a number and getting it.\n\n- You treat accuracy as non-negotiable. Every stat you publish is sourced and defensible. This is a hard requirement, not a preference.\n\n- You work well with sales and want to. Enablement that gets used beats enablement that looks good.\n\n- High ownership, high autonomy, fast pace, and real care about the quality of what ships.\n\n**Nice to have**\n\n- Experience in compliance, KYB/KYC, AML, fraud, payments, or identity.\n\n- Experience marketing AI products to buyers who are skeptical of AI.\n\n- Experience building competitive and comparison programs.\n\n**Why this role matters**  \nHow the market understands what AiPrise builds, how sales sells it, and how customers vouch for it all run through this role.\n\n**This role is in person in our San Jose office.**\n\n San Jose fulltime yes\nlocations: San Jose\nremote: no\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-25T16:39:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "50f46dabf1c427e4643ce38b78af1f3e",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Performance Marketing Manager",
+      "url": "https://www.workatastartup.com/jobs/112057",
+      "jd_text": "# **About AiPrise**\n\nAiPrise is the global compliance platform for companies that operate across borders. We cover the full KYB lifecycle in a single API, with AI agents handling the case work that used to eat analyst hours. Customers include Meta, Bridge (a Stripe company), Airwallex, Fireblocks, and Nivoda. We're a YC company (S22), Series A backed by Headline, and growing fast.\n\n#   \n**About this role**\n\nWe're looking for a Performance Marketing Manager to own paid media at AiPrise, end to end.  \nLinkedIn is our proven channel. Google runs brand search today. Meta, Reddit, TV, radio, and channels we haven't named yet are on the list to test. You'll run all of it: the platforms, the creative, the budgets, the tests, and the reporting.\n\nOur audience is compliance leaders at fintech, payments, stablecoin, and marketplace companies. It's a small audience by paid media standards, which means precision beats volume, and every dollar gets judged on pipeline, not clicks.\n\nThis is a hands-on role with real authority. You set the approach: how much a test needs to be conclusive, when to stop it, and when to scale it. Then you report what happened, every week, in plain numbers. You report to the Head of Marketing and work closely with our Growth Marketing Manager, as well as sales, product marketing, content, and design.\n\n#   \n**What you'll own**\n\n- Every paid platform: LinkedIn, Google, Meta, Reddit, and offline tests including TV and radio. Strategy, setup, targeting, budgets, bidding, and optimization, hands on keyboard.\n\n- The test program. A budget, a hypothesis, and a verdict date for every test. Kill fast, scale what works, and put the decision in writing.\n\n- Creative, from concept to live ad. You develop the angles, write the copy, brief design and video on the assets, and iterate on what the numbers say. Buyer language over marketing language.\n\n- Weekly reporting: spend, leads, SQLs, pipeline, and cost per SQL by channel and by test. Honest, sourced, reproducible.\n\n- Account-based campaigns: paid programs against named target accounts, coordinated with sales.\n\n- Event campaigns: pre-event targeting and post-event retargeting across our conference calendar.\n\n- What happens after the click: landing pages and forms that match the ad and convert, working with web and content.\n\n# **Who you are**\n\n- 4+ years running paid campaigns for B2B, with hands-on platform experience across at least three of LinkedIn, Google, Meta, and Reddit.\n\n- You've managed monthly paid budgets between $20K and $100K and can show what they produced.\n\n- You know the platforms cold: campaign structure, audiences, bidding, conversion tracking, and the settings most people leave on default.\n\n- You can take a concept from a sentence to a live ad: the angle, the copy, the creative brief, the landing page ask, and the test design around it.\n\n- You think in pipeline, not impressions. Comfortable in HubSpot or an equivalent CRM, spreadsheets, and attribution data, and you know when the numbers are lying.\n\n- You set the approach. You've sized test budgets, called tests early when they were failing, and scaled winners without being told to.\n\n- You use AI tools every day for creative development and analysis. This is a requirement, not a nice to have.\n\n- You treat accuracy as non-negotiable. Every number you report is sourced and reproducible. This is a hard requirement, not a preference.\n\n- You write clearly and work well remotely. Your weekly update should be readable by a founder in two minutes.\n\n- High ownership, high autonomy, fast pace, and real care about the quality of what ships.\n\n# **Nice to have**\n\n- Offline media experience: TV, radio, out-of-home, or podcast advertising, including how to measure it.\n\n- Experience with account-based marketing programs.\n\n- Experience marketing to compliance, risk, or fintech buyers.\n\n# **Why this role matters**\n\nPaid is how we get in front of the right person at the right account. This role decides where the money goes and proves what it returned.\n\n San Jose, CA fulltime yes\nlocations: San Jose, CA\nremote: no\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-25T16:39:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "12d08a56148a0767e0d2490882bb51de",
+      "source": "yc",
+      "company": "SuperKalam",
+      "role": "Growth (& Marketing) - Full Time - Bangalore",
+      "url": "https://www.workatastartup.com/jobs/71445",
+      "jd_text": "### **Job Description: Growth & Marketing**\n\n**Location:** Bangalore (Koramangala)\\\n**Experience:** 1 to 2+ years in Growth Roles, coming from an Engineering Background, have executed data-backed campaigns in Performance, SEO, Organic Funnel & all things growth. Folks who think they can learn are encouraged to apply. Only in-office role.\n\n**Read this first before applying**\\\nNot all the skills listed will be used every day - but at a seed-stage company like SuperKalam, we experiment constantly. So we expect you to have working familiarity across growth levers like performance marketing, social media, SEO, and creator partnerships.\n\nThis is a **hands-on, high-ownership** role: you should be proactive, fast in execution, and comfortable solving problems end-to-end. Also, based on what we’ve seen in past applications - this role is **not** “just” performance marketing or funnel optimization, and it’s **not** an analytics-only role. It’s full-stack growth.\n\n**About SuperKalam:**\\\nSuperKalam is an AI-powered edtech platform designed to revolutionize personalized learning. Our mission is to build the ultimate \"Super Mentor\" for students, starting with UPSC preparation & launching the next category. Key global & Indian investors, founders & YCombinator back us.\n\n---\n\n### **Key Responsibilities:**\n\n1. **Content Strategy & Execution**\n   * Lead the creation of high-quality, engaging, and informative content for blogs and social platforms. (team collaboration)\n   * Identify trending topics, keyword opportunities, and user needs to create impactful content tailored to our TG.\n2. **SEO Optimization**\n   * Own the SEO strategy, including keyword research, on-page and off-page optimization, and backlink acquisition.\n   * Optimize blog content and landing pages to drive organic traffic and improve search engine rankings.\n   * Track and analyze website performance using tools like Google Analytics, SEMrush, or Ahrefs, and implement data-driven improvements.\n3. **Social Media Growth**\n   * Develop and manage organic content for prominent social media platforms like Instagram, Twitter, YouTube, and LinkedIn.\n   * Create and maintain a consistent posting schedule, ensuring content resonates with our audience.\n   * Engage with the online community by responding to comments, participating in discussions, and driving meaningful interactions.\n4. **Performance Tracking & Reporting**\n   * Monitor key metrics like organic traffic, engagement, and conversion rates.\n   * Generate regular performance reports with insights and recommendations to improve content effectiveness.\n   * Work closely with the product and growth teams to align content initiatives with broader company goals.\n\n---\n\n### **Skills & Qualifications:**\n\n* Proven experience in content strategy, SEO, and social media growth.\n* Strong aptitude to learn SEO best practices, including keyword research, on-page, and off-page optimization.\n* Intent to get Hands-on experience with tools like Google Analytics, Internal Data Analytics tools (MixPanel, PostHog), SEMrush, Ahrefs, or similar\\*\\*.\\*\\*\n* **\\[MUST\\]** Familiarity with AI tools for content creation, research, landing pages and building optimization tools. (no, you don’t need to be coder for this)\n* Even if you don’t know anything, but you are sure you have a learning appetite - apply! Even if you are in college or a fresher.\n\n---\n\n### **Why Join SuperKalam?**\n\n* Shape the growth strategy for a fast-scaling, Y Combinator-backed startup.\n* Work with a passionate team dedicated to reshaping education for millions of students.\n* Competitive salary, flexible working environment, and work directly with founders.\n\n--- Bengaluru, KA, IN fulltime none\nlocations: Bengaluru, KA, IN\nremote: no",
+      "match_score": 6.63,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-25T16:39:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.65,
+            "overlap": 11.26,
+            "combined": 6.63
+          },
+          "backend": {
+            "cosine": 3.91,
+            "overlap": 9.4,
+            "combined": 5.56
+          },
+          "frontend": {
+            "cosine": 4.56,
+            "overlap": 12.14,
+            "combined": 6.83
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.65,
+        "keyword_overlap_score": 11.26,
+        "final_score": 6.63,
+        "top_keywords": [
+          {
+            "term": "tools",
+            "weight": 0.0925
+          },
+          {
+            "term": "analytics",
+            "weight": 0.074
+          },
+          {
+            "term": "students",
+            "weight": 0.0559
+          },
+          {
+            "term": "team",
+            "weight": 0.0559
+          },
+          {
+            "term": "data",
+            "weight": 0.0555
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "84ef188db858a919dbb647495a2bd975",
+      "source": "yc",
+      "company": "Solve Intelligence",
+      "role": "Legal and Product Engineer (Japanese Speaking)",
+      "url": "https://www.workatastartup.com/jobs/112060",
+      "jd_text": "At Solve Intelligence, we're building the AI-powered infrastructure for the global Intellectual Property landscape. We need a rare hybrid - a Legal and Product Engineer who sits at the exact intersection of patent law and AI innovation to ensure our engine is technically superior and legally airtight.\n\nJapan is quickly becoming one of our most exciting markets. We're seeing strong inbound interest and real traction with Japanese IP teams, and we're looking for a Japanese-speaking practitioner to lead those conversations from the front.\n\n📍 **Location:** London or New York (hybrid), with regular travel to Japan\n\n🏗️ **The Role: Legal and Product Engineer (Japanese Speaking)**\n\nThis isn't your typical client-facing role or traditional R&D position. You are the bridge between the complex nuances of patent practice and the cutting-edge AI technology transforming it. You will translate the \"language of law\" into the \"logic of code.\" And for our Japanese clients, you'll translate it into Japanese too.\n\nWhat you'll own:\n\n- **AI Output Engineering:** Partner with our AI team to iterate on algorithms and prompt engineering, specializing our LLMs for patent-specific tasks like claim analysis, prior art comparison, and obviousness assessments.\n\n- **Legal Benchmarking:** Build proprietary datasets and evaluation frameworks to measure AI performance against real-world USPTO and international patent office requirements.\n\n- **Product Roadmap:** Serve as the internal voice of the practitioner. You'll translate deep client insights from global firms into high-priority product features.\n\n- **Strategic Partnership:** Act as a technical thought partner for IP teams at firms like DLA Piper, leading pilots and ensuring our AI scales seamlessly across their prosecution and litigation workflows.\n\n- **Playbook Development:** Document and scale best practices for AI adoption across diverse sectors, from biotech to deep-tech software.\n\n- **Japan Market Lead:** Be the technical voice of Solve for Japanese law firms and corporate IP departments. You'll run in-depth product demos and technical discussions in Japanese, support our team at conferences and client meetings in Japan, and lead pilots with Japanese clients.\n\n- **JPO Readiness** : Make sure our AI handles Japanese-language patent documents and JPO practice as well as it handles the USPTO and EPO, and build the benchmarks that prove it.\n\n💡 **About Solve Intelligence**\n\nWe're the fastest-growing startup transforming the IP industry.\n\n- **Traction:** 20-30% MoM revenue growth; selling to 600+ global IP teams (DLA Piper, tech boutiques, and global enterprises).\n\n- **Proven Value:** Users report 50-90% efficiency gains using our AI platform.\n\n- **Backing:** Recently featured in[ Sifted ](https://sifted.eu/articles/solve-intelligence-visionaries-20vc) following our $40M Series B announcement, bringing our total funding to $55M from elite investors including Y Combinator, 20VC, Visionaries and others.\n\n- **Global Momentum:** Growing demand from Japan, with a live pipeline of Japanese IP teams ready for deeper technical conversations.\n\n👋 **Your Team**\n\nYou'll work directly with a founding team of AI PhDs and systems experts:\n\n- [ Sanj ](https://www.linkedin.com/in/sanj-ahilan-844b33137/) (CRO): PhD in AI (Gatsby Unit, UCL), ex-Huawei R&D, former lead at Magic Carpet AI (acquired).\n\n- [ Chris ](https://www.linkedin.com/in/chris-parsonson/) (CEO): PhD in AI (UCL), published researcher, ex-Dyson and Alan Turing Institute.\n\n- [ Angus ](https://www.linkedin.com/in/angus-parsonson/) (CTO): MEng Computer Science, ex-Qualcomm and Coremont (Brevan Howard).\n\n🚀 **Who You Are**\n\nWe are a high-performance culture of \"hackers\" and builders.\n\n- Bilingual: You can speak \"Patent\" to an attorney and \"Prompt\" to an engineer without losing anything in translation. In this role you're also bilingual in the literal sense, and you're comfortable with both Japanese and English.\n\n- Speed & Feedback: You want to put tools in users' hands in days, not months, and you thrive on rapid iteration.\n\n- Extreme Ownership: You take responsibility for the accuracy of our AI's legal reasoning and the success of our global client deployments.\n\n- Driven & Humble: You are a high-achiever willing to go the extra mile to tackle unsolved AI problems in the patent space.\n\n🛠️ **What You Bring**\n\nMust-Haves:\n\n- **Qualified Professional** : Admitted to practice before the USPTO, EPO or JPO.\n\n- 3+ Years Experience: Direct experience in patent prosecution, understanding the \"pain points\" of the industry first-hand.\n\n- Technical Foundation: Undergraduate degree in Engineering, Computer Science, or Life Sciences.\n\n- Japanese Language: Native or business-level fluency in Japanese (JLPT N1 or equivalent). You can run a detailed technical and legal conversation in Japanese with a senior IP team.\n\n- Travel: Based in London or New York and happy to travel to Japan regularly for conferences, pilots and client meetings.\n\nPreferred & Nice-to-Haves:\n\n- AI Tinkerer: Hands-on experience with prompt engineering and LLM tools.\n\n- Client-Facing Pro: Proven ability to manage relationships and lead strategic product demos.\n\n- Visionary: A deep belief that AI will fundamentally redefine the legal landscape.\n\n- Japanese Network: Existing relationships with Japanese law firms or corporate IP departments.\n\n🎁 **What We Offer**\n\n- Competitive Salary + Significant Equity: We want you to have true ownership in the success of the company.\n\n- Founding Impact: You will be the architect of how AI is applied to patent law globally. That includes shaping how we build out Japan, one of our most important growth markets.\n\n- Support: Full visa sponsorship and private medical insurance.\n\n- The Environment: Free meals and a seat at the table with an incredibly smart, ambitious team.\n\n New York fulltime yes\nlocations: New York\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-25T16:39:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e31b525af14906abfe8a6b16332725dd",
+      "source": "yc",
+      "company": "David AI",
+      "role": "Talent Acquisition & People Operations",
+      "url": "https://www.workatastartup.com/jobs/112053",
+      "jd_text": "**About David AI**\n\nDavid AI is the first audio data research company. We bring an R&D approach to data–developing datasets with the same rigor AI labs bring to models. Our mission is to bring AI into the real world, and we believe audio is the gateway. Speech is versatile, accessible, and human—it fits naturally into everyday life. As audio AI advances and new use cases emerge, high-quality training data is the bottleneck. This is where David AI comes in.\n\nDavid AI was founded in 2024 by a team of former Scale AI engineers and operators. In less than a year, we've brought on most FAANG companies and AI labs as customers. We recently raised a $50M Series B from Meritech, NVIDIA, Jack Altman (Alt Capital), Amplify Partners, First Round Capital and other Tier 1 investors.\n\nOur team is sharp, humble, ambitious, and tight-knit. We're looking for the best research, engineering, product, and operations minds to join us on our mission to push the frontier of audio AI.\n\n**About the Role**\n\nThis role will sit at the center of our recruiting effort, owning the coordination that keeps everything moving. You’ll collaborate with recruiters and hiring stakeholders, while gaining exposure to the full hiring lifecycle at a fast-growing AI company. This role is a great starting point for someone looking to build a career in Recruiting and will report to our Recruiting Operations Manager.\n\n**We’re growing our People + Talent team across the board.** We’re hiring People Partners, Technical Sourcers, Recruiters, and Recruiting Coordinators, and we’re using this application to meet great people across all four areas.\n\nIf your experience sits anywhere across People or Talent, you move fast, work hard, take real ownership, and want to help build through a particularly exciting period of growth at David AI, we strongly encourage you to apply. Don’t worry about matching yourself perfectly to one title before you do.\n\n**We will review every submission** and consider your background across the full range of opportunities on our team. If there is a strong fit, we’ll figure out the right seat together.\n\n**Benefits**\n\n- Unlimited PTO.\n\n- Top-notch health, dental, and vision coverage with 100% coverage for most plans.\n\n- FSA & HSA access.\n\n- 401k access.\n\n- Meals 2x daily through catering and DoorDash + snacks and beverages available at the office.\n\n- Unlimited company-sponsored Barry's classes.\n\n San Francisco fulltime yes\nlocations: San Francisco\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-25T16:39:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "57f11b9cd184c295c75a61108e8ff103",
       "source": "wellfound",
