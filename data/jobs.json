@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-09-25T09:27:49+00:00",
+  "exported_at": "2026-09-25T15:05:53+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 161,
-    "discovered": 714,
+    "pending_approval": 162,
+    "discovered": 715,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "57f11b9cd184c295c75a61108e8ff103",
+      "source": "wellfound",
+      "company": "Shipthis Inc",
+      "role": "GRC Engineer -Cloud & Compliance",
+      "url": "https://wellfound.com/jobs/4766639-secops-engineer-clone",
+      "jd_text": "At **Shipthis**, we are building a better future for freight forwarders by evolving traditional operations into fully digital, efficient, and scalable systems. We’re a fast-growing product company where every individual has the opportunity to take ownership, move fast, and create real impact. If you enjoy solving complex problems, shaping products from the ground up, and influencing technical direction, Shipthis is the place for you.\n\nLearn more at www.shipthis.co\n\n**Role Overview**\n\nWe are looking for an associate-level Cloud &amp; Compliance Engineer to support security operations, compliance, endpoint management, cloud infrastructure, and DevOps engineering. The role will work closely with the CTO/CISO and engineering team. Security and compliance are core responsibilities; when those priorities are lighter, the engineer will focus on CI/CD, infrastructure automation, reliability, monitoring, performance, and cloud cost optimization.\n\n**What You’ll be Doing**\n\nSecurity Operations\n* Monitor infrastructure, application, and security alerts and assist with incident investigation.\n* Review access controls, privileged accounts, service accounts, permissions, and periodic access reviews.\n* Support infrastructure hardening, logging, monitoring, backup, recovery, and other security controls.\n* Track security issues and corrective actions through closure.\nVulnerability Management\n* Run and review application and infrastructure vulnerability scans.\n* Maintain a vulnerability register and coordinate remediation with engineering teams.\n* Support VAPT and penetration-testing exercises and validate closure of findings.\n* Monitor dependencies, containers, operating systems, and cloud infrastructure for known vulnerabilities and patching needs.\nCompliance &amp; Governance\n* Support ongoing ISO/IEC 27001, SOC 2, GDPR, customer-security, and internal-policy requirements.\n* Maintain audit evidence, control registers, security policies, procedures, risk items, and remediation records.\n* Assist with internal/external audits, vendor assessments, customer security questionnaires, and asset inventories.\n* Maintain evidence for access reviews, vulnerability management, incidents, onboarding/offboarding, backups, and infrastructure changes.\nMDM &amp; Endpoint Security\n* Administer the company MDM platform and enroll/manage company laptops, desktops, and mobile devices.\n* Maintain device inventory and monitor endpoint compliance.\n* Enforce approved controls such as disk encryption, screen locks, password requirements, patching, and endpoint protection.\n* Support employee device onboarding/offboarding, approved application deployment, lost/stolen-device procedures, and remote wipe where authorized.\n* Maintain endpoint security and MDM evidence required for audits and troubleshoot enrollment or policy issues.\nDevOps, CI/CD &amp; Cloud\n* Maintain and improve CI/CD pipelines, deployment workflows, build times, caching, and rollback processes.\n* Support production and non-production cloud infrastructure, networking, DNS, TLS certificates, IAM, and secrets.\n* Automate repetitive deployment, infrastructure, security, and compliance tasks.\n* Improve monitoring, logging, alerting, reliability, resource utilization, and cloud costs.\n* Troubleshoot pipeline, deployment, and infrastructure issues and participate in root-cause analysis.\n\n**Required Fundamentals**\n\n* Basic knowledge of Linux, networking, HTTP/HTTPS, DNS, TLS, Git, Docker, cloud computing, APIs, and web applications.\n* Understanding of IAM, MFA, least privilege, vulnerabilities/CVEs, encryption, logging, patching, and secrets management.\n* Strong troubleshooting, ownership, attention to detail, and willingness to learn.\n\n**Desired Qualifications**\n\n* 1–2 years of experience with strong fundamentals are welcome.\n* Basic scripting knowledge in Python, Bash, or similar.\n* Interest in cybersecurity, cloud infrastructure, automation, and troubleshooting.\n* Exposure to AWS/GCP/Azure, Terraform, GitHub Actions, Cloudflare, OWASP, vulnerability scanners, MDM, ISO 27001, or SOC 2 is a plus, not mandatory.\n\n**We Welcome Candidates:**\n\n* Who is immediate joining\n* Female candidates returning to work after a career break are strongly encouraged.\n\n**We are an equal opportunity employer and are committed to fostering diversity and inclusivity. We do not discriminate based on race, religion, color, gender, sexual orientation, age, marital status, or disability status.**\n\n**Job Synopsys**\n* Location: Bangalore\n* Job Type: Full-time, Permanent\n* Experience: 1-2 years\n* Industry: Software Product Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 10.14,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've driven end-to-end delivery of cloud-native compliance platforms for a government regulator, automating 90% of manual workflows and introducing Azure DevOps CI/CD with blue-green releases for zero-downtime deployment. My work also involved diagnosing production concurrency risks with RabbitMQ to prevent data loss, cutting API fetch latency by 98% with Redis caching, and securing deployments in Azure AKS with automated TLS.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-25T15:05:37+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.1,
+            "overlap": 14.9,
+            "combined": 10.14
+          },
+          "backend": {
+            "cosine": 7.86,
+            "overlap": 15.04,
+            "combined": 10.01
+          },
+          "frontend": {
+            "cosine": 6.25,
+            "overlap": 18.45,
+            "combined": 9.91
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.1,
+        "keyword_overlap_score": 14.9,
+        "final_score": 10.14,
+        "top_keywords": [
+          {
+            "term": "security",
+            "weight": 0.2581
+          },
+          {
+            "term": "cloud",
+            "weight": 0.1758
+          },
+          {
+            "term": "compliance",
+            "weight": 0.1231
+          },
+          {
+            "term": "deployment",
+            "weight": 0.0703
+          },
+          {
+            "term": "management",
+            "weight": 0.0703
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-25T15:05:52+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "568563563c7b25c2a243f1549760d057",
+      "source": "wellfound",
+      "company": "3pillarglobal.com",
+      "role": "Senior GO developer",
+      "url": "https://wellfound.com/jobs/4763437-senior-go-developer",
+      "jd_text": "**Key Responsibilities:**\n\nIndependently drive project delivery within defined architecture, demonstrating autonomy and accountability in all stages from conceptualization to deployment.\nBuild and optimize high-volume ingest pipelines in Go, including concurrency design, buffering, back-pressure, and retry semantics.\nImplement and maintain device polling and collection across IoT and OT telemetry protocols, and the write path into time-series storage.\nProfile and tune for throughput, latency, and memory footprint, especially in edge and constrained-runtime deployments.\nCraft client code that is not just efficient but also performant, testable, scalable, secure, and of the highest quality.\nActively participate in accurate planning and estimation efforts, utilizing project methods and tools.\nContribute to code reviews and technical documentation, and partner with the technical lead on resiliency and failure-isolation design.\nTake part in knowledge transfer from the outgoing delivery team and help ramp up engineers joining behind you.\nEngage in agile software development, including daily stand-ups, sprint planning, team retrospectives, and other governance activities.\nActively participate in the Engineering Practice community, mentoring others through Communities of Practice (CoPs) or on project teams and supporting the growth of technical capabilities.\n\n**Minimum Qualifications:**\nA minimum of 5+ years of professional software engineering experience, with demonstrable depth in Go.\nStrong concurrency and performance engineering skills: goroutine and channel design, profiling, memory and allocation tuning, benchmarking.\nSolid network protocol fundamentals and hands-on protocol-level work, including debugging with packet captures.\nExperience building high-volume ingest or streaming pipelines in production.\nWorking experience with time-series storage such as InfluxDB or equivalent, including write optimization and schema and tag design.\nExperience in creating and implementing well-tested, scalable, and performant enterprise-level systems.\nExperience in Agile software development methodologies.\nGood understanding of SOLID principles and familiarity with OWASP.\nProficiency in the English language.\nMust be authorized to work in the United States.\n\n**Additional Experience Desired:**\nExposure to IoT or OT telemetry protocols such as SNMP, gNMI or other streaming telemetry, NETCONF, syslog, and MQTT. This is preferred, and weighted below Go depth and network fundamentals.\nPython for tooling and data work.\nContainers and orchestration using Docker and Kubernetes.\nObservability instrumentation: metrics, tracing, and structured logging.\nPrior data center, DCIM, industrial, or critical-infrastructure monitoring background.\nExperience with CI/CD pipelines and cloud native application patterns. Virginia\nlocationNames: Virginia\nremote: true",
+      "match_score": 8.62,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-25T15:05:37+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.21,
+            "overlap": 11.92,
+            "combined": 8.63
+          },
+          "backend": {
+            "cosine": 6.84,
+            "overlap": 11.28,
+            "combined": 8.17
+          },
+          "frontend": {
+            "cosine": 6.19,
+            "overlap": 12.62,
+            "combined": 8.12
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.21,
+        "keyword_overlap_score": 11.92,
+        "final_score": 8.62,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1945
+          },
+          {
+            "term": "team",
+            "weight": 0.0839
+          },
+          {
+            "term": "pipelines",
+            "weight": 0.0833
+          },
+          {
+            "term": "technical",
+            "weight": 0.0833
+          },
+          {
+            "term": "concurrency",
+            "weight": 0.068
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "3bfe4113f687f28acdece7ea833db4fe",
       "source": "wellfound",
