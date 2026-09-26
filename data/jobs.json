@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-09-26T14:17:06+00:00",
+  "exported_at": "2026-09-26T15:53:41+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 728,
     "pending_approval": 169,
-    "discovered": 727,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "58cd692cc3f716e97e044edbf92dff7c",
+      "source": "yc",
+      "company": "Corgi Insurance",
+      "role": "Founding Account Executive - Netherlands",
+      "url": "https://www.workatastartup.com/jobs/112148",
+      "jd_text": "#### **About Corgi**\n\nCorgi is a full-stack insurance carrier. We're an AI-native company that underwrites and issues policies while selling direct to the customer. That lets us price risk better and move faster than anyone in the market. We've raised over $108M, and we're launching a new line of business to take the company to its next level.\n\nThe $40B+ trucking insurance market is still being underwritten by people with paper files and 1990s rating engines. We're going to fix that.\\\nThe French SME market is still being served by brokers with paper files and a renewal cycle nobody chose. We're going to fix that.\n\n\\\n**About the role**\n\nWe're standing up a Dutch book and taking it from zero. We need an Account Executive who can close founders and finance leads across the Netherlands. Professional indemnity, cyber, general liability, property. Companies running 5 to 200 employees are the sweet spot.\\\n\\\nYou'll work hand-in-hand with a BDR team that keeps your calendar full. Your job is to run discovery, partner with underwriting on the quote, navigate the broker dynamics where they exist, get to bind, and stay close through onboarding, the first claim, and the first renewal.\\\n\\\nWe work hard, we work long, and we hold each other to a high standard. Hit your numbers consistently and there's a clear path to sales leadership. You are one of the first two Account Executives in this market, and there is nobody above you in it yet.\\\n\\\nThis role is on-site in Dublin, six days a week: five selling days plus a Saturday morning training block. Then you will be placed in Amsterdam after a time period of 3 months.\\\n\\\n**Team**\n\nYou'll work directly with Bertan Topbac, Country Launcher. \n\n\\\n**Your first 30 days**\n\n* Close a deal\n* Get certified on our product, forms, rates, and appetite so you can hold a real conversation with a Dutch founder or CFO\n* Get your Dutch WFT licensed so you are able to bind and sell insurance\n* Build the working rhythm with your BDRs. Sit with them, listen to their dials, sharpen their qualification\n* Sit with underwriting, claims, and ops to understand the full quote-to-bind workflow and what we can move on versus what we can't\n* Start running discovery calls and getting quotes into market\n\n**Your first 60 days**\n\n* Hit your first full month of quota\n* Build a pipeline that's 3x your monthly quota with clean stages, accurate forecast, and named next steps\n* Develop your discovery and quote presentation motion. Find your patterns.\n* Surface the win/loss themes back to product, underwriting, and the BDR team so we sharpen the appetite and the targeting\n* Build a renewal and expansion playbook for the accounts you've already bound\n\n**What you’ll do:**\n\n* **Pipeline management.** Take qualified meetings from BDRs and work them end to end. Discovery, quote, negotiation, bind. Run a tight CRM, a clean forecast, and an honest pipeline.\n* **Discovery and underwriting partnership.** Pull the headcount, revenue, sector, claims history, and prior carriers. Partner with underwriters to build a quote that wins and that we can stand behind.\n* **Closing.** Negotiate coverage, terms, and effective date, and price within your authority. Get the policy bound, in Dutch, in writing, in the order Dutch law requires.\n* **Account ownership.** Stay close through onboarding, the first claim, and the first renewal. Find the expansion: additional lines, additional entities, growing headcount.\n* **Cross-functional feedback.** Tell product, underwriting, and BDRs what's winning, what's losing, and what we need to change to win more. In a market this new you are the primary sensor.\n\n\\\n**What we’re looking for**\n\n* 2 to 5 years selling B2B, ideally in commercial insurance, financial services, or an adjacent regulated product\n* You've personally closed B2B deals at volume and can walk us through how\n* Prior commercial insurance sales, at a carrier, MGA, courtier/broker, or insurtech\n* Comfortable with technical conversations: coverage wordings, exclusions, limits, rating factors, claims history, endorsements\n* Strong written and verbal communication.\n* High agency, high ownership, low drama\n* **Native Dutch Speaking,** professional English. Dutch law requires the offer, the presentation, and the contract to be in Dutch.\n* An existing right to work in the EU. We cannot sponsor a visa for this round.\n\n\\\n**Bonus**\n\n* Existing relationships with Dutch founders, CFOs, or operations leads\n* Experience selling at an insurance carrier, MGA, or a broker\n* An existing qualification: APA, CIP, CII, or a French equivalent. This is worth a real step in the band.\n* Familiarity with the Dutch SME market: renewal cycles, broker dynamics, and who the incumbents actually are\n\n### About the interview\n\n1. Screening call(s)\n2. Work trial\n3. Decision London, England, GB Amsterdam, North Holland, NL fulltime yes\nlocations: London, England, GB Amsterdam, North Holland, NL\nremote: no",
+      "match_score": 4.11,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-26T15:53:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.46,
+            "overlap": 7.95,
+            "combined": 4.11
+          },
+          "backend": {
+            "cosine": 1.72,
+            "overlap": 6.77,
+            "combined": 3.24
+          },
+          "frontend": {
+            "cosine": 1.97,
+            "overlap": 7.77,
+            "combined": 3.71
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 2.46,
+        "keyword_overlap_score": 7.95,
+        "final_score": 4.11,
+        "top_keywords": [
+          {
+            "term": "broker",
+            "weight": 0.0819
+          },
+          {
+            "term": "team",
+            "weight": 0.0758
+          },
+          {
+            "term": "high",
+            "weight": 0.0614
+          },
+          {
+            "term": "end",
+            "weight": 0.0409
+          },
+          {
+            "term": "native",
+            "weight": 0.0335
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "31d9d1f6e59b35eb10cfd6717b376f5a",
       "source": "wellfound",
