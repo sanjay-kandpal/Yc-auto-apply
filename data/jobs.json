@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-09-26T19:05:16+00:00",
+  "exported_at": "2026-09-26T20:53:40+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 728,
+    "discovered": 729,
     "pending_approval": 169,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "2b7271e172fb890dae3206c3ed551aa4",
+      "source": "wellfound",
+      "company": "MaxHome.ai",
+      "role": "Technical Support Engineer",
+      "url": "https://wellfound.com/jobs/4760754-technical-support-engineer",
+      "jd_text": "Technical Support Engineer\nMaxhome.ai · Bengaluru · Full-time · 3+ years\n\n**The role**\n* You're the first responder for production issues and the bridge between \"the system ran\" and \"the customer got the right answer.\"\n* This is a hands-on engineering role with a support mandate, not ticket routing. You'll spend your time reproducing real customer issues, finding the root cause, and shipping the fix yourself. Because the platform spans many document types and customer-specific rule sets, a large part of the job is judgment: deciding which of several plausible causes is the real one, and whether a fix generalizes or only patches one case.\n* You'll also be the team's memory — the person who spots that an issue has come back for the third time and pushes for a permanent fix instead of another manual correction. Over time you'll become one of the go-to people for how the platform actually behaves in production.\n**What you'll do**\n* Triage production issues — work from logs, alerts, and error reports to isolate where things went wrong, and reproduce issues locally.\n* Ship fixes — write and test Python changes, and get them through code review.\n* Support deployments — releases across test and production environments, plus database changes and environment issues.\n* Analyze error patterns — turn recurring issues into a prioritized list of improvements.\n* Document what you learn — keep runbooks and internal guides current.\n* What we're looking for\n* 3+ years in support engineering, production support, or a similar hands-on role at a product company\n* Strong Python — read unfamiliar code, trace a bug across modules, ship a tested fix\n* Solid debugging instincts: logs, stack traces, narrowing a problem to a specific input\n* SQL, Git, and CI/CD experience\n* Analytical rigor and comfort working under ambiguity\n* Ownership — you chase issues to resolution across team boundaries\n* \nBonus: AI/ML or LLM-based production systems · cloud platforms (GCP/AWS) · OCR or document processing · relational databases and migrations · data analysis with SQL/Pandas · US real estate, mortgage, or another regulated domain\n\n**Why join**\nYou'll work on production AI systems where getting the answer right actually matters.\nThe scope is wide for a support role — AI pipelines, cloud infrastructure, databases, and the customer issues that sit on top of them. It's a small team, so the role carries real visibility and your work reaches production quickly. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 9.92,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-26T20:53:37+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.07,
+            "overlap": 14.24,
+            "combined": 9.92
+          },
+          "backend": {
+            "cosine": 7.88,
+            "overlap": 14.29,
+            "combined": 9.8
+          },
+          "frontend": {
+            "cosine": 5.51,
+            "overlap": 14.08,
+            "combined": 8.08
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.07,
+        "keyword_overlap_score": 14.24,
+        "final_score": 9.92,
+        "top_keywords": [
+          {
+            "term": "production",
+            "weight": 0.1996
+          },
+          {
+            "term": "ai",
+            "weight": 0.1221
+          },
+          {
+            "term": "team",
+            "weight": 0.1131
+          },
+          {
+            "term": "real",
+            "weight": 0.0998
+          },
+          {
+            "term": "time",
+            "weight": 0.0998
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "58cd692cc3f716e97e044edbf92dff7c",
       "source": "yc",
