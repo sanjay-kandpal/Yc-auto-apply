@@ -1,15 +1,586 @@
 {
-  "exported_at": "2026-09-26T03:41:27+00:00",
+  "exported_at": "2026-09-26T07:23:10+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 723,
-    "pending_approval": 162,
+    "pending_approval": 167,
+    "discovered": 726,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "630900d1fa2392aa17cf8f6d4e83b825",
+      "source": "wellfound",
+      "company": "Class8",
+      "role": "Full Stack Engineer (Frontend (FE) Focused)",
+      "url": "https://wellfound.com/jobs/4766937-senior-frontend-fe-engineer-clone",
+      "jd_text": "Class8 is building a suite of products to help trucking companies better run their business, and help them connect with freight opportunities through brokerages and other data partners. Our team works with real-time, big data across thousands of trucks, and creates apps across multiple surface areas including mobile, desktop, and embedded vehicles. \n\nNow we’re hiring a **Full Stack Engineer, with an emphasis on front-end development**, to help us scale fast.\n\n**In This Role, You Will:**\n\n* Design, develop, test, deploy, maintain, and document scalable web and mobile applications, with a strong focus on frontend architecture and user experience.\n* Build high-quality, maintainable frontend experiences while contributing to backend services and APIs as needed.\n* Write automated tests and contribute to continuous integration and deployment pipelines to ensure reliable, high-quality releases.\n* Uphold engineering standards through code reviews, profiling, testing, and continuous improvements to code quality and performance.\n* Leverage AI effectively to accelerate development, improve engineering workflows, and streamline processes such as PR reviews, code cleanup, documentation, and testing.\n* Research emerging technologies and frontend best practices, and proactively advocate for improvements to our development practices, architecture, and user experience.\n\n\n**You’re Right For The Role If You Have These Skills:**\n\n**Required:**\n\n* 3+ years of full stack development experience\n* Proficient with ReactJS/NextJS, TypeScript, React Native and Python as well as modern libraries and tooling\n* Proven experience in developing web and mobile applications\n* Strong knowledge of computer science fundamentals, data structures, and design patterns\n* BS/MS in Computer Science or a related field\n* A passion for continuous improvement and finding better ways to build, ship, and maintain software\n* AI-first mindset with the ability to use AI effectively to accelerate development while maintaining ownership and understanding of the code you produce\n* Comfortable using AI to improve engineering workflows and processes, including PR reviews, code cleanup, documentation, testing, and other repetitive tasks\n\n**Bonus If You Have:**\n* Experience with building browser extensions\n\n**Our Tech Stack:**\n* React Native\n* ReactJS, NextJS, TypeScript, Jest\n* Python, FastAPI, MongoDB, Postgres\n* Bitbucket, Docker\n* AWS (SQS/SNS/API Gateway/Lambda/ECS/ECR, Data Lake, Redshift, Glue, EventBridge, S3, Route53, Kafka, Airflow)\n* Netlify\n\n**Hiring Process:**\n* Résumé review\n* Coding interview (45 mins)\n* Systems design interview (25 mins)\n* Senior management interview (15 mins)\n\n**What We Do:**\n\n[https://www.class8.com/our-solution](https://) \n\n**Why Join Us:**\n* We’re redefining how freight moves.\n* You’ll get in early on a high-upside product in a massive, untouched market.\n* You’ll work with experienced builders and be trusted to execute.\n* Big career upside: build, prove yourself, and grow with the company. Toronto\nlocationNames: Toronto\nremote: true",
+      "match_score": 11.65,
+      "resume_variant": "fullstack",
+      "draft_answer": "With experience delivering end-to-end full-stack web applications, including a reporting portal scoped directly with clients and cloud-native platforms onboarding 80+ organizations, I've honed my skills in React and Next.js while ensuring performance and data integrity for real-time user experiences through Redis caching and RabbitMQ message brokering. I'm adept at deploying systems with zero-downtime blue-green releases, reducing bottlenecks from 15s to 6s with Azure Blob Storage, and leveraging AI to validate LLM tool-calling reliability, all of which I believe will accelerate building solutions for trucking companies and connecting them with freight opportunities.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-26T07:21:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.54,
+            "overlap": 14.24,
+            "combined": 11.65
+          },
+          "backend": {
+            "cosine": 9.28,
+            "overlap": 12.78,
+            "combined": 10.33
+          },
+          "frontend": {
+            "cosine": 9.0,
+            "overlap": 17.48,
+            "combined": 11.54
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.54,
+        "keyword_overlap_score": 14.24,
+        "final_score": 11.65,
+        "top_keywords": [
+          {
+            "term": "stack",
+            "weight": 0.1521
+          },
+          {
+            "term": "code",
+            "weight": 0.1259
+          },
+          {
+            "term": "experience",
+            "weight": 0.1259
+          },
+          {
+            "term": "ai",
+            "weight": 0.1232
+          },
+          {
+            "term": "frontend",
+            "weight": 0.1232
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-26T07:22:43+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "bb8b9c1be051bb4666a93263a5f86d7e",
+      "source": "wellfound",
+      "company": "Earthinia Company Services",
+      "role": "Founding Software Engineer",
+      "url": "https://wellfound.com/jobs/4733655-founding-agentic-ai-engineer-clone",
+      "jd_text": "Earthinia is building an enterprise AI workforce platform that enables businesses to create AI-powered operational teams composed of specialized roles, tools, knowledge, permissions, integrations, and communication channels.\n\nWe are looking for a **Founding Software Engineer — Platform &amp; Backend** to join Earthinia at an early stage and take significant ownership of the software platform that powers our AI workforce infrastructure.\n\nYou will work directly with the founder and our Agentic AI engineering function to build the APIs, services, data systems, security controls, integrations, billing infrastructure, and distributed systems required to operate Earthinia reliably at production scale.\n\nThis role is focused primarily on software and platform engineering, rather than AI model research.\n\n**What You Will Own**\n\n* Design, build, and maintain Earthinia's backend platform.\n* Develop production-grade APIs using Python and FastAPI.\n* Design reusable and maintainable service, repository, domain, and API layers.\n* Build and maintain Earthinia's account, cluster, instance, tool, knowledge, execution, channel, and integration services.\n* Design secure authentication and authorization systems.\n* Implement account and resource-level permissions.\n* Build cluster-scoped API key generation and management.\n* Develop subscription, billing, credit, usage, and entitlement systems.\n* Build usage metering and reporting infrastructure.\n* Design PostgreSQL database models, migrations, indexes, and queries.\n* Build Redis-backed caching, sessions, rate limiting, and execution-state systems.\n* Develop WebSocket and real-time communication infrastructure.\n* Build event-driven and asynchronous processing systems.\n* Develop external service and business-system integrations.\n* Support Earthinia's Python and TypeScript SDK infrastructure.\n* Build APIs that allow customers to integrate Earthinia into their own products.\n* Implement secure communication between platform services and the AI execution runtime.\n* Develop audit logging and execution-history infrastructure.\n* Implement reliable background jobs and workflow processing.\n* Design retry, idempotency, error-handling, and failure-recovery mechanisms.\n* Improve system performance, scalability, and reliability.\n* Implement automated testing and quality assurance.\n* Help maintain CI/CD and production deployment workflows.\n* Work with AWS infrastructure including EKS, RDS, Redis, networking, secrets, storage, and related services.\n* Help define engineering standards for code quality, architecture, documentation, security, and maintainability.\n\n**How This Role Works With the Agentic AI Engineer**\n\nThe responsibilities are intentionally separated.\n\nThe **Agentic AI Engineer** owns areas such as:\n\n* Agent reasoning\n* Planning\n* Multi-agent orchestration\n* Tool selection\n* Model routing\n* Agent memory\n* RAG\n* MCP\n* AI evaluations\n* Agent execution intelligence\n\nThe **Software Engineer** owns the production platform surrounding those capabilities.\n\nFor example:\n\nIf the Agentic AI Engineer builds logic that allows a Sales Instance to select and execute a CRM tool, you may build the systems that:\n\n* Authenticate the customer\n* Determine which account owns the cluster\n* Verify permissions\n* Retrieve integration credentials securely\n* Manage the API request\n* Store execution state\n* Enforce subscription limits\n* Meter usage\n* Record audit events\n* Handle failures and retries\n* Return the execution result through the API\n\nTogether, these systems make Earthinia usable as a secure production platform.\n\n**Example Platform Workflow**\n\nA customer could send a request through Earthinia's API:\n\n\"Analyze our new leads, identify the highest-priority opportunities, prepare outreach, and update our CRM.\"\n\nThe AI runtime determines how the work should be performed.\n\nYour platform infrastructure ensures:\n\n* The request is authenticated.\n* The correct account and cluster are identified.\n* Subscription and usage limits are validated.\n* The requested instances have the necessary permissions.\n* Integration credentials are retrieved securely.\n* Execution state is created and persisted.\n* Events can be delivered between system components.\n* Usage is recorded.\n* Results are securely returned to the customer.\n* Execution history is available for auditing and debugging.\n\n** Current Technology Environment**\n\nEarthinia's engineering environment includes technologies such as:\n\n* Python\n* Python 3.12\n* FastAPI\n* Pydantic\n* SQLAlchemy\n* PostgreSQL\n* Amazon Aurora PostgreSQL\n* Redis / Valkey\n* REST APIs\n* WebSockets\n* Docker\n* Kubernetes\n* Amazon EKS\n* AWS\n* Terraform\n* GitHub Actions\n* OpenAPI\n* TypeScript\n* React\n* Event-driven systems\n\nYou do not need to know every technology before joining, but you should have strong backend engineering fundamentals and be capable of learning unfamiliar systems quickly.\n\n**What We're Looking For**\n\nStrong experience in several of the following areas is preferred:\n\n* Python\n* FastAPI or similar backend frameworks\n* PostgreSQL\n* SQLAlchemy or other ORMs\n* Redis\n* REST API design\n* Distributed systems\n* Authentication and authorization\n* OAuth/JWT\n* API security\n* WebSockets\n* Event-driven systems\n* Background job processing\n* Cloud infrastructure\n* AWS\n* Docker\n* Kubernetes\n* Terraform\n* CI/CD\n* SaaS billing systems\n* API integrations\n* Software architecture\n* Automated testing\n* Observability\n* Performance optimization\n\n**You May Be a Strong Fit If You**\n\n* Have built and shipped production backend systems.\n* Can design APIs rather than simply implement predefined endpoints.\n* Understand database design and data integrity.\n* Understand authentication, authorization, and multi-tenant SaaS security.\n* Think carefully about failure modes and reliability.\n* Write clean, modular, reusable, and maintainable code.\n* Understand the importance of testing.\n* Can reason about distributed systems.\n* Are comfortable working with cloud infrastructure.\n* Can independently investigate and solve difficult engineering problems.\n* Can make architectural decisions and explain their tradeoffs.\n* Are comfortable working directly with a founder.\n* Can operate effectively in an early-stage startup with evolving requirements.\n* Care about building systems correctly rather than simply making them work once.\n* Want substantial ownership over the product you are building.\n\n**Nice to Have**\n\nExperience with any of the following would be valuable:\n\n* AI or LLM-powered applications\n* Agentic AI platforms\n* OpenAI or Anthropic APIs\n* MCP\n* RAG systems\n* SaaS billing\n* Stripe or PayPal integrations\n* AWS EKS\n* Aurora PostgreSQL\n* Redis / ElastiCache\n* Infrastructure as Code\n* SDK development\n* Developer platforms\n* Multi-tenant enterprise SaaS\n* Security or compliance systems\n* High-availability systems\n\n**Engineering Philosophy**\n\nWe want Earthinia's engineering organization to prioritize:\n\n* Readability\n* Reusability\n* Maintainability\n* Security\n* Testing\n* Observability\n* Clear architecture\n* Documentation\n* Automation\n* Reliability\n\nWe do not want unnecessary complexity simply because a technology is popular.\n\nEngineers should understand the problem being solved, choose appropriate abstractions, document important architectural decisions, and build systems that future engineers can understand and extend.\n\n**Early-Stage Environment**\n\nEarthinia is an early-stage company.\n\nThis means you will have significantly more ownership than you would typically receive inside a large engineering organization.\n\nYou may help define architecture, engineering practices, APIs, data models, production systems, and eventually the engineering team itself.\n\nAt the same time, early-stage work requires adaptability.\n\nThere may not always be detailed specifications waiting for you. You should be comfortable understanding a business or product requirement, discussing tradeoffs, proposing an architecture, and then building it.\n\nThis is a hands-on engineering position.\n\n**Compensation**\n\n**This position is currently equity-only. There is no cash salary at the current stage.**\n\nPlease apply only if an equity-based early-stage opportunity fits your current circumstances.\n\nExpected equity range: 1.5%–4%\n\nThe final grant will depend on:\n\n* Engineering experience\n* Technical depth\n* Level of ownership\n* Full-time commitment\n* Long-term commitment\n* Architectural responsibilities\n* Expected contribution to Earthinia\n\nAn exceptional engineer taking broad ownership of Earthinia's platform architecture and becoming one of the company's foundational technical contributors may receive equity toward the upper end of the range.\n\n**Expected Vesting**\n\n* 4-year vesting schedule\n* 1-year cliff\n* Monthly vesting thereafter\n\nThe grant will be formally documented through the appropriate company equity agreements once legally available and will be subject to incorporation, definitive agreements, and required corporate approvals.\n\nAs Earthinia raises financing or develops sufficient recurring revenue, the company intends to introduce competitive cash compensation.\n\nFuture fundraising, revenue, or salary should not be considered guaranteed compensation when accepting the role. Miami New York City Washington DC San Francisco San Jose Toronto Fort Lauderdale\nlocationNames: Miami New York City Washington DC San Francisco San Jose Toronto Fort Lauderdale\nremote: true",
+      "match_score": 14.53,
+      "resume_variant": "backend",
+      "draft_answer": "My experience owning and scaling cloud-native backend platforms, including developing FastAPI backends, implementing message brokers to guarantee data delivery, and integrating Redis caching to cut API latency by 98%, directly applies to building a reliable production platform for an AI workforce infrastructure. My background includes onboarding 80+ client organizations to multi-tenant compliance platforms, where I secured API access with robust authorization and implemented ACID-compliant transactions, preparing me to build the secure account, billing, and integration services required for an enterprise AI workforce platform.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-26T07:21:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.18,
+            "overlap": 22.52,
+            "combined": 13.88
+          },
+          "backend": {
+            "cosine": 10.61,
+            "overlap": 23.68,
+            "combined": 14.53
+          },
+          "frontend": {
+            "cosine": 6.46,
+            "overlap": 22.33,
+            "combined": 11.22
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 10.61,
+        "keyword_overlap_score": 23.68,
+        "final_score": 14.53,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1569
+          },
+          {
+            "term": "platform",
+            "weight": 0.1085
+          },
+          {
+            "term": "api",
+            "weight": 0.0789
+          },
+          {
+            "term": "architecture",
+            "weight": 0.0724
+          },
+          {
+            "term": "security",
+            "weight": 0.0724
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-26T07:22:08+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "33688d02b4b8279dae3972d90d018323",
+      "source": "wellfound",
+      "company": "Earthinia Company Services",
+      "role": "Founding Frontend Engineer",
+      "url": "https://wellfound.com/jobs/4733656-founding-agentic-ai-engineer-clone-clone",
+      "jd_text": "Earthinia is building an enterprise AI workforce platform that enables businesses to create and operate AI-powered teams composed of specialized roles, tools, knowledge, permissions, integrations, and communication channels.\n\nWe are looking for a **Founding Frontend Engineer — UI/UX &amp; Product Design** to join Earthinia at an early stage and take significant ownership of the customer-facing product experience.\n\nYou will work directly with the founder, Software Engineer, and Agentic AI Engineer to design and build the Earthinia Console and other customer-facing interfaces.\n\nThis role combines **frontend engineering, product design, and UI/UX thinking**.\n\nYou will be responsible for turning complex AI infrastructure into an interface that business users can understand and operate without needing to understand the underlying technical architecture.\n\n**What You Will Own**\n\n* Design and build the Earthinia Console.\n* Own frontend architecture using React and TypeScript.\n* Develop reusable, accessible, responsive UI components.\n* Design intuitive user experiences for complex AI workflows.\n* Build and maintain Earthinia's design system.\n* Translate product requirements into wireframes, prototypes, interfaces, and production code.\n* Design user flows for onboarding, account setup, cluster creation, instance configuration, tools, permissions, knowledge, integrations, channels, billing, and execution.\n* Build interfaces for creating and managing AI-powered business teams.\n* Design cluster and instance configuration experiences.\n* Build tool and permission management interfaces.\n* Design knowledge upload and management experiences.\n* Build channel and external integration setup workflows.\n* Create API key and developer configuration interfaces.\n* Build AI chat and execution interfaces.\n* Implement streaming AI responses and real-time execution updates.\n* Design execution-history and activity interfaces.\n* Build usage, billing, credits, and subscription dashboards.\n* Create account settings and security interfaces.\n* Design responsive experiences for desktop, tablet, and mobile devices.\n* Improve accessibility and keyboard usability.\n* Optimize frontend performance and loading behavior.\n* Implement frontend authentication and session experiences.\n* Integrate frontend applications with Earthinia's FastAPI backend.\n* Work with WebSockets and real-time platform events.\n* Design clear loading, empty, success, warning, and error states.\n* Conduct usability testing and improve flows based on customer feedback.\n* Help define Earthinia's visual identity across the product.\n* Maintain consistent typography, spacing, interaction patterns, components, and information hierarchy.\n* Document frontend architecture and design standards.\n* Help establish professional frontend engineering and product-design practices as the company grows.\n\n**The Main Product Challenge**\n\nEarthinia contains sophisticated concepts such as:\n\n* Accounts\n* Clusters\n* Instances\n* AI models\n* Tools\n* Permissions\n* Knowledge\n* Integrations\n* Channels\n* API keys\n* Executions\n* Usage\n* Billing\n* Agent collaboration\n\nCustomers should not need to understand all of the underlying engineering to use the platform.\n\nYour responsibility is to make these capabilities understandable.\n\nFor example, instead of exposing technical permission schemas, a customer might see:\n\n**Sales Instance**\n\nTools:\n\n✓ CRM\n✓ Email\n✓ Calendar\n✓ Customer Database\n\nPermissions:\n\n✓ Read Contacts\n✓ Create Leads\n✓ Update Deals\n○ Delete Contacts\n\nThe interface should make sophisticated AI configuration feel simple and safe.\n\n**Example Customer Experience**\n\nA new customer should be able to:\n\n1. Create an Earthinia account.\n2. Create a business cluster.\n3. Add specialized instances such as Sales, Marketing, Finance, or Customer Support.\n4. Configure their permitted tools.\n5. Connect business applications.\n6. Upload company knowledge.\n7. Configure permissions.\n8. Send a request to the cluster.\n9. Watch Earthinia coordinate the appropriate instances.\n10. Review results and execution history.\n\nYour job is to make this journey intuitive, polished, responsive, and trustworthy.\n\n**Current Frontend Environment**\n\nEarthinia currently uses technologies including:\n\n* React\n* TypeScript\n* Vite\n* Tailwind CSS\n* REST APIs\n* WebSockets\n* FastAPI\n* OpenAPI\n* Docker\n* Kubernetes\n* AWS\n\nWe care about strong frontend fundamentals more than familiarity with every technology in the stack.\n\n**What We're Looking For**\n\nStrong experience in several of the following areas is preferred:\n\n* React\n* TypeScript\n* JavaScript\n* HTML\n* CSS\n* Tailwind CSS\n* Responsive Web Design\n* UI/UX Design\n* Product Design\n* Design Systems\n* Figma\n* SaaS applications\n* Dashboard design\n* API integration\n* REST APIs\n* WebSockets\n* State management\n* Form architecture\n* Authentication flows\n* Accessibility\n* Frontend testing\n* Performance optimization\n* Data visualization\n* Mobile-responsive interfaces\n\n**You May Be a Strong Fit If You**\n\n* Can both design interfaces and implement them in production.\n* Have built complex SaaS dashboards or web applications.\n* Understand that UI/UX is about usability, not only visual appearance.\n* Can simplify complicated technical workflows.\n* Write reusable and maintainable React components.\n* Understand frontend architecture and state management.\n* Care about accessibility and responsive design.\n* Understand loading, error, permission, and edge-case states.\n* Can work directly from APIs and backend contracts.\n* Have strong attention to detail.\n* Can make independent product-design decisions.\n* Can explain the reasoning behind your design choices.\n* Are comfortable working directly with a founder.\n* Can rapidly iterate based on customer feedback.\n* Want ownership of a product rather than only individual tickets.\n\n**UI/UX Expectations**\n\nWe are looking for someone who understands professional SaaS product design principles.\n\nYou should be comfortable thinking about:\n\n* Information architecture\n* User journeys\n* Navigation\n* Visual hierarchy\n* Interaction design\n* Progressive disclosure\n* Form usability\n* Accessibility\n* Responsive layouts\n* Empty states\n* Error handling\n* Loading states\n* Confirmation flows\n* Security-sensitive actions\n* Destructive action protection\n* Consistent component systems\n* User onboarding\n* Product discoverability\n* Dashboard usability\n\nEarthinia should feel like a serious enterprise product while remaining understandable to customers who are not AI engineers.\n\n**Design System Ownership**\n\nYou will help establish and maintain Earthinia's product design system, including:\n\n* Typography\n* Spacing\n* Layout\n* Forms\n* Buttons\n* Tables\n* Navigation\n* Dialogs\n* Notifications\n* Cards\n* Inputs\n* Icons\n* Status indicators\n* Charts\n* Responsive behavior\n* Dark/light themes\n* Accessibility standards\n* Component usage guidelines\n\nThe goal is to prevent inconsistent interfaces as the product expands.\n\n**Collaboration**\n\nYou will work closely with the Founding Software Engineer.\n\nThe Software Engineer may create an API such as:\n\n`POST /clusters/{cluster_id}/instances`\n\nYour role is to transform that capability into a professional customer experience where someone can:\n\n**Add Instance → Select Role → Select Tools → Configure Permissions → Save**\n\nYou will also work with the **Founding Agentic AI Engineer** to visualize AI behavior such as:\n\n* Instance selection\n* Task execution\n* Tool usage\n* Multi-agent collaboration\n* Human approval\n* Execution progress\n* Results\n* Errors\n* Execution history\n\n**Nice to Have**\n\nExperience with any of the following would be valuable:\n\n* Enterprise SaaS products\n* AI applications\n* Developer tools\n* AI chat interfaces\n* Workflow builders\n* No-code or low-code applications\n* Real-time applications\n* Figma\n* Storybook\n* React Query\n* Zustand or similar state management\n* Data visualization\n* Accessibility standards\n* Design tokens\n* Component libraries\n* Frontend security\n* Product analytics\n* User research\n* Product Philosophy\n\nEarthinia should not expose complexity simply because the underlying system is complex.\n\nWe want the product to be:\n\n* Simple\n* Professional\n* Consistent\n* Secure\n* Fast\n* Accessible\n* Responsive\n* Understandable\n* Reliable\n* Visually refined\n\nThe frontend should guide users toward correct actions and make potentially dangerous actions clear.\n\nWe prefer thoughtful simplicity over unnecessary visual complexity.\n\n**Early-Stage Environment**\n\nEarthinia is an early-stage company.\n\nThis role provides substantial influence over the visual and product direction of the company.\n\nYou will not simply receive finished Figma designs and convert them into code.\n\nYou will participate in deciding:\n\n* How features should work.\n* How customers should interact with them.\n* What information should be displayed.\n* How complex concepts should be simplified.\n* How the Earthinia design system should evolve.\n* How customer feedback should influence the product.\n\nThis is a hands-on founding-level position.\n\n**Compensation**\n\nThis position is currently equity-only. There is no cash salary at the current stage.\n\nPlease apply only if an equity-based early-stage opportunity fits your circumstances.\n\nExpected equity range: 1%–3%\n\nThe final grant will depend on:\n\n* Frontend engineering experience\n* UI/UX and product-design ability\n* Full-time commitment\n* Level of ownership\n* Product contribution\n* Long-term commitment\n* Ability to independently own the Earthinia product experience\n\nAn exceptional candidate capable of owning both frontend engineering and product design may receive equity toward the upper end of the range.\n\n**Expected Vesting**\n\n* 4-year vesting schedule\n* 1-year cliff\n* Monthly vesting thereafter\n\nThe final equity grant will be formally documented through appropriate company agreements once legally available and will remain subject to incorporation, definitive agreements, and required corporate approvals.\n\nEarthinia intends to introduce competitive cash compensation as financing or recurring revenue allows.\n\nFuture salary, revenue, or fundraising should not be considered guaranteed compensation when accepting this position. Miami New York City Washington DC San Francisco San Jose Toronto Fort Lauderdale\nlocationNames: Miami New York City Washington DC San Francisco San Jose Toronto Fort Lauderdale\nremote: true",
+      "match_score": 11.22,
+      "resume_variant": "frontend",
+      "draft_answer": "I've built end-to-end React frontends, like a government regulatory portal, and owned client-facing modules for a cloud-native compliance platform, consistently translating complex requirements into intuitive user experiences for 80+ organizations. My performance optimizations, cutting API fetch latency by 98% and data load times by 60% with Redis and Azure, align with the need for robust, real-time interfaces for Earthinia’s enterprise AI workforce platform using React, FastAPI, and WebSockets.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-26T07:21:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.5,
+            "overlap": 19.21,
+            "combined": 10.31
+          },
+          "backend": {
+            "cosine": 5.66,
+            "overlap": 19.17,
+            "combined": 9.71
+          },
+          "frontend": {
+            "cosine": 6.88,
+            "overlap": 21.36,
+            "combined": 11.23
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.88,
+        "keyword_overlap_score": 21.36,
+        "final_score": 11.22,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.1641
+          },
+          {
+            "term": "ui",
+            "weight": 0.0835
+          },
+          {
+            "term": "applications",
+            "weight": 0.0552
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0552
+          },
+          {
+            "term": "experience",
+            "weight": 0.0552
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-26T07:22:57+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "4bde0c692dcf4dcdbc17b6ebc673894e",
+      "source": "wellfound",
+      "company": "Earthinia Company Services",
+      "role": "Founding Agentic AI Engineer",
+      "url": "https://wellfound.com/jobs/4733647-founding-agentic-ai-engineer",
+      "jd_text": "Earthinia is building an enterprise AI workforce platform that enables businesses to create AI-powered operational teams composed of specialized roles, tools, knowledge, permissions, and integrations.\n\nWe are looking for a Founding Agentic AI Engineer to join at an early stage and take significant technical ownership of Earthinia's agentic intelligence and execution infrastructure.\n\nThis is not a conventional AI engineering position. You will work directly with the founder to design and build the systems that allow Earthinia clusters and instances to understand requests, select the appropriate capabilities, use tools safely, collaborate across roles, maintain context, and execute real business workflows.\n\nWhat You Will Own\n\n* Design and develop Earthinia's agentic AI runtime.\n* Build intelligent task routing between clusters and specialized instances.\n* Develop multi-agent planning, orchestration, delegation, and execution systems.\n* Build reliable LLM tool-calling and function-execution infrastructure.\n* Design agent-to-agent communication and multi-step workflows.\n* Implement model abstraction and routing across supported AI providers.\n* Develop context management, conversation memory, long-term memory, and knowledge retrieval.\n* Build RAG pipelines for customer and instance-specific knowledge.\n* Design MCP-based and native integrations with external systems.\n* Implement permission-aware tool execution and security boundaries.\n* Develop human-in-the-loop approval workflows for sensitive actions.\n* Build retry, fallback, failure-recovery, and execution-state mechanisms.\n* Create evaluation frameworks for measuring agent accuracy, reliability, tool selection, and task completion.\n* Build tracing and observability for debugging complex agent executions.\n* Optimize model usage, latency, token consumption, and inference cost.\n* Help establish engineering standards for testing, reliability, security, documentation, and maintainability.\n* Work closely with the founder and future full-stack engineers to expose agentic capabilities through the Earthinia Console, API, SDKs, and communication channels.\n\nExample of What You Will Build\n\nA business should eventually be able to send a request such as:\n\n\"Analyze our strongest sales opportunities, prepare personalized outreach, schedule follow-ups, and update our CRM.\"\n\nEarthinia should determine which specialized instances are required, identify their permitted tools, coordinate execution between them, preserve context, request approval where necessary, execute the workflow, and return a traceable result.\n\nYou will help build the intelligence that makes this possible.\n\nWhat We're Looking For\n\nWe value demonstrated engineering ability more than credentials.\n\nYou should be comfortable building systems from first principles in an early-stage startup where architecture, requirements, and product decisions evolve quickly.\n\nStrong experience in several of the following areas is preferred:\n\n* Python\n* FastAPI\n* Agentic AI systems\n* LLM APIs\n* Tool/function calling\n* Multi-agent systems\n* MCP\n* Retrieval-Augmented Generation\n* Vector search and embeddings\n* Prompt and context engineering\n* Agent memory architectures\n* OpenAI, Anthropic, or other model APIs\n* PostgreSQL\n* Redis\n* AWS\n* Docker\n* Kubernetes\n* Distributed systems\n* Event-driven architectures\n* API design\n* AI evaluations and observability\n\nExperience with frameworks such as LangGraph, LangChain, LlamaIndex, Semantic Kernel, or similar systems is useful, but we care more about your ability to understand and engineer the underlying architecture than dependence on any particular framework.\n\nYou May Be a Strong Fit If You\n\n* Have built production AI agents rather than only chatbot prototypes.\n* Understand the difference between an LLM call and a reliable agentic system.\n* Can reason about tool selection, permissions, memory, planning, orchestration, and failure recovery.\n* Have integrated AI systems with external APIs or business applications.\n* Can design clean, reusable, maintainable Python systems.\n* Are comfortable making architectural decisions with incomplete information.\n* Think carefully about security and reliability when AI systems can take actions.\n* Can work independently with significant ownership.\n* Want to help build a company and platform rather than simply complete assigned tickets.\n\n Early-Stage Environment\n\nEarthinia is at an early stage. This role provides substantial ownership and influence over the technical direction of the company.\n\nYou will work closely with the founder and become one of the earliest members of the engineering organization.\n\nThis is a hands-on position. We are looking for a builder who wants to write code, experiment, solve difficult agentic AI problems, speak directly about architectural tradeoffs, and help turn Earthinia into a production-grade platform.\n\nCompensation\n\nThis position is currently equity-only. There is no cash salary at the current stage.\n\nWe want candidates to understand this before applying.\n\nThe expected equity range is:\n\n2%–5% ownership, depending on experience, technical depth, commitment, responsibility, and expected long-term contribution.\n\nEquity is expected to follow a standard:\n\n4-year vesting schedule\n1-year cliff\nMonthly vesting thereafter\n\nThe final grant will be formally documented through the appropriate company equity agreements once legally available and will be subject to applicable corporate approvals and company formation/equity documentation.\n\nAs Earthinia raises financing or develops sufficient recurring revenue, the company intends to introduce competitive cash compensation. Future financing or salary, however, should not be treated as guaranteed compensation when accepting this position.\n\nThis opportunity is best suited to someone who understands the risk of joining an early-stage company and wants meaningful ownership in the platform they help create. Miami New York City Washington DC San Francisco San Jose Toronto Fort Lauderdale\nlocationNames: Miami New York City Washington DC San Francisco San Jose Toronto Fort Lauderdale\nremote: true",
+      "match_score": 10.92,
+      "resume_variant": "backend",
+      "draft_answer": "My experience building scalable FastAPI backends, like reducing API latency by 98% with Redis and ensuring delivery under high load with RabbitMQ, directly informs designing the reliable execution infrastructure for Earthinia's enterprise AI workforce platform. I’ve also validated LLM tool-calling reliability in my projects, positioning me to develop the multi-agent planning and secure tool execution Earthinia needs for its AI-powered operational teams.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-26T07:21:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.4,
+            "overlap": 17.55,
+            "combined": 10.45
+          },
+          "backend": {
+            "cosine": 7.54,
+            "overlap": 18.8,
+            "combined": 10.92
+          },
+          "frontend": {
+            "cosine": 3.69,
+            "overlap": 17.48,
+            "combined": 7.82
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 7.54,
+        "keyword_overlap_score": 18.8,
+        "final_score": 10.92,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2216
+          },
+          {
+            "term": "agent",
+            "weight": 0.1193
+          },
+          {
+            "term": "tool",
+            "weight": 0.0852
+          },
+          {
+            "term": "platform",
+            "weight": 0.0557
+          },
+          {
+            "term": "llm",
+            "weight": 0.0511
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-26T07:23:08+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "680c0198be349780798f073ead0c5d95",
+      "source": "wellfound",
+      "company": "Cyrano Technologies",
+      "role": "AI/ML Engineer",
+      "url": "https://wellfound.com/jobs/4763381-ai-ml-engineer",
+      "jd_text": "Cyrano is a stealth, pre-seed, revenue-generating AI startup in San Francisco building systems with real memory and continuity. We're hiring an early AI/ML engineer who wants real ownership (not another big-company role) and is ready to prove it.\n\nWhat you'll do\n- Take ambiguous problems from idea to production across LLM features, agent workflows, retrieval, and memory\n- Build async Python services, including streaming and real-time interactions\n- Design short-term, long-term, and episodic memory for persistent conversational state\n- Build evaluation datasets, catch regressions, and improve quality, latency, and cost, with secure, responsible defaults\n- Monitor models and agents in production and fix what breaks\n- Document decisions and own your work from design through delivery\n\nWhat you'll bring\n- Strong Python (asyncio, FastAPI) plus working knowledge of C++, Rust, or Go\n- Solid CS foundations: graphs, relational theory, algorithmic complexity\n- Hands-on experience shipping LLM features: RAG, tool use, and agent frameworks (LangChain, AutoGen, CrewAI, LlamaIndex, or custom)\n- Practical deep learning: transformers and PyTorch, JAX, or TensorFlow\n- Fine-tuning and post-training (SFT, LoRA/QLoRA, preference optimization), and the judgment to know when not to\n- Production infrastructure: containers, Kubernetes, cloud, CI/CD, and observability\n- A degree in CS, ML, or a related field, or equivalent practical experience\n\nNice to have\n- Real-time voice or speech applications\n- LLM serving and inference optimization (vLLM, TensorRT-LLM, Triton)\n- Distributed training, open-source contributions, or shipped AI products\n\nWe care about what you've actually built more than a list of tools. We expect you to use AI to do your best work, and in this process too.\n\nHow we hire (about one week)\n1. Self-assessment form (~30 min, includes resume upload)\n2. JokeBox Challenge (invite only): opens Mon, Sep 28 · Box due Tue, Sep 29 · full build due Wed, Sep 30\n3. Finalist Hackathon: all-day, in person in SF on Thu, Oct 1, with on-the-spot offers\n\nThe details\n- Full-time, in person in San Francisco\n- $120,000–$200,000 base + early equity\n- Must be authorized to work in the U.S.\n\nApply here (resume + self-assessment):\nhttps://docs.google.com/forms/d/e/1FAIpQLSdrsnW2CpvYDBRZnS91cL4nXgnvi1mwQSYqF6IhvGPImaLKYw/viewform San Francisco Bay Area\nlocationNames: San Francisco Bay Area\nremote: true",
+      "match_score": 8.55,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-26T07:21:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.34,
+            "overlap": 10.26,
+            "combined": 8.22
+          },
+          "backend": {
+            "cosine": 7.86,
+            "overlap": 10.15,
+            "combined": 8.55
+          },
+          "frontend": {
+            "cosine": 4.87,
+            "overlap": 10.68,
+            "combined": 6.61
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 7.86,
+        "keyword_overlap_score": 10.15,
+        "final_score": 8.55,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1751
+          },
+          {
+            "term": "llm",
+            "weight": 0.1401
+          },
+          {
+            "term": "real",
+            "weight": 0.1145
+          },
+          {
+            "term": "production",
+            "weight": 0.0859
+          },
+          {
+            "term": "time",
+            "weight": 0.0859
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "fa3abd433919c8be066f3cef63f08097",
+      "source": "wellfound",
+      "company": "UNIPREP",
+      "role": "software engineer",
+      "url": "https://wellfound.com/jobs/4766688-software-engineer",
+      "jd_text": "Design, develop, test, deploy, and maintain software applications.\nWrite clean, efficient, scalable, and well-documented code.\nAnalyze requirements and translate them into technical solutions.\nTroubleshoot, debug, and resolve software defects and performance issues.\nDevelop and integrate APIs, databases, and third-party services.\nParticipate in code reviews and follow software development best practices.\nCollaborate with product managers, designers, QA engineers, and other developers.\nUse version control systems such as Git to manage source code.\nCreate unit and integration tests to ensure software quality.\nMaintain technical documentation for applications and development processes.\nStay current with emerging technologies, frameworks, and development practices. Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 3.78,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-26T07:21:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.77,
+            "overlap": 3.64,
+            "combined": 3.03
+          },
+          "backend": {
+            "cosine": 2.96,
+            "overlap": 4.14,
+            "combined": 3.31
+          },
+          "frontend": {
+            "cosine": 3.11,
+            "overlap": 5.34,
+            "combined": 3.78
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 3.11,
+        "keyword_overlap_score": 5.34,
+        "final_score": 3.78,
+        "top_keywords": [
+          {
+            "term": "code",
+            "weight": 0.152
+          },
+          {
+            "term": "applications",
+            "weight": 0.1013
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.1013
+          },
+          {
+            "term": "technical",
+            "weight": 0.1013
+          },
+          {
+            "term": "apis",
+            "weight": 0.0507
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9210aad5a7589560857159e505a8b8c2",
+      "source": "wellfound",
+      "company": "Nexorlio",
+      "role": "Junior Full-Stack Developer",
+      "url": "https://wellfound.com/jobs/4766878-junior-full-stack-developer",
+      "jd_text": "**Company:** Nexorlio  \n**Employment Type:** Full-Time / Part-Time / Contract  \n**Location:** Fully Remote — Worldwide  \n**Working Hours:** Flexible, with availability for U.S. and European time zones  \n**Compensation:** Based on experience, skills, and availability\n\n## About Nexorlio\n\nNexorlio is a growing software engineering and digital solutions company working with clients across the United States and Europe.\n\nOur teams build modern web and mobile applications, cloud-based solutions, AI-powered platforms, SaaS products, e-commerce systems, and other custom digital products across a range of industries.\n\nAs we continue to grow, we are looking for motivated developers who want to build real-world software, strengthen their technical skills, and grow with an international engineering team.\n\n## About the Role\n\nWe are looking for a **Junior Full-Stack Developer** to join our development team and contribute to both frontend and backend projects.\n\nThis role is ideal for someone who already has a good foundation in software development and is ready to gain more hands-on experience working on real client and internal projects.\n\nYou will work closely with experienced developers, contribute to product features, fix bugs, work with APIs and databases, participate in code reviews, and gradually take on more responsibility as your skills grow.\n\n## Responsibilities\n\n- Develop and maintain frontend and backend features\n- Build responsive and user-friendly web interfaces\n- Work with APIs, databases, and third-party integrations\n- Fix bugs and improve existing application functionality\n- Write clean, readable, and maintainable code\n- Use Git and GitHub for version control and team collaboration\n- Participate in code reviews and technical discussions\n- Test your work before submitting changes\n- Work closely with developers, project managers, and other team members\n- Research technical issues and suggest practical solutions\n- Learn and adopt new technologies when required by projects\n- Follow established development standards and team workflows\n\n## Requirements\n\n- C1–C2 level English proficiency, with excellent spoken and written communication skills\n- Good understanding of JavaScript and modern web development\n- Experience with frontend technologies such as React, Next.js, HTML, CSS, JavaScript, or TypeScript\n- Basic backend development experience with Node.js, Python, or similar technologies\n- Basic understanding of REST APIs\n- Familiarity with relational or NoSQL databases\n- Experience using Git and GitHub\n- Understanding of responsive web development\n- Ability to debug and solve technical problems\n- Ability to learn independently and apply feedback\n- Good communication and collaboration skills\n- Comfortable working remotely with an international team\n- Reliable high-speed internet connection\n\nPrevious professional experience is helpful but not required if you can demonstrate good technical ability through personal projects, freelance work, internships, university projects, or open-source contributions.\n\n## Nice to Have\n\n- Experience with TypeScript\n- Experience with PostgreSQL, MySQL, MongoDB, or similar databases\n- Familiarity with cloud platforms such as AWS, Azure, or Google Cloud\n- Basic deployment or DevOps experience\n- Experience with AI APIs, LLMs, or AI-powered applications\n- Experience with authentication, payments, or third-party APIs\n- Previous startup, freelance, or remote work experience\n- A GitHub profile or portfolio demonstrating previous work\n\n## What We Offer\n\n- Fully remote work\n- Flexible working environment\n- Opportunity to contribute to real client projects\n- Exposure to U.S. and European projects\n- Experience working with modern development technologies\n- Technical feedback and support from experienced developers\n- Opportunities to take on more responsibility as you grow\n- Potential for longer-term collaboration based on performance\n\n## How to Apply\n\nTo apply, please email the following to **careers@nexorlio.com**:\n\n- Your resume/CV\n- A short introduction video explaining your software development background, relevant experience, technologies you have worked with, and why you are interested in this role\n- Your GitHub profile, portfolio, or relevant project links, if available\n- Your current location and time zone\n- Your general availability for U.S. and European working hours\n- Your expected hourly rate\n\nPlease include **“Junior Full-Stack Developer Application”** in the email subject line.\n\nWe look forward to hearing from developers who are interested in growing their skills, contributing to real-world projects, and building software with the Nexorlio team. Las Vegas\nlocationNames: Las Vegas\nremote: true",
+      "match_score": 13.51,
+      "resume_variant": "frontend",
+      "draft_answer": "As an Associate FullStack Engineer, I built React front ends for client reporting portals and cloud-native compliance platforms, improving UI responsiveness by 98% with Redis caching and onboarding 80+ client organizations by automating 90% of manual reporting workflows. I have further developed my full-stack capabilities by optimizing data load times 60% with Azure Blob Storage, reducing real-time data refresh delays by 30 seconds, and containerizing microservices for 40% faster deployment on Azure for diverse web applications.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-26T07:21:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.76,
+            "overlap": 16.23,
+            "combined": 12.4
+          },
+          "backend": {
+            "cosine": 9.76,
+            "overlap": 15.79,
+            "combined": 11.57
+          },
+          "frontend": {
+            "cosine": 10.77,
+            "overlap": 19.9,
+            "combined": 13.51
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.77,
+        "keyword_overlap_score": 19.9,
+        "final_score": 13.51,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2351
+          },
+          {
+            "term": "projects",
+            "weight": 0.1343
+          },
+          {
+            "term": "skills",
+            "weight": 0.1008
+          },
+          {
+            "term": "technical",
+            "weight": 0.1008
+          },
+          {
+            "term": "apis",
+            "weight": 0.084
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-26T07:22:27+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ed81c4638ab754ae0a58352fe7ed7b9f",
+      "source": "wellfound",
+      "company": "Relic packs",
+      "role": "**Founding Lead Developer - Gaming/TCG/Pokemon/Collecting",
+      "url": "https://wellfound.com/jobs/4766880-founding-lead-developer-gaming-tcg-pokemon-collecting",
+      "jd_text": "**Gaming • TCG • Consumer Mobile**\n\nRelic Packs, Inc.\n\nWe are rebuilding the Pokémon collecting experience from the ground up.\nRelic sits at the intersection of TCG collecting, pack ripping, mobile gaming, and premium consumer apps.\nToday’s opening experience barely scratches the surface of what it could be. We’re here to make it tactile, thrilling, and completely transparent.\nWe aren’t looking for a ticket executor who waits for a finished spec. We want a builder, product thinker, and gamer who knows why great apps feel electric and wants to help figure out what we should build in the first place.\n\n**WHAT YOU’LL DO**\n\nYou’ll work directly with the founders and creative team to build Relic’s core mobile experience from early stages through scale.\nBuild the Reveal Experience\nBuild the system that brings smooth, highly interactive card reveals, dynamic animation pacing, and tactile UI that make opening packs feel legendary. \n\n**Architect Core Systems**\n\nHelp design secure probability engines, real-time inventory tracking, and seamless marketplace flows.\nShape the Product With the Customer in Mind\nBring ideas to the table. When presented with a feature, your instinct isn’t just to estimate the timeline or reduce its scope. It’s to ask, “How can we make this even better for the customer?”\n\n**Set the Foundation**\n\nChoose the right tools, build clean architecture, and help shape the engineering team as we grow.\n\n**WHAT WE’RE LOOKING FOR**\n\nConsumer Mobile/Web Craft\nProven experience building fast, polished iOS or Android apps, with web experience a strong plus. Experience can be native, Unity, or cross-platform.\n\n**Game &amp; Product Instincts**\n\nYou notice details others miss: pacing, visual feedback, micro-interactions, progression loops, and the small moments that make an experience feel great.\n\n**Problem-Solving Mindset**\n\nYou care about user experience as much as clean code and know how to balance fast execution with high quality.\nPassion for Collectibles or Gaming\nYou play games, collect cards, or naturally understand the excitement of the pull.\nCross-Functional Collaboration\nYou enjoy working across teams, communicate clearly, and proactively find solutions to challenges, especially when a technical perspective can help move the product forward.\n\n**THE OPPORTUNITY**\n\n*Founding Influence*\nHave a direct say in our technology, product roadmap, and user experience from day one.\n*Meaningful Equity*\nMeaningful founding equity alongside competitive compensation.\n*Core Team*\nJoin an in-house leadership team working alongside experienced founders across product, gaming, and marketing.\n\n**COME BUILD WITH US**\nHelp us build the next evolution of collecting. Houston\nlocationNames: Houston\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-26T07:21:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "6f6fbe50da734c23ef09c5d61a818616",
       "source": "yc",
