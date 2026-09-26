@@ -1,15 +1,206 @@
 {
-  "exported_at": "2026-09-26T09:12:03+00:00",
+  "exported_at": "2026-09-26T14:17:06+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 167,
-    "discovered": 726,
+    "pending_approval": 169,
+    "discovered": 727,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "31d9d1f6e59b35eb10cfd6717b376f5a",
+      "source": "wellfound",
+      "company": "Eargs Learning Solutions",
+      "role": ".NET Developer",
+      "url": "https://wellfound.com/jobs/4772654-net-developer",
+      "jd_text": "About the Role\n\nWe are looking for a self-motivated .NET Developer with 3+ years of hands-on development experience in C#, .NET and ASP.NET Core.\n\nThe ideal candidate should have experience building production applications and RESTful APIs, along with a practical interest in AI-assisted software development. You will contribute to enterprise applications and new initiatives involving AI Agents, Large Language Models (LLMs), APIs, RAG and AI-powered automation.\n\nWe are particularly interested in developers who actively use modern AI coding tools such as GitHub Copilot, Claude Code or similar technologies.\n\nKey Responsibilities\n\nDesign, develop, test and maintain applications using C#, .NET and ASP.NET Core.\n\nBuild scalable and secure RESTful APIs and web services.\n\nWork with Entity Framework / Entity Framework Core and Microsoft SQL Server.\n\nIntegrate third-party APIs and services into enterprise applications.\n\nWork with AI/LLM APIs and AI-powered services.\n\nUse AI-assisted development tools to improve productivity and code quality.\n\nMaintain and enhance existing applications and codebases.\n\nWrite unit tests, participate in code reviews and resolve technical issues.\n\nCollaborate with development, QA and project management teams.\n\nFollow secure coding standards and contribute to application architecture improvements.\n\nRequired Skills &amp; Qualifications\n\n3+ years of professional software development experience.\n\nStrong hands-on experience in C#, .NET and ASP.NET Core.\n\nExperience developing and maintaining production applications.\n\nKnowledge of REST APIs, Entity Framework / EF Core and SQL Server.\n\nBachelor's or Master's degree in Computer Science, IT, Software Engineering or a related discipline.\n\nStrong analytical, problem-solving and communication skills.\n\nAbility to work independently and take ownership of development tasks.\n\nAI Experience\n\nPractical experience with one or more of the following:\n\nGitHub Copilot / Copilot Chat\n\nClaude Code or similar AI coding assistants\n\nGenerative AI and LLM applications\n\nOpenAI, Anthropic Claude or other LLM APIs\n\nPrompt engineering\n\nRetrieval-Augmented Generation (RAG)\n\nAI Agents / Agentic AI\n\nEmbeddings and vector databases\n\nAI-powered search and LLM integration\n\nNote: We are looking for developers who actively use AI as a development tool or have practical experience integrating AI into applications, rather than candidates with only theoretical AI knowledge.\n\nWhat We Offer\n\nOpportunity to work on AI-focused projects and emerging technologies.\n\nExposure to international clients and enterprise-level applications.\n\nHands-on experience with modern .NET and AI technologies.\n\nCollaborative, technology-focused working environment.\n\nOpportunities for learning and professional development.\n\nOpportunity to contribute to innovative AI-powered products and solutions.\n\nWho Should Apply?\n\nDevelopers with strong .NET fundamentals, practical production experience and a genuine interest in applying AI tools and technologies to real-world software development. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 10.09,
+      "resume_variant": "backend",
+      "draft_answer": "I've owned core backend modules for cloud-native compliance platforms and built enterprise reporting portals, leveraging Azure DevOps for blue-green deployments to ensure zero-downtime rollouts, diagnosing concurrency risks to introduce RabbitMQ for guaranteed delivery, and cutting API fetch latency from 500ms to 10ms with Redis caching. My practical experience developing with LLM tool-calling and RAG for local AI agents, combined with using tools like Cursor, positions me well to contribute to your new initiatives involving AI Agents, LLMs, and AI-powered automation for enterprise applications.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-26T14:16:35+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.94,
+            "overlap": 11.26,
+            "combined": 9.63
+          },
+          "backend": {
+            "cosine": 9.26,
+            "overlap": 12.03,
+            "combined": 10.09
+          },
+          "frontend": {
+            "cosine": 5.16,
+            "overlap": 12.62,
+            "combined": 7.4
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 9.26,
+        "keyword_overlap_score": 12.03,
+        "final_score": 10.09,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.4514
+          },
+          {
+            "term": "experience",
+            "weight": 0.1845
+          },
+          {
+            "term": "applications",
+            "weight": 0.1661
+          },
+          {
+            "term": "apis",
+            "weight": 0.1292
+          },
+          {
+            "term": "core",
+            "weight": 0.0923
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-26T14:17:04+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "71c1b06ff6a677b5e0b7b09947f3760d",
+      "source": "wellfound",
+      "company": "The Drops Co",
+      "role": "Shopify Developer",
+      "url": "https://wellfound.com/jobs/4748541-shopify-developer",
+      "jd_text": "**About the Role**\n\nWe are looking for an experienced and hands-on Shopify Developer who has a strong understanding of the Shopify ecosystem and can take ownership of Shopify development projects from concept to launch and ongoing optimisation. The ideal candidate should be comfortable working across custom Shopify development, theme development, Liquid, HTML, CSS, JavaScript, Shopify APIs, third-party apps, integrations, payment gateways, inventory systems, checkout, and front-end optimisation.\nYou will work closely with the Design, UX/UI, Marketing and Business teams to convert designs, specifications and business requirements into high-performing, scalable and conversion-focused Shopify experiences.\n\n**Key Responsibilities**\n\n1. Shopify Store Development\n\n- Build, configure, launch and maintain Shopify and Shopify Plus stores.\n- Develop bespoke Shopify solutions based on business and technical requirements.\n- Customise existing Shopify themes and templates according to brand guidelines.\n- Develop custom Shopify themes and reusable sections/components.\n- Convert Figma designs, wireframes, mock-ups and technical specifications into responsive, pixel-accurate Shopify experiences. \n- Develop landing pages, product pages, collection pages, cart experiences and other storefront components.\n- Configure Shopify stores, settings, navigation, products, collections, metafields and other administrative components.\n- Maintain and enhance existing Shopify websites without impacting existing functionality.\n\n2. Shopify Theme &amp; Liquid Development\n\n- Develop and customise Shopify themes using Liquid.\n- Work extensively with Shopify's theme architecture, templates, sections, blocks and snippets.\n- Create reusable and scalable Liquid components.\n- Customise Shopify's existing themes based on business and design requirements.\n- Implement dynamic content using Shopify objects, metafields and theme settings.\n- Optimise themes for performance, scalability and maintainability.\n- Ensure themes work consistently across different browsers and devices.\n\n3. Front-End Development\n\n- Build responsive and high-quality front-end experiences using HTML5, CSS3, JavaScript, Liquid, AJAX, jQuery and ES6/ES2015+.\n- Demonstrate a strong understanding of the DOM, browser behaviour and front-end architecture.\n- Create responsive layouts for desktop, tablet and mobile.\n- Implement interactive UI components, animations and dynamic functionality where required. \n- Translate UX/UI designs into functional, production-ready experiences.\n- Maintain clean, well-structured and reusable code.\n\n4. Shopify Apps &amp; Third-Party Integrations\n\n- Evaluate, implement, configure and customise third-party Shopify applications.\n- Develop custom solutions when an existing Shopify app cannot meet business requirements.\n- Integrate Shopify with external platforms, tools and services through APIs.\n- Troubleshoot and debug third-party app integrations.\n- Work with Shopify Apps related to marketing, CRM, analytics, reviews, loyalty, shipping, payments, inventory, customer management and automation.\n- Ensure integrations are secure, reliable and scalable.\n\n5. APIs &amp; Custom Development\n\n- Work with Shopify APIs and platform capabilities to build custom functionality.\n- Experience with the Storefront API and other relevant Shopify APIs.\n- Work with Shopify's AJAX API for dynamic storefront functionality.\n- Understand and work with Shopify objects, properties and metafields.\n- Integrate external APIs and third-party services with Shopify.\n- Build custom functionality where standard Shopify features or apps are insufficient.\n- Understand API requests, responses, authentication and error handling.\n\n6. Payments &amp; Checkout\n\n- Demonstrate a strong understanding of Shopify's checkout ecosystem.\n- Configure and troubleshoot payment gateway integrations.\n- Work with payment providers and payment-related applications.\n- Understand the complete customer journey from Product → Cart → Checkout → Payment → Order Confirmation.\n- Identify and troubleshoot checkout-related issues.\n- Work with relevant Shopify checkout customisation capabilities.\n- Ensure payment and checkout experiences are reliable and user-friendly.\n\n7. Inventory &amp; E-Commerce Operations\n\n- Understand product creation and management, product variants and collections.\n- Understand inventory management and multiple inventory locations.\n- Understand orders, customers, discounts, shipping, tax configuration and payment processing.\n- Understand returns/refunds, navigation and checkout.\n- Understand third-party inventory integrations.\n- Understand how technical changes can impact the broader e-commerce operation.\n\n8. Performance &amp; Conversion Optimisation\n\n- Continuously optimise Shopify stores for speed, performance and conversion rate.\n- Identify front-end performance bottlenecks.\n- Optimise images, scripts, CSS and JavaScript where appropriate.\n- Reduce unnecessary third-party scripts and app-related performance issues.\n- Improve Core Web Vitals and overall website performance.\n- Analyse customer journeys and identify UX friction points.\n- Implement improvements to product pages, landing pages, navigation, search, cart, checkout, forms and mobile experience.\n- Work with Marketing and Growth teams to improve conversion rates, customer acquisition and revenue performance.\n\n9. Testing &amp; Debugging\n\n- Regularly test Shopify websites before and after deployments.\n- Identify, troubleshoot and resolve functional and UI issues.\n- Use browser developer tools and console debugging effectively.\n- Conduct cross-browser and cross-device testing.\n- Test responsive layouts across desktop, tablet and mobile.\n- Debug JavaScript errors, Liquid errors, API issues, app conflicts, theme issues, checkout issues and tracking/integration issues.\n- Ensure new functionality does not negatively impact existing features.\n\n10. Collaboration with Design &amp; Marketing Teams\n\n- Work closely with UX/UI designers to translate designs into functional Shopify experiences.\n- Collaborate with Marketing and Growth teams on landing pages, campaigns and conversion optimisation.\n- Work with designers to maintain consistency with brand guidelines.\n- Provide technical feedback on designs and proposed functionality.\n- Communicate technical limitations, dependencies and possible solutions proactively.\n- Work with internal and external technology partners when required.\n\n**Required Technical Skills**\n\n- Shopify\n- Strong hands-on experience with Shopify.\n- Strong understanding of Shopify's architecture and ecosystem.\n- Experience building, launching and maintaining Shopify stores.\n- Strong understanding of Shopify Admin.\n- Experience with custom and pre-built Shopify themes.\n- Strong knowledge of Shopify Liquid.\n- Experience with Shopify APIs and Storefront API.\n- Experience with Shopify AJAX API.\n- Strong understanding of Shopify objects and properties.\n- Experience working with Shopify Metafields.\n- Experience with Shopify Apps and third-party integrations.\n- Understanding of Shopify checkout and payment workflows.\n- Front-End Development\n- Strong knowledge of HTML5, CSS3, JavaScript, DOM, AJAX, jQuery, ES6/ES2015+, responsive web design and browser developer tools.\n- Experience with modern JavaScript frameworks is an advantage.\n- APIs &amp; Integrations\n- REST APIs, JSON, third-party API integrations, webhooks, authentication, API debugging, third-party services, Shopify Apps and plugins.\n- E-Commerce Knowledge\n- Product catalogue management\n- Product variants\n- Collections\n- Inventory\n- Order management\n- Payment gateways\n- Shipping\n- Discounts\n- Customer accounts\n- Navigation\n- Search\n- Cart\n- Checkout\n- Returns and refunds\n- Marketing integrations\n- Analytics\n- Conversion tracking\n- CRM integrations\n- Third-party e-commerce applications\n- Performance &amp; SEO Knowledge\n\nA good understanding of e-commerce SEO and website performance is preferred. Experience with:\n\n- Page speed optimisation\n- Core Web Vitals\n- Technical SEO\n- Structured data\n- Mobile optimisation\n- Image optimisation\n- JavaScript optimisation\n- URL structures\n- Redirects\n- Canonicalisation\n- Google Analytics 4\n- Google Tag Manager\n- Conversion tracking\n\n\n**Qualifications**\n\n- Bachelor's degree in Computer Science, Information Technology, Software Engineering or a related field.\n- 3+ years of professional experience in Shopify development.\n- Demonstrable experience building and launching Shopify stores.\n- Strong portfolio of Shopify projects is preferred.\n- Experience working with D2C/e-commerce brands will be an advantage.\n\n**What We're Looking For**\n\n1. Hands-on: Comfortable writing code and solving technical problems independently.\n2. Business-minded: Understands that Shopify development ultimately supports sales, revenue and customer experience.\n3. Detail-oriented: Able to translate designs into accurate, polished implementations.\n4. Problem-solving oriented: Can investigate issues rather than simply identifying them.\n5. Proactive: Suggests better technical and UX solutions instead of only executing instructions.\n6. Collaborative: Comfortable working with designers, marketers, product teams and external partners.\n7. Curious: Keeps up with Shopify's evolving ecosystem, APIs, apps and development capabilities.\n8. Performance-focused: Understands the relationship between website speed, UX and conversion.\n9. Quality-conscious: Writes maintainable code and thoroughly tests before deployment.\n\nNice to Have\n\nShopify Plus\nHydrogen / Headless Shopify\nReact\nNode.js\nGit / GitHub\nShopify CLI\nCustom Shopify App Development\nStorefront API\nGraphQL\nWebhooks\nKlaviyo\nGoogle Analytics 4\nGoogle Tag Manager\nMeta Pixel / Conversions API\nCRM integrations\nERP integrations\nInventory Management Systems\nPayment Gateway integrations\nShipping platform integrations\nCRO / A/B Testing\nTechnical SEO\nPageSpeed / Core Web Vitals optimisation\nKey Success Metrics\nDeliver Shopify projects within agreed timelines.\nBuild high-quality and scalable Shopify experiences.\nMaintain and improve website performance.\nReduce bugs and technical issues.\nSuccessfully implement third-party integrations.\nImprove website usability and customer experience.\nSupport marketing initiatives with fast and reliable development.\nContribute to improved conversion rates and e-commerce performance.\nMaintain clean, scalable and well-documented code.\n\n**Why Join Us?**\n\n- You will have the opportunity to work on a growing D2C e-commerce brand, where Shopify is not simply a website platform but a core part of the customer and revenue experience.\n- You will work across technology, design, UX, marketing and growth, giving you the opportunity to influence not just how the website looks, but how it performs as a business.\n- If you enjoy building things from scratch, solving complex Shopify problems and turning great designs into seamless customer experiences, we'd love to hear from you.\n\nApply with your CV and portfolio of Shopify projects. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 10.29,
+      "resume_variant": "frontend",
+      "draft_answer": "My experience building and optimizing React and Next.js front ends, including reducing UI fetch latency from 500ms to 10ms and driving client-side UAT for large-scale portals, directly applies to developing high-performing, conversion-focused Shopify experiences with HTML, CSS, and JavaScript. I’ve also owned core client-facing modules, managed real-time inventory and multi-device cart systems, and integrated external APIs for automated workflows, equipping me to build custom Shopify solutions, manage third-party app integrations, and configure payment gateways and inventory systems end-to-end.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-26T14:16:35+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.19,
+            "overlap": 18.54,
+            "combined": 8.5
+          },
+          "backend": {
+            "cosine": 3.56,
+            "overlap": 17.67,
+            "combined": 7.8
+          },
+          "frontend": {
+            "cosine": 5.34,
+            "overlap": 21.84,
+            "combined": 10.29
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 5.34,
+        "keyword_overlap_score": 21.84,
+        "final_score": 10.29,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.096
+          },
+          {
+            "term": "technical",
+            "weight": 0.0621
+          },
+          {
+            "term": "api",
+            "weight": 0.0564
+          },
+          {
+            "term": "apis",
+            "weight": 0.0564
+          },
+          {
+            "term": "inventory",
+            "weight": 0.0552
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-26T14:16:45+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e968af47421f9af45324d7be9888d999",
+      "source": "wellfound",
+      "company": "Veersa Technologies",
+      "role": "Java Developer/Senior Java Developer",
+      "url": "https://wellfound.com/jobs/4756733-java-developer-senior-java-developer",
+      "jd_text": "**Job Description**\n\n\nPosition: **Java Developer/Senior Java Developer **\n\nExperience Required: 2 – 6 Years\n\nLocation: Sector 144, Noida (On-site/Hybrid)\n\nEmployment Type: Full-Time\n\n\n**Job Overview**\n\nWe are looking for a passionate and skilled Java Developer/Senior Java Developer with minimum 2 – 6 years of experience in developing scalable backend applications using Java and Spring Boot technologies. The ideal candidate should have hands-on coding experience, a strong understanding of object-oriented programming concepts, and the ability to work in a fast-paced Agile environment.\n\nThe candidate will be responsible for designing, developing, testing, and maintaining backend services and REST APIs while collaborating with cross-functional teams to deliver high-quality software solutions.\n\n\n**Key Responsibilities**\n\n* Design, develop, test, and maintain Java-based applications and backend services.\n* Develop scalable RESTful APIs using Java and Spring Boot.\n* Write clean, efficient, and reusable code following coding standards and best practices.\n* Work on bug fixing, debugging, performance optimization, and enhancement activities.\n* Collaborate with frontend developers, QA teams, and business stakeholders.\n* Participate in code reviews and technical discussions.\n* Ensure application security, scalability, and reliability.\n* Work with databases and optimize SQL queries when required.\n* Support deployment and production activities when needed.\n* Stay updated with emerging technologies and industry trends.\n\n\n**Must Have Skills &amp; Qualifications**\n\n* 2 – 6 years of hands-on experience in Java development.\n* Strong knowledge of Core Java, OOPs concepts, Collections, Exception Handling, and Multithreading.\n* Hands-on experience with Spring Boot, Spring MVC, and REST APIs.\n* Understanding of Microservices architecture.\n* Experience working with Hibernate/JPA.\n* Good understanding of SQL and relational databases such as MySQL or PostgreSQL.\n* Familiarity with Git/version control systems.\n* Basic understanding of Maven/Gradle build tools.\n* Knowledge of unit testing frameworks like JUnit or Mockito.\n* Good problem-solving and analytical skills.\n* Strong communication and teamwork abilities.\n* \n\n**Good to have Skills**\n\n* Exposure to Kafka/RabbitMQ or any messaging systems.\n* Knowledge of Docker/Kubernetes.\n* Familiarity with AWS/Azure cloud platforms.\n* Understanding of CI/CD pipelines and Agile/Scrum methodologies.\n* Basic frontend knowledge (HTML, CSS, JavaScript, Angular, or React) would be an advantage.\n* \n\n**Education**\n\nMust have B. Tech /B. E / M. Tech degree in Computer Science, Information Technology, or related field Noida\nlocationNames: Noida",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-26T14:16:35+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "630900d1fa2392aa17cf8f6d4e83b825",
       "source": "wellfound",
