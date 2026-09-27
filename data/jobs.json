@@ -1,15 +1,206 @@
 {
-  "exported_at": "2026-09-26T22:26:53+00:00",
+  "exported_at": "2026-09-27T03:50:37+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 729,
+    "discovered": 732,
     "pending_approval": 169,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "873ac0f24398c81670cd0fdde20e929c",
+      "source": "yc",
+      "company": "Cekura",
+      "role": "Member of Technical Staff, Cekura (San Francisco, In-Person)",
+      "url": "https://www.workatastartup.com/jobs/106505",
+      "jd_text": "## Read This First\n\nWe work with unusual intensity. In-person in San Francisco, six days a week, long days, most weekends. This is not a phase we'll grow out of. It's how we've chosen to build, because we're in a market where speed decides who wins.\n\nWe're telling you this in the first paragraph, not the last, because we only want people who read that and feel pulled in, not talked into it. If you want a 9-to-5 (genuinely, no judgment), this isn't your role, and we'd rather you know now.\n\nHere's what you get in exchange:\n\n* **Top-of-market cash.** We don't pay average salaries and ask for extraordinary hours. The comp reflects the commitment.\n* **Meaningful equity you can believe in.** Significant grants, employee-friendly terms, and our intent to create liquidity opportunities as we raise.\n* **Zero commute tax.** We support you living close to the office, with dinner at the office every night. Your hours go into building, not commuting.\n* **Founders in the trenches.** We work the same schedule we ask of you. This is a shared war, not extraction.\n* **Compression of a decade into two years.** You'll ship more, own more, and grow faster here than anywhere paying you to coast.\n\n## About Cekura\n\nCekura (YC F24) is building the voice AI engineer. Teams use Cekura to test agents before going live, monitor real production calls, and self-improve continuously. Cekura doesn't just flag issues and suggest fixes: it reproduces failures in simulation, fixes them, tests the fix thoroughly, and raises PRs. The platform spans pre-production simulation, LLM-powered evaluation, adversarial red-teaming, production monitoring with live drift detection, and cross-provider benchmarking (Vapi, Retell, Pipecat, LiveKit, ElevenLabs, and more).\n\nWe're trusted where reliability is non-negotiable: customers include Five9, HighLevel, Twin Health, PwC, Deloitte, Jobber, and Jotform, with HIPAA, SOC 2, and GDPR as defaults, not checkboxes. We're growing fast and backed by top investors.\n\n## About the Role\n\nYou'll build the core of Cekura: the simulation engines, evaluation systems, self-improvement loops, and observability pipelines our customers rely on to ship voice agents with confidence.\n\nWe deliberately don't split this into \"software engineer\" vs. \"AI engineer.\" The interesting problems live at the boundary: real-time voice infrastructure meets LLM-as-judge evaluation, distributed systems meet RL-style self-improvement loops, telephony meets audio and speech analysis (ASR quality, barge-in, latency, prosody), and classic NLP meets frontier agentic behavior. You'll work across that whole surface.\n\n## What You'll Do\n\n**Build the testing and simulation engine.** Design and ship systems that simulate thousands of realistic conversations against customer agents across voice, chat, and phone, with control over personas, interruptions, background noise, and edge cases.\n\n**Push the frontier of agent evaluation.** Build LLM-powered evaluators, metrics, and the closed self-improvement loop at the heart of the product: detect failure, reproduce in simulation, generate the fix, test it thoroughly, and raise the PR, all autonomously. This includes adversarial red-teaming for jailbreaks, PII leaks, and off-script behavior, plus production monitoring with live drift detection.\n\n**Do applied audio and speech research.** Go beyond the transcript. Separate background noise from actual speech, and map the paralinguistic layer of conversation (emotion, tone, silences, hesitations, speaking rate, overlaps) into structured signals, so agents are evaluated on _how_ something was said, not just what.\n\n**Own real-time voice infrastructure.** SIP, WebRTC, WebSockets, STT/TTS pipelines, and providers like Twilio, Vapi, Retell, LiveKit, and Pipecat. Latency, barge-in, and audio quality are first-class problems here.\n\n**Ship end-to-end.** Take features from design to production. You own the full stack of what you build: backend, infra, evals, and the product surface customers touch.\n\n**Shape how we build.** We're a small, senior team. Your architectural decisions, code standards, and technical taste will compound as the team grows.\n\n## About You\n\n* A strong generalist engineer excited to work across systems and AI, not someone looking to stay in one lane.\n* You've built and operated production systems and care about reliability, latency, and correctness.\n* Fluent in Python and comfortable picking up whatever the problem needs.\n* Strong instincts about LLMs: where they fail, how to evaluate them, how to build reliable systems on unreliable models.\n* You like ambiguity, move fast, and raise the bar for the people around you.\n* You've read the first section of this JD twice and you're still here.\n* Bonus: you're an ex-founder or aspire to be one.\n\n## Minimum Qualifications\n\n* Strong coding ability in Python, TypeScript, or Go.\n* Experience with at least one of: distributed systems, real-time infrastructure, or LLM-based products.\n* Strong written and verbal communication.\n\n## Nice to Have\n\n* Hands-on experience with LLM evals, agent frameworks, or AI observability.\n* Voice AI experience: Twilio, SIP, WebRTC, Vapi, Retell, LiveKit, Pipecat, or STT/TTS pipelines.\n* Early-stage startup experience, or early engineer at a dev-tool, infra, or AI company.\n* Open-source contributions or public technical work.\n\n## This Is Not for You If\n\n* You want a narrowly scoped role or a fixed tech stack.\n* You prefer working only on models, or only on infrastructure, never both.\n* You need rigid processes or heavy structure.\n* You're optimizing for work-life balance right now. (Later in your career, maybe. Here, now, no.)\n* You don't want to work in-person in San Francisco.\n\n## Why Cekura\n\n* The hardest problems in AI agent reliability: simulation, voice evals, real-time voice at scale.\n* A 12-person engineering team post-seed: early enough to matter, funded enough to move fast.\n* Work directly with founders and a highly technical team.\n* Meaningful equity, top-of-market compensation, fast growth.\n* US visa sponsorship available.\n* Medical, dental, vision, daily lunches and dinners, relocation support to live near the office. San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-27T03:50:31+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cd491e658158b4eedaf1165c0d266e03",
+      "source": "yc",
+      "company": "Cekura",
+      "role": "Forward Deployed Engineer (US)",
+      "url": "https://www.workatastartup.com/jobs/95171",
+      "jd_text": "## About Cekura\n\nCekura is building the infrastructure for **self-improving conversational agents**.\n\nTeams use Cekura to test, monitor, debug, and improve AI agents across voice, chat, SMS, phone, and web. We help them catch failures in latency, barge-in, tool calls, hallucinations, instruction-following, regressions, and production workflows.\n\nWe’re YC F24, growing fast, backed by top investors, and working with teams deploying AI agents in the real world.\n\n## About the Role\n\nWe’re hiring a **Forward Deployed Engineer** to work directly with technical customers and help them get value from Cekura.\n\nYou’ll sit at the intersection of customers, product, engineering, and GTM. Your job is to deeply understand how customers build agents, help them create self-improving loops with Cekura, and turn those learnings into better product and better process.\n\n## What You’ll Do\n\n**Embed deeply with customers**\\\nWork with customers to understand their agent workflows, onboard them well, and help them build continuous loops across testing, monitoring, debugging, and improvement.\n\n**Automate product insights**\\\nBuild systems and workflows that show how customers use Cekura, where they get value, where they get stuck, and where we should help next.\n\n**Drive product direction**\\\nTurn customer learnings into clear product feedback, RFCs, and roadmap input. Help us decide what to build next.\n\n**Build the FDE org**\\\nCreate the playbooks, processes, and standards for how FDE works at Cekura.\n\n## About You\n\n* You care deeply about customers and measurable outcomes.\n* You are technical enough to read API docs, inspect payloads, debug logs, and reason about systems.\n* You’re comfortable with APIs, webhooks, basic SQL, and Python or JavaScript.\n* You communicate clearly with both engineers and executives.\n* You like ambiguity, move fast, and create structure from scratch.\n* You use data to understand adoption, risk, value, and impact.\n* Bonus points - if you are an ex-founder or aspire to be a founder in the future. \n\n## Minimum Qualifications\n\n* 2+ years in a technical role at a dev-tool, infra, SaaS, or AI company.\n* Experience working with APIs, logs, dashboards, and customer debugging.\n* Comfort with basic SQL and one of Python or JavaScript.\n* Strong written and verbal communication.\n\n## Nice to Have\n\n* Early or founding FDE experience\n* Experience with LLMs, AI agents, voice AI, observability, testing, or evals.\n* Familiarity with tools like Twilio, SIP, WebRTC, Vapi, Retell, LiveKit, or Pipecat.\n* Experience working directly with technical founders or engineering teams.\n\n## This Might Not Be for You If\n\n* You need rigid processes or heavy structure.\n* You prefer pure relationship management without technical depth.\n* You don’t enjoy messy customer debugging.\n* You want a narrow, clearly defined role.\n* You don’t want to work in-person in SF\n\n## Why Cekura\n\n* Build the foundation of the FDE org.\n* Work directly with founders and a highly technical team.\n* Help define infrastructure for self-improving AI agents.\n* Meaningful equity, competitive compensation, and fast growth.\n* Medical, dental, vision, team lunches, and dinners. San Francisco, CA, US fulltime yes\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 6.73,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-27T03:50:31+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.26,
+            "overlap": 9.27,
+            "combined": 6.47
+          },
+          "backend": {
+            "cosine": 5.43,
+            "overlap": 9.77,
+            "combined": 6.74
+          },
+          "frontend": {
+            "cosine": 4.57,
+            "overlap": 11.17,
+            "combined": 6.55
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.43,
+        "keyword_overlap_score": 9.77,
+        "final_score": 6.73,
+        "top_keywords": [
+          {
+            "term": "agents",
+            "weight": 0.149
+          },
+          {
+            "term": "ai",
+            "weight": 0.149
+          },
+          {
+            "term": "technical",
+            "weight": 0.1218
+          },
+          {
+            "term": "experience",
+            "weight": 0.0812
+          },
+          {
+            "term": "directly",
+            "weight": 0.0745
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7fe2d6f7c185ea492b284f5ba3c5ab0f",
+      "source": "yc",
+      "company": "Cekura",
+      "role": "Founding GTM, Cekura (San Francisco, In-Person)",
+      "url": "https://www.workatastartup.com/jobs/107901",
+      "jd_text": "## Read This First\n\nWe work with unusual intensity. In-person in San Francisco, six days a week, long days, most weekends. This is not a phase we'll grow out of. It's how we've chosen to build, because we're in a market where speed decides who wins.\n\nWe're telling you this in the first paragraph, not the last, because we only want people who read that and feel pulled in, not talked into it.\n\nHere's what you get in exchange:\n\n* **Founding GTM title and scope.** You're not joining a sales team, you're building the machine that a future team will run. Your playbook becomes the company's playbook.\n* **Meaningful equity you can believe in.** Significant grants, employee-friendly terms, and our intent to create liquidity opportunities as we raise.\n* **Strong cash + uncapped upside.** Competitive base with commission structure you help design.\n* **Founders in the trenches.** We sell alongside you. Every deal you source gets founder attention.\n* **Compression of a decade into two years.** You'll build pipeline, close logos, and shape GTM strategy at a pace no later-stage company can offer.\n\n## About Cekura\n\nCekura (YC F24) is building the voice AI engineer. Teams use Cekura to test agents before going live, monitor real production calls, and self-improve continuously. Cekura doesn't just flag issues and suggest fixes: it reproduces failures in simulation, fixes them, tests the fix thoroughly, and raises PRs.\n\nWe're trusted where reliability is non-negotiable: customers include Five9, HighLevel, Twin Health, PwC, Deloitte, Jobber, and Jotform, with HIPAA, SOC 2, and GDPR as defaults, not checkboxes. We're growing fast and backed by top investors.\n\n## About the Role\n\nYou'll own revenue end to end: source it, work it, close it. Voice AI is exploding, and every team deploying an agent has a reliability problem, most just don't know how to name it yet. Your job is to find them, teach them, and carry the deal from first touch to signed contract.\n\nThis is a full-cycle, builder role. There is no SDR team feeding you meetings and no established playbook to run. You'll write the first version of both. And close the deals it produces.\n\n## What You'll Do\n\n**Build the outbound machine.** Design and run the full prospecting motion: ICP definition, account research, multi-channel sequences (email, LinkedIn, phone, events), and the tooling stack behind it.\n\n**Close full-cycle.** Run discovery, demos, technical evaluation, procurement, and negotiation through to signature. Founders join your key deals, but the deals are yours to drive.\n\n**Sell a technical product to technical buyers.** Our buyers are heads of engineering, VPs of CX, and AI leads deploying voice agents. You'll run discovery that goes deep on latency, barge-in, evals, and CI/CD for agents, and demo credibly alongside founders.\n\n**Turn conferences and communities into pipeline.** Voice AI has a dense ecosystem (hackathons, meetups, provider communities around Vapi, Retell, LiveKit, Pipecat). You'll work it in person.\n\n**Write the playbook.** Document what works: messaging, objection handling, qualification criteria, sequences. What you build is what the next five GTM hires will run.\n\n**Feed the product loop.** You're the voice of the market inside a 12-person engineering-heavy team. What you hear in discovery calls shapes the roadmap.\n\n## About You\n\n* You were an engineer first. You wrote production software (or something close: data science, solutions architecture, technical consulting) before moving toward the business side.\n* You then broadened deliberately: consulting, an MBA, BizOps, sales engineering, or founding something. You chose the commercial side; you didn't fall into it.\n* You want to build a GTM function, not inherit one. Ambiguity energizes you.\n* You can whiteboard how an LLM-based voice agent works and where it breaks, and you're comfortable being the least technical person in the room without being lost.\n* You write exceptionally well. Outbound lives or dies on writing.\n* Deep familiarity with US enterprise buyers and how they purchase software.\n\n## Minimum Qualifications\n\n* 2+ years in a technical role (software engineering or adjacent) at some point in your career.\n* 2+ years in a commercial, consulting, or GTM-adjacent role.\n* Authorized to work in the US.\n* Strong written and verbal communication.\n\n## Nice to Have\n\n* MBA or strategy consulting background on top of an engineering foundation.\n* Experience selling dev tools, infrastructure, or AI products.\n* Existing network among CX, contact center, or voice AI buyers.\n* Early-stage startup experience (first or founding GTM hire, or founder).\n\n## This Is Not for You If\n\n* You want an established playbook, an SDR team, and warm inbound handed to you.\n* You're a pure closer who doesn't want to prospect, or a pure prospector who hands off before the close.\n* You need rigid processes or heavy structure.\n* You're optimizing for work-life balance right now.\n* You don't want to work in-person in San Francisco.\n\n## Why Cekura\n\n* Own the full revenue cycle for one of the most urgent problems in AI: every voice agent in production needs reliability infrastructure.\n* Real enterprise logos already on the board (Five9, PwC, Deloitte) proving the market pulls.\n* A 15-person team post-seed: early enough that your playbook defines the company's GTM DNA.\n* Meaningful equity, competitive base plus uncapped commission, fast growth.\n* Medical, dental, vision, daily lunches and dinners. San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 6.46,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-27T03:50:31+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.55,
+            "overlap": 10.93,
+            "combined": 6.46
+          },
+          "backend": {
+            "cosine": 3.52,
+            "overlap": 9.4,
+            "combined": 5.28
+          },
+          "frontend": {
+            "cosine": 2.46,
+            "overlap": 9.22,
+            "combined": 4.49
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.55,
+        "keyword_overlap_score": 10.93,
+        "final_score": 6.46,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1595
+          },
+          {
+            "term": "ai",
+            "weight": 0.1291
+          },
+          {
+            "term": "technical",
+            "weight": 0.0905
+          },
+          {
+            "term": "agent",
+            "weight": 0.0553
+          },
+          {
+            "term": "agents",
+            "weight": 0.0553
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "2b7271e172fb890dae3206c3ed551aa4",
       "source": "wellfound",
