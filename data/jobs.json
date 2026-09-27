@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-09-27T03:50:37+00:00",
+  "exported_at": "2026-09-27T07:53:13+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 732,
+    "discovered": 733,
     "pending_approval": 169,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "df9894e8f7e535988dbdf08bf175ba6b",
+      "source": "wellfound",
+      "company": "DevsUnite",
+      "role": "Software Engineer (New Graduates)",
+      "url": "https://wellfound.com/jobs/4776891-software-engineer-new-graduates",
+      "jd_text": "**Apply here**: https://devsunite.com/jobs/graviton-research-capital-llp-software-engineer-2027-graduate-gurugram-sep2026-2a7dfc?utm_source=wellfound\n\n**Role Overview**\n\nJoin as a Software Engineer to build ultra‑low‑latency, high‑performance systems that power quantitative research and live trading. You’ll work on distributed infrastructure, optimize performance at the hardware level, and collaborate with researchers to turn models into production‑grade software.\n\n**Responsibilities**\n\nDesign and build high‑performance, low‑latency systems in modern C++.\n\nDevelop distributed systems that process massive volumes of market data.\n\nEnsure latency, throughput and reliability directly impact trading performance.\n\nWork on Linux systems, networking, concurrency and multithreaded applications.\n\nProfile systems, identify bottlenecks and optimize performance at hardware and software levels.\nBuild robust infrastructure supporting quantitative research and live trading.\n\nDebug complex production systems where correctness and reliability are critical.\n\nDesign internal platforms and developer tools that accelerate research and engineering productivity.\n\nExplore AI‑powered developer tools and intelligent automation to improve engineering workflows.\n\nCollaborate with quantitative researchers to turn ideas and models into reliable production systems.\n\nParticipate in architecture discussions, technical design reviews and code reviews.\n\nTake ownership of systems from design and implementation through deployment, monitoring and continuous improvement.\n\n**Requirements**\n\nProficiency in modern C++.\n\nStrong experience with Linux systems.\n\nSolid understanding of networking concepts.\n\nExpertise in concurrency and multithreaded programming.\n\nSkills in performance profiling and optimization (hardware and software level).\n\nExperience building distributed systems that handle massive market data volumes.\n\nKnowledge of low‑latency, high‑throughput system design.\n\nAbility to debug complex production systems and ensure correctness.\n\nExperience creating developer tools and AI‑powered automation.\n\nAbility to collaborate effectively with quantitative researchers. Gurugram\nlocationNames: Gurugram",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-27T07:53:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "873ac0f24398c81670cd0fdde20e929c",
       "source": "yc",
