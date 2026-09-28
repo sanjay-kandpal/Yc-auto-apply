@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-09-28T10:39:43+00:00",
+  "exported_at": "2026-09-28T18:06:08+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 736,
     "pending_approval": 170,
-    "discovered": 734,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "ad7bd71fa1112ca705e6d96d12d2a71d",
+      "source": "wellfound",
+      "company": "AeroLeads",
+      "role": "Core Team Developer - AI & Automation (AI Hacker)",
+      "url": "https://wellfound.com/jobs/4776899-core-team-developer-ai-automation-ai-hacker",
+      "jd_text": "{Please ONLY apply if you are in Bangalore or willing to move to Bangalore}\n\n[AeroLeads](https://aeroleads.com) is a B2B data and sales intelligence software. We are a small startup, 8 years old and get around 10k signups every month.\n\nWe are looking for someone with a strong understanding of AI tools, automation and, more importantly, the intelligence to figure out how to use them to solve real problems.\n\nRight now knowledge has become somewhat commoditized. It is okay if you don’t know React, DevOps or a particular web framework. You can use tools like Claude Code, Codex and other AI tools to help you do the work.\n\n**What matters much more to us is how you apply yourself.**\n\nCan you understand a problem properly? Can you break it down, visualize a solution and then actually build it? Can you figure things out yourself when there is no clear answer?\n\nWe are looking for someone with strong problem-solving skills, discipline, curiosity and good work ethics.\n\nYou will work across both the product and growth side of AeroLeads. This isn’t a role where you will just be given coding tickets all day. We want someone who can look at a problem and think about how software, AI and automation can solve it.\n\n**Some of the problems you may work on:**\n\n1. How can we automate more of our marketing?\n2. How can we automate parts of sales and customer support?\n3. How can we increase AeroLeads’ brand awareness?\n4. How can we reach more people through email marketing, WhatsApp and other channels?\n5. How can we use AI to improve our existing software and internal processes?\n6. What repetitive work are we doing today that can simply be automated?\n\nWe would prefer you to be in Bengaluru. It helps us meet face to face, build chemistry, share ideas, give feedback and work together as a cohesive team.\n\nAgain, your exact skill set doesn’t make that much difference to us. You don’t need to tick 20 different technology boxes.\n\n**What we care about is strong analytical and critical-thinking ability, problem-solving skills, curiosity and a genuine desire to build, experiment, innovate and design systems.**\n\nIf you are the kind of person who sees a problem and immediately starts thinking “there must be a better way to do this”, you will probably enjoy working with us.\n\nAlso, one small note: we normally get 1000+ applications on Wellfound within the first couple of days (at least that’s what we’ve noticed in the past), so there is a good chance we may not be able to personally reply to everyone.\n\n**If you apply, show us what you have built or automated**. It doesn’t have to be a big project. We are much more interested in how you think and what you can do than a long list of technologies on your resume. Bengaluru Bangalore Rural Bangalore Urban\nlocationNames: Bengaluru Bangalore Rural Bangalore Urban",
+      "match_score": 5.9,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-28T18:06:07+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.02,
+            "overlap": 7.95,
+            "combined": 5.9
+          },
+          "backend": {
+            "cosine": 4.86,
+            "overlap": 7.52,
+            "combined": 5.66
+          },
+          "frontend": {
+            "cosine": 3.84,
+            "overlap": 10.19,
+            "combined": 5.75
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.02,
+        "keyword_overlap_score": 7.95,
+        "final_score": 5.9,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1996
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.1632
+          },
+          {
+            "term": "team",
+            "weight": 0.0822
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.0816
+          },
+          {
+            "term": "tools",
+            "weight": 0.0816
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c404f0f10d0f8198d48ccfabc128e294",
+      "source": "wellfound",
+      "company": "pst.ag",
+      "role": "AI Data Engineer",
+      "url": "https://wellfound.com/jobs/4362965-ai-data-engineer",
+      "jd_text": "Specification-Driven Extraction Engineering:\n* Design and maintain declarative extraction specifications—using Pydantic models, JSON schemas, or domain-specific languages—that describe exactly which fields to capture, their types, and validation rules.\n* Implement pipelines that translate these specifications into executable extraction plans, leveraging both classical (Scrapy, Playwright) and AI-augmented (LLM-based semantic parsing) backends.\n* Build reusable specification libraries for recurring data types (product prices, tariff codes, regulatory texts) to accelerate onboarding of new sources.\n\nAutonomous &amp; Self-Healing Systems:\n* Deploy self-healing spiders that automatically detect website layout changes and repair themselves using Model Context Protocol (MCP) servers (e.g., Scrapy MCP Server, Playwright MCP).\n* Integrate semantic extraction (Scrapy-LLM, custom LLM pipelines) to eliminate selector brittleness—spiders rely on field descriptions, not fragile XPaths.\n* Hands-on experience building AI agents and orchestration systems.\n* Orchestrate complex, multi-step browsing workflows with agentic frameworks (BMAD/TEA, AutoGPT-like agents) that reason about page state, adapt to anti-bot measures, and correct their own behaviour in real time.\n\nPlatform Thinking &amp; Reusability:\n* Move beyond one-off scrapers: build a component-based extraction platform where selectors, login handlers, and pagination logic are shared, versioned, and tested.\n* Implement monitoring, alerting, and automatic rollback for failed extraction runs.\n* Champion ethical crawling by design—rate limiting, robots.txt respect, and compliance with GDPR/CCPA are built into the specification layer, not retrofitted.\n\nCollaboration &amp; Continuous Innovation:\n* Partner with data scientists and domain experts to refine extraction specifications for complex, unstructured domains (e.g., legal texts, tariff classifications).\n* Evaluate and pilot emerging tools to push automation coverage beyond 90%.\n* Document and evangelise specification-driven best practices across the engineering organisation.\n\nQualification:\n* Bachelor’s degree in Computer Science\n* 3+ years of experience in web scraping or data extraction\n\n\nRequired Skills:\n\n* Proficiency with Python\n* Experience with specification-Driven Extraction\n* Experience with LangChain, LangGraph, LlamaIndex, AutoGen\n* Hands‑on use of Scrapy‑LLM, Scrapy MCP Server, or similar systems that decouple field definitions from page structure\n* Familiarity with frameworks that give LLMs browser control (Playwright + MCP, BMAD/TEA) to handle complex, non‑deterministic crawling tasks.\n* Design and implement autonomous data extraction agents that can make decisions about source selection, retry logic, and parsing strategies\n* Classical Scraping Fundamentals\n* Data Validation &amp; Storage – Ability to define validation rules within specifications and land clean data into SQL/NoSQL databases or data lake\n* Basic API integration and authentication flows.\n* HTTP, DOM, XPath, CSS.\n\n\nNice to Haves: \n* Contributions to open-source scraping or AI-automation projects.\n* Contributions to open-source scraping or AI-automation projects.\n* Familiarity with data privacy engineering (GDPR, CCPA) baked into specification design.\n* DevOps light – Docker, CI/CD for testing extraction specifications.\n\n\nMindset &amp; Approach (Non-Negotiable):\n* Strong belief that the future of scraping is declarative, not imperative. \n* Candidate rather write a schema that says “extract the price” than debug an XPath when a website redesigns.\n* Looking to shift from “code that scrapes” to “systems that understand extraction” Weimar\nlocationNames: Weimar\nremote: true",
+      "match_score": 9.59,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-28T18:06:07+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.03,
+            "overlap": 11.59,
+            "combined": 9.1
+          },
+          "backend": {
+            "cosine": 8.38,
+            "overlap": 12.41,
+            "combined": 9.59
+          },
+          "frontend": {
+            "cosine": 5.04,
+            "overlap": 14.08,
+            "combined": 7.75
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 8.38,
+        "keyword_overlap_score": 12.41,
+        "final_score": 9.59,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.1701
+          },
+          {
+            "term": "ai",
+            "weight": 0.1156
+          },
+          {
+            "term": "llm",
+            "weight": 0.0925
+          },
+          {
+            "term": "experience",
+            "weight": 0.0756
+          },
+          {
+            "term": "agents",
+            "weight": 0.0694
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "3d169dc82f9b60dc9dc1bc9ed29d9bc4",
       "source": "wellfound",
