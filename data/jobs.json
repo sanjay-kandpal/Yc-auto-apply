@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-09-29T17:44:32+00:00",
+  "exported_at": "2026-09-29T22:05:19+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "pending_approval": 172,
     "discovered": 749,
-    "pending_approval": 171,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "280273b120be4d8f4257fa7d1138418a",
+      "source": "wellfound",
+      "company": "Kongu Engineering and Software Systems",
+      "role": "Full Stack Engineer (MERN, AI-Assisted Development)",
+      "url": "https://wellfound.com/jobs/4781570-full-stack-engineer-mern-ai-assisted-development",
+      "jd_text": "### About Us\nKongu Engineering and Software Services (Kongu ESS) was founded in Singapore in 2024 and opened its Indian branch in September 2026. We are a fast-growing tech company solving international engineering problems in software, electronics, and AI/ML. \n\n### The Role\nYou will work on international, cutting-edge projects that start from new concepts and ideas. You will use AI coding tools (Lovable, Claude Code, or similar) to write code, unit tests, and automated tests, but you own the result. Every line must be reviewed, understood, and tested by you. We are looking for creative, independent thinkers who take full ownership. \n\n### What You Will Do\n* Build and maintain web applications using MongoDB, Express.js, React.js, and Node.js. \n* Design REST APIs and MongoDB schemas and integrate AI and third-party services. \n* Use AI coding agents for development and testing, and manually review all AI-generated code. \n* Own tasks from requirement clarification through design review to delivery. \n* Follow the team process: stand-ups, task tracking, design reviews, and code reviews. \n* Mentor junior developers and help raise code quality.\n\n### What You Need \n\n* 3+ years of hands-on MERN stack experience. \n* Strong JavaScript (ES6+), React Hooks, and state management (Redux/Zustand). \n* MongoDB schema design, aggregation, and indexing. \n* JWT/OAuth authentication, and unit testing (Jest or similar). \n* Hands-on experience with AI coding tools in real projects. \n* Git, PR workflows, and Agile practices. \n* Good to have: TypeScript, CI/CD, AWS, multi-tenant apps. \n\n### Work Setup \nYour own laptop, uninterrupted high-speed internet (with backup), and uninterrupted power supply (UPS/inverter). \n\n### Why Join Us \nInternational projects, new ideas, AI-first development, and the chance to grow with an early-stage team. India\nlocationNames: India\nremote: true",
+      "match_score": 11.25,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've designed microservices architectures and built full-stack web applications using MongoDB, Express.js, React.js, and Node.js in multiple projects, coupled with hands-on experience running and validating local AI agent tool-calling. My ownership of tasks from client requirements to deployment, including diagnosing concurrency risks, integrating message brokers, and cutting API fetch latency by 98% for cloud-native platforms, directly prepares me for solving international engineering problems from new concepts.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-29T22:05:02+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.24,
+            "overlap": 11.26,
+            "combined": 11.25
+          },
+          "backend": {
+            "cosine": 10.31,
+            "overlap": 11.28,
+            "combined": 10.6
+          },
+          "frontend": {
+            "cosine": 8.84,
+            "overlap": 12.62,
+            "combined": 9.97
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 11.24,
+        "keyword_overlap_score": 11.26,
+        "final_score": 11.25,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3135
+          },
+          {
+            "term": "code",
+            "weight": 0.1602
+          },
+          {
+            "term": "stack",
+            "weight": 0.0968
+          },
+          {
+            "term": "team",
+            "weight": 0.0968
+          },
+          {
+            "term": "js",
+            "weight": 0.0961
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-09-29T22:05:16+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "e0e0b1315c8b6922bf61804600fa1374",
       "source": "wellfound",
