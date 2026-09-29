@@ -1,15 +1,323 @@
 {
-  "exported_at": "2026-09-29T00:15:45+00:00",
+  "exported_at": "2026-09-29T08:11:10+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 737,
+    "discovered": 743,
     "pending_approval": 170,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "b8751e0ed318d009d1c6551d172c2a5f",
+      "source": "wellfound",
+      "company": "Payle",
+      "role": "Mobile Engineer | iOS (React Native + Swift)",
+      "url": "https://wellfound.com/jobs/4772676-mobile-engineer-ios-react-native-swift",
+      "jd_text": "### Payle is building the money layer for AI agents. The financial infrastructure that lets autonomous AI software pay for things under human-defined rules.\n\n*You would own the mobile side of Payle end to end.*\n\n**What you'd build:**\n\n1. The approval moment: \"Your agent wants to spend $18 — approve?\" One tap, Face ID. Mobile-first. The most important screen in the product.\n2. Chat concierge: users talk to their agent through a chat interface with tool cards, comparison cards, and receipts \n3. Card stack UI: one user, many financial identities — each agent gets its own card\n4. Savings section: FDIC-insured deposits with auto-sweep between spending and savings\n5. Design system.\n\n\n**You:**\n\n1. React Native / Expo experience — you've shipped apps to the App Store\n2. Swift knowledge for native modules (Face ID, APNs push, local authentication)\n3. You understand that a fintech app is not a social media app: the approval moment is not a \"like\" button, it's a decision about money\n4. Design sensibility: you care about the gap between \"it works\" and \"it feels premium\"\n\n**We use:**\n\nReact Native + Expo (dev client EAS), TypeScript strict, Tailwind, Reanimated, expo-notifications, expo-local-authentication. Design tokens already defined. Backend is Go with typed API contracts. \n\nDesign system exists in Figma.\n\n*Deadline: Open until filled. We review applications weekly.* San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 8.22,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-29T08:11:08+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.69,
+            "overlap": 9.27,
+            "combined": 7.46
+          },
+          "backend": {
+            "cosine": 5.49,
+            "overlap": 8.65,
+            "combined": 6.44
+          },
+          "frontend": {
+            "cosine": 7.58,
+            "overlap": 9.71,
+            "combined": 8.22
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 7.58,
+        "keyword_overlap_score": 9.71,
+        "final_score": 8.22,
+        "top_keywords": [
+          {
+            "term": "native",
+            "weight": 0.1474
+          },
+          {
+            "term": "app",
+            "weight": 0.1105
+          },
+          {
+            "term": "react",
+            "weight": 0.1105
+          },
+          {
+            "term": "end",
+            "weight": 0.0901
+          },
+          {
+            "term": "ui",
+            "weight": 0.0557
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c60dc436f7d4154c0a451cb5ea1ee348",
+      "source": "wellfound",
+      "company": "Chat360",
+      "role": "Forward Deployed Engineer",
+      "url": "https://wellfound.com/jobs/4325939-forward-deployed-engineer",
+      "jd_text": "We're looking for an AI-native Forward Deployed Engineer who thrives in fast-paced environments and loves solving real customer problems.\n\nWhat You'll Do\n\nWork directly with customers &amp; the Founder to understand business challenges and design AI-powered solutions.\nDesign and build AI-powered solutions tailored to customer &amp; internal use cases\nPrototype rapidly and deploy production-grade solutions.\nBuild, deploy, and iterate on products using LLMs, APIs, and modern engineering stacks.\nBridge the gap between Engineering, Product, and Customer Success.\n\nWhat We're Looking For\n\nStrong Computer Science / Engineering background.\n AI-native mindset with hands-on experience using modern AI tools and models.\nHungry builder DNA: ex-founder, ex-co-founder, early-stage startup operator, or someone who has built products from scratch.\nStrong coding, problem-solving, and communication skills.\nComfortable working directly with customers and senior stakeholders.\nYou move fast, take ownership; thrive in ambiguity &amp; drive solutions on the go\n\nWhy Join\nOwn high-impact customer deployments.\nWork on cutting-edge AI applications.\nBuild, ship, and influence product direction from day one. Gurgaon Gurgaon\nlocationNames: Gurgaon Gurgaon",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-29T08:11:08+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "01dbb9868ef055c38afaffef9ba9fe0b",
+      "source": "wellfound",
+      "company": "REPLACI",
+      "role": "Backend & Devops engineer",
+      "url": "https://wellfound.com/jobs/4778771-backend-devops-engineer",
+      "jd_text": "Devops &amp; Backend engineer\nAbout the role Job Title: DevOps Engineer with backend Expertise (Individual Contributor) Location: Gurugram, Haryana Employment Type: Full Time Experience: 4-6 Years\n\nAbout Us We are building cutting-edge visualisation solutions for the furniture retail industry, helping retailers and customers experience products like never before. Using advanced AI and real- time 3D rendering, our platform enables immersive product visualisation directly in the client's own environment.\n\nRole Overview We are looking for a dynamic and talented DevOps Engineer with 3-5 years of experience who is passionate about building efficient, scalable systems and has a strong foundation in backend development. If you are well-versed in AWS, enjoy automating workflows, and have backend skills in Python and Django.\n\nKey Responsibilities\n\nDevOps • Design, implement, and maintain CI/CD pipelines to support continuous integration and delivery. • Manage cloud infrastructure on AWS, including EC2, S3, Lambda, RDS, and other services. • Monitor and troubleshoot system performance, ensuring 99.99% uptime. • Implement security best practices and automate system monitoring/alerting.\n\nBackend Development • Develop and maintain APIs and backend services for applications built with React Native. • Optimize application performance and ensure seamless integration with front-end components. • Collaborate with the front-end team to align backend services with the product roadmap.\n\nRequirements Experience: • Minimum 3 years of hands-on experience in DevOps engineering. • Proficiency in AWS services and cloud infrastructure management. • Experience in backend development using Python &amp; Django.\n\nSkills: • Strong knowledge of CI/CD tools like GitHub. • Experience with containerization tools such as Docker and Kubernetes. • Proficient in RESTful API development and server-side programming. • Familiarity with database technologies such as PostgreSQL, MongoDB, or DynamoDB. • Understanding of networking concepts and system security best practices.\n\nWhy join us:\n\nAt Replaci, you’ll be part of a pioneering SaaS company that’s redefining the furniture industry through cutting-edge AI visualization technology. As a Full Stack Engineer, you’ll work with a passionate team building robust, scalable, and user-friendly applications that power our core product. We offer a fast-paced, innovation-driven environment where your contributions have a direct impact. Join us to work on challenging tech, grow your skills across the stack, and help shape the future of AI-powered tools.\n\nSoft Skills: • Strong problem-solving and troubleshooting skills. • Excellent communication and teamwork abilities. • Proactive mindset with a focus on continuous improvement. Gurugram\nlocationNames: Gurugram",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-29T08:11:08+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ca979adb46e1eb064a94cc0ea863ef87",
+      "source": "wellfound",
+      "company": "Elementskill",
+      "role": "Senior Associate - .NET (Full Stack)",
+      "url": "https://wellfound.com/jobs/4777711-senior-associate-net-full-stack",
+      "jd_text": "Dear Candidates.\n\nGreetings.\n\n🚨 URGENT HIRING | IMMEDIATE JOINERS + F2F INTERVIEW MANDATORY 🚨\nSenior Associate – .NET | Pune\n\nWe are hiring an experienced .NET / Full Stack .NET Developer for a leading global technology organization.\n📍 Location: Pune\n🏢 Work Mode: Hybrid – 3 Days WFO per week\n⏰ Joining: Immediate Joiners / Short Notice Period Preferred\n🤝 Interview: F2F Interview is Mandatory\nTotal Experience: 3+ yrs\n\n🔑 Key Skills Required\n**C# &amp; .NET Core / ASP.NET Core\nSQL Server &amp; Entity Framework / EF Core\nReact – Angular / Vue.js also considered\nJavaScript &amp; TypeScript\nREST APIs / Web APIs\nMicroservices Architecture\nEvent-driven architecture\nAzure / Cloud Technologies\nCI/CD &amp; DevOps\nUnit Testing / Automated Testing / TDD\nSOLID Principles &amp; Clean Architecture\nAgile / Scrum**\n\n💻 Key Responsibilities\nDevelop and maintain scalable enterprise applications using **C# and .NET Core.**\nBuild **REST APIs, Web APIs, Microservices and event-driven solutions.**\nWork with React/Angular and modern JavaScript technologies.\nFollow SOLID principles, design patterns and clean coding practices.\nDevelop secure, scalable and maintainable applications.\nWork with Azure cloud technologies and cloud-based solutions.\nContribute to automated testing, CI/CD and DevOps practices.\nParticipate in Agile ceremonies, code reviews and technical discussions.\nCollaborate with Architects, Product, QA and DevOps teams.\nContribute to application performance, reliability and continuous improvement.\n\n🎯 Candidate Profile\nWe are looking for candidates with strong hands-on experience in:\n**C# + .NET Core + SQL Server + Entity Framework + React/Angular + Azure + Microservices**\n\n⚠️ Important Requirements\n**Immediate Joiners / Short Notice Period Candidates Preferred\nF2F Interview is Mandatory**\nCandidate should be comfortable working from Pune office 3 days per week.\n\n📩 Interested candidates can share their updated CV at [manju@elementskill.com]\n\n#UrgentHiring #ImmediateJoiner #F2FInterview #DotNetDeveloper #DotNetJobs #DotNetCore #CSharp #FullStackDeveloper #ReactJS #Angular #Azure #Microservices #PuneJobs #ITJobs #TechHiring Pune\nlocationNames: Pune",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-29T08:11:08+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "63a5d009d98761bac66882535ee3a30e",
+      "source": "wellfound",
+      "company": "Mark AI",
+      "role": "Forward Deployed Engineer (Elixir)",
+      "url": "https://wellfound.com/jobs/4778796-forward-deployed-engineer-elixir",
+      "jd_text": "### About the role\n\n**MarkAI** is hiring a **Forward Deployed Engineer (FDE)** to work on-site with one of our flagship clients: a high-growth fintech that has raised **$50M+** and runs mission-critical systems on Elixir. You'll be a MarkAI engineer embedded in the client's team. You'll own real production work end to end, from understanding the business problem to shipping, monitoring and iterating.\n\n*This role suits a strong Elixir engineer who likes being close to users and business stakeholders, moves fast, and wants to see their code handle real money at real scale.*\n\n### What you'll do\n\n- Design, build and ship production features in **Elixir** for a fintech platform handling real financial transactions\n- Build real-time, local-first sync features with **ElectricSQL** on top of **PostgreSQL**\n- Work directly with the client's engineering, product and business teams to turn requirements into working software, fast\n- Own the reliability, performance and observability of the services you build\n- Debug hard production issues across the stack: concurrency, distributed state, database performance\n- Act as MarkAI's technical voice on-site: scope work, flag risks early and raise the engineering bar\n- Feed field learnings back to the MarkAI team to improve our tools and delivery playbooks\n\n### Must have\n\n- Strong hands-on production experience with **Elixir**\n- Working knowledge of **PostgreSQL/ElectricSQL** and real-time sync patterns\n- Comfortable owning features end to end in a fast-moving, high-stakes environment\n- Clear communicator who can work directly with non-engineering stakeholders\n- Willing to work **full-time from the client's office**\n\n### Nice to have\n\n- Previous experience in fintech, payments, lending or banking systems\n- Experience with distributed Systems\n- Background in forward-deployed or client-facing engineering roles\n- Contributions to Elixir open-source projects\n\n### Why join\n\n- Build high-impact systems at a **well-funded fintech**, backed by a lean, fast-moving team at MarkAI\n- **Real ownership:** your work ships to production and matters from week one\n- **Competitive pay of up to ₹30 LPA**, based on experience\n- Grow into a senior FDE or lead role as the practice expands\n\n### Interview process\n\n1. Intro call with MarkAI Founders (30 min)\n2. Technical round: Elixir / distributed systems (AWS) (60 min)\n3. Final conversation with the Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-29T08:11:08+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a2d0e2cf4b401d007f9e25b5a5bdfa1c",
+      "source": "wellfound",
+      "company": "tutordock.ai",
+      "role": "Software Engineering, AI Research",
+      "url": "https://wellfound.com/jobs/4196770-software-engineering-ai-research",
+      "jd_text": "## AI Research Engineer – Complex Code Benchmark &amp; Training Data\n\n**TutorDock AI** is a team of researchers building the future of software engineering intelligence. We specialize in training AI models to solve the hardest problems in algorithms, data structures, and embedded systems. We are looking for an engineer to help us design complex software engineering problems on real codebases—both proprietary and open-source—to produce benchmarking and training data for the world's most capable code models.\n\n---\n\n### The Role\n\nIn this role, you will be at the intersection of high-level research and deep infrastructure. You will design rigorous challenges that push frontier models to their limits, ensuring that the next generation of AI is capable of handling real-world software complexity.\n\n### Key Responsibilities\n\n* **Problem Design:** Create complex software engineering challenges across diverse domains, including algorithms, computer science, and embedded systems.\n* **Data Generation:** Curate high-fidelity training and benchmarking data using real-world codebases to evaluate the world's most capable models.\n* **Infrastructure:** Leverage Docker-heavy environments to build containerized, reproducible training pipelines.\n* **Model Benchmarking:** Systematically evaluate and benchmark frontier models against the hard problems designed by our research team.\n\n### Requirements\n\n* **Technical Expertise:** Strong background in Software Engineering, Algorithms, and Data Structures.\n* **Infrastructure Skills:** Heavy experience with Docker and containerization for building scalable research infrastructure.\n* **Problem-Solving:** Ability to deconstruct complex, real-world codebases into structured training data.\n* **Research Mindset:** Experience in or a strong passion for AI research and evaluating frontier models.\n\n### Why TutorDock AI?\n\nYou will join a focused research team dedicated to solving the most difficult problems in AI for software engineering. If you are passionate about building the benchmarks that will define the future of AI capabilities, we want to hear from you. Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 9.17,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-29T08:11:08+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.56,
+            "overlap": 10.6,
+            "combined": 9.17
+          },
+          "backend": {
+            "cosine": 8.34,
+            "overlap": 10.53,
+            "combined": 8.99
+          },
+          "frontend": {
+            "cosine": 4.86,
+            "overlap": 11.17,
+            "combined": 6.75
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.56,
+        "keyword_overlap_score": 10.6,
+        "final_score": 9.17,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2526
+          },
+          {
+            "term": "data",
+            "weight": 0.1606
+          },
+          {
+            "term": "team",
+            "weight": 0.104
+          },
+          {
+            "term": "problems",
+            "weight": 0.0918
+          },
+          {
+            "term": "real",
+            "weight": 0.0918
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "3591b6bf38bc0ac1b83a5d269cd423b4",
       "source": "yc",
