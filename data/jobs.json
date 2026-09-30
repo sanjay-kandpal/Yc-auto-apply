@@ -1,15 +1,342 @@
 {
-  "exported_at": "2026-09-30T04:08:14+00:00",
+  "exported_at": "2026-09-30T08:15:17+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 172,
-    "discovered": 749,
+    "discovered": 752,
+    "pending_approval": 174,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "e40202a32455a888de7a0b056b84aca6",
+      "source": "wellfound",
+      "company": "ChatFin",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4781578-software-engineer",
+      "jd_text": "Emeryville\nlocationNames: Emeryville\nremote: true",
+      "match_score": 0.97,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T08:14:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.94,
+            "overlap": 0.33,
+            "combined": 0.76
+          },
+          "backend": {
+            "cosine": 1.0,
+            "overlap": 0.38,
+            "combined": 0.82
+          },
+          "frontend": {
+            "cosine": 1.17,
+            "overlap": 0.49,
+            "combined": 0.96
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 1.17,
+        "keyword_overlap_score": 0.49,
+        "final_score": 0.97,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1814
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "bdc38dff0470e41445a8c8ac70b0d6b4",
+      "source": "wellfound",
+      "company": "Viso",
+      "role": "AI engineer: LLMs, RAG & AI Agents",
+      "url": "https://wellfound.com/jobs/4781546-ai-engineer-llms-rag-ai-agents",
+      "jd_text": "VISO is looking for a Senior AI Engineer to build production AI systems for real businesses and technology products.\nWe work with startups and growing companies across the US and Europe, building AI products, internal automation, SaaS platforms and custom software.\nYou won’t be working on demo chatbots.\nWe’re interested in engineers who can take an AI use case from an unclear business problem to a working production system.\nWhat you’ll work on:\n- LLM-based applications and AI assistants\n- RAG and knowledge systems\n- AI agents and multi-step workflows\n- Voice AI and conversational systems\n- AI automation integrated with existing business processes\n- Evaluation, monitoring and improving AI system quality\n- Backend services and APIs around AI functionality\nWhat we’re looking for:\n- Strong Python experience\n- Hands-on experience with LLM APIs such as OpenAI, Anthropic or similar\n- Experience building RAG systems\n- Experience with vector databases / embeddings\n- Understanding of agents, tool calling and structured outputs\n- FastAPI or similar backend frameworks\n- PostgreSQL and/or other production databases\n- Experience deploying AI systems to production\n- Ability to independently design technical solutions, not only implement tickets\nStrong plus:\n- LangChain / LangGraph or similar frameworks\n- Langfuse or other LLM observability tools\n- Voice AI / Whisper / speech systems\n- Fine-tuning or model evaluation experience\n- AWS / GCP / Azure\n- Docker\n- Experience working directly with startup founders or product teams\nWhat matters most to us:\nWe care less about how many AI tools you know and more about whether you can answer:\n“How should this system actually work in production?”\nWe’re especially interested in engineers who combine strong software engineering fundamentals with practical AI experience.\nTo apply, please include:\n- 1–2 AI systems you personally built\n- What exactly you were responsible for\n- Tech stack\n- Whether the solution reached production\n- GitHub / portfolio if available Lviv Kiev\nlocationNames: Lviv Kiev\nremote: true",
+      "match_score": 11.55,
+      "resume_variant": "backend",
+      "draft_answer": "I've deployed robust FastAPI backends to production with zero-downtime blue-green releases, and my experience includes building AI agents validated for tool-calling reliability using local LLMs, and applying RAG for real-world applications. I regularly design solutions for production challenges, from diagnosing concurrency risks and introducing message brokers to optimizing API latency by 98% with caching, ensuring system stability and performance.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-30T08:14:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.51,
+            "overlap": 10.93,
+            "combined": 10.63
+          },
+          "backend": {
+            "cosine": 11.51,
+            "overlap": 11.65,
+            "combined": 11.55
+          },
+          "frontend": {
+            "cosine": 6.02,
+            "overlap": 13.59,
+            "combined": 8.29
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 11.51,
+        "keyword_overlap_score": 11.65,
+        "final_score": 11.55,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.5478
+          },
+          {
+            "term": "experience",
+            "weight": 0.2107
+          },
+          {
+            "term": "production",
+            "weight": 0.1581
+          },
+          {
+            "term": "agents",
+            "weight": 0.0967
+          },
+          {
+            "term": "llm",
+            "weight": 0.0967
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-30T08:15:16+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "300190e7bcadc088f59c6dee22bae2a3",
+      "source": "wellfound",
+      "company": "Phantom Cybernetics",
+      "role": "ROS2 Software Tooling Engineer",
+      "url": "https://wellfound.com/jobs/4781690-ros2-software-tooling-engineer",
+      "jd_text": "Phantom Cybernetics is a robotics startup based on the Vancouver Island, Canada. The company is working on ROS2 open-source tools and hosted observability, debugging and teleoperation service called Phantom Bridge:  https://docs.phntm.io/bridge\nWe are also developing proprietary software and hardware products and solutions.\n\n**Responsibilities**\nYou will be working on various research and integration projects spanning between motion planning, computer vision, mapping, navigation and human-machine collaboration based around the ROS2 ecosystem. You will work both on Human-Machine collaboration, Teleop as well as Full Autonomy using both traditional ROS2 algorithms, AI, and their combination.\n\n**Qualifications**\nOur working environment is ROS2. Proficiency in ROS2 concepts,  C++ and Python is essential. Working experience with field-deployed hardware running ROS2 will be very useful. We are looking for a hacker mindset combined with industry experience and attention to detail required when shipping reliable and polished products.\n\nThis position is intended both for engineers seeking employment, and also deeper involvement in the role of a co-founder. Long-term collaborator working on per-project basis may also apply.\n\nPlease provide examples of your recent projects and explain notable achievements.\n\n(Recruiters and outsourcing/staffing agencies will be ignored) Courtenay\nlocationNames: Courtenay\nremote: true",
+      "match_score": 4.98,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T08:14:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.56,
+            "overlap": 8.28,
+            "combined": 4.98
+          },
+          "backend": {
+            "cosine": 3.02,
+            "overlap": 7.89,
+            "combined": 4.48
+          },
+          "frontend": {
+            "cosine": 2.54,
+            "overlap": 7.77,
+            "combined": 4.11
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.56,
+        "keyword_overlap_score": 8.28,
+        "final_score": 4.98,
+        "top_keywords": [
+          {
+            "term": "based",
+            "weight": 0.0914
+          },
+          {
+            "term": "hardware",
+            "weight": 0.0914
+          },
+          {
+            "term": "experience",
+            "weight": 0.0747
+          },
+          {
+            "term": "projects",
+            "weight": 0.0747
+          },
+          {
+            "term": "recruiters",
+            "weight": 0.0564
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a8c232c56c636ee1d5d49f924528e93a",
+      "source": "wellfound",
+      "company": "Sort X",
+      "role": "Website Support & Maintenance Assistant",
+      "url": "https://wellfound.com/jobs/4756758-website-support-maintenance-assistant",
+      "jd_text": "We’re looking for a reliable and proactive Website Support &amp; Maintenance Assistant to help look after the SortX website while our platform is being developed.\n\nYour main responsibility will be to monitor the website, identify and resolve small issues, and take care of day-to-day technical and administrative tasks in the background. This role will allow our development team to stay focused on building and improving the SortX platform.\n\nKey responsibilities:\n\nMonitor the website and identify any issues or errors.\nFix small website bugs and technical problems.\nMake minor content and website updates when required.\nCheck that key website features are working correctly.\nCarry out general website maintenance.\nHandle small background tasks and troubleshooting.\nReport larger or more complex issues to the development team.\nHelp keep the website running smoothly and professionally.\n\nWhat we’re looking for:\n\nBasic experience with websites and website management.\nGood problem-solving skills.\nComfortable learning new systems and tools.\nReliable, organised and proactive.\nAbility to work independently and handle small tasks without constant supervision.\n\nThis is a support-focused role, ideal for someone who enjoys keeping websites running smoothly and solving small problems before they become bigger ones. London\nlocationNames: London\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T08:14:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b0ec9d60fc3a08437a8494d0f8d37aec",
+      "source": "wellfound",
+      "company": "Flosmart Solutions",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/4779051-full-stack-developer",
+      "jd_text": "Pay: ₹60,000.00 - ₹70,000.00 per month\n\nJob description:\n\nFull Stack Developer\n\nCompany: Flosmart\nDepartment: Technology / Product Engineering\nEmployment Type: Full-Time\nExperience: 1-2 Years\nLocation: [Mumbai / Hybrid / Remote]\n\nAbout the Role\n\nFlosmart is looking for a Full Stack Developer to join its product engineering team and contribute to the development and enhancement of multiple technology products, including the Flosmart Bundle Platform, CRM, and other business applications.\n\nThe ideal candidate will have strong hands-on experience across the MERN stack, along with practical exposure to AWS cloud infrastructure, MongoDB, asynchronous processing, file processing, and production application environments.\n\nThis role requires an engineer who can work across the complete application lifecycle — from understanding requirements and designing solutions to development, deployment, troubleshooting, and ongoing optimization.\n\nKey Responsibilities\n\nProduct Development\n\nDesign, develop, and maintain scalable web applications across Flosmart's product portfolio.\nContribute to the development of the Bundle Platform, CRM, and other current and future products.\nTranslate business and product requirements into robust technical solutions.\nDevelop reusable, modular, and maintainable frontend and backend components.\nParticipate in technical discussions, architecture decisions, and product planning.\nCollaborate with product, design, and business teams to deliver features within defined timelines.\nFrontend Development\n\nDevelop responsive and user-friendly interfaces using React.js.\nBuild reusable UI components and maintain a scalable frontend architecture.\nIntegrate frontend applications with RESTful APIs and backend services.\nImplement appropriate state management, form handling, validation, and error handling.\nOptimize frontend applications for performance, scalability, and usability.\nBackend Development\n\nDesign and develop backend services and APIs using Node.js and Express.js.\nDevelop secure and scalable RESTful APIs.\nDesign application architecture, business logic, authentication, authorization, and data workflows.\nImplement appropriate error handling, logging, validation, and security controls.\nDevelop background jobs and asynchronous processing workflows where required.\nIntegrate third-party APIs and external services into Flosmart's products.\nDatabase Engineering\n\nDesign and maintain Amazon Document DB databases and data models.\nDevelop efficient queries, aggregations, indexes, and database structures.\nIdentify and resolve database performance issues.\nEnsure data integrity, security, and appropriate access controls.\nDesign data models that support scalability and evolving product requirements.\nAWS &amp; Cloud Infrastructure\n\nDevelop and deploy applications within AWS environments.\nWork with AWS services such as:\nS3 for file and object storage\nSQS for asynchronous processing and message queues\nSES for transactional email\nEC2 / ECS / Lambda for application workloads\nCloudWatch for monitoring and logging\nIAM for access and permissions\nAssist in maintaining application infrastructure, deployments, monitoring, and production environments.\nFollow appropriate practices for security, scalability, availability, and cost optimization.\nFile Processing &amp; Asynchronous Systems\n\nDevelop and maintain workflows involving file uploads, storage, processing, and delivery.\nBuild asynchronous processing pipelines using queue-based architectures.\nHandle large or time-consuming operations through background workers and job queues.\nImplement appropriate retry, failure-handling, and monitoring mechanisms.\nWork with document and data formats such as PDF, CSV, Excel, images, and other business files where required.\nDevelop automated email and document workflows using services such as AWS SES and S3.\nProduction &amp; Engineering Practices\n\nDeploy, monitor, troubleshoot, and maintain production applications.\nDiagnose technical issues across the frontend, backend, database, and infrastructure layers.\nIdentify root causes and implement sustainable fixes.\nWrite clean, well-structured, documented, and maintainable code.\nFollow version control, code review, testing, and deployment best practices.\nContribute to improving application performance, reliability, security, and scalability.\nRequired Technical Skills\n\nStrong proficiency in JavaScript\nStrong hands-on experience with React.js\nStrong hands-on experience with Node.js and Express.js\nStrong understanding of MongoDB\nExperience building and consuming RESTful APIs\nGood understanding of web application architecture\nExperience with Git and version control\nPractical experience deploying applications to production\nWorking knowledge of AWS\nUnderstanding of asynchronous programming and background processing\nUnderstanding of authentication, authorization, API security, and application security\nAWS / Infrastructure ExperienceCandidates should have practical familiarity with cloud-based application environments and preferably experience with:\n\nAWS S3\nAWS SQS\nAWS SES\nEC2\nECS\nLambda\nCloudWatch\nIAM\nExperience with additional AWS services and cloud infrastructure is an advantage.Preferred Skills\n\nTypeScript\nDocker and containerized deployments\nCI/CD pipelines\nRedis or other caching technologies\nExperience with event-driven architectures\nExperience with WebSockets or real-time applications\nExperience with third-party API integrations\nExperience with document and file processing\nExperience with performance optimization and application monitoring\nFamiliarity with cloud security and infrastructure best practices\nExperience &amp; Qualifications\n\nBachelor's degree in Computer Science, Information Technology, Engineering, or a related discipline preferred.\n1–2 years of professional software development experience.\nDemonstrated experience building and maintaining production-grade web applications.\nStrong understanding of software development lifecycle and engineering best practices.\nExperience working in a product-driven or fast-paced technology environment is preferred.\nKey CompetenciesWe are looking for an engineer who demonstrates:\n\nStrong problem-solving ability\nOwnership and accountability\nAttention to detail\nGood understanding of software architecture\nAbility to work independently\nStrong debugging and troubleshooting skills\nAbility to understand business requirements and translate them into technical solutions\nStrong communication and collaboration skills\nCommitment to writing reliable, maintainable, and scalable software\nWhat This Role OffersThe role provides an opportunity to work across multiple products and gain exposure to the complete technology stack, including:Frontend Engineering → Backend Development → APIs → Databases → AWS Infrastructure → Asynchronous Processing → File Processing → Production Systems\n\nThe selected candidate will have the opportunity to contribute not only to feature development but also to the architecture, scalability, reliability, and long-term evolution of Flosmart's technology products.\n\nJob Types: Full-time, Permanent\n\nWork Location: Hybrid remote in India Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 16.2,
+      "resume_variant": "backend",
+      "draft_answer": "My experience developing MERN stack projects, alongside building and deploying cloud-native compliance platforms on Azure with blue-green releases after scoping client requirements, makes me a strong fit for developing the Bundle Platform, CRM, and other applications. I've cut API latency by 98% with Redis caching, guaranteed data delivery under high load using RabbitMQ, and handled production file processing, all directly applicable to building Flosmart's high-performance, asynchronous systems within AWS environments.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-30T08:14:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 13.63,
+            "overlap": 22.52,
+            "combined": 16.29
+          },
+          "backend": {
+            "cosine": 13.63,
+            "overlap": 22.18,
+            "combined": 16.2
+          },
+          "frontend": {
+            "cosine": 12.83,
+            "overlap": 24.27,
+            "combined": 16.27
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 13.63,
+        "keyword_overlap_score": 22.18,
+        "final_score": 16.2,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2053
+          },
+          {
+            "term": "aws",
+            "weight": 0.1369
+          },
+          {
+            "term": "application",
+            "weight": 0.1141
+          },
+          {
+            "term": "applications",
+            "weight": 0.1027
+          },
+          {
+            "term": "security",
+            "weight": 0.0977
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-30T08:15:03+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "280273b120be4d8f4257fa7d1138418a",
       "source": "wellfound",
