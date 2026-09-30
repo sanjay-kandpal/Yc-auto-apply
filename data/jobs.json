@@ -1,15 +1,434 @@
 {
-  "exported_at": "2026-09-30T14:44:24+00:00",
+  "exported_at": "2026-09-30T16:21:27+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 753,
-    "pending_approval": 174,
+    "discovered": 758,
+    "pending_approval": 175,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "4326884665dfb40e18739e47b18b2d3c",
+      "source": "wellfound",
+      "company": "Certa",
+      "role": "Forward Deployed Engineer",
+      "url": "https://wellfound.com/jobs/4640030-forward-deployed-engineer",
+      "jd_text": "[Certa](http://certa.ai/) is the AI-first third-party operating system. Enterprises, from the Fortune 500 to fast-growing startups, use our no-code platform to onboard, assess, and monitor their vendors, suppliers, and partners across risk, compliance, and ESG. We have processed over 10 million entities for 100,000+ users across 120+ countries, and are backed by Fin Capital, Vertex Ventures, and Point72 Ventures.\n\nWe're hiring a Forward Deployed Engineer to reinvent how Certa gets implemented. Because our no-code Studio lets you configure a workflow simply by describing it — Vibe Configuration℠ — one person can now sit with the customer, understand a requirement as it's spoken, and build it live, so they see their own workflow running in the same session. You'll work directly with Fortune 500 teams across compliance, information security, privacy, legal, procurement, finance, and sustainability — credible enough to discuss vendor-tiering policy with a Chief Procurement Officer, then open Studio and build it. You'll be one of the first people doing this, which means you'll also define how it's done.\n\n## What You'll Do\n\n- **Understand the business process:** Run discovery and design sessions with Fortune 500 teams across compliance, security, privacy, legal, procurement, finance, and sustainability — often in the same room with competing views — and learn how their third-party processes actually run today, including the parts that live in email, spreadsheets, and people's heads.\n- **Document & optimize it:** Map the current state and agree a target state against the metrics customers actually care about — onboarding cycle time, assessment turnaround, reviewer effort, audit readiness. You're not there to digitize a bad process faithfully, and a workflow that's technically correct but painful to use won't get adopted — so reviewer effort and drop-off are your problem, not theirs.\n- **Configure & automate it in Certa:** Build the workflows, forms, logic, risk scoring, and approvals in Studio using Vibe Configuration℠ — live in the room wherever possible — plus the integrations and data flows into existing systems, and debug them when they break.\n- **Own the delivery:** Own the plan, governance, and test cycle (scenarios and cases, SIT, UAT with the customer's own testers, sanity and regression), then cutover, go-live, hypercare, and a clean handover — accountable for the date and the success metrics behind it.\n- **Bring learning back from the front lines:** Find the platform's real limits before anyone else does and bring them to Product with evidence — the customer, the frequency, the cost of the workaround — and turn what you built into templates and accelerators, so the next deployment starts ahead of where yours did.\n\n## What You'll Need\n\n- **Experience:** 3+ years in customer-facing technical delivery — forward deployed engineering, solutions architecture, implementation consulting, or technical professional services.\n- **Hands-on technical skills:** Comfortable with REST APIs, JSON, webhooks, and data mapping; able to script in Python or JavaScript and debug a failure across two systems you didn't build.\n- **Production LLM experience:** You've worked with LLMs in production rather than in demos — prompts, retrieval, agent workflows, and evaluating output systematically rather than by vibes.\n- **Product-centric & shipping-biased:** You think about the user in front of the screen, not the requirement in the document, and favor shipping something usable and iterating over shipping something perfect and late.\n- **Delivery fluency:** You've carried a go-live date in front of a customer, so project plans, RAID logs, phase gates, test scenarios and cases, SIT, UAT, and regression testing are familiar ground.\n- **Communication:** Thoughtful and streamlined — you listen first, hold your own with a Chief Procurement Officer, privacy counsel, and security architect in the same room, and can say no to a customer and keep the relationship stronger for it.\n- **Domain knowledge (a plus):** Third-party risk, procurement, or compliance experience helps — we'll teach you the rest.\n\n## Compensation and Benefits\n\n- **Compensation:** Top of market salary + bonuses and equity\n- **Time off:** 49 days paid time off\n- **Benefits:** PTO, full benefits, retirement and wellness plans\n- **Growth:** Professional development support, remote workspace setup bonus\n- **Team building:** Annual company offsites in exciting locations around the world\n\n## Location\n\nCerta is a remote-first company and we hire globally. We believe strongly in each team member working from the location that they choose. Should Certers wish to meet and work in person, they have 3 lively office locations they can travel to:\n\n- London\n- San Francisco\n- Jaipur\n\nThe perfect place for Certers to collaborate, co-work, and have face-to-face meetings.\n\n## Why Certa\n\n- **Category leadership.** Certa was named a Leader in the inaugural 2026 Gartner Magic Quadrant for Third-Party Risk Management Tools — recognition that we're defining the category, not following it.\n- **Industry recognition.** We've been honored across the analyst and awards landscape, including Top Tech and Customer Value distinctions in The Hackett Group's 2026 Risk Management SolutionMap, the ProcureTech100 (Advanced AI and Risk Management categories), and Best Overall eProcurement Software in the FinTech Breakthrough Awards.\n- **A top place to work.** Certa was named one of Forbes' Best Startup Employers in the US. We're a fast-growing company where you'll wear many hats, ship quickly, and shape decisions that matter.\n- **Real scale with strong backing.** We've processed over 10 million entities for 100,000+ users across 120+ countries. We're well-funded by leading investors including Fin Capital, Vertex Ventures, and Point72 Ventures, on the back of an oversubscribed Series B, headed towards Series C.\n\nWe're excited to meet you!\n\n India\nlocationNames: India",
+      "match_score": 9.34,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T16:20:53+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.82,
+            "overlap": 15.23,
+            "combined": 9.34
+          },
+          "backend": {
+            "cosine": 6.47,
+            "overlap": 15.41,
+            "combined": 9.15
+          },
+          "frontend": {
+            "cosine": 5.19,
+            "overlap": 17.48,
+            "combined": 8.88
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.82,
+        "keyword_overlap_score": 15.23,
+        "final_score": 9.34,
+        "top_keywords": [
+          {
+            "term": "risk",
+            "weight": 0.1239
+          },
+          {
+            "term": "compliance",
+            "weight": 0.0675
+          },
+          {
+            "term": "ai",
+            "weight": 0.062
+          },
+          {
+            "term": "delivery",
+            "weight": 0.062
+          },
+          {
+            "term": "security",
+            "weight": 0.062
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "bc0e500b26a1dffcf0d57c6f77b71a5e",
+      "source": "wellfound",
+      "company": "intelgrader",
+      "role": "Software Engineer — AI & Backend (Elixir) (Clone)",
+      "url": "https://wellfound.com/jobs/4787100-software-engineer-ai-backend-elixir-clone",
+      "jd_text": "Software Engineer (Applied AI)\nIntelgrader · Gurgaon · Full-time · ₹4-6 LPA\n\nIntelgrader grades handwritten exam papers. A teacher uploads a scanned answer sheet, and we return marks along with the reasoning behind each one, so the teacher can review and correct anything before a student sees it.\n\nMaking that reliable is the interesting part of the problem. We work with real inputs — uneven handwriting, crooked scans, and papers that follow the conventions of Indian board and entrance exams rather than anything tidy. AI models get much of this right, and are occasionally, quietly wrong. A good share of our engineering exists to catch the second case before a teacher ever encounters it.\n\nWe are a team of ten, and we are hiring one engineer to work across the product: backend services, some frontend, and the AI pipelines behind the grading. The person we hire will own a complete area of the product rather than a queue of tickets, with the opportunity to grow into wider responsibility as we scale.\n\nWhat the work involves\n\n- Improving how accurately we read and interpret scanned papers\n- Building the tools teachers use to review and correct AI output\n- Measuring where our models are unreliable, and closing those gaps\n- Shipping continuously — most work reaches production within the week\n\nWhat we are looking for\n\nWe weigh judgement more heavily than years of experience. One to four years is the range we have in mind, and we will gladly consider a recent graduate whose work we can look at.\n\nIdeally, we would see something built on top of an AI model that real people have used — a project where handling the model's mistakes was part of the job, not a wrapper demo. We use coding assistants daily and expect the same. Our backend is written in a language most candidates have not worked in before; familiarity is not required, but the ability to read unfamiliar code and work out what it does is. That ramp-up takes most people four to six weeks, and we plan for it.\n\nThis role will suit someone who wants to work hard on a product with real users, and who prefers being close to the decisions rather than insulated from them.\n\nCompensation, location and benefits\n\n₹6–12 LPA depending on experience, plus benefits.\n\nGurgaon preferred — we work in person for most of the week and find it matters early on. We will consider strong remote candidates working IST hours.\n\nHow to apply\n\nPlease skip the cover letter and send us three things:\n\n1. Something you have built, ideally with code we can read\n2. A short note on the hardest bug you have shipped, and how you found it\n3. Suppose we grade a paper and get one answer in twenty wrong. We could spend the next month making the model more accurate, or spend it making it faster for a teacher to catch and correct what's wrong. Which would you choose, and what would you want to know before choosing?\n4. Why this role, honestly — including how you are weighing it against roles that pay more. A candid answer is more useful to us than a flattering one.\n5. Salary Expectation\n\nWe read every application ourselves. Gurgaon\nlocationNames: Gurgaon\nremote: true",
+      "match_score": 5.74,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T16:20:53+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.44,
+            "overlap": 8.28,
+            "combined": 5.59
+          },
+          "backend": {
+            "cosine": 4.98,
+            "overlap": 7.52,
+            "combined": 5.74
+          },
+          "frontend": {
+            "cosine": 4.13,
+            "overlap": 9.71,
+            "combined": 5.81
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 4.98,
+        "keyword_overlap_score": 7.52,
+        "final_score": 5.74,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1864
+          },
+          {
+            "term": "model",
+            "weight": 0.0932
+          },
+          {
+            "term": "backend",
+            "weight": 0.0762
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0762
+          },
+          {
+            "term": "real",
+            "weight": 0.0762
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f537649ecb45fddd187da1f771498f3f",
+      "source": "wellfound",
+      "company": "intelgrader",
+      "role": "Software Engineer — AI & Backend (Elixir)",
+      "url": "https://wellfound.com/jobs/4543781-software-engineer-ai-backend-elixir",
+      "jd_text": "Software Engineer (Applied AI)\nIntelgrader · Gurgaon · Full-time · ₹4-6 LPA\n\nIntelgrader grades handwritten exam papers. A teacher uploads a scanned answer sheet, and we return marks along with the reasoning behind each one, so the teacher can review and correct anything before a student sees it.\n\nMaking that reliable is the interesting part of the problem. We work with real inputs — uneven handwriting, crooked scans, and papers that follow the conventions of Indian board and entrance exams rather than anything tidy. AI models get much of this right, and are occasionally, quietly wrong. A good share of our engineering exists to catch the second case before a teacher ever encounters it.\n\nWe are a team of ten, and we are hiring one engineer to work across the product: backend services, some frontend, and the AI pipelines behind the grading. The person we hire will own a complete area of the product rather than a queue of tickets, with the opportunity to grow into wider responsibility as we scale.\n\nWhat the work involves\n\n- Improving how accurately we read and interpret scanned papers\n- Building the tools teachers use to review and correct AI output\n- Measuring where our models are unreliable, and closing those gaps\n- Shipping continuously — most work reaches production within the week\n\nWhat we are looking for\n\nWe weigh judgement more heavily than years of experience. One to four years is the range we have in mind, and we will gladly consider a recent graduate whose work we can look at.\n\nIdeally, we would see something built on top of an AI model that real people have used — a project where handling the model's mistakes was part of the job, not a wrapper demo. We use coding assistants daily and expect the same. Our backend is written in a language most candidates have not worked in before; familiarity is not required, but the ability to read unfamiliar code and work out what it does is. That ramp-up takes most people four to six weeks, and we plan for it.\n\nThis role will suit someone who wants to work hard on a product with real users, and who prefers being close to the decisions rather than insulated from them.\n\nCompensation, location and benefits\n\n₹6–12 LPA depending on experience, plus benefits.\n\nGurgaon preferred — we work in person for most of the week and find it matters early on. We will consider strong remote candidates working IST hours.\n\nHow to apply\n\nPlease skip the cover letter and send us three things:\n\n1. Something you have built, ideally with code we can read\n2. A short note on the hardest bug you have shipped, and how you found it\n3. Suppose we grade a paper and get one answer in twenty wrong. We could spend the next month making the model more accurate, or spend it making it faster for a teacher to catch and correct what's wrong. Which would you choose, and what would you want to know before choosing?\n4. Why this role, honestly — including how you are weighing it against roles that pay more. A candid answer is more useful to us than a flattering one.\n5. Salary Expectation\n\nWe read every application ourselves. Gurgaon\nlocationNames: Gurgaon\nremote: true",
+      "match_score": 5.75,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T16:20:53+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.44,
+            "overlap": 8.28,
+            "combined": 5.59
+          },
+          "backend": {
+            "cosine": 4.99,
+            "overlap": 7.52,
+            "combined": 5.75
+          },
+          "frontend": {
+            "cosine": 4.14,
+            "overlap": 9.71,
+            "combined": 5.81
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 4.99,
+        "keyword_overlap_score": 7.52,
+        "final_score": 5.75,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1867
+          },
+          {
+            "term": "model",
+            "weight": 0.0933
+          },
+          {
+            "term": "backend",
+            "weight": 0.0763
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0763
+          },
+          {
+            "term": "real",
+            "weight": 0.0763
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "604173e2a22309cf3e22fd870b23f28b",
+      "source": "wellfound",
+      "company": "Zarvo Tech IT",
+      "role": "SOFTWARE TESTER – MANUAL & AUTOMATION",
+      "url": "https://wellfound.com/jobs/4787116-software-tester-manual-automation",
+      "jd_text": "🚨 WE ARE HIRING | SOFTWARE TESTER – MANUAL &amp; AUTOMATION\n\nAre you a Software Testing professional with strong experience in Manual + Automation Testing and a solid understanding of the Trading / Mutual Fund domain?\n\nZarvo Tech IT is looking for an experienced Software Tester to join our team in Bangalore.\n\n📍 Location: Bangalore – HUSTLE HUB, HSR Layout\n💼 Experience: 3–5 Years\n🕒 Job Type: Full-Time\n🏢 Work Mode: 5 Days | Work from Office\n⚠️ Trading Domain Experience: MUST\n\n🔹 KEY RESPONSIBILITIES\n\n• Develop test strategies, test plans and test scenarios\n• Design and execute manual &amp; automated test cases\n• Build and maintain automation frameworks\n• Work with Selenium, Cypress or similar tools\n• Perform functional, regression and performance testing\n• Develop reusable and scalable automation scripts\n• Integrate automation testing with CI/CD pipelines\n• Collaborate with Development, Product and Business teams\n• Ensure software quality, reliability and performance\n\n🔹 REQUIRED EXPERIENCE\n\n✅ Manual Testing\n✅ Automation Testing\n✅ Web Testing\n✅ Mobile Testing\n✅ Selenium / Cypress\n✅ Test Planning &amp; Test Case Design\n✅ Regression &amp; Functional Testing\n✅ CI/CD &amp; Test Automation\n✅ Strong Analytical &amp; Problem-Solving Skills\n\n📊 IMPORTANT SCREENING CRITERIA\n\nCandidates applying should clearly mention:\n\nMobile Testing\n• Years of Manual Testing Experience\n• Years of Automation Testing Experience\n\nWeb Testing\n• Years of Manual Testing Experience\n• Years of Automation Testing Experience\n\nDomain Experience\n🔴 Trading &amp; Mutual Fund domain experience is mandatory and must be clearly mentioned in your resume.\n\n📩 Apply: careers@zarvotechit.com\n🌐 www.zarvotechit.com\n📞 +91 87965 50946 | 8084089084\n\nKnow someone who fits this opportunity? Tag them or share this post.\n\nZARVO TECH IT\nBuild. Innovate. Lead. Bangalore Rural\nlocationNames: Bangalore Rural",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T16:20:53+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "194999db4fbd4a7756a927be99f8cc88",
+      "source": "wellfound",
+      "company": "Sagepilot AI",
+      "role": "Voice Engineer",
+      "url": "https://wellfound.com/jobs/3898359-voice-engineer",
+      "jd_text": "You'll own the voice stack end to end: LiveKit media pipelines, SIP/PSTN integrations (Exotel, Plivo), STT/TTS orchestration (Deepgram, AssemblyAI, ElevenLabs, Cartesia), call routing, and AI-to-human transfer flows. Mostly greenfield work, directly with the founding team.\n\n**What You'll Work On**\n* LiveKit-based media pipelines for AI and human call handling\n* SIP/PSTN integrations with Exotel and Plivo\n* STT and TTS provider orchestration with low-latency delivery\n* AI-to-human transfer flows — warm transfers, hold logic, escalation\n* Call routing: IVR, queue management, agent assignment, fallback handling\n* Barge-in detection and turn-taking for natural conversation flow\n* Observability across voice systems (OpenTelemetry / SigNoz)\n\n**What We're Looking For**\n* 1–3 years of backend engineering experience (Python &amp; Golang preferred)\n* Some exposure to real-time systems, WebRTC, or SIP/VoIP — willingness to go deep matters more than current depth\n* Strong async programming and distributed systems fundamentals\n* High ownership; moves fast without needing things fully specced\n\n**Bonus**\n* Experience with LiveKit, Asterisk, FreeSWITCH, or any media server\n* Familiarity with SIP, RTP, or PSTN call flows\n* Prior work in conversational AI, contact centre tech, or CPaaS\n\nThere will be generic Equity/ESOPs for the right fit. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 5.83,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T16:20:53+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.06,
+            "overlap": 7.62,
+            "combined": 5.83
+          },
+          "backend": {
+            "cosine": 4.57,
+            "overlap": 7.52,
+            "combined": 5.45
+          },
+          "frontend": {
+            "cosine": 4.83,
+            "overlap": 8.74,
+            "combined": 6.0
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.06,
+        "keyword_overlap_score": 7.62,
+        "final_score": 5.83,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1735
+          },
+          {
+            "term": "end",
+            "weight": 0.0867
+          },
+          {
+            "term": "handling",
+            "weight": 0.0867
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.0709
+          },
+          {
+            "term": "experience",
+            "weight": 0.0709
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ff12de8dc0794b9f6ac5f6673fb79da9",
+      "source": "wellfound",
+      "company": "The Ninja Studio",
+      "role": "Full Stack Developer (2+ years)",
+      "url": "https://wellfound.com/jobs/4787171-full-stack-developer-2-years",
+      "jd_text": "Experience: **2+ Years**\nEmployment Type: **Full-time**\nLocation: **Remote**\nWorking Days: **5 Days a Week**\n\n**About the Role**\n\nWe are looking for a Full Stack Developer with 2+ years of experience who can work across both frontend and backend development. The ideal candidate should have strong programming fundamentals, experience building scalable web applications, and the ability to work independently while collaborating with the product and development teams.\n\n**Key Responsibilities**\n1. Develop, maintain, and enhance responsive web applications.\n2. Build and integrate frontend interfaces with backend APIs and services.\n3. Develop and maintain REST APIs and backend services.\n4. Write clean, reusable, and maintainable code.\n5. Work with databases and optimize queries when required.\n6. Identify and resolve bugs, performance issues, and technical challenges.\n7. Participate in code reviews and follow development best practices.\n8. Collaborate with designers, developers, QA, and project managers.\n9. Understand business requirements and convert them into technical solutions.\n10. Write basic technical documentation and maintain project-related documentation.\n11. Stay updated with current technologies and contribute to improving development practices.\n\n**Required Skills**\n1. 2+ years of professional experience in full-stack web development.\n2. Strong knowledge of JavaScript/TypeScript.\n3. Experience with at least one modern frontend framework such as React.js, Next.js, or Angular.\n4. Experience with backend technologies such as Node.js, Express.js, Python, Django, PHP, Laravel, or similar.\n5. Good understanding of HTML5, CSS3, responsive design, and modern frontend practices.\n6. Experience working with REST APIs and third-party API integrations.\n7. Good understanding of SQL or NoSQL databases such as PostgreSQL, MySQL, MongoDB, etc.\n8. Familiarity with Git/GitHub and version control practices.\n9. Understanding of authentication, authorization, and basic web security.\n10. Good problem-solving and debugging skills.\n\n**Good to Have**\n1. Experience with AWS, Azure, or other cloud platforms.\n2. Knowledge of Docker and CI/CD workflows.\n3. Experience with Next.js, TypeScript, GraphQL, or microservices.\n4. Understanding of automated testing.\n5. Experience working in an Agile/Scrum development environment.\n\n**What We’re Looking For**\n1. Strong logical and problem-solving abilities.\n2. Good communication and collaboration skills.\n3. Ability to take ownership of assigned tasks.\n4. Attention to detail and commitment to writing quality code.\n5. Willingness to learn new technologies and adapt to changing project requirements.\n6. Ability to work effectively in a fast-paced development environment.\n\n**Why Join Us?**\n1. Work on real-world projects for international clients.\n2. Opportunity to work with modern technologies and development practices.\n3. Collaborative and learning-focused work environment.\n4. Growth opportunities based on performance and skills. Amritsar\nlocationNames: Amritsar\nremote: true",
+      "match_score": 13.31,
+      "resume_variant": "frontend",
+      "draft_answer": "I am a Full Stack Developer with experience building robust React and Next.js applications, significantly improving UI responsiveness by integrating Redis caching to cut API fetch latency by 98% and optimizing data loads by migrating to Azure Blob Storage. My full-stack expertise extends to owning core client-facing modules on Azure, where I've onboarded 80+ client organizations and automated 90% of manual reporting workflows, alongside deploying containerized microservices for streamlined project delivery.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-30T16:20:53+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.57,
+            "overlap": 12.91,
+            "combined": 11.28
+          },
+          "backend": {
+            "cosine": 10.42,
+            "overlap": 12.41,
+            "combined": 11.01
+          },
+          "frontend": {
+            "cosine": 11.74,
+            "overlap": 16.99,
+            "combined": 13.31
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.74,
+        "keyword_overlap_score": 16.99,
+        "final_score": 13.31,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2251
+          },
+          {
+            "term": "js",
+            "weight": 0.1125
+          },
+          {
+            "term": "frontend",
+            "weight": 0.1101
+          },
+          {
+            "term": "backend",
+            "weight": 0.09
+          },
+          {
+            "term": "skills",
+            "weight": 0.09
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-09-30T16:21:25+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "ae546305e2729e877585eb06ce663ba4",
       "source": "yc",
