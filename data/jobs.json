@@ -1,15 +1,360 @@
 {
-  "exported_at": "2026-09-30T20:37:01+00:00",
+  "exported_at": "2026-09-30T22:15:28+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 765,
-    "pending_approval": 175,
+    "pending_approval": 176,
+    "discovered": 770,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "80d76f047b0c2bd2b6ff8513ea3ccb18",
+      "source": "wellfound",
+      "company": "ToolJet",
+      "role": "Software Engineer (Backend)",
+      "url": "https://wellfound.com/jobs/4238507-software-engineer-backend",
+      "jd_text": "**About the company :**\n\n**ToolJet** is an AI platform that empowers teams to build and deploy internal tools in minutes - turning ideas into business applications faster than ever. With 35K+ stars on GitHub, we’re one of the most loved open source platforms in the developer community. We partner with industry leaders - from telecom giants, to financial institutions, to cutting-edge unicorns and startups across the globe.\n\nOur 50+ member team works across the US and India, building at the intersection of AI and productivity. Backed by Microsoft’s M12, Nexus Venture Partners, January Capital, and Ratio Ventures, we’re on a mission to redefine how businesses create software - faster, smarter, and more accessible for everyone.\n\n**Responsibilities**\n\n* Design, build, and maintain robust backend services, REST APIs, and data pipelines that power ToolJet's platform at scale.\n* Own the full data lifecycle including schema design, query optimization, indexing strategies, and migrations using PostgreSQL as the primary database.\n* Build and maintain scalable server-side architecture using Node.js and NestJS, applying clean code principles and strong separation of concerns.\n* Collaborate with Product Managers and Frontend Engineers to define API contracts and deliver reliable, high-performance integrations.\n* Identify and resolve performance bottlenecks across the backend stack, from slow queries and N+1 problems to memory leaks and latency spikes.\n\n**What we are looking for:**\n\n* 3+ years of experience in backend or fullstack engineering with a strong backend focus.\n* Deep hands-on expertise with Node.js and NestJS, with a proven track record of shipping production-grade services.\n* Strong proficiency in TypeScript and JavaScript, with a habit of writing type-safe, well-structured code by default.\n* Solid command of PostgreSQL including complex queries, indexing, query planning, transactions, and schema design.\n* Familiarity with ORM and query builder tools such as TypeORM, Prisma, or Knex.\n* A sound understanding of database performance patterns and how to apply them in production environments.\n* Strong grasp of SOLID principles, RESTful API design, and building services that are maintainable and extensible.\n* Experience with caching strategies using Redis and message queues such as BullMQ, RabbitMQ, or Kafka is a strong plus.\n* You should be an AI-first engineer who treats AI as a natural extension of your workflow, using it daily to write better code, move faster, and solve harder problems.\n* Experience with Test-Driven Development and writing meaningful unit and integration tests.\n* A product mindset with the awareness of how backend decisions translate into real impact for end users.\n\n**Why ToolJet?** \nAt ToolJet, we’re building more than software, we’re building a culture where bold ideas meet cutting-edge technology. As part of our team, you’ll: \n\n• Shape the future: Work on bleeding-edge AI product lines and enterprise-grade SaaS used by global leaders. \n\n• Live our values: We champion ownership, growth mindset, collaboration, and customer obsession in everything we do, because how we build is just as important as what we build. \n\n• Be well &amp; thrive: Comprehensive medical insurance for you and your family. \n\n• Connect &amp; celebrate: Join us for company-wide offsites and team gatherings that spark collaboration, creativity, and camaraderie.\n\n*If you thrive in high-impact environments, love solving complex problems, and want to see your work powering companies worldwide, ToolJet is the place for you.* Noida\nlocationNames: Noida",
+      "match_score": 12.26,
+      "resume_variant": "backend",
+      "draft_answer": "I consistently built robust backend services, including a FastAPI backend and cloud-native compliance platforms, which scaled to onboard 80+ client organizations, automated 90% of manual workflows, and featured Azure DevOps CI/CD with zero-downtime blue-green deployments. My experience resolving performance bottlenecks by integrating Redis caching (cutting latency by 98%) and RabbitMQ to guarantee delivery under high load, combined with my LLM tool-calling expertise, directly aligns with ToolJet's need for a scalable, AI-first backend engineer.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-09-30T22:04:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.42,
+            "overlap": 16.89,
+            "combined": 12.36
+          },
+          "backend": {
+            "cosine": 10.75,
+            "overlap": 15.79,
+            "combined": 12.26
+          },
+          "frontend": {
+            "cosine": 8.12,
+            "overlap": 16.5,
+            "combined": 10.63
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 10.75,
+        "keyword_overlap_score": 15.79,
+        "final_score": 12.26,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1443
+          },
+          {
+            "term": "backend",
+            "weight": 0.1415
+          },
+          {
+            "term": "using",
+            "weight": 0.1154
+          },
+          {
+            "term": "code",
+            "weight": 0.0708
+          },
+          {
+            "term": "experience",
+            "weight": 0.0708
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-09-30T22:08:59+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "abe75a2c52a2b05d3eb221a318d128f3",
+      "source": "wellfound",
+      "company": "ClearFeed",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4377418-software-engineer",
+      "jd_text": "## This is not a normal software engineering role\n\nAt ClearFeed, using AI to build software is not optional.\n\nEvery engineer is expected to use AI every day — to understand code, write code, review code, debug issues, design product flows, generate tests, write docs, explore APIs, and ship faster.\n\nWe expect you to be comfortable using tools like Claude, Cursor, ChatGPT, Codex, or similar AI tools as part of your default engineering workflow.\n\nIf you do not know how to use AI effectively to write code, debug issues, understand unfamiliar systems, and improve your own engineering output, **please do not apply**.\n\nWe are looking for engineers who can use AI as leverage — while still bringing strong judgment, ownership, and engineering taste.\n\nAI can write a lot of the first draft. You are responsible for the final result.\n\n## What we are building\n\nClearFeed is building an AI-first support platform for modern teams working in Slack and Microsoft Teams.\n\nOur product connects conversations, tickets, knowledge bases, engineering tools, CRMs, and AI agents so companies can resolve customer and internal requests faster.\n\nOur engineers work on real product problems:\n\n* How should an AI agent understand a support conversation?\n* When should it answer automatically, and when should it ask a human?\n* How do we safely connect Slack, Teams, Zendesk, Jira, GitHub, Linear, Salesforce, HubSpot, and other tools?\n* How do we make AI workflows observable, debuggable, and trustworthy?\n* How do we ship fast without creating chaos for customers?\n\n## What you will do\n\nYou will take ambiguous customer problems and turn them into working software. That may include API design, backend logic, database changes, Slack/Teams workflows, AI-agent behavior, product UX, tests, monitoring, and deployment.\n\nYou will be expected to:\n\n* Use AI tools heavily while writing and reviewing code.\n* Use AI to create first-pass designs, specs, implementation plans, tests, and docs.\n* Build backend services using TypeScript, Node.js, NestJS, PostgreSQL, Redis, queues, and cloud infrastructure.\n* Work on AI-agent features involving LLMs, RAG, tool-calling, structured outputs, evals, guardrails, and observability.\n* Own features end to end: idea → design → implementation → testing → release → production debugging.\n* Debug production issues and improve the system after every incident.\n* Improve our engineering system itself: better prompts, better internal tools, better test generation, better review loops, better deployment workflows.\n* Move fast, but stay accountable for what ships.\n\n## What “AI-native” means here\n\nWe do not mean “vibe code and hope it works.”\n\nWe mean:\n\n* You can use AI to move significantly faster.\n* You can use AI to write, refactor, test, and debug code.\n* You can review AI-generated code critically.\n* You understand that AI is often confidently wrong.\n* You can use AI for product thinking, but you do not outsource judgment.\n* You can ship faster without lowering quality.\n* You can explain your decisions clearly to humans.\n\nThe best engineers in the next decade will not be the ones who manually type the most code.\n\nThey will be the ones who combine product judgment, technical depth, and AI leverage to ship high-quality software faster than traditional teams.\n\n## What we are looking for\n\nYou may be a good fit if:\n\n* You are already using AI coding tools daily.\n* You are faster today than you were one year ago because of AI.\n* You have strong software fundamentals and do not blindly trust generated code.\n* You can work across backend, product, integrations, and basic frontend when needed.\n* You care about customer experience, not just clean abstractions.\n* You enjoy working in small teams with high ownership.\n* You can take a problem statement and come back with a working solution.\n* You are comfortable with ambiguity.\n* You like shipping.\n* You are curious, direct, and low-ego.\n\n## Bonus points\n\nWe will pay extra attention if you have:\n\n* Built something real using AI agents.\n* Used Claude Code, Cursor, Codex, v0, Lovable, Replit, or similar tools seriously.\n* Shipped a side project using AI.\n* Built integrations with Slack, Teams, Zendesk, Jira, GitHub, Salesforce, or HubSpot.\n* Worked on support, developer tools, workflow automation, or B2B SaaS products.\n* Written about your engineering work.\n* Open-source contributions or visible proof of work.\n\n## How we evaluate\n\nWe use AI in our hiring process for the same reason we use it in engineering: it helps everyone move faster and spend time where human judgment matters most.\n\nThe first step is a short AI-led interview of around 15 minutes. It helps us understand your background, your experience, and how you think about building software.\n\nAfter that, you will have three technical discussions with our team:\n\n* Problem solving  + debugging\n* Problem solving\n* System design\n\nWe want to understand how you reason, how you debug, how you make trade-offs, and how well you can combine engineering fundamentals with AI tools to build reliable software faster.\n\n## What you get\n\nWe want engineers to have the tools, support, and environment to do their best work.\n\n### Flexible AI Credits\n\nYou will get flexible AI credits and access to the tools you need to build faster — Claude, Cursor, ChatGPT, Codex, or whatever genuinely helps you ship better software.\n\nWe do not want engineers hesitating before using AI because of subscription limits or tool access.\n\n### Health and medical support\n\nYou get comprehensive medical insurance, along with **free doctor consultations**.\n\nWe are a small team, but we want to be thoughtful about health, family, and emergencies. You should not have to figure everything out on your own when something medical comes up.\n\n### Sports and team activities\n\nWe sponsor badminton and cricket games for the team.\n\nNot mandatory forced-fun activities. Just real sports, real games, and a good way to spend time with people outside tickets, PRs, and production issues.\n\n## How to apply\n\nApply here or send your resume to jobs@clearfeed.ai with:\n\n* Your LinkedIn, GitHub, or resume.\n* One thing you have built that you are proud of.\n* A short note on how you use AI in your engineering workflow.\n* Optional: a Loom/video/walkthrough of something you built. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 11.41,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T22:04:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.18,
+            "overlap": 15.56,
+            "combined": 11.1
+          },
+          "backend": {
+            "cosine": 9.54,
+            "overlap": 15.79,
+            "combined": 11.42
+          },
+          "frontend": {
+            "cosine": 5.92,
+            "overlap": 16.5,
+            "combined": 9.09
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 9.54,
+        "keyword_overlap_score": 15.79,
+        "final_score": 11.41,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.4885
+          },
+          {
+            "term": "tools",
+            "weight": 0.1452
+          },
+          {
+            "term": "code",
+            "weight": 0.1331
+          },
+          {
+            "term": "faster",
+            "weight": 0.1089
+          },
+          {
+            "term": "using",
+            "weight": 0.1036
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d542078485971cd76008622b92ef91ad",
+      "source": "wellfound",
+      "company": "ClearFeed",
+      "role": "Software Development Intern",
+      "url": "https://wellfound.com/jobs/4683406-software-development-intern",
+      "jd_text": "As a Software Intern at ClearFeed, you'll be writing code that ships to production, collaborating directly with senior engineers, and owning real features end-to-end. If you've been waiting for a chance to go beyond tutorials and build things that actually matter, this is it.\n# What You'll Build With Us\n- Build real features that go live, not internal tools or busywork.\n- Write clean, efficient backend code using NestJS and Postgres — the core of our stack.\n- Work across the stack when needed — depending on the project, you'll touch everything from APIs to frontend to infra.\n- Be part of design discussions and contribute to technical decisions — your voice matters here.\n- Own what you ship — from implementation to testing to monitoring in production.\n- Learn fast by doing — we value curiosity, hunger, and impact over prior experience.\n- Collaborate with experienced engineers who care about clean code, fast shipping, and mentoring.\n- Take initiative — whether it’s simplifying a flow, fixing something annoying, or suggesting a better solution.\n- We’re looking for people who want to stick with us for the long run — if you’re excited about growing and evolving with the team, we want you here for the journey ahead!\n\n# What We're Looking For\n- Prior internship experience is a must.\n- 2026 graduates from B.Tech or equivalent programs with a CGPA of 7.5+.\n- Solid backend development skills in Node.js and TypeScript (experience with Sequelize and PostgreSQL is a plus).\n- Curiosity and eagerness to learn and grow in a fast-paced startup environment.\n- Proactive mindset with the ability to take ownership and solve problems independently.\n- Experience with agile practices and the ability to prioritize tasks in a fast-moving environment.\n\n# Why ClearFeed?\nAt ClearFeed, your work will directly shape the future of workplace communication. We are a team that values innovation, ownership, and growth. With a flat hierarchy, we ensure your ideas are heard and your contributions drive our products and company forward. We’re building something special, and we want folks who are in it for the long haul.\n\n# Perks and Benefits:\n- Weekly team lunches to foster camaraderie.\n- Claude and Codex subscriptions to write code.\n- Company-sponsored sports activities (e.g., badminton).\n- Competitive salary with equity options, recognizing and rewarding your contributions.\n- Ample growth opportunities; high performers advance quickly.\n\n# Hiring Process\n1. Technical Screening: A brief 15-minute call to understand your past experience, projects, and interests.\n2. Work Trial: A 3 day work-trial where you would be asked to work on a project.\n3. Technical and Culture Fit Round: A discussion around your approach in the work trial, learning mindset, and alignment with our team’s way of working.\n# Join Us\nIf you’re excited about making a real impact at a fast-growing startup, working on an AI-driven platform, and shaping the future of enterprise communication, we’d love to hear from you. Apply now to be part of our journey to innovate and excel! Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T22:04:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c3298391b654485486315428736c683b",
+      "source": "wellfound",
+      "company": "Aeyesafe",
+      "role": "Software Engineer (Full stack/Backend Engineer for Full-time/Intern/Potential Founder)",
+      "url": "https://wellfound.com/jobs/2075184-software-engineer-full-stack-backend-engineer-for-full-time-intern-potential-founder",
+      "jd_text": "We are looking for a Software Engineer/Intern to join our engineering team. The engineering team is responsible for product development from back-end, middle layer to front-end presentation.\n\nWhat You'll Do\n* Backend, middle layer, frontend, software application designing, building, and maintaining\n* Implement features to fit our customers’ needs\n* DevOps and CICD pipeline\n* Apply computer science knowledge to tackle challenging engineering problems\n* Conferring with teams to resolve conflicts, prioritize needs, develop content criteria, or choose solutions.\n* Designing and implementing RestAPI, as well as API documentation.\n* Maintaining an understanding of the latest Web applications and programming practices through education, study, and participation in conferences, workshops, and groups.\n* Identifying problems uncovered by customer feedback and testing, and correcting or referring problems to appropriate personnel for correction.\n* Evaluating code to ensure it meets industry standards, is valid, is properly structured, and is compatible with browsers, devices, or operating systems with the consideration of scalability and reliability\n\nRequirements:\n* CS knowledge and experience in programming applications.\n* Experienced in JavaScript, HTML, CSS, Experienced in SQL\n* Dedicated team player.\n* Ability to thrive in a fast-paced environment.\n* Solid ability in both written and verbal communication.\n* Knowledge of programming language and technical terminology.\n* Able to develop ideas and processes and clearly express them, and able to solve complex problems.\n\nPreferred Requirements:\n* Good to have frontend software experience, such as ReactJS, AngularJS\n* Good to have backend software experience, such as Express.js, Django, Spring, Flask, etc\n* Good to have AWS, GCP experience\n* Good to have NoSQL database experience, such as DynamoDB, MongoDB, Cassandra Seattle\nlocationNames: Seattle\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T22:04:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b74eda1a3a710a82b8577031bb720d33",
+      "source": "wellfound",
+      "company": "Aeyesafe",
+      "role": "Mobile Developer (Full-time/Intern/Potential Founder) (Clone)",
+      "url": "https://wellfound.com/jobs/3229845-android-developer-full-time-intern-potential-founder-clone",
+      "jd_text": "We are looking for an Mobile Developer/Intern to join our engineering team. The engineering team is responsible for creating frameworks of our products and developing utilities for our business and data science team.\n\nWhat You'll Do\n- Develop Mobile application for Aeyesafe alpha stage\n- Work with UI/UX developers to create best experience to our clients\n- Work with back-end engineers for smooth and seamless data interconnection process\n- Facilitate and develop Restful API for all front-end platform \n- Align with team members to make sure the consistency\n\nPreferred Qualifications:\n- Familiar with any React Native\n- Familiar with any Android developer tools\n- Familiar with any iOS developer tools\n- Familiar with MVC framework application\n- Software knowledge including database, computer networking, data structures and algorithms, etc\n- Independent, proactive and open-to-learn Seattle\nlocationNames: Seattle\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T22:04:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3654655196ff4e8d2e61cbbf1f15caec",
+      "source": "wellfound",
+      "company": "Bespoke",
+      "role": "Product Engineer, UX",
+      "url": "https://wellfound.com/jobs/4461854-product-engineer-ux",
+      "jd_text": "# Product Engineer, UX\n\n**Bespoke is building the operating layer for the modern asset management firm.**\n\nAsset management is heading into its largest structural change in decades. The work that defines advisory firms today is research, client service, operations, and compliance, and more and more of it will run on systems. Bespoke brings market intelligence, firm context, and workflow automation into one platform. The work runs on rails, the advisor makes the decisions, and every step is recorded.\n\nSoftware like this only works if people want to use it. That's what this role is for.\n\n## The role\n\nWe're hiring a product engineer who is, at heart, an exceptional UX builder. You'll own the full experience of Bespoke:\n\n- **The first mile.** Onboarding and first-run experiences that make a complex platform feel obvious within minutes.\n- **Novel workflows.** Interaction patterns that don't exist yet, for how advisors review, approve, and act on work the system prepares for them.\n- **The design system.** You'll evolve our design language and component library so every surface feels consistent, fast, and considered.\n- **Much more.** Work in a tight-knit team where dialogue is encouraged, a sense for design and aesthetic it essential. \n\nYou'll work directly with the founders and our Head of Product. You'll take ideas from sketch to production and ship full-stack when a feature needs it. Most of your time goes to the experience. The rest goes to making sure it's built well.\n\n## What we're looking for\n\n**Exceptional attention to detail.** You notice the 2px misalignment, the loading state nobody designed, and the empty state that reads wrong. You fix them before anyone asks.\n\n**Deep UX craft.** You have a portfolio of interfaces people love using. You think in flows, states, and edge cases, not just screens. You have strong taste and can explain the reasoning behind it.\n\n**Builder's range.** You're fluent in React and TypeScript and comfortable in the backend (Node.js or Python, SQL, APIs). You can ship a feature end to end.\n\n**Opinions, openly held.** You'll push back on a flow that doesn't work and propose a better one.\n\n**Modern tooling.** You use AI coding and prototyping tools every day to move faster and explore more ideas.\n\n## Experience\n\n- 3+ years building web applications, with a clear focus on front-end and UX\n- A portfolio or shipped work that shows product and interaction design judgment\n- Experience owning or contributing to a design system\n- Startup or B2B SaaS experience is a plus; fintech is helpful, not required\n\n## In your first year\n\n- Rebuilt onboarding so new firms reach value on day one\n- Shipped workflow experiences customers describe as a step change\n- Established a design system that raises the bar across the whole product\n\n## Why Bespoke\n\nYou'll be joining a small, senior team at the moment an industry rebuilds itself. You'll have real ownership from day one. Everything you ship goes straight to advisors who use it every day. If you care about the details as much as we do, we'd like to meet you.\n\n---\n\nA couple of notes. I retitled it \"Product Engineer, UX\" so the emphasis shows up before anyone reads a word. If you'd rather keep \"Full Stack Product Engineer\" for search visibility, \"Design Engineer\" is another strong option. I also asked for a portfolio, since that's the fastest way to screen for this profile. Want me to put this in a doc? New York City\nlocationNames: New York City\nremote: true",
+      "match_score": 10.11,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T22:04:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.71,
+            "overlap": 12.25,
+            "combined": 7.67
+          },
+          "backend": {
+            "cosine": 4.97,
+            "overlap": 12.41,
+            "combined": 7.2
+          },
+          "frontend": {
+            "cosine": 7.57,
+            "overlap": 16.02,
+            "combined": 10.11
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 7.57,
+        "keyword_overlap_score": 16.02,
+        "final_score": 10.11,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.126
+          },
+          {
+            "term": "experience",
+            "weight": 0.105
+          },
+          {
+            "term": "end",
+            "weight": 0.077
+          },
+          {
+            "term": "management",
+            "weight": 0.042
+          },
+          {
+            "term": "platform",
+            "weight": 0.042
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "de403a0214c5f01f8bbd6b9d3338810b",
       "source": "yc",
