@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-09-30T08:15:17+00:00",
+  "exported_at": "2026-09-30T14:44:24+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 752,
+    "discovered": 753,
     "pending_approval": 174,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "ae546305e2729e877585eb06ce663ba4",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Senior Manager, Revenue Partnerships",
+      "url": "https://www.workatastartup.com/jobs/113075",
+      "jd_text": "# **About AiPrise Inc.**\n\nAiPrise is a YC-backed, Series A company building the global compliance infrastructure for financial services. We help banks, fintechs, cross-border payment providers, stablecoin and crypto companies, and marketplaces gain a 360° view of every business they onboard, anywhere in the world.\n\nThrough a single integration, we connect 800+ data sources and 80+ verification partners across 200+ countries, powering KYB, KYC, AML, sanctions screening, and ongoing monitoring for companies like Meta, Airwallex, Fireblocks, and Bridge.\n\nOur AI Agents help compliance teams do more with less, resolving more cases, catching more fraud, and scaling operations without scaling headcount.\n\nWe're ~60 people, Series A funded, and obsessed with a single problem: making compliance feel simple for the teams who live in it every day.\n\nBorders shouldn't be blockers. Compliance is hard. AiPrise shouldn't be.\n\n### \n\n**The role**\n\nYou'll own revenue generating partnerships end to end: finding and signing new partners, running and growing the partners we already have, and shaping how the partnerships strategy evolves as the company scales.\n\nThis is a senior individual-contributor role on a small, ambitious team. You'll work directly with the Head of Partnerships, sit very close to Sales, Finance and Product, and have a lot of autonomy to build. You will spend real time in the field because the relationships that move revenue are built in person.\n\n## **What you'll do**\n\n**Source and sign new revenue partners**\n\n- Build and work a pipeline of prospective partners across referral, reseller, technology/ISV, BPO, and platform categories.\n\n- Qualify partners against fit, overlap, and revenue potential; prioritize ruthlessly.\n\n- Run the full partner sales cycle: outreach, discovery, business case, commercial structure, and agreement.\n\n- Represent AiPrise at conferences and industry events; turn event conversations into signed partnerships.\n\n**Run and grow existing partners**\n\n- Own the relationship, cadence, and revenue plan for a portfolio of active partners.\n\n- Build joint go-to-market plans with each priority partner: target accounts, plays, enablement, marketing, and a shared pipeline.\n\n- Drive co-selling with our AEs: account mapping, warm intros, joint calls, and deal coordination.\n\n- Enable partner teams to position and sell AiPrise properly; keep them informed and motivated as our product evolves.\n\n- Track partner-sourced and partner-influenced pipeline and revenue; run regular partner reviews.\n\n- Grow into ownership of a partner revenue target as the motion matures.\n\n**Shape the strategy**\n\n- Bring a point of view on which partner categories and specific partners we should pursue, and why.\n\n- Feed market, competitive, and customer intelligence from the partner ecosystem back into Sales, Product, and Leadership.\n\n- Help design and refine partner program mechanics: tiers, incentives, referral and reseller economics, enablement.\n\n- Contribute to the partnerships operating model through reporting, tooling (HubSpot, Crossbeam), and process as the team and company grows.\n\n## **What success looks like**\n\n- **First 90 days:** Ramped on market, product, ICP, and current partner portfolio; owning day-to-day relationships with existing revenue partners; a qualified pipeline of new partner opportunities; first 1-2 conference or on-site trips completed.\n\n- **First 6 months:** New revenue partners signed; joint GTM plans in place with priority partners; partner-sourced pipeline visible and growing.\n\n- **First 12 months:** A repeatable partner motion producing a 20+% of total revenue opportunities with clear attribution and a documented playbook.\n\n## **What we're looking for**\n\n- Builder mindset. You've operated in an early-stage or high-growth environment and know how to create structure without waiting for it.\n\n- 5–8 years in partnerships, alliances, channel, or business development at a B2B SaaS or fintech company\n\n- Experience across more than one partner type (referral/reseller, technology integrations, services/BPO) and an understanding of how the economics differ.\n\n- Comfortable running a full commercial cycle from cold outreach through negotiated agreement.\n\n- Strong co-selling instincts: you know how to work with AEs, map accounts, and make a partner intro.\n\n- Excellent written and verbal communication; credible with senior partner stakeholders.\n\n- Willing and able to travel ~10–20%\n\n**Nice to have**\n\n- Background in identity verification, KYC/KYB/AML, fraud prevention, payments, FinCrime or adjacent compliance/fintech infrastructure.\n\n- Experience with partner ecosystem tooling (Crossbeam, PartnerStack, or similar) and HubSpot.\n\n- Existing relationships in the fintech, crypto, marketplace, or BPO ecosystems.\n\n**Benefits and perks**  \n**Time Off**\n\n- Flexible/PTO policy (accrued each pay period, usable from day one).\n\n- Paid parental leave.\n\n- Company holidays observed annually.\n\n**Perks**\n\n- $350 home office stipend - one-time reimbursement to set up your workspace.\n\n- Annual company onsite - the full team comes together once a year, with travel and accommodation fully covered.\n\n- Annual performance bonus based on company plan.\n\n- Medical, dental, and vision coverage (US benefits).\n\n New York, NY fulltime yes\nlocations: New York, NY\nremote: only\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T14:44:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "e40202a32455a888de7a0b056b84aca6",
       "source": "wellfound",
