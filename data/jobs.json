@@ -1,15 +1,399 @@
 {
-  "exported_at": "2026-09-30T16:21:27+00:00",
+  "exported_at": "2026-09-30T20:37:01+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 758,
+    "discovered": 765,
     "pending_approval": 175,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "de403a0214c5f01f8bbd6b9d3338810b",
+      "source": "yc",
+      "company": "Rex",
+      "role": "Founding AI Engineer (Enterprise Finance Operations)",
+      "url": "https://www.workatastartup.com/jobs/113085",
+      "jd_text": "**AI Transformation for Enterprise Finance**\r\n\r\nRex builds AI agents for enterprise finance, starting with order to cash. Our customers delegate a process to us, and we run it with agents while finance experts oversee the work. Our agents operate across email, ERPs and customer portals to resolve payment blockers and help businesses get paid.\r\n\r\nWe’re building agents that can take responsibility for complex financial workflows: reason over messy data, handle exceptions and improve through feedback from finance experts. The challenge is earning the trust to act autonomously in operations that affect real money.\r\n\r\n**Who we are**\r\n\r\nRex was founded in 2026 by Merlin Kafka (CEO) and Lewis Blackwood (CTO). \r\n\r\nMerlin previously served as CPO at Sequence (a16z) and PM at Tessian (Sequoia), and studied industrial engineering at Cambridge. Lewis previously led engineering at Sequence, joined GoCardless early and founded a startup backed by GFC. He studied economics at Cambridge.\r\n\r\nOur team brings years of experience building AI and finance products and working with hundreds of finance teams. We know this domain inside-out.\r\n\r\nRex is global from day one and operates across San Francisco and London.\r\n\r\n**What you’ll do**\r\n\r\nThis is a generalist role and you will be immediately responsible for large product areas and new initiatives. You’ll build products end to end, from understanding a customer’s finance workflow to shipping agents that carry it out. Your work will span the agents, the financial context they reason over, and the tools finance teams use to oversee them. You’ll also build the infrastructure, evaluations and feedback loops that help agents improve from real work. You will ship to production on your first day.\r\n\r\n**You’ll fit if you**\r\n\r\n* Have around 2-3 years of software engineering experience and have shipped products people use.\r\n* Have hands-on experience building with LLMs, agents and tool use.\r\n* Can work across the stack and own a problem through to production.\r\n* Learn quickly and want to understand how enterprise finance actually works.\r\n\r\nThis role is full-time in-person in London. London, England, GB fulltime none\nlocations: London, England, GB\nremote: no\nmin_experience: 1",
+      "match_score": 5.67,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T20:36:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.55,
+            "overlap": 8.28,
+            "combined": 5.67
+          },
+          "backend": {
+            "cosine": 4.11,
+            "overlap": 7.52,
+            "combined": 5.13
+          },
+          "frontend": {
+            "cosine": 3.47,
+            "overlap": 8.74,
+            "combined": 5.05
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.55,
+        "keyword_overlap_score": 8.28,
+        "final_score": 5.67,
+        "top_keywords": [
+          {
+            "term": "agents",
+            "weight": 0.2451
+          },
+          {
+            "term": "ai",
+            "weight": 0.1225
+          },
+          {
+            "term": "experience",
+            "weight": 0.0751
+          },
+          {
+            "term": "end",
+            "weight": 0.0613
+          },
+          {
+            "term": "previously",
+            "weight": 0.0501
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f43e9a50017a41bd88586f6d47982aff",
+      "source": "yc",
+      "company": "Rex",
+      "role": "Finance Operator in Residence (Order-to-cash)",
+      "url": "https://www.workatastartup.com/jobs/113092",
+      "jd_text": "**AI Transformation for Enterprise Finance**\n\nRex builds AI agents for enterprise finance, starting with order to cash. Our customers delegate a process to us, and we run it with agents while finance experts oversee the work. Our agents operate across email, ERPs and customer portals to resolve payment blockers and help businesses get paid.\n\nWe’re building agents that can take responsibility for complex financial workflows: reason over messy data, handle exceptions and improve through feedback from finance experts. The challenge is earning the trust to act autonomously in operations that affect real money.\n\n**Who we are**\n\nRex was founded in 2026 by Merlin Kafka (CEO) and Lewis Blackwood (CTO). \n\nMerlin previously served as CPO at Sequence (a16z) and PM at Tessian (Sequoia), and studied industrial engineering at Cambridge. Lewis previously led engineering at Sequence, joined GoCardless early and founded a startup backed by GFC. He studied economics at Cambridge.\n\nOur team brings years of experience building AI and finance products and working with hundreds of finance teams. We know this domain inside-out.\n\nRex is global from day one and operates across San Francisco and London.\n\n**What you’ll do**\n\nYou’ll be the team’s subject matter expert on order to cash and help run customer operations alongside Rex’s agents. You’ll bring practical knowledge of billing, collections, cash application and reconciliation into how we build the product and configure agents for each customer.\n\nDay to day, you’ll review and approve agent actions, handle exceptions and resolve cases that need human judgment. You’ll work closely with customer finance teams to understand their policies, investigate payment blockers and keep the work moving.\n\nYou’ll turn what you learn into clearer procedures and better agent behaviour, working directly with engineering.\n\n**You’ll fit if you**\n\n* Have around 2-3 years of hands-on experience in order to cash, AR or credit control, ideally at enterprise scale.\n* Are comfortable with customer ledgers, payment allocation, reconciliation and ERP systems.\n* Can work through complex cases and explain your reasoning clearly to customers and engineers.\n* Use AI tools confidently and want to help shape how agents run finance operations.\n\nThis role is an ideal fit for an AI-native operator who spent the last few years working in order to cash or AR at enterprise scale and now wants to put their domain knowledge to work.\n\nThis role is full-time in-person in London. London, England, GB fulltime none\nlocations: London, England, GB\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T20:36:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "fba454bafcc28dfe73f7574ede8c9e85",
+      "source": "yc",
+      "company": "Polymath Robotics",
+      "role": "Applications Engineer - San Francisco",
+      "url": "https://www.workatastartup.com/jobs/113108",
+      "jd_text": "### Overview\n\nPolymath builds autonomy software for industrial off-road vehicles — wheel loaders, haul trucks, excavators — deployed at steel mills, mines, and farm. These are different vehicles, in different operational design domains, and different customer environments. That diversity is the challenge: the only way to make bringing up autonomy on vehicle #40 faster than vehicle #4 is to treat autonomy bringup as a system you're continuously improving instead of a checklist re-run by hand every time.\n\nWe're looking for someone who is passionate about automation, treats every manual step as an opportunity to improve the process, and can move fluidly between robotics fundamentals (perception, controls, navigation) and the systems-design thinking that makes those fundamentals scale across vehicle types and environments. Every week, everyone on this team answers — what did you find that was slow, unclear, or manual, and what did you fix or automate. Individually small. Compounded across a team working on many programs, it's the difference between bringup staying a bottleneck or becoming a solved problem.\n\n### Responsibilities\n\n1. **Own vehicle bringup end-to-end** across all three phases — simulation (vehicle model, HAL config, sensor coverage), bench (networking, connectivity, load testing), and on-vehicle (teleop through waypoint autonomy with a safety driver).\n2. **Build and extend automated test suites** — navigation tests, sensor coverage tests, integrator tests — that auto-generate issues on failure instead of requiring manual triage.\n3. **Find the reusable pattern in every one-off.** When a client or integrator asks for something specific, the role requires solving it once and making it available to the next 10 vehicles.\n4. **Support integrators and customers on-site and remotely** during bench and vehicle-testing phases — validate sensor placement against physical reality, debug on the spot or remotely via logs/ROS bags, and document what's on the on-site coverage map.\n5. **Communicate directly with clients and integrators** — Learn about, engage with, and educate customers on various areas of robotics including perception, controls, behavior, path planning, obstacle detection, tracking, and avoidance. Align expectations on what features cover their use case, prepare technical proposals, and explain what we can and can't do today.\n6. **Contribute to our ROS2 architecture** where there is a gap, especially where fixing it once removes a recurring manual step across programs.\n7. **Travel** — is a part of the job, both for sales meetings and onsite technical support, though we try to minimize it as an organization.\n\n### Qualifications\n\n* Strong in one or more of: C++, Python, ROS/ROS2, systems architecture, or test automation frameworks.\n* Prior hands-on experience with robots or autonomous systems — not simulation-only.\n* Evidence you've automated or systematized a manual process before, on any team, in any language. \n* Comfortable being the person who flags a fragile pattern before it becomes a recurring failure.\n* Strong remote debugging skills — able to diagnose issues on a vehicle or integrator setup you can't physically touch, working from logs, ROS bags, and remote sessions, and knowing when an issue genuinely requires being on-site vs. when it doesn't.\n* Comfortable communicating directly with clients and integrators — aligning on requirements, explaining what the system can and can't do today, and translating customer intent into engineering criteria.\n* Excellent written communication — you'll be documenting test coverage, handoff criteria, technical proposals, and integration improvements.\n\n### Why Join Polymath Robotics?\n\n* Collaborative Environment: Work alongside fantastic team members on collaborative projects\n* Hybrid Workplace: Enjoy the flexibility of a hybrid work model, with engineering based in our SF Mission office three days a week, giving a good balance of maker time and synchronization time.\n* Open Source Advocacy: We strongly support open-source robotics efforts, allowing your work to be shareable and publishable whenever possible.\n* Humor &amp; Passion: We might occasionally be a bunch of rosbags, but our passion and humor drive us to accelerate the realization of autonomous vehicles in the industry.\n\n### Application Process:\n\nInterested candidates are invited to submit their resume, and optionally a cover letter detailing their experience and interest in the role, and any relevant portfolio or project links. As part of your application, answer this:\n\n> **Describe a manual or repetitive process you automated or systematized — at any job, on any scale. What was the process before, what did you build, and how did you get the rest of your team to actually adopt it?**\n\nPolymath Robotics is an equal-opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. We don’t look for a “cultural fit”, we look for people who add to the culture. San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 7.86,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T20:36:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.12,
+            "overlap": 14.24,
+            "combined": 7.86
+          },
+          "backend": {
+            "cosine": 4.28,
+            "overlap": 14.29,
+            "combined": 7.28
+          },
+          "frontend": {
+            "cosine": 4.98,
+            "overlap": 16.02,
+            "combined": 8.29
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.12,
+        "keyword_overlap_score": 14.24,
+        "final_score": 7.86,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1417
+          },
+          {
+            "term": "manual",
+            "weight": 0.1126
+          },
+          {
+            "term": "automated",
+            "weight": 0.0563
+          },
+          {
+            "term": "technical",
+            "weight": 0.0563
+          },
+          {
+            "term": "time",
+            "weight": 0.0563
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "07f6eaeddc6f7bf54bbb7a1db9c80dcd",
+      "source": "yc",
+      "company": "Corgi Insurance",
+      "role": "Controller",
+      "url": "https://www.workatastartup.com/jobs/113086",
+      "jd_text": "**Location:** San Francisco, CA\n\n**Type:** Full-Time\n\n**Compensation:** Flexible based on experience\n\n**About Corgi**\n\nCorgi is building the next generation of financial institutions. We’re rethinking how insurance, financial products, and other complex financial services are built and operated from the ground up.\n\nWe move quickly, work across disciplines, and expect people to take meaningful ownership from day one. Our teams are small, ambitious, and highly execution-oriented.\n\n**About the Role**\n\nWe are looking for a **Controller** to help own the accounting function.\n\nThis is a core accounting leadership role responsible for maintaining accurate books and records, running the monthly close, producing financial statements, overseeing accounting operations, and ensuring strong financial controls across the company.\n\nYou will work closely with the CFO and Head of Accounting and will be responsible for making sure Corgi's accounting infrastructure is accurate, timely, and scalable as the company grows.\n\n**What You'll Do**\n\n* Own Corgi's day-to-day accounting operations and general ledger.\n* Lead the monthly, quarterly, and annual close processes.\n* Prepare and review monthly and quarterly financial statements and management reporting.\n* Oversee accounts payable, accounts receivable, payroll accounting, expense accounting, and account reconciliations.\n* Ensure accurate recording of accruals, prepaids, fixed assets, depreciation, and other balance sheet activity.\n* Maintain and improve accounting policies, procedures, and internal controls.\n* Ensure accounting practices comply with GAAP and applicable regulatory requirements.\n* Manage the chart of accounts and accounting structure as the business grows.\n* Oversee intercompany accounting and reconciliations across Corgi's entities.\n* Coordinate annual audits, tax filings, and other external accounting requirements with outside advisors.\n* Partner with the finance team on budgeting, forecasting, and financial analysis.\n* Monitor cash activity and work with the finance team on cash management and banking relationships.\n* Identify opportunities to improve accounting processes, systems, and automation.\n* Manage and develop members of the accounting team.\n* Serve as a key accounting partner to leadership and other teams across Corgi.\n* Support special projects and other financial initiatives as the company grows.\n\n**What We're Looking For**\n\n* CPA and 7+ years of progressive accounting experience required.\n* Strong understanding of U.S. GAAP and financial reporting.\n* Experience owning or leading a monthly close process.\n* Experience managing accounting operations across multiple functions.\n* Strong understanding of balance sheet reconciliations and financial statement preparation.\n* Experience with internal controls and accounting policies.\n* Experience working with external auditors and tax advisors.\n* Strong Excel / Google Sheets skills and experience with modern accounting systems.\n* Excellent attention to detail and a high standard for accuracy.\n* Strong organizational and project management skills.\n* Ability to operate independently and take ownership of the accounting function.\n* Excellent communication skills and comfort working directly with senior leadership.\n\n**Why Corgi**\n\nCorgi is an unusually ambitious company. We're not building another software layer on top of an existing financial institution, we're building the institutions themselves.\n\nYou'll have the opportunity to work alongside a highly driven team and have meaningful ownership over the financial infrastructure of a rapidly growing company. San Francisco, CA, US fulltime yes\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 6",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T20:36:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ab69155d4639b646ff9b8c809b372eb1",
+      "source": "yc",
+      "company": "Corgi Insurance",
+      "role": "Accounting Lead",
+      "url": "https://www.workatastartup.com/jobs/113088",
+      "jd_text": "**Location:** New York, NY (some travel required)\n\n**Type:** Full-Time\n\n**Compensation:** Flexible based on experience.\n\n**About Corgi**\n\nCorgi is building the next generation of financial institutions. We’re rethinking how insurance, financial products, and other complex financial services are built and operated from the ground up.\n\nWe move quickly, work across disciplines, and expect people to take meaningful ownership from day one. Our teams are small, ambitious, and highly execution-oriented.\n\n**About the Role**\n\nWe’re looking for an Accounting Lead to build and own the accounting function for a new Corgi product line.\n\nThis is a foundational role. You’ll be responsible for establishing the accounting infrastructure, processes, and controls for the business and owning the accuracy and integrity of its financial records as the product line launches and scales.\n\nYou’ll work closely with the product line’s leadership and Corgi’s finance organization, while having significant ownership over the accounting function itself. You’ll help determine how the business is structured from an accounting perspective, build the processes required to support it, and ensure the financials accurately reflect what is happening in the business.\n\nThis is an opportunity for someone who wants to build an accounting function rather than simply step into an established one.\n\n**What You’ll Do**\n\n* Own the accounting function for the new product line.\n* Build and maintain the accounting infrastructure, processes, and controls from the ground up.\n* Own the monthly, quarterly, and annual close processes.\n* Oversee the general ledger, journal entries, reconciliations, and supporting schedules.\n* Prepare and review financial statements and management reporting.\n* Establish accounting policies and procedures as the business develops.\n* Partner closely with leadership to understand new products, transactions, revenue streams, and other business activity and determine the appropriate accounting treatment.\n* Monitor financial activity and identify discrepancies, errors, and opportunities to improve processes.\n* Build scalable processes for a growing and increasingly complex business.\n* Work closely with Corgi’s broader finance, tax, legal, and operational teams.\n* Support budgeting, forecasting, and financial analysis as needed.\n* Help establish appropriate financial controls and reporting infrastructure.\n* Evaluate and implement accounting systems and tools.\n* Coordinate with external accountants, auditors, tax advisors, and other partners as needed.\n* Help hire and build out the accounting function as the product line grows.\n* Take ownership of accounting-related projects and special initiatives.\n\n**What We’re Looking For**\n\n* CPA required.\n* 2-5 years of accounting experience.\n* Strong understanding of accounting principles and financial statements.\n* Experience owning or playing a significant role in the month-end close process.\n* Strong experience with general ledger accounting, reconciliations, and financial reporting.\n* Exceptional attention to detail and accuracy.\n* Strong analytical and problem-solving skills.\n* Ability to understand complex business activity and translate it into appropriate accounting treatment.\n* Strong organizational skills.\n* Comfortable working independently and taking full ownership of a function.\n* Excellent written and verbal communication skills.\n* Comfortable operating in an environment where processes and systems are still being built.\n* Entrepreneurial mindset and willingness to get into the details and figure things out.\n\n**Why Corgi**\n\nThis is an opportunity to build and own the accounting function for a new product line from the ground up.\n\nYou’ll work closely with the team building the business and have significant influence over the financial infrastructure that supports it. As the product line grows, you’ll have the opportunity to expand the team and build the accounting organization alongside the business. New York, NY, US fulltime yes\nlocations: New York, NY, US\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T20:36:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b9dd6eb421361fad333892c5ddeadfa8",
+      "source": "yc",
+      "company": "Corgi Insurance",
+      "role": "Marketing Associate",
+      "url": "https://www.workatastartup.com/jobs/113089",
+      "jd_text": "**Location:** Columbus, OH\n\n**Type:** Full-Time\n\n**Compensation:** Flexible based on experience.\n\n**About Corgi**\n\nCorgi is building the next generation of financial institutions. We’re rethinking how insurance, financial products, and other complex financial services are built and operated from the ground up.\n\nWe move quickly, work across disciplines, and expect people to take meaningful ownership from day one. Our teams are small, ambitious, and highly execution-oriented.\n\n**About the Role**\n\nWe’re looking for a Marketing Associate to help build and execute the marketing efforts for a new Corgi product line. This is a highly hands-on role for someone who is equally comfortable developing ideas, doing research, creating content, coordinating projects, and getting things out the door.\n\nYou’ll work closely with the leadership of the product line to build its brand, support launches, create compelling content, and identify new opportunities to reach customers and build awareness. This is a great role for someone who is curious, creative, highly organized, and excited to help build something from the ground up.\n\n**What You’ll Do**\n\n* Support marketing initiatives for the new product line.\n* Research markets, customers, competitors, and emerging trends.\n* Help develop content for websites, social media, email, and other channels.\n* Support product launches, campaigns, events, and other go-to-market initiatives.\n* Coordinate marketing projects from idea through execution.\n* Help develop presentations, marketing materials, and other external-facing content.\n* Track marketing performance and identify opportunities for improvement.\n* Conduct research and analysis to inform marketing strategy.\n* Identify new channels, partnerships, and creative ways to reach target audiences.\n* Take on special projects wherever the team needs additional horsepower.\n\n**What We’re Looking For**\n\n* No experience required, but experience with UGC preferred.\n* Excellent written and verbal communication skills.\n* Strong research and analytical abilities.\n* High attention to detail.\n* Strong organizational skills.\n* Comfortable working independently and figuring things out without extensive direction.\n* Creative thinker who enjoys coming up with new ideas and testing them.\n* Ability to understand complicated topics and communicate them simply.\n* Strong judgment and a high bar for quality.\n\n**Why Corgi**\n\nThis is an opportunity to join a new product line at an early stage and play a meaningful role in building its brand and go-to-market strategy from the ground up. You’ll work directly with a highly ambitious team, have significant ownership, and see your work directly contribute to launching and growing a new business.\n\nIf you’re someone who learns quickly, cares about doing exceptional work, and wants to help build something from the ground up, we’d love to meet you. Columbus, OH, US fulltime yes\nlocations: Columbus, OH, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T20:36:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "67e0716cf88b35d9e5c3dea4cc2eb1df",
+      "source": "yc",
+      "company": "Corgi Insurance",
+      "role": "Full Stack Engineer - New Product Line",
+      "url": "https://www.workatastartup.com/jobs/113090",
+      "jd_text": "**Location:** New York, NY (some travel required)\n\n**Type:** Full-Time\n\n**Compensation:** Flexible based on experience\n\n**About Corgi**\n\nCorgi is building the next generation of financial institutions. We’re rethinking how insurance, financial products, and other complex financial services are built and operated from the ground up.\n\nWe move quickly, work across disciplines, and expect people to take meaningful ownership from day one. Our teams are small, ambitious, and highly execution-oriented.\n\n**About the Role**\n\nWe’re looking for a Full Stack Engineer to help build a new product line from the ground up.\n\nYou’ll work closely with the product line’s leadership and operating team to build the software, systems, and infrastructure needed to launch and scale the business. This is a highly hands-on role where you’ll have significant ownership over what gets built and how it works.\n\nYou won’t be working from a fixed backlog. You’ll spend time understanding the business and its users, identifying opportunities for automation and improvement, and then building the technology to make those ideas real.\n\nThe role will involve travel to work directly with the teams and operations building the product line.\n\n**What You’ll Do**\n\n* Build and ship full-stack applications that support the new product line.\n* Develop customer-facing products and internal tools.\n* Work across frontend, backend, databases, APIs, and infrastructure.\n* Translate business and operational problems into technical solutions.\n* Work directly with users and operators to understand their workflows and pain points.\n* Automate manual processes and build systems that allow the business to scale.\n* Design and implement integrations with third-party systems and APIs.\n* Own projects from initial concept and architecture through deployment and iteration.\n* Develop reliable, maintainable, and scalable software.\n* Debug, improve, and extend existing systems as the product evolves.\n* Work closely with product and operations to rapidly test and iterate on new ideas.\n* Travel to Corgi offices and operating locations as needed to work directly with the team and users.\n\n**What We’re Looking For**\n\n* No professional experience required if you can demonstrate your skills another way.\n* Strong experience building full-stack applications.\n* Fluency in modern frontend and backend development.\n* Strong understanding of databases, APIs, and software architecture.\n* Ability to write clean, maintainable, production-quality code.\n* Strong problem-solving and debugging skills.\n* Comfortable working in an ambiguous, fast-moving environment.\n* Ability to take ownership of projects from beginning to end.\n* Strong communication and collaboration skills.\n* Willingness and ability to travel.\n\n**Why Corgi**\n\nThis is an opportunity to join a new product line at an early stage and have a meaningful role in building its technology from the ground up.\n\nYou’ll work closely with the people actually building and operating the business, with significant ownership over the systems you create and the opportunity to see your work directly shape how the product line operates and scales. New York, NY, US fulltime yes\nlocations: New York, NY, US\nremote: no",
+      "match_score": 7.67,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-09-30T20:36:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.38,
+            "overlap": 9.27,
+            "combined": 5.85
+          },
+          "backend": {
+            "cosine": 3.76,
+            "overlap": 8.27,
+            "combined": 5.12
+          },
+          "frontend": {
+            "cosine": 5.55,
+            "overlap": 12.62,
+            "combined": 7.67
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 5.55,
+        "keyword_overlap_score": 12.62,
+        "final_score": 7.67,
+        "top_keywords": [
+          {
+            "term": "directly",
+            "weight": 0.0916
+          },
+          {
+            "term": "apis",
+            "weight": 0.0561
+          },
+          {
+            "term": "experience",
+            "weight": 0.0561
+          },
+          {
+            "term": "skills",
+            "weight": 0.0561
+          },
+          {
+            "term": "users",
+            "weight": 0.0561
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "4326884665dfb40e18739e47b18b2d3c",
       "source": "wellfound",
