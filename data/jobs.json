@@ -1,15 +1,319 @@
 {
-  "exported_at": "2026-10-01T15:11:27+00:00",
+  "exported_at": "2026-10-01T17:02:25+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 180,
+    "pending_approval": 184,
     "discovered": 769,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "1d564fd546d538c36e766b1359246d10",
+      "source": "wellfound",
+      "company": "Skyy Tech",
+      "role": "Founding Full-Stack Engineer",
+      "url": "https://wellfound.com/jobs/4787941-founding-full-stack-engineer",
+      "jd_text": "## About Skyy Tech\n\nSkyy Tech is an early-stage technology company building human-centered products designed to help people learn, work, and grow. Our first major product, SkyyLearn, is a human-led tutoring and learning platform thoughtfully supported by artificial intelligence.\n\nWe're building a platform that connects learners with human tutors while using AI to enhance—not replace—the learning experience.\n\n## The Role\n\nWe're looking for a Founding Full-Stack Engineer who wants to help build a product and engineering organization from the ground up.\n\nYou'll work directly with the founder and have meaningful influence over architecture, engineering standards, product decisions, infrastructure, and the technical direction of SkyyLearn.\n\nThis is an early-stage startup role. We're looking for someone comfortable with ambiguity, rapid iteration, high ownership, and building systems from zero to production.\n\n## What You'll Work On\n\n- Build and maintain applications using React and TypeScript\n- Design backend services using Node.js and Python\n- Build secure REST APIs and service integrations\n- Design PostgreSQL data models and application architecture\n- Develop authentication, authorization, and user-management systems\n- Integrate AI and LLM capabilities into the SkyyLearn platform\n- Build tutoring, messaging, scheduling, payments, and marketplace functionality\n- Help design real-time tutoring and communication experiences\n- Implement testing, observability, CI/CD, and deployment infrastructure\n- Participate in architecture and product decisions\n- Establish engineering standards as the team grows\n- Help evaluate and mentor future engineering hires\n\n## What We're Looking For\n\n- 3+ years of professional software engineering experience\n- Strong JavaScript/TypeScript fundamentals\n- Experience with React and modern frontend development\n- Experience building APIs with Node.js\n- Experience with relational databases such as PostgreSQL\n- Understanding of cloud infrastructure and production deployments\n- Experience with Git and collaborative software-development workflows\n- Strong problem-solving and communication skills\n- Comfortable operating in an early-stage startup environment\n\n## Nice to Have\n\n- Python experience\n- AWS or other cloud-platform experience\n- AI/LLM integration experience\n- Marketplace or EdTech experience\n- Payments integration experience\n- Real-time video, messaging, or WebSocket experience\n- Mobile development experience\n- Previous startup experience\n\n## Why Join\n\nAs an early engineering hire, you'll have significantly more ownership than you would in a traditional engineering role. You'll help shape the product, architecture, engineering culture, and technical foundation of a company at its earliest stage.\n\nWe are remote-first and focused on building a small, highly capable founding team.\n\n**Compensation:** $60,000–$70,000 annual base salary  \n**Equity:** Approximately 1%–2.5%, depending on experience, responsibility, and overall compensation structure  \n**Location:** Remote — United States Cincinnati\nlocationNames: Cincinnati\nremote: true",
+      "match_score": 11.43,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've delivered end-to-end full-stack systems, from scoping client requirements and building FastAPI/React applications with secure REST APIs to owning Azure AKS deployments with blue-green CI/CD, and improved API latency by 98% via Redis caching. My experience includes integrating LLM tool-calling reliability for local AI agents, designing microservices architectures, and implementing ACID-compliant transactions for real-time data integrity, which directly applies to building the foundations of a human-led learning platform supported by AI.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-01T16:58:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.8,
+            "overlap": 15.23,
+            "combined": 11.43
+          },
+          "backend": {
+            "cosine": 9.36,
+            "overlap": 15.79,
+            "combined": 11.29
+          },
+          "frontend": {
+            "cosine": 9.05,
+            "overlap": 16.99,
+            "combined": 11.43
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.8,
+        "keyword_overlap_score": 15.23,
+        "final_score": 11.43,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.3222
+          },
+          {
+            "term": "architecture",
+            "weight": 0.1051
+          },
+          {
+            "term": "platform",
+            "weight": 0.0859
+          },
+          {
+            "term": "ai",
+            "weight": 0.0788
+          },
+          {
+            "term": "using",
+            "weight": 0.0788
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-01T16:59:46+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e2d6537387e9889ab2eabf1114338c5e",
+      "source": "wellfound",
+      "company": "Matrix One",
+      "role": "Full Stack Engineer - Spring Boot + React",
+      "url": "https://wellfound.com/jobs/3976865-full-stack-engineer-spring-boot-react",
+      "jd_text": "Matrix One is a leading provider of software solutions for life science companies, helping them build, launch, and support better and safer products. Our mission is to streamline the product development and compliance process, enabling companies to bring medical devices to market faster and more efficiently.\n\nMatrix One is seeking a Full Stack Engineer to further the growth of its ALM and eQMS platform called Matrix Requirements. Matrix Requirements provides the most comprehensive software toolsets for design and quality control for SxMD (Software as/in Medical Device). \n\nYou'll work across the entire stack — from database models and background jobs to polished React components — and play a key role in shipping features, maintaining compliance, and expanding the platform's capabilities.\n\nWe are actively bringing AI into both the product and the way we work. That means building AI-powered features for our customers, and using AI tooling to move faster, write better code, and ship with more confidence. We're looking for someone who is genuinely excited about both sides of that.\n\nThis is a hands-on engineering role for someone who is comfortable navigating a mature codebase, taking ownership of end-to-end features, and holding themselves to a high standard of quality and documentation.\n\n### Responsibilities\n* Develop and maintain Backend REST APIs and services\n* Develop React components and user interfaces based on UI/UX designs.\n* Build reusable code and libraries for future use.\n* Ensure the technical feasibility of UI/UX designs.\n* Optimize applications for maximum performance, responsiveness, and scalability.\n* Write automated unit and integration tests.\n* Support testing and documentation.\n* Collaborate with other team members and stakeholders.\n* Participate in Code Review and other activities as required.\n* Work with team members to design innovative software programs that improve and simplify experience for customers\n\n### Requirements\n* Bachelor of Science in Computer Science or equivalent.\n* 1 – 3 years of experience in full stack development.\n* Hands-on experience with Spring Boot and React (equivalent experience in Angular/Vue will be considered).\n* Understanding of ORM technologies like Hibernate.\n* Proficiency in web HTML5, CSS3 and JavaScript/Typescript.\n* Experience with unit testing frameworks such as Jasmine, Mocha or Jest.\n* Good understanding of asynchronous request handling, partial page updates, and AJAX\n* Experience (or Interest) in accelerating development with AI toolsets (we use Claude Code CoPilot and Cursor)\n* Working knowledge on project management tools such as JIRA.\n* Competency with version control on GIT\n* Proficiency in writing technical documentation\n\n### Benefits\n* A team actively embracing AI — both in the product and in how we build it\n* A collaborative team that cares about shipping reliable, well-documented software\n* 100% remote with full flexibility.\n* Competitive benefits package.\n* Annual company meet-ups in different international locations.\n* Clear growth path to become a senior member of the team. Bengaluru Ahmedabad Surat Vadodara Mumbai New Delhi\nlocationNames: Bengaluru Ahmedabad Surat Vadodara Mumbai New Delhi\nremote: true",
+      "match_score": 10.23,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've repeatedly delivered full-stack solutions end-to-end for compliance platforms, from scoping client requirements to owning Azure AKS deployments with blue-green releases, cutting latency by 98% for critical reporting APIs on systems supporting 80+ client organizations. I'm keen to apply this experience to Matrix Requirements, bringing my focus on guaranteeing data integrity under high load with message brokers and my validated ability to run and validate open-weight LLMs for tooling reliability.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-01T16:58:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.51,
+            "overlap": 14.24,
+            "combined": 10.23
+          },
+          "backend": {
+            "cosine": 6.36,
+            "overlap": 12.78,
+            "combined": 8.29
+          },
+          "frontend": {
+            "cosine": 8.42,
+            "overlap": 16.5,
+            "combined": 10.85
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.51,
+        "keyword_overlap_score": 14.24,
+        "final_score": 10.23,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1852
+          },
+          {
+            "term": "ai",
+            "weight": 0.15
+          },
+          {
+            "term": "stack",
+            "weight": 0.1482
+          },
+          {
+            "term": "experience",
+            "weight": 0.1471
+          },
+          {
+            "term": "code",
+            "weight": 0.0981
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-01T17:02:23+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "527091e9502e49c62c352d8920e99d19",
+      "source": "wellfound",
+      "company": "genieX",
+      "role": "Full Stack Developer (Frontend-Focused) with FastAPI Experience",
+      "url": "https://wellfound.com/jobs/4791892-full-stack-developer-frontend-focused-with-fastapi-experience",
+      "jd_text": "**Location:** Remote  \n**Nature of collaboration:**  Contract with Opportunity for Full-Time  \n**Experience:** 3+ years  \n**Hourly Rate:** 10-15 USD per hour   \n**Monthly compensation (if full time):** USD 1,000–1,500/month\n\n## **Overview**\n\nWe’re looking for a **Mid-Level Full Stack Developer (Frontend-Heavy)** to build clean, intuitive, and scalable internal platforms such as **CRMs, inventory systems, and vendor management tools**.\n\nThe role is primarily focused on frontend development using **React, Next.js, and TypeScript**, with enough backend experience in **Python and FastAPI** to work effectively across the full application stack.\n\nYou’ll work closely with senior engineers, designers, and QA to turn operational requirements into polished, production-ready features.\n\n## **Key Responsibilities**\n\n* Build responsive and intuitive user interfaces for internal business applications  \n* Translate product and operational requirements into clear user workflows  \n* Develop reusable components and frontend features using a component-driven approach  \n* Integrate frontend applications with backend APIs and asynchronous workflows  \n* Contribute to backend features and API improvements using **Python and FastAPI**  \n* Work with backend data models and API behavior to implement end-to-end functionality  \n* Take ownership of features from implementation through testing and delivery  \n* Collaborate with UX, senior engineers, and QA throughout the development process\n\n## **Must Have**\n\n* **3+ years of professional full stack development experience**, with a strong frontend focus  \n* Strong hands-on experience with **React, Next.js, and TypeScript**  \n* Experience with frontend state management using tools such as **React Query, Zustand, or Redux**  \n* Working experience with **Python and FastAPI**  \n* Experience building frontend applications that consume and integrate with **REST APIs**  \n* Experience implementing non-trivial UI workflows for business or operational applications  \n* Ability to work within an existing codebase and independently deliver well-scoped features\n\n## **Good to Have**\n\n* Experience with **refine.dev** or similar admin/dashboard frameworks  \n* Familiarity with **Tailwind CSS, Chakra UI**, or similar component/UI libraries  \n* Experience with **PostgreSQL** and Python data-access technologies such as **SQLAlchemy or SQLModel**  \n* Understanding of **asynchronous backend workflows**  \n* Familiarity with modular application architecture and clean project structure  \n* Experience building **CRMs, inventory systems, vendor management platforms, or other internal tools**  \n* Experience working with **AI/LLM-powered applications**\n\n## **To Apply**\n\nPlease share:\n\n* A brief overview of your **frontend-heavy full stack experience**  \n* Examples of **React/Next.js applications** you’ve built or contributed to  \n* One or two examples where you owned a significant UI feature or end-to-end workflow  \n* Details of your experience with **Python/FastAPI**  \n* Relevant **GitHub repositories, portfolio projects, or case studies** Bengaluru Sheridan Bangalore Rural Bangalore Urban Bangalore City Municipal Corporation Layout Bengaluru Bengaluru East Taluk\nlocationNames: Bengaluru Sheridan Bangalore Rural Bangalore Urban Bangalore City Municipal Corporation Layout Bengaluru Bengaluru East Taluk\nremote: true",
+      "match_score": 18.32,
+      "resume_variant": "frontend",
+      "draft_answer": "I have successfully developed and owned React and Next.js applications, delivering client-facing modules and improving UI responsiveness by up to 98%. My full-stack experience, including FastAPI, makes me well-suited to build internal CRMs or inventory systems for genieX.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-01T16:58:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 14.43,
+            "overlap": 14.9,
+            "combined": 14.57
+          },
+          "backend": {
+            "cosine": 12.47,
+            "overlap": 13.91,
+            "combined": 12.9
+          },
+          "frontend": {
+            "cosine": 18.47,
+            "overlap": 17.96,
+            "combined": 18.32
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 18.47,
+        "keyword_overlap_score": 17.96,
+        "final_score": 18.32,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.3407
+          },
+          {
+            "term": "frontend",
+            "weight": 0.25
+          },
+          {
+            "term": "ui",
+            "weight": 0.1373
+          },
+          {
+            "term": "applications",
+            "weight": 0.1363
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.1363
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-01T16:59:22+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b073eb17d409b2a7c2e16ddc143b2487",
+      "source": "wellfound",
+      "company": "genieX",
+      "role": "FastAPI Backend Developer — Contract Role with Opportunity for Full-Time",
+      "url": "https://wellfound.com/jobs/4791888-fastapi-backend-developer-contract-role-with-opportunity-for-full-time",
+      "jd_text": "**Location:** Remote  \n**Nature of collaboration:** Contract Role with Opportunity for Full-Time  \n**Hourly rate:** $10–$15 per hour  \n**Monthly compensation (if full time):** USD 1,000–1,500/month\n\n## **Overview**\n\nWe’re looking for a **FastAPI Backend Developer** to help us build and maintain backend systems and APIs for modern web applications.\n\nThis role is a good fit for a developer with hands-on experience in **Python and FastAPI**, who is comfortable working with APIs, databases, integrations, and real-world business workflows.\n\n## **Key Responsibilities**\n\n* Develop and maintain backend services and APIs using **Python and FastAPI**  \n* Build APIs for web applications and internal tools  \n* Design and implement database models and queries  \n* Integrate third-party APIs and external services  \n* Implement business logic and application workflows  \n* Collaborate with frontend developers on API integration  \n* Debug and improve existing backend functionality  \n* Contribute to code reviews and ongoing backend improvements\n\n## **Must Have**\n\n* **3+ years of professional experience** in Python backend development  \n* Hands-on experience with **FastAPI** or a similar Python web framework  \n* Practical experience building and consuming **REST APIs**  \n* Experience with **Pydantic and SQLAlchemy**  \n* Working knowledge of **PostgreSQL** or another relational database  \n* Understanding of **asynchronous programming** in Python  \n* Experience integrating **third-party APIs**  \n* Ability to understand existing codebases and independently complete development tasks\n\n## **Good to Have**\n\n* Experience with **Celery, Redis, RabbitMQ**, or similar tools  \n* Familiarity with **background tasks and job processing**  \n* Experience with **AWS, GCP, Railway**, or other cloud platforms  \n* Exposure to **Next.js** or other frontend frameworks  \n* Experience working with **AI/LLM APIs or AI-powered applications**  \n* Familiarity with **CI/CD pipelines**\n\n## **To Apply**\n\nPlease share:\n\n* A brief overview of your **Python/FastAPI experience**  \n* Examples of backend systems or APIs you’ve built  \n* Details of projects involving **FastAPI, PostgreSQL, SQLAlchemy**, or third-party API integrations  \n* Relevant **GitHub repositories, portfolio projects, or case studies**  \n* Your availability and expected hourly rate Bengaluru Sheridan Bangalore Rural Bangalore Urban Bangalore City Municipal Corporation Layout Bengaluru Bengaluru East Taluk\nlocationNames: Bengaluru Sheridan Bangalore Rural Bangalore Urban Bangalore City Municipal Corporation Layout Bengaluru Bengaluru East Taluk\nremote: true",
+      "match_score": 13.77,
+      "resume_variant": "backend",
+      "draft_answer": "Having built the FastAPI backend for a government client and owned core backend modules that automated 90% of manual reporting for 80+ client organizations, I am adept at developing robust backend systems and APIs for modern web applications. My experience integrating Redis caching to cut API fetch latency by 98%, introducing RabbitMQ to guarantee delivery under high load, and implementing Azure DevOps CI/CD for zero-downtime blue-green deployments directly translates to enhancing the performance and reliability of genieX's backend.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-01T16:58:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.15,
+            "overlap": 11.26,
+            "combined": 11.88
+          },
+          "backend": {
+            "cosine": 14.51,
+            "overlap": 12.03,
+            "combined": 13.76
+          },
+          "frontend": {
+            "cosine": 11.83,
+            "overlap": 14.08,
+            "combined": 12.5
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 14.51,
+        "keyword_overlap_score": 12.03,
+        "final_score": 13.77,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2681
+          },
+          {
+            "term": "apis",
+            "weight": 0.2413
+          },
+          {
+            "term": "backend",
+            "weight": 0.2145
+          },
+          {
+            "term": "fastapi",
+            "weight": 0.1876
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.1608
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-01T16:59:35+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "cba71a18645eaf43dc70b282bc5edd37",
       "source": "wellfound",
