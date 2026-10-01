@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-10-01T04:20:34+00:00",
+  "exported_at": "2026-10-01T08:42:24+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 771,
-    "pending_approval": 176,
+    "pending_approval": 180,
+    "discovered": 769,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "cba71a18645eaf43dc70b282bc5edd37",
+      "source": "wellfound",
+      "company": "Nyle.ai",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4787326-software-engineer",
+      "jd_text": "Company: NyleAI \nLocation: San Francisco Bay Area, CA (Hybrid – 3 days/week in SF office)\nEmployment type: Full-time\nLevel: Software Engineer II / Mid-level\nReports to: Engineering Manager, Ismail Karankin\n\nAbout Us\nNyle is building an AI teammates for running and growing entire ecommerce stores. We serve Top 1% Amazon Sellers and Shopify brands and are growing a team of engineers who care about craft, ownership, and real-world impact.\n\nAbout the Role\nWe're looking for a Software Engineer with 3+ years of professional experience to design, build, and ship high-quality software that our customers rely on every day. You'll own features end to end — from shaping the technical approach with product and design partners to deploying, monitoring, and iterating in production. This role is ideal for someone who has moved past the basics, wants more ownership, and is excited to grow toward senior-level scope.\n\nWhat You'll Do\n\n- Design, build, test, and ship scalable, reliable, and maintainable software across backend / frontend / full stack\n\n- Own features from technical design through launch, including writing design docs and breaking work into clear milestones.\n\nCollaborate closely with product managers, designers, and fellow engineers to turn ambiguous problems into well-scoped solutions.\n\nWrite clean, well-tested code and hold a high bar through thoughtful code reviews.\n\nImprove system performance, reliability, and observability; participate in an on-call rotation and help drive incident follow-ups.\n\nContribute to architectural decisions and help evolve our engineering practices, tooling, and CI/CD pipelines.\n\nMentor newer engineers and share knowledge through pairing, documentation, and tech talks.\n\n\nWhat We're Looking For\n\nRequired qualifications\n\n3+ years of professional software engineering experience building and shipping production systems.\nStrong proficiency in at least one modern language such as Python, Go, Java, TypeScript, or similar.\n\nSolid foundation in computer science fundamentals: data structures, algorithms, and system design.\n\nExperience designing and consuming APIs (REST and/or GraphQL) and working with relational or NoSQL databases.\n\nHands-on experience with cloud platforms (AWS, GCP, or Azure), containerization (Docker), and CI/CD workflows.\n\nComfort with testing practices (unit, integration, end-to-end) and a habit of writing maintainable code.\n\nClear written and verbal communication and a collaborative, low-ego working style.\n\nBachelor's degree in Computer Science or a related field, or equivalent practical experience.\n\n\nNice to have\n\nExperience with distributed systems, event-driven architectures, or high-scale services.\nFamiliarity with Kubernetes, Terraform, or other infrastructure-as-code tools.\nExperience building with LLMs or integrating AI/ML capabilities into products.\nFrontend experience with React or a similar framework.\nExperience in a fast-paced startup or high-growth environment.\n\n\nCompensation &amp; Benefits\nThe expected base salary range for this role in the San Francisco Bay Area is $100,000 – $165,000. Final offers are based on job-related skills, experience, and interview performance. This role is also eligible for 1-3% equity stock and annual bonus of up to $30000.\nComprehensive medical, dental, and vision insurance for you and your dependents\nFlexible PTO plus 14 company holidays\nPaid parental leave\n\n\nAnnual learning and development stipend of $5000\nHome office and commuter benefits\nOur Hiring Process\nRecruiter screen (30 min) – get to know you and your goals.\nTechnical screen (60 min) – practical coding exercise with an engineer.\nVirtual onsite (3–4 hours) – coding, system design, a past-project deep dive, and a values conversation.\nFinal conversation – meet the hiring manager and team leadership.\nWe aim to move from the first conversation to offer within 2-3 weeks. San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 11.89,
+      "resume_variant": "frontend",
+      "draft_answer": "I have driven end-to-end frontend and full-stack development, from scoping requirements and user acceptance testing to deploying cloud-native systems for clients, where I cut reporting API latency by 98% and overall data load times by 60% for better UI responsiveness. My background building containerized microservices on Azure and serverless platforms on AWS, alongside developing React and Next.js applications with secure authentication and real-time systems, directly aligns with building the scalable, reliable software used by Amazon and Shopify brands.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-01T08:37:35+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.43,
+            "overlap": 15.23,
+            "combined": 10.47
+          },
+          "backend": {
+            "cosine": 7.51,
+            "overlap": 14.66,
+            "combined": 9.66
+          },
+          "frontend": {
+            "cosine": 9.08,
+            "overlap": 18.45,
+            "combined": 11.89
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 9.08,
+        "keyword_overlap_score": 18.45,
+        "final_score": 11.89,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2143
+          },
+          {
+            "term": "end",
+            "weight": 0.1048
+          },
+          {
+            "term": "code",
+            "weight": 0.0857
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0857
+          },
+          {
+            "term": "technical",
+            "weight": 0.0643
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-01T08:41:31+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "49b49907b2f442113d3cb5dab8f3bc54",
+      "source": "wellfound",
+      "company": "Bask Health",
+      "role": "Front-End Software Engineer (Remote)",
+      "url": "https://wellfound.com/jobs/4657077-front-end-software-engineer-remote",
+      "jd_text": "As an engineer at Bask you will work directly with the CEO and CTO to build and design the software infrastructure that will serve as the backbone of telehealth.\n\nWe are looking to expand our software engineers, seeking those with deep rooted entrepreneurial spirit.\n\nOur serverless platform is a multi-tenant monorepo — Next.js and React on the front, tRPC and Prisma behind it, deployed on SST, TypeScript throughout. One engineer can follow a change from a form field to the database without crossing a team boundary. That's the point.\n\nEngineering at Bask Health is AI-first and builder-led. Work starts with general understanding of problem, moves to tools like Claude and Cursor for further investigation, making a plan and building, tested on staging with realistic data, released to production, tested with real patient and care teams, and then back for systems and polish. AI is a default part of how we work, not a side experiment — because moving fast in healthcare requires every advantage.\n\nWe are looking for engineers who take end-to-end ownership, treat AI as a real collaborator, and care deeply about building software that meaningfully improves how healthcare is delivered.\n\n**What You'll Do**\n\n- **Design, build, and ship high-quality product experiences.** Own key surfaces end to end, from concept through production. Write elegant, well-tested code — we have a real test suite and we intend to keep it that way.\n- **Work across the stack.** Follow a feature from the interface through the API to the database. No handoffs, no waiting on another team.\n- **Work AI-first with Cursor and Claude Code.** Use LLMs as your starting point. Draft intent, explore implementations, scaffold components, and refactor with AI in the loop. Apply your own judgment to meet the quality bar healthcare demands.\n- **Prototype fast and validate with real users.** Build and test quickly with real patients and care teams. Use what you learn to refine before fully committing — especially in sensitive clinical contexts where getting it right matters.\n- **Build for scale and own the codebase.** Translate product needs into reusable, well-architected patterns that make the next feature faster to ship.\n- **Make automation legible and trustworthy.** Build systems that clearly communicate what AI and automation are doing on behalf of patients and providers. Earn trust through transparency, reliability, and thoughtful defaults.\n- **Champion performance, accessibility, and reliability.** Ship work that is fast, robust, and accessible. Partner across the team to debug, optimize, and raise the bar over time.\n- **Share AI-native workflows.** Document prompts, patterns, and workflows that work, so we move faster together without cutting corners that matter to patient outcomes.\n\nWe are a highly collaborative team.\n\n**Requirements**\n\nA full-stack generalist who has taken a product from 0 to 1 and can apply that instinct inside a system that already has real patients on it. Entrepreneurial, willing to roll up their sleeves, and drawn to a mission that disrupts how healthcare gets delivered.\n\n- 5+ Years of experience\n- You are dangerous on the frontend of the stack.\n\n- You are a highly skilled dev (React, TypeScript, Next.js, Tailwind and JavaScript).\n\n- You also have backend skills (tRPC, Drizzle ORM, SQL, Node, SST).\n\n- You can work independently and are comfortable owning entire projects or large areas of the codebase.\n\n- Strong experience building paid products and services is preferred.\n\n- React Native or Expo experience is a plus.\n\n- You are a strong communicator, able to clearly articulate technical problems, constraints, and timelines.\n\n- You are comfortable working in a fast-paced, unstructured, startup environment.\n New York City\nlocationNames: New York City\nremote: true",
+      "match_score": 13.44,
+      "resume_variant": "frontend",
+      "draft_answer": "I've consistently driven end-to-end ownership for critical client-facing platforms, from architecting a cloud-native compliance solution used by 80+ organizations to optimizing frontend performance by 98%, utilizing Next.js and React alongside serverless deployments. My experience building and iterating rapidly on solutions with direct user impact, like reducing real-time data refresh delays, and employing tools like Cursor for building aligns with your AI-first approach to designing the software infrastructure for telehealth.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-01T08:37:35+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.18,
+            "overlap": 16.23,
+            "combined": 11.99
+          },
+          "backend": {
+            "cosine": 8.38,
+            "overlap": 16.17,
+            "combined": 10.71
+          },
+          "frontend": {
+            "cosine": 10.88,
+            "overlap": 19.42,
+            "combined": 13.44
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.88,
+        "keyword_overlap_score": 19.42,
+        "final_score": 13.44,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1355
+          },
+          {
+            "term": "real",
+            "weight": 0.133
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0665
+          },
+          {
+            "term": "experience",
+            "weight": 0.0665
+          },
+          {
+            "term": "react",
+            "weight": 0.0665
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-01T08:40:57+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "1301bd5847d4cea65cb0bef86811c347",
       "source": "yc",
@@ -134,8 +286,8 @@
       "jd_text": "## This is not a normal software engineering role\n\nAt ClearFeed, using AI to build software is not optional.\n\nEvery engineer is expected to use AI every day — to understand code, write code, review code, debug issues, design product flows, generate tests, write docs, explore APIs, and ship faster.\n\nWe expect you to be comfortable using tools like Claude, Cursor, ChatGPT, Codex, or similar AI tools as part of your default engineering workflow.\n\nIf you do not know how to use AI effectively to write code, debug issues, understand unfamiliar systems, and improve your own engineering output, **please do not apply**.\n\nWe are looking for engineers who can use AI as leverage — while still bringing strong judgment, ownership, and engineering taste.\n\nAI can write a lot of the first draft. You are responsible for the final result.\n\n## What we are building\n\nClearFeed is building an AI-first support platform for modern teams working in Slack and Microsoft Teams.\n\nOur product connects conversations, tickets, knowledge bases, engineering tools, CRMs, and AI agents so companies can resolve customer and internal requests faster.\n\nOur engineers work on real product problems:\n\n* How should an AI agent understand a support conversation?\n* When should it answer automatically, and when should it ask a human?\n* How do we safely connect Slack, Teams, Zendesk, Jira, GitHub, Linear, Salesforce, HubSpot, and other tools?\n* How do we make AI workflows observable, debuggable, and trustworthy?\n* How do we ship fast without creating chaos for customers?\n\n## What you will do\n\nYou will take ambiguous customer problems and turn them into working software. That may include API design, backend logic, database changes, Slack/Teams workflows, AI-agent behavior, product UX, tests, monitoring, and deployment.\n\nYou will be expected to:\n\n* Use AI tools heavily while writing and reviewing code.\n* Use AI to create first-pass designs, specs, implementation plans, tests, and docs.\n* Build backend services using TypeScript, Node.js, NestJS, PostgreSQL, Redis, queues, and cloud infrastructure.\n* Work on AI-agent features involving LLMs, RAG, tool-calling, structured outputs, evals, guardrails, and observability.\n* Own features end to end: idea → design → implementation → testing → release → production debugging.\n* Debug production issues and improve the system after every incident.\n* Improve our engineering system itself: better prompts, better internal tools, better test generation, better review loops, better deployment workflows.\n* Move fast, but stay accountable for what ships.\n\n## What “AI-native” means here\n\nWe do not mean “vibe code and hope it works.”\n\nWe mean:\n\n* You can use AI to move significantly faster.\n* You can use AI to write, refactor, test, and debug code.\n* You can review AI-generated code critically.\n* You understand that AI is often confidently wrong.\n* You can use AI for product thinking, but you do not outsource judgment.\n* You can ship faster without lowering quality.\n* You can explain your decisions clearly to humans.\n\nThe best engineers in the next decade will not be the ones who manually type the most code.\n\nThey will be the ones who combine product judgment, technical depth, and AI leverage to ship high-quality software faster than traditional teams.\n\n## What we are looking for\n\nYou may be a good fit if:\n\n* You are already using AI coding tools daily.\n* You are faster today than you were one year ago because of AI.\n* You have strong software fundamentals and do not blindly trust generated code.\n* You can work across backend, product, integrations, and basic frontend when needed.\n* You care about customer experience, not just clean abstractions.\n* You enjoy working in small teams with high ownership.\n* You can take a problem statement and come back with a working solution.\n* You are comfortable with ambiguity.\n* You like shipping.\n* You are curious, direct, and low-ego.\n\n## Bonus points\n\nWe will pay extra attention if you have:\n\n* Built something real using AI agents.\n* Used Claude Code, Cursor, Codex, v0, Lovable, Replit, or similar tools seriously.\n* Shipped a side project using AI.\n* Built integrations with Slack, Teams, Zendesk, Jira, GitHub, Salesforce, or HubSpot.\n* Worked on support, developer tools, workflow automation, or B2B SaaS products.\n* Written about your engineering work.\n* Open-source contributions or visible proof of work.\n\n## How we evaluate\n\nWe use AI in our hiring process for the same reason we use it in engineering: it helps everyone move faster and spend time where human judgment matters most.\n\nThe first step is a short AI-led interview of around 15 minutes. It helps us understand your background, your experience, and how you think about building software.\n\nAfter that, you will have three technical discussions with our team:\n\n* Problem solving  + debugging\n* Problem solving\n* System design\n\nWe want to understand how you reason, how you debug, how you make trade-offs, and how well you can combine engineering fundamentals with AI tools to build reliable software faster.\n\n## What you get\n\nWe want engineers to have the tools, support, and environment to do their best work.\n\n### Flexible AI Credits\n\nYou will get flexible AI credits and access to the tools you need to build faster — Claude, Cursor, ChatGPT, Codex, or whatever genuinely helps you ship better software.\n\nWe do not want engineers hesitating before using AI because of subscription limits or tool access.\n\n### Health and medical support\n\nYou get comprehensive medical insurance, along with **free doctor consultations**.\n\nWe are a small team, but we want to be thoughtful about health, family, and emergencies. You should not have to figure everything out on your own when something medical comes up.\n\n### Sports and team activities\n\nWe sponsor badminton and cricket games for the team.\n\nNot mandatory forced-fun activities. Just real sports, real games, and a good way to spend time with people outside tickets, PRs, and production issues.\n\n## How to apply\n\nApply here or send your resume to jobs@clearfeed.ai with:\n\n* Your LinkedIn, GitHub, or resume.\n* One thing you have built that you are proud of.\n* A short note on how you use AI in your engineering workflow.\n* Optional: a Loom/video/walkthrough of something you built. Bangalore Urban\nlocationNames: Bangalore Urban",
       "match_score": 11.41,
       "resume_variant": "backend",
-      "draft_answer": null,
-      "status": "discovered",
+      "draft_answer": "My background building AI agents that validated tool-calling reliability, alongside owning end-to-end backend features and diagnosing production concurrency risks to cut fetch latency by 98%, aligns with leveraging AI to deliver robust features for an AI-first support platform. My work automating 90% of manual reporting workflows for 80+ client organizations and introducing blue-green deployments for zero-downtime rollouts ensures a focus on both rapid delivery and a trustworthy experience for teams resolving customer and internal requests.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
       "discovered_at": "2026-09-30T22:04:23+00:00",
       "decided_at": null,
       "submitted_at": null,
@@ -196,7 +348,7 @@
         ]
       },
       "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
-      "drafted_at": null,
+      "drafted_at": "2026-10-01T08:42:11+00:00",
       "confirmation_signal": null,
       "github_run_id": null,
       "apply_kind": null
@@ -327,8 +479,8 @@
       "jd_text": "# Product Engineer, UX\n\n**Bespoke is building the operating layer for the modern asset management firm.**\n\nAsset management is heading into its largest structural change in decades. The work that defines advisory firms today is research, client service, operations, and compliance, and more and more of it will run on systems. Bespoke brings market intelligence, firm context, and workflow automation into one platform. The work runs on rails, the advisor makes the decisions, and every step is recorded.\n\nSoftware like this only works if people want to use it. That's what this role is for.\n\n## The role\n\nWe're hiring a product engineer who is, at heart, an exceptional UX builder. You'll own the full experience of Bespoke:\n\n- **The first mile.** Onboarding and first-run experiences that make a complex platform feel obvious within minutes.\n- **Novel workflows.** Interaction patterns that don't exist yet, for how advisors review, approve, and act on work the system prepares for them.\n- **The design system.** You'll evolve our design language and component library so every surface feels consistent, fast, and considered.\n- **Much more.** Work in a tight-knit team where dialogue is encouraged, a sense for design and aesthetic it essential. \n\nYou'll work directly with the founders and our Head of Product. You'll take ideas from sketch to production and ship full-stack when a feature needs it. Most of your time goes to the experience. The rest goes to making sure it's built well.\n\n## What we're looking for\n\n**Exceptional attention to detail.** You notice the 2px misalignment, the loading state nobody designed, and the empty state that reads wrong. You fix them before anyone asks.\n\n**Deep UX craft.** You have a portfolio of interfaces people love using. You think in flows, states, and edge cases, not just screens. You have strong taste and can explain the reasoning behind it.\n\n**Builder's range.** You're fluent in React and TypeScript and comfortable in the backend (Node.js or Python, SQL, APIs). You can ship a feature end to end.\n\n**Opinions, openly held.** You'll push back on a flow that doesn't work and propose a better one.\n\n**Modern tooling.** You use AI coding and prototyping tools every day to move faster and explore more ideas.\n\n## Experience\n\n- 3+ years building web applications, with a clear focus on front-end and UX\n- A portfolio or shipped work that shows product and interaction design judgment\n- Experience owning or contributing to a design system\n- Startup or B2B SaaS experience is a plus; fintech is helpful, not required\n\n## In your first year\n\n- Rebuilt onboarding so new firms reach value on day one\n- Shipped workflow experiences customers describe as a step change\n- Established a design system that raises the bar across the whole product\n\n## Why Bespoke\n\nYou'll be joining a small, senior team at the moment an industry rebuilds itself. You'll have real ownership from day one. Everything you ship goes straight to advisors who use it every day. If you care about the details as much as we do, we'd like to meet you.\n\n---\n\nA couple of notes. I retitled it \"Product Engineer, UX\" so the emphasis shows up before anyone reads a word. If you'd rather keep \"Full Stack Product Engineer\" for search visibility, \"Design Engineer\" is another strong option. I also asked for a portfolio, since that's the fastest way to screen for this profile. Want me to put this in a doc? New York City\nlocationNames: New York City\nremote: true",
       "match_score": 10.11,
       "resume_variant": "frontend",
-      "draft_answer": null,
-      "status": "discovered",
+      "draft_answer": "I’ve driven client-side UAT and owned core client-facing modules for a government regulator, replacing 90% of manual reporting with automated pipelines, which included onboarding over 80 client organizations. My work has consistently centered on improving perceived UI responsiveness by cutting data load times and fetch latency from 500ms to 10ms, delivering features end-to-end to ensure a seamless operating layer for critical workflows.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
       "discovered_at": "2026-09-30T22:04:23+00:00",
       "decided_at": null,
       "submitted_at": null,
@@ -389,7 +541,7 @@
         ]
       },
       "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
-      "drafted_at": null,
+      "drafted_at": "2026-10-01T08:42:22+00:00",
       "confirmation_signal": null,
       "github_run_id": null,
       "apply_kind": null
