@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-01T17:02:25+00:00",
+  "exported_at": "2026-10-01T20:52:46+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 184,
-    "discovered": 769,
+    "discovered": 770,
+    "pending_approval": 185,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "5bd162c246a4a1731f95510d3dcaf7a4",
+      "source": "yc",
+      "company": "Socratix AI",
+      "role": "GTM Associate, AI Agents",
+      "url": "https://www.workatastartup.com/jobs/113369",
+      "jd_text": "## **About the role**\n\nSocratix AI (YC S25) builds AI coworkers that investigate fraud and financial crime for banks, credit unions, and leading fintechs. We've closed multiple six-figure contracts since launch and are growing fast — and we need someone who can help us find, engage, and win the next wave of customers, and who can also get us in front of them in person.\n\nThis is not a \"manage a pipeline and pass it along\" role. As our first dedicated GTM hire, you'll own real pieces of the funnel — from building target account lists to running outbound campaigns to supporting founder-led sales calls — inside a market where the stakes (fraud losses, regulatory risk) are real and the pitch sells itself once people see the product work.\n\nYou'll also own how Socratix shows up in person: identifying the conferences, fairs, and industry forums worth attending, designing the materials that make our pitch land, and representing us at the booth when it counts.\n\nYou won't have a large team or a mature playbook behind you. You'll have direct access to the founders, full ownership over experiments you run, and the chance to help build Socratix's entire go-to-market motion — outbound and in-person — from the ground up.\n\n## **What You'll Do**\n\n* Build and manage outbound: identify target accounts (banks, credit unions, fintechs) and the right buyers within them, using tools like Apollo and LinkedIn Sales Navigator.\n* Run and iterate on outbound campaigns — cold email, LinkedIn, and call sequences — testing messaging, targeting, and channels, then turning what works into repeatable systems.\n* Support the full sales cycle alongside the founders: help run discovery calls and demos, build materials that make the ROI case obvious, and follow up on deals in flight.\n* Run and grow our presence on LinkedIn — content calendar, posts, and basic SEO to improve how findable we are.\n* Design the promotional campaigns and materials behind that outreach — decks, one-pagers, booth signage, social graphics — that make our AI agents clear and compelling to a technical, regulated-industry audience.\n* Identify the events, conferences, and forums (banking, credit union, fintech, and AI-focused) where we should show up to meet real customers, and represent Socratix there — run the booth, talk to prospects, capture leads, and follow up afterward.\n* Own event logistics end to end: run-of-show planning, swag and printed materials, shipping and setup, and post-event wrap-up.\n* Own pipeline hygiene: keep target lists, campaign data, and CRM records clean and current so the team always knows where every deal stands.\n* Turn field learnings — from calls, outbound, and events alike — into product input. You'll be close to prospects and customers every day, and what you hear will directly shape what Product and Engineering build next.\n* Help design the GTM playbook. As one of our first GTM hires, the systems and processes you build now — for outbound and for events — are the ones the team will scale with.\n\n## **What We're Looking For**\n\n* A builder's mindset. You don't wait for a fully-formed process — you get started, learn fast, and turn what works into something repeatable.\n* Strong written and verbal communicator. You can explain a technical, regulated product (AI agents making decisions banks act on) in plain language that a compliance or risk leader immediately understands.\n* Comfortable with ambiguity and ownership. No manager will hand you a script; you'll be figuring things out in real time and asking for help when you need it.\n* A good eye for design and aesthetics — comfortable putting together clean, professional campaign materials and booth collateral using whatever tool gets the job done.\n* Comfortable being the face of the company in the room — representing Socratix at events and owning the logistics that go with it, without a lot of hand-holding.\n* Detail-oriented and organized. You keep outbound lists, campaigns, and records clean without being asked twice.\n* 0–2 years of experience — new grads welcome. A demonstrated track record of hustle (internships, campus organizations, side projects, prior sales/BD/marketing experience) matters more than years on a resume.\n* Curiosity about fintech, fraud, risk, or applied AI, and genuine interest in learning how banks and compliance teams operate.\n* Prior exposure to a startup, sales role, or founder-adjacent work is a plus, but not required.\n\n## **Benefits**\n\nWe believe in generous, top-tier compensation and benefits:\n\n* Competitive salary and equity benchmarked to top tech companies.\n* Paid meals during workdays.\n* 100% health, dental, and vision coverage.\n* Hybrid schedule — in-office 3 days a week.\n* Commuter benefits.\n* Unlimited PTO.\n\n## **About Socratix AI**\n\nSocratix AI builds AI coworkers for fraud and risk teams—agents that investigate alerts in real time and replace manual workflows with fast, explainable decisions. Our agents integrate seamlessly into existing workflows and reason across signals like human analysts, helping teams cut fraud losses, reduce false positives, and scale operations without increasing headcount.\n\nSince launch, we've seen strong market traction, closing multiple six-figure contracts. Now, we're growing quickly to keep pace with demand and are excited to expand our founding team in the San Francisco Bay Area. If you're passionate about building at the frontier of AI and financial security, we'd love to have you on the journey.\n\n## **Who We Are**\n\nWe've seen this problem firsthand. At DoorDash, Riya built intelligent fraud detection and investigation tools that saved the company $30M+ annually, and at Unit21, she created products that enabled analysts to work 3× faster. At Cruise, Satya scaled AI systems to handle petabytes of data, and at LinkedIn, he launched enterprise products from 0 → 1, generating millions in new revenue.\n\nTogether, we bring deep expertise in fraud and AI (MIT, IIT, UCLA alumni). We're backed by Y Combinator, Pear VC, and founders/operators from DoorDash, Gusto, Square, OpenAI, and Roblox.\n\nOur mission: to build AI coworkers that transform how fraud and risk teams operate.\n\n## **Our Culture: F.O.R.C.E.**\n\nWe believe the right culture builds unstoppable teams. At Socratix, our values spell F.O.R.C.E. — the driving force behind everything we do:\n\n* **First Principles** – We start from truth, not tradition, and solve problems in original ways.\n* **Ownership** – What you work on is yours to elevate; we take accountability and act with confidence.\n* **Relentlessness** – We finish what we start, turning obstacles into breakthroughs.\n* **Customer First** – Every decision is measured by one standard: does this make our customers' lives easier?\n* **Empathy** – We respect differing perspectives, design for human needs, and build trust that lasts. Mountain View, CA, US fulltime possible\nlocations: Mountain View, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-01T20:52:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "54d5d7352078e0a844c1df7c9c879db5",
+      "source": "yc",
+      "company": "Agave",
+      "role": "Senior Software Engineer",
+      "url": "https://www.workatastartup.com/jobs/113336",
+      "jd_text": "**_This position is based in the United States. Candidates must currently reside in the U.S. or willing to relocate to the U.S. We offer relocation assistance and immigration sponsorship where applicable. As part of our interview process, candidates are required to attend a final onsite interview at our San Francisco office._**\n\n### **About the role**\n\n**tl;dr:** Fresh off a $15M Series A led by Accel (total funding now $20M+), Agave is experiencing hockey-stick growth. We're looking for a world-class **senior** full-stack/backend engineer who loves building AI and agent products on top of hard-won data, simplifying complex systems, and making them fast at scale. Learn more about us here (link).\n\n**In-person:** if you're in the Bay Area, we expect you in our San Francisco office 5 days a week. The role is remote-optional for candidates outside the Bay Area, and we offer a sizable relocation bonus if you want to move here.\n\n### **What is Agave?**\n\nWe're building the financial operations platform for construction, a $12T global industry run by software built 20-40 years ago.\n\nWe have 550+ customers, backed by Accel and Y Combinator, with investors from Procore, Autodesk, and Plaid. Our three co-founders have worked together for 12+ years, across Graphiq (acquired by Amazon in 2017) and Amazon.\n\nWe've built something people actually need, in a market most of Silicon Valley ignores — which is exactly why we're winning. We've spent the last five years building the foundational data layers that give us unusually deep access to our customers' financial and project data, across systems that were never built to talk to each other. That's the moat, and you'd be joining right as we ramp up the AI-powered products that sit on top of it. The only thing slowing us down is hiring. Our team is small, scrappy, and high-caliber, and we're looking for the next wave of builders who will help take Agave from breakout startup to category-defining company.\n\n### **Why join us?**\n\n**Early-stage, yet de-risked:** we are a rare combo of being early stage (high upside) but lower risk (thousands of contractors using us, hockey-stick growth). You get the benefits of an early stage startup without the risk you'll have at almost any other startup. You'll have a ton of impact, work directly with our customers, and get to work on interesting technical challenges you won't see at bigger companies. Although we're early stage, we've eliminated key strategic risks you'll face at other startups, like an unproven product, lack of market validation, lack of revenue, or co-founder disputes. We're all young and hungry. Most of us moved to SF from far away (Canada, SoCal, Texas, Virginia) specifically to build Agave from the ground up.\n\n**Team is technical and diverse:** you'll work with a formidable founding team that's experienced, intense, and ambitious. The cofounders worked together for 10+ years, first at a startup that Amazon acquired, then at Amazon, and now at Agave. You'll learn a ton while having outsized ownership. You'll have a front-row seat to the good and bad of building a company from the ground up.\n\n**Huge opportunity without direct competition:** startups are incredibly hard, so you want to join one that has a unique advantage. You don't want to spend years of your life on a company in a saturated market with tons of competition. We're seizing an opportunity that's massive (Construction is the world's third-largest industry) but also overlooked by most people in startup land. Most who can solve this problem aren't aware it exists or are too distracted by tech trends to notice. As a result, we have a multi-year head start against potential competitors, increasing our odds of success significantly. We're also backed by world-class investors (Accel, YC) and Construction insiders (Procore and Autodesk executives, founders of the largest construction tech companies like PlanGrid).\n\n**Momentum is accelerating:** our AI products are the fastest-growing part of the business, with a third of new deals now including one. Channel partnerships are fueling that growth too: we signed 8 new ones in the last month alone.\n\n### **Requirements:**\n\n* Back-end/full-stack engineer with 6+ years of experience.\n* Has designed and built new large-scale systems from scratch and owned them through years of production use.\n* Deep experience with cloud infrastructure (e.g. AWS) and distributed systems in production: caching, queuing, and data consistency at scale.\n* Has debugged hard production issues end-to-end: DB performance, memory, concurrency, third-party API failures.\n* Comfortable across the full stack, and able to pick up unfamiliar or legacy systems (SQL, DLLs).\n* Has lived through scaling pain: 100x traffic growth, migrations, incident postmortems.\n* Has delivered large, ambiguous projects end-to-end, and can explain the tradeoffs to founders and customers, not just engineers.\n* Self-motivated, high ownership, low ego; desire to work on a fast-paced, intense, fun team. Excited to be our next hire; passion for building a world-class engineering culture.\n* If in Bay Area: pumped to work in-person with us in SF 5 days/week. This role is remote optional for candidates outside of the Bay Area.\n* No need to have: prior experience with our tech stack.\n\n### **What we expect from you**\n\n* **Own the architecture of major subsystems** — a new integration category, sync engine internals, our AI product infrastructure. The design decisions are yours to make and defend.\n* **Set the patterns the team builds on.** Your abstractions become how we build; you influence through design docs, reviews, and tooling.\n* **Scope and de-risk multi-week projects yourself:** identify the unknowns, prototype early, sequence the work.\n* **Make pragmatic build-vs-buy and tech-debt tradeoffs,** and articulate the reasoning clearly.\n* **Raise the team's technical bar** through design reviews, pairing, and mentoring the engineers we hire alongside you.\n\n### **Interesting technical challenges?**\n\n**AI &amp; agents:** this is where most of our new product work is. We're building agents that read, reconcile, and act on construction financial data (invoices, change orders, pay apps, budgets) inside systems that were never designed to be queried. The hard parts are grounding, getting an agent to be right about a customer's actual numbers, evaluating quality when the correct answer lives in a 30-year-old ERP, designing tools over our own APIs, and deciding what should be a deterministic pipeline versus what to leave to a model.\n\n**Unification:** we unify dozens-to-hundreds of fragmented systems under a single standard that we define: data objects, data models, authentication, account-linking UX, and features like filters and pagination. It's the foundation the AI products sit on, and every new feature has to be designed generically across every system we support and plan to support.\n\n**On-prem:** we're connecting with many types of on-prem systems (SQL-based, DLL-based, API-based), many built 20-40 years ago. We provide tremendous value to customers allowing them to interface with these systems in a secure, fast, reliable way, as if they're modern, cloud-based products. We need to support real-time communication and webhooks when they don't exist (e.g., using web-sockets).\n\n**Scale &amp; speed:** we're handling millions of API requests per day, and growing daily. For our products that we power with our own API (e.g. Analytics), we need to store and retrieve large amounts of data in an efficient way, building elegant caching layers to reduce latency. We ship code daily and iterate quickly based on actual feedback from paying customers (they share tons!).\n\n### **Tech stack?**\n\nTypeScript, React, Redis, Postgres, AWS - CDK, EC2\n\n### **Benefits**\n\n* **Equity:** competitive equity, so you share in the upside you're helping create.\n* **Healthcare:** we cover 90% of your healthcare costs with several plan options.\n* **401k:** we match 100% of your contributions, up to 4% of annual salary.\n* **Performance Bonuses:** we offer annual performance bonuses when we hit company growth goals. For 2026, the bonus is 15% of your base salary or OTE. We've had these bonuses for the last 3 years, and expect to continue to have them in subsequent years.\n* **Relocation:** sizable relocation bonus for folks currently located outside of the Bay Area, and a bonus for anyone (even within the Bay Area) who moves within a 15-minute walk of our office.\n* **Breakfast &amp; Dinner, delivered:** breakfast and dinner stipends through DoorDash. Plus a kitchen stocked with coffee, snacks, drinks, and more.\n* **Gym:** on-site gym with Peloton, squat rack, Tempo, Yoga setup, and more.\n* **Visa:** we sponsor Visas (H1B, TN, etc.) for candidates who are a good fit!\n* **Commuter benefits:** employees can make pre-tax contributions toward commuting costs, and we'll cover the full cost of a Muni pass for those using public transit.\n* **Office Visits:** we will provide company-sponsored trips to our HQ in SF at least every other month. We'll coordinate trips for other remote employees to coincide during \"remote visit\" weeks to maximize your touchpoints with teammates.\n\n### **Our Office**\n\nWe've built Agave in-person since day 1, and will maintain an in-person culture in San Francisco going forward for candidates in the Bay Area. We also will provide a significant relocation bonus for candidates who want to move to the Bay Area.\n\nOur office is at 101 New Montgomery Street, San Francisco, right near Salesforce Park, coffee shops &amp; restaurants, and a bustling downtown. We believe building in-person is a huge strategic advantage, and we hope you'll join us.\n\n### **About the interview process**\n\nAt each stage, we decide within 24hrs and update you shortly after.\n\n**Intro (15min):** informal chat for you to learn more about the role. We'll ask for details on past projects. We want to know that you can code, and speak about your work clearly. You're welcome to ask lots of questions about whether working at Agave makes sense for you.\n\n**Customer Needs Problem (50min):** we'll ask you to design a feature to meet a customer need based on one of our actual application components. You'll do the work to understand the requirements, translate those to specs, and iterate on the solution as you learn more about the customer's needs. This will intentionally have more ambiguity than a typical coding-style question.\n\n**Behavioral Interview (50 min):** we’ll ask you a series of behavioral interview questions to understand how you approach problems, collaborate, and communicate.\n\n**On-site (60min x 5, all 1:1 interviews) \\[In-Person in SF, we pay for the trip\\]:** you'll interview with each co-founder and our lead dev. This will be a deeper dive into your technical abilities and overall fit. Each interview is 1hr, 45min for our questions and 15min for yours. San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: yes\nmin_experience: 6",
+      "match_score": 10.62,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've designed and owned large-scale cloud-native platforms from end to end, diagnosing and fixing production concurrency risks with RabbitMQ and cutting API fetch latency by 98% with Redis caching. My experience delivering full-stack systems, automating 90% of manual workflows for 80+ client organizations, and validating LLM tool-calling on local agents directly aligns with building the financial operations platform for construction.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-01T20:52:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.08,
+            "overlap": 18.87,
+            "combined": 10.62
+          },
+          "backend": {
+            "cosine": 6.12,
+            "overlap": 19.17,
+            "combined": 10.04
+          },
+          "frontend": {
+            "cosine": 6.19,
+            "overlap": 20.87,
+            "combined": 10.59
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.08,
+        "keyword_overlap_score": 18.87,
+        "final_score": 10.62,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.0911
+          },
+          {
+            "term": "based",
+            "weight": 0.0861
+          },
+          {
+            "term": "data",
+            "weight": 0.0804
+          },
+          {
+            "term": "stack",
+            "weight": 0.0759
+          },
+          {
+            "term": "ai",
+            "weight": 0.0738
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-01T20:52:44+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "1d564fd546d538c36e766b1359246d10",
       "source": "wellfound",
