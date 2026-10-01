@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-09-30T22:15:28+00:00",
+  "exported_at": "2026-10-01T04:20:34+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 771,
     "pending_approval": 176,
-    "discovered": 770,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "1301bd5847d4cea65cb0bef86811c347",
+      "source": "yc",
+      "company": "Uno Wallet",
+      "role": "Founding Head of Product",
+      "url": "https://www.workatastartup.com/jobs/113112",
+      "jd_text": "**Build the best way to pay on iPhone.**\n\nUno is building an intelligent wallet that understands the merchant, purchase context, rewards, and user goals, then uses the best card.\n\nWe’re looking for a hands-on product leader to help make the Uno app dramatically better.\n\n**What you’ll do**\n\n* Own the product experience across the iPhone app\n* Talk to users and turn feedback into shipped improvements\n* Improve onboarding, merchant prediction, card recommendations, and payment flows\n* Find confusing UX, bugs, edge cases, and reliability issues before users do\n* Write clear product specs and work directly with engineers to ship quickly\n* Use product data to understand what is working and what is not\n* Help design Uno’s future native tap-to-pay experience\n\n**Who we’re looking for**\n\n* Strong product judgment and attention to detail\n* Comfortable working directly with engineers\n* Fast, hands-on, and highly user-focused\n\nThis is not a management-heavy role. You will work directly with the founders and founding engineer and personally own the quality of the product.\n\n**The team**\n\nYou will work directly with Saket Joshi, a former xAI Member of Technical Staff with a background in recommendation systems, and Mordi Shadpour, who previously worked at Bloomberg and went to Harvard Business School for his MBA.\n\n**Location:** San Francisco / Palo Alto\\\n**Type:** Full-time, in person (hybrid available) South San Francisco, CA, US Palo Alto, CA, US fulltime possible\nlocations: South San Francisco, CA, US Palo Alto, CA, US\nremote: no\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-01T04:20:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "80d76f047b0c2bd2b6ff8513ea3ccb18",
       "source": "wellfound",
