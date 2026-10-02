@@ -1,15 +1,551 @@
 {
-  "exported_at": "2026-10-02T14:32:15+00:00",
+  "exported_at": "2026-10-02T16:11:57+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 774,
-    "pending_approval": 186,
+    "discovered": 781,
+    "pending_approval": 188,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "3c70c164f01985b51a2b144be6b423c4",
+      "source": "wellfound",
+      "company": "talentxo",
+      "role": "Senior AI/ML Engineer (LLM, Python)",
+      "url": "https://wellfound.com/jobs/4797081-senior-ai-ml-engineer-llm-python",
+      "jd_text": "**Roles &amp; Responsibilities\n**\nLead end-to-end design and delivery of production-grade AI/ML solutions including RAG pipelines, LLM-based applications, and extraction systems\n\nArchitect and develop robust, scalable AI/ML services in Python with focus on reliability and production-grade performance\n\nDevelop and optimize AI-driven extraction workflows using document parsing, chunking, embeddings, RAG, and LLM-based extraction methods\n\nDeploy and scale AI models on AWS and Azure (SageMaker, Bedrock, Azure AI Foundry) with seamless integration into data pipelines\n\nBuild and maintain CI/CD pipelines for AI model deployment using GitHub Actions, Azure DevOps, Docker, and Kubernetes\n\nDefine and implement evaluation frameworks (precision, recall, F1, field-level accuracy) and maintain code quality through reviews and testing\n\nPartner with Product, Data Engineering, and Platform teams to translate business requirements into scalable AI solutions\n\nMentor team members and share knowledge to elevate overall team capability\n\nContinuously research and apply advancements in NLP, LLMs, and extraction techniques\n\nContribute to efficient development cycles following Agile practices and drive automation across the AI delivery pipeline\n\n**Ideal Candidate\n**\n1.Strong Senior AI Engineer Profile with production-grade LLM and Python expertise\n2.Mandatory (Experience 1): Must have at least 3+ years of professional AI/ML engineering experience with demonstrated track record of delivering production-grade AI systems in real-world environments\n3.Mandatory (Tech skill 1): Must have strong programming skills in Python and SQL, with hands-on ML/data libraries (scikit-learn, pandas, numpy) and deep-learning frameworks (PyTorch or TensorFlow), plus REST API design\n4.Mandatory (Experience 2): Must have hands-on experience building and deploying production-grade ML/LLMs including RAG pipelines, document parsing, information extraction, and text processing on large-scale unstructured data (preprocessing, chunking, embeddings, feature engineering)\n5.Mandatory (Tech skill 2): Must have strong NLP / extraction-focused ML depth — transformers, embeddings, vector databases, RAG, LLM integrations, and agentic workflows.\n6.Mandatory (Tech skill 3): Must have hands-on experience with AWS (SageMaker, Bedrock, EC2, Lambda) and Azure (AI Foundry, Azure OpenAI) for model training, fine-tuning, deployment, and inference at scale\n7.Mandatory (Tech skill 4): Must have experience with multi-agentic frameworks / orchestration tools (Claude Code, LangGraph, LangChain, CrewAI)\n8.Mandatory (Tech skill 5): Must have hands-on experience with MLOps ecosystem including experiment tracking (MLflow, Weights &amp; Biases), model versioning/registry, automated retraining, and CI/CD (GitHub Actions, Azure DevOps, Docker, Kubernetes)\n9.Mandatory (Tech skill 6): Must have experience with evaluation frameworks (precision, recall, F1, field-level accuracy) and iterative model improvement, plus AI observability (Prometheus, Grafana, SLOs).\n10.Mandatory (Team Leadership): Must have experience leading projects or teams, managing technical deliverables, and mentoring, with strong problem-solving in ambiguous challenges\n11.Mandatory (Education) - Bachelor's or Master's degree in Computer Science/Engineering/Data Science/Mathematics/Statistics or related fields\n12.Mandatory (Company): B2B Tech/Consulting/B2B Software\n13.Preferred (Certification): AWS certifications (Solutions Architect, Machine Learning Specialty), Azure certifications (AI Fundamentals, AI Engineer Associate), or Databricks certifications (Machine Learning Professional, Generative AI Engineer Associate)\n14.Preferred (Methodology): Experience in Agile development methodologies\n15.Preferred (Tools): Data pipeline/orchestration (Apache Kafka, Airflow); certifications — AWS (Solutions Architect, ML Specialty), Azure (AI Engineer Associate), Databricks (ML Professional, GenAI Engineer Associate). Hyderabad Ahmedabad Indore\nlocationNames: Hyderabad Ahmedabad Indore",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-02T16:10:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8bded0b80652b136f5c7588b4b0637ab",
+      "source": "wellfound",
+      "company": "Nixora",
+      "role": "Founding Engineer",
+      "url": "https://wellfound.com/jobs/4763404-founding-engineer",
+      "jd_text": "🚀 **Nixora is hiring a Founding Developer**\n\nNixora is building the **autonomous control plane for AI-generated software and AI agents**.\n\nAI coding agents can now build applications and agents in minutes. But building them is only the beginning.\n\nNixora handles what comes next: **deployment, infrastructure, operations, scaling, monitoring, and lifecycle management**.\n\nWe are looking for a **Founding Developer** who wants to build this from the ground up with the founding team.\n\n### What you'll work on\n\n* Build the core Nixora platform and control plane\n* Design infrastructure automation for AI-generated applications and agents\n* Work across cloud, containers, APIs, orchestration, and developer tooling\n* Build systems that can deploy, monitor, scale, and manage software autonomously\n* Make key architecture and product decisions alongside the founders\n* Move quickly from idea → prototype → production\n\n### Who we're looking for\n\nYou don't need a perfect resume. We care more about **what you can build**.\n\nYou should:\n\n* Be a strong full-stack/backend engineer\n* Be comfortable with Python/TypeScript and modern cloud infrastructure\n* Understand APIs, databases, containers, and distributed systems\n* Have experience building and shipping real products\n* Be highly autonomous and comfortable with ambiguity\n* Think like a product builder, not just an implementer\n* Be excited about AI agents, AI-generated software, and autonomous infrastructure\n\n### Why join early?\n\nThis is a **founding-level role**.\n\nYou'll have significant ownership over the technology, architecture, and product direction, and work directly with the founders.\n\n**Compensation:** Founder-level ESOP/equity structure at the current stage, with salary to follow as funding is secured.\n\nIf you're the kind of engineer who wants to **build the infrastructure layer for the next generation of software**, DM me with:\n\n**1. What you've built**\n**2. Your GitHub/portfolio**\n**3. Why Nixora interests you**\n**4. Your availability**\n\nLet's build something that matters. 🚀 Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 6.3,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-02T16:10:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.17,
+            "overlap": 7.95,
+            "combined": 6.0
+          },
+          "backend": {
+            "cosine": 5.46,
+            "overlap": 8.27,
+            "combined": 6.3
+          },
+          "frontend": {
+            "cosine": 3.35,
+            "overlap": 9.71,
+            "combined": 5.26
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.46,
+        "keyword_overlap_score": 8.27,
+        "final_score": 6.3,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2036
+          },
+          {
+            "term": "agents",
+            "weight": 0.1697
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0832
+          },
+          {
+            "term": "architecture",
+            "weight": 0.0679
+          },
+          {
+            "term": "apis",
+            "weight": 0.0555
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2921d1297983a391d8a4721b7ec8af7c",
+      "source": "wellfound",
+      "company": "Vieu",
+      "role": "Graph Data Engineer",
+      "url": "https://wellfound.com/jobs/3902546-graph-data-engineer",
+      "jd_text": "**About Us**\n\nVieu is building a best-in-class knowledge graph; collecting, analyzing, and indexing billions of entities and relationships to power revolutionary experiences in the Sales space. Engineers at Vieu contribute across the stack from data pipelines to user interfaces to deliver powerful, intuitive experiences which unlock new opportunities for our customers. \n\n**About the Role**\n\nWe’re looking for a Graph Data Engineer to design and build large-scale data pipelines that transform unstructured web data into structured, searchable knowledge systems. \n\nYou will be foundational in architecting our data platform from scratch. You will help scale our data systems to handle millions of data points daily. \n\nYou’ll work at the intersection of: \n\n* Data engineering \n* Distributed systems (Spark/Flink) \n* NLP &amp; entity extraction \n* Web scraping &amp; automation \n* Vector search &amp; graph-based intelligence \n\nThis is a hands-on engineering role focused on building scalable pipelines that power intelligent data products. \n\n **What You’ll Do**\n\n* Build and maintain scalable ETL/data pipelines for large-scale structured &amp; unstructured datasets \n* Design distributed processing workflows using Apache Spark or Apache Flink \n* Develop web scraping and crawling frameworks using Selenium, Puppeteer, or similar tools \n* Implement entity extraction, NLP pipelines, and feature engineering workflows \n* Integrate data into Elasticsearch / OpenSearch / Vector Databases \n* Design data models for graph-based and search-based applications \n* Optimize pipeline performance, reliability, and monitoring (Airflow or equivalent orchestration) \n* Collaborate with ML engineers to support model training &amp; evaluation workflows \n* Ensure data quality, cleaning, and validation at scale \n\n **What We’re Looking For**\n\n**Core Requirements:**\n\n* 3–7+ years in Data Engineering &amp; backend systems. \n* Build multiple systems from scratch in a fast-paced environment \n* Experience working with large-scale data processing of 100M+ nodes \n* Hands-on experience building ETL pipelines \n* Experience with Airflow or workflow orchestration systems \n\n**Strong Plus**\n\n* Experience with Python/Typescript\n* Experience with NLP / entity extraction pipelines \n* Strong experience with Apache Spark or Apache Flink \n* Experience building web scraping / crawling systems \n* Familiarity with Elasticsearch / OpenSearch \n* Experience with Vector Databases \n* Exposure to graph data modeling or knowledge graph systems \n* Experience with ML lifecycle: feature engineering, model evaluation, deployment &amp; monitoring of the final system  \n\n**What Makes This Role Interesting**\n\n* Work on real-world unstructured data at scale \n* Build graph-powered intelligence systems \n* High ownership across data ingestion → extraction → indexing → ML enablement \n* Opportunity to shape foundational data infrastructure Pune\nlocationNames: Pune\nremote: true",
+      "match_score": 9.05,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-02T16:10:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.83,
+            "overlap": 9.6,
+            "combined": 9.06
+          },
+          "backend": {
+            "cosine": 9.07,
+            "overlap": 9.02,
+            "combined": 9.06
+          },
+          "frontend": {
+            "cosine": 6.96,
+            "overlap": 11.17,
+            "combined": 8.22
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 9.07,
+        "keyword_overlap_score": 9.02,
+        "final_score": 9.05,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.3693
+          },
+          {
+            "term": "experience",
+            "weight": 0.1662
+          },
+          {
+            "term": "pipelines",
+            "weight": 0.1293
+          },
+          {
+            "term": "workflows",
+            "weight": 0.0554
+          },
+          {
+            "term": "model",
+            "weight": 0.0452
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "5a26694d77295458c4df5ec98312f4cb",
+      "source": "wellfound",
+      "company": "Crearo",
+      "role": "AI Officer",
+      "url": "https://wellfound.com/jobs/4791916-ai-officer",
+      "jd_text": "About Crearo\nCrearo is building the AI infrastructure for pop-culture marketing — helping brands create, discover and distribute content through meme creators and cultural communities.\n\n\nWhat you’ll do\n- Build and improve AI workflows across Crearo’s product and internal operations.\n- Design AI agents and automations for campaign planning, creator selection and content distribution.\n- Work with LLMs such as OpenAI/Claude and build effective prompts, guardrails and workflows.\n- Improve Crearo’s AI Distribution Engine using campaign and creator data.\n- Automate repetitive marketing, research, reporting and operational tasks.\n- Test AI outputs, identify failure cases and continuously improve accuracy.\n- Work closely with the product and business teams to turn real problems into AI-powered solutions.\n- Research new AI tools, models and APIs and identify where they can create business value.\n- Build internal AI systems that help the team work faster and scale operations.\n\n\nWhat we’re looking for\n- Strong understanding of GenAI, LLMs, agents and automation.\n- Hands-on experience with OpenAI/Claude APIs, prompt engineering and AI workflows.\n- Comfortable with tools like Make, n8n, Zapier or similar automation platforms.\n- Basic knowledge of APIs, JSON and Python/JavaScript is a plus.\n- Strong problem-solving and experimentation mindset.\n- Ability to take an idea from “this can be automated” → working system.\n- Curious about internet culture, memes, social media and creator economy.\n\n\nYou’ll be a great fit if\n- You constantly experiment with AI tools.\n- You build things instead of just researching them.\n- You can identify business problems that AI can solve.\n- You’re comfortable working in a fast-moving startup environment.\n\n\nWhat you’ll get\n- Ownership of Crearo’s AI systems.\n- Direct exposure to product, marketing and business decisions.\n- Opportunity to build AI workflows used by real brands.\n- High autonomy and fast learning environment. Gurgaon\nlocationNames: Gurgaon\nremote: true",
+      "match_score": 7.12,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-02T16:10:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.65,
+            "overlap": 7.28,
+            "combined": 6.84
+          },
+          "backend": {
+            "cosine": 6.95,
+            "overlap": 7.52,
+            "combined": 7.12
+          },
+          "frontend": {
+            "cosine": 2.92,
+            "overlap": 8.25,
+            "combined": 4.52
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 6.95,
+        "keyword_overlap_score": 7.52,
+        "final_score": 7.12,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.4522
+          },
+          {
+            "term": "workflows",
+            "weight": 0.1056
+          },
+          {
+            "term": "apis",
+            "weight": 0.0792
+          },
+          {
+            "term": "tools",
+            "weight": 0.0792
+          },
+          {
+            "term": "agents",
+            "weight": 0.0646
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "16171d2bb1dcdbaac6b063df46461686",
+      "source": "wellfound",
+      "company": "Ignite Solutions",
+      "role": "React Native Developer",
+      "url": "https://wellfound.com/jobs/4523249-react-native-developer",
+      "jd_text": "**About Us**\n\nAs a company, we provide product development for startups and high-growth companies. This means you’ll work with multiple cutting-edge technologies while enjoying a stable job. We value our employees and offer an intellectually stimulating, no-nonsense environment where everyone's ideas and contributions are encouraged and respected. \nWe are looking for a talented and passionate React Native Developer with a strong foundation in native Android and/or iOS development to join our team. You will work on exciting projects across both mobile platforms, using technologies like React Native, Flutter, Kotlin, Swift, Jetpack Compose, SwiftUI, and more.\n\n**About You**\n\n* You have 3+ years of experience in Android and/or iOS development and 2+ years of production-level experience with React Native.\n* You are highly proficient in JavaScript/TypeScript and have a strong understanding of asynchronous programming, the JavaScript event loop, promises, async/await, and modern state management patterns.\n* You have hands-on experience with modern React Native architecture and best practices, including Redux Toolkit, Zustand, Context API, React Query/TanStack Query, and scalable project structures such as Clean Architecture, modular architecture, or feature-based architecture.\n* You understand platform-specific behaviours on Android and iOS and are comfortable integrating React Native with native code using Native Modules, TurboModules, and JSI when required.\n* You have experience working with native Android (Kotlin/Jetpack Compose) and/or native iOS (Swift/SwiftUI) development, and understand how React Native integrates within hybrid or existing native applications.\n* You are comfortable building responsive and adaptive mobile user interfaces across different screen sizes and devices, with experience optimizing layouts for phones and tablets.\n\n**You have worked with:**\n* RESTful APIs (including authentication flows such as OAuth, JWT)\n* GraphQL (nice to have)\n* Third-party SDKs and payment gateways\n* Push notifications (Firebase Cloud Messaging / APNs)\n* You have experience interfacing with device capabilities such as:\n* Camera, media handling\n* GPS and geolocation services\n* Background services and permissions\n* Bluetooth / NFC (nice to have)\n* You understand mobile app performance optimization (rendering performance, memory usage, frame drops, Flipper, Hermes profiling, Android Studio Profiler, Xcode Instruments).\n* You have built apps supporting offline-first functionality, local persistence (AsyncStorage, MMKV, SQLite, or Realm), and data synchronization strategies.\n\n**You are familiar with:**\n* CI/CD pipelines using GitHub Actions, Bitrise, Codemagic, Fastlane, or similar tools.\n* Automated builds and store deployment (Google Play Console, App Store Connect)\n* Code signing and store compliance requirements\n* You write clean, maintainable, testable code and have experience with:\n* Unit testing (Jest)\n* Component testing (React Native Testing Library)\n* End-to-end testing (Detox or Maestro)\n* You are proficient with Git-based workflows (GitFlow or trunk-based development).\n* You understand the complete mobile development lifecycle: discovery, architecture design, development, QA, release, monitoring, and post-launch iteration.\n* You are comfortable working in agile environments and collaborating with designers, backend engineers, QA, and product stakeholders.\n* You demonstrate strong communication skills and a proactive, ownership-driven mindset.\n\n**Nice to have:**\n* Experience with Hermes for performance optimization and debugging.\n* Experience with Expo and the Expo ecosystem (where applicable).\n* Familiarity with deep linking and universal/app links.\n* Experience integrating Firebase services, including Analytics, Crashlytics, and Remote Config.\n* Experience implementing over-the-air (OTA) updates using CodePush or Expo Updates.\n\n**What do we offer?**\n* We have an open and honest culture. As part of our team, you will get to contribute to our ideas, our plans, and our success\n* We treat you with respect (and trust you will do the same to your team members)\n* We hire carefully - our hiring process results in getting people with the right attitude on board\n* Your credentials are not as important as your skills, your attitude, and your motivation\n* We promise you opportunities to master new and interesting technologies Pune\nlocationNames: Pune\nremote: true",
+      "match_score": 12.91,
+      "resume_variant": "frontend",
+      "draft_answer": "I’ve consistently built performant React front ends, dramatically improving user experience by cutting API fetch latency 98% and reducing data load times for cloud-native platforms, which is crucial for rapid product development for startups. My experience architecting scalable, API-driven applications deployed with Docker on Azure and AWS ensures I can quickly deliver high-impact, user-centric interfaces across mobile platforms using technologies like React Native for your product development efforts.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-02T16:10:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.27,
+            "overlap": 16.23,
+            "combined": 11.36
+          },
+          "backend": {
+            "cosine": 7.6,
+            "overlap": 15.79,
+            "combined": 10.06
+          },
+          "frontend": {
+            "cosine": 10.53,
+            "overlap": 18.45,
+            "combined": 12.9
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.53,
+        "keyword_overlap_score": 18.45,
+        "final_score": 12.91,
+        "top_keywords": [
+          {
+            "term": "native",
+            "weight": 0.2829
+          },
+          {
+            "term": "experience",
+            "weight": 0.2223
+          },
+          {
+            "term": "react",
+            "weight": 0.1819
+          },
+          {
+            "term": "based",
+            "weight": 0.0741
+          },
+          {
+            "term": "app",
+            "weight": 0.0606
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-02T16:11:55+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1f2377027ea368c2b96707976be219ea",
+      "source": "wellfound",
+      "company": "EveoAI",
+      "role": "Android Developer - 2 Month Internship + Full time - 4 Vacancy",
+      "url": "https://wellfound.com/jobs/2843292-android-developer-2-month-internship-full-time-4-vacancy",
+      "jd_text": "**About Us:**\n\nEveoAI is a cutting-edge startup that aims to revolutionize the fashion and personality development industry using AI and AR technology. Our goal is to replace personal fashion designers and personality coaches by providing a comprehensive vertical SaaS product. Join us and be a part of an innovative team that's shaping the future of fashion and personality management.\n\n**Position Overview:**\n\nWe are looking for a motivated and talented Android Intern to join our team at Eveo. As an Android Intern, you will work closely with our experienced mobile development team, contributing to the creation of innovative and user-friendly Android applications. This internship is an excellent opportunity to gain hands-on experience in Android app development and contribute to exciting projects.\n\n**Responsibilities:**\n\n1. Develop and maintain high-performance, reusable, and reliable Android applications.\n2. Collaborate with cross-functional teams to define, design, and ship new features for our mobile application.\n3. Ensure the best possible performance, quality, and responsiveness of applications.\n4. Identify and correct bottlenecks and fix bugs to improve application performance.\n5. Work on integrating AI and AR functionalities into the mobile application to enhance user experience.\n6. Collaborate with the backend team to integrate APIs and ensure smooth functionality.\n7. Participate in code reviews and provide constructive feedback to other team members.\n\n**Requirements:**\n\n1. Strong knowledge of Android SDK, different versions of Android, and how to deal with different screen sizes.\n2. Proficient in Java/Kotlin programming languages.\n3. Experience with RESTful APIs to connect Android applications to back-end services.\n4. Familiarity with cloud message APIs and push notifications.\n5. Basic understanding of AR (Augmented Reality) and AI concepts.\n6. Understanding of mobile UI/UX principles and experience with creating user-friendly interfaces.\n7. Knowledge of version control systems like Git.\n8. Experience with offline storage, threading, and performance tuning.\n9. Familiarity with the use of sensors, such as gyroscopes and accelerometers, within Android applications.\n\n**AI/ML Library Expertise:**\n\n* Experience with TensorFlow Lite or ML Kit for integrating machine learning models into Android apps.\n* Familiarity with OpenCV for image recognition and processing tasks.\n* Knowledge of libraries like Firebase ML for on-device AI implementation.\n* Basic understanding of how to train, optimize, and deploy AI/ML models for mobile applications.\n\n**Nice to Have:**\n\n1. Experience with image recognition and processing within mobile applications.\n2. Exposure to Agile development methodologies.\n3. Knowledge of building and managing scalable cloud-based mobile applications.\n4. Understanding of the fashion and personality development domain.\n\n**What We Offer:**\n\n1. Opportunity to work on innovative projects that leverage AI and AR technology.\n2. Collaborative and dynamic work environment.\n3. Accommodation facilities for employees.\n4. Growth opportunities within the company. India Ahmedabad Surat Gujarat\nlocationNames: India Ahmedabad Surat Gujarat",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-02T16:10:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9e7916e5940a9d8863a2c42e3af11152",
+      "source": "wellfound",
+      "company": "EveoAI",
+      "role": "Data Scientist - Junior role - 8 position",
+      "url": "https://wellfound.com/jobs/2876154-data-scientist-junior-role-3",
+      "jd_text": "# Data Scientist\n\nEveo, a pioneering AI-driven fashion and personality management startup, is seeking a skilled and innovative **Data Scientist** to join our dynamic team. The ideal candidate will play a crucial role in preparing and analyzing data for training AI models, extracting valuable insights, and contributing to the success of our innovative platform.\n\n**Responsibilities:**\n\n**1. Data Cleaning and Preparation:**\n\n* Clean, preprocess, and transform large datasets to ensure accuracy, consistency, and completeness.\n* Collaborate with cross-functional teams to understand data requirements and identify relevant data sources.\n* Handle missing, duplicate, inconsistent, and noisy data effectively.\n* Develop efficient data preprocessing pipelines for machine learning workflows.\n\n**2. Data Analysis and Exploration:**\n\n* Perform exploratory data analysis (EDA) to identify patterns, trends, correlations, and anomalies.\n* Apply statistical techniques to analyze datasets and generate actionable insights.\n* Create meaningful visualizations and reports to communicate data-driven findings.\n* Evaluate data quality and identify opportunities for improvement.\n\n**3. Data Mining and Information Extraction:**\n\n* Extract and process information from diverse sources, including databases, documents, APIs, and external data sources.\n* Apply data mining and analytical techniques to discover hidden patterns and relationships.\n* Work with structured and unstructured data to support business and AI initiatives.\n* Develop approaches for collecting and organizing relevant datasets.\n\n**4. Machine Learning Model Training Support:**\n\n* Collaborate with AI and Machine Learning Engineers to prepare high-quality datasets for model training.\n* Perform feature engineering and data transformation to improve model performance.\n* Support dataset creation, labeling, validation, and evaluation processes.\n* Monitor data quality and identify potential issues affecting model accuracy.\n* Experiment with different data preparation techniques to optimize machine learning outcomes.\n\n**5. Data Visualization and Reporting:**\n\n* Develop dashboards, reports, and visualizations to present analytical findings.\n* Translate complex datasets into clear and understandable insights for technical and non-technical stakeholders.\n* Track key data and model-related metrics to support decision-making.\n\n**6. Documentation and Collaboration:**\n\n* Maintain comprehensive documentation of data sources, preprocessing steps, analytical methodologies, and results.\n* Collaborate with Data Scientists, AI Engineers, Software Engineers, and Product teams.\n* Communicate findings and recommendations effectively to both technical and non-technical stakeholders.\n* Stay updated with emerging data science, machine learning, and AI technologies.\n\n**Qualifications:**\n\n1. Proven experience as a **Data Scientist**, Data Analyst, or in a similar data-focused role.\n2. Strong proficiency in **data cleaning, preprocessing, and exploratory data analysis**.\n3. Knowledge of **statistics, data mining, feature engineering, and information extraction**.\n4. Familiarity with **machine learning concepts and model training workflows**.\n5. Strong programming skills in **Python**; familiarity with R is an advantage.\n6. Experience with data manipulation libraries such as **Pandas and NumPy**.\n7. Familiarity with data visualization tools and libraries such as **Matplotlib, Seaborn, or similar tools**.\n8. Basic understanding of **SQL and relational databases**.\n9. Strong analytical and problem-solving skills.\n10. Excellent communication, teamwork, and collaboration skills.\n\n**Education and Experience:**\n\n* Bachelor’s or Master’s degree in **Data Science, Computer Science, Statistics, Mathematics, Artificial Intelligence, or a related field**.\n\n* **1+ years of experience** in Data Science, Data Analytics, Machine Learning, or a relevant field.\n* Candidates with strong practical projects or hands-on experience in AI and data science are encouraged to apply.\n\n**What We Offer:**\n\n* Opportunity to work on innovative **AI-driven fashion and personality technology**.\n* Exposure to real-world machine learning and data science projects.\n* Collaborative and fast-paced startup environment.\n* Opportunity to work closely with AI, engineering, and product teams.\n* Continuous learning and professional growth opportunities.\n\nIf you are passionate about **leveraging data to drive innovation** and are excited to contribute to the cutting-edge work at Eveo, we encourage you to apply.\n\nEveo is an **equal opportunity employer**. We celebrate diversity and are committed to creating an inclusive environment for all employees. India Surat Gujarat\nlocationNames: India Surat Gujarat\nremote: true",
+      "match_score": 13.12,
+      "resume_variant": "backend",
+      "draft_answer": "My project experience, including building PixSort with AWS Rekognition for facial-analysis auto-tagging and validating LLM tool-calling reliability in my Local AI Agent, demonstrates my ability to extract information from diverse sources and perform data validation, directly aligning with EveoAI's needs for data cleaning, preparation, and analysis. My proficiency in Python and scikit-learn, coupled with my Master of Computer Applications degree and hands-on work with LLM agents, prepares me to contribute effectively to your team in feature engineering and supporting high-quality dataset creation for machine learning workflows.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-02T16:10:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.94,
+            "overlap": 11.26,
+            "combined": 12.44
+          },
+          "backend": {
+            "cosine": 13.59,
+            "overlap": 12.03,
+            "combined": 13.12
+          },
+          "frontend": {
+            "cosine": 8.31,
+            "overlap": 14.08,
+            "combined": 10.04
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 13.59,
+        "keyword_overlap_score": 12.03,
+        "final_score": 13.12,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.5674
+          },
+          {
+            "term": "ai",
+            "weight": 0.1602
+          },
+          {
+            "term": "model",
+            "weight": 0.1068
+          },
+          {
+            "term": "experience",
+            "weight": 0.0727
+          },
+          {
+            "term": "technical",
+            "weight": 0.0582
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-02T16:11:41+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2e33e1a82f668392dbe1ad587ae2f2cd",
+      "source": "wellfound",
+      "company": "EveoAI",
+      "role": "Python- Backend",
+      "url": "https://wellfound.com/jobs/3074565-python-backend",
+      "jd_text": "**Job Description:**\n\nWe are seeking a highly skilled Backend Engineer to join our dynamic team. The ideal candidate will be responsible for developing, deploying, and maintaining the backend systems that power our cutting-edge AI and AR applications. You will work closely with our data scientists, frontend developers, and product managers to ensure seamless integration and performance of our platform.\n\n**Key Responsibilities:**\n\n* Design, develop, and maintain scalable and robust backend systems and APIs.\n* Collaborate with frontend developers to integrate user-facing elements with server-side logic.\n* Optimize applications for maximum speed and scalability.\n* Implement data storage solutions, including databases and data warehouses.\n* Develop and maintain microservices architecture.\n* Ensure the security, reliability, and performance of backend services.\n* Write clean, maintainable, and efficient code.\n* Conduct code reviews and provide constructive feedback.\n* Troubleshoot and debug applications.\n* Stay up-to-date with the latest industry trends and technologies.\n\n**Qualifications:**\n\n* Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent experience.\n* 1+ years of experience as a Backend Engineer or similar role.\n* Strong proficiency in backend programming languages such as Python, Node.js, or Java.\n* Experience with cloud platforms such as AWS, GCP, or Azure.\n* Proficient in database management systems like PostgreSQL, MySQL, MongoDB, or similar.\n* Familiarity with containerization and orchestration tools like Docker and Kubernetes.\n* Experience with microservices architecture.\n* Knowledge of RESTful APIs and web services.\n* Understanding of security principles and data protection.\n* Excellent problem-solving skills and attention to detail.\n* Strong communication and teamwork skills.\n\n**Preferred Qualifications:**\n\n* Experience with AI/ML frameworks and tools.\n* Familiarity with AR technologies.\n* Experience with CI/CD pipelines and tools like Jenkins, GitLab CI, or AWS CodePipeline.\n* Knowledge of serverless architecture and services (e.g., AWS Lambda, Google Cloud Functions).\n* Familiarity with monitoring and logging tools (e.g., Prometheus, Grafana, ELK stack). Surat\nlocationNames: Surat",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-02T16:10:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d7c6e819063314d8bb164e8ea9619ddf",
+      "source": "wellfound",
+      "company": "Wenova Brands",
+      "role": "SHOPIFY DEVELOPER",
+      "url": "https://wellfound.com/jobs/4779099-shopify-developer",
+      "jd_text": "**SHOPIFY DEVELOPER**\n**Function**: Technology / D2C | **Employment Type**: Full-time | **Location**: Chennai\n\n**ABOUT WENOVA BRANDS**\nWenova Brands is a Chennai-based consumer company building science-backed, purpose-driven food brands across D2C, digital, retail and international markets.\nOur portfolio includes:\n**•\tKiddikind** - Doctor-developed, clean-label pediatric nutrition.\n**•\tChewboo** - Better-for-you snacking that brings together health, taste and convenience, without making healthy eating boring.\nWe’re building brands that people don’t just buy, but trust, choose and grow with.\n\n**THE OPPORTUNITY**\nOur D2C websites are a big part of how customers discover, understand and buy our brands.\n\nWe’re looking for a Shopify Developer who can own the technical side of that experience, from building and improving storefronts to integrations, performance and conversion.\n\nYou won’t just be maintaining a website.\nYou’ll help build the digital storefronts of our brands.\n\n**WHAT YOU’LL OWN**\n***1.\tShopify Development***\n•\tDevelop, customise and maintain Shopify stores.\n•\tBuild and modify Shopify themes, sections, templates and components.\n•\tImplement new features and functionality based on business requirements.\n•\tManage Shopify apps, integrations and third-party tools.\n***2.\tD2C Experience***\n•\tWork with marketing, brand and design teams to create high-converting landing pages and storefront experiences.\n•\tImprove navigation, product discovery, checkout and overall user experience.\n•\tEnsure websites are mobile-first, fast and easy to use.\n***3.\tPerformance &amp; Optimisation***\n•\tMonitor website performance, speed and technical issues.\n•\tIdentify and fix bugs, broken journeys and conversion blockers.\n•\tImplement CRO improvements based on customer behaviour and analytics.\n***4.\tIntegrations &amp; Operations***\n•\tWork with payment gateways, analytics tools, CRM, logistics and other D2C integrations.\n•\tSupport tracking implementation including pixels, events and analytics.\n•\tEnsure smooth website operations during launches, campaigns and promotions.\n***5.\tExperimentation***\n•\tTest new layouts, features, offers and customer journeys.\n•\tWork closely with performance and content teams to improve conversion.\n•\tStay updated on Shopify ecosystem developments and emerging D2C technologies.\n\n**WHAT WE’RE LOOKING FOR**\n•\t2–5 years of hands-on Shopify development experience.\n•\tStrong knowledge of Shopify, Liquid, HTML, CSS and JavaScript.\n•\tExperience with Shopify themes, apps and third-party integrations.\n•\tUnderstanding of ecommerce UX, CRO and website performance.\n•\tExperience with Shopify Plus is a plus.\n•\tStrong problem-solving skills and attention to detail.\n•\tComfortable working in a fast-moving, cross-functional environment.\n\nMost importantly, we’re looking for someone who can look at a website and think:\n“This can be better.”\n\n**WHY WENOVA?**\n**1.\tOwnership** - Take ownership of the D2C experience rather than just fixing tickets.\n**2.\tSpeed** - Build, test and ship without unnecessary layers.\n**3.\tAccess** - Work directly with marketing, brand, product and leadership teams.\n**4.\tScale** - Our D2C ecosystem is already handling 40,000+ orders a month across a growing portfolio of products.\n\n**ONE LAST THING**\nThings move fast here.\nSome days it’s a new landing page. Some days it’s a campaign launch. Some days it’s “the website needs to do this by tomorrow.” Chennai\nlocationNames: Chennai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-02T16:10:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "7d6755c69eb0d986ae7e4694e10a98b6",
       "source": "yc",
