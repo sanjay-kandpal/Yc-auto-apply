@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-02T04:13:18+00:00",
+  "exported_at": "2026-10-02T08:14:22+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 772,
-    "pending_approval": 185,
+    "pending_approval": 186,
+    "discovered": 773,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "cdc596a8fabce993c39257568b48e7a9",
+      "source": "wellfound",
+      "company": "Catalysts",
+      "role": "Full-Stack Software Engineer",
+      "url": "https://wellfound.com/jobs/4791885-full-stack-software-engineer",
+      "jd_text": "Full-Stack Software Engineer – React, Node.js, TypeScript &amp; AWS\n\nExperience:** 2–4 years  \nEmployment:** Full-time  \n\n  About the Role\n\nWe are looking for a full-stack developer who can independently build, test and deploy secure production features while using modern AI development tools effectively.\n\n Responsibilities\n\n- Develop responsive web interfaces using React and TypeScript.\n- Build backend services and REST APIs using Node.js and TypeScript.\n- Work with AWS services such as ECS, SQS, DynamoDB, S3, RDS, KMS and CloudWatch.\n- Work with PostgreSQL and NoSQL databases.\n- Write automated tests and troubleshoot production issues.\n- Use AI tools for coding, debugging, testing and documentation.\n- Review AI-generated code for correctness, security and maintainability.\n- Own features from development through deployment and verification.\n\nRequirements\n\n- 2–4 years of full-stack development experience.\n- Strong experience with React, Node.js, TypeScript and REST APIs.\n- Hands-on experience deploying and supporting applications on AWS.\n- Good knowledge of PostgreSQL, SQL and NoSQL databases.\n- Strong practical experience with Codex, Claude Code, GitHub Copilot or similar AI development tools.\n- Ability to instruct AI tools clearly and validate their output.\n- Understanding of authentication, asynchronous workflows and secure API development.\n- Experience with Git, automated testing, Docker and CI/CD.\n- Ability to work independently and communicate clearly.\n\nGood to Have\n\n- Experience building multi-tenant SaaS products.\n- Familiarity with Redis, ClickHouse or event-driven systems.\n- Experience with agentic development workflows or AI automations.\n- Exposure to browser or mobile SDK development.\n\nTo Apply\n\nPlease share your résumé, notice period and compensation expectations, along with:\n\n- A brief description of a production system you developed on AWS.\n- An example of how you used AI tools for a meaningful development task. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 13.52,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently delivered secure production features end-to-end, from scoping requirements and building React/Node.js systems, like my serverless image-sharing platform on AWS, to owning robust deployments with CI/CD and zero-downtime blue-green releases. My experience includes leveraging AI tools for validated tool-calling reliability, optimizing performance like cutting API fetch latency by 98% with Redis caching, and ensuring data integrity with ACID-compliant transactions and message brokers for robust asynchronous workflows across SQL and NoSQL databases.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-02T08:14:04+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 13.93,
+            "overlap": 12.58,
+            "combined": 13.52
+          },
+          "backend": {
+            "cosine": 13.2,
+            "overlap": 12.78,
+            "combined": 13.07
+          },
+          "frontend": {
+            "cosine": 11.98,
+            "overlap": 15.05,
+            "combined": 12.9
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 13.93,
+        "keyword_overlap_score": 12.58,
+        "final_score": 13.52,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.254
+          },
+          {
+            "term": "experience",
+            "weight": 0.2373
+          },
+          {
+            "term": "stack",
+            "weight": 0.1793
+          },
+          {
+            "term": "tools",
+            "weight": 0.1483
+          },
+          {
+            "term": "aws",
+            "weight": 0.1186
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-02T08:14:20+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "94fb29239c7c9a57094c346cd32fefc2",
+      "source": "wellfound",
+      "company": "Abovo Technical Services",
+      "role": "Technical Co-Founder / Lead Software Engineer — DinnerMapper",
+      "url": "https://wellfound.com/jobs/4791997-technical-co-founder-lead-software-engineer-dinnermapper",
+      "jd_text": "Technical Co-Founder / Lead Software Engineer — DinnerMapper\n\nLocation: Remote\nCommitment: Full-time; start date and any transition period to be agreed\nCompensation: No salary initially. Contractual profit sharing and/or cash-settled phantom units, or LLC ownership for a co-founder, subject to agreement. Future salary contingent on sufficient sustainable revenue or funding and mutual agreement.\nDinnerMapper is an early-stage venture focused on creating distinctive offerings in the recipe-generation web space.\n\nI’m seeking a hands-on lead software engineer interested in participating in the venture through either a contractual financial incentive arrangement or a co-founder ownership arrangement. You will help shape the product, make consequential technical decisions, and build the business alongside a founder with extensive software development, database, and project management experience.\n\nThe working relationship\nYou will take primary responsibility for engineering execution, working with me to define a practical initial release and turn it into a reliable product. I will remain responsible for DevOps, product requirements, partnerships, and business operations.\nWe will agree on the role, compensation structure, priorities, decision-making responsibilities, time commitments, and milestones before work begins. A co-founder arrangement would include agreed ownership rights; a contractual incentive arrangement would not confer LLC membership or ownership.\n\nWhat you will do as part of the team\n•\tReview the product requirements and technical development specification; identify assumptions, dependencies, and opportunities to simplify.\n•\tDefine an achievable minimum viable product and development roadmap.\n•\tLead architecture and hands-on implementation across the application, APIs, and database; partner with the founder on DevOps, deployment, and release readiness.\n•\tImplement secure authentication, server-side authorization, protection of private and restricted content, and practical security testing.\n•\tEstablish practical testing, source control, documentation, and release processes.\n•\tHelp evaluate product decisions through user feedback and actual usage.\n•\tManage technical trade-offs and operating costs.\n•\tHelp recruit and guide additional contributors as the venture grows.\n\nWhat you bring\n•\tExperience shipping and maintaining production software.\n•\tStrong full-stack engineering skills, including application development, APIs, relational databases, and cloud deployment.\n•\tThe ability to turn broad requirements into focused, incremental releases.\n•\tSound judgment about when to build, buy, simplify, or defer.\n•\tClear communication, reliable follow-through, and comfort discussing disagreements constructively.\n•\tInterest in the business and its users, as well as its technology.\n•\tCapacity to make a consistent, agreed-upon commitment to an early-stage venture.\n\nTechnology and technical experience\nCore skills\n•\tStrong Python development skills.\n•\tStrong Next.js, React, and TypeScript development skills.\n•\tPostgreSQL and SQL, including schema design, query optimization, and migrations.\n•\tAPI design, implementation, integration, and security.\n•\tSecure handling of user data and access-controlled content.\nPreferred experience\n•\tApplication deployment and operation on AWS and Railway.\n•\tEffective use of ChatGPT and Claude for development, with responsibility for reviewing, testing, and securing generated code.\n•\tIntegration of AI model APIs into production applications, including output validation, error handling, and cost management.\n\nCompensation and potential ownership\nNo salary is currently available. We are open to discussing either of the following arrangements:\n•\tTechnical lead with contractual financial participation: Profit sharing and/or cash-settled phantom units. Profit sharing would provide compensation based on defined profits. Phantom units would provide a contractual right to cash compensation linked to company value or appreciation, subject to agreed conditions. These arrangements would not confer LLC membership, actual ownership, or ownership voting rights.\n•\tTechnical co-founder with ownership: An actual ownership interest in the LLC, with the ownership percentage, vesting schedule, responsibilities, and decision rights agreed upon and documented.\nThe selected arrangement will reflect the scope of the role, contributions, time commitment, and risk. Applicable terms—including calculation methods, vesting or earning conditions, payout timing and triggers, and treatment upon departure or sale of the business—will be documented before work begins.\n\nAny arrangement will be subject to applicable employment and tax requirements in the participant’s location.\n\nOur intention is to introduce salary when the business has sufficient sustainable revenue or funding. The amount and start date will be mutually agreed upon. No salary start date is guaranteed, and any incentive payout will depend on the conditions in the signed agreement.\n\nHow to express interest\nSend:\n•\tA brief introduction and why DinnerMapper interests you.\n•\tLinks to products you have built, a portfolio, or relevant code you can share.\n•\tYour role in one project you helped take from concept to production.\n•\tYour country of residence, time zone, availability, and expected weekly commitment.\n•\tWhether you are interested in a technical lead role with contractual financial participation or a co-founder role with ownership, including your compensation or ownership expectations.\nAn initial conversation will cover product fit, working style, technical experience, the proposed arrangement, and expectations on both sides. Pittsburgh Cleveland\nlocationNames: Pittsburgh Cleveland\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-02T08:14:04+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "141154edd1a301954a82fbb4552f5bb4",
       "source": "yc",
