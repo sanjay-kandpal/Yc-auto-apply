@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-10-03T14:37:29+00:00",
+  "exported_at": "2026-10-03T15:49:02+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 796,
+    "discovered": 797,
     "pending_approval": 189,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "338aa0f1408ab904c3d2a4532dbd8350",
+      "source": "yc",
+      "company": "David AI",
+      "role": "General Manager, Marketplace",
+      "url": "https://www.workatastartup.com/jobs/114029",
+      "jd_text": "## **About David AI**\n\nDavid AI is the first audio data research company. We bring an R&D approach to data–developing datasets with the same rigor AI labs bring to models. Our mission is to bring AI into the real world, and we believe audio is the gateway. Speech is versatile, accessible, and human—it fits naturally into everyday life. As audio AI advances and new use cases emerge, high-quality training data is the bottleneck. This is where David AI comes in.\n\nDavid AI was founded in 2024 by a team of former Scale AI engineers and operators. In less than a year, we’ve brought on most FAANG companies and AI labs as customers. We recently raised a $50M Series B from Meritech, NVIDIA, Jack Altman (Alt Capital), Amplify Partners, First Round Capital and other Tier 1 investors.\n\nOur team is sharp, humble, ambitious, and tight-knit. We’re looking for the best research, engineering, product, and operations minds to join us on our mission to push the frontier of audio AI.\n\n## **About our Marketplace team**\n\nOur Marketplace team supplies the people behind David AI's Data Factory. Every dataset we deliver starts with contributors: voice actors, speakers, transcribers and annotators in more than 20 languages who record and label audio on our contributor platform. Our mandate is to make sure every production ramp has enough qualified contributors, at the right quality and cost, in the week it needs them.\n\nThis means running the full supply side of a two-sided marketplace. At the top of the funnel, we find contributors through paid channels, partnerships, referrals and community, and move them through application, review and approval. Further down, we get approved contributors to their first task, keep them engaged, and grow the hours they deliver each day. We work to weekly targets and fixed budgets, measure everything, and treat contributor supply as an input to data quality, not just a cost line. We are scrappy, analytical operators, as comfortable launching a new acquisition channel in a day as running a 20-language ramp end to end.\n\n## **About this role**\n\nAs General Manager of Marketplace, you will own contributor supply for David AI end to end. Your mandate is to make our contributor marketplace a reliable source of qualified contributors and deliverable hours for every production ramp we commit to. You'll lead the team responsible for acquiring, activating, and retaining contributors across every production ramp (speech-to-speech, text-to-speech and voice acting, transcription), and you'll be the single accountable owner that every Data Operations GM relies on to hit their supply plan.\n\nYou'll also be the supply counterpart to our Data Operations GMs. You'll set targets with each production team, run the workback plan against them, decide where the marketplace invests (channels, partnerships, contributor experience, tooling), and own the outcome. You'll inherit a small, high-output team and a marketplace that is growing into new languages, modalities, and customer segments every quarter.\n\n## **In this role, you will**\n\n- Build and lead a team of Marketplace Leads spanning contributor growth (applications, approvals and activations) and contributor engagement (daily active contributors, hours per contributor and retention). Set the team's priorities and decide which initiatives get its time.\n\n- Own supply for every production ramp. Work with each Data Operations GM and their Data Product Operations Leads to shape the project's initial budget. Build the ramp plan together, with that budget as the constraint, and agree the weekly targets the marketplace will hit.\n\n- Run the ramp operating rhythm: weekly plans with each project team, pacing reviews, and early escalation when a language, project or channel falls behind.\n\n- Act as a thought partner to executive leadership on how the marketplace scales: which contributor segments to build, where to invest, and what supply next quarter's pipeline will need.\n\n- Own the marketplace's metrics and unit economics: pool size, activation, retention, productivity, and cost relative to what contributors deliver, by project and cohort. Partner with data science to decide which analytics are worth building, and use them to decide where to scale or invest next.\n\n- Allocate each project's marketplace budget between growth (recruiting new contributors) and supply (activating and retaining them). Within growth, split spend across languages and channels such as paid social, search, job boards, partnerships and referrals, and hold the team to cost-per-activation targets.\n\n- Improve the contributor experience from first application to first task and beyond. Run controlled experiments on the activation path, build a recurring contributor feedback loop, and fix the pain points behind it.\n\n- Own outcomes across functions, partnering with product, engineering, QA and payments to remove the bottlenecks that slow contributors down, from review queues to project access to payouts.\n\n## **Your background looks like**\n\n- 7 – 10 years of experience in high-ownership roles (e.g., GM, founder, COO, or strategy/ops at a venture-backed startup), including direct experience running the supply side of a marketplace.\n\n- You have owned a gig or flexible-labor supply pool (e.g., drivers, dashers, shoppers, freelancers) at a company like DoorDash, Uber, Instacart, or a comparable marketplace, and were accountable for its acquisition, activation, and retention numbers.\n\n- Prior experience owning a supply funnel end to end, from first touch to first completed job, against weekly targets and a budget.\n\n- Prior experience building budgets and capacity plans with finance and operating partners, then running a team against them.\n\n- Prior experience balancing supply against demand across many markets at once (cities, languages or segments), and knowing when to throttle and when to scale.\n\n- Experience leading a team of operators or growth leads, and working as a peer to the GMs who own delivery.\n\n- A relentless operator with high standards, bias to action, and strong attention to detail.\n\n- Comfortable with ambiguity and rapid pace; thrives in a “build while flying” environment.\n\n- Low-ego, collaborative, and mission-driven, focused on team and company success.\n\n## **Bonus points if you have**\n\n- Experience in AI training data, data labeling, or crowd-work and freelance marketplaces.\n\n- Experience recruiting a global, multilingual workforce across many countries at once.\n\n- Hands-on experience running paid acquisition (paid social, search, job boards) or referral programs for supply.\n\n- Experience with voice talent, creator or other creative communities.\n\n## **Benefits**\n\n- Unlimited PTO.\n\n- Top-notch health, dental, and vision coverage with 100% coverage for most plans.\n\n- FSA & HSA access.\n\n- 401k access.\n\n- Meals 2x daily through DoorDash + snacks and beverages available at the office.\n\n- Unlimited company-sponsored Barry’s classes.\n\n San Francisco New York City fulltime yes\nlocations: San Francisco New York City\nremote: no\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T15:48:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "f07b354702509c1d62d7a12a48aa6277",
       "source": "wellfound",
