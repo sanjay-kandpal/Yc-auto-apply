@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-03T19:04:42+00:00",
+  "exported_at": "2026-10-03T20:51:11+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 797,
+    "discovered": 798,
     "pending_approval": 189,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "b653bec42b4995dbf8988f0c52e8c0b0",
+      "source": "wellfound",
+      "company": "Aiking Software Solutions",
+      "role": "Next.js Developer (Unpaid)",
+      "url": "https://wellfound.com/jobs/4803744-next-js-developer-unpaid",
+      "jd_text": "**JobForm Automator** is looking for a strong **Next.js Developer** to build and scale our AI-powered career platform.\n\n**What you'll do**\n- Build production-ready features using **Next.js, React &amp; Tailwind CSS**\n- Develop responsive, high-performance web applications\n- Integrate APIs, AI/LLM features and third-party services\n- Work with Firebase and modern backend services\n- Debug, optimize and improve existing systems\n- Work closely with the founder, product and UI/UX team\n\n**What we’re looking for**\n- Strong Next.js &amp; React fundamentals\n- Good JavaScript/TypeScript knowledge\n- Experience with Tailwind CSS\n- Understanding of APIs, authentication and databases\n- Ability to independently solve problems and ship features\n- Startup mindset and willingness to take ownership\n\n**Experience:** 0–3 years  \n**Location:** Remote / India  \n**Type:** Full-time / Internship-to-full-time Pune Pune University Pune Pune Pune\nlocationNames: Pune Pune University Pune Pune Pune\nremote: true",
+      "match_score": 8.19,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T20:51:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.93,
+            "overlap": 6.62,
+            "combined": 7.54
+          },
+          "backend": {
+            "cosine": 7.53,
+            "overlap": 6.77,
+            "combined": 7.3
+          },
+          "frontend": {
+            "cosine": 8.78,
+            "overlap": 6.8,
+            "combined": 8.18
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 8.78,
+        "keyword_overlap_score": 6.8,
+        "final_score": 8.19,
+        "top_keywords": [
+          {
+            "term": "js",
+            "weight": 0.1435
+          },
+          {
+            "term": "apis",
+            "weight": 0.0718
+          },
+          {
+            "term": "experience",
+            "weight": 0.0718
+          },
+          {
+            "term": "react",
+            "weight": 0.0718
+          },
+          {
+            "term": "time",
+            "weight": 0.0718
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "338aa0f1408ab904c3d2a4532dbd8350",
       "source": "yc",
