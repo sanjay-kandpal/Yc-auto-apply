@@ -1,15 +1,282 @@
 {
-  "exported_at": "2026-10-03T03:56:14+00:00",
+  "exported_at": "2026-10-03T07:51:05+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 793,
-    "pending_approval": 188,
+    "discovered": 796,
+    "pending_approval": 189,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "f07b354702509c1d62d7a12a48aa6277",
+      "source": "wellfound",
+      "company": "Himaya AI",
+      "role": "Associate Member of Technical Staff, AI Engineering",
+      "url": "https://wellfound.com/jobs/4799694-associate-member-of-technical-staff-ai-engineering",
+      "jd_text": "**About Himaya**\n\nHimaya is an AI-native security platform for small and midsize companies. We protect email against phishing, BEC, vendor fraud and malware. We stop sensitive data from leaving through outbound DLP, monitor SaaS apps, cloud accounts and data stores, and keep customers audit ready. Our engine combines large language models with deterministic detection, sandboxing and threat intelligence. Most threats are investigated and handled automatically, so lean IT teams get enterprise grade protection.\n\nWe're a small team, so you will ship to production in your first weeks and own real parts of the system.\n\n**The role**\n\nYou will join the team that keeps Himaya's detection accurate and dependable. Your time will be split across three areas:\n\n* detection quality\n* the open source models behind our reasoning and data classification;\n* the platform those models run on.\n\n**What you'll do**\n\nDetection hygiene and improvement:\n\n* Review false positives and false negatives from live email traffic, find the root cause and fix it. That might be a pattern rule, a scoring threshold, a prompt or a model.\n* Maintain and extend our detection rules for phishing, BEC, impersonation, malicious links, attachments and QR codes.\n* Build and maintain evaluation sets and regression tests, so every change to the engine is measured before it ships.\n* Monitor model cost, latency and accuracy, and propose improvements backed by data.\n\nModels:\n\n* Help stand up and maintain open source models for security reasoning, used in threat triage and investigation.\n* Build and improve data classification models for Workspace Security and DLP. These detect credentials, personal data, financial data and regulated data across email, SaaS apps and data stores.\n* Run experiments: prompt design, fine tuning, distillation and model comparisons. Turn the results into production changes.\n* Keep model serving reliable, with fallbacks, timeouts and observability.\n\nPlatform engineering:\n\n* Contribute to our Python and FastAPI backend, our workers and our integrations with Google Workspace and Microsoft 365.\n* Work with Postgres, Redis and containerized services on Azure and AWS.\n* Improve CI, tests and deployment tooling, and help keep production healthy.\n\nWhat we're looking for:\n\n* A recent graduate in Computer Science, AI or a related field, or up to 1 year of work experience.\n* Hands-on experience with machine learning or LLMs: building with model APIs, running open source models such as Llama, Qwen or Mistral, fine tuning, or building evaluation pipelines. University projects, research, internships and open source work all count.\n* Strong Python. You write clean code, and you write tests for it.\n* Comfortable with SQL, Git and the Linux command line.\n* Curious about security, and careful by nature. In this job, a wrong verdict can either put an employee at risk or hold back a legitimate email.\n* Clear written communication. You can explain why a change is right using evidence.\n* Nice to have\n* Experience with inference servers such as vLLM, TGI or Ollama, or with cloud model platforms such as AWS Bedrock and Azure AI Foundary.\n* Experience with text classification, named entity recognition or PII detection.\n* An understanding of email authentication (SPF, DKIM, DMARC) or phishing techniques.\n* Docker, any cloud platform, or a background in CTFs and security research. Hyderabad\nlocationNames: Hyderabad\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T07:50:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2a87b24cdaf17d5fd7b9fc5290b6829b",
+      "source": "wellfound",
+      "company": "E-Net",
+      "role": "Remote Freelance Programmer – Mid-Senior / Senior",
+      "url": "https://wellfound.com/jobs/4728269-remote-freelance-programmer-mid-senior-senior",
+      "jd_text": "E-Net Co., Ltd. is a Tokyo-based IT and software development company established in 2000. We work with experienced international freelance developers on business systems, web applications and mobile solutions for client projects coordinated from Japan.\n\nThis role is for Mid-Senior to Senior professionals who can take ownership of assigned development work and deliver reliably without close supervision.\n\nWhat you’ll do\n\nDevelop, test and maintain custom business applications, web services and mobile software\nDiagnose software issues and implement reliable updates\nOptimize code performance where required\nOwn assigned work and communicate blockers early\nDeliver production-ready work against agreed milestones\nCoordinate with Tokyo-based project teams on requirements, delivery status and technical questions\n\nWhat we’re looking for\n\nMid-Senior to Senior professional software-development experience\nStrong web/application development skills\nExperience with relevant frameworks and database integration\nProduction troubleshooting capability\nAbility to estimate work, communicate clearly and deliver reliably in a remote contractor environment\nComputer Science, Software Engineering or equivalent practical professional experience\n\nLanguage &amp; working setup\n\nExcellent written and spoken professional English\n100% remote\nWork from your current country\nNo relocation to Japan required\nFlexible hours\nAvailability for agreed project check-ins and milestone reviews\nInternational applicants welcome\n\nContract &amp; compensation\n\nIndependent-contractor / freelance engagement\nIndicative annualized compensation: ¥3.55M–¥4.11M\nFinal compensation may vary according to experience, technical background, project scope and engagement structure\nContractor compensation may ultimately be agreed on an hourly or project basis\nPotential for recurring or extended projects where there is a strong technical, communication and delivery fit\n\nThe original approved remote listing specifies negotiable hourly or project-based compensation; the ¥3.55M–¥4.11M annualized range is the benchmark we are now adding for Wellfound.\n\nHow to apply\n\nSend your CV/portfolio, rate expectations, availability and a short technical background summary directly to:\n\ncareers@e-net-2.com Tokyo\nlocationNames: Tokyo\nremote: true",
+      "match_score": 5.14,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T07:50:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.79,
+            "overlap": 8.28,
+            "combined": 5.13
+          },
+          "backend": {
+            "cosine": 3.08,
+            "overlap": 9.02,
+            "combined": 4.86
+          },
+          "frontend": {
+            "cosine": 3.53,
+            "overlap": 9.71,
+            "combined": 5.38
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.79,
+        "keyword_overlap_score": 8.28,
+        "final_score": 5.14,
+        "top_keywords": [
+          {
+            "term": "deliver",
+            "weight": 0.1108
+          },
+          {
+            "term": "experience",
+            "weight": 0.0978
+          },
+          {
+            "term": "technical",
+            "weight": 0.0978
+          },
+          {
+            "term": "based",
+            "weight": 0.0897
+          },
+          {
+            "term": "delivery",
+            "weight": 0.0598
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e157bc71f52d8cb16610d429d0ee43df",
+      "source": "wellfound",
+      "company": "Brenin Technologies",
+      "role": "Python Automation & Reconciliation Engineer",
+      "url": "https://wellfound.com/jobs/4799697-python-automation-reconciliation-engineer",
+      "jd_text": "About the Role\n\nWe are looking for a Python Automation &amp; Reconciliation Engineer to build and enhance automation solutions for our reconciliation application.\n\nThe role involves automating the end-to-end reconciliation process, including fetching statements/data from different sources, processing and transforming data, applying rule-based calculations, identifying mismatches, and generating reconciliation reports.\n\nThe ideal candidate should have strong hands-on experience in Python, scripting, data processing, workflow automation, and rule-based systems.\n\nKey Responsibilities\nDevelop Python-based automation for fetching and processing financial/transaction statements from different sources.\nAutomate data extraction from APIs, databases, files, portals, emails, or other systems.\nBuild data processing and transformation pipelines using Python.\nImplement configurable rule-based reconciliation and calculation logic.\nCompare records across multiple sources and identify matched, unmatched, and exception transactions.\nAutomate reconciliation workflows from data ingestion to final reporting.\nDevelop scripts for data validation, cleansing, normalization, and exception handling.\nIntegrate external APIs, databases, file systems, and third-party applications.\nBuild reusable automation scripts and utilities to reduce manual intervention.\nHandle different statement formats such as CSV, Excel, PDF, JSON, XML, etc., where required.\nDevelop logging, monitoring, error handling, and audit trails for automated processes.\nWork with the product and development team to convert business reconciliation rules into technical logic.\nOptimize automation workflows for reliability, scalability, and performance.\nTroubleshoot reconciliation discrepancies and automation failures.\nDocument automation workflows, rules, integrations, and technical processes.\nRequired Skills\nStrong hands-on experience with Python.\nStrong scripting and automation experience.\nExperience with Pandas, NumPy, requests/API integration, and data processing libraries.\nExperience working with REST APIs and JSON/XML.\nStrong SQL and database experience.\nExperience with file processing, particularly Excel/CSV and structured data.\nGood understanding of data matching, comparison, validation, and transformation.\nExperience implementing business rules and rule-based calculations.\nGood understanding of exception handling, logging, and automation monitoring.\nFamiliarity with Git/version control.\nGood to Have\nExperience in financial reconciliation, banking, payments, accounting, or transaction processing.\nExperience working with bank statements, payment gateways, settlement files, invoices, or transaction reports.\nExperience with PDF statement extraction/OCR.\nExperience with RPA or browser automation tools such as Selenium, Playwright, or similar.\nExperience with workflow orchestration tools such as Airflow, Celery, or similar.\nExperience deploying Python automation on cloud environments.\nFamiliarity with Docker and CI/CD.\nExperience designing configurable rule engines or reconciliation frameworks.\nIdeal Candidate\n\nWe are particularly interested in candidates who have:\n\nStrong Python development and scripting experience.\nBuilt real-world automation solutions, not just application-level development.\nExperience automating repetitive data-intensive business processes.\nThe ability to understand business rules and convert them into reliable technical workflows.\nStrong debugging and problem-solving skills.\nExperience working with large volumes of transactional data.\nA practical, automation-first mindset.\nExperience\n\n2–5 years of relevant experience in Python development, automation, data processing, reconciliation, or related areas.\n\nCandidates with strong hands-on automation experience and relevant project exposure may also be considered irrespective of exact years of experience.\n\nEngagement\n\nRole: Python Automation &amp; Reconciliation Engineer\nLocation: [Jaipur/Jodhpur/Remote – as applicable]\nEmployment Type: [Full-time/Contract]\nExperience: 2–5 years\nSkills: Python | Automation | Scripting | SQL | APIs | Pandas | Data Processing | Rule-Based Reconciliation Jaipur Jodhpur\nlocationNames: Jaipur Jodhpur\nremote: true",
+      "match_score": 9.92,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T07:50:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.5,
+            "overlap": 13.25,
+            "combined": 9.92
+          },
+          "backend": {
+            "cosine": 8.45,
+            "overlap": 13.16,
+            "combined": 9.86
+          },
+          "frontend": {
+            "cosine": 8.42,
+            "overlap": 16.02,
+            "combined": 10.7
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.5,
+        "keyword_overlap_score": 13.25,
+        "final_score": 9.92,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.3139
+          },
+          {
+            "term": "data",
+            "weight": 0.1911
+          },
+          {
+            "term": "python",
+            "weight": 0.1501
+          },
+          {
+            "term": "based",
+            "weight": 0.1002
+          },
+          {
+            "term": "apis",
+            "weight": 0.0546
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1ef6750b05f0698de58c3d338a054a08",
+      "source": "wellfound",
+      "company": "Brenin Technologies",
+      "role": "Full Stack Developer – Node.js | React | AWS | Python/ML",
+      "url": "https://wellfound.com/jobs/3372475-full-stack-developer-node-js-react-aws-python-ml",
+      "jd_text": "About the Role\nWe are building Amara, our AI-powered Digital Chief People Officer (CPO), and are looking for a Senior developer  to drive its development and innovation. The role requires strong technical expertise in LLMs, NLP, Conversational AI, and full-stack development, along with leadership skills to guide a growing development team.\n\nKey Responsibilities\nLead the end-to-end development of Amara modules and features.\n\nArchitect and implement solutions using LLMs, NLP, and Conversational AI frameworks.\n\nWork hands-on with MERN stack and Python for scalable application development.\n\nDesign and optimize prompt engineering workflows.\n\nIntegrate conversational models with Google Dialogflow or Vertex AI.\n\nEnsure code quality, scalability, and performance of deployed systems.\n\nGuide and mentor developers, ensuring timely project delivery.\n\nOversee technical documentation, version control, and agile task management.\n\nCollaborate cross-functionally with product, design, and client-facing teams.\n\nRequired Skills &amp; Experience\nTechnical Expertise:\n\nLLMs (Large Language Models) and NLP pipelines\n\nConversational AI development\n\nMERN stack (MongoDB, Express.js, React, Node.js)\n\nPython (fast APIs, integrations, data processing)\n\nPrompt engineering and fine-tuning models\n\nGoogle Dialogflow CX / Vertex AI conversational platforms\n\nTeam Skills:\n\nMinimum 3–4 years of professional experience\n\nRelevant 2+ years in Conversational AI / NLP / LLM projects\n\nFamiliarity with task management tools (e.g., Jira, Trello, Asana, ClickUp)\n\nComfortable working in a remote-first environment\n\nStrong problem-solving ability, coding practices, and collaborative mindset.\n\nWhat We Offer\nOpportunity to be part of the core team building a next-gen  AI product.\n\nMarket-standard salary + ESOP options.\n\nWork on cutting-edge AI/ML technologies with global impact.\n\nExposure to challenging real-world projects in AI, HRTech, and Digital Humans.\n\nApplication Requirements\nResume with relevant experience.\n\nLinks to previous projects, GitHub/portfolio, or contributions relevant to Amara development.\n\nCover note on why you are excited about Conversational AI and LLMs.\n\nScreening Questionnaire\nShare an example of a Conversational AI project you have worked on. What role did you play?\n\nExplain how you have used LLMs (like GPT, LLaMA, etc.) in production applications.\n\nWhat’s your experience with Google Dialogflow CX / Vertex AI? Share a specific integration use case.\n\nDescribe your experience with MERN stack and Python in building scalable applications.\n\nHow do you approach prompt engineering for different conversational scenarios?\n\nShare a situation where you led a development team — what challenges did you face and how did you solve them?\n\nHow do you ensure remote collaboration and task tracking in your team? Jaipur Jodhpur\nlocationNames: Jaipur Jodhpur\nremote: true",
+      "match_score": 11.49,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience running open-weight LLMs locally with validated tool-calling reliability, integrating Redis caching to cut API latency by 98%, and introducing RabbitMQ for guaranteed message delivery under high load, directly supports building scalable AI-powered conversational platforms. Having delivered end-to-end FastAPI/React systems, owned core modules of cloud-native compliance platforms on Azure, and implemented blue-green releases via Azure DevOps, I am equipped to architect, develop, and ensure performance for Brenin Technologies' AI product.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-03T07:50:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.73,
+            "overlap": 13.25,
+            "combined": 11.49
+          },
+          "backend": {
+            "cosine": 9.07,
+            "overlap": 13.16,
+            "combined": 10.29
+          },
+          "frontend": {
+            "cosine": 9.18,
+            "overlap": 15.53,
+            "combined": 11.09
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.73,
+        "keyword_overlap_score": 13.25,
+        "final_score": 11.49,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3305
+          },
+          {
+            "term": "stack",
+            "weight": 0.157
+          },
+          {
+            "term": "team",
+            "weight": 0.157
+          },
+          {
+            "term": "experience",
+            "weight": 0.1039
+          },
+          {
+            "term": "python",
+            "weight": 0.0831
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-03T07:51:03+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "1d0f53c6b747af482fce77e3b5f9c3db",
       "source": "yc",
