@@ -1,15 +1,440 @@
 {
-  "exported_at": "2026-10-02T22:01:15+00:00",
+  "exported_at": "2026-10-03T03:56:14+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 784,
+    "discovered": 793,
     "pending_approval": 188,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "1d0f53c6b747af482fce77e3b5f9c3db",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Robotics Hardware Engineer",
+      "url": "https://www.workatastartup.com/jobs/113732",
+      "jd_text": "Description coming soon… Los Angeles, CA, US fulltime possible\nlocations: Los Angeles, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T03:56:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "4418547c31e7179f6d246c54ff7bb309",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Fall 2026 Robotics Software Intern",
+      "url": "https://www.workatastartup.com/jobs/95223",
+      "jd_text": "We’re looking for an intern to work hands-on with our robots. We deploy these robots autonomously in warehouses so there is a lot on the stack of things to get them working flawless. If you’re interested in autonomous navigation, motion planning, or control systems, please feel free to apply.\n\n* What you’ll do:\n  * Contribute directly to our production codebase in C++ and Python.\n  * Contribute fresh ideas and implementations.\n  * Tackle projects that will directly help our team implement a new or improved feature\n  * Build and test software for real robots!\n* Qualifications/Requirements\n  * Currently pursuing a degree or recent grad in Computer Science, Robotics, Electrical Engineering, or a related field.\n  * Strong grasp of C++ and Python.\n  * Linux experience, comfortable working in a command-line environment (you know your way around Ubuntu).\n  * You have an interest in how software interacts with physical hardware (sensors, motors, or embedded boards like Raspberry Pi/Jetson).\n  * Experience with Git contributions and Git best practices in a team environment\n* Nice To Haves\n  * Experience with ROS2\n  * Experience using Docker\n  * Past projects in computer vision, autonomous navigation, motion planning, or other robotics-related domains\n* What makes you an ideal fit\n  * Contribute ideas and work with autonomy when on projects\n  * Tenacity and desire to tackle problems others may see as ‘too difficult’\n  * Creative problem solving\n  * Passion for engineering Gardena, CA, US Los Angeles, CA, US intern yes\nlocations: Gardena, CA, US Los Angeles, CA, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T03:56:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7a6285b37120b18bbc71589d738248b9",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Fall 2026 Mechatronics Intern",
+      "url": "https://www.workatastartup.com/jobs/109376",
+      "jd_text": "Note: We will provide a housing stipend but not relocation assistance.\n\n**Requirements/Qualifications**\n\n* Currently pursuing a degree or recent grad in Computer Science, Robotics, Electrical Engineering, Mechanical Engineering, or a related field.\n* Has a citizenship/does not require any immigration or visa assistance.\n* Can commit to a full time internship role.\n\n**What You’ll Do**\n\n* Design and integrate electrical and mechanical systems.\n* Work with cutting edge humanoid robots in real deployments.\n* Rapidly prototype, and iterate based on changing demands.\n* Collaborate with software and simulation teams to meet their needs.\n\n**What We’re Looking For**\n\n* Experience with electromechanical systems or robotics.\n* Excellent mechanical intuition, you understand how things move, fail, and improve.\n* Experience with hand tools and disassembly, assembly, and documentation of systems.\n* Experience with Linux based operating systems (ROS 2 especially).\n* Experience with computer assembly and bandwidth architecture (USB and PCIE standards).\n* Skills in CAD and embedded systems.\n* Strong hands-on engineering and troubleshooting ability for both electrical and mechanical systems.\n* A portfolio and/or an independent project or 2 would be ideal to display real skills and end to end management of a project.\n* Experience with CAD software specifically Fusion360, KiCAD, and the .urdf format.\n* Experience with typical humanoid systems (BLDC actuators, CANbus, lithium based batteries).\n* Understanding of industrial requirements (IP Rating, MTBF).\n* An understanding of what makes systems reliable and the ability to design for it.\n\n**Why This Role**\n\n* Direct impact on company results.\n* Gaining experience with cutting edge systems.\n* Learn a variety of prototyping methods and end to end project ownership.\n\n**Dates**\n\n* Start Date: ASAP\n* End Date: Flexible but expect a standard roughly 3-4 month internship duration Gardena, CA, US jobs_skill 219 Microcontrollers 3 jobs_skill 220 CAD Design 2 jobs_skill 289 Prototyping 0 jobs_skill 316 PCB design 0 intern yes\nlocations: Gardena, CA, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T03:56:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "34449322003eb161673cfb8b3bbde0bf",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Senior Robotics Engineer",
+      "url": "https://www.workatastartup.com/jobs/87004",
+      "jd_text": "We’re looking for an experienced roboticist to work with our team in maintaining, improving, and battle-readying our our end-to-end robotic workforce solution. You’ll possibly work or lead various different projects such as robot and teleoperation design, control systems, or fleet control and navigation optimization.   \n\n* Qualifications/Requirements\n  * 5+ years software engineering experience, including 3+ in robotics, aerospace, or other physical domains.\n  * Proven experience leading software teams and delivering production systems for real hardware.\n  * Strong C++ and Python skills\n  * Familiarity with Docker deployment\n  * Experience with real-time or near-real-time control systems and hardware–software integration.\n  * Strong understanding of modern software practices including: Git, code review, automated testing, CI/CD pipelines (GitHub Actions, GitLab CI, Jenkins, etc.)\n  * Experience managing sensor data pipelines (stereo/RGB cameras, Lidar, IMUs, force/torque).\n  * Experience with ROS/ROS 2\n  * Linux\n* Nice To Haves\n  * Proficiency in profiling and optimizing C++/Python code for systems with limited compute and memory resources.\n  * Experience with simulation environments (Gazebo, Isaac Sim, etc.).\n  * Experience building low-latency networking and communication systems for teleoperation.\n  * Background in computer vision, perception, ML-based detection/pose estimation, or SLAM.\n  * Experience in startup or fast-paced R&D environments, including hiring and mentoring teams.\n* Things that make you an ideal fit:\n  * You are excited to remain hands-on in the code while unblocking your team and facilitating technical decisions rather than dictating them. Gardena, CA, US Los Angeles, CA, US jobs_skill 16 Bash/Shell 78 jobs_skill 23 C++ 107 jobs_skill 107 Python 288 jobs_skill 171 Linux 14 jobs_skill 186 Docker 14 jobs_skill 321 Sensor integration 0 fulltime yes\nlocations: Gardena, CA, US Los Angeles, CA, US\nremote: no\nmin_experience: 3",
+      "match_score": 9.26,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T03:56:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.99,
+            "overlap": 9.27,
+            "combined": 7.68
+          },
+          "backend": {
+            "cosine": 6.27,
+            "overlap": 9.4,
+            "combined": 7.21
+          },
+          "frontend": {
+            "cosine": 8.02,
+            "overlap": 12.14,
+            "combined": 9.26
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 8.02,
+        "keyword_overlap_score": 12.14,
+        "final_score": 9.26,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2362
+          },
+          {
+            "term": "code",
+            "weight": 0.0886
+          },
+          {
+            "term": "python",
+            "weight": 0.0886
+          },
+          {
+            "term": "real",
+            "weight": 0.0886
+          },
+          {
+            "term": "end",
+            "weight": 0.0722
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "007353cee98920a8405c63fcc23c9387",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Founding Robotics Researcher",
+      "url": "https://www.workatastartup.com/jobs/74730",
+      "jd_text": "We are looking for robotics researchers who would like to work on using robot policies to perform manipulation tasks involving single and dual arm robots. Consider applying if you would like to be involved with any part of the process which includes but may not be limited to\r\n\r\n* working on methods to acquire and process data such as through teleoperation or simulation\r\n* developing effective models that have high rates of success when deployed\r\n* optimizing the performance of robots already deployed\r\n\r\nIn terms of experience, it is incredibly useful to have worked on similar problems particularly at a PhD level. Candidates who have done research in robot manipulation are greatly preferred, but other forms relevant experience are also appreciated. Gardena, CA, US Los Angeles, CA, US fulltime possible\nlocations: Gardena, CA, US Los Angeles, CA, US\nremote: no\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T03:56:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9aa3393be85f7fcfc2c66b39bde28703",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Active Interest for Engineers",
+      "url": "https://www.workatastartup.com/jobs/71111",
+      "jd_text": "If you’re interested in current or future opportunities please put in an application here so we have your name and background on file. We are always open to hiring the best engineers but are not always actively hiring given our limited hiring bandwidth as an early stage startup. We have other roles open up on our site for when we do have active roles but we’ll use this application as a means of being able to reach out.\n\nHere are some of the tasks that you might end up working on; generally they can be split up between focus on “classical” robotics, focus on software and integration layer, and focus on the robot learning side of things. \n\n\\- Developing perception algorithms for tasks such as few shot object detection and scene recognition.\n\n\\- Building out the navigation stack which includes multimodal (LiDAR, RGBD, IMU, landmark) SLAM implementations for effective navigation and path planning in structured environments with dynamic obstacles\n\n\\- Writing software to orchestrate and allocate commands to robots and operators efficiently. \n\n\\- Integrating our software and planning stack with existing software infrastructure systems used by our customers. \n\n\\- Coordinating fleets of autonomous robots to navigate and complete tasks in a safe and optimal manner.\n\n\\- Working on cutting edge teleoperation for easy control of different kinds of robot embodiments.\n\n\\- Creating data collection and training pipelines for deep learning models to assist in manipulation tasks such as picking, placing, and scanning inventory items.\n\n\\- Guiding and educating your team members in areas you see fit!\n\nAs for experience, we don't have any strict requirement on degree but more experience and eagerness with working on difficult problems in robotics is always nice! We develop out of our office and a 3PL warehouse in the city of Gardena in LA County as well as some other partner warehouses in the Ontario and Fontana area.  Gardena, CA, US Los Angeles, CA, US jobs_skill 16 Bash/Shell 78 jobs_skill 23 C++ 107 jobs_skill 158 Torch/PyTorch 0 jobs_skill 171 Linux 14 jobs_skill 184 Deep Learning 6 jobs_skill 185 Reinforcement learning (RL) 1 jobs_skill 186 Docker 14 jobs_skill 211 Computer Vision 5 jobs_skill 219 Microcontrollers 3 jobs_skill 220 CAD Design 2 jobs_skill 316 PCB design 0 jobs_skill 321 Sensor integration 0 fulltime yes\nlocations: Gardena, CA, US Los Angeles, CA, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T03:56:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cf900f85a0a3186e0f3d3388f76f81e5",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Robot SWE",
+      "url": "https://www.workatastartup.com/jobs/107166",
+      "jd_text": "**About the role**\\\nAs one of our early junior engineers, you'll write software that runs on real robots in customer warehouses. You'll work across the stack - navigation, perception, teleoperation, and the integrations that connect our robots to warehouse management systems - and you'll be on the floor helping bring deployments live at client sites. You'll be paired with senior roboticists who will mentor you, review your code, and hand you real ownership fast. This is a hands-on role for someone who is energized by physical hardware and wants to grow quickly.\n\n**What you'll do**\n\n* Develop and improve features across our ROS2 stack in C++ and Python - navigation, mapping and localization, perception, and motion behaviors and ship them to robots running on NVIDIA Jetson and Custom Platforms.\n* Tune and debug autonomous navigation and obstacle avoidance so Robots move safely and efficiently through dynamic, human-occupied warehouse aisles.\n* Build and improve teleoperation and human-in-the-loop tooling that lets operators monitor, assist, and recover robots remotely.\n* Contribute to integrations between our robots and warehouse management systems so tasks flow correctly between the WMS and the fleet.\n* Containerize and deploy software with Docker across our fleet, and help commission and troubleshoot robots on-site at warehouse deployments.\n* Own features end-to-end; from prototype, through testing, to reliable behavior on real hardware and feed what you learn in the field back into the product.\n\n**What we're looking for (must-haves)**\n\n* 0–2 years of experience (internships, research, and robotics competition teams count) building software, ideally in robotics, autonomous systems, or another physical/hardware domain.\n* BS in Computer Science, Robotics, Electrical/Mechanical Engineering, or a related field or equivalent hands-on project experience.\n* Working proficiency in C++ and Python.\n* Comfort in a Linux/Ubuntu command-line environment and with Git in a team setting.\n* Genuine interest in how software meets hardware (sensors, motors, embedded compute like Jetson/Raspberry Pi), demonstrated through projects, internships, or competition teams in areas like computer vision, autonomous navigation, or motion planning.\n* Hands-on experience with ROS2 (or a similar pub/sub middleware) a strong candidate from a ROS1 or custom-middleware background can ramp quickly.\n* Exposure to real robot hardware deployment, or to WMS/logistics/warehouse systems.\n\n**Nice to haves**\n\n* Experience with Docker or other containerization.\n* Robotic Manipulation\n* Coursework or projects in SLAM, perception/computer vision, motion planning, or sensor fusion.\n* A Master's degree in a robotics-related field is a plus, but is not required or expected.\n\n**Why you'll want to work here**\n\n* Real robots, real production: your code runs on robots doing real work in real warehouses, not just in simulation.\n* Ownership: you'll own meaningful features early and see them through to the field.\n* Mentorship: you'll learn directly from senior roboticists who care about growing you.\n* Hardware access: hands-on time with AMRs, Humanoid Robots, manipulators, high powered compute, and a full sensor suite.\n\n**Logistics**\n\n* On-site in the LA area, with regular time at customer warehouse sites for deployments. Gardena, CA, US Los Angeles, CA, US jobs_skill 16 Bash/Shell 78 jobs_skill 23 C++ 107 jobs_skill 107 Python 288 jobs_skill 171 Linux 14 jobs_skill 186 Docker 14 fulltime yes\nlocations: Gardena, CA, US Los Angeles, CA, US\nremote: no",
+      "match_score": 7.44,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T03:56:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.81,
+            "overlap": 11.26,
+            "combined": 7.44
+          },
+          "backend": {
+            "cosine": 5.03,
+            "overlap": 10.53,
+            "combined": 6.68
+          },
+          "frontend": {
+            "cosine": 5.42,
+            "overlap": 10.68,
+            "combined": 7.0
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.81,
+        "keyword_overlap_score": 11.26,
+        "final_score": 7.44,
+        "top_keywords": [
+          {
+            "term": "real",
+            "weight": 0.1535
+          },
+          {
+            "term": "hardware",
+            "weight": 0.1408
+          },
+          {
+            "term": "experience",
+            "weight": 0.0768
+          },
+          {
+            "term": "logistics",
+            "weight": 0.058
+          },
+          {
+            "term": "stack",
+            "weight": 0.058
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d9bc2ef7c1bc1a8a97092fe1ba494af0",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Founding Business Development Representative, Robotics",
+      "url": "https://www.workatastartup.com/jobs/79126",
+      "jd_text": "At Yondu, we’re changing the way the world works- literally. Here, our aim is to build the robotic workforce of the future in a way that augments humans, makes people more productive, and enables anyone to pursue their passions.\n\nWe are starting by deploying autonomous mobile manipulation robots in logistics settings to do the task of bin picking. Our technology is developing at a rapid pace and our goal is to land major customer pilots. This role will play a major part in finding and executing on those partnerships to develop strong relationships with enterprise logistics and large 3PL companies.\n\nIf this journey sounds exciting, consider joining us to accelerate our customer acquisition through building on existing connections in the industry, media strategy, marketing, and b2b sales. You’ll work directly with the CEO and communicate with our top stakeholders and customers.\n\nCompensation will be partly salary and partly commission based. Listed below is the base salary. You’ll receive a commission on each contract you’re able to secure.\n\nYou will need several years of experience selling within the logistics space.\n\nIn the business development role, you will:\n\n* **C-Suite Customer Relationship Building and Maintenance:**\n  * Working directly with executives from the top logistics companies. Build off your existing relationships in the industry.\n* **Lead Generation &amp; Outreach**\n  * Research potential medium sized 3PLs warehouses and larger sized logistics companies, use state of the art software tools to create quality lead lists, and do cold outreach. You’ll also go unicorn hunting and try and land us massive paid contracts.\n* **Growth Hacking:**\n  * Leverage social media, traditional media, conferences, and gifting to help our company gain exposure and create effective targeted campaigns across platforms and irl\n* **CRM &amp; Sales Support**\n  * Maintain/update CRM systems, Track progress of partnerships, follow-ups, etc, Assist in preparing custom pitch decks, newsletters, and sales material\n* **Market Research**\n  * Analyze competitors, industry trends, revenue predictions, customer segments- Summarize findings in slide decks or reports\n* **Event Coordination**\n  * Help identify relevant conferences, hackathons, or webinars. Coordinate logistics or create supporting material\n* **Partnership Development**\n  * Work with robot manufacturing partners and explore potential hardware and software collaborations\n\nWhat we’re looking for:\n\n* A strong business background, with the ability to understand robotics concepts and translate them into compelling messaging\n* Ability to network, make real world connections, and communicate effectively with executives and CEOs of logistics businesses\n* Previous experience managing content creation for a social media account (personal, professional, or organizational)\n* A strong writing portfolio and demonstrated ability to craft narratives that resonate with different audiences\n* Comfortable using tools like Notion, Apollo, Excel, and CRM tools\n\nBonus Points:\n\n* If you’ve worked in VC or startup environments before\n* Video or Image editing experience\n* Experience with B2B sales, growth strategy, or product marketing is a plus Los Angeles, CA, US jobs_skill 293 Growth design 0 jobs_skill 294 Marketing design 0 contract yes\nlocations: Los Angeles, CA, US\nremote: yes\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T03:56:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f3b1cb2a5e2aa48a252efa4ee0b4d74a",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Social Media & Content Intern - Summer 2026",
+      "url": "https://www.workatastartup.com/jobs/95188",
+      "jd_text": "We’re looking for someone with a proven media track record through running other pages and growth hacking your way to success. If you’re incredibly ambitious, creative, and passionate about robotics this is the role for you. \n\n**What You'll Do**\n\n* Capture photo and video content of robot demos, office life, and on-site facility visits.\n* Edit short-form video and photo content for LinkedIn and other platforms.\n* Write captions, post copy, and blog-style content that is clear, direct, and engaging.\n* Assist with website updates and basic content edits in Webflow.\n* Support the operations team with content scheduling and social media strategy.\n\n**What We're Looking For**\n\n* Strong writing ability, you know how to say a lot with a little.\n* Comfortable behind a camera and confident capturing content in dynamic environments.\n* Basic video and photo editing skills.\n* A portfolio or independent content project that demonstrates end-to-end creative ownership.\n* Self-starter who thrives in a fast-moving, small team environment.\n\nCurrently enrolled at a college or university in the Greater Los Angeles area - we are prioritizing local candidates from nearby schools.\n\n**Why This Role**\n\n* Real responsibility from day one in a high-growth robotics startup.\n* Direct exposure to cutting-edge humanoid robot technology and deployments.\n* Build a content portfolio that shows something interesting.\n\n**About Yondu**\n\nYondu is creating the robotic workforce of the future starting with logistics automation. We're deploying humanoid robots in the first flexible, drop-in picking automation solution designed for 3PLs. Our approach is building robot foundation models to enable off-the-shelf robots to do these tasks autonomously. To train these models, we're building our own teleoperation system in house. Finally, there's a whole stack of classical robotics and integration work to make our systems work in the real world. Learning constantly and keeping up with SOTA research is one of the pillars of our company's culture. The company was founded by MIT students and has raised seed funding after graduating from the YC W24 batch. Join us in shaping the way the world works. Gardena, CA, US intern yes\nlocations: Gardena, CA, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-03T03:56:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "899ef1b8a2acc70a8c2b550f2beb7ffe",
       "source": "wellfound",
