@@ -1,15 +1,395 @@
 {
-  "exported_at": "2026-10-04T04:28:35+00:00",
+  "exported_at": "2026-10-04T08:15:25+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 800,
-    "pending_approval": 189,
+    "discovered": 801,
+    "pending_approval": 193,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "7774ec78732bdbd7a7cc556ed8335d00",
+      "source": "wellfound",
+      "company": "Alpheva ai",
+      "role": "Software Engineer - AI Expert",
+      "url": "https://wellfound.com/jobs/4799696-software-engineer-ai-expert",
+      "jd_text": "Apply directly through: https://alpheva.ai/experts/\n\nGet paid to help build better AI.\n\nAlpheva AI is looking for experienced software engineers to participate in paid, project-based work that helps train and evaluate the next generation of AI coding systems.\n\nThis is not a full-time job. You work remotely and asynchronously on projects that fit around your existing schedule.\n\nYour engineering experience becomes the signal that helps AI systems learn what good software engineering actually looks like.\n\nWhat you'll do\n\nDepending on the project, you may:\n\nBuild: Solve realistic software engineering problems and produce high-quality implementations.\nEvaluate: Review AI-generated code, pull requests, architectures, tests, and debugging approaches.\nDebug: Diagnose failures in real or realistic software repositories and explain what went wrong.\nReview: Assess whether an AI agent's implementation is correct, maintainable, secure, and production-ready.\nDemonstrate: Complete software engineering workflows in real development environments so AI systems can learn how experienced engineers actually work.\nCreate evaluations: Develop challenging engineering tasks and criteria for measuring AI coding agents.\nCompare solutions: Assess multiple AI-generated solutions and identify meaningful differences in correctness, quality, and engineering judgment.\n\nProjects may involve repository navigation, implementation, testing, debugging, code review, system design, and other software engineering workflows.\n\nWho we're looking for\n\nWe're looking for experienced working software engineers, not necessarily AI researchers.\n\nYou should have:\n\n3+ years of professional software engineering experience\nStrong programming and debugging skills\nExperience working in production codebases\nAbility to understand unfamiliar repositories and systems\nStrong code review and technical judgment\nExperience writing and reviewing tests\nAbility to clearly explain why a solution is correct or incorrect\n\nExperience with any of the following is valuable:\n\nPython, JavaScript/TypeScript, Go, Java, C++, Rust, or similar\nBackend or distributed systems\nAPIs and microservices\nDatabases and data systems\nCloud infrastructure\nDevOps / CI/CD\nSecurity\nFrontend engineering\nMobile development\nMachine learning infrastructure\nAgentic AI or coding agents\n\nYou do not need prior experience working in AI.\n\nWhat matters most is that you know how to do software engineering well.\n\nWhat the work looks like\n\nYou might be asked to:\n\nFix a bug in an unfamiliar repository.\n\nReview an AI-generated pull request and identify the issues.\n\nImplement a feature and write the appropriate tests.\n\nCompare two AI-generated implementations and determine which actually works.\n\nDebug a failing application and explain the root cause.\n\nEvaluate whether an AI coding agent successfully completed an engineering task.\n\nWork through a multi-step software engineering task in a real development environment.\n\nThe goal is not simply to determine whether code looks good.\n\nThe goal is to capture the judgment an experienced engineer uses to determine whether software actually works.\n\nCompensation\n\nPaid project-based work.\n\nRates vary based on your experience, specialization, and project requirements. Your applicable rate and project scope will be shown before you commit to a project.\n\nSome projects are short assignments. Others may involve recurring work over a longer period.\n\nThere is no fixed schedule and no minimum commitment.\n\nWork arrangement\nRemote\nAsynchronous\nProject-based\nFlexible hours\nWork around your existing job or commitments\nPaid for qualifying project work\nWhy Alpheva\n\nAI coding systems are becoming remarkably capable at generating code.\n\nBut writing a plausible-looking patch is not the same as being a good software engineer.\n\nAI needs to learn how experienced engineers:\n\nUnderstand unfamiliar systems\nMake architectural tradeoffs\nDebug failures\nWrite reliable tests\nReview code\nHandle edge cases\nReason about security and performance\nDecide when an implementation is actually production-ready\n\nThat's where you come in.\n\nYour engineering judgment helps shape how AI learns to build software.\n\nHow it works\n\n1. Apply\n\nTell us about your engineering background, experience, and areas of expertise.\n\n2. Get qualified\n\nComplete a short, paid software engineering assessment designed around the type of work you'll perform.\n\n3. Get matched\n\nWhen your experience matches an active project, we'll share the scope, requirements, and compensation.\n\n4. Do the work\n\nComplete projects remotely and asynchronously.\n\n5. Get paid\n\nReceive the agreed rate for your completed work.\n\nImportant\n\nYou are not required to share confidential information, proprietary source code, trade secrets, or materials belonging to your employer.\n\nProjects are designed so that your professional expertise can be applied without exposing confidential employer information.\n\nHelp teach AI how great engineers actually work.\n\nApply to become an Alpheva Software Engineering Expert. San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 8.92,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-04T08:14:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.77,
+            "overlap": 14.24,
+            "combined": 8.31
+          },
+          "backend": {
+            "cosine": 6.14,
+            "overlap": 15.41,
+            "combined": 8.92
+          },
+          "frontend": {
+            "cosine": 3.73,
+            "overlap": 17.48,
+            "combined": 7.85
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 6.14,
+        "keyword_overlap_score": 15.41,
+        "final_score": 8.92,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3131
+          },
+          {
+            "term": "experience",
+            "weight": 0.1097
+          },
+          {
+            "term": "code",
+            "weight": 0.0853
+          },
+          {
+            "term": "projects",
+            "weight": 0.061
+          },
+          {
+            "term": "learn",
+            "weight": 0.0447
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "679624c0fc37e6976137a6a0efda9fac",
+      "source": "wellfound",
+      "company": "Nexorlio",
+      "role": "Junior Full-Stack Developer",
+      "url": "https://wellfound.com/jobs/4803694-junior-full-stack-developer",
+      "jd_text": "**Company:** Nexorlio  \n**Employment Type:** Full-Time / Part-Time / Contract  \n**Location:** Fully Remote — Worldwide  \n**Working Hours:** Flexible, with availability for U.S. and European time zones  \n**Compensation:** Based on experience, skills, and availability\n\n## About Nexorlio\n\nNexorlio is a growing software engineering and digital solutions company working with clients across the United States and Europe.\n\nOur teams build modern web and mobile applications, cloud-based solutions, AI-powered platforms, SaaS products, e-commerce systems, and other custom digital products across a range of industries.\n\nAs we continue to grow, we are looking for motivated developers who want to build real-world software, strengthen their technical skills, and grow with an international engineering team.\n\n## About the Role\n\nWe are looking for a **Junior Full-Stack Developer** to join our development team and contribute to both frontend and backend projects.\n\nThis role is ideal for someone who already has a good foundation in software development and is ready to gain more hands-on experience working on real client and internal projects.\n\nYou will work closely with experienced developers, contribute to product features, fix bugs, work with APIs and databases, participate in code reviews, and gradually take on more responsibility as your skills grow.\n\n## Responsibilities\n\n- Develop and maintain frontend and backend features\n- Build responsive and user-friendly web interfaces\n- Work with APIs, databases, and third-party integrations\n- Fix bugs and improve existing application functionality\n- Write clean, readable, and maintainable code\n- Use Git and GitHub for version control and team collaboration\n- Participate in code reviews and technical discussions\n- Test your work before submitting changes\n- Work closely with developers, project managers, and other team members\n- Research technical issues and suggest practical solutions\n- Learn and adopt new technologies when required by projects\n- Follow established development standards and team workflows\n\n## Requirements\n\n- C1–C2 level English proficiency, with excellent spoken and written communication skills\n- Good understanding of JavaScript and modern web development\n- Experience with frontend technologies such as React, Next.js, HTML, CSS, JavaScript, or TypeScript\n- Basic backend development experience with Node.js, Python, or similar technologies\n- Basic understanding of REST APIs\n- Familiarity with relational or NoSQL databases\n- Experience using Git and GitHub\n- Understanding of responsive web development\n- Ability to debug and solve technical problems\n- Ability to learn independently and apply feedback\n- Good communication and collaboration skills\n- Comfortable working remotely with an international team\n- Reliable high-speed internet connection\n\nPrevious professional experience is helpful but not required if you can demonstrate good technical ability through personal projects, freelance work, internships, university projects, or open-source contributions.\n\n## Nice to Have\n\n- Experience with TypeScript\n- Experience with PostgreSQL, MySQL, MongoDB, or similar databases\n- Familiarity with cloud platforms such as AWS, Azure, or Google Cloud\n- Basic deployment or DevOps experience\n- Experience with AI APIs, LLMs, or AI-powered applications\n- Experience with authentication, payments, or third-party APIs\n- Previous startup, freelance, or remote work experience\n- A GitHub profile or portfolio demonstrating previous work\n\n## What We Offer\n\n- Fully remote work\n- Flexible working environment\n- Opportunity to contribute to real client projects\n- Exposure to U.S. and European projects\n- Experience working with modern development technologies\n- Technical feedback and support from experienced developers\n- Opportunities to take on more responsibility as you grow\n- Potential for longer-term collaboration based on performance\n\n## How to Apply\n\nTo apply, please email the following to **careers@nexorlio.com**:\n\n- Your resume/CV\n- A short introduction video explaining your software development background, relevant experience, technologies you have worked with, and why you are interested in this role\n- Your GitHub profile, portfolio, or relevant project links, if available\n- Your current location and time zone\n- Your general availability for U.S. and European working hours\n- Your expected hourly rate\n\nPlease include **“Junior Full-Stack Developer Application”** in the email subject line.\n\nWe look forward to hearing from developers who are interested in growing their skills, contributing to real-world projects, and building software with the Nexorlio team. Las Vegas\nlocationNames: Las Vegas\nremote: true",
+      "match_score": 13.51,
+      "resume_variant": "frontend",
+      "draft_answer": "As a full-stack engineer, I've built React/Next.js front ends and Express.js back ends for cloud-based compliance platforms and microservices, including one that onboarded 80+ client organizations and automated 90% of manual reporting. My work has consistently delivered performance gains, like cutting API fetch latency by 98% via Redis caching and migrating to Azure Blob Storage to reduce data load times from 15s to 6s, skills I'm eager to apply to real-world software and custom digital products.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-04T08:14:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.76,
+            "overlap": 16.23,
+            "combined": 12.4
+          },
+          "backend": {
+            "cosine": 9.76,
+            "overlap": 15.79,
+            "combined": 11.57
+          },
+          "frontend": {
+            "cosine": 10.77,
+            "overlap": 19.9,
+            "combined": 13.51
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.77,
+        "keyword_overlap_score": 19.9,
+        "final_score": 13.51,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2351
+          },
+          {
+            "term": "projects",
+            "weight": 0.1343
+          },
+          {
+            "term": "skills",
+            "weight": 0.1008
+          },
+          {
+            "term": "technical",
+            "weight": 0.1008
+          },
+          {
+            "term": "apis",
+            "weight": 0.084
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-04T08:15:24+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "48e1fbf96014601d24c4b8673b9b36cd",
+      "source": "wellfound",
+      "company": "Avenrix Services",
+      "role": "Backend & Data Engineer",
+      "url": "https://wellfound.com/jobs/4804889-backend-data-engineer",
+      "jd_text": "## About the Role\n\nAvenrix Services is hiring a Backend &amp; Data Engineer to contribute to an active enterprise technology project involving backend services, data processing, enterprise search, and AI-assisted workflows.\n\nThe role is primarily focused on **Node.js/TypeScript, PostgreSQL, APIs, data synchronization, production troubleshooting, observability, and reliability**.\n\nYou’ll work within an existing production environment and collaborate with engineers across backend, data, search, and AI-related areas. The project also involves close collaboration with data-science engineers working on areas such as retrieval, chunking, re-ranking, and AI-assisted knowledge workflows.\n\n## Responsibilities\n\n- Develop and maintain backend services using **Node.js and TypeScript**\n- Build and maintain REST APIs and backend integrations\n- Work with **PostgreSQL and SQL**\n- Investigate slow queries and backend/database performance issues\n- Support ETL, data pipelines, and synchronization between systems\n- Investigate inconsistent data, failed jobs, retries, and production issues\n- Help improve data consistency, reliability, and failure handling\n- Work with AWS-based services and environments\n- Use logs, metrics, and distributed tracing to troubleshoot production behavior\n- Work with search and retrieval systems such as OpenSearch/Elasticsearch\n- Collaborate with engineers working on AI/search and data-science workflows\n- Support approved local AI inference, evaluation, embedding, and retrieval experiments\n- Write automated tests and participate in code reviews\n- Participate in technical meetings and clearly communicate progress, blockers, technical decisions, and recommended solutions\n- Identify opportunities to improve existing implementations rather than simply following predefined tasks\n\n## Required Skills\n\n- **2+ years of software development experience** or strong equivalent practical experience\n- Good JavaScript / TypeScript fundamentals\n- Backend development experience with **Node.js**\n- Good knowledge of **SQL and relational databases**\n- Experience with **PostgreSQL** or a comparable database\n- Experience developing or integrating REST APIs\n- Familiarity with Git and standard development workflows\n- Strong debugging and problem-solving ability\n- Ability to understand and work within an existing codebase\n- Comfortable investigating unfamiliar technical problems\n- Ability to work independently on assigned engineering work\n- Reliable communication and follow-through\n- Receptive to technical feedback and willing to learn quickly\n- Able to clearly explain your own implementation and technical decisions in English\n\n## Local GPU Requirement\n\nCandidates must have reliable access to a development computer equipped with an **NVIDIA RTX 4060, RTX 4070, or higher-class NVIDIA GPU**.\n\nThe GPU will be used for approved local development workloads such as:\n\n- Local model inference\n- Embedding generation and experimentation\n- Retrieval/RAG experiments\n- Model and prompt evaluation\n- Search and re-ranking experiments\n- Testing AI-assisted application workflows\n- Other GPU-accelerated engineering and development tasks\n\n**Client-sensitive or restricted production data must not be processed on personal hardware unless specifically authorized for that environment.**\n\n## Data, Search &amp; AI\n\nYou do not need to be a machine-learning researcher.\n\nHowever, familiarity with some of the following is valuable:\n\n- RAG / retrieval systems\n- Embeddings\n- Vector search\n- Chunking\n- Re-ranking\n- OpenSearch / Elasticsearch\n- LLM applications\n- Local/open-source models\n- Python-based AI tooling\n- Working with data-science or ML engineers\n\nThe client team specifically works with data science around re-ranking, chunking, search, and AI-assisted knowledge retrieval.\n\n## Observability &amp; Reliability\n\nExperience with production monitoring and troubleshooting is valuable.\n\nRelevant technologies include:\n\n- OpenTelemetry\n- Datadog\n- Prometheus\n- Grafana\n- Splunk\n- Structured logging\n- Metrics and alerting\n- Distributed tracing\n\nYou do not need experience with every tool. What matters is being able to use logs, metrics, traces, and application/database information to investigate real production problems.\n\nData and observability were specifically emphasized during the client engineering discussion.\n\n## Nice to Have\n\n- AWS\n- Kafka or another event-streaming / messaging system\n- ETL or data-pipeline experience\n- OpenTelemetry\n- OpenSearch / Elasticsearch\n- Python\n- Docker\n- GitHub Actions / CI/CD\n- Distributed systems\n- Data synchronization and reconciliation\n- CUDA or GPU-based development\n- Hugging Face or local LLM tooling\n- RAG / embeddings / vector databases\n- Experience collaborating with AI or data-science teams\n\nKafka and OpenTelemetry are valuable for this environment, but they are **not absolute requirements**; the underlying role places greater emphasis on data pipelines, distributed-system concepts, synchronization, troubleshooting, and observability generally.\n\n## What We Value\n\nWe’re looking for someone who:\n\n- Takes ownership of their work\n- Is dependable and honest\n- Learns quickly\n- Accepts technical feedback well\n- Communicates blockers early\n- Investigates problems rather than guessing\n- Is comfortable asking questions when something is unclear\n- Can explain why they chose a particular technical approach\n- Is willing to suggest improvements when they identify a better solution\n\nThe client engineering manager specifically emphasized that engineers should question existing approaches and suggest improvements rather than simply following instructions when they see a better solution.\n\n## About Avenrix Services\n\nAvenrix Services supports businesses through project-based engineering and technology delivery across software, backend systems, data, cloud, AI, and related technology initiatives.\n\nFor this engagement, you’ll contribute to an active enterprise technology project while working with engineering and project leadership.\n\n## Engagement Details\n\n**Job Type:** Contract  \n**Level:** Junior–Mid Level  \n**Location:** Remote — India / Pakistan  \n**Compensation:** **$800–$1,200 USD per month**, depending on experience and technical capability  \n**Schedule:** Regular availability with some overlap for technical meetings  \n**Start:** As soon as available Plano\nlocationNames: Plano\nremote: true",
+      "match_score": 18.21,
+      "resume_variant": "backend",
+      "draft_answer": "I've built both Node.js microservices and FastAPI backends, where I reduced reporting API latency by 98% with Redis caching and introduced RabbitMQ to guarantee data delivery under high load, aligning directly with developing reliable backend services and managing data synchronization for this enterprise technology project. My experience extends to containerizing local LLM agents for tool-calling reliability, owning Azure deployments with blue-green CI/CD, and diagnosing production concurrency risks to improve data consistency, preparing me for supporting AI-assisted workflows and troubleshooting production behavior.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-04T08:14:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 15.5,
+            "overlap": 19.54,
+            "combined": 16.71
+          },
+          "backend": {
+            "cosine": 16.99,
+            "overlap": 21.05,
+            "combined": 18.21
+          },
+          "frontend": {
+            "cosine": 11.0,
+            "overlap": 19.42,
+            "combined": 13.53
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 16.99,
+        "keyword_overlap_score": 21.05,
+        "final_score": 18.21,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.2801
+          },
+          {
+            "term": "ai",
+            "weight": 0.1884
+          },
+          {
+            "term": "experience",
+            "weight": 0.14
+          },
+          {
+            "term": "backend",
+            "weight": 0.126
+          },
+          {
+            "term": "technical",
+            "weight": 0.126
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-04T08:14:51+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "323c19a3f3f61ba5f60d201e7d413126",
+      "source": "wellfound",
+      "company": "INDROBEAMS",
+      "role": "Full-Stack Developer Frontend Developer Backend Developer UI/UX Designer QA / Software Tester, Video Editor",
+      "url": "https://wellfound.com/jobs/4787183-full-stack-developer-frontend-developer-backend-developer-ui-ux-designer-qa-software-tester-video-editor",
+      "jd_text": "🚀 We're Hiring — Full-Stack Software Engineer\n\nCompany: INDROBEAMS\nDepartment: Product &amp; Engineering\nEmployment: Full-time / Part-time / Contract\nWork Mode: Remote / Hybrid / On-site\nExperience: 0–3+ years\nLocation: Hazratganj Lucknow Uttar Pradesh India \n\nAbout the Role\n\nINDROBEAMS is looking for a motivated Full-Stack Software Engineer to help us build, improve, and maintain our CRM and business software platform.\n\nYou will work closely with the product team and contribute to real-world features across the frontend, backend, database, APIs, and application infrastructure.\n\nResponsibilities\n\n- Develop and maintain web applications\n- Build scalable frontend and backend features\n- Develop and integrate APIs\n- Work with databases\n- Fix bugs and improve application performance\n- Implement authentication and authorization\n- Integrate third-party services\n- Write clean and maintainable code\n- Participate in testing and code reviews\n- Collaborate with product, design, and business teams\n- Help improve the overall reliability and user experience of the platform\n\nPreferred Technical Skills\n\nDepending on our technology stack:\n\n- HTML\n- CSS\n- JavaScript / TypeScript\n- React / Next.js\n- Node.js / Python / relevant backend framework\n- REST APIs\n- PostgreSQL / MySQL\n- Git / GitHub\n- Authentication &amp; authorization\n- Basic cloud/deployment knowledge\n\nNice to Have\n\n- SaaS product experience\n- CRM/ERP experience\n- API integrations\n- Docker\n- Redis\n- CI/CD\n- Cloud platforms\n- AI/API integration experience\n\nWho We're Looking For\n\nWe value:\n\n- Strong problem-solving ability\n- Ownership\n- Good communication\n- Learning mindset\n- Ability to work independently\n- Attention to detail\n- Startup mindset\n\nCompensation\n\n₹10k – ₹20k  per month, depending on skills and experience.\n\nFor exceptional candidates, compensation can be discussed based on experience and responsibilities.\n\nWhat You Get\n\n- Opportunity to work on a real SaaS product\n- Startup environment\n- Ownership of meaningful projects\n- Learning and growth opportunities\n- Flexible working options depending on the role\n- Performance-based growth opportunities\n\nHow to Apply\n\nSend your:\n\n1. Resume\n2. GitHub / Portfolio\n3. LinkedIn profile\n4. Short introduction\n5. Expected salary\n6. Availability / notice period\n\nApply: indrobeams@gmail.com\n\nSubject: Application — Full-Stack Software Engineer Lucknow\nlocationNames: Lucknow\nremote: true",
+      "match_score": 13.6,
+      "resume_variant": "frontend",
+      "draft_answer": "Having delivered React front ends and Node.js backends for cloud-native compliance platforms, onboarding 80+ client organizations, I'm prepared to build scalable features for your CRM and business software platform. My experience integrating Redis to cut API latency by 98% and deploying containerized apps on Azure demonstrates a direct focus on performance and robust infrastructure.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-04T08:14:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.45,
+            "overlap": 14.9,
+            "combined": 12.49
+          },
+          "backend": {
+            "cosine": 10.68,
+            "overlap": 14.29,
+            "combined": 11.76
+          },
+          "frontend": {
+            "cosine": 11.52,
+            "overlap": 18.45,
+            "combined": 13.6
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.52,
+        "keyword_overlap_score": 18.45,
+        "final_score": 13.6,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1898
+          },
+          {
+            "term": "backend",
+            "weight": 0.1084
+          },
+          {
+            "term": "frontend",
+            "weight": 0.0995
+          },
+          {
+            "term": "apis",
+            "weight": 0.0813
+          },
+          {
+            "term": "application",
+            "weight": 0.0813
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-04T08:15:14+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "4b26936bab4719da4efac5655ef5473f",
+      "source": "wellfound",
+      "company": "Jobgo International",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/4803766-full-stack-developer",
+      "jd_text": "**About the Company &amp; Role:**\n\nJobGo International is a Helsinki‑based recruitment and consulting company founded in 2013, specializing in modern, AI‑driven hiring solutions. The company leverages big data, automated candidate matching, and intelligent screening tools to help employers hire faster and more accurately. JobGo operates across multiple European markets, including Finland, Sweden, Germany, and Denmark, supporting clients with efficient, tech‑enabled recruitment services.\n\nWe are looking for a Full-Stack Developer with AI engineering interests to join our small, fast-moving team and help build products that make a real impact. This is a fully remote opportunity for a developer based in India, collaborating closely with our team in Sweden. You will work across the entire stack, from designing databases and building APIs to creating polished, responsive user experiences. You will own features end to end, contribute to technical decisions, and help turn ideas into reliable products used by real customers.\n\nThe role offers variety, autonomy, and the opportunity to work with modern technologies, including AI-enabled solutions. You will collaborate with product and design, shape priorities, write high-quality code, and contribute to testing, deployment, monitoring, and continuous improvement. As part of the interview process, you may be asked to complete a practical coding exercise or work through a technical use case related to full-stack and AI engineering. We value curiosity, pragmatic problem-solving, clear communication, and a strong sense of ownership. If you enjoy learning, taking responsibility, and building meaningful products with an international team, we would love to hear from you.\n\n**Key responsibilities**\n* Build and deliver product features end-to-end across frontend and backend using modern full-stack development practices.\n* Design, implement, and maintain scalable APIs, data models, integrations, and responsive user interfaces.\n* Develop and integrate AI-powered capabilities using technologies such as Python, LLM APIs, prompt engineering, embeddings, and Retrieval-Augmented Generation.\n* Evaluate AI outputs and improve the reliability, security, performance, and user experience of AI-enabled features.\n* Write automated tests, maintain high code quality, and contribute to code reviews and collaborative development workflows.\n* Deploy, monitor, troubleshoot, and support full-stack and AI features in production.\n* Work closely with product and design to understand user needs, scope work, prioritise effectively, and make pragmatic technical trade-offs.\n* Take ownership of projects independently, stay current with emerging technologies, and contribute to continuous improvement of the product.\n\n**Must-have skills**\n* Build dynamic, responsive user interfaces using ReactJS.\n* Develop scalable backend services and APIs using Node.js and TypeScript.\n* Design and maintain robust REST APIs and SQL or NoSQL data models.\n* Use Git for source control, branching, pull requests, and collaborative code reviews.\n* Build AI-related backend components and data-processing pipelines using Python.\n* Integrate LLMs and AI APIs to deliver reliable, production-ready AI features.\n* Good-to-have skills\n* Deploying and operating applications on cloud platforms such as AWS, GCP, or Azure.\n* Using Docker and Kubernetes for containerisation and orchestration.\n* Building CI/CD pipelines and managing infrastructure as code.\n* Working with machine-learning frameworks and model deployment practices.\n* Using vector databases and embedding stores to support AI-powered applications.\n\n**Qualifications**\n* Bachelor's degree or master's degree in Computer Science or an equivalent field.\n* 3+ years of full-stack development experience.\n\n**Other requirements**\n* Based in India and able to collaborate with the Sweden-based team, with availability for CET working hours.\n* Willingness to complete a practical coding exercise or technical use case as part of the interview process.\nReliable remote work setup and ability to work independently with a strong sense of ownership.\nRespect for data privacy, security best practices, and responsible AI usage when designing features.\n\n**What we offer**\nWork in a small, focused team where your contributions have direct impact on product outcomes.\nAutonomy to own features end-to-end and influence technical direction.\nOpportunity to work with modern technologies and build AI-enabled solutions used by real customers.\nInternational collaboration with a Sweden-based team and exposure to cross-cultural product development.\nA learning-oriented environment that values curiosity, pragmatic problem-solving, and continuous improvement.\n\nLink to Apply : https://platform.jobla.ai/job-details/6ac12c49333a4dbe6175b419 Stockholm\nlocationNames: Stockholm\nremote: true",
+      "match_score": 15.64,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently delivered end-to-end full-stack solutions, like building a FastAPI/React portal from client requirements through UAT, and owned cloud-native compliance platform modules, improving fetch latency by 98% with Redis caching and ensuring zero-downtime deployments with Azure DevOps CI/CD blue-green releases. My interest in AI-enabled solutions includes running open-weight LLMs locally and validating tool-calling reliability, complementing my experience designing microservices with RESTful APIs and securing ACID-compliant transactions under concurrent load.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-04T08:14:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 13.55,
+            "overlap": 20.53,
+            "combined": 15.65
+          },
+          "backend": {
+            "cosine": 11.03,
+            "overlap": 18.05,
+            "combined": 13.14
+          },
+          "frontend": {
+            "cosine": 9.82,
+            "overlap": 21.36,
+            "combined": 13.28
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 13.55,
+        "keyword_overlap_score": 20.53,
+        "final_score": 15.64,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2944
+          },
+          {
+            "term": "stack",
+            "weight": 0.1697
+          },
+          {
+            "term": "team",
+            "weight": 0.1455
+          },
+          {
+            "term": "using",
+            "weight": 0.1374
+          },
+          {
+            "term": "end",
+            "weight": 0.1178
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-04T08:14:59+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "d72fb9a44f187ebe4475eb2edc9a266a",
       "source": "yc",
