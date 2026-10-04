@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-04T08:15:25+00:00",
+  "exported_at": "2026-10-04T13:46:28+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 801,
+    "discovered": 802,
     "pending_approval": 193,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "b945e99f01ff25e68a1d3972f73c1139",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Physical AI Infrastructure Engineer",
+      "url": "https://www.workatastartup.com/jobs/114065",
+      "jd_text": "**Full-time · Yondu AI**\n\nYondu builds software that turns off-the-shelf robots into autonomous warehouse labor. We’re looking for a hands-on engineer to build and improve the tools that connect our hardware, AI models, and real-world operations.\n\nYour work will span robot control, teleoperation, data annotation, and prototype hardware testing. You’ll investigate new ideas, measure what works, and turn promising experiments into tested, reusable software that other engineers can build on.\n\nAs we introduce new hardware, warehouse tasks, and models, you’ll own the development and continued improvement of our R&amp;D tools and experimental systems. You’ll work closely with our AI and production engineers, who will carry validated capabilities through production integration and deployment.\n\n### What you’ll work on\n\n* **Improve our data annotation pipeline.** Clean up existing workflows, improve data validation and labeling tools, and make it easier to turn robot demonstrations and deployment data into useful training datasets.\n* **Maintain and improve teleoperation software.** Improve how operator inputs translate into robot behavior, including action smoothing, motion mapping, responsiveness, and debugging tools.\n* **Develop and evaluate manipulation capabilities.** Work with inverse kinematics and motion control for new arms, including 7-DoF redundancy, elbow clearance, camera visibility, and compliant grasping.\n* **Test prototype hardware.** Write CAN communication and hardware test code for new R&amp;D systems. Evaluate whether AMR base, lift, arm, and gripper interfaces provide the control, feedback, and timing needed for new behaviors.\n* **Make hardware changes easier.** Build calibration tools and model input/action adapters that help us move between different arms, grippers, and cameras.\n* **Verify real task outcomes.** Work with the AI team to detect whether a task actually succeeded, investigate false success signals, and evaluate rewards against physical results.\n* **Measure what improved.** Build repeatable tests that isolate the effects of model, controller, and hardware changes.\n* **Keep R&amp;D work reusable.** Bring experimental branches into a shared codebase with clear interfaces, versioned configurations, tests, and documentation so other engineers can reproduce and extend the work.\n\n### What we’re looking for\n\n* Strong software engineering skills in Python and C++, with experience writing and debugging code that interacts with physical hardware.\n* A strong understanding of robotic kinematics, coordinate frames, inverse kinematics, and motion control.\n* Hands-on experience with robot arms, teleoperation, or related robotic systems.\n* Experience writing and debugging CAN communication with actuators or other hardware.\n* The ability to design useful experiments, define success criteria, and diagnose problems across software and hardware.\n* Good engineering habits: readable code, practical tests, clear documentation, and comfort integrating work across Git branches.\n* Comfort taking an open-ended problem from an initial prototype to a reliable tool that teammates can use.\n\n### Helpful experience\n\n* Robotics data pipelines, annotation tools, or dataset quality evaluation.\n* Robot learning, imitation learning, reinforcement learning, or model evaluation.\n* ROS/ROS 2, robot calibration, redundant manipulators, or force and compliance control.\n* Experience with cloud providers\n\nYou’ll have direct ownership of tools that shape how quickly we can test new ideas and bring new robot capabilities into real warehouse workflows. Los Angeles, CA, US jobs_skill 23 C++ 107 jobs_skill 107 Python 288 jobs_skill 171 Linux 14 jobs_skill 219 Microcontrollers 3 fulltime possible\nlocations: Los Angeles, CA, US\nremote: no",
+      "match_score": 8.38,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-04T13:46:21+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.55,
+            "overlap": 11.92,
+            "combined": 8.16
+          },
+          "backend": {
+            "cosine": 6.65,
+            "overlap": 12.41,
+            "combined": 8.38
+          },
+          "frontend": {
+            "cosine": 4.05,
+            "overlap": 11.65,
+            "combined": 6.33
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 6.65,
+        "keyword_overlap_score": 12.41,
+        "final_score": 8.38,
+        "top_keywords": [
+          {
+            "term": "hardware",
+            "weight": 0.2225
+          },
+          {
+            "term": "tools",
+            "weight": 0.1273
+          },
+          {
+            "term": "ai",
+            "weight": 0.1113
+          },
+          {
+            "term": "data",
+            "weight": 0.091
+          },
+          {
+            "term": "experience",
+            "weight": 0.091
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "7774ec78732bdbd7a7cc556ed8335d00",
       "source": "wellfound",
