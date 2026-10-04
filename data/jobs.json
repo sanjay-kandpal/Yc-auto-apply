@@ -1,15 +1,434 @@
 {
-  "exported_at": "2026-10-04T19:16:04+00:00",
+  "exported_at": "2026-10-04T21:07:29+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 802,
-    "pending_approval": 193,
+    "discovered": 805,
+    "pending_approval": 196,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "5389e87bccee786da6e1c2f69a624bd7",
+      "source": "wellfound",
+      "company": "SuiteGrowth",
+      "role": "AI Engineer (Agentic)",
+      "url": "https://wellfound.com/jobs/4797078-ai-engineer-agentic",
+      "jd_text": "SuiteGrowth builds AI patient communication for UK dental practices. Emma, our WhatsApp receptionist, follows up after appointments, handles reminders and treatment-plan follow-ups, and routes a patient to a human when something is wrong. Eight practices use the live product every day. A wrong answer reaches a real patient, and practice managers tell us about it quickly. We are hiring an AI Engineer to take a reported failure from screenshot to verified fix. You will reconstruct what happened, separate evidence from guesses, direct a coding agent with a tightly scoped brief, review its change, build the regression fixture, and ship through the release checks. The result we need is fewer repeat failures and safer patient messages, not a count of tickets closed or code written. You will work directly with the current engineer and the dentist founders. The product uses TypeScript, Next.js, Supabase Postgres, Vercel, Claude, 360dialog and Dentally. You should have at least two years of professional software experience, be comfortable reading code you did not write, use coding agents as a normal part of your work, and write clear English. A degree is not required. Every shipped change needs a test proved to fail on the old code, a full suite pass, a typecheck at or below baseline, a named rollback command written before deploy, and an adversarial review. You will explain what the evidence proves and what remains uncertain. Passing tests alone do not settle a patient-facing decision. Remote, full time; India preferred. Work is measured by completed tasks and agreed deadlines, which may change during development. Coordinate with the UK team when a task needs it; there is no fixed daily hours block. We will share the current pay range privately before asking you to complete a written exercise. The cross-border working arrangement will be agreed before an offer or paid work. To express interest, do not send a CV. Send (1) a link to one product or code change you personally built, (2) what broke in it and how you proved the cause or fix, and (3) a brief note on how you use coding agents and review their output. Tell us your professional experience and whether you can coordinate with the UK team when needed. If the role and pay fit, the next step is a short hypothetical no-code exercise about a patient conversation, followed by a discussion of your existing work. We will not ask you to do unpaid product work. Any real product task will have its scope and payment agreed before it begins. England\nlocationNames: England\nremote: true",
+      "match_score": 4.75,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-04T21:06:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.09,
+            "overlap": 6.29,
+            "combined": 4.75
+          },
+          "backend": {
+            "cosine": 3.72,
+            "overlap": 6.39,
+            "combined": 4.52
+          },
+          "frontend": {
+            "cosine": 3.96,
+            "overlap": 7.77,
+            "combined": 5.1
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.09,
+        "keyword_overlap_score": 6.29,
+        "final_score": 4.75,
+        "top_keywords": [
+          {
+            "term": "code",
+            "weight": 0.1307
+          },
+          {
+            "term": "ai",
+            "weight": 0.0959
+          },
+          {
+            "term": "team",
+            "weight": 0.079
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0784
+          },
+          {
+            "term": "agents",
+            "weight": 0.0639
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "47a3733e5fb4edc4491030b45868cfe2",
+      "source": "wellfound",
+      "company": "Flowtask",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/4803712-full-stack-developer",
+      "jd_text": "FlowTask is a DPIIT-recognized startup building scalable web infrastructure and applied AI solutions. We are offering a structured, high-intensity Developer Residency designed to bridge the gap between academic theory and production-grade execution.\n\nWhat You Will Do\n\nShip Real Code: Build and test scalable web applications using Next.js, TypeScript, Node.js, and PostgreSQL.\n\nDeep-Dive Implementation: Work directly through production-grade technical documentation and milestone-gated project modules.\n\nCode Review: Participate in structured architectural teardowns, debugging sessions, and technical problem-solving.\n\nWho We Are Looking For\n\nPursuing or completed a technical degree (B.Tech/BCA/MCA).\n\nStrong foundation in JavaScript/TypeScript and relational database design.\n\nSelf-Starters: You read documentation independently and attempt to resolve bugs before escalating to senior peers.\n\nHighly Preferred: Candidates with active GitHub repositories or deployed personal projects. (Please include links in your application).\n\nNote: This is a 3-month structured internship/residency. West Bengal\nlocationNames: West Bengal\nremote: true",
+      "match_score": 7.01,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-04T21:06:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.29,
+            "overlap": 7.28,
+            "combined": 6.59
+          },
+          "backend": {
+            "cosine": 6.48,
+            "overlap": 7.89,
+            "combined": 6.9
+          },
+          "frontend": {
+            "cosine": 6.69,
+            "overlap": 7.77,
+            "combined": 7.01
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.69,
+        "keyword_overlap_score": 7.77,
+        "final_score": 7.01,
+        "top_keywords": [
+          {
+            "term": "technical",
+            "weight": 0.1408
+          },
+          {
+            "term": "code",
+            "weight": 0.0939
+          },
+          {
+            "term": "js",
+            "weight": 0.0939
+          },
+          {
+            "term": "production",
+            "weight": 0.0939
+          },
+          {
+            "term": "directly",
+            "weight": 0.0574
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "78ef104db0e7fb76997936d1c4abc1e9",
+      "source": "wellfound",
+      "company": "Oli & Hue",
+      "role": "Website Builder (Design Engineer)",
+      "url": "https://wellfound.com/jobs/4804885-website-builder-design-engineer",
+      "jd_text": "Hiring a design engineer (vibe coder / vibe designer) who can ship Awwwards-worthy websites with Claude Code, Codex, or Cursor.\n\nApply here 👉 https://lnkd.in/eikT3peu HSR Layout\nlocationNames: HSR Layout",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-04T21:06:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a09cc71e32a4e9691ac50895b87f622f",
+      "source": "wellfound",
+      "company": "LearnTube.ai (backed by Google)",
+      "role": "Rust Backend Engineer",
+      "url": "https://wellfound.com/jobs/4803168-senior-backend-engineer-fastapi-clone",
+      "jd_text": "In 2024, Google selected LearnTube for its AI First Accelerator, further fueling our growth. Alongside investment from funds of visionaries like Reid Hoffman and Naval Ravikant, we set out on a mission to reimagine how billions will learn and grow.\n\n**What You'll Do:**\n\n- Build and scale high-performance Rust microservices handling ~800 requests/second today, growing to 3x capacity within a year while holding sub-200ms p95 latency\n- Power the quiz-scoring and AI-tutor engines that process millions of learning events every day\n- Write safe, concurrent async services using Tokio, and profile CPU, memory, and latency hot paths\n- Design scalable, secure backend systems using Postgres, MongoDB, Redis, and SQS\n- Deploy containerized services via NGINX on AWS and GCP Kubernetes infrastructure\n- Own GitLab CI/CD pipelines, including clippy, tests, and optimized release builds, so we can ship to production several times a week\n- Drive reliability toward 99.9% uptime with Prometheus and Grafana monitoring\n- Build LLM inference and vector-search endpoints in collaboration with the AI team\n- Identify performance-critical paths in existing services and rebuild them in Rust where it makes a real difference\n- Take features from design to production within two weeks\n\n**Must-Have Requirements:**\n\n- 4+ years of backend development, with at least 2 years writing production Rust\n- Strong grasp of ownership, lifetimes, traits, and error handling, plus async Rust with Tokio\n- Hands-on experience with a web framework such as Axum, Actix-web, or Warp\n- Experience with Rust data and serialization tooling (e.g. sqlx, SeaORM, Diesel, serde)\n- Hands-on experience with Docker and container orchestration\n- Production experience with GitLab CI/CD and AWS (EC2, S3, SQS) or GCP (GKE/Compute)\n- SQL/NoSQL expertise (Postgres, MongoDB) and solid system design fundamentals\n\n**Nice-to-Have Skills:**\n\n- gRPC (tonic) and protobuf-based service contracts\n- Python interop (PyO3) or experience migrating services from Python/Node to Rust\n- Kubernetes at scale, Terraform\n- Kafka or other streaming systems\n- AI/ML inference services experience (LLMs, vector databases, embeddings)\n- Observability tools (Prometheus, Grafana, OpenTelemetry, tracing crate)\n\n**How We Hire** No take-home. No whiteboard trivia. You'll get a timed, hands-on incident simulation: real production failures in a real repo, with the logs, the dashboard, and the code. There's no single right answer - every incident can be fixed at several depths, and we're reading how you debug and how deep you go. Here's the link for you to get started on it - https://workat.learntube.ai/tech/rust\n\n**The Team** Google's Top 20 Startups to Watch. Google AI First Accelerator '24. Backed by funds of Naval Ravikant, Reid Hoffman, and founders/CXOs from Udemy, Flipkart, Jupiter, PayU, Edmodo &amp; Inflection AI. Featured on CNBC-TV18. 11–50 people building something that changes how people learn, permanently.\n\n**Why work with us**: state-of-the-art generative AI on a backend you own. Full ownership from ideation to deployment. Direct access to founders and advisors, including the CTO of Inflection AI. Three years of growth packed into one, and Monday morning meetings you actually look forward to. Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 11.9,
+      "resume_variant": "backend",
+      "draft_answer": "Having cut API fetch latency by 98% (500ms to 10ms) through Redis caching under sustained load, and introduced RabbitMQ to prevent data loss under high concurrency, I'm eager to apply that performance and reliability focus to microservices handling ~800 requests/second and millions of learning events. My experience owning AKS deployments with Azure DevOps CI/CD for zero-downtime blue-green releases, alongside containerizing LLM agents and designing microservices, positions me to drive scalable, secure containerized services on AWS/GCP Kubernetes infrastructure with fast delivery.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-04T21:06:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.59,
+            "overlap": 14.9,
+            "combined": 11.19
+          },
+          "backend": {
+            "cosine": 10.39,
+            "overlap": 15.41,
+            "combined": 11.89
+          },
+          "frontend": {
+            "cosine": 5.67,
+            "overlap": 16.02,
+            "combined": 8.78
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 10.39,
+        "keyword_overlap_score": 15.41,
+        "final_score": 11.9,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2565
+          },
+          {
+            "term": "experience",
+            "weight": 0.1398
+          },
+          {
+            "term": "production",
+            "weight": 0.1165
+          },
+          {
+            "term": "backend",
+            "weight": 0.0932
+          },
+          {
+            "term": "real",
+            "weight": 0.0699
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-04T21:07:26+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c5f68ca989eb521639fcf4485f36a10d",
+      "source": "wellfound",
+      "company": "LearnTube.ai (backed by Google)",
+      "role": "Senior Backend Engineer - TypeScript",
+      "url": "https://wellfound.com/jobs/4802427-senior-backend-engineer-fastapi-clone",
+      "jd_text": "In 2024, Google selected LearnTube for its AI First Accelerator, further fueling our growth. Alongside investment from funds of visionaries like Reid Hoffman and Naval Ravikant, we set out on a mission to reimagine how billions will learn and grow.\n\nWant to be the driving force behind our next wave of growth?\n\nAs a Senior Backend Engineer - TypeScript at LearnTube. ai you will ship the backbone that powers 4 million learners in 64 countries - owning APIs that crunch 1 billion learning events &amp; the AI that supports it with &lt;200 ms latency.\n\n**What You'll Do:**\n\n- Build and scale TypeScript microservices on Node.js handling ~800 requests/second today, growing to 3x capacity within a year while holding sub-200ms p95 latency\n- Power the quiz-scoring and AI-tutor engines that process millions of learning events every day\n- Design strongly typed APIs and shared contracts that keep services, clients, and data models in sync end-to-end\n- Design scalable, secure backend systems using Postgres, MongoDB, Redis, and SQS\n- Write efficient, non-blocking async code and profile the event loop, memory, and throughput for low-latency workloads\n- Deploy containerized services via NGINX on AWS and GCP Kubernetes infrastructure\n- Own GitLab CI/CD pipelines, including type checks, linting, and tests, so we can ship to production several times a week\n- Drive reliability toward 99.9% uptime with Prometheus and Grafana monitoring\n- Build LLM inference, streaming, and vector-search endpoints in collaboration with the AI team\n- Take features from design to production within two weeks\n\n**Must-Have Requirements:**\n\n- 4+ years of backend development, with at least 3 years writing production TypeScript (strict mode)\n- Strong command of the TypeScript type system: generics, utility types, discriminated unions, and type-safe error handling\n- Hands-on experience with a production framework such as NestJS, Fastify, or Express\n- Experience with typed data layers and runtime validation (e.g. Prisma, Drizzle, TypeORM, Zod)\n- Deep understanding of the Node.js event loop, async patterns, and performance tuning\n- Hands-on experience with Docker and container orchestration\n- Production experience with GitLab CI/CD and AWS (EC2, S3, SQS) or GCP (GKE/Compute)\n- SQL/NoSQL expertise (Postgres, MongoDB) and solid system design fundamentals\n\n**Nice-to-Have Skills:**\n\n- End-to-end type-safe APIs (tRPC, GraphQL codegen, OpenAPI-generated clients)\n- Monorepo tooling (Nx, Turborepo, pnpm workspaces)\n- Kubernetes at scale, Terraform\n- Kafka, BullMQ, or other queue/streaming systems\n- AI/ML inference services experience (LLMs, vector databases, streaming responses)\n- Observability tools (Prometheus, Grafana, OpenTelemetry)\n\n**How We Hire** No take-home. No whiteboard trivia. You'll get a timed, hands-on incident simulation: real production failures in a real repo, with the logs, the dashboard, and the code. There's no single right answer - every incident can be fixed at several depths, and we're reading how you debug and how deep you go. Here's the link for you to get started on it - https://workat.learntube.ai/tech/typescript\n\n**The Team** Google's Top 20 Startups to Watch. Google AI First Accelerator '24. Backed by funds of Naval Ravikant, Reid Hoffman, and founders/CXOs from Udemy, Flipkart, Jupiter, PayU, Edmodo &amp; Inflection AI. Featured on CNBC-TV18. 11–50 people building something that changes how people learn, permanently.\n\n**Why work with us**: state-of-the-art generative AI on a backend you own. Full ownership from ideation to deployment. Direct access to founders and advisors, including the CTO of Inflection AI. Three years of growth packed into one, and Monday morning meetings you actually look forward to. Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 13.33,
+      "resume_variant": "backend",
+      "draft_answer": "Having reduced p95 API latency from 500ms to 10ms with Redis caching and guaranteed data delivery under high load using message brokers, I bring a hands-on approach to scaling backends that crunch events and the AI supporting them. My experience owning AKS deployments with ingress-nginx and CI/CD for zero-downtime blue-green releases directly aligns with shipping robust, containerized microservices and LLM agents.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-04T21:06:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.3,
+            "overlap": 14.57,
+            "combined": 12.98
+          },
+          "backend": {
+            "cosine": 12.6,
+            "overlap": 15.04,
+            "combined": 13.33
+          },
+          "frontend": {
+            "cosine": 9.93,
+            "overlap": 16.02,
+            "combined": 11.75
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 12.6,
+        "keyword_overlap_score": 15.04,
+        "final_score": 13.33,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2933
+          },
+          {
+            "term": "production",
+            "weight": 0.1308
+          },
+          {
+            "term": "backend",
+            "weight": 0.109
+          },
+          {
+            "term": "experience",
+            "weight": 0.109
+          },
+          {
+            "term": "apis",
+            "weight": 0.0654
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-04T21:07:13+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3b9fbda2ff46c1b3a65c75fca4969687",
+      "source": "wellfound",
+      "company": "LearnTube.ai (backed by Google)",
+      "role": "Senior Backend Engineer - JavaScript",
+      "url": "https://wellfound.com/jobs/4801970-senior-backend-engineer-fastapi-clone",
+      "jd_text": "In 2024, Google selected LearnTube for its AI First Accelerator, further fueling our growth. Alongside investment from funds of visionaries like Reid Hoffman and Naval Ravikant, we set out on a mission to reimagine how billions will learn and grow.\n\nWant to be the driving force behind our next wave of growth?\n\nAs a Senior Backend Engineer - JavaScript at LearnTube. ai you will ship the backbone that powers 4 million learners in 64 countries - owning APIs that crunch 1 billion learning events &amp; the AI that supports it with &lt;200 ms latency.\n\n**What You'll Do:**\n- Build and scale Node.js (TypeScript) microservices handling ~800 requests/second today, growing to 3x capacity within a year while holding sub-200ms p95 latency\n- Power the quiz-scoring and AI-tutor engines that process millions of learning events every day\n- Design scalable, secure backend systems using Postgres, MongoDB, Redis, and SQS\n- Write efficient, non-blocking async code and profile the event loop, memory, and throughput for low-latency workloads\n- Deploy containerized services via NGINX on AWS and GCP Kubernetes infrastructure\n- Own GitLab CI/CD pipelines that let us ship to production several times a week\n- Drive reliability toward 99.9% uptime with Prometheus and Grafana monitoring\n- Build LLM inference, streaming, and vector-search endpoints in collaboration with the AI team\n- Take features from design to production within two weeks\n\n**Must-Have Requirements:**\n\n- 4+ years of backend development in Node.js with TypeScript in production\n- Hands-on experience with a production framework such as NestJS, Express, or Fastify\n- Deep understanding of the event loop, async patterns, and Node.js performance tuning\n- Hands-on experience with Docker and container orchestration\n- Production experience with GitLab CI/CD and AWS (EC2, S3, SQS) or GCP (GKE/Compute)\n- SQL/NoSQL expertise (Postgres, MongoDB) and solid system design fundamentals\n- Experience designing REST/GraphQL APIs and event-driven / message-queue based architectures\n\n**Nice-to-Have Skills:**\n\n- Kubernetes at scale, Terraform\n- Kafka, BullMQ, or other queue/streaming systems\n- WebSockets or server-sent events for real-time features\n- AI/ML inference services experience (LLMs, vector databases, streaming responses)\n- Observability tools (Prometheus, Grafana, OpenTelemetry)\n\n**How We Hire** No take-home. No whiteboard trivia. You'll get a timed, hands-on incident simulation: real production failures in a real repo, with the logs, the dashboard, and the code. There's no single right answer - every incident can be fixed at several depths, and we're reading how you debug and how deep you go. Here's the link for you to get started on it - https://workat.learntube.ai/tech/javascript\n\n**The Team** Google's Top 20 Startups to Watch. Google AI First Accelerator '24. Backed by funds of Naval Ravikant, Reid Hoffman, and founders/CXOs from Udemy, Flipkart, Jupiter, PayU, Edmodo &amp; Inflection AI. Featured on CNBC-TV18. 11–50 people building something that changes how people learn, permanently.\n\n**Why work with us**: state-of-the-art generative AI on a backend you own. Full ownership from ideation to deployment. Direct access to founders and advisors, including the CTO of Inflection AI. Three years of growth packed into one, and Monday morning meetings you actually look forward to. Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 14.14,
+      "resume_variant": "backend",
+      "draft_answer": "I've owned full backend modules and APIs that cut fetch latency by 98% with Redis caching and implemented message brokers like RabbitMQ to guarantee data delivery under high load, which sounds critical for powering a platform crunching 1 billion learning events. My experience spans containerized microservices deployments with blue-green CI/CD for zero-downtime rollouts, to building and validating LLM tool-calling reliability, ensuring a fast design-to-production cycle for new features.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-04T21:06:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.82,
+            "overlap": 14.9,
+            "combined": 13.44
+          },
+          "backend": {
+            "cosine": 13.6,
+            "overlap": 15.41,
+            "combined": 14.14
+          },
+          "frontend": {
+            "cosine": 9.34,
+            "overlap": 16.5,
+            "combined": 11.49
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 13.6,
+        "keyword_overlap_score": 15.41,
+        "final_score": 14.14,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3207
+          },
+          {
+            "term": "production",
+            "weight": 0.143
+          },
+          {
+            "term": "backend",
+            "weight": 0.1192
+          },
+          {
+            "term": "experience",
+            "weight": 0.1192
+          },
+          {
+            "term": "javascript",
+            "weight": 0.0715
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-04T21:06:53+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "b945e99f01ff25e68a1d3972f73c1139",
       "source": "yc",
