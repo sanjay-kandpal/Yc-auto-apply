@@ -1,15 +1,471 @@
 {
-  "exported_at": "2026-10-05T04:13:40+00:00",
+  "exported_at": "2026-10-05T08:45:07+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 805,
-    "pending_approval": 196,
+    "discovered": 807,
+    "pending_approval": 200,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "507754c35fdb95ea25dedcc8b6cca2a4",
+      "source": "wellfound",
+      "company": "QuickSync",
+      "role": "Software Engineer (Django)",
+      "url": "https://wellfound.com/jobs/4809496-software-engineer-django",
+      "jd_text": "**Company Name: RAKT Innovation(QuickSync) **\n\n**Position: Software Developer** \n\n**Notice Period: Immediate to 30 days (Don't Apply if you have more than 30 days Notice) **\n\n**Location: Remote **\n\n**Job type: Permanent **\n\n**Salary Budget: Upto 8 LPA only (Don't apply if your expectations are more than 8 LPA) **\n\n**Note: Having own remote set-up is mandatory.** \n\n**LinkedIn Profile:** https://www.linkedin.com/company/thequickcompany/ \n\n**Company Website-** https://rakt.in/ &amp; https://quicksync.pro/\n\nOur flagship product, QuickSync (quicksync.pro), is growing rapidly across global e-commerce markets, with 1,000+ five-star reviews in just one year. We’re on a mission to make sellers’ lives simpler, faster, and more efficient. Join a team where your work has real impact, your growth matters, and you have the freedom to learn, experiment, and make a difference. We’re not just offering a job — we’re building something meaningful, and we want you to be part of it.\n\n**Experience 2–5 years**\n\nWe are looking for a mid-level backend developer who can work independently on integrations, understand existing systems and business logic, and take ownership of problems from investigation through implementation and resolution.\n\n**Key Responsibilities**\n\n* Understand and work with our existing Django/Python architecture, codebase, and business logic.\n* Design, develop, test, and maintain third-party API integrations and integration modules.\n* Work with APIs, authentication, webhooks, data synchronization, error handling, rate limits, retries, and other integration challenges.\n* Investigate and resolve issues reported by users or identified internally, with a focus on finding and fixing the root cause, not just the immediate symptom.\n* Build solutions that are secure, reliable, efficient, scalable, and maintainable.\n* Write clean, well-structured code and maintain appropriate documentation, tests, and code reviews.\n* Work closely with the core team to understand requirements, identify edge cases, and recommend practical technical solutions.\n* Identify opportunities to improve existing systems, integrations, performance, reliability, and development practices.\n\n**Required Qualifications**\n\n* 2–5 years of professional software development experience, with strong hands-on experience in Python and Django.\n* Strong experience working with REST APIs and third-party integrations.\n* Practical experience with API authentication, including OAuth and token-based authentication.\n* Experience working with webhooks, API rate limits, pagination, retries, error handling, and data synchronization.\n* Solid understanding of relational databases and ORMs, preferably Django ORM.\n* Experience integrating with at least one e-commerce platform or other complex third-party platform such as Shopify, Amazon, eBay, WooCommerce, etc.\n* Strong debugging and problem-solving skills, with the ability to independently investigate unfamiliar issues and identify root causes.\n* Good understanding of secure coding practices, authentication, authorization, and protection of sensitive data.\n* Ability to read and understand an existing codebase and work effectively within an established architecture.\n* Strong written and verbal communication skills.\n\n**Desired Qualifications**\n\n* Experience working with e-commerce workflows, including products, variants, inventory, orders, pricing, customers, and catalog structures.\n* Experience building or maintaining data synchronization systems between multiple platforms.\n* Familiarity with background jobs, queues, scheduled tasks, or asynchronous processing.\n* Experience working with cloud platforms, logging/monitoring tools, CI/CD, or production debugging.\n* Exposure to additional programming languages, frameworks, databases, or third-party platforms.\n* Experience improving existing systems rather than only developing new features from scratch.\n\n**What We Value Beyond technical skills, we value developers who:**\n\n* Take ownership instead of waiting for instructions.\n* Think about the actual problem and its root cause, not just the assigned task.\n* Are comfortable investigating and solving unfamiliar problems independently.\n* Ask the right questions before jumping into implementation.\n* Continuously learn and improve their technical skills.\n* Care about the quality and reliability of what they build.\n* Are willing to experiment, make mistakes, learn, and improve.\n* Communicate clearly and work well with the rest of the team. Delhi Delhi Delhi Cantonment Delhi Delhi Gate\nlocationNames: Delhi Delhi Delhi Cantonment Delhi Delhi Gate\nremote: true",
+      "match_score": 8.76,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-05T08:43:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.69,
+            "overlap": 13.58,
+            "combined": 8.75
+          },
+          "backend": {
+            "cosine": 6.49,
+            "overlap": 13.16,
+            "combined": 8.49
+          },
+          "frontend": {
+            "cosine": 5.98,
+            "overlap": 16.5,
+            "combined": 9.14
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.69,
+        "keyword_overlap_score": 13.58,
+        "final_score": 8.76,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1964
+          },
+          {
+            "term": "team",
+            "weight": 0.0809
+          },
+          {
+            "term": "data",
+            "weight": 0.0714
+          },
+          {
+            "term": "skills",
+            "weight": 0.0714
+          },
+          {
+            "term": "learn",
+            "weight": 0.0655
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ce6682f838238c865949c8b34b782635",
+      "source": "wellfound",
+      "company": "QuickSync",
+      "role": "Software Engineer (Django Developer)",
+      "url": "https://wellfound.com/jobs/4664466-software-engineer-django-developer",
+      "jd_text": "**Company Name: RAKT Innovation(QuickSync)**\n**Position: Software Developer**\n**Notice Period: Immediate to 30 days (Don't Apply if you have more than 30 days Notice)**\n**Location: Remote**\n**Job type: Permanent**\n**Salary Budget: Upto 8 LPA only (Don't apply if your expectations are more than 8 LPA)**\n**Note: Having own remote set-up is mandatory.**\n**LinkedIn Profile:** https://www.linkedin.com/company/thequickcompany/\n**Company Website-** https://rakt.in/ &amp; https://quicksync.pro/\n\nOur flagship product, QuickSync (quicksync.pro), is growing rapidly across global e-commerce markets, with 1,000+ five-star reviews in just one year. We’re on a mission to make sellers’ lives simpler, faster, and more efficient.\nJoin a team where your work has real impact, your growth matters, and you have the freedom to learn, experiment, and make a difference. We’re not just offering a job — we’re building something meaningful, and we want you to be part of it.\n\n**Experience**\n2–5 years\nWe are looking for a mid-level backend developer who can work independently on integrations, understand existing systems and business logic, and take ownership of problems from investigation through implementation and resolution.\n\n**Key Responsibilities**\n1. Understand and work with our existing Django/Python architecture, codebase, and business logic.\n2. Design, develop, test, and maintain third-party API integrations and integration modules.\n3. Work with APIs, authentication, webhooks, data synchronization, error handling, rate limits, retries, and other integration challenges.\n4. Investigate and resolve issues reported by users or identified internally, with a focus on finding and fixing the root cause, not just the immediate symptom.\n5. Build solutions that are secure, reliable, efficient, scalable, and maintainable.\n6. Write clean, well-structured code and maintain appropriate documentation, tests, and code reviews.\n7. Work closely with the core team to understand requirements, identify edge cases, and recommend practical technical solutions.\n8. Identify opportunities to improve existing systems, integrations, performance, reliability, and development practices.\n\n**Required Qualifications**\n1. 2–5 years of professional software development experience, with strong hands-on experience in Python and Django.\n2. Strong experience working with REST APIs and third-party integrations.\n3. Practical experience with API authentication, including OAuth and token-based authentication.\n4. Experience working with webhooks, API rate limits, pagination, retries, error handling, and data synchronization.\n5. Solid understanding of relational databases and ORMs, preferably Django ORM.\n6. Experience integrating with at least one e-commerce platform or other complex third-party platform such as Shopify, Amazon, eBay, WooCommerce, etc.\n7. Strong debugging and problem-solving skills, with the ability to independently investigate unfamiliar issues and identify root causes.\n8. Good understanding of secure coding practices, authentication, authorization, and protection of sensitive data.\n9. Ability to read and understand an existing codebase and work effectively within an established architecture.\n10. Strong written and verbal communication skills.\n\n**Desired Qualifications**\n1. Experience working with e-commerce workflows, including products, variants, inventory, orders, pricing, customers, and catalog structures.\n2. Experience building or maintaining data synchronization systems between multiple platforms.\n3. Familiarity with background jobs, queues, scheduled tasks, or asynchronous processing.\n4. Experience working with cloud platforms, logging/monitoring tools, CI/CD, or production debugging.\n5. Exposure to additional programming languages, frameworks, databases, or third-party platforms.\n6. Experience improving existing systems rather than only developing new features from scratch.\n\n**What We Value**\nBeyond technical skills, we value developers who:\n* Take ownership instead of waiting for instructions.\n* Think about the actual problem and its root cause, not just the assigned task.\n* Are comfortable investigating and solving unfamiliar problems independently.\n* Ask the right questions before jumping into implementation.\n* Continuously learn and improve their technical skills.\n* Care about the quality and reliability of what they build.\n* Are willing to experiment, make mistakes, learn, and improve.\n* Communicate clearly and work well with the rest of the team. India Gate\nlocationNames: India Gate\nremote: true",
+      "match_score": 9.04,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-05T08:43:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.09,
+            "overlap": 13.58,
+            "combined": 9.04
+          },
+          "backend": {
+            "cosine": 6.87,
+            "overlap": 13.16,
+            "combined": 8.76
+          },
+          "frontend": {
+            "cosine": 6.34,
+            "overlap": 16.5,
+            "combined": 9.39
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.09,
+        "keyword_overlap_score": 13.58,
+        "final_score": 9.04,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2082
+          },
+          {
+            "term": "team",
+            "weight": 0.0858
+          },
+          {
+            "term": "data",
+            "weight": 0.0757
+          },
+          {
+            "term": "skills",
+            "weight": 0.0757
+          },
+          {
+            "term": "learn",
+            "weight": 0.0695
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "027c0da288b8fa9c8df72b9526a90313",
+      "source": "wellfound",
+      "company": "Catalysts",
+      "role": "Security Engineer — Job Description",
+      "url": "https://wellfound.com/jobs/4809487-security-engineer-job-description",
+      "jd_text": "About the role\nNodGuard is a consent and data-protection platform built for India's Digital Personal Data Protection Act (DPDP). Catalysts is the company behind it. We are hiring a Security Engineer to set up security from the ground up and own it across both: the NodGuard platform on AWS, the DPDP breach and security features inside the product, and Catalysts' own systems and people.\nYou will be our first dedicated security person, so we are looking for someone who enjoys taking ownership, likes building things from scratch, and wants to grow with the company.\nWhat you will own\n•\tPlatform security. Harden NodGuard's AWS estate: IAM, network, encryption, key management, logging and alerting. Protect the data stores and keep every client's data isolated from every other's.\n•\tSecure releases. Put security gates into the build pipeline (dependency, secret and code scanning) so a risky change cannot ship.\n•\tDPDP breach features. Design how NodGuard detects, records and notifies personal-data breaches within the law's timelines, with tamper-evident evidence. Review every new feature for security before it ships.\n•\tIncident response. Be the incident commander. Write the plan, rehearse it, run it when needed, and write the report after.\n•\tCompany security. SSO and MFA everywhere, device encryption and patching, same-day offboarding, plain-language policies, and security training for the team.\n•\tCompliance. Map our controls to DPDP, the DPDP Rules and CERT-In directions. Drive NodGuard towards ISO 27001 and SOC 2. Answer client security questionnaires.\n•\tOwnership. Keep the security roadmap, report monthly on what is protected and what is not, and help developers build security into their everyday work.\nWhat you bring\n•\t4+ years in security, with real hands-on time in cloud security (AWS preferred) and application security.\n•\tYou have hardened a production cloud environment yourself: IAM policies, VPCs, KMS, CloudTrail, GuardDuty, WAF.\n•\tYou have found and fixed OWASP Top 10 issues, threat-modelled features, and set up scanning in a CI/CD pipeline. You can read TypeScript or Node.js well enough to review a pull request.\n•\tYou have handled at least one real security incident end to end.\n•\tYou know the DPDP Act and Rules: breach notification, the Data Protection Board, Consent Managers. You know CERT-In's six-hour incident reporting rule.\n•\tYou have worked against ISO 27001 or SOC 2 controls, ideally through an audit.\n•\tYou have set up SSO, MFA, device management and access reviews for a team.\n•\tYou write clearly. Your policies and runbooks are followed by people who are not security experts.\n•\tYou want ownership. You have worked somewhere small enough that you had to set things up from nothing.\nGood to have: experience with consent, ad-tech or martech platforms; mobile SDK and browser security; policy-as-code (OPA); ClickHouse or DynamoDB; SIEM and detection rules; answering enterprise security questionnaires in India.\nCertifications\nNo certification is mandatory. Please list any security, cloud or privacy certifications you have completed (for example AWS Security Specialty, CEH, OSCP, CISSP, CCSP, CIPP/E, ISO 27001) in your application; they count in your favour.\nDetails\n•\tTitle: Security Engineer\n•\tCompanies: NodGuard and Catalysts\n•\tReports to: Founder\n•\tLocation: On-site at the Catalysts office, full time in the office; this is not a remote or hybrid role. Occasional travel to client sites.\n•\tType: Full time\n•\tTeam: You are the first dedicated security hire and will work closely with the engineering team\nYou are joining early, which means real influence: the security practices you set up now become how the company works. You will have the founder's backing, a supportive engineering team, and room to grow into a leadership role as the team expands. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 10.44,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience owning end-to-end cloud deployments with automated TLS and blue-green releases in client Azure tenants, alongside building secure applications featuring robust authentication and ACID-compliant transactions, directly aligns with hardening the NodGuard platform on AWS and engineering its DPDP breach features. I'm keen to apply my track record of diagnosing production concurrency risks, implementing solutions like message brokers to prevent data loss, and improving API performance with caching, to setting up security from the ground up at Catalysts.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-05T08:43:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.09,
+            "overlap": 11.26,
+            "combined": 10.44
+          },
+          "backend": {
+            "cosine": 9.25,
+            "overlap": 10.9,
+            "combined": 9.75
+          },
+          "frontend": {
+            "cosine": 8.11,
+            "overlap": 12.62,
+            "combined": 9.46
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.09,
+        "keyword_overlap_score": 11.26,
+        "final_score": 10.44,
+        "top_keywords": [
+          {
+            "term": "security",
+            "weight": 0.5551
+          },
+          {
+            "term": "team",
+            "weight": 0.1646
+          },
+          {
+            "term": "data",
+            "weight": 0.1089
+          },
+          {
+            "term": "aws",
+            "weight": 0.0726
+          },
+          {
+            "term": "client",
+            "weight": 0.0545
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-05T08:45:05+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "08b38701a127dd04668ac696ef56c49d",
+      "source": "wellfound",
+      "company": "Cloudworx Technologies",
+      "role": "Backend Focused Fullstack Developer",
+      "url": "https://wellfound.com/jobs/4027565-backend-focused-fullstack-developer",
+      "jd_text": "We are a small, focused team building an industrial digital twin platform. A browser-based system that combines real-time IoT data, spatial models and AI into a single interface for managing complex facilities. We are looking for a backend-focused fullstack developer to work closely with the CEO and CTO and take ownership of our platform's backend architecture.\n\nTechnology-wise, we run a Node.js, Express, MongoDB and Redis core stack, with Neo4j, InfluxDB, Socket.IO and MQTT playing key roles as the platform grows. The frontend is React with a custom Three.js 3D visualization layer. You will build ingestion pipelines for factory-floor telemetry, graph models that let AI agents reason about physical spaces and pub/sub systems that push real-time sensor data to 3D browser visualizations.\n\n**What you will work on**\n* System architecture: Design backend services from scratch. Service boundaries, data flow, communication patterns and persistence strategies that hold up as we grow.\n* Real-time data pipelines. Ingest and route high-frequency IoT sensor streams using MQTT and deliver live updates to clients over Socket.IO.\n* Multi-database data modeling: Structure operational data in MongoDB, model facility and asset relationships in Neo4j, cache hot data in Redis and store time-series telemetry in InfluxDB, picking the right storage layer for each problem.\n* API development: Build RESTful and real-time APIs that serve the frontend, support AI agent interactions and stay clean enough for future third-party integrations.\n* Infrastructure. Containerize services, set up deployment pipelines and build in observability and fault tolerance early.\n* Frontend collaboration: You are backend-first, but when the 3D frontend needs a new data format, a better WebSocket protocol or a query optimization, you work with the frontend team to get it right.\n\n**Required experience**\n* Node.js and Express: Solid production experience. You have built beyond basic CRUD: custom middleware, streaming, worker threads, memory profiling and performance tuning.\n* MongoDB: Aggregation pipelines, thoughtful schema design (embedding vs referencing), indexing strategies and change streams.\n* Redis: Used as more than a simple cache. Pub/Sub, sorted sets, TTL strategies and ideally Redis Streams.\n* System design: You have architected at least one system from a blank slate, made the trade-offs and maintained it in production.\n* 3+ years of production Node.js experience.\n\n**Good to have**\n* Neo4j: Modeling interconnected systems as graphs, writing Cypher queries and knowing when a graph database is the right fit.\n* InfluxDB: Storing and querying high-cardinality time-series data, retention policies and downsampling.\n* Socket.IO: Room-based broadcasting, namespace isolation, reconnection handling and scaling across instances with the Redis adapter.\n* MQTT: QoS levels, topic hierarchies, retained messages and bridging broker data into your application layer.\n* DevOps familiarity: Docker, CI/CD, logging and monitoring. Comfortable getting your own services deployed and observable.\n\n**The basics**\n* On-site in Bengaluru. This is not a remote role.\n* Five full working days plus a half day on Saturday.\n\n**To apply**\n* Your GitHub or portfolio. Show us backend systems you have built.\n* Bonus: any experience with IoT, real-time data or industrial systems. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 18.12,
+      "resume_variant": "backend",
+      "draft_answer": "I have owned backend architecture and deployments for industrial reporting platforms, designing highly available, real-time systems with messaging brokers and advanced caching, aligning with the need for robust backend ownership and data pipelines for your digital twin platform. My experience architecting microservices with Node.js, Express, and MongoDB, alongside Redis implementations and DevOps practices like CI/CD, directly prepares me to take ownership of your core backend architecture and real-time data challenges.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-05T08:43:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 18.39,
+            "overlap": 16.56,
+            "combined": 17.84
+          },
+          "backend": {
+            "cosine": 18.95,
+            "overlap": 16.17,
+            "combined": 18.11
+          },
+          "frontend": {
+            "cosine": 17.11,
+            "overlap": 17.96,
+            "combined": 17.37
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 18.95,
+        "keyword_overlap_score": 16.17,
+        "final_score": 18.12,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.2557
+          },
+          {
+            "term": "time",
+            "weight": 0.1627
+          },
+          {
+            "term": "backend",
+            "weight": 0.1395
+          },
+          {
+            "term": "real",
+            "weight": 0.1162
+          },
+          {
+            "term": "redis",
+            "weight": 0.1162
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-05T08:44:26+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "84e1a50d1ad5713f354eca02361ab230",
+      "source": "wellfound",
+      "company": "Kalmus",
+      "role": "⚙️ Founding Backend & AI Systems Engineer",
+      "url": "https://wellfound.com/jobs/4808145-founding-backend-ai-systems-engineer",
+      "jd_text": "**About us**\n\nKalmus Labs is building Remora, an AI-native learning platform designed to transform books, documents, and information into interactive, adaptive experiences people genuinely want to spend time with.\n\nWe’re combining AI, education, storytelling, design, personality, and technology to create something that feels less like traditional software and more like an environment for learning, thinking, and discovery.\n\nWe’re still a small team. That means the people joining now are not stepping into a finished machine, they will help shape the product, the company, and the way people first discover and understand Remora.\n\n**About the role**\n\nWe’re looking for a backend engineer who can become one of the **technical builders of Remora**, not simply someone who waits for tickets and writes endpoints.\n\nRemora already has a substantial working backend, a live demo, PostgreSQL persistence, document processing, AI/RAG systems, telemetry, user accounts, conversations, translations, highlights, and other infrastructure.\n\nYou will not be starting from an empty repository.\n\nYour job will be to understand what already exists, improve it, challenge weak decisions when necessary, and help us build the next generation of the product on top of it.\n\nWe move quickly and use AI extensively in development. That means we do **not** need someone who treats AI-generated code as automatically correct, nor someone who refuses to use AI and spends days manually doing work that could take hours.\n\nWe need someone who can use AI as leverage while still being the engineer responsible for the result.\n\nThat means reading code critically, debugging difficult problems, reviewing architecture, catching bad assumptions, writing tests where they matter, and knowing when a quick solution is acceptable and when something needs to be designed properly.\n\nSome days you’ll be designing a new backend system.\n\nSome days you’ll be investigating why something that “should work” does not.\n\nSome days you’ll be reviewing an AI-generated implementation, finding three hidden problems, fixing them, and shipping it.\n\nWe care about **working systems, sound architecture, and speed of execution**.\n\n**What you’ll do**\n\n* Take significant ownership of Remora’s backend architecture and implementation.\n* Understand, maintain, and improve the existing Python backend rather than rebuilding everything unnecessarily.\n* Build and maintain APIs, services, data models, persistence layers, and background workflows.\n* Work with PostgreSQL, document storage, processing pipelines, and user/session data.\n* Build and improve AI-powered systems involving LLMs, context construction, RAG, retrieval, routing, structured outputs, and model integrations.\nHelp develop Remora’s Core Intelligence and future learning systems without turning LLM output directly into unverified product state.\nReview AI-generated and human-written code critically before it reaches production.\n* Debug backend failures across application code, database behavior, third-party APIs, infrastructure, and AI systems.\n* Improve reliability, error handling, observability, and performance.\n* Work with telemetry and monitoring systems such as New Relic.\n* Help maintain development, staging, and production environments.\n* Work with Render deployments, environment configuration, secrets, databases, and related infrastructure.\n* Design APIs and backend contracts that frontend and mobile developers can work against confidently.\n* Think through migrations, compatibility, failure modes, and edge cases rather than only the happy path.\n* Write tests where they meaningfully reduce risk and help prevent regressions.\n* Review existing architecture and tell us when something should be simplified, redesigned, or left alone.\n* Help establish backend engineering standards as the team and codebase grow.\n* Use AI extensively for implementation, debugging, research, testing, refactoring, and code review while remaining accountable for the final system.\n* Ship.\n\n**Our current backend includes**\n\nYou do not need previous experience with every part of this stack, but you should be comfortable learning and working across systems like:\n\n* Python\n* FastAPI\n* PostgreSQL\n* REST APIs\n* LLM APIs\n* RAG / retrieval systems\n* document ingestion and processing\n* S3-compatible storage\n* structured AI outputs\n* authentication and user data\n* Render\n* New Relic / telemetry\n* Git / GitHub\n* third-party API integrations\n\nThe architecture will continue evolving as Remora grows.\n\n**You might be a good fit if you:**\n\n* think in systems rather than only individual functions or tickets;\n* can enter an unfamiliar codebase and gradually form an accurate mental model of how it works;\n* are strong at debugging and enjoy figuring out why something is actually broken;\n* can distinguish a symptom from the underlying problem;\n* are comfortable making architectural decisions and explaining the tradeoffs behind them;\n* use AI aggressively to increase your output, but do not blindly trust what it generates;\n* can review code for correctness, maintainability, security, and architectural consistency;\n* are willing to rewrite AI-generated code when it is wrong instead of trying to defend it;\n* prefer shipping a good solution quickly over spending weeks polishing something that does not require it;\n* also understand when a shortcut would create serious technical debt later;\n* can take ownership of a feature or system with limited supervision;\n* ask questions when requirements are unclear rather than quietly inventing product behavior;\n* can challenge technical or product decisions when you think something is wrong;\n* communicate directly with frontend, product, design, QA, and the founder;\n* are comfortable with an early-stage codebase where some parts are mature and others are still evolving;\n* care about the product itself, not only the elegance of the code;\n* can work independently and consistently deliver.\n\nYou do not need ten years of experience or a famous company on your resume.\n\nWe care much more about **technical judgment, speed, ownership, debugging ability, architectural thinking, and what you can actually build**.\n\n**Bonus points if you have experience with**\n\n* AI-native products;\n* LLM applications;\n* RAG systems;\n* JEV\n* embeddings / vector search;\n* structured extraction from LLMs;\n* agent or tool-calling architectures;\n* model routing;\n* prompt / context architecture;\n* AI evaluation and observability;\n* PostgreSQL schema design;\n* async Python;\n* FastAPI;\n* cloud infrastructure;\n* Render / AWS / similar platforms;\n* object storage;\n* document processing;\n* queues / background jobs;\n* event-driven systems;\n* analytics / telemetry;\n* CI/CD;\n* performance optimization;\n* security and authentication;\n* designing systems that handle uncertain or probabilistic AI output;\n* taking an early-stage product from prototype toward production.\n\n**Work style**\n\n* Remote.\n* Approximately **15–20 hours per week** at the current stage.\n* **Highly flexible schedule** - work when it fits your life rather than following a fixed daily timetable.\n* Designed to be compatible with **university, another job, freelance work, or other commitments**.\n* We care much more about **ownership, communication, reliability, and consistent output** than about when during the day you work.\n* Small, highly collaborative team.\n* Direct communication with the founder and other engineers.\n* Fast iteration.\n* High technical ownership.\n* Significant freedom in how you solve problems.\n* Very little bureaucracy.\n*\nBecause this role owns critical infrastructure, we do expect reasonable responsiveness when something you own is blocked or broken. That does not mean sitting online all day; it means communicating clearly and not disappearing when the team depends on you.\n\nWe are looking for someone who wants to gradually become a major technical contributor to the company, not someone looking for a short freelance project.\n\n**Compensation**\n\n**Equity-first role - Pre-Seed stage**\n\nTarget equity: **~3%**  \n4-year vesting / 1-year cliff.\n\nWe want to be completely transparent: we do not currently have meaningful cash compensation available for this role, because this is a self-starting startup.\n\nThis is only a fit for someone who genuinely wants to help build a company from an early stage and is comfortable accepting real startup risk in exchange for meaningful ownership.\n\nThere are no guarantees in startups.\n\nThe goal, as Kalmus Labs grows, generates revenue, or raises funding, is to transition strong contributors into **paid long-term positions as soon as possible**.\n\nWe are not looking for someone who feels pressured to work for free. We are looking for someone for whom this particular risk/reward tradeoff genuinely makes sense alongside other work/school/personal commitments.\n\nFor the right person, this role can grow into significant technical ownership as the company expands.\n\n**How to apply**\n\n📩 Send us:\n\n* GitHub;\n* LinkedIn / resume / relevant profile;\n* anything meaningful you’ve built;\n* examples of backend, AI, infrastructure, open-source, startup, or personal projects;\n* and a few honest sentences answering:\n\n**You inherit an existing AI startup backend that was built quickly by several developers using AI-assisted coding. Some systems are solid, some are poorly documented, and some may contain architectural or reliability problems. What would you do during your first week?**\n\nSend to: **hr@kalmuslabs.com**\n\nPlease avoid AI-generated essays or generic corporate applications.\n\nUsing AI is not only fine - we expect strong candidates to know how to use it.\n\nBut we want to see **your technical judgment**. One clear paragraph showing how you think is worth far more to us than five pages of AI-written engineering language.\n\n🌐 **kalmuslabs.com** *(soon to be updated)* Miami\nlocationNames: Miami\nremote: true",
+      "match_score": 15.21,
+      "resume_variant": "backend",
+      "draft_answer": "I've owned core backend modules and improved system reliability and performance for a government reporting portal and a cloud-native compliance platform, including diagnosing tight coupling and integrating message brokers and caching to cut latency by 98%. My experience extends to designing microservices, implementing blue-green deployments with Kubernetes, and validating tool-calling reliability with local LLMs, all of which prepares me to understand and build upon an AI-native learning platform's existing Python backend.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-05T08:43:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.81,
+            "overlap": 23.51,
+            "combined": 13.92
+          },
+          "backend": {
+            "cosine": 11.09,
+            "overlap": 24.81,
+            "combined": 15.21
+          },
+          "frontend": {
+            "cosine": 5.51,
+            "overlap": 23.3,
+            "combined": 10.85
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 11.09,
+        "keyword_overlap_score": 24.81,
+        "final_score": 15.21,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3321
+          },
+          {
+            "term": "backend",
+            "weight": 0.1303
+          },
+          {
+            "term": "code",
+            "weight": 0.0869
+          },
+          {
+            "term": "technical",
+            "weight": 0.0869
+          },
+          {
+            "term": "architecture",
+            "weight": 0.0797
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-05T08:44:35+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b776177855a940d975366d1176f33b5f",
+      "source": "wellfound",
+      "company": "Chronon",
+      "role": "Founding Engineer",
+      "url": "https://wellfound.com/jobs/3305073-founding-engineer",
+      "jd_text": "Backend-Heavy Full Stack Engineer (3+ yrs): Chronon\n\nAbout Chronon\nChronon is an infrastructure product for Finance and Accounting. We work with enterprises and large organisations to build products that streamline finance and accounting. We are profitable with a Founding Engineering team in place which has built the stack, serving to enterprises in India. Looking for someone who can help us expant the stack to other geographies.\n\nWhat you'll do\n- Build and own backend services in Python/Flask on PostgreSQL. That includes APIs, data models, migrations and background jobs.\n- Work on the hard parts of fintech: wallet ledgers, card and bank reconciliation, payment reversals, idempotency and audit trails.\n- Build AI pipelines that pull data out of receipts and invoices, sort expenses into categories and catch duplicates.\n- Integrate with card issuers and ERPs such as MS Dynamics Business Central.\n- Ship the frontend for your features in React and TypeScript. Expect about 70% backend and 30% frontend.\n- Keep production healthy: query performance, monitoring with Sentry and Prometheus, deploys on AWS.\n\nWhat we're looking for\n- 3+ years building production backends in Python (Flask, Django or FastAPI).\n- Strong SQL and Postgres skills. You can spot an N+1 query, design a schema that holds up over time and write safe migrations.\n- Experience with REST APIs, auth (JWT), background jobs and third-party integrations.\n- Enough React and TypeScript to build a complete feature on your own.\n- You care about correctness. In this domain a ₹1 mismatch is a bug.\n- Comfortable with Docker, Git and basic AWS.\n\nNice to have\n- Fintech, payments or accounting experience (ledgers, reconciliation, double-entry).\n- Experience building with LLMs (Claude, OpenAI) or document extraction.\n- Startup experience where you owned features end to end.\n\nWhy join\n- Real ownership: you'll work directly with the founder on what to build and how.\n- A product with paying enterprise customers.\n- Modern AI-first work, not CRUD for its own sake. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 10.78,
+      "resume_variant": "frontend",
+      "draft_answer": "I've repeatedly optimized backend performance for enterprise reporting portals, cutting API latency by 98% with Redis and reducing data load times by 60% through storage migration, alongside building transaction-heavy platforms and data auto-tagging features. I've also built React front ends end-to-end and deployed microservices with Docker on Azure and AWS, making me eager to take ownership of new features and contribute to expanding your infrastructure globally.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-05T08:43:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.3,
+            "overlap": 9.93,
+            "combined": 9.49
+          },
+          "backend": {
+            "cosine": 8.79,
+            "overlap": 9.77,
+            "combined": 9.09
+          },
+          "frontend": {
+            "cosine": 9.99,
+            "overlap": 12.62,
+            "combined": 10.78
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 9.99,
+        "keyword_overlap_score": 12.62,
+        "final_score": 10.78,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1295
+          },
+          {
+            "term": "backend",
+            "weight": 0.0971
+          },
+          {
+            "term": "end",
+            "weight": 0.0792
+          },
+          {
+            "term": "frontend",
+            "weight": 0.0792
+          },
+          {
+            "term": "apis",
+            "weight": 0.0647
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-05T08:44:52+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "5389e87bccee786da6e1c2f69a624bd7",
       "source": "wellfound",
