@@ -1,15 +1,434 @@
 {
-  "exported_at": "2026-10-05T16:52:54+00:00",
+  "exported_at": "2026-10-05T19:11:17+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 807,
-    "pending_approval": 200,
+    "pending_approval": 204,
+    "discovered": 809,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "1462eba5ec9f084ccf3c8c352923456c",
+      "source": "wellfound",
+      "company": "Keka HR",
+      "role": "Senior Software Engineer",
+      "url": "https://wellfound.com/jobs/4809618-senior-software-engineer",
+      "jd_text": "# Senior Software Engineer\n\n**Location:** Hyderabad, India  \n**Experience:** 3 - 5 years  \n**Employment Type:** Full-time  \n\n\n## About Keka\n\nKeka is redefining how businesses manage their most valuable asset their people.\n\nWith **10,000+ companies** trusting our platform, Keka is one of the leading HR technology platforms serving businesses across India and globally. We are building an employee-centric product at significant scale, and we're looking for engineers who want to solve challenging problems, take ownership, and build systems that are designed to last.\n\n## About the Role\n\nWe are looking for a **Senior Software Engineer** to join one of our engineering squads as a hands-on Individual Contributor.\n\nYou will own features end-to-end from understanding requirements and designing solutions to writing production code, testing, deployment, monitoring, and supporting what you build.\n\nThis is a **full-stack engineering role with a strong backend focus**. You'll work on scalable SaaS systems involving APIs, databases, background workflows, distributed systems, and modern frontend applications.\n\nYou will work closely with Product, Design, and Lead Engineers to build reliable features and contribute to technical decisions within your squad.\n\n## What You'll Do\n\n- Own features and modules end-to-end from requirement understanding and design to development, release, and production support.\n- Build scalable backend services, APIs, data models, and background workflows.\n- Develop responsive and accessible frontend experiences using modern frontend frameworks.\n- Write clean, maintainable, well-tested production code.\n- Create low-level designs using strong object-oriented design principles and design patterns.\n- Design and optimize relational database schemas and queries.\n- Work with NoSQL databases, caching systems, queues, background jobs, and messaging systems where required.\n- Build and maintain reliable REST APIs and service integrations.\n- Troubleshoot production issues using logs, metrics, profiling, and monitoring tools.\n- Improve application performance, scalability, and reliability as usage grows.\n- Participate in code reviews, technical discussions, and design reviews.\n- Contribute to CI/CD and deployment practices.\n- Mentor junior engineers through pairing, code reviews, and technical guidance.\n- Identify and reduce technical debt while continuously improving the codebase.\n- Build POCs and evaluate new technologies when needed.\n\n## What We're Looking For\n\n- **3 - 5 years** of professional software engineering experience.\n- Strong hands-on experience with at least one modern **backend language and framework**.\n- Good understanding of **object-oriented programming, SOLID principles, design patterns, and low-level design**.\n- Experience building and maintaining **REST APIs and backend services**.\n- Strong experience with **relational databases, SQL, schema design, and query optimization**.\n- Experience with **JPA/Hibernate or equivalent ORM technologies** is a plus.\n- Hands-on experience with a modern frontend framework such as **React, Angular, or Vue**.\n- Familiarity with **NoSQL databases, caching, queues, background jobs, or messaging systems**.\n- Understanding of **testing, debugging, logging, monitoring, and performance optimization**.\n- Working knowledge of **cloud platforms, Git, CI/CD, and deployment practices**.\n- Good understanding of authentication, authorization, and secure handling of customer data.\n- Strong problem-solving and analytical skills.\n- Ability to work independently and collaborate effectively with Product, Design, and Engineering teams.\n- Bachelor's/Master's degree in Computer Science or equivalent practical experience.\n\n## Good to Have\n\n- Experience building **multi-tenant SaaS products**.\n- Experience with **microservices and event-driven architectures**.\n- Experience working with **high-throughput or distributed systems**.\n- Experience with **Kafka or other messaging platforms**.\n- Experience with **test-driven development**.\n- Experience working in both startup and larger engineering environments.\n- Open-source contributions, technical blogs, or conference/meetup talks.\n- Experience mentoring junior engineers.\n\n## Why Keka?\n\n### Build at Scale\nWork on a multi-tenant SaaS platform used by **10,000+ businesses** and millions of end users.\n\n### Solve Real Engineering Problems\nWork on distributed workflows, event-driven systems, scalable APIs, data models, performance optimization, and reliability.\n\n### Own What You Build\nYou won't just pick up tickets. You'll own features from **design → development → production → support**.\n\n### Engineer-First Culture\nEngineers have a strong voice in technical decisions, architecture, and how we build the product.\n\n### Grow as a Technical Leader\nYou'll work closely with experienced engineers, contribute to design discussions, mentor junior engineers, and progressively take ownership of larger technical problems.\n\n## What Sets This Role Apart\n\nWe're looking for engineers who care about **how software works in production**, not just how quickly a feature gets shipped.\n\nIf you enjoy solving complex problems, writing maintainable code, taking ownership, and building systems that need to work reliably at scale, we'd love to hear from you.\n\n**Come build the future of work with Keka.** Hyderabad Bangalore Urban Hyderabad Hyderabad\nlocationNames: Hyderabad Bangalore Urban Hyderabad Hyderabad",
+      "match_score": 12.89,
+      "resume_variant": "frontend",
+      "draft_answer": "I've built and owned end-to-end modules for a cloud-native compliance platform, onboarding 80+ client organizations and automating 90% of manual reporting workflows, which directly aligns with contributing to an employee-centric product trusted by 10,000+ companies on a multi-tenant SaaS platform. My experience in building systems designed to last includes integrating Redis to cut API fetch latency by 98%, migrating to Azure Blob Storage to reduce data load time by 60%, and deploying containerized applications on Azure for faster production adoption.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-05T19:10:17+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.95,
+            "overlap": 18.87,
+            "combined": 11.23
+          },
+          "backend": {
+            "cosine": 7.8,
+            "overlap": 19.17,
+            "combined": 11.21
+          },
+          "frontend": {
+            "cosine": 9.06,
+            "overlap": 21.84,
+            "combined": 12.89
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 9.06,
+        "keyword_overlap_score": 21.84,
+        "final_score": 12.89,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2078
+          },
+          {
+            "term": "technical",
+            "weight": 0.1108
+          },
+          {
+            "term": "end",
+            "weight": 0.0847
+          },
+          {
+            "term": "production",
+            "weight": 0.0831
+          },
+          {
+            "term": "apis",
+            "weight": 0.0693
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-05T19:10:58+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3591258aa71e0c0b7096cbbfdedbc01b",
+      "source": "wellfound",
+      "company": "Historiq",
+      "role": "Senior Software Engineer",
+      "url": "https://wellfound.com/jobs/4809687-senior-software-engineer",
+      "jd_text": "# Senior Software Engineer\n\n## About Historiq\n\nHistoriq’s mission is to get history out of boxes and help cultural heritage professionals make a bigger impact at their organizations.\n\nWe work with archives, libraries, museums, and other organizations responsible for historical collections to bring more of their physical and digital materials into view. Our work combines archival expertise, digitization, and purpose-built technology to modernize how collections are arranged, described, managed, and discovered.\n\nHistoriq includes both archivist-led services and Historiq Una, our collections management platform. Across both, our goal is the same: help the people who care for collections work more effectively and make more history accessible.\n\n## The role\n\nAs a Senior Software Engineer at Historiq, you’ll help design and build the products and systems that support our platform.\n\nThe role spans frontend, backend, data, and infrastructure work. You may build new product features, improve existing workflows, design APIs and data models, or work on systems for collaboration, media processing, desktop-to-cloud workflows, and long-running background processing.\n\nYou’ll work closely with the rest of the team to make practical technical decisions, improve the reliability and maintainability of our systems, and help shape how we build software as Historiq grows.\n\n## What you'll do\n\n- Build and ship product features across frontend and backend systems.\n- Design and maintain APIs, services, data models, and database migrations.\n- Develop web experiences for digitization, archival processing, collaboration, and publishing.\n- Build and improve real-time, multi-user product experiences.\n- Design and maintain background jobs and asynchronous workflows for long-running and computationally intensive work.\n- Improve systems that coordinate retries, failures, progress, and state across distributed workflows.\n- Work on large-file, image, and media-processing systems.\n- Contribute to desktop software that connects local digitization workflows with our cloud platform.\n- Integrate AI capabilities into product workflows where they are useful and reliable.\n- Improve performance, reliability, security, testing, and observability.\n- Investigate production issues across system boundaries and own problems through resolution.\n- Review code and technical designs and contribute to engineering standards and practices.\n- Mentor other engineers and help improve the way the team designs, builds, and operates software.\n\n## Our technology\n\nWe work with a modern full-stack environment centered around Python, TypeScript, React, PostgreSQL, and cloud infrastructure.\n\nA significant part of our product is built around rich, interactive web applications, including collaborative editing, real-time updates, complex client-side state, and workflows that span the browser and backend.\n\nOur backend systems include APIs, relational databases, background job processing, and workflow orchestration for asynchronous and long-running work. We also build systems for large-file and image processing, desktop-to-cloud workflows, and AI-assisted document processing.\n\nYou do not need prior experience with every technology we use. We care more about strong engineering fundamentals and the ability to learn unfamiliar systems.\n\n## What we're looking for\n\n- Significant experience building and operating production software, typically 5+ years or equivalent experience.\n- Strong proficiency in at least one modern programming language and comfort working across different parts of the stack.\n- Experience designing backend APIs and data models for production applications.\n- Strong SQL and relational database fundamentals.\n- Experience building modern web applications, especially interactive product experiences with complex client-side behavior.\n- Experience with asynchronous or distributed systems, including background processing, retries, failure handling, and long-running workflows.\n- Familiarity with cloud infrastructure, containers, and production deployment environments.\n- Strong testing and debugging habits across frontend, backend, and integration boundaries.\n- A security-conscious approach to authentication, authorization, credentials, and customer data.\n- Ability to take a loosely defined problem and turn it into a clear, reliable implementation.\n- Good judgment about technical tradeoffs and when to simplify, refactor, or introduce new infrastructure.\n- Clear written and verbal communication.\n- Comfort working in a small team where engineers contribute across multiple parts of the product.\n\n## Helpful experience\n\nExperience in any of these areas is useful, but not required:\n\n- Rich text editors, collaborative applications, or other complex interactive interfaces.\n- Real-time web applications.\n- Image, video, PDF, or media-processing systems.\n- Large-file upload and storage systems.\n- Background jobs, task queues, workflow engines, or distributed processing.\n- Desktop or cross-platform applications.\n- AI/LLM systems, OCR, transcription, or computer vision.\n- Digital asset management, digitization, archives, libraries, museums, or cultural heritage software.\n- Cloud platforms and containerized applications.\n- Early-stage product development.\n\n## How we work\n\nWe build iteratively and directly with the people who use our products, including archivists and other cultural heritage professionals. Their workflows and feedback shape what we build and how we improve it.\n\nWe work very collaboratively across a largely remote team, with cross-functional collaboration at every level of the company.\n\nWe care deeply about the problems we are solving and the impact we want to have: helping make more historical materials physically and digitally accessible, with richer description produced far more quickly. We value accountability and teamwork in service of that mission. Haverhill\nlocationNames: Haverhill\nremote: true",
+      "match_score": 11.16,
+      "resume_variant": "backend",
+      "draft_answer": "My experience building FastAPI backends for cloud-native compliance platforms, including implementing RabbitMQ for reliable asynchronous workflows and integrating Redis caching to cut API fetch latency by 98%, directly applies to architecting scalable backend systems for Historiq's collections management platform. Having also owned Azure AKS deployments with blue-green releases and integrated AI capabilities for tool-calling reliability, I'm ready to contribute to improving the systems that help cultural heritage professionals make historical materials accessible.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-05T19:10:17+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.48,
+            "overlap": 17.88,
+            "combined": 11.3
+          },
+          "backend": {
+            "cosine": 8.53,
+            "overlap": 17.29,
+            "combined": 11.16
+          },
+          "frontend": {
+            "cosine": 7.64,
+            "overlap": 19.42,
+            "combined": 11.17
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 8.53,
+        "keyword_overlap_score": 17.29,
+        "final_score": 11.16,
+        "top_keywords": [
+          {
+            "term": "workflows",
+            "weight": 0.1326
+          },
+          {
+            "term": "experience",
+            "weight": 0.1061
+          },
+          {
+            "term": "applications",
+            "weight": 0.0928
+          },
+          {
+            "term": "backend",
+            "weight": 0.0795
+          },
+          {
+            "term": "cloud",
+            "weight": 0.0795
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-05T19:11:15+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8a9d47d63bc412b263e12251aa676f41",
+      "source": "wellfound",
+      "company": "Fastr Pay",
+      "role": "Protocol Engineer",
+      "url": "https://wellfound.com/jobs/3484401-protocol-engineer",
+      "jd_text": "Protocol development - Equity until - hot mode MVP prototype\n* Full stack development.min 2 years [react,node,CRUD api development]\n* Basic wallet integration experience with stablecoins and blockchain-native tokens\n* Smart contract development exp - solidity, rust (anyone, but mandatory)\n* Able to implement swap or general message passing bridging features\n* Should be able to work on core DLT frameworks like forked codebase, and make modifications.\n\n\nnote - Applicants should possess real time experience. Github/OSS contributions are mandatory.\n\nPS - Huge upside for a lending-liquidity pool project, penetrating into huge stablecoin market.\nFounding engineer after investment as you will be the owner of stack. Warsaw Remote\nlocationNames: Warsaw Remote\nremote: true",
+      "match_score": 4.55,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-05T19:10:17+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.75,
+            "overlap": 4.97,
+            "combined": 4.11
+          },
+          "backend": {
+            "cosine": 3.06,
+            "overlap": 4.89,
+            "combined": 3.61
+          },
+          "frontend": {
+            "cosine": 4.0,
+            "overlap": 5.83,
+            "combined": 4.55
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 4.0,
+        "keyword_overlap_score": 5.83,
+        "final_score": 4.55,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1022
+          },
+          {
+            "term": "experience",
+            "weight": 0.1022
+          },
+          {
+            "term": "api",
+            "weight": 0.0511
+          },
+          {
+            "term": "core",
+            "weight": 0.0511
+          },
+          {
+            "term": "github",
+            "weight": 0.0511
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "631f5ad1bdf5d04e0cce8e333e4ac3cd",
+      "source": "wellfound",
+      "company": "CodeSuite",
+      "role": "Technical Closer | Onsite | CodeSuite",
+      "url": "https://wellfound.com/jobs/4809693-technical-closer-onsite-codesuite",
+      "jd_text": "**Technical Closer | Onsite | CodeSuite**\n\nCompany: CodeSuite\nRole: Technical Closer / Technical Sales Lead\nWork Mode: Onsite\nFocus Areas: AI/ML, Python, React, Node.js, Next.js, DevOps\n\n**About CodeSuite**\n\nCodeSuite is a software development company building modern, scalable products for clients worldwide. We specialize in AI/ML solutions, full-stack web development, and cloud/DevOps engineering. We're growing our client-facing team and looking for a sharp technical closer who can turn conversations into signed projects.\n\n**About the Role**\n\nWe're looking for a Technical Closer who can speak confidently with US clients, understand their technical requirements, and own the journey from first call to final delivery. You are the bridge between the client and our engineering team: someone who can discuss architecture in the morning and close a deal in the afternoon.\n\n**Key Responsibilities**\n\n* Lead sales calls and discovery meetings with US-based clients\n* Understand client requirements and translate them into clear technical scopes, timelines, and proposals\n* Confidently discuss solutions involving AI/ML, Python, React, Node.js, Next.js, and DevOps\n* Negotiate and close deals from initial contact to signed agreement\n* Stay involved through project delivery, ensuring smooth handoff to engineering and ongoing client satisfaction\n* Manage client relationships and communication throughout the project lifecycle\n* Collaborate with developers and project managers on estimates and delivery plans\n* Maintain pipeline and follow-ups, and report on conversion progress\n\n**Required Skills and Qualifications**\n\n* Excellent spoken and written English with a clear, professional accent\nStrong technical understanding of: **AI/ML concepts and applications\nPython, React, Node.js, and Next.js**\n* DevOps (CI/CD, cloud deployment, infrastructure)\n* Proven experience in direct client communication, from closing to delivery\n* Track record of delivering multiple client projects end to end\n* Confident, persuasive communicator with strong negotiation skills\n* Ability to work onsite at our office\n\n**Nice to Have**\n\nExperience on freelance platforms or with international agency clients\nBackground as a developer who moved into a client-facing or sales role\nExperience writing proposals, scopes of work, and estimates\n\n**How to Apply**\n\nPlease include answers to the following with your application:\n\nDo you have strong English communication skills along with technical skills?\nHow many years of experience do you have with direct client communication, from closing to delivery?\nHow many projects have you delivered to clients where you handled everything from closing to delivery?\nVideo submission (required): Share a Loom recording of a one-to-one client conversation if you have one. Otherwise, send a 4-5 minute intro video explaining your experience, the projects you've worked on, and your roles and responsibilities.\n\n**Send your resume and video to: zargham@codesuite.org\nOr DM your resume directly.** Lahore\nlocationNames: Lahore",
+      "match_score": 15.37,
+      "resume_variant": "frontend",
+      "draft_answer": "I've built end-to-end React and Next.js portals, scoped requirements, and onboarded 80+ client organizations to cloud-native platforms, including developing serverless systems with facial-analysis auto-tagging, relevant to CodeSuite's full-stack and AI/ML solutions. My work also includes optimizing API fetch latency by 98% through Redis integration and cutting data load times by 60% by migrating to Azure Blob Storage, directly improving perceived UI responsiveness and enabling faster deployment of modern, scalable products.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-05T19:10:17+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 15.44,
+            "overlap": 10.6,
+            "combined": 13.99
+          },
+          "backend": {
+            "cosine": 13.19,
+            "overlap": 9.77,
+            "combined": 12.17
+          },
+          "frontend": {
+            "cosine": 16.76,
+            "overlap": 12.14,
+            "combined": 15.37
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 16.76,
+        "keyword_overlap_score": 12.14,
+        "final_score": 15.37,
+        "top_keywords": [
+          {
+            "term": "client",
+            "weight": 0.2313
+          },
+          {
+            "term": "technical",
+            "weight": 0.2313
+          },
+          {
+            "term": "js",
+            "weight": 0.1388
+          },
+          {
+            "term": "experience",
+            "weight": 0.1156
+          },
+          {
+            "term": "devops",
+            "weight": 0.0925
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-05T19:10:43+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d6d31f53fff8c7d3e1fffa1e310d7fd1",
+      "source": "wellfound",
+      "company": "Verifast AI",
+      "role": "Software Developer- Full Stack",
+      "url": "https://wellfound.com/jobs/4389226-software-developer-full-stack",
+      "jd_text": "Location: Bangalore (On-site)\nType: Full-time\nExperience: 1-3 years\n\n### About Verifast\nVerifast was started in 2023 by Utkarsh Trivedi and Tanmay Sethi, bringing Gen AI to Direct-to-Consumer (D2C) commerce.  Today we power the conversation layer for over 250 global brands — across every form of customer interaction, across categories and channels — and drive measurable outcomes for them. Our Voice of Customer product is among the most advanced in the industry.\nWe may not carry a billion-dollar valuation, but we are the unicorns of the startup world: profitable and growing healthily for 18 straight months, and now scaling toward seven figures ARR. \nWe offer high growth and high equity. The team runs on a 6-month appraisal cycle and shares 10% of quarterly profit based on performance, alongside a genuinely lucrative outcome-driven incentive policy. \nThe idea is simple- we are growing very fast, and we want our team to share in the ride.\n\n### About the Person\nThe majority of the code inside the team is written by AI tools. So, we are very specific about the type of team member we are looking for. In addition to the bunch of skills that we need, mentioned below, we look for these attributes- \n* High agency for the outcome and failures\n* Ability to think three steps beyond what is being done today\n* Ability to think independent of LLMs and get them executed via LLM\n* Comfort switching between tasks, we experiment constantly\n* It’s a high intensity environment, so not the ideal place if you are looking for a relaxed role.\n\n### About the Role\nWe are looking for a Full-Stack Engineer who is genuinely excited about how systems are designed and architected - not just writing features, but understanding how services communicate, how data flows, and how to build software that scales.\nYou will work across the stack using Python and Node.js services on the backend, React and Next.js on the frontend, within a microservices architecture backed by relational and document databases, caching, and distributed messaging.\nThis role is ideal for someone with strong fundamentals who wants to grow as a systems thinker - someone who asks how the whole system fits together and wants to learn how to design it.\nOwnership is central to this role. You will build and maintain features end-to-end, from design to deployment and production health.\n\n### What You Will Do\n* Own and build features end-to-end: design, build, ship, and maintain them in production.\n* Build and maintain backend services in Python and Node.js.\n* Develop frontend applications using React and Next.js.\n* Design and consume REST/JSON APIs between services.\n* Work within a microservices environment, including service boundaries, communication patterns, and failure handling.\n* Participate in system design discussions, read existing designs, ask sharp questions, and propose improvements as you grow.\n\n### Skills Required\n**Core Must-Have Skills**\n* Python: comfortable building services and writing clean, idiomatic code.\n* Node.js: backend development with JavaScript or TypeScript.\n* React.js: building interactive UIs with modern React.\n* SQL: data modeling and querying in both document and relational databases.\n* Git and collaborative workflows including branches, pull requests, and code reviews.\n* Solid grasp of HTTP, REST APIs, and JSON.\n* Experience of working with Coding Agents\n\n**Systems &amp; Architecture Focus**\n* Microservices: understanding how to break a system into services and how they communicate.\n* Distributed systems fundamentals: scalability, concurrency, messaging, consistency, and fault tolerance.\n* Redis: caching strategies, key design, and pub/sub.\n* A real interest in system design and architecture, including thinking through trade-offs rather than only writing code that works.\n\n**Nice-to-Have Skills**\n* TypeScript across frontend and backend.\n* Experience with message queues or pub/sub systems such as Redis, Kafka, or RabbitMQ.\n* WebSockets or other real-time communication.\n* Cloud experience with GCP,  including deployments, storage, serverless functions, logging, or monitoring.\n* Containers with Docker and basic CI/CD.\n* Exposure to AI, LLM, or RAG systems.\n* Shopify App Development\n\n### What We Value\n* Curiosity about architecture and the reasons behind system design decisions.\n* Methodical debugging and the ability to trace problems across services.\n* Clear communication and a collaborative, ownership-driven mindset.\n* Eagerness to learn, especially because distributed systems are hard and mentorship will be provided.\n\n### What We Provide\n* Full ownership of the features and systems you work on.\n* Best-in-class AI coding tools and developer tooling to help you ship faster and learn quicker.\n* An AI-first engineering environment where strong use of AI tools is expected.\n* Mentorship and real system design exposure as you grow.\n* Performance linked incentives and bonus and appraisal.\n\n**Hiring Process**\nScreening is followed by a couple of assignment/discussion rounds and a 3-day paid stint working with the team, so both sides can see how you fit. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 16.55,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently owned end-to-end feature delivery for Python/React microservices, demonstrating a systems-first approach by integrating Redis caching and RabbitMQ to optimize performance and guarantee delivery, which directly applies to building the scalable conversation layer for D2C commerce. My practical experience validating LLM tool-calling reliability and owning Azure deployments with CI/CD excites me to contribute to your Voice of Customer product within an AI-first engineering environment.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-05T19:10:17+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 14.42,
+            "overlap": 21.52,
+            "combined": 16.55
+          },
+          "backend": {
+            "cosine": 13.09,
+            "overlap": 21.43,
+            "combined": 15.59
+          },
+          "frontend": {
+            "cosine": 13.24,
+            "overlap": 23.79,
+            "combined": 16.4
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 14.42,
+        "keyword_overlap_score": 21.52,
+        "final_score": 16.55,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.138
+          },
+          {
+            "term": "ai",
+            "weight": 0.1341
+          },
+          {
+            "term": "js",
+            "weight": 0.1096
+          },
+          {
+            "term": "architecture",
+            "weight": 0.0894
+          },
+          {
+            "term": "end",
+            "weight": 0.0894
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-05T19:10:30+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b9fdd0b730635352074ddee9d70833c9",
+      "source": "wellfound",
+      "company": "BookLeaf Publishing",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/4201315-full-stack-developer",
+      "jd_text": "**THE ROLE**\nWe’re looking for a Full-Stack Developer who can take ownership of our entire technology stack—from our customer-facing author dashboard and internal operations tools to the AI-powered automations and integrations that keep our publishing engine running. You won’t just write code; you’ll architect systems, make technical decisions, and directly shape how thousands of authors experience BookLeaf.\nThis role sits at the intersection of product engineering and AI integration. You’ll work on everything from building and improving web applications to setting up intelligent workflows using AI APIs and automation platforms.\n\n**WHAT YOU’LL DO**\n* Build &amp; Scale Web Applications: Design, develop, and maintain our author-facing dashboard, internal tools, and operations software. Take features from concept to production.\n* AI &amp; LLM Integration: Integrate AI capabilities into our products and workflows—connecting platforms like OpenAI, building intelligent automations, managing API keys, and ensuring reliable AI-powered features in production.\n* Automation &amp; Workflow Engineering: Design and manage automation pipelines using tools like n8n, connecting databases, APIs, payment systems, and third-party services into seamless workflows.\n* API Development &amp; Integration: Build and consume RESTful APIs, integrate third-party services (payment gateways, print APIs, distribution platforms), and ensure robust data flow across systems.\n* Database &amp; Infrastructure: Manage databases, optimize queries, handle deployments, and ensure our systems are performant, secure, and scalable.\n* Technical Leadership: Evaluate architecture decisions, recommend tools and frameworks, mentor junior developers, and establish best practices for code quality and documentation.\n* Cross-Functional Collaboration: Work closely with the founding team to translate business requirements into technical solutions. Communicate technical trade-offs clearly to non-technical stakeholders.\n\n**WHAT WE’RE LOOKING FOR**\n* Strong full-stack development experience with proficiency in both frontend (React, Next.js, or similar) and backend (Node.js, Python, or similar) technologies.\n* Hands-on experience with AI/ML integration: working with LLM APIs (OpenAI, Anthropic, etc.), building AI-powered features, prompt engineering, and understanding how to reliably deploy AI in production applications.\n* Experience with automation platforms such as n8n, Make, or Zapier—including building complex multi-step workflows, handling error scenarios, and connecting to external APIs.\n* Solid understanding of databases (SQL and/or NoSQL), API design (REST, webhooks), authentication systems, and cloud infrastructure.\n* Demonstrated ability to own projects end to end: from scoping and architecture through deployment and monitoring.\n* Familiarity with Bubble (or willingness to learn it quickly): Our entire operations currently run on Bubble, and while we’re planning a long-term migration to a fully code-based platform, you’ll need to maintain, improve, and build on the existing Bubble dashboard in the interim. Prior Bubble experience is ideal, but we’re equally open to someone who can pick it up fast.\n* Excellent problem-solving skills and a track record of building systems that are clean, maintainable, and well-documented.\n* Strong communication skills: ability to articulate technical concepts to non-technical team members and collaborate effectively in a startup environment.\n \n**BONUS POINTS**\nExperience with payment gateway integrations (Razorpay, Stripe).\nFamiliarity with e-commerce platforms (Shopify) and print-on-demand workflows.\nExperience with DevOps practices: CI/CD, containerization, VPS management.\nUnderstanding of publishing, media, or content industry workflows.\nPrior experience in a startup where you wore multiple hats. Delhi\nlocationNames: Delhi",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-05T19:10:17+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "507754c35fdb95ea25dedcc8b6cca2a4",
       "source": "wellfound",
