@@ -1,15 +1,243 @@
 {
-  "exported_at": "2026-10-06T01:11:54+00:00",
+  "exported_at": "2026-10-06T08:47:53+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 204,
-    "discovered": 809,
+    "discovered": 811,
+    "pending_approval": 205,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "ecb28d31829a2022bdab5c9f42b3a3d8",
+      "source": "wellfound",
+      "company": "cardboard.ai",
+      "role": "Backend Engineer",
+      "url": "https://wellfound.com/jobs/4787199-backend-engineer",
+      "jd_text": "## **About**\n\n- We're building the future of storytelling and video editing.\n- We're a small team that moves fast and builds things we're proud of.\n- We care obsessively about taste: in design, in product, in every detail.\n- We're solving [these](https://docs.google.com/document/d/1msvjI0iKo6CG9HMN5Z5vxKpwsU4IxXQl-O4yCwJnq5A/edit?usp=sharing) hard problems.\n- We're backed by a Tier-1 global fund, YC, and founders of billion dollar companies.\n\n## **Engineering**\n\nVideo is the most powerful way humans tell stories. It always has been. But creating it today is still painfully hard. Fragmented tools, steep learning curves, and workflows that get in the way of the actual creative work. We're building Cardboard to change that.\n\nCardboard runs a real video editor in the browser, backed by a serious cloud media pipeline and an AI agent that actually understands footage. We’re hiring a Fullstack Engineer who can own a feature from the pixel a user clicks all the way down to the service that renders it. You move up and down the stack without flinching, and you ship things that work.\n\nYou’ll be working alongside a team of engineers who all care deeply about craft, including the founders. You like owning problems end to end, and you’d rather ship something great this week than something perfect next quarter\n\n \n## **What you'll actually do**\n\n- Own backend systems for exports, proxies, media preprocessing, analysis, and agent-powered editing.\n- Maintain the APIs and state contracts between the browser, workers, storage, and database.\n- Improve long-running media workflows: uploads, exports, processing jobs, progress, and recovery.\n- Keep the backend simple enough to operate as projects, files, and usage grow.\n- Solve [these](https://docs.google.com/document/d/1msvjI0iKo6CG9HMN5Z5vxKpwsU4IxXQl-O4yCwJnq5A/edit?usp=sharing) hard problems.\n\n## **Who you are**\n\n- You've owned production backend systems and kept them healthy as the product changed.\n- You think clearly about state, queues, workers, files, and the contracts between them.\n- You can turn product goals like faster exports or instant-feeling uploads into a practical backend plan.\n- You care about media: formats, codecs, model output, processing time, and the final quality users see.\n- You're language-flexible. TypeScript, Go, Rust, Python: you'll use whatever fits the problem.\n- Bonus: deep FFmpeg or GStreamer experience, or codec internals knowledge across formats like ProRes, H.264/H.265, BRAW, R3D, DNx, and others.\n\n## **What you get**\n\nYou'd be surrounded by people who are absurdly good at what they do. One started coding at 11 and shipped an app with 6M+ downloads in high school. One got into CS engineering at 14 and has been working on distributed systems for 8+ years. One's an ex-founder who took a company to 1.2M users and $300M+ in transactions. That's the team. We're looking for someone who'll raise the bar on technical craftsmanship and creative product quality. Apart from that you'd get:\n\n- Competitive salary and founding-team equity.\n- Unlimited tokens across every AI model. Use whatever you want, as much as you want.\n- A healthy budget for AI tools and any peripherals you need to do your best work.\n Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 8.77,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-06T08:47:35+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.14,
+            "overlap": 12.58,
+            "combined": 8.77
+          },
+          "backend": {
+            "cosine": 7.08,
+            "overlap": 11.65,
+            "combined": 8.45
+          },
+          "frontend": {
+            "cosine": 6.92,
+            "overlap": 15.53,
+            "combined": 9.51
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.14,
+        "keyword_overlap_score": 12.58,
+        "final_score": 8.77,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1534
+          },
+          {
+            "term": "backend",
+            "weight": 0.1269
+          },
+          {
+            "term": "ai",
+            "weight": 0.0931
+          },
+          {
+            "term": "problems",
+            "weight": 0.0761
+          },
+          {
+            "term": "agent",
+            "weight": 0.0621
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3ad74deb8c4292aee45fac139083e18e",
+      "source": "wellfound",
+      "company": "FOXO",
+      "role": "Web Developer",
+      "url": "https://wellfound.com/jobs/4810236-web-developer",
+      "jd_text": "**About the Role:**\nWe’re looking for a Web Developer with strong JavaScript and React.js skills and a good eye for design. You’ll build and optimise FOXO’s websites, landing pages, and web experiences while working with APIs, CRM integrations, WordPress, and AI tools. This is a hands-on role for someone who enjoys building fast, polished, and high-quality web experiences.\n\n**What You'll Do:**\n* Build and optimise responsive websites, landing pages, and web applications using React.js, JavaScript, HTML, and CSS.\n* Translate designs and Figma files into polished, production-ready web experiences.\n* Develop reusable frontend components and maintain clean, scalable code.\n* Improve website performance, responsiveness, SEO, accessibility, and overall UX.\n* Work with REST APIs and third-party services to build seamless web integrations.\n* Integrate and manage workflows across websites, CRMs, analytics platforms, and other business tools.\n* Build, customise, and maintain WordPress websites, themes, templates, and plugins.\n* Work with backend systems and APIs to support web and business workflows.\n* Use AI tools and LLMs to accelerate development and build useful internal or customer-facing tools.\n* Troubleshoot technical issues and continuously improve existing web experiences.\n* Work closely with Product, Design, Growth, and Engineering teams to ship high-quality web experiences.\n\n**What We're Looking For:**\n* 2–4 years of experience in web development or frontend engineering.\n* Strong hands-on experience with JavaScript and React.js.\n* Excellent understanding of HTML, CSS, responsive design, and frontend fundamentals.\n* Strong ability to build and optimise webpages from design to production.\n* Good understanding of REST APIs and third-party integrations.\n* Working experience with WordPress.\n* Decent backend understanding and ability to work with APIs, CRM flows, and integrations.\n* Strong debugging and problem-solving skills.\n* Good understanding of modern AI tools and their practical application in development.\n* Comfortable working in a fast-paced, early-stage environment.\n\n**What Will Make You Stand Out:**\n* Strong design sense and attention to visual detail.\n* Very strong JavaScript and frontend fundamentals.\n* Experience building high-quality marketing websites, landing pages, and conversion-focused experiences.\n* Experience integrating websites with CRMs, analytics, payment platforms, or other third-party systems.\n* Experience building AI-powered tools, automations, or workflows.\n* Comfortable using AI coding tools and LLM APIs.\n* Ability to work across frontend, APIs, integrations, and basic backend when required.\n* A strong portfolio or examples of websites/products you have built and shipped. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 9.13,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-06T08:47:35+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.29,
+            "overlap": 8.61,
+            "combined": 7.69
+          },
+          "backend": {
+            "cosine": 7.39,
+            "overlap": 9.02,
+            "combined": 7.88
+          },
+          "frontend": {
+            "cosine": 8.25,
+            "overlap": 11.17,
+            "combined": 9.13
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 8.25,
+        "keyword_overlap_score": 11.17,
+        "final_score": 9.13,
+        "top_keywords": [
+          {
+            "term": "apis",
+            "weight": 0.1359
+          },
+          {
+            "term": "tools",
+            "weight": 0.1359
+          },
+          {
+            "term": "frontend",
+            "weight": 0.1188
+          },
+          {
+            "term": "experience",
+            "weight": 0.1165
+          },
+          {
+            "term": "javascript",
+            "weight": 0.0777
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e3c2e8cd955f1f75bfd2f99849d293e9",
+      "source": "wellfound",
+      "company": "FOXO",
+      "role": "Backend Engineer (Python)",
+      "url": "https://wellfound.com/jobs/4383005-backend-engineer-python",
+      "jd_text": "**Backend Engineer (Python)**\n\n**Location** : Bangalore (Work From Office)\n\n**Experience** :  3–5 Years\n\n**Role Overview:**\n\nWe are looking for a Backend Engineer to build and scale the systems powering FOXO's products and AI-driven experiences. You will work closely with Product, AI, Frontend, and Design teams to develop reliable backend services, APIs, and data workflows that serve thousands of users.\n\nThis role is ideal for engineers who enjoy building products from the ground up, solving complex technical problems, and working in a fast-paced startup environment.\n\n**What You'll Do:**\n\n* Design, develop, and maintain backend services using Python and FastAPI.\n* Build scalable APIs and integrations that power web, mobile, and AI applications.\n* Collaborate with Product, AI, and Frontend teams to deliver customer-facing features.\n* Design and optimize database schemas, queries, and backend workflows.\n* Integrate third-party services, external APIs, and AI/LLM platforms.\n* Monitor application performance and troubleshoot production issues.\n* Write clean, maintainable, and well-tested code.\n* Participate in architecture discussions and contribute to technical decisions.\n* Continuously improve system reliability, scalability, and developer productivity.\n\n**What We're Looking For:**\n* 3–5 years of backend engineering experience.\n* Strong hands-on experience with Python and FastAPI.\n* Experience building and shipping production-grade APIs and backend services.\n* Solid understanding of REST APIs, authentication, and system design fundamentals.\n* Experience working with PostgreSQL, MySQL, or similar relational databases.\n* Familiarity with Redis, background jobs, queues, or caching systems.\n* Experience deploying and maintaining applications on AWS, GCP, or similar cloud platforms.\n* Strong debugging, problem-solving, and communication skills.\n* Ability to work independently and take ownership of features end-to-end.\n\n**Preferred Experience:**\n* Experience building AI-powered applications or integrating LLM APIs.\n* Familiarity with Docker and modern deployment workflows.\n* Exposure to event-driven architectures, message queues, or microservices.\n* Experience with monitoring and observability tools.\n* Startup experience and a strong ownership mindset.\n* Contributions to open-source projects or personal side projects.\n\n**What Success Looks Like:**\n* Reliable and scalable backend services running in production.\n* High-quality APIs that support product growth and customer needs.\n* Fast execution and ownership from design through deployment.\n* Continuous improvements in system performance, reliability, and developer efficiency.\n\n**Why Join FOXO:**\n* Build products at the intersection of AI, healthcare, and longevity.\n* Work directly with founders and experienced product leaders.\n* High ownership and opportunity to shape core systems.\n* Fast-paced environment with significant learning and growth opportunities.\n* Opportunity to work on AI-native products used by real customers. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 14.79,
+      "resume_variant": "backend",
+      "draft_answer": "As an engineer who built the FastAPI backend for a compliance platform onboarding 80+ clients, I've directly tackled production issues like diagnosing concurrency risks and cutting API latency by 98% with Redis caching while ensuring data integrity with RabbitMQ. My experience shipping robust backend services and integrating LLM tool-calling makes me ready to contribute to designing and scaling the AI-driven experiences for FOXO's products.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-06T08:47:35+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.11,
+            "overlap": 15.89,
+            "combined": 13.24
+          },
+          "backend": {
+            "cosine": 13.87,
+            "overlap": 16.92,
+            "combined": 14.79
+          },
+          "frontend": {
+            "cosine": 10.19,
+            "overlap": 18.93,
+            "combined": 12.81
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 13.87,
+        "keyword_overlap_score": 16.92,
+        "final_score": 14.79,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2365
+          },
+          {
+            "term": "ai",
+            "weight": 0.2314
+          },
+          {
+            "term": "backend",
+            "weight": 0.2129
+          },
+          {
+            "term": "apis",
+            "weight": 0.1656
+          },
+          {
+            "term": "python",
+            "weight": 0.0946
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-06T08:47:51+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "1462eba5ec9f084ccf3c8c352923456c",
       "source": "wellfound",
