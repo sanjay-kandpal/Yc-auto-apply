@@ -1,15 +1,284 @@
 {
-  "exported_at": "2026-10-06T11:05:33+00:00",
+  "exported_at": "2026-10-06T16:37:23+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 811,
+    "discovered": 816,
     "pending_approval": 205,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "9a94f996e6c9d2369f083b8821d91911",
+      "source": "wellfound",
+      "company": "Procedure Tech",
+      "role": "Full Stack Engineer (AI-Native)",
+      "url": "https://wellfound.com/jobs/4811765-full-stack-engineer-ai-native",
+      "jd_text": "Hey there!\n\nWe are seeking a curious developer to join our **Engineering team** at Procedure. We're a product development company established in early 2017. Before we dive into the job description, allow us to introduce ourselves.\n\nOur team is a mixed bag. Of the smart and the hard workers. Of the organised and slightly chaotic. Of the early risers and the burners of the midnight oil. We appreciate diversity and truly like having differing perspectives in the room.\n\nWe pride ourselves on being early adopters of the latest tools, libraries and frameworks while delivering business value all the time. People who work with us fall in love with their craft. We have changed the definition of \"work\" for them.\n\n**Here are some of our beliefs about work**\n* **Work is only 1 part of your life** and not your entire life. We treat it as such.\n* **Weekends are sacred** and not to be messed around with. You won't be asked to work on one.\n* **Commuting is a waste of time**. Working from home saves you additional time. Go crazy with it.\n* **Side gigs are welcome**. We believe there are multiple avenues to learn and grow. Why restrict it to only work?\n* **We pride ourselves on being early adopters of the latest tools**, libraries and frameworks while always delivering business value. People who work with us fall in love with their craft. We have changed the definition of \"work\" for them.\n\n**Apart from work, we continually invest in growing you as a professional and a human.**\n* **Extensive Boot Camp** - learn, regardless of your experience, about Data Structure and Algorithms, LLD, HLD, DevOps, frontend, backend and/or test engineering.\n* **Book club** - broaden your horizons by picking up a book every month and have fun doing so\n* **P1, The Half Yearly Tech Conference** - here's where we explore futuristic themes to keep you informed about what's happening in the tech space outside our office.\n* **Internal Projects** - where your craft, experiment and learning precede deadlines. Also, try out new technologies and domains.\n\n**Growth requires mentorship**\nWe believe choosing a mentor is more important than choosing a company. My co-founder, Braj, and I have over a decade of experience in our respective fields. I will be mentoring you to become a better engineer and a coder. Braj will help you with domain expertise, product thinking and problem-solving. When you chat with us, ask us how it has helped our ex-employees in their careers.\n\n**What's it like here**\nWe love debating over languages and frameworks and want someone who can bring their opinions to these discussions. We love reading/sharing articles, podcasts, tech essays. If you love tea or coffee, Marvel or DC, Peterson or Zizek, or even something eclectic, you will feel right at home. Continuous improvement is at the heart of everything we do at work &amp; outside.\n\n**This sounds good. But what exactly will you work on?**\nSince we are a service company, you will have the advantage of working on a wide gamut of problems, technology &amp; real world-wise. You will be involved in all stages of a product lifecycle. You'll never have to wonder why you are working on something because you'll always know it.\n\n**What are you currently working on?**\nWe carefully select our clients. This is to ensure we are always indexed well on challenging work. They include indie entrepreneurs, Series B/C funded startups and big corporates.\nSome of the sectors we are working on\n* Healthtech\n* Edtech\n* Insurtech\n* Sportstech\n* Fintech\nAnd much more!\n\n***Trust us - there's never a dull day at work.***\n\n**Here’s what we expect from you**\n1. **You love coding and think of it as a craft**. We wouldn't have it otherwise.\n2. You should have good experience in **AI-native full-stack**.\n3. **Frontend skills**:\nYou have a good knowledge of the basics of **Javascript/Typescript (frontend)** and\nYou have experience in creating modularised code in React. You know when to use HOCs, Hooks, Context and their trade-offs.\nYou can create a slick webpage using HTML and CSS alone.\n4. **Backend skills**:\nYou have a solid grasp of the basics of **Python or JavaScript/TypeScript.**\nYou’ve built and maintained REST APIs using frameworks like **Django/Django Rest Framework (Python) or Express/Fastify (Node.js)**.\nYou understand persistence and can work your way around Django ORM or any SQL/NoSQL store confidently.\n5. You can set up your stack on a cloud provider of your choice.\n6. You have a good understanding of SOLID principles — enough to know when these are useless.\n7. You aren't complacent about your skillset and have a hunger to learn more.\n8. You like to share your learnings with others.\n\nIf you have made it this far, I think we should have a chat. Apply now!\n-\n*P.S. We are expecting candidates who can join by this month; if you are an immediate joiner, apply here directly - https://procedure.keka.com/careers/jobdetails/126014 - and reach out to https://www.linkedin.com/in/adithya-k-people/ for prioritising your profile.* Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 9.12,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-06T16:37:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.95,
+            "overlap": 12.58,
+            "combined": 7.94
+          },
+          "backend": {
+            "cosine": 5.76,
+            "overlap": 12.41,
+            "combined": 7.75
+          },
+          "frontend": {
+            "cosine": 6.17,
+            "overlap": 16.02,
+            "combined": 9.12
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.17,
+        "keyword_overlap_score": 16.02,
+        "final_score": 9.12,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.0745
+          },
+          {
+            "term": "frontend",
+            "weight": 0.0683
+          },
+          {
+            "term": "time",
+            "weight": 0.0558
+          },
+          {
+            "term": "backend",
+            "weight": 0.0372
+          },
+          {
+            "term": "com",
+            "weight": 0.0372
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "62bbe76d89208528fec93b7e3af1dafb",
+      "source": "wellfound",
+      "company": "MaxHome.ai",
+      "role": "MLOps Engineer",
+      "url": "https://wellfound.com/jobs/4760754-mlops-engineer",
+      "jd_text": "MLOps Engineer\nMaxhome.ai · Bengaluru · Full-time · 3+ years\n\n**The role**\n* You're the first responder for production issues and the bridge between \"the system ran\" and \"the customer got the right answer.\"\n* This is a hands-on engineering role with a support mandate, not ticket routing. You'll spend your time reproducing real customer issues, finding the root cause, and shipping the fix yourself. Because the platform spans many document types and customer-specific rule sets, a large part of the job is judgment: deciding which of several plausible causes is the real one, and whether a fix generalizes or only patches one case.\n* You'll also be the team's memory — the person who spots that an issue has come back for the third time and pushes for a permanent fix instead of another manual correction. Over time you'll become one of the go-to people for how the platform actually behaves in production.\n**What you'll do**\n* Triage production issues — work from logs, alerts, and error reports to isolate where things went wrong, and reproduce issues locally.\n* Ship fixes — write and test Python changes, and get them through code review.\n* Support deployments — releases across test and production environments, plus database changes and environment issues.\n* Analyze error patterns — turn recurring issues into a prioritized list of improvements.\n* Document what you learn — keep runbooks and internal guides current.\n* What we're looking for\n* 3+ years in support engineering, production support, or a similar hands-on role at a product company\n* Strong Python — read unfamiliar code, trace a bug across modules, ship a tested fix\n* Solid debugging instincts: logs, stack traces, narrowing a problem to a specific input\n* SQL, Git, and CI/CD experience\n* Analytical rigor and comfort working under ambiguity\n* Ownership — you chase issues to resolution across team boundaries\n* \nBonus: AI/ML or LLM-based production systems · cloud platforms (GCP/AWS) · OCR or document processing · relational databases and migrations · data analysis with SQL/Pandas · US real estate, mortgage, or another regulated domain\n\n**Why join**\nYou'll work on production AI systems where getting the answer right actually matters.\nThe scope is wide for a support role — AI pipelines, cloud infrastructure, databases, and the customer issues that sit on top of them. It's a small team, so the role carries real visibility and your work reaches production quickly. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 9.87,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-06T16:37:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.14,
+            "overlap": 13.91,
+            "combined": 9.87
+          },
+          "backend": {
+            "cosine": 7.93,
+            "overlap": 13.91,
+            "combined": 9.73
+          },
+          "frontend": {
+            "cosine": 5.48,
+            "overlap": 13.59,
+            "combined": 7.91
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.14,
+        "keyword_overlap_score": 13.91,
+        "final_score": 9.87,
+        "top_keywords": [
+          {
+            "term": "production",
+            "weight": 0.2046
+          },
+          {
+            "term": "ai",
+            "weight": 0.1251
+          },
+          {
+            "term": "team",
+            "weight": 0.1159
+          },
+          {
+            "term": "real",
+            "weight": 0.1023
+          },
+          {
+            "term": "time",
+            "weight": 0.1023
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "dfabf69184678dcb1e87ce5d27b9dbcf",
+      "source": "wellfound",
+      "company": "FutureStrive",
+      "role": "AI Engineer",
+      "url": "https://wellfound.com/jobs/4809721-ai-engineer",
+      "jd_text": "The client is a global provider of professional software for the health, tax &amp; accounting, finance, legal, and compliance sectors. We're looking for an AI Engineer to design, build, evaluate, and ship enterprise Generative AI and agentic systems that go into production and get used. This is a high responsibility role. You'll own solutions end-to-end for a $7B+ company\n\nNOTE: We read a lot of AI-polished applications. Yes, AI is great (even this JD was made with the help of AI). However, what counts here is sitting across the table and talking through your own work, in your own words. We interview in person and we go deep. Built and understood real things? You'll enjoy it. Leaned on AI to speak for you? It won't hold up. \n\nWe believe in fair compensation: if you can walk the talk, you'll be rewarded.\n\nWhat you'll do:\n\n* Design and develop enterprise AI applications using LLMs and modern AI frameworks.\n* Build RAG, conversational AI, single-agent, multi-agent, and agentic workflow solutions.\n* Create agents, reusable Agent Skills, custom instructions, prompts, tools, and knowledge integrations.\n* Perform agent harness engineering, including orchestration, context, memory, state, tool permissions, retries, human approvals, and error recovery.\n* Develop agents using AWS Bedrock/AgentCore, Microsoft Copilot Studio, Azure OpenAI, OpenAI, Anthropic, or equivalent platforms.\n* Build orchestration and automation using LangGraph, Strands Agents, CrewAI, AutoGen, OpenAI Agents SDK, LangChain, n8n, Power Automate, or similar tools.\n* Design and integrate APIs, MCP servers, connectors, enterprise tools, and knowledge sources.\n* Use GitHub Copilot and OpenAI Codex for coding, debugging, testing, refactoring, code review, and documentation.\n* Apply prompt engineering, context engineering, model routing, caching, and token optimization.\n* Implement evaluation datasets, regression tests, guardrails, adversarial testing, hallucination mitigation, and responsible-AI controls.\n* Develop scalable APIs and backend services using Python and FastAPI.\n* Implement CI/CD, observability, tracing, monitoring, rollback, and AgentOps practices.\n* Apply security-by-design, including least privilege, secrets management, data protection, and safe tool execution.\n* Collaborate with business and technical teams to convert requirements into measurable AI solutions.\n\nYou're a strong fit if…\n\n* You're AI-native — you already build with LLMs and agents daily, and you know their limits, failure modes, and costs.\n* You've shipped things to production and can point to what you owned and what broke.\n* You know when not to reach for an LLM, and will use classical ML, statistics, or plain software when that's the better call.\n* You obsess over details and don't trust AI output you haven't verified yourself.\n* You're a strong core engineer, not just a framework user.\n\nYou're probably NOT a fit if…\n\n* You need constant direction before acting.\n* You let AI generate the work and sign off on it without going deep yourself.\n* Your experience is only coursework or demos that never went to production.\n\nSkills:\n\n* Strong programming skills in Python and experience with FastAPI or similar frameworks.\n* Hands-on experience with Generative AI, LLMs, prompt engineering, and context engineering.\n* Experience building RAG, agentic AI, multi-agent, and tool-using applications.\n* Experience creating agents, Agent Skills, custom instructions, agent tools, and reusable workflows.\n* Understanding of agent harness engineering, including orchestration, sessions, state, memory, context management, human-in-the-loop, and recovery.\n* Experience with AWS Bedrock/AgentCore, Microsoft Copilot Studio, Azure OpenAI, OpenAI, Anthropic, or equivalent platforms.\n* Experience with LangGraph, Strands Agents, CrewAI, AutoGen, OpenAI Agents SDK, LangChain, or similar frameworks.\n* Experience with workflow-automation tools such as n8n, Power Automate, or Logic Apps.\n* Experience with GitHub Copilot, OpenAI Codex, or equivalent AI-assisted development tools.\n* Knowledge of MCP, REST APIs, tool calling, connectors, and enterprise integrations.\n* Knowledge of vector databases, embeddings, semantic search, reranking, and RAG evaluation.\n* Experience with AI evaluation, guardrails, security testing, observability, and AgentOps.\n* Understanding of token optimization, model selection, caching, performance, and AI cost management.\n* Familiarity with Git, Docker, cloud platforms, infrastructure as code, and CI/CD.\n* Strong analytical, debugging, communication, and problem-solving skills.\n* \nExperience:\n\n* 1–3 years of hands-on experience building and shipping real AI/software systems in production. This is not a fresher role; you should have substantive, demonstrable work behind you (shipped systems, real users, real data). Chennai\nlocationNames: Chennai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-06T16:37:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "70a15b8d465603e79a7abb52f0bdf7a2",
+      "source": "wellfound",
+      "company": "Astonsys",
+      "role": "Zoho Developer",
+      "url": "https://wellfound.com/jobs/4811756-zoho-developer",
+      "jd_text": "We’re looking for a dedicated Zoho Developer with 1–3 years of experience to build, customize, and maintain solutions across the Zoho platform. You’ll work with business teams to improve processes and connect Zoho applications with third-party tools.\nResponsibilities\n- Customize and maintain Zoho CRM and Zoho Creator applications.\n- Write and troubleshoot Deluge scripts, custom functions, and workflows.\n- Build automations with Zoho Flow, webhooks, and other integration tools.\n- Integrate Zoho products with third-party platforms using APIs.\n- Gather requirements, recommend solutions, and document your work.\n- Test changes, resolve issues, and support ongoing platform improvements.\nRequired Skills and Experience\n- 1–3 years of hands-on Zoho development experience.\n- Experience with Zoho CRM and Zoho Creator.\n- Proficiency in Deluge scripting.\n- Experience with Zoho Flow, custom functions, and workflows.\n- Familiarity with API integrations, webhooks, and third-party integrations.\n- Strong problem-solving and communication skills.\nRole Details\n- Location: Pune, Maharashtra\n- Work arrangement: Full-time, office-based\n- Experience level: 1–3 years Pune\nlocationNames: Pune",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-06T16:37:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "815bcf92e62b3543bfe53ac4fb877e64",
+      "source": "wellfound",
+      "company": "Elovient Software Solutions",
+      "role": "Full-Stack Software Developer (Clone)",
+      "url": "https://wellfound.com/jobs/4811809-full-stack-software-developer-clone",
+      "jd_text": "**Role Overview**\nWe are seeking a Full-Stack Software Developer to join our engineering team and contribute to the design, development and maintenance of modern digital products. The ideal candidate should possess strong software engineering fundamentals, a problem-solving mindset and the ability to build scalable, high-quality applications across web and mobile platforms. This role is suited for\nindividuals who are passionate about technology, product development and delivering reliable software solutions in a fast-paced environment.\n\n**Key Responsibilities**\nThe selected candidate will be responsible for developing and maintaining frontend and backend applications, designing and consuming APIs, integrating third-party services and contributing to the overall architecture of software solutions. The role involves participating in the complete software development lifecycle, including requirement analysis, solution design, development, testing,\ndeployment and production support. The candidate will also be expected to contribute to application performance improvements, debugging, issueresolution and implementation of security best practices while ensuring adherence to coding standards and development processes.\n\n**Required Skills &amp; Qualifications**\n* Candidates should have 1–3+ years of experience in software development with strong proficiency in JavaScript, TypeScript, HTML and CSS.\n* Hands-on experience with React.js, Next.js and Node.js is required.\n* A solid understanding of RESTful APIs, database design and software engineering principles is essential.\n* Familiarity with relational and NoSQL databases such as PostgreSQL, MySQL and MongoDB is expected.\n* The ideal candidate should demonstrate strong analytical thinking, problem-solving capabilities, attention to detail and the ability to write clean, maintainable and scalable code.\n\n**Preferred Skills**\n* Experience with React Native or Flutter for mobile application development will be considered advantageous.\n* Experience with mobile application release and deployment on Google Play Store and Apple App Store will be considered advantageous.\n* Experience with React Native or Flutter, GraphQL, cloud platforms and containerization technologies such as Docker will be considered advantageous.\n* Familiarity with CI/CD pipelines, automated testing, monitoring tools and modern deployment practices is desirable. Exposure to system design concepts, performance optimization and production support environments will be viewed positively.\n\n**Compensation**\nCompensation will be aligned with industry standards and determined based on experience, technical expertise, project contributions, and interview performance. We are flexible for the right candidate and may consider compensation beyond the stated range based on skills, experience and overall fit for the role.\n\n**Note: Interested candidates are requested to share their resumes via email only. We kindly request that applications and inquiries not be sent through WhatsApp or Calls.** Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-06T16:37:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "ecb28d31829a2022bdab5c9f42b3a3d8",
       "source": "wellfound",
