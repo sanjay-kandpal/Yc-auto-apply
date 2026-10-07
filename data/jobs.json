@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-10-07T21:08:38+00:00",
+  "exported_at": "2026-10-07T22:56:50+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 830,
-    "pending_approval": 209,
+    "discovered": 831,
+    "pending_approval": 210,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "db17571c182e7d98f75ba631ecc0dbc5",
+      "source": "wellfound",
+      "company": "Digital Factory Inc.",
+      "role": "Quality Assurance Manager - REMOTE",
+      "url": "https://wellfound.com/jobs/4817875-quality-assurance-manager-remote",
+      "jd_text": "**NOTE: This is an equity-only, fractional opportunity. There is no salary or hourly compensation at this time.\n\nWe are looking for a proactive and detail-oriented Quality Assurance (QA) Manager to lead the software quality strategy, automated testing frameworks, and continuous delivery verification across our enterprise platforms. In this role, you will establish quality assurance standards, manage release verification cycles, and build robust automated test suites to ensure high availability, security, and performance across SaaS applications and internal systems. You will work closely with engineering, product management, and IT operations to resolve defect bottlenecks, enforce compliance, and streamline deployment workflows as we scale. This is an equity-only role, ideal for someone who thrives in fast-moving, high-growth environments.\n\n**What You’ll Do**\nDesign, implement, and govern robust QA and testing processes—including functional, regression, integration, API, and performance testing.\nEstablish clear quality metrics, SLA targets, defect severity classifications, and release criteria across internal platforms and external applications.\nLead test automation strategies, integrating continuous integration and continuous deployment (CI/CD) pipelines to catch regression and security flaws early.\nCollaborate with software engineering, IT support, and product teams to identify root causes of recurring software incidents and establish preventative controls.\nConduct training sessions and create centralized knowledge base documentation and test suites to standardize quality practices across departments.\nOversee pre-release security, access control, and user acceptance testing (UAT) for major system implementations and enterprise system updates.\nOther duties as assigned, etc.\n\n**What You Bring**\nBachelor’s degree in computer science, software engineering, or related field.\n3+ years of experience leading QA operations and software testing in a fast-paced environment (startup or high-growth company experience preferred).\nHands-on experience with modern automated testing frameworks (e.g., Selenium, Cypress, Playwright, Postman) and CI/CD platforms.\nStrong understanding of API integrations, cloud-based applications (SaaS/IaaS), and role-based security access protocols.\nPractical understanding of Agile/Scrum software development lifecycles and ITIL defect management methodologies.\nOutstanding analytical and communication skills, with a proven track record of collaborating across technical and non-technical teams to maintain high software reliability standards.\n \n\n**What You Get**\nEquity-based opportunity to build and lead the global talent engine at Digital Factory.\nStrategic seat at the table, shaping how we grow and who we bring into the business.\nPartnership with executive leadership on workforce design and scaling strategy.\nA creative, inclusive culture that values innovation, clarity, and purpose.\n \n**Compensation**\n**This is an equity-only, fractional opportunity. There is no salary or hourly compensation at this time.**\n\nAt Digital Factory, we’re committed to providing an environment of mutual respect where equal employment opportunities are available to all applicants and teammates without regard to race, color, religion, sex, sexual orientation, gender identity or expression, pregnancy, age, national origin, disability status, genetic information, protected veteran status, or any other characteristic protected by law. Digital Factory believes that diversity and inclusion among our teammates is critical to our success, and we seek to recruit, develop and retain the most talented people from a diverse candidate pool.\n\nDigital Factory is an Equal Opportunity Employer\n\n**APPLY TODAY:  https://dgtl-factory.com/careers Chicago Los Angeles\nlocationNames: Chicago Los Angeles\nremote: true",
+      "match_score": 7.49,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-07T22:56:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.74,
+            "overlap": 11.59,
+            "combined": 7.5
+          },
+          "backend": {
+            "cosine": 5.38,
+            "overlap": 11.28,
+            "combined": 7.15
+          },
+          "frontend": {
+            "cosine": 3.59,
+            "overlap": 13.11,
+            "combined": 6.44
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.74,
+        "keyword_overlap_score": 11.59,
+        "final_score": 7.49,
+        "top_keywords": [
+          {
+            "term": "testing",
+            "weight": 0.1536
+          },
+          {
+            "term": "high",
+            "weight": 0.1024
+          },
+          {
+            "term": "security",
+            "weight": 0.1024
+          },
+          {
+            "term": "based",
+            "weight": 0.0768
+          },
+          {
+            "term": "applications",
+            "weight": 0.0628
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6bd5bbb4aa16ee4a968085f239558103",
+      "source": "wellfound",
+      "company": "FalschParker",
+      "role": "Backend Engineer (Go + Postgres)",
+      "url": "https://wellfound.com/jobs/4546053-senior-infrastructure-engineer",
+      "jd_text": "## Who we are\n\nWe're a small, profitable company that's growing fast. We aren't burning VC money on a pitch deck. We have real users, real revenue, and real problems to solve. This isn't a cushy job. Pay is fair, benefits are modest, and sometimes something breaks on a Saturday morning and we fix it. If that sounds like a dealbreaker, it probably is, and that's fine.\n\n## The role\n\nYou'll be a backend engineer working mostly in Go, with a lot of agent-assisted development. You'll also take on the work that keeps a dev shop running: schema design, data modeling, debugging production issues, and figuring out what we need to build next and how it should be structured.\n\nThis role is meant to grow. We're looking for someone who can steadily take on more responsibility for the technical direction of the product. That includes architecture, data design, and steering where the software goes. If you want to own things, there's room to own a lot.\n\n## What actually matters\n\nYou know relational databases. You don't need to be a DBA, but you need to be fluent. You understand normalization, joins, indexes, and constraints. You can look at a slow query and figure out why it's slow. You know which tables an endpoint touches without guessing. If something goes wrong, your instinct is to open a SQL client and look, not to add more logging and hope.\n\nWe believe you can't be a good backend engineer without this. Your models, your API, and your data have to line up cleanly, and if the schema is wrong, everything built on top of it is wrong. Expect database questions in the interview. They won't be trick questions. They will be the first thing we filter on.\n\nYou've built real backend systems. Ideally that includes something in a typed, compiled language, and Go is a plus but not required. You've shipped things that real people used, and you've dealt with what happens after launch.\n\nYou have design judgment. AI agents can write code fast, so writing code is no longer the hard part. The hard part is knowing when the agent's output is the wrong abstraction, the wrong data model, or a problem waiting to happen in six months. We use agentic tools heavily, and we need someone who steers them, not someone who just accepts whatever they produce.\n\nSome front-end ability is a plus. You can find your way around React and TypeScript well enough to not be blocked.\n\n## Our stack\n\nBackend: Go (Fiber)\nDatabase: PostgreSQL\nMobile: React Native\nWeb: Next.js\nInfra: AWS\nDevelopment: heavily agent-assisted\n\n## Who you are\n\nYou learn things because you want to, not because a syllabus told you to. Your degree, if you have one, is the least interesting thing about you. We care much more about the weird project you built because you wanted to see if it could be done, the tool you made because nothing else did what you needed, or the rabbit hole you went down and came out of knowing something new.\n\nYou're comfortable with direct communication. We're blunt here. Feedback is specific, disagreements are out in the open, and nobody pretends a bad idea is a good one to be polite. Some people find that exhausting. Others find it a relief. We're hiring the second group.\n\n### This probably isn't for you if\n\nYour whole backend experience is Node/Express with MongoDB, and you've never designed a relational schema from scratch\nYou want to hand tickets to an AI and ship whatever it gives back\nYou're looking for a large-company role with a clear ladder, a big benefits package, and fixed hours\n\n### How to apply\n\nSkip the cover letter. Answer this one question instead, in your own words, in under 150 words:\n\nTell us about something you built for yourself that nobody asked you to build. What was it, and what broke along the way?\n\nWe read every answer. We can tell when it's AI-generated, and those applications are rejected without further review. A short, specific, honest answer will get much further than a polished essay. Zurich\nlocationNames: Zurich\nremote: true",
+      "match_score": 11.56,
+      "resume_variant": "backend",
+      "draft_answer": "At NeoStats, I cut API fetch latency by 98% (500ms to 10ms) by diagnosing redundant reads and integrating Redis, while also guaranteeing data delivery under high load by introducing RabbitMQ and ensuring ACID-compliant transactions within core backend modules. I'm keen to apply this hands-on experience, coupled with my approach to architecting microservices and steering development tools like LLMs, to build and own technical direction for a company solving real problems for real users.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-07T22:56:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.96,
+            "overlap": 12.91,
+            "combined": 10.84
+          },
+          "backend": {
+            "cosine": 10.88,
+            "overlap": 13.16,
+            "combined": 11.56
+          },
+          "frontend": {
+            "cosine": 9.23,
+            "overlap": 13.59,
+            "combined": 10.54
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 10.88,
+        "keyword_overlap_score": 13.16,
+        "final_score": 11.56,
+        "top_keywords": [
+          {
+            "term": "backend",
+            "weight": 0.1475
+          },
+          {
+            "term": "real",
+            "weight": 0.1229
+          },
+          {
+            "term": "built",
+            "weight": 0.0983
+          },
+          {
+            "term": "data",
+            "weight": 0.0983
+          },
+          {
+            "term": "agent",
+            "weight": 0.0902
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-07T22:56:49+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "26cc9d6272183199708eaa8f957fadd0",
       "source": "yc",
