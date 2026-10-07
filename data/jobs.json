@@ -1,15 +1,547 @@
 {
-  "exported_at": "2026-10-07T04:29:13+00:00",
+  "exported_at": "2026-10-07T08:24:59+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 816,
-    "pending_approval": 205,
+    "discovered": 821,
+    "pending_approval": 207,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "6fc3a1c7fdc8fdd4e5080a43858f6cfd",
+      "source": "wellfound",
+      "company": "Pairio",
+      "role": "Senior Swift Engineer (Full-Time)",
+      "url": "https://wellfound.com/jobs/4811721-senior-swift-engineer-full-time",
+      "jd_text": "Pairio is a native macOS app for real-time screen sharing, built for people who work together: founders, designers, developers, product people. Not another meeting tool, but a collaboration tool. You share your screen, your teammate draws on it, takes over your keyboard. One click to call, no link, no invite.\n\nWe use Pairio every day to build Pairio, so we feel every friction point ourselves. That keeps us focused on craft, speed, and the small details that matter. Pixel-perfect rendering. Sub-frame latency. Smooth animations. Crisp text at every resolution.\n\nWe have ambitious plans for where it goes next, and we need help getting there.\n\n**What you’ll work on**\n* Pixel-perfect screen sharing. Keeping text crisp across capture, encode, transport, and rendering while balancing quality, frame rate, and responsiveness on real-world connections\n* One-click calling. Making it feel instant: presence, signaling, WebRTC negotiation, and seamless audio/video setup\n* Drawing on screen and remote control. Live annotations, cursor sharing, keyboard and mouse input mapped precisely across machines\n* Privacy. App masking, encrypted connections, and making sure users always control what they share\n* Performance. Reducing latency at every layer so collaboration feels like sitting next to each other\n* Testing. We ship with confidence, not crossed fingers\n* The Swift app talks to a Rails backend. Bonus points if you’re comfortable on both sides\n\n**Who you are**\n* Deep experience building native macOS or iOS apps in Swift\n* You care about UX: how things feel, not just how they look\n* An eye for UI: smooth animations, crisp rendering, and pixel-perfect details\n* You’re excited about AI changing how we build software, and you still take pride in what you ship\n* You enjoy working in a small team where you own large parts of the product\n* You’re based in Europe. Remote is fine, but we value real overlap for pairing and quick conversations\n\n**The team**\nFour founders in Amsterdam with decades of experience building great products. We built a healthy, profitable business by making something useful. That’s it. No pitch decks, no runway anxiety, no permission needed.\n\nWe shape and build together, using Pairio every day to make Pairio better.\n\nInterested? Send us an email with a bit about yourself, what you’ve built, and why this interests you. We look forward to hearing from you. Amsterdam\nlocationNames: Amsterdam\nremote: true",
+      "match_score": 6.04,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-07T08:23:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.5,
+            "overlap": 7.95,
+            "combined": 5.54
+          },
+          "backend": {
+            "cosine": 4.43,
+            "overlap": 7.14,
+            "combined": 5.24
+          },
+          "frontend": {
+            "cosine": 4.89,
+            "overlap": 8.74,
+            "combined": 6.05
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 4.89,
+        "keyword_overlap_score": 8.74,
+        "final_score": 6.04,
+        "top_keywords": [
+          {
+            "term": "app",
+            "weight": 0.083
+          },
+          {
+            "term": "built",
+            "weight": 0.083
+          },
+          {
+            "term": "real",
+            "weight": 0.083
+          },
+          {
+            "term": "sharing",
+            "weight": 0.083
+          },
+          {
+            "term": "experience",
+            "weight": 0.0554
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "78b8c4c2685a88a5f71ff9560eca9bc8",
+      "source": "wellfound",
+      "company": "Steinn Labs",
+      "role": "React JS Developer",
+      "url": "https://wellfound.com/jobs/3026099-react-js-developer",
+      "jd_text": "**Technical Skills**\n• Strong proficiency in JavaScript, object model, DOM manipulation and event handlers, data \nstructures, algorithms, JSX, and Babel\n• Complete understanding of ReactJS and its main fundamentals like JSX, Virtual DOM, \ncomponent lifecycle, etc.\n• Preceding experience with ReactJS workflows like Flux, Redux, Create React App, data \nstructure libraries\n• Understanding of RESTful APIs/GraphQL, HTML/CSS, ES6 (variables and scoping, array \nmethods), code versioning tools like GIT, SVN, etc., popular frontend development tools, \nCI/CD tools, DevOps, performance testing frameworks like Mocha, Node + NPM\n\n**Role &amp; Responsibilities\nTechnical:**\n• Leverage the inbuilt React toolkit for creating frontend features\n• Create data visualization tools, libraries, and reusable code for prospects\n• Integrate designs and wireframes within the application code\n• Monitor interaction of users and convert them into insightful information\n• Write application interface code with JavaScript\n• Enhance application performance with constant monitoring\n• Translate wireframes and designs into good quality code\n• Optimize components to work seamlessly across different browsers and devices\n• Good understanding of CSS libraries, GIT, Sigma, Adobe XD etc.\n• Proper user information authentication\n• Develop responsive web-based UI\n\n**Non-Technical:**\n• Constant interaction with other developer teams and design team to discuss UI ideas\n• A thorough review of applications needs and interfacing elements\n• Follow proper documentation for changes in application and further update India\nlocationNames: India\nremote: true",
+      "match_score": 11.15,
+      "resume_variant": "frontend",
+      "draft_answer": "I've built React front ends end-to-end for client-facing compliance platforms, driving client-side UAT across diverse user groups and integrating designs with RESTful APIs to deliver responsive web UIs. I also have a proven track record enhancing application performance, cutting API fetch latency from 500ms to 10ms and data load times by over 50% via API optimization, in addition to implementing proper user information authentication.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-07T08:23:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.95,
+            "overlap": 9.93,
+            "combined": 9.25
+          },
+          "backend": {
+            "cosine": 7.52,
+            "overlap": 8.65,
+            "combined": 7.86
+          },
+          "frontend": {
+            "cosine": 10.31,
+            "overlap": 13.11,
+            "combined": 11.15
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.31,
+        "keyword_overlap_score": 13.11,
+        "final_score": 11.15,
+        "top_keywords": [
+          {
+            "term": "code",
+            "weight": 0.179
+          },
+          {
+            "term": "application",
+            "weight": 0.1432
+          },
+          {
+            "term": "tools",
+            "weight": 0.1432
+          },
+          {
+            "term": "ui",
+            "weight": 0.1082
+          },
+          {
+            "term": "data",
+            "weight": 0.1074
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-07T08:24:57+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "70e67bad5bf939151535a873be2f7fbc",
+      "source": "wellfound",
+      "company": "Steinn Labs",
+      "role": "Python Developer",
+      "url": "https://wellfound.com/jobs/3309567-python-developer",
+      "jd_text": "We are looking for a Python developer capable of writing APIs in a RESTful manner. The \nsuitable candidate for us will have excellent communication skills and meet the following \ncriteria - \n1. Candidates must have at least 3 years of experience in writing restful APIs with python \nand related frameworks like FastAPI or Django Rest Framework or Flask.\n2. Candidates must have good experience in building Chatbot using Google’s \nDialogflow.\n3. If the candidate has experience in Django Rest Framework then the candidate must \nbe familiar with the core concepts like classed based API View and Generic API \nViews, Serializers and Model Serializers, writing custom Permissions Classes and \nsignals. \n4. If the candidate has experience in FastAPI then the candidate must be familiar with \nthe core concepts like Requests, Responses, background tasks, router functions and \ndependencies. Additionally, candidates should have exposure to the python libraries \nlike Pydantic, Alembic for managing migrations &amp; ORM like SQLAlchemy. \n5. Candidates must have experience in writing Unit test cases. \n6. Candidates must have experience with libraries like Poetry for managing dependencies. \n7. Candidates must be capable of identifying edge cases for the functionality to be \ndeveloped. \n8. Candidates must have a good understanding of RDBMS concepts and should be able \nto design the database schemas and write the complex SQL queries. \n9. Candidates must have the ability to understand the business problem and accordingly \nsuggest the solution for the same. \n10. Candidates must have a good understanding of Object oriented programming \nwith Python. \n11. Candidates must have the knowledge to identify and deal with the database level \nconcurrency. \n\nOther good to have skills - \n1. Knowledge of Docker and docker-compose. \n2. Knowledge of Git and GitHub Actions. \n3. Exposure to event driven microservice Architecture using Apache Kafka\n4. Good to have exposure in cloud services like Google Cloud RUN, Google Kubernetes \nEngine, Google Secret Manager, Google Cloud Functions, Load Balancer, Cloud Bucket, \nVPN, VPC and such. Pune\nlocationNames: Pune\nremote: true",
+      "match_score": 6.79,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-07T08:23:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.7,
+            "overlap": 8.28,
+            "combined": 6.47
+          },
+          "backend": {
+            "cosine": 5.83,
+            "overlap": 9.02,
+            "combined": 6.78
+          },
+          "frontend": {
+            "cosine": 4.42,
+            "overlap": 9.71,
+            "combined": 6.01
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.83,
+        "keyword_overlap_score": 9.02,
+        "final_score": 6.79,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1498
+          },
+          {
+            "term": "python",
+            "weight": 0.1248
+          },
+          {
+            "term": "cloud",
+            "weight": 0.0999
+          },
+          {
+            "term": "database",
+            "weight": 0.0611
+          },
+          {
+            "term": "using",
+            "weight": 0.0611
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6ca8cc5c7429eaee065f4e62dcec0c7c",
+      "source": "wellfound",
+      "company": "Steinn Labs",
+      "role": "AgentCore Developer",
+      "url": "https://wellfound.com/jobs/4144370-agentcore-developer",
+      "jd_text": "## The Role\n\nWe are hiring an **AgentCore Developer** to build, deploy, and operate production AI agents on **Amazon Bedrock AgentCore**. You will own agent workloads end-to-end — from Runtime and Gateway configuration to Memory, Identity, and Observability — for client engagements that typically begin as a Proof Sprint and graduate into embedded retainers. This is a hands-on builder role for someone who has moved past prototypes and wants to run agents that serve real users under real SLAs.\n\n## What You’ll Do\n\nDesign and deploy agents on **AgentCore Runtime** (serverless microVM sessions, isolated execution, auto-scaling).\nBuild tool layers using **AgentCore Gateway** — wrapping Lambda functions, OpenAPI specs, and internal APIs into MCP-compatible tools.\nImplement **AgentCore Memory** for persistent, personalized agent context across sessions.\nConfigure **AgentCore Identity** for secure auth to AWS services and third-party systems (Okta, Entra, Cognito, Slack, Zoom).\nInstrument agents with **AgentCore Observability** (OpenTelemetry traces, dashboards, quality metrics) and integrate with our Magpie governance layer.\nUse the **AgentCore CLI** and **managed agent harness** for rapid iteration; drop into Strands-based code when custom orchestration is required.\nBuild multi-agent systems using **LangGraph, CrewAI, LlamaIndex, or Strands Agents** — framework choice driven by the problem, not ideology.\nShip Code Interpreter and Browser tool integrations for agents that execute code and drive web workflows.\nOwn the full lifecycle: prototype → evals → deployment → monitoring → iteration. No throwing work over a wall.\nWork directly with US clients during overlap hours — discovery, scoping, demos, and delivery.\n\n\n## Required Skills\n\n**3+ years** building production backend systems in Python (FastAPI or Django preferred).\n**Hands-on AgentCore experience** — Runtime, Gateway, and at least one of Memory/Identity/Observability in a deployed project.\nStrong working knowledge of at least one agent framework: **Strands, LangGraph, CrewAI, or LlamaIndex**.\nDeep familiarity with **MCP (Model Context Protocol)** — building servers, exposing tools, handling auth flows.\nAWS fluency: **Bedrock, Lambda, ECR, IAM, CloudWatch, CDK or Terraform**.\nPractical experience with **LLM evals** — building golden sets, measuring regression, defining quality gates.\nUnderstanding of agent failure modes: context window management, tool-call loops, hallucinated tool args, retry semantics.\nSolid grasp of containerization (Docker) and serverless deployment patterns.\n\n\n## Nice to Have\n\nExperience with **fine-tuned SLMs** (Qwen, Llama, Mistral) and self-hosted inference (vLLM, Ollama).\nPrior work on **HIPAA, SOC 2, or EU AI Act** compliant AI systems.\nContributions to agent frameworks or MCP ecosystem.\nExposure to **LangSmith, Langfuse**, or equivalent observability stacks.\nComfort with US client communication — discovery calls, written updates, live demos.\n\n\n## What We Offer\n\nDirect work on AgentCore deployments for named US enterprise and healthcare clients.\nOwnership of agent systems end-to-end — no ticket-shuffling, no design-by-committee.\nFast promotion path; senior engineers graduate into FDE lead and tech lead roles within 12–18 months.\nCompetitive compensation with performance-linked bonuses tied to client retention.\nHybrid work from our Pune office with flexible hours for US overlap.\nLearning budget for AWS certifications, conferences (re:Invent, AI Engineer Summit), and books.\n\n\n## How to Apply\n\nSend your resume + link to an agent system you built — GitHub repo, writeup, or short Loom walkthrough. We weigh what you’ve shipped more than where you’ve\n**Apply to:** shivanyshre@steinnlabs.com Pune\nlocationNames: Pune\nremote: true",
+      "match_score": 11.55,
+      "resume_variant": "fullstack",
+      "draft_answer": "As an engineer who designed and delivered full-stack production systems end-to-end using FastAPI, I've leveraged Docker and AKS for zero-downtime deployments while building and evaluating local AI agents to validate tool-calling reliability. My experience includes owning client engagements from UAT to onboarding, optimizing production systems for concurrency and latency with RabbitMQ and Redis, and deploying multi-cloud solutions, equipping me to quickly ramp up on AgentCore's memory, identity, and observability features.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-07T08:23:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.55,
+            "overlap": 16.23,
+            "combined": 11.55
+          },
+          "backend": {
+            "cosine": 8.9,
+            "overlap": 16.17,
+            "combined": 11.08
+          },
+          "frontend": {
+            "cosine": 7.8,
+            "overlap": 16.5,
+            "combined": 10.41
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.55,
+        "keyword_overlap_score": 16.23,
+        "final_score": 11.55,
+        "top_keywords": [
+          {
+            "term": "agent",
+            "weight": 0.2228
+          },
+          {
+            "term": "agents",
+            "weight": 0.1485
+          },
+          {
+            "term": "ai",
+            "weight": 0.099
+          },
+          {
+            "term": "end",
+            "weight": 0.099
+          },
+          {
+            "term": "tool",
+            "weight": 0.099
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-07T08:24:12+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "96aff95e6f1690fc7aff8f78e1583b0a",
+      "source": "wellfound",
+      "company": "Aiking Software Solutions",
+      "role": "Python Enginner",
+      "url": "https://wellfound.com/jobs/4814817-genai-llm-engineer-clone",
+      "jd_text": "# Python Engineer\n\n**Location:** Pune / Remote\n**Experience:** 0–2 Years\n\nWe are looking for a **Python Engineer** to build reliable backend services, APIs, automation, and AI-powered features for our products.\n\n### Responsibilities\n\n* Develop backend applications and REST APIs using Python\n* Build scalable and reliable services\n* Work with databases and data processing\n* Integrate third-party APIs and AI/LLM services\n* Develop automation and background jobs\n* Debug, test and improve application performance\n* Write clean, maintainable and reusable code\n* Work with frontend and AI/ML teams\n\n### Requirements\n\n* Strong Python fundamentals\n* FastAPI / Flask / Django\n* REST APIs\n* SQL and databases\n* Git/GitHub\n* Basic knowledge of Linux\n* Problem-solving and debugging skills\n\n### Good to Have\n\n* FastAPI\n* Docker\n* AWS/GCP\n* Redis / Celery\n* PostgreSQL\n* AI/LLM APIs\n* LangChain / LangGraph\n\n**Internship → Full-Time opportunity based on performance.** Pune Pune University Pune Pune Pune\nlocationNames: Pune Pune University Pune Pune Pune\nremote: true",
+      "match_score": 9.64,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-07T08:23:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.18,
+            "overlap": 9.6,
+            "combined": 9.31
+          },
+          "backend": {
+            "cosine": 9.74,
+            "overlap": 9.4,
+            "combined": 9.64
+          },
+          "frontend": {
+            "cosine": 6.16,
+            "overlap": 12.14,
+            "combined": 7.95
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 9.74,
+        "keyword_overlap_score": 9.4,
+        "final_score": 9.64,
+        "top_keywords": [
+          {
+            "term": "apis",
+            "weight": 0.1695
+          },
+          {
+            "term": "python",
+            "weight": 0.1695
+          },
+          {
+            "term": "ai",
+            "weight": 0.1659
+          },
+          {
+            "term": "llm",
+            "weight": 0.0829
+          },
+          {
+            "term": "backend",
+            "weight": 0.0678
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9a6bed4a1e656193bde8f581736f9345",
+      "source": "wellfound",
+      "company": "Aiking Software Solutions",
+      "role": "Data Analyst",
+      "url": "https://wellfound.com/jobs/4814815-genai-llm-engineer-clone",
+      "jd_text": "# Data Analyst\n\n**Location:** Pune / Remote\n**Experience:** 0–2 Years\n\nWe are looking for a **Data Analyst** who can turn raw data into clear insights and help the team make better business and product decisions.\n\n### Responsibilities\n\n* Analyze product, user, marketing and business data\n* Create dashboards and reports\n* Identify trends, patterns and problems\n* Track KPIs and product performance\n* Write SQL queries and work with databases\n* Clean, validate and organize data\n* Build reports using Excel/Google Sheets and BI tools\n* Work with product and business teams to support decisions\n* Convert data into clear, actionable recommendations\n\n### Requirements\n\n* SQL\n* Excel / Google Sheets\n* Basic statistics\n* Data visualization\n* Strong analytical and problem-solving skills\n* Ability to explain insights clearly\n* Good understanding of business metrics\n\n### Good to Have\n\n* Python\n* Power BI / Tableau\n* Google Analytics\n* Experience with SaaS or AI products\n\n**Internship → Full-Time opportunity based on performance.** Pune Pune University Pune Pune Pune\nlocationNames: Pune Pune University Pune Pune Pune\nremote: true",
+      "match_score": 6.84,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-07T08:23:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.79,
+            "overlap": 6.95,
+            "combined": 6.84
+          },
+          "backend": {
+            "cosine": 6.42,
+            "overlap": 6.02,
+            "combined": 6.3
+          },
+          "frontend": {
+            "cosine": 4.68,
+            "overlap": 8.25,
+            "combined": 5.75
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.79,
+        "keyword_overlap_score": 6.95,
+        "final_score": 6.84,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.2454
+          },
+          {
+            "term": "experience",
+            "weight": 0.0613
+          },
+          {
+            "term": "sql",
+            "weight": 0.0613
+          },
+          {
+            "term": "university",
+            "weight": 0.0613
+          },
+          {
+            "term": "responsibilities",
+            "weight": 0.0463
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "be03e6c203147f7748336d258e7d7d85",
+      "source": "wellfound",
+      "company": "Aiking Software Solutions",
+      "role": "GenAI / LLM Engineer",
+      "url": "https://wellfound.com/jobs/4814814-ai-ml-engineer-clone",
+      "jd_text": "### Responsibilities\n\n* Build and integrate **AI/ML and LLM-based features**\n* Work with **Gemini, OpenAI, Claude or similar models**\n* Develop AI agents, RAG pipelines and intelligent workflows\n* Work with embeddings, vector databases and knowledge bases\n* Build and evaluate prompts, models and AI outputs\n* Integrate AI APIs with **Next.js/Node.js** applications\n* Improve AI accuracy, reliability and performance\n* Monitor AI costs, latency and production performance\n\n### Requirements\n\n* Python\n* Machine Learning fundamentals\n* LLMs and Generative AI\n* REST APIs\n* Git/GitHub\n* Basic knowledge of RAG, embeddings and vector databases\n* Good problem-solving and analytical skills\n\n### Good to Have\n\n* LangChain / LangGraph\n* PyTorch / TensorFlow\n* Fine-tuning\n* AI Agents\n* AWS/GCP\n* Experience building production AI applications Pune Pune University Pune Pune Pune\nlocationNames: Pune Pune University Pune Pune Pune\nremote: true",
+      "match_score": 8.73,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-07T08:23:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.07,
+            "overlap": 7.95,
+            "combined": 8.73
+          },
+          "backend": {
+            "cosine": 8.9,
+            "overlap": 8.27,
+            "combined": 8.71
+          },
+          "frontend": {
+            "cosine": 5.72,
+            "overlap": 9.22,
+            "combined": 6.77
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.07,
+        "keyword_overlap_score": 7.95,
+        "final_score": 8.73,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3827
+          },
+          {
+            "term": "agents",
+            "weight": 0.085
+          },
+          {
+            "term": "llm",
+            "weight": 0.085
+          },
+          {
+            "term": "rag",
+            "weight": 0.085
+          },
+          {
+            "term": "apis",
+            "weight": 0.0695
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "9a94f996e6c9d2369f083b8821d91911",
       "source": "wellfound",
