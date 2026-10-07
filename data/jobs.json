@@ -1,15 +1,198 @@
 {
-  "exported_at": "2026-10-07T17:22:28+00:00",
+  "exported_at": "2026-10-07T21:08:38+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 827,
+    "discovered": 830,
     "pending_approval": 209,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "26cc9d6272183199708eaa8f957fadd0",
+      "source": "yc",
+      "company": "PRINCEPS",
+      "role": "Founding Engineer",
+      "url": "https://www.workatastartup.com/jobs/114920",
+      "jd_text": "You might be:\\\r\n\\- A product engineer at a breakout scaleup\\\r\n\\- A full-stack builder who's shipped with LLMs and agents\\\r\n\\- An ex-technical founder ready for the next rocket ship\\\r\n\\- 3–6 years in, or staff-level and still hungry\\\r\n\\\r\nOur only non-negotiable: you've built fast and shipped in scrappy environments! \\\r\n\\\r\n📍 London, 6 days in person, with potential relocation to San Francisco. London, England, GB fulltime none\nlocations: London, England, GB\nremote: no\nmin_experience: 1",
+      "match_score": 2.6,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-07T21:08:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.98,
+            "overlap": 3.64,
+            "combined": 2.48
+          },
+          "backend": {
+            "cosine": 1.66,
+            "overlap": 3.38,
+            "combined": 2.18
+          },
+          "frontend": {
+            "cosine": 2.05,
+            "overlap": 3.88,
+            "combined": 2.6
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 2.05,
+        "keyword_overlap_score": 3.88,
+        "final_score": 2.6,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1412
+          },
+          {
+            "term": "built",
+            "weight": 0.0706
+          },
+          {
+            "term": "technical",
+            "weight": 0.0706
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "96d8a4cae5ec91150a8e795d17a162fd",
+      "source": "yc",
+      "company": "Zettascale Computing",
+      "role": "Founding Silicon Engineer",
+      "url": "https://www.workatastartup.com/jobs/109821",
+      "jd_text": "## The Mission\n\n**Zettascale Computing is building the highest-performance, most energy-efficient AI chips for artificial superintelligence to accelerate discovery and further humanity's understanding of the universe.**\n\nWe are a high-agency, deeply technical, and intensely mission-driven founding team. We value first principles thinking, intellectual honesty, speed, and full ownership.\n\n## The Role\n\nBe part of a small team building Zettascale Computing's silicon efforts from FPGA prototype through tapeout and bring-up. You will set technical direction across architecture, RTL, verification, tooling, and timing closure, build the silicon team as the company grows, and partner closely with the PCB, interconnects, racks and pods, and software teams.\n\n## What You Will Build\n\n* Lead development and optimization of the FPGA prototype of our XPU\n* Design and review the RTL that becomes our first ASIC\n* Build the lint, simulation, synthesis, timing, and verification flows\n* Make architecture decisions across compute, memory, on-chip interconnect, and control\n* Drive the design to tapeout and bring-up\n\n## What You Bring\n\n* Strong digital design fundamentals, including RTL, pipelining, clocks, resets, latency, throughput, and clean microarchitecture\n* Hands-on FPGA experience taking real designs from RTL to a working board\n* Synthesizable SystemVerilog or Verilog you are proud of\n* Fluency with simulation, linting, synthesis, SDC constraints, timing closure, and CDC\n* Experience automating hardware flows with Python, Tcl, Make, Nix, or similar tools\n* Comfort designing compute datapaths and memory systems around bandwidth and latency\n* Experience with AI accelerators or low-level AI kernels\n* A proven autodidact\n\nTapeout experience, large FPGA prototypes, high-speed interface integration, formal verification, UVM, cocotb, firmware, drivers, and systems programming are strong advantages.\n\n## Expectations\n\n* This is a full-time, in-person role at our San Francisco HQ. It is not remote or hybrid\n* You move quickly, take broad ownership, and prefer working hardware over perfect specifications\n* We do not track hours. We care about output, quality, and throughput\n* Critical tapeout, bring-up, and delivery milestones sometimes require long days and weekends. We expect you to lean in when they do\n* You are ready to go all-in and do the work of your life\n\n## Compensation and Support\n\n* $200,000 to $300,000 base salary\n* 1.00% to 2.00% equity\n* Medical, dental, and vision coverage\n* 401(k), equipment, and gym support\n* Relocation assistance to San Francisco\n* Visa sponsorship where feasible San Francisco, CA, US jobs_skill 134 Tcl 0 jobs_skill 140 Verilog 5 jobs_skill 318 FPGAs 0 fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 4.21,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-07T21:08:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.03,
+            "overlap": 6.95,
+            "combined": 4.21
+          },
+          "backend": {
+            "cosine": 2.76,
+            "overlap": 6.39,
+            "combined": 3.85
+          },
+          "frontend": {
+            "cosine": 1.72,
+            "overlap": 6.8,
+            "combined": 3.25
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.03,
+        "keyword_overlap_score": 6.95,
+        "final_score": 4.21,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1149
+          },
+          {
+            "term": "experience",
+            "weight": 0.1014
+          },
+          {
+            "term": "ai",
+            "weight": 0.0931
+          },
+          {
+            "term": "architecture",
+            "weight": 0.062
+          },
+          {
+            "term": "hardware",
+            "weight": 0.062
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c49752124fc146294fd2ad54bfedf75b",
+      "source": "yc",
+      "company": "David AI",
+      "role": "Head of Quality Operations",
+      "url": "https://www.workatastartup.com/jobs/114958",
+      "jd_text": "**About David AI**  \nDavid AI is the first audio data research company. We bring an R&D approach to data–developing datasets with the same rigor AI labs bring to models. Our mission is to bring AI into the real world, and we believe audio is the gateway. Speech is versatile, accessible, and human—it fits naturally into everyday life. As audio AI advances and new use cases emerge, high-quality training data is the bottleneck. This is where David AI comes in.\n\nDavid AI was founded in 2024 by a team of former Scale AI engineers and operators. In less than a year, we’ve brought on most FAANG companies and AI labs as customers. We recently raised a $50M Series B from Meritech, NVIDIA, Jack Altman (Alt Capital), Amplify Partners, First Round Capital and other Tier 1 investors.\n\nOur team is sharp, humble, ambitious, and tight-knit. We’re looking for the best research, engineering, product, and operations minds to join us on our mission to push the frontier of audio AI.\n\n**About our Data Operations team**  \nOur Data Operations team powers David AI's Data Factory, transforming raw audio into high-quality training datasets for leading AI labs. Our mandate is to spin up new data pipelines and run them at a massive scale. This means starting from a model capability we want a model to unlock, experimenting with different shapes of data and collection strategies, and validating them with researchers. Once an approach works, we industrialize it, building pipelines that can process audio with reliability, quality, and efficiency. We are relentless operators who thrive in ambiguity, equally comfortable prototyping novel workflows as we are managing large-scale production systems.\n\n**About this role**  \nAs Head of Quality Operations, you'll own quality for every dataset David AI ships including but not limited to conversational, TTS, and transcription data. You'll report to the Head of Operations and be located in the US.\n\n**In this role, you will**\n\n- Own the quality bar across all data ops, including quality standards, calibration, consistency and on-time delivery of datasets\n\n- Design the quality review structure, organized by language and region, so every dataset gets consistent quality coverage\n\n- Audit and review quality across languages, keeping calibration consistent globally\n\n- Run quality in languages you don't speak through deliverables from native-speaker and cross-language gold sets\n\n- Plan capacity against production ramps and own contingent workforce sourcing across many countries\n\n- Build and own dashboards for quality, throughput, and cost efficiency  \n\n**Your background looks like**\n\n- 7 to 10+ years in operations, including 3+ in senior leadership roles\n\n- You've run quality operations for large contingent workforce networks across multiple countries\n\n- You've owned quality at scale, across calibration, capacity planning, and spend efficiency\n\n- You built the system yourself, from tooling to contingent workforce sourcing at scale\n\n- Speech, audio, or linguistic data experience is a strong plus\n\n Remote United States fulltime yes\nlocations: Remote United States\nremote: only\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-07T21:08:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "e6c78d64b35c8a426fa296b8ec4c141d",
       "source": "wellfound",
