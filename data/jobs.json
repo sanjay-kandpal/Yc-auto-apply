@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-10-08T08:42:59+00:00",
+  "exported_at": "2026-10-08T15:17:36+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 838,
+    "discovered": 839,
     "pending_approval": 211,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "e4b32805a10f7a5bff5f4da0953c6905",
+      "source": "yc",
+      "company": "David AI",
+      "role": "Chief of Staff to the CEO",
+      "url": "https://www.workatastartup.com/jobs/115218",
+      "jd_text": "## **About David AI**\n\nDavid AI is the first audio data research company. We bring an R&D approach to data–developing datasets with the same rigor AI labs bring to models. Our mission is to bring AI into the real world, and we believe audio is the gateway. Speech is versatile, accessible, and human—it fits naturally into everyday life. As audio AI advances and new use cases emerge, high-quality training data is the bottleneck. This is where David AI comes in.\n\nDavid AI was founded in 2024 by a team of former Scale AI engineers and operators. In less than a year, we’ve brought on most FAANG companies and AI labs as customers. We recently raised a $50M Series B from Meritech, NVIDIA, Jack Altman (Alt Capital), Amplify Partners, First Round Capital and other Tier 1 investors.\n\nOur team is sharp, humble, ambitious, and tight-knit. We’re looking for exceptional people across every function to join us on our mission to push the frontier of audio AI.\n\n## **About this role**\n\nAs Chief of Staff, you will work directly with Tomer, our CEO and Co-Founder, on the highest-priority work across David AI. Your mandate is to increase the speed and effectiveness of the CEO and the company around him, taking important problems that cut across teams and driving them through to an outcome.\n\nThe scope will be broad and will change as the company grows. You might build the plan for a new company initiative, dig into an area of the business that is off track, help close a senior hire, prepare for a board meeting, or take ownership of a problem that does not yet have a natural home. In each case, you'll be expected to get up to speed quickly, determine what matters, bring together the right people, and move the work forward.\n\nYou'll work across every part of David AI and closely with our leadership team. This is a high-ownership operating role for someone who is comfortable moving between strategy and execution and wants a front-row seat to building a fast-growing AI company.\n\n## **In this role, you will**\n\n- Work directly with Tomer on the company's most important priorities. Turn broad goals and open questions into clear plans, decisions, owners, and next steps.\n\n- Own strategic and operating projects that cut across functions or do not yet have a clear owner, from initial problem definition through execution.\n\n- Help run the company's operating rhythm. Track the most important priorities, surface issues early, and make sure decisions and commitments turn into action.\n\n- Dig into parts of the business that need additional attention. Get to the underlying facts, identify what is working or not working, and build a plan with the team to address it.\n\n- Support company planning and help translate company-level goals into priorities across the organization.\n\n- Lead analysis on important company decisions. Pull together the right data and context, pressure-test the options, and develop a clear recommendation.\n\n- Partner closely with leaders across research, engineering, product, data operations, go-to-market, finance, and people to move cross-functional work forward.\n\n- Support CEO-level work including board preparation, fundraising, executive hiring, organizational planning, and other priorities as they arise.\n\n- Help Tomer allocate his time against the areas where he can have the most impact, and take ownership of work that does not need to stay with him.\n\n- Step into new initiatives or areas that need temporary ownership, build structure around them, and stay close to execution until there is a clear long-term owner.  \n\n## **Your background looks like**\n\n- 6+ years of experience in high-ownership roles at a fast-growing technology company, startup, investment firm, consulting firm, or similar environment.\n\n- Prior experience owning complex work end to end, with direct accountability for the outcome rather than only advising or coordinating.\n\n- Strong analytical judgment. You can take an ambiguous problem, identify what matters, get to the relevant data quickly, and form a clear point of view.\n\n- Strong written and verbal communication. You can make complicated topics simple and communicate clearly with executives and operators alike.\n\n- Experience working across multiple functions and driving work through people who do not report to you.\n\n- Comfortable moving between high-level strategy and detailed execution, sometimes within the same day.\n\n- A relentless operator with high standards, bias to action, and strong attention to detail.\n\n- Comfortable with ambiguity and rapid pace; thrives in a “build while flying” environment.\n\n- Low-ego, collaborative, and mission-driven, focused on team and company success.  \n\n## **Bonus points if you have**\n\n- Experience as a founder, early-stage operator, GM, or in a strategy and operations role at a high-growth startup.\n\n- Prior experience working closely with a founder or CEO.\n\n- Experience in AI, data infrastructure, marketplaces, or another technically complex business.\n\n- Experience with board preparation, fundraising, executive recruiting, or company-level planning.\n\n- Experience taking a new initiative from zero to one and eventually handing it to a dedicated owner.  \n\n## **Benefits**\n\n- Unlimited PTO.\n\n- Top-notch health, dental, and vision coverage with 100% coverage for most plans.\n\n- FSA & HSA access.\n\n- 401k access.\n\n- Meals 2x daily through DoorDash + snacks and beverages available at the office.\n\n- Unlimited company-sponsored Barry’s classes.\n\n San Francisco fulltime yes\nlocations: San Francisco\nremote: no\nmin_experience: 8",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T15:17:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "e5090c6e77393b69a24e6bf7413d0a61",
       "source": "wellfound",
