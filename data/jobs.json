@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-08T21:06:46+00:00",
+  "exported_at": "2026-10-08T23:09:20+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 841,
+    "discovered": 842,
     "pending_approval": 213,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "e1a8460cf6b79a3a0e37522690d74ce4",
+      "source": "wellfound",
+      "company": "Moblize.it",
+      "role": "AI Automation Engineer",
+      "url": "https://wellfound.com/jobs/4814773-ai-automation-engineer",
+      "jd_text": "You will be working on our product https://dontbemichael.com to help us build it quickly using claude code. \n\nThe product is targetted towards small businesses to help them automate their entire front end and backend.  Current product relies heavily on Claude and we need to support other popular platforms such as codex, gemini and to more operating systems. \n\n\tKey requirments: \n\t1. Must be able to review the repo https://github.com/agentvivekkumar/dontbemichael \n\t2. Must star it and fork it and be able to suggest one enhancement (dont have to actually do the enhancement just propse a meaningful enhancement) Mountain View\nlocationNames: Mountain View\nremote: true",
+      "match_score": 3.26,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T23:09:17+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.87,
+            "overlap": 1.99,
+            "combined": 2.6
+          },
+          "backend": {
+            "cosine": 3.07,
+            "overlap": 1.88,
+            "combined": 2.72
+          },
+          "frontend": {
+            "cosine": 3.41,
+            "overlap": 2.91,
+            "combined": 3.26
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 3.41,
+        "keyword_overlap_score": 2.91,
+        "final_score": 3.26,
+        "top_keywords": [
+          {
+            "term": "com",
+            "weight": 0.1129
+          },
+          {
+            "term": "end",
+            "weight": 0.0691
+          },
+          {
+            "term": "backend",
+            "weight": 0.0565
+          },
+          {
+            "term": "code",
+            "weight": 0.0565
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0565
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "8a549cbec1e5ee867231f9dccf1f6dac",
       "source": "yc",
