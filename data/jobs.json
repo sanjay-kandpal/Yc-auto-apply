@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-10-08T17:19:07+00:00",
+  "exported_at": "2026-10-08T21:06:46+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 840,
+    "discovered": 841,
     "pending_approval": 213,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "8a549cbec1e5ee867231f9dccf1f6dac",
+      "source": "yc",
+      "company": "GovernGPT",
+      "role": "Founding Head of Operations — GovernGPT (Montreal)",
+      "url": "https://www.workatastartup.com/jobs/115245",
+      "jd_text": "## About GovernGPT:\n\nWe are YC backed, technical founders, and profitable with annual revenue from blue chip funds totalling over $2T. \n\n## About the role\n\nHonestly, this role is way overdue. The team is made up of two sales and 5 engineers. Basically, if it's not code and not sales, it's yours. \n\nSomeone with high agency, organized that ensures a system runs smoothly. Someone who’s obsessed over details once the big picture makes sense. \\\n\\\nThen, you’d build systems around it. This role is far more execution focused than ideation focused. \n\nIf taking a messy area, putting a clean process around it, and running it without ever missing a deadline gives you energy, keep reading.\n\n## In this role, you will\n\n* **Finance:** invoicing, collections, expenses, payroll and the monthly close with our accountant.\n* **Strategic projects:** we hand them to you, you own them end to end.\n* **Internal ops:** vendors, tools, office, plus customer contracts and billing logistics.\n* **Hiring:** postings, pipeline, offers, onboarding, benefits, equity grants. End to end.\n* **Legal &amp; corporate:** contracts, NDAs, minute book, cap table, board resolutions. You're our point person with outside counsel.\n* **Systems:** trackers, processes and LLM automations. Build your own army of ops agents 🦸 (This would be cherry on top but not needed)\n\n## You are\n\n* **Hyper-organized.** Nothing falls through the cracks. Ever.\n* **Deadline-proof.** Nobody who's worked with you ever had to follow up.\n* **Process-obsessed.** You'd rather build a system once and run it perfectly than improvise every time.\n* **An owner and a team player.** You own your domains fully, and the team winning matters more to you than credit.\n\n## Who you'll work with and what we expect\n\nYou report directly to the CEO &amp; CTO. Every day. Success is when none of the founders think about ops anymore. \n\n## Your background\n\nHere's who we picture:\n\n* A corporate or commercial lawyer who left to start or join a startup.\n* A founder who ran ops for their own startup.\n* An investment banking or consulting alum who moved into an operating role.\n\nYou've worked somewhere with high standards, where mistakes had real consequences. And you've owned something yourself.\n\nYoung, ambitious and talented is our company DNA. \n\nBonus points if you know hedge funds, private equity or fund management. Or B2B software. \n\n## How you'll grow\n\nIf you succeed, you’d become our COO / VP Operations in a year or two. \n\n## How to stand out\n\nTell us about a system you built that still runs without you, or something complex you delivered on a tight deadline.\n\nAnd what makes you different? Ran ops for your own company? Competed as an athlete? Tell us.\n\n## What working with us is like\n\nOur values are simple: _think big, make it tight, and have fun._\n\nWe're a high-trust team. We love what we do, and who we do it with. Montreal, QC, CA Montreal, Quebec, CA fulltime none\nlocations: Montreal, QC, CA Montreal, Quebec, CA\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T21:06:39+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "f4364ef34891190d2ec9485d7b9a4c36",
       "source": "wellfound",
