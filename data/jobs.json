@@ -1,15 +1,206 @@
 {
-  "exported_at": "2026-10-08T15:17:36+00:00",
+  "exported_at": "2026-10-08T17:19:07+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 839,
-    "pending_approval": 211,
+    "discovered": 840,
+    "pending_approval": 213,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "f4364ef34891190d2ec9485d7b9a4c36",
+      "source": "wellfound",
+      "company": "Alva",
+      "role": "Quant / Algo Trading System Engineer",
+      "url": "https://wellfound.com/jobs/3340688-junior-golang-engineer-0-3-years-experience-open-to-intern",
+      "jd_text": "## About Alva\n\nAlva is your AI investing agent. Research a thesis. Monitor a narrative. Backtest an idea. Automate a strategy. Alva turns any of it into a live Playbook — with a team of agents watching the market 24/7 and alerting you the moment it matters. Powered by institutional-grade data from 100+ sources and a growing library of community skills and playbooks you can follow, remix, and learn from, Alva is your personal edge in all markets.\n\nAlva was founded by a team of proven serial entrepreneurs. The founding team includes co-founders from Galxe, a major Web3 growth platform with over 30 million active users, as well as a co-founder from MiniMax, a leading frontier AI lab.\n\n## About the role\n\nWe're building the core trading system that turns strategies and signals into real, reliable execution in live markets. We are looking for a top-tier systems engineer to build the core trading engine behind Alva — production-grade, similar in scope to QuantConnect Lean.\n\nThis is not a strategy or quant research role. Your focus is systems, infrastructure, correctness, and reliability across the full lifecycle: research → backtesting → paper trading → live trading → execution.\n\n## What you'll do\n\n- Build and evolve the core trading engine — backtesting engine (event-driven simulation, data alignment), strategy runtime (user logic, lifecycle, state), and a paper-trading environment\n- Design and implement live trading systems — signal → order → execution pipelines, broker/exchange integrations (REST / WebSocket), order lifecycle management (fills, partial fills, reconciliation)\n- Solve real-world trading problems — state consistency across backtest / paper / live, idempotency and duplicate-order prevention, latency, slippage, and execution edge cases\n\n## What we're looking for\n\n- You've built or worked on real trading systems in production\n- You understand how systems fail in the real world — not just in backtests\n- You care deeply about correctness, edge cases, and failure modes\n- You can reason about complex systems end-to-end\n- AI-fluent: you build with AI coding tools daily and can show what that changed about how you work\n- Strong signals (all optional): Lean / NautilusTrader / Hummingbot; broker &amp; exchange integrations; event-driven or distributed systems in production; strong backend / infra background (Python / Go / Rust); backtesting, market-data, or real-time streaming systems\n\n## Why join\n\n- Build a system where bugs translate directly into financial loss — correctness matters\n- Work on one of the hardest problems: making simulated systems match reality\n- Define the core execution layer of an AI-driven investing platform\n- High ownership and meaningful equity (options); small, elite team; high autonomy, low bureaucracy\n\n## Compensation\n\n$150K–$200K + equity. Full-time. Location: Shanghai.\n\n## How to apply\n\nEmail jemma@alva.xyz with something you've built and a few lines on why this role.\n\nFull details: https://alva-careers.netlify.app/playbook Shanghai\nlocationNames: Shanghai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T17:18:39+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "aeaf87fa61e69cfe66cc61ae53961c62",
+      "source": "wellfound",
+      "company": "Zenskar",
+      "role": "SDE-1",
+      "url": "https://wellfound.com/jobs/4821657-sde-1",
+      "jd_text": "# About Zenskar\nZenskar is an AI-native revenue automation platform built to handle real-world complexity.\n\nIt sits between your CRM and ERP automating everything in between: billing, revenue recognition, collections, usage metering, and analytics. Across any pricing model, any entity structure, any currency.\n\n**Our vision: Zero-Touch Finance.** Agents execute. Humans supervise. Finance teams set the rules. Zenskar runs them.\n\nFounded by Apurv Bansal and Saurabh Agarwal, second-time founders whose previous startups were acquired by Snapdeal and Gaana. The team brings experience from Google, Deutsche Bank, Elevation Capital, IIT Bombay, IIT Delhi, and Harvard Business School.\n\nWe have 5x'd revenue in the past year. We are default alive.\n\n## Funding\nWe raised **$15M in Series A** funding in April 2026, led by Susquehanna Venture Capital, Bessemer Venture Partners, Shine Capital, and Rho, with participation from Rocketship, J-Ventures, Future Back Ventures by Bain &amp; Company, and Converge.\n\nThe funding is being used to expand our **Agents Marketplace** and scale operations, not headcount.\n\n📰 Read the announcement →\n\nhttps://youtu.be/jRb2ybvrSwU?si=vuLLgUY_MFdRzDMl\n\nSee how Zenskar automates the full order-to-cash cycle, from contract to cash, \n                               without spreadsheets, workarounds, or engineering tickets.*\n\n## The Problem We're Solving\nFinance teams aren't struggling because they lack AI tools. They're struggling because the systems underneath those tools were built for a simpler world. These systems label real-world complexity as edge cases and force teams into costly, error-prone workarounds: revenue leakage, delayed collections, audit risk, and finance teams buried in grunt work.\n\nBolting AI onto these broken foundations is as good as a Ferrari engine on a horse-drawn carriage. Zenskar is purpose-built from the ground up: the architecture handles complexity natively, so AI actually works.\n\nIt combines **foundational flexibility + deterministic calculation + purpose-built AI agents** to deliver end-to-end automation across the order-to-cash cycle - without workarounds, without engineering tickets.\n\nThe B2B billing and revenue automation market is **$2B today, projected to reach $10B by 2030**.\n\n## What Customers Say\n&gt; *\"We're saving 200+ hours/quarter on invoicing and receivables by completely automating our recurring billing.\"* \n- **Noy Kalansky, Finance Controller, Pontera**\n&gt; \n\n&gt; *\"Zenskar automates revenue recognition accurately for our value-based billing: agents reducing manual hours by 70%.\"*\n- **Matt Barnard, VP Finance, Vertice**\n&gt; \n\n&gt; *\"Zenskar’s agents automated 90% of our billing, integrated with our CRM, and accelerated revenue collection by a month.\"*\n- **Ming Lui, VP Finance, Yembo**\n&gt; \n\n&gt; *\"Sardine had spent 4 years running billing in-house for high-volume, usage-based pricing. Zenskar took care of it all.\"* \n- **Sardine team**\n&gt; \n\n&gt; *\"We launched our product 4 months faster instead of building an in-house system for our usage-based pricing.\"* \n- **Kshitij Gupta, CEO, 100ms**\n&gt; \n\n# About the role\nWe’re looking for an early-career engineer who enjoys building things end to end.\n\nYou might build an API in the morning, wire it into a product workflow in the afternoon, and spend the next day figuring out why one very determined edge case refuses to cooperate.\n\nThis is a full-stack role, but not one where “full stack” means changing button colours and occasionally calling an API. You’ll work across product UI, backend services, data models and integrations. You can be stronger on one side: we don’t expect perfect symmetry - but you should be excited to learn and work across both.\n\nOur backend is primarily **Python and Postgres on AWS**. On the frontend, you’ll work with a modern JavaScript/TypeScript application. Familiarity with our exact stack helps, but it is not a requirement.\n\n**Also:** you do not need to know billing or accounting before joining. You will learn. Probably more than you ever planned to.\n\n## What you'll walk into\nThis is software that moves money, so correctness matters. A tiny-looking edge case can create a very real invoice, and customers tend to notice those.\n\nAt the same time, the product needs to feel simple. Finance teams should not need to understand our database schema-or summon an engineer-to complete everyday work.\n\nThat combination creates interesting full-stack problems:\n\n- Turning complex billing rules into workflows that are understandable in the UI.\n- Building APIs that remain predictable when customer configurations become complicated.\n- Showing useful errors instead of “Something went wrong. Please try again.”\n- Handling retries, duplicate requests and partial failures safely.\n- Making large datasets and long-running operations feel responsive.\n- Giving users visibility into what our AI agents did, why they did it and what needs human attention.\n\nYou won’t spend your first three months watching onboarding videos. You’ll pair with the team, read real code and start shipping carefully scoped changes.\n\n### **Projects you might work on**\nThe exact project will depend on product priorities, but early SDE1 projects could look like:\n\n- **Make a product workflow truly end to end:** Build or improve a workflow spanning a frontend form, API validation, persistence and the final success/error experience.\n    - *For example: configuring a pricing rule, creating a customer, reviewing an invoice adjustment or setting up a usage alert.*\n- **Make failures understandable:** Improve a workflow where backend validation is technically correct but the user has no idea what to do next. You might introduce structured errors in the API, map them to the right UI state and add enough observability to understand how often the failure occurs.\n- **Improve an integration experience:** Work on a CRM, ERP or payment integration: status tracking, retry behavior, duplicate handling, failure visibility and the UI through which a user understands what happened.\n- **Make a slow screen boringly fast:** Trace a slow product workflow from browser to database. Improve the query or API, introduce pagination where needed and make loading behavior sensible in the UI.\n- **Write an AI agent to solve a business usecase:** Write an AI agent on our internal platform to help solve customers’ usecases.\n\n### **Your first 30 days**\nThe goal of the first month is not to know everything. It is to become comfortable enough with one part of the system to make small useful, safe changes.\n\nBy the end of your first 30 days, we expect you to have:\n\n- Set up the application locally and understood how code moves from your laptop to production.\n- Learned the basic journey from contract and usage data to invoices and revenue workflows.\n- Traced at least one product flow from the UI through the API and database.\n- Shipped a few small production changes—likely a bug fix or contained product improvement.\n- Written or updated tests for the behavior you changed.\n- Participated in code reviews and acted on feedback.\n- Debugged one real issue alongside another engineer.\n- Demoed something you shipped to the team.\n- Learned how we use logs, metrics and other tools to verify that a change is healthy.\n\nIt is completely fine to ask a lot of questions. We would much rather answer an early question than investigate a confidently shipped mystery later.\n\n### **By 90 days**\nBy the end of your first 90 days, you should be able to own a small, well-scoped feature from discussion to production.\n\nThat means you can:\n\n- Clarify the expected behavior and identify important edge cases.\n- Break the work into manageable pieces.\n- Make the necessary frontend, API and data-model changes.\n- Handle loading, empty, validation, permission and failure states.\n- Write useful tests without being reminded at the end.\n- Work with product and design when the expected experience is unclear.\n- Use code review feedback to improve the solution rather than only patching comments.\n- Deploy the feature and verify that it behaves correctly in production.\n- Investigate a production issue using logs and the codebase, with help when needed.\n- Explain what you built, why you built it that way and what you would improve next.\n\nYou will not be expected to design the next five years of Zenskar’s architecture. You will be expected to take increasing ownership of your corner of it.\n\nA good 90-day outcome is not “never needed help.” It is “asked for help at the right time, learned quickly and became noticeably more independent.”\n\n## **Who you are**\n- You have **1–3 years of professional software development experience**. Substantial internships and strong personal or open-source projects count.\n- You have built at least one non-trivial application or feature and can explain what you personally contributed.\n- You are comfortable programming in at least one mainstream language and are willing to work in Python.\n- You understand basic web concepts: HTTP, APIs, databases, validation and application state.\n- You can write ordinary, readable code using common data structures and control flow.\n- You enjoy figuring things out, but you also know when to ask for help.\n- You can explain your thinking without hiding behind framework terminology.\n- You care whether the feature works for the user—not only whether your pull request was merged.\n\n### **Good to have**\nNone of these are mandatory:\n\n- Python, Postgres or SQL experience.\n- Experience with a modern JavaScript or TypeScript frontend framework.\n- Building and consuming REST APIs.\n- Exposure to AWS, Docker, CI/CD or background jobs.\n- Experience at a startup or on a small product team.\n- A habit of writing unit and integration tests.\n- Personal projects that have real users—even if the number of users is your five very patient friends.\n- Experience using AI coding tools without outsourcing your understanding to them.\n- Any exposure to billing, payments, accounting or fintech.\n\n## Location\n- Hybrid - 3 days per week\n- Office Location: Indiranagar, Bengaluru.\n- Address: 3rd Floor, A wing No 1, Carlton Towers, HAL Old Airport Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008.\n\n## Interview process\nOur interviews are practical and evidence-based. No single round exceeds 60 minutes, and we are not interested in testing whether you memorised obscure Python behavior or 200 LeetCode problems.\n\n- **R0, Introductory conversation:** A short conversation about something you built, what you personally owned, what went wrong and what you learned. We’ll also align on the role, location and compensation.\n- **R1, Practical coding and debugging:** You’ll work in a small Python codebase with supplied tests. The goal is to understand the requirement, write working code and debug failures—not solve an algorithm puzzle.\n- **R2, Code-first design:** You’ll implement a small component with a few business rules and then adapt it when the requirement changes.\n- **R3, Hiring Manager:** A discussion about projects, learning, feedback, mistakes, ownership and the kind of environment in which you do your best work.\n\nDuring technical rounds, documentation and syntax search are allowed. AI can help with syntax or a small isolated utility, but it cannot be used to solve or debug the interview problem for you.\n\nWe’ll explain the rules clearly before starting. No surprise gotchas.\n\n## How to apply\nInterested? Click here to apply → https://evolve.keka.com/careers/jobdetails/91601\n\nOR \n\nWrite to nitya@zenskar.com Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 14.81,
+      "resume_variant": "frontend",
+      "draft_answer": "I've consistently built end-to-end React frontends for complex compliance platforms, automating reporting workflows for 80+ client organizations and reducing API fetch latency from 500ms to 10ms to ensure responsive UIs, which I believe maps directly to Zenskar's challenge of delivering fluid experiences for an AI-native revenue automation platform. My full-stack background includes deploying Dockerized microservices on Azure, architecting serverless solutions with AWS, and implementing features like facial-analysis auto-tagging, making me adept at constructing predictable backend services and intuitive product UIs for the Agents Marketplace.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-08T17:18:39+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.51,
+            "overlap": 25.17,
+            "combined": 14.91
+          },
+          "backend": {
+            "cosine": 9.4,
+            "overlap": 24.44,
+            "combined": 13.91
+          },
+          "frontend": {
+            "cosine": 10.54,
+            "overlap": 24.76,
+            "combined": 14.81
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.54,
+        "keyword_overlap_score": 24.76,
+        "final_score": 14.81,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1126
+          },
+          {
+            "term": "ui",
+            "weight": 0.0927
+          },
+          {
+            "term": "experience",
+            "weight": 0.0921
+          },
+          {
+            "term": "built",
+            "weight": 0.0818
+          },
+          {
+            "term": "api",
+            "weight": 0.0716
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-08T17:18:52+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "87a669950d3bb0cfd86dc677bce687cb",
+      "source": "wellfound",
+      "company": "AssetIntel",
+      "role": "Python Developer",
+      "url": "https://wellfound.com/jobs/4823723-python-developer",
+      "jd_text": "### *** THIS JOB IS ONLY AVAILABLE TO INDIVIDUALS LIVING IN INDIA. NO RECRUITERS OR AGENCIES, PLEASE.***\n\n**About AssetIntel**\n\nAssetIntel is a software company that develops asset management software products for the transportation infrastructure industry. Our clients include state transportation agencies, city governments, toll authorities, transit agencies, the Federal Highway Administration (FHWA), and civil engineering firms. For more information, visit our website.\n\n\n**Job Description**\n\nWe're looking for a Python developer to own the analytical engines behind our products — the codebases where math meets production software. These systems span a range of problems: long-term deterioration modeling and budget optimization, real-time hazard prediction using live data, probabilistic damage assessment, geospatial analysis, and lifecycle cost forecasting. They are the core of what makes our products work.\n\nYou'll work alongside domain experts and researchers to turn mathematical formulations into clean, maintainable, production-grade Python. You'll also progressively improve existing code — better architecture, better patterns, better reliability.\n\nThis is not a role where you can treat the math as a black box. You need to be genuinely curious about the models and algorithms you're implementing. You don't need to arrive knowing this domain, but you need to be the kind of person who wants to understand it deeply.\n\n\n**What You'll Do**\n\n* Translate mathematical specifications into production code. You'll receive formulations, equations, and pseudocode from the research side of the team. Your job is to understand the intent and write Python that is correct, readable, testable, and maintainable.\n* Improve existing codebases. The current code works in production but has room for architectural improvement. You'll progressively modernize it — better modularity, type safety, test coverage, error handling, and overall code quality.\n* Build new analytical features end-to-end. As our products evolve, you'll implement new capabilities — taking them from mathematical concept to deployed, production-ready code.\n* Bridge the gap between research and engineering. The ability to communicate across these worlds — asking good questions, translating between math and code, pushing back constructively — will be critical to your success here.\n\n\n**What We're Looking For**\n\n* At least 3 years of professional experience working with Python.\n* Strong Python fundamentals — you write clean, idiomatic Python and care about code quality.\n* Experience with numerical/scientific Python libraries: pandas, NumPy, SciPy.\n* Ability to read and reason about mathematical formulations — comfort with equations, probability distributions, and optimization concepts, or a genuine eagerness to learn.\n* Experience writing and maintaining production Python code, not just scripts or notebooks.\n* Good instincts for software architecture — when to refactor, how to decompose large modules, how to manage dependencies.\n* Clear communication skills, especially the ability to collaborate with researchers and domain experts.\n* Comfort with Git and collaborative development workflows.\n* Bonus points if you've worked with any of the following: mathematical optimization (LP, MIP), geospatial tools like GeoPandas or Shapely, real-time data pipelines or external APIs, Docker and containerized deployments, or cloud infrastructure (Azure or similar). We also especially value people who've introduced engineering discipline — tests, CI/CD, type hints — into messy research codebases without breaking everything in the process.\n\n\n**Nice-to-haves:**\n\n* Experience with multiprocessing in Python and memory-aware resource management.\n* Familiarity with probabilistic modeling, fragility analysis, or statistical risk assessment.\n\n\n**Benefits and Perks**\n\n* Work remotely - anywhere from India.\n* Market-competitive total compensation package and performance-based bonus.\n* Company-paid medical coverage.\n* Fully equipped home office setup, including a high-spec computer, dual monitors, desk, and chair.\n* Plenty of growth opportunities, working alongside some of the brightest minds in the industry. Boston\nlocationNames: Boston\nremote: true",
+      "match_score": 9.85,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T17:18:39+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.83,
+            "overlap": 14.57,
+            "combined": 9.85
+          },
+          "backend": {
+            "cosine": 7.39,
+            "overlap": 14.66,
+            "combined": 9.57
+          },
+          "frontend": {
+            "cosine": 6.81,
+            "overlap": 16.5,
+            "combined": 9.72
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.83,
+        "keyword_overlap_score": 14.57,
+        "final_score": 9.85,
+        "top_keywords": [
+          {
+            "term": "python",
+            "weight": 0.2093
+          },
+          {
+            "term": "code",
+            "weight": 0.1675
+          },
+          {
+            "term": "production",
+            "weight": 0.1256
+          },
+          {
+            "term": "experience",
+            "weight": 0.0837
+          },
+          {
+            "term": "architecture",
+            "weight": 0.0512
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "e4b32805a10f7a5bff5f4da0953c6905",
       "source": "yc",
@@ -288,8 +479,8 @@
       "jd_text": "WE'RE HIRING | Backend Developer (Python) – Full-Time | Remote | FreJun\n\nFreJun is hiring a Backend Developer with 1–3 years of experience to build, scale, and maintain high-throughput backend systems using Python.\n\nIf you write clean, maintainable code, enjoy designing reliable APIs and background workflows, and take end-to-end ownership of product quality, we'd love to hear from you.\n\nROLE DETAILS\n\nRole: Backend Developer (Python)\nExperience: 1–3 Years\nEmployment: Full-Time\nDepartment: Engineering\nLocation: Remote / Work From Home\nCTC: ₹10–13 LPA\n\nWHAT YOU'LL DO\n\nBuild and maintain high-performing RESTful APIs using Python (FastAPI or Django).\nDesign relational database schemas, write efficient ORM queries, and optimize PostgreSQL performance and indexing.\nImplement background processing workflows and task queues using Celery and RabbitMQ.\nIntegrate third-party APIs, webhooks, and external services with robust error handling, rate-limiting, and retry logic.\nImplement caching strategies using Redis to improve API response times and system throughput.\nCollaborate with frontend engineers and the product team to define, scope, and ship new features.\nTroubleshoot, debug, and resolve performance bottlenecks in production systems.\nParticipate in code reviews and maintain high standards for testing, documentation, and code structure.\n\nWHAT WE'RE LOOKING FOR\n\n1–3 years of hands-on experience building backend systems in Python.\nStrong proficiency with at least one modern Python framework: FastAPI or Django (Django REST Framework).\nHands-on experience with task queues and message brokers (Celery, RabbitMQ, or Redis).\nStrong foundational knowledge of PostgreSQL, including schema design, ORMs (SQLAlchemy or Django ORM), and query optimization.\nFamiliarity with Redis for caching and performance optimization.\nSolid understanding of Git workflows, webhooks, and RESTful architecture principles.\n\nGOOD TO HAVE\n\nExperience deploying applications using Docker and modern CI/CD pipelines.\nExposure to monitoring tools, log management, and application performance tuning.\nPrior experience in a fast-paced product startup or remote engineering team.\n\nWHAT WE OFFER\n\nCompetitive salary and benefits.\nFlexible work hours and remote work opportunities.\nA high-ownership, collaborative, and innovative work environment.\nThe opportunity to work on products at scale with a modern tech stack.\n\nHOW TO APPLY : https://frejun-app.notion.site/348f1d431dde81f89259c0c2adb04807?pvs=105 Hyderabad\nlocationNames: Hyderabad\nremote: true",
       "match_score": 10.84,
       "resume_variant": "backend",
-      "draft_answer": null,
-      "status": "discovered",
+      "draft_answer": "I've owned Python FastAPI backend development end-to-end for a compliance platform, including scoping requirements directly with clients and implementing RabbitMQ to prevent data loss under high load for reliable background workflows. My experience building and scaling high-throughput backend systems also includes integrating Redis caching to cut API fetch latency by 98% after diagnosing production performance bottlenecks with Locust.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
       "discovered_at": "2026-10-08T08:39:41+00:00",
       "decided_at": null,
       "submitted_at": null,
@@ -350,7 +541,7 @@
         ]
       },
       "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
-      "drafted_at": null,
+      "drafted_at": "2026-10-08T17:19:06+00:00",
       "confirmation_signal": null,
       "github_run_id": null,
       "apply_kind": null
