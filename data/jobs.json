@@ -1,15 +1,397 @@
 {
-  "exported_at": "2026-10-08T04:40:29+00:00",
+  "exported_at": "2026-10-08T08:42:59+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 833,
-    "pending_approval": 210,
+    "discovered": 838,
+    "pending_approval": 211,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "e5090c6e77393b69a24e6bf7413d0a61",
+      "source": "wellfound",
+      "company": "ContentKosh",
+      "role": "AI Agent Developer (LangGraph + Remote API + API Integration)",
+      "url": "https://wellfound.com/jobs/3269430-ai-agent-developer-langgraph-remote-api-api-integration",
+      "jd_text": "🧠 About the Role:\n6 months internship.\nWe are looking for a talented and curious developer to help us build an advanced AI Agent using LangGraph – a framework designed to create stateful, multi-step AI workflows. If you're excited about AI, automation, and building intelligent agents, this opportunity is for you!\n\n🔧 Key Responsibilities:\nDesign and build AI agents using LangGraph\nIntegrate LLMs (like OpenAI GPT-4) for reasoning, response generation, and task execution\nConnect external tools and APIs within the agent workflow (e.g., content tools, database, n8n, etc.)\nHandle memory/state management and logic flows inside LangGraph\nBuild agents that can perform tasks like content generation, test creation, validation, etc.\nOptimize performance using async workflows, parallel branches, and tool-calling patterns\n\n🛠️ Required Skill Set:\nExperience with LangGraph and LangChain\nProficiency in Python\nStrong understanding of OpenAI APIs or other LLM providers\nKnowledge of agent architecture: tool use, memory, multi-step workflows\nAPI integration skills (REST APIs, JSON handling, async workflows)\nBonus: Experience with n8n, vector databases, or education-based content systems.\n\n🎓 Who Can Apply:\nStudents, freshers, or freelancers with solid Python &amp; LangGraph experience\nPassion for building AI-powered automation and agents\nGood problem-solving and logical thinking ability\n\n🎁 What You'll Gain:\nInternship Certificate / Letter of Recommendation\nHands-on experience with cutting-edge AI agent architecture\nFlexible working hours and real-world projects\nFuture opportunity to work on full-scale AI products\n\n📩 How to Apply:\nSend your resume, sample LangGraph workflows or GitHub profile to info@contentkosh.in India Gate\nlocationNames: India Gate\nremote: true",
+      "match_score": 9.58,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T08:39:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.14,
+            "overlap": 10.6,
+            "combined": 9.57
+          },
+          "backend": {
+            "cosine": 9.07,
+            "overlap": 10.53,
+            "combined": 9.51
+          },
+          "frontend": {
+            "cosine": 3.87,
+            "overlap": 9.22,
+            "combined": 5.47
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.14,
+        "keyword_overlap_score": 10.6,
+        "final_score": 9.58,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2956
+          },
+          {
+            "term": "agent",
+            "weight": 0.1848
+          },
+          {
+            "term": "workflows",
+            "weight": 0.1511
+          },
+          {
+            "term": "agents",
+            "weight": 0.1478
+          },
+          {
+            "term": "experience",
+            "weight": 0.1209
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6cae0949f6035e188fd79d1a27434c39",
+      "source": "wellfound",
+      "company": "HOOC AI TECHNOLOGIES",
+      "role": "Flutter + Node JS Developer (full stack mobile application) Intern",
+      "url": "https://wellfound.com/jobs/4803730-flutter-node-js-developer-full-stack-mobile-application-intern",
+      "jd_text": "# Flutter + Node.js Developer Intern\n**Full Stack Mobile Application Development | On-Site**\n\n**Company:** HOOC AI Technologies  \n**Location:** Sector 63, Noida, Uttar Pradesh  \n**Job Type:** Internship  \n**Work Mode:** On-Site  \n**Duration:** 6 Months  \n**Stipend:** ₹15,000 – ₹23,000 per month\n\n### About HOOC AI Technologies\n\nHOOC AI Technologies is a deep-tech AI company building AI-powered products and intelligent applications across **Artificial Intelligence, Machine Learning, Mobile Applications, Backend Systems, and emerging technologies**.\n\nWe are looking for a **Flutter + Node.js Developer Intern** who wants to work on real-world products and gain hands-on experience across the complete mobile application stack.\n\n### Role Overview\n\nAs a **Flutter + Node.js Developer Intern**, you will work across both the **Flutter mobile application and Node.js backend**, building features from frontend to API and database.\n\n### Responsibilities\n\n- Develop and maintain cross-platform mobile applications using **Flutter &amp; Dart**\n- Build backend services and REST APIs using **Node.js**\n- Work with **Express.js and MongoDB**\n- Integrate APIs with Flutter applications\n- Implement authentication and authorization\n- Build reusable and scalable Flutter components\n- Integrate third-party APIs and services\n- Debug and resolve frontend and backend issues\n- Optimize application and API performance\n- Work with Git/GitHub\n- Collaborate with AI, product, UI/UX, and engineering teams\n- Contribute to production-level features and releases\n\n### Required Skills\n\n**Flutter / Dart**\n- Good understanding of Flutter and Dart\n- Experience building Flutter applications\n- Understanding of widgets, navigation, state management, and API integration\n- Understanding of responsive UI development\n\n**Node.js / Backend**\n- Good understanding of Node.js\n- Experience with Express.js\n- Strong understanding of REST APIs\n- Knowledge of MongoDB\n- Understanding of authentication and authorization\n\n**General**\n- Git &amp; GitHub\n- Strong debugging and problem-solving skills\n- Understanding of asynchronous programming\n- Ability to write clean and maintainable code\n\n### Good to Have\n\n- Firebase\n- Riverpod / Provider / Bloc\n- WebSockets\n- Redis\n- Docker\n- Payment gateway integration\n- AI / LLM API integration\n- Backend deployment\n- Experience with published Flutter applications\n\n### Who We're Looking For\n\n- Candidates who have built **1–2+ Flutter projects**\n- Someone comfortable working across both frontend and backend\n- Strong problem-solving ability\n- Willingness to learn new technologies\n- Ability to independently debug and solve technical problems\n- Someone interested in building **real-world products**\n- Comfortable working in a fast-paced startup environment\n\n### What We Offer\n\n- **₹15,000 – ₹23,000 monthly stipend**\n- Hands-on experience with real-world products\n- Exposure to **AI + Mobile + Backend technologies**\n- Production-level development experience\n- Mentorship from experienced developers\n- Opportunity to work with a growing deep-tech startup\n- Certificate and experience letter upon successful completion\n- **Potential full-time opportunity based on performance**\n\n### Selection Process\n\n**Resume Screening → Technical Interview → Practical Development Round → Final Interview**\n\n### How to Apply\n\nPlease share:\n\n- Updated Resume\n- GitHub Profile\n- Portfolio / Previous Projects\n- Published app links, if available\n\n**Location:** Sector 63, Noida, Uttar Pradesh  \n**Work Mode:** On-Site  \n**Stipend:** ₹15,000 – ₹23,000/month  \n**Duration:** 6 Months Noida\nlocationNames: Noida",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T08:39:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ff24368f920ba90acc95b514fd1267a3",
+      "source": "wellfound",
+      "company": "HOOC AI TECHNOLOGIES",
+      "role": "Flutter Developer Intern",
+      "url": "https://wellfound.com/jobs/4356246-flutter-developer-intern",
+      "jd_text": "**Flutter Developer Intern**\n**Company:** HoocAI Technologies\n**Department:** Mobile Application Development\n**Job Type:** Internship (On-site)\n**Location:** Noida, Uttar Pradesh\n**Duration:** 3-6 Months\n**Stipend:** INR 6,000-18,000\n\n** About HoocAI Technologies**\n\nHoocAI Technologies is a technology-driven organization specializing in Artificial Intelligence, software development, mobile applications, and digital transformation solutions. We are committed to fostering innovation and providing aspiring professionals with opportunities to gain hands-on industry experience.\n\nWe are seeking enthusiastic and motivated **Flutter Developer Interns** who are eager to build scalable cross-platform mobile applications and enhance their technical expertise in a dynamic work environment.\n\n** Roles and Responsibilities**\n\n* Assist in the development, testing, and deployment of cross-platform mobile applications using Flutter.\n* Collaborate with senior developers, designers, and project managers to implement application features and functionalities.\n* Write clean, maintainable, and efficient code following industry best practices.\n* Integrate REST APIs and third-party services into mobile applications.\n* Participate in debugging, troubleshooting, and performance optimization activities.\n* Contribute to code reviews and technical discussions.\n* Stay updated with emerging technologies, frameworks, and industry trends in mobile application development.\n* Maintain project documentation and ensure adherence to development standards.\n\n **Eligibility Criteria**\n\n* Pursuing or recently completed a Bachelor’s degree in Computer Science, Information Technology, or a related field.\n* Basic understanding of **Dart** and the **Flutter** framework.\n* Familiarity with object-oriented programming concepts and software development principles.\n* Knowledge of RESTful APIs, JSON, and state management concepts will be an advantage.\n* Basic understanding of version control systems such as Git.\n* Strong analytical, problem-solving, and communication skills.\n* Ability to work effectively in a collaborative and fast-paced environment.\n\n** Preferred Qualifications**\n\n* Experience with personal, academic, or freelance Flutter projects.\n* Familiarity with Firebase integration and mobile application deployment processes.\n* Knowledge of UI/UX principles and responsive application design.\n\n** What We Offer**\n\n* Hands-on experience working on real-world projects.\n* Mentorship from experienced professionals.\n* Exposure to modern technologies and development practices.\n* A collaborative and innovation-driven work environment.\n* Potential opportunity for a full-time role based on performance.\n\n### Application Process\n\nInterested candidates are invited to submit their updated resume along with links to their GitHub profile or portfolio (if available) to **[work@hoocai.com](mailto:work@hoocai.com)** with the subject line:\n\n**“Application for the Position of Flutter Developer Intern – [Candidate Name]”**\n\n---\n\n**HoocAI Technologies is an equal opportunity employer committed to fostering a diverse and inclusive workplace.** Noida\nlocationNames: Noida",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T08:39:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "bf1c91417e6a7b15f1845829ae0ce9cd",
+      "source": "wellfound",
+      "company": "Decentro",
+      "role": "SDE",
+      "url": "https://wellfound.com/jobs/936512-sde",
+      "jd_text": "**About Decentro**\n\nDecentro is a Y-Combinator backed banking &amp; payments infrastructure company. Decentro provides building blocks that help companies stitch their fintech workflows in a few weeks.\nWhile starting our first fintech venture back in 2014, we spent years convincing banks to partner with us. Before we could launch our fintech product (more here), we had to convince different departments within banks - including technology, business, leadership, legal, and support to get the green signal. Fast forward to today, we realise that banks &amp; regulatory institutions find it difficult to help the longer tail of companies build innovative &amp; compliant fintech solutions.\n\nWhat if there was a platform (think AWS for cloud or Twilio for messaging) that abstracts the complexities of banking, identity, payments, lending, and provides simple APIs so that companies do not have to spend years dealing with banks?\n\nWe’re solving this pain point at Decentro since 2020. We’ve scaled to process $4 billion + in payment volumes &amp; have 1400+ customers across India &amp; Singapore in multiple verticals such as marketplaces, banks, regulated institutions, fintechs, lenders, gaming, and more.\n\n**What is expected from you -**\n* High energy team player with willingness to learn and adapt quickly.\n* Design and development of our new banking API modules from scratch.\n* Hands on implementation of our financial APIs and integrations.\n* Design and integration of new/existing databases. \n* Ensuring the entire stack is designed and built for speed and scalability.\n* Design and construction of our REST APIs for better than bank grade security with the best possible encryption and secutiry mechanisms. \n* Design and implementation of continuous integration and deployment pipelines in tandem with the respective team members. \n\n**What are we looking for -**\n\n* At least 1+ years of experience with writing Python (if proficient in any other backend language then basic understanding of Python works). Being up on latest practices is a plus, e.g., Python 3. \n* 1+ years of database design and management, including being up on the latest practices and associated versions.\n* Familiarity with a relevant and globally supported framework of back-end—e.g., Laravel or Flask. \n* Thorough understanding of user experience and product strategy\n* Experience implementing code level unit tests.\n* Proficiency with Git / Version control. \n* Appreciation for clean and well documented code\n\n**What we offer -**\n\n- The ability for you to make an impact and lay a foundation for the upcoming fin-tech innovations.  \n- A multicultural and diverse team of colleagues from different states that speak in total 6 Indian and global languages. \n- Progressive and flexible work hours that match your personality and lifestyle. \n- The best-in-class perks and benefits for developers. Check out our careers page for the same: https://decentro.tech/careers/\n\nBacked by global investors such as Ycombinator &amp; Rapyd, we're a contrarian and progressive culture of independent thinkers and systematic executors that are driven to build cool things that matter.\n\nIf this aligns with you, time to hop on!\n\n*We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, colour, religion, sex, disability status, or any other characteristic protected by the law.* Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 7.58,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T08:39:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.44,
+            "overlap": 12.58,
+            "combined": 7.58
+          },
+          "backend": {
+            "cosine": 5.2,
+            "overlap": 12.41,
+            "combined": 7.36
+          },
+          "frontend": {
+            "cosine": 5.26,
+            "overlap": 14.56,
+            "combined": 8.05
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.44,
+        "keyword_overlap_score": 12.58,
+        "final_score": 7.58,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1122
+          },
+          {
+            "term": "apis",
+            "weight": 0.0743
+          },
+          {
+            "term": "experience",
+            "weight": 0.0743
+          },
+          {
+            "term": "python",
+            "weight": 0.0743
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.0495
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "45ce3f601ccdcc4c3c268f4ffd61c725",
+      "source": "wellfound",
+      "company": "FreJun",
+      "role": "Backend Developer",
+      "url": "https://wellfound.com/jobs/4799693-backend-developer",
+      "jd_text": "WE'RE HIRING | Backend Developer (Python) – Full-Time | Remote | FreJun\n\nFreJun is hiring a Backend Developer with 1–3 years of experience to build, scale, and maintain high-throughput backend systems using Python.\n\nIf you write clean, maintainable code, enjoy designing reliable APIs and background workflows, and take end-to-end ownership of product quality, we'd love to hear from you.\n\nROLE DETAILS\n\nRole: Backend Developer (Python)\nExperience: 1–3 Years\nEmployment: Full-Time\nDepartment: Engineering\nLocation: Remote / Work From Home\nCTC: ₹10–13 LPA\n\nWHAT YOU'LL DO\n\nBuild and maintain high-performing RESTful APIs using Python (FastAPI or Django).\nDesign relational database schemas, write efficient ORM queries, and optimize PostgreSQL performance and indexing.\nImplement background processing workflows and task queues using Celery and RabbitMQ.\nIntegrate third-party APIs, webhooks, and external services with robust error handling, rate-limiting, and retry logic.\nImplement caching strategies using Redis to improve API response times and system throughput.\nCollaborate with frontend engineers and the product team to define, scope, and ship new features.\nTroubleshoot, debug, and resolve performance bottlenecks in production systems.\nParticipate in code reviews and maintain high standards for testing, documentation, and code structure.\n\nWHAT WE'RE LOOKING FOR\n\n1–3 years of hands-on experience building backend systems in Python.\nStrong proficiency with at least one modern Python framework: FastAPI or Django (Django REST Framework).\nHands-on experience with task queues and message brokers (Celery, RabbitMQ, or Redis).\nStrong foundational knowledge of PostgreSQL, including schema design, ORMs (SQLAlchemy or Django ORM), and query optimization.\nFamiliarity with Redis for caching and performance optimization.\nSolid understanding of Git workflows, webhooks, and RESTful architecture principles.\n\nGOOD TO HAVE\n\nExperience deploying applications using Docker and modern CI/CD pipelines.\nExposure to monitoring tools, log management, and application performance tuning.\nPrior experience in a fast-paced product startup or remote engineering team.\n\nWHAT WE OFFER\n\nCompetitive salary and benefits.\nFlexible work hours and remote work opportunities.\nA high-ownership, collaborative, and innovative work environment.\nThe opportunity to work on products at scale with a modern tech stack.\n\nHOW TO APPLY : https://frejun-app.notion.site/348f1d431dde81f89259c0c2adb04807?pvs=105 Hyderabad\nlocationNames: Hyderabad\nremote: true",
+      "match_score": 10.84,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T08:39:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.01,
+            "overlap": 12.91,
+            "combined": 10.18
+          },
+          "backend": {
+            "cosine": 9.85,
+            "overlap": 13.16,
+            "combined": 10.85
+          },
+          "frontend": {
+            "cosine": 7.19,
+            "overlap": 13.59,
+            "combined": 9.11
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 9.85,
+        "keyword_overlap_score": 13.16,
+        "final_score": 10.84,
+        "top_keywords": [
+          {
+            "term": "using",
+            "weight": 0.1568
+          },
+          {
+            "term": "backend",
+            "weight": 0.1539
+          },
+          {
+            "term": "experience",
+            "weight": 0.1539
+          },
+          {
+            "term": "python",
+            "weight": 0.1539
+          },
+          {
+            "term": "high",
+            "weight": 0.1255
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c6e4e779839d56b31b6a4c975a25e61a",
+      "source": "wellfound",
+      "company": "FreJun",
+      "role": "Frontend Developer",
+      "url": "https://wellfound.com/jobs/4793783-frontend-developer",
+      "jd_text": "WE'RE HIRING | Frontend Developer (React + Vite) – Full-Time | Remote | FreJun\n\nFreJun is hiring a Frontend Developer with 1–3 years of experience to build and maintain responsive, performant web applications using React and Vite.\n\nIf you write clean, maintainable code, have a strong grasp of modern JavaScript/TypeScript, and care about how an interface actually feels to use, we'd love to hear from you.\n\nROLE DETAILS\n\n- Role: Frontend Developer (React + Vite)\n- Experience: 1–3 Years\n- Employment: Full-Time\n- Department: Engineering\n- Location: Remote / Work From Home\n- CTC: ₹4–7 LPA\n\nWHAT YOU'LL DO\n\n- Build and maintain single-page applications using React, Vite, and TypeScript.\n- Translate designs and wireframes into responsive, pixel-accurate UI components.\n- Implement and maintain application state using Redux (Redux Toolkit) or an equivalent library.\n- Maintain reusable component libraries and shared utilities.\n- Integrate REST APIs and handle asynchronous data flows, loading states, and error handling.\n- Optimize applications for speed, bundle size, and rendering performance.\n- Troubleshoot and debug cross-browser and cross-device issues.\n- Collaborate with backend engineers, designers, and product stakeholders to define and ship new features.\n- Participate in code reviews and contribute to frontend coding standards.\n\nWHAT WE'RE LOOKING FOR\n\n- Strong proficiency in JavaScript (ES6+) and TypeScript.\n- Hands-on experience with React, including hooks and component lifecycle.\n- Experience with Vite (or comparable build tooling such as Webpack) and modern build pipelines.\n- Solid CSS skills, including responsive design and preprocessors or utility frameworks.\n- Experience with a state management library, preferably Redux / Redux Toolkit.\n- Experience consuming RESTful APIs and integrating with backend services.\n- Working knowledge of Git and collaborative branching workflows.\n- Familiarity with browser developer tools for debugging and profiling.\n\nGOOD TO HAVE\n\n- Familiarity with WebSockets, WebRTC, or other real-time communication technologies.\n- Exposure to CI/CD pipelines and frontend deployment.\n- Familiarity with monitoring and error tracking tools.\n- Strong problem-solving skills and attention to detail.\n- Excellent communication and teamwork skills.\n\nWHAT WE OFFER\n\n- Competitive salary and benefits.\n- Flexible work hours and remote work opportunities.\n- A collaborative and innovative work environment.\n- The opportunity to work on products at scale with modern frontend tooling.\n\nHOW TO APPLY : https://frejun-app.notion.site/348f1d431dde81f89259c0c2adb04807?pvs=105 Hyderabad\nlocationNames: Hyderabad\nremote: true",
+      "match_score": 10.06,
+      "resume_variant": "frontend",
+      "draft_answer": "I've consistently built responsive and performant applications using React and modern build tooling, notably owning client-facing modules and reducing API fetch latency by 98% to directly improve perceived UI responsiveness. I excel at integrating REST APIs and, caring about how an interface feels to use, have directly enhanced active client user experience by cutting real-time data refresh delays by 30 seconds.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-08T08:39:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.59,
+            "overlap": 9.93,
+            "combined": 8.3
+          },
+          "backend": {
+            "cosine": 6.26,
+            "overlap": 9.77,
+            "combined": 7.31
+          },
+          "frontend": {
+            "cosine": 8.96,
+            "overlap": 12.62,
+            "combined": 10.06
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 8.96,
+        "keyword_overlap_score": 12.62,
+        "final_score": 10.06,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.2162
+          },
+          {
+            "term": "experience",
+            "weight": 0.1515
+          },
+          {
+            "term": "react",
+            "weight": 0.1263
+          },
+          {
+            "term": "applications",
+            "weight": 0.0758
+          },
+          {
+            "term": "skills",
+            "weight": 0.0758
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-08T08:42:58+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "bcfe80815162485aaf3e7ed3820d23c8",
       "source": "yc",
