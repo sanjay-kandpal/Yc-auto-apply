@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-10-07T22:56:50+00:00",
+  "exported_at": "2026-10-08T04:40:29+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 831,
+    "discovered": 833,
     "pending_approval": 210,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "bcfe80815162485aaf3e7ed3820d23c8",
+      "source": "yc",
+      "company": "Superset",
+      "role": "Founding Engineer",
+      "url": "https://www.workatastartup.com/jobs/91489",
+      "jd_text": "Superset is building self-improving software. It starts with giving engineers the best tools that adapt to their needs over time. Today, tens of thousands of engineers run Superset as their primary IDE, at companies like Wix, DoorDash, and Netflix. \n\nWe're building a flat and talent-dense team, and we're looking for people who have crazy ideas and are crazy enough to ship them. If you want to build a product you love to use, come build it with us.\n\n### **About the role**\n\nWe are looking for a founding engineer who will own a large chunk of the product suite from idea to production. This role is perfect for someone who works well autonomously, ships quickly, and has strong opinions. \n\n### **What you'll do**\n\n* Own large product features end to end. You’ll likely ship a feature to production in your first few days. \n* Build in any of our product surfaces: agent, cloud, terminal, mobile, factory. You’ll have to get down to the pty, stream transport level up to building UI.\n* Set up systems and processes to help the team ship faster.\n\nWe’re a source-available company, so your work is public from day one.\n\n### **About us**\n\nThe team includes 3 ex-YC CTOs, building a product that we love to use. We believe in hiring the smartest people and trust them to own the work. We’re building a talent dense, deeply technical team. We like to win, ship, and have fun. \n\n### **You are a fit if**\n\n* You have been a founder, or early employee at a startup.\n* You have shipped complex agentic products or infrastructure\n* You use coding agents daily and have strong opinions about the future of building with agents.\n* You can work in person in SF five days a week\n\n### **Benefits**\n\nWe currently offer our employees the following plans at no cost:\n\n* Healthcare: Kaiser Platinum 90 HMO 0/10\n* Dental: Guardian 1500\n* 401(k): Guideline\n\nIf you need another plan we are happy to work with you. We also offer unlimited time off, $5K desk stipend, free meals in the office. San Francisco, CA, US jobs_skill 99 PostgreSQL 79 jobs_skill 111 React 174 jobs_skill 138 TypeScript 45 jobs_skill 311 Next.js 0 jobs_skill 331 AI Agents 0 fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 2",
+      "match_score": 5.89,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T04:40:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.16,
+            "overlap": 6.29,
+            "combined": 4.8
+          },
+          "backend": {
+            "cosine": 3.02,
+            "overlap": 6.39,
+            "combined": 4.03
+          },
+          "frontend": {
+            "cosine": 5.09,
+            "overlap": 7.77,
+            "combined": 5.9
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 5.09,
+        "keyword_overlap_score": 7.77,
+        "final_score": 5.89,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.0672
+          },
+          {
+            "term": "engineer",
+            "weight": 0.055
+          },
+          {
+            "term": "production",
+            "weight": 0.055
+          },
+          {
+            "term": "time",
+            "weight": 0.055
+          },
+          {
+            "term": "improving",
+            "weight": 0.0415
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "da8743376520f6ec8d911e559da0f7ef",
+      "source": "yc",
+      "company": "Superset",
+      "role": "Founding Design Engineer",
+      "url": "https://www.workatastartup.com/jobs/109607",
+      "jd_text": "## About Superset\n\nSuperset is building self-improving software. It starts with giving engineers the best tools that adapt to their needs over time. Today, tens of thousands of engineers run Superset as their primary IDE, at companies like Wix, DoorDash, and Netflix.\n\nWe're building a flat and talent-dense team, and we're looking for people who have crazy ideas and are crazy enough to ship them. If you want to build a product you love to use, come build it with us.\n\n## About the role\n\nAs agents take on more of the coding, how should people direct the work, understand what’s happening, and decide what ships? We’re looking for a founding design engineer to help define that experience.\n\nYou’ll partner closely with our CPO to shape the product, owning design and frontend implementation from early exploration through production in React and TypeScript. You’ll also define how Superset presents itself to the world through our brand and website.\n\n## What you’ll do\n\n* Design and build the workflows engineers use to coordinate agents, understand their progress, step in when needed, and review their work.\n* Own our visual direction across the product, website, and launch pages.\n* Prototype quickly, then refine typography, motion, keyboard interactions, and accessibility.\n* Talk directly with users, use feedback and product data to guide decisions, and improve the experience after it ships.\n* Build design systems, reusable components, and interaction patterns that help the team and coding agents ship consistent interfaces.\n\nIn your first 90 days, you’ll establish our visual direction, launch a new homepage, and ship a meaningful improvement to the product experience.\n\n## About you\n\n* You’ve shipped polished interfaces and can articulate design decisions and process.\n* You bring strong visual and interaction craft and have made technical or data-rich products understandable without removing the control advanced users need.\n* You have strong visual taste and can move between Figma and working prototypes built with coding agents.\n* You can build and debug production UI with React, TypeScript, CSS, and Tailwind.\n* You use coding agents daily and can work independently.\n* You can work in person in San Francisco five days a week.\n\n## Bonus if you:\n\n* Have experience with dev tools, chat applications, collaborative/multiplayer design tools\n* Have shipped AI or agent experiences, especially workflows that move between human approval and autonomous action.\n* Have an engineering background or experience building agent-facing interfaces\n\n## About us\n\nWe’re a small team founded by three former YC CTOs, backed by $11.5 million from some of the best investors in the Valley. We built Superset in Superset, so we use what we ship every day. We’re source-available, so your work will be public and used by a community of engineers.\n\nWe believe design will play a defining role in how people build software with agents. You’ll work closely with our CPO and founders, with the ownership to challenge assumptions, shape the product, and take ideas into production.\n\n## Compensation and benefits\n\n$175k–$225k base plus 1.0%–1.5% equity.\n\nWe offer medical and dental coverage, a Guideline 401(k), unlimited time off, a $5k desk stipend, and meals in the office.\n\n## Apply\n\nShare your portfolio and a shipped project you’re proud of. Describe your contribution, design decisions, and what you learned. Include a live demo and GitHub, repo, or PR links where available. San Francisco, CA, US jobs_skill 32 CSS 134 jobs_skill 111 React 174 jobs_skill 138 TypeScript 45 jobs_skill 296 Figma 0 jobs_skill 312 Tailwind 0 fulltime none\nlocations: San Francisco, CA, US\nremote: no",
+      "match_score": 7.11,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-08T04:40:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.41,
+            "overlap": 7.62,
+            "combined": 5.37
+          },
+          "backend": {
+            "cosine": 3.79,
+            "overlap": 7.52,
+            "combined": 4.91
+          },
+          "frontend": {
+            "cosine": 5.37,
+            "overlap": 11.17,
+            "combined": 7.11
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 5.37,
+        "keyword_overlap_score": 11.17,
+        "final_score": 7.11,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.0958
+          },
+          {
+            "term": "production",
+            "weight": 0.0575
+          },
+          {
+            "term": "react",
+            "weight": 0.0575
+          },
+          {
+            "term": "tools",
+            "weight": 0.0575
+          },
+          {
+            "term": "built",
+            "weight": 0.0383
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "db17571c182e7d98f75ba631ecc0dbc5",
       "source": "wellfound",
