@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-09T15:03:13+00:00",
+  "exported_at": "2026-10-09T16:54:43+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 214,
-    "discovered": 844,
+    "pending_approval": 215,
+    "discovered": 845,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "33b8a0c68bfd84b204b90aadb4173877",
+      "source": "wellfound",
+      "company": "Merito",
+      "role": "Fullstack MERN Engineer",
+      "url": "https://wellfound.com/jobs/4824041-fullstack-mern-engineer",
+      "jd_text": "**About Merito :**\n\nDespite the wave of D2C brands in India, most of them are flying blind. They don't know if their unit economics are healthy. They don't know how they compare to competitors. They don't know if they're creditworthy - and neither do their investors. Merito is building the financial operating system for India's D2C seller economy. The layer of intelligence that sits between a brand and every financial decision it makes. 800+ brands (with over Rs. 6,000 Cr in sales) use Merito today. 90%+ organically. We did this with just 8 people. Apart from having marquee angels, we've just closed a Rs. 35 Cr round - with an additional future commitment of Rs. 100 Cr. Go to clickmerito.com to learn more.\n\nAre you right for this role?\n\n**Must-Have Attributes :**\n\n- Minimum experience of 2 years as a software engineer in a VC funded, Series A tech startup (including internships)\n\n- Highly proficient with TypeScript + MERN stack - MongoDB, Express.js, React.js, and Node.js\n\n- Experience with both relational (MySQL) and non-relational (MongoDB) databases\n\n- Built event driven systems in production handling 1M+ events daily (BullMQ, SQS, Kafka, or similar).\n\n- Power user of AI tools for regular coding\n\n- Based in/willing to relocate to Mumbai immediately\n\n- Available to start in less than 45 days\n\n\n**Good-to-Have Attributes :**\n\n- Working knowledge of Python for scripting or backend tasks\n\n- Built applications using foundational models such as Gemini or GPT.\n\n- Integrated LLMs into production products using Gemini, GPT or similar model\n\n- Exposure to data science libraries such as Pandas or NumPy\n\n- Experience at a company that is an ecommerce tech startup or lending fintech\n\n- Did at least 6 months of internships while in college\n\n- Degree in Computer Science with a GPA of 7.0 or higher\n\n\n**Overview of the Job :**\n\nThis is a hands-on engineering role with significant ownership over product features and the underlying tech stack.\n\n- Build, test, and ship features across the full stack\n\n- Work closely with the product and design team to translate requirements into clean, scalable code\n\n- Contribute to architectural decisions and code reviews\n\n- Maintain and improve platform performance and reliability\n\n- Support integrations with third-party platforms and APIs Mumbai\nlocationNames: Mumbai",
+      "match_score": 10.52,
+      "resume_variant": "fullstack",
+      "draft_answer": "As a full-stack engineer, I've designed microservices-based platforms with React, Express.js, and MongoDB, optimizing critical reporting APIs by integrating Redis caching to reduce fetch latency by 98% and deploying RabbitMQ as a message broker to guarantee data delivery under high load for a government regulator. My experience extends to owning end-to-end feature delivery with blue-green deployments on AKS and Azure DevOps, while leveraging AI tools for development, all of which aligns with building the financial operating system for India's D2C seller economy.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-09T16:54:22+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.49,
+            "overlap": 12.91,
+            "combined": 10.52
+          },
+          "backend": {
+            "cosine": 8.69,
+            "overlap": 12.03,
+            "combined": 9.69
+          },
+          "frontend": {
+            "cosine": 9.37,
+            "overlap": 13.59,
+            "combined": 10.64
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.49,
+        "keyword_overlap_score": 12.91,
+        "final_score": 10.52,
+        "top_keywords": [
+          {
+            "term": "stack",
+            "weight": 0.1405
+          },
+          {
+            "term": "experience",
+            "weight": 0.093
+          },
+          {
+            "term": "js",
+            "weight": 0.093
+          },
+          {
+            "term": "using",
+            "weight": 0.0758
+          },
+          {
+            "term": "built",
+            "weight": 0.062
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-09T16:54:41+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "356cd11a34a91fa86410d73b434d33a3",
+      "source": "wellfound",
+      "company": "Beyond Technologies",
+      "role": "Founding Engineer-Delivery",
+      "url": "https://wellfound.com/jobs/4824051-founding-engineer-delivery",
+      "jd_text": "Job Title: Founding Engineer-Delivery\nLocation: Chennai(Onsite)\nExperience Level: 4+yrs\nSalary Range: 10-12LPA.\n\nDescription:\nJoin a  technology-driven company building scalable AI and software solutions for modern businesses. They develop full-stack products, cloud infrastructure, AI integrations, and data-driven automation, helping startups and enterprises turn ideas into reliable, impactful technology.\n\nThis is a build-and-own role for a hands-on individual ready to take ownership of delivery, client relationships, technical architecture, and team growth. You will make architectural decisions, ensure code quality, mentor junior developers, and contribute to hands-on development, focusing on outcomes rather than just managing tasks.\n\nRequirements:\n- 5-8 years of full-stack experience (MERN preferred); comfortable across the stack, not siloed\n- Real client-facing experience – you've sat in requirement calls and owned the outcome, not relayed messages\n- A track record of building and owning something end-to-end – not just maintaining what others designed\n- Startup or small-team background preferred – you're used to ambiguity, not process for its own sake\n- Some experience mentoring or leading other developers, even informally\n- Still writes code regularly – if you haven't shipped anything hands-on in 2+ years, this isn't the fit\n- Low job-hop history – we're looking for someone who wants to build something over years, not months Chennai\nlocationNames: Chennai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-09T16:54:22+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "25e77808ad9ea941a81efa0b72d3400e",
       "source": "wellfound",
