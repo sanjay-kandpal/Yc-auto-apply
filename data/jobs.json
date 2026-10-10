@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-09T22:28:56+00:00",
+  "exported_at": "2026-10-10T04:30:02+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 846,
     "pending_approval": 215,
-    "discovered": 845,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "60d22091656fceb474c33fc9cb964c55",
+      "source": "yc",
+      "company": "Evidence",
+      "role": "Software Engineer",
+      "url": "https://www.workatastartup.com/jobs/114987",
+      "jd_text": "# Software Engineer\n\nEvidence is building the new standard for business intelligence, designed for a world where humans and AI agents work together on analytics.\n\nAt the foundation is Evidence Core, our open source framework for building reports and data products as code. On top of it, we’re building Evidence Studio - a complete enterprise business intelligence platform, combining an AI analytics agent with access control, enterprise security, and governance.\n\nOur founders, Adam and Sean, spent five years building the data science group at a leading private equity firm, including developing the data infrastructure for its portfolio companies. They started Evidence out of frustration with drag-and-drop BI tools, launching an open source project which became one of the earliest BI-as-code products:  \n\nAt Evidence, our goal is to replace the drag-and-drop BI tools of the past with a code-native, agent-driven approach to analytics - where important analytics content is version-controlled, testable, and governed.\n\n### About the company\n\nToday, Evidence is used by thousands of teams - from startups to Fortune 100 companies and governments. Customers trust us with critical customer-facing and company-wide analytics, often replacing tools like Tableau and Power BI.\n\nOur open source project has 7,000 GitHub stars and a community of thousands of data professionals. We’re backed by Y Combinator, SV Angel, A Capital, and founders of companies like dbt and PagerDuty. We have growing revenue and years of runway.\n\nWe’ve gotten here with a deliberately small team and an extremely high bar for the people we hire. We believe exceptional engineers, amplified by increasingly capable AI agents, can accomplish far more than was possible even a few years ago. We’re keeping that philosophy as we grow, so the people who join now will have enormous influence over what Evidence becomes.\n\n### How we work\n\nWe’re currently rethinking how we build software, moving toward a development process where agents take on most of the software lifecycle. We believe it’s possible to automate almost all of this work, freeing us to focus on the parts that require the most judgement, creativity, and product thinking. \n\nOur development process will change as AI improves, but our core principles remain the same:\n\n* **We take care of our customers.** We’re exceptionally responsive and stay close to customers until their problems are solved. We probably take this further than is reasonable, and we like it that way.\n* **We’re obsessed with product quality.** We care about the details and put a huge amount of effort into making our work look beautiful and feel smooth to use.\n* **We move fast and finish things.** We bias toward action and care about getting useful things into users’ hands as soon as we can.\n* **We avoid meetings.** The best work gets done when you have time and space to focus, so we try to make that our default work environment. We have one team meeting per week, and that’s it.\n* **We’re data-driven.** We instrument almost everything, track the metrics that matter, and use data to understand what’s working.\n* **We keep raising the bar.** We’re constantly looking for ways to improve our software development process, and expect everyone on the team to suggest and make improvements when they see them.\n\n### What you'll do\n\nEvidence has a broad technical surface area, including a multi-source query engine, SQL parser and planner, visualization library, agent harness, collaborative web IDE, code-driven access control system, and more. There are a lot of interesting and valuable engineering problems to solve.\n\nSome of the things you’ll do:\n\n* Work across Evidence Core and Evidence Studio.\n* Ship new features, fix bugs, and improve the performance, reliability, and security of our systems.\n* Speak directly with customers to understand problems, iterate on solutions, and demo what you build.\n* Collaborate closely with the founders on product improvements and decisions about what we build next.\n* Work primarily with TypeScript, Svelte, Bun,  Node.js, and Postgres - on everything from high-performance query infrastructure to collaborative development tools and our agent harness.\n* Use AI extensively throughout your work, and help us build systems that automate more of the development process and improve the quality of what we ship.\n\n### The kind of person we're looking for\n\n* You’re a strong software engineer who learns unusually quickly. You can reason about unfamiliar code, debug difficult problems, and quickly become productive in new technologies and systems.\n* You have extremely high standards for your own work and want to work with people who expect the same.\n* You like getting close to the problem. You’re excited to talk directly with users, understand what they’re trying to accomplish, and use what you learn to build better solutions.\n* You have a bias toward getting things done. You take ownership, move quickly, and consistently turn problems into finished work.\n* You have strong product instincts. You ask good questions, challenge assumptions, and care about getting to the right result.\n* You’re ambitious and want to take on increasingly difficult problems and more ownership as you grow.\n* You’re excited about the capabilities of AI and are constantly experimenting with new ways to move faster.\n* You probably have 1–3 years of professional software engineering experience, but we care much more about your rate of learning, judgment, and what you can do than how long you’ve been doing it.\n\nIf this sounds like you, we’d like to hear from you. Toronto, ON, CA Toronto, Ontario, CA fulltime none\nlocations: Toronto, ON, CA Toronto, Ontario, CA\nremote: yes\nmin_experience: 1",
+      "match_score": 8.74,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-10T04:29:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.78,
+            "overlap": 12.58,
+            "combined": 8.52
+          },
+          "backend": {
+            "cosine": 6.85,
+            "overlap": 13.16,
+            "combined": 8.74
+          },
+          "frontend": {
+            "cosine": 5.52,
+            "overlap": 16.02,
+            "combined": 8.67
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 6.85,
+        "keyword_overlap_score": 13.16,
+        "final_score": 8.74,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1127
+          },
+          {
+            "term": "data",
+            "weight": 0.0922
+          },
+          {
+            "term": "problems",
+            "weight": 0.0922
+          },
+          {
+            "term": "analytics",
+            "weight": 0.0768
+          },
+          {
+            "term": "code",
+            "weight": 0.0768
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "33b8a0c68bfd84b204b90aadb4173877",
       "source": "wellfound",
