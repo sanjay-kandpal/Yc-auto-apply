@@ -1,15 +1,397 @@
 {
-  "exported_at": "2026-10-10T04:30:02+00:00",
+  "exported_at": "2026-10-10T08:17:45+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 846,
-    "pending_approval": 215,
+    "discovered": 850,
+    "pending_approval": 217,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "2daa24e7f31d45802aaef06654a0390c",
+      "source": "wellfound",
+      "company": "Nexvia Technologies",
+      "role": "Data Analytics Intern",
+      "url": "https://wellfound.com/jobs/4824064-data-analytics-intern",
+      "jd_text": "# Data Analytics Intern\n\n**Company:** Nexvia Technologies Private Limited  \n**Location:** Hyderabad, Telangana, India / Remote  \n**Job Type:** Internship  \n**Work Mode:** Remote / Hybrid\n\n## About Nexvia Technologies\n\nNexvia Technologies is a technology company focused on AI-powered engineering, intelligent digital products, automation, data analytics, and cloud solutions. We help businesses turn data into actionable insights through technology and innovation.\n\n## About the Role\n\nWe are looking for a motivated and detail-oriented **Data Analytics Intern** to support data-driven decision-making through data collection, cleaning, analysis, and visualization. The ideal candidate is curious about data, enjoys solving problems, and is eager to apply analytical skills to practical business scenarios.\n\n## Responsibilities\n\n- Collect, clean, validate, and organize datasets for analysis.\n- Perform exploratory data analysis to identify trends, patterns, and business insights.\n- Write SQL queries to extract and manipulate data from databases.\n- Build interactive dashboards and reports using Power BI or Tableau.\n- Use Python libraries such as Pandas, NumPy, and Matplotlib for data analysis.\n- Track key performance indicators (KPIs) and prepare analytical reports.\n- Present findings through clear visualizations and data-driven recommendations.\n- Document analytical workflows and collaborate with team members on projects.\n\n## Required Skills\n\n- Basic knowledge of SQL and relational databases.\n- Familiarity with Microsoft Excel, including formulas, sorting, filtering, and pivot tables.\n- Understanding of data analysis and basic statistics.\n- Familiarity with Power BI or Tableau is an advantage.\n- Basic knowledge of Python and Pandas is preferred.\n- Analytical thinking, attention to detail, and problem-solving skills.\n- Good communication skills and willingness to learn.\n\n## Who Can Apply?\n\n- Students and recent graduates in Computer Science, Information Technology, Data Analytics, Statistics, or related fields.\n- Candidates interested in business intelligence, reporting, and data-driven decision-making.\n- Beginners with academic projects or foundational analytical skills are welcome to apply.\n\n## What You Will Gain\n\n- Practical exposure to data analytics workflows.\n- Experience with data cleaning, reporting, and dashboard development.\n- Opportunities to develop portfolio-ready analytical projects.\n- Experience translating raw data into actionable insights.\n- Professional feedback and opportunities to strengthen technical skills.\n\n## How to Apply\n\nInterested candidates can submit their applications through the official Nexvia Technologies careers portal.\n\n**Apply Here:** https://www.n Hyderabad\nlocationNames: Hyderabad\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-10T08:17:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "190cd8b22a69f7d08cb097126a840dd1",
+      "source": "wellfound",
+      "company": "Nexvia Technologies",
+      "role": "AI / Machine Learning Engineer",
+      "url": "https://wellfound.com/jobs/4817697-ai-machine-learning-engineer",
+      "jd_text": "### About Nexvia Technologies\n\nNexvia Technologies is an AI-powered technology and product engineering company building intelligent digital products, automation solutions, data platforms, and cloud technologies.\n\n### About the Internship\n\nWe are looking for motivated students and freshers interested in Artificial Intelligence and Machine Learning to work on practical AI/ML projects and real-world technology applications.\n\n### Responsibilities\n\n- Work on practical AI and machine learning projects.\n- Work with Python, data processing, and machine learning frameworks.\n- Prepare, clean, and analyze datasets.\n- Build, test, evaluate, and improve machine learning models.\n- Explore AI/ML applications including NLP, Generative AI, and LLM-based solutions.\n- Work with APIs and integrate AI/ML capabilities into applications.\n- Complete assigned technical projects and tasks.\n- Receive technical guidance and project feedback.\n\n### Requirements\n\n- Basic knowledge of Python and machine learning concepts.\n- Knowledge of NumPy, Pandas, and Scikit-learn or similar libraries.\n- Understanding of data preprocessing, model training, and evaluation.\n- Familiarity with Git and APIs is an advantage.\n- Knowledge of Deep Learning, NLP, Generative AI, or LLMs is a plus.\n- Students, recent graduates, and freshers are welcome.\n\n### What You’ll Gain\n\n- Practical AI/ML project experience.\n- Exposure to modern AI technologies and engineering workflows.\n- Technical guidance and project feedback.\n- Opportunity to demonstrate your skills for future career opportunities.\n\n### Apply\n\nApply through the Nexvia Technologies careers portal:\n\nhttps://www.nexviatechnologies.in/careers/internships/ai-machine-learning\n:::  Hyderabad\nlocationNames: Hyderabad\nremote: true",
+      "match_score": 7.63,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-10T08:17:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.21,
+            "overlap": 8.61,
+            "combined": 7.63
+          },
+          "backend": {
+            "cosine": 7.08,
+            "overlap": 8.65,
+            "combined": 7.55
+          },
+          "frontend": {
+            "cosine": 3.68,
+            "overlap": 9.22,
+            "combined": 5.34
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.21,
+        "keyword_overlap_score": 8.61,
+        "final_score": 7.63,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3578
+          },
+          {
+            "term": "students",
+            "weight": 0.0804
+          },
+          {
+            "term": "applications",
+            "weight": 0.0798
+          },
+          {
+            "term": "data",
+            "weight": 0.0798
+          },
+          {
+            "term": "projects",
+            "weight": 0.0798
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d4e00782a26d6018aaaa096ebc33198b",
+      "source": "wellfound",
+      "company": "xpress health",
+      "role": "Sr. Python Developer",
+      "url": "https://wellfound.com/jobs/4824076-sr-python-developer",
+      "jd_text": "**About Us:**\n\nXpress Health is a leading digital healthcare solutions provider, transforming patient care through innovation and technology. We're seeking a passionate and skilled Python Developer to join our remote tech team and contribute to cutting-edge AI projects powering our healthcare platforms.\n\n**Key Responsibilities:**\n\n* Design, develop, and maintain robust Python-based applications for AI and healthcare automation.\n* Implement and integrate AI/ML models into production systems.\n* Work with Vector Databases (e.g., Pinecone, FAISS, Milvus) to build and manage semantic search and retrieval pipelines.\n* Optimize data processing workflows for scalability and performance.\n* Collaborate with cross-functional teams including data scientists, product managers, and DevOps.\n* Write clean, modular, and well-documented code following best practices.\n* Ensure application security and data privacy compliance (especially in healthcare context).\n\n**Required Skills &amp; Experience:**\n\n* Minimum 5 years of hands-on experience in Python development.\n* At least 2 years of experience working on AI/ML projects (model development or integration).\n* Experience with Vector Databases like Pinecone, FAISS, or Milvus.\n* Strong understanding of data structures, algorithms, and system design.\n* Familiarity with libraries/frameworks like TensorFlow, PyTorch, LangChain, or OpenAI APIs is a plus.\n* Experience in developing REST APIs and working with cloud services (AWS/GCP/Azure) preferred.\n* Strong problem-solving and communication skills.\n* \n**What We Offer:**\n\n* Opportunity to work on high-impact AI projects in the healthcare domain.\n* Supportive, innovative, and collaborative work environment.\n* Learning &amp; development support. Kochi\nlocationNames: Kochi",
+      "match_score": 10.51,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience building a FastAPI/React system for a government regulator, cutting reporting API latency by 98% with Redis caching, and introducing RabbitMQ to prevent data loss under high load, directly prepares me to develop robust Python-based AI applications for digital healthcare solutions. I've also integrated open-weight LLMs locally, owned core modules of a cloud-native compliance platform, and delivered Azure DevOps CI/CD with blue-green deployments, ensuring scalable and secure integration of AI/ML models into production systems.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-10T08:17:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.47,
+            "overlap": 10.6,
+            "combined": 10.51
+          },
+          "backend": {
+            "cosine": 10.14,
+            "overlap": 10.15,
+            "combined": 10.14
+          },
+          "frontend": {
+            "cosine": 7.04,
+            "overlap": 12.62,
+            "combined": 8.72
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.47,
+        "keyword_overlap_score": 10.6,
+        "final_score": 10.51,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2134
+          },
+          {
+            "term": "experience",
+            "weight": 0.1745
+          },
+          {
+            "term": "data",
+            "weight": 0.1396
+          },
+          {
+            "term": "python",
+            "weight": 0.1396
+          },
+          {
+            "term": "projects",
+            "weight": 0.1047
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-10T08:17:42+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7219470f3ddfa8a7c37ae3ea172cfd5a",
+      "source": "wellfound",
+      "company": "Sirenstack",
+      "role": "Computer Vision / Geospatial AI Engineer",
+      "url": "https://wellfound.com/jobs/4823688-computer-vision-geospatial-ai-engineer",
+      "jd_text": "**Want to build AI systems from scratch instead of being another developer in a large team?**\n\nWe’re looking for a **Computer Vision / Geospatial AI Engineer in Udaipur, Rajasthan** to join us.\n\nWe’re an early-stage startup working at the intersection of **AI + geospatial intelligence**, solving real-world problems across **cities, agriculture and the environment**.\n\nThis is a hands-on role. No layers of management, no fixed playbook and no “just work on your assigned module.”\n\nYou’ll work directly with us on actual products and research problems.\n\n**What you’ll actually work on:**\n- **Python + PyTorch** for Computer Vision / ML\n- **Satellite imagery &amp; geospatial data** using tools such as STAC, Sentinel-2 and PlanetScope\n- **React + APIs** to turn models into usable applications\n- Prototyping, experimentation and taking ideas from **notebook → working product**\n\n**Who we’re looking for:**\n- Strong programming fundamentals — **Python + React**\n- Exposure to **Computer Vision, ML, Geospatial or Remote Sensing**\n- Working knowledge of **PyTorch/TensorFlow and Git**\n- Curious, hands-on and comfortable figuring things out independently\n- **Recent graduates are welcome**\n\nWe’re just getting started, so this is **not a traditional corporate job**. The compensation is modest at this stage, but you’ll get **real ownership, direct exposure to the founders, and a lot of opportunity to learn and build from the ground up**.\n\n📍 **Udaipur, Rajasthan**  \nWe’re primarily looking for people **already based in Udaipur**.\n\n**If building something from zero sounds more interesting than maintaining something that already exists, lets connect.** Udaipur\nlocationNames: Udaipur",
+      "match_score": 6.54,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-10T08:17:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.93,
+            "overlap": 7.95,
+            "combined": 6.53
+          },
+          "backend": {
+            "cosine": 5.62,
+            "overlap": 8.27,
+            "combined": 6.42
+          },
+          "frontend": {
+            "cosine": 4.98,
+            "overlap": 9.71,
+            "combined": 6.4
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.93,
+        "keyword_overlap_score": 7.95,
+        "final_score": 6.54,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1673
+          },
+          {
+            "term": "computer",
+            "weight": 0.1367
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0684
+          },
+          {
+            "term": "problems",
+            "weight": 0.0684
+          },
+          {
+            "term": "python",
+            "weight": 0.0684
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "14627551d257671f2b521cbf477f4e31",
+      "source": "wellfound",
+      "company": "Medflix",
+      "role": "Software Developer",
+      "url": "https://wellfound.com/jobs/4824002-software-developer",
+      "jd_text": "Company Description\n\nMedflix is a learning platform built for doctors, helping them stay updated with current medical practices and build new skills through live talks, quizzes, courses, and events. We work with leading pharmaceutical companies and healthcare organizations to create engaging medical education experiences for doctors.\n\nOur goal is to build the world's top learning platform for doctors and contribute to better patient care by making high-quality medical knowledge more accessible, engaging, and actionable.\n\nRole Description\n\nAs a Software Developer at Medflix, you will design, develop, and maintain web and mobile applications that power our doctor learning platform. You will work closely with product, design, engineering, and business teams to turn ideas and requirements into scalable, reliable, and user-friendly products.\n\nYour responsibilities will include developing new features, building APIs and backend services, optimizing application performance, debugging production issues, and contributing to architectural and technical decisions. You will also participate in code reviews and help improve engineering practices and development processes.\n\nKey Responsibilities\n\nDevelop and maintain applications using React, React Native, Next.js, and Express.js\nBuild scalable APIs, backend services, and web/mobile features\nTranslate product requirements into clean, maintainable implementations\nDebug and resolve application and production issues\nOptimize application performance, reliability, and scalability\nWork with databases, third-party APIs, and cloud services\nParticipate in code reviews and maintain engineering standards\nCollaborate with product, design, and content teams\nContribute to technical and architectural decisions\nContinuously learn and evaluate new technologies relevant to the product\n\n\nQualifications\n\nStrong foundation in Computer Science, including data structures, algorithms, and software design principles\nHands-on experience with software development and building production applications\nProficiency in JavaScript/TypeScript\nExperience with one or more of React, React Native, Next.js, or Express.js\nFamiliarity with RESTful APIs and database technologies\nUnderstanding of Git and collaborative software development workflows\nAbility to analyze requirements, break down complex problems, and develop effective technical solutions\nStrong debugging and problem-solving skills\nGood communication and collaboration skills\nBachelor's degree in Computer Science, Engineering, or a related field, or equivalent practical experience\nExperience with cloud platforms, real-time applications, streaming, or distributed systems is a plus\nFreshers are welcome to apply. Strong projects, internships, open-source contributions, or demonstrated programming skills will be considered. Ahmedabad\nlocationNames: Ahmedabad\nremote: true",
+      "match_score": 14.56,
+      "resume_variant": "frontend",
+      "draft_answer": "I've built and optimized full-stack applications with React, Next.js, and Express.js, significantly improving perceived UI responsiveness and cutting API fetch latency by 98% through Redis caching. My experience delivering cloud-native compliance platforms and real-time features, coupled with a focus on user experience across diverse client groups, aligns with building scalable and engaging learning experiences for doctors.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-10T08:17:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.43,
+            "overlap": 14.57,
+            "combined": 12.37
+          },
+          "backend": {
+            "cosine": 11.11,
+            "overlap": 16.17,
+            "combined": 12.63
+          },
+          "frontend": {
+            "cosine": 12.9,
+            "overlap": 18.45,
+            "combined": 14.56
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 12.9,
+        "keyword_overlap_score": 18.45,
+        "final_score": 14.56,
+        "top_keywords": [
+          {
+            "term": "apis",
+            "weight": 0.1024
+          },
+          {
+            "term": "applications",
+            "weight": 0.1024
+          },
+          {
+            "term": "experience",
+            "weight": 0.1024
+          },
+          {
+            "term": "js",
+            "weight": 0.1024
+          },
+          {
+            "term": "react",
+            "weight": 0.1024
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-10T08:17:27+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b29cf2fd0d12c4e889ac38f3e92c3293",
+      "source": "wellfound",
+      "company": "LIBERIN TECHNOLOGIES",
+      "role": "Supervised Learning QA – Retail Analytics Focus",
+      "url": "https://wellfound.com/jobs/4821610-supervised-learning-qa-retail-analytics-focus",
+      "jd_text": "Supervised Learning QA – Retail Analytics Focus\n\nPosition Summary:\nWe are seeking a Supervised Learning QA in our ReBotics team, a platform dedicated to reshaping retail for both shoppers and businesses. As a Supervised Learning QA, you will partner with technical teams, ensuring quality in our agile annotation workflows, while also driving data-driven insights for retail.\nKey Responsibilities:\n- Annotate product images using custom tools to support advanced computer vision.\n- Analyze product performance metrics and identify key retail trends across categories.\n- Optimize annotation workflows to ensure efficient agile sprints.\n- Generate BI reports on sales, trends, and category performance to guide strategic decisions.\n- Identify, analyze, and document any bugs or errors in annotation workflows.\n- Coordinate closely with cross-functional stakeholders to understand project requirements and align QA goals.\n- Suggest solutions to improve product quality and customer satisfaction.\nAcademic &amp; Experience Requirements:\n- bachelor's in computer applications, with 2 to 3 years of experience in the retail domain, especially in image labeling, 2D/3D annotation, and data labeling.\n- Proficiency with computer vision annotation tools like CVAT.\n- Strong analytical and problem-solving skills to interpret product performance and drive category insights.\n- Ability to work in a fast-paced, collaborative environment and coordinate effectively with stakeholders.\n- Exceptional attention to detail and ability to deliver high-quality data under tight deadlines.\nDesired Skills:\n- Proficiency with CVAT, BI tools (e.g., Tableau, Power BI), and other data presentation platforms.\n- Experience in 2D and 3D annotation and labeling tools.\n- Excellent oral and written communication skills.\n- Passion for technology and continuous learning.\n- Exceptional attention to detail.\nValues Sought:\n- Integrity\n- Passion\n- Empathy\n- Tenacity\n- Creativity\nWhy Join Us:\nBe part of an innovative, fast-growing tech company with stable growth, global collaboration across five countries, a cool workspace, and a competitive salary. At ReTech, we value diversity and inclusion, and we can’t wait to grow with you. Noida\nlocationNames: Noida\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-10T08:17:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "60d22091656fceb474c33fc9cb964c55",
       "source": "yc",
