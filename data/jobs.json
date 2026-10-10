@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-10T14:18:30+00:00",
+  "exported_at": "2026-10-10T15:48:24+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 850,
+    "discovered": 851,
     "pending_approval": 217,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "a6daad72eaebd0f40e8a3fcc2845c187",
+      "source": "wellfound",
+      "company": "NovaExchange",
+      "role": "Backend Engineer (Python) – 100% Projects Token Compensation",
+      "url": "https://wellfound.com/jobs/4781427-backend-engineer-python-100-projects-token-compensation",
+      "jd_text": "We are looking for python developers to help us finish and launch an acquired cryptocurrency exchange - which was running in the past. Our dedicated team has started work on making this happen. There is already some traction of parties that will partner with us.\n\nType: Full-time or Part-time / Contractor\nLocation: Remote (Global)\nCompensation: 100% NovaTokens (till we get financials) - confirm that you're ok with this.\n\nAre you ready to be working with us?\n\np.s.: This job has only future benefits. Rotterdam\nlocationNames: Rotterdam\nremote: true",
+      "match_score": 3.5,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-10T15:48:22+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.18,
+            "overlap": 3.64,
+            "combined": 3.32
+          },
+          "backend": {
+            "cosine": 3.55,
+            "overlap": 3.38,
+            "combined": 3.5
+          },
+          "frontend": {
+            "cosine": 2.74,
+            "overlap": 4.37,
+            "combined": 3.23
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 3.55,
+        "keyword_overlap_score": 3.38,
+        "final_score": 3.5,
+        "top_keywords": [
+          {
+            "term": "python",
+            "weight": 0.1412
+          },
+          {
+            "term": "time",
+            "weight": 0.1412
+          },
+          {
+            "term": "backend",
+            "weight": 0.0706
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0706
+          },
+          {
+            "term": "projects",
+            "weight": 0.0706
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "2daa24e7f31d45802aaef06654a0390c",
       "source": "wellfound",
