@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-10-11T04:10:57+00:00",
+  "exported_at": "2026-10-11T08:34:16+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 852,
-    "pending_approval": 217,
+    "discovered": 853,
+    "pending_approval": 218,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "a6d7afa577cea7e540e6d2d09c0b9e84",
+      "source": "wellfound",
+      "company": "ContexQ",
+      "role": "FOUNDING KNOWLEDGE GRAPH SCIENTIST (FINCRIME & AI)",
+      "url": "https://wellfound.com/jobs/4824488-founding-knowledge-graph-scientist-fincrime-ai",
+      "jd_text": "Company: ContexQ\n\nLocation: Singapore / India / Malaysia (Remote/Hybrid)\n\nAt ContexQ, we are fundamentally reshaping the emerging landscape of Contextual Decision Intelligence. We leverage cutting-edge composite AI, Vector Search, and advanced graph technology to resolve billions of entities continuously. By uncovering hidden relationships, we revolutionize how global enterprises handle fraud detection, financial crime (AML), risk management, and supply chain intelligence.\n\nWe are an ambitious, fast-moving startup taking on massive enterprise big data challenges, and we are looking for a Founding Knowledge Graph Scientist to push the boundaries of what is possible in semantic data resolution and network graph AI.\n\nThis is not a traditional corporate research role. We are looking for an elite AI researcher and practitioner with a PhD and the DNA of an entrepreneur—someone who can architect novel Graph Transformer architectures, develop cutting-edge explainable AI (XAI) models for fraud detection, and translate deep academic expertise into high-impact enterprise solutions. You will be at the forefront of designing the intelligence engine that protects global financial institutions from complex, coordinated financial crimes.\n\nTHE MISSION\n\nAs our Founding Knowledge Graph Scientist, you are the intellectual and technical force behind our core AI reasoning engine. You will bridge the gap between state-of-the-art academic research in graph neural networks and the practical, high-throughput demands of enterprise anti-money laundering (AML) and fraud detection systems.\n\nYour ultimate metric is the accuracy, efficiency, and explainability of our graph-based AI models. You will architect proprietary knowledge graph structures, implement advanced Graph Transformer models (like FraudGT or similar architectures), and create the analytical \"awe factor\" that proves to C-suite banking executives that ContexQ can catch financial crime that legacy systems miss.\n\nWHAT YOU WILL DO\n\n• Architect the Graph: Design and optimize large-scale financial knowledge graphs that capture complex temporal, spatial, and transactional relationships across billions of nodes and edges to detect collusion and laundering behaviors.\n\n• Pioneer AI Models: Develop, train, and deploy advanced Graph Neural Networks (GNNs) and Graph Transformers specifically tailored for highly imbalanced, large-scale financial data.\n\n• Drive XAI in FinCrime: Champion model transparency by building explainable AI mechanisms that allow compliance officers to understand exactly why a transaction or entity was flagged, ensuring strict adherence to global banking regulations.\n\n• Bridge Research &amp; Product: Act as the crucial link between theoretical AI research and our core product roadmap. Publish findings, stay ahead of state-of-the-art fraud detection methodologies, and directly implement these breakthroughs into the ContexQ platform.\n\n• Collaborate Across Teams: Work seamlessly with Data Engineering, MLOps, and Business Analysts to ensure your graph models are deployed efficiently, scale securely, and directly address the pain points of our enterprise clients.\n\nWHO YOU ARE\n\n• The Deep Expert: You hold a PhD in Computer Science, Artificial Intelligence, Machine Learning, Applied Mathematics, or a closely related field, with a heavy research focus on Knowledge Graphs, Graph Neural Networks, or Graph Transformers.\n\n• Domain Specialized: You possess deep expertise (either academic or applied) in utilizing graph analytics for anomaly detection, specifically within the realms of Financial Crime, Fraud detection, or cybersecurity.\n\n• A Proven Builder: You have a track record of translating complex AI theory into functional code (PyTorch, PyTorch Geometric, DGL). You are not just a theoretician; you can build, test, and optimize models for real-world deployment.\n\n• A Master Communicator: You can distill complex mathematical concepts and graph topologies into clear, compelling narratives for both highly technical engineering teams and non-technical business stakeholders.\n\nCOMPENSATION &amp; THE CONTEXQ UPSIDE\n\nWe are explicitly looking for top-tier research and engineering talent who wants to bet on themselves, act as true owners, and build foundational technology.\n\nWe structure compensation to heavily reward dedication, innovation, and long-term impact. In exchange for your deep expertise and technical leadership, we offer competitive compensation, significant early-stage foundational equity worth up to $1,000,000 USD over time, a high-impact remote-first culture, and a structure designed to directly align your wealth creation with the platform's enterprise valuation.\n\nThis role is designed for an AI pioneer who wants real skin in the game. If you are looking for a purely academic sandbox with no commercial pressure, this isn't for you. If you want the massive upside of building an enterprise AI juggernaut from the ground up and sharing directly in the value you create by stopping global financial crime, you belong at ContexQ. Kuala Lumpur India Gate Singapore\nlocationNames: Kuala Lumpur India Gate Singapore\nremote: true",
+      "match_score": 6.44,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-11T08:34:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.26,
+            "overlap": 9.93,
+            "combined": 5.97
+          },
+          "backend": {
+            "cosine": 4.69,
+            "overlap": 10.53,
+            "combined": 6.44
+          },
+          "frontend": {
+            "cosine": 2.78,
+            "overlap": 12.14,
+            "combined": 5.59
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 4.69,
+        "keyword_overlap_score": 10.53,
+        "final_score": 6.44,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.224
+          },
+          {
+            "term": "directly",
+            "weight": 0.0689
+          },
+          {
+            "term": "data",
+            "weight": 0.0564
+          },
+          {
+            "term": "technical",
+            "weight": 0.0564
+          },
+          {
+            "term": "high",
+            "weight": 0.0517
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c22e43befa1961ac7b2c73e2e4b9a643",
+      "source": "wellfound",
+      "company": "Catalysk Innovations",
+      "role": "ML Engineer - Catalysk (Climate Fintech)",
+      "url": "https://wellfound.com/jobs/4814816-ml-engineer-catalysk-climate-fintech",
+      "jd_text": "Catalysk isn’t just another startup — it’s a paradigm shift. We’re building the world’s first Sustainability Score for Individuals — like a credit score, but for your climate footprint. By converting electricity, water, commute, and spending data into an actionable rating, we’re creating the foundation for green finance, insurance, and incentives. At population scale.\n\nYou’ll be part of an early-stage team where your work is visible, impactful, and globally relevant.\n\nAbout the Role\nWe’re looking for a curious, analytical, and experienced ML Engineer to join our team and turn raw data — especially financial transactions and household consumption data — into actionable insights. As we’re building a first-of-its-kind product, we need people who like a challenge and can think creatively. \n\nYou will work closely with our existing teams across merchant categorisation, machine learning and analytics, contributing directly where your data, NLP or ML expertise is useful.\n\nThis is a hands-on role where you’ll own the project end-to-end — from data wrangling to modeling to communicating results.\n\n**Key Responsibilities**\n\nMerchant categorisation &amp; NLP (primary focus)\n* Lead the technical approach to improving transaction narration understanding, merchant/entity extraction and classification, working alongside and guiding the existing categorisation team\n* Build and evaluate transformer-based and other models, and decide where rules, models, LLMs or human review fit best\n* Define and maintain training and evaluation datasets, with accuracy tracked by segment\n* Analyse classification errors and drive fixes in the data, features or models\n* Improve merchant mappings, aliases and transaction intelligence\n* Review the team's work, set evaluation standards, and help develop junior colleagues\n\nProduction and feedback loops\n* Deploy and monitor models, tracking drift and confidence as data volumes and client numbers grow\n* Turn human-review corrections into retraining data and measure the improvement\n\nData, analytics and new signals\n* Provide reliable datasets and support analytics where needed, with scope expanding as the team grows\n* Explore new transaction signals and datasets that could improve Catalysk's models\n\n\n**Who We’re Looking For**\n* 3-5 years building and shipping ML systems into production, ideally classification, entity matching, or record linkage on messy real-world data\n* Strong Python and SQL, and comfort with the full loop: data prep, training, evaluation, deployment, monitoring\n* Experience designing evaluation sets and measuring performance by segment, not just a single headline accuracy number\n* Practical judgement about when to use rules, when to use a model, and when to send something to a human\n* Ability to work with imperfect labels and turn reviewer corrections into better training data\n* Experience working with BERT, LLM and Generative AI technologies — fine-tuning, prompt engineering, or integrating models via APIs (e.g., OpenAI API, Hugging Face Transformers).\n* Strong communication skills — ability to explain technical concepts to non-technical stakeholders.\n\nBonus: \n* Experience working with financial data and/or on sustainability.\n* Familiarity with retrieval-augmented generation (RAG), embeddings, and vector databases for building intelligent applications.\n* Experience with data visualization tools (e.g., Tableau, Power BI, or Plotly), cloud platforms (AWS / GCP), or productionizing models.\n* Interest in climate or sustainability, though domain knowledge isn't required; we'll teach the methodology\n\n\n**Why You’ll Love This Role**\n* Real Impact – Work on meaningful problems — they’ll shape how people and institutions act on climate. At population-scale\n* High Visibility – Your work will directly feed into products used by banks, regulators, and corporations.\n* Ownership – You’ll have freedom to experiment and design impactful models\n* Learning Curve – Exposure to cutting-edge climate science, financial data, and sustainability methodologies. Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 10.35,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience optimizing data workflows—like reducing API latency by 98% with Redis caching and validating LLM tool-calling reliability—is directly applicable to transforming raw financial transactions and household consumption data into actionable insights for the Sustainability Score. I excel at taking ownership from end-to-end, having led deployments with blue-green releases and diagnosed production concurrency risks, which translates to building, monitoring, and iterating on classification models based on feedback for Catalysk Innovations.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-11T08:34:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.4,
+            "overlap": 12.58,
+            "combined": 10.36
+          },
+          "backend": {
+            "cosine": 8.95,
+            "overlap": 12.03,
+            "combined": 9.87
+          },
+          "frontend": {
+            "cosine": 7.94,
+            "overlap": 14.56,
+            "combined": 9.93
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.4,
+        "keyword_overlap_score": 12.58,
+        "final_score": 10.35,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.286
+          },
+          {
+            "term": "team",
+            "weight": 0.144
+          },
+          {
+            "term": "experience",
+            "weight": 0.0763
+          },
+          {
+            "term": "analytics",
+            "weight": 0.0572
+          },
+          {
+            "term": "technical",
+            "weight": 0.0572
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-11T08:34:14+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "7d8230437e29f4f964748688d6bab084",
       "source": "wellfound",
