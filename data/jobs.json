@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-11T19:59:46+00:00",
+  "exported_at": "2026-10-11T21:43:03+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "pending_approval": 220,
     "discovered": 855,
-    "pending_approval": 219,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "5950fce82e412b7951428b9a05197532",
+      "source": "wellfound",
+      "company": "Resilio Partners",
+      "role": "Remote Web Developer (React.js, Node.js & AI Tools)",
+      "url": "https://wellfound.com/jobs/4824573-remote-web-developer-react-js-node-js-ai-tools",
+      "jd_text": "**Remote Web Developer (React.js, Node.js &amp; AI Tools)**\n\nRemote | Client Projects | Entry-Level Friendly\n\n**About the Role**\n\nWe're looking for a motivated Web Developer to help build, maintain, and improve websites, landing pages, and lightweight web applications for our clients.\n\nThis role is suitable for developers who understand the fundamentals of web development and want to become more productive by combining technical skills with modern AI tools. You'll work on practical projects, translate client requirements into functional solutions, and learn to make good technical decisions rather than simply relying on AI-generated code.\n\nWe're open to candidates with different experience levels, including those who have built personal projects and are eager to develop their professional skills.\n\n**Responsibilities**\n\n* Website &amp; Landing Page Development: Build responsive, user-friendly landing pages and websites using React.js, Next.js, HTML, CSS, JavaScript, or other suitable technologies.\n* Backend &amp; API Integration: Use Node.js and relevant tools to implement basic backend functionality, connect APIs, and integrate third-party services when required.\n* Technical Architecture: Understand the fundamentals of frontend and backend architecture, component-based design, reusable code, project structure, and how different parts of a web application communicate.\n* AI-Assisted Development: Use AI coding assistants such as Claude, Cursor, or other available tools to generate code, troubleshoot errors, explore solutions, and accelerate development.\n* Code Review &amp; Debugging: Review AI-generated code, identify potential issues, test functionality, and ensure the final implementation is reliable, maintainable, and secure.\n* Performance &amp; User Experience: Improve website responsiveness, loading speed, accessibility, and usability across desktop and mobile devices.\n* Client Requirements: Translate project briefs and client feedback into practical technical solutions, communicate progress, and deliver work according to agreed requirements.\n* Deployment &amp; Maintenance: Assist with Git-based version control, website deployment, environment configuration, and ongoing improvements.\n* Supabase &amp; Database Integration: Familiarity with Supabase, including database basics, authentication, or connecting applications to backend services. Experience is a plus, and candidates willing to learn are welcome.\n\n**Requirements**\n\nBasic understanding of HTML, CSS, JavaScript, and responsive web design.\n\nFamiliarity with React.js, Next.js, Node.js, or similar web technologies. You don't need to master every framework.\n\nUnderstanding of basic software architecture, including components, modules, APIs, and the separation of frontend and backend responsibilities.\n\nWillingness to use AI tools as development assistants while understanding, reviewing, and testing the code they produce.\n\nBasic familiarity with Git and version control, or a willingness to learn.\n\nAbility to troubleshoot problems, research solutions, and learn unfamiliar technologies independently.\n\nGood communication skills and the ability to work remotely with a team.\n\nA portfolio, GitHub repository, or personal project is an advantage, but demonstrated potential and a willingness to learn also matter.\n\n**What Makes You Stand Out?**\n\n* You've built a website, landing page, dashboard, or simple web application.\n* You know how to turn a design or written brief into a working website.\n* You can explain the code you write, including code generated with AI.\n* You understand when to use existing libraries, APIs, or services instead of building everything from scratch.\n\nYou can use AI tools to improve your workflow without compromising code quality, security, or maintainability.\n\n**🎁 More Than Just a Job Opportunity**\n\nEven if you're not selected for this role, you may still qualify to join our Career Support Program for FREE, subject to eligibility and available slots.\n\nThrough the program, you may receive:\n\n* AI Tools: Access to tools such as Claude to support your learning, productivity, and professional development.\n* Career Development Resources: Resources such as LinkedIn Premium to strengthen your professional profile and job search, subject to availability.\n* Professional Certifications: Personalized learning paths featuring courses from institutions such as Google, AWS, and MIT, depending on available courses, eligibility, and program terms.\n* Personalized Career Support: Guidance to improve your resume, develop in-demand skills, and prepare for better career opportunities.\n* Tailored Learning Paths: Recommendations based on your existing skills, career goals, and areas for improvement rather than a one-size-fits-all approach.\n\nYour application could open doors beyond this particular job. Even if you're not selected, you may still have an opportunity to develop your skills, access valuable resources, and prepare for your next career move.\n\nFor program details, eligibility, and available benefits, check: https://jethro-remote-careers.vercel.app/\n\n**Interested?**\n\nIf you're passionate about web development, curious about AI-powered workflows, and ready to build practical solutions for real client needs, we'd love to hear from you.\n\nApply and show us what you've built, what you can do, or what you're excited to learn.\n\n**Questions?**\nFor a quicker response, contact Jethro at jethro.lim@resilio-partners.com. Michigan\nlocationNames: Michigan\nremote: true",
+      "match_score": 15.57,
+      "resume_variant": "frontend",
+      "draft_answer": "I've built and optimized React/Next.js front ends and Node.js backends for client projects, cutting data load times by over 50% and improving UI responsiveness from 500ms to 10ms. Leveraging tools like Cursor, I've also containerized and deployed web applications on Azure, and translated client requirements into functional solutions for 80+ organizations.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-11T21:42:48+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 13.61,
+            "overlap": 15.89,
+            "combined": 14.29
+          },
+          "backend": {
+            "cosine": 13.27,
+            "overlap": 15.79,
+            "combined": 14.03
+          },
+          "frontend": {
+            "cosine": 14.13,
+            "overlap": 18.93,
+            "combined": 15.57
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 14.13,
+        "keyword_overlap_score": 18.93,
+        "final_score": 15.57,
+        "top_keywords": [
+          {
+            "term": "js",
+            "weight": 0.1526
+          },
+          {
+            "term": "code",
+            "weight": 0.1373
+          },
+          {
+            "term": "tools",
+            "weight": 0.1373
+          },
+          {
+            "term": "skills",
+            "weight": 0.0916
+          },
+          {
+            "term": "backend",
+            "weight": 0.0763
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-11T21:43:00+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "a8662ab3cb547c4d99b7a6bbb60f0e68",
       "source": "wellfound",
