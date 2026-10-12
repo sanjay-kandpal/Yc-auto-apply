@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-12T17:27:34+00:00",
+  "exported_at": "2026-10-12T19:43:40+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 223,
-    "discovered": 859,
+    "pending_approval": 224,
+    "discovered": 860,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "ae6dbe35a32d1e3edc769ef7c34df1d2",
+      "source": "wellfound",
+      "company": "Insight Consultants",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4824775-software-engineer",
+      "jd_text": "# Job Description: Quickbase Application Developer &amp; Python Engineer\n\n**Company:** Insight Consultants  \n**Role:** Quickbase Application Developer &amp; Python Engineer  \n**Employment Type:** Full-time or Contract (based on experience)  \n**Location:** Bangalore, India\n\n## About the Role\n\nInsight Consultants is looking for a hands-on developer to manage, maintain, and continuously improve an existing Quickbase application. This role goes beyond application support. We want someone who can understand business requirements, identify opportunities to improve existing processes, develop new functionality, and use Python to build integrations, automate tasks, and extend the application's capabilities.\n\nThe ideal candidate combines strong Quickbase development skills with Python programming experience and a practical, problem-solving mindset. They should be comfortable working with an existing application, understanding how it works, and progressively making it more efficient, scalable, and user-friendly.\n\n## Key Responsibilities\n\n### 1. Quickbase Application Management\n- Take ownership of the existing Quickbase application, including its tables, relationships, forms, reports, dashboards, and workflows.\n- Maintain and troubleshoot existing functionality, resolve issues, and ensure the application operates reliably.\n- Manage application enhancements, user access, permissions, and configuration changes.\n- Review the existing application architecture and identify opportunities to improve performance, usability, and maintainability.\n- Document application structure, business rules, workflows, and technical changes.\n\n### 2. Application Enhancements and Development\n- Gather and translate business requirements into practical Quickbase solutions.\n- Develop new features, forms, reports, dashboards, automations, and workflows.\n- Improve existing business processes by reducing manual work and eliminating unnecessary steps.\n- Identify gaps in the current application and proactively recommend improvements.\n- Test enhancements, troubleshoot defects, and implement changes with minimal disruption to existing operations.\n\n### 3. Python Development and Automation\n- Develop Python scripts and utilities to automate repetitive tasks and business processes.\n- Build integrations between Quickbase and other applications, APIs, databases, and data sources.\n- Use Python to perform data validation, transformation, reconciliation, and bulk data processing.\n- Develop custom functionality where Quickbase's native capabilities are insufficient or where an external service would be more effective.\n- Write maintainable, reusable, and well-documented code.\n\n### 4. Integrations and Data Management\n- Work with Quickbase APIs and REST APIs to exchange data with external systems.\n- Design and maintain reliable data import, export, synchronization, and integration processes.\n- Monitor data quality, investigate discrepancies, and implement validation and error-handling mechanisms.\n- Ensure appropriate handling of credentials, access permissions, and sensitive business data.\n\n### 5. Continuous Improvement\n- Work with business stakeholders to understand operational challenges and improvement opportunities.\n- Evaluate whether a requirement is best addressed through Quickbase configuration, Python development, or integration with another system.\n- Recommend solutions that improve productivity, reduce errors, and support future business growth.\n- Maintain technical documentation and communicate progress, issues, and recommendations clearly.\n\n## Required Qualifications\n- Demonstrated experience developing and maintaining applications using **Quickbase**.\n- Proficiency in **Python**, including writing scripts, working with data, debugging, and building automation.\n- Experience working with REST APIs, JSON, authentication, and API integrations.\n- Understanding of relational databases, data structures, and data relationships.\n- Experience troubleshooting existing applications and enhancing functionality without disrupting established workflows.\n- Strong analytical and problem-solving skills.\n- Ability to understand business requirements and translate them into technical solutions.\n- Good communication skills and the ability to work independently.\n\n## Preferred Qualifications\n- Experience with Quickbase pipelines, formula fields, relationships, reports, and application administration.\n- Experience with Quickbase API integrations and advanced application customization.\n- Familiarity with SQL and database concepts.\n- Experience with Git or other version control systems.\n- Familiarity with cloud platforms, scheduled jobs, and automated deployments.\n- Experience with data analytics, reporting, workflow automation, or AI-enabled business applications.\n\n## Who We Are Looking For\n\nWe are looking for a practical, hands-on developer who takes ownership of the application and thinks beyond the immediate task. Someone who asks, \"Can this process be made better?\" rather than simply implementing the next requested change.\n\nThe right person will be comfortable working with an existing system, learning its business logic, proposing improvements, and delivering solutions that make a measurable difference to the business. Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 10.94,
+      "resume_variant": "backend",
+      "draft_answer": "I have consistently leveraged Python to automate complex workflows and build robust, high-performance RESTful APIs, exemplified by cutting reporting API fetch latency by 98% and ensuring data integrity with ACID transactions. My experience owning cloud-native deployments, diagnosing production concurrency risks, and improving client-facing platforms would directly enable me to enhance and integrate Insight Consultants' existing Quickbase application.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-12T19:43:18+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.87,
+            "overlap": 14.9,
+            "combined": 10.68
+          },
+          "backend": {
+            "cosine": 9.02,
+            "overlap": 15.41,
+            "combined": 10.94
+          },
+          "frontend": {
+            "cosine": 7.68,
+            "overlap": 17.96,
+            "combined": 10.76
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 9.02,
+        "keyword_overlap_score": 15.41,
+        "final_score": 10.94,
+        "top_keywords": [
+          {
+            "term": "application",
+            "weight": 0.2521
+          },
+          {
+            "term": "data",
+            "weight": 0.1779
+          },
+          {
+            "term": "experience",
+            "weight": 0.1335
+          },
+          {
+            "term": "python",
+            "weight": 0.1335
+          },
+          {
+            "term": "apis",
+            "weight": 0.0593
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-12T19:43:33+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a4b09379c86be3a629aacbc1ab8eab28",
+      "source": "wellfound",
+      "company": "Langslide",
+      "role": "Outbound Marketing and Lead Generation Executive",
+      "url": "https://wellfound.com/jobs/4063066-2-outbound-marketing-and-lead-generation-executive",
+      "jd_text": "We are an innovative AI Agent platform looking for a driven and results-oriented Outbound Marketing &amp; Lead Generation Executive. In this role, you will be responsible for driving our outbound engine (cold emails, calls, Linkedin etc.) and building a strong pipeline of mid-market to enterprise accounts across India and US. This is a high-impact, performance-driven position. We are looking for someone who can hit the ground running and start generating high-quality leads from the very first month.\n\nFollow for more details: https://www.linkedin.com/company/langslide\n\n**Key Responsibilities**\n- Lead Generation: Proactively identify and engage prospective clients within mid-market and enterprise segments across target geographies.\n- Outbound Campaigns: Design and execute highly effective outbound email marketing, selective ABM-based calling and Linkedin reachout campaigns.\n- Pipeline Management: Consistently fill the sales pipeline by participating in various forums and ensuring presence on multiple online platforms to ensure leadgen objectives are met.\n\n**Performance &amp; Expectations**\n- Immediate Impact: You are expected to start generating qualified leads from month one - we are looking for experienced folks who have done the same thing in a B2B SaaS setup in their previous roles or as a freelancer.\n- Strict Review Cycle: Your performance will be reviewed on a monthly basis. Success in this role is heavily dependent on and measured by the total number of qualified leads generated.\nRequirements\n\n**Experience**: \n* 1 to 3 years of proven experience in outbound marketing and B2B lead generation.\n* Industry Knowledge: Prior experience in the SaaS or AI industry is highly preferred.\n* Targeting: Strong understanding of how to target and communicate with mid-market and enterprise-level decision-makers.\n* Software Proficiency: Demonstrated ability to effectively use various lead generation platforms, CRM software, and marketing automation tools.\n* Execution: Hands-on experience with outbound mailing tools, LinkedIn strategies, and general social media management.\n* Communication: Excellent written and verbal communication skills. India\nlocationNames: India\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-12T19:43:18+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "7c79fc6cc527fe8fc77cf1c192b1b56f",
       "source": "wellfound",
