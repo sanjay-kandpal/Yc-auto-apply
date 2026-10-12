@@ -1,15 +1,510 @@
 {
-  "exported_at": "2026-10-12T04:30:11+00:00",
+  "exported_at": "2026-10-12T08:59:49+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 220,
-    "discovered": 855,
+    "pending_approval": 223,
+    "discovered": 859,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "7c79fc6cc527fe8fc77cf1c192b1b56f",
+      "source": "wellfound",
+      "company": "Xybit Funds",
+      "role": "SDE-2 Full-Stack Engineer",
+      "url": "https://wellfound.com/jobs/4824585-sde-2-full-stack-engineer",
+      "jd_text": "About Xybit\nXybit Inc. builds fintech and trading products for a global audience of traders and crypto-native users. Our platforms include The Funded Room, a proprietary trading evaluation program offering funded accounts, and Xento, a quest-to-earn platform where users earn points for social, onchain, learning and trading quests.\n\nWe are a small, senior team. One engineer here ships features that touch real money flows, real-time data and thousands of users, with no layers of process between you and production.\n\nWhat you'll do\n• Design, build and ship full-stack features across our web apps, APIs and admin tools, owning each from spec through release and monitoring.\n• Model data and write performant Postgres queries, migrations and row-level security policies.\n• Build and harden backend services, background jobs and webhooks that handle payments, payouts, KYC and trading-account events.\n• Integrate third-party providers (payments, exchanges, email, analytics, onchain data) with retries, idempotency and clear failure handling.\n• Build fast, accessible, responsive interfaces with strong state management.\n• Write tests, add observability, and run safe rollouts.\n• Review code, mentor junior engineers, and write clear design notes.\n• Work directly with product, compliance, marketing and support to turn ambiguous problems into shippable work.\n\nWhat you'll bring\n• 3 to 5 years of professional experience shipping production full-stack applications.\n• Strong TypeScript and JavaScript, with solid React (or Next.js) on the front end and Node.js on the back end.\n• Deep working knowledge of PostgreSQL: schema design, indexing, query tuning, transactions and migrations.\n• Experience designing REST or GraphQL APIs, including authentication, authorization and rate limiting.\n• Comfort with cloud and serverless deployment, CI/CD, and debugging production issues.\n• A habit of writing tests and handling edge cases, especially around money, concurrency and third-party failures.\n• Clear written and spoken communication.\n• Evidence of ownership: a feature or service you took from zero to production and kept running.\n\nNice to have\n• Fintech, trading or prop-firm experience (ledgers, payouts, risk rules, reconciliation).\n• Supabase experience: RLS, Edge Functions, Auth.\n• Web3 exposure: wallets, onchain data, EVM chains, exchange APIs.\n• Real-time systems: WebSockets, queues, pub/sub.\n• KYC/AML flows, audit logging, PII handling.\n\nHiring process\n• Application review\n• First round with the tech team\n• Take-home or live exercise (about 2 hours)\n• Technical deep dive\n• Offer and references\n\nCompensation\nUSD 1,000+ per month, depending on experience and interview performance, plus performance-based bonus. Remote-first, flexible hours, learning budget.\n\nXybit Inc. is an equal opportunity employer. We hire on skill and potential, and welcome applicants of every background. Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 13.36,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've owned end-to-end delivery of full-stack compliance platforms, scoping requirements, building FastAPI/React systems, and driving UAT, while also cutting API fetch latency by 98% with Redis and reducing real-time data refresh delays. My experience deploying with Azure DevOps CI/CD blue-green releases and hardening backends with RabbitMQ to guarantee delivery under high load prepares me to build and ship robust fintech and trading products handling real money flows and real-time data for thousands of users.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-12T08:56:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.71,
+            "overlap": 17.22,
+            "combined": 13.36
+          },
+          "backend": {
+            "cosine": 10.12,
+            "overlap": 16.92,
+            "combined": 12.16
+          },
+          "frontend": {
+            "cosine": 11.37,
+            "overlap": 19.42,
+            "combined": 13.78
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 11.71,
+        "keyword_overlap_score": 17.22,
+        "final_score": 13.36,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1321
+          },
+          {
+            "term": "stack",
+            "weight": 0.1197
+          },
+          {
+            "term": "data",
+            "weight": 0.1056
+          },
+          {
+            "term": "production",
+            "weight": 0.1056
+          },
+          {
+            "term": "handling",
+            "weight": 0.0969
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-12T08:56:57+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "677fb017a7960e6d7bd9445bec601018",
+      "source": "wellfound",
+      "company": "Fibr AI",
+      "role": "Forward Deployed Engineer",
+      "url": "https://wellfound.com/jobs/3883252-forward-deployed-engineer",
+      "jd_text": "Responsibilities\n\n* Embed directly with customers to understand their technical needs and translate them into scalable, production-ready solutions\n* Design, implement, and maintain flexible backend and frontend systems that work in diverse customer environments\n* Build and extend APIs to enable secure, efficient data access across internal systems and customer-facing integrations\n* Develop dynamic features and components in React that can be rapidly customized and deployed to meet customer-specific requirements\n* Own the full delivery cycle, from scoping customer problems to shipping high-performant solutions with strict SLAs\n* Act as the technical bridge between customers and our core engineering and product teams, bringing field insights back to shape the roadmap\n* Independently drive impactful engineering initiatives with minimal hand-holding, often in ambiguous or fast-moving environments\n\nKnowledge, Skills, and Abilities\n\n* 3+ years of experience building scalable, reusable solutions in production environments\n* Strong experience with Node/Express backend development and API design, development, and documentation\n* Proficiency in React, Redux, and server-side rendering with Next.js, including building high-performance, pixel-perfect UIs using Tailwind, Bootstrap, or Material UI\n* Comfortable navigating customer environments, debugging, integrating, and extending solutions on-site or remotely\n* Self-motivated problem solver with strong instincts for UI/UX improvement and customer empathy\n* Experience with Docker and CI/CD pipelines for rapid deployment and iteration\n* Excellent communication skills- you can explain complex technical concepts to both engineers and non-technical stakeholders\n* Proven ability to own and deliver end-to-end product and engineering initiatives independently Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 12.95,
+      "resume_variant": "frontend",
+      "draft_answer": "I am a Forward Deployed Engineer candidate for Fibr AI who excels at embedding with customers to translate technical needs into scalable, production-ready React frontends and backend systems, having scoped client requirements and driven UAT for a government reporting portal while owning core client-facing modules. My experience includes independently owning the full delivery cycle for 80+ client organizations, optimizing reporting APIs with Redis caching for 98% faster performance, and deploying solutions via Docker and Azure pipelines.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-12T08:56:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.84,
+            "overlap": 12.91,
+            "combined": 10.76
+          },
+          "backend": {
+            "cosine": 9.35,
+            "overlap": 12.41,
+            "combined": 10.26
+          },
+          "frontend": {
+            "cosine": 11.84,
+            "overlap": 15.53,
+            "combined": 12.95
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.84,
+        "keyword_overlap_score": 15.53,
+        "final_score": 12.95,
+        "top_keywords": [
+          {
+            "term": "solutions",
+            "weight": 0.1383
+          },
+          {
+            "term": "technical",
+            "weight": 0.1383
+          },
+          {
+            "term": "ui",
+            "weight": 0.1045
+          },
+          {
+            "term": "experience",
+            "weight": 0.1037
+          },
+          {
+            "term": "end",
+            "weight": 0.0846
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-12T08:57:26+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b2845a1c581fcdffbe4907c8c50006f2",
+      "source": "wellfound",
+      "company": "Fibr AI",
+      "role": "Product Engineer",
+      "url": "https://wellfound.com/jobs/4348073-product-engineer",
+      "jd_text": "**Product Engineer | Fibr.ai**\n\nBengaluru · In office · 2-5 years\nStack: Python · FastAPI · Temporal · PostgreSQL · MongoDB\n\n**The role**\nFibr is building the agentic web experience layer - turning every URL into an intelligent agent that senses intent, makes decisions, and adapts in real time. Our agents personalise the full journey, running long LLM workflows against live customer accounts and millions of sessions.\n\nYou'll own features end-to-end - from the rough idea in a Slack thread to something shipped, instrumented, and behaving correctly in production. New surface areas land on your plate every few weeks: a new agent, a new integration, a new optimization loop. You're responsible for the whole thing, including the evals and metrics that prove it works. You'll work directly with the founding team and ship to real users every week.\n\n**What you'll do**\nShip AI-powered features end-to-end - backend, data, LLM layer, and the surface the user sees\nDesign long-running workflows that hold up against rate limits, partial failures, and noisy third-party APIs\nBuild and maintain the evals, guardrails, and instrumentation that decide whether a feature is good enough to ship\nModel the data behind agents and the analytics behind product decisions\nSit in on architecture calls and shape where the platform goes next\n\n**Must-haves**\n2-5 years of production backend experience\nHas shipped LLM-powered features to real users in production - not demos, not side projects. Be ready to talk about what broke and how you fixed it\nHas built and run evals for LLM systems. Show us the harness, the dataset, and the decisions it drove\nComfortable across relational and document databases\nHas worked with a durable workflow or queue system in production\nShips fast without breaking the build\nNice-to-haves\nRAG, vector stores, or tool-use / multi-step agents in production\nExperience with rate-limited third-party APIs at scale (ad platforms, CRMs, analytics)\nStrong product sense - you catch the UX issue before the user does\nTime spent at an early-stage startup\n\n**How we work**\nHigh ownership, low bureaucracy. Decisions in the room, not in docs. You'll work directly with the founding team.\n\n**Why Fibr AI**\nCompetitive salary + meaningful early-stage equity\nA chance to build deep expertise at the frontier of AI product development Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 11.8,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently owned feature delivery end-to-end, from scoping requirements and building FastAPI/React systems to driving UAT and automating workflows for 80+ client organizations, which makes me ready to ship intelligent agents. My work has involved introducing RabbitMQ to guarantee delivery under high load, load-testing APIs to cut latency by 98% with Redis caching, and validating LLM tool-calling reliability.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-12T08:56:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.04,
+            "overlap": 13.58,
+            "combined": 11.8
+          },
+          "backend": {
+            "cosine": 10.28,
+            "overlap": 12.41,
+            "combined": 10.92
+          },
+          "frontend": {
+            "cosine": 10.18,
+            "overlap": 14.56,
+            "combined": 11.5
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 11.04,
+        "keyword_overlap_score": 13.58,
+        "final_score": 11.8,
+        "top_keywords": [
+          {
+            "term": "production",
+            "weight": 0.1397
+          },
+          {
+            "term": "ai",
+            "weight": 0.1367
+          },
+          {
+            "term": "end",
+            "weight": 0.1367
+          },
+          {
+            "term": "llm",
+            "weight": 0.1367
+          },
+          {
+            "term": "agents",
+            "weight": 0.1025
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-12T08:59:46+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "fdd93e04135c619db68333e99f587413",
+      "source": "wellfound",
+      "company": "Compuco",
+      "role": "CiviCRM / PHP Engineer (Mid-level to Senior)",
+      "url": "https://wellfound.com/jobs/4824636-civicrm-php-engineer-mid-level-to-senior",
+      "jd_text": "A big hello from the team at Compuco!\n\nAt Compuco we empower socially responsible organisations with the digital tools they need to build a better world.\n\nAs a data driven creative technology agency, we are passionate about helping membership, charitable and cultural organisations to streamline and reimagine the way they work so that they can focus on impact.\n\nWe are looking for an experienced PHP engineer to build and maintain CiviCRM extensions and Drupal modules for not-for-profit clients. You will use AI coding tools every day and care about testing.\n\nCompuco is split into product teams. As a key member of one of these teams, you'll be involved in the entire development process, from the specification phase through to release. Your main focus will be building new functionality as CiviCRM extensions and Drupal modules (Drupal 7 and Drupal 10/11), around finances, payments, memberships and case management. We use AI coding tools every day and have shared playbooks for how to use them. We expect you to use them to work faster, and to check what they produce before it reaches a reviewer.\n\nWe’re a very process-driven team and constantly seek to refine the way we work to ensure that we continue to deliver the highest quality service to our clients and to the sector as a whole.  We’re looking for someone with a “can do” attitude to join our growing team.\n\nAs a distributed company with an HQ in London and team members from all around the world, one of the things that makes working at Compuco special is the chance to meet, mix and learn from people from an amazing array of nationalities and cultures. We’re extremely proud of the way we work and the open culture we’ve developed.\n\n**Key responsibilities:**\n* Build and test CiviCRM extensions and Drupal modules, with unit tests on every change\n* Help write technical specifications before building, and at a senior level lead them\n* Review other people's pull requests and give useful technical feedback\n* Use AI coding tools within our playbooks, and check their output\n* Investigate production issues to the root cause and write up what you found\n* Take part in planning, estimation and retrospectives, and follow actions through\n* Keep documentation up to date: README files, extension metadata, process pages\n* Share knowledge with and support other members of the team\n\n**Experience sought:**\n* At least 3 years of experience in web application development with PHP. For the senior end of the range, we look for 5+ years, including time as a senior or lead.\n* Experience extending a large PHP platform through its hooks, APIs and modules or plugins (Drupal, WordPress, SuiteCRM, Magento or similar). CiviCRM experience is a bonus\n* Daily use of AI coding tools (Claude Code, Codex, Gemini CLI, Cursor or similar) on real projects, and the judgement to spot when their output is wrong\n* Experience writing unit tests and testing processes\n* Excellent database / SQL skills, including performance optimisation and normalisation\n* Be skilled with Git, including rebasing and squashing commits\n* Experience with Docker-based local development environments\n* Experience with Linux and the command line\n* Experience with CI/CD pipelines, ideally GitHub Actions\n\n**Desirable skills:**\n* Writing technical specifications that others can review and estimate\n* CiviCRM extension development\n* Browser testing with Playwright or similar\n* Payment processor integrations and webhooks (Stripe, GoCardless or similar)\n* Drupal module development on 7 and 10/11\n* Front-end JavaScript, including legacy AngularJS\n* Security and data protection awareness\n* Contributing fixes to open-source projects\n\n**What we value in this role:**\n1. Good judgement: knowing when the quick answer is the wrong answer, whether it comes from an AI tool or a person\n2. Following through: a job is done when the fix is merged and the ticket is closed\n3. Clear writing: specifications, PR descriptions and investigation notes that others can act on\n4. Team player: reviews, mentors and shares by default\n\n**Type:** Permanent\n\n**Location:** Hybrid working (office based in Shoreditch, London) or Fully Remote anywhere in the world\n\n**How to apply:**\n\nIf you think this is the role for you, please send your CV through to us with a short covering statement explaining what caught your interest and why you think you'll fit in using [the application form](https://airtable.com/appO7QN3X8PZf7k99/paghPvSAoEbZrIS8k/form?prefill_Roles=rechr0uVrHyqtvuxh&amp;hide_Roles=true&amp;hide_Role=true).\n\n**Salary range:** £25k-£35k\n\n**About Compuco:**\n\nOur mission is to empower socially responsible organisations with the digital tools they need to build a better world. As a data driven creative technology agency, we are passionate about helping membership, charitable and cultural organisations to streamline and reimagine the way they work so that they can focus on impact.\n\nWe’re a distributed team, with staff in over 12 countries and a head office in London. We offer flexible hours and a real “team” mentality, working together to make things better.\n\nUniquely, we base all of our solutions on open source products, helping our work to have the greatest possible impact. We offer a full suite of software options for our clients, but  in particular specialise in CiviCRM, the dedicated nonprofit CRM, the Drupal CMS platform, and we are also the creators of the [CiviPlus platform](https://www.civi.plus/). \n\nOur clients include membership organisations such as the British Toy and Hobby Association, World Heart Federation and Royal Society of Edinburgh, nonprofit organisations such as Wikimedia, Carers UK and Disability Rights UK, and government institutions such as Epping Forest and Police Scotland.\n\n*We are proud to be an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to race, religion, sex, sexual orientation, gender identity, national origin, citizenship or disability.*\n\n**Benefits**\n\nWe have a broad range of benefits including:\n* Paid annual leave\n* Birthday off\n* Volunteering time off\n* Wellness day\n* Medical insurance allowance\n* Paid leave for personal development and learning\n* Remote working London\nlocationNames: London\nremote: true",
+      "match_score": 9.58,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-12T08:56:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.87,
+            "overlap": 15.89,
+            "combined": 9.58
+          },
+          "backend": {
+            "cosine": 5.85,
+            "overlap": 15.04,
+            "combined": 8.6
+          },
+          "frontend": {
+            "cosine": 5.63,
+            "overlap": 16.99,
+            "combined": 9.04
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.87,
+        "keyword_overlap_score": 15.89,
+        "final_score": 9.58,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1834
+          },
+          {
+            "term": "experience",
+            "weight": 0.1214
+          },
+          {
+            "term": "ai",
+            "weight": 0.0928
+          },
+          {
+            "term": "tools",
+            "weight": 0.0911
+          },
+          {
+            "term": "modules",
+            "weight": 0.0607
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3fb998c7008b9db4e31602156d4d83d6",
+      "source": "wellfound",
+      "company": "Vps Global",
+      "role": "🚀 Build the Future of Real Estate in India, as a Founding Engineer & Potential Co-Founder",
+      "url": "https://wellfound.com/jobs/4824551-build-the-future-of-real-estate-in-india-as-a-founding-engineer-potential-co-founder",
+      "jd_text": "The opportunity: more than a job\n\nThis is a founding engineer role. The right person will have the chance to be considered as a Co-Founder of the new PropTech company, with equity, leadership and a real say in where the product goes.\n\nYou get the freedom of a startup, backed by a 45+ year business that already has:\n\n✅ Real data and inventory to train and test on\n✅ Real users from day one\n✅ Industry knowledge, market access and funding commitment\n✅ Direct access to leadership: no layers, fast decisions\nWhat you’ll build\n\nAn AI-powered real estate CRM with autonomous AI agents. Here’s what that means:\n\n🤖 AI agents that talk to leads on WhatsApp, understand their needs and share matching properties and projects\n📥 AI data collection that pulls property details from WhatsApp messages, PDFs, brochures and images into a clean, searchable database\n🎯 Smart property matching that ranks the best properties for every client requirement and explains why\n🏠 AI listing agents that create and publish listings on 99acres, Housing.com and Magicbricks\n📲 WhatsApp marketing engine for targeted campaigns, follow-ups and tracking, all run from the CRM\n⚡ Lead automation: leads from Meta, Google and property portals assigned to the right team member automatically\n📊 Management intelligence: MIS dashboards, employee ROI, marketing ROI and AI-driven business insights\n\nYou’ll own the architecture, choose the tech stack and ship features that people use the same week.\n\nWhat you’ll do\nDesign and build the platform end to end: frontend, backend, database, AI layer and integrations\nBuild LLM-powered agents, RAG pipelines and automation workflows\nIntegrate the WhatsApp Business API, Meta/Google Ads APIs, property portals and third-party tools\nSet up secure, scalable cloud infrastructure\nWork directly with leadership to turn real business problems into product features\nHelp shape the product roadmap and, as we grow, hire and lead the tech team\nWhat we’re looking for\n\nMust have\n\n3+ years of full stack development: React / Next.js with Node.js or Python (FastAPI/Django)\nHands-on experience building with LLMs (OpenAI, Claude, Gemini or similar): prompt engineering, function calling, AI agents\nExperience with RAG, vector databases and AI agent frameworks (LangChain, LlamaIndex, CrewAI or similar)\nStrong skills in PostgreSQL/MySQL, REST APIs, webhooks and third-party integrations\nCloud deployment experience on AWS, GCP or Azure\nA builder’s mindset: you take ownership, move fast and care about results\n\nBonus points\n\nWhatsApp Business API, Meta Ads API or Google Ads API integrations\nOCR or document AI experience\nYou’ve built a CRM, SaaS product or startup product from scratch\nInterest in real estate, PropTech or entrepreneurship\nAutomation tools like n8n or Make\nWhat you get\n💰 ₹70,000 – ₹1,50,000 per month, based on skills and experience\n🎁 Performance bonuses tied to product milestones\n🤝 Co-founder track: equity and a founding role in the PropTech company for the right candidate\n🧠 Full ownership of the product and the technical decisions\n🏢 Close teamwork in the office with leadership in Ahmedabad\n📈 A clear path to CTO / Tech Head as the company grows\n🌍 The chance to build something that can scale beyond VPS Global to real estate businesses across India Ahmedabad\nlocationNames: Ahmedabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-12T08:56:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8d3c26fc5b01848632f15b5d1d68b341",
+      "source": "wellfound",
+      "company": "ContexQ",
+      "role": "FOUNDING KNOWLEDGE GRAPH SCIENTIST (PhD) FinCrime, Fraud",
+      "url": "https://wellfound.com/jobs/4824488-founding-knowledge-graph-scientist-phd-fincrime-fraud",
+      "jd_text": "Company: ContexQ\n\nLocation: Singapore / India / Malaysia (Remote/Hybrid)\n\nAt ContexQ, we are fundamentally reshaping the emerging landscape of Contextual Decision Intelligence. We leverage cutting-edge composite AI, Vector Search, and advanced graph technology to resolve billions of entities continuously. By uncovering hidden relationships, we revolutionize how global enterprises handle fraud detection, financial crime (AML), risk management, and supply chain intelligence.\n\nWe are an ambitious, fast-moving startup taking on massive enterprise big data challenges, and we are looking for a Founding Knowledge Graph Scientist to push the boundaries of what is possible in semantic data resolution and network graph AI.\n\nThis is not a traditional corporate research role. We are looking for an elite AI researcher and practitioner with a PhD and the DNA of an entrepreneur—someone who can architect novel Graph Transformer architectures, develop cutting-edge explainable AI (XAI) models for fraud detection, and translate deep academic expertise into high-impact enterprise solutions. You will be at the forefront of designing the intelligence engine that protects global financial institutions from complex, coordinated financial crimes.\n\nTHE MISSION\n\nAs our Founding Knowledge Graph Scientist, you are the intellectual and technical force behind our core AI reasoning engine. You will bridge the gap between state-of-the-art academic research in graph neural networks and the practical, high-throughput demands of enterprise anti-money laundering (AML) and fraud detection systems.\n\nYour ultimate metric is the accuracy, efficiency, and explainability of our graph-based AI models. You will architect proprietary knowledge graph structures, implement advanced Graph Transformer models (like FraudGT or similar architectures), and create the analytical \"awe factor\" that proves to C-suite banking executives that ContexQ can catch financial crime that legacy systems miss.\n\nWHAT YOU WILL DO\n\n• Architect the Graph: Design and optimize large-scale financial knowledge graphs that capture complex temporal, spatial, and transactional relationships across billions of nodes and edges to detect collusion and laundering behaviors.\n\n• Pioneer AI Models: Develop, train, and deploy advanced Graph Neural Networks (GNNs) and Graph Transformers specifically tailored for highly imbalanced, large-scale financial data.\n\n• Drive XAI in FinCrime: Champion model transparency by building explainable AI mechanisms that allow compliance officers to understand exactly why a transaction or entity was flagged, ensuring strict adherence to global banking regulations.\n\n• Bridge Research &amp; Product: Act as the crucial link between theoretical AI research and our core product roadmap. Publish findings, stay ahead of state-of-the-art fraud detection methodologies, and directly implement these breakthroughs into the ContexQ platform.\n\n• Collaborate Across Teams: Work seamlessly with Data Engineering, MLOps, and Business Analysts to ensure your graph models are deployed efficiently, scale securely, and directly address the pain points of our enterprise clients.\n\nWHO YOU ARE\n\n• The Deep Expert: You hold a PhD in Computer Science, Artificial Intelligence, Machine Learning, Applied Mathematics, or a closely related field, with a heavy research focus on Knowledge Graphs, Graph Neural Networks, or Graph Transformers.\n\n• Domain Specialized: You possess deep expertise (either academic or applied) in utilizing graph analytics for anomaly detection, specifically within the realms of Financial Crime, Fraud detection, or cybersecurity.\n\n• A Proven Builder: You have a track record of translating complex AI theory into functional code (PyTorch, PyTorch Geometric, DGL). You are not just a theoretician; you can build, test, and optimize models for real-world deployment.\n\n• A Master Communicator: You can distill complex mathematical concepts and graph topologies into clear, compelling narratives for both highly technical engineering teams and non-technical business stakeholders.\n\nCOMPENSATION &amp; THE CONTEXQ UPSIDE\n\nWe are explicitly looking for top-tier research and engineering talent who wants to bet on themselves, act as true owners, and build foundational technology.\n\nWe structure compensation to heavily reward dedication, innovation, and long-term impact. In exchange for your deep expertise and technical leadership, we offer competitive compensation, significant early-stage foundational equity worth up to $1,000,000 USD over time, a high-impact remote-first culture, and a structure designed to directly align your wealth creation with the platform's enterprise valuation.\n\nThis role is designed for an AI pioneer who wants real skin in the game. If you are looking for a purely academic sandbox with no commercial pressure, this isn't for you. If you want the massive upside of building an enterprise AI juggernaut from the ground up and sharing directly in the value you create by stopping global financial crime, you belong at ContexQ. Kuala Lumpur India Gate Singapore\nlocationNames: Kuala Lumpur India Gate Singapore\nremote: true",
+      "match_score": 6.35,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-12T08:56:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.14,
+            "overlap": 9.93,
+            "combined": 5.88
+          },
+          "backend": {
+            "cosine": 4.56,
+            "overlap": 10.53,
+            "combined": 6.35
+          },
+          "frontend": {
+            "cosine": 2.78,
+            "overlap": 12.14,
+            "combined": 5.59
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 4.56,
+        "keyword_overlap_score": 10.53,
+        "final_score": 6.35,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2064
+          },
+          {
+            "term": "directly",
+            "weight": 0.0688
+          },
+          {
+            "term": "data",
+            "weight": 0.0562
+          },
+          {
+            "term": "technical",
+            "weight": 0.0562
+          },
+          {
+            "term": "high",
+            "weight": 0.0516
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "afd7f69bfa7646dbe0e56f0994eb1b03",
+      "source": "wellfound",
+      "company": "zero4genz.in",
+      "role": "Forward Deployed Builder (Full Stack + AI)",
+      "url": "https://wellfound.com/jobs/4824641-forward-deployed-builder-full-stack-ai",
+      "jd_text": "Unpaid until ZERO makes money. When it does, the people who built it get paid first.\n\nZERO is an early stage startup in India. We find problems people hit every day and build the fix: right now for small businesses that answer customers on WhatsApp all day, freshers rejected without a reason, and families planning a wedding on their own.\n\nWhat you’d do\nYou build the whole thing yourself, front to back, with AI doing the parts it’s good at. Then you take it to the people it’s for, watch them use it, and fix what breaks that week.\n\nInterface, API, data, deploy.\nAI to ship faster, and inside the product where it earns its place.\nDesign good enough that an owner trusts it on first look.\nTime with customers, and a hand in getting the next one on board.\n\nWhat we need from you\n\nTwo years or more building things real people used.\nSomething live you built most of yourself, with a link.\nTaste. If everything you’ve made looks like a template, this isn’t a fit.\nComfortable talking to a shop owner.\n\nFull time. Deadlines here are real.\n\nHow it starts\n\nApply here with a link to something live you built.\nIf it’s a fit, a build brief comes to your Wellfound messages. Three days, hard deadline. Reply with the live link and the repo.\n\nEveryone who applies hears back here. Punjab\nlocationNames: Punjab\nremote: true",
+      "match_score": 5.33,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-12T08:56:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.97,
+            "overlap": 6.29,
+            "combined": 5.37
+          },
+          "backend": {
+            "cosine": 5.04,
+            "overlap": 6.02,
+            "combined": 5.33
+          },
+          "frontend": {
+            "cosine": 4.08,
+            "overlap": 6.8,
+            "combined": 4.9
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.04,
+        "keyword_overlap_score": 6.02,
+        "final_score": 5.33,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1534
+          },
+          {
+            "term": "built",
+            "weight": 0.1255
+          },
+          {
+            "term": "zero",
+            "weight": 0.1023
+          },
+          {
+            "term": "real",
+            "weight": 0.0836
+          },
+          {
+            "term": "time",
+            "weight": 0.0836
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "5950fce82e412b7951428b9a05197532",
       "source": "wellfound",
