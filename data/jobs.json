@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-13T18:58:33+00:00",
+  "exported_at": "2026-10-13T22:29:00+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 877,
     "pending_approval": 229,
-    "discovered": 876,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "4229b3bded9bc2b65d78f4c89b9b068a",
+      "source": "wellfound",
+      "company": "Voicy",
+      "role": "Applied Research Engineer — Real-time Voice AI (Open Models)",
+      "url": "https://wellfound.com/jobs/4824977-applied-research-engineer-real-time-voice-ai-open-models",
+      "jd_text": "**Location:** High preference for engineers based in **Dallas or Austin, Texas**. We are also open to **remote candidates in India**.\n\n## About us\n\nVoicy builds AI voice assistants that answer calls and messages for businesses: taking orders, booking appointments, and handling customer conversations at scale. We're now building a **developer platform for real-time voice AI on open models**, so developers can ship voice agents that are fast, affordable, and fully under their control. We're an early-stage team, which means you'll work directly with the founder, turn research into production quickly, and see your work reach real users in weeks rather than years.\n\n## The role\n\nThis is an applied research engineer role: you will **build** production voice AI systems and **research** the improvements that make them better. You'll read the latest speech and LLM literature, reproduce what matters, prototype it on open models, and harden what works into shipped systems. You should be equally comfortable reimplementing a paper from scratch and debugging a latency spike on a GPU server.\n\n## What you'll work on\n\n- **Real-time voice pipelines:** streaming ASR → LLM → TTS and speech-to-speech systems with sub-second turn latency, including interruptions (barge-in), turn-taking, voice activity detection, and endpointing.\n- **Open models:** evaluating, fine-tuning, and distilling open-weight speech and language models (e.g., Whisper-family ASR, Llama/Qwen/Mistral LLMs, open TTS and speech-to-speech models) for noisy phone audio, accents, and new domains.\n- **GPU inference and infrastructure:** serving with vLLM, TensorRT-LLM, Triton, or similar; quantization, batching, KV-cache management, and streaming; driving down latency and cost per minute of conversation.\n- **Research improvements:** turning new ideas in speech, LLMs, and real-time inference into measurable gains in quality, latency, and cost.\n- **Evaluation:** building benchmarks and regression harnesses for WER, latency, voice quality, and task success, so we know a change actually helped.\n- **Developer experience:** APIs, SDKs, and open-source components that make it easy for developers to build on our voice stack.\n\n## Qualifications\n\n**Texas (Dallas / Austin), preferred:**\n\n- **MS or PhD** in Computer Science, Electrical Engineering, Machine Learning, or a related field.\n- **Research experience:** publications, preprints, industry research lab work, a thesis, or a substantial open-source research project you can walk us through.\n\n**India (remote):**\n\n- An **advanced degree with research experience** is preferred, **or**\n- A **Bachelor's degree in engineering (B.E./B.Tech)** is fine, as long as you have hands-on experience with **voice/speech or LLM systems** and **GPU infrastructure** (training or serving models on GPUs).\n\n**Everyone should have:**\n\n- **Strong Python** and hands-on experience with **PyTorch** and the Hugging Face ecosystem.\n- Practical experience with **speech (ASR/TTS)** and/or **LLMs**, in research or production.\n- Comfort working with **GPUs**: CUDA environments, Linux, Docker, and profiling inference performance.\n- The ability to go **from paper to prototype independently**. We'll give you a problem and context, not a spec.\n\n## Nice to have\n\n- Real-time and telephony experience: WebRTC, SIP, WebSockets, or frameworks such as Pipecat and LiveKit.\n- Speech-to-speech or full-duplex conversational models.\n- Custom CUDA or Triton kernels, or deep inference optimization work.\n- Multilingual speech, including Indian languages.\n- Open-source maintainership or a strong public GitHub presence.\n- Prior startup experience, or evidence that you thrive without much structure.\n\n## Compensation\n\n- **Texas:** $70,000 – $100,000 per year + equity (0.5% – 2%).\n- **India (remote):** ₹10,00,000 – ₹20,00,000 per year + equity (0.5% – 2%).\n- We are unable to offer visa sponsorship for this role.\n\n## What we offer\n\n- Direct work with the founder and real influence over the technical direction.\n- A fast path from research idea to production, with no handoff wall.\n- Meaningful equity and support for publishing and open-sourcing your work. Austin Dallas\nlocationNames: Austin Dallas\nremote: true",
+      "match_score": 7.25,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-13T22:28:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.49,
+            "overlap": 10.93,
+            "combined": 7.12
+          },
+          "backend": {
+            "cosine": 5.53,
+            "overlap": 11.28,
+            "combined": 7.25
+          },
+          "frontend": {
+            "cosine": 4.31,
+            "overlap": 11.65,
+            "combined": 6.51
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.53,
+        "keyword_overlap_score": 11.28,
+        "final_score": 7.25,
+        "top_keywords": [
+          {
+            "term": "open",
+            "weight": 0.2119
+          },
+          {
+            "term": "experience",
+            "weight": 0.126
+          },
+          {
+            "term": "real",
+            "weight": 0.1103
+          },
+          {
+            "term": "latency",
+            "weight": 0.0788
+          },
+          {
+            "term": "time",
+            "weight": 0.0788
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "dc5087a645246ab9c7e9632db362651c",
       "source": "yc",
