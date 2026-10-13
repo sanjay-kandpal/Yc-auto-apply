@@ -1,15 +1,245 @@
 {
-  "exported_at": "2026-10-13T17:29:09+00:00",
+  "exported_at": "2026-10-13T18:58:33+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 228,
-    "discovered": 873,
+    "pending_approval": 229,
+    "discovered": 876,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "dc5087a645246ab9c7e9632db362651c",
+      "source": "yc",
+      "company": "GoGoGrandparent",
+      "role": "Front End JavaScript / TypeScript Engineer",
+      "url": "https://www.workatastartup.com/jobs/116217",
+      "jd_text": "### **About the Company**\n\nGoGoGrandparent’s (GoGo’s) mission is to help older adults live independently in their home for as long as possible. We do that by tailoring existing on demand apps to the needs of people living with mobility, visual, cognitive and dexterity impairments and letting older adults use them by making a phone call. After ordering, our service becomes a virtual caregiver that monitors the instrumental activities of daily living (mobility, meals, groceries, medication delivery &amp; home management) for tens of thousands of older adults around the United States. We’re profitable, have been around since 2016 &amp; haven’t raised any venture capital financing to date. The company was inspired by the cofounder’s grandmother, who still uses us to this day (she’s turning 95 in March)!\n\nOur engineering team is fully remote, tight-knit, and moves fast. You’ll work closely with founders, ship meaningful features weekly, and have real ownership over architecture, reliability, and product direction.\n\n**\\*** **This is a fully remote position** \\\n**\\*** **Must be able to work US timezones or 4+ hours overlap with mainland US**\n\n### **Job Summary**\n\nWe have a Webflow designer who owns layout and CMS. He does not write JavaScript.\\\n\\\nYou will own everything that makes our Webflow pages work: registration, payments, service checks, analytics, cookies, and talking to our APIs.\\\n\\\nYou will also take the code from concatenated ES5/jQuery to TypeScript with a real build pipeline, without breaking production landing pages.\\\n\\\nYou are not a backend hire. You are expected to read our Node/TypeScript/GraphQL/REST API well enough to decide which endpoint to call, what to send, what comes back, and what happens when it fails. We do not have complete, trustworthy API documentation for this. The source, and its tests, is the documentation.\\\n\\\nYou need to be comfortable communicating and working directly with our marketing team and other company stakeholders.\n\n### **What you will actually do**\n\nProduct / integration\n\n* Wire Webflow forms and pages to existing REST and GraphQL endpoints: callers, loved ones, membership, Stripe payment, service-area checks, grocery/home-services leads, error logging.\n* Own multi-step registration: validation, session persistence, step navigation, auth tokens, 401 handling, partner vs consumer flows.\n* Keep Stripe Elements, phone inputs, cookies, and tracking working across many landing-page variants.\n* Coordinate with the Webflow person on DOM IDs, _required_ attributes, and page structure. Our form reader is DOM-driven; a wrong ID on a Webflow page is a production bug.\n* Take responsibility for our Playwright test coverage and add more tests as needed.\n\nReading the backend (required, not optional)\n\n* Open the relevant route/controller in our backend (TypeScript, Express-style routes, controllers, some GraphQL) and extract: HTTP method, path, auth, request body/query, success payload, error codes and shapes.\n* Use existing route tests as a second source of truth when the handler is messy.\n* Choose the right endpoint for the page (create vs patch, REST vs GraphQL, payment intent vs caller update). Calling the wrong one, or omitting a field the controller actually requires, is a failed task.\n* When the API cannot do what the page needs, write a clear request for backend (expected input/output, current behavior, what's missing). You will not be expected to own large backend changes.\n\nEngineering\n\n* Over time, migrate the codebase from JS IIFE modules to TypeScript.\n* Replace concat + Terser with a real bundler (esbuild/Vite/Rollup).\n* Untangle globals, jQuery, and implicit script order without a rewrite that takes the site down.\n\n### **What the systems look like**\n\nClient\n\n* We use Webflow: a visual web design and development platform that lets you create, build, and host custom websites without writing manual production code, while also supporting custom HTML, CSS, and JavaScript for advanced functionality and customization.\n* Vanilla JS + jQuery, IIFEs, concatenated in a fixed file order.\n* Playwright tests already use TypeScript. App code does not.\n\nAPI\n\n* Large TypeScript Node service. Registration and billing are not a tiny CRUD layer; controllers have real business rules.\n* Auth is typically bearer tokens; some flows differ (partner vs consumer).\n* Error responses are not always uniform. You have to read the handler.\n\n### **You Should Be Strong At**\n\n* JavaScript and TypeScript in the browser (DOM, events, fetch/XHR, cookies, localStorage, CORS).\n* Reading other people's TypeScript: routes, controllers, types, tests. You do not need to write production backend, but you cannot treat the API as a black box or wait for a spec.\n* Mapping a form to a real endpoint: required vs optional fields, nested payloads, auth headers, 4xx handling.\n* Incremental migration: JS → TS, globals → modules, without freezing feature work.\n* Build tooling: bundlers, source maps, minify, watch, CI.\n* Working with a designer who does not write JS: explicit contracts (element IDs, data attributes).\n* Playwright or similar for user flows.\n* Nice to Have: Stripe.js, Webflow custom code, analytics pixels, GraphQL, having changed a small backend endpoint yourself.\n\n### **Seniority**\n\nMid to Senior level. You should be able to:\n\n* Take a new landing flow, find the right backend endpoints, wire the page, test it, ship it — without someone translating the API for you.\n* Propose a TS + bundler plan and execute it in slices.\n* Push back when Webflow structure will break the JS, or when the API cannot support the page as designed.\n\n### **How We Will Measure Success (first 6–12 months)**\n\n1. You own our Webflow flows end-to-end: page contract, JS, correct API usage (from reading backend code), Playwright, ship.\n2. You can explain, from the backend source, why a given page calls the endpoints it calls.\n3. App source is being migrated to TypeScript (or a clear majority, with a path for the rest).\n4. Build is a real pipeline: typed, module-aware, minified, source maps, documented deploy.\n\n### **Benefits**\n\n* Fully remote position\n* $80k – $120k (based on location, experience and seniority)\n* Paid holidays\n* Personal Time-off of 15 days at start\n* Engineering team retreat\n* US Employees\n  * Healthcare Insurance (Medical, Dental, Vision)\n  * 401k Plan\n\n### **Why Work at GoGo**\n\n \n\n* Meaningful work: Build technology that helps older adults and people with disabilities live more independently.\n* Real-world impact: Your work directly affects customers’ daily lives, from arranging transportation to accessing meals, groceries, and other essential services.\n* Strong ownership: Engineers are trusted to influence solutions from initial design through deployment and production monitoring.\n* Visible contribution: GoGo has a relatively small engineering team, so individual contributions have a meaningful impact on the product and company.\n* Build across multiple domains: Engineers have opportunities to work across different products, services, and technical challenges rather than being confined to a single feature area.\n* Direct collaboration: Work closely with product, operations, customer support, and company leadership rather than being separated by layers of management.\n* Technical influence: Engineers can help shape architecture, development processes, reliability practices, and engineering standards.\n* Remote-first environment: Work with an international team while maintaining meaningful collaboration and ownership.\n* Growing Startup: GoGo is profitable, generates significant revenue, and continues to expand its products and customer base.\n* Continuous improvement: The company invests in better testing, observability, infrastructure, security, compliance, and engineering processes.\n* Experienced teammates: Work alongside senior engineers who can provide thoughtful code reviews, technical discussions, and mentorship.\n* Yearly engineering retreats: The engineering team meets in person each year to strengthen relationships, collaborate, plan, and spend time together outside the usual remote environment.\n* Learning budget: Receive reimbursement for any courses (Udemy, Pluralsight, etc), books, or other resources related to engineering or your work at GoGo\n\nIf you're passionate about improving the lives of older adults and people with disabilities, we would love for you to apply! jobs_skill 63 JavaScript 314 jobs_skill 138 TypeScript 45 fulltime none\nlocations: \nremote: only\nmin_experience: 6",
+      "match_score": 12.77,
+      "resume_variant": "frontend",
+      "draft_answer": "My experience tracing p95 degradation to redundant API reads and integrating Redis to cut fetch latency by 98% for a government reporting portal demonstrates my comfort in deeply understanding API behavior from source to directly improve UI responsiveness. I've built React front ends end-to-end, scoped requirements with clients, and am ready to own GoGo's Webflow flows from page contract to API wiring, driving the migration to TypeScript with a modern build pipeline.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-13T18:58:11+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.99,
+            "overlap": 17.22,
+            "combined": 11.46
+          },
+          "backend": {
+            "cosine": 9.31,
+            "overlap": 17.67,
+            "combined": 11.82
+          },
+          "frontend": {
+            "cosine": 9.51,
+            "overlap": 20.39,
+            "combined": 12.78
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 9.51,
+        "keyword_overlap_score": 20.39,
+        "final_score": 12.77,
+        "top_keywords": [
+          {
+            "term": "backend",
+            "weight": 0.1187
+          },
+          {
+            "term": "api",
+            "weight": 0.095
+          },
+          {
+            "term": "js",
+            "weight": 0.0831
+          },
+          {
+            "term": "real",
+            "weight": 0.0831
+          },
+          {
+            "term": "code",
+            "weight": 0.0712
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-13T18:58:32+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "89afa2d825392672149c1f19b7225b41",
+      "source": "yc",
+      "company": "Great Question",
+      "role": "Business Development Representative",
+      "url": "https://www.workatastartup.com/jobs/116210",
+      "jd_text": "## **About Great Question:** \n\nGreat Question is the all-in-one AI customer research platform for understanding your customers. Our platform enables teams to recruit participants, run research, and share insights – all in one place. Backed by world-class investors and trusted by industry-leading teams like Gusto, Experian, Canva, and Brex, we’re building the future of customer research.\n\nWe believe AI is a multiplier for creativity, speed, and scale. Everyone on the team is encouraged to lean into AI, not just to be more efficient, but to push boundaries and unlock new possibilities. Whether you’re writing, designing, coding, or analyzing, we expect you to explore how AI can elevate your craft.\n\nOur culture is built on high trust, high agency, and high emotional intelligence. If you’re looking for a place where your voice matters, where work is fun, and where you're empowered to do your best - **join us in redefining user research 🚀**\n\n# About This Role\n\nGreat Question is on a mission to democratize user research. We're a well-funded startup backed by Y Combinator and FundersClub, looking for a driven, coachable Business Development Representative with B2B sales experience to join our fully remote team.\n\nYou'll get in early, work on an interesting problem, and have a real impact on both the product and the culture of an early-stage company, while helping shape how teams use research to build software.\n\nBDRs drive revenue by creating pipeline. You'll find the right people at mid-market and enterprise companies who would benefit from our research automation platform, and connect them with our Account Executives.\n\nTo succeed here, you'll need the discipline to work independently and either a passion for the research space or the drive to learn it quickly.\n\nThis role is remote and open to candidates in the US and Canada.\n\n**How to apply:** Do the job to get the job. Apply on our website, then find Won You, our hiring manager, and pitch him on a screener call. Tell him why you're a fit and why it's worth his time.  Applications without outreach won't be reviewed. \n\n# What You'll Do\n\n- **Prospecting & Lead Generation:** Book meetings on target accounts through multi-channel, multi-threaded outreach across phone, LinkedIn and email. Cold calling is your top priority channel, with a minimum of 100 dials a day, so you should be comfortable on the phone. Our Demand Gen builds the lists, sequences and workflows with you, and you'll write manual, personalized outreach where an account calls for it.\n\n- **Qualifying & Handing Off:** Book meetings that meet our qualification bar and brief the Account Executive so they walk in knowing the pain, the stakeholders and the timeline.\n\n- **Keeping HubSpot Clean:** Log every call, disposition and next step, because our routing and reporting run on it.\n\n- **Bringing Back What You Hear:** Share what you learn on calls about copy, outbound approach and channels, and come back with a recommendation on what to change.\n\n# About You\n\n- **Sales experience:** 1–3 years in sales, ideally selling SaaS to B2B or enterprise customers. You have a quota you can name and attainment you can walk us through, misses included.\n\n- **Comfortable on the phone at volume:** You know your own connect rate and conversation-to-meeting rate.\n\n- **Analytical and systematic:** You own the outcome. When something isn't working, you figure out why and come back with a recommendation.\n\n- **Coachable:** You're always looking to get better, and you can tell us about coaching that changed how you work.\n\n- **Competitive and team-first:** You're driven to beat your own numbers and invested in the team hitting its goal.\n\n- **Self-directed:** You stay disciplined working remotely at an early-stage company and solve problems before being asked.\n\n- **AI-native:** You use Claude or ChatGPT beyond the chat window, such as Claude Code or similar tools, to do your job faster, and you can tell us how.\n\n## **Nice to Have**\n\n- **Startup experience:** You've worked at an early-stage company.\n\n# Our Interview Process\n\n1. **Get our attention.** Apply, then reach Won and sell him on having a screener call with you.\n\n2. **Hiring manager interview (30-minutes).** Get to know each other and the role.\n\n3. **Assessment + mock cold call (45-minutes).** Show us what you learned about Great Question and how you'd break into one target account, then make a mock cold call.\n\n4. **Final (60-minutes split into 2 30-minute sessions).** Meet Harri, our Chief of Staff who oversees the Demand Gen function, and Tucker, our Director of Revenue who oversees Sales.\n\nEach interview is sequential, and you'll hear from us within 48 hours of each one.\n\n## **Why You’ll Love Working Here:**\n\n- A culture of customer obsession and curiosity\n\n- Opportunity to shape and scale a critical business function\n\n- Remote-first culture with high trust and high autonomy\n\n- Annual team retreats and virtual events\n\n- Opportunity to work on cutting-edge AI integrations that matter\n\n- Competitive compensation & equity\n\n- Generous PTO, health benefits, and learning stipend\n\n## _ **Equal Opportunity Statement** _\n\n_Great Question is committed to providing a workplace free from discrimination or harassment. We expect every member of the Great Question community to do their part to cultivate and maintain an environment where everyone has the opportunity to feel included, and is afforded the respect and dignity they deserve._\n\n_Decisions related to hiring, compensating, training, evaluating performance, or terminating are made fairly, and we provide equal employment opportunities to all qualified candidates and employees. We examine our unconscious biases and take responsibility for always striving to create an inclusive environment that makes every employee and candidate feel welcome._\n\n Canada (Remote) fulltime yes\nlocations: Canada (Remote)\nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-13T18:58:11+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ad95687c61834129fba9a888760e06e5",
+      "source": "yc",
+      "company": "Great Question",
+      "role": "Product Manager",
+      "url": "https://www.workatastartup.com/jobs/116209",
+      "jd_text": "## **About Great Question:** \n\nGreat Question is the all-in-one AI customer research platform for understanding your customers. Our platform enables teams to recruit participants, run research, and share insights – all in one place. Backed by world-class investors and trusted by industry-leading teams like Gusto, Experian, Canva, and Brex, we’re building the future of customer research.\n\nWe believe AI is a multiplier for creativity, speed, and scale. Everyone on the team is encouraged to lean into AI, not just to be more efficient, but to push boundaries and unlock new possibilities. Whether you’re writing, designing, coding, or analyzing, we expect you to explore how AI can elevate your craft.\n\nOur culture is built on high trust, high agency, and high emotional intelligence. If you’re looking for a place where your voice matters, where work is fun, and where you're empowered to do your best - **join us in redefining user research 🚀**\n\n# **About This Role:**\n\nYou’ll be a Product Manager owning a strategic area of Great Question with a team of 3–4 engineers. We’ll give you a clear outcome to move. Figuring out the bets that get us there, and the near-term roadmap for your area, is your job. You’ll work alongside two other strong PMs and a product designer, and report to our Head of Product. It’s an individual contributor role, remote in North America with Pacific-hours overlap.\n\nHere’s the kind of problem you might own. Research is a chain of multi-step workflows – recruiting, scheduling, running sessions, synthesis. We want that chain simple and reliable enough that a builder, or an agent working for them, can run it end to end in a flexible way. That’s harder than it sounds.\n\nIn your first three months, you’ll take over an area tied to our strategy, ship a few meaningful things with your team, and find out whether they worked.\n\n**What this role isn’t:** managing a backlog or running process. You’ll move between strategy and execution all the time, and you’ll own the results your area is meant to drive.\n\n# **What You’ll Be Responsible For:**\n\n1. **Find the bet.** Dig through product data and customer signals – support chats, sales asks, your own research – and come back with a strong hypothesis about what will move your outcome.\n\n2. **Shape it.** Sometimes that means scoping the problem carefully. Sometimes it means skipping straight to a prototype. Part of the job is knowing which. Then decide what happens now, later or never.\n\n3. **Ship it well.** Keep the team organized and motivated, and stay close enough to the details that it ships on time and to a high bar.\n\n4. **Release it.** Run the launch and make sure Sales, Success and Marketing know what’s coming and have what they need.\n\n5. **Learn from it.** Watch what happens, then decide whether to double down, iterate or stop.\n\n# **About You:**\n\n- 5+ years as a product manager in B2B software.\n\n- You’re as comfortable in product analytics or a database query as you are on a customer call. You form strong opinions and change them when the evidence does.\n\n- You stay in the details, and you’ve shipped complex work on time without lowering the bar.\n\n- You use AI tools like Claude Code or Cursor every day, and you’ve shipped AI features yourself – MCP servers, agentic workflows – that held up in production.\n\n## **You’ll thrive here if you’re:**\n\n- **Bought in on AI.** You’re excited about it. You try new tools constantly, keep up with what’s possible, and can tell where AI helps and where it just adds noise.\n\n- **Technical enough to be dangerous.** You use AI to get hands-on, whether that’s shipping a small fix or prototyping something in code.\n\n- **Close to customers.** You talk to customers regularly and it shows up in your decisions.\n\n- **Clear and decisive.** You communicate clearly, make the call, and commit.\n\n- **High agency.** You see what needs doing and do it without waiting to be asked. You push through the hard parts and finish what you start, without letting quality slip.\n\n## **Bonus points**\n\n- You’ve worked on B2B workflow products, especially multi-step flows where state and status get complicated.\n\n- You’ve worked hands-on with agent runtimes, or measured the quality of AI output.\n\n- You’ve been on a remote, async team before.\n\n**This is a fun problem for product people**\n\nIf you’ve been a PM or designer for a while, you’ve shipped something without enough customer signal and wondered afterward if you got it right. That’s the problem we work on.\n\nYou’ll get to throw the newest AI capabilities at it, and a lot of what we’re building wasn’t possible a year ago. Nobody has figured out how builders can seamlessly incorporate customer signal into the dozens of decisions they make each week. It is a real chance to innovate.\n\n# **How we work**\n\nWe’re a small, senior team. You’ll own an area end to end, and we care more about what changed for customers than about what shipped.\n\nProduct, design and engineering work closely together, and everyone stays close to customers. We’re remote, so we write things down and lean on async.\n\n## **Why You’ll Love Working Here:**\n\n- A culture of customer obsession and curiosity\n\n- Opportunity to shape and scale a critical business function\n\n- Remote-first culture with high trust and high autonomy\n\n- Annual team retreats and virtual events\n\n- Opportunity to work on cutting-edge AI integrations that matter\n\n- Competitive compensation & equity\n\n- Generous PTO, health benefits, and learning stipend\n\n## _ **Equal Opportunity Statement** _\n\n_Great Question is committed to providing a workplace free from discrimination or harassment. We expect every member of the Great Question community to do their part to cultivate and maintain an environment where everyone has the opportunity to feel included, and is afforded the respect and dignity they deserve._\n\n_Decisions related to hiring, compensating, training, evaluating performance, or terminating are made fairly, and we provide equal employment opportunities to all qualified candidates and employees. We examine our unconscious biases and take responsibility for always striving to create an inclusive environment that makes every employee and candidate feel welcome._\n\n United States (Remote) fulltime yes\nlocations: United States (Remote)\nremote: only\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-13T18:58:11+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cc4dd212eb2258992d3b9819c53df81e",
+      "source": "yc",
+      "company": "Great Question",
+      "role": "Product Engineer (AI / Full-Stack)",
+      "url": "https://www.workatastartup.com/jobs/107231",
+      "jd_text": "## **About Great Question:** \n\nGreat Question is the all-in-one AI customer research platform for understanding your customers. Our platform enables teams to recruit participants, run research, and share insights – all in one place. Backed by world-class investors and trusted by industry-leading teams like Gusto, Experian, Canva, and Brex, we’re building the future of customer research.\n\nWe believe AI is a multiplier for creativity, speed, and scale. Everyone on the team is encouraged to lean into AI, not just to be more efficient, but to push boundaries and unlock new possibilities. Whether you’re writing, designing, coding, or analyzing, we expect you to explore how AI can elevate your craft.\n\nOur culture is built on high trust, high agency, and high emotional intelligence. If you’re looking for a place where your voice matters, where work is fun, and where you're empowered to do your best - **join us in redefining user research 🚀**\n\n# **Product Engineer (Full-Stack) — Canada, Remote**\n\n&nbsp;\n\nI’m PJ, CTO at [Great Question](http://greatquestion.co). My co-founder Ned and I built this company on a simple idea: talking to your customers should be easy. This has only become more relevant as it’s become faster to build, but validating your ideas is still slow and painful.\n\nResearch, design, and product teams at ServiceNow, Brex and Canva run their customer research on us, and we raised a $13M Series A led by Inovia late last year after going through YC in 2021.\n\nThis year we’ve been doubling down on the agentic future of research. We’re super excited about what we’ve built and now we need help to continue rebuilding core parts of our product, agent-first. I’m hiring our first Product Engineers in Canada to do it with us.\n\n## **The role**\n\nProduct Engineer here means you take a problem and run with it end to end - from the customer conversation to production to validating whether it actually worked. PM support is light and as-required: a PM helps size the problem, shape the appetite, and call priority, but nobody hands you a spec. From there you're trusted to find the right solution, because you're close to the customer and you have great product sense. That only works with people who are self-directed and genuinely value autonomy and accountability.\n\nYou'll build across the product stack - from Rails APIs and React/TypeScript frontends to video streaming, realtime voice agents, agentic search, product analytics, and everything in between - working directly with the founders, our designer, and the rest of engineering.\n\n## **What we're looking for**\n\n**How you work.** AI is embedded across your entire workflow - not just used for coding. You might spend a morning digging through interview transcripts and product analytics to understand a problem, build a few throwaway prototypes to see which approach holds up, and then build a technical plan before handing it to a couple of agents to build and QA.\n\nWe’re expecting great judgment around all of that: breaking work into sensible pieces, evaluating the output carefully, and most importantly, owning whatever ships, regardless of who typed it.\n\n**What you build.** You build highly usable, customer-centric products that people love. You take the extra time to really dig into the data to make sure you understand the problem; and validate that what you’ve built actually solves it. You’ll go the extra mile to deliver something with UI + UX polish, while also thinking in systems to make sure that you’re using the right primitives so you’re delivering less bespoke solutions.\n\n**Who you are.** We're a small team of exceptional engineers, and we only hire people who raise the bar.\n\n- Strong across the full stack. An expert in both exposing APIs and the frontend it sits upon. We’re a Rails and TypeScript team, but it’s not a hard requirement.\n\n- Built and run production systems. Shipping features live and then maintaining them long enough to see what works (and what doesn’t!)\n\n- Live in an agentic coding harness daily (Claude Code, Codex, Cursor - we don't care which) and have real opinions about your setup.\n\n- Ideally shipped LLM-powered features, or least know what it takes to run them in production.\n\n- Have shipped things where _you_ decided what to build, and can defend your UX opinions.\n\n- Write clearly. We're remote and async-heavy; people who write clearly think (and prompt) clearly.\n\n- Are senior (roughly 5+ years with real ownership). Our level grading is tougher than most.\n\n## **How we build**\n\nWe've rebuilt how we work around AI agents, to ensure our engineers are unblocked to work at AI native speeds:\n\n- Main goes to production and approvals aren’t always required. Fast, automated CI is the gate, and we trust people to make the right judgements. Good work goes live as soon as it’s finished.\n\n- We invest in making the codebase easy to work in: written runbooks and conventions that help agents and new people find their way around quickly.\n\n- Running a few agents in parallel is easy, and expected. Sandboxes and preview environments are trivial to spawn.\n\n- You'll always have the latest tools and models, and we're generous with tokens.\n\n- Light on ceremony, high on accountability and communication.\n\nThis might not be for everyone, but if it excites you, please apply. We’re especially keen to meet people who are willing to challenge some of these ideas with their own hard-won lessons from the arena.\n\n## **Your first 90 days**\n\nWe expect you to hit the ground running, and fast.\n\n- **Week 1:** use the harness to learn the codebase and merge your first PR, ideally on day one. You’re deep in the customer data, in their Slack channels, and solving problems.\n\n- **First 30 days:** ship into a live area. That might be AI Moderator quality, or working directly on our global chat experience. You understand the product, the competitors, the problems we’re solving, and have a view on how we can win.\n\n- **By 60 days:** You own a surface - how the research agent communicates findings, growing our MCP surface, or rebuilding a core page on the new design system.\n\n- **By 90 days:** you're deep on a product area: talking to its customers, deciding what's next, accountable for whether it worked. You’re pushing the strategy with the founders & Head of Product in new directions with confidence.\n\n## **Who shouldn't apply**\n\n- Ambiguity and shifting priorities wear you down. Problems arrive here half-shaped, and the roadmap has changed under our feet more than once this year. Some people find that energizing; if you don't, you'll hate it.\n\n- You wait to be unblocked. We’re a small team, remote, and with light processes… resourcefulness is critical to the job. We need people who unblock themselves.\n\n- You’re not all-in on AI. Dabbling won't cut it here. Agents are how we work, not a thing we're trying out.\n\n- You'd rather not talk to customers. Product engineers here get on calls, read transcripts, and sit in the support queue sometimes. That closeness is the whole point of the role.\n\n- You only want the shiny work. Plenty of weeks are polish, reliability, and making something 5% less annoying.\n\n- You want a PM to frame the problem and hand you a spec. “Just tell me what to build and I’ll build it” will not fly here.\n\n## **Benefits**\n\n- Full-time employment with proper benefits, generous salary in CAD.\n\n- Remote, anywhere in Canada. We generally work PST hours, but are flexible.\n\n- 4 weeks PTO\n\n- Annual team offsite (this year is San Diego!)\n\n- Brand new Macbook pro\n\n- Enough tokens that you'll never be left wanting\n\n- Freedom to use the latest technologies and vendors\n\n_A note on compensation: Our offers sit in a defined band for the level, and set by our internal leveling rubric (scope of ownership, technical depth, previous relevant experience), not by negotiation. Most offers land near the midpoint._\n\n## **Our interview process**\n\n1. **Intro call w/ Cofounder/CTO (30 min).** Your story, what you've shipped. Our story, the impact you can have here.\n\n2. **Quality session (~ 60 min).** Do you know what quality looks like - both in terms of product and code.\n\n3. **Building session (~90 min)**. Build something real in our domain with your own AI tooling, the way you actually work; we walk through the code together as you go. We reimburse AI credits.\n\n4. **Team + values (~60 min)**. Meet the people you'll work with and ensure we all see the world the same way.\n\n5. **Founder conversation (~30 min)**. Meet the CEO.\n\n6. References, then offer.\n\nNo leetcode. AI tools aren't just allowed - they're expected just as they are in the job.\n\n## **How to apply**\n\nSend a link to something you've built that real people are using - and a few sentences on why you’re interested in this role.\n\n## **Why You’ll Love Working Here:**\n\n- A culture of customer obsession and curiosity\n\n- Opportunity to shape and scale a critical business function\n\n- Remote-first culture with high trust and high autonomy\n\n- Annual team retreats and virtual events\n\n- Opportunity to work on cutting-edge AI integrations that matter\n\n- Competitive compensation & equity\n\n- Generous PTO, health benefits, and learning stipend\n\n## _ **Equal Opportunity Statement** _\n\n_Great Question is committed to providing a workplace free from discrimination or harassment. We expect every member of the Great Question community to do their part to cultivate and maintain an environment where everyone has the opportunity to feel included, and is afforded the respect and dignity they deserve._\n\n_Decisions related to hiring, compensating, training, evaluating performance, or terminating are made fairly, and we provide equal employment opportunities to all qualified candidates and employees. We examine our unconscious biases and take responsibility for always striving to create an inclusive environment that makes every employee and candidate feel welcome._\n\n Canada fulltime none\nlocations: Canada\nremote: only\nmin_experience: 6",
+      "match_score": 9.45,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-13T18:58:11+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.41,
+            "overlap": 16.56,
+            "combined": 9.45
+          },
+          "backend": {
+            "cosine": 5.62,
+            "overlap": 15.04,
+            "combined": 8.44
+          },
+          "frontend": {
+            "cosine": 4.97,
+            "overlap": 16.5,
+            "combined": 8.43
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.41,
+        "keyword_overlap_score": 16.56,
+        "final_score": 9.45,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1845
+          },
+          {
+            "term": "team",
+            "weight": 0.114
+          },
+          {
+            "term": "agents",
+            "weight": 0.0791
+          },
+          {
+            "term": "high",
+            "weight": 0.0791
+          },
+          {
+            "term": "stack",
+            "weight": 0.0651
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "72ce53327278e5903731db875944e20b",
       "source": "wellfound",
