@@ -1,15 +1,243 @@
 {
-  "exported_at": "2026-10-13T01:53:34+00:00",
+  "exported_at": "2026-10-13T09:10:22+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 866,
+    "discovered": 869,
     "pending_approval": 224,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "c5132dc6e4410035ac81e521670da04e",
+      "source": "wellfound",
+      "company": "314e",
+      "role": "Senior Software engineer",
+      "url": "https://wellfound.com/jobs/4829546-senior-software-engineer",
+      "jd_text": "About 314e\n314e is a Best in KLAS Healthcare software company established in 2004 in San Francisco. 314e has offices in Philadelphia, Bangalore, Jaipur, and Bhutan.\n314e's customers include some of the best healthcare organizations (Academic Medical Centers, Integrated\nDelivery Networks, Health Insurers, etc.) in North America. We are creating cutting-edge products that improve care delivery using state-of-the-art technologies. Come work with us to create modern, multi-tenant, cloud-based, software-as-a-service products to improve the healthcare of millions. We offer a challenging work environment and the ability to ship software that has an immediate impact.\n\nInnovate with 314e\nThe software team is at the core of 314e's product success strategy. We earn our customers' trust by ensuring that we always deliver the highest quality products that exceed expectations. Our technologies ensure the fast creation and analysis of tools and features, using Automation, Machine Learning, Analytics, and DevOps. \nIn this role, you will lead our team through architecting and implementing new product features. You will identify innovation opportunities and deliver new technical capabilities.\nThis job is for you if you have a passion for leading the design and creation of software that is reliable, scalable,and can be integrated with other software to make an enterprise offering. You like to own the technical vision and implementation across a team or teams. You enjoy mentoring other engineers and helping us build a sustainable and inclusive organization.\n\nPreferred Qualifications\n• Bachelor's degree in Engineering with specialization in Computer Science or related field\n• 3+ years of experience as a software engineer in a product development setting\n• Deep experience in Python with demonstrated ability to build modern products\n• Experience in designing APIs and integration patterns, implementing secure and sustainable products with a focus on quality and scalability\n• Experience in FastAPI, Django, or equivalent\n• Experience in data modeling and efficient usage of PostgreSQL, MySQL, MongoDB, or equivalent\n• Experience with modern components like async Python, Pydantic, SQLAlchemy, Alembic, Celery, Google products API integration, etc. is a plus\n• Understanding of best practices including code check-in policies, automated unit tests, automated code deployments, etc.\n• Experience in other programming languages is a plus, especially JavaScript and/or TypeScript\n• Experience building feature-rich and scalable web apps is a plus\n• Ability to grasp new technologies and use them effectively to create industrial-strength software Bangalore Rural Bangalore Urban\nlocationNames: Bangalore Rural Bangalore Urban",
+      "match_score": 8.43,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-13T09:10:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.23,
+            "overlap": 13.58,
+            "combined": 8.44
+          },
+          "backend": {
+            "cosine": 5.7,
+            "overlap": 13.91,
+            "combined": 8.16
+          },
+          "frontend": {
+            "cosine": 5.22,
+            "overlap": 16.5,
+            "combined": 8.61
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.23,
+        "keyword_overlap_score": 13.58,
+        "final_score": 8.43,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.195
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.1219
+          },
+          {
+            "term": "team",
+            "weight": 0.1105
+          },
+          {
+            "term": "deliver",
+            "weight": 0.0736
+          },
+          {
+            "term": "delivery",
+            "weight": 0.0596
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c011de5a8aaa1c37767751605b701e33",
+      "source": "wellfound",
+      "company": "Zavops",
+      "role": "Shopify Developer Freelance",
+      "url": "https://wellfound.com/jobs/4829536-shopify-developer-freelance",
+      "jd_text": "Job Description\nThe ideal candidate will be responsible for developing, customizing, and maintaining e-commerce websites on the Shopify platform. This role requires a strong understanding of web development best practices, a deep knowledge of the Shopify ecosystem, and a passion for creating exceptional online shopping experiences.\nResponsibilities:\nDevelop, customize, and maintain high-performing and responsive Shopify e-commerce websites.\nWrite clean, efficient, and well-documented code using Shopify's Liquid templating language, HTML, CSS, and JavaScript.\nCollaborate with UI/UX designers and marketing teams to translate design mockups and business requirements into functional, user-friendly storefronts.\nImplement and configure Shopify apps and third-party integrations (e.g., payment gateways, shipping providers, marketing tools) to enhance site functionality.\nOptimize website performance for speed, mobile responsiveness, and SEO.\nTroubleshoot and debug technical issues, ensuring the smooth operation of the online store.\nPerform code reviews and maintain version control using Git.\nStay up-to-date with the latest Shopify updates, e-commerce trends, and web development technologies.\nProvide ongoing maintenance and support for existing stores.\nRequired Skills &amp; Qualifications:\nProven experience as a Shopify Developer with a strong portfolio of completed projects.\nExpertise in Shopify's Liquid templating language.\nStrong proficiency in front-end technologies: HTML5, CSS3, and JavaScript (including ES6+).\nExperience with responsive and mobile-first design principles.\nSolid understanding of Shopify's APIs and how to integrate them with other services.\nKnowledge of SEO best practices for e-commerce websites.\nFamiliarity with version control systems, especially Git.\nExcellent problem-solving, analytical, and communication skills.\nAbility to work independently and as part of a collaborative team.\nExperience with tools like Shopify CLI and theme development workflows is a plus.\nPreferred Skills:\nExperience with React, Vue.js, or other modern JavaScript frameworks.\nFamiliarity with other e-commerce platforms (e.g., Magento, WooCommerce).\nKnowledge of server-side languages like Node.js or Ruby on Rails.\nExperience in creating and deploying custom Shopify apps. India Gate\nlocationNames: India Gate\nremote: true",
+      "match_score": 7.01,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-13T09:10:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.54,
+            "overlap": 7.62,
+            "combined": 5.47
+          },
+          "backend": {
+            "cosine": 3.75,
+            "overlap": 7.14,
+            "combined": 4.77
+          },
+          "frontend": {
+            "cosine": 5.85,
+            "overlap": 9.71,
+            "combined": 7.0
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 5.85,
+        "keyword_overlap_score": 9.71,
+        "final_score": 7.01,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1245
+          },
+          {
+            "term": "javascript",
+            "weight": 0.0747
+          },
+          {
+            "term": "skills",
+            "weight": 0.0747
+          },
+          {
+            "term": "code",
+            "weight": 0.0498
+          },
+          {
+            "term": "git",
+            "weight": 0.0498
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9d28d7187a6e41cd18d8ef9a0481445e",
+      "source": "wellfound",
+      "company": "FreightFox",
+      "role": "Java Backend Engineer( 0-2 yrs Exp only )",
+      "url": "https://wellfound.com/jobs/2607054-java-backend-engineer-0-2-yrs-exp-only",
+      "jd_text": "**Qualitifciatons**\n\n* 0-2 Year of experience in software development.\n* Hands on with Java, SQL and Git is must\n\n**Software Engineer day-to-day responsibilities include:**\n\n1. Working with Java and SQL to design, develop and debug RESTful APIs\n2. Integrating front-end services with backend APIs based on frontend needs\n3. Writing clean, well-tested code which adheres to prevalent best practices, better if you follow Test Driven Development methodology\n4. Working on structuring complex business logic into well-organized, reusable and modularised code with test cases\n5. Creating and maintaining technical documentation\n\n**Skills and other requirements:**\n\n1. Good logical and problem-solving skills\n2. Hands on with Java and Git is a must\n3. Able to develop RESTful APIs using Spring Boot or any other Java Framework\n4. Experience in writing Unit Testing using JUnit and Mockito\n5. Good command over SQL and familiarity with at least one SQL DB (Postgres/MySQL, etc.)\n6. Hands-on with Linux shell commands and able to handle application and database servers\n7. Experience in writing SQL queries using CTEs is a plus\n\n**Additional Information**\n\n1. If you are not hands-on with any of the above technologies/frameworks, please complete tutorials in Udemy for Java, Sprint Boot, JUnit, and Postgres SQL then apply for the role\n\n\n**Unsaid traits that we look for cultural fit**\n\n* You are a Coder, a Doer. YOU BELIEVE in actions ( *In short - You are less about Gyan and more about Samadhan* )\n* You are passionate about technology, engineering best practices and using them to solve real and complex business problems.\n* You believe in \"Proof of the pudding is in the eating\" so you are always tinkering with and exploring new technologies\n\n**You’ll Get:**\nAn opportunity to share success with engineers solving complex challenges in an early-stage, funded start-up company. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 8.19,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-13T09:10:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.72,
+            "overlap": 9.6,
+            "combined": 8.29
+          },
+          "backend": {
+            "cosine": 7.83,
+            "overlap": 9.02,
+            "combined": 8.19
+          },
+          "frontend": {
+            "cosine": 7.69,
+            "overlap": 12.14,
+            "combined": 9.03
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 7.83,
+        "keyword_overlap_score": 9.02,
+        "final_score": 8.19,
+        "top_keywords": [
+          {
+            "term": "java",
+            "weight": 0.2065
+          },
+          {
+            "term": "sql",
+            "weight": 0.2065
+          },
+          {
+            "term": "using",
+            "weight": 0.1684
+          },
+          {
+            "term": "apis",
+            "weight": 0.1033
+          },
+          {
+            "term": "experience",
+            "weight": 0.1033
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "e3d079ac7782a757b69e62ee7d9da96a",
       "source": "yc",
