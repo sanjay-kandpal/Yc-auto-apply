@@ -1,15 +1,549 @@
 {
-  "exported_at": "2026-10-13T11:29:49+00:00",
+  "exported_at": "2026-10-13T17:29:09+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 869,
-    "pending_approval": 224,
+    "pending_approval": 228,
+    "discovered": 873,
     "submitted": 6,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "72ce53327278e5903731db875944e20b",
+      "source": "wellfound",
+      "company": "Proverse Talent",
+      "role": "Software Engineer - Fullstack",
+      "url": "https://wellfound.com/jobs/4829578-software-engineer-fullstack",
+      "jd_text": "**About the job**\n\nRole: Software Engineer - Full stack\nExperience: 3–6 years of software development experience\nLocation: Bengaluru (WFO - 5 Days)\nCompensation: 30–35 Fixed LPA + N/A-5 Variable\nFocus: End-to-end B2B product development, Python, TypeScript, ReactJS/NextJS, SQL &amp; NoSQL databases, and cloud infrastructure (AWS/GCP)\n\n**About the Company:**\nA lean team building modern, automated AI research infrastructure that uses autonomous agents and smart web scrapers to transform consumer data into rapid market research reports.\n\n**Job Description:**\nThis role combines independent feature ownership across the tech stack with rigorous engineering standards.\n\nWhat you'd actually be doing\n**1. End-to-End Ticket Ownership (Primary Focus):** Own tickets from problem understanding all the way to feature shipping, ensuring a tight, reliable engineering process that delivers value to major brands.\n**2. Full-Stack Feature Building:** Build, scale, and maintain features across both the frontend and backend stack.\n**3. Debugging &amp; Optimization:** Debug and optimize production systems to ensure maximum performance, reliability, and speed.\n**4. Collaboration &amp; Adaptation:** Collaborate closely with product and design teams while continuously learning and adapting to evolving technology stacks.\n\n**What good looks likeBy Outcome**\n**30 days:** Quick ramp-up on the codebase, active ownership of initial tickets, and adherence to reliable engineering workflows.\n**60 days:** Consistent shipping of full-stack features, proactive debugging of production environments, and tight cross-functional collaboration with product and design.\n**90 days:** Autonomous end-to-end delivery of complex features, performance optimizations in production, and seamless adaptation to the evolving tech stack.\n\nWhat we're looking for\n**Required:**\n* 3 to 6 years of experience in software development.\n* Strong proficiency in Python.\n*  Experience building end-to-end B2B products is mandatory, with critical product-based startup experience.\n*  Hands-on experience with TypeScript, ReactJS/NextJS, SQL &amp; NoSQL databases, and AWS/GCP—all mandatory.\n\n**Preferred:**\n*  Direct background in fast-paced product-based startups building scalable B2B infrastructure.\n\n**Career Progression:**\nThe role starts with owning tickets end-to-end, building features across the full stack, and debugging production systems under standard product workflows. High performers progressively take on larger architectural responsibilities, core system scaling, and broader technical ownership as the engineering organization grows. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 10.81,
+      "resume_variant": "frontend",
+      "draft_answer": "I have driven full-stack feature delivery for B2B products by building a React frontend end-to-end for a government regulator and owning client-facing modules for a cloud-native compliance platform that onboarded over 80 client organizations. My experience optimizing reporting API latency by 98% and cutting data load times by 60% directly aligns with the rigorous engineering standards at Proverse Talent for building modern AI research infrastructure.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-13T17:27:45+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.26,
+            "overlap": 13.25,
+            "combined": 9.76
+          },
+          "backend": {
+            "cosine": 5.27,
+            "overlap": 11.28,
+            "combined": 7.07
+          },
+          "frontend": {
+            "cosine": 10.24,
+            "overlap": 12.14,
+            "combined": 10.81
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.24,
+        "keyword_overlap_score": 12.14,
+        "final_score": 10.81,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.2841
+          },
+          {
+            "term": "experience",
+            "weight": 0.1393
+          },
+          {
+            "term": "production",
+            "weight": 0.0929
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.0697
+          },
+          {
+            "term": "based",
+            "weight": 0.0568
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-13T17:28:56+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "153a919f23936382b693b63b5fa4943d",
+      "source": "wellfound",
+      "company": "Presolv360",
+      "role": "SDE - 1 (PHP/Laravel developer)",
+      "url": "https://wellfound.com/jobs/4824689-sde-1-php-laravel-developer",
+      "jd_text": "**SDE – I (PHP / Laravel Developer)** \n**Location: Colaba, Mumbai** \nEmployment type: Full-time | Work from office  \n  \nAbout us  \nPresolv360 is an online dispute resolution (ODR) platform that harnesses the power of technology to \nfacilitate quick and effective out-of-court resolution of disputes while drastically reducing the costs and resources involved in resolving them. You can learn more about us here.  \n \nThe Founders and the team are driven by the vision, ‘digital access to justice for all’ and are backed by a remarkable set of investors. Presolv360 is empaneled as a Mediation Institution by various Courts in India. \n\nPresolv360’s advisory council consists of Justice U U Lalit, former Chief Justice of India, Justice B N \nSrikrishna, former Judge of the Supreme Court of India and Justice K Kannan, former High Court Judge.  \n \n**Role Overview** \n\nWe are looking for an SDE-1 – PHP/Laravel Developer to join our engineering team and work on \ndeveloping and maintaining web applications and backend services.  \n \nThe candidate should have good knowledge of PHP, Laravel, MVC, REST APIs, and databases, along with  good programming and problem-solving skills. This role is suitable for a developer who can independently work on well-defined tasks while collaborating with senior developers, QA, frontend engineers, and product teams. \n \nWe mean it when we say, ‘Presolv360 is yours to build’. If this sounds interesting to you, we would love \nto have you read on:  \n \n**Key responsibilities** \n*  Develop and maintain applications using PHP and Laravel. \n*  Work with MVC architecture and follow Laravel best practices. \n*  Design and develop secure, high-performance backend solutions. \n*  Develop and maintain REST APIs, including implementing API authentication using JWT. \n*  Work with MySQL and PostgreSQL databases. \n*  Write clean, readable, reusable, and maintainable code. \n*  Work with Laravel Jobs, Queues, Events, Listeners, and Scheduled Tasks. \n*  Integrate and work with third-party APIs and external services. \n*  Debug and resolve application issues and bugs. \n*  Use Git and follow the team’s branching and pull request workflow. \n*  Apply AI-assisted development practices to improve productivity, code quality, debugging, \ntesting, and problem-solving. \n \n \n**Skills/Qualifications** \n*  Proficiency in PHP 8+ and Laravel is required. \n*  Strong understanding of MVC architecture and Laravel best practices is expected. \n*  Experience with MySQL and PostgreSQL databases is required. \n*  Hands-on experience with REST APIs and JWT authentication is preferred. \n*  Good knowledge of HTML, CSS, JavaScript, and jQuery is required. \n*  Strong understanding of Object-Oriented Programming (OOP) principles is expected. \n*  Experience with Git and version control workflows is required. \n*  Hands-on experience with Laravel Jobs and Queues is preferred. \n*  Experience integrating third-party APIs and external services is required. \n*  Strong debugging and problem-solving skills are essential. \n*  Ability to write clean, reusable, and maintainable code is required. \n*  Basic understanding of secure and high-performance backend development is expected. \n\n**Good to have** \n*  Familiarity with React.js  \n*  Basic Docker knowledge  \n*  Basic understanding of Generative AI / LLM APIs Basic AWS knowledge \n\n**Recruitment Process** \n* Write to us with your CV at hr@presolv360.com. Mention ‘SDE – I’ in the subject line. \n* After screening, suitable candidates will be required to complete a customized assignment. \n* Shortlisted candidates will be contacted for three rounds of interviews. \n* Your compensation will be decided based on your skill, experience and final assessment. Colaba\nlocationNames: Colaba",
+      "match_score": 8.3,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-13T17:27:45+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.46,
+            "overlap": 12.58,
+            "combined": 8.29
+          },
+          "backend": {
+            "cosine": 6.32,
+            "overlap": 11.28,
+            "combined": 7.81
+          },
+          "frontend": {
+            "cosine": 5.43,
+            "overlap": 13.59,
+            "combined": 7.88
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.46,
+        "keyword_overlap_score": 12.58,
+        "final_score": 8.3,
+        "top_keywords": [
+          {
+            "term": "apis",
+            "weight": 0.1125
+          },
+          {
+            "term": "experience",
+            "weight": 0.1125
+          },
+          {
+            "term": "team",
+            "weight": 0.0849
+          },
+          {
+            "term": "high",
+            "weight": 0.0688
+          },
+          {
+            "term": "backend",
+            "weight": 0.0562
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e1089fb60ae59e3c8963432c53ebb016",
+      "source": "wellfound",
+      "company": "Grape Technology",
+      "role": "Full Stack Developer (2–3 Years Experience)",
+      "url": "https://wellfound.com/jobs/4829569-full-stack-developer-2-3-years-experience",
+      "jd_text": "Full Stack Developer (2–3 Years Experience)\nAbout the Role\n We’re looking for a Full Stack Developer to build and maintain web applications across the stack. You’ll work closely with product and design to ship features end to end, from database to UI.\nResponsibilities\n\nDevelop and maintain front-end interfaces and back-end services and APIs\nDesign database schemas and write efficient queries\nIntegrate third-party services and APIs\nWrite clean, testable code and take part in code reviews\nTroubleshoot, debug, and improve application performance\nRequirements\n\n2–3 years of professional full stack development experience\nStrong JavaScript/TypeScript skills, with experience in React (or a similar framework) and Node.js/Express\nExperience with SQL and/or NoSQL databases (e.g., PostgreSQL, MongoDB)\nFamiliarity with REST APIs, Git, and cloud platforms (AWS, GCP, or Azure)\nGood problem-solving and communication skills\nNice to Have\n\nExperience with Docker, CI/CD pipelines, or microservices\nExposure to automated testing frameworks\n\nNote : Please apply only if you are available to join immediately. Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 14.96,
+      "resume_variant": "frontend",
+      "draft_answer": "As an Associate FullStack Engineer, I’ve built React front ends for compliance portals and owned core client-facing modules of cloud-native web applications, from scoping requirements and driving UAT to onboarding 80+ client organizations. My focus on performance led to a 98% reduction in API fetch latency by integrating Redis, cut data load times by 60% using Azure Blob Storage, and enabled faster deployments by containerizing microservices.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-13T17:27:45+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 13.13,
+            "overlap": 10.93,
+            "combined": 12.47
+          },
+          "backend": {
+            "cosine": 9.96,
+            "overlap": 10.53,
+            "combined": 10.13
+          },
+          "frontend": {
+            "cosine": 15.33,
+            "overlap": 14.08,
+            "combined": 14.96
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 15.33,
+        "keyword_overlap_score": 14.08,
+        "final_score": 14.96,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2701
+          },
+          {
+            "term": "end",
+            "weight": 0.2202
+          },
+          {
+            "term": "apis",
+            "weight": 0.135
+          },
+          {
+            "term": "code",
+            "weight": 0.09
+          },
+          {
+            "term": "skills",
+            "weight": 0.09
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-13T17:28:34+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7f054a40fab57876e83b9bc19ec9c510",
+      "source": "wellfound",
+      "company": "Narya.ai",
+      "role": "AI Systems Engineer",
+      "url": "https://wellfound.com/jobs/4829635-ai-systems-engineer",
+      "jd_text": "**About us**\nWe are a venture-backed startup based in Bay Area. We are building the frontier models and infrastracture for AI characters in the anime world. We train models for expressive anime-style voice and motion, built for real-time interaction. \n\n**What you'll work on**\n* Design and build the architecture behind model inference and our character API\n* Improve stability and reliability under real-time production traffic\n* Measure and cut latency across the whole voice and avatar pipeline\n* Improve internal agent harness the whole team runs on\n\n**What we're looking for**\n* Love anime\n* Work effectively with coding agents to deliver high-quality systems\n* Care about building systems that are stable, reliable, and fast, and you approach them systematically\n* Hands-on experience building with AI/LLM models and applications\n* Product-minded, and you thrive on a fast-paced team\n\nTo apply: email wen@narya.ai Palo Alto\nlocationNames: Palo Alto\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-13T17:27:45+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "bbe2b66cfb153a181e7511661ecd569d",
+      "source": "wellfound",
+      "company": "InsurePro 2.0",
+      "role": "Senior Web Developer",
+      "url": "https://wellfound.com/jobs/4824708-senior-web-developer",
+      "jd_text": "We have an exciting opportunity for a Senior Web Developer with Digi Pro Marketing LLP, a full-service digital marketing agency specializing in digital strategy, web development, SEO, performance marketing, creative services, and technology solutions.\nPosition Details\nRole: Senior Web Developer\nCompany: Digi Pro Marketing LLP\nLocation: Adyar, Chennai (Work From Office)\nExperience: 4+ Years\nEmployment Type: Full-Time\nWebsite: https://www.digi-pro.co/\nKey Skill Requirements\nStrong experience in WordPress, Framer, Squarespace, and Webflow\nExpertise in PHP, HTML5, CSS3, JavaScript, MySQL\nExperience in custom WordPress theme and plugin development\nElementor, Gutenberg, REST APIs, and third-party integrations\nHosting, DNS, SSL, cPanel, website migrations, and deployments\nTechnical SEO, Core Web Vitals, AEO, and website performance optimization\nGit/GitHub knowledge\nGood understanding of responsive web development and cross-browser compatibility\nReact.js / Next.js experience will be an added advantage\nAssessment Task\nCandidates shortlisted for the next stage will be required to complete a practical assessment.\nAssessment Objective: Convert the provided Figma design into a fully responsive website using Framer.\nWhat We Are Looking For\nStrong ownership and problem-solving skills\nAbility to independently manage multiple projects\nUnderstanding of SEO, UX, lead generation, and conversion-focused development\nExcellent communication and collaboration skills\nExperience working in fast-paced agency environments is preferred Chennai\nlocationNames: Chennai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-13T17:27:45+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b686fcd91618696fc5e2b80dfd493e0b",
+      "source": "wellfound",
+      "company": "HyprForge",
+      "role": "AI Backend / Full-Stack Developer",
+      "url": "https://wellfound.com/jobs/4824731-ai-backend-full-stack-developer",
+      "jd_text": "# AI Backend / Full-Stack Developer – Multilingual AI Assistant Platform\n\n**Location:** Remote\n**Employment Type:** Full-time / Contract\n**Experience:** 3+ Years\n**Tech Stack:** Node.js, TypeScript, LLMs, Qwen, PostgreSQL, Redis, React, Docker\n\n## About the Role\n\nWe are looking for an experienced **AI Backend / Full-Stack Developer** to build and scale a production-ready, multilingual AI assistant capable of understanding **English, Hindi, and Hinglish** and translating natural-language requests into secure application workflows.\n\nThe platform will support account management, wallet operations, payment workflows, transaction history, real-time information retrieval, application navigation, and customer support.\n\nAn initial Node.js implementation already includes intent classification, structured entity extraction, local Qwen3 inference, a testing interface, and automated tests.\n\nYou will extend this foundation into a reliable, scalable platform with authenticated API integrations, conversation management, secure transaction handling, monitoring, and production deployment.\n\nThis is a **hands-on engineering role** focused on developing, integrating, testing, and shipping production software.\n\n## Key Responsibilities\n\n- Design, develop, and maintain scalable backend services using Node.js and TypeScript.\n- Integrate self-hosted LLMs using OpenAI-compatible APIs or equivalent interfaces.\n- Build multilingual intent recognition and entity extraction for English, Hindi, and Hinglish.\n- Implement conversational context, clarification flows, and multi-step interactions.\n- Integrate the AI assistant with account, wallet, payment, transaction, and customer support APIs.\n- Develop a secure tool/function-calling framework with schema validation and deterministic business logic.\n- Implement authentication, authorization, transaction confirmation, and audit logging.\n- Handle API failures, retries, timeouts, idempotency, and duplicate requests.\n- Build responsive conversational interfaces and internal management dashboards.\n- Optimize model inference performance, response latency, and resource utilization.\n- Develop automated evaluation pipelines for intent accuracy, entity extraction, and workflow completion.\n- Write unit, integration, and end-to-end tests.\n- Set up CI/CD pipelines, logging, monitoring, and production deployments.\n- Collaborate with product, frontend, and backend teams to define API contracts and deliver features.\n\n## Required Skills\n\n- **3+ years of software development experience**, preferably in backend or full-stack development.\n- Strong proficiency in JavaScript, TypeScript, and Node.js.\n- Experience building and integrating REST APIs.\n- Practical experience integrating LLMs into real-world applications.\n- Understanding of structured LLM outputs, JSON Schema, function calling, and response validation.\n- Experience with authentication, role-based access control, and secure API communication.\n- Understanding of transactional workflows, state management, retries, and idempotency.\n- Experience with PostgreSQL or similar relational databases.\n- Familiarity with Redis for caching and session management.\n- Working knowledge of Docker, Git, CI/CD, and Linux environments.\n- Experience writing automated tests and debugging production applications.\n- Ability to develop modular, maintainable, and well-documented code.\n- Ability to work with Hindi and Hinglish inputs, including romanized Hindi and common abbreviations.\n\n## Good to Have\n\n- Experience with **Qwen, Llama, or other open-weight language models**.\n- Familiarity with LM Studio, Ollama, vLLM, or llama.cpp.\n- Experience with React or Next.js.\n- Experience integrating payment gateways, digital wallets, or financial APIs.\n- Knowledge of WebSockets, Server-Sent Events (SSE), message queues, and asynchronous processing.\n- Familiarity with prompt-injection prevention, sensitive-data redaction, and LLM observability.\n- Experience optimizing GPU utilization, inference speed, and model-serving costs.\n- Understanding of Retrieval-Augmented Generation (RAG).\n- Experience deploying and operating self-hosted AI services.\n\n## What You'll Work On\n\n**1. AI &amp; Natural Language Understanding**\n\nImprove multilingual intent recognition, entity extraction, conversational context, and structured LLM responses.\n\n**2. Backend &amp; API Integrations**\n\nConnect AI-generated intents to authenticated application APIs with strong validation, permission checks, and error handling.\n\n**3. Conversational Workflows**\n\nBuild multi-step conversations, clarification mechanisms, user confirmations, and reliable workflow execution.\n\n**4. AI Model Integration &amp; Optimization**\n\nIntegrate and optimize self-hosted models, improve inference performance, and establish evaluation benchmarks.\n\n**5. Production Readiness**\n\nImplement automated testing, monitoring, logging, containerized deployments, and operational documentation.\n\n## Initial Deliverables\n\n- Review the existing codebase and recommend a production-ready architecture.\n- Implement authenticated API integration, session handling, and conversation state management.\n- Deliver informational workflows such as account balance, transaction history, and real-time status queries.\n- Implement secure transaction preparation, validation, and user confirmation flows.\n- Improve multilingual intent accuracy and establish measurable evaluation benchmarks.\n- Deploy the platform to staging with automated tests and monitoring.\n- Support user acceptance testing and production deployment.\n\n## What Success Looks Like\n\n- Users can interact naturally in English, Hindi, and Hinglish.\n- The assistant accurately understands requests and extracts relevant information.\n- Ambiguous requests trigger meaningful clarification.\n- Responses and transaction results are verified against authoritative backend systems.\n- Sensitive operations require authentication, authorization, and explicit user confirmation.\n- API failures are handled gracefully without duplicate transactions or misleading responses.\n- The platform is scalable, maintainable, observable, and ready for future integrations.\n\n## How to Apply\n\nPlease share:\n\n1. Your résumé or professional profile.\n2. Examples of backend or full-stack applications you have developed.\n3. At least one **LLM integration project**, including your role and technical contributions.\n4. A brief explanation of how you would securely connect an AI assistant to APIs that perform financial or account-related operations.\n\n**We're looking for developers who can build and ship real AI-powered applications, not just chatbot prototypes.** Gujarat\nlocationNames: Gujarat\nremote: true",
+      "match_score": 17.07,
+      "resume_variant": "fullstack",
+      "draft_answer": "I have experience developing secure Node.js/Express.js full-stack applications handling concurrent users, and I've successfully used Ollama to containerize and validate LLMs for reliable tool-calling, optimizing their performance. My background in delivering end-to-end platforms, implementing ACID-compliant transactions with RabbitMQ for guaranteed delivery, deploying with Azure DevOps CI/CD for zero-downtime blue-green releases, and integrating Redis for 98% faster API response times directly applies to building and scaling a reliable multilingual AI assistant platform.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-13T17:27:45+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 15.3,
+            "overlap": 21.19,
+            "combined": 17.07
+          },
+          "backend": {
+            "cosine": 15.05,
+            "overlap": 19.92,
+            "combined": 16.51
+          },
+          "frontend": {
+            "cosine": 11.97,
+            "overlap": 19.9,
+            "combined": 14.35
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 15.3,
+        "keyword_overlap_score": 21.19,
+        "final_score": 17.07,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2086
+          },
+          {
+            "term": "experience",
+            "weight": 0.1705
+          },
+          {
+            "term": "stack",
+            "weight": 0.1288
+          },
+          {
+            "term": "backend",
+            "weight": 0.1279
+          },
+          {
+            "term": "production",
+            "weight": 0.1137
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-13T17:28:18+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f4785a5eb2da0ce41e607372e925bda0",
+      "source": "wellfound",
+      "company": "eLitmus Evaluation",
+      "role": "Associate/ Senior Associate",
+      "url": "https://wellfound.com/jobs/4824663-associate-senior-associate",
+      "jd_text": "Hi Friend,\n\nAre you someone let down by the mediocrity  at your company?\n\nDo you want an environment\n* Which fosters initiative and excellence ?\n* Where you get freedom to create but equally are held accountable ?\n\nOur roles offer wide exposure across tech and business. Remember with AI anyways all roles will need you to wear multiple hats. \n\nCurious to know more ? Read the complete Job description below\n\nFirst things first this is a common job ad for two job roles - one where building tech is a major responsibility and in another business component predominates. We always thought unidimensional work roles were not the future and with the advent of AI every one has to jump on to this boat. \n\n**About you**\n\nIf you relate to one or more of the following statements you will love to work with us \n\n* You find this ad intriguing and read it right till end. Then you read it few more times straight away or in next few days.\n* You work for great brand or/ and good compensation but fed up about mediocrity around you \n* You feel suffocated because you are told exactly what to do and do not know how your work impacts actual life as you have limited access to code base or customer \n* You built apps or software to solve real life problems beyond work or college projects OR got students together to do high impact community projects (even CJP was a students community project which grew in epic proportion) OR were the key organizer of large scale festivals/events in college with multi million costs  \n* While World bothers about a tomorrow where jobs will be lost due to AI, but you are thinking how AI can be leveraged to create millions of jobs and a wonderful future \n\n**What we look for**\n\nWe are looking for Authors &amp; result focused Explorers. People who find their own way and always find a reason why or how a thing can happen rather than why it cannot. Our long standing philosophy has been not to seek \n\n* Translators who can convert a business requirement into code OR\n* Process workers who say “teach me once” and I will do it very well. We respect that skill and will hire separately for it as mentioned above\n\nThis view has further been reaffirmed by the advent of AI. \n\nIn short you need to be a quintessential problem solver. Ones who are faced with a unique problem start thinking about it throughout the day. \n\n*We have many interesting problems. An example  *\n\n* When a candidate takes a test in remote environments, its not very difficult for them to take help of AI even with a camera on. What will you do to identify individuals who cheated with help of AI\n* Now if you find yourself trying to crack the problem days after having read it - you jump right ahead in the queue\n\n*Few additional points For Tech roles*\n\nPast experience of having built large code bases across multiple tech stacks. You need to have full-stack chops even if in your current job you were restricted to a single-dimension role like a back-end or front-end engineer. AI anyways can write the first cut for you\n\n**Our Story**\n\nConfession first: eLitmus has lived an ordinary life. We are setting out to change that. Here's what we're changing it with.\n\n* We started in 2005 and created the talent assessment category in India. Funded competitors came after us; we outlasted them while they had the cash because we built a business rather than a burn rate.\n* The largest database of fresh engineers in the country — bigger than LinkedIn and Naukri combined.\n* No sales team for 10+ years. Companies came anyway.\n* The Government of India uses us for post-skilling assessments under Skill India.\n\nA polite way of saying we're littered with unmonetised assets and short of people who'll go take them. It's like working at a twenty-year-old startup, mid-reinvention, with AI about to redraw the entire talent landscape.\n\nLooking for a few mavericks to join the team to make it happen. The ones who Steve Jobs referred to as \"stay foolish and stay hungry\". Remember it's a handful of revolutionaries who changed the World with the French Revolution.\n\nIf you are someone who loves to live your life on your terms rather than doing what others expect you to do, welcome to the world of \"everything is possible\". \n\nCome let us change the World together - one nano step at a time !! Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 6.46,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-13T17:27:45+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.11,
+            "overlap": 9.6,
+            "combined": 6.46
+          },
+          "backend": {
+            "cosine": 4.0,
+            "overlap": 7.89,
+            "combined": 5.17
+          },
+          "frontend": {
+            "cosine": 4.36,
+            "overlap": 9.71,
+            "combined": 5.96
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.11,
+        "keyword_overlap_score": 9.6,
+        "final_score": 6.46,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2409
+          },
+          {
+            "term": "end",
+            "weight": 0.0803
+          },
+          {
+            "term": "students",
+            "weight": 0.0661
+          },
+          {
+            "term": "team",
+            "weight": 0.0661
+          },
+          {
+            "term": "built",
+            "weight": 0.0657
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "58d08c6f8f82f6a4f1df27357987efa9",
+      "source": "wellfound",
+      "company": "timepay.ai",
+      "role": "Voice AI Engineer",
+      "url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
+      "jd_text": "# Voice AI Engineer\n\n## About timepay.ai\n\ntimepay.ai builds AI voice agents and WhatsApp and SMS automation for businesses across industries. Our platform runs lead generation, sales, customer support, retail and collections conversations at scale.\n\n## The role\n\nYou will build the AI agents our customers' customers actually talk to: voice agents on phone and web calls, WhatsApp agents and chat agents. You will design the conversation flows, wire together STT, LLM and TTS in real time, and make every agent sound natural, respond fast and get the job done.\n\n## What you'll work with\n\n* Voice frameworks: Pipecat, LiveKit Agents \n* Real-time transport: WebSockets, WebRTC, SIP / telephony \n* AI models: STT, LLMs, TTS (in-house and commercial) \n* Messaging: WhatsApp Business API, web chat \n* Backend: Python, Node.js, PostgreSQL, Redis \n\n## What you'll do\n\n**Build voice AI agents**\n\n- Build and ship real-time voice agents with Pipecat and LiveKit Agents, connecting STT, LLM and TTS into low-latency streaming pipelines.\n- Handle the hard parts of live conversation: voice activity detection, turn-taking, barge-in, silence, background noise and call transfers.\n- Connect agents to phone networks and browsers through SIP trunks, telephony providers, WebRTC and WebSockets.\n- Bring end-to-end response latency down by streaming every stage, choosing the right models and tuning infrastructure.\n\n**Build WhatsApp and chat agents**\n\n- Build WhatsApp agents on the WhatsApp Business API: templates, session messages, media, buttons and lists.\n- Build web and in-app chat agents that share logic with voice agents across channels.\n- Design hand-offs between channels and to human agents.\n\n**Design conversation flows**\n\n- Turn customer use cases (lead qualification, sales, support, reminders, collections) into voice and chat flows.\n- Write and tune prompts, system instructions and guardrails; build tool and function calls that let agents look up data, book slots or update CRMs.\n- Support multiple Indian languages and code-mixed speech, with natural, on-brand voices.\n- Build reusable flow templates and a flow builder so new agents launch fast.\n\n**Test, measure and improve**\n\n- Build testing and evaluation for agents: simulated calls, transcript review, task success, latency and drop-off.\n- Use call recordings, transcripts and analytics to find failures and fix them.\n- Store and query conversation state, context and outcomes in PostgreSQL and Redis.\n- Work with forward deployed, backend and ML engineers to take agents live for customers and improve them over time.\n\n## What success looks like\n\n* 30 days: Learned our voice and messaging stack; built and demoed a working voice agent and a WhatsApp agent end to end.\n* 60 days: Taken a customer agent live; cut latency or improved task success on an existing agent, with numbers to show it.\n* 90 days: Shipped reusable flow templates or tooling that speed up new agent launches; set up an evaluation loop for agent quality.\n\n## What we're looking for\n\n- 2+ years of software engineering, with hands-on experience building voice AI agents, WhatsApp agents or chat agents in production.\n- Hands-on experience with Pipecat and/or LiveKit Agents.\n- Strong understanding of real-time systems: WebSockets, WebRTC, audio streaming, codecs and latency.\n- Experience integrating STT, LLM and TTS providers (such as Deepgram, Whisper, OpenAI, Gemini, ElevenLabs, Cartesia or similar).\n- Experience designing voice and chat flows, prompt engineering and LLM tool/function calling.\n- Strong Python; comfortable with async programming.\n- Working knowledge of databases (PostgreSQL, Redis) for conversation state and analytics.\n- Experience with the WhatsApp Business API or other messaging platforms.\n- Ownership and a strong ear for conversation quality: you notice when an agent sounds robotic or slow, and you fix it.\n\n## Good to have\n\n- Telephony: SIP, Twilio, Exotel, Plivo or similar; Asterisk or FreeSWITCH.\n- Multilingual and Indian-language voice agents, including code-mixed speech.\n- Node.js and Docker; deploying real-time services on GCP or AWS.\n- RAG, knowledge bases and agent frameworks (LangChain, LlamaIndex or similar).\n- Building agent evaluation, testing or observability tools.\n- Experience with conversational AI for sales, support, retail or BFSI use cases.\n\n## Why join timepay.ai\n\n- Build AI agents that hold millions of real conversations across industries and languages.\n- Work at the cutting edge of real-time voice AI, with the freedom to try new models and frameworks.\n- See your work live fast: agents you build go in front of customers in weeks, not quarters.\n- Competitive salary and flexible work. Bengaluru Mumbai\nlocationNames: Bengaluru Mumbai\nremote: true",
+      "match_score": 10.65,
+      "resume_variant": "backend",
+      "draft_answer": "My focus on high-performance backend systems, demonstrated by cutting reporting API latency from 500ms to 10ms with Redis caching and introducing RabbitMQ to handle concurrency, positions me to build low-latency voice and chat agents that respond fast and guarantee delivery. Coupling that with my experience scoping complex client requirements and validating LLM tool-calling reliability for AI agents, I'm ready to design effective conversation flows and wire together STT, LLM, and TTS to get the job done.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-13T17:27:45+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.28,
+            "overlap": 12.58,
+            "combined": 10.27
+          },
+          "backend": {
+            "cosine": 9.58,
+            "overlap": 13.16,
+            "combined": 10.65
+          },
+          "frontend": {
+            "cosine": 6.8,
+            "overlap": 15.05,
+            "combined": 9.27
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 9.58,
+        "keyword_overlap_score": 13.16,
+        "final_score": 10.65,
+        "top_keywords": [
+          {
+            "term": "agents",
+            "weight": 0.4086
+          },
+          {
+            "term": "ai",
+            "weight": 0.2043
+          },
+          {
+            "term": "agent",
+            "weight": 0.1571
+          },
+          {
+            "term": "real",
+            "weight": 0.0899
+          },
+          {
+            "term": "time",
+            "weight": 0.0899
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-13T17:29:08+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "c5132dc6e4410035ac81e521670da04e",
       "source": "wellfound",
