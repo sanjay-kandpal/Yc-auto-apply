@@ -1,15 +1,206 @@
 {
-  "exported_at": "2026-10-14T14:58:16+00:00",
+  "exported_at": "2026-10-14T16:40:04+00:00",
   "daily_cap": 5,
   "submitted_today": 2,
   "counts": {
-    "pending_approval": 229,
+    "pending_approval": 231,
+    "discovered": 884,
     "submitted": 8,
-    "discovered": 883,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "d4511536c24f4d4c95751bf8081ad904",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Software Engineer II, Frontend (Bangalore, India)",
+      "url": "https://www.workatastartup.com/jobs/116447",
+      "jd_text": "# About AiPrise\n\nAiPrise is a global compliance orchestration platform helping fintechs, marketplaces, and payment companies verify and onboard customers worldwide. We integrate with 80+ identity and compliance vendors to deliver a holistic view of risk. We're now building AI-powered compliance agents to revolutionize KYB, AML, sanctions screening, and risk scoring, enabling our customers to onboard faster, reduce manual reviews, and prevent financial crime.\n\n&nbsp;\n\n## Role Overview\n\nWe're hiring a Software Engineer II, Frontend to own the onboarding flow, the part of AiPrise that end users actually see.\n\nUsers enter their details, scan an ID, take a selfie and upload documents. The flow is a React app, and customers embed it in their own products through our Web, Flutter and React Native SDKs. Every customer configures their own steps, theme and language, so one codebase has to work well for many setups, on every kind of phone and browser.\n\nThis is a build it, ship it, own it role. It's a small team, and you'll own large parts of the flow from day one.\n\n&nbsp;\n\n## **What You'll Do**\n\n### Build & Own the Onboarding Flow\n\n- Build and improve onboarding screens for individuals (KYC) and businesses (KYB)\n\n- Build camera features like ID capture, selfie and liveness, and make them reliable on iPhones, low-end Android phones and inside mobile apps\n\n- Maintain and improve our Web, Flutter and React Native SDKs so the flow feels native inside customer apps\n\n### Drive Technical Excellence\n\n- Keep the flow fast and stable, including on low-end devices and slow networks\n\n- Use data to find and fix where users drop off\n\n- Write clean, well-tested code and take part in code reviews\n\n- Debug production issues with urgency; own them until they're fixed\n\n### Collaborate\n\n- Work closely with product, design and backend engineers\n\n- Pick up backend work (Python) when a feature needs it\n\n&nbsp;\n\n## What We're Looking For\n\n### Must-Have:\n\n- **2-4 years** of building and shipping web products in production\n\n- Strong **JavaScript, TypeScript and React** , including performance and state management\n\n- Good **HTML and CSS** , with mobile-first, responsive layouts\n\n- Good understanding of **how browsers work on mobile** , including camera access, permissions and cross-browser issues\n\n- Solid **problem-solving and DSA** fundamentals\n\n- **Proven ability to own features end-to-end** , from an unclear requirement to production\n\n- You care about user experience and notice when a flow feels off\n\n### Nice-to-Have:\n\n- **Flutter or React Native** experience\n\n- Experience building an **SDK or library** that other developers use\n\n- Experience with **camera, video or document scanning** features\n\n- Some backend experience in Python or Node.js\n\n- Background in **FinTech or identity verification**\n\n&nbsp;\n\n## Success in This Role Looks Like\n\n- **In 3 Months** : You've shipped 2-3 features end-to-end and own one area, such as ID capture or one of the SDKs\n\n- **In 9 Months** : You're the go-to person for a large part of the onboarding flow, and have clearly improved something users feel, like completion rate or speed on low-end phones\n\n&nbsp;\n\n## **Why AiPrise**\n\n- Build **mission-critical software** that directly fights financial crime and fraud for companies like Meta and leading fintechs\n\n- Work with users and data from 200+ countries\n\n- Join a **fast-moving YC-backed startup** where your work has immediate customer impact\n\n- **Ship quickly**. Your code will reach production in days, not months\n\n- **Collaborate in-person** with a talented, mission-driven team in Bengaluru\n\n- Competitive compensation\n\n&nbsp;\n\n# **About the interview**\n\n1. Remote: Exploratory Discussion\n\n2. In-office\n\n3. Remote: Behavioural (Head of Engineering)\n\n4. Remote: Compensation Discussion\n\n Bengaluru fulltime yes\nlocations: Bengaluru\nremote: no",
+      "match_score": 13.27,
+      "resume_variant": "frontend",
+      "draft_answer": "I've owned and shipped React front ends end-to-end for client-facing platforms, including a government occupational hygiene portal, where I drove UAT across diverse user groups and cut data fetch latency by 98% to improve UI responsiveness for 80+ onboarded organizations. My experience driving UAT in varied environments and optimizing performance prepares me to ensure your embedded onboarding flow is fast and stable across all devices, and I can contribute to backend Python as needed.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-14T16:39:22+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.6,
+            "overlap": 12.58,
+            "combined": 9.79
+          },
+          "backend": {
+            "cosine": 6.41,
+            "overlap": 12.03,
+            "combined": 8.1
+          },
+          "frontend": {
+            "cosine": 12.3,
+            "overlap": 15.53,
+            "combined": 13.27
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 12.3,
+        "keyword_overlap_score": 15.53,
+        "final_score": 13.27,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1916
+          },
+          {
+            "term": "experience",
+            "weight": 0.0979
+          },
+          {
+            "term": "react",
+            "weight": 0.0979
+          },
+          {
+            "term": "users",
+            "weight": 0.0979
+          },
+          {
+            "term": "native",
+            "weight": 0.0783
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-14T16:40:02+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "212cc05ded83fc92c3d91b00d8c40326",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Software Engineer II, Full Stack (Frontend Focused) (Bangalore, India)",
+      "url": "https://www.workatastartup.com/jobs/116451",
+      "jd_text": "# About AiPrise\n\nAiPrise is a global compliance orchestration platform helping fintechs, marketplaces, and payment companies verify and onboard customers worldwide. We integrate with 80+ identity and compliance vendors to deliver a holistic view of risk. We're now building AI-powered compliance agents to revolutionize KYB, AML, sanctions screening, and risk scoring, enabling our customers to onboard faster, reduce manual reviews, and prevent financial crime.\n\n&nbsp;\n\n## Role Overview\n\nWe're hiring a frontend-focused Full Stack Software Engineer II: strong on the frontend and comfortable across the stack.\n\nThis is a build it, ship it, own it role. You'll take features end to end, from design to code to deploy to iterate. Most of your work will be on what our customers and their users see: the onboarding flow end users go through, our Web, Flutter and React Native SDKs, and the case management product compliance teams use every day. You'll also build the APIs and backend changes these features need.\n\nYou'll work closely with founders, product and design, turning messy real world compliance problems into simple, reliable products.\n\n&nbsp;\n\n## **What You'll Do**\n\n### Build & Own Features End-to-End\n\n- Design, build, and ship product features across the stack, with a focus on the frontend\n\n- Own features from requirements → implementation → deployment → monitoring\n\n- Build onboarding flows for KYC and KYB, including forms, document upload, ID capture, selfie and liveness\n\n- Make these flows work well on all kinds of phones and browsers, and inside customer apps through our SDKs\n\n- Build the backend APIs and data changes your features need\n\n### Drive Technical Excellence\n\n- Write clean, maintainable, well-tested code\n\n- Keep the product fast and stable, including on low-end devices and slow networks\n\n- Debug production issues with urgency; own them until they're fixed\n\n- Participate in code reviews and help improve how we build and release\n\n### Collaborate\n\n- Work cross-functionally with product, design, compliance and customer success teams\n\n- Think about the full user journey, and suggest better ways to solve a problem, not just build what is asked\n\n- Contribute to technical decision-making and help shape engineering culture as the team scales\n\n&nbsp;\n\n## What We're Looking For\n\n### Must-Have:\n\n- **2-4 years** of professional experience building and shipping production software\n\n- Strong **TypeScript and React** , including performance and state management\n\n- Good **HTML and CSS** , with responsive, mobile-first layouts\n\n- Experience building **REST APIs** in a backend language like Python or Node.js, and working with **relational databases**\n\n- **Proven ability to own features end-to-end** , from ambiguous requirements to production\n\n- Good product and UX sense\n\n- Strong debugging and problem-solving skills; comfortable working in unfamiliar codebases\n\n- Clear communication\n\n### Nice-to-Have:\n\n- Experience with **mobile web, camera or media APIs** , and cross-browser issues\n\n- **Flutter or React Native** experience, or experience building SDKs and libraries\n\n- Experience with web performance and frontend testing tools\n\n- Experience in **FinTech, RegTech, payments or identity verification**\n\n- Hands-on experience with AWS, CI/CD and Docker\n\n&nbsp;\n\n## Success in This Role Looks Like\n\n- **In 3 Months** : You've shipped 2-3 significant features to production and own a key area of the product, e.g. ID capture, one of our SDKs, or a part of case management\n\n- **In 9 Months** : You're the go-to person for a critical part of the product, drive technical decisions for it, and have clearly improved something users feel, like onboarding completion rate or speed\n\n&nbsp;\n\n## **Why AiPrise**\n\n- Build **mission-critical software** that directly fights financial crime and fraud for companies like Meta and leading fintechs\n\n- Work with users and data from 200+ countries\n\n- Join a **fast-moving YC-backed startup** where your work has immediate customer impact\n\n- **Ship quickly**. Your code will reach production in days, not months\n\n- **Collaborate in-person** with a talented, mission-driven team in Bengaluru\n\n- Competitive compensation\n\n&nbsp;\n\n# **About the interview**\n\n1. Remote: Exploratory Discussion\n\n2. In-office\n\n3. Remote: Behavioural (Head of Engineering)\n\n4. Remote: Compensation Discussion\n\n Bengaluru fulltime yes\nlocations: Bengaluru\nremote: no",
+      "match_score": 14.87,
+      "resume_variant": "frontend",
+      "draft_answer": "Having built and owned React front ends end-to-end for a compliance platform, including client-side UAT and onboarding 80+ client organizations, I’m ready to tackle building the onboarding flows for verifying and onboarding customers worldwide. I've also cut reporting API latency by 98% and data load times by over 50%, a direct fit for ensuring your platform's speed and stability while building necessary backend APIs.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-14T16:39:22+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.24,
+            "overlap": 16.89,
+            "combined": 12.23
+          },
+          "backend": {
+            "cosine": 7.73,
+            "overlap": 15.41,
+            "combined": 10.04
+          },
+          "frontend": {
+            "cosine": 12.71,
+            "overlap": 19.9,
+            "combined": 14.86
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 12.71,
+        "keyword_overlap_score": 19.9,
+        "final_score": 14.87,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1698
+          },
+          {
+            "term": "experience",
+            "weight": 0.1389
+          },
+          {
+            "term": "frontend",
+            "weight": 0.1061
+          },
+          {
+            "term": "compliance",
+            "weight": 0.1041
+          },
+          {
+            "term": "production",
+            "weight": 0.0868
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-14T16:39:37+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0389a624a88cf0c311a1b470db2bda6f",
+      "source": "yc",
+      "company": "Axross Pte Ltd",
+      "role": "Business Operations Executive",
+      "url": "https://www.workatastartup.com/jobs/116376",
+      "jd_text": "### **About Us**\n\nAxross develops AI-powered HVAC solutions that help manufacturers in Malaysia and Singapore improve energy efficiency, reduce operating costs and support sustainability goals. As we grow, we are looking for a hands-on Office and Administration Executive to keep our workplace and daily administrative operations running smoothly.\n\n### **Why Join Us?**\n\n* Be a key part of a fast-growing startup where your work directly impacts business success.\n* Gain hands-on experience in both office management, administration, and business operations in an exciting tech-driven environment.\n* Grow with the company—take on new responsibilities and advance your career as we scale.\n\n### **Your Role:**\n\nWe are looking for a resourceful, hands-on Business Operations Executive to work closely with the CEO in supporting Axross's day-to-day operations and growth. This cross-functional role spans executive coordination, exhibitions and marketing, finance and procurement administration, and general office operations. You will help translate priorities into action, coordinate people and vendors, and ensure important work gets done reliably and on time.\n\n#### **Key Responsibilities:**\n\n**1.\tCEO Office &amp; Business Support**\n\n* Support the CEO with business priorities, meetings, external engagements and follow-up actions.\n* Prepare presentations, meeting materials, business communications and concise status updates.\n* Coordinate special projects, partnerships, industry engagements and company initiatives.\n\n**2.\tMarketing, Exhibitions &amp; Events**\n\n* Plan and coordinate trade exhibitions, conferences, customer visits and company events, including budgets, booths, vendors and logistics.\n* Create and maintain marketing materials such as company decks, brochures, website updates and social media content.\n* Coordinate external designers, printers and event vendors to deliver materials on time.\n* Organise event leads, customer contacts and follow-up activities with the commercial team.\n\n**3.\tFinance &amp; Procurement Operations**\n\n* Prepare and track customer invoices, billing milestones, receivables and payment follow-ups.\n* Coordinate vendor quotations, purchase orders, supplier invoices and payment requests.\n* Maintain project expenditure, equipment leasing and instalment payment trackers; flag missing information or overdue items.\n\n**4.\tGeneral Business &amp; Office Operations**\n\n* Oversee day-to-day office operations, including facilities, supplies, equipment, maintenance, service providers, subscriptions and vendor coordination.\n* Coordinate internal meetings, company activities, staff travel and related logistics.\n* Improve administrative workflows, documentation and simple standard operating procedures.\n\n### **What We’re Looking For:**\n\n*  2–4 years of relevant experience in business operations, administration, event coordination or marketing; a relevant degree is preferred.\n* Strong organisation, attention to detail and ability to manage multiple workstreams with minimal supervision.\n* Comfort with Excel or Google Sheets, presentation tools and digital content or design tools.\n* Clear written and verbal communication; proactive, dependable and willing to learn in a fast-moving startup.\n\n### **What Success Looks Like**\n\nSuccess in this role means being a reliable execution partner to the CEO: exhibitions and marketing activities are well delivered, finance and procurement administration is kept up to date, and the office runs smoothly.\n\nThe role is primarily operational today, with first-hand exposure to how the founders shape strategy and make business decisions. We are looking for someone curious about our industry and keen to grow with Axross. Over time, you will have the opportunity to take on more strategic responsibilities, supported by hands-on coaching and mentorship from the founders.\n\nIf you’re looking for a role that allows you to **grow, take ownership, and make a real difference in a fast-growing company**, we’d love to hear from you!\n\n**Apply now!** Kuala Lumpur, Federal Territory of Kuala Lumpur, MY fulltime yes\nlocations: Kuala Lumpur, Federal Territory of Kuala Lumpur, MY\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-14T16:39:22+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "a90ef89e581d41675cb9ef0170bacb2b",
       "source": "yc",
