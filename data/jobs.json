@@ -1,15 +1,243 @@
 {
-  "exported_at": "2026-10-14T03:41:08+00:00",
+  "exported_at": "2026-10-14T07:20:19+00:00",
   "daily_cap": 5,
   "submitted_today": 1,
   "counts": {
-    "discovered": 880,
+    "discovered": 883,
     "submitted": 7,
     "pending_approval": 228,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "b17347963088f06e6b7df86d8cb7e373",
+      "source": "wellfound",
+      "company": "Solea Academy",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4760790-software-engineer",
+      "jd_text": "About UsWe are a fast-growing technology company building reliable, scalable software solutions. Our team values collaboration, clean code, and continuous learning. We use modern tools to solve complex problems and deliver great experiences to our users.Role OverviewWe are looking for a Software Engineer to design, build, and test applications. You will work with product managers, designers, and other engineers to launch new features and keep our systems running smoothly.Key ResponsibilitiesWrite clean, secure, and maintainable code in languages like Python, JavaScript, or Java.Design and develop software architectures for scalable applications.Test and debug programs to fix errors and optimize performance.Participate in code reviews and share feedback with team members.Deploy updates and help maintain cloud infrastructure (e.g., AWS).What We Are Looking ForExperience: 3+ years of professional software development experience.Technical Skills: Proficiency in modern programming languages and relational databases.Problem Solving: Ability to analyze user needs and turn them into functional code.Communication: Strong teamwork skills and clear written communication.Education: Bachelor’s degree in Computer Science or equivalent practical experience.Benefits &amp; PerksCompetitive salary and performance bonuses.Comprehensive health, dental, and vision insurance.Flexible working hours and remote work options.Generous paid time off (PTO) and parental leave.Annual budget for professional development and learning.If you want to customize this further, tell me:The tech stack you use (e.g., React, Node.js, Python, AWS)The seniority level (Junior, Mid-level, Senior)The industry (FinTech, Healthcare, E-commerce) San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 8.29,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-14T07:20:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.21,
+            "overlap": 7.95,
+            "combined": 7.43
+          },
+          "backend": {
+            "cosine": 5.62,
+            "overlap": 7.52,
+            "combined": 6.19
+          },
+          "frontend": {
+            "cosine": 7.47,
+            "overlap": 10.19,
+            "combined": 8.29
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 7.47,
+        "keyword_overlap_score": 10.19,
+        "final_score": 8.29,
+        "top_keywords": [
+          {
+            "term": "code",
+            "weight": 0.142
+          },
+          {
+            "term": "applications",
+            "weight": 0.071
+          },
+          {
+            "term": "aws",
+            "weight": 0.071
+          },
+          {
+            "term": "engineer",
+            "weight": 0.071
+          },
+          {
+            "term": "experience",
+            "weight": 0.071
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "448eef46c7982764c57b7f93db0e99e2",
+      "source": "wellfound",
+      "company": "Securite Technology India",
+      "role": "Suricata Developer",
+      "url": "https://wellfound.com/jobs/4839958-suricata-developer",
+      "jd_text": "Job Description: Suricata Developer (Cybersecurity Platform)\nAbout the Team\nSecurITe’s mission is to build an Agentic-AI driven security platform that protects critical infrastructure from modern cyber threats. Our focus is on delivering highly performant, resilient, and intelligent network security systems that help defenders stay ahead of adversaries.\n\nAbout the Role\nWe’re looking for a specialized Suricata Developer / Network Security Engine Engineer to drive the core packet processing, deep packet inspection (DPI), and threat detection engine powering our cybersecurity AI platform.\nAs a Suricata Developer, you will design, customize, and extend the Suricata IDS/IPS/NSM engine, write custom detection modules, optimize packet capture pipelines, and integrate real-time network telemetry with our agentic AI platform. You will work at the interface of low-level C/Rust systems programming, network protocol analysis, high-throughput packet processing, and threat intelligence.\nYou’ll collaborate closely with AI/ML Engineers, Threat Researchers, Systems Engineers, and Backend Developers to create high-throughput, low-latency detection systems capable of analyzing multi-gigabit network traffic streams without packet loss.\nThis role is ideal for C/Rust systems engineers and network security specialists who are passionate about open-source security tools, packet inspection internals, kernel bypass networking, and high-performance detection systems. \n\nWhy This Role Matters\nNetwork visibility and real-time detection form the bedrock of cybersecurity defense. Suricata is the engine that transforms raw network packets into structured threat intelligence. As our Suricata Developer, you will build and tune the foundational layer that feeds high-fidelity network context into our Agentic AI models.\nYour contributions will directly power the detection of zero-day exploits, lateral movement, and advanced threat techniques across enterprise cloud and on-premise networks. You’ll solve ultra-low-latency engineering challenges involving high-throughput traffic, custom rule engine extensions, and custom output event pipelines.\n\nWhat You’ll Do\nArchitect, extend, and optimize custom builds of the Suricata engine for high-throughput enterprise deployments\nDevelop native C/Rust custom keywords, plugins, output modules, and protocol parsers within the Suricata codebase\nOptimize network packet capture and processing pipelines utilizing AF_PACKET, DPDK, PF_RING, or eBPF/XDP\nIntegrate Suricata event outputs (EVE JSON, PCAP, metadata) seamlessly with real-time streaming architectures and AI detection models\nBenchmark engine performance, tune multi-threading/cpu-pinning options, and eliminate memory and latency bottlenecks under heavy traffic loads\nWrite and validate custom detection signature sets, Lua detection scripts, and dynamic detection rule logic for complex protocols\nContribute to and collaborate with the open-source Suricata community while advancing SecurITe's proprietary platform capabilities \n\nImpact You’ll Have\nEnable real-time, zero-packet-loss threat inspection across high-speed enterprise networks (10G/40G/100G pipelines)\nProvide deep protocol visibility and rich contextual telemetry to feed downstream Agentic-AI analysis\nSignificantly lower memory overhead and processing latency of network inspection nodes\nExpand detection capabilities for proprietary, industrial, or emerging network protocols\nStrengthen the platform's ability to identify and neutralize evasive cyber threats in real time\n\nRequired Experience\n3+ years of professional experience developing or extending network security tools (Suricata, Snort, Zeek/Bro, Wireshark)\nStrong C and/or Rust programming experience in a Linux environment\nDeep understanding of Network Security Monitoring (NSM), Intrusion Detection Systems (IDS), and Intrusion Prevention Systems (IPS)\nHands-on expertise with Suricata internals (code architecture, flow engine, rule parser, output formatters, threading models)\nIn-depth understanding of TCP/IP stack, network protocols (HTTP/2, TLS/SSL, DNS, SMB, gRPC), and packet analysis using PCAP/Wireshark\nExperience optimizing packet capture and kernel bypass technologies (AF_PACKET, eBPF/XDP, DPDK, or PF_RING)\n\nRequired Skills &amp; Qualifications\nExpert-level C/Rust systems programming skills with attention to memory safety and performance optimization\nStrong knowledge of Linux network stack, socket programming, and multi-threaded performance tuning\nExperience developing custom Lua scripts and signature rules for Suricata / Snort\nFamiliarity with JSON parsing, streaming data pipelines (Kafka, ZeroMQ), and logging frameworks\nExperience with Linux administration, GCC/Clang toolchains, GDB debugging, and Valgrind profiling\nExcellent analytical, debugging, and software design skills\nStrong collaborative mindset and ability to work effectively in fast-moving startup environments\n\nNice to Have\nActive contributions to open-source network security projects (OISF/Suricata, Zeek, Libpcap)\nExperience with eBPF, XDP, or kernel-level packet filtering technologies\nKnowledge of malware traffic analysis, threat hunting, and MITRE ATT&amp;CK framework mapping\nExperience developing custom protocol dissectors or parsers (e.g., ICS/SCADA protocols like Modbus, DNP3)\n\nThe Mindset\nPerformance Obsessed\nYou measure performance in microseconds and benchmark every line of code to eliminate overhead.\nProtocol Whisperer\nYou enjoy dissecting complex network RFCs and inspecting hex dumps to understand exact traffic behavior.\nOwnership-Driven\nYou take end-to-end responsibility for packet capture quality, detection accuracy, and engine stability.\nStartup DNA\nYou thrive on fast-paced innovation, building robust production-ready tools with agility. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 8.38,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-14T07:20:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.19,
+            "overlap": 14.9,
+            "combined": 8.1
+          },
+          "backend": {
+            "cosine": 5.2,
+            "overlap": 15.79,
+            "combined": 8.38
+          },
+          "frontend": {
+            "cosine": 4.51,
+            "overlap": 15.53,
+            "combined": 7.82
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.2,
+        "keyword_overlap_score": 15.79,
+        "final_score": 8.38,
+        "top_keywords": [
+          {
+            "term": "security",
+            "weight": 0.1104
+          },
+          {
+            "term": "ai",
+            "weight": 0.0966
+          },
+          {
+            "term": "high",
+            "weight": 0.0966
+          },
+          {
+            "term": "experience",
+            "weight": 0.0902
+          },
+          {
+            "term": "platform",
+            "weight": 0.0677
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0f5f8f1ecab5cc96b6f4b9d9d00f279a",
+      "source": "wellfound",
+      "company": "Regios Technologies",
+      "role": "Junior Full-Stack Developer",
+      "url": "https://wellfound.com/jobs/4824753-junior-full-stack-developer",
+      "jd_text": "Why work with us:\n- Work directly with a technical founder (ex-Google engineer) and get real mentorship.\n- Ship features that reach thousands of merchants, with no bureaucracy in the way.\n- Gain practical experience in a profitable, fast-moving startup.\n\nAbout our company:\n- Regios Discounts is a Shopify app that lets merchants build custom logic for discount offers, powered by Shopify Functions.\n- Bootstrapped, profitable, and US-based.\n- Small, fully remote team.\n\nTechnologies used:\n- TypeScript, Node.js, React, Express, Rust, Shopify Polaris, Liquid, PostgreSQL\n\nResponsibilities:\n- Reproduce issues reported by customers.\n- Diagnose and resolve bugs.\n- Develop new features.\n\nRequirements:\n- Strong experience in React, Express, and TypeScript.\n- Preferred: Experience in Shopify app development.\n\nBenefits:\n- Fully remote, open globally\n- Flexible hours\n- $1,500 to $2,500 USD per month\n- Opportunity to grow with the company\n\nApply here: https://forms.gle/jyrmRdkGTuypufgA7 Mountain View\nlocationNames: Mountain View\nremote: true",
+      "match_score": 7.49,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-14T07:20:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.96,
+            "overlap": 5.63,
+            "combined": 5.86
+          },
+          "backend": {
+            "cosine": 4.83,
+            "overlap": 5.64,
+            "combined": 5.08
+          },
+          "frontend": {
+            "cosine": 7.79,
+            "overlap": 6.8,
+            "combined": 7.49
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 7.79,
+        "keyword_overlap_score": 6.8,
+        "final_score": 7.49,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1355
+          },
+          {
+            "term": "500",
+            "weight": 0.0903
+          },
+          {
+            "term": "app",
+            "weight": 0.0903
+          },
+          {
+            "term": "express",
+            "weight": 0.0903
+          },
+          {
+            "term": "react",
+            "weight": 0.0903
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "055ea52b16f0a06c68c4010800588c43",
       "source": "yc",
