@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-10-14T07:20:19+00:00",
+  "exported_at": "2026-10-14T09:22:41+00:00",
   "daily_cap": 5,
   "submitted_today": 1,
   "counts": {
+    "pending_approval": 230,
     "discovered": 883,
     "submitted": 7,
-    "pending_approval": 228,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "a90ef89e581d41675cb9ef0170bacb2b",
+      "source": "yc",
+      "company": "Zudo",
+      "role": "Forward-Deployed Engineer — AI Agents",
+      "url": "https://www.workatastartup.com/jobs/116356",
+      "jd_text": "**Location:** Remote (US or Canada)\\\n**Experience:** 2–4 years preferred\\\n**Type:** Full-time\n\n## About Zudo\n\nAt Zudo, we're building AI workers for the extended service contract industry, starting with automotive and home protection.\n\nThis is a massive industry where businesses still rely on manual processes, phone calls, and fragmented software to run critical operations. We're changing that by building AI agents that execute real workflows — from claims initiation, coverage inquiries, and adjudication to parts research, renewals, and sales.\n\nWe're not interested in building AI demos. We're building production-ready AI systems that get real work done and create measurable business value.\n\n## The Role\n\nWe're looking for a **Forward-Deployed Engineer** who can combine strong technical skills, exceptional problem-solving, and an ability to work directly with customers.\n\nYou'll work with customers to understand how their businesses operate, identify opportunities for AI automation, and independently design, build, deploy, and continuously improve AI-powered solutions.\n\nYou'll own the entire lifecycle: customer discovery, solution architecture, engineering, deployment, security, evaluation, and iteration.\n\nThis isn't a role where someone hands you a detailed specification and tells you what to build. We expect you to figure out what matters, make decisions, move quickly, and take ownership of the outcome.\n\nYou'll work directly with our founders and customers, with significant autonomy over how you solve problems.\n\n## What You'll Do\n\n**Understand customer problems and design solutions**\n\n* Work directly with enterprise customers to understand their workflows, operational bottlenecks, and business priorities.\n* Break down ambiguous problems and translate them into practical AI-powered solutions.\n* Identify opportunities where AI can improve efficiency, customer experience, and revenue.\n\n**Build and deploy AI systems**\n\n* Design, build, and deploy AI agents that execute real business workflows.\n* Develop integrations with APIs, databases, and existing enterprise software.\n* Build and optimize LLM-powered applications, including agentic workflows and voice AI.\n* Evaluate models, develop testing frameworks, and improve reliability, latency, and performance.\n* Apply prompting, retrieval, and LLM fine-tuning when appropriate to improve performance on specific tasks.\n\n**Own secure, enterprise-ready deployments**\n\n* Architect, deploy, and manage AI applications on cloud infrastructure such as AWS, GCP, or Azure.\n* Implement appropriate security practices, including encryption, access controls, secrets management, and secure handling of customer data.\n* Work with customers' IT and security teams to understand and satisfy security requirements.\n* Complete technical security questionnaires, prepare supporting documentation, and help customers navigate vendor security reviews.\n* Ensure deployments are reliable, secure, scalable, and suitable for production use.\n\n**Own customer outcomes**\n\n* Take responsibility for the success of each deployment, not just shipping code.\n* Monitor performance, troubleshoot issues, and continuously improve solutions.\n* Build strong relationships with customers through clear communication, responsiveness, and execution.\n* Proactively identify opportunities to solve additional customer problems and expand the value Zudo delivers.\n\n## Who We're Looking For\n\n**Technical foundation**\n\n* Approximately 2–4 years of professional experience in software engineering, technical consulting, solutions engineering, or a similarly technical role.\n* Strong programming skills, preferably Python, TypeScript, or equivalent.\n* Solid understanding of software engineering, APIs, databases, and cloud infrastructure.\n* Familiarity with LLMs, AI agents, model evaluation, and approaches to model customization, including fine-tuning.\n* Understanding of secure cloud deployment and fundamental enterprise security principles.\n* Ability to independently learn unfamiliar technologies and deploy working solutions.\n\n**How you operate**\n\n* **You think critically.** You're excellent at breaking down complex, ambiguous problems and finding practical solutions.\n* **You take ownership.** You don't wait for instructions. You identify what needs to happen and make it happen.\n* **You move with urgency.** You act quickly, prioritize what matters, and maintain a strong bias toward execution.\n* **You're AI-native.** You naturally use AI to accelerate how you build, learn, investigate, and solve problems.\n* **You're an excellent communicator.** You can work with technical and nontechnical stakeholders, understand their needs, and build trust.\n* **You're resourceful.** You're comfortable figuring things out without having all the answers upfront.\n\nYou might be a software engineer who enjoys working with customers, a technically strong consultant who loves building things, or a solutions engineer looking for more engineering ownership.\n\nWe care more about demonstrated ability, intellectual curiosity, and execution than specific job titles or credentials.\n\n**Nice to have, not required**\n\n* Experience building production AI agents or voice AI systems.\n* Experience with LLM fine-tuning or model adaptation.\n* Experience with AWS, GCP, or Azure in enterprise environments.\n* Experience responding to enterprise security reviews or questionnaires.\n* Background in B2B SaaS, consulting, insurance, warranty administration, or early-stage startups.\n\n## How We Work\n\nOur values aren't just words on a wall. They're how we expect everyone at Zudo to operate.\n\n**1. Urgency**\n\nSpeed matters. We move quickly, make decisions with imperfect information, and favor action over prolonged discussion. We believe the fastest way to learn is often to build, ship, and iterate.\n\n**2. High Ownership, High Decentralization**\n\nWe give people significant autonomy and expect them to use it. You won't need permission for every decision or a manager telling you what to do next. We trust capable people to exercise judgment, take initiative, and drive projects forward.\n\n**3. Own the Outcome**\n\nWe don't measure success by tickets closed, hours worked, or meetings attended. We care about results. You're responsible for ensuring what you build actually works and delivers meaningful value to the customer.\n\n**4. Be AI-Native**\n\nWe believe AI is fundamentally changing how work gets done. We expect everyone to experiment with, embrace, and deeply integrate AI into their workflows. We're constantly looking for ways to accomplish more with better tools, better thinking, and smaller teams.\n\n**5. Work With Exceptional People**\n\nWe want to build a team of extraordinarily capable, curious, and ambitious people who challenge one another, share what they learn, and raise the standard of what great work looks like.\n\n## Why Join Zudo?\n\n**Learn what it takes to build a company**\n\nIf you think you might want to become a founder someday, this role offers exposure to many of the skills you'll need: understanding customers, identifying valuable problems, building products, selling solutions, navigating enterprise relationships, and delivering business outcomes.\n\nYou'll experience both the technical and commercial sides of building a startup.\n\n**Real ownership, not just responsibility**\n\nYou'll own projects end-to-end, make consequential decisions, and directly influence what we build and how we serve customers. This is an opportunity to operate with the autonomy and accountability of a founder.\n\n**Remote-first, results-first**\n\nWork remotely from the US or Canada. We care about what you accomplish, not how many hours you're visibly online.\n\nWe keep internal meetings to a minimum, communicate directly, and protect time for deep work. We believe highly capable people do their best work when trusted to manage their own time.\n\n**Work with exceptional people**\n\nJoin a small, ambitious team where you'll work directly with founders and people who care deeply about solving hard problems, moving quickly, and doing exceptional work.\n\n**Build at the frontier of applied AI**\n\nWork on real-world AI agents, LLMs, voice AI, secure cloud infrastructure, and challenging enterprise integrations. You'll solve problems where the technology is evolving quickly and the business impact is immediate.\n\n**Grow as fast as your capabilities**\n\nWe value initiative and results over hierarchy or tenure. As Zudo grows, the scope of your responsibility can grow with it.\n\n## Who Will Thrive Here?\n\nSomeone who loves building, thinks independently, moves with urgency, and wants to own meaningful outcomes.\n\nSomeone who can talk to a customer, understand an unfamiliar problem, design a technical solution, and independently bring it to life.\n\nSomeone who wants the freedom to work like a founder, alongside ambitious people, without unnecessary bureaucracy.\n\nIf that sounds like you, we'd love to hear from you. fulltime possible\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 11.26,
+      "resume_variant": "backend",
+      "draft_answer": "I've consistently owned the end-to-end delivery of cloud-native systems, from client-facing requirements gathering for occupational hygiene reporting to deploying secure, zero-downtime solutions on Azure, and I've validated tool-calling reliability for local AI agents running real workflows. I'm adept at diagnosing production concurrency risks, implementing message brokers like RabbitMQ to guarantee delivery, integrating Redis caching to cut fetch latency by 98%, and automating 90% of previously manual reporting workflows for enterprise clients.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-14T09:22:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.28,
+            "overlap": 16.89,
+            "combined": 10.86
+          },
+          "backend": {
+            "cosine": 8.67,
+            "overlap": 17.29,
+            "combined": 11.26
+          },
+          "frontend": {
+            "cosine": 6.22,
+            "overlap": 17.48,
+            "combined": 9.6
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 8.67,
+        "keyword_overlap_score": 17.29,
+        "final_score": 11.26,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2975
+          },
+          {
+            "term": "security",
+            "weight": 0.0992
+          },
+          {
+            "term": "problems",
+            "weight": 0.0912
+          },
+          {
+            "term": "solutions",
+            "weight": 0.0912
+          },
+          {
+            "term": "experience",
+            "weight": 0.0811
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-14T09:22:38+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "795de7f8ab159606ed36d2a52f5e6a02",
+      "source": "yc",
+      "company": "Zudo",
+      "role": "Forward-Deployed Engineer — AI Agents",
+      "url": "https://www.workatastartup.com/jobs/116353",
+      "jd_text": "**Location:** Remote (US or Canada)\\\n**Experience:** 2–4 years preferred\\\n**Type:** Full-time\n\n## About Zudo\n\nAt Zudo, we're building AI workers for the extended service contract industry, starting with automotive and home protection.\n\nThis is a massive industry where businesses still rely on manual processes, phone calls, and fragmented software to run critical operations. We're changing that by building AI agents that execute real workflows — from claims initiation, coverage inquiries, and adjudication to parts research, renewals, and sales.\n\nWe're not interested in building AI demos. We're building production-ready AI systems that get real work done and create measurable business value.\n\n## The Role\n\nWe're looking for a **Forward-Deployed Engineer** who can combine strong technical skills, exceptional problem-solving, and an ability to work directly with customers.\n\nYou'll work with customers to understand how their businesses operate, identify opportunities for AI automation, and independently design, build, deploy, and continuously improve AI-powered solutions.\n\nYou'll own the entire lifecycle: customer discovery, solution architecture, engineering, deployment, security, evaluation, and iteration.\n\nThis isn't a role where someone hands you a detailed specification and tells you what to build. We expect you to figure out what matters, make decisions, move quickly, and take ownership of the outcome.\n\nYou'll work directly with our founders and customers, with significant autonomy over how you solve problems.\n\n## What You'll Do\n\n**Understand customer problems and design solutions**\n\n* Work directly with enterprise customers to understand their workflows, operational bottlenecks, and business priorities.\n* Break down ambiguous problems and translate them into practical AI-powered solutions.\n* Identify opportunities where AI can improve efficiency, customer experience, and revenue.\n\n**Build and deploy AI systems**\n\n* Design, build, and deploy AI agents that execute real business workflows.\n* Develop integrations with APIs, databases, and existing enterprise software.\n* Build and optimize LLM-powered applications, including agentic workflows and voice AI.\n* Evaluate models, develop testing frameworks, and improve reliability, latency, and performance.\n* Apply prompting, retrieval, and LLM fine-tuning when appropriate to improve performance on specific tasks.\n\n**Own secure, enterprise-ready deployments**\n\n* Architect, deploy, and manage AI applications on cloud infrastructure such as AWS, GCP, or Azure.\n* Implement appropriate security practices, including encryption, access controls, secrets management, and secure handling of customer data.\n* Work with customers' IT and security teams to understand and satisfy security requirements.\n* Complete technical security questionnaires, prepare supporting documentation, and help customers navigate vendor security reviews.\n* Ensure deployments are reliable, secure, scalable, and suitable for production use.\n\n**Own customer outcomes**\n\n* Take responsibility for the success of each deployment, not just shipping code.\n* Monitor performance, troubleshoot issues, and continuously improve solutions.\n* Build strong relationships with customers through clear communication, responsiveness, and execution.\n* Proactively identify opportunities to solve additional customer problems and expand the value Zudo delivers.\n\n## Who We're Looking For\n\n**Technical foundation**\n\n* Approximately 2–4 years of professional experience in software engineering, technical consulting, solutions engineering, or a similarly technical role.\n* Strong programming skills, preferably Python, TypeScript, or equivalent.\n* Solid understanding of software engineering, APIs, databases, and cloud infrastructure.\n* Familiarity with LLMs, AI agents, model evaluation, and approaches to model customization, including fine-tuning.\n* Understanding of secure cloud deployment and fundamental enterprise security principles.\n* Ability to independently learn unfamiliar technologies and deploy working solutions.\n\n**How you operate**\n\n* **You think critically.** You're excellent at breaking down complex, ambiguous problems and finding practical solutions.\n* **You take ownership.** You don't wait for instructions. You identify what needs to happen and make it happen.\n* **You move with urgency.** You act quickly, prioritize what matters, and maintain a strong bias toward execution.\n* **You're AI-native.** You naturally use AI to accelerate how you build, learn, investigate, and solve problems.\n* **You're an excellent communicator.** You can work with technical and nontechnical stakeholders, understand their needs, and build trust.\n* **You're resourceful.** You're comfortable figuring things out without having all the answers upfront.\n\nYou might be a software engineer who enjoys working with customers, a technically strong consultant who loves building things, or a solutions engineer looking for more engineering ownership.\n\nWe care more about demonstrated ability, intellectual curiosity, and execution than specific job titles or credentials.\n\n**Nice to have, not required**\n\n* Experience building production AI agents or voice AI systems.\n* Experience with LLM fine-tuning or model adaptation.\n* Experience with AWS, GCP, or Azure in enterprise environments.\n* Experience responding to enterprise security reviews or questionnaires.\n* Background in B2B SaaS, consulting, insurance, warranty administration, or early-stage startups.\n\n## How We Work\n\nOur values aren't just words on a wall. They're how we expect everyone at Zudo to operate.\n\n**1. Urgency**\n\nSpeed matters. We move quickly, make decisions with imperfect information, and favor action over prolonged discussion. We believe the fastest way to learn is often to build, ship, and iterate.\n\n**2. High Ownership, High Decentralization**\n\nWe give people significant autonomy and expect them to use it. You won't need permission for every decision or a manager telling you what to do next. We trust capable people to exercise judgment, take initiative, and drive projects forward.\n\n**3. Own the Outcome**\n\nWe don't measure success by tickets closed, hours worked, or meetings attended. We care about results. You're responsible for ensuring what you build actually works and delivers meaningful value to the customer.\n\n**4. Be AI-Native**\n\nWe believe AI is fundamentally changing how work gets done. We expect everyone to experiment with, embrace, and deeply integrate AI into their workflows. We're constantly looking for ways to accomplish more with better tools, better thinking, and smaller teams.\n\n**5. Work With Exceptional People**\n\nWe want to build a team of extraordinarily capable, curious, and ambitious people who challenge one another, share what they learn, and raise the standard of what great work looks like.\n\n## Why Join Zudo?\n\n**Learn what it takes to build a company**\n\nIf you think you might want to become a founder someday, this role offers exposure to many of the skills you'll need: understanding customers, identifying valuable problems, building products, selling solutions, navigating enterprise relationships, and delivering business outcomes.\n\nYou'll experience both the technical and commercial sides of building a startup.\n\n**Real ownership, not just responsibility**\n\nYou'll own projects end-to-end, make consequential decisions, and directly influence what we build and how we serve customers. This is an opportunity to operate with the autonomy and accountability of a founder.\n\n**Remote-first, results-first**\n\nWork remotely from the US or Canada. We care about what you accomplish, not how many hours you're visibly online.\n\nWe keep internal meetings to a minimum, communicate directly, and protect time for deep work. We believe highly capable people do their best work when trusted to manage their own time.\n\n**Work with exceptional people**\n\nJoin a small, ambitious team where you'll work directly with founders and people who care deeply about solving hard problems, moving quickly, and doing exceptional work.\n\n**Build at the frontier of applied AI**\n\nWork on real-world AI agents, LLMs, voice AI, secure cloud infrastructure, and challenging enterprise integrations. You'll solve problems where the technology is evolving quickly and the business impact is immediate.\n\n**Grow as fast as your capabilities**\n\nWe value initiative and results over hierarchy or tenure. As Zudo grows, the scope of your responsibility can grow with it.\n\n## Who Will Thrive Here?\n\nSomeone who loves building, thinks independently, moves with urgency, and wants to own meaningful outcomes.\n\nSomeone who can talk to a customer, understand an unfamiliar problem, design a technical solution, and independently bring it to life.\n\nSomeone who wants the freedom to work like a founder, alongside ambitious people, without unnecessary bureaucracy.\n\nIf that sounds like you, we'd love to hear from you. jobs_skill 5 Amazon Web Services (AWS) 125 jobs_skill 15 Microsoft Azure 16 jobs_skill 107 Python 288 jobs_skill 138 TypeScript 45 jobs_skill 324 LLMs 0 jobs_skill 331 AI Agents 0 jobs_skill 373 Generative AI 0 jobs_skill 415 WebSocket 0 jobs_skill 422 OpenAPI 0 fulltime possible\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 11.68,
+      "resume_variant": "backend",
+      "draft_answer": "Having built a local LLM agent with validated tool-calling reliability and delivered production systems by directly scoping client requirements and owning complex Azure deployments for 80+ client organizations, I'm confident in building Zudo's AI workers to execute real workflows for the extended service contract industry. I'm keen to apply my history of cutting backend latency by 98% with Redis and introducing blue-green releases for zero-downtime rollouts within enterprise environments to design, build, and secure Zudo's AI agents from discovery through continuous iteration and customer outcomes.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-14T09:22:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.68,
+            "overlap": 17.22,
+            "combined": 11.24
+          },
+          "backend": {
+            "cosine": 9.11,
+            "overlap": 17.67,
+            "combined": 11.68
+          },
+          "frontend": {
+            "cosine": 6.34,
+            "overlap": 17.96,
+            "combined": 9.83
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 9.11,
+        "keyword_overlap_score": 17.67,
+        "final_score": 11.68,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3132
+          },
+          {
+            "term": "security",
+            "weight": 0.0964
+          },
+          {
+            "term": "problems",
+            "weight": 0.0886
+          },
+          {
+            "term": "solutions",
+            "weight": 0.0886
+          },
+          {
+            "term": "agents",
+            "weight": 0.0843
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-14T09:22:22+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "b17347963088f06e6b7df86d8cb7e373",
       "source": "wellfound",
