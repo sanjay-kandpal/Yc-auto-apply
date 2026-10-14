@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-10-14T09:59:43+00:00",
+  "exported_at": "2026-10-14T10:00:35+00:00",
   "daily_cap": 5,
   "submitted_today": 2,
   "counts": {
-    "submitted": 8,
     "pending_approval": 229,
+    "submitted": 8,
     "discovered": 883,
     "failed": 9,
     "rejected": 3
@@ -20,12 +20,12 @@
       "match_score": 11.26,
       "resume_variant": "backend",
       "draft_answer": "I've consistently owned the end-to-end delivery of cloud-native systems, from client-facing requirements gathering for occupational hygiene reporting to deploying secure, zero-downtime solutions on Azure, and I've validated tool-calling reliability for local AI agents running real workflows. I'm adept at diagnosing production concurrency risks, implementing message brokers like RabbitMQ to guarantee delivery, integrating Redis caching to cut fetch latency by 98%, and automating 90% of previously manual reporting workflows for enterprise clients.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "submitted",
+      "status": "pending_approval",
       "discovered_at": "2026-10-14T09:22:00+00:00",
-      "decided_at": "2026-10-14T09:59:42+00:00",
-      "submitted_at": "2026-10-14T09:59:42+00:00",
+      "decided_at": null,
+      "submitted_at": null,
       "error_message": null,
-      "sent_message": "I've consistently owned the end-to-end delivery of cloud-native systems, from client-facing requirements gathering for occupational hygiene reporting to deploying secure, zero-downtime solutions on Azure, and I've validated tool-calling reliability for local AI agents running real workflows. I'm adept at diagnosing production concurrency risks, implementing message brokers like RabbitMQ to guarantee delivery, integrating Redis caching to cut fetch latency by 98%, and automating 90% of previously manual reporting workflows for enterprise clients.\nGitHub: https://github.com/sanjay-kandpal",
+      "sent_message": null,
       "match_breakdown": {
         "weights_version": "v1",
         "hard_filters": {
@@ -82,12 +82,8 @@
       },
       "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
       "drafted_at": "2026-10-14T09:22:38+00:00",
-      "confirmation_signal": {
-        "ok": true,
-        "url": "https://www.workatastartup.com/jobs/116356",
-        "text": "Companies & jobs Inbox Education Resume Review My profile sanjay Companies/Zudo (W23)/Jobs Forward-Deployed Engineer — AI Agents at Zudo(W23) $70K - $130K • 0.25% - 0.75% AI Workers for Extended Service Contracts CA / US / IN / Remote (CA; "
-      },
-      "github_run_id": "38546308008",
+      "confirmation_signal": null,
+      "github_run_id": null,
       "apply_kind": null
     },
     {
@@ -100,12 +96,12 @@
       "match_score": 11.68,
       "resume_variant": "backend",
       "draft_answer": "Having built a local LLM agent with validated tool-calling reliability and delivered production systems by directly scoping client requirements and owning complex Azure deployments for 80+ client organizations, I'm confident in building Zudo's AI workers to execute real workflows for the extended service contract industry. I'm keen to apply my history of cutting backend latency by 98% with Redis and introducing blue-green releases for zero-downtime rollouts within enterprise environments to design, build, and secure Zudo's AI agents from discovery through continuous iteration and customer outcomes.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "pending_approval",
+      "status": "submitted",
       "discovered_at": "2026-10-14T09:22:00+00:00",
-      "decided_at": null,
-      "submitted_at": null,
+      "decided_at": "2026-10-14T10:00:33+00:00",
+      "submitted_at": "2026-10-14T10:00:33+00:00",
       "error_message": null,
-      "sent_message": null,
+      "sent_message": "Having built a local LLM agent with validated tool-calling reliability and delivered production systems by directly scoping client requirements and owning complex Azure deployments for 80+ client organizations, I'm confident in building Zudo's AI workers to execute real workflows for the extended service contract industry. I'm keen to apply my history of cutting backend latency by 98% with Redis and introducing blue-green releases for zero-downtime rollouts within enterprise environments to design, build, and secure Zudo's AI agents from discovery through continuous iteration and customer outcomes.\nGitHub: https://github.com/sanjay-kandpal",
       "match_breakdown": {
         "weights_version": "v1",
         "hard_filters": {
@@ -162,8 +158,12 @@
       },
       "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
       "drafted_at": "2026-10-14T09:22:22+00:00",
-      "confirmation_signal": null,
-      "github_run_id": null,
+      "confirmation_signal": {
+        "ok": true,
+        "url": "https://www.workatastartup.com/jobs/116353",
+        "text": "Companies & jobs Inbox Education Resume Review My profile sanjay Companies/Zudo (W23)/Jobs Forward-Deployed Engineer — AI Agents at Zudo(W23) $70K - $130K • 0.25% - 0.75% AI Workers for Extended Service Contracts CA / US / IN / Remote (CA; "
+      },
+      "github_run_id": "38546330122",
       "apply_kind": null
     },
     {
