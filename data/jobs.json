@@ -1,15 +1,397 @@
 {
-  "exported_at": "2026-10-15T03:21:27+00:00",
+  "exported_at": "2026-10-15T07:12:46+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 891,
-    "pending_approval": 231,
+    "pending_approval": 233,
+    "discovered": 895,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "d26c67bd9218994f3fad7ad87873c963",
+      "source": "wellfound",
+      "company": "Mezuro",
+      "role": "Founding Full Stack Engineer",
+      "url": "https://wellfound.com/jobs/4846233-founding-full-stack-engineer",
+      "jd_text": "The role at a glance\n* Location: Bay Area / Pittsburgh (preferred) or remote \n* Experience: 3–6 years building production software\n* Base salary: 150–190K USD plus benefits [Please note that salary bracket is different if you are not in person in the Bay Area or Pittsburgh]\n* Equity: early-team equity grant\n* Reports to: Founders\n* Scope: Build and ship the product customers see and use, from first pilot workflows to the platform banks rely on in front of their examiners\n\nAbout\nBanks, payments companies, and fintechs are putting AI agents in front of millions of customers, but there's still no accepted way to show those agents follow the rules. Today, most institutions review a small sample of agent conversations by hand, and a governance review tests whether a policy exists. These tests are manual and adhoc and not scalable or point in time. We are a pre-seed AI startup building at the intersection of regulated industries and AI Compliance. You'd be joining a founding team with deep experience in AI risk and financial regulation, evaluation science, machine learning research, and scaling production AI products, backed by advisors with long careers in banking and regulation.\n\nWhy join\n* A problem with real stakes. Our pilots consistently find agent conversations that break consumer-protection rules without anyone noticing. Making those failures visible and fixable before they become a consent order is critical.\n* Shape the product early. You'll work closely with the founders on how compliance officers, product leaders, and auditors experience and use our product, and your ideas will ship.\n* Direct line to customers. You'll join pilot calls with bank product and compliance teams, watch them use what you built, and iterate fast.\n* Grow with the company. You'll take on more ownership as we scale, with room to grow into a senior or lead role.\n* Upside. A competitive salary and early-team equity in a company at the very start of its growth.\n\nWhat you'll do\n* Own the frontend. Build the dashboards, review workflows, and reports compliance teams use every day, and the APIs behind them. You'll heavily influence the standard for how the product looks and feels.\n* Structure our regulatory data. Design how the regulatory requirements our experts write are modeled, stored, and versioned, with diffs, approvals, and backtesting. Connect the tools experts use to review them with the systems that run the checks, so an approved change reaches production without manual steps.\n* Build infrastructure for demos and research. Stand up dedicated environments where customer demos and model experiments run apart from production, along with the evaluation pipelines, labeling tools, and shadow deployments our safety models depend on.\n* Own how the stack fits together. Keep the integrations across the stack working, run the engineering backlog, and own CI/CD from tests through deployments.\n* Design customer integrations and deployments. Define how we ingest customer data and action logs from platforms like Genesys, NICE, Amazon Connect, and Salesforce, including PII redaction, SSO, schema normalization, and historical backfill, and how we deploy for each institution, whether in our cloud or in theirs.\n* Meet bank-grade standards. Build tenant isolation, role-based access, immutable audit logs, and the testing and on-call practices that pass vendor risk and SR 11-7 reviews.\n* Learn from customers. Join pilot calls with compliance and risk teams and ship what you learn.\n\nWhat we're looking for\n* 4–6 years building production software, including features you owned from design through launch.\n* Experience at an early-stage startup.\n* Strong full-stack skills: a modern frontend framework (we use React/TypeScript) and backend services in Python (we use FastAPI with Postgres), including API design, relational data modeling, and schema migrations. You care how an interface looks and feels, and you've shipped frontends people enjoy using.\n* Hands-on cloud infrastructure and CI/CD experience. You've set up environments, pipelines, and deploys yourself, ideally on AWS with infrastructure as code.\n* Data engineering and data modeling experience, including turning messy, loosely structured data into schemas that can be versioned, validated, and queried.\n* Experience building data-heavy products, where users need to search, filter, drill into, and act on large volumes of records.\n* Experience integrating with customer systems and deploying into enterprise environments, including security reviews and procurement.\n* Product sense: you care about who uses what you build, and you'd rather ship a rough version and learn than polish in isolation.\n* Hands-on experience building systems with AI tools, with an essential bias towards owning the system design and reasoning behind each decision.\n* Clear communication, including with non-technical stakeholders such as compliance, risk, and audit teams.\n* Ownership and comfort with ambiguity at an early-stage company.\n* Nice to have\n* Experience in banking, payments, fintech, or regtech, or building tools for compliance, audit, legal, or risk teams.\n* Strong design sense, or experience designing complex workflows without a dedicated designer. San Francisco San Jose Palo Alto Sunnyvale Pittsburgh Menlo Park Redwood City\nlocationNames: San Francisco San Jose Palo Alto Sunnyvale Pittsburgh Menlo Park Redwood City\nremote: true",
+      "match_score": 10.77,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've owned end-to-end delivery of compliance-focused platforms, from scoping requirements with government regulators to building and deploying cloud-native FastAPI/React systems, like the occupational hygiene portal and a platform that automated 90% of manual reporting workflows for 80+ client organizations. My work includes designing and deploying robust, bank-grade infrastructure using Azure DevOps CI/CD with blue-green releases, integrating RabbitMQ for high-load data integrity, and optimizing API performance by 98% with Redis caching, alongside hands-on local AI agent tooling.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-15T07:12:11+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.58,
+            "overlap": 15.89,
+            "combined": 10.78
+          },
+          "backend": {
+            "cosine": 8.1,
+            "overlap": 15.41,
+            "combined": 10.29
+          },
+          "frontend": {
+            "cosine": 6.32,
+            "overlap": 18.45,
+            "combined": 9.96
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.58,
+        "keyword_overlap_score": 15.89,
+        "final_score": 10.77,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1759
+          },
+          {
+            "term": "ai",
+            "weight": 0.1173
+          },
+          {
+            "term": "compliance",
+            "weight": 0.1119
+          },
+          {
+            "term": "data",
+            "weight": 0.1119
+          },
+          {
+            "term": "risk",
+            "weight": 0.0978
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-15T07:12:44+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "41d8b5dc859d00a7f26f80d818754b9b",
+      "source": "wellfound",
+      "company": "BluLizard",
+      "role": "Security Engineer",
+      "url": "https://wellfound.com/jobs/4840003-security-engineer",
+      "jd_text": "We are a parent company developing two AI-powered platforms focused on business budgeting, financial management, payments, and financial infrastructure.\n\nWe are looking for a hands-on Security Engineer to help protect our platforms, infrastructure, and internal systems.\n\n**What You'll Do**\n* Monitor, investigate, and respond to security threats and incidents.\n* Identify vulnerabilities and recommend security improvements.\n* Manage security monitoring, detection, and response systems.\n* Review cloud infrastructure, networks, and applications for security risks.\n* Support incident response, remediation, and security projects.\n* Work closely with our engineering and infrastructure teams to strengthen security.\n\n**Must Have**\n* 3+ years of cybersecurity, security operations, or security engineering experience.\n* Strong understanding of networking, TCP/IP, DNS, VPNs, and firewalls.\n* Experience with Windows and Linux security.\n* Knowledge of SIEM, EDR/XDR, and security monitoring tools.\n* Understanding of cloud security (AWS, Azure, or GCP).\n* Familiarity with identity management, access controls, and Zero Trust principles.\n* Good English communication skills.\n\n**Nice to Have**\n* Python, PowerShell, or security automation experience.\n* Experience with penetration testing or vulnerability assessments.\n* FinTech, payments, or financial infrastructure security experience.\n* Relevant cybersecurity certifications. London\nlocationNames: London\nremote: true",
+      "match_score": 5.96,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-15T07:12:11+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.79,
+            "overlap": 4.97,
+            "combined": 5.55
+          },
+          "backend": {
+            "cosine": 5.93,
+            "overlap": 6.02,
+            "combined": 5.96
+          },
+          "frontend": {
+            "cosine": 3.98,
+            "overlap": 6.31,
+            "combined": 4.68
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.93,
+        "keyword_overlap_score": 6.02,
+        "final_score": 5.96,
+        "top_keywords": [
+          {
+            "term": "security",
+            "weight": 0.6127
+          },
+          {
+            "term": "experience",
+            "weight": 0.167
+          },
+          {
+            "term": "cloud",
+            "weight": 0.0668
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0668
+          },
+          {
+            "term": "management",
+            "weight": 0.0668
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3ecdcddab08d1d56e40a90bba79c8d96",
+      "source": "wellfound",
+      "company": "New Street Technologies",
+      "role": "Software Engineer II — Backend",
+      "url": "https://wellfound.com/jobs/4846251-software-engineer-ii-backend",
+      "jd_text": "NewStreet is an award-winning fintech building AI-powered platforms that transform\nhow financial institutions operate. Established in 2017 and ISO 9001 &amp; ISO 27001\ncertified, we serve 170,000+ customers across lending, trade finance and payments,\npartnering with leading banks across India, the GCC and Southeast Asia.\n*\nFinancial Times — 7th Fastest-Growing Fintech, Asia Pacific  ·  Deloitte Technology Fast 50  ·  Aegis Graham Bell Award  ·  World Fintech Awards 2025  ·  FICCI IBA Best Emerging Technology Platform*\n\n**About the Role**\nTwo backend engineers, one into the MiFiX.ai platform team and one into client\ndelivery. You will be writing Python services that handle real financial data for real\nbanks, with a senior engineer reviewing your work closely for the first few months.\nThis is the second rung of the engineering ladder: Graduate Engineer → Software\nEngineer I → Software Engineer II → Senior Software Engineer. We expect you to\nalready write code that works; what you will learn here is writing code that survives\nproduction, review and an auditor.\n\n**Key Responsibilities**\nBuild and maintain API endpoints. FastAPI services against PostgreSQL, to the\nteam's existing patterns rather than your own.\nWrite the tests with the code. Not afterwards, not 'when there is time'. Tests\nare part of the pull request.\nHandle data carefully. Financial records. Validate inputs, parameterise every\nquery, and never log anything a customer would mind seeing in a log file.\nTake code review seriously. You will get detailed review. Argue when you\ndisagree, change it when you are wrong, and do not repeat the same correction\ntwice.\nDebug your own defects. Reproduce, find the cause, fix the cause — and say\nwhat the cause was rather than 'it works now'.\nDocument what you build. A short README or endpoint note so the next\nperson does not have to read the whole module.\n\n**What You Bring**\n* 1–3 years writing Python professionally.\n* FastAPI or Flask exposure — you have built and run an HTTP service.\n* SQL and PostgreSQL basics: joins, indexes, and why a query might be slow.\n* Git as a working tool — branches, pull requests, resolving your own conflicts.\n* Readable code. Sensible names, small functions, no cleverness for its own sake.\n* BE / BTech / MCA or equivalent.\n\n**What Would Be Great to Have**\n* Pandas or scikit-learn.\n* Docker, and any exposure to a CI pipeline.\n* Async Python and SQLAlchemy 2.0.\n* Financial-services data exposure.\n* AI-assisted development tools used with judgement — we use them, and we\n* expect you to review what they produce.\n\n**Tech Stack**\nBackend: Python 3.11+, FastAPI, SQLAlchemy, Pydantic\nData: PostgreSQL, Redis\nTooling: Git, Docker, pytest, CI pipelines\nCloud: AWS basics — you will learn the rest here\n\n**Apply:** careers@newstreettech.com Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 11.92,
+      "resume_variant": "backend",
+      "draft_answer": "My experience building FastAPI backends and cloud-native compliance platforms, including scoping requirements with clients and ensuring ACID-compliant transactions under high load, directly applies to developing Python services for AI-powered platforms that handle real financial data. I've consistently delivered production-ready systems by introducing blue-green deployments for zero-downtime rollouts, integrating Redis caching to cut API latency by 98%, and containerizing AI-powered tools with Docker, which ensures code stability and performance for critical operations.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-15T07:12:11+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.4,
+            "overlap": 11.59,
+            "combined": 11.46
+          },
+          "backend": {
+            "cosine": 12.04,
+            "overlap": 11.65,
+            "combined": 11.93
+          },
+          "frontend": {
+            "cosine": 8.53,
+            "overlap": 13.11,
+            "combined": 9.9
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 12.04,
+        "keyword_overlap_score": 11.65,
+        "final_score": 11.92,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1618
+          },
+          {
+            "term": "code",
+            "weight": 0.1349
+          },
+          {
+            "term": "data",
+            "weight": 0.1079
+          },
+          {
+            "term": "python",
+            "weight": 0.1079
+          },
+          {
+            "term": "ai",
+            "weight": 0.099
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-15T07:12:30+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "13855f91d1aaa4b84b44bac6bc36baee",
+      "source": "wellfound",
+      "company": "New Street Technologies",
+      "role": "Senior Software Engineer — Backend",
+      "url": "https://wellfound.com/jobs/4846246-senior-software-engineer-backend",
+      "jd_text": "NewStreet is an award-winning fintech building AI-powered platforms that transform\nhow financial institutions operate. Established in 2017 and ISO 9001 &amp; ISO 27001\ncertified, we serve 170,000+ customers across lending, trade finance and payments,\npartnering with leading banks across India, the GCC and Southeast Asia.\n*\nFinancial Times — 7th Fastest-Growing Fintech, Asia Pacific  ·  Deloitte Technology Fast 50  ·  Aegis Graham Bell Award  ·  World Fintech Awards 2025  ·  FICCI IBA Best Emerging Technology Platform*\n\n**About the Role**\nOur platform runs inside banks and financial institutions, and this role owns a\nmodule of it end to end — design, build, test, deploy and the support that follows.\nIt is a senior individual-contributor seat. You review junior work, you make the\ndesign calls for your area, and you are the person the team asks when something in\nyour module behaves oddly in production.\n\n**Key Responsibilities**\n* Own a module end to end. Design, build, test, deploy and support it. No\n* handing off the hard half.\n* Build async services. FastAPI and modern Python, against PostgreSQL at\n* production volume.\n* Integrate with banks. REST, webhooks and file interfaces against client\n* systems, sandboxes and change windows.\n* Review junior work. Code review that teaches rather than just blocks. Several\n* juniors and freshers sit beneath this layer.\n* Write tests as standard. Not a separate phase, not a later ticket.\n* Tune what you built. Query performance, connection handling and cost — you\n* own the numbers for your module.\n\n**What You Bring**\n* 3–5 years in backend Python.\n* FastAPI or an equivalent async framework in production, not in a tutorial.\n* PostgreSQL — schema design, query tuning and migrations you have run against\n* live data.\n* REST API design, and integration work against third-party or financial APIs.\n* You write tests as a matter of course and you review other people's code\n* usefully.\n* B.E. / B.Tech / MCA or equivalent.\n\n**What Would Be Great to Have**\n* SQLAlchemy 2.0 async; Celery and Redis.\n* Docker and a working understanding of how your code gets deployed.\n* On-premise deployment at a client site.\n* Lending, payments, collections or onboarding domain exposure.\n* Tech Stack\n* AI-assisted development as part of how you work (Claude Code, Copilot,\n* Cursor).\n* **Backend:** Python 3.11+, FastAPI, SQLAlchemy 2.0 async, Pydantic v2, Celery\n* **Data:** PostgreSQL, Redis\n* **Integration:** REST, webhooks, file interfaces, bank connectivity\n* **Delivery:** Docker, CI/CD, pytest\n* **AI-assisted development:** Claude Code, GitHub Copilot, Cursor\n\n**Apply:** careers@newstreettech.com Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 9.85,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-15T07:12:11+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.81,
+            "overlap": 9.93,
+            "combined": 9.85
+          },
+          "backend": {
+            "cosine": 9.54,
+            "overlap": 9.4,
+            "combined": 9.49
+          },
+          "frontend": {
+            "cosine": 9.16,
+            "overlap": 10.68,
+            "combined": 9.61
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.81,
+        "keyword_overlap_score": 9.93,
+        "final_score": 9.85,
+        "top_keywords": [
+          {
+            "term": "code",
+            "weight": 0.128
+          },
+          {
+            "term": "end",
+            "weight": 0.1252
+          },
+          {
+            "term": "ai",
+            "weight": 0.0939
+          },
+          {
+            "term": "backend",
+            "weight": 0.0768
+          },
+          {
+            "term": "fastapi",
+            "weight": 0.0768
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f07834c1fb5cf0e968a91668f1304a55",
+      "source": "wellfound",
+      "company": "Envito AI",
+      "role": "MERN Stack Engineer (1+ year full-time exp. mandatory)",
+      "url": "https://wellfound.com/jobs/4829572-mern-stack-engineer-1-year-full-time-exp-mandatory",
+      "jd_text": "**Build software that runs real-world experiences**\n\n**Envito AI** builds AI agents that run events end to end over WhatsApp, Email and Phone: registrations, badges, broadcasts, travel, pickups and live queries. We're 10 months in, with 180+ events and bookings up 11x in the last 5 months, and our agents are in production with real guests at events involving Amazon, IBM and Diageo.\n\n**Visit us at envito.ai**\n\n**What you will own**\n•\tBuild and ship full-stack product features using MongoDB, Express.js, React/Next.js and Node.js, from API design to a polished, responsive UI.\n•\tDesign reliable backend services, REST APIs, data models and integrations for guest management, real-time messaging, notifications and workflow automation.\n•\tOwn production quality: write maintainable code, debug incidents, add tests, monitor performance and improve reliability with every release.\n•\tWork with event-driven flows, webhooks, third-party APIs and asynchronous jobs; handle failures, retries, duplicates and edge cases thoughtfully.\n•\tCollaborate directly with founders and product stakeholders to convert ambiguous problems into simple, useful features and deploy them quickly.\n•\tImprove existing code and architecture as usage grows; spot bottlenecks before they become user-facing problems.\n\n**What we’re looking for**\n•\t1–3 years of professional experience building and shipping web applications, with strong hands-on JavaScript/TypeScript skills.\n•\tSolid working knowledge of Node.js, Express, React (ideally Next.js) and MongoDB, including API design, schema design and database querying.\n•\tExperience taking features from concept to production, debugging with logs and metrics, and owning the result rather than just a ticket.\n•\tComfort with Git, code reviews, authentication/authorization, validation, error handling and basic security practices.\n•\tClear problem-solving ability, bias toward action, curiosity and a willingness to learn unfamiliar systems quickly.\n\n**Extra points if you have…**\n•\tWorked at an early-stage product startup, where speed, resourcefulness and ownership mattered.\n•\tSeen scale firsthand: high traffic, large datasets, bursty workloads, queues, caching, concurrency or production performance tuning.\n•\tBuilt integrations involving WhatsApp/Meta APIs, webhooks, payment systems, AI/LLM tools or automation platforms \n•\tHands-on experience with AWS (EC2, S3), Docker, CI/CD, background workers or observability tools.\n\nThis is more than CRUD. You may be solving problems such as ensuring thousands of scheduled guest messages execute reliably, preventing duplicate webhook processing, keeping guest state accurate across many events, making complex operator dashboards feel effortless, or integrating AI agents into predictable product workflows.\n\n**You’ll thrive here if…**\n•\tYou are hungry to grow, ambitious about the quality of your work and energized by hard problems.\n•\tYou prefer taking ownership over waiting for detailed instructions; you ask sharp questions and make pragmatic trade-offs.\n•\tYou enjoy fast feedback loops, candid collaboration and being accountable for what ships to real users.\n•\tYou care equally about execution speed and getting the fundamentals right.\nWhat you can expect\n•\tMeaningful ownership from the start and a direct line between your work and customer impact.\n•\tClose collaboration with the founding team, rapid product iterations and exposure to applied AI, workflows and production infrastructure.\n•\tA high-agency, in-office environment that rewards initiative, thoughtful engineering and continuous learning Gurgaon\nlocationNames: Gurgaon",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-15T07:12:11+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "02e1cfa6e40f063766da56cbee44466e",
+      "source": "wellfound",
+      "company": "Veersa Technologies",
+      "role": "Healthcare SaaS Implementation Analyst (Clone)",
+      "url": "https://wellfound.com/jobs/4841600-healthcare-saas-implementation-analyst-clone",
+      "jd_text": "**Associate **– Healthcare SaaS Implementation Analyst\n\n**India-based** | Periodic US travel\n**Experience:** Fresh graduates / 0–4 year\n\n**Role overview**\nSupport the implementation of a SaaS healthcare software for US based clinics/practices. The role combines application configuration, customer coordination, staff training and go-live support. Product and implementation training will be provided.\n\n**Key responsibilities**\n\nConfigure users, schedules, forms, communication templates, billing settings and other practice workflows.\nGather customer requirements, maintain implementation checklists and coordinate with practices, iCore teams and external vendors.\nParticipate in customer calls, track outstanding actions and share progress updates.\nValidate configuration and migrated information with practice staff, and report discrepancies.\nTravel periodically to US customer sites for training, implementation and go-live support.\nFollow patient-data confidentiality and security requirements.\n\n**Qualifications and skills**\n\nGraduate in Hospital Administration, Hospital Management, Healthcare Management or a related discipline.\nStrong spoken and written English, interpersonal skills and attention to detail.\nComfortable learning software applications and working with Excel.\nOrganized, proactive and confident interacting with healthcare professionals.\nWillingness to work with US business-hour overlap and travel periodically to the US\nExposure/ experience with any existing Hospital administration/ management system/ EHR/ EMR is a plus.\nTech background in the QA or Product space is a plus Noida\nlocationNames: Noida",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-15T07:12:11+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "28d68898cb72d7f7f4abadeeae0cc74d",
       "source": "yc",
