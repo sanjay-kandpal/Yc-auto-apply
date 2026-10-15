@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-10-15T16:25:22+00:00",
+  "exported_at": "2026-10-15T21:10:43+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 236,
+    "pending_approval": 238,
     "discovered": 898,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "bee21e134229fab80321dc3ebf53739f",
+      "source": "wellfound",
+      "company": "SWARA",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4849772-software-engineer",
+      "jd_text": "## Job Description: Software Engineer (SWE)\n----\n\n### About SWARA\n\nAt **SWARA**, we are revolutionizing the job search experience. We build AI-powered tools that scan thousands of jobs across every board, score them against candidates' resumes using an advanced AI matching engine, and surface the absolute best opportunities. In addition, we help users build ATS-optimized resumes and provide real-time ATS scoring-all for free. We are a fast-moving, early-stage startup looking to completely change the way people find and land their dream jobs.\n\n---\n\n### The Role\n\nAs a Software Engineer at SWARA, you will be a core contributor to our AI matching engine and full-stack platform. You will work directly with the founders in a highly collaborative environment to build and scale the infrastructure that powers our job aggregation, resume parsing, and recommendation algorithms. This is an incredible opportunity to make a massive impact at a growing early-stage startup.\n\n---\n\n### Key Responsibilities\n\n* Design, build, and maintain scalable back-end services that power our job aggregation and ATS scoring engines.\n* Develop intuitive, responsive, and high-performance front-end features for our core web platform.\n* Integrate and optimize Large Language Models (LLMs) and vector databases to improve our AI resume matching accuracy.\n* Build robust data pipelines to securely ingest, parse, and process thousands of job postings and user resumes on a daily basis.\n* Collaborate with the founding team to brainstorm, prototype, and ship new product features rapidly.\n* Write clean, well-documented, and highly testable code while maintaining engineering best practices.\n\n---\n\n### Qualifications &amp; Requirements\n\n* Bachelor's degree in Computer Science, Software Engineering, or equivalent practical experience.\n* Proven experience or projects in full-stack software development.\n* Strong proficiency in modern programming languages such as Python, TypeScript.\n* Hands-on experience with modern front-end frameworks like React, Next.js.\n* Experience designing, building, and interacting with RESTful APIs and relational/NoSQL databases (PostgreSQL, MongoDB, etc.).\n* Excellent problem-solving skills and the ability to adapt to a fast-paced, ambiguous startup environment.\n\n---\n\n### Nice to Have\n\n* Previous experience working with OpenAI APIs, LangChain, or general machine learning infrastructure.\n* Background in building reliable web scrapers or large-scale data ingestion tools.\n* Familiarity with Applicant Tracking Systems (ATS) and resume parsing algorithms.\n\n---\n\n### What We Offer\n\n* Competitive salary with early-stage equity options.\n* Flexible, remote-friendly work environment.\n* Direct mentorship and hands-on experience shaping a product from the ground up. San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 10.72,
+      "resume_variant": "frontend",
+      "draft_answer": "My full-stack experience, including building React front ends and owning cloud-native compliance platform modules that replaced 90% of manual reporting with automated pipelines, positions me to contribute to your AI matching engine and full-stack platform. I've consistently optimized backend services, like cutting API fetch latency by 98% through Redis caching and reducing data load times from 15s to 6s, directly enhancing UI responsiveness and user experience for critical reporting portals and data aggregation.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-15T21:10:03+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.98,
+            "overlap": 12.91,
+            "combined": 9.46
+          },
+          "backend": {
+            "cosine": 6.81,
+            "overlap": 11.65,
+            "combined": 8.26
+          },
+          "frontend": {
+            "cosine": 8.87,
+            "overlap": 15.05,
+            "combined": 10.73
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 8.87,
+        "keyword_overlap_score": 15.05,
+        "final_score": 10.72,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1765
+          },
+          {
+            "term": "end",
+            "weight": 0.0925
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0756
+          },
+          {
+            "term": "algorithms",
+            "weight": 0.0504
+          },
+          {
+            "term": "apis",
+            "weight": 0.0504
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-15T21:10:42+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9f31605f206cf9524a8a8d9aa83cd988",
+      "source": "wellfound",
+      "company": "Beyond Technologies",
+      "role": "Founding Engineer",
+      "url": "https://wellfound.com/jobs/4849778-founding-engineer",
+      "jd_text": "About the company\nAn AI-powered property intelligence company is simplifying and accelerating property ownership verification. Its platform analyses property documents across languages and formats, identifies risks and missing documentation, and verifies records against government databases in real time. Focused on BFSI, the company has reduced property verification turnaround time from 4 days to under 30 minutes and processed over 15,000 loan applications since January.\n\nThe role\nAs a Founding Engineer, you’ll be one of the first engineering hires and help shape the product and technical direction. You’ll work directly with clients to understand pain points, design and validate solutions, turn customer metrics into product insights, scale document-ingestion pipelines, debug LLM outputs, build multi-agent systems, and ship end-to-end features on GCP.\n\nWhat you’ll do\n- Build and ship end-to-end product features.\n- Scale document ingestion and verification pipelines.\n- Develop and debug LLM-powered workflows and multi-agent systems.\n- Work directly with customers and translate their needs into product improvements.\n- Make pragmatic architecture decisions and build reliable production systems.\n\nWhat we’re looking for\n- Strong TypeScript and Node.js skills.\n- Working knowledge of React, SQL, and a cloud platform (GCP preferred).\n- Hands-on experience with LLM APIs, tool calling, structured outputs, multi-agent orchestration, agent traces, and evaluations.\n- Experience building production backend systems with queues, retries, idempotency, logs, and traces.\n- A habit of measuring outcomes and making data-driven decisions.\n- Experience integrating with challenging websites and APIs, including sessions, form posts, HTML parsing, and rate limits.\n- Graduates from Tier 1 Indian colleges or leading international universities are encouraged to apply.\n\nLocation: Gurugram, Haryana (onsite)\nExperience: 2–5 years\nCompensation: Up to ₹25 LPA Gurugram\nlocationNames: Gurugram",
+      "match_score": 12.28,
+      "resume_variant": "frontend",
+      "draft_answer": "My experience owning end-to-end client-facing features, from scoping requirements and driving UAT to onboarding 80+ organizations onto automated platforms, aligns with the Founding Engineer role of translating customer pain points into robust property intelligence solutions. I am confident I can architect the reliable production systems needed to accelerate property document verification, having scaled data pipelines on Azure and AWS, cutting API fetch latency by 98% and reducing load times from 15s to 6s.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-15T21:10:03+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.37,
+            "overlap": 11.59,
+            "combined": 10.04
+          },
+          "backend": {
+            "cosine": 8.95,
+            "overlap": 12.78,
+            "combined": 10.1
+          },
+          "frontend": {
+            "cosine": 11.3,
+            "overlap": 14.56,
+            "combined": 12.28
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.3,
+        "keyword_overlap_score": 14.56,
+        "final_score": 12.28,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1529
+          },
+          {
+            "term": "experience",
+            "weight": 0.125
+          },
+          {
+            "term": "multi",
+            "weight": 0.0937
+          },
+          {
+            "term": "directly",
+            "weight": 0.0764
+          },
+          {
+            "term": "apis",
+            "weight": 0.0625
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-15T21:10:32+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "f9e9362af0cf8e37c933f656d5fb63aa",
       "source": "yc",
