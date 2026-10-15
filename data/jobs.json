@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-15T08:56:24+00:00",
+  "exported_at": "2026-10-15T14:47:34+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 233,
-    "discovered": 895,
+    "pending_approval": 234,
+    "discovered": 896,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "3b35577c3218c42cb7f821c0faf7cba0",
+      "source": "wellfound",
+      "company": "Zylu",
+      "role": "Automation Tester",
+      "url": "https://wellfound.com/jobs/4846306-automation-tester",
+      "jd_text": "**AI-Native Automation Tester**\n**Location**: Bangalore (Work From Office)\n**Employment Type**: Full-time\n**Experience:** 2+ years in software testing and test automation\n**Compensation**: As per experience and demonstrated skills\n\n**About Zylu**\nZylu is a fast-growing SaaS startup helping salons digitise their bookings, grow their business, and engage customers more effectively. With a growing presence across India and expanding markets in the UAE, Saudi Arabia, and Southeast Asia, we are building the future of salon growth management.\n\n**About the Role**\nWe are looking for an AI-native Automation Tester with 2+ years of experience who uses AI tools as a core part of the software quality lifecycle—not just as an occasional assistant. You will design, build, and maintain reliable automated tests for web applications and APIs, use AI to accelerate test design and debugging, and work closely with product and engineering teams to improve release quality.\n\n**Responsibilities**\n* Design, develop, execute, and maintain automated tests for web applications, APIs, and end-to-end user journeys.\n* Build and maintain automation frameworks using Playwright with JavaScript/TypeScript or Python; evaluate tools pragmatically based on product needs.\n* Use AI coding assistants and LLMs to generate and refine test cases, create test data, analyse failures, and accelerate debugging—while validating all AI-generated output.\n* Translate product requirements, user stories, and bug reports into risk-based test scenarios, edge cases, and regression suites.\n* Perform API testing using REST/HTTP, JSON, authentication flows, status codes, and request/response validation.\n* Integrate automated tests into CI/CD pipelines and help ensure reliable test execution on every relevant build.\n* Investigate flaky tests, identify root causes, report defects with clear reproduction steps, and verify fixes.\n* Test AI-enabled features where relevant, including prompt variations, structured outputs, hallucination risks, failure handling, and regression behaviour.\n* Collaborate with developers and product managers during planning, code reviews, and release readiness discussions.\n* Maintain test documentation, automation coverage, execution reports, and quality metrics.\n\n**Qualifications**\n* Bachelor’s degree in Computer Science, IT, Engineering, or a related field, or equivalent practical experience.\n* At least 2 years of hands-on experience in software testing, including meaningful test automation work.\n* Practical experience with Playwright and JavaScript/TypeScript or Python.\n* Strong understanding of test design, functional, regression, integration, and end-to-end testing.\n* Experience testing REST APIs and working with JSON, HTTP methods, authentication, and response validation.\n* Ability to investigate failures, debug test scripts, and clearly communicate defects.\n* A quality-first mindset, strong analytical skills, and the ability to work independently in a fast-moving product team.\n* \n\n**Preferred Skills**\n* Daily use of AI coding assistants or LLM tools to support test planning, script authoring, debugging, and documentation.\n* Experience integrating automated tests with CI/CD tools such as GitHub Actions, GitLab CI, or Jenkins.\n* Familiarity with Git, SQL/database validation, browser developer tools, and test reporting.\n* Understanding of Docker, Linux, test environments, and parallel test execution.\n* Exposure to AI/LLM application testing, prompt testing, evaluation datasets, or model-output validation.\n* Experience with performance or load testing tools is an advantage.\n\n**What You’ll Get**\n* An opportunity to shape automation and quality practices in a fast-growing SaaS product company.\n* Ownership of meaningful testing workflows across product features and integrations.\n* The opportunity to use AI tools and modern automation frameworks to improve engineering speed and product reliability.\n* Close collaboration with product and engineering teams, with room to grow alongside the company.\n\n**Hiring Process**\n* Initial screening with HR.\n* Practical assessment covering test design, automation, and API testing.\n* Technical discussion with the engineering team.\n* Final discussion with the hiring manager.\n\n**Sounds Like You?**\nIf you combine strong testing fundamentals with an AI-first approach to automation and enjoy improving product quality through practical engineering, we’d love to hear from you. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 10.68,
+      "resume_variant": "fullstack",
+      "draft_answer": "Having built and validated LLM tool-calling systems and owned CI/CD pipelines for zero-downtime blue-green deployments, I'm confident in applying an AI-first approach to designing and maintaining automated tests for your salon growth management platform. My background includes load-testing reporting APIs with Locust to cut fetch latency by 98% and driving UAT for cloud-native platforms, ensuring performant and reliable experiences for a growing client base.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-15T14:47:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.3,
+            "overlap": 16.23,
+            "combined": 10.68
+          },
+          "backend": {
+            "cosine": 7.91,
+            "overlap": 16.17,
+            "combined": 10.39
+          },
+          "frontend": {
+            "cosine": 6.3,
+            "overlap": 19.9,
+            "combined": 10.38
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.3,
+        "keyword_overlap_score": 16.23,
+        "final_score": 10.68,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1992
+          },
+          {
+            "term": "testing",
+            "weight": 0.1992
+          },
+          {
+            "term": "experience",
+            "weight": 0.1332
+          },
+          {
+            "term": "tools",
+            "weight": 0.1036
+          },
+          {
+            "term": "end",
+            "weight": 0.0724
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-15T14:47:32+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "092629af73e39dff5ae83d91be5581d2",
+      "source": "wellfound",
+      "company": "Perceptive Labs",
+      "role": "Full Stack Software + Cloud Intern",
+      "url": "https://wellfound.com/jobs/4825037-full-stack-software-cloud-intern",
+      "jd_text": "We are looking for a strong Full Stack Software Intern + Cloud who wants to build real products and work across frontend, backend, databases, APIs, and cloud infrastructure.\n\nThis role is best suited for someone with strong fundamentals, good projects, curiosity, and the ability to learn and build independently.\n\n**What You Will Work On**\n\n* Build frontend features using React, Next.js, and TypeScript\n* Develop backend APIs using Python and FastAPI\n* Work with PostgreSQL, SQL, SQLAlchemy, and Pydantic\n* Integrate frontend applications with backend APIs\n* Work with file uploads, PDFs, invoices, and structured business data\n* Build background jobs, webhooks, and async workflows\n* Integrate with third-party APIs, Tally, Zoho, and ERP platforms\n* Deploy and manage applications using Docker and Google Cloud Platform\n* Work with Cloud Run, Cloud SQL, Cloud Storage, IAM, and Secret Manager\n* Debug issues across frontend, backend, database, and cloud layers\n* Write clean, maintainable, testable code\n* Take features from requirement to implementation and deployment\n\n**What We Are Looking For**\n\n* Strong programming fundamentals\n* Good knowledge of JavaScript / TypeScript\n* Experience with React or Next.js\n* Good Python fundamentals\n* Familiarity with FastAPI, Django, Flask, or backend development\n* Understanding of REST APIs, HTTP, and client-server architecture\n* Good knowledge of SQL and relational databases\n* Understanding of Git and version control\n* Basic knowledge of Docker and cloud platforms\n* Strong debugging and problem-solving skills\n* Ability to learn quickly, take ownership, and work independently\n\n**Good to Have**\n\n* PostgreSQL, SQLAlchemy, Pydantic\n* Google Cloud Platform / AWS / Azure\n* Cloud Run, Cloud SQL, Cloud Storage\n* Linux, CI/CD, GitHub Actions\n* Background jobs, queues, Redis, Celery, or webhooks\n* OpenAI / LLM APIs, RAG, or agentic workflows\n* OCR, PDF parsing, OpenCV, PyMuPDF, or document extraction\n* SaaS products, authentication, or multi-tenant systems\n* ERP, accounting, GST, Tally, or Zoho integrations\n\n**What We Value**\n\nWe care more about what you can build and how you think than the number of technologies on your resume. Strong candidates should be able to show meaningful projects, explain their technical decisions, debug problems independently, and demonstrate a genuine interest in building production software.\n\nAt Perceptive Labs, you will work on real products, contribute directly to customer-facing systems, and gain hands-on experience across frontend, backend, cloud, AI, and production engineering. Ahmedabad\nlocationNames: Ahmedabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-15T14:47:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "d26c67bd9218994f3fad7ad87873c963",
       "source": "wellfound",
