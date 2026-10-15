@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-15T21:10:43+00:00",
+  "exported_at": "2026-10-15T22:58:12+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 900,
     "pending_approval": 238,
-    "discovered": 898,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "a1fa6f4aebaa638a6570383454b12e61",
+      "source": "yc",
+      "company": "Trellis AI",
+      "role": "Account Executive",
+      "url": "https://www.workatastartup.com/jobs/116768",
+      "jd_text": "## **Trellis builds and deploys self-improving agents to get patients access to life-saving medicine.**\n\n**Our AI agents process billions of dollars worth of therapies annually with patients in all fifty states.** We do this by automating document intake, prior authorizations, and appeals at scale to streamline operations and accelerate care. We classify medical referrals, understand chart notes, and automate contract and reimbursement search to provide patients with accurate coverage determinations and cost responsibility. Think of us as the the infrastructure behind how the patients get the medications.\n\nTrellis is a spinout from Stanford AI Lab and is backed by leading investors including YC, General Catalyst, Telesoft Partners, and executives at Google and Salesforce.\n\n## The Role\n\nWe're hiring an Account Executive to own deals end to end: source pipeline, run the sales cycle, and close. You'll work directly with our founders and GTM leads, and help shape how Trellis sells as we scale.\n\nWe sell to specialty pharmacies, infusion centers, provider groups (oncology, neurology, rheumatology, dermatology), and health systems. You'll focus on the segments with the most momentum, with room to pick where you can win.\\\n\\\n**Compensation:** The pay range listed is on-target earnings (OTE), including base salary and commission.\n\n## What You'll Do\n\n* **Run and close deals:** Own discovery, demos, pilot scoping, pricing, and contracting through signature, alongside the founders on the largest enterprise deals\n* **Build your own pipeline:** Identify target accounts, run outbound across email, phone, LinkedIn, and events, and book meetings with operations, revenue cycle, and pharmacy leaders\n* **Sell the ROI:** Translate prior auth, benefits verification, and reimbursement workflows into clear business cases for senior buyers\n* **Work smarter with AI:** Use modern GTM tools (CRM, Clay or similar, sequencing) to make prospecting and deal management repeatable\n* **Shape the playbook:** Test messaging and segments, track win rates and cycle times, and feed what you learn back to product and marketing\n* **Partner with deployment:** Hand off cleanly to our deployment team so pilots convert to production and expand\n\n## About You\n\nYou're a builder who likes owning a number. You'd rather open a new market than inherit a territory, and you're as comfortable writing a cold sequence as you are walking a VP of Operations through a business case.\n\nYou move fast, stay organized, and get curious about how things work. That means learning how a prior authorization moves through a specialty pharmacy, or how to wire up a tool that saves you ten hours a week.\n\n## What You'll Bring\n\n* 3+ years in a quota-carrying sales role, ideally including time as a closing AE\n* A track record of hitting or beating quota on complex, multi-stakeholder deals\n* Experience self-sourcing pipeline, not just working inbound\n* Comfort selling to senior operational and executive buyers\n* Clear, crisp written and verbal communication\n* High ownership and the ability to operate autonomously in a fast-moving startup\n* Healthcare, pharmacy, revenue cycle, or health-tech sales experience is a big plus\n* Experience selling technical or AI products is a plus\n\n## Why Work With Us\n\n* **Real impact at massive scale:** We serve patients in all fifty states and are scaling to hundreds of healthcare locations. Every account you close means more patients starting therapy sooner.\n* **Incredible growth and traction:** We've grown revenue 10x in the past few months alone and have XX% market share in the specialty healthcare markets we serve.\n* **Build the playbook, not follow one:** You'll help define how Trellis sells into new segments, including health systems, with real input on strategy, tooling, and hiring.\n* **Work with the founding team:** Partner directly with founders and F500 customers, alongside healthcare operations leaders who have overseen 50+ locations.\n* **Be at the forefront of AI in healthcare:** Sell production-grade agentic systems that make critical healthcare decisions, not a demo.\n* **World-class team:** Join teammates who have won international physics olympiads, published economics research, were founding engineers at unicorn startups, and taught AI classes to hundreds of Stanford graduate students. San Francisco, CA, US fulltime yes\nlocations: San Francisco, CA, US\nremote: yes\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-15T22:58:06+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "bf35cc9d4f050211590da45b3d72376a",
+      "source": "yc",
+      "company": "Corgi Insurance",
+      "role": "Founding Engineer, Transportation",
+      "url": "https://www.workatastartup.com/jobs/116801",
+      "jd_text": "### About Corgi\n\nCorgi is building an AI-native insurance carrier. We underwrite and issue our own policies, giving us control over the technology, pricing, and customer experience. We’ve raised over $260M and are building a transportation division spanning trucking, business auto, and future transportation insurance products.\n\nTransportation insurance runs on fragmented systems, manual underwriting, and disconnected data. We’re building the infrastructure to change that: faster decisions, better risk selection, and insurance that fits directly into the platforms transportation businesses already use.\n\n### About the role\n\nWe’re hiring a Founding Engineer to help build Corgi’s transportation division and own the technology that powers it.\n\nYou’ll work directly with the division’s leadership to turn business priorities into products, make foundational architecture decisions, and ship production software. Building on Corgi’s existing carrier infrastructure, you’ll connect distribution, underwriting, pricing, and operations into systems that can support a billion-dollar premium business.\n\nYour scope will include the quote-to-bind pipeline, embedded distribution APIs, AI underwriting tools, partner portals, and the data infrastructure behind risk selection. You’ll decide what to build first, what to reuse, and where the division needs its own capabilities.\n\nThis is a hands-on role with substantial technical and product ownership. The systems you build—and the engineers you help recruit—will shape how the division operates as it scales.\n\n### Who you’ll work with\n\nYou’ll work directly with the two executives leading the division, alongside Corgi’s engineering team:\n\n**Brianna Lynch** began her career at EY before working in FP&amp;A and Corporate Development at HarbourVest Partners. She later joined Affiliated Managers Group, an $880 billion asset manager, where she worked across M&amp;A and Investor Relations, acquiring and advising private equity, hedge fund, and venture capital firms. She joined Corgi in 2025 as Head of Finance and led M&amp;A efforts alongside Drew. She brings the financial, operational, and underwriting perspective to what we build.\n\n**Drew Bregman** founded a behavioral assessment company that helps the NSA and U.S. military identify talent. At Corgi, he co-founded the M&amp;A team and helped build the sales division at its subsidiary Beagle, which achieved 40% month-over-month growth. Earlier, he built transportation management software as an engineer at a large freight brokerage. He understands transportation from the software, distribution, and insurance sides—and will be in the code with you when it matters.\n\n### What you’ll own\n\n* **Technical direction.** Define the division’s architecture and engineering priorities, working with Corgi’s core engineering team to build on shared infrastructure and create new capabilities where needed.\n* **The policy lifecycle.** Build the systems that quote, bind, issue, and service trucking and business auto policies, including endorsements, renewals, and cancellations.\n* **Embedded distribution.** Design APIs that integrate Corgi into TMS platforms, ELD providers, load boards, factoring companies, and compliance services, enabling partners to offer quotes, bind coverage, and retrieve insurance documents within their products.\n* **AI underwriting.** Turn FMCSA and DOT data, loss runs, MVRs, and other submission documents into structured information and useful underwriting decisions, with clear controls for human review.\n* **Partner workflows.** Build the portals and tools that brokers, MGAs, and other distribution partners use to submit business, manage quotes, bind policies, and service accounts.\n* **Transportation data.** Build pipelines for telematics, ELD, dashcam, and third-party data that help our underwriting and pricing teams understand risk.\n* **Production quality.** Own reliability, security, observability, and performance. Build systems whose decisions can be understood and whose failures can be diagnosed.\n* **The engineering team.** Help recruit and develop engineers, establish technical standards, and create a culture of fast execution and clear accountability.\n\n### What we’re looking for\n\n* **Experience shipping consequential software.** You have 5+ years building production systems in a high-growth startup or technically demanding environment.\n* **Ownership from idea through production.** You’ve taken an ambiguous problem through product definition, schema design, API contracts, implementation, deployment, and ongoing operation.\n* **Strong technical judgment.** You can make foundational decisions without overengineering, move quickly through reversible choices, and recognize the decisions that deserve more care.\n* **Comfort across the stack.** You can build a React workflow, a Node service, and a Python data pipeline—and follow a problem across those boundaries.\n* **Practical AI experience.** You’ve used LLMs, document extraction, or other AI capabilities in production. You understand evaluations, failure modes, latency, cost, and when a human needs to remain in the loop.\n* **Product and commercial instinct.** You understand how engineering decisions affect conversion, underwriting quality, operating costs, and the experience of the people using your software.\n* **High agency and clear communication.** You identify problems, propose a path forward, and take responsibility for the result. You work directly with users and make tradeoffs explicit.\n\n### Bonus\n\n* Prior founding engineer, staff engineer, or technical lead experience\n* Experience in insurance, fintech, logistics, or transportation\n* Experience building underwriting, pricing, claims, or policy administration systems\n* Experience with embedded products and external APIs used by multiple partners\n* Familiarity with FMCSA, DOT, telematics, or commercial auto data\n* Experience helping recruit and build an engineering team\n\n### Compensation and location\n\n* Industry-competitive salary and equity\n* Health, dental, and vision benefits\n* Based in Boston, in office 5–6 days per week\n\n### Interview process\n\n1. Screening call\n2. Technical work trial\n3. Onsite with the team\n4. Decision Boston, MA, US fulltime yes\nlocations: Boston, MA, US\nremote: no\nmin_experience: 1",
+      "match_score": 9.94,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-15T22:58:06+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.25,
+            "overlap": 16.23,
+            "combined": 9.94
+          },
+          "backend": {
+            "cosine": 6.66,
+            "overlap": 16.17,
+            "combined": 9.51
+          },
+          "frontend": {
+            "cosine": 5.58,
+            "overlap": 17.48,
+            "combined": 9.15
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.25,
+        "keyword_overlap_score": 16.23,
+        "final_score": 9.94,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.12
+          },
+          {
+            "term": "experience",
+            "weight": 0.1191
+          },
+          {
+            "term": "data",
+            "weight": 0.0926
+          },
+          {
+            "term": "ai",
+            "weight": 0.0809
+          },
+          {
+            "term": "technical",
+            "weight": 0.0794
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "bee21e134229fab80321dc3ebf53739f",
       "source": "wellfound",
