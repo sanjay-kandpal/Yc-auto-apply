@@ -1,15 +1,245 @@
 {
-  "exported_at": "2026-10-15T14:47:34+00:00",
+  "exported_at": "2026-10-15T16:25:22+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 234,
-    "discovered": 896,
+    "pending_approval": 236,
+    "discovered": 898,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "f9e9362af0cf8e37c933f656d5fb63aa",
+      "source": "yc",
+      "company": "Aglide",
+      "role": "Founding Engineer (San Francisco, CA)",
+      "url": "https://www.workatastartup.com/jobs/116702",
+      "jd_text": "Every company has applications it fundamentally cannot secure. They buy Okta or Entra and can only secure a portion of their team's accounts - often leaving out the most critical ones: banking portals, privileged service accounts, social media. Aglide means they can finally secure all of them.\n\nWe've raised over $3.5M to go after this problem, with several years of runway in the bank. Household-name fintechs and global enterprises run mission-critical workflows on our platform every day, for thousands of users.\n\nAs a founding engineer, you'll own problems end to end - meeting the customer, diagnosing the issue, designing the fix and shipping it to production, sometimes inside a week.\n\n---\n\n### What we do\n\nAglide combines an on-device browser agent and a browser extension to autonomously run tasks inside our customers' work applications. Our platform lets non-technical users configure these workflows for any application, making setup self-service. Today, it's used for two key workflows:\n\n1. **User login:** Automating user sign-in to work accounts, to give security teams visibility and access policy enforcement.\n2. **Lifecycle:** Completing admin tasks inside applications, such as creating or removing users - saving time, reducing human error and tightening access control.\n\nOur customers range from decacorn financial services scale-ups to public insurance companies. Their employees use Aglide to reach the applications they can't work without, from everyday SaaS to corporate bank accounts. Their security teams use it to stay compliant and keep attackers out - including, at times, state-sponsored ones.\n\n---\n\n### Who you'd work with\n\nWe're a team of six across London and San Francisco, led by two founders who both still build and sell the product themselves:\n\n* **Patrick McGuckian (CEO):** Focused on growth, talking to security and GRC teams every week.\n* **Oliver Colebourne (CTO):** Focused on product, making sure customer rollout is a success.\n\nWe met at Imperial College London and worked on nearly every university project together. In our final year we decided to take our master's projects further and start a company - after a few pivots, that became Aglide, and we got into YC in summer 2023.\n\n---\n\n### The role\n\nThere are few established best practices for browser-using agents, because almost nobody is deploying them at scale. So a fair amount of the job is inventing the playbook - and you'll shape what we build next through the problems you choose to pick up.\n\n### What you'll build\n\nSix things, all of them core:\n\n* **Browser automation engine:** The core of it. Make it hold up on messier sites and handle more complex tasks.\n* **On-device browser environment:** The local environment the agent runs in, on someone’s laptop - reliable and secure.\n* **Workflow builder:** Make a new automation quicker to build, by people who don’t write code.\n* **Distributed tasks system:** Tasks like adding a user, or regularly rotating a password, must run asynchronously on end-user devices.\n* **Platform controls and analytics:** Give customers more control and visibility over when and how their automations run.\n* **End-to-end encrypted infrastructure:** Strengthen and scale the systems keeping customer data encrypted end to end.\n\n### How we build\n\nWorth knowing before you apply - this isn't for everyone.\n\n* **Full ownership:** Significant autonomy. No approval chains to sit behind, and the roadmap moves with what you take on.\n* **In front of customers:** You’ll meet them regularly - understanding what they want, checking your fix landed, and walking them through what you shipped.\n* **Across the stack:** Dashboard, desktop app, backend services, IaC config. Whatever the problem needs.\n* **Problem to production in days:** That pace is the point of a founding role. It occasionally means long nights and weekends.\n\nUnlimited PTO sits alongside that, and we will push you to take it - the intensity only holds up if you're rested.\n\n---\n\n### What we're looking for\n\nFour things we need. The rest you can pick up here.\n\n* **1+ years shipping production software:** Built things real users depend on, not just coursework or prototypes.\n* **Debugging and systems thinking:** Browser automation is messy, and our workflows run on end-user devices with end-to-end encrypted data.\n* **Wanting customer contact:** Understanding their problems, validating your fix, spotting the product opportunity in a question.\n* **Wanting the ownership:** Comfortable being the one person responsible from first call to production.\n\n**Nice to haves**: TypeScript and Postgres; Electron; Browser extensions; Puppeteer or Selenium; Zero-trust and end-to-end encryption; Okta, 1Password, Entra ID, JAMF\n\n---\n\n### What we offer\n\n* **Salary and equity:** $150,000-$180,000 depending on experience, plus meaningful equity in what we’re building.\n* **San Francisco office:** We’re based in North Waterfront. We prefer to go in most days.\n* **Medical, dental and vision:** We cover 75% of your premiums on our base plan.\n* **401(k):** with a 3% company match.\n* **Learning budget:** An annual budget for whatever you need to get better at this.\n* **Unlimited PTO:** We’ll make sure you take enough of it to sustain the pace.\n* **Relocation or travel:** The opportunity to travel between SF and London, or relocate in the future if you’d rather.\n* **Socials and offsites:** Frequent dinners and socials, plus an annual international offsite.\n\nWe believe the best building happens shoulder-to-shoulder, in office. That said, we trust people to manage their own lives - flexibility isn't a problem when it's needed.\n\n---\n\nYou’ll need existing authorisation to work in the US - we aren’t able to sponsor visas.\n\nAglide is an equal opportunity employer and doesn't discriminate on the basis of race, colour, religion, gender, national origin, sexual orientation or gender identity. San Francisco, CA, US jobs_skill 90 Node.js 144 jobs_skill 99 PostgreSQL 79 jobs_skill 138 TypeScript 45 jobs_skill 384 Playwright 0 jobs_skill 386 Puppeteer 0 jobs_skill 424 Selenium 0 fulltime yes\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 13.26,
+      "resume_variant": "frontend",
+      "draft_answer": "Having built and owned React front ends end-to-end for critical enterprise applications, I've automated workflows that replaced 90% manual reporting, while cutting client-side fetch latency by 98% and data load times from 15s to 6s, directly improving UI responsiveness and user experience. I'm eager to bring this full-stack experience in debugging and delivering high-performance, customer-facing solutions to autonomously run tasks inside work applications, owning problems from diagnosis to production.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-15T16:24:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.91,
+            "overlap": 18.54,
+            "combined": 11.1
+          },
+          "backend": {
+            "cosine": 5.53,
+            "overlap": 16.92,
+            "combined": 8.94
+          },
+          "frontend": {
+            "cosine": 10.62,
+            "overlap": 19.42,
+            "combined": 13.26
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.62,
+        "keyword_overlap_score": 19.42,
+        "final_score": 13.26,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.2363
+          },
+          {
+            "term": "user",
+            "weight": 0.0985
+          },
+          {
+            "term": "applications",
+            "weight": 0.0644
+          },
+          {
+            "term": "production",
+            "weight": 0.0644
+          },
+          {
+            "term": "secure",
+            "weight": 0.0644
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-15T16:25:20+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "999947bf4f1937db8e711401362430e9",
+      "source": "yc",
+      "company": "Aglide",
+      "role": "Founding Engineer (London, UK)",
+      "url": "https://www.workatastartup.com/jobs/116669",
+      "jd_text": "Every company has applications it fundamentally cannot secure. They buy Okta or Entra and can only secure a portion of their team's accounts - often leaving out the most critical ones: banking portals, privileged service accounts, social media. Aglide means they can finally secure all of them.\n\nWe've raised over $3.5M to go after this problem, with several years of runway in the bank. Household-name fintechs and global enterprises run mission-critical workflows on our platform every day, for thousands of users.\n\nAs a founding engineer, you'll own problems end to end - meeting the customer, diagnosing the issue, designing the fix and shipping it to production, sometimes inside a week.\n\n---\n\n### What we do\n\nAglide combines an on-device browser agent and a browser extension to autonomously run tasks inside our customers' work applications. Our platform lets non-technical users configure these workflows for any application, making setup self-service. Today, it's used for two key workflows:\n\n1. **User login:** Automating user sign-in to work accounts, to give security teams visibility and access policy enforcement.\n2. **Lifecycle:** Completing admin tasks inside applications, such as creating or removing users - saving time, reducing human error and tightening access control.\n\nOur customers range from decacorn financial services scale-ups to public insurance companies. Their employees use Aglide to reach the applications they can't work without, from everyday SaaS to corporate bank accounts. Their security teams use it to stay compliant and keep attackers out - including, at times, state-sponsored ones.\n\n---\n\n### Who you'd work with\n\nWe're a team of five across London and San Francisco, led by two founders who both still build and sell the product themselves:\n\n* **Patrick McGuckian (CEO):** Focused on growth, talking to security and GRC teams every week.\n* **Oliver Colebourne (CTO):** Focused on product, making sure customer rollout is a success.\n\nWe met at Imperial College London and worked on nearly every university project together. In our final year we decided to take our master's projects further and start a company - after a few pivots, that became Aglide, and we got into YC in summer 2023.\n\n---\n\n### The role\n\nThere are few established best practices for browser-using agents, because almost nobody is deploying them at scale. So a fair amount of the job is inventing the playbook - and you'll shape what we build next through the problems you choose to pick up.\n\n### What you'll build\n\nSix things, all of them core:\n\n* **Browser automation engine:** The core of it. Make it hold up on messier sites and handle more complex tasks.\n* **On-device browser environment:** The local environment the agent runs in, on someone’s laptop - reliable and secure.\n* **Workflow builder:** Make a new automation quicker to build, by people who don’t write code.\n* **Distributed tasks system:** Tasks like adding a user, or regularly rotating a password, must run asynchronously on end-user devices.\n* **Platform controls and analytics:** Give customers more control and visibility over when and how their automations run.\n* **End-to-end encrypted infrastructure:** Strengthen and scale the systems keeping customer data encrypted end to end.\n\n### How we build\n\nWorth knowing before you apply - this isn't for everyone.\n\n* **Full ownership:** Significant autonomy. No approval chains to sit behind, and the roadmap moves with what you take on.\n* **In front of customers:** You’ll meet them regularly - understanding what they want, checking your fix landed, and walking them through what you shipped.\n* **Across the stack:** Dashboard, desktop app, backend services, IaC config. Whatever the problem needs.\n* **Problem to production in days:** That pace is the point of a founding role. It occasionally means long nights and weekends.\n\nUnlimited PTO sits alongside that, and we will push you to take it - the intensity only holds up if you're rested.\n\n---\n\n### What we're looking for\n\nFour things we need. The rest you can pick up here.\n\n* **1+ years shipping production software:** Built things real users depend on, not just coursework or prototypes.\n* **Debugging and systems thinking:** Browser automation is messy, and our workflows run on end-user devices with end-to-end encrypted data.\n* **Wanting customer contact:** Understanding their problems, validating your fix, spotting the product opportunity in a question.\n* **Wanting the ownership:** Comfortable being the one person responsible from first call to production.\n\n**Nice to haves**: TypeScript and Postgres; Electron; Browser extensions; Puppeteer or Selenium; Zero-trust and end-to-end encryption; Okta, 1Password, Entra ID, JAMF\n\n---\n\n### What we offer\n\n* **Salary and equity:** Competitive salary (£80k-£150k) and generous equity - a meaningful share of what we’re building.\n* **Central London office:** We’re based in Liverpool Street, right by Spitalfields Market.\n* **Private medical and dental:** Covered for you from the start.\n* **Learning budget:** An annual budget for whatever you need to get better at this.\n* **Unlimited PTO:** We’ll make sure you take enough of it to sustain the pace.\n* **Relocation or travel:** The opportunity to travel between London and SF, or relocate in the future if you’d rather.\n* **Socials and offsites:** Frequent dinners and socials, plus an annual international offsite.\n\nWe believe the best building happens shoulder-to-shoulder, in office. That said, we trust people to manage their own lives - flexibility isn't a problem when it's needed.\n\n---\n\nAglide is an equal opportunity employer and doesn't discriminate on the basis of race, colour, religion, gender, national origin, sexual orientation or gender identity. London, England, GB jobs_skill 90 Node.js 144 jobs_skill 99 PostgreSQL 79 jobs_skill 111 React 174 jobs_skill 138 TypeScript 45 jobs_skill 384 Playwright 0 jobs_skill 386 Puppeteer 0 jobs_skill 424 Selenium 0 fulltime none\nlocations: London, England, GB\nremote: no\nmin_experience: 1",
+      "match_score": 13.89,
+      "resume_variant": "frontend",
+      "draft_answer": "I've owned end-to-end React frontend development for cloud-native compliance platforms, driving client UAT and successfully replacing 90% of manual reporting workflows with automated pipelines for 80+ organizations. My experience optimizing perceived UI responsiveness by cutting API fetch latency 98% and building secure, distributed systems like PixSort and AkaBite prepares me to invent the playbook for securing applications that fundamentally cannot be secured.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-15T16:24:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.25,
+            "overlap": 19.21,
+            "combined": 11.54
+          },
+          "backend": {
+            "cosine": 5.72,
+            "overlap": 17.67,
+            "combined": 9.31
+          },
+          "frontend": {
+            "cosine": 11.1,
+            "overlap": 20.39,
+            "combined": 13.89
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.1,
+        "keyword_overlap_score": 20.39,
+        "final_score": 13.89,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.2404
+          },
+          {
+            "term": "user",
+            "weight": 0.1002
+          },
+          {
+            "term": "applications",
+            "weight": 0.0655
+          },
+          {
+            "term": "production",
+            "weight": 0.0655
+          },
+          {
+            "term": "secure",
+            "weight": 0.0655
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-15T16:25:09+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "510aa1e01008c52bc271a464a5663967",
+      "source": "yc",
+      "company": "Axross Pte Ltd",
+      "role": "CEO Office Associate",
+      "url": "https://www.workatastartup.com/jobs/116639",
+      "jd_text": "### About Us\n\nAt Axross, we're building advanced HVAC AI solutions to optimise energy efficiency in industries like pharmaceuticals, semiconductors, and precision manufacturing. Our systems help manufacturers better control the production environment while reducing energy consumption, contributing to cost reductions and environmental sustainability.\n\nWe are seeking a CEO Office - Strategy &amp; Business Development Associate to support high-level decision-making, drive market expansion initiatives, and build key relationships with industry partners, government agencies, and investors. This role is ideal for someone who thrives in a fast-paced, strategic environment and is looking for hands-on experience in business growth, stakeholder engagement, and corporate strategy.\n\n### Why Join Us?\n\n•\tWork Closely with Leadership – Gain firsthand exposure to C-Level decision-making and high-impact projects.\n\n•\tShape Business Strategy – Drive market expansion, business development, and strategic partnerships.\n\n•\tMake an Industry Impact – Influence sustainability, ESG, and AI-driven innovation in industrial energy efficiency.\n\n•\tFast-Track Your Career – Work in a high-growth startup where your ideas matter and your contributions are visible.\n\n•\tAccess High-Profile Networks – Connect with industry leaders, investors, and policymakers across Southeast Asia.\n\n### What you will do:\n\n**1. Strategic Research &amp; Business Analysis**\n\n•\tAnalyze HVAC, energy efficiency, and manufacturing trends to support key business decisions.\n\n•\tConduct competitive analysis and develop data-driven insights for pricing models, market entry strategies, and financial benchmarking.\n\n•\tCreate high-impact presentations and reports for internal leadership and external stakeholders.\n\n**2. Business Development &amp; Corporate Partnerships**\n\n•\tIdentify new business opportunities, strategic partnerships, and government collaborations.\n\n•\tSupport the CEO in negotiations, commercial structuring, and stakeholder engagement.\n\n•\tRepresent Axross at conferences, trade shows, and industry events to strengthen brand positioning.\n\n**3. Stakeholder &amp; Investor Engagement**\n\n•\tManage relationships with key industry leaders, investors, and policymakers.\n\n•\tPrepare board materials, investor updates, and funding discussion reports.\n\n•\tDevelop thought leadership content on AI, ESG, and sustainability to enhance Axross’s industry presence.\n\n### Requirements:\n\n•\t3+ years of experience in business strategy, consulting, business development, or corporate affairs.\n\n•\tAbility to work with deep tech and to pick up technical knowledge. Engineering background will be preferred.\n\n•\tExcellent communication and presentation skills, with the ability to engage high-profile stakeholders.\n\n•\tUnderstanding of Southeast Asia’s business landscape (experience in energy efficiency, ESG, HVAC, or manufacturing is a plus).\n\n•\tAbility to manage multiple projects and thrive in a fast-paced startup environment.\n\n•\tWillingness to travel regionally for industry events and strategic meetings.\n\nIf you're passionate about business growth, strategy, and innovation and want to work directly with leadership in a high-growth startup, we'd love to hear from you!\n\n### Apply Now!\n\nIf you’re looking for a role that allows you to grow, take ownership, and make a real difference in a fast-growing company, we’d love to hear from you! Kuala Lumpur, Federal Territory of Kuala Lumpur, MY fulltime none\nlocations: Kuala Lumpur, Federal Territory of Kuala Lumpur, MY\nremote: no\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-15T16:24:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "5a5b64170ee43fe44fbbdbe50b376c9e",
+      "source": "yc",
+      "company": "Axross Pte Ltd",
+      "role": "Business Development Manager",
+      "url": "https://www.workatastartup.com/jobs/116636",
+      "jd_text": "### **About Us**\n\nAt Axross, we develop advanced AI-driven solutions to optimise HVAC performance in complex\n\nenvironments. Our solutions enable industries such as semiconductors, pharmaceuticals, and\n\nprecision manufacturing to reduce energy consumption while maintaining strict operational and\n\nenvironmental conditions.\n\nBy combining engineering expertise with data-driven optimisation, Axross helps organisations\n\nunlock efficiency gains that conventional control systems cannot achieve.\n\n### **Role Overview**\n\nWe are seeking a commercially driven Business Development Manager to expand Axross’\n\npresence across Malaysia, Singapore and Southeast Asia. This role focuses on identifying,\n\ndeveloping, and converting new business opportunities into commercial engagements.\n\nThe role requires a balance of strategic thinking and hands-on execution — engaging senior\n\nstakeholders, while also driving day-to-day pipeline development and deal progression.\n\n### **Roles and Responsibilities**\n\n**1. Business Development &amp; Pipeline Creation**\n\n● Identify and prioritise target industries and accounts across manufacturing, data centres,\n\nand large commercial assets\n\n● Build and maintain a structured pipeline aligned with company strategy\n\n● Develop and execute outreach strategies including cold outreach, referrals, and direct\n\nengagement\n\n● Conduct discovery discussions to understand operational and commercial needs\n\n**2. Commercial Development**\n\n● Translate technical capabilities into clear business value propositions\n\n● Support proposal development, presentations, and commercial discussions\n\n● Work with internal teams to shape solutions for clients\n\n● Drive opportunities towards pilot projects and commercial agreements\n\n**3. Client Engagement**\n\n● Build relationships with decision-makers across business and technical functions\n\n● Navigate complex stakeholder environments to move opportunities forward\n\n● Represent Axross in client meetings and selected industry engagements\n\n**4. Market Development**\n\n● Contribute market insights to refine positioning and go-to-market strategy\n\n● Identify potential collaboration or ecosystem opportunities\n\n● Support expansion into new sectors and markets where relevant\n\n### **Requirements**\n\n● Experience in business development or sales within B2B environments\n\n● Exposure to industrial, HVAC, engineering, or technical solution-based industries\n\n● Familiarity with Southeast Asia’s regional business environment and experience in\n\nidentifying and developing opportunities across markets\n\n● Ability to engage both senior decision-makers and technical stakeholders\n\n● Strong communication and value-based selling capability\n\n● Proven ability to manage multiple opportunities and maintain momentum\n\n● Proactive, self-driven, and comfortable with outbound business development\n\n● Willingness to travel within Southeast Asia for client engagement\n\n### **What We Offer**\n\n● Opportunity to work directly with the founding team\n\n● Exposure to high-value industrial and commercial clients\n\n● A dynamic environment with strong ownership and growth potential\n\n● Competitive compensation with performance-based incentives\n\n### **Apply Now!**\n\nIf you’re looking for a role that allows you to grow, take ownership, and make a real difference in a fast-growing company, we’d love to hear from you! Kuala Lumpur, Federal Territory of Kuala Lumpur, MY fulltime none\nlocations: Kuala Lumpur, Federal Territory of Kuala Lumpur, MY\nremote: no\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-15T16:24:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "3b35577c3218c42cb7f821c0faf7cba0",
       "source": "wellfound",
