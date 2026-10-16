@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-16T08:50:12+00:00",
+  "exported_at": "2026-10-16T14:42:28+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "pending_approval": 239,
     "discovered": 904,
-    "pending_approval": 238,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "0fe6356aeaf1663c020e359feb7cebd4",
+      "source": "wellfound",
+      "company": "Quros Tech",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/4849816-full-stack-developer",
+      "jd_text": "**About the Role**\nQuros Tech is seeking a Full Stack Developer with 2–4 years of professional experience to design, build and maintain web applications for client projects and internal products. The successful candidate will develop backend services using Node.js, integrate APIs and work with SQL and NoSQL databases, taking ownership of the development lifecycle from implementation through to deployment. Depending on project requirements, the role may also involve building workflow automations through custom scripts or platforms such as n8n, and developing Shopify or WordPress websites.\n\n**Key Responsibilities**\n* Develop responsive, user-friendly frontend interfaces using technologies appropriate to each project’s requirements.\n* Design, build and maintain backend services and server-side logic using Node.js.\n* Develop RESTful APIs and integrate internal and third-party services.\n* Design database schemas and manage data across SQL and NoSQL databases.\n* Identify, debug and resolve application issues, and conduct testing to ensure reliability.\n* Manage the deployment of applications from development through to production.\n* Build and maintain workflow automations using custom scripts or automation platforms such as n8n.\n* Develop, customise and maintain Shopify and WordPress websites where projects require.\n* Maintain, optimise and enhance existing applications.\n* Uphold high standards of code quality through clean, maintainable and well-documented code.\n* Collaborate with cross-functional teams to plan, develop and deliver solutions.\n\n**Required Skills &amp; Qualifications**\n* 2–4 years of professional full stack experience.\n* Strong proficiency in Node.js (backend).\n* Experience with SQL and NoSQL databases.\n* Proficiency with Git and version control.\n* Adaptability across frontend frameworks.\n* Sound knowledge of RESTful API development.\n* Strong debugging and troubleshooting skills.\n* Knowledge of application security practices.\n* Ability to work with automation tools (e.g. n8n) and Shopify or WordPress as projects require.\n* Experience deploying web applications.\n* Independent problem-solving and ownership. Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 10.99,
+      "resume_variant": "fullstack",
+      "draft_answer": "I have consistently owned the full development lifecycle for web applications, designing secure Node.js backend services, developing RESTful APIs for SQL/NoSQL databases, and managing deployments with strategies like blue-green releases. My experience includes automating 90% of manual workflows for 80+ client organizations, and enhancing application performance and reliability by cutting fetch latency by 98% with Redis caching and introducing message brokers to prevent data loss.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-16T14:41:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.02,
+            "overlap": 13.25,
+            "combined": 10.98
+          },
+          "backend": {
+            "cosine": 9.62,
+            "overlap": 11.65,
+            "combined": 10.23
+          },
+          "frontend": {
+            "cosine": 8.89,
+            "overlap": 14.08,
+            "combined": 10.45
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.02,
+        "keyword_overlap_score": 13.25,
+        "final_score": 10.99,
+        "top_keywords": [
+          {
+            "term": "using",
+            "weight": 0.1399
+          },
+          {
+            "term": "stack",
+            "weight": 0.1296
+          },
+          {
+            "term": "applications",
+            "weight": 0.1144
+          },
+          {
+            "term": "experience",
+            "weight": 0.1144
+          },
+          {
+            "term": "backend",
+            "weight": 0.0858
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-16T14:42:26+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "ee00fc1df4edbfa5a118ad4b0ccc71fd",
       "source": "wellfound",
