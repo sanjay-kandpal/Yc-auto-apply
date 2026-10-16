@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-15T22:58:12+00:00",
+  "exported_at": "2026-10-16T03:16:58+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 900,
+    "discovered": 902,
     "pending_approval": 238,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "12e0e3d01eff9905a761f68b627f93f4",
+      "source": "yc",
+      "company": "Manufact",
+      "role": "Founding Forward Deployed Engineer",
+      "url": "https://www.workatastartup.com/jobs/116901",
+      "jd_text": "### About us\n\n[Manufact](https://manufact.com/) builds dev-tools and cloud infrastructure for MCP and software used by AI agents.\n\nOur platform helps teams build, deploy, test, and distribute MCP servers and apps across ChatGPT, Claude, Muse, Grok Bot, and other AI agents.\n\nWe created [mcp-use SDK](https://github.com/mcp-use/mcp-use), the Next.js for MCP, with **10k GitHub stars and 10M+ downloads**. We’re backed by **Y Combinator (S25)** and a **$6.3M seed round led by Peak XV**, with investors including the founders of Supabase.\n\nWe believe every software company will need an agent interface, just as it needs a website today.\n\n### About the role\n\nWe’re hiring our first Forward Deployed Engineer to help enterprise customers and partners go from an idea to a product running on Manufact.\n\nYou’ll work across enterprise pilots, technical partnerships and customer success. One week you might build an integration with another developer tool. The next, you’ll help a consulting partner deploy its first customer’s MCP app or get an enterprise implementation into production.\n\nYou own the technical journey from discovery through launch and adoption. That means writing code, making architecture decisions, working directly with customers, and making sure everyone follows through.\n\n**Your work is successful when the customer is actually using the product and getting value from it.**\n\n### What you’ll own\n\n- **Technical discovery and pilots.** Understand the use case, define success criteria, scope the solution and build a working proof of concept.\n- **Implementation through production.** Build MCP servers, apps and integrations. Debug APIs, authentication and deployment issues. Test the complete flow and help customers launch.\n- **Customer delivery.** Treat implementation as an important feature delivery. Maintain a shared implementation roadmap, give every task an owner, run weekly check-ins, and hold both teams accountable for agreed commitments.\n- **Technical customer success.** Stay close after launch. Monitor adoption, resolve blockers and help customers expand their usage.\n- **Partner engineering.** Work with developer tools, system integrators and consultants to ship integrations and enable their teams to deliver on Manufact.\n- **Make the next deployment easier.** Turn repeated work into templates, documentation, reusable integrations and product improvements.\n\nYou’ll work directly with the founders and our product, infrastructure and DevRel teams, with ownership of technical delivery and customer adoption.\n\n### Who you are\n\n- You’ve shipped software used by real customers and can explain what happened after launch.\n- Strong TypeScript skills and experience with APIs, authentication, integrations and cloud deployment.\n- Comfortable moving between a customer call, a technical design, your editor and production debugging.\n- You take ownership. When something stalls, you identify the blocker, find the right owner and follow through.\n- Clear written and verbal communication. You can explain trade-offs to engineers and business stakeholders.\n- Good judgment about what to build, what to reuse and when to involve the core engineering team.\n- Based in or willing to relocate to San Francisco.\n\nExperience in forward-deployed engineering, solutions engineering, partner engineering or an early-stage engineering team is useful. What matters most is evidence that you can build and get customers live.\n\n### Nice to have\n\n- Experience with MCP, AI agents, developer tools or infrastructure.\n- Python experience.\n- Enterprise implementations or technical customer success.\n- Open-source contributions or technical writing.\n\n### What you can expect\n\n- Work directly with the founders and shape a new function.\n- Equity.\n- Premium medical and dependent coverage.\n- Unlimited PTO.\n- 401(k) with company match.\n- Relocation assistance. San Francisco, CA, US jobs_skill 107 Python 288 jobs_skill 138 TypeScript 45 fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 3",
+      "match_score": 7.84,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-16T03:16:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.7,
+            "overlap": 12.58,
+            "combined": 7.76
+          },
+          "backend": {
+            "cosine": 5.72,
+            "overlap": 12.78,
+            "combined": 7.84
+          },
+          "frontend": {
+            "cosine": 4.97,
+            "overlap": 14.08,
+            "combined": 7.7
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.72,
+        "keyword_overlap_score": 12.78,
+        "final_score": 7.84,
+        "top_keywords": [
+          {
+            "term": "technical",
+            "weight": 0.1436
+          },
+          {
+            "term": "experience",
+            "weight": 0.0718
+          },
+          {
+            "term": "agents",
+            "weight": 0.0659
+          },
+          {
+            "term": "ai",
+            "weight": 0.0659
+          },
+          {
+            "term": "delivery",
+            "weight": 0.0659
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "454d1a79ce2568a44469d96fcb81b219",
+      "source": "yc",
+      "company": "Y/n",
+      "role": "Head of Growth",
+      "url": "https://www.workatastartup.com/jobs/116903",
+      "jd_text": "[**Y/n**](https://www.ycombinator.com/companies/yn) is a Sequoia &amp; YC-backed AI entertainment company building a new way to experience stories.\n\nToday, millions of people go on Y/n to play the main character in their stories, whether that’s as a boarding transfer student, or Sherlock Holmes’s sidekick on a jailbreak. Their choices change the story and how characters feel about them.\n\nY/n’s mission is to create virtual realities where people can play, learn, and discover the world. We train AI models to be extremely good at creative writing, storytelling, and worldbuilding.\n\nA few facts about Y/n:\n\n* On average, users spend almost 4 hours a day in the app.\n* We handle a lot of volume. Last month, users sent >500M messages in the app. We process 5T tokens per month (>5x more than any competitor).\n* We operate our own GPU infrastructure, giving us full control over model inference, performance, and scalability.\n* We raised $14M from Y Combinator and top VCs (we’ll tell you who on a call).\n\nA couple of months ago we hit #4 books app in the App Store. We're looking for a Head of Growth to bring us to #1.\n\nAs Head of Growth, you'll drive the next phase of our growth and lead our community &amp; distribution efforts. You’ll lead end-to-end creative strategy, from ideation to execution, including building and managing a network of creative partners. Primarily:\n\n1. Producing creative assets (or commissioning them)\n2. Scaling and optimizing paid advertisement\n3. Coming up with new bets to increase Y/n’s top of funnel\n\nThis job is great for you if you:\n\n* Work at leading consulting cos like McKinsey, EY, BCG, or Bain and want to point your operational rigor and creativity at something where you can watch the impact happen in real time\n* Or you have led or been part of a growth team at a consumer or prosumer product\n* Or you are a PM who wants to own a big surface of the company\n\nOn top of that:\n\n* Y/n is a cultural product, so ideally you love fandom, AO3, reading novels, or Pinterest.\n* Above all, **we’re looking for people who win!!** You’ll fit in if you love to relentlessly execute towards a goal, and you’re happiest when the number is going up.\n\nIf this is you, here’s what we can offer:\n\n1. Generous comp and equity.\n2. You’ll get to work with the world’s greatest AI researchers (we’re the people behind Stable Diffusion and Can of Soup) and see new models go straight into a product millions of people use.\n3. You’ll get to own a large surface of the company. We’re a small team and will give you room to take big swings.\n4. You’ll get to take this job really far. Y/n makes an insane amount of revenue, and I will gladly give you the budget you need to thrive.\n\nY/n is the future of media. If you’re interested in shaping it, please apply! San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-16T03:16:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "a1fa6f4aebaa638a6570383454b12e61",
       "source": "yc",
