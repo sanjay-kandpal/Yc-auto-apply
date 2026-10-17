@@ -1,15 +1,512 @@
 {
-  "exported_at": "2026-10-17T08:20:22+00:00",
+  "exported_at": "2026-10-17T13:34:34+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 912,
-    "pending_approval": 239,
+    "discovered": 915,
+    "pending_approval": 244,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "bc22d88efb60d8d7c723e8e49fb30de0",
+      "source": "wellfound",
+      "company": "Fit Future Program",
+      "role": "Full Stack Developer Intern (AI + Frontend + Backend)",
+      "url": "https://wellfound.com/jobs/4851892-full-stack-developer-intern-ai-frontend-backend",
+      "jd_text": "About FFP\nFit Future Program runs fitness assessments for schools and academies. We measure children on speed, agility, strength and power using sensor-based devices, then turn that data into clear reports for parents, coaches and schools. We are building the software behind this: data pipelines, automated report generation and, next, products that parents and schools use directly. You will work with the founder and see your work used by real schools.\n\nThe role\nYou will help build and ship FFP’s product end to end, from the data pipeline and backend to the web interface, adding AI where it makes the product better. This is a hands-on role with real ownership. Your work will be used in live school assessments.\n\nWhat you’ll do\n\nBuild and improve web interfaces (dashboards, report viewers, data upload flows) for schools, coaches and parents\nDevelop backend services and APIs that process assessment data and generate reports\nWork on our automation workflows, including data validation, scoring and PDF report generation\nBuild AI features, such as plain-language summaries of a child’s results, insights across a cohort, and data-quality checks\nHandle messy real-world data (Excel exports, rosters) and make it reliable\nWrite clean, documented code and test your work before it reaches users\n\nWhat we’re looking for\n\nWorking knowledge of a frontend framework (React / Next.js or similar), HTML and CSS\nBackend experience in Node.js or Python, including building REST APIs\nBasic database skills (SQL or a document DB)\nHands-on experience with LLM APIs (prompting, structured outputs, simple agent or automation flows)\nComfort with Git and deploying small apps\nAbility to learn fast, ask good questions and finish what you start\n\nNice to have\n\nExperience with workflow automation tools (n8n, Zapier, Make)\nExperience with data handling in Excel/CSV, or with PDF generation\nInterest in sports, fitness, education or child development\nA GitHub profile or side projects we can look at\n\nWhat you’ll get\n\nDirect mentorship from the founder, who has 20+ years in product management\nOwnership of real features in a live product, not practice tasks\nExposure to product thinking, AI in production and working with schools\nStipend: ₹ 5,000/month\nCertificate and letter of recommendation, and a possible full time offer on strong performance\n\nDetails\n\nDuration: 3 months \nLocation: Remote / Mumbai / Hybrid\nCommitment: Full-time / 40+ hrs per week\nStart date: Immediate Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-17T13:33:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "41f87e0b75653b842a0947f57e64c14d",
+      "source": "wellfound",
+      "company": "Kshm",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/4859119-full-stack-developer",
+      "jd_text": "Location: Gurugram (On-site)\nType: Full-Time\nExperience: 3–5 Years\n\nAbout Kshm\n\nAt Kshm, we're building more than a clothing brand. We're a D2C lifestyle brand creating thoughtful experiences rooted in movement, mindfulness, and modern Indian living.\n\nFrom our website to the technology powering our operations, we're focused on creating seamless customer experiences and building systems that support our growth. We're looking for a Full Stack Developer who enjoys solving problems, taking ownership, and building technology that makes a meaningful business impact.\n\nWhat You'll Build\n\nDevelop, maintain, and improve Kshm's website and digital products.\n\nBuild fast, responsive, and scalable applications across the frontend and backend.\n\nCollaborate with design, marketing, operations, and leadership to translate business needs into technical solutions.\n\nIntegrate APIs, payment gateways, shipping partners, and internal business tools.\n\nOptimise website speed, performance, security, and overall customer experience.\n\nDrive Conversion Rate Optimisation (CRO) through A/B testing, user behaviour analysis, landing page improvements, and checkout optimisation to increase conversions and reduce drop-offs.\n\nOwn features end-to-end, from development and testing to deployment and maintenance.\n\nWrite clean, maintainable code and continuously improve development workflows.\n\nWhat We're Looking For\n\n3–5 years of experience in full-stack development, preferably with a D2C brand or e-commerce business.\n\nStrong proficiency in React.js, Node.js, and Express.js.\n\nExperience working with databases such as MongoDB, PostgreSQL, or MySQL.\n\nStrong understanding of APIs, authentication, and modern web application architecture.\n\nExperience with Git, version control, and deployment workflows.\n\nUnderstanding of e-commerce customer journeys, website performance, and conversion rate optimisation.\n\nA proactive problem-solver who values ownership, speed, and code quality.\n\nYou'll Stand Out If You Have\n\nExperience with Shopify or other e-commerce platforms.\n\nFamiliarity with AWS, Docker, or CI/CD pipelines.\n\nExperience integrating payment gateways, CRMs, shipping platforms, and third-party services.\n\nKnowledge of website analytics, A/B testing, and e-commerce conversion funnels.\n\nA strong eye for performance, user experience, and scalable engineering practices.\n\nWhy Join Kshm?\n\nWe're at a stage where your work can directly shape how our business grows.\n\nYou'll work closely with the founders, solve real business challenges, and build technology that powers our D2C e-commerce experience—from website performance and customer journeys to conversion optimisation and scalable digital systems.\n\nIf you're excited by ownership, fast execution, and building products that make a difference, we'd love to meet you.\n\nWebsite: shopkshm.com\nInstagram: @kshm.earth\n\nTo Apply: Send your resume and relevant project portfolio to pranjal.pandey@coreasana.com Gurugram\nlocationNames: Gurugram",
+      "match_score": 10.93,
+      "resume_variant": "frontend",
+      "draft_answer": "Having built React front ends end-to-end and owned client-facing modules, I've driven performance improvements like cutting API fetch latency by 98% and automating 90% of workflows, directly impacting customer experience and operational efficiency for 80+ organizations. My full-stack proficiency in React, Node.js, Express.js, and MongoDB, honed across projects involving Docker, Azure, and AWS deployments, positions me to deliver features like real-time cart sync and secure authentication crucial for Kshm's D2C e-commerce experience and integrations.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-17T13:33:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.51,
+            "overlap": 10.26,
+            "combined": 8.34
+          },
+          "backend": {
+            "cosine": 6.99,
+            "overlap": 10.15,
+            "combined": 7.94
+          },
+          "frontend": {
+            "cosine": 9.58,
+            "overlap": 14.08,
+            "combined": 10.93
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 9.58,
+        "keyword_overlap_score": 14.08,
+        "final_score": 10.93,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2009
+          },
+          {
+            "term": "js",
+            "weight": 0.067
+          },
+          {
+            "term": "end",
+            "weight": 0.0546
+          },
+          {
+            "term": "user",
+            "weight": 0.0546
+          },
+          {
+            "term": "apis",
+            "weight": 0.0446
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-17T13:34:31+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "5d3e0a2f1d94738f513ed431a2daee01",
+      "source": "wellfound",
+      "company": "Xomiro Technologies",
+      "role": "Full Stack Developer – Node.js, React, TypeScript & Generative AI",
+      "url": "https://wellfound.com/jobs/4829593-full-stack-developer-node-js-react-typescript-generative-ai",
+      "jd_text": "**Full Stack Developer – Node.js, React, TypeScript &amp; Generative AI**\n\nBengaluru (Hybrid) | Full-time, Permanent | 1–4 Years\n\n**About the Role**\nWe are looking for a motivated Full Stack Developer to join our engineering team in Bengaluru and build scalable, production-ready applications. You will work across frontend, backend, cloud, and AI-powered solutions, developing features from concept to deployment.\n\nThis role is ideal for engineers who enjoy solving real-world problems, writing clean code, and exploring Generative AI, LLMs, and intelligent agent-based applications.\n\n**Key Responsibilities**\n* Develop scalable REST APIs and backend services using Node.js and Express.js.\n* Build responsive, accessible, and user-friendly interfaces using React.js and TypeScript.\n* Deliver end-to-end features, covering database design, backend logic, and frontend development.\n* Design and optimise queries across MongoDB and relational databases such as PostgreSQL and MySQL.\n* Implement real-time communication using WebSockets or Socket.IO.\n* Integrate third-party APIs, LLM services, and AI-powered capabilities into applications.\n* Develop AI features using prompt engineering, embeddings, Retrieval-Augmented Generation (RAG), vector search, and tool calling.\n* Build AI agents and multi-agent workflows using Python and suitable frameworks.\n* Develop supporting backend services using Python and FastAPI.\n* Write maintainable, testable code and perform unit and integration testing.\n* Troubleshoot issues, improve application performance, and follow security best practices.\n* Collaborate with product, design, QA, and DevOps teams throughout the software development lifecycle.\n* Participate in code reviews, sprint planning, CI/CD, deployment, and application monitoring.\n* Must-Have Skills\n\n**Frontend Development**\n* Strong hands-on experience with React.js and TypeScript.\n* Understanding of state management, client-side routing, and server-state management.\n* Experience with API integration, HTTP clients, and component libraries.\n* Ability to develop responsive, accessible, and maintainable user interfaces.\n\n**Backend Development**\n* Good knowledge of Node.js and Express.js.\n* Experience with MongoDB and SQL databases such as PostgreSQL or MySQL.\n* Understanding of REST API design, authentication, authorisation, and application security.\n* Familiarity with WebSockets or other real-time communication technologies.\n* Working knowledge of Python and/or FastAPI.\n\n**Generative AI &amp; Cloud**\n* Experience integrating LLM APIs and building AI-powered application features.\n* Understanding of prompt engineering, embeddings, RAG, vector search, and tool calling.\n* Familiarity with AI agent frameworks or agent development tools.\n* Basic knowledge of AWS services such as EC2, S3, or Lambda.\n\n**Engineering Fundamentals**\n* Experience with unit testing, integration testing, Git, and collaborative code reviews.\n* Strong problem-solving skills and an understanding of software engineering fundamentals.\n* Good-to-Have Skills\n* Exposure to Microsoft Azure or Google Cloud Platform (GCP).\n* Experience with Docker, containerisation, and CI/CD pipelines.\n* Familiarity with vector databases and advanced RAG techniques, including hybrid search, reranking, metadata filtering, or Graph RAG.\n* Exposure to Model Context Protocol (MCP), agent orchestration, or multi-agent systems.\n* Knowledge of Redis, caching strategies, API documentation, and application monitoring.\n* Familiarity with Agile/Scrum development practices.\n* Eligibility Criteria\n* B.Tech, B.E., M.Tech, or equivalent degree in Computer Science, Information Technology, or a related field.\n* 1–4 years of professional experience in full stack development.\n* Experience delivering at least one full stack feature or application to production.\n* Understanding of design patterns, debugging, performance optimisation, and basic system design.\n* Practical knowledge of Generative AI and its application in real-world software products.\n\n**Why Join Us?**\n* Work on modern full stack applications and AI-driven product capabilities.\n* Gain hands-on experience with cloud technologies and emerging AI frameworks.\n* Collaborate with experienced engineers and contribute to end-to-end product development.\n* Build solutions that combine strong engineering practices with practical AI innovation. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 21.06,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've delivered end-to-end features for scalable, production-ready applications, building React and FastAPI systems, optimizing performance by cutting API latency from 500ms to 10ms with Redis, and ensuring zero-downtime rollouts via Azure CI/CD. My experience extends to building AI agents with validated tool-calling reliability and establishing real-time data integrity in multi-threaded systems, ensuring robust performance for AI-powered solutions.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-17T13:33:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 20.43,
+            "overlap": 22.52,
+            "combined": 21.06
+          },
+          "backend": {
+            "cosine": 19.08,
+            "overlap": 20.68,
+            "combined": 19.56
+          },
+          "frontend": {
+            "cosine": 18.03,
+            "overlap": 25.73,
+            "combined": 20.34
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 20.43,
+        "keyword_overlap_score": 22.52,
+        "final_score": 21.06,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2934
+          },
+          {
+            "term": "stack",
+            "weight": 0.1553
+          },
+          {
+            "term": "experience",
+            "weight": 0.1542
+          },
+          {
+            "term": "js",
+            "weight": 0.1371
+          },
+          {
+            "term": "agent",
+            "weight": 0.1257
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-17T13:33:36+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "87eeba35c89c81970a86eea4ca1f43a3",
+      "source": "wellfound",
+      "company": "Kulfi",
+      "role": "Software Engineer II - Backend & Product Engineering",
+      "url": "https://wellfound.com/jobs/4824620-software-engineer-i-product-full-stack-clone",
+      "jd_text": "Location: Jayanagar, Bengaluru - in office\nType: Full-time\nExperience: 3-4 years preferred\nCompensation: Rs 28,00,000 - Rs 35,00,000 fixed pay; ESOPs come over and above.\n\nAbout Kulfi\n\nKulfi is where couples in India spend time together, even when they can't be in the same place.\n\nAbout 100 million unmarried Indian couples don't get to be together most nights. Different cities, different homes, parents around. A phone is all they have. So they join a class just to be near each other, or stay on a one-way call, or watch a movie over video. They do all this for love, and nothing was built for them.\n\nWe are building that. Kulfi is a digital experiences app for couples, and close to a million people already use it. We are backed by South Park Commons and by founders and CEOs from Swiggy, Mosaic Wellness, Snitch and Moonshot.\n\nNext is an AI personalization engine for games. Every couple gets a new game every day, made for them on the spot from what they like. No couple should run out of things to do together.\n\nIndia has more couples than any other country. We want every one of them on Kulfi.\n\nOur backend sits underneath a private, real-time, two-person product. Reliability, latency, data correctness, and safe iteration matter - but so does shipping the smallest thing that creates user value.\n\nThe role\n\nYou will be the backend-heavy engineer who can still cross the stack. You will own APIs, data models, production reliability, debugging, and system evolution, while making scoped Flutter/web changes when that is the fastest way to deliver or diagnose a feature.\n\nThis is not an infrastructure-only role. You will work directly with founders, product, design, and less-experienced engineers. You should be willing to challenge a weak idea, propose a better one, and then help ship it.\n\nWhat you will do\n\n- Design, build, and operate backend services, APIs, data models, and asynchronous workflows.\n- Own reliability: tests, observability, alerts, migrations, safe rollouts, rollback plans, and incident follow-through.\n- Debug production behavior using evidence across client, network, services, cache/queues, and data.\n- Make pragmatic architecture decisions for current scale while leaving a credible path to 10x growth.\n- Partner with product and design on scope, UX implications, success metrics, and rollout.\n- Make scoped changes in Flutter or web when needed to complete a feature or investigate an issue.\n- Review code and technical proposals; help junior engineers improve judgment and self-review.\n- Use AI tools to accelerate delivery without outsourcing understanding, security, or accountability.\n\nWhat we are looking for\n\n- Roughly 3-4 years building and operating production software; strong evidence matters more than exact tenure.\n- Deep experience in at least one backend language and framework.\n- Strong fundamentals in API design, relational data modeling, concurrency, caching/queues, and failure handling.\n- Evidence of owning production incidents, difficult bugs, migrations, or reliability improvements.\n- Ability to write maintainable code, meaningful tests, and useful logs/metrics.\n- Product judgment: you can connect technical choices to user experience, activation, retention, speed, or cost.\n- Enough app/web experience to read, debug, and make scoped changes outside the backend.\n- Clear written and verbal communication, including direct but constructive technical pushback.\n- Comfort working in person in Jayanagar, Bengaluru.\n\nUseful, not mandatory\n\n- Flutter/Dart or native iOS/Android fundamentals.\n- Real-time multiplayer, chat, WebSockets, event-driven systems, or offline/reconnect behavior.\n- Redis, queues, background workers, database partitioning, or high-volume consumer systems.\n- Security/privacy experience, including encrypted communication systems.\n- Cloud infrastructure, CI/CD, tracing, and production capacity planning.\n- Experience mentoring junior engineers or leading small technical projects.\n\nWhat success looks like\n\nWithin three months, you own a backend area in production, have improved one reliability or delivery-speed bottleneck, have led a cross-stack feature through rollout and measurement, and have raised the team's standard for code review, testing, and operational follow-through.\n\nInterview process\n\n1. Application review based on production ownership and your written answers.\n2. 15-20 minute screening call.\n3. 105-minute backend product-engineering interview combining an incident deep dive, system design, live code/debugging, self-review, and a changed requirement.\n4. 35-minute founder conversation covering product judgment, ownership, technical leadership, and mutual expectations.\n5. References after mutual intent, with consent.\n\nWe allow normal documentation and AI tools. You must explain what the tools produced, what you changed, and how you verified the result.\n\nApply on our careers page: https://app.dover.com/apply/Kulfi/47f0a8dc-4d7d-495c-9ae0-5464ee8a1f53 Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 13.19,
+      "resume_variant": "backend",
+      "draft_answer": "Having owned FastAPI backends and core modules for cloud-native platforms, I’ve consistently reduced fetch latency by 98% with Redis, ensured data integrity under high concurrency using RabbitMQ and ACID transactions, and implemented blue-green deployments for safe production rollouts. My experience diagnosing critical production risks, scoping direct client requirements, and building LLM tool-calling agents aligns well with Kulfi's focus on a reliable digital experiences app and its future AI personalization engine.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-17T13:33:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.88,
+            "overlap": 17.22,
+            "combined": 12.78
+          },
+          "backend": {
+            "cosine": 11.76,
+            "overlap": 16.54,
+            "combined": 13.19
+          },
+          "frontend": {
+            "cosine": 8.21,
+            "overlap": 16.99,
+            "combined": 10.85
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 11.76,
+        "keyword_overlap_score": 16.54,
+        "final_score": 13.19,
+        "top_keywords": [
+          {
+            "term": "backend",
+            "weight": 0.1518
+          },
+          {
+            "term": "production",
+            "weight": 0.1328
+          },
+          {
+            "term": "reliability",
+            "weight": 0.116
+          },
+          {
+            "term": "experience",
+            "weight": 0.1139
+          },
+          {
+            "term": "data",
+            "weight": 0.0949
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-17T13:33:50+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "bfc4ade974e980b7295382e16836c95f",
+      "source": "wellfound",
+      "company": "Kulfi",
+      "role": "Software Engineer I - Product / Full-Stack",
+      "url": "https://wellfound.com/jobs/4824619-software-engineer-i-product-full-stack",
+      "jd_text": "Location: Jayanagar, Bengaluru - in office\nType: Full-time\nExperience: 0-1 years; strong fresh graduates and builders are welcome\nCompensation: Rs 9,00,000 - Rs 15,00,000 fixed pay; ESOPs come over and above.\n\nAbout Kulfi\n\nKulfi is where couples in India spend time together, even when they can't be in the same place.\n\nAbout 100 million unmarried Indian couples don't get to be together most nights. Different cities, different homes, parents around. A phone is all they have. So they join a class just to be near each other, or stay on a one-way call, or watch a movie over video. They do all this for love, and nothing was built for them.\n\nWe are building that. Kulfi is a digital experiences app for couples, and close to a million people already use it. We are backed by South Park Commons and by founders and CEOs from Swiggy, Mosaic Wellness, Snitch and Moonshot.\n\nNext is an AI personalization engine for games. Every couple gets a new game every day, made for them on the spot from what they like. No couple should run out of things to do together.\n\nIndia has more couples than any other country. We want every one of them on Kulfi.\n\nWe are a small, high-intensity team. Your work will reach real users quickly, and you will be expected to notice what is broken - not wait for someone else to notice it for you.\n\nThe role\n\nYou will build product features end to end across our Flutter app, web surfaces, backend APIs, and data. We do not need you to know every part on day one. We need evidence that you learn quickly, finish what you start, care about the user experience, and understand the code you ship.\n\nWhat you will do\n\n- Build and ship small product features across app/web, API, and data layers.\n- Turn product/design intent into complete user flows, including loading, empty, error, and retry states.\n- Debug issues across client, network, backend, and data - not stop at the first layer.\n- Write tests, review your own diff, and verify behavior before handoff.\n- Read user feedback and product metrics to understand whether a release worked.\n- Use AI coding tools to move faster while remaining responsible for every line you ship.\n- Ask precise questions, communicate blockers early, and learn from direct feedback.\n\nWhat we are looking for\n\n- You have built and shipped at least one real software project, internship deliverable, freelance product, or meaningful open-source contribution.\n- You can write readable code and reason through bugs without blindly relying on autocomplete or AI.\n- You have worked across at least two layers: mobile/web, backend/API, database, or deployment.\n- You care about product details and notice when a technically correct feature creates a bad user experience.\n- You move quickly, but you test your work and own mistakes.\n- You can explain your contribution, trade-offs, and what you would improve next.\n- You are comfortable working in person in Jayanagar, Bengaluru. A computer-science degree is not required. Evidence of building matters more than credentials.\n\nUseful, not mandatory\n\n- Flutter/Dart and mobile fundamentals.\n- State management such as BLoC or Riverpod.\n- REST APIs, SQL, caching, queues, or real-time systems.\n- Experience with Node.js, Go, Python, Java, or another production backend language.\n- CI/CD, cloud deployment, monitoring, or app-store releases.\n- Thoughtful use of Claude Code, Codex, or similar tools.\n\nWhat success looks like\n\nWithin three months, you can own a scoped feature from problem statement to release, handle the obvious failure states, write useful tests, review your own work, and explain what user signal or metric should improve.\n\nInterview process\n\n1. Short application review based on shipped work.\n2. 15-20 minute screening call.\n3. 75-minute practical product-engineering interview combining a project deep dive, live task, self-review, changed requirement, and product/UX discussion.\n4. 30-minute founder and mutual-expectations conversation.\n\nWe allow AI tools during the practical exercise. You must disclose how you used them and be able to explain and defend the final code.\n\nApply on our careers page: https://app.dover.com/apply/Kulfi/25724642-9216-4ad8-b0fd-fce0151eee35 Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 12.91,
+      "resume_variant": "frontend",
+      "draft_answer": "I've built full-stack digital experiences from end-to-end, driving UAT across user groups and improving UI responsiveness by integrating Redis caching to cut fetch latency by 98%. My work automating workflows for 80+ organizations and designing adopted systems like private image retrieval directly translates to building the AI personalization engine for games for your digital experiences app for couples.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-17T13:33:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.94,
+            "overlap": 15.23,
+            "combined": 11.53
+          },
+          "backend": {
+            "cosine": 9.87,
+            "overlap": 14.29,
+            "combined": 11.19
+          },
+          "frontend": {
+            "cosine": 10.53,
+            "overlap": 18.45,
+            "combined": 12.9
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.53,
+        "keyword_overlap_score": 18.45,
+        "final_score": 12.91,
+        "top_keywords": [
+          {
+            "term": "user",
+            "weight": 0.1268
+          },
+          {
+            "term": "app",
+            "weight": 0.1037
+          },
+          {
+            "term": "backend",
+            "weight": 0.0829
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.0829
+          },
+          {
+            "term": "code",
+            "weight": 0.0829
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-17T13:34:00+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3e2756c451535e161e6ace6f0fd18f43",
+      "source": "wellfound",
+      "company": "Yakshanexus™ Private Limited",
+      "role": "Frontend Developer (React.js & TypeScript) — Founding Team",
+      "url": "https://wellfound.com/jobs/4824611-frontend-developer-react-js-typescript-founding-team",
+      "jd_text": "**Important:** Equity-Based Only | No Fixed Salary\n\nThis is an **equity-only** opportunity at an early-stage, bootstrapped cybersecurity startup. There is no fixed salary at this stage. Please apply only if you are comfortable with an equity-based role and interested in building with an early-stage founding team.\n\n**About Yakshanexus**\n\nYakshanexus is an AI-powered cybersecurity startup building solutions to make digital systems safer. Our products are under development, and we are looking for an experienced frontend developer to help build, improve, and scale our product interfaces.\n\n**What You'll Do**\n\n* Take ownership of frontend development using React.js and TypeScript.\n\n* Build and improve dashboards, data-driven interfaces, and product features.\n \n* Integrate backend APIs and implement effective state management.\n \n* Create responsive, intuitive, and accessible user interfaces.\n \n* Optimize frontend performance, reliability, and maintainability.\n \n* Collaborate directly with the founding team on product architecture and technical decisions.\n \n**Required Qualifications**\n\n* Minimum 2 years of professional frontend development experience.\n \n* Strong proficiency in React.js and TypeScript.\n \n* Hands-on experience implementing authentication and authorization, including login/signup flows, session management, JWT, OAuth 2.0, and role-based access control (RBAC).\n \n* Understanding of secure token handling, protected routes, and access-controlled UI components.\n \n* Experience building dashboards and data-driven web applications.\n \n* Strong understanding of REST API integration and state management.\n \n* Good UI/UX, responsive design, and frontend performance optimization skills.\n \n* Proficiency with Git and collaborative development workflows.\n\n**Nice to Have**\n\n* Next.js and Tailwind CSS.\n \n* Knowledge of web security fundamentals.\n \n* Experience with AI/ML or cybersecurity products.\n \n* Previous experience working at a startup.\n\n**Who Should Apply?**\n\nWe are looking for a self-driven developer who takes ownership, solves problems independently, adapts quickly, and wants to make a meaningful contribution to an early-stage product.\n\n**Compensation &amp; Opportunity**\n\n* Equity-based compensation only.\n \n* No fixed salary at this stage.\n \n* Equity terms will be discussed transparently during the selection process.\n \n* Opportunity to work closely with the founding team and contribute to product and technical decisions.\n \nPlease apply only if you are comfortable joining without a fixed salary.\n\n**Work arrangement:** Remote\n**Experience:** 2+ years\n**Required skills:** React.js, TypeScript, API Integration, State Management\n\nApply through Wellfound with your updated profile and links to relevant projects or GitHub repositories or mail us on **support@yakshanexus.com** Hyderabad India Gate\nlocationNames: Hyderabad India Gate\nremote: true",
+      "match_score": 11.89,
+      "resume_variant": "frontend",
+      "draft_answer": "I've taken full ownership building data-driven React front ends, including a government reporting portal and a cloud-native compliance platform where I boosted UI responsiveness by cutting API fetch latency 98% and data load times by 60%. My experience with secure authentication, including cookie-based and access-code systems, combined with optimizing RESTful API integration, aligns directly with building robust interfaces for an AI-powered cybersecurity startup.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-17T13:33:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.32,
+            "overlap": 10.6,
+            "combined": 9.7
+          },
+          "backend": {
+            "cosine": 7.56,
+            "overlap": 11.28,
+            "combined": 8.68
+          },
+          "frontend": {
+            "cosine": 11.58,
+            "overlap": 12.62,
+            "combined": 11.89
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.58,
+        "keyword_overlap_score": 12.62,
+        "final_score": 11.89,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.1686
+          },
+          {
+            "term": "experience",
+            "weight": 0.1378
+          },
+          {
+            "term": "js",
+            "weight": 0.1149
+          },
+          {
+            "term": "based",
+            "weight": 0.1124
+          },
+          {
+            "term": "management",
+            "weight": 0.0919
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-17T13:34:17+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a42c9c9f53d27e81bb5f2d084ce1ea6a",
+      "source": "wellfound",
+      "company": "NovaExchange",
+      "role": "Mobile Developer (Flutter) – 100% Projects Token Compensation",
+      "url": "https://wellfound.com/jobs/4824686-backend-engineer-python-100-projects-token-compensation-clone",
+      "jd_text": "We are looking for flutter developers to help us finish and launch an acquired cryptocurrency exchange - which was running in the past. Our dedicated team has started work on making this happen. There is already some traction of parties that will partner with us.\n\nType: Full-time or Part-time / Contractor\nLocation: Remote (Global)\nCompensation: 100% NovaTokens (till we get financials) - confirm that you're ok with this.\n\nAre you ready to be working with us? To apply, please fill out this form: https://forms.gle/AF8wXckVHL69NBUW8\n\np.s.: This job has only future benefits. Rotterdam\nlocationNames: Rotterdam\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-17T13:33:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "23baa0dd2d3937683e86c8e6a983a812",
+      "source": "wellfound",
+      "company": "Lincode Labs",
+      "role": "Vision Architect",
+      "url": "https://wellfound.com/jobs/4824615-vision-architect",
+      "jd_text": "Vision Architect – Machine Vision &amp; Automation\n\nLocation: Flexible / On-site (Manufacturing)\nExperience: 4+ years\nEmployment Type: Full-time\n\nRole Summary\n\nWe are hiring a Vision Architect to design and own end-to-end automated visual inspection systems for manufacturing environments. The role focuses on machine-vision–based inspection, covering optics, lighting, cameras, automation (PLC/robots), and acceptance metrics.\n\nThis position serves as the technical authority from feasibility studies through production deployment and scale-out.\n\nKey Responsibilities\n\nInspection System Architecture\n\nDesign complete visual inspection solutions including optics, lighting, cameras, compute, and automation\nDefine station layouts, camera counts, inspection coverage, and multi-station tunnel concepts\nTranslate defect requirements into robust, repeatable inspection architectures\nOptics, Lighting &amp; Imaging\n\nSpecify lenses (telecentric and perspective), sensors, resolution, FOV, working distance, and DOF\nDesign lighting strategies (brightfield, darkfield, diffuse, backlight, structured, deflectometry)\nPerform defect visibility analysis (contrast, SNR, surface reflectivity)\nEnsure imaging consistency across environmental and process variations\nClassical Machine Vision &amp; Inspection Logic\n\nDesign inspection algorithms using classical machine-vision techniques, including:\nThresholding, filtering, morphology\nBlob, edge, contour, and pattern analysis\nGeometric measurement, surface inspection, presence/absence checks\nSelect appropriate tools and algorithms based on defect physics and tolerances\nTune parameters and thresholds for repeatability and low false rejects\nAutomation, PLC &amp; Factory Integration\n\nIntegrate vision systems with PLCs, robots, conveyors, and encoders\nDefine triggers, I/O mapping, handshakes, reject logic, and fault conditions\nWork with PLC platforms such as Siemens S7, Allen-Bradley, Beckhoff, or equivalent\nSupport industrial communication protocols (Profinet, EtherNet/IP, Modbus, OPC-UA)\nEnsure inspection cycle-time compliance with production line requirements\nAcceptance Metrics &amp; Quality Ownership\n\nDefine clear acceptance criteria: detection thresholds, tolerances, false accept/reject limits\nEstablish KPIs for inspection performance, repeatability, and stability\nLead FAT, SAT, commissioning, and customer sign-off activities\nDeployment &amp; Scale\n\nSupport on-site system commissioning and performance optimization\nDiagnose and resolve optical, algorithmic, or automation issues in production\nStandardize and replicate validated inspection architectures across lines and factories\nRequired Qualifications\n\nBachelor’s or Master’s degree in Optical Engineering, Electrical Engineering, Mechanical Engineering, or related field\n4+ years experience in industrial machine vision or automated visual inspection\nStrong, hands-on expertise in classical machine vision technologies\nProven experience integrating vision systems with PLC-based automation\nExperience working in real manufacturing environments with cycle-time and reliability constraints\nTechnical Skills\n\nIndustrial cameras, lenses, lighting systems\nClassical machine-vision libraries and tools\nOptical and illumination design principles\nPLC interfacing, triggers, I/O, and fault handling\nIndustrial automation protocols and standards\nInspection validation and performance measurement\nNice to Have\n\nMulti-camera synchronization and calibration\nRobotics-based inspection cells\nExperience with automotive, electronics, or aerospace inspection\nJob Types: Full-time, Permanent\n\nBenefits:\n\n\nFlexible schedule\nHealth insurance\nPaid sick time\nProvident Fund Delhi Neemrana\nlocationNames: Delhi Neemrana",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-17T13:33:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "48a9a4f92476a65d7e0a1e1351f04c9d",
       "source": "yc",
