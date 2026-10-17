@@ -1,15 +1,169 @@
 {
-  "exported_at": "2026-10-17T06:47:17+00:00",
+  "exported_at": "2026-10-17T08:20:22+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 909,
+    "discovered": 912,
     "pending_approval": 239,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "48a9a4f92476a65d7e0a1e1351f04c9d",
+      "source": "yc",
+      "company": "Asha Health",
+      "role": "Staff Software Engineer, AI Agents",
+      "url": "https://www.workatastartup.com/jobs/117197",
+      "jd_text": "### **About Asha Health**\n\nAsha Health is building an AI OS for outpatient care. It’s the year of AI agents, and startups selling AI agents to healthcare organizations will do great in this wave. While we’re rooting for them, we’re building **what comes after**. We're backed by Y Combinator, General Catalyst, 186 Ventures, Reach Capital and many more. We raised an oversubscribed seed round from some of the best investors in Silicon Valley. Our team includes AI product leaders from companies like Google, physician executives from major health systems, and more.\n\n### **About the Role**\n\nWe're looking for a Staff Software Engineer to join our currently (and hopefully always) small engineering team.\n\n**Is this role for you?**\n\n* **You’d be engineer #5.** You’d work directly with our CTO. Lot of ownership; potentially rapid career growth. Think you could be our Tibo?\n* **The math:** significantly above market pay + equity.\n* **Passion matters.** Healthcare isn’t just inefficient; it’s a catastrophe. Think you got a bone to pick with it?\n* **We're building a moonshot.** Most AI healthcare startups are taking strategic, measured approaches. We’re rooting for them and think they'll do great in this wave. We're building what comes after. Does that scare you or excite you?\n* **At Asha, engineering is the #1 lever.** We can’t keep up with sales, and we have contracted ARR piling up. Unlike most of the healthcare market, engineering (not sales/gtm) is the biggest lever to pull.\n\n**This might be you if:**\n\n* You're a builder at your core: a strong engineer who can understand users, make product decisions, and ship without needing a PM to define every step.\n* You know you're good—and want significantly more ownership than your current role gives you.\n* You're excited by healthcare, rapid career growth, or ideally both.\n\n**Requirements**\n\n* Graduated from top engineering university (ex: IIT).\n* 3+ years of industry experience after graduation.\n* Strong experience developing AI agents and LLM-powered tools.\n* Strong understanding of how to make AI applications performant and reliable (fine tuning, RLHF, distillation, etc).\n* Exceptional at building full-stack web applications.\n* Great at designing and developing best-in-class user experiences.\n* Able to take initiative and figure things out without being told what to do.\n* Understanding of US healthcare is a bonus. fulltime none\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-17T08:20:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ff4612ce9d47b75b36e72088b536545b",
+      "source": "yc",
+      "company": "Asha Health",
+      "role": "Senior Software Engineer, AI",
+      "url": "https://www.workatastartup.com/jobs/109674",
+      "jd_text": "### **About Asha Health**\n\nAsha Health is building an AI OS for outpatient care. It’s the year of AI agents, and startups selling AI agents to healthcare organizations will do great in this wave. While we’re rooting for them, we’re building **what comes after**. We're backed by Y Combinator, General Catalyst, 186 Ventures, Reach Capital and many more. We raised an oversubscribed seed round from some of the best investors in Silicon Valley. Our team includes AI product leaders from companies like Google, physician executives from major health systems, and more.\n\n### **About the Role**\n\nWe're looking for a Senior Software Engineer to join our currently (and hopefully always) small engineering team.\n\n**Is this role for you?**\n\n* **You’d be engineer #5.** You’d work directly with our CTO. Lot of ownership; potentially rapid career growth. Think you could be our Tibo?\n* **The math:** cash comp on par with growth-stage companies, but equity substantially higher. Does the upside justify the risk for you?\n* **Passion matters.** Healthcare isn’t just inefficient; it’s a catastrophe. Think you got a bone to pick with it?\n* **We're building a moonshot.** Most AI healthcare startups are taking strategic, measured approaches. We’re rooting for them and think they'll do great in this wave. We're building what comes after. Does that scare you or excite you?\n* **At Asha, engineering is the #1 lever.** We can’t keep up with sales, and we have contracted ARR piling up. Unlike most of the healthcare market, engineering (not sales/gtm) is the biggest lever to pull.\n\n**This might be you if:**\n\n* You're a builder at your core: a strong engineer who can understand users, make product decisions, and ship without needing a PM to define every step.\n* You know you're good—and want significantly more ownership than your current role gives you.\n* You're excited by healthcare, rapid career growth, or ideally both.\n\n**This probably isn't you if:**\n\n* You're primarily looking for a comp increase. There are much easier ways to get one.\n* You're optimizing for predictability or work-life balance.\n\n### **Requirements**\n\n* Graduated with a bachelors in computer science or related degree.\n* Very strong backend experience, preferably in 0-1 or 1-10 environments.\n* Worked at a startup (Seed - Series E) before.\n* Must be ready to work in person in Manhattan, New York.\n\n**Bonus:**\n\n* Built and scaled your own projects to significant revenue.\n* Understanding of US healthcare/health-tech. New York, NY, US fulltime yes\nlocations: New York, NY, US\nremote: no\nmin_experience: 3",
+      "match_score": 4.46,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-17T08:20:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.54,
+            "overlap": 5.96,
+            "combined": 4.27
+          },
+          "backend": {
+            "cosine": 3.64,
+            "overlap": 6.39,
+            "combined": 4.46
+          },
+          "frontend": {
+            "cosine": 2.59,
+            "overlap": 8.25,
+            "combined": 4.29
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 3.64,
+        "keyword_overlap_score": 6.39,
+        "final_score": 4.46,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1991
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1085
+          },
+          {
+            "term": "agents",
+            "weight": 0.0664
+          },
+          {
+            "term": "directly",
+            "weight": 0.0332
+          },
+          {
+            "term": "risk",
+            "weight": 0.0332
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1d5bfbfa1dc9ec957721691a73e98b95",
+      "source": "yc",
+      "company": "Asha Health",
+      "role": "Head of Product, AI",
+      "url": "https://www.workatastartup.com/jobs/115646",
+      "jd_text": "### **About Asha Health**\n\nAsha Health is building an AI OS for outpatient care. It’s the year of AI agents, and startups selling AI agents to healthcare organizations will do great in this wave. While we’re rooting for them, we’re building **what comes after**. We're backed by Y Combinator, General Catalyst, 186 Ventures, Reach Capital and many more. We raised an oversubscribed seed round from some of the best investors in Silicon Valley. Our team includes AI product leaders from companies like Google, physician executives from major health systems, and more.\n\n### **About the Role**\n\nWe're looking for a Head of Product, AI to lead our currently (and hopefully always) small engineering team. The twist: you’ll also be coding &amp; building every day. Let us explain \\~\n\n* As AI models evolve, engineering, product management, and design are all changing. We believe old job descriptions should be completely tossed out the door. The future belongs to “builders”: people that are strong engineers, but essentially act as their own PM’s, designers, and user researchers. They talk to customers, decide what to build, how to build it, and have the highest bar for product &amp; UX “taste”.\n* As Head of Product, AI **you will call the shots** - talk to customers, decide what we build, why we build it, and how we build it. You will lead an engineering team (of both humans &amp; agents). However, you will also be an IC **building** a lot yourself. Why? \n  * Now, more so than ever, it is impossible to be good at product without being deep, hands on building AI products using AI products every day. You have to be deep in the weeds if you want to call the shots.\n  * The era of middle management is gone. With the power of AI, the next generation of product leaders will drive impact through both people and agents, master both breadth &amp; depth over vast amounts of product surface area, and earn their influence through not just their ideas but what they build.\n\n### **Requirements**\n\n* Graduated with a bachelors in computer science or related degree.\n* Strong engineering experience AND PM experience.\n* Confident as an engineer: you feel like you can build anything you put your mind to. You spent a few years being an eng IC.\n* Confident as a PM: you’ve led the product roadmap for high impact products.\n* Must be ready to work in person in Manhattan, New York 5 days per week in person but 6 days per week total.\n\n### **Is this role for you?**\n\n* **We want to take a bet.** We’re not looking for seasoned product leaders with 10+ YOE. We’re looking for someone incredibly ambitious, who has maybe never even led a team before but for that very reason is ready to give it their all to step up to the challenge.\n* **You’d be the 5th member of the product &amp; engineering team.** You’d be both an IC and a team lead and work directly with our CEO, CTO, and CMO every day. Lot of ownership; potentially rapid career growth. Think you could be our Tibo?\n* **The math:** cash comp on par with growth-stage companies, but equity substantially higher. Does the upside justify the risk for you?\n* **Passion matters.** Healthcare isn’t just inefficient; it’s a catastrophe. Think you got a bone to pick with it?\n* **We're building a moonshot.** Most AI healthcare startups are taking strategic, measured approaches. We’re rooting for them and think they'll do great in this wave. We're building what comes after. Does that scare you or excite you?\n* **At Asha, engineering is the #1 lever.** We can’t keep up with sales, and we have contracted ARR piling up. Unlike most of the healthcare market, product &amp; engineering (not sales/gtm) is the biggest lever to pull. New York, NY, US fulltime possible\nlocations: New York, NY, US\nremote: no\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-17T08:20:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "babff675f5d4c9ffe6d1778c9b9f023e",
       "source": "wellfound",
