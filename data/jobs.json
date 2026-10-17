@@ -1,15 +1,321 @@
 {
-  "exported_at": "2026-10-17T18:14:07+00:00",
+  "exported_at": "2026-10-17T20:23:18+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 915,
-    "pending_approval": 244,
+    "discovered": 918,
+    "pending_approval": 246,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "e3845b2c60f78f6d82972013b01e6620",
+      "source": "wellfound",
+      "company": "Securitybulls Intelligence",
+      "role": "Security Consultant – GRC & Customer Success",
+      "url": "https://wellfound.com/jobs/1285478-security-consultant",
+      "jd_text": "**About Bugmetrics**\nBugmetrics is a cybersecurity technology company building a unified Cyber Risk Posture Management platform that helps organizations measure, manage, and improve their cybersecurity maturity across People, Process, and Technology. Our platform simplifies security assessments, compliance automation, vulnerability management, and risk management, enabling businesses to make informed cybersecurity decisions.\n\n**About the Role**\nWe are looking for a proactive and customer-focused Security Consultant – GRC &amp; Customer Success with 1–2 years of experience in cybersecurity consulting, information security, and compliance implementation.\n\nThe ideal candidate should have hands-on experience with ISO 27001:2022 and SOC 2 implementation, a sound understanding of technical security controls, and excellent communication skills.\n\nThis role involves managing customer engagements, providing practical cybersecurity guidance, coordinating with auditors, resolving compliance-related queries, and helping customers effectively adopt the Bugmetrics platform.\n\n**Key Responsibilities**\n* Compliance Implementation: Lead and manage ISO 27001:2022 and SOC 2 implementation engagements, ensuring timely delivery and audit readiness.\n* Security Consulting: Advise customers on information security policies, risk assessments, security controls, and compliance best practices.\n* Customer Success: Build strong customer relationships, understand business requirements, resolve queries, and ensure a positive customer experience.\n* Audit Management: Coordinate with external auditors and certification bodies to facilitate ISO 27001 certification audits and SOC 2 examinations.\n* Audit Partner Coordination: Identify, evaluate, and maintain relationships with audit partners while ensuring effective communication throughout audit engagements.\n* Gap &amp; Risk Assessments: Conduct security gap assessments, risk assessments, and compliance reviews to identify improvement opportunities.\n* Technical Security Advisory: Guide customers on security controls involving firewalls, EDR, XDR, SIEM, SOC operations, IAM, vulnerability management, and incident response.\n* Regulatory Compliance: Support customers with applicable cybersecurity regulations, including SEBI CSCRF, RBI, and IRDAI requirements.\n* Compliance Documentation: Prepare and maintain security policies, risk registers, Statements of Applicability (SoA), audit evidence, and implementation documentation.\n* Stakeholder Management: Communicate effectively with customer leadership, IT teams, security teams, auditors, and internal stakeholders.\n* Product Adoption: Help customers leverage Bugmetrics for compliance automation, evidence management, security assessments, and continuous cybersecurity monitoring.\n* Product Collaboration: Work closely with product and engineering teams to translate customer feedback and compliance challenges into actionable product improvements.\n\n**Required Skills &amp; Qualifications**\n* Experience: 1–2 years of relevant experience in cybersecurity consulting, GRC, information security, or compliance implementation.\n* Framework Knowledge: Practical knowledge of ISO 27001:2022 and SOC 2 implementation, risk assessments, and audit processes.\n* Technical Understanding: Strong foundational knowledge of firewalls, EDR, XDR, SIEM, SOC, IAM, networking, and cybersecurity operations.\n* Consulting Skills: Ability to understand customer requirements, recommend practical security solutions, and independently manage implementation activities.\n* Communication Skills: Excellent verbal and written English communication skills with the confidence to handle customer meetings and auditor discussions.\n* Customer Management: Strong interpersonal skills with the ability to manage customer expectations, resolve queries, and maintain long-term relationships.\n* Audit Readiness: Understanding of audit preparation, evidence collection, compliance documentation, and corrective action management.\n* Problem-Solving: Ability to analyze security and compliance challenges and provide actionable recommendations.\n* Ownership: Strong organizational skills with the ability to manage multiple customer engagements and deliverables independently.\n* \n**Preferred Qualifications**\n* ISO 27001 Lead Auditor: ISO 27001:2022 Lead Auditor (LA) certification will be a strong advantage.\n* Regulatory Knowledge: Familiarity with SEBI CSCRF, RBI cybersecurity requirements, and IRDAI guidelines will be highly preferred.\n* Audit Experience: Prior experience coordinating ISO 27001 certification audits or SOC 2 Type I/Type II examinations.\n* Industry Exposure: Experience working with fintech, BFSI, SaaS, or other regulated organizations.\n* GRC Tools: Familiarity with compliance automation platforms, risk management tools, and evidence management systems. Indore\nlocationNames: Indore\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-17T20:22:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "89b3adfb798721c9769216a75ea247c5",
+      "source": "wellfound",
+      "company": "3wheels.ai",
+      "role": "Vendor Management Executive (Data Sourcing)",
+      "url": "https://wellfound.com/jobs/4849753-vendor-management-executive-data-sourcing",
+      "jd_text": "Pay: ₹18,000.00 - ₹20,000.00 per month\n\nJob description:\n\nLocation: Lucknow (Onsite)\nCompany: 3Wheels.AI\nExperience: Freshers\nSalary: 18,000-20,000/month\nPreference: Immediate Joiners\nAbout 3Wheels.AI: 3Wheels.AI is an AI solutions company that builds, optimises, and scales next-generation intelligent systems. We specialise in data infrastructure, human-in-the-loop workflows, and AI model optimization, enabling enterprises and AI innovators worldwide to develop accurate, reliable, and scalable AI solutions.\n\nAbout the Role: 3Wheels.AI is looking for a Data Procurement Executive to support our data acquisition initiatives by identifying, sourcing, and procuring high-quality datasets. The role involves conducting business meetings with potential partners and data providers, building strong professional relationships, and executing effective procurement strategies. The ideal candidate should be adaptable, proactive, and possess strong communication, coordination, and problem-solving skills.\n\nMandatory Requirements: Strong communication and coordination skills.\nWillingness to travel occasionally for business meetings, client interactions, and professional engagements. \nAbility to think creatively and implement efficient procurement strategies. \nBasic understanding of data, operations, or procurement processes is a plus. \nAdaptable and performance-driven mindset. \nAbility to build and maintain professional relationships with external partners and stakeholders. \n\nKey Responsibilities: Execute data procurement activities to ensure the timely acquisition of high-quality datasets. \nIdentify, evaluate, and implement effective strategies for sourcing and procuring relevant datasets. Conduct business meetings with data providers, vendors, and stakeholders to establish and maintain strong professional relationships. \nCoordinate with external partners to ensure accurate and efficient data acquisition. \nCollaborate with internal teams to align procurement activities with project and business requirements. \nMonitor procurement processes and identify opportunities for continuous improvement. \nResearch and identify potential data providers, vendors, and strategic partners. \nNegotiate and coordinate with external stakeholders to support cost-effective and timely data procurement. \nMaintain proper documentation and records related to procurement activities and vendor interactions. \nTrack ongoing procurement requirements and ensure timely follow-ups with relevant stakeholders. \n\nWhat We’re Looking For: Fresh graduates or candidates with 0–1 year of experience are encouraged to apply. \nExcellent verbal and written communication skills. \nStrong negotiation, coordination, and relationship-building abilities. \nProactive approach with the ability to work independently and as part of a team. \nGood analytical and problem-solving skills. \nComfortable working in an onsite environment in Lucknow. \nCandidates who can join immediately will be preferred. \n\nWhy Join 3Wheels.AI? Opportunity to work in the fast-growing AI and data industry. \nExposure to real-world data procurement and AI operations. \nOpportunity to interact with businesses, vendors, and technology partners. \nGrowth-oriented and collaborative work environment. \nLearning opportunities across data, AI, operations, and business development.\n\nBenefits:\n\n\nCell phone reimbursement\nFlexible schedule\nInternet reimbursement\nPaid sick time\nPaid time off\nWork Location: In person Lucknow\nlocationNames: Lucknow",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-17T20:22:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "af2a39635ff58c671b7a6c8ffafbe9d9",
+      "source": "wellfound",
+      "company": "Nyxses India",
+      "role": "Android Multimedia Engineer – Audio | Video | Camera",
+      "url": "https://wellfound.com/jobs/4839997-android-multimedia-engineer-audio-video-camera",
+      "jd_text": "**Designation: Android Multimedia Engineer – Audio | Video | Camera\nLocation: Bangalore\nExperience: 3+ Years**\n\nLove building what people see and hear on their devices?\nJoin us to work at the heart of the Android Multimedia stack, where your code brings cameras to life,\nmakes audio sound right, and powers seamless video streaming on real devices. If you enjoy working\nclose to the hardware and solving deep system-level problems, this role is for you.\n\n**What You’ll Work On**\n*  Camera bring-up and audio bring-up on Android platforms\n*  Camera HAL, Camera2 API, and camera tuning\n*  Multimedia frameworks and components including Stagefright, OMX, AudioFlinger, Audio HAL,\n* ALSA framework, and V4L2\n*  Streaming protocols such as RTP and RTSP, along with Wi-Fi Display\n*  The end-to-end Android Multimedia framework across audio, video, and camera\n\n**What You Bring**\n*  Strong programming skills in C and C++, with a solid grasp of data structures and algorithms\n*  Good working knowledge of Java\n*  Hands-on experience with the Android operating system and the Android Multimedia framework\n*  A genuine interest in building a career in the Android Multimedia domain\n*  Prior multimedia experience is a big plus\n\n**Bonus Points If You Have**\n*  Knowledge of Python, R, or TensorFlow\n*  Exposure to neural networks, AI, and machine learning\n*  Understanding of DSP and audio/video codecs\n\n**Why This Role Stands Out**\n*  Work on the full multimedia stack, from low-level drivers and HAL up to the framework\n*  Gain hands-on exposure to real device bring-up, a skill set that’s in high demand\n*  Opportunity to explore the growing intersection of multimedia and AI/ML\n*  Grow your expertise alongside experienced engineers in a fast-moving domain Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 6.01,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-17T20:22:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.46,
+            "overlap": 8.94,
+            "combined": 5.11
+          },
+          "backend": {
+            "cosine": 2.87,
+            "overlap": 8.27,
+            "combined": 4.49
+          },
+          "frontend": {
+            "cosine": 3.8,
+            "overlap": 11.17,
+            "combined": 6.01
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 3.8,
+        "keyword_overlap_score": 11.17,
+        "final_score": 6.01,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.0731
+          },
+          {
+            "term": "end",
+            "weight": 0.0596
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.0487
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0487
+          },
+          {
+            "term": "real",
+            "weight": 0.0487
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0242c159769b59da8053282d58c245c8",
+      "source": "wellfound",
+      "company": "Homevy",
+      "role": "Senior Backend Engineer",
+      "url": "https://wellfound.com/jobs/4839974-senior-ai-engineer-clone",
+      "jd_text": "#### About Homevy\nHomevy is a holiday homes company in Dubai. Owners sign with us, we manage their property end to end, and we earn a commission on guest bookings. We lead with hospitality and run on technology. Our team covers guest support, housekeeping, maintenance, design and owner onboarding.\n\n#### What We're Building\n\nWe're building the operating system for our property management company, from scratch. It starts with our operations dashboard and grows into a full property management platform: bookings, guests, housekeeping, maintenance and owner reporting in one system we control.\n\nAI runs through all of it. Agents answer guests, catch problems before they escalate and coordinate our field team, working from live property and booking data. \n\nThis is real work with real users from day one. Our guests, owners and operations team will use what you build every day. You will have direct access to the founders, no layers of approval, and the freedom to make the architecture decisions.\n\nWe need someone with strong Node.js experience who can design reliable systems, write clean code and take ownership from planning through to production. You should be comfortable working through complex business requirements and building software that other engineers can maintain and extend.\n\nYou’ll work closely with our product, frontend and AI teams to connect our applications, data and automations.\n\n#### What you’ll do\n\n- Design, build and maintain backend services and APIs using Node.js and TypeScript.\n- Turn business requirements into clear technical designs and reliable features.\n- Design databases that accurately represent properties, bookings, guests, tasks and other business records.\n- Connect external platforms through APIs and webhooks, keeping information consistent across systems.\n- Build background jobs and scheduled workflows that handle retries, duplicate events and failures safely.\n- Implement authentication, roles and permissions so users and automated systems can only access what they’re allowed to.\n- Build the APIs and services that our AI agents and automations use to retrieve information and carry out approved actions.\n- Improve database queries, application performance and reliability as usage grows.\n- Write automated tests, review code and maintain clear API and system documentation.\n- Set up useful logs, monitoring and alerts, and investigate production issues when they happen.\n- Make deployments safe, with clear ways to detect problems and roll back changes.\n- Help other engineers improve through thoughtful code reviews and technical guidance.\n\n#### What we’re looking for\n\n- Strong experience building and maintaining production applications with Node.js and TypeScript.\n- A solid understanding of asynchronous programming, the Node.js event loop, error handling and application performance.\n- Experience designing APIs that are secure, well documented and easy for other teams to use.\n- Strong database skills, including data modelling, indexing, transactions, migrations and query optimisation.\n- Experience with queues, background workers, caching and integrations with external services.\n- The ability to handle real-world integration problems such as rate limits, timeouts, repeated requests and events arriving out of order.\n- A good understanding of application security, access control and safe handling of sensitive information.\n- Strong testing and debugging skills, including investigating issues across APIs, databases and background processes.\n- Good judgment about architecture: knowing when to keep things simple and when a more complex approach is justified.\n- The ability to take ownership, communicate clearly and deliver work with limited supervision.\n\n#### A plus\n\n- Experience with booking, hospitality, property-management or other operations-heavy systems.\n- Experience supporting AI-powered features and automated workflows.\n- Familiarity with cloud infrastructure, containers and automated deployment pipelines.\n- Experience with real-time updates, audit trails and systems serving multiple businesses or teams.\n\n#### What success looks like\n\n- Backend services that are reliable, secure and straightforward to maintain.\n- Accurate data and dependable integrations between our systems.\n- Features that handle errors safely and remain responsive as usage grows.\n- Clear APIs and documentation that help frontend, AI and other engineers work effectively.\n- Problems that are identified and resolved before they significantly affect guests or operations. Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 14.46,
+      "resume_variant": "fullstack",
+      "draft_answer": "As an Associate FullStack Engineer, I owned core modules of a compliance platform, automating 90% of manual workflows and integrating RabbitMQ to guarantee data delivery under high load, which significantly cut API fetch latency from 500ms to 10ms after introducing Redis caching. My experience ranges from deploying critical systems on Azure AKS with blue-green releases and implementing secure authentication for Node.js-based multi-user platforms to validating LLM tool-calling reliability, directly applicable to developing a robust property management operating system with integrated AI for bookings, guests, and operations.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-17T20:22:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.57,
+            "overlap": 18.87,
+            "combined": 14.46
+          },
+          "backend": {
+            "cosine": 11.98,
+            "overlap": 17.67,
+            "combined": 13.68
+          },
+          "frontend": {
+            "cosine": 11.81,
+            "overlap": 18.93,
+            "combined": 13.95
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 12.57,
+        "keyword_overlap_score": 18.87,
+        "final_score": 14.46,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1352
+          },
+          {
+            "term": "ai",
+            "weight": 0.1181
+          },
+          {
+            "term": "apis",
+            "weight": 0.1159
+          },
+          {
+            "term": "team",
+            "weight": 0.0875
+          },
+          {
+            "term": "automated",
+            "weight": 0.0773
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-17T20:23:05+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "28ae0b5adbea8bc3844b3ea0ebd303e8",
+      "source": "wellfound",
+      "company": "Homevy",
+      "role": "Senior AI Engineer",
+      "url": "https://wellfound.com/jobs/4839973-senior-ai-engineer",
+      "jd_text": "#### About Homevy\nHomevy is a holiday homes company in Dubai. Owners sign with us, we manage their property end to end, and we earn a commission on guest bookings. We lead with hospitality and run on technology. Our team covers guest support, housekeeping, maintenance, design and owner onboarding.\n\n#### What We're Building\n\nWe're building the operating system for our property management company, from scratch. It starts with our operations dashboard and grows into a full property management platform: bookings, guests, housekeeping, maintenance and owner reporting in one system we control.\n\nAI runs through all of it. Agents answer guests, catch problems before they escalate and coordinate our field team, working from live property and booking data. \n\nThis is real work with real users from day one. Our guests, owners and operations team will use what you build every day. You will have direct access to the founders, no layers of approval, and the freedom to make the architecture decisions.\n\nWe need someone who understands AI deeply and can turn that knowledge into reliable software. You should be comfortable designing the architecture, writing the code, connecting systems and improving how they perform in real use.\n\nThe work includes building strong RAG systems, AI agents and automated workflows that can find the right information, take appropriate actions and involve a person when needed.\n\n#### What you’ll do\n\n- Own the design and development of Homevy’s AI and automation systems.\n- Build RAG systems that help AI find and use accurate information from our documents, property records and business systems.\n- Develop the full process for collecting, preparing, organising and retrieving information, keeping it current as things change.\n- Build AI agents that can use tools, work through multi-step tasks and interact with our software.\n- Create workflows that connect different systems, respond to events and recover safely when something fails.\n- Build capabilities such as guest communication, issue escalation and coordination across operations, while identifying other useful ways to apply AI.\n- Set clear limits on what AI can do independently and when it must ask for approval or hand over to a person.\n- Test the quality of AI responses and actions, investigate failures and improve accuracy over time.\n- Monitor performance, reliability and running costs, and make sensible trade-offs between them.\n- Protect guest and business information through proper access controls, safe data handling and clear records of automated actions.\n- Work with our product, engineering and operations teams to turn business needs into systems that work well in practice.\n\n#### What we’re looking for\n\n- Experience building and running AI systems that real people or businesses use.\n- A deep understanding of large language models, how they work, where they fail and how to design around those limits.\n- Strong experience with RAG, including preparing data, embeddings, search, reranking and measuring whether the system retrieves the right information.\n- Experience building AI agents that use tools and APIs, keep track of tasks and handle errors reliably.\n- The ability to design complex automations with multiple steps, dependencies, retries and human approvals.\n- Strong coding skills and good software engineering practices, including testing, documentation and deployment.\n- The ability to identify why an AI system is failing, whether the problem is the data, retrieval, model, workflow or integration.\n- Good judgment about which problems need AI and which are better solved with straightforward software.\n- The ability to work independently, take ownership and explain technical decisions clearly.\n\n#### A plus\n\n- Backend development and database design experience.\n- Experience connecting AI to customer support, hospitality, property management, or other business software.\n- Experience working with both hosted and open-source models, and an understanding of when fine-tuning is useful.\n\n#### **When applying**\n\nShare examples of AI systems you’ve built. Explain what they do, what you personally worked on, how you tested them and a difficult problem you solved. Links to code, demos, or technical write-ups are welcome. Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 10.29,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience running open-weight LLMs with validated tool-calling and my ownership of a full-stack compliance platform, including architecting robust, production-grade systems and automating complex workflows, directly informs building Homevy's operating system. I've also load-tested and optimized APIs from 500ms to 10ms, implemented ACID transactions for data integrity under concurrent load, and delivered end-to-end portals to real users, which translates to building reliable RAG systems and AI agents for guest communication and operations coordination on the property management platform.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-17T20:22:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.45,
+            "overlap": 14.57,
+            "combined": 10.29
+          },
+          "backend": {
+            "cosine": 8.02,
+            "overlap": 13.53,
+            "combined": 9.67
+          },
+          "frontend": {
+            "cosine": 5.82,
+            "overlap": 15.05,
+            "combined": 8.59
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.45,
+        "keyword_overlap_score": 14.57,
+        "final_score": 10.29,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3464
+          },
+          {
+            "term": "experience",
+            "weight": 0.1062
+          },
+          {
+            "term": "agents",
+            "weight": 0.0866
+          },
+          {
+            "term": "team",
+            "weight": 0.0802
+          },
+          {
+            "term": "data",
+            "weight": 0.0708
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-17T20:23:16+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "bc22d88efb60d8d7c723e8e49fb30de0",
       "source": "wellfound",
