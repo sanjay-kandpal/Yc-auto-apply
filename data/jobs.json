@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-18T18:31:51+00:00",
+  "exported_at": "2026-10-18T20:23:28+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 925,
+    "discovered": 926,
     "pending_approval": 250,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "4c6f94d1151f8129bd79f1d6908de832",
+      "source": "wellfound",
+      "company": "POOLit",
+      "role": "Front-end Developer (only for folks graduated in 2026 or earlier)",
+      "url": "https://wellfound.com/jobs/80848-front-end-developer-only-for-folks-graduated-in-2026-or-earlier",
+      "jd_text": "We are looking for a front-end developer who has experience in HTML 5, CSS 3, Javascript, Bootstrap, etc.\n\n- Advanced knowledge of ReactJS (or NextJS) or React Native is desirable.\n- Basic knowledge of ReactJS (or NextJS) or React Native is mandatory.\n\nHow to apply - \n• Check out the POOLit app (https://www.poolit.org) on your iPhone or android phone.\n• This position is only for folks graduated in 2025 or earlier.\n\n** If you haven't graduated yet and still apply, you will be blacklisted forever.** New Delhi\nlocationNames: New Delhi\nremote: true",
+      "match_score": 6.39,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-18T20:23:26+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.57,
+            "overlap": 2.98,
+            "combined": 3.39
+          },
+          "backend": {
+            "cosine": 2.15,
+            "overlap": 3.01,
+            "combined": 2.41
+          },
+          "frontend": {
+            "cosine": 7.05,
+            "overlap": 4.85,
+            "combined": 6.39
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 7.05,
+        "keyword_overlap_score": 4.85,
+        "final_score": 6.39,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1456
+          },
+          {
+            "term": "native",
+            "weight": 0.119
+          },
+          {
+            "term": "react",
+            "weight": 0.119
+          },
+          {
+            "term": "2025",
+            "weight": 0.0595
+          },
+          {
+            "term": "app",
+            "weight": 0.0595
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "ea153b3d4c216fd41bbaa12c050962ca",
       "source": "yc",
