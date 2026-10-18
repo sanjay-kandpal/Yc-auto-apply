@@ -1,15 +1,243 @@
 {
-  "exported_at": "2026-10-18T03:11:04+00:00",
+  "exported_at": "2026-10-18T07:07:15+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 919,
-    "pending_approval": 246,
+    "pending_approval": 248,
+    "discovered": 920,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "5687d815aff2df2c130ddfb7bebd4746",
+      "source": "wellfound",
+      "company": "Axolotis.ai",
+      "role": "Software Engineer – AI Product & Platform",
+      "url": "https://wellfound.com/jobs/4855247-software-engineer-ai-product-platform",
+      "jd_text": "The Role\n\nAs a Software Engineer for AI Product &amp; Platform at Axolotis.ai, you’ll own the layer through which our customers experience our technology — the agentic AI workflows that ingest operational data and drive production optimization runs, and the web application in which engineers review, adjust, and approve the resulting schedules. Your main contribution will be to turn an agentic workflow that already runs in daily production into a robust, supervised product that a customer’s own engineers can operate with confidence. You’ll work directly with the founder and the optimization team, who own the mathematical engine, and you’ll be the person who makes that engine usable, observable, and trustworthy in the hands of customers.\n\nWhat You’ll Do\n\nDesign, build, and harden the agentic workflows (built on Anthropic and OpenAI tooling) that parse operational inputs such as emails, text files, and web data, call the optimization engine, and return schedules for operator approval.\n\nImplement the guardrails that make this safe in an operational setting — input and output validation, human-in-the-loop approval steps, audit logs, and graceful failure when data are missing or inconsistent.\n\nDevelop and extend the customer-facing web application — the full set of optimization objectives the engine supports, schedule comparison and visualization, and user and tenant management.\n\nBuild data onboarding adapters that bring each new customer’s data packages (Excel workbooks, time series, plant specifications) into a common format.\n\nWrite and maintain the APIs between the front end, the agentic layer, and the optimization engine.\n\nWork directly with customer engineers during onboarding and early operation, and turn their feedback into product changes.\n\nContribute to testing, code review, and documentation as we scale.\n\nWhat We’re Looking For\n\nBS or MS in Computer Science, Computer Engineering, or a related field (completed or completing). Recent graduates are encouraged to apply.\n\nStrong Python skills, including building and consuming REST APIs.\n\nFull-stack web development with a modern JavaScript or TypeScript framework (e.g., React) and a Python backend framework (e.g., FastAPI or Django) — through coursework, research, internships, or personal projects.\n\nHands-on experience building applications on large language model APIs (Anthropic, OpenAI, or similar), including tool calling, structured outputs, and prompt design — a substantial personal or academic project counts.\n\nWorking knowledge of relational databases (PostgreSQL in particular) and data modeling.\n\nComfort with messy, real-world data — you’ll build ingestion that fails loudly rather than silently.\n\nStrong written and verbal communication — you’ll work closely with engineers at customer sites who are not software specialists.\n\nFamiliarity with modern software development practices (version control, testing, code review).\n\nNice to Have\n\nProfessional software development experience, including features shipped to production and maintained afterward; internships count.\n\nExperience with agent frameworks and protocols such as the Claude Agent SDK, Claude Code skills, the Model Context Protocol (MCP), the OpenAI Agents SDK, or LangGraph.\n\nExperience evaluating LLM systems — evaluation suites, regression tests for prompts and agents, tracing, and cost and latency monitoring.\n\nContinuous integration and deployment (CI/CD).\n\nData visualization for engineering users (e.g., Plotly or D3), particularly for time series and schedules.\n\nEnterprise authentication, particularly Microsoft Entra ID (Azure AD), and multitenant applications.\n\nCloud deployment, containers (Docker, DigitalOcean, or similar), and observability tooling.\n\nExposure to scientific Python (NumPy, pandas) and to optimization or simulation software as a consumer of its results.\n\nBackground in energy, power systems, utilities, or other industrial operations, or in software that supports operational decisions.\n\nPrior experience at an early-stage startup, including direct work with customers.\n\nWork Authorization\n\nIn compliance with federal law, all persons hired will be required to verify identity and eligibility to work in the United States and to complete the required employment eligibility verification form upon hire. As a seed-stage company we are not currently able to sponsor applicants for work visas.\n\nWhy Now\n\nYou’d be one of our earliest hires, with the scope and influence that comes with being here this early. Compensation is competitive cash plus meaningful early-stage equity. Our preference is hybrid out of Durham, NC, but remote is possible too for the right candidate. Durham\nlocationNames: Durham\nremote: true",
+      "match_score": 12.62,
+      "resume_variant": "backend",
+      "draft_answer": "My experience building and validating an LLM agent for reliable tool-calling, coupled with hardening FastAPI production backends for industrial compliance, prepares me to build the robust agentic workflows that drive Axolotis.ai's production optimization runs. I'm skilled at owning the full customer lifecycle, from scoping requirements to automating deployments with CI/CD and onboarding 80+ organizations, ensuring the core technology is trustworthy and operable for customer engineers.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-18T07:06:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.57,
+            "overlap": 16.89,
+            "combined": 12.47
+          },
+          "backend": {
+            "cosine": 10.78,
+            "overlap": 16.92,
+            "combined": 12.62
+          },
+          "frontend": {
+            "cosine": 8.19,
+            "overlap": 18.45,
+            "combined": 11.27
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 10.78,
+        "keyword_overlap_score": 16.92,
+        "final_score": 12.62,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.1482
+          },
+          {
+            "term": "experience",
+            "weight": 0.1111
+          },
+          {
+            "term": "ai",
+            "weight": 0.0906
+          },
+          {
+            "term": "apis",
+            "weight": 0.0556
+          },
+          {
+            "term": "code",
+            "weight": 0.0556
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-18T07:07:13+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "757da9f26bc380fff736ef705d231c2a",
+      "source": "wellfound",
+      "company": "Axolotis.ai",
+      "role": "Optimization Analyst",
+      "url": "https://wellfound.com/jobs/4855245-optimization-analyst",
+      "jd_text": "The Role\n\nAs an Optimization Analyst at Axolotis.ai, you will spend most of your time at the modeling table — translating real energy systems into the mathematical formulations our optimization engine solves. You’ll work closely with customers to understand their operations, encode their objectives and constraints, and validate that what we ship reflects their world.\n\nWhat You’ll Do\n\nBuild and maintain optimization models of energy systems — generation, storage, dispatch, fuel flow.\n\nTranslate customer operations, data, and constraints into rigorous mathematical formulations.\n\nWork directly with customers to understand their systems and iterate on solutions.\n\nImplement and test model components in Python.\n\nContribute to documentation, tooling, and customer-facing analysis as we scale.\n\nWhat We’re Looking For\n\nBS, MS, or Ph.D. in Operations Research, Electrical / Mechanical / Industrial Engineering, Applied Math, or a related quantitative field. MS or Ph.D. preferred.\n\nStrong knowledge of nonlinear optimization is a must, along with working knowledge of LP and MILP — through coursework, thesis, or project experience.\n\nProgramming skills in Python; comfortable with object-oriented programming.\n\nStrong written and verbal communication — you’ll explain models to non-mathematicians and ask good questions of domain experts.\n\nFamiliarity with modern software development practices (version control, testing, code review).\n\nNice to Have\n\nBackground or coursework in energy / power systems, fuels, or grid operations.\n\nExperience with optimization solvers.\n\nWork Authorization\n\nIn compliance with federal law, all persons hired will be required to verify identity and eligibility to work in the United States and to complete the required employment eligibility verification form upon hire. As a seed-stage company we are not currently able to sponsor applicants for work visas.\n\nWhy Now\n\nYou’d be one of our earliest hires, with the scope and influence that comes with being here this early. Compensation is competitive cash plus meaningful early-stage equity. Our preference is hybrid out of Durham, NC, but remote is possible too for the right candidate. Durham\nlocationNames: Durham\nremote: true",
+      "match_score": 3.78,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-18T07:06:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.55,
+            "overlap": 5.63,
+            "combined": 3.47
+          },
+          "backend": {
+            "cosine": 2.66,
+            "overlap": 6.39,
+            "combined": 3.78
+          },
+          "frontend": {
+            "cosine": 2.59,
+            "overlap": 7.77,
+            "combined": 4.14
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 2.66,
+        "keyword_overlap_score": 6.39,
+        "final_score": 3.78,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.0583
+          },
+          {
+            "term": "python",
+            "weight": 0.0583
+          },
+          {
+            "term": "ai",
+            "weight": 0.0357
+          },
+          {
+            "term": "directly",
+            "weight": 0.0357
+          },
+          {
+            "term": "model",
+            "weight": 0.0357
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "199b6cfbeee4c117746f5668373a1f9f",
+      "source": "wellfound",
+      "company": "Neutals",
+      "role": "Software Engineering Experts ( Freshers )",
+      "url": "https://wellfound.com/jobs/4849870-software-engineering-experts-freshers",
+      "jd_text": "**About HumanizedText × Neutals:**\nHumanizedText is a subsidiary of Neutals and is currently working closely with Neutals AI Lab to create significantly better content for its experimental projects.\nNeutals is building infrastructure and workflows for high-quality AI training data. We specialize in data annotation, AI-ready datasets, and the technology needed to make AI development faster, more reliable, and more scalable.\n\n**About the Role:**\nWe’re looking for a Software Engineer to join our early team and help build the software behind our data and AI workflows. You’ll work closely with the Terminal bench projects based on requirements.\nYou’ll have the opportunity to work across Dynamic environment systems, APIs, databases, automation, and frontend interfaces depending on project needs.\n\n**What You’ll Work On:**\nBuild and maintain web applications, APIs, and internal tools\nDevelop systems to manage AI/data annotation workflows\nAutomate repetitive operational and data-processing tasks\nWork with databases, APIs, and cloud infrastructure\nImprove system reliability, performance, and scalability\nDebug issues and ship practical solutions quickly\nCollaborate directly with the founding team on new products and experiments\n\n**What We’re Looking For:**\nStrong programming fundamentals\nExperience with languages such as Python, JavaScript/TypeScript, Java, Go, or similar\nUnderstanding of APIs, databases, Git, and software development practice\nAbility to write clean, maintainable code\nStrong problem-solving and debugging skills\nComfortable working independently in a fast-moving startup environment\nWillingness to learn and work across different parts of the stack\n\n**Nice to Have:**\nExperience with React/Next.js, Node.js, Python, FastAPI, or similar frameworks\nExperience with cloud platforms and Docker\nFamiliarity with AI/ML workflows or data annotation platforms\nExperience building internal tools, automation systems, or SaaS products\n\n**Who This Role Is For:**\nWe’re open to fresh graduates, early-career engineers, and experienced developers who are strong technically and want to take real ownership in an early-stage company.\nLocation: Remote\nEmployment Type: Part-time ( Contract ) Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 12.74,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've built and scaled full-stack web applications, from a government reporting portal with FastAPI/React to a cloud-native compliance platform on Azure that automated 90% of manual workflows, often leveraging Docker, Kubernetes, and message brokers like RabbitMQ to ensure reliability and performance under load. My experience extends to optimizing data processing—like cutting API fetch latency by 98% with Redis caching and reducing data load times by 60%—and developing systems that manage complex data and reporting, aligning with the need to build infrastructure for high-quality AI training data.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-18T07:06:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.38,
+            "overlap": 13.58,
+            "combined": 12.74
+          },
+          "backend": {
+            "cosine": 12.18,
+            "overlap": 13.91,
+            "combined": 12.7
+          },
+          "frontend": {
+            "cosine": 10.37,
+            "overlap": 16.99,
+            "combined": 12.35
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 12.38,
+        "keyword_overlap_score": 13.58,
+        "final_score": 12.74,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2457
+          },
+          {
+            "term": "data",
+            "weight": 0.1722
+          },
+          {
+            "term": "apis",
+            "weight": 0.1148
+          },
+          {
+            "term": "experience",
+            "weight": 0.1148
+          },
+          {
+            "term": "workflows",
+            "weight": 0.1148
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-18T07:06:55+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "5ce41782f3f9664b5c2598ad3ae06b4f",
       "source": "yc",
