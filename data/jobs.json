@@ -1,15 +1,360 @@
 {
-  "exported_at": "2026-10-18T08:37:47+00:00",
+  "exported_at": "2026-10-18T13:52:56+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 248,
-    "discovered": 920,
+    "pending_approval": 250,
+    "discovered": 924,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "df5284205aead02213d3450b260f2a9e",
+      "source": "wellfound",
+      "company": "Ziro.digital",
+      "role": "Associate Data Forward Deployed Engineer",
+      "url": "https://wellfound.com/jobs/4865522-associate-data-forward-deployed-engineer",
+      "jd_text": "Associate Data Forward Deployed Engineer (10 openings)\n\nHiring for a fast-growing AI platforms and services company (confidential client) via Ziro.digital. Location: Hyderabad (onsite). Open to candidates from anywhere in India who are willing to relocate. Experience: 0–2 years; 2024/2025/2026 graduates welcome (B.Tech/B.E/MCA/M.Sc CS/IT or related).\n\nWhat you'll do: build data pipelines end to end (ingest, transform, model, deliver), work with clients on their data, and use AI for query generation, data quality and debugging.\n\nMust have: strong SQL (write, read, tune); Python for data; SQL Server and/or Postgres; at least one end-to-end data pipeline; data-analysis fundamentals; a GitHub with data projects.\n\nGood to have: S3/Azure Blob, Airflow/mage.ai, DBT/Fabric, Snowflake/Databricks/BigQuery, GitLab CI/CD, Grafana, LLM/RAG awareness.\nCompensation and terms: 6-month paid internship at ₹20,000/month, then ₹7 LPA CTC on conversion. 4 years 3 months service agreement (includes the internship). Relocation to Hyderabad required.\n\nSelection: Ziro assessment (Communication, Technical, AI interview, Coding), then the company's rounds (aptitude, AI screening, project build, in-office hackathon, technical panel, leadership).\n\nApply by Wed 21 Oct 2026. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 13.48,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've delivered end-to-end data solutions, like the occupational hygiene reporting portal where I scoped requirements with a government regulator, and optimized performance for client-facing systems, cutting API fetch latency by 98% through Redis caching after identifying redundant reads under load. My experience extends to managing cloud-native compliance platforms on Microsoft Fabric, building end-to-end data pipelines with Azure Blob storage, and validating LLM tool-calling for an open-weight model, directly aligning with the work for an AI platforms and services company.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-18T13:52:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 15.28,
+            "overlap": 9.27,
+            "combined": 13.48
+          },
+          "backend": {
+            "cosine": 14.36,
+            "overlap": 9.77,
+            "combined": 12.98
+          },
+          "frontend": {
+            "cosine": 12.94,
+            "overlap": 10.68,
+            "combined": 12.26
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 15.28,
+        "keyword_overlap_score": 9.27,
+        "final_score": 13.48,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.3509
+          },
+          {
+            "term": "ai",
+            "weight": 0.2385
+          },
+          {
+            "term": "end",
+            "weight": 0.1908
+          },
+          {
+            "term": "associate",
+            "weight": 0.078
+          },
+          {
+            "term": "deployed",
+            "weight": 0.078
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-18T13:52:43+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ae9ed05c72b56ae4131673a0571080ae",
+      "source": "wellfound",
+      "company": "Ziro.digital",
+      "role": "Associate AI Forward Deployed Engineer",
+      "url": "https://wellfound.com/jobs/4865521-associate-ai-forward-deployed-engineer",
+      "jd_text": "Hiring for a fast-growing AI platforms and services company (confidential client) via Ziro.digital.\n\nLocation: Hyderabad (onsite). Open to candidates from anywhere in India who are willing to relocate.\nExperience: 0 to 2 years. 2024/2025/2026 graduates welcome (B.Tech/B.E/MCA/M.Sc CS/IT or related).\n\nWhat you'll do\nBuild and ship end-to-end AI solutions on agentic AI platforms, work directly with clients, and own work from first commit to production.\n\nMust have\nStrong Python plus one more language\nFull-stack (front end and back end)\nComplex SQL\nREST APIs\nA working AI app you can demo (RAG, agent or LLM integration)\nA GitHub with shipped projects\n\nGood to have\nTypeScript, AWS/GCP, Docker/Kubernetes\nVector DBs (Pinecone, Weaviate, pgvector)\nLangChain, LangGraph, CrewAI, LlamaIndex\nLLM evaluation, MLOps\nCompensation and terms\n6-month paid internship at ₹20,000/month, then ₹7 LPA CTC on conversion.\n4 years 3 months service agreement (includes the internship).\nRelocation to Hyderabad required.\n\nSelection\nZiro assessment (Communication, Technical, AI interview, Coding), then the company's rounds (aptitude, AI screening, project build, in-office hackathon, technical panel, leadership).\n\nApply by Wed 21 Oct 2026. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 10.09,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've shipped end-to-end full-stack systems like an occupational hygiene portal where I scoped client requirements and drove UAT, and built an agentic AI solution locally, validating its tool-calling reliability. My experience owning cloud-native compliance platforms from first commit to production, including introducing blue-green deployments with AKS and cutting API latency by 98% through Redis caching, demonstrates my readiness to build and ship robust AI solutions for your fast-growing AI platforms and services company.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-18T13:52:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.02,
+            "overlap": 10.26,
+            "combined": 10.09
+          },
+          "backend": {
+            "cosine": 8.85,
+            "overlap": 10.9,
+            "combined": 9.46
+          },
+          "frontend": {
+            "cosine": 9.73,
+            "overlap": 13.11,
+            "combined": 10.74
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.02,
+        "keyword_overlap_score": 10.26,
+        "final_score": 10.09,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3462
+          },
+          {
+            "term": "end",
+            "weight": 0.1979
+          },
+          {
+            "term": "llm",
+            "weight": 0.0989
+          },
+          {
+            "term": "technical",
+            "weight": 0.0809
+          },
+          {
+            "term": "communication",
+            "weight": 0.0611
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-18T13:52:55+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "932a109869bef7cc11729e7f53fd94da",
+      "source": "wellfound",
+      "company": "www.atelix.io",
+      "role": "Junior / Mid-Level Full Stack Developer | AI Startup",
+      "url": "https://wellfound.com/jobs/4855264-junior-mid-level-full-stack-developer-ai-startup",
+      "jd_text": "About Atelix\n\nAtelix is an ambitious, early-stage AI startup backed by experienced tech investors, building an AI assistant for interior designers and architects that transforms how creative studios run their businesses.\n\nFounded by a former Salesforce senior leader, we’re at an exciting stage, with a live product, early customers and big ambitions.\n\nWe’re looking for a talented, entrepreneurial software engineer to help us build and scale.\n\nWhat You’ll Do\n\n* Build and improve features across our AI-powered SaaS platform.\n* Develop AI agents, intelligent automation and integrations that solve real customer problems.\n* Take ownership of features from development through to deployment.\n* Work directly with customers, understand their challenges and turn feedback into great product experiences.\n* Use modern AI development tools to build, test and iterate quickly.\n* Contribute ideas and help shape the product as we grow.\n\nWho We’re Looking For\n\n* 3+ years of software development experience preferred, with a minimum of 1–2 years for exceptional candidates.\n* Strong programming fundamentals and experience building and shipping production software.\n* Familiarity with AI development tools and an interest in AI agents and automation.\n* Excellent communication skills and confidence interacting directly with customers, understanding their needs and translating feedback into practical solutions.\n* Proactive, resourceful and comfortable working independently, taking ownership from development through to deployment.\n* Entrepreneurial mindset, excited about building and shaping a product in an early-stage startup.\n\nWhy Join Atelix?\n\n🚀 Build something meaningful: Help shape an AI product from its earliest stages.\n\n🤖 Work at the forefront of AI: Build intelligent automation and AI-powered workflows that solve real problems.\n\n💡 Real ownership: Take responsibility, move fast and see your work make a difference.\n\n📈 Grow with us: Join an ambitious, investor-backed startup with international ambitions.\n\nLocation: UK-based | Remote working possible\nEmployment: Full-time\n\nInterested? We’d love to hear from you! Share your CV, GitHub profile or examples of something you’ve built. London\nlocationNames: London\nremote: true",
+      "match_score": 5.29,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-18T13:52:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.18,
+            "overlap": 5.63,
+            "combined": 5.32
+          },
+          "backend": {
+            "cosine": 5.31,
+            "overlap": 5.26,
+            "combined": 5.3
+          },
+          "frontend": {
+            "cosine": 3.83,
+            "overlap": 7.77,
+            "combined": 5.01
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.31,
+        "keyword_overlap_score": 5.26,
+        "final_score": 5.29,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3502
+          },
+          {
+            "term": "real",
+            "weight": 0.0781
+          },
+          {
+            "term": "agents",
+            "weight": 0.0637
+          },
+          {
+            "term": "directly",
+            "weight": 0.0637
+          },
+          {
+            "term": "deployment",
+            "weight": 0.0521
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6a9ecae5f00480b7aef7f4be27f82858",
+      "source": "wellfound",
+      "company": "Nirmaan",
+      "role": "Founder's Office Intern - Tech",
+      "url": "https://wellfound.com/jobs/4852449-founder-s-office-intern-tech",
+      "jd_text": "About the role\nYou will work directly with the founders on the tech + product initiatives that compound the Nirmaan Stack — our proprietary software platform that runs India's first tech-enabled MEP contractor end-to-end.\n\nThe Nirmaan Stack is live in production across 70+ projects. It covers the whole lifecycle — Sales CRM → AI BOQ Engine → Procurement → Project Intelligence → Cash Sheet → Project Record. The engineering team ships the platform. This role defines what gets built next.\nYou will own the product and tech initiatives that take the Stack from 'running the business today' to 'the first scaled operating system for an entire $17B industry.' That means product strategy, cross-team coordination, data + AI projects, and the occasional hands-on build to prove something fast.\nWhat you'll do\n•\tOwn product initiatives inside the Nirmaan Stack. Define, scope, and ship new modules and workflows — from problem framing to live-in-production handoff.\n•\tPartner with engineering on roadmap. Work alongside MTS engineers to translate business needs into technical priorities. You're not writing production code day-to-day, but you can build prototypes, pull data, and reason about systems well enough that engineering takes you seriously.\n•\tDrive AI / automation projects. The AI BOQ Engine is live; the next generation of agentic workflows across procurement, project tracking, and documentation is the frontier. Scope and ship them.\n•\tInstrument and measure. Define the metrics that tell us whether a new feature is working inside live client sites. Build dashboards; interpret them; iterate.\n•\tTranslate field learnings into product. Spend time with project engineers and sales teams; watch where the Stack is friction; propose and ship the fixes.\n•\tRepresent the Founder's Office in tech decisions. Participate in architecture reviews, vendor evaluations, build-vs-buy calls, and the quarterly product rhythm.\n\nRequired\n•\t0 - 1 years of experience at one or more of: product management at a high-growth startup, founding-engineer or technical-cofounder background, strategy / consulting with real tech exposure, or growth-stage ops with a demonstrated technical side\n•\tTier 1 engineering college graduate (B.Tech / B.E.) in CS, EE, Mech, or equivalent\n•\tHands-on technical fluency — you've written code (any modern language), you can read a codebase, you can query a database, you can build a prototype\n•\tComfort with SQL, dashboards, and reading JSON / APIs without hand-holding\n•\tStrong product intuition — you've shipped features users actually care about, in a live system\n•\tBias for action and comfort with ambiguity; you ship rather than just scope\n•\tHonest, evidence-first communication\n•\tCan work 50–60 hours, 6 days a week during intense phases\n\nNice to have\n•\tExperience with the Frappe Framework — our platform is built on it\n•\tPrior AI / LLM product work — prompt engineering, agentic workflow design, embeddings, RAG, scoring systems\n•\tPrior exposure to construction, MEP, infrastructure, or industrial B2B\n•\tFounding-team or first-PM experience at a tech-enabled operations business\n•\tComfort with Python, React, PostgreSQL, Redis — our stack\n\nNot a fit\n•\tYou want a pure product strategy / PRD-writing role. This is strategy + prototyping + shipping, with weight on the shipping end.\n•\tYou want to write production code every day. The MTS roles are for that.\n•\tYou can't tell a dashboard from a Jira ticket. The job needs real technical fluency to work with engineering as a peer.\n•\tYou want a 9–5 structured role. Early-stage reality is messier.\nWhy join\n•\tDirect work with the founders + the engineering team on the product that defines the business\n•\tA live product with 70+ production customers every day. Your work ships to real sites. The feedback loop is sharp.\n•\tFast-track to leadership. High performers from the Founder's Office move into function-head or Head-of-Product roles as the company scales.\n•\tReal impact in a $17B industry with no scaled tech-enabled player — the Nirmaan Stack is the moat, and the Founder's Office (Tech) is the role that extends it.\n\nAbout Nirmaan\nNirmaan (Stratos Infra Technologies Pvt. Ltd.) is India's first tech-enabled MEP execution platform. Revenue grew from ₹18.3 Cr to ₹33 Cr in a year, with a ₹25 Cr+ confirmed order book and 74% repeat orders from 30+ unique customers. Clients include Decathlon, Siemens, Grant Thornton, Cushman &amp; Wakefield, Hexaware, and 30+ others. We operate across 20+ cities. Our mission is to rebuild India's $17B MEP industry around software. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-18T13:52:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "4b747d243ba04bb783578229b4290282",
+      "source": "wellfound",
+      "company": "Nirmaan",
+      "role": "Member of Technical Staff  (Full-Stack, Python + React)",
+      "url": "https://wellfound.com/jobs/4852150-member-of-technical-staff-full-stack-python-react",
+      "jd_text": "About the role\nYou'd be joining the team building the Nirmaan Stack — the proprietary software platform that turns MEP (Mechanical / Electrical / Plumbing) contracting from a relationship business into a scalable one.\nNirmaan is India's first tech-enabled MEP contractor. Our software runs every stage of a project's lifecycle — from the sales call to final handover — across 70+ live sites and 20+ cities. The reason one team can run 70 live projects at once is that the Stack holds what a traditional contractor keeps in the owner's head.\nYou'll own full-stack features end-to-end — Python backend, React frontend, real-time event systems, and the infrastructure that keeps it all fast. You'll make architectural decisions, optimize across the stack, and ship high-quality software that goes directly into live client projects.\n\nWhat you'll do\n•\tArchitect, build, and maintain full-stack features spanning a Python backend and a React frontend\n•\tDesign backend services and APIs with clean data models and efficient database access\n•\tDesign and operate real-time, event-driven systems — live updates, notifications, collaborative views (Socket.IO + Redis pub/sub)\n•\tOwn containerized development and deployment workflows (Docker); contribute to release pipelines and infrastructure management\n•\tProfile, monitor, and optimize application and infrastructure performance — caching, query tuning, scaling\n•\tTranslate product and UX requirements into performant, accessible, well-structured interfaces\n•\tSet technical standards; participate in code reviews; help guide architectural decisions\n•\tDebug and troubleshoot across the full stack, from the browser down to the infrastructure layer\n\nRequired\n•\t3+ years of professional software development experience spanning backend and frontend\n•\tStrong Python — building backend services and APIs\n•\tStrong React — hooks, component architecture, state management\n•\tReal-time / event-driven systems — WebSockets / Socket.IO, pub/sub patterns\n•\tRedis — caching, pub/sub, queues, session management\n•\tDocker + containerized development; working understanding of deployment and infrastructure\n•\tPostgreSQL + data modeling fundamentals\n•\tSolid CS fundamentals — data structures, concurrency, API design\n•\tGit + collaborative version-control workflows\n•\tBachelor's in CS, Engineering, or related — Tier 1 engineering college preferred\nNice to have\n•\tFrappe Framework (strongly preferred — it's a core part of our stack)\n•\tCI/CD pipeline ownership and release automation\n•\tCloud infrastructure and observability tooling\n•\tPerformance profiling and scaling of production systems\nWhy join\n•\tEnd-to-end ownership of customer-facing systems in a product that modernizes how construction and MEP projects actually get executed\n•\tReal influence over architecture and infrastructure decisions — not just feature work\n•\tCollaborative engineering culture with room to grow across the stack\n•\tA product with 70+ live production users every day — you'll see your work in the field immediately\n•\tIIT-IIM pedigreed founding team — operating experience from Flipspaces, Lodha, Kalpataru\n\nAbout Nirmaan\nNirmaan (Stratos Infra Technologies Pvt. Ltd.) is India's first tech-enabled MEP execution platform. Revenue grew from ₹18.3 Cr to ₹33 Cr in a year, with a ₹25 Cr+ confirmed order book and 74% repeat orders from 30+ unique customers. Clients include Decathlon, Siemens, Grant Thornton, Cushman &amp; Wakefield, Hexaware, and 30+ others. We operate across 20+ cities. Our mission is to rebuild India's $17B MEP industry around software. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-18T13:52:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b7f08c07b19a26795ea87efd7e7f4d0c",
+      "source": "wellfound",
+      "company": "Mecka.ai",
+      "role": "Hardware, Calibration Engineer",
+      "url": "https://wellfound.com/jobs/4728321-hardware-calibration-engineer",
+      "jd_text": "### About Mecka AI\n\nMecka AI is building the data infrastructure layer for robotics and embodied AI.  \nWe design and operate global systems for data capture, data labeling, and hardware-enabled workflows used by leading AI labs and robotics companies to train and validate humanoid and embodied AI systems.  \nWe work closely with frontier robotics teams to bridge real-world data, simulation, learning-based systems, and deployed hardware.\n\n## About the Role\n\nYou will build the calibration systems that let Mecka capture the physical world accurately at scale. As our data collection grows, your work will make millions of observations useful for teaching robots how to move and interact with the world.\n\nYou will own camera and camera–IMU calibration from algorithms to production. Bring deep expertise in camera geometry, strong software skills, and the drive to turn precise laboratory results into reliable performance across a growing fleet of real hardware.\n\n## What You Will Do\n\n- Develop camera intrinsics, multi-camera extrinsics, and camera–IMU spatial and temporal calibration.\n- Build automated calibration stations, including capture software, targets, fixtures, and acceptance tests.\n- Validate accuracy on independent data and real hardware, and diagnose the causes of calibration errors.\n- Take calibration into production, improving accuracy, yield, and cycle time.\n- Detect calibration drift and develop practical methods for recalibrating devices in use.\n\n## Skills and Experience\n\n- 5+ years of experience in camera calibration, computer vision, or robotics, including hands-on delivery of calibration for production hardware.\n- Strong understanding of camera models, multi-view geometry, and nonlinear optimization; experience implementing calibration algorithms.\n- Strong C++ and Python skills, with practical use of OpenCV and optimization tools such as Ceres.\n- Experience with wide-angle or fisheye cameras, camera–IMU alignment, time offsets, and rolling-shutter effects.\n- Experience building production calibration stations and verifying accuracy beyond the calibration dataset.\n\n## Nice to Have\n\n- Experience with visual-inertial odometry, SLAM, or online recalibration.\n\n## About You\n\n- You are ambitious about what you build. You can point to results you personally delivered.\n- You care deeply about your craft, pursue difficult questions, and learn quickly.\n- You take initiative and own problems through to results. You work independently, make decisions, and bring others in when needed.\n- You communicate honestly. You own mistakes, share credit, and help the people around you succeed.\n\n## A Note on Applying\n\nStudies show women and candidates from underrepresented groups often only apply when they meet 100% of the listed qualifications, while others apply after meeting 60%. If you don't check every box above but believe you can do the job, we encourage you to apply — we're looking for capability and trajectory, not a perfect checklist match.  \n  \n**Inclusive Hiring at Mecka**\n\nWe are committed to creating an inclusive and supportive candidate experience. Should you require any accommodation whatsoever during the interview process, please inform us without any hesitation. Mecka is dedicated to ensuring equal treatment and opportunity in all phases of recruitment, selection, and employment, in compliance with employment law. We do not discriminate based on gender, race, religion, national origin, ethnicity, disability, gender identity/expression, sexual orientation, veteran or military status, or any other protected category. Mecka is proud to be an equal opportunity employer, fostering a culture of inclusivity and maintaining a work environment that is free from discrimination, harassment, and retaliation.\n\n**Use of Artificial Intelligence in Recruitment**\n\nMecka uses artificial intelligence (AI) responsibly to support administrative and efficiency-focused aspects of our recruitment process. This includes activities such as drafting job descriptions, generating interview questions, note-taking and recordings, and supporting sourcing and scheduling workflows. All candidate evaluations, interviews, and hiring decisions are made by members of the Mecka team. While AI tools may assist with screening and assessment, they do not replace human judgment in selection decisions. Our use of AI is intended to streamline routine tasks, improve consistency, and enhance the overall candidate experience. We are committed to upholding principles of fairness, transparency, and accountability in all hiring activities. Mecka regularly reviews its recruitment practices to mitigate bias and to ensure alignment with applicable laws and evolving best practices.\n\n China Toronto\nlocationNames: China Toronto",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-18T13:52:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "5687d815aff2df2c130ddfb7bebd4746",
       "source": "wellfound",
