@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-18T22:17:41+00:00",
+  "exported_at": "2026-10-19T03:25:03+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 926,
+    "discovered": 928,
     "pending_approval": 250,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "7e8805c9e2bc8c4262755ec08cf1207b",
+      "source": "yc",
+      "company": "Asha Health",
+      "role": "Member of Technical Staff, AI",
+      "url": "https://www.workatastartup.com/jobs/117419",
+      "jd_text": "### **About Asha Health**\n\nAsha Health is building an AI OS for outpatient care. It’s the year of AI agents, and startups selling AI agents to healthcare organizations will do great in this wave. While we’re rooting for them, we’re building **what comes after**. We're backed by Y Combinator, General Catalyst, 186 Ventures, Reach Capital and many more. We raised an oversubscribed seed round from some of the best investors in Silicon Valley. Our team includes AI product leaders from companies like Google, physician executives from major health systems, and more.\n\n### **About the Role**\n\nWe're looking for a **Member of Technical Staff, AI** to lead our currently (and hopefully always) small AI engineering team. The twist: you’ll also be coding &amp; building every day. Let us explain \\~\n\n* As AI models evolve, engineering, product management, and design are all changing. We believe old job descriptions should be completely tossed out the door. The future belongs to “builders”: people that are strong engineers, but essentially act as their own PM’s, designers, and user researchers. They talk to customers, decide what to build, how to build it, and have the highest bar for product &amp; UX “taste”.\n* As a Member of Technical Staff, AI **you will call the shots** - talk to customers, decide what we build, why we build it, and how we build it. You will lead an engineering team (of both humans &amp; agents). However, you will also be an IC **building** a lot yourself. Why? \n  * Now, more so than ever, it is impossible to be good at product without being deep, hands on building AI products using AI products every day. You have to be deep in the weeds if you want to call the shots.\n  * The era of middle management is gone. With the power of AI, the next generation of product leaders will drive impact through both people and agents, master both breadth &amp; depth over vast amounts of product surface area, and earn their influence through not just their ideas but what they build.\n\n### **Requirements**\n\n* Graduated with a bachelors in computer science or related degree.\n* Strong engineering experience AND PM experience.\n* Confident as an engineer: you feel like you can build anything you put your mind to. You spent a few years being an eng IC.\n* Confident as a PM: you’ve led the product roadmap for high impact products.\n* Must be ready to work in person in Manhattan, New York 5 days per week in person but 6 days per week total.\n\n### **Is this role for you?**\n\n* **We want to take a bet.** We’re not looking for seasoned product leaders with 10+ YOE. We’re looking for someone incredibly ambitious, who has maybe never even led a team before but for that very reason is ready to give it their all to step up to the challenge.\n* **You’d be the 5th member of the product &amp; engineering team.** You’d be both an IC and a team lead and work directly with our CEO, CTO, and CMO every day. Lot of ownership; potentially rapid career growth. Think you could be our Tibo?\n* **The math:** cash comp on par with growth-stage companies, but equity substantially higher. Does the upside justify the risk for you?\n* **Passion matters.** Healthcare isn’t just inefficient; it’s a catastrophe. Think you got a bone to pick with it?\n* **We're building a moonshot.** Most AI healthcare startups are taking strategic, measured approaches. We’re rooting for them and think they'll do great in this wave. We're building what comes after. Does that scare you or excite you?\n* **At Asha, engineering is the #1 lever.** We can’t keep up with sales, and we have contracted ARR piling up. Unlike most of the healthcare market, product &amp; engineering (not sales/gtm) is the biggest lever to pull. New York, NY, US fulltime possible\nlocations: New York, NY, US\nremote: no\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-19T03:24:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f094833418ca5747b553bebfe08bc848",
+      "source": "yc",
+      "company": "Corgi Insurance",
+      "role": "Account Executive",
+      "url": "https://www.workatastartup.com/jobs/117417",
+      "jd_text": "## About Corgi\n\nCorgi is a full-stack insurance carrier. We're an AI-native company that underwrites and issues policies while selling direct to the customer. That lets us price risk better and move faster than anyone in the market. We've raised over $108M, and we're launching a new line of business to take the company to its next level.\n\nTransportation insurance is still being underwritten by people with paper files and 1990s rating engines. We're going to fix that.\n\n## About the role\n\nWe're building a national transportation insurance business. We need an Account Executive who can close mid-market fleet owners across the country, and stay close through onboarding, the first claim, and the first renewal.\n\nYou'll work hand-in-hand with an SDR team that keeps your calendar full. Your job is to run discovery, partner with underwriting on the quote, navigate the broker and agent dynamics where they exist, get to bind, and own the relationship from there.\n\nWe work hard, we work long, and we hold each other to a high standard. Hit your numbers consistently and there's a clear path to Enterprise AE.\n\n## Team\n\nYou'll work directly with the two executives leading this division:\n\nBrianna Lynch began her career at EY before leading FP&A and Corporate Development at HarbourVest Partners. She then joined Affiliated Managers Group, an $880 billion asset manager based in MA, where she worked across M&A and Investor Relations acquiring and advising private equity, hedge fund, and venture capital firms. After traveling through Europe and advising startups, she joined Corgi in 2025 as Head of Finance and leading M&A efforts with Drew. Most recently, Brianna and Drew are helping launch the Company's transportation insurance business and looking to expand their team.\n\nDrew Bregman previously founded a behavioral assessment company that helps the NSA and U.S. military identify talent. Before that, he co-founded Corgi's M&A team, as well as the sales division at Corgi's subsidiary Beagle (40% MoM growth), and earlier built transportation management software as an engineer at a large freight brokerage.\n\nDaniel Hausman, VP, Trucking Program, leads the transportation program this division is building.\n\n## Your first 30 days\n\n- Close a deal\n- Get certified on our product, forms, rates, and appetite so you can hold a real conversation with a fleet owner, dispatcher, or safety director\n- Master the fundamentals of transportation insurance: coverage, filings, and fleet operations\n- Build the working rhythm with your SDRs. Sit with them, listen to their dials, sharpen their qualification\n- Sit with underwriting, claims, and ops to understand the full quote-to-bind workflow and what we can move on versus what we can't\n- Start running discovery calls and getting quotes into market\n\n## Your first 60 days\n\n- Hit your first full month of quota\n- Build a pipeline that's 3x your monthly quota with clean stages, accurate forecast, and named next steps\n- Develop your discovery and quote presentation motion. Find your patterns.\n- Surface the win/loss themes back to product, underwriting, and the SDR team so we sharpen the appetite and the targeting\n- Build a renewal and expansion playbook for the accounts you've already bound\n\n## What you'll do\n\n- **Pipeline management.** Take qualified meetings from SDRs and work them end to end. Discovery, quote, negotiation, bind. Run a tight CRM, a clean forecast, and an honest pipeline.\n- **Discovery and underwriting partnership.** Work with underwriters to build a quote that wins and that we can stand behind.\n- **Closing.** Negotiate price, coverage, terms, and effective date. Get the policy bound.\n- **Account ownership.** Stay close through onboarding, the first claim, and the first renewal, and find the expansion opportunities.\n- **Cross-functional feedback.** Tell product, underwriting, and SDRs what's winning, what's losing, and what we need to change to win more.\n\n## What we're looking for\n\n- 3 to 5 years selling B2B, ideally in commercial insurance, transportation, freight, fleet management, or adjacent infrastructure\n- You've personally closed meaningful deals and can walk us through how\n- Comfortable with technical conversations across coverage and operations\n- Strong written and verbal communication. You write like an operator, not a brochure\n- High agency, high ownership, low drama\n- Authorized to work in the US\n\n## Bonus\n\n- Prior commercial transportation insurance sales experience\n- Existing relationships with mid-market fleets, dispatchers, safety directors, or fleet operations leads\n- Experience selling at an insurance carrier, MGA, or transportation-focused brokerage or agency\n\n## Compensation\n\n- On-target earnings: $190,000 to $230,000, with competitive base and uncapped commission tied to bound premium\n- Equity\n- Health, dental, vision Philadelphia, PA, US fulltime yes\nlocations: Philadelphia, PA, US\nremote: no\nmin_experience: 1",
+      "match_score": 5.62,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-19T03:24:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.34,
+            "overlap": 10.93,
+            "combined": 5.61
+          },
+          "backend": {
+            "cosine": 2.18,
+            "overlap": 9.4,
+            "combined": 4.34
+          },
+          "frontend": {
+            "cosine": 3.05,
+            "overlap": 11.17,
+            "combined": 5.49
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.34,
+        "keyword_overlap_score": 10.93,
+        "final_score": 5.62,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1291
+          },
+          {
+            "term": "high",
+            "weight": 0.0627
+          },
+          {
+            "term": "management",
+            "weight": 0.0513
+          },
+          {
+            "term": "end",
+            "weight": 0.0418
+          },
+          {
+            "term": "experience",
+            "weight": 0.0342
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "4c6f94d1151f8129bd79f1d6908de832",
       "source": "wellfound",
