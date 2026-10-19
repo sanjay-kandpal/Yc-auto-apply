@@ -1,15 +1,321 @@
 {
-  "exported_at": "2026-10-19T09:40:06+00:00",
+  "exported_at": "2026-10-19T16:54:35+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 931,
-    "pending_approval": 251,
+    "pending_approval": 252,
+    "discovered": 935,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "80fbc2f136adca34527286bc5e11ac53",
+      "source": "wellfound",
+      "company": "Variabl",
+      "role": "Full-Stack Engineer (AI)",
+      "url": "https://wellfound.com/jobs/4866983-full-stack-engineer-ai",
+      "jd_text": "Company: Variabl\nExperience: 0–4 years (Strong freshers welcome)\nEmployment: Full-time\nLocation: Koramangala, Bengaluru\n\n**About Variabl**\nVariabl is building an AI-first fintech platform for businesses and consumers.\n\nOur platform brings together invoicing, payments, GST, accounting, cash flow, and everyday financial operations into one connected experience.\n\nAt the heart of Variabl is **Maya**, our **AI agent**.\n\nMaya helps users draft invoices, record payments, issue credit notes, and understand their finances by interacting with real financial data and tools.\n\nWe're a small team where engineers take ownership of features from start to finish, from database architecture and AI integrations to the final user experience.\n\nThis isn't a role where you simply pick up tickets and write code.\n\nYou'll work directly with our founders, Chartered Accountants, and product team to understand real financial problems and build software that solves them.\n\nWhat You'll Work On\n\n1. Full-Stack Product Development\n\nBuild end-to-end features across frontend, backend, databases, and APIs.\nDevelop responsive, intuitive, and high-performance user interfaces.\nDesign scalable backend services, authentication systems, and background jobs.\nTake features from idea to production and continuously improve them.\n\n2. AI Agents &amp; LLM Integration\n\nBuild and improve Maya, our AI-powered finance agent.\nIntegrate LLMs such as Claude, Gemini (Vertex AI), and OpenAI models.\nDevelop agent tools, function schemas, system prompts, and multi-step workflows.\nImplement structured outputs, streaming responses, and AI-powered interfaces.\nImprove AI reliability through validation, error handling, retries, and confirmation mechanisms.\nOptimise AI performance for accuracy, latency, and cost.\nBuild MCP servers and APIs that enable other AI applications to interact with our platform.\n\n3. Backend &amp; API Development\n\nDesign and maintain RESTful APIs using Python and FastAPI.\nDevelop secure and reliable backend services.\nBuild integrations with external services and financial platforms.\nImplement authentication, authorisation, data validation, and error handling.\n\n4. Database &amp; Financial Systems\n\nWork with PostgreSQL to design schemas, queries, migrations, and transactions.\nBuild reliable systems for invoices, payments, accounting, and financial records.\nUnderstand and implement financial workflows involving GST, TDS, reconciliation, and reporting.\nMaintain data accuracy, consistency, and integrity across the platform.\n\n5. Frontend &amp; User Experience\n\nBuild modern web applications using React, Next.js, and TypeScript.\nCreate clean and intuitive interfaces using Tailwind CSS, shadcn/ui, and Radix.\nDevelop AI-native experiences such as interactive chat interfaces, streaming responses, and dynamic UI components.\nPay attention to design details including layout, typography, spacing, responsiveness, and interactions.\n\n6. Third-Party Integrations\n\nIntegrate payment gateways, banking APIs, and Account Aggregator systems.\nWork with KYC providers, GST platforms, and financial data services.\nDevelop reliable integrations between AI agents, internal services, and external APIs.\n\n7. Deployment &amp; Engineering\n\nDeploy and maintain services on Google Cloud Platform (GCP).\nWork with Docker, Git, testing frameworks, and deployment pipelines.\nMonitor application performance, debug production issues, and improve system reliability.\nWrite clean, maintainable, and well-tested code.\n\n**What We're Looking For**\n\nStrong Full-Stack Fundamentals\n0–4 years of experience building web applications.\nHands-on experience across frontend, backend, and databases.\nStrong programming fundamentals and problem-solving skills.\nAbility to independently develop and deploy a complete application.\n\nFrontend Development\nStrong knowledge of JavaScript/TypeScript and React.\nExperience with Next.js, HTML, CSS, and Tailwind CSS.\nUnderstanding of responsive design, state management, and API integrations.\nAttention to UI design and user experience.\n\nBackend Development\nStrong Python programming skills.\nExperience building REST APIs using FastAPI, Flask, or Django.\nUnderstanding of HTTP protocols, API design, authentication, and authorisation.\nFamiliarity with Pydantic and SQLAlchemy is a plus.\n\nDatabase Knowledge\nStrong SQL fundamentals.\nExperience working with PostgreSQL.\nUnderstanding of database design, joins, indexes, migrations, and transactions.\nAttention to data precision and integrity.\n\nAI &amp; LLM Engineering\nPractical experience building applications using LLM APIs, with an understanding of:\nTool calling and function calling.\nPrompt engineering and system instructions.\nMulti-step AI agent workflows.\nAgent frameworks such as Google ADK, LangGraph, or OpenAI Agents SDK.\nStructured outputs and streaming.\nContext management, sessions, and memory.\nModel accuracy, token usage, latency, and cost optimisation.\nTesting and evaluating AI-generated outputs.\nDevelopment Fundamentals\nGit and GitHub.\nDocker.\nDebugging and testing.\nUnderstanding of cloud deployments.\nAbility to understand and work with existing codebases.\n\nHow We Work\n\nOwnership: You take responsibility for what you build, from understanding the problem to shipping and improving the solution.\n\nSpeed: You enjoy building and shipping quickly while maintaining quality.\n\nAttention to Detail: You notice the small things, whether it's a UI inconsistency, a rounding error, or an overlooked edge case.\n\nProblem Solving: You think beyond the immediate requirement and try to understand the underlying problem.\n\nCuriosity: You're excited to learn about finance, AI, and new technologies.\n\nProduct Thinking: You care about how people experience your work, not just whether the code runs.\n\n**Nice to Have**\nExperience with fintech, accounting, GST, invoicing, payments, or UPI.\nFamiliarity with Cashfree, banking APIs, Account Aggregators, or KYC integrations.\nExperience with React Native, Flutter, or mobile applications.\nDesign experience using Figma.\nFamiliarity with Cloud Build, CI/CD, background workers, or PostHog.\nExperience building AI agents used in production.\nKnowledge of MCP servers, AI agent skills, and prompt caching.\nExperience with LLM evaluations, tracing, and observability.\nFamiliarity with RAG, embeddings, and document extraction.\nExperience with Node.js, Express, or Clerk.\nOpen-source contributions, hackathon projects, or independently built products.\n\n**Freshers Are Welcome!\n**\nWe care more about what you've built than where you've studied or how many years of experience you have.\n\nIf you're a fresher, we'd love to see:\nOne or two complete full-stack projects you've built independently.\nA live application or GitHub repository demonstrating your work.\nExperience building a frontend, backend, database, authentication, and deployment.\nAt least one AI-powered application using LLMs, tool calling, or agent workflows.\nThoughtful UI design and attention to the overall user experience.\nProjects that go beyond tutorials and solve real problems.\nExperience building a finance, payments, or money management application is a bonus.\n\n**Why Join Variabl?**\nBuild real products: Work on software used for real financial operations.\nOwn your work: Take responsibility for meaningful features from day one.\nWork with AI: Build production-grade AI agents that interact with real financial data.\nLearn finance: Work closely with Chartered Accountants and finance founders.\nGrow quickly: Join a small, fast-moving team where your contributions directly shape the product.\nSolve meaningful problems: Help make finance simpler and more accessible for businesses and individuals.\n\n**How to Apply**\n\nShare your:\n\nResume\nGitHub profile or portfolio\nA project you've built that you're particularly proud of\nA short explanation of what interests you about AI, finance, or fintech\n\nWe'd especially love to hear about the most interesting application you've built using an LLM.\n\nOur Hiring Process\nShort introductory conversation\nPractical take-home assignment or live build exercise\nTechnical discussion about your work\nFinal conversation with the founders\n\nInterested in building the future of finance with AI?\n\nWe'd love to hear from you. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 18.0,
+      "resume_variant": "backend",
+      "draft_answer": "I've built FastAPI backends for critical compliance platforms, significantly boosting API performance with Redis caching and guaranteeing data delivery under high load with RabbitMQ, which directly applies to developing Variabl's AI-first financial platform. My experience validating LLM tool-calling reliability and owning secure cloud deployments with blue-green CI/CD positions me to take end-to-end ownership of features and enhance Maya, Variabl's AI agent.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-19T16:54:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 14.64,
+            "overlap": 24.83,
+            "combined": 17.7
+          },
+          "backend": {
+            "cosine": 14.76,
+            "overlap": 25.56,
+            "combined": 18.0
+          },
+          "frontend": {
+            "cosine": 12.36,
+            "overlap": 26.21,
+            "combined": 16.52
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 14.76,
+        "keyword_overlap_score": 25.56,
+        "final_score": 18.0,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3072
+          },
+          {
+            "term": "experience",
+            "weight": 0.2302
+          },
+          {
+            "term": "using",
+            "weight": 0.1024
+          },
+          {
+            "term": "agent",
+            "weight": 0.0896
+          },
+          {
+            "term": "apis",
+            "weight": 0.0837
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-19T16:54:31+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "596d8dc07ed4636bb411d748c14ce19e",
+      "source": "wellfound",
+      "company": "CDSpace Robotics",
+      "role": "Robotics Perception and Edge AI Engineer",
+      "url": "https://wellfound.com/jobs/4867019-robotics-perception-and-edge-ai-engineer",
+      "jd_text": "### About the Role\n\nCDSPACE is looking for a Robotics Perception and Edge AI Engineer to develop real-time perception and intelligent navigation capabilities for UAV and robotic platforms.\n\nYou will build computer-vision and sensor-processing pipelines, integrate perception systems with ROS/ROS2, and deploy optimized AI models on edge-computing platforms. The role spans algorithm development, sensor integration, simulation, onboard deployment, bench testing, and flight validation.\n\n### What You’ll Do\n\n**Robotics Perception**\n\n- Develop perception algorithms for object detection, tracking, classification, localization, and scene understanding.\n- Build real-time image-processing pipelines using OpenCV and GStreamer.\n- Develop perception capabilities using monocular, stereo, thermal, depth, and other camera systems.\n- Integrate data from cameras, IMUs, LiDAR, GPS/GNSS, optical-flow sensors, and other UAV payloads.\n- Support sensor calibration, synchronization, coordinate transformations, and timestamp alignment.\n- Improve perception performance across changing lighting, motion, altitude, weather, and operating conditions.\n\n**Computer Vision and Machine Learning**\n\n- Develop, train, evaluate, and improve computer-vision and deep-learning models.\n- Prepare datasets and define data-collection, annotation, cleaning, and augmentation workflows.\n- Select model architectures based on accuracy, latency, memory, power, and hardware constraints.\n- Define evaluation metrics and conduct structured model-performance analysis.\n- Investigate model failures, dataset limitations, false detections, and edge cases.\n- Maintain reproducible training, validation, and experiment-tracking workflows.\n\n**Edge AI Deployment**\n\n- Deploy AI models on NVIDIA Jetson, Raspberry Pi, and other edge-computing platforms.\n- Optimize models for real-time inference using quantization, pruning, hardware acceleration, and other optimization techniques.\n- Convert and deploy models using ONNX, TensorRT, or similar inference frameworks.\n- Profile CPU, GPU, memory, power consumption, throughput, and end-to-end latency.\n- Integrate inference pipelines with cameras, sensors, communication systems, and flight software.\n- Develop reliable startup, monitoring, logging, recovery, and health-check mechanisms for onboard AI applications.\n\n**ROS and Robotics Integration**\n\n- Integrate sensors and perception pipelines with onboard computing platforms using ROS/ROS2.\n- Develop ROS/ROS2 nodes, services, topics, actions, and launch configurations.\n- Build and test robotic applications using Gazebo or similar simulation environments.\n- Integrate perception outputs with guidance, navigation, control, and mission-planning systems.\n- Develop interfaces between onboard computers, flight controllers, payloads, and ground-control systems.\n- Diagnose issues across sensors, middleware, networks, embedded software, and onboard computers.\n\n**UAV and Autonomous Systems**\n\n- Develop perception and navigation capabilities for multirotor and fixed-wing UAV platforms.\n- Support obstacle detection, target tracking, visual navigation, inspection, and autonomous mission workflows.\n- Integrate onboard perception applications with PX4, ArduPilot, or similar flight stacks.\n- Support communication with flight controllers using MAVLink.\n- Work with QGroundControl, Mission Planner, and related UAV tools.\n- Collaborate with avionics, embedded software, controls, hardware, and flight-test teams.\n\n**Testing and Validation**\n\n- Conduct software-in-the-loop and hardware-in-the-loop simulations.\n- Develop test datasets, test scenarios, and acceptance criteria for perception systems.\n- Perform bench testing, field testing, and flight trials.\n- Evaluate system performance under representative operating and environmental conditions.\n- Diagnose sensor, communication, model, software, and system-level issues.\n- Perform root-cause analysis and implement corrective actions.\n- Maintain testing procedures, integration records, model documentation, and validation reports.\n\n**Application and Interface Development**\n\n- Develop supporting applications, visualization tools, and operator interfaces.\n- Build tools for model configuration, telemetry monitoring, data recording, playback, and analysis.\n- Support Qt-based software development when required.\n- Implement clear logs, diagnostics, and system-health reporting.\n- Maintain modular, testable, and documented software.\n\n### Required Qualifications and Skills\n\n- Strong proficiency in Python.\n- Working proficiency in C/C++ for performance-critical and hardware-integrated applications.\n- Experience developing and deploying computer-vision or deep-learning models.\n- Experience with OpenCV and real-time image-processing pipelines.\n- Familiarity with GStreamer or similar multimedia frameworks.\n- Experience with a deep-learning framework such as PyTorch or TensorFlow.\n- Understanding of model training, validation, dataset preparation, augmentation, and performance evaluation.\n- Experience deploying AI models on edge-computing platforms.\n- Familiarity with ROS/ROS2 and robotic software architectures.\n- Experience integrating cameras, sensors, and onboard computing systems.\n- Understanding of Linux-based development environments, networking, and system debugging.\n- Ability to profile and optimize inference latency, throughput, memory usage, and power consumption.\n- Strong analytical, debugging, and problem-solving skills.\n- Ability to communicate technical findings clearly and work effectively across engineering teams.\n\n### Good to Have\n\n- Experience with NVIDIA Jetson, CUDA, TensorRT, ONNX, or GPU-accelerated computing.\n- Experience with Raspberry Pi or other embedded Linux platforms.\n- Knowledge of object detection, tracking, segmentation, visual odometry, SLAM, or sensor fusion.\n- Experience with ROS/ROS2, Gazebo, and robotics simulation.\n- Knowledge of MAVLink, QGroundControl, and Mission Planner.\n- Hands-on experience with PX4, ArduPilot, or a similar flight stack.\n- Understanding of UAV flight dynamics and multirotor or fixed-wing architectures.\n- Experience with Qt software development.\n- Experience with camera calibration, synchronization, streaming, and recording.\n- Familiarity with MLOps, experiment tracking, dataset versioning, and automated model evaluation.\n- Experience taking perception or AI systems from research prototypes through field deployment.\n\n**Experience:** 3–5 years in computer vision, robotics perception, AI/ML, or edge computing.\n\n**Education:** Degree in Electronics, Electrical Engineering, Computer Science, Artificial Intelligence, Robotics, or a related engineering discipline. India\nlocationNames: India",
+      "match_score": 8.5,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-19T16:54:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.47,
+            "overlap": 13.25,
+            "combined": 8.5
+          },
+          "backend": {
+            "cosine": 6.01,
+            "overlap": 13.16,
+            "combined": 8.15
+          },
+          "frontend": {
+            "cosine": 5.16,
+            "overlap": 15.05,
+            "combined": 8.13
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.47,
+        "keyword_overlap_score": 13.25,
+        "final_score": 8.5,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1473
+          },
+          {
+            "term": "ai",
+            "weight": 0.1248
+          },
+          {
+            "term": "model",
+            "weight": 0.1109
+          },
+          {
+            "term": "using",
+            "weight": 0.097
+          },
+          {
+            "term": "hardware",
+            "weight": 0.0693
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ad622e661da43331f05a179fdca6f65e",
+      "source": "wellfound",
+      "company": "CDSpace Robotics",
+      "role": "Embedded Software Engineer",
+      "url": "https://wellfound.com/jobs/4867012-embedded-software-engineer",
+      "jd_text": "### About the Role\n\nCDSPACE is looking for an Embedded Software Engineer who enjoys working close to hardware, solving challenging technical problems, and building reliable embedded systems.\n\nYou will develop real-time firmware for drone gimbals, stabilization systems, avionics, and communication subsystems. The role covers the complete embedded development lifecycle, including architecture, implementation, hardware bring-up, debugging, testing, optimization, and production support.\n\n### What You’ll Do\n\n**Real-Time Firmware Development**\n\n- Develop and maintain embedded firmware using C and C++.\n- Build real-time firmware for drone gimbals, stabilization systems, avionics, and related subsystems.\n- Develop bare-metal and RTOS-based applications for STM32, ESP32, and similar microcontrollers.\n- Design concurrent firmware components, interrupt-driven systems, and timing-critical control functions.\n- Optimize firmware for execution speed, memory usage, power consumption, and reliability.\n\n**Drone Communication and Subsystem Integration**\n\n- Develop communication interfaces between flight controllers, gimbals, sensors, payloads, motor controllers, and onboard computers.\n- Implement and debug communication protocols such as UART, SPI, I2C, CAN, and RS-485.\n- Support integration with wireless communication technologies such as Bluetooth Low Energy and Wi-Fi.\n- Develop reliable data handling, device management, error detection, and recovery mechanisms.\n- Diagnose communication and integration issues across multiple embedded subsystems.\n\n**Gimbal and Motor-Control Systems**\n\n- Develop firmware for gimbal control, stabilization, sensing, and motor-drive systems.\n- Integrate IMUs, encoders, motor drivers, and other motion-control sensors.\n- Work with BLDC motors, motor controllers, and electronic speed controllers.\n- Support the implementation and tuning of control algorithms for stabilization and motor control.\n- Diagnose timing, vibration, sensor, communication, and control-related issues.\n\n**Hardware Bring-Up and Device Drivers**\n\n- Develop and maintain board support packages, hardware-abstraction layers, and device drivers.\n- Bring up new microcontroller-based boards and validate clocks, memory, power sequencing, peripherals, and communication interfaces.\n- Port firmware to new hardware platforms and microcontroller variants.\n- Read electronic schematics and component datasheets to support firmware development and debugging.\n- Collaborate with hardware engineers to diagnose board-level and hardware-software integration issues.\n\n**Bootloaders and Firmware Updates**\n\n- Develop and maintain bootloaders and firmware-update mechanisms.\n- Support wired and wireless firmware-update workflows.\n- Implement firmware validation, rollback, recovery, and fail-safe mechanisms.\n- Improve the reliability and usability of production programming and update processes.\n\n**Debugging, Testing, and Validation**\n\n- Debug firmware using hardware debuggers, oscilloscopes, logic analyzers, and other laboratory instruments.\n- Develop unit, integration, hardware-in-the-loop, and system-level tests.\n- Investigate firmware defects, timing issues, memory corruption, communication failures, and hardware faults.\n- Perform root-cause analysis and implement corrective actions.\n- Support bench testing, field testing, flight trials, and production validation.\n- Maintain test procedures, debugging records, and technical documentation.\n\n**Production and Engineering Support**\n\n- Improve firmware build, programming, calibration, and production-test workflows.\n- Support manufacturing teams during board programming, testing, and failure analysis.\n- Use Git for version control, collaboration, code review, and release management.\n- Work with hardware, avionics, controls, and flight-test teams to resolve system-level issues.\n- Maintain clear documentation for firmware architecture, interfaces, configuration, and releases.\n\n### Required Qualifications and Skills\n\n- Strong hands-on experience with Embedded C/C++ and low-level programming.\n- Experience with bare-metal development and microcontrollers such as STM32, ESP32, or similar platforms.\n- Understanding of microcontroller peripherals, interrupts, timers, ADCs, DMA, memory, and watchdogs.\n- Experience with UART, SPI, I2C, CAN, RS-485, and related embedded communication protocols.\n- Understanding of RTOS concepts, task scheduling, synchronization, concurrency, and inter-process communication.\n- Experience developing device drivers, board support packages, and hardware-abstraction layers.\n- Knowledge of bootloader development and firmware-update mechanisms.\n- Strong firmware debugging and root-cause analysis skills.\n- Experience using hardware debuggers, oscilloscopes, logic analyzers, and other laboratory instruments.\n- Ability to read electronic schematics, component datasheets, and technical documentation.\n- Basic hardware fault-finding and board bring-up skills.\n- Familiarity with Git and software version-control practices.\n- Ability to communicate technical findings clearly and work effectively across engineering teams.\n\n### Good to Have\n\n- Experience with drones, UAV avionics, autopilots, or gimbal systems.\n- Knowledge of BLDC motors, motor drivers, electronic speed controllers, and motor-control techniques.\n- Experience integrating IMUs, encoders, cameras, or other UAV sensors and payloads.\n- Experience with Bluetooth Low Energy, Wi-Fi, or other wireless communication technologies.\n- Familiarity with control systems, sensor fusion, and stabilization algorithms.\n- Experience with PX4, ArduPilot, MAVLink, or similar UAV technologies.\n- Exposure to FPGA development and FPGA-microcontroller integration.\n- Experience taking embedded products from prototype through manufacturing and production.\n\n**Experience:** 2+ years in embedded software or firmware development.\n\n**Education:** B.E./B.Tech in Electronics and Communication, Electrical and Electronics, Instrumentation, Computer Science, or a related field. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 8.26,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-19T16:54:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.69,
+            "overlap": 14.24,
+            "combined": 8.25
+          },
+          "backend": {
+            "cosine": 4.03,
+            "overlap": 14.29,
+            "combined": 7.11
+          },
+          "frontend": {
+            "cosine": 3.22,
+            "overlap": 14.08,
+            "combined": 6.48
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.69,
+        "keyword_overlap_score": 14.24,
+        "final_score": 8.26,
+        "top_keywords": [
+          {
+            "term": "communication",
+            "weight": 0.2205
+          },
+          {
+            "term": "hardware",
+            "weight": 0.1923
+          },
+          {
+            "term": "embedded",
+            "weight": 0.1696
+          },
+          {
+            "term": "experience",
+            "weight": 0.1235
+          },
+          {
+            "term": "testing",
+            "weight": 0.0687
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1d47c5f01dbe86a117d4d0c0a7140b14",
+      "source": "wellfound",
+      "company": "CDSpace Robotics",
+      "role": "Embedded Hardware Engineer",
+      "url": "https://wellfound.com/jobs/4867010-embedded-hardware-engineer",
+      "jd_text": "### About the Role\n\nCDSPACE is looking for Embedded Hardware Engineers to design, prototype, test, and integrate electronics for aerospace and UAV platforms.\n\nYou will work across high-power and low-power electronics, motor controllers, UAV avionics, gimbal systems, FPGA-based designs, camera systems, and RF communication systems. The role covers the complete hardware lifecycle, from circuit design and component selection through PCB development, bench validation, manufacturing support, and flight integration.\n\n### What You’ll Do\n\n**Electronic Systems Design**\n\n- Design and develop analog, digital, mixed-signal, and power-electronic circuits.\n- Develop low-power electronics for sensing, control, communication, and embedded computing.\n- Develop and validate high-power electronics for motor-control and power-distribution applications.\n- Select components based on electrical, thermal, reliability, availability, and production requirements.\n- Evaluate alternate components and document the engineering basis for substitutions.\n- Design protection, monitoring, and fault-detection circuits for reliable operation.\n\n**Motor Controllers and Power Electronics**\n\n- Develop, modify, and validate motor controllers and electronic speed controllers.\n- Work with BLDC and PMSM motors, three-phase inverters, switching devices, gate drivers, and current- and voltage-sensing circuits.\n- Evaluate motor-control hardware under different loads, operating conditions, and transient events.\n- Measure and optimize RPM, torque, voltage, current, power, efficiency, and thermal performance.\n- Diagnose switching, power-delivery, control, and electromagnetic-noise issues.\n\n**UAV Avionics and Gimbal Systems**\n\n- Design and integrate avionics hardware for UAV platforms.\n- Develop electronics for gimbal control, stabilization, motor drive, sensing, and camera integration.\n- Integrate flight controllers, sensors, payloads, power systems, and onboard computing hardware.\n- Support hardware bring-up and flight integration of avionics and gimbal subsystems.\n- Investigate system-level issues involving power, communication, sensing, and control.\n\n**FPGA and Digital Systems**\n\n- Support FPGA-based hardware development and integration.\n- Develop or integrate FPGA interfaces for high-speed data acquisition, signal processing, control, and communication.\n- Work with microcontrollers, processors, memory devices, and programmable logic.\n- Validate digital interfaces, timing, signal integrity, and hardware-software interactions.\n\n**RF Communication Systems**\n\n- Develop and integrate RF communication hardware for UAV and ground systems.\n- Support wireless telemetry, command-and-control links, and payload communication systems.\n- Evaluate RF modules, transceivers, interfaces, power requirements, and system compatibility.\n- Conduct bench and field testing to diagnose connectivity, interference, range, and reliability issues.\n\n**PCB Development and Manufacturing**\n\n- Read, review, and develop electronic schematics using KiCad.\n- Support PCB layout for high-power, low-power, mixed-signal, RF, motor-control, FPGA, and avionics designs.\n- Review PCB layouts for power integrity, signal integrity, grounding, thermal performance, manufacturability, and testability.\n- Prepare and maintain bills of materials, component specifications, assembly documentation, and test reports.\n- Coordinate with PCB fabrication, assembly, and manufacturing teams during prototyping and production.\n- Apply design-for-manufacturing and design-for-test principles to improve product reliability and testability.\n\n**Hardware Prototyping, Testing, and Validation**\n\n- Build prototypes and perform hardware bring-up, bench testing, and system integration.\n- Create test setups for motor controllers, avionics, gimbal systems, RF systems, power electronics, and camera hardware.\n- Use oscilloscopes, multimeters, current probes, logic analyzers, power supplies, electronic loads, and related laboratory instruments.\n- Conduct controlled tests across different loads, temperatures, operating conditions, and transient events.\n- Perform root-cause analysis across hardware, firmware, and system interfaces.\n- Implement corrective actions and verify their effectiveness.\n- Prepare test procedures, validation reports, and technical documentation.\n\n### Required Qualifications and Skills\n\n- Strong understanding of analog, digital, mixed-signal, and power-electronic design.\n- Practical experience with high-power and low-power electronic systems.\n- Experience with Embedded C/C++ and microcontroller-based systems.\n- Familiarity with ARM-based microcontrollers, STM32, or similar platforms.\n- Understanding of BLDC/PMSM motors, three-phase inverters, motor controllers, and ESC architecture.\n- Knowledge of switching devices, gate drivers, current sensing, voltage sensing, power conversion, and protection circuits.\n- Understanding of UAV avionics, gimbal systems, sensors, payloads, and onboard electronics.\n- Familiarity with FPGA hardware, programmable logic, or high-speed digital interfaces.\n- Understanding of RF communication systems and wireless hardware integration.\n- Experience with communication protocols such as CAN, UART, SPI, I2C, and RS-485.\n- Experience with PCB design, component selection, hardware bring-up, and laboratory testing.\n- Ability to read and interpret electronic schematics and technical documentation.\n- Strong analytical, debugging, and problem-solving skills.\n- Ability to communicate technical findings clearly and work effectively across engineering teams.\n\n### Good to Have\n\n- Experience developing hardware for drones, autonomous systems, robotics, or aerospace platforms.\n- Experience with FPGA development tools and hardware-description languages such as Verilog or VHDL.\n- Knowledge of RF testing, antenna integration, telemetry systems, or long-range communication links.\n- Experience with camera interfaces, image sensors, and high-speed data links.\n- Knowledge of electromagnetic compatibility, signal integrity, power integrity, and thermal design.\n- Experience taking electronic products from prototype through manufacturing and production.\n\n**Education:** Bachelor’s degree in Electrical Engineering, Electronics Engineering, Computer Engineering, or a related field. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-19T16:54:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "04168ee1b040344486744f75da753dfd",
+      "source": "wellfound",
+      "company": "Vi3W",
+      "role": "Game Developer",
+      "url": "https://wellfound.com/jobs/4866669-game-developer",
+      "jd_text": "**We're hiring game developers at VI3W 🎮**\n\nI want to build things that make people stop scrolling and ask, *“Wait, how did you make that?”*\n\nWe're building a Sketch to 3D tool that helps people turn their ideas into 3D models. The bigger vision is to change how people create 3D, and challenge tools like Blender.\n\nThe product is ready. Now, I want to show the world what's possible with it.\n\nAnd I think games are one of the best ways to do that.\n\nI'm looking for game developers who love building things, experiment with AI tools like Claude Code, Codex, Cursor, or whatever works for them, and can turn an idea into a playable game.\n\nIt could be a racing game, a simulator, an open world, or something completely crazy. I don't really care about the genre. I care about what you can build.\n\n**Here's what I'd love you to do before applying:**\n\n1. Visit https://app.vi3w.in and explore what we're building.\n2. Build a small game or prototype using Vi3W and your favourite AI coding tools.\n3. Send me what you made.\n\nI don't care much about your degree or how many years of experience you have. Show me what you can build.\n\nWe're a small team with a big ambition, and there's a lot of room to experiment, move fast, and create things that haven't been done before.\n\nIf this sounds like your kind of thing, DM me with your projects or demos. I'd love to see what you can do.\n\nAnd if you know someone who spends their weekends building games just for fun, send this to them.\n\nLet's build something crazy. 🚀\n\n#Hiring #GameDevelopment #AI Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-19T16:54:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "5cacf5ad7ed9e8ac28d9c2785f966abd",
       "source": "wellfound",
