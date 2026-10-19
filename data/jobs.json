@@ -1,15 +1,282 @@
 {
-  "exported_at": "2026-10-19T18:25:57+00:00",
+  "exported_at": "2026-10-19T22:11:44+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 936,
-    "pending_approval": 252,
+    "pending_approval": 253,
+    "discovered": 939,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "1b6b3f1bbf31549bf58585cfac67e097",
+      "source": "wellfound",
+      "company": "Taskwiser",
+      "role": "Junior Software Engineer",
+      "url": "https://wellfound.com/jobs/4867061-junior-software-engineer",
+      "jd_text": "## Junior Software Engineer\n\n**Full-time | Fully remote within India**\n**Company base: New Delhi | Annual salary: ₹14,00,000–₹15,00,000 (₹14–15 LPA)**\n\nTaskwiser is a product of Engagetal Solutions. We are looking for a curious early-career engineer to help build reliable software and grow through hands-on engineering work.\n\n### Apply through LinkedIn Easy Apply\nFor faster processing, please submit your application through our LinkedIn job listing using **Easy Apply**:\n\n**[Apply directly on LinkedIn — Junior Software Engineer](https://www.linkedin.com/jobs/view/4480240151/)**\n\nDirect application link: https://www.linkedin.com/jobs/view/4480240151/\n\n### Eligibility\n- Open only to freshers and candidates with **less than 1 year (under 12 months) of total professional work experience**. Candidates with 1 year or more of experience are not eligible.\n- **Indian citizens only, based in India.**\n- This is a full-time, fully remote role. The company is based in New Delhi; relocation to New Delhi is not required.\n- No prior full-time work experience is required. Academic, personal, internship, and open-source projects are welcome as evidence of your skills.\n\n### What you will do\n- Help build and maintain features for our hiring platform and internal tools.\n- Develop and integrate APIs, work with databases, and contribute to user-facing functionality.\n- Write readable code, test your changes, investigate bugs, and document your work.\n- Participate in code reviews and collaborate with engineers and product stakeholders.\n- Learn to improve application reliability, performance, and security.\n\n### What we are looking for\n- A foundation in programming, data structures, algorithms, and problem solving.\n- Familiarity with JavaScript/TypeScript or Python, plus basic web development concepts.\n- An understanding of REST APIs, SQL or relational databases, and Git.\n- At least one academic, personal, internship, or open-source project you can explain clearly.\n- Clear communication, attention to detail, and a willingness to learn and act on feedback.\n- Ability to collaborate remotely from India.\n\n### Helpful, but not required\nExposure to Node.js, React/Next.js, PostgreSQL, automated testing, or cloud deployment. Interest in AI-enabled products and developer tools is welcome. You do not need to know every technology listed to apply.\n\n### Compensation\nAnnual salary: **₹14–15 LPA (₹14,00,000–₹15,00,000 per year).**\n\n### How to apply\nFor faster processing, apply directly through **LinkedIn Easy Apply** at **https://www.linkedin.com/jobs/view/4480240151/** with your resume. Include a GitHub, portfolio, or project link in your resume if available, and highlight what you built and your contribution. New Delhi\nlocationNames: New Delhi\nremote: true",
+      "match_score": 11.06,
+      "resume_variant": "frontend",
+      "draft_answer": "My 6 months of experience building React frontends and owning client-facing modules, including work cutting API fetch latency by 98% and data load times, aligns directly with improving user-facing functionality and application performance. I've also developed RESTful APIs and worked with databases across multiple projects, and with 500+ LeetCode problems solved, I'm ready to help build reliable software.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-19T22:11:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.89,
+            "overlap": 12.58,
+            "combined": 9.3
+          },
+          "backend": {
+            "cosine": 7.91,
+            "overlap": 13.53,
+            "combined": 9.6
+          },
+          "frontend": {
+            "cosine": 8.93,
+            "overlap": 16.02,
+            "combined": 11.05
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 8.93,
+        "keyword_overlap_score": 16.02,
+        "final_score": 11.06,
+        "top_keywords": [
+          {
+            "term": "linkedin",
+            "weight": 0.1571
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0898
+          },
+          {
+            "term": "application",
+            "weight": 0.0673
+          },
+          {
+            "term": "com",
+            "weight": 0.0673
+          },
+          {
+            "term": "experience",
+            "weight": 0.0673
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-19T22:11:41+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "475d6374044a82a6b4b43ba884eba6f1",
+      "source": "wellfound",
+      "company": "Helfen Company",
+      "role": "AI Agent Systems Builder — E-Commerce Operations & Automation",
+      "url": "https://wellfound.com/jobs/4867200-e-commerce-automation-operations-engineer-clone",
+      "jd_text": "* **In the \"What interests you about working for this company?\" box, please describe an AI agent system you've built that runs in production — see the last section below for details.**\n* We are currently not seeking candidates outside of US time zones.\n* Please do not contact us directly outside of this platform.\n\n**About us**\n\nHelfen Company is a founder-operated e-commerce business behind two fashion accessory brands, Archer Watch Straps and Downholme. We sell on Amazon and Shopify across the US, UK, EU, and Canada as a lean two-person team, with over a million products sold and years of steady growth.\n\n**What we're looking for**\n\nWe want to run much of our business through a well-designed system of AI agents: a structured team of agents that handle purchasing, inventory, marketplace upkeep, reporting, and documentation in the background, with people stepping in where judgment matters.\n\nWe've built some automations ourselves, but we don't want to experiment our way there and rebuild everything in six months. We're looking for someone who has **already built agent systems that run real operations** and can be our guide: someone with a clear, tested view of how to structure agents, how they coordinate, and how they share memory.\n\n**What you'll do**\n\n* Design and build a multi-agent system that runs core operations: replenishment and purchase orders, inventory and shipment tracking, marketplace listing health, and reporting\n* Design the memory and context architecture: what each agent and each person knows, what's shared, how context is separated and stored, and how it stays current over time\n* Build in the right human checkpoints, safeguards, and logging so the system can be trusted with real money and real customers\n* Learn our operations firsthand and help run them, so you understand the work the agents are doing\n* Document the system so it can be understood, maintained, and extended\n\n**Who you are**\n\n* You have built and run at least one agent system in production, ideally more than one, and can walk us through its architecture, what broke, and what you'd do differently\n* You have a strong, practical point of view on agent memory and shared context\n* You write real code and are fluent with AI coding tools\n* E-commerce, logistics, or operations experience is a strong plus, but not required\n* US time zone required, US-based preferred\n\n**Compensation and benefits**\n\n* $80,000–$120,000 depending on experience\n* Annual bonus, likely tied to company performance\n* Annual learning and tools budget\n* QSEHRA health benefit (monthly contribution toward a health plan of your choice)\n* Fully remote, with some paid travel early on to learn operations firsthand\n\n**Please include with your application**\n\nDescribe an agent system you've built that runs in production. What does each agent do, and how do they coordinate? How is memory and context stored, and how is it shared between agents and between people? What would you change if you built it again? Links, demos, or diagrams are welcome. Venice\nlocationNames: Venice\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-19T22:11:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6cfad888791ea58abf5efe2d052a11c5",
+      "source": "wellfound",
+      "company": "Vantrix Ventures",
+      "role": "Founding Full Stack Engineering (Equity-First) (Clone)",
+      "url": "https://wellfound.com/jobs/4867199-founding-full-stack-engineering-equity-first-clone",
+      "jd_text": "**Founding Full Stack Engineer (Equity-First)\n**\nBengaluru | Founding Team | Full-Time\n\nAbout Vantrix Screen\n\nHiring hasn’t changed much in decades. We believe it should.\n\nVantrix Screen is building an AI-native technical assessment platform that helps companies identify exceptional engineering talent through practical evaluations, structured interviews, and intelligent automation.\n\nWe’re still early, moving fast, and building the company from first principles.\n\nWe’re looking for someone who wants to build—not just code.\n\n⸻\n\nThe Opportunity\n\nWe’re looking for a Founding Engineering Lead to work directly with the founder in building the engineering foundation of Vantrix Screen.\n\nThis isn’t a traditional engineering management role.\n\nYou’ll write code.\n\nYou’ll design systems.\n\nYou’ll influence product.\n\nYou’ll speak with customers.\n\nYou’ll shape engineering culture.\n\nYou’ll help build the company from day one.\n\nIf you’re looking for a comfortable corporate role, this probably isn’t for you.\n\nIf you’re excited about building a company that could redefine technical hiring, we’d love to talk.\n\n⸻\n\nWhat You’ll Do\n\n* Build core platform capabilities end-to-end.\n* Design scalable backend and frontend architecture.\n* Ship product rapidly with high engineering standards.\n* Participate in product strategy and roadmap discussions.\n* Work closely with customers to understand pain points.\n* Hire and mentor the early engineering team.\n* Establish engineering culture, processes, and best practices.\n* Own technical decisions across the platform.\n\n⸻\n\nWhat We’re Looking For\n\n* 3+ years of hands-on software engineering experience.\n* Strong Full Stack engineering skills.\n* Excellent system design fundamentals.\n* Strong product thinking.\n* Comfortable wearing multiple hats.\n* Exceptional ownership and execution.\n* Strong communication skills.\n* Curious, humble, and willing to learn.\n\nBonus Points\n\n* Graduate from a premier engineering institution.\n* Startup experience.\n* Built products from scratch.\n* Experience with AI/LLM-based products.\n* Technical leadership experience.\n\n⸻\n\nTech Stack\n\nWe’re pragmatic rather than opinionated.\n\nYou’ll help shape our stack, but familiarity with some of the following is valuable:\n\n* TypeScript\n* React\n* Next.js\n* Node.js\n* Python\n* PostgreSQL\n* Docker\n* AWS\n* AI APIs / LLMs\n\n⸻\n\nCompensation\n\nThis is an equity-first founding role.\n\nWe are looking for builders who believe in creating long-term value.\n\n* Competitive startup salary\n* Meaningful ESOP / Equity\n* Opportunity to become one of the earliest members of the founding engineering team\n\n⸻\n\nWhy Join?\n\nYou’ll work directly with the founder.\n\nYou’ll influence every important technical decision.\n\nYou’ll build a product from zero to scale.\n\nYou’ll own meaningful equity.\n\nYou’ll help build a company—not just software.\n\n⸻\n\nOur Ideal Candidate\n\nSomeone who would rather build the next great product than optimise for the next salary hike.\n\nSomeone who enjoys solving difficult problems, shipping fast, and taking ownership.\n\nSomeone who wants to look back in five years and say, “I helped build this from the beginning.” Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 8.75,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-19T22:11:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.82,
+            "overlap": 11.59,
+            "combined": 7.55
+          },
+          "backend": {
+            "cosine": 4.75,
+            "overlap": 10.9,
+            "combined": 6.6
+          },
+          "frontend": {
+            "cosine": 6.26,
+            "overlap": 14.56,
+            "combined": 8.75
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.26,
+        "keyword_overlap_score": 14.56,
+        "final_score": 8.75,
+        "top_keywords": [
+          {
+            "term": "technical",
+            "weight": 0.0891
+          },
+          {
+            "term": "experience",
+            "weight": 0.0713
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.0535
+          },
+          {
+            "term": "platform",
+            "weight": 0.0535
+          },
+          {
+            "term": "directly",
+            "weight": 0.0436
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ec58dd284a008116e0ad362d67d4a5d6",
+      "source": "wellfound",
+      "company": "Vantrix Ventures",
+      "role": "Founding Full Stack Engineering (Equity-First)",
+      "url": "https://wellfound.com/jobs/4555229-founding-full-stack-engineering-equity-first",
+      "jd_text": "**Founding Full Stack Engineer (Equity-First)\n**\nBengaluru | Founding Team | Full-Time\n\nAbout Vantrix Screen\n\nHiring hasn’t changed much in decades. We believe it should.\n\nVantrix Screen is building an AI-native technical assessment platform that helps companies identify exceptional engineering talent through practical evaluations, structured interviews, and intelligent automation.\n\nWe’re still early, moving fast, and building the company from first principles.\n\nWe’re looking for someone who wants to build—not just code.\n\n⸻\n\nThe Opportunity\n\nWe’re looking for a Founding Engineering Lead to work directly with the founder in building the engineering foundation of Vantrix Screen.\n\nThis isn’t a traditional engineering management role.\n\nYou’ll write code.\n\nYou’ll design systems.\n\nYou’ll influence product.\n\nYou’ll speak with customers.\n\nYou’ll shape engineering culture.\n\nYou’ll help build the company from day one.\n\nIf you’re looking for a comfortable corporate role, this probably isn’t for you.\n\nIf you’re excited about building a company that could redefine technical hiring, we’d love to talk.\n\n⸻\n\nWhat You’ll Do\n\n* Build core platform capabilities end-to-end.\n* Design scalable backend and frontend architecture.\n* Ship product rapidly with high engineering standards.\n* Participate in product strategy and roadmap discussions.\n* Work closely with customers to understand pain points.\n* Hire and mentor the early engineering team.\n* Establish engineering culture, processes, and best practices.\n* Own technical decisions across the platform.\n\n⸻\n\nWhat We’re Looking For\n\n* 3+ years of hands-on software engineering experience.\n* Strong Full Stack engineering skills.\n* Excellent system design fundamentals.\n* Strong product thinking.\n* Comfortable wearing multiple hats.\n* Exceptional ownership and execution.\n* Strong communication skills.\n* Curious, humble, and willing to learn.\n\nBonus Points\n\n* Graduate from a premier engineering institution.\n* Startup experience.\n* Built products from scratch.\n* Experience with AI/LLM-based products.\n* Technical leadership experience.\n\n⸻\n\nTech Stack\n\nWe’re pragmatic rather than opinionated.\n\nYou’ll help shape our stack, but familiarity with some of the following is valuable:\n\n* TypeScript\n* React\n* Next.js\n* Node.js\n* Python\n* PostgreSQL\n* Docker\n* AWS\n* AI APIs / LLMs\n\n⸻\n\nCompensation\n\nThis is an equity-first founding role.\n\nWe are looking for builders who believe in creating long-term value.\n\n* Competitive startup salary\n* Meaningful ESOP / Equity\n* Opportunity to become one of the earliest members of the founding engineering team\n\n⸻\n\nWhy Join?\n\nYou’ll work directly with the founder.\n\nYou’ll influence every important technical decision.\n\nYou’ll build a product from zero to scale.\n\nYou’ll own meaningful equity.\n\nYou’ll help build a company—not just software.\n\n⸻\n\nOur Ideal Candidate\n\nSomeone who would rather build the next great product than optimise for the next salary hike.\n\nSomeone who enjoys solving difficult problems, shipping fast, and taking ownership.\n\nSomeone who wants to look back in five years and say, “I helped build this from the beginning.” Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 8.76,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-19T22:11:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.82,
+            "overlap": 11.59,
+            "combined": 7.55
+          },
+          "backend": {
+            "cosine": 4.76,
+            "overlap": 10.9,
+            "combined": 6.6
+          },
+          "frontend": {
+            "cosine": 6.27,
+            "overlap": 14.56,
+            "combined": 8.76
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.27,
+        "keyword_overlap_score": 14.56,
+        "final_score": 8.76,
+        "top_keywords": [
+          {
+            "term": "technical",
+            "weight": 0.0892
+          },
+          {
+            "term": "experience",
+            "weight": 0.0714
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.0535
+          },
+          {
+            "term": "platform",
+            "weight": 0.0535
+          },
+          {
+            "term": "directly",
+            "weight": 0.0436
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "07374695a3d8c19341d770532e4e9ae3",
       "source": "yc",
