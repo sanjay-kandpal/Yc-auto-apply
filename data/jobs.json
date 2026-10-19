@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-19T16:54:35+00:00",
+  "exported_at": "2026-10-19T18:25:57+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 936,
     "pending_approval": 252,
-    "discovered": 935,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "07374695a3d8c19341d770532e4e9ae3",
+      "source": "yc",
+      "company": "Trellis AI",
+      "role": "GTM Engineer",
+      "url": "https://www.workatastartup.com/jobs/117422",
+      "jd_text": "## **Trellis builds and deploys self-improving agents to get patients access to life-saving medicine.**\n\n**Our AI agents process billions of dollars worth of therapies annually with patients in all fifty states.** We do this by automating document intake, prior authorizations, and appeals at scale to streamline operations and accelerate care. We classify medical referrals, understand chart notes, and automate contract and reimbursement search to provide patients with accurate coverage determinations and cost responsibility. Think of us as the the infrastructure behind how the patients get the medications.\n\nTrellis is a spinout from Stanford AI Lab and is backed by leading investors including YC, General Catalyst, Telesoft Partners, and executives at Google and Salesforce.\n\n## The Role\n\nWe're hiring a GTM Engineer to build the AI-powered engine that fills our sales pipeline. You'll own prospecting and pipeline generation, and the automation, data, and workflows that make them scale.\n\nYou'll work directly with our founders, GTM lead, and Account Executives. We sell to specialty pharmacies, infusion centers, provider groups (oncology, neurology, rheumatology, dermatology), and health systems. Your job is to find the right accounts and people in each segment, reach them with the right message at the right time, and hand AEs qualified meetings.\\\n\\\n**Compensation:** The pay range listed is on-target earnings (OTE).\n\n## What You'll Do\n\n* **Build the prospecting engine:** Use Clay, enrichment APIs, and LLMs to build target account and contact lists by segment, specialty drug spend, EMR, and tech stack\n* **Automate outbound:** Design and run AI-personalized campaigns across email, LinkedIn, and phone that book meetings with operations, revenue cycle, and pharmacy leaders\n* **Generate pipeline directly:** Own a meetings and pipeline target, and run outreach yourself, not just the systems behind it\n* **Catch buying signals:** Set up triggers for job changes, acquisitions, new sites, and web visits so we reach accounts at the right moment\n* **Own the GTM stack:** Keep HubSpot clean and trustworthy, from pipeline stages to deal data, and connect it to the rest of our tools\n* **Build tools that help us sell:** Ship internal AI agents, ROI calculators, and workflows that cut manual work for AEs and speed up deals\n* **Measure and iterate:** Build dashboards for pipeline, conversion, and channel performance; run experiments on messaging and segments, then double down on what works\n\n## About You\n\nYou're a builder who happens to love sales. When you see a repetitive task, you automate it. When a campaign underperforms, you dig into the data and fix it.\n\nYou're as comfortable writing a prompt or a Python script as you are writing a cold email, and you care about results: meetings booked and pipeline created, not workflows shipped.\n\n## What You'll Bring\n\n* 2+ years in GTM engineering, growth, sales or revenue operations, or a BDR/SDR role with heavy tooling\n* Hands-on experience with Clay or similar enrichment and automation tools, plus a CRM (HubSpot or Salesforce)\n* Experience using LLMs to research accounts, personalize outreach, or automate workflows\n* A track record of generating pipeline you can point to with numbers\n* Technical comfort: APIs, webhooks, and SQL; Scripting is a plus\n* Clear, sharp writing, especially for outbound copy\n* High ownership and the ability to operate autonomously in a fast-moving startup\n* Healthcare or health-tech experience is a plus\n\n## Why Work With Us\n\n* **Real impact at massive scale:** We serve patients in all fifty states and are scaling to hundreds of healthcare locations. Every account you open means more patients starting therapy sooner.\n* **Incredible growth and traction:** We've grown revenue 10x in the past few months alone and have XX% market share in the specialty healthcare markets we serve.\n* **Build from zero:** You'll design our GTM engine from the ground up, choosing the tools, the data, and the playbook.\n* **AI-native team:** We build production AI agents for a living. You'll have the freedom and support to push AI tooling as far as it goes in sales.\n* **Work with the founding team:** Partner directly with founders and F500 customers, alongside healthcare operations leaders who have overseen 50+ locations.\n* **World-class team:** Join teammates who have won international physics olympiads, published economics research, were founding engineers at unicorn startups, and taught AI classes to hundreds of Stanford graduate students. San Francisco, CA, US fulltime yes\nlocations: San Francisco, CA, US\nremote: yes\nmin_experience: 3",
+      "match_score": 7.42,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-19T18:25:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.92,
+            "overlap": 10.93,
+            "combined": 7.42
+          },
+          "backend": {
+            "cosine": 5.71,
+            "overlap": 11.28,
+            "combined": 7.38
+          },
+          "frontend": {
+            "cosine": 3.99,
+            "overlap": 12.14,
+            "combined": 6.43
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.92,
+        "keyword_overlap_score": 10.93,
+        "final_score": 7.42,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1945
+          },
+          {
+            "term": "agents",
+            "weight": 0.0865
+          },
+          {
+            "term": "team",
+            "weight": 0.0801
+          },
+          {
+            "term": "data",
+            "weight": 0.0707
+          },
+          {
+            "term": "tools",
+            "weight": 0.0707
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "80fbc2f136adca34527286bc5e11ac53",
       "source": "wellfound",
