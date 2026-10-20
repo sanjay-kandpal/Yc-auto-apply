@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-10-20T03:33:37+00:00",
+  "exported_at": "2026-10-20T07:21:25+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 941,
     "pending_approval": 253,
-    "discovered": 939,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "fefacefabc4d1494ab8ddb0705c80e01",
+      "source": "wellfound",
+      "company": "ISFY",
+      "role": "Backend Developer (Claude-powered, Remote)",
+      "url": "https://wellfound.com/jobs/4868453-backend-developer-claude-powered-remote",
+      "jd_text": "**About ISFY**\n\nISFY (iSellForYou) is a sales company based in Miami. Our phone sales team recovers abandoned carts for US ecommerce brands, and we are building a US sales marketplace for independent sales reps plus our own CRM. We build AI-first: Claude and Claude Code are our main coding tools, and we want a developer who already works this way.\n\n**What you will do**\n\n- Build and ship backend features for our sales marketplace and CRM using Claude / Claude Code as your main coding tool\n- Own code delivery end to end: Git workflow, code review, CI/CD, deploys\n- Design and maintain APIs, databases and integrations (payments, telephony, email, CRM tools)\n- Keep the systems reliable: logging, monitoring, fixing what breaks\n- Work directly with the founder and the product team; ship something every week\n\n**What we are looking for**\n\n- 3+ years of backend development (Node.js, Python or similar) and SQL databases\n- Real projects shipped with Claude / Claude Code or similar AI coding tools. You will show us what you built and how you used the AI\n- Solid with Git, CI/CD pipelines and cloud deploys (AWS, GCP, Vercel, Railway or similar)\n- Experience with REST APIs and third-party integrations\n- Clear English, remote-work discipline, ownership\n\n**What we offer**\n\n- Full-time, fully remote\n- $1,500–$2,500 per month depending on experience\n- AI-first team: you build with the best tools, not around them Miami\nlocationNames: Miami\nremote: true",
+      "match_score": 9.04,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-20T07:21:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.41,
+            "overlap": 9.93,
+            "combined": 8.86
+          },
+          "backend": {
+            "cosine": 8.56,
+            "overlap": 10.15,
+            "combined": 9.04
+          },
+          "frontend": {
+            "cosine": 7.98,
+            "overlap": 12.14,
+            "combined": 9.23
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 8.56,
+        "keyword_overlap_score": 10.15,
+        "final_score": 9.04,
+        "top_keywords": [
+          {
+            "term": "code",
+            "weight": 0.1604
+          },
+          {
+            "term": "ai",
+            "weight": 0.1569
+          },
+          {
+            "term": "tools",
+            "weight": 0.1283
+          },
+          {
+            "term": "backend",
+            "weight": 0.0962
+          },
+          {
+            "term": "cd",
+            "weight": 0.0785
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2140174cd5dd4f6905455c16e8058ba1",
+      "source": "wellfound",
+      "company": "DataraAI",
+      "role": "Isaac Sim Simulation Engineer",
+      "url": "https://wellfound.com/jobs/4866667-isaac-sim-simulation-engineer",
+      "jd_text": "**DataraAI | Remote, India | 0–2 years of experience**\n\nDataraAI is looking for an early-career Simulation Engineer to help build virtual environments, simulate robotic tasks, and generate synthetic data using NVIDIA Isaac Sim. You’ll work on practical problems at the intersection of robotics, computer vision, and AI—creating simulations that support the development and evaluation of intelligent systems.\n\nFresh graduates with relevant academic projects, internships, or personal projects are welcome to apply.\n\n**In this role, you will:**\n\n- Build and configure 3D environments in NVIDIA Isaac Sim, including objects, robot models, cameras, and lighting.\n- Import and prepare assets, configuring properties such as joints, collisions, mass, and friction.\n- Write Python scripts to automate scene setup, robot actions, simulation runs, and data collection.\n- Generate synthetic datasets, including RGB images, depth maps, segmentation masks, and bounding boxes.\n- Create variations in lighting, object placement, materials, and camera viewpoints to improve dataset diversity.\n- Help develop and test robotic scenarios such as object detection, grasping, and pick-and-place.\n- Check simulations and generated data for incorrect labels, unrealistic behavior, and missing scenarios.\n- Collaborate with robotics and AI engineers, documenting configurations, experiments, and results so others can reproduce your work.\n\n**We’re looking for someone who brings:**\n\n- A bachelor’s degree in Computer Science, Robotics, Mechanical Engineering, Electrical Engineering, or a related field—or equivalent practical experience.\n- Good Python programming skills and a structured approach to debugging.\n- Basic understanding of linear algebra, 3D geometry, coordinate systems, and transformations.\n- Exposure to robotics, computer vision, simulation, or 3D graphics through coursework or projects.\n- Familiarity with Git and basic Linux development workflows.\n- Curiosity, attention to detail, and clear communication while working remotely.\n\n**Any of the following would be a plus:**\n\n- A project using NVIDIA Isaac Sim, Isaac Lab, Gazebo, MuJoCo, or PyBullet.\n- Familiarity with ROS 2, robot models in URDF, or scenes and assets in USD.\n- Experience with Blender, CAD tools, or preparing 3D assets.\n- Exposure to NVIDIA Replicator, synthetic data generation, or domain randomization.\n- Basic knowledge of robot kinematics, reinforcement learning, or imitation learning.\n\nYou do not need experience with every tool listed. We value strong fundamentals, evidence of building things, and the ability to learn.\n\nThis role offers the opportunity to develop practical skills in robotics simulation and synthetic data generation while contributing reusable scenes, automation scripts, and datasets to AI development projects.\n\nTo apply, share your résumé and any relevant GitHub repositories, project reports, or short demo videos. For each project, briefly describe what you built and your individual contribution. Palo Alto\nlocationNames: Palo Alto\nremote: true",
+      "match_score": 6.01,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-20T07:21:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.11,
+            "overlap": 6.62,
+            "combined": 5.57
+          },
+          "backend": {
+            "cosine": 5.36,
+            "overlap": 7.52,
+            "combined": 6.01
+          },
+          "frontend": {
+            "cosine": 4.12,
+            "overlap": 8.25,
+            "combined": 5.36
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.36,
+        "keyword_overlap_score": 7.52,
+        "final_score": 6.01,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.1171
+          },
+          {
+            "term": "experience",
+            "weight": 0.0937
+          },
+          {
+            "term": "projects",
+            "weight": 0.0937
+          },
+          {
+            "term": "ai",
+            "weight": 0.086
+          },
+          {
+            "term": "computer",
+            "weight": 0.0703
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "1b6b3f1bbf31549bf58585cfac67e097",
       "source": "wellfound",
