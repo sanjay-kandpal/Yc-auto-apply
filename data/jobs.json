@@ -1,15 +1,243 @@
 {
-  "exported_at": "2026-10-20T09:12:02+00:00",
+  "exported_at": "2026-10-20T14:53:05+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "pending_approval": 256,
     "discovered": 941,
-    "pending_approval": 253,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "35fa5239bd169cbd81e5b77ef00a5e97",
+      "source": "wellfound",
+      "company": "Pixory",
+      "role": "Mid-Level Full-Stack Engineer (Full-time, Remote, React, Node.js, AWS)",
+      "url": "https://wellfound.com/jobs/4869592-mid-level-full-stack-engineer-full-time-remote-react-node-js-aws",
+      "jd_text": "**About Pixory**\nPixory is a fast-growing e-commerce platform for personalized photobooks. We’re building a proprietary CMS to scale globally, and we’re growing our engineering team with people who can work across the full stack, from pixel-perfect frontends to production-grade infrastructure.\n\n**Your Mission**\nHelp build and scale our e-commerce platform. You’ll work across React frontends, Node.js APIs and AWS infrastructure, shipping features that serve hundreds of thousands of users. Our senior engineers will support you on the bigger architecture decisions. The role starts in Q1 2027.\n\n**Tech Stack**\n\n**Front end**\nReact 18+ with TypeScript\nNext.js 14+ (SSR/SSG)\nTailwind CSS, responsive design\nCanvas libraries: Konva.js, Fabric.js or react-konva\nState management: Zustand, Redux Toolkit or Jotai\nPerformance: Web Workers, OffscreenCanvas, lazy loading\nUnit tests: Jest\n\n**Back end**\nNode.js 18+ (Fastify/Express)\nPostgreSQL with Prisma/TypeORM, indexing\nRedis (caching, queues)\nBullMQ for job processing\nSharp.js for image processing\nREST API design and implementation\n\n**Infrastructure &amp; DevOps**\nAWS: EC2, RDS, S3, CloudFront, ElastiCache, Autoscaling, DB Cluster (Master/Slave)\nDocker containerization\nCI/CD: GitHub Actions\nMonitoring: CloudWatch, Grafana\n\n**Required Experience**\n3 to 5 years of full-stack JavaScript/TypeScript\n2+ years of React in production environments\n2+ years of Node.js backend in production\nHands-on AWS experience (EC2, RDS, S3 minimum)\nSome Docker and CI/CD pipeline experience\nPostgreSQL or a similar SQL database\nREST API design and implementation\nA solid grasp of DevOps basics and a wish to grow into architecture decisions\n\n**Must-Haves**\nReact and TypeScript production experience\nNode.js backend experience on live production apps\nHands-on AWS experience, not just certifications\nA track record of shipping and deploying real features to production\nA proactive problem-solver who owns their work and knows when to ask for input\n\n**Nice-to-Have**\nExperience in photobooks, print-on-demand or design tools\nImage processing work (crop, resize, format conversion)\nOpen-source contributions in the React/Canvas ecosystem\nE-commerce platform development\nPayment integrations (Stripe, PayPal)\nInfrastructure as Code (Terraform, Kubernetes)\n\n**Print/PDF Production (Big Bonus)**\nCMYK color space management\nPDF generation: LaTeX, Puppeteer, PDF-lib or similar\nPrint specifications: bleed, trim boxes, ICC profiles\nCommand-line tools: ImageMagick, Ghostscript\n\n**Who You Are**\nPassionate: genuinely excited about technology and always learning\nGrowth-minded: you look for feedback and want to grow into a senior role\nScale-aware: you think about performance and scalability as you build\nOwnership: you take your features from ticket through to production\nIndependent: you work well with light supervision and know when to ask for help\nClear communicator: you keep your team updated on progress and blockers\nPragmatic: you balance code quality with shipping velocity\n\n**Why Pixory**\nYou’ll join a fully remote, lean and fast-moving team building a product that’s already generating significant revenue. It’s a great place to grow fast. You’ll work on real production systems at scale, alongside senior engineers, with real ownership from day one.\n\nWe prioritize real experience over years on a CV. An engineer with live production apps and hands-on AWS is more valuable to us than someone who’s never deployed beyond localhost.\n\nPlease DO NOT contact us via email when applying to this role. We’d like to keep communication on Wellfound, and all candidates on Wellfound will be prioritised.\n\nWe look forward to receiving your application! Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 17.5,
+      "resume_variant": "frontend",
+      "draft_answer": "My professional experience building and owning React frontends and Node.js APIs for a cloud-native compliance platform, alongside deploying independent projects like a serverless image-sharing platform on AWS, equips me to contribute to your scaling e-commerce platform. I've consistently driven perceived UI responsiveness by cutting API fetch latency 98% with Redis caching and migrated data storage to reduce load times by 60%, demonstrating my commitment to performance and deploying features to production.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-20T14:52:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 15.71,
+            "overlap": 14.9,
+            "combined": 15.47
+          },
+          "backend": {
+            "cosine": 14.07,
+            "overlap": 14.66,
+            "combined": 14.25
+          },
+          "frontend": {
+            "cosine": 17.51,
+            "overlap": 17.48,
+            "combined": 17.5
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 17.51,
+        "keyword_overlap_score": 17.48,
+        "final_score": 17.5,
+        "top_keywords": [
+          {
+            "term": "production",
+            "weight": 0.2062
+          },
+          {
+            "term": "js",
+            "weight": 0.1856
+          },
+          {
+            "term": "experience",
+            "weight": 0.1649
+          },
+          {
+            "term": "react",
+            "weight": 0.1443
+          },
+          {
+            "term": "aws",
+            "weight": 0.1237
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-20T14:52:52+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "783956cdf44047e1f28d807e85934dc8",
+      "source": "wellfound",
+      "company": "Pixory",
+      "role": "Senior Full-Stack Engineer (Full-time, Remote, React, Node.js, AWS)",
+      "url": "https://wellfound.com/jobs/3938151-senior-full-stack-engineer-full-time-remote-react-node-js-aws",
+      "jd_text": "**About Pixory**\n\nPixory is a fast-growing e-commerce platform for personalized photobooks. We're building a proprietary CMS to scale globally and need senior engineers who can own the full stack - from pixel-perfect frontends to production-grade infrastructure.\n\n**Your Mission**\n\nBuild and scale our e-commerce platform end-to-end. You'll work across React frontends, Node.js APIs, and AWS infrastructure - shipping features that serve hundreds of thousands of users while maintaining the performance and reliability our customers expect.\n\n**Tech Stack:**\n\n**Front end:**\n- React 18+ with TypeScript\n- Next.js 14+ (SSR/SSG)\n- Tailwind CSS, responsive design\n- Canvas libraries: Konva.js, Fabric.js, or react-konva\n- State management: Zustand, Redux Toolkit, or Jotai\n- Performance: Web Workers, OffscreenCanvas, lazy loading\n- Unit tests: Jest\n\n**Back end**\n- Node.js 18+ (Fastify/Express)\n- PostgreSQL with Prisma/TypeORM, indexing\n- Redis (caching, queues)\n- BullMQ for job processing\n- Sharp.js for image processing\n- REST API design and implementation\n\n**Infrastructure &amp; DevOps**\n- AWS: EC2, RDS, S3, CloudFront, ElastiCache, Autoscaling, DB Cluster (Master/Slave)\n- Docker containerization\n- CI/CD: GitHub Actions\n- Monitoring: CloudWatch, Grafana\n\n**Required Experience**\n- 5+ years full stack JavaScript/TypeScript\n- 3+ years React in production environments\n- 3+ years Node.js backend at scale (100k+ requests/day)\n- 2+ years hands-on AWS infrastructure (EC2, RDS, S3 minimum)\n- Docker and CI/CD pipeline experience\n- PostgreSQL or similar SQL database\n- REST API design and implementation\n- Strong DevOps knowledge - you're comfortable owning architecture decisions\n\n**Must-Haves**\n- React + TypeScript production experience\n- Node.js backend at real scale\n- AWS hands-on experience (not just certifications)\n- Docker deployment experience\n- Autonomous problem-solver who takes ownership\n\n**Nice-to-Have**\n- Photobook, print-on-demand, or design tool industry experience\n- Built image processing pipelines (crop, resize, format conversion)\n- Open-source contributions in React/Canvas ecosystem\n- E-commerce platform development\n- Payment integration (Stripe, PayPal)\n- Infrastructure as Code (Terraform, Kubernetes)\n\n**Print/PDF Production (Critical Differeniator)**\n- CMYK color space management\n- PDF generation: LaTeX, Puppeteer, PDF-lib, or similar\n- Print specifications: bleed, trim boxes, ICC profiles\n- Command-line tools: ImageMagick, Ghostscript\n\n**Who You are**\n- **Passionate** - Genuinely excited about technology and always learning\n- **Scalability mindset** - Design systems for 1M+ users from day one\n- **Ownership** - You take features from conception through to production monitoring\n- **Autonomous** - Minimal supervision, self-directed problem solving\n- **Clear communicator** - Technical to non-technical conversations\n- **Pragmatic** - Balance code quality with shipping velocity\n\n**Why Pixory**\n\nYou'll join a fully remote, leanand fast-moving team building a product that's already generating significant revenue. This is a high-impact role where your decisions directly shape the platform's architecture and growth trajectory.\n\nWe prioritize real experience over years on a CV - a 3-year engineer with solid AWS and live production apps is more valuable to us than a 7-year developer who's never deployed beyond localhost.\n\n**Please DO NOT contact us via email when applying to this role, we would like to keep communication on Wellfound. All candidates on Wellfound will be prioritised. \n**\n\nWe look forward to receiving your application! Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 20.59,
+      "resume_variant": "frontend",
+      "draft_answer": "Having owned full-stack development and cloud infrastructure for a compliance platform onboarding 80+ organizations, where I cut API latency by 98% and optimized data loads, I'm uniquely positioned to build and scale the e-commerce platform for personalized photobooks, leveraging my prior experience with image-sharing applications and multi-device real-time sync. I thrive on autonomous problem-solving and delivering robust, performant solutions from end-to-end for production environments.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-20T14:52:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 17.61,
+            "overlap": 16.89,
+            "combined": 17.39
+          },
+          "backend": {
+            "cosine": 15.77,
+            "overlap": 16.92,
+            "combined": 16.11
+          },
+          "frontend": {
+            "cosine": 20.88,
+            "overlap": 19.9,
+            "combined": 20.59
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 20.88,
+        "keyword_overlap_score": 19.9,
+        "final_score": 20.59,
+        "top_keywords": [
+          {
+            "term": "js",
+            "weight": 0.2001
+          },
+          {
+            "term": "experience",
+            "weight": 0.1556
+          },
+          {
+            "term": "react",
+            "weight": 0.1556
+          },
+          {
+            "term": "aws",
+            "weight": 0.1334
+          },
+          {
+            "term": "production",
+            "weight": 0.1334
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-20T14:52:34+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "4ae91e1c640696e7f7d834b3ffbff7f5",
+      "source": "wellfound",
+      "company": "Securelytix",
+      "role": "Backend Engineer",
+      "url": "https://wellfound.com/jobs/4867037-backend-engineer",
+      "jd_text": "**About Securelytix:**\nSecurelytix is an early-stage deep-tech startup building security infrastructure for AI-powered\nenterprises. We help organizations secure sensitive data, govern access, and build trust in AI-driven\nsystems.We're building from 0 to 1, which means you'll have the opportunity to shape core\ninfrastructure, solve real-world engineering challenges, and make a direct impact on our product.\n\n**About the Role:**\nWe’re looking for a Backend Engineer to design, build, and operate production-grade backend services that are fast, reliable, secure, and scalable.\nIn this role, you’ll take ownership of services across their entire lifecycle from architecture and development to deployment and production support. You’ll collaborate with the engineering team to make thoughtful technical decisions, solve complex problems, and build robust systems that support our evolving product and business needs.\n\n**Key Responsibilities:**\n* Design, develop, and maintain low-latency, highly scalable backend services.\n* Own the full service lifecycle, including design, implementation, testing, deployment, and production support.\n* Write clean, testable, and maintainable code following SOLID principles and established design patterns.\n* Contribute to system architecture, design decisions, and technical reviews.\n* Build and optimize APIs, database interactions, caching strategies, and asynchronous processing workflows.\n* Develop and improve CI/CD pipelines and containerized deployment workflows.\n* Monitor production systems, troubleshoot issues, and improve performance, reliability, and availability.\n* Collaborate with cross-functional teams to deliver secure, high-quality software.\n\n**Requires Qualifications:**\n* 1–4 years of hands-on backend development experience.\n* Strong fundamentals in data structures, algorithms, object-oriented programming, SOLID principles, and design patterns.\n* Good system design skills, with an understanding of distributed systems and low-latency, high-throughput architectures.\n* Hands-on experience with at least one major cloud platform: AWS, GCP, or Azure.\n* Working knowledge of Docker, Kubernetes, and CI/CD pipelines.\n* Solid understanding of RESTful APIs, databases, caching mechanisms, and message queues.\n* Strong debugging, analytical, and problem-solving skills.\n* Ability to write production-ready code and take ownership of services beyond development.\n\n**Preferred Qualifications:**\n* Proficiency in Go (Golang) or experience building backend services using Go.\n* Experience with observability and monitoring tools, including metrics, structured logging, and distributed tracing.\n* Familiarity with security best practices and secure backend development.\n* Experience working with high-throughput systems or performance-sensitive applications.\n\n**What We're Looking for: **\n* Ownership mindset: You take responsibility for the reliability, performance, and quality of the systems you build.\n* Strong problem-solving: You break down complex technical challenges and develop practical, effective solutions.\n* Systems thinking: You understand architectural trade-offs and can reason about performance, reliability, and scalability.\n* Adaptability: You’re comfortable working in a growing environment where priorities and requirements evolve.\n* Collaborative approach: You communicate clearly, welcome feedback, and work effectively with the team.\n* Growth mindset: You’re eager to learn, improve engineering practices, and take on new responsibilities as the business grows.\n\n**Compensation:**\nThe budget for this role is INR 10–15 LPA (Annual CTC). We request candidates to apply only if their salary expectations align with this compensation range.\n\n**Why Join Securelytix?**\nWork on challenging backend engineering problems in the data security space.\nContribute to architectural decisions and influence how production systems are built.\nTake meaningful ownership of services and engineering outcomes.\n\nPlease complete the screening form using the link: https://forms.gle/RpsqVtpmgGx24fTt8\n\nInterested in building reliable, scalable systems that solve real-world security challenges? We’d love to hear from you. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 13.84,
+      "resume_variant": "backend",
+      "draft_answer": "Having owned the full lifecycle of cloud-native backend modules, from FastAPI development to blue-green deployments on AKS, I've consistently built production-grade backend services that are fast, reliable, and scalable. My experience optimizing systems for low-latency under high load, integrating message brokers for data integrity, and securing access controls directly aligns with building security infrastructure for AI-powered enterprises.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-20T14:52:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.05,
+            "overlap": 19.21,
+            "combined": 12.8
+          },
+          "backend": {
+            "cosine": 11.4,
+            "overlap": 19.55,
+            "combined": 13.84
+          },
+          "frontend": {
+            "cosine": 6.88,
+            "overlap": 19.9,
+            "combined": 10.79
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 11.4,
+        "keyword_overlap_score": 19.55,
+        "final_score": 13.84,
+        "top_keywords": [
+          {
+            "term": "backend",
+            "weight": 0.1533
+          },
+          {
+            "term": "production",
+            "weight": 0.115
+          },
+          {
+            "term": "experience",
+            "weight": 0.0958
+          },
+          {
+            "term": "security",
+            "weight": 0.0937
+          },
+          {
+            "term": "secure",
+            "weight": 0.0766
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-20T14:53:04+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "fefacefabc4d1494ab8ddb0705c80e01",
       "source": "wellfound",
