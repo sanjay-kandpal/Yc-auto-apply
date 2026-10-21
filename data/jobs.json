@@ -1,15 +1,169 @@
 {
-  "exported_at": "2026-10-21T03:28:32+00:00",
+  "exported_at": "2026-10-21T07:21:24+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 957,
-    "pending_approval": 259,
+    "pending_approval": 260,
+    "discovered": 959,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "b5d87a3efe63d871a9ae9e5123ea1fbe",
+      "source": "wellfound",
+      "company": "Wired2Scale",
+      "role": "AI Product Engineer, Full-Stack (Applied AI / Agents)",
+      "url": "https://wellfound.com/jobs/4869714-ai-product-engineer-full-stack-applied-ai-agents",
+      "jd_text": "About the role\nWired2Scale manages billions in client ad spend. Behind that spend is a tech problem most companies never face: automating decisions on accounts spending $1M+ a day, building the dashboards that make sense of it, and giving media buyers tools sharp enough to act in real time.\n\nYou'll build W2S SI, the systems our buyers run on. A buyer is up at 1 AM deciding whether to kill an ad or scale it, and the tool you built is what they're looking at. When your code breaks, someone's account breaks with it. We're hiring one engineer who wants that weight.\n\nWhat you'll work on\n- Automated media-buying rules: killing, scaling, pausing and moving ads and budgets on Meta (plus Google Ads, AppLovin, TikTok and Snap), with rules customized per client.\n- Data pipelines and unified dashboards: combined reporting from Meta, Google, Northbeam, Triple Whale and Shopify. Data has to be complete and certified: partial pulls never reach a buyer.\n- Agentic tooling: a chat interface (Slack/desktop) that lets buyers and strategists take real actions in one place, plus MCP/API integrations so AI agents can safely operate ad accounts.\n- Strategy systems: KPI target dashboards, scale threads, account-structure tools and forecasting, the intelligence layer our strategists use to make calls in real time.\n- Forward deployment: take systems that work on one account and make them work on every account. Sit with strategists, find what breaks, and close the gap.\n- Safety by design: read-only defaults, approval gates, audit logs and fail-safe behavior. Every automated action has to answer \"what happens if this data is wrong?\"\n\nWhat we're looking for\n- 3+ years shipping production software, strong in at least one of Python or TypeScript (Go, Rust or Java are fine if you know your tools deeply).\n- You understand how LLMs, embeddings, vector databases and AI agents work under the hood, not just well enough to call the library.\n- You've shipped AI software people actually use: in production, open source or serious side projects.\n- Solid backend and data fundamentals: relational schema design (Postgres), idempotent and observable data pipelines, and API integrations with rate limits and partial failures.\n- You drive AI coding tools (Claude Code, Codex, Cursor) and you review, test and verify what they produce. Not a \"vibecoder\".\n- You write and speak clear English. Most work is async, so your writing has to carry what a meeting would.\n- Self-directed and resourceful: missing context, you go get it; blocked, you find a workaround, tell the team, and help fix it properly. (If you need a manager to unblock you every morning, this will be frustrating.)\n\nNice to have\n- Experience with the Meta Marketing API, Google Ads API, TikTok, Snap or AppLovin ads APIs, or with attribution tools (Northbeam, Triple Whale).\n- Performance-marketing or e-commerce/DTC domain knowledge (CPA, ROAS/MER, CAC, budgets, creatives).\n- Supabase, Next.js/React, Vercel, Linux VPS/DigitalOcean, Docker.\n- Building MCP servers, OAuth integrations or multi-agent systems.\n- Front-end/UI sense for internal dashboards.\n\nOur stack\nSupabase (Postgres, auth), Next.js/React on Vercel, Python and TypeScript services, DigitalOcean droplets, Redis. Integrations: Meta, Google Ads, AppLovin, TikTok, Snap, Northbeam, Shopify, Slack. AI tooling: Claude / Claude Code, Codex, Cursor, Grok, MCP servers.\n\nHow we work\n- Fast. Ship a v1, get feedback, iterate. Code still has to be maintainable and has to tell people what it's doing.\n- You actively contribute and prove your value. You start where your skills are and move up based on what you ship.\n- Remote-native and async-first, with a team across the US, Europe and Asia.\n\nHiring process\n1. Apply with your answers to the screening questions, plus links to GitHub or shipped work. A short (2-3 min) video intro is strongly encouraged.\n2. Intro call with Cody (W2S SI) and Shiv (Lead Engineer): background, how you use AI tools, culture fit.\n3. Take-home assignment (short, practical; e.g. design a Meta + attribution data pull and storage layer), followed by a technical deep-dive walking through your trade-offs and failure handling.\n4. Final interview with Tim (leadership).\n5. Offer, then a one-week trial working on a real task with the team. Austin\nlocationNames: Austin\nremote: true",
+      "match_score": 13.07,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently delivered end-to-end cloud-native compliance and reporting platforms that automated 90% of manual workflows for 80+ client organizations, owning the full stack from client requirements through blue-green AKS deployments and real-time performance optimization. My experience extends to validating local LLM tool-calling reliability, building systems with ACID-compliant transactions for data integrity under concurrent load, and using RabbitMQ and Redis to guarantee delivery and cut fetch latency by 98% under sustained high load, ensuring reliability where partial pulls never reach a buyer.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-21T07:21:02+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.72,
+            "overlap": 16.23,
+            "combined": 13.07
+          },
+          "backend": {
+            "cosine": 11.23,
+            "overlap": 16.17,
+            "combined": 12.71
+          },
+          "frontend": {
+            "cosine": 9.69,
+            "overlap": 18.45,
+            "combined": 12.31
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 11.72,
+        "keyword_overlap_score": 16.23,
+        "final_score": 13.07,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1873
+          },
+          {
+            "term": "data",
+            "weight": 0.1148
+          },
+          {
+            "term": "tools",
+            "weight": 0.1148
+          },
+          {
+            "term": "team",
+            "weight": 0.0867
+          },
+          {
+            "term": "api",
+            "weight": 0.0765
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-21T07:21:20+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "92fc56c773bd21f177b8e713bf5d6b4c",
+      "source": "wellfound",
+      "company": "YachtVersal",
+      "role": "Founding Team Opportunities — YachtVersal & Painted Ladies Yacht Marketing",
+      "url": "https://wellfound.com/jobs/4868454-founding-team-opportunities-yachtversal-painted-ladies-yacht-marketing",
+      "jd_text": "Hello, Talent!\n\nHelp build the future of the global yachting industry.\n\nWe are building two complementary but legally separate businesses.\n\nYachtVersal is a yacht marketplace designed to make yacht discovery, listing management, and broker access more affordable and intelligent. The platform already has a live website, yacht and charter search, broker offerings, private-seller options, and an advertised AI-powered search experience.\n\nPainted Ladies Yacht Marketing focuses on yacht marketing, customer acquisition, business development, and helping yacht professionals reach more buyers and charter clients.\n\nWe are looking for a small number of experienced, entrepreneurial professionals who want to help take these businesses to the next stage.\n\nFounding-team opportunities\n\nTechnical Product Leader / Fractional CTO: SaaS architecture, product development, APIs, AI integration, and technical strategy.\n\nAI Product Engineer: Practical AI features, intelligent search, marketing automation, and customer-facing product improvements.\n\nGrowth and Business Development Leader: Broker acquisition, subscription growth, strategic partnerships, and customer retention.\n\nWe are particularly interested in people who have launched software products, built subscription businesses, worked with AI tools, or developed meaningful relationships within the yacht industry.\n\nThe opportunity and the risk\n\nThese are early-stage ventures. Cash compensation may be limited or unavailable initially, and we cannot guarantee future earnings, investment, or a successful outcome.\n\nFor the right candidates, we are open to discussing a clearly defined combination of performance-based compensation, revenue sharing, advisory arrangements, or equity where appropriate and approved.\n\nAny compensation or ownership arrangement will be documented in a written agreement. Equity, revenue share, responsibilities, vesting, and decision-making rights will be specific to the role and the company involved.\n\nWe want people who understand the risks, believe in the opportunity, and are prepared to demonstrate what they can contribute.\n\nOur goal is to build a customer-focused, AI-enabled technology business with the ambition, execution standards, and innovation mindset of a Silicon Valley startup.\n\nInterested? Send a brief introduction describing what you have built, the role you could own, your availability, and the compensation structure you would consider.\n\nWebsite: https://yachtversal.com/ New Jersey Louisiana South Carolina\nlocationNames: New Jersey Louisiana South Carolina\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-21T07:21:02+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d63014a20dcb40ed28191b42da3894e0",
+      "source": "wellfound",
+      "company": "What's Next Teacher",
+      "role": "Product Analytics & Engineering Intern (Unpaid, For Credit)",
+      "url": "https://wellfound.com/jobs/4869724-product-analytics-engineering-intern-unpaid-for-credit",
+      "jd_text": "**About us **\nGoldendelicious.ai (What’s Next Teacher, LLC) helps teachers figure out what’s actually next once they’re done with the classroom. Teachers’ skills transfer more than they realize. Our platform matches them to real jobs based on their abilities, not just their job history. The matching runs on public labor-market data (ONET, CareerOneStop) instead of guesswork from an LLM. We’re pre-launch and preparing for a live beta with teachers on December 12. It’s a good moment to join: the product is real, the stack is set, and the work you do will ship.\n\n**What you’ll learn and build**\n\n* **Product analytics.** Learn to turn raw event data into insight by designing dashboards that answer real product questions. What convinces people to upload a resume? Where do users get stuck? We’re looking for questions like these, not uptime boilerplate.\n* **Data-driven product thinking.** Practice spotting problems in how the product is designed (as opposed to bugs) by tracing user journeys from signup through quiz, resume upload, and job matches.\n* **Data visualization and prototyping.** Explore ways to help users dig deeper into a surprising career match. For example, a former physics teacher could discover a path into energy work. You’ll prototype a “career branch” view for this.\n* **Working with labor-market data.** Get to know ONET and CareerOneStop, and see how deterministic matching and LLMs each fit into a real product.\n* **User research.** Watch real teachers use the product at our December beta event and learn from their reactions.\n\n**You might be a fit if you**\n\n* Are a current student in computer science, data science, information systems, or a related field, and can earn credit for an internship\n* Are comfortable with SQL and at least one programming language\n* Are curious about why users behave the way they do\n* Like using AI coding tools and can still tell when they’re wrong\n* Want a mission you can explain to your family\n\n**Bonus points**\n\n* Coursework or projects in analytics, dashboards, or data visualization\n* You were a teacher, or you’re related to one\n\n**What you’ll get**\n\n* Weekly 1:1 mentorship with our technical lead\n* Portfolio-ready projects you can show future employers\n* A reference and LinkedIn recommendation if you complete the internship\n* A front-row seat to building a mission-driven company from beta to launch Tulsa\nlocationNames: Tulsa\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-21T07:21:02+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "0b881e7a178049ef0c3e632ae78e706c",
       "source": "yc",
