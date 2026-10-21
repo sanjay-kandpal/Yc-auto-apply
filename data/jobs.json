@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-21T16:43:15+00:00",
+  "exported_at": "2026-10-21T21:28:15+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 962,
-    "pending_approval": 261,
+    "pending_approval": 262,
+    "discovered": 963,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "e4144f2f2653a1ea0726b4448aba081f",
+      "source": "wellfound",
+      "company": "Galvix",
+      "role": "Full Stack Engineer",
+      "url": "https://wellfound.com/jobs/4874986-full-stack-engineer",
+      "jd_text": "**The Role**\n\nYou will own full-stack delivery: build and ship features across the Galvix platform, from the Spring Boot backend through to the React front end, and keep things running when something breaks in US hours.\n\nYou are not just writing code to a spec. You are building the product that US businesses rely on to manage sales tax compliance. That means writing clean, maintainable code, understanding the business logic behind what you build, debugging production issues when they come up, and owning a feature from design through to deployment.\n\n**What You’ll Do**\n\nBackend development. Build and maintain services in Java and Spring Boot: APIs, business logic, and integrations with tax engines and third-party systems.\n\nFrontend development. Build and maintain user-facing features in React JS. Clean, responsive, well-tested UI that customers and our own ops team use daily.\n\nFull-stack ownership. Take a feature from design through backend, frontend, testing, and deployment. Debug across the stack, not just the part you wrote.\n\nOn-call support. Join the on-call rotation for the US shift: respond to production issues as they come up, triage incidents, and fix or escalate as needed.\n\nCode quality and collaboration. Write tests, review others’ code, and take part in design discussions. Leave the codebase better than you found it.\n\nContinuous improvement. Look for ways to speed up development, pay down technical debt, and improve system reliability. Bring what you find to the team.\n\n**Must Have**\n\nAvailability to work US-overlap hours (approximately 5:00 PM to 2:00 AM IST), fully remote from home, with a quiet professional space and reliable high-speed internet\nStrong proficiency in Java, with hands-on experience building backend services using Spring Boot\nExperience with REST APIs, relational databases, and Git\nWillingness to join the on-call rotation for the US shift, including occasional off-hours incident response\nProblem-solving ability. You can debug across the stack and don’t stop at “it works on my machine”\nOwnership. You take a feature from spec to production without needing to be chased\nOrganisation. You can manage multiple features or tickets at once without anything slipping\n\n**Nice to Have**\n\nWorking knowledge of React JS for building front-end interfaces. Experience with a SaaS or services product at some scale. Familiarity with cloud infrastructure (AWS or similar), Docker, and CI/CD pipelines. Any exposure to finance, accounting, or tax as a domain.\n\n**You’ll Do Well Here If**\n\nYou measure yourself by what shipped and whether it held up in production, not by hours logged. You’re comfortable picking up a problem that spans the stack, and you don’t mind being on-call when it’s your turn. This is not a fit if you need a fully scoped ticket to make progress, or if you’d rather hand off a bug than track it down.\n\n**What You’ll Learn**\n\nHow a real SaaS product is built and run end to end, including the operational discipline of supporting US customers on their own clock. You’ll learn US sales tax as a domain, which is deeper and more interesting than it sounds, and you’ll do it working directly with the founders rather than three layers below one.\n\n**Setup**\n\nFully remote from India. US-overlap working hours as above, including on-call rotation. Raleigh\nlocationNames: Raleigh\nremote: true",
+      "match_score": 12.43,
+      "resume_variant": "frontend",
+      "draft_answer": "I have driven end-to-end delivery of React front ends for client platforms and owned core modules, enhancing perceived UI responsiveness by cutting API latency 98% through Redis caching and reducing data load times by over 50% using Azure Blob Storage. My experience debugging production issues across the stack, building backend services with RESTful APIs, and optimizing their performance reflects the full-stack ownership required for a critical product relied on by US businesses.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-21T21:27:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.16,
+            "overlap": 12.58,
+            "combined": 10.19
+          },
+          "backend": {
+            "cosine": 7.71,
+            "overlap": 11.65,
+            "combined": 8.89
+          },
+          "frontend": {
+            "cosine": 10.89,
+            "overlap": 16.02,
+            "combined": 12.43
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.89,
+        "keyword_overlap_score": 16.02,
+        "final_score": 12.43,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1157
+          },
+          {
+            "term": "backend",
+            "weight": 0.0946
+          },
+          {
+            "term": "code",
+            "weight": 0.0946
+          },
+          {
+            "term": "production",
+            "weight": 0.0946
+          },
+          {
+            "term": "experience",
+            "weight": 0.0709
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-21T21:28:13+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "286996cad2183362335409967a5a28ae",
+      "source": "wellfound",
+      "company": "NoScrubs",
+      "role": "Data Generalist",
+      "url": "https://wellfound.com/jobs/3532973-data-generalist",
+      "jd_text": "**Responsibilities**\n1. High level: Helping us make sense out of data and find hidden patterns.\n2. Sanitizing and organizing data in our warehouse on a regular basis.\n3. Helping build workflows in tools like Klaviyo, Gumloop, etc.\n4. Taking up projects and performing **end-to-end** execution.\n5. Demonstrating a **proactive**, **'figure it out'** attitude without relying on management for guidance or task assignments.\n6. Help application engineers with making robust data decisions when building the product.\n7. This is high ownership, high velocity and highly demanding job.\n\n**Skill(s) Required:**\n- PostgreSQL\n- Posthog\n- Klaviyo\n- Airbyte\n- Metabase\n- Ruby on Rails (not required to write, but you will be required to read and understand application code)\n\n**Requirements:**\n- You think you are **sharper than your peers** – able to see and understand systems (objects, devices, people, organizations) you see around you.\n- This role is only available to candidates with **proven work experience**. We are looking for **10x engineers only**. If you do not have relevant experience, do not apply.\n- You will be **required to learn Ruby on Rails** within 30 days. Understanding is important for the success of this role.\n- You **ask good questions**. Lack of knowledge is fine, ignorance makes a question bad/dumb. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-21T21:27:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "0a884812cb903e72a10f076b9ea2b77d",
       "source": "yc",
