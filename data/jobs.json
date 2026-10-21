@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-20T23:02:28+00:00",
+  "exported_at": "2026-10-21T03:28:32+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
     "discovered": 957,
-    "pending_approval": 258,
+    "pending_approval": 259,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "0b881e7a178049ef0c3e632ae78e706c",
+      "source": "yc",
+      "company": "Thunder Compute",
+      "role": "Systems Software Engineer (C++)",
+      "url": "https://www.workatastartup.com/jobs/82422",
+      "jd_text": "## Company\n\nThe world is building massive amounts of GPU capacity. Meanwhile, deployed GPUs are only 20% utilized.\n\nThis is because GPUs are not virtualized, while every other type of hardware is. For example CPUs and storage are allocated through virtual abstractions which efficiently manage the physical hardware, while GPUs are statically allocated on a one-to-one basis.\n\nThunder Compute is building this virtualization layer for GPUs. We have raised over $17.5M from Matrix Partners, Y Combinator, and leading angels from Coreweave, Microsoft, Cognition, and Anthropic.\n\nLeading solutions for underutilization sit at the workload layer and are therefore only able to optimize specific use cases. We believe the ideal cluster optimization solution must be invisible to developers and compatible with all workloads; hence, it must sit at the systems layer.\n\nWe are a team of systems researchers productionizing cutting-edge GPU virtualization research to build this general-purpose optimization layer.\n\nConcretely, our virtualization library abstracts GPUs across TCP networking. We use a userspace shim library, loaded through `LD_PRELOAD`, to intercept CUDA calls and send them over gRPC to a host server connected to a physical GPU elsewhere in the data center.\n\nThis enables something like “Ceph for GPUs”: GPUs become network resources that can be abstracted, pooled, and dynamically allocated across a cluster to improve utilization without requiring developers to modify their workloads.\n\n## Role\n\nYour work will focus on building the core C++ systems behind our virtualization layer. This includes low-latency performance optimization, distributed systems debugging, production reliability, and research into new techniques for improving GPU utilization.\n\nYou will take ownership of complex systems from early experimentation through production deployment. Example projects may include:\n\n* Profiling and reducing latency across remote CUDA operations\n* Building high-performance networking and data-transfer paths\n* Debugging failures across customer processes, our userspace runtime, the network, and remote GPU servers\n* Improving support for process forking, signals, multithreading, dynamic linking, and unusual application behavior\n* Designing systems for GPU allocation, scheduling, failure recovery, and observability\n* Researching and productionizing new GPU virtualization and oversubscription techniques\n* Expanding compatibility across CUDA applications, frameworks, and GPU architectures\n\nYou will spend your days bouncing between the weeds of complex, performance-critical systems that are live in production. One week, you may be tracing a synchronization bug across a distributed CUDA workload; the next, you may be redesigning a hot data path to remove microseconds of overhead.\n\nThis work is not easy. It blends the hardest parts of systems research and production engineering.\n\nWe look for exceptional low-level engineering talent, strong work ethic, and extreme attention to detail. We must move quickly while shipping high-quality, reliable systems code.\n\n## Core Technical Skills\n\n* Exceptional modern C++ ability, including memory management, concurrency, performance optimization, and systems-level abstraction design\n* Deep understanding of operating systems, low-level networking, compilers, distributed systems, or computer architecture\n* Experience building and operating performance-critical C++ systems in production\n* Strong Linux systems programming and debugging ability\n* Ability to reason through unfamiliar systems across multiple layers of the stack\n\n## Must Haves\n\n* Strong work ethic and the ability to independently push a project from an experimental prototype through 100% completion under tight deadlines\n* Attention to detail and the ability to deliver production-ready, thoroughly tested code without significant oversight\n* Strong ownership over correctness, reliability, performance, and operational outcomes\n* Ability to debug ambiguous problems without a clear reproduction, existing playbook, or obvious owner\n* Willingness to work directly with customers and investigate difficult production failures\n\n## Preferred\n\n* Experience with CUDA, GPU systems, compilers, runtime interception, dynamic linking, high-performance networking, or distributed computing\n* Experience at a trading firm such as Citadel Securities or Jane Street; a hardware or AI infrastructure company such as NVIDIA or SambaNova; a systems research group; or a similarly demanding engineering environment\n* Strong computer science fundamentals demonstrated through academic work, systems research, competitive programming, open-source contributions, or exceptional professional experience\n* Experience taking new systems research from a paper or prototype into a reliable production system\n\n## Why Join\n\nYou will join early enough to meaningfully shape the architecture, engineering standards, and technical direction of the company.\n\nYou will work directly with the founders on a category-defining systems problem, with a short path between writing code and seeing it run in production. The systems you build will form the foundation of a new infrastructure layer for GPU computing.\n\n## Logistics\n\n* You will report to co-founder and CTO Brian Model, formerly a Quantitative Developer at Citadel Securities\n* This role is full-time and in person, five days per week, at our office in downtown San Francisco\n* Relocation support and visa sponsorship are available\n\n## Benefits\n\n* $250K - $325K base salary, up to $500K annual bonus, and 0.2% - 0.4% equity\n* Daily lunch, snacks, and coffee\n* Team dinners and events\n* 401(k)\n* Health, dental, and vision insurance San Francisco, CA, US jobs_skill 23 C++ 107 jobs_skill 135 TCP/IP 17 jobs_skill 171 Linux 14 jobs_skill 182 Distributed Systems 3 fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 7.92,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-21T03:28:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.08,
+            "overlap": 16.89,
+            "combined": 7.92
+          },
+          "backend": {
+            "cosine": 3.93,
+            "overlap": 16.54,
+            "combined": 7.72
+          },
+          "frontend": {
+            "cosine": 3.25,
+            "overlap": 16.02,
+            "combined": 7.08
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.08,
+        "keyword_overlap_score": 16.89,
+        "final_score": 7.92,
+        "top_keywords": [
+          {
+            "term": "production",
+            "weight": 0.1158
+          },
+          {
+            "term": "experience",
+            "weight": 0.0643
+          },
+          {
+            "term": "hardware",
+            "weight": 0.0472
+          },
+          {
+            "term": "high",
+            "weight": 0.0472
+          },
+          {
+            "term": "team",
+            "weight": 0.0389
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "7b2d047828073a1b4863e759741f0c3e",
       "source": "yc",
@@ -210,8 +286,8 @@
       "jd_text": "# About AIOS\n\n**AIOS is building the world’s first full-stack AI doctor.**\n\nWe’re at $450M ARR, growing from $7M/yr in April 2025. We’re faithfully serving \\>200k/mo patients via Bolt Pharmacy, our main UK brand. We’ve just launched Bolt Med, our international brand. We’re profitable.\n\nOur strategy exists at the intersection of two strong theses:\n\n1. The AI doctor that wins will get to escape velocity using GLP-1s, the fastest growing consumer product in history.\n\n2. The $2T European healthcare market is overlooked by the most talented builders.\n\nOur master plan:\n\n- **Step 0 → $100M/yr by end of 2025** : We went from $10M to $100M in 6 months serving the UK GLP-1 market.\n\n- **Step 1 → $1B ARR by end of 2026** : Since April 2025 we've grown from 3k to 200k UK active GLP-1 patients. We’ll continue this growth curve to hit $1B ARR.\n\n- **Step 2 → $10B ARR by end of 2028** : Blitzscale Europe. We’ll be Europe’s largest GLP-1 provider.\n\n- **Step 3 → $100B/yr by end of 2030** : Get regulatory approval across Europe for our Full Autonomous Prescribing (FAP) system. Win contracts at scale with European payers to mass replace human labor. We’ll be the dominant full-stack AI doctor in Europe.\n\n- **Step 4 → $1T/yr by end of 2035** : With one line of code and zero human time, you can use AIOS to treat any patient globally with any medication.\n\nIn so doing, we’ll become the world’s first trillion-dollar healthcare company.\n\nWe’re a young, founder-led company. This is still Day 1 and all our work is ahead of us.\n\nYou can read more about working with us here: [Working at AIOS](https://app.notion.com/p/Working-at-AIOS-5b5c0a584af44de78ac7fb9b2cf8d993?pvs=21)\n\n## Being a Software Engineer at AIOS\n\nAs a Growth Engineer at AIOS, your fundamental role is to build the products, experiments, and systems that bring new patients to AIOS and help them start treatment.\n\nOur systems serve \\>200k patients each month. Our agentic workflows autonomously generate \\>$100k of revenue per day. Bolt, our leading UK brand, is now expanding into new markets, and how fast each one converts is the company’s top priority. We’re hiring four Growth Engineers to make that happen.\n\nYour main focus is conversion. You’ll own funnels from the first click to the first purchase, working in a small team with a Funnel Conversion Lead and a Web Designer. Together you decide what to test, ship it fast, and keep iterating until it converts.\n\nMany of our funnels are conversations. Jesse, our AI agent, talks to every lead, answers their questions and guides them all the way to starting treatment. Some funnels will run entirely through Jesse. You’ll work closely with our Growth Engineering Lead to make Jesse one of our strongest conversion channels.\n\nBeyond the funnel, you’ll build across the rest of growth:\n\n- `Funnels & CRO`: Landing pages, quizzes, eligibility and checkout, with experiments running at pace. This is where most of your time goes.\n\n- `Conversational Funnels`: Funnels where Jesse guides leads from their first message to starting treatment, across WhatsApp, email and chat.\n\n- `Experimentation & Tracking`: Event tracking, attribution and experiment infrastructure our Growth teams can trust to make decisions.\n\n- `Growth Infrastructure & Tools`: The backend services, integrations and internal tools behind our growth stack, from payments and CRM to ad and creator tooling.\n\nYou’ll be a true partner to your Funnel Conversion Lead: shaping experiments together, bringing ideas from the engineering side, and finding the fastest way to test them.\n\nYour ownership continues in production. You’ll instrument everything you ship, read the results, and keep iterating until the number moves.\n\nWe care deeply about the quality of our software. Growth code is often written fast and thrown away later. Ours shouldn’t be. The systems you build must be clear, tested, observable, and reusable across markets, so the next experiment and the next market are faster than the last.\n\nSpeed matters just as much. At our pace, excellent engineering means finding the simplest sound design and shipping it quickly. Move fast, build well, and leave foundations that can carry what comes next.\n\nWe provide Claude Code and Codex subscriptions. We expect you to use them to increase your speed and ambition while retaining complete responsibility for your judgment, understanding, and work.\n\nThis role is full-time and hybrid, with 2 days per week in our Prishtina office alongside the Kosovo engineering team.\n\nYou’ll report to [Ardian](https://www.linkedin.com/in/ardianbsyla/) (Growth Engineering Lead).\n\nYou’ll also work closely with:\n\n- [Richie Cartwright](https://www.linkedin.com/in/richard-cartwright/) (CEO)\n\n- [Gzim Helshani](https://www.linkedin.com/in/ghels/) (VP Technology)\n\n- [Michael McCann](http://linkedin.com/in/michael-m-33b79642/) (CRO Lead)\n\n- our Funnel Conversion Leads and Web Designers\n\n## Key responsibilities\n\n- `Own Conversion`: Own funnels from first click to first purchase, and keep shipping until they convert.\n\n- `Ship Experiments at Pace`: Build and run landing page, quiz, eligibility and checkout experiments every week, together with a Funnel Conversion Lead and a Web Designer.\n\n- `Convert with Jesse`: Build conversational funnels with our Growth Engineering Lead, where Jesse guides every lead to starting treatment.\n\n- `Launch New Markets`: Take new funnels from MVP to a converting V1, and make every launch faster than the last.\n\n- `Own the Data`: Make tracking, attribution and experiment results reliable enough that our Growth teams trust them to decide what to scale.\n\n- `Build the Growth Backend`: Build and run the services, integrations and event pipelines behind our growth stack, and the internal tools that help our Paid, Creative, Social and AI Growth teams move faster.\n\n- `Build to Last`: Write clear, tested, observable software that can be reused across markets.\n\n- `Use AI as a Force Multiplier`: Use Claude Code, Codex and other AI tools throughout development to move faster, explore more ambitious solutions, and raise the quality of your work.\n\n## Need to have\n\n- `Experience`: You have 5+ years of professional software engineering experience, including at least 1 year working closely with Growth teams, and have shipped meaningful products used by real customers.\n\n- `Full-Stack Engineering`: You build across frontend and backend. You’re as comfortable designing APIs, services, queues and integrations as you are building web funnels.\n\n- `Growth Mindset`: You think in experiments and you’re comfortable with the numbers that drive growth, such as CPC, CAC, conversion rate and LTV. You care whether what you shipped moved them, not only whether it shipped.\n\n- `Experimentation`: You’ve built A/B testing, event tracking or attribution systems, and used the results to decide what to build next.\n\n- `Engineering Quality`: You write clear, tested, observable, and maintainable software, even when the work moves fast.\n\n- `Ownership & Judgment`: You acquire context proactively, raise uncertainty early, and take responsibility for reaching the outcome. You balance speed, simplicity and long-term maintainability, and push back clearly when a decision doesn’t make sense.\n\n## Nice to have\n\n- `TypeScript`: You have strong experience building production systems with TypeScript.\n\n- `Our Stack`: You’ve worked with technologies such as NestJS, Node.js, React, Next.js, PostgreSQL, Redis, Kafka, BullMQ, Docker and AWS.\n\n- `Webflow`: You’ve built and optimized marketing sites and funnels in Webflow.\n\n- `Growth Integrations`: You’ve built on payments, CRM and analytics platforms such as Stripe, [Customer.io](http://Customer.io) and PostHog.\n\n- `Conversational AI`: You’ve built AI agents, chatbots or LLM-powered workflows that talk to customers or drive conversions.\n\n- `Multi-Market`: You’ve launched products in several countries, with different languages, currencies or regulations.\n\n- `Startup Experience`: You’ve worked in an environment where speed, ambiguity, and individual ownership were critical.\n\n- `Education`: A bachelor’s degree in Computer Science or a closely related technical field is a strong advantage.\n\n## Our cultural standards\n\nWe aim to make this your life's work. This should be the most challenging, most rewarding role of your life. Accordingly, these are the core cultural standards to which we hold ourselves & our team-members:\n\n1. `Belief in the mission`: We will have served 100 million patients by the end of 2030 and we transform the life of most patients who join. We have a lot of work to do. We are obsessed with our patients and are dedicated to the mission.\n\n2. `Unwavering integrity`: We are at the frontier, so we often live in ambiguity with no trodden path. When we can't look to others for guidance, we must maintain impeccable ethics and unwavering integrity.\n\n3. `Only the paranoid survive`: Bad sh\\*t is coming. By joining us, you're choosing to sail straight towards the storms with unhesitating conviction. However much we've already done, however far we've already come, it's still Day 1 and all our work is ahead of us.\n\n4. `If we're average we fail`: We are only interested in \"insanely great\", a focus on the quality of our execution that in everyday life would be considered pathological. We have a dedication to excellence and reject incompetence.\n\n5. `Commitment to candor`: That which can be destroyed by the truth should be. You get full transparency from the company and the company expects full transparency from you. We never say anything about someone that we wouldn't say to them directly. We give feedback with love and do not need to protect people from fleeting physical sensations.\n\n6. `A maniacal sense of urgency`: We execute at an intensity that most people think is impossible. Speed is critical and we need things done yesterday. We all work very hard and in such a competitive world there really is no other way to win.\n\n7. `Enduring frugality`: We are frugal. We hate being wasteful and we are anti-luxury. A culture of cheapness keeps us young. We spend our cash wisely & carefully, in a way that would make our grandmas proud.\n\n8. `Bulldozing barriers`: The world is malleable and we shape it. We truly believe this and act accordingly. We are relentlessly resourceful and are at the mercy of no-one but ourselves. You'll be shocked how capable you are and how much you can achieve.\n\n9. `Keep your head down`: We're boring people doing exciting work. We don't chase short-term status. We ignore short-term dopamine hits and focus on what matters. Outsiders will underestimate us and we revel in that.\n\n10. `The power of focus`: We live in a world of power laws and we cannot overestimate the unimportance of practically everything. Know your One Thing, and nail it.\n\n🎯 _\"You just build a f\\_\\*ing amazing experience. Make each step amazing. Make every decision in the long term interest of the customer. Give the customer massively more value than you take.\"\n\n## Compensation & Benefits\n\nYou get paid above market salary and you get early stage equity, so you get really rich if we nail this.\n\n- _Compensation_: : €60k-€120k/yr inc equity\n\n### Benefits\n\nThe stuff below is cool as well.\n\n- _Healthcare_: comprehensive medical insurance (if appropriate).\n\n- _Vacation_: PTO with a yearly minimum (≥2wks/yr + local national holidays)\n\n- _Personal development_: budget for books, courses, coaching.\n\n- _Personal wellness_: budget for gym, health apps.\n\n- _GLP-1s_: free membership with a clinic offering GLP-1s.\n\n- _Equipment_: Macbook & work-from-home equipment provided as needed.\n\n- **What are we missing?** We're still early so you get to shape our culture.\n\n## How to apply\n\n1. Apply on [Ashby](https://jobs.ashbyhq.com/Aios/254c5a75-88fe-4397-872d-19907abdfd03)\n\n Kosovo fulltime none\nlocations: Kosovo\nremote: no",
       "match_score": 11.21,
       "resume_variant": "frontend",
-      "draft_answer": null,
-      "status": "discovered",
+      "draft_answer": "I've built and owned end-to-end React front ends, automating workflows for 80+ organizations, and directly boosted user experience by cutting API fetch latency 98% and reducing real-time data refresh delays. This full-stack background has prepared me to rapidly build, iterate, and instrument funnels for new markets, ensuring reliable data under high load to drive conversion.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
       "discovered_at": "2026-10-20T22:59:54+00:00",
       "decided_at": null,
       "submitted_at": null,
@@ -272,7 +348,7 @@
         ]
       },
       "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
-      "drafted_at": null,
+      "drafted_at": "2026-10-21T03:28:31+00:00",
       "confirmation_signal": null,
       "github_run_id": null,
       "apply_kind": null
