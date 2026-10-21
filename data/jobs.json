@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-21T14:59:52+00:00",
+  "exported_at": "2026-10-21T16:43:15+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 962,
     "pending_approval": 261,
-    "discovered": 960,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "0a884812cb903e72a10f076b9ea2b77d",
+      "source": "yc",
+      "company": "Zeit AI",
+      "role": "People & Operation Manager",
+      "url": "https://www.workatastartup.com/jobs/117989",
+      "jd_text": "**ZeitMind, the autonomous data engineer for the European mid-market**\n\n**About Zeit AI**\n\nIn the coming years, companies will replace their internal data teams with AI agents to run more efficiently. We will be the solution they'll use. ZeitMind connects to the systems companies already run (ERP, CRM, spreadsheets, internal databases), cleans messy data, runs analyses on its own and builds data applications. Every employee can then work with data in plain language, with no technical degree and no help from IT. Our customers use it to organise agricultural inventories, to schedule maintenance, crew and flights for jet operators, and to replace controllers' manual Excel reports.. Founded by Marvin and Leopold, both ex-Palantir. YC S24, backed by Oxford Seed Fund and Sequoia Scout. Customers in manufacturing, agriculture and aviation. Zero to €1M ARR in our first twelve months with six people. Small team, one room in Munich, regular team offsites.\n\n**What This Role Is**\n\nAt our size, every hire shapes the company, and the team we build over the next year will decide how far ZeitMind goes. That's why this role matters so much to us.\n\nAs our first People hire, you own how people join and grow at Zeit AI, from a candidate's first touchpoint to their first months on the team. You make hiring fast, personal and professional. You keep us compliant across Germany and the UK, and you build the People foundations we'll rely on at 20, 50 and 100 people. You work directly with Marvin and Leopold, shape the function from day one, and help make Zeit AI a place great people want to join and stay.\n\n**Your Daily Business - no two days are alike**\n\n- **Recruiting in Ashby, end to end:** job postings, sourcing support, screening, scheduling interviews, collecting feedback and following up with candidates. No candidate waits a week for an answer\n\n- **Comfortable hiring** for both technical and non-technical roles. You can run a process for a senior engineer as confidently as for a sales or ops hire, and you know what good looks like in each\n\n- **Offers and contracts:** you prepare offer slides that make candidates excited to say yes, and you draft and manage employment contracts through to signature\n\n- **Candidate experience:** every applicant, hired or not, leaves with a good impression of Zeit AI. You own interview guides, scorecards and the debrief rhythm with the hiring team\n\n- **Onboarding:** contracts, equipment, accounts and a first week that never feels improvised\n\n- **Payroll and benefits:** you run payroll with Project B, handle benefits and insurance, and keep finance up to date on headcount and people costs\n\n- **HR systems and data:** you own our People tools and keep employee records accurate and secure. You pull the numbers the founders need, such as time-to-hire, pipeline health and headcount plans\n\n- **Compliance:** you keep contracts, policies and processes in line with German and UK employment law and know when to bring in external counsel\n\n- **Visa and relocation:** you guide international hires through work permits, visas and moving to Munich if needed\n\n- **People processes:** you design how we run feedback, performance conversations and the operating rhythm, together with the founders\n\n- **Team and culture:** you lead offsites, team events, the office\n\n- **Automation:** you find the repetitive work in People Ops and automate it rather than just documenting it\n\n**Your Skillset - what you bring to the table**\n\n- 2+ years in People Operations, Recruiting, HR Generalist or Talent roles, ideally at a fast-growing startup or scale-up\n\n- Hands-on recruiting experience with an ATS. Ashby is a plus, but Greenhouse, Lever, Personio or similar count too\n\n- Solid working knowledge of German and UK employment law, contracts and payroll processes.\n\n- Very organised with real attention to detail. Contracts, payroll and candidate follow-ups are exactly where details matter\n\n- Excellent communication. You handle a senior candidate, a new joiner and a founder in the same afternoon and adjust for each\n\n- Strong ownership and a bias to action. You build the process when there isn't one yet\n\n- AI-native: you already use AI tools to work faster, and you're excited to automate People processes\n\n- German and English fluently\n\n- Munich, or ready to relocate. This role does not work remotely\n\n**What We Offer**\n\n- Full trust, maximum support. Full trust, maximum support. You build the People function from scratch\n\n- Munich is our hub. In-person by design, and we cover your relocation within Europe\n\n- Regular team offsites\n\n- Best tools, zero blockers. Daily lunch allowance, dinner covered in the office, Wellpass\n\n- €5k referral bonus if we hire someone you refer\n\n Munich fulltime yes\nlocations: Munich\nremote: no\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-21T16:43:08+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "15e170828d69b628fc3f7ceaad76261c",
+      "source": "yc",
+      "company": "David AI",
+      "role": "Deployment Strategist",
+      "url": "https://www.workatastartup.com/jobs/117957",
+      "jd_text": "## **About David AI**\n\nDavid AI is the first audio data research company. We bring an R&D approach to data–developing datasets with the same rigor AI labs bring to models. Our mission is to bring AI into the real world, and we believe audio is the gateway. Speech is versatile, accessible, and human—it fits naturally into everyday life. As audio AI advances and new use cases emerge, high-quality training data is the bottleneck. This is where David AI comes in.\n\nDavid AI was founded in 2024 by a team of former Scale AI engineers and operators. In less than a year, we’ve brought on most FAANG companies and AI labs as customers. We recently raised a $50M Series B from Meritech, NVIDIA, Jack Altman (Alt Capital), Amplify Partners, First Round Capital and other Tier 1 investors.\n\nOur team is sharp, humble, ambitious, and tight-knit. We’re looking for the best research, engineering, product, and operations minds to join us on our mission to push the frontier of audio AI.\n\n## **About our Forward Deployed team**\n\nOur Forward Deployed team works side-by-side with customers on their most critical initiatives, turning complexity into clarity and strategy into action. Embedded deeply within customer organizations and connected tightly to product, research, and engineering, we ensure that every engagement creates meaningful impact for customers and accelerates the evolution of David AI.\n\n## **About this role**\n\nDavid AI is hiring a **Deployment Strategist** to serve as a trusted partner to customers on their most critical audio AI initiatives, shaping strategy and guiding them on their approach to audio training. You’ll work closely with senior stakeholders to uncover opportunities, define priorities, and design solutions that enable David AI to deliver consistently high-quality outcomes to our customers.\n\n## **In this role, you will**\n\n- Lead our customer journeys end-to-end, from ideation to launch.\n\n- Build and foster strong customer connections and consultative relationships across multiple business units and levels within customer organizations.\n\n- Translate customer objectives and collaborate with our research and engineering teams to build actionable strategies that guide long-term success.\n\n- Uncover new opportunities within accounts by identifying where David AI’s data and research insights can add value.\n\n- Develop and execute strategic account plans that build stakeholder alignment, guide customers through their decision and review process, and advance opportunities with mutual close plans.\n\n## **Your background looks like**\n\n- 4+ years of relevant experience (e.g., deployment strategy, consulting, product or program management, founder, etc.), ideally at a fast-growing startup or technology company.\n\n- Familiarity with the AI training lifecycle and have strong technical intuition for what makes high-quality training data for advanced AI systems.\n\n- Skill in designing and executing building strategies to effectively capture, grow, and retain revenue.\n\n- Demonstrated excellence in verbal and written communication.\n\n- Proven project management expertise with high attention to detail and exceptional organizational ability.\n\n- Deep experience building and managing cooperative relationships across technical teams and senior executives.\n\n- Success thriving in dynamic, undefined situations, contributing to both the design and execution of solutions.\n\n## **Bonus points if you have**\n\n- A proven track record in B2B client-facing roles, including opportunity generation and closing complex solutions to technical customers.\n\n- Education or professional experience with CS, Engineering, Data Science, Statistics, or other STEM fields.\n\n- Proficiency in SQL, Python, or other data science-related programming languages.\n\n## **Benefits**\n\n- Unlimited PTO.\n\n- Top-notch health, dental, and vision coverage with 100% coverage for most plans.\n\n- FSA & HSA access.\n\n- 401k access.\n\n- Meals 2x daily through DoorDash + snacks and beverages available at the office.\n\n- Unlimited company-sponsored Barry’s classes.\n\n San Francisco New York City fulltime yes\nlocations: San Francisco New York City\nremote: no",
+      "match_score": 8.44,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-21T16:43:08+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.22,
+            "overlap": 8.94,
+            "combined": 8.43
+          },
+          "backend": {
+            "cosine": 7.53,
+            "overlap": 7.89,
+            "combined": 7.64
+          },
+          "frontend": {
+            "cosine": 4.93,
+            "overlap": 11.17,
+            "combined": 6.8
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.22,
+        "keyword_overlap_score": 8.94,
+        "final_score": 8.44,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.3826
+          },
+          {
+            "term": "data",
+            "weight": 0.1288
+          },
+          {
+            "term": "team",
+            "weight": 0.1112
+          },
+          {
+            "term": "high",
+            "weight": 0.09
+          },
+          {
+            "term": "deployment",
+            "weight": 0.0552
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "29e02ccfe54f24129c9bbd06d749dbad",
       "source": "wellfound",
