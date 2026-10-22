@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-10-22T07:22:23+00:00",
+  "exported_at": "2026-10-22T09:14:19+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 966,
+    "discovered": 967,
     "pending_approval": 262,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "42f60c57c9d539e18b194ce85f03ec72",
+      "source": "yc",
+      "company": "Peakflo",
+      "role": "Marketing Intern - (Paid - India/Remote)",
+      "url": "https://www.workatastartup.com/jobs/118121",
+      "jd_text": "### **🚀 Who we are &amp; What we’re building**\n\n[**Peakflo**](https://peakflo.co/) is a rapidly growing Agentic AI company. We are revolutionizing the way global finance teams work with our agentic workflows, and we are actively seeking exceptional talent across diverse disciplines to champion this transformation, uniting multidisciplinary expertise to propel our global strategic vision.\n\n* **Our Growth Story** : Peakflo is backed by top-tier global accelerators and investors. We are proud alumni of the prestigious [Y-Combinator (W22)](https://www.ycombinator.com/companies/peakflo) and the [Google AI Accelerator](https://www.linkedin.com/posts/peakflo_acceleratedwithgoogle-googlecloudnext-googleforstartups-activity-7193090388700676099-51k9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEinqmYBcv9VU74nW1zSwa80KJlEKk1ZLFQ). Our momentum and impact have been recognized globally by top tech and finance publications:\n  * [**TechCrunch Exclusive:** Peakflo’s bid to build business payments for Southeast Asia attracts capital, customers](https://techcrunch.com/2022/07/05/peakflos-bid-to-build-business-payments-for-southeast-asia-attracts-capital-customers/)\n  * [**PYMNTS:** Peakflo Raises $4.1M in Seed Funding to streamline vendor payments](https://www.pymnts.com/news/investment-tracker/2022/ap-ar-software-firm-peakflo-raises-4-1m-in-seed-funding/)\n  * [**Grit Daily:** Latest Feature on Peakflo's Innovations](https://www.instagram.com/p/DU6KbiiD_MQ/?utm_source=ig_web_copy_link)\n\n[**Our Culture**](https://peakflo.co/about-us) : We believe in building a vibrant, high-performance culture that rewards curiosity, ownership, and innovation. Our team spans the globe, and we love coming together to solve hard problems and celebrate our wins. Most importantly, we have begun building an environment that provides the support and mentorship needed to succeed, learn, and grow. ❤️\n\n### **💻 What we’re Looking For:**\n\nWe are seeking a highly motivated, commercially aware **Marketing Intern** to join our dynamic team. In this role, you will play a crucial part in contributing to Peakflo’s content marketing initiatives by creating compelling customer case studies, managing G2 reviews, developing engaging social media content, and supporting our marketing newsletter. You will work on a variety of content-related projects, helping us strengthen our brand presence, communicate customer value, and tell the story of how Peakflo is transforming finance operations through Agentic AI.\n\n### **💪 What you’ll do**\n\n* **Customer Case Studies &amp; Storytelling:** Create and manage customer case studies that highlight how Peakflo helps businesses streamline finance operations. Collaborate with internal stakeholders to gather customer insights, identify success stories, and translate them into compelling narratives.\n* **G2 Reviews &amp; Reputation Management:** Monitor and manage Peakflo’s G2 reviews, coordinate review-related activities, and help maintain an engaging and consistent presence on the platform.\n* **Social Media &amp; Content Creation:** Create, publish, and manage content across social media channels to strengthen Peakflo’s brand presence, communicate product value, and engage our target audience.\n* **Marketing Newsletter:** Help develop and manage marketing newsletters, including content planning, drafting, editing, and coordinating publication to keep our audience informed and engaged.\n* **Content Marketing &amp; Ad Hoc Projects:** Support a range of content marketing initiatives and take ownership of ad hoc projects as needed, contributing creative ideas and helping execute marketing campaigns and activities.\n\n### **🕵️‍♀️ Who we’re looking for**\n\n* Currently pursuing or recently completed a Bachelor's degree in Marketing, Communications, Journalism, Business, or a related field.\n* Strong written communication skills, with an ability to create clear, engaging, and well-structured content.\n* Excellent attention to detail and the ability to manage multiple tasks and deadlines effectively.\n* A proactive, organized, and ownership-driven approach to work, with a willingness to learn and take initiative.\n* Creativity and an interest in content marketing, brand storytelling, social media, and digital communications.\n* Ability to collaborate with cross-functional teams and incorporate feedback effectively.\n* Comfort working in a fast-paced startup environment where priorities can evolve quickly.\n\n### **➕ We’re Particularly Interested In People Who Have:**\n\n1. Experience creating content for social media, blogs, newsletters, or other marketing channels.\n2. Experience writing case studies, customer stories, testimonials, or other forms of long-form content.\n3. Familiarity with G2 or other customer review platforms and online reputation management.\n4. Experience with content creation, editing, and design tools such as Canva, Notion, or similar platforms.\n5. An interest in B2B SaaS, FinTech, AI, and how technology solves real-world business problems.\n\n### **🙂Benefits :**\n\n* Competitive stipend\n* Performance based full-time role conversion\n* Comprehensive benefits package (post full-time conversion).\n* Opportunity for rapid career growth, skill development, and direct mentorship from experienced founders and product leaders.\n* Collaborative, high-impact, and innovative work environment.\n* Flexible work hours and remote work options. jobs_skill 294 Marketing design 0 intern none\nlocations: \nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-22T09:14:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "5dd7c897bc74a1db60edbf9de66a2888",
       "source": "yc",
