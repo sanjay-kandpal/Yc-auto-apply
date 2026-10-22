@@ -1,15 +1,284 @@
 {
-  "exported_at": "2026-10-22T09:14:19+00:00",
+  "exported_at": "2026-10-22T14:59:51+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 967,
-    "pending_approval": 262,
+    "pending_approval": 263,
+    "discovered": 971,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "c64d6beab9c8965fcfd1451ef15771dc",
+      "source": "wellfound",
+      "company": "Kasparro",
+      "role": "AI Software Engineer 1",
+      "url": "https://wellfound.com/jobs/4881130-ai-software-engineer-1",
+      "jd_text": "AI Software Engineer 1\nKasparro | Bengaluru | Full-time\n\n\nAbout Kasparro\nKasparro builds technology that measures and improves how brands appear across AI search engines like ChatGPT, Claude, Gemini, and Perplexity. We're looking for a hands-on engineer passionate about building AI agents, experimenting with new tools, and shipping reliable software.\n\nWhat You'll Do\n* Build AI agents and multi-step workflows for research, data extraction, and verification.\n* Use coding agents like Claude Code or Codex in daily development.\n* Design prompts, tools, APIs, and structured outputs.\n* Test agent performance, debug failures, and improve reliability.\n* Build and deploy production-ready backend services and database integrations.\n* Take ownership, experiment, and turn ideas into working solutions.\n\nWhat Are We Looking For\n1+ years of software development experience.\nHands-on experience building AI agents or multi-step workflows.\nStrong programming fundamentals, preferably in Python.\nUnderstanding of LLMs, prompt engineering, REST APIs, testing, and debugging.\nFamiliarity with Git, databases, and deployment workflows.\nA strong builder mindset, curiosity, and willingness to take initiative.\n\nTech Stack\nPython, FastAPI, PostgreSQL, Gemini/OpenAI APIs, Google ADK, LangGraph, Langfuse, Docker, and GitHub Actions. React and Next.js experience is a plus.\n\nWhat we offer \n₹10 LPA fixed + variable pay + ₹10 lakh ESOP grant.\nDirect collaboration with founders and engineers.\nHands-on experience building production AI systems.\nEngineering mentorship and opportunities for growth.\nWork Location: Bengaluru\n\nWork Arrangement: 5 days in-office + 1 day work from home\n\nExperience: 1+ years\n\nHow to apply\nShare your resume, GitHub/repository or demo links, and a brief description of an AI agent you've built, how you tested it, and a challenging problem you solved.\n\nEmail: hazel@kasparro.com, nehakannan@kasparro.com\n\nCC: grandmaster@kasparro.com HSR Layout\nlocationNames: HSR Layout",
+      "match_score": 11.6,
+      "resume_variant": "backend",
+      "draft_answer": "As an engineer who built and validated an LLM agent for local execution and owned cloud-native FastAPI backends, I bring experience deploying production systems and designing APIs for reliable performance and data integrity. I'm adept at debugging under load, cutting latency by 98% with caching, and introducing message brokers to guarantee delivery, which is critical for measuring and improving brand presence across AI search engines.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-22T14:59:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.16,
+            "overlap": 11.26,
+            "combined": 11.19
+          },
+          "backend": {
+            "cosine": 11.58,
+            "overlap": 11.65,
+            "combined": 11.6
+          },
+          "frontend": {
+            "cosine": 8.73,
+            "overlap": 12.62,
+            "combined": 9.89
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 11.58,
+        "keyword_overlap_score": 11.65,
+        "final_score": 11.6,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2964
+          },
+          {
+            "term": "experience",
+            "weight": 0.1515
+          },
+          {
+            "term": "agents",
+            "weight": 0.1482
+          },
+          {
+            "term": "apis",
+            "weight": 0.0909
+          },
+          {
+            "term": "com",
+            "weight": 0.0909
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-22T14:59:50+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9aa1d101c855a11220f53e7589a931cc",
+      "source": "wellfound",
+      "company": "JuiceLabs AI",
+      "role": "Software Engineer / AI Engineer",
+      "url": "https://wellfound.com/jobs/4879023-software-engineer-ai-engineer",
+      "jd_text": "**About Juicelabs**\n*Where creative engineering meets applied AI.*\n\nWe build vertical, AI-native tools that unlock fresh insights and creative superpowers for clients in advertising, ecommerce, and beyond. We're a nimble team of founders and builders obsessed with using AI to solve real problems in ways that didn't exist eighteen months ago.\n\n**The Opportunity**\nA year ago, we would have posted this as a backend role. That role doesn't really exist any more.\n\nCode has become nearly invisible. Agents write it, test it, and iterate on it faster than anyone could read it. What's left is the work above it: deciding what's worth building, designing systems that hold up at 10x, and building the setup that turns a clear spec into working software.\n\nThat's the job. At your level, it isn't one system. It's several workstreams, running at once.\n\nYou'll work directly with our Cofounder/CTO on products going from zero to one, with AI at the core of both what we build and how we build it. Real ownership, real scope, and an unusual amount of leverage: one engineer with good judgment and a well-tuned agent setup now ships what a small team used to.\n\n**What you'll do**\n\n* **Own multiple workstreams in parallel.** Two or three features of the same product moving at once, each with its own scope, edge cases, and failure modes. You decide where your attention goes this week, and nothing goes stale.\n* **Run a fleet, not a single agent.** Design the setup that makes high-throughput work possible: how work gets broken down, specced, and run across many agents at once, so output scales without things breaking.\n* **Design the system.** Service boundaries, data models, failure modes. Make the architectural calls before a line gets generated, and be able to explain the trade-off six months later.\n* **Write the spec.** PRDs and technical designs are the new source code. A vague spec produces confidently wrong software, fast. Scope, edge cases, non-goals, what \"done\" means.\n* **Own it end to end.** Ideation → design → build → deploy → monitor → iterate, including functional UX. Nobody hands you tickets.\n* **Set the workflow. Bring your harness**: CLAUDE.md, AGENTS.md, subagents, custom commands, eval loops — whatever makes agents reliable rather than merely impressive. We want to steal your good ideas.\n\n\n**What we're looking for**\n* **High agency.** You see the gap and close it. You don't wait for direction, and you don't need to be chased for follow-through. This is the single trait we screen hardest for. And you can do it across several workstreams at once, without dropping threads.\n* **Real system design depth.** You can reason about consistency, caching, queues, and scale — and about complexity, because you need to know when an elegant-looking solution is quietly quadratic. LeetCode ninja not required. Being able to explain why this won't blow up at 10x, very much required.\n* **Clear thinking, put to paper.** You get the thinking straight first, then write it down so nobody has to guess: PRDs, design docs, PR comments. Writing is most of how you'll direct both humans and models, and muddy thinking on paper becomes muddy software.\n* **You've shipped to production.** Deployed things, monitored them, been paged by them, fixed them. Docker, CI/CD, cloud infra. Our stack is mostly Python (FastAPI), Postgres, GCP/AWS — but we care more about how you think than which framework you've memorised.\n* **You orchestrate AI, not just use it.** Not \"I've tried Copilot,\" and not just \"I use Claude Code.\" You've run multiple agents in parallel and developed opinions: how to split work so they don't step on each other, where they excel, where they confidently lie, how you structure a repo so they don't wander, and how you verify what comes back at volume.\n* **Startup energy.** Multiple hats, fast cycles, and the judgment to balance \"ship it now\" against \"will this survive contact with real users?\"\n\n\n**Experience**\n3–6 years of professional experience (full-time positions, excluding internships).\n\n**Location / How to apply**\nOn-site at our office in HSR Layout, Bangalore. India Bangalore Urban HSR Layout\nlocationNames: India Bangalore Urban HSR Layout",
+      "match_score": 8.73,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-22T14:59:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.51,
+            "overlap": 13.91,
+            "combined": 8.73
+          },
+          "backend": {
+            "cosine": 6.36,
+            "overlap": 13.91,
+            "combined": 8.62
+          },
+          "frontend": {
+            "cosine": 5.28,
+            "overlap": 16.5,
+            "combined": 8.65
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.51,
+        "keyword_overlap_score": 13.91,
+        "final_score": 8.73,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1556
+          },
+          {
+            "term": "agents",
+            "weight": 0.1297
+          },
+          {
+            "term": "real",
+            "weight": 0.106
+          },
+          {
+            "term": "team",
+            "weight": 0.0641
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.0636
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "48975e6a725040792587549e693b12a1",
+      "source": "wellfound",
+      "company": "Indihood",
+      "role": "Application Developer",
+      "url": "https://wellfound.com/jobs/586829-application-developer",
+      "jd_text": "Application Developer\n\nLocation : Bangalore\n\nIndihood is making computing as simple and as accessible as pencil, paper and eraser, creating\npopulation scale platforms that work for all 8 Billion of us. At our core is the Indihood cloud, using which we co-create, evolve digital platforms with, for our customers. This declarative, generative computing cloud crashes the effort of delivering and scaling population scale platforms beyond an order of magnitude, unlocking the ability to build rich, composable, adaptive solutions that are purpose fit for our customer’s communities, while continuously evolving, growing with the needs of users and business.\n\nAt Indihood, we offer a unique opportunity to reimagine and engineer ideas that will impact\nsociety at scale. Our team of engineers, including Google pioneers who have invented, built and launched systems that touched a billion lives—including Google’s Map Maker, Google Finance, Google Transliteration, YouTube community translation, and Crowdsourced machine translation training, are waiting for you to join them. Pioneering engineers from the best technology companies have joined us over the years. You will be working shoulder-to-shoulder with these technology pioneers.\n\nIndihood has seen enormous success with its first solution - Avanti - a platform envisioned by\nNandan Nilekani and Ratan Tata. Our tribe is growing. We are looking for the most passionate\nand brightest minds to join us. We are not just looking for employees, but individuals inspired to reimagine what others consider difficult challenges for society. You will work with people\ncommitted to digitally transforming our planet, while having fun doing it.\n\n**Responsibilities**\n● Implement end to end applications to unlock opportunities for people\n● Design scalable solutions, which involves the following:\n● Clean, Modular Workflows: Create clear and well-defined workflows that are\nlogically separated into reusable modules or components enhancing code\nmaintainability, testability, and scalability.\n● Database and Schema Design: Design efficient and scalable database structures,\nincluding tables, relationships, and constraints, to effectively store and manage\ndata. This involves selecting appropriate data types, indexing strategies, and\nnormalization techniques to optimize data integrity, query performance, and\nstorage efficiency.\n● Write Optimal Expressions: Craft efficient and well-optimized expressions.. This\nincludes considering factors such as execution time, resource utilization, and\nalgorithmic complexity to ensure optimal performance and scalability of the\nsolution.\n● Conduct functional testing (both manual and automated testing)\n● Collaborate with Eng team for solution requirements\n● End to end implementation of the application\n● Deployment of the application\n● Post-production support\n● Track/Measure milestones\n\n**Minimum Qualification**\n● Experience in building applications\n● Familiarity with databases, table design, schemas\n● Familiarity with JAVA and Javascript\n● Writing expressions and workflows\n● Write, execute, maintain manual and automated tests\n● B.Tech, BE, MCA (Preferably computer science)\n● Good communication skills Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-22T14:59:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2fdd38cddadab03cf217c85a3bdd2760",
+      "source": "wellfound",
+      "company": "AtomicAds",
+      "role": "Member of Technical Staff (Backend Engineer)",
+      "url": "https://wellfound.com/jobs/4881119-member-of-technical-staff-backend-engineer",
+      "jd_text": "We're looking for a Software Engineer (1-6 Years Experience) to build scalable backend systems and contribute to product development. You'll work closely with experienced engineers to develop reliable, high-performance software.\n\n\n\nResponsibilities: \n\nDevelop backend applications using Python and Django.\nBuild and maintain REST APIs.\nWork with PostgreSQL/MySQL databases.\nDebug, optimise, and improve application performance.\nCollaborate with frontend, product, and infrastructure teams.\nParticipate in code reviews and follow engineering best practices.\nSupport deployments on AWS.\n\n\nRequirements: \n\n1-6 years of software development experience.\nStrong knowledge of Python and Django (FastAPI/Flask is a plus).\nExperience with REST APIs and SQL databases.\nBasic understanding of AWS, Git, and software development best practices.\nGood problem-solving and communication skills.\nBachelor's degree in Computer Science or a related field. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-22T14:59:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8492e38ea342abfe335bc560693ed993",
+      "source": "wellfound",
+      "company": "AtomicAds",
+      "role": "Member of Technical Staff",
+      "url": "https://wellfound.com/jobs/4012972-member-of-technical-staff",
+      "jd_text": "**Key Responsibilities** \n* Backend Development: Design, develop, and maintain backend services using Python and Django.\n* Database Optimization: Optimise database interactions with strong DBMS knowledge, ensuring efficient data handling and query performance. \n* Technical Leadership: Lead technical initiatives, including architecture decisions, code reviews.\n* Architectural Evolution: Evaluate the current Django monolith to drive performance improvements; collaborate with the team on the decision and potential execution of a migration to microservices (additionally exploring Rust or Go) as and when business demands scale readiness.\n* Feature Delivery: Implement and manage DSP (Demand Side Platform) API and collaborate on React frontend integrations to deliver seamless user experiences. \n* Infrastructure: Deploy and monitor applications on AWS, troubleshooting issues in a production environment. \n* On Call: Participate in on-call rotations to address critical bugs and maintain system uptime. \n\n**Required Qualifications** \n* 1+ years of experience with building scaled systems from scratch \n* Python Mastery: Proven expertise in Python and Django, with a strong portfolio of hands-on projects; experience with FastAPI or Flask is a plus.\n* System Design: Strong background in RDBMS (PostgreSQL/MySQL) and a solid understanding of when to move from monoliths to microservices.\n* Polyglot Potential: Must have worked with at least one language other than Python in production. Preferably, hands-on experience in Rust or Go for high-performance service development. \n* Problem Solving: Excellent problem-solving abilities, demonstrated through complex algorithmic challenges or real-world applications. \n* Education: Bachelor's or Master's degree in Engineering (preferably Computer Science). \n\n**What We Offer** \n* Lead product build with passionate team of builders and shipping fast cultre \n* The chance to make a meaningful impact on millions of users through cutting-edge technology and drive economic growth to end users.\n* Competitive salary, ESOP’s, and comprehensive benefits package.\n\nApply here: https://atomicads.notion.site/328c06c07d578086ad43f76fc27bd2d6?pvs=105\n\nNote: This is an individual contributor role and is level-agnostic. We hire across levels for the right talent, with the final level determined based on the candidate’s experience, performance during the hiring process, and alignment with the role, in consultation with the recruiter and hiring manager. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-22T14:59:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "42f60c57c9d539e18b194ce85f03ec72",
       "source": "yc",
