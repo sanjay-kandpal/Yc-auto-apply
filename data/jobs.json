@@ -1,15 +1,438 @@
 {
-  "exported_at": "2026-10-22T16:44:11+00:00",
+  "exported_at": "2026-10-22T21:36:09+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 263,
-    "discovered": 971,
+    "discovered": 976,
+    "pending_approval": 266,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "f60fb82970587a6d6db29be7a527d30e",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Software Development Engineer (SDE) – Full Stack",
+      "url": "https://wellfound.com/jobs/4754610",
+      "jd_text": "Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-22T21:35:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8869d8a404efbcedc1379326fe0fec81",
+      "source": "wellfound",
+      "company": "Bitkraft Technologies",
+      "role": "AI Software Developer",
+      "url": "https://wellfound.com/jobs/4465215-ai-software-developer",
+      "jd_text": "**Summary** \n\nBitkraft Technologies LLP is seeking a highly motivated AI Software Developer with 2–4 years of experience in modern software development. The ideal candidate should possess strong full-stack development skills and hands-on experience using AI-powered development tools to build, optimize, and deploy scalable applications. \n\nThe role requires the ability to effectively utilize AI-assisted coding platforms, manage multiple projects simultaneously, contribute to cloud-based deployments, and develop solutions across web and mobile platforms for clients from diverse industries. \n\n**Essential Skills **\n\n1. Strong experience in modern web application development using React.js, Vue.js, Angular, or equivalent frontend technologies  \n2. Proficiency in backend development using Python (Django, Fast API), Node.js, or equivalent technologies  \n3. Experience designing and developing REST APIs and Microservices  \n4. Strong understanding of databases such as MySQL, PostgreSQL, MongoDB, or similar  \n5. Proficiency with Git and version control systems \n\n\n**AI-Assisted Development **\n\n1. Hands-on experience with AI coding tools such as Claude, ChatGPT, GitHub Copilot, Codex, Cursor, Windsurf, or similar \n2. Strong understanding of Prompt Engineering and Context Management \n3. Ability to leverage AI tools for code generation, debugging, testing, documentation, and automation \n4. Understanding of AI-driven software development workflows and productivity practices \n\n**Cloud, DevOps &amp; Automation **\n\n1. Experience with cloud platforms such as AWS, Azure, or GCP \n2. Knowledge of cloud-based deployments and application hosting \n3. Understanding of CI/CD pipelines and deployment automation \n4. Familiarity with DevOps concepts and release management processes \n5. Experience with Docker, containerization, or orchestration tools is an advantage \n\n**Desirable Skills** \n1. Knowledge of Mobile Application Development (Android/iOS/Flutter/React Native) \n2. Exposure to AI/ML integrations, LLM APIs, and automation frameworks \n3. Experience working in Agile/Scrum environments \n4. Familiarity with testing frameworks and automated testing practices \n5. Understanding of software architecture and design patterns \n\n**Key Responsibilities**\n1. Design, develop, test, and maintain scalable software applications \n2. Build and enhance web and mobile applications for global clients \n3. Utilize AI-powered development tools to improve development speed and code quality \n4. Work on multiple client projects simultaneously while ensuring timely delivery \n5. Collaborate with cross-functional teams including Product, Design, QA, and Client stakeholders \n6. Develop and maintain RESTful APIs and backend services \n7. Participate in cloud deployments, CI/CD implementation, and automation initiatives \n8. Troubleshoot, debug, and optimize existing applications \n9. Conduct code reviews and contribute to development best practices \n10. Ensure application performance, scalability, security, and maintainability \n11. Stay updated with emerging AI technologies and software development trends \n\n**Qualifications** \n\nBachelor’s degree in Computer Science, IT, or a related field \n2–4 years of relevant work experience \nJob Location – Fort, Mumbai Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-22T21:35:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e7266bf244655e2f7a7c5844ceaadb05",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Senior ABM & Outbound Sales Associate - Hyderabad (On-Site)",
+      "url": "https://wellfound.com/jobs/3945376-senior-abm-outbound-sales-associate-hyderabad-on-site",
+      "jd_text": "Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-22T21:35:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "95545a8566be80d1f699f07c965f0e75",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Senior UI/UX designer",
+      "url": "https://wellfound.com/jobs/3708292-senior-ui-ux-designer",
+      "jd_text": "Hyderabad\nlocationNames: Hyderabad\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-22T21:35:22+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f4f29fb58de1c551139a3cc1b7a3626c",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Outbound Growth Hacker (Email + Revenue Engine)",
+      "url": "https://wellfound.com/jobs/4171794-outbound-growth-hacker-email-revenue-engine",
+      "jd_text": "Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-22T21:35:19+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1b46a0d0ad12215cefbea86fc647c251",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Software Development Engineer - Frontend Focus",
+      "url": "https://wellfound.com/jobs/4791199-software-development-engineer-sde-frontend-clone",
+      "jd_text": "# Software Development Engineer (SDE) – Frontend\n\n**On-Site, Hyderabad, India · Full-Time**\n\n&gt; **Only apply if:** You have **≥ 1 year** of production-grade frontend experience with strong, demonstrable expertise building and shipping scalable **React / Next.js** applications — **and** you can point us to **live, deployed products** you have built.\n\n---\n\n## Who We Are\n\nWe are a fast-growing product startup building intelligent, AI-powered software for modern businesses. Our focus is on crafting seamless, high-performance user experiences powered by scalable backend systems and data-driven intelligence — and we ship to real customers every week.\n\nAs we scale, we are looking for a **Frontend-focused SDE** who thrives in a fast-paced environment and can take end-to-end ownership of frontend architecture and user experience across a complex, multi-surface product.\n\n---\n\n## What You'll Do\n\n### Core Frontend Development\n- Build production-grade applications using **Next.js (App Router), React 19, TypeScript, and Tailwind CSS**.\n- Architect scalable, reusable component libraries and design systems on top of **shadcn/ui / Radix primitives**.\n- Implement modern UI patterns using hooks, context, and advanced state management.\n- Optimize performance using code-splitting, lazy loading, caching, and **SSR / SSG / ISR / CSR** strategies.\n- Ensure pixel-perfect, responsive, accessible UI across devices and browsers.\n\n### Meta Platform &amp; Mobile App Development\n- Build and ship **Meta app development–related features**, including integrations with Meta platforms (e.g. WhatsApp Business Platform, Messenger, Instagram, Meta Graph API, Facebook Login, and Meta app review/permissions flows).\n- Build and ship **mobile applications for both iOS and Android** using cross-platform frameworks such as **Flutter**, **React Native**, or similar platforms (native Swift/Kotlin experience is a plus).\n\n### UI/UX Engineering Excellence\n- Translate product requirements and Figma designs into robust frontend implementations.\n- Build complex **dashboards, data visualizations, and interactive multi-step workflows** (charts, tables, maps, geographic intelligence, analytics views).\n- Build **AI-driven, streaming interfaces** — chat/agent UIs, token-by-token streaming, real-time updates, and rich message rendering (markdown, code, math).\n- Integrate real-time features using **WebSockets, SSE / streaming APIs, or event-driven updates**.\n- Ship accessible, SEO-friendly, high-performance web interfaces measured against Lighthouse best practices.\n\n### Frontend Architecture &amp; Scalability\n- Design scalable folder structures and modular, maintainable frontend architecture.\n- Implement server- and client-state management using **TanStack Query** and **Zustand** (or equivalent modern solutions).\n- Build robust forms with **React Hook Form + Zod** validation.\n- Integrate with backend services (TypeScript/Node and Python) over **REST and/or GraphQL** APIs.\n- Ensure robust error handling, observability, and performance monitoring.\n- Drive frontend testing strategy with **Vitest / Jest, React Testing Library, and Cypress/Playwright**.\n- Contribute to **embeddable / SDK-style frontend artifacts** (e.g. CDN-delivered, shadow-DOM-isolated widgets) where relevant.\n\n### Engineering &amp; Collaboration\n- Conduct structured code reviews and enforce high-quality coding standards.\n- Collaborate closely with backend engineers, product managers, and designers.\n- Contribute to CI/CD workflows and deployment pipelines.\n- Take ownership of features from concept to production release.\n- Mentor junior engineers and uphold engineering best practices.\n\n---\n\n## Must-Have Qualifications\n\n### Core Frontend Expertise\n- **≥ 1 year** of production experience building scalable web applications.\n- Strong command over **Next.js, React, TypeScript, and modern JavaScript (ES6+)**.\n- Deep understanding of rendering strategies (**SSR, SSG, ISR, CSR**) and when to use each.\n- Advanced **Tailwind CSS** knowledge and experience building custom design systems.\n- Experience with frontend performance optimization and profiling.\n\n### API &amp; Integration\n- Experience integrating frontend applications with **Node.js and Python** backends.\n- Strong understanding of **REST APIs and/or GraphQL**.\n- Familiarity with authentication systems (**JWT, OAuth, session-based auth**).\n- Experience handling large datasets, paginated/infinite APIs, and streaming responses.\n\n### Frontend Ecosystem Knowledge\n- Server/client state management (**TanStack Query / React Query, Zustand, Redux Toolkit**).\n- Form management (**React Hook Form, Zod/Yup validation**).\n- Data fetching and caching strategies.\n- Component-driven development; experience with design systems / Storybook is a plus.\n- **Data visualization** libraries (Recharts, D3, ECharts, Nivo, or similar).\n\n### DevOps &amp; Quality\n- Experience with **Docker-based local development** workflows.\n- CI/CD familiarity (GitHub Actions, GitLab CI, etc.).\n- Strong Git workflows and collaborative branching strategies.\n- Testing mindset spanning unit, integration, and E2E coverage.\n\n### Engineering Mindset\n- Clean, maintainable code adhering to SOLID principles.\n- Strong debugging and performance-profiling skills.\n- Ownership-driven, product-first thinking.\n- Comfortable working independently in an **in-office startup environment**.\n\n---\n\n## Critical Requirements – High Weightage\n\n&gt; **This is non-negotiable. Applications without these will not be prioritized.**\n\n### Portfolio, Live Products &amp; Demos\nYou must be able to **show, not just tell**. With your application, explicitly share:\n\n- **An active GitHub profile** showcasing real, production-grade frontend code (not just tutorials or forks).\n- **Live, deployed projects** — public URLs we can open and interact with right now. Next.js + TypeScript projects strongly preferred.\n- **Live demos / a portfolio site** where you specifically showcase your **UI/UX work** — the visual quality, interaction design, responsiveness, and polish you are personally responsible for.\n- Demonstrated ability to build **complex dashboards, SaaS products, AI-integrated UIs, or data-heavy interfaces**.\n- Clean code structure, thoughtful architecture, and clear documentation.\n\n**In your application, please include direct links to:**\nhttps://forms.gle/FPUtQZ9ebgHPeAH59 \n1. Your GitHub profile (and 1–3 specific repos you're proud of).\n2. At least one **live deployed product** (URL) you built or substantially contributed to.\n3. A **portfolio / demo** that highlights your UI/UX craftsmanship.\n\nTell us, for each link, exactly what you built and which parts are yours.\n\n### Technical Assessment\nWe will evaluate your:\n- Frontend architecture design and scalability decisions.\n- Code quality and maintainability.\n- Performance optimization strategy.\n- Ability to convert product requirements into production-ready UI.\n- End-to-end ownership during feature implementation.\n\n---\n\n## Nice-to-Have\n- Experience building **AI-powered, streaming, or data-heavy interfaces**.\n- Experience with **Meta app development** and **mobile app development (iOS and Android)** using Flutter, React Native, or similar cross-platform frameworks, including publishing to the App Store and Google Play.\n- Knowledge of **WebSockets, streaming UIs, and real-time collaboration** features.\n- Experience building **embeddable widgets / SDKs** (shadow-DOM isolation, CDN delivery).\n- Experience with design systems and internal UI libraries.\n- Exposure to animation libraries (**Framer Motion, GSAP**).\n- Contributions to open-source React/Next.js projects.\n- Experience working in early-stage startups.\n\n---\n\n## What We Offer\n- Competitive salary with a strong growth trajectory.\n- High-impact role with direct influence on product direction.\n- Opportunity to work on cutting-edge AI-driven products.\n- Fast execution cycles and a strong ownership culture.\n- Learning budget for courses and certifications.\n- Collaborative in-office engineering culture in **Hyderabad**.\n\n---\n**https://forms.gle/FPUtQZ9ebgHPeAH59**\nIf you are passionate about building scalable, beautiful, and high-performance frontend systems — and want to shape the product experience of a growing startup — **send us your GitHub, your live products, and your portfolio.** We'd love to see what you've shipped. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 20.35,
+      "resume_variant": "frontend",
+      "draft_answer": "I've driven end-to-end frontend development for client-facing portals and platforms using React and Next.js, including a government mining-safety regulator's reporting portal, taking full ownership from requirements to UAT and production. My work optimizing API fetch latency by 98% with Redis caching, cutting data load times by over 50% through storage migration, and reducing real-time data refresh delays by 30 seconds directly contributes to crafting the seamless, high-performance user experiences required for AI-powered software products.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-22T21:35:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 14.48,
+            "overlap": 23.84,
+            "combined": 17.29
+          },
+          "backend": {
+            "cosine": 12.98,
+            "overlap": 24.44,
+            "combined": 16.42
+          },
+          "frontend": {
+            "cosine": 17.63,
+            "overlap": 26.7,
+            "combined": 20.35
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 17.63,
+        "keyword_overlap_score": 26.7,
+        "final_score": 20.35,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.2519
+          },
+          {
+            "term": "experience",
+            "weight": 0.1831
+          },
+          {
+            "term": "ui",
+            "weight": 0.1383
+          },
+          {
+            "term": "react",
+            "weight": 0.1144
+          },
+          {
+            "term": "app",
+            "weight": 0.0801
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-22T21:35:40+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c05103391484b9f301d489988554723d",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "AI Software Engineer (Backend, Agentic, and Voice AI)",
+      "url": "https://wellfound.com/jobs/4860607-ai-software-engineer-backend-agentic-and-voice-ai",
+      "jd_text": "# AI Engineer — Agentic, Voice &amp; Messaging Agents\n\nSteps AI is hiring an AI Engineer in Hyderabad to build the AI agents that talk to customers on the web, WhatsApp, Instagram, Messenger and the phone.\n\n**Location:** Hyderabad, India, on-site  \n**Job type:** Full-time  \n**Experience:** 2+ years  \n**Focus:** Agentic AI, GenAI, real-time voice agents, Meta messaging-channel agents  \n\n## About Steps AI\n\nSteps AI is an agentic AI platform that powers customer-facing AI agents for e-commerce, SaaS, healthcare, real estate, EdTech and financial services. Our agents go live in under five minutes from a single URL. They learn a business from its website, documents, FAQs and product catalog, then work across web chat, WhatsApp, Instagram, Messenger and voice.\n\nWe are profitable, growing fast, and ship production AI to customers every week. Voice is our newest product area, and we are building it now.\n\n## The role\n\nYou will build the agents themselves: the runtime that reasons and calls tools, the voice pipeline that talks to callers in real time, and the channel integrations that carry conversations over WhatsApp, Instagram and Messenger. You will work directly with the founders, own the features you build end to end, and ship them to real customers within days of designing them.\n\n## What you will build\n\n### Agentic AI runtime\n\n- Agent graphs with state, conditional routing, tool binding, checkpointing and human-in-the-loop interrupts\n- Escalation to human agents, with clean context handoff and resume\n- Multi-provider LLM orchestration (OpenAI, Anthropic, Gemini, Azure OpenAI) with per-agent model choice, fallback chains and cost and latency trade-offs\n- A tool ecosystem: Shopify and WooCommerce, CRMs and helpdesks, calendars and email, logistics carriers, web search, and channel-specific actions; new providers reach production in days, not weeks\n- Memory: long-term memory across sessions and short-term state per thread, with clear contracts between them\n- Streaming: token-level delivery, intermediate events, interrupt and resume, and structured end-of-turn events\n- Guardrails for prompt injection, PII and off-topic requests\n\n### Real-time voice agents\n\n- Streaming speech-to-text, LLM and text-to-speech pipelines, plus speech-to-speech models (OpenAI Realtime, Gemini Live) where they fit\n- Natural turn-taking: voice activity detection, endpointing, barge-in and interruption handling\n- A measured voice-to-voice latency budget, with sub-second responses as the bar\n- Inbound and outbound calling over telephony providers (Twilio, Exotel, Plivo, SIP) and WebRTC\n- Outbound campaigns with scheduling, concurrency limits, retries, voicemail detection, and consent and calling-hour rules\n- Warm transfer to humans, call recording, transcripts, post-call summaries and call analytics\n- English, Hindi, Telugu and other Indian languages, including code-mixed speech\n\n### Meta channel agents (WhatsApp, Instagram, Messenger)\n\n- The WhatsApp Business Platform (Cloud API): Embedded Signup onboarding, approved message templates, interactive messages, catalogs and the 24-hour customer service window\n- WhatsApp Business calling, so the same agent can answer voice calls inside WhatsApp\n- Instagram messaging (DMs and comment-to-DM replies) and Messenger, including handoff between the AI agent and human inboxes\n- Webhook ingestion that verifies signatures, is idempotent, and survives retries, duplicates and out-of-order events\n- OAuth and encrypted token storage per customer, plus subscription and rate-limit management\n- One customer identity and conversation history across web, WhatsApp, Instagram, Messenger and voice\n\n### Knowledge and retrieval\n\n- Ingestion of websites, documents, FAQs and product catalogs: crawling, parsing, OCR and layout-aware extraction\n- Hybrid retrieval (dense plus sparse) with cross-encoder reranking, tuned for recall and precision\n- Idempotent embedding and indexing pipelines on scheduled, long-running workflows\n\n### Platform, reliability and quality\n\n- Backend APIs in Python (FastAPI) and TypeScript (NestJS) for agents, workspaces, channels, integrations and billing\n- Multi-tenant workspaces with role-based access, quotas and usage metering\n- New modules designed end to end: data model, API, workflow, AI tool and UI\n- Contributions to the React/Next.js dashboard and the embeddable chat and voice widget\n- Instrumentation from day one: token usage, latency, answer quality, call quality, conversion and errors\n- Short design docs that explain the trade-offs behind what you build\n\n## Must-have skills\n\n- 2+ years of professional experience building backend or full-stack applications\n- At least one LLM agent you shipped to real users (chat, voice or messaging) that you can demo live and walk us through\n- Strong Python: FastAPI, async I/O, Pydantic, structured logging\n- Production experience with LangGraph, LangChain or a comparable agent runtime: tool calling, state, checkpointing, streaming, human-in-the-loop\n- Direct integration with LLM APIs (OpenAI, Anthropic, Gemini or Azure OpenAI), including fallbacks and cost control\n- A vector database (Pinecone, Qdrant, Milvus or Weaviate), with hybrid retrieval and reranking\n- PostgreSQL schema design and query tuning, REST and webhook API design, and Redis or a job queue\n- WebSockets or other streaming protocols\n- Git, Docker, CI/CD, and deploying to AWS or GCP\n\n## Strong plus\n\n- Production voice agents: LiveKit or Pipecat; Deepgram, Whisper, AssemblyAI or Sarvam for speech-to-text; ElevenLabs, Cartesia or Sarvam for text-to-speech; Twilio, Exotel, Plivo or SIP for telephony; WebRTC and audio streaming\n- Meta platforms at scale: WhatsApp Cloud API, Embedded Signup, message templates and WhatsApp calling; Instagram and Messenger messaging; signed webhooks\n- TypeScript and NestJS with an ORM such as Prisma\n- React and Next.js, Tailwind, shadcn/ui or Radix, TanStack Query, and embeddable JavaScript widgets\n- Workflow orchestration: Temporal, Celery, Airflow or Prefect\n- E-commerce, CRM and helpdesk APIs: Shopify, WooCommerce, HubSpot, Zoho, Freshdesk, Zendesk\n- LLM observability and evaluation: Langfuse, OpenTelemetry, LLM-as-judge, RAGAS, red-teaming\n- Multimodal AI: vision-language models and live audio streams\n- Multilingual and Indian-language speech and text\n- Usage-based or subscription billing\n- Open-source work, papers, talks or hackathon wins in GenAI\n\n## How you work\n\n- You ship fast. A well-defined feature goes from idea to production in days, not weeks.\n- You read code faster than docs, and you trace a bug across services to its root cause yourself.\n- You design for failure: idempotent webhooks, correctly retried jobs, circuit breakers on external APIs, and guardrails on every prompt.\n- You measure what you ship: token usage, latency, retrieval quality, call quality and conversion, from day one.\n- You take ownership. When something breaks, you fix it, write it up, and prevent it from recurring.\n- You turn fuzzy business requirements into working features without rounds of hand-holding.\n- You are excited to build voice from its early stages.\n\n## Qualifications\n\n- B.Tech, M.Tech or MS in Computer Science, Software Engineering, AI/ML or a related field, or equivalent practical experience\n- 2+ years of professional engineering experience with a production track record\n- Able to work on-site in Hyderabad, in person with the team\n\n## What we offer\n\n- Direct, no-gatekeeper access to the founders\n- Real ownership of what you build, including architecture choices within your scope\n- A fast learning curve on production agentic, voice and messaging AI\n- Competitive salary, calibrated to a live demonstration of what you can build\n\n## How to apply\n\nComplete the [application form](https://forms.gle/ciFTj8iS6j3TLVNt7). It takes about 5 minutes, and resumes sent outside the form are not reviewed. Shortlisted candidates hear from us within 48 hours. Come ready to demo, live, an agent you built.\n\nSteps AI · [stepsai.co](https://stepsai.co) · Hyderabad, India Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 17.25,
+      "resume_variant": "fullstack",
+      "draft_answer": "My 'Local AI Agent' project demonstrates direct LLM tool-calling experience, complementing my professional background in building FastAPI systems with Azure deployment expertise, where I optimized API fetch latency by 98% and introduced message brokers for high-load data integrity. I've consistently delivered cloud-native platforms, onboarding 80+ client organizations, implemented ACID-compliant transactions for concurrent users, and ensured zero-downtime releases via Azure DevOps CI/CD, which directly aligns with building reliable, scalable agentic and real-time voice agents on your platform.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-22T21:35:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.87,
+            "overlap": 27.48,
+            "combined": 17.25
+          },
+          "backend": {
+            "cosine": 12.5,
+            "overlap": 27.07,
+            "combined": 16.87
+          },
+          "frontend": {
+            "cosine": 8.92,
+            "overlap": 27.18,
+            "combined": 14.4
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 12.87,
+        "keyword_overlap_score": 27.48,
+        "final_score": 17.25,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.262
+          },
+          {
+            "term": "agents",
+            "weight": 0.1654
+          },
+          {
+            "term": "agent",
+            "weight": 0.0965
+          },
+          {
+            "term": "llm",
+            "weight": 0.0827
+          },
+          {
+            "term": "messaging",
+            "weight": 0.0827
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-22T21:35:58+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a0d50b7cd31347de344aab90a6c08416",
+      "source": "wellfound",
+      "company": "Steps AI",
+      "role": "Software Development Engineer (SDE) – Mobile (iOS & Android) with Web",
+      "url": "https://wellfound.com/jobs/4797131-software-development-engineer-frontend-focus-clone",
+      "jd_text": "**On-Site, Hyderabad, India · Full-Time**\n\n&gt; **Only apply if:** You have **≥ 1 year** of production-grade experience building and shipping **cross-platform mobile apps (iOS + Android)** using **Flutter or React Native** — **and** you can point us to **live apps on the App Store / Google Play** that you have built. Web development (React / Next.js) is a strong secondary skill.\n\n---\n\n## Who We Are\n\nWe are a fast-growing product startup building intelligent, AI-powered software for modern businesses. Our focus is on crafting seamless, high-performance user experiences across mobile and web, powered by scalable backend systems and data-driven intelligence — and we ship to real customers every week.\n\nAs we scale, we are looking for a **Mobile-first SDE** who can take end-to-end ownership of our iOS and Android apps from a **single cross-platform codebase**, and who can also contribute to our web products when needed.\n\n---\n\n## What You'll Do\n\n### Core Mobile Development (Primary)\n- Build and ship production-grade **iOS and Android apps from one codebase** using **Flutter (Dart)** and/or **React Native (Expo, TypeScript)**.\n- Architect scalable, modular mobile apps with clean architecture and reusable component libraries / design systems.\n- Implement robust state management (**Riverpod / Bloc / Provider** for Flutter; **Zustand / Redux Toolkit / TanStack Query** for React Native).\n- Build smooth, responsive, accessible UIs that feel native on both platforms, with 60/120 fps animations and gestures.\n- Integrate native device capabilities: camera, location/maps, biometrics, push notifications, deep links, background tasks, in-app purchases, offline storage and sync.\n- Write platform-specific code (Swift / Kotlin, platform channels, native modules) when a feature needs it.\n- Own the release process: code signing, **TestFlight / Play Console**, staged rollouts, OTA updates, crash and performance monitoring (Firebase Crashlytics, Sentry).\n- Optimize app startup time, memory, battery usage, and bundle size through profiling.\n\n### Meta Platform &amp; AI-Driven Experiences\n- Build **Meta app development–related features**: integrations with Meta platforms (WhatsApp Business Platform, Messenger, Instagram, Meta Graph API, Facebook Login, Meta SDKs, app review and permissions flows).\n- Build **AI-driven, streaming mobile interfaces** — chat/agent UIs, token-by-token streaming, real-time updates, and rich message rendering (markdown, code).\n- Integrate real-time features using **WebSockets, SSE / streaming APIs, FCM/APNs push, or event-driven updates**.\n- Build complex multi-step workflows, dashboards, and data-heavy views (charts, lists, maps) optimized for mobile.\n\n### Web Development (Secondary)\n- Build and maintain web apps using **Next.js (App Router), React, TypeScript, and Tailwind CSS**.\n- Share logic, design tokens, and API clients between mobile and web where possible (TypeScript monorepo, shared SDKs, or Flutter Web where appropriate).\n- Apply sound rendering strategies (**SSR / SSG / ISR / CSR**) and keep web performance and accessibility high.\n- Contribute to **embeddable / SDK-style web widgets** where relevant.\n\n### Architecture &amp; Backend Integration\n- Integrate with backend services (**TypeScript/Node and Python**) over **REST and/or GraphQL** APIs.\n- Implement secure authentication (**JWT, OAuth, social login, Sign in with Apple/Google, session-based auth**) and secure token storage.\n- Design offline-first data layers and caching strategies; handle large paginated and infinite lists efficiently.\n- Ensure robust error handling, observability, analytics, and performance monitoring.\n- Drive testing strategy: unit, widget/component, integration, and E2E tests (**flutter_test, Jest, React Native Testing Library, Detox, Maestro, Patrol**; **Cypress/Playwright** for web).\n\n### Engineering &amp; Collaboration\n- Translate product requirements and Figma designs into polished mobile and web implementations.\n- Conduct structured code reviews and enforce high-quality coding standards.\n- Collaborate closely with backend engineers, product managers, and designers.\n- Build and maintain CI/CD pipelines for mobile and web (**GitHub Actions, Fastlane, Codemagic, EAS**).\n- Take ownership of features from concept to production release; mentor junior engineers.\n\n---\n\n## Must-Have Qualifications\n\n### Mobile Expertise (Primary)\n- **≥ 1 year** of production experience shipping cross-platform mobile apps to both the **App Store and Google Play**.\n- Strong command of **Flutter + Dart** and/or **React Native + TypeScript**; willingness to learn the other.\n- Solid understanding of iOS and Android platform conventions, app lifecycle, permissions, and Human Interface / Material Design guidelines.\n- Experience with state management, navigation, local storage (SQLite / Hive / Drift / MMKV / WatermelonDB), and offline sync.\n- Experience with push notifications, deep linking, and app store release and review processes.\n- Experience with mobile performance profiling and optimization.\n\n### API &amp; Integration\n- Experience integrating mobile and web clients with **Node.js and Python** backends.\n- Strong understanding of **REST APIs and/or GraphQL**.\n- Familiarity with authentication systems (**JWT, OAuth, session-based auth**) and secure data handling on devices.\n- Experience handling streaming responses, WebSockets, and large paginated datasets.\n\n### Web Skills (Secondary)\n- Working knowledge of **React, Next.js, TypeScript, and Tailwind CSS**.\n- Understanding of rendering strategies (**SSR, SSG, ISR, CSR**) and responsive, accessible web design.\n- Familiarity with form handling and validation (**React Hook Form, Zod**) and data fetching (**TanStack Query**).\n\n### DevOps &amp; Quality\n- CI/CD familiarity for mobile (**Fastlane, GitHub Actions, Codemagic, EAS**) and web.\n- Strong Git workflows and collaborative branching strategies.\n- Testing mindset spanning unit, integration, and E2E coverage.\n- Comfort with Docker-based local development workflows.\n\n### Engineering Mindset\n- Clean, maintainable code adhering to SOLID principles.\n- Strong debugging and performance-profiling skills.\n- Ownership-driven, product-first thinking.\n- Comfortable working independently in an **in-office startup environment**.\n\n---\n\n## Critical Requirements – High Weightage\n\n&gt; **This is non-negotiable. Applications without these will not be prioritized.**\n\n### Portfolio, Live Apps &amp; Demos\nYou must be able to **show, not just tell**. With your application, explicitly share:\n\n- **An active GitHub profile** showcasing real, production-grade mobile code (not just tutorials or forks).\n- **Live apps** — **App Store and/or Google Play links** (or TestFlight / internal-testing builds) that we can install and use right now. Flutter or React Native + TypeScript projects strongly preferred.\n- **A portfolio or demo reel** (site, video walkthrough, or screen recordings) highlighting your **UI/UX craftsmanship** — visual quality, animations, interaction design, and polish you are personally responsible for.\n- **At least one live web project** (URL) built with React / Next.js, as secondary proof of web skills.\n- Demonstrated ability to build **complex SaaS products, AI-integrated UIs, real-time apps, or data-heavy interfaces**.\n- Clean code structure, thoughtful architecture, and clear documentation.\n\n**In your application, please include direct links to:**\nhttps://forms.gle/FPUtQZ9ebgHPeAH59\n1. Your GitHub profile (and 1–3 specific repos you're proud of).\n2. At least one **live mobile app** (App Store / Google Play URL) you built or substantially contributed to.\n3. A **portfolio / demo** that highlights your UI/UX craftsmanship.\n4. A **live web project** URL (secondary).\n\nTell us, for each link, exactly what you built and which parts are yours.\n\n### Technical Assessment\nWe will evaluate your:\n- Mobile architecture design and scalability decisions.\n- Code quality and maintainability.\n- Performance optimization strategy (startup time, rendering, memory).\n- Ability to convert product requirements and Figma designs into production-ready mobile UI.\n- End-to-end ownership during feature implementation, including release readiness.\n\n---\n\n## Nice-to-Have\n- Experience with **both Flutter and React Native**, or with native **Swift / SwiftUI** and **Kotlin / Jetpack Compose**.\n- Experience building **AI-powered, streaming, or real-time mobile interfaces** (on-device ML, voice, chat/agent UIs).\n- Experience with **Meta platform integrations** (WhatsApp Business API, Instagram/Facebook Graph API, Meta SDKs).\n- Experience with **Flutter Web, React Native Web, or monorepos** (Nx / Turborepo) sharing code across mobile and web.\n- Experience building **embeddable widgets / SDKs**.\n- Exposure to animation tooling (**Rive, Lottie, Reanimated, Framer Motion**).\n- Experience with Firebase / Supabase, analytics, A/B testing, and feature flags.\n- Contributions to open-source Flutter / React Native / React projects.\n- Experience working in early-stage startups.\n\n---\n\n## What We Offer\n- Competitive salary with a strong growth trajectory.\n- High-impact role with direct influence on product direction.\n- Opportunity to work on cutting-edge AI-driven products across mobile and web.\n- Fast execution cycles and a strong ownership culture.\n- Learning budget for courses and certifications.\n- Collaborative in-office engineering culture in **Hyderabad**.\n\n---\n**https://forms.gle/FPUtQZ9ebgHPeAH59**\nIf you are passionate about building beautiful, high-performance iOS and Android apps — and want to shape the product experience of a growing startup — **send us your GitHub, your live apps, and your portfolio.** We'd love to see what you've shipped. Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 16.64,
+      "resume_variant": "frontend",
+      "draft_answer": "I’ve focused on delivering high-performance React/Next.js client UIs for complex, client-facing applications, cutting fetch latency by 98% and data load time from 15s to 6s, directly contributing to the seamless, high-performance user experiences you build for modern businesses. This includes end-to-end ownership from scoping requirements to UAT across diverse user groups for these applications, and integrating with Node/Python backends via RESTful APIs.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-22T21:35:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.25,
+            "overlap": 23.51,
+            "combined": 14.93
+          },
+          "backend": {
+            "cosine": 10.65,
+            "overlap": 24.06,
+            "combined": 14.67
+          },
+          "frontend": {
+            "cosine": 12.75,
+            "overlap": 25.73,
+            "combined": 16.64
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 12.75,
+        "keyword_overlap_score": 25.73,
+        "final_score": 16.64,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1313
+          },
+          {
+            "term": "react",
+            "weight": 0.1313
+          },
+          {
+            "term": "native",
+            "weight": 0.1138
+          },
+          {
+            "term": "app",
+            "weight": 0.1051
+          },
+          {
+            "term": "code",
+            "weight": 0.0788
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-22T21:36:08+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "c64d6beab9c8965fcfd1451ef15771dc",
       "source": "wellfound",
