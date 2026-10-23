@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-10-23T16:34:27+00:00",
+  "exported_at": "2026-10-23T16:53:28+00:00",
   "daily_cap": 5,
-  "submitted_today": 0,
+  "submitted_today": 1,
   "counts": {
     "discovered": 988,
-    "pending_approval": 273,
-    "submitted": 8,
+    "submitted": 9,
+    "pending_approval": 272,
     "failed": 9,
     "rejected": 3
   },
@@ -59,12 +59,12 @@
       "match_score": 10.93,
       "resume_variant": "fullstack",
       "draft_answer": "My background owning a cloud-native compliance platform that automated 90% of manual reporting workflows for 80+ client organizations, coupled with experience building and validating tool-calling reliability for an open-weight LLM on constrained hardware, directly applies to designing AI Agents that resolve cases and catch fraud in a regulated domain. I have a track record of shipping robust systems, from implementing blue-green releases for zero-downtime rollout and guaranteeing message delivery with RabbitMQ, to cutting fetch latency by 98% through Redis caching and rigorously load-testing APIs, ensuring quality and observability for AI Agents.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "pending_approval",
+      "status": "submitted",
       "discovered_at": "2026-10-23T16:34:02+00:00",
-      "decided_at": null,
-      "submitted_at": null,
+      "decided_at": "2026-10-23T16:53:27+00:00",
+      "submitted_at": "2026-10-23T16:53:27+00:00",
       "error_message": null,
-      "sent_message": null,
+      "sent_message": "My background owning a cloud-native compliance platform that automated 90% of manual reporting workflows for 80+ client organizations, coupled with experience building and validating tool-calling reliability for an open-weight LLM on constrained hardware, directly applies to designing AI Agents that resolve cases and catch fraud in a regulated domain. I have a track record of shipping robust systems, from implementing blue-green releases for zero-downtime rollout and guaranteeing message delivery with RabbitMQ, to cutting fetch latency by 98% through Redis caching and rigorously load-testing APIs, ensuring quality and observability for AI Agents.\nGitHub: https://github.com/sanjay-kandpal",
       "match_breakdown": {
         "weights_version": "v1",
         "hard_filters": {
@@ -121,8 +121,12 @@
       },
       "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
       "drafted_at": "2026-10-23T16:34:25+00:00",
-      "confirmation_signal": null,
-      "github_run_id": null,
+      "confirmation_signal": {
+        "ok": true,
+        "url": "https://www.workatastartup.com/jobs/118456",
+        "text": "Companies & jobs Inbox Education Resume Review My profile sanjay Companies/AiPrise (S22)/Jobs Engineering Manager (AI) at AiPrise(S22) $185K - $230K AI-powered Global Compliance Platform San Jose, CA Full-time US citizen/visa only 5+ years "
+      },
+      "github_run_id": "39990401310",
       "apply_kind": null
     },
     {
