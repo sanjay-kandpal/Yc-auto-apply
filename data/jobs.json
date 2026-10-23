@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-23T14:58:17+00:00",
+  "exported_at": "2026-10-23T16:34:27+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 987,
-    "pending_approval": 272,
+    "discovered": 988,
+    "pending_approval": 273,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "55f0c8c46939af052d89910c063c110f",
+      "source": "yc",
+      "company": "Peakflo",
+      "role": "Startup Expo Ambassador, YC-backed AI company (Freelance, NYC, Nov 17 to 19)",
+      "url": "https://www.workatastartup.com/jobs/118187",
+      "jd_text": "### 🚀 Who we are &amp; What we're building\n\n[**Peakflo**](https://peakflo.co/) is a rapidly growing Agentic AI company. We're changing how global finance teams work with AI agents that run finance workflows alongside the people who own them.\n\n* **Our Growth Story:** Peakflo is backed by top-tier global accelerators and investors. We are proud alumni of [Y Combinator (W22)](https://www.ycombinator.com/companies/peakflo) and the [Google AI Accelerator](https://www.linkedin.com/posts/peakflo_acceleratedwithgoogle-googlecloudnext-googleforstartups-activity-7193090388700676099-51k9), and our work has been covered by leading tech and finance publications:\n  * [**TechCrunch:** Peakflo's bid to build business payments attracts capital, customers](https://techcrunch.com/2022/07/05/peakflos-bid-to-build-business-payments-for-southeast-asia-attracts-capital-customers/)\n  * [**PYMNTS:** Peakflo raises $4.1M in seed funding to streamline vendor payments](https://www.pymnts.com/news/investment-tracker/2022/ap-ar-software-firm-peakflo-raises-4-1m-in-seed-funding/)\n  * [**Grit Daily:** Latest feature on Peakflo's innovations](https://www.instagram.com/p/DU6KbiiD_MQ/)\n* [**Our Culture:**](https://peakflo.co/about-us) We reward curiosity, ownership and innovation. Our team spans the globe, and we love coming together to solve hard problems and celebrate our wins. ❤️\n\n### 💻 What we're looking for\n\nWe're exhibiting at **FATE, the Finance &amp; Accounting Tech Expo**, at the Javits Center in New York (booth 510), and we're looking for one sharp, outgoing **Startup Expo Ambassador** to be the first face finance leaders meet at our booth.\n\n**A strong fit for accounting, finance or business students** who want two days on the expo floor with the CFOs, controllers and finance leaders they may one day work for.\n\n### 📅 The engagement\n\n* **Nov 17 (Tue):** on site at the Javits Center, about 12pm to 4pm: help our team set up the booth, then a briefing on our product, key messages and lead capture\n* **Nov 18 (Wed):** on site at the Javits Center, 8am to 6:30pm (show floor opens at 8:30am)\n* **Nov 19 (Thu):** on site, 8am to about 3:30pm (show floor open 8:30am to 2:30pm, then booth teardown)\n* **You must be available for the full hours on all three days.** Please check your class schedule before applying.\n* **Type:** independent contractor (1099). One-time, non-exclusive\n\n### 💵 Pay\n\n* **$750 fixed fee** for the engagement (about $33/hr), paid within 7 days of the event\n* **Plus $25 for each qualified meeting you book** that our team accepts, up to $250\n\n### 💪 What you'll deliver\n\n* Greet attendees, start conversations and explain in plain language what Peakflo does\n* Ask a few qualifying questions, then capture each lead accurately in our lead form, with notes\n* Hand qualified visitors to the Peakflo team for demos, and book follow-up meetings\n* Help assemble and set up the booth on Nov 17, get it ready each morning, keep collateral stocked, and help pack down on the last day\n\n### 🙂 What you get beyond the fee\n\n* Two days talking with finance leaders at one of the industry's main tech expos\n* A Y Combinator company on your resume\n* A LinkedIn recommendation from our founders if you do great work\n\n### 🕵️‍♀️ You're a fit if you\n\n* Have worked a booth, trade show, brand activation, campus ambassador program, retail or hospitality floor\n* Are comfortable approaching strangers and can learn a product quickly\n* Are reliable and on time. We can't replace you mid-event\n* Are authorized to work in the U.S. now. We can't sponsor visas\n* Can get to the Javits Center yourself. We don't cover travel or lodging\n* Are comfortable on your feet all day and lifting booth materials of up to about 25 lb\n\n**➕ Nice to have:** accounting or finance coursework, B2B, SaaS or fintech exposure, or experience with a CRM or lead-scanning app.\n\n### 📝 How to apply\n\nApply by **Nov 6** with your resume and two lines on the last event you worked. Shortlisted candidates get a 15-minute video call that includes a 2-minute mock booth pitch. We'll decide by Nov 9.\n\nPeakflo is an equal opportunity company. We welcome applicants of all backgrounds. New York, NY, US contract yes\nlocations: New York, NY, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T16:34:02+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8d781e076dfe133d6864c61ebee004a9",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Engineering Manager (AI)",
+      "url": "https://www.workatastartup.com/jobs/118456",
+      "jd_text": "## About AiPrise\n\nAiPrise is a YC-backed, Series A company building the global compliance infrastructure for financial services. We help banks, fintechs, cross-border payment providers, stablecoin and crypto companies, and marketplaces gain a 360° view of every business they onboard, anywhere in the world.\n\nThrough a single integration, we connect 800+ data sources and 80+ verification partners across 200+ countries, powering KYB, KYC, AML, sanctions screening, and ongoing monitoring for companies like Meta, Airwallex, Fireblocks, and Bridge.\n\nOur AI Agents help compliance teams do more with less, resolving more cases, catching more fraud, and scaling operations without scaling headcount.\n\nWe're ~60 people, Series A funded, and obsessed with a single problem: making compliance feel simple for the teams who live in it every day.\n\nBorders shouldn't be blockers. Compliance is hard. AiPrise shouldn't be.\n\n## About the role\n\nWe are hiring an Engineering Manager to lead and grow the team that builds AiPrise's AI agents. This is a player-coach role: you will manage, hire and develop engineers, and you will also stay close enough to the code to design agent architectures, review prompts and tool definitions, and debug a failing eval yourself.\n\nYou will own how our agents are built, measured and shipped: the skills and tools they call, how they remember context across a case, and the evals that tell us whether a change made them better or worse. In a regulated domain like KYC and KYB, an agent that is confidently wrong costs our customers real money and audit risk, so quality and observability matter as much as speed.\n\n## What you'll do\n\n**Lead the team**\n\n- Manage a team of 5-6 AI and backend engineers: weekly 1:1s, clear goals, honest feedback and career growth plans.\n\n- Hire the next wave of AI engineers. You will own the interview loop for agent-engineering roles and raise the bar on it.\n\n- Run planning and delivery for the AI roadmap with product, so the team ships on predictable cycles without burning out.\n\n- Build a culture where engineers write evals before they claim a win, and where incidents lead to fixes, not blame.\n\n**Build the agents, hands on**\n\n- Design and review our compliance agents, from single document checks to multi-step investigations that hand off to human reviewers.\n\n- Build the reusable skills, tools and memory our agents rely on to call registries and data vendors and carry context across a case.\n\n- Own the eval stack: golden datasets built with compliance experts, regression tests in CI and production monitoring.\n\n- Write and review code about 50% of the time, and choose models based on accuracy, cost and latency.\n\n## What we're looking for\n\n**People leadership**\n\n- 2+ years managing engineers directly, including hiring, performance reviews and at least one hard conversation you handled well.\n\n- A track record of growing engineers: someone you managed got promoted or took on a bigger scope because of your support.\n\n- Experience running planning and delivery for a team in a fast-moving startup or scale-up.\n\n**Hands-on agent engineering**\n\n- 6+ years as a software engineer, with strong backend skills in Python or TypeScript.\n\n- You have built and shipped LLM agents to production, not just prototypes, and can explain what broke and how you fixed it.\n\n- Practical experience with each of these: designing tool and function-calling interfaces; packaging reusable skills or prompt modules; implementing agent memory (short-term context, long-term stores, retrieval); and building evals that gate releases.\n\n- Comfort with at least one major model API (Anthropic, OpenAI or similar) and the trade-offs between agent frameworks and plain code.\n\n- A habit of measuring: you can show an eval you built, the metric it tracked and a decision it changed.\n\n**How you work**\n\n- Clear written communication. You can explain an agent failure to a compliance lead and to an engineer.\n\n- Good judgment on when to build, when to buy and when to keep a human in the loop.\n\n## Nice to have\n\n- Experience in fintech, regtech, fraud, identity verification or another regulated domain where AI decisions need an audit trail.\n\n- Document AI experience: OCR, document classification or extraction across many languages and formats.\n\n- Experience with LLM observability and tracing tools, and with cost and latency optimization at scale.\n\n- Contributions to open-source agent, eval or retrieval projects, or public writing on the topic.\n\n## \n San Jose, CA fulltime yes\nlocations: San Jose, CA\nremote: no\nmin_experience: 5",
+      "match_score": 10.93,
+      "resume_variant": "fullstack",
+      "draft_answer": "My background owning a cloud-native compliance platform that automated 90% of manual reporting workflows for 80+ client organizations, coupled with experience building and validating tool-calling reliability for an open-weight LLM on constrained hardware, directly applies to designing AI Agents that resolve cases and catch fraud in a regulated domain. I have a track record of shipping robust systems, from implementing blue-green releases for zero-downtime rollout and guaranteeing message delivery with RabbitMQ, to cutting fetch latency by 98% through Redis caching and rigorously load-testing APIs, ensuring quality and observability for AI Agents.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-23T16:34:02+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.51,
+            "overlap": 14.24,
+            "combined": 10.93
+          },
+          "backend": {
+            "cosine": 9.36,
+            "overlap": 13.91,
+            "combined": 10.72
+          },
+          "frontend": {
+            "cosine": 5.35,
+            "overlap": 13.59,
+            "combined": 7.82
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.51,
+        "keyword_overlap_score": 14.24,
+        "final_score": 10.93,
+        "top_keywords": [
+          {
+            "term": "agent",
+            "weight": 0.1964
+          },
+          {
+            "term": "ai",
+            "weight": 0.1964
+          },
+          {
+            "term": "agents",
+            "weight": 0.1719
+          },
+          {
+            "term": "team",
+            "weight": 0.1517
+          },
+          {
+            "term": "compliance",
+            "weight": 0.1405
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-23T16:34:25+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "f22f7994909e54193de3f4945a6a0f60",
       "source": "wellfound",
