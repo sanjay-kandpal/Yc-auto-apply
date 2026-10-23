@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-23T16:53:28+00:00",
+  "exported_at": "2026-10-23T21:14:36+00:00",
   "daily_cap": 5,
   "submitted_today": 1,
   "counts": {
-    "discovered": 988,
+    "discovered": 990,
     "submitted": 9,
     "pending_approval": 272,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "959369b5daddc365dce1c65c596bae43",
+      "source": "wellfound",
+      "company": "DocDraft",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4884719-software-engineer",
+      "jd_text": "# Software Engineer\n\n**About DocDraft**\n\nDocDraft is building the future of legal services.\n\nToday, we've helped over 22,000 clients navigate legal challenges using AI-powered software and our nationwide network of attorneys. But we're building something much bigger: a platform where anyone can start, manage, and resolve their legal matters, with AI doing the heavy lifting and exceptional attorneys stepping in when they're needed.\n\nWe believe the next generation of legal services will be dramatically more accessible, affordable, and effective than what exists today. And we're building the technology to make that happen.\n\n**About the Role**\n\nWe're looking for an exceptional, AI-native software engineer to join our small, ambitious engineering team.\n\nThis is a generalist role with substantial ownership. You'll work across the stack, building new product experiences, developing sophisticated AI agents, improving infrastructure, and solving whatever technical challenges stand between us and our goals.\n\nWe're not looking for someone who wants to stay in a narrow lane. We're looking for someone who loves building, moves quickly, exercises excellent technical judgment, and takes pride in shipping great software.\n\nYou'll work directly with our CTO and have a meaningful say in the technical direction of the company.\n\n**What You'll Do**\n\n- **Build AI-native products:** Design and implement features that help consumers, businesses, and attorneys navigate complex legal workflows.\n- **Develop intelligent AI agents:** Build and improve AI systems capable of executing real-world legal tasks, orchestrating tools, and handling complex, multistep workflows.\n- **Ship across the stack:** Own features end-to-end, from backend services and databases to customer-facing experiences.\n- **Scale our infrastructure:** Improve reliability, observability, performance, and deployment pipelines as our platform grows.\n- **Build internal tools:** Create software that makes our attorneys, operations teams, and other employees dramatically more productive.\n- **Own quality and security:** Build robust systems that responsibly handle sensitive legal information and deliver reliable outcomes.\n- **Shape our architecture:** Work closely with our CTO to make pragmatic decisions about technology, infrastructure, and engineering priorities.\n\n**What We're Looking For**\n\n- 5+ years of experience building and shipping production software.\n- Strong proficiency in Python, with experience building modern web applications using technologies like Next.js, Postgres, and Vercel.\n- **AI-native development mindset.** You're highly proficient with tools like Claude Code, Codex, or Cursor and use them extensively to accelerate your development workflow.\n- Experience building and integrating LLM-powered applications, agents, or complex AI workflows, or a demonstrated ability to learn these systems quickly.\n- Comfort working across frontend, backend, databases, and infrastructure. You don't need to be an expert in everything, but you're willing and able to figure things out.\n- Strong engineering fundamentals. You understand how to build reliable, maintainable, and secure systems, even when moving quickly.\n- Excellent product intuition and pragmatic judgment. You care about the user experience and know when to optimize, when to simplify, and when to ship.\n- High ownership and autonomy. You're comfortable operating in an environment where priorities evolve quickly and the best solution isn't always obvious.\n- A genuine enthusiasm for building with AI and pushing the boundaries of what software can accomplish.\n\n**Nice to Have**\n\n- Experience with agent orchestration, tool calling, evaluations, or LLM reliability.\n- Experience building software consumer facing software. Bonus points if in regulated, security-sensitive, or high-trust environments.\n- Experience at an early-stage, rapidly scaling technology company.\n\n**Why DocDraft?**\n\n- **Build something consequential.** We're using AI to transform how people access and experience legal services, a massive industry that has historically been expensive, fragmented, and difficult to navigate.\n- **Meaningful ownership.** We're a small team, so your work won't get buried beneath layers of process or management. You'll have the opportunity to shape both our product and our technical foundations.\n- **Work at the frontier of applied AI.** We're not building another AI wrapper. We're developing software that combines agentic workflows, real-world legal processes, and human professionals to produce meaningful outcomes.\n- **Move fast and see results.** You'll build and ship software that real customers use, with a direct line between your work and the company's success.\n- **Join at an exciting stage.** We've established product-market fit, are growing rapidly, and have enormous opportunities ahead of us.\n\nWe're looking for people who want to do the best work of their careers and help build something extraordinary. New York\nlocationNames: New York\nremote: true",
+      "match_score": 9.28,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T21:14:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.73,
+            "overlap": 15.23,
+            "combined": 9.28
+          },
+          "backend": {
+            "cosine": 6.55,
+            "overlap": 15.04,
+            "combined": 9.09
+          },
+          "frontend": {
+            "cosine": 5.28,
+            "overlap": 15.05,
+            "combined": 8.21
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.73,
+        "keyword_overlap_score": 15.23,
+        "final_score": 9.28,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2442
+          },
+          {
+            "term": "experience",
+            "weight": 0.1229
+          },
+          {
+            "term": "technical",
+            "weight": 0.0614
+          },
+          {
+            "term": "workflows",
+            "weight": 0.0614
+          },
+          {
+            "term": "agents",
+            "weight": 0.0564
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "46d42665d965ba875c934cc188c5d664",
+      "source": "wellfound",
+      "company": "UprootSecurity",
+      "role": "Software Developer - Intern",
+      "url": "https://wellfound.com/jobs/4884664-software-developer-intern",
+      "jd_text": "We're **UprootSecurity**. Small team, big ideas, building a Compliance Automation Platform. We need an intern who wants to actually build things, not sit through six weeks of onboarding slides.\n\nNo back-to-back meetings, no corporate speak. Just good people, good code, and a healthy amount of memes in Slack.\n\n\n**So what you're going to do?**\nYou'll own a whole module. Like, the entire thing. You figure out how it should work, you build it, you ship it, and you keep it alive after.\n\nYou'll wear a bunch of hats too: dev, debugger, part-time architect, and sometimes the person staring at logs going \"wait, why is it doing that?\" If that sounds fun, we'll get along great.\n- **You'll be:** SDE Intern\n- **Where:** Kochi, Kerala\n- **How long:** 3 months and if things click, there's a full-time spot for you\n\n**What you'll actually do**\n- Build features people actually use, end to end\n- Own a full module and make the calls on how it works\n- Fix bugs (the easy ones and the \"how did this ever work?\" ones)\n- Jump into code reviews, debugging sessions, product chats, and the occasional doc\n- Ship small, ship often, break things less\n\n**Stuff you should be comfortable with**\n\nYou don't need to be a pro at all of this. You just shouldn't panic when you see it.\n- **Node.js**: you've built a backend or an API and async stuff doesn't scare you\n- **Postgres**: you can write real queries and you know why indexes matter\n- **Redis**: caching, sessions, rate limiting, that kind of thing\n- **OAuth**: you know what's going on behind a \"Login with Google\" button\n- **Problem solving**: you like poking at hard problems until they give up\n\n**The basics**\n\nFrameworks change every year. Fundamentals don't. We'd love it if you know your way around:\n- **Operating systems**: processes, threads, memory, all that good stuff\n- **Databases**: transactions, indexing, why a query suddenly got slow\n- **Networking**: HTTP, TCP, DNS, what really happens when you hit enter on a URL\n- **DSA**: enough to pick the right tool for the job\n\n**Why you'll like it here**\n- Your code goes to real users!\n- You'll learn more in a few months here\n- Flexible hours, zero micromanagement\n- Ask anything, anytime. Nobody's judging\n- Do great work and there's a full-time spot Kochi\nlocationNames: Kochi",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T21:14:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "55f0c8c46939af052d89910c063c110f",
       "source": "yc",
