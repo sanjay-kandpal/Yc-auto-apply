@@ -1,15 +1,625 @@
 {
-  "exported_at": "2026-10-23T09:11:08+00:00",
+  "exported_at": "2026-10-23T14:58:17+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 982,
-    "pending_approval": 268,
+    "discovered": 987,
+    "pending_approval": 272,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "f22f7994909e54193de3f4945a6a0f60",
+      "source": "wellfound",
+      "company": "Monsoon CreditTech",
+      "role": "Python Developer",
+      "url": "https://wellfound.com/jobs/3025954-python-developer",
+      "jd_text": "We are seeking a talented and experienced Full Stack Developer to join our dynamic team. The ideal candidate will have a strong background in Python and Django for backend development, coupled with proficiency in Angular/React/Next.js for front-end development. A solid understanding of system design principles, cloud service providers and excellent communication skills are essential for this role.\n\n**Key Responsibilities:**\n\n* Develop and maintain scalable web applications using Python and Django for the backend.\n* Design and implement responsive user interfaces using Angular/React/Next.js.\n* Collaborate with cross-functional teams to define, design, and ship new features.\n* Ensure the performance, quality, and responsiveness of applications.\n* Identify and correct bottlenecks and fix bugs.\n* Help maintain code quality, organization, and automation.\n* Participate in code reviews and provide constructive feedback to peers.\n* Stay up-to-date with the latest industry trends and technologies to ensure our stack remains current.\n\n**Required Qualifications:**\n\n* Bachelor’s degree in Computer Science, Information Technology, or a related field.\n* At least 2 years of professional experience in full stack development.\n* Strong proficiency in Python and Django for backend and Angular for front-end development.\n* Understanding of fundamental design principles for building scalable applications.\n* Experience with version control systems, preferably Git.\n* Familiarity with database technologies such as PostgreSQL, MySQL, or MongoDB.\n* Basic understanding of front-end technologies, such as HTML5, CSS3, and JavaScript.\n* Experience with RESTful APIs and integrating front-end with back-end services.\n* Strong problem-solving skills and a keen attention to detail.\n* Excellent verbal and written communication skills.\n\n**Preferred Qualifications:**\n\n* Experience with cloud platforms such as AWS, Azure, or Google Cloud.\n* Knowledge of containerization technologies like Docker and Kubernetes.\n* Familiarity with Agile/Scrum methodologies.\n* Experience with automated testing frameworks and CI/CD pipelines. Gurugram\nlocationNames: Gurugram",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T14:56:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cdda79bc6e74727dede0c62711fe2fe5",
+      "source": "wellfound",
+      "company": "Crebrl AI",
+      "role": "AI Developer",
+      "url": "https://wellfound.com/jobs/4884517-senior-ai-developer-ui-ux-clone",
+      "jd_text": "About Crebrl AI &amp; Rithm\nEnterprises don't need more AI experiments. They need AI that shows up on the P&amp;L.\n\nAt Crebrl AI, we are building Rithm — an AI-native system of systems that links business promises and contractual obligations to the core transactional engines where execution actually happens: ERP, CRM, and finance. Our mission is to ensure every contractual commitment is kept, evidenced, and realised across millions of enterprise data points and transactions.\n\nThe Role\nAs an AI Developer, you will build AI features on Rithm alongside our senior engineers — developing autonomous agents, retrieval pipelines, and enterprise integrations that turn raw data into kept commitments. You will take ownership of well-scoped features end to end, with the runway to quickly grow into owning larger platform capabilities.\n\nRole Details:\n• Title: AI Developer\n• Location: Pune, India · Hybrid\n• Experience Required: 3+ years\n• Reports To: AI Platform Architect\n\nKey Responsibilities\n\n1. Build AI Features\n• Build agent tools, custom skills, and context-engineered prompts.\n• Implement structured data extraction pipelines across complex enterprise datasets.\n• Develop API integrations and Model Context Protocol (MCP) connections.\n\n2. Test and Measure\n• Write rigorous evaluation suites and regression test harnesses.\n• Debug model performance using comprehensive traces, spans, and execution logs.\n• Ground model answers using RAG and Vectorless RAG retrieval architectures.\n\n3. Ship and Grow\n• Build daily with AI coding agents to maintain high velocity and clean engineering standards.\n• Participate in design docs, code reviews, and technical pairing sessions.\n• Own features all the way from initial specification to production deployment.\n\nWhat You Bring\n• 3+ years of professional software engineering experience, with hands-on LLM implementation at work or in serious production projects.\n• Solid proficiency in Python or TypeScript, REST Pune\nlocationNames: Pune",
+      "match_score": 9.49,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T14:56:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.02,
+            "overlap": 10.6,
+            "combined": 9.49
+          },
+          "backend": {
+            "cosine": 8.93,
+            "overlap": 10.15,
+            "combined": 9.3
+          },
+          "frontend": {
+            "cosine": 5.1,
+            "overlap": 10.68,
+            "combined": 6.77
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.02,
+        "keyword_overlap_score": 10.6,
+        "final_score": 9.49,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.4391
+          },
+          {
+            "term": "model",
+            "weight": 0.1098
+          },
+          {
+            "term": "data",
+            "weight": 0.0897
+          },
+          {
+            "term": "agents",
+            "weight": 0.0732
+          },
+          {
+            "term": "end",
+            "weight": 0.0732
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "107fb38b8705ac2f11b5f07ec0911012",
+      "source": "wellfound",
+      "company": "WeKnow Group",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/3721620-full-stack-developer",
+      "jd_text": "## About the Role\n\nWe are hiring a **Full Stack Developer** to join our engineering team in Bangalore.\n\nIn this role, you will design, build, and maintain applications across our technology stack, from React-based web interfaces and Electron desktop applications to Java backend services, APIs, and third-party integrations.\n\nYou will work closely with Product, Design, and Engineering teams to deliver reliable, scalable, and user-friendly solutions that power our kiosks, booking journeys, payment flows, and operational platforms used by travellers and teams worldwide.\n\nWe are looking for someone comfortable working across both frontend and backend technologies, with strong fundamentals, a willingness to learn, and the ability to take ownership of features from development through deployment.\n\n## Key Responsibilities\n\n- Design, develop, and maintain full stack applications using **Java (Spring Boot) and React**.\n- Build reusable, responsive, and performant frontend components using modern JavaScript (ES6+), HTML5, and CSS3.\n- Develop and maintain backend REST APIs, microservices, and internal services.\n- Integrate applications with third-party systems, including payment gateways, transport aggregators, telecom providers, and operational partners.\n- Contribute to Electron-based desktop applications supporting kiosks and internal operational workflows.\n- Work with relational databases (MySQL/PostgreSQL), including schema design, queries, and performance optimisation.\n- Implement reliable data flows, caching, background processing, and system automation.\n- Collaborate with the Product Manager and designers to translate business requirements and wireframes into functional, end-to-end solutions.\n- Write clean, maintainable, and well-tested code following engineering best practices.\n- Debug, troubleshoot, and resolve issues across frontend and backend systems.\n- Contribute to CI/CD pipelines, deployment processes, monitoring, and application performance improvements.\n\n## Who You Are\n\n### Required\n\n- 1–2 years of professional software development experience, with hands-on exposure to both frontend and backend development.\n- Strong proficiency in **Java and JavaScript (ES6+)**.\n- Experience with **Spring Boot (or similar Java frameworks) and React**.\n- Solid understanding of REST APIs, client-server architecture, and backend development fundamentals.\n- Proficiency in HTML5, CSS3, and responsive UI development.\n- Familiarity with relational databases (MySQL/PostgreSQL) and SQL.\n- Understanding of React component architecture and state management patterns.\n- Experience with Git, pull requests, and modern software development workflows.\n- Strong debugging, analytical, and problem-solving skills.\n- Ability to learn quickly, take ownership of tasks, and thrive in a fast-paced environment.\n\n### Preferred\n\n- Experience building and deploying production-ready applications using Spring Boot and React.\n- Familiarity with TypeScript and modern frontend build tools (Vite, Webpack, or similar).\n- Experience with Electron.js or other desktop application frameworks.\n- Experience working with React Native to build cross-platform applications\n- Exposure to third-party API integrations, particularly payments, transport, or telecom services.\n- Understanding of microservices, asynchronous processing, queues, caching, or event-driven architecture.\n- Experience with cloud platforms (AWS/GCP/Azure) and CI/CD pipelines.\n- Familiarity with monitoring and logging tools such as Prometheus, Grafana, or ELK.\n- Understanding of frontend accessibility, cross-browser compatibility, and performance optimisation.\n- Exposure to kiosk, IoT, travel-tech, or operational technology platforms.\n\n## Why Join Us\n\n- **Real-world impact:** Build products and systems that directly impact millions of travellers across airports and hotels globally.\n- **End-to-end ownership:** Work across frontend, backend, APIs, and desktop applications, gaining meaningful full stack engineering experience.\n- **Global collaboration:** Work closely with Product, Design, and cross-functional teams across India and the UK.\n- **Growth opportunities:** Develop your technical skills in a fast-moving environment with clear ownership, mentorship, and opportunities to take on greater responsibility.\n- **Meaningful engineering challenges:** Work on real-world integrations, transactional systems, customer-facing interfaces, and platforms operating across global markets.\n- **Competitive compensation:** Receive a competitive salary and the opportunity to help shape high-scale products. Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 16.78,
+      "resume_variant": "frontend",
+      "draft_answer": "I've built React front ends for user-facing applications and owned full-stack modules on Azure, aligning with your need for developing user-friendly interfaces and operational platforms. My experience optimizing API performance with caching, developing microservices, and my strong Java background will enable me to build scalable backend services and third-party integrations for WeKnow Group's booking journeys and payment flows.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-23T14:56:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.41,
+            "overlap": 19.87,
+            "combined": 14.65
+          },
+          "backend": {
+            "cosine": 10.76,
+            "overlap": 18.42,
+            "combined": 13.06
+          },
+          "frontend": {
+            "cosine": 13.98,
+            "overlap": 23.3,
+            "combined": 16.77
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 13.98,
+        "keyword_overlap_score": 23.3,
+        "final_score": 16.78,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.1567
+          },
+          {
+            "term": "applications",
+            "weight": 0.1464
+          },
+          {
+            "term": "experience",
+            "weight": 0.1464
+          },
+          {
+            "term": "backend",
+            "weight": 0.1281
+          },
+          {
+            "term": "react",
+            "weight": 0.1098
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-23T14:57:24+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "fe61ea9a92969e03aa17775fbe8f9fe8",
+      "source": "wellfound",
+      "company": "WeKnow Group",
+      "role": "Backend Engineer",
+      "url": "https://wellfound.com/jobs/3721618-backend-engineer",
+      "jd_text": "We are hiring a Backend Engineer to join our engineering team in Bangalore.\n\nIn this role, you will focus on building and maintaining backend systems, APIs, partner integrations, and internal services that enable our kiosks, booking journeys, payment flows, and operational dashboards.\n\nYou will work closely with product and engineering stakeholders to deliver new features, improve reliability, strengthen third-party integrations, and support rapid growth across global markets.\n\n**Key Responsibilities**\n\n* Design, build, and maintain backend APIs and microservices using Java (Spring Boot preferred).\n* Develop and improve integrations with third-party systems including payment gateways, transport aggregators, telecom providers, and operations partners.\n* Implement reliable data flows, caching layers, background jobs, and system automation.\n* Write clean, maintainable, well-tested code following engineering best practices.\n* Collaborate with the Product Manager to translate business requirements into technical specifications.\n* Investigate, troubleshoot, and resolve issues across backend systems with support from senior engineers.\n* Work with relational databases (MySQL/PostgreSQL) including schema design, queries, and optimizations.\n* Contribute to CI/CD pipelines, deployment processes, and performance improvements.\n* Support monitoring, alerting, and logging to ensure system stability and uptime.\nWho You Are\n\n**Required**\n\n* 1–2 years of professional backend engineering experience.\n* Strong programming skills in Java; experience with Spring Boot or similar frameworks.\n* Solid understanding of REST APIs, microservices, and distributed system fundamentals.\n* Familiarity with relational databases (MySQL/PostgreSQL) and SQL.\n* Experience working with Git, CI/CD workflows, and modern build processes.\n* Strong debugging, analytical, and problem-solving abilities.\n* Ability to learn quickly, work independently, and thrive in a fast-paced environment.\n\n**Preferred**\n\n* Experience building production-ready services in Spring Boot.\n* Exposure to third-party integrations (payments, transport, telecom).\n* Understanding of asynchronous processing, queues, caching, or event-driven architecture.\n* Experience with cloud platforms (AWS/GCP/Azure).\n* Knowledge of monitoring tools such as Prometheus, Grafana, or ELK.\n\n**Why Join Us**\n\n* Build systems that directly impact millions of travellers across airports and hotels globally.\n* Work across backend, frontend, and desktop applications—gaining broad full stack experience.\n* Collaborate closely with Product, Design, and cross-functional teams across India and the UK.\n* Fast-moving environment with clear ownership, learning opportunities, and career growth.\n* Competitive salary and the opportunity to shape real-world, high-scale products.\n\n**Job Type: Full-time**\n\n**Benefits:**\n* Flexible schedule\n* Paid sick time\n* Paid time off\n* Provident Fund\n* Work from home\n\n**Location:** Bangalore, Karnataka (Preferred)\n**Work Location:** Remote Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 11.69,
+      "resume_variant": "backend",
+      "draft_answer": "I've significantly boosted backend system reliability and performance, diagnosing concurrency risks to introduce RabbitMQ for guaranteed data delivery and slashing API latency by 98% with Redis caching for critical applications like those underpinning booking journeys or operational dashboards. Leveraging my experience in Java and other languages, I've designed microservices architectures, integrated with external services like Rekognition, and directly scoped client requirements for complex compliance platforms, making me well-suited to developing third-party integrations and translating needs for payment flows.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-23T14:56:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.89,
+            "overlap": 15.56,
+            "combined": 10.89
+          },
+          "backend": {
+            "cosine": 10.25,
+            "overlap": 15.04,
+            "combined": 11.69
+          },
+          "frontend": {
+            "cosine": 7.26,
+            "overlap": 17.48,
+            "combined": 10.32
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 10.25,
+        "keyword_overlap_score": 15.04,
+        "final_score": 11.69,
+        "top_keywords": [
+          {
+            "term": "backend",
+            "weight": 0.1744
+          },
+          {
+            "term": "experience",
+            "weight": 0.1495
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.0997
+          },
+          {
+            "term": "apis",
+            "weight": 0.0748
+          },
+          {
+            "term": "time",
+            "weight": 0.0748
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-23T14:57:45+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6aa23a381a0ba1af0cb87e9ef3e91f83",
+      "source": "wellfound",
+      "company": "WeKnow Group",
+      "role": "Frontend Engineer",
+      "url": "https://wellfound.com/jobs/4014774-frontend-engineer",
+      "jd_text": "We are hiring a Frontend Developer to join our engineering team in Bangalore.\n\nYou will work closely with product and technical stakeholders to deliver polished, high-performance user interfaces across our web and desktop platforms. From building React-based dashboards to contributing to Electron-powered desktop applications, you will play a key role in shaping the experiences used by operations teams and travellers worldwide.\n\n\nKey Responsibilities\n\n• Build, maintain, and enhance frontend web applications using React and modern JavaScript (ES6+).\n• Develop reusable, accessible, and performant UI components following component-driven design principles.\n• Contribute to Electron-based desktop applications used by internal teams and operational workflows.\n• Collaborate with the Product Manager and designers to translate requirements and wireframes into functional interfaces.\n• Integrate frontend interfaces with backend REST APIs and third-party services.\n• Write clean, well-tested, and maintainable code while adhering to engineering best practices.\n• Debug and resolve UI/UX issues across browsers and platforms with support from senior engineers.\n• Support CI/CD processes, frontend build pipelines, and performance optimisation efforts.\n\n\nWho You Are\n\nRequired\n• 1–2 years of professional frontend development experience.\n• Strong proficiency in JavaScript (ES6+) and core web technologies (HTML5, CSS3).\n• Solid hands-on experience with React and component-driven UI development.\n• Familiarity with state management patterns (e.g. Context API, Redux, or similar).\n• Experience consuming and integrating REST APIs.\n• Comfortable with Git, pull requests, and modern development workflows.\n• Strong attention to detail, troubleshooting skills, and a user-first mindset.\n• Ability to learn quickly and thrive in a fast-paced, startup-style environment.\n\nPreferred\n• Experience with Electron.js or other desktop application frameworks.\n• Exposure to frontend build tooling (Webpack, Vite, or similar).\n• Familiarity with TypeScript.\n• Understanding of responsive design, cross-browser compatibility, and accessibility standards.\n• Exposure to kiosk, IoT, travel-tech, or operational tooling products.\n\n\nWhy Join Us\n\n• Build interfaces that directly impact millions of travellers across airports and hotels globally.\n• Gain broad experience across web and desktop application development.\n• Collaborate closely with Product, Design, and cross-functional teams across India and the UK.\n• Fast-moving environment with clear ownership, learning opportunities, and career growth.\n• Competitive salary and the opportunity to shape real-world, high-scale products. Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 10.88,
+      "resume_variant": "frontend",
+      "draft_answer": "I've consistently built and optimized React frontends that significantly enhance user experience and operational efficiency, like improving perceived UI responsiveness by 98% for a government client's reporting portal and onboarding 80+ organizations to a cloud-native compliance platform. My track record in delivering performant web applications that serve large client bases and automate critical workflows aligns directly with shaping the high-performance experiences for operations teams and travellers globally at WeKnow Group in Bangalore.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-23T14:56:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.58,
+            "overlap": 12.91,
+            "combined": 9.18
+          },
+          "backend": {
+            "cosine": 5.76,
+            "overlap": 12.03,
+            "combined": 7.64
+          },
+          "frontend": {
+            "cosine": 9.3,
+            "overlap": 14.56,
+            "combined": 10.88
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 9.3,
+        "keyword_overlap_score": 14.56,
+        "final_score": 10.88,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.2239
+          },
+          {
+            "term": "experience",
+            "weight": 0.1307
+          },
+          {
+            "term": "ui",
+            "weight": 0.1185
+          },
+          {
+            "term": "applications",
+            "weight": 0.0784
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.0784
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-23T14:58:16+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "72e547a5639487e464f8b90ecb28271e",
+      "source": "wellfound",
+      "company": "The Ninja Studio",
+      "role": "Full Stack Developer (PHP/Laravel & Angular)",
+      "url": "https://wellfound.com/jobs/4878964-full-stack-developer-php-laravel-angular",
+      "jd_text": "Here's why you should join:\n\n1. Team First: You'll be joining a tight-knit and supportive team that is focused on not only growing our company but also ourselves. We guarantee you will learn and grow a lot personally while having the constant support of the entire team.\n2. Industry: We are working on the crypto data and blockchain industry - a fast-paced explosive industry - that is creating breakthroughs in how we think of finance.\n3. Fully-remote working set up.\n4. Competitive compensation paid in USD.\n5. Bachelor's degree in Computer Science or Software Engineering.\n6. Work Shift -** 7:00 AM - 4:00 PM EST**\n\n**Responsibilities:**\n\n1. Develop frontend and backend systems for our core web product (with primary focus on frontend development and UI/UX quality)\n2. Define and articulate a long-term technical direction and vision for maintaining and scaling the web product.\n3. Improve security, availability, and scalability within our software infrastructure. Create seamless, intuitive, and high-performance user experiences by simplifying cryptocurrency-related complexities using modern tools like Angular and TypeScript.\n4. Build reusable, scalable, and maintainable UI components following best practices in frontend architecture\n5. Collaborate with stakeholders to understand and explain accounting, tax, and mathematical requirements, catering to varying levels of technical and crypto expertise.\n6. Work closely with backend engineers to integrate APIs and ensure smooth data flow across the application.\n7. Pay strong attention to UI/UX details, consistency, and usability across the platform.\n8. Work effectively in a fast-paced environment.\n9. Communicate effectively with excellent written and verbal communication skills.Define and articulate a long-term technical direction and vision for maintaining and scaling the web product.\n\n\n**Experience(Mandatory):**\n\n1. 1-3 years of professional experience in software development.\n2. PHP &amp; Laravel (Mandatory – basic to intermediate level expected)\n3. Angular, TypeScript, JavaScript(Mandatory – strong proficiency required)\n4. Strong experience building responsive and scalable frontend applications (Mandatory)\n5. SQL / Relational Databases (e.g., MySQL, PostgreSQL)\n6. Experience with REST APIs and frontend-backend integration (Mandatory)\n7. Experience with cloud platforms(AWS, GCP, or Azure)\n8. Proven ability to build scalable, secure, and test-driven applications\n9. Proficiency in Git, CI/CD pipelines, and Agile workflows\n\n\n**Nice to Have:**\n\n1. Experience with UI libraries/frameworks (e.g., Angular Material, Tailwind, Bootstrap)\n2. Understanding of frontend performance optimization and debugging techniques\n3. Experience with data visualization(charts, dashboards for financial data)\n4. Contributions to open-source crypto projects or participation in hackathons\n5. Understanding of cryptocurrencies, blockchain, and web3\n6. Experience working with accounting/tax systems or ETL pipelines\n7. Familiarity with enterprise software or Node.js\n8. Understanding of cryptocurrencies, blockchain, and web3\n9. Experience working with accounting/tax systems or ETL pipelines\n10. Familiarity with enterprise software or Node.js New York City\nlocationNames: New York City\nremote: true",
+      "match_score": 11.58,
+      "resume_variant": "frontend",
+      "draft_answer": "I've driven client-side UAT across diverse user groups for large-scale portals, directly improving UI responsiveness by integrating Redis caching to cut API fetch latency from 500ms to 10ms. I've also owned core client-facing modules of a cloud-native compliance platform on Microsoft Fabric & Azure, automating 90% of manual reporting workflows and integrating RESTful APIs for microservices-backed deployments.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-23T14:56:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.41,
+            "overlap": 14.24,
+            "combined": 10.86
+          },
+          "backend": {
+            "cosine": 8.94,
+            "overlap": 13.53,
+            "combined": 10.32
+          },
+          "frontend": {
+            "cosine": 9.89,
+            "overlap": 15.53,
+            "combined": 11.58
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 9.89,
+        "keyword_overlap_score": 15.53,
+        "final_score": 11.58,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.2085
+          },
+          {
+            "term": "frontend",
+            "weight": 0.17
+          },
+          {
+            "term": "ui",
+            "weight": 0.14
+          },
+          {
+            "term": "data",
+            "weight": 0.0927
+          },
+          {
+            "term": "backend",
+            "weight": 0.0695
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-23T14:58:06+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "abcebc47f6f02fa1b58414c1c07ee112",
+      "source": "wellfound",
+      "company": "Cosmicport",
+      "role": "Technical Generalist",
+      "url": "https://wellfound.com/jobs/4878925-technical-generalist",
+      "jd_text": "**Technical Generalist\n**\nCosmicport is a space-tech startup developing methalox rocket propulsion and launch systems from Thoothukudi, Tamil Nadu. We operate a cryogenic propulsion test facility and are building a team working at the frontier of Indian private spaceflight. We're looking for someone who can build and fix things across the company — software, systems, and whatever else needs building — in a fast-moving, engineering-driven environment.\n\n**Role Summary**: You'll be the person who tinkers, builds, and fixes — internal tools, trackers, integrations, small apps, the company website, even some marketing/content work when needed. You won't be doing deep propulsion engineering, but you'll work alongside engineers, picking up context fast and building whatever they need without hand-holding. This is a builder role for someone who's genuinely curious and doesn't want to be boxed into one lane.\n\n**Educational Qualification**: Bachelor's in Computer Science, Electronics, IT, or a related technical field. No specific certifications required — projects and demonstrated ability matter more than credentials.\n\n**Responsibilities:**\n*Building &amp; Systems*\nBuild and maintain internal tools, trackers, and small custom apps to support engineering, ops, and admin workflows.\nSet up and integrate systems (databases, dashboards, automations) with guidance from engineers — you don't need to design the architecture, but you should be comfortable implementing it.\nHandle general technical/IT admin: accounts, tools, basic troubleshooting, company website upkeep.\n\n*Content &amp; Outreach*\nHelp maintain the company website, write occasional articles or updates, and support outreach/BD conversations — this isn't a marketing hire, but comfort writing and representing the company matters.\nSupport documentation — trackers, one-pagers, whatever needs to exist and doesn't yet.\n\n*General*\nFill gaps across engineering support, admin, and ops — the role is deliberately broad; what you work on will shift based on what the company needs that week.\n\n**Required Qualities:**\n* Strong coding fundamentals (Java, Python, JavaScript, or similar) and genuine comfort picking up new tools/languages as needed.\n* Demonstrated project or work history building real things — apps, tools, automations, contributions (open source, personal projects, or work experience all count).\n* Comfortable working with minimal direction — this is a \"figure it out\" role, not a \"follow the ticket\" role.\n* Some exposure to cloud platforms (AWS/Azure), databases, or DevOps-adjacent tools is a plus.\n* Willingness to be based full-time in Thoothukudi, Tamil Nadu.\n\n**Preferred Qualities:**\n* Experience across multiple domains (not just pure software) — someone who's dabbled in content, ops, or small business-side tasks alongside coding.\n* Startup or small-team experience, where role boundaries were loose.\n* Genuine curiosity — side projects, hackathons, open-source contributions, self-taught skills.\n\nLocation: On-site — Thoothukudi, Tamil Nadu, India\nExperience Level: 0–3 years\nCompensation: Competitive, aligned with experience and ownership level Thoothukudi\nlocationNames: Thoothukudi",
+      "match_score": 5.85,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T14:56:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.82,
+            "overlap": 10.6,
+            "combined": 5.86
+          },
+          "backend": {
+            "cosine": 3.49,
+            "overlap": 9.4,
+            "combined": 5.26
+          },
+          "frontend": {
+            "cosine": 3.75,
+            "overlap": 12.14,
+            "combined": 6.27
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.82,
+        "keyword_overlap_score": 10.6,
+        "final_score": 5.85,
+        "top_keywords": [
+          {
+            "term": "tools",
+            "weight": 0.1295
+          },
+          {
+            "term": "experience",
+            "weight": 0.1079
+          },
+          {
+            "term": "technical",
+            "weight": 0.0863
+          },
+          {
+            "term": "team",
+            "weight": 0.0652
+          },
+          {
+            "term": "projects",
+            "weight": 0.0647
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b8557aed0b6e1513701afe0e0736b48d",
+      "source": "wellfound",
+      "company": "Skill Turtle",
+      "role": "Android Developer",
+      "url": "https://wellfound.com/jobs/4884509-android-developer",
+      "jd_text": "**About the Opportunity**\nWe are Skill Turtle, a specialized tech talent partner connecting elite problem solvers directly with high-growth tech teams. We are currently hiring on behalf of Chalo, India's #1 bus transport technology company. Chalo is solving real-world mobility challenges across 65 cities, powering 4 billion rides annually, and revolutionizing the daily commute with contactless digital tickets, payment suites, and live tracking.\n\n**What You Will Do**\n\n* Design, build, and optimize Chalo's core Android application for scale and offline-first capabilities.\n* Develop modern UI components using Jetpack Compose alongside traditional view-based approaches.\n* Implement Clean Architecture, MVVM/MVI design patterns, and dependency injection (Dagger/Hilt).\n* Manage local databases (SQLite/Room) and asynchronous programming (Coroutines/Flows).\n* Ensure applications are crash-free, performant, and responsive across various network environments.\n\n**What We Are Looking For**\n\n* Strong foundation in Data Structures, Algorithms, and logical problem-solving.\n* Hands-on expertise in the Android SDK, Kotlin, and Jetpack components.\n* Experience with REST APIs, offline caching, JSON/Protobuf parsing, and secure data handling.\n* Ability to take end-to-end ownership of feature delivery from design to a stable release.\n\n**Fast-Tracked Interview Process**\n\n* We bypass generic HR screening. Our evaluation is highly technical and zero-friction:\n* Round 1: DSA + Puzzle Assessment\n* Round 2: Android Developer Project &amp; Core Concepts\n* Round 3: Managerial Discussion on Resume &amp; Impact\n\n**Compensation:**\n\n* 0–1 YOE: 18-20 LPA Base\n* 1.5+ YOE: 25-28 LPA Base + ESOPs Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T14:56:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8414724c52bc570546220a11eb73e0aa",
+      "source": "wellfound",
+      "company": "Raushang4 Technology",
+      "role": "AI Agent / LLM Engineer",
+      "url": "https://wellfound.com/jobs/4866976-ai-agent-llm-engineer",
+      "jd_text": "About us\nRaushang4 Technology builds custom AI agents, full-stack products and headless e-commerce for Indian D2C brands, plus Salesforce, IoT and mobile work. We're an early-stage, founder-led company. Custom AI agents are the core of what we do, and you'll work directly with the founder, Raushan Kumar (Full Stack &amp; Agentic AI Architect).\n\nWhat you'll do\n- Build production agents for D2C support and operations: tools, guardrails, retrieval and evals. Not a demo chatbot.\n- Build agents that do real work: answering customers on WhatsApp, tracking orders, recommending products and automating ops.\n- Design the agent architecture and connect tools and data (Shopify, CRMs, catalogues).\n- Prove quality with evals before anything goes live, and watch reliability and cost as closely as the prompts.\n\nMust-have skills\n- LLM APIs and tool/function calling\n- RAG or evals on a real project\n- Python or TypeScript\n- Clear written architecture (we ask for your GitHub profile when you apply)\n\nNice to have\n- RAG depth: chunking, embeddings, vector DBs (pgvector/Pinecone/Qdrant)\n- Agent orchestration (LangGraph, LlamaIndex, Vercel AI SDK or custom)\n- Guardrails, hallucination checks, cost and latency tracking\n- Integrations with Shopify, WhatsApp, CRMs and helpdesks\n- Hindi/Hinglish prompt handling\n- Observability (Langfuse/LangSmith or similar)\n\nHow we hire (about 15 working days from application to offer)\n1. Application: apply here on Wellfound.\n2. Screening: we review every application within 2 working days.\n3. Practical task: a short task used for assessment only. Paid-trial terms are agreed in writing.\n4. Technical interview: a working session on the kind of problem the role actually ships.\n5. Founder call: a conversation with Raushan about the work and how we collaborate.\n6. Offer.\n\nQuestions: hr@raushang4.tech Noida\nlocationNames: Noida\nremote: true",
+      "match_score": 8.06,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T14:56:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.96,
+            "overlap": 9.6,
+            "combined": 7.75
+          },
+          "backend": {
+            "cosine": 7.17,
+            "overlap": 10.15,
+            "combined": 8.06
+          },
+          "frontend": {
+            "cosine": 2.86,
+            "overlap": 8.74,
+            "combined": 4.62
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 7.17,
+        "keyword_overlap_score": 10.15,
+        "final_score": 8.06,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1993
+          },
+          {
+            "term": "agents",
+            "weight": 0.1594
+          },
+          {
+            "term": "agent",
+            "weight": 0.1196
+          },
+          {
+            "term": "application",
+            "weight": 0.0978
+          },
+          {
+            "term": "architecture",
+            "weight": 0.0797
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "fac4f271a41d7c25537eaad69435ff57",
       "source": "wellfound",
