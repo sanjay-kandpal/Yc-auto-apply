@@ -1,15 +1,521 @@
 {
-  "exported_at": "2026-10-23T03:32:06+00:00",
+  "exported_at": "2026-10-23T07:16:17+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 976,
-    "pending_approval": 266,
+    "discovered": 982,
+    "pending_approval": 268,
     "submitted": 8,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "fac4f271a41d7c25537eaad69435ff57",
+      "source": "wellfound",
+      "company": "Kinterview",
+      "role": "Full-Stack Engineer",
+      "url": "https://wellfound.com/jobs/4881193-backend-engineer-clone",
+      "jd_text": "* Remote\nlocationNames: Remote\nremote: true",
+      "match_score": 1.47,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T07:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.68,
+            "overlap": 0.99,
+            "combined": 1.48
+          },
+          "backend": {
+            "cosine": 0.84,
+            "overlap": 0.38,
+            "combined": 0.7
+          },
+          "frontend": {
+            "cosine": 0.97,
+            "overlap": 0.49,
+            "combined": 0.83
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 1.68,
+        "keyword_overlap_score": 0.99,
+        "final_score": 1.47,
+        "top_keywords": [
+          {
+            "term": "stack",
+            "weight": 0.2286
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1513
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "83489c802b5cf6854f9c306ebff32cb0",
+      "source": "wellfound",
+      "company": "UniFit India",
+      "role": "Junior Full-Stack Engineer (TypeScript · Next.js · React Native)",
+      "url": "https://wellfound.com/jobs/4884528-junior-full-stack-engineer-typescript-next-js-react-native",
+      "jd_text": "Real estate in India runs on WhatsApp forwards, spreadsheets and memory. The same property is shared by a dozen people, buyers get lost in chats, and good deals never meet the right buyer.\n\nWe're building the platform where India's real-estate professionals work and connect, backed by more than 20 years of brokerage experience in Gurugram and NCR. The product is already built: a large, production-grade TypeScript codebase spanning a web app, iOS and Android apps, an API and dozens of background services. Now we're growing the team that takes it to market.\n\n### The role\n\nYou'll be the second engineer on the team, working day to day with our founding engineer and directly with the founder. You'll ship real features every week across web, mobile and the API, with your code reviewed by someone who knows the system end to end.\n\nThis is a role for someone early in their career who wants to grow fast: real ownership, a product heading to market, and a codebase that rewards care.\n\n### What you'll do\n\n- **Build features end to end:** the screen, the API route, the database query and the background job behind it.\n- **Build mobile screens** in React Native with Expo, alongside the web version of the same flow.\n- **Make every screen complete:** loading, empty, error and permission states, on phone and desktop widths.\n- **Build internal tools** for moderation, verification and operations.\n- **Fix bugs and performance issues,** and trace a problem from the UI down to the query that causes it.\n- **Work with AI coding agents** as a daily tool, and own every line that ships: you can explain and debug what you merge.\n- **Keep the bar high:** type-safe code that passes our checks, clear commits, and pull requests a reviewer can follow.\n\n### Our stack\n\n- **Language &amp; tooling:** TypeScript (strict), Bun\n- **Web:** Next.js 16 (App Router), React 19, Tailwind CSS v4, TanStack Query, Table &amp; Form, Zustand, Motion\n- **Mobile:** Expo, React Native, Expo Router, Reanimated, HeroUI Native, FlashList\n- **API &amp; auth:** ElysiaJS with an end-to-end typed client, better-auth, Zod\n- **Data:** PostgreSQL with PostGIS, Drizzle ORM\n- **Search &amp; jobs:** Meilisearch, Qdrant, Inngest, Redis-compatible cache\n- **AI:** LLM-based extraction from unstructured text\n- **Observability:** Sentry, PostHog, OpenTelemetry\n\nYou don't need to know all of this on day one. You do need strong TypeScript and React, and the appetite to learn the rest quickly.\n\n### What we're looking for\n\n- 0–2 years of experience. Internships, freelance work and serious personal projects all count.\n- **Strong TypeScript and React.** You're comfortable with components, state, hooks and async data.\n- **At least one full-stack project you built and shipped,** with a link we can look at.\n- **Solid SQL basics:** joins, indexes and why a query is slow.\n- A good grasp of HTTP, APIs and how authentication works.\n- You use AI coding tools, and you understand everything they produce.\n- Attention to detail in UI: spacing, states and how a screen feels to use.\n- You take code review well and learn from it quickly.\n\n### Good to have\n\n- Next.js App Router or React Native / Expo experience.\n- PostgreSQL, Drizzle or another ORM.\n- Tailwind CSS, animation or design-system work.\n- Background jobs, maps or search in a past project.\n- Comfortable in Hindi and English. Our users are brokers across NCR.\n\n### What you'll get\n\n- **Close mentorship** from our founding engineer, with every pull request reviewed.\n- **Real ownership early:** you join before launch, and your features ship in weeks, not quarters.\n- **A modern stack** across web, mobile, API and AI, in one codebase.\n- **Equity** in a company at its earliest stage.\n- **Direct access to the founder:** fast decisions and minimal process.\n\n### This role may not suit you if\n\n- You want to work only on frontend or only on backend.\n- You're looking for a remote role. We work together in person.\n- You merge AI-generated code you can't explain.\n\n### How we hire\n\n1. Intro call with the founder (20 min).\n2. A short practical task (3–4 hours).\n3. Pairing session with our founding engineer (60 min): we build or fix something together.\n4. Founder conversation, then an offer, usually within two weeks.\n\n### How to apply\n\nWellfound will ask you **\"What interests you about working for this company?\"** Use that answer to tell us all of the following. Applications that skip them won't be reviewed.\n\n1. **Your GitHub or portfolio**, and one full-stack project you built and shipped, with a live link.\n2. **The hardest problem you solved in that project**, and how you solved it.\n3. **A time AI-generated code was wrong or misleading**, and how you caught it.\n4. **In-office:** confirm you can work from our office in Sector 42, Gurugram, and your notice period or earliest start date.\n5. **Your current CTC (or stipend) and your expected CTC.** Gurgaon\nlocationNames: Gurgaon",
+      "match_score": 15.48,
+      "resume_variant": "frontend",
+      "draft_answer": "Having built React front ends end-to-end and owned core client-facing modules of full-stack platforms, I am excited to build features across the web, mobile, and API for the platform where India's real-estate professionals work and connect. My experience load-testing APIs and integrating Redis caching to cut fetch latency by 98%, alongside migrating to Azure Blob Storage to reduce data load times, directly equips me to fix performance issues and ship production-grade features across your web, mobile, and API services.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-23T07:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.29,
+            "overlap": 16.56,
+            "combined": 12.87
+          },
+          "backend": {
+            "cosine": 9.15,
+            "overlap": 15.79,
+            "combined": 11.14
+          },
+          "frontend": {
+            "cosine": 14.0,
+            "overlap": 18.93,
+            "combined": 15.48
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 14.0,
+        "keyword_overlap_score": 18.93,
+        "final_score": 15.48,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1339
+          },
+          {
+            "term": "react",
+            "weight": 0.1277
+          },
+          {
+            "term": "api",
+            "weight": 0.0912
+          },
+          {
+            "term": "code",
+            "weight": 0.0912
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0912
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-23T07:15:50+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "df6b8bccfbf41f69b47087b1d6e47c8b",
+      "source": "wellfound",
+      "company": "Brainfullstack",
+      "role": "Junior Frontend Developer",
+      "url": "https://wellfound.com/jobs/4869764-junior-frontend-developer",
+      "jd_text": "**About BrainFullStack**\nBrainFullStack is a software development agency that designs and builds products end to end. Our work spans AI and machine learning, web and mobile apps, data engineering and visualization, automation, and the UI/UX that holds it all together. We believe the people who plan a product should be the same people who build it, so nothing gets lost between design, code, and data. We're looking for people who enjoy working across the stack and care as much about why something gets built as how.\n\n**The role**\nYou'll build the frontends of the web apps we ship for clients, working in React, Next.js, and TypeScript. Design and engineering sit on the same team here, so you'll work directly with the people who designed the screens instead of from a handoff file. You'll ship real client work early, with code review from a senior engineer on everything you merge.\n\n**What you'll do**\nBuild responsive, accessible interfaces from our design files.\nConnect the UI to APIs and handle loading, error, and empty states properly.\nWrite tests for the components you build and track down the bugs you find.\nReview other people's pull requests, not just submit your own.\nFlag design problems early, before they turn into code problems.\n\n**What you need**\nSolid HTML, CSS, and JavaScript, plus working knowledge of TypeScript.\nSomething real you've built with React, whether at a job, in a bootcamp, or on your own.\nComfort with Git and GitHub.\nClear written communication, since the team is fully remote.\n\n**Nice to have**\nNext.js, especially the App Router\nTailwind CSS\nTesting with Vitest, Jest, or Playwright\nAn eye for design: spacing, type, and why one layout works better than another\n\n**Location and eligibility**\nThis is a full-time, remote position open to candidates who live in the United States. Applicants must be authorized to work in the US, now and in the future, without employer sponsorship. We are unable to sponsor or take over sponsorship of an employment visa (such as H-1B) for this role.\nOur working hours are based on Pacific time, and we ask for at least four hours of overlap each weekday.\n\n**Pay and benefits**\nSalary: $100,000 to $116,000 per year\nBenefits: health insurance, paid time off, equipment, etc.\n\n**How to apply**\nApply with your resume and a link to something you've built, such as a GitHub repo, a live site, or a portfolio. In a few sentences, tell us what you'd do differently if you built it again.\n\nBrainFullStack is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status. Los Angeles\nlocationNames: Los Angeles\nremote: true",
+      "match_score": 11.28,
+      "resume_variant": "frontend",
+      "draft_answer": "I have owned the React frontend development for client-facing portals, from requirements gathering to UAT, and improved UI responsiveness by 98% through targeted API optimizations. I am eager to bring this end-to-end experience building web applications to BrainFullStack, especially given your focus on design and engineering collaboration.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-23T07:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.72,
+            "overlap": 11.26,
+            "combined": 8.78
+          },
+          "backend": {
+            "cosine": 6.36,
+            "overlap": 9.77,
+            "combined": 7.38
+          },
+          "frontend": {
+            "cosine": 10.49,
+            "overlap": 13.11,
+            "combined": 11.28
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 10.49,
+        "keyword_overlap_score": 13.11,
+        "final_score": 11.28,
+        "top_keywords": [
+          {
+            "term": "built",
+            "weight": 0.1071
+          },
+          {
+            "term": "ui",
+            "weight": 0.0809
+          },
+          {
+            "term": "code",
+            "weight": 0.0803
+          },
+          {
+            "term": "time",
+            "weight": 0.0803
+          },
+          {
+            "term": "end",
+            "weight": 0.0655
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-23T07:16:14+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "5fdb379cb9fc42c3adceb75d04a89d09",
+      "source": "wellfound",
+      "company": "datawebot",
+      "role": "Developer Advocate, AI Agents",
+      "url": "https://wellfound.com/jobs/4884491-ai-agentic-scraping-engineer-clone",
+      "jd_text": "### About datawebot\ndatawebot gives AI agents ecommerce product data. Through one MCP server, an agent can search products across online shops worldwide, list each seller's price with a direct link to the shop, and run extraction Jobs on Amazon and Shopify stores. Anyone can sign in for free by approving an email. Learn more at https://www.datawebot.com\n### The role\ndatawebot is built for developers who connect AI agents to tools. You will be the person they learn from: you build sample agents, write the guides, record the videos, answer questions where developers gather, and bring what you hear back to the product team.\n### What you will do\n- Build and publish sample agents and integrations for Claude, ChatGPT, Cursor and popular agent frameworks.\n- Write tutorials, documentation and blog posts that a developer can follow from sign-in to a working result.\n- Record short videos and live demos for YouTube, X and LinkedIn.\n- Answer developer questions in communities, MCP directories and GitHub.\n- Report onboarding friction and feature requests to engineering with clear reproductions.\n\n### What you need\n- Two or more years as a developer, developer advocate or technical writer.\n- You build with AI agents and MCP today and can explain them simply.\n- A public body of work: posts, talks, videos or open-source projects.\n- Excellent written and spoken English.\n\n### Nice to have\n- An audience among AI or developer communities.\n- Experience with ecommerce, pricing or data products. Singapore\nlocationNames: Singapore\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T07:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e45553b8efd09e94f5caad57020fbd0c",
+      "source": "wellfound",
+      "company": "datawebot",
+      "role": "Product Data and Matching Engineer",
+      "url": "https://wellfound.com/jobs/4884490-ai-agentic-scraping-engineer-clone",
+      "jd_text": "### About datawebot\ndatawebot gives AI agents ecommerce product data. Through one MCP server, an agent can search products across online shops worldwide, list each seller's price with a direct link to the shop, and run extraction Jobs on Amazon and Shopify stores. Anyone can sign in for free by approving an email. Learn more at https://www.datawebot.com\n### The role\nThe same pair of headphones appears under dozens of titles, sellers and variants across shops worldwide. You will build the matching and quality layer that groups listings into one product, separates new from used or resale offers, and flags results that do not fit the question.\n### What you will do\n- Build product matching that groups listings across shops by brand, model, variant and identifiers such as GTIN or MPN.\n- Use embeddings and LLMs where they help, with rules and evaluation sets that keep them honest.\n- Classify offers by condition, seller type and country so agents can filter them.\n- Create evaluation sets of real queries and measure match precision and recall over time.\n- Turn quality findings into fixes in blueprints, search and offer ranking.\n\n### What you need\n- Three or more years in data engineering, search, or applied machine learning on messy real-world data.\n- Strong Python and SQL.\n- Experience building evaluation sets and measuring quality, not only shipping models.\n- Practical experience with LLM APIs or embeddings.\n- Clear written English.\n\n### Nice to have\n- Ecommerce catalog, product taxonomy or entity resolution experience.\n- Experience with vector search or ranking. Singapore\nlocationNames: Singapore\nremote: true",
+      "match_score": 6.27,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T07:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.94,
+            "overlap": 6.29,
+            "combined": 6.04
+          },
+          "backend": {
+            "cosine": 6.06,
+            "overlap": 6.77,
+            "combined": 6.28
+          },
+          "frontend": {
+            "cosine": 4.3,
+            "overlap": 5.83,
+            "combined": 4.76
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 6.06,
+        "keyword_overlap_score": 6.77,
+        "final_score": 6.27,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.1354
+          },
+          {
+            "term": "experience",
+            "weight": 0.1354
+          },
+          {
+            "term": "agents",
+            "weight": 0.0828
+          },
+          {
+            "term": "real",
+            "weight": 0.0677
+          },
+          {
+            "term": "agent",
+            "weight": 0.0414
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "5e755bfb10bf619cfdb66d14f1085b55",
+      "source": "wellfound",
+      "company": "datawebot",
+      "role": "AI Agentic Scraping Engineer",
+      "url": "https://wellfound.com/jobs/4884488-ai-agentic-scraping-engineer",
+      "jd_text": "### About datawebot\ndatawebot gives AI agents ecommerce product data. Through one MCP server, an agent can search products across online shops worldwide, list each seller's price with a direct link to the shop, and run extraction Jobs on Amazon and Shopify stores. Anyone can sign in for free by approving an email. Learn more at https://www.datawebot.com\n### The role\nEvery shop datawebot supports is a blueprint: a defined endpoint that takes a search, catalog or product URL and returns structured product records. You will grow that catalog of shops, using AI agents to write, test and repair extractors, and you will own whether the results are right.\n### What you will do\n- Build and maintain blueprints for marketplaces, retailers and brand stores, from search and catalog pages to product detail pages.\n- Design agent workflows that draft a new extractor, test it against live pages and open a pull request a human can review quickly.\n- Detect broken or drifting sources early with schema checks, sample runs and alerts, then fix them before customers notice.\n- Normalize prices, currencies, variants, stock and seller fields into one consistent record shape.\n- Work with the backend team on job reliability, retries and cost per page.\n\n### What you need\n- Three or more years of production experience collecting data from websites at scale, in Python or TypeScript.\n- Hands-on use of AI coding agents such as Claude Code, Codex or Cursor in your daily work, and opinions about where they fail.\n- Comfort with HTTP, HTML, JSON APIs embedded in pages, and browser automation.\n- Habit of writing tests and validation for data, not just code.\n- Clear written English for pull requests, issues and incident notes.\n\n### Nice to have\n- Experience with ecommerce data: Amazon, Shopify, Shopee, Lazada, Tokopedia, Walmart or similar.\n- Experience building or using MCP servers or LLM tool calling.\n- Product matching or entity resolution work. Singapore\nlocationNames: Singapore\nremote: true",
+      "match_score": 8.52,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T07:15:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.56,
+            "overlap": 9.6,
+            "combined": 8.18
+          },
+          "backend": {
+            "cosine": 7.98,
+            "overlap": 9.77,
+            "combined": 8.52
+          },
+          "frontend": {
+            "cosine": 3.37,
+            "overlap": 8.25,
+            "combined": 4.83
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 7.98,
+        "keyword_overlap_score": 9.77,
+        "final_score": 8.52,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1538
+          },
+          {
+            "term": "data",
+            "weight": 0.1257
+          },
+          {
+            "term": "agents",
+            "weight": 0.1153
+          },
+          {
+            "term": "experience",
+            "weight": 0.0943
+          },
+          {
+            "term": "agent",
+            "weight": 0.0769
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "fdbab2193bf92e181e92927bcc1e78a3",
+      "source": "wellfound",
+      "company": "Kinterview",
+      "role": "Machine Learning Engineer",
+      "url": "https://wellfound.com/jobs/4881195-backend-engineer-clone",
+      "jd_text": "* Remote\nlocationNames: Remote\nremote: true",
+      "match_score": 0.79,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T07:15:19+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.74,
+            "overlap": 0.33,
+            "combined": 0.62
+          },
+          "backend": {
+            "cosine": 0.79,
+            "overlap": 0.38,
+            "combined": 0.67
+          },
+          "frontend": {
+            "cosine": 0.92,
+            "overlap": 0.49,
+            "combined": 0.79
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 0.92,
+        "keyword_overlap_score": 0.49,
+        "final_score": 0.79,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1432
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8043dc3f38d65f2805ac7892f8d87cb6",
+      "source": "wellfound",
+      "company": "Kinterview",
+      "role": "Data Engineer",
+      "url": "https://wellfound.com/jobs/4881205-backend-engineer-clone",
+      "jd_text": "* Remote\nlocationNames: Remote\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-23T07:15:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "f60fb82970587a6d6db29be7a527d30e",
       "source": "wellfound",
