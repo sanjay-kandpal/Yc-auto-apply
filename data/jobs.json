@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-24T20:31:19+00:00",
+  "exported_at": "2026-10-24T22:19:15+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1001,
+    "discovered": 1002,
     "pending_approval": 273,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "f0ce566b535d5e28e72af38d0f2bb69e",
+      "source": "yc",
+      "company": "Audun",
+      "role": "Founding Engineer",
+      "url": "https://www.workatastartup.com/jobs/118583",
+      "jd_text": "We are looking for an experienced software engineer to take broad technical ownership at Audun. You will work closely with our CTO Henrik and Chief Scientist Peter, with real influence over what we build and how we work.\r\n\r\n**What you will own**\r\n\r\nYou do not need to be an expert in everything here. We will divide responsibilities within the team.\r\n\r\n* **System architecture.** Design and organize the systems that make up the Audun platform: user interfaces, APIs, backend workflows, databases and AI agents.\r\n* **Fullstack development.** Build features across the stack and turn complex collection workflows into clear, reliable tools for operators and creditors.\r\n* **Applied AI.** Develop the AI capabilities that let Audun understand cases, support decisions and communicate with customers. Bring new models into production responsibly, with the right controls and feedback loops.\r\n* **DevOps.** Maintain and improve our cloud infrastructure, deployment pipelines, monitoring and security. Shape how we use coding agents to build and run the platform.\r\n* **Integrations.** Connect Audun to the payment, messaging, identity and creditor systems our customers rely on.\r\n\r\n**What you bring**\r\n\r\n* **Technical depth and judgement.** You understand trade-offs across the stack and can turn an ambiguous problem into a working, maintainable solution.\r\n* **Ownership and initiative.** You see what needs doing and follow through without close supervision.\r\n* **Builder mindset.** You want to build a company, not just a codebase, and you are curious about what a small team plus coding agents can ship.\r\n\r\n**What you get**\r\n\r\n* **Compensation.** Competitive salary and meaningful equity, reflecting the responsibility of building Audun from the ground up.\r\n* **Product and tech ownership.** Own a production-grade AI system that is modernizing a legacy industry. Your decisions shape the product and how it runs in the real world.\r\n* **Company building.** Influence how we work, who we serve and the market we are changing. Oslo, Oslo, NO Stockholm, Stockholm County, SE jobs_skill 50 Google Cloud 26 jobs_skill 90 Node.js 144 jobs_skill 99 PostgreSQL 79 jobs_skill 111 React 174 jobs_skill 138 TypeScript 45 jobs_skill 182 Distributed Systems 3 jobs_skill 311 Next.js 0 jobs_skill 323 Terraform 0 jobs_skill 324 LLMs 0 jobs_skill 331 AI Agents 0 fulltime none\nlocations: Oslo, Oslo, NO Stockholm, Stockholm County, SE\nremote: no\nmin_experience: 1",
+      "match_score": 7.81,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T22:19:10+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.04,
+            "overlap": 9.6,
+            "combined": 7.81
+          },
+          "backend": {
+            "cosine": 6.38,
+            "overlap": 9.02,
+            "combined": 7.17
+          },
+          "frontend": {
+            "cosine": 5.38,
+            "overlap": 11.65,
+            "combined": 7.26
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.04,
+        "keyword_overlap_score": 9.6,
+        "final_score": 7.81,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1584
+          },
+          {
+            "term": "agents",
+            "weight": 0.1267
+          },
+          {
+            "term": "stack",
+            "weight": 0.0783
+          },
+          {
+            "term": "team",
+            "weight": 0.0783
+          },
+          {
+            "term": "cloud",
+            "weight": 0.0518
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "f646164e2e394ea36ad56c35f01c32b1",
       "source": "wellfound",
