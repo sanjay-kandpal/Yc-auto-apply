@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-24T13:55:09+00:00",
+  "exported_at": "2026-10-24T15:28:50+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 998,
+    "discovered": 999,
     "pending_approval": 273,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "aef7530bb6cf03e0588d4c305c89b2da",
+      "source": "yc",
+      "company": "David AI",
+      "role": "Research Engineer",
+      "url": "https://www.workatastartup.com/jobs/118550",
+      "jd_text": "## **About David AI**\n\nDavid AI is the first audio data research company. We bring an R&D approach to data–developing datasets with the same rigor AI labs bring to models. Our mission is to bring AI into the real world, and we believe audio is the gateway. Speech is versatile, accessible, and human—it fits naturally into everyday life. As audio AI advances and new use cases emerge, high-quality training data is the bottleneck. This is where David AI comes in.\n\nDavid AI was founded in 2024 by a team of former Scale AI engineers and operators. In less than a year, we’ve brought on most FAANG companies and AI labs as customers. We recently raised a $50M Series B from Meritech, NVIDIA, Jack Altman (Alt Capital), Amplify Partners, First Round Capital and other Tier 1 investors.\n\nOur team is sharp, humble, ambitious, and tight-knit. We’re looking for the best research, engineering, product, and operations minds to join us on our mission to push the frontier of audio AI.\n\n## **About our Research team**\n\nOur Research team sits at the intersection of cutting-edge research and production systems, transforming raw audio into high-signal data for leading AI labs and enterprises. We own the full ML lifecycle - from researching novel speech processing algorithms to deploying models processing terabytes of audio daily.\n\n## **About this role**\n\nAs a **Research Engineer** at David AI, you'll build algorithms and systems that turn large-scale speech and audio collections into high-quality datasets. You'll tackle questions like: What makes a recording useful? How do we measure and improve dataset quality?\n\n## **In this role, you will**\n\n- Design algorithms and metrics using advanced signal processing algorithms and cutting edge ML models with to derive insights from thousands of hours of audio data.\n\n- Build scalable data processing pipelines for analyzing, filtering, deduplicating, and curating large speech and audio datasets.\n\n- Develop production-grade inference algorithms, pipelines, and APIs with cross-functional teams that unlock key insights into our data for our customers.\n\n- Collaborating with our Operations team to gather useful training and evaluation datasets to improve the quality of our models.\n\n- Architect systems that enable resilient, durable inference and evaluations.\n\n## **Your background looks like**\n\n- 3+ years of professional engineering or applied research experience in areas such as data systems, algorithms, applied ML, information retrieval, or speech and audio.\n\n- Strong Python skills and experience building maintainable, production-quality software.\n\n- End-to-end ownership of ML pipelines, from proof-of-concept to production deployment.\n\n- Ability to translate research papers and ideas into high-quality, production-ready code.\n\n- Experience deploying ML systems for production inference with cloud technologies.\n\n- Ability to assess model quality in the context of user experience and business value.\n\n## **Bonus points if you have**\n\n- Experience with speech, audio, or digital signal processing.\n\n- Experience with data curation, search and retrieval, embeddings, clustering, deduplication, or sampling.\n\n- Experience building model inference systems or integrating pretrained models into production workflows.\n\n- Experience in publishing in top conferences such as NeurIPS, ICML, ICLR, CVPR, etc.\n\n- Experience in releasing, maintaining, contributing to open-source softwares.\n\n- PhD or Masters in Computer Science or a related field.\n\n## **Benefits**\n\n- Unlimited PTO.\n\n- Top-notch health, dental, and vision coverage with 100% coverage for most plans.\n\n- FSA & HSA access.\n\n- 401k access.\n\n- Meals 2x daily through DoorDash + snacks and beverages available at the office.\n\n- Unlimited company-sponsored Barry’s classes.\n\n San Francisco fulltime yes\nlocations: San Francisco\nremote: no",
+      "match_score": 8.69,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T15:28:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.3,
+            "overlap": 9.6,
+            "combined": 8.69
+          },
+          "backend": {
+            "cosine": 7.83,
+            "overlap": 8.65,
+            "combined": 8.08
+          },
+          "frontend": {
+            "cosine": 5.8,
+            "overlap": 9.22,
+            "combined": 6.83
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.3,
+        "keyword_overlap_score": 9.6,
+        "final_score": 8.69,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2524
+          },
+          {
+            "term": "data",
+            "weight": 0.1548
+          },
+          {
+            "term": "experience",
+            "weight": 0.1548
+          },
+          {
+            "term": "team",
+            "weight": 0.1299
+          },
+          {
+            "term": "production",
+            "weight": 0.1204
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "306761154581ef1916977834f14ed94f",
       "source": "wellfound",
