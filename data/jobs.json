@@ -1,15 +1,169 @@
 {
-  "exported_at": "2026-10-24T08:44:09+00:00",
+  "exported_at": "2026-10-24T13:55:09+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 995,
+    "discovered": 998,
     "pending_approval": 273,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "306761154581ef1916977834f14ed94f",
+      "source": "wellfound",
+      "company": "AviorSwap",
+      "role": "Smart Contract Auditor",
+      "url": "https://wellfound.com/jobs/4890589-smart-contract-auditor",
+      "jd_text": "We are looking for a Smart Contract Auditor to review and improve the security of AviorSwap’s smart contracts. You will analyze code for vulnerabilities, perform security assessments, and work with developers to implement fixes and best practices. Responsibilities include staying updated on the latest DeFi attack vectors and contributing to internal security processes. Deep knowledge of Solidity and common smart contract risks is required. Previous auditing experience is a strong plus. The ideal candidate is meticulous and passionate about making decentralized protocols safer. This remote role is critical for protecting users and maintaining trust in a multi-chain DEX. Dubai\nlocationNames: Dubai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T13:55:07+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "41eaa7dc5435f1f45f9db57223611261",
+      "source": "wellfound",
+      "company": "IDfy - Baldor Technologies",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4890545-software-engineer",
+      "jd_text": "We are the perfect match if :\n\nHave 2–3 years of experience building software in product companies preferable in B2B space \nExposure to platform, infra-adjacent, or enablement teams \nAre not married to one backend language — comfortable moving between Python, Elixir, Golang, Node.js, SQL (or learning fast)  \nBring a strong product development mindset, not just technical execution \nHave experience designing cloud-native architectures—APIs, services, data models, and trade-offs \nHave at least 1 years working on cloud-based, customer-facing systems in production \nHave built and operated distributed, microservice-based systems \nAre comfortable owning systems that are used by multiple teams \nHave hands-on experience with cloud platforms and databases\n\nPrefer backend-heavy work with some full-stack exposure (not frontend-focused)\n\nHere’s what your day will look like…\n\nOwning the design and evolution of core platform modules \nDesigningAPIs, services, and data flows that operate reliably at scale \nDriving system design discussions across teams \nCollaborating closely with engineers across the tech pod—product, security, DevOps, and data \nMaking architectural decisions with a balance of speed, scale, security, and maintainability \nDebugging and resolving complex production issues \nMentoring engineers and raising the overall engineering bar \nContinuously improving platform reliability and developer experience Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T13:55:07+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cd5b2e03f4db6f8699f9e498f0821921",
+      "source": "wellfound",
+      "company": "IDfy - Baldor Technologies",
+      "role": "Senior Machine Learning Engineer",
+      "url": "https://wellfound.com/jobs/3721613-senior-machine-learning-engineer",
+      "jd_text": "**Job Location: Mumbai, Pune.**\n\n**The scale you will operate at**\nWe run 40+ production ML models across two large families, on a mixed CPU and GPU fleet.\n\nDocuments: Region of Interest detection, Photocopy Classifier, Text Tampering, Photo Tampering, Readability, OCR, Named Entity Recognition, PII Masking.\n\nFaces: Face Detection, Face Quality, Sunglass Detection, NSFW, Face Mask Detection, Face Match, Liveness Detection, Deepfake Detection.\n\nThe production footprint:\n\n2000 requests per second at peak\n\n25 TB of serving RAM\n\n~18,000 CPUs\n\n120 NVIDIA L4 GPUs\n\n2M+ verifications per day\n\nAt this scale, cost-to-serve is a first-class engineering constraint. A model that is 2 percentage points more accurate but 10x more expensive to run may be the wrong model. You will own that tradeoff with numbers, not opinions.\n\n**What you will do**\nFrame ambiguous problems mathematically. Turn a business requirement like \"catch deepfakes in KYC\" into a well-posed objective: the right positive class, the right operating point, the right validation protocol that does not leak, and a metric that survives class-prevalence shift.\n\nTrain models, end to end. Own the full lifecycle for one or more model families: problem framing, data strategy, architecture choice, training, evaluation, deployment, monitoring, and retraining. You are accountable for the model in production, not just the notebook.\n\nEvaluate with rigor. Design evaluation that predicts production behavior. Confusion matrices, ROC and PR curves, TPR at a fixed low FPR, calibration error, and cross-distribution generalization. Know why AUC can lie about a model you operate at FPR = 1e-4.\n\nOptimize for inference at scale. Quantize, prune, and re-architect models so they serve within latency, throughput, and cost budgets. Move workloads off GPU to quantized CPU inference where the numbers justify it, and prove the accuracy held with a production canary before, not after. Deploy and operate resilient production systems that run 24x7\n\nReproduce and improve on research. Read a paper, reproduce its results, strip it down to what actually matters for our constraints, and ship it. We value simplification that preserves accuracy. A smaller, cheaper model that matches a heavier one is treated as a genuine result here, not a compromise.\n\nLead. Mentor 3 to 6 junior engineers on math-driven problem solving, experiment design, and ML systems. Set the bar for source discipline and reproducibility. Review models, not just code.\n\n**What you bring**\nML fundamentals, deeply held.\n\nProbability and statistics: distributions, estimation, hypothesis testing, class prevalence and its effect on precision, sampling.\n\nOptimization: gradient descent and its variants, loss landscapes, convergence behavior, why training diverges and how to fix it.\n\nLinear algebra: enough to reason about embeddings, projections, and what a layer is actually computing.\n\nYou can derive, not just import. If asked why a loss is shaped the way it is, or what changes when you quantize a layer to INT8, you can work it out on a whiteboard.\n\nProven model-training experience.\n\nYou have trained deep learning models from scratch and fine-tuned pretrained networks, in PyTorch. Training loops, data pipelines, augmentation, and loss design are things you have written, not things you have called.\n\nDepth in at least one of Computer Vision (detection, classification, metric or embedding learning, anti-spoofing) or NLP (sequence labeling, NER, transformer models), with working literacy in the other.\n\nYou have shipped at least two models into production, operated them at some scale and kept them healthy through drift and adversarial pressure.\n\nEvaluation and calibration.\n\nYou design evaluations that do not overstate performance: leakage-free splits, cross-generator or cross-source generalization tests, and operating points chosen for the real cost asymmetry.\n\nYou understand calibration and can reason about decision thresholds under changing prevalence.\n\nProduction ML at scale.\n\n4+ years building and operating large-scale ML systems: real-time inference, monitoring, drift detection, and retraining.\n\nInference optimization: quantization (INT8, BF16), and hands-on with at least one of OpenVINO, CTranslate2, Triton, or vLLM. You reason about latency, throughput, and cost-to-serve as engineering targets.\n\nComfortable on Kubernetes and a major cloud (we run primarily on GCP and AWS).\n\nWorking with LLMs, the right way.\n\nIf you work with LLMs, you work with the model, not only the API: fine-tuning, embedding geometry, retrieval statistics, and transformer internals. You can build a RAG system and also explain why the retriever is failing at the embedding level.\n\n**What makes you stand out**\nFace recognition, liveness, or presentation-attack and deepfake detection experience.\n\nMetric learning and large-scale vector search (millions of vectors and up).\n\nOCR, document forensics, or tampering detection on real-world degraded documents.\n\nContributions to open-source ML, published papers, or teaching and speaking in the community.\n\nFamiliarity with Indian regulatory context: DPDP, RBI KYC modes, UIDAI, PCI DSS.\n\n**Why this role is rare**\nMost \"AI\" roles today are integration roles: call a hosted model, shape a prompt, ship. This is not that. Here you build the models that have real world impact on 2 million people a day, in an adversarial setting where accuracy and cost both have real consequences. You get production traffic at 2000 RPS, a fleet of 40+ models to learn from, and a mandate to make them faster, better and cheaper.\n\nThis is a place for people who are still excited by the math. Pune Mumbai\nlocationNames: Pune Mumbai",
+      "match_score": 6.98,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T13:55:07+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.72,
+            "overlap": 12.25,
+            "combined": 6.98
+          },
+          "backend": {
+            "cosine": 4.48,
+            "overlap": 12.03,
+            "combined": 6.75
+          },
+          "frontend": {
+            "cosine": 3.55,
+            "overlap": 12.14,
+            "combined": 6.13
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.72,
+        "keyword_overlap_score": 12.25,
+        "final_score": 6.98,
+        "top_keywords": [
+          {
+            "term": "model",
+            "weight": 0.1717
+          },
+          {
+            "term": "production",
+            "weight": 0.1404
+          },
+          {
+            "term": "real",
+            "weight": 0.078
+          },
+          {
+            "term": "cross",
+            "weight": 0.0707
+          },
+          {
+            "term": "loss",
+            "weight": 0.0572
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "3bcb2fa1c6c6d0aee268fdd35beb3461",
       "source": "wellfound",
