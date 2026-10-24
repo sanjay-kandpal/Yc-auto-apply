@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-10-24T18:39:58+00:00",
+  "exported_at": "2026-10-24T20:31:19+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 999,
+    "discovered": 1001,
     "pending_approval": 273,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "f646164e2e394ea36ad56c35f01c32b1",
+      "source": "wellfound",
+      "company": "AviorSwap",
+      "role": "Senior Protocol Engineer (Rust / Go)",
+      "url": "https://wellfound.com/jobs/4890619-senior-protocol-engineer-rust-go",
+      "jd_text": "We are looking for a Senior Protocol Engineer to design and build the core infrastructure of our blockchain protocol.\n\nYou will work on consensus, networking, node software, and performance-critical components that form the foundation of the network.\n\n**What you’ll do:**\n* Design and implement core protocol components (consensus, networking, state management)\n* Write high-performance production code in Rust and/or Go\n* Optimize node performance, throughput, and resource usage\n* Work on L1/L2 infrastructure, modular architectures, or rollups\n* Participate in architecture decisions and code reviews\n* Collaborate with researchers and security engineers\n\n**Requirements:**\n* Strong experience with Rust or Go\n* Solid understanding of distributed systems, consensus algorithms, and peer-to-peer networking\n* Experience with blockchain protocols (Ethereum, Solana, Cosmos, Polkadot or similar)\n* Knowledge of cryptography and blockchain security principles\n* Ability to design complex systems from scratch\n* Nice to have:\n* Open-source contributions to blockchain projects\n* Experience with ZK systems or modular blockchains\n* Systems programming / high-performance computing background\n\n**What we offer:**\n* Competitive salary + token incentives\n* Remote / Hybrid / On-site (Dubai)\n* Relocation support and visa sponsorship\n* Opportunity to work on core protocol infrastructure\n\nWe are open to candidates with different levels of experience. If you have a strong technical foundation, understanding of distributed systems, or a genuine desire to go deep into protocol development - we are happy to consider your application individually.\n\nTraining and mentorship within the team are possible.\n\nWe value not only current experience, but also potential, motivation, and the willingness to grow quickly together with the project.\n\nIf you are interested in joining the team and working on core blockchain infrastructure - reach out.\n\nWe review every candidate personally. Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T20:31:17+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cbb41543ee38b462537ac4e51974f341",
+      "source": "wellfound",
+      "company": "Capasso Enterprises",
+      "role": "Front End Developer",
+      "url": "https://wellfound.com/jobs/4884675-front-end-developer",
+      "jd_text": "As a Front-End Developer, you will be responsible for designing, developing, and maintaining the visual and interactive elements of websites and web applications to deliver an engaging, responsive, and user-friendly experience. Responsibilities include translating design concepts into functional web interfaces, writing clean and efficient code using HTML, CSS, and JavaScript, ensuring website responsiveness across different devices and browsers, optimizing website performance, troubleshooting technical issues, and implementing user interface improvements. You will collaborate with designers, back-end developers, and other team members to ensure seamless integration of design and functionality while meeting organizational requirements. Your technical expertise, creativity, attention to detail, and problem-solving skills will contribute to the development of accessible, high-quality web experiences and the overall success of the organization. Connecticut\nlocationNames: Connecticut\nremote: true",
+      "match_score": 6.41,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T20:31:17+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.54,
+            "overlap": 5.96,
+            "combined": 4.96
+          },
+          "backend": {
+            "cosine": 2.02,
+            "overlap": 4.51,
+            "combined": 2.77
+          },
+          "frontend": {
+            "cosine": 6.46,
+            "overlap": 6.31,
+            "combined": 6.41
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.46,
+        "keyword_overlap_score": 6.31,
+        "final_score": 6.41,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1978
+          },
+          {
+            "term": "user",
+            "weight": 0.1319
+          },
+          {
+            "term": "technical",
+            "weight": 0.1078
+          },
+          {
+            "term": "responsiveness",
+            "weight": 0.0814
+          },
+          {
+            "term": "applications",
+            "weight": 0.0539
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "aef7530bb6cf03e0588d4c305c89b2da",
       "source": "yc",
