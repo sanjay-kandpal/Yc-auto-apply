@@ -1,15 +1,319 @@
 {
-  "exported_at": "2026-10-24T03:26:33+00:00",
+  "exported_at": "2026-10-24T07:04:05+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 990,
+    "discovered": 995,
+    "pending_approval": 273,
     "submitted": 9,
-    "pending_approval": 272,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "3bcb2fa1c6c6d0aee268fdd35beb3461",
+      "source": "wellfound",
+      "company": "Qeemah",
+      "role": "Senior Full-Stack Engineer",
+      "url": "https://wellfound.com/jobs/4875099-senior-full-stack-engineer",
+      "jd_text": "About the Role: Senior Full-Stack Engineer for Qeemah Cloud Accounting (https://qeemahcloud.com) built for Saudi Arabia and the GCC. Abu Dhabi Dubai Dubai\nlocationNames: Abu Dhabi Dubai Dubai\nremote: true",
+      "match_score": 3.21,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T07:03:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.21,
+            "overlap": 2.65,
+            "combined": 3.04
+          },
+          "backend": {
+            "cosine": 2.42,
+            "overlap": 2.26,
+            "combined": 2.37
+          },
+          "frontend": {
+            "cosine": 3.34,
+            "overlap": 2.91,
+            "combined": 3.21
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 3.34,
+        "keyword_overlap_score": 2.91,
+        "final_score": 3.21,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1584
+          },
+          {
+            "term": "built",
+            "weight": 0.0792
+          },
+          {
+            "term": "cloud",
+            "weight": 0.0792
+          },
+          {
+            "term": "com",
+            "weight": 0.0792
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b283d1496174373078fbf886f0f95476",
+      "source": "wellfound",
+      "company": "Actioneer",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4878930-software-engineer",
+      "jd_text": "**About Us**\n\n  \n\nAt Actioneer, we’re building a voice-first customer engagement platform to help enterprises provide intuitive, consumer-grade experiences for their customers. Our suite is designed for cheaply querying enterprise data, detecting bots, and resolving customer queries. We work best in customer journeys where there's multiple parties, and complex documents (think insurance purchase, auto-lending, RFIs etc.)\n\n  \n\nWe're a small, well-capitalized team backed by investors like South Park Commons, Z47, Bitkraft and Sony Ventures. We believe everyone is an IC, and we're in a once-in-a-lifetime moment where all of us have the leverage to punch far above our weight.\n\n  \n\n  \n\n**About The Role**\n\n  \n\nWe’re hiring an experienced Software Engineer to join our engineering team. You’ll own features end to end, from prototyping and design to implementation and production. The typical problems we work on revolve around AI agents, data infrastructure, and building products that solve real business problems. You'll work directly with the founders, move quickly from ideas to production, and take ownership of the outcomes of what you build.\n\n  \n\n  \n\n**What You’ll Own**\n\n  \n\n- Build and ship product features end to end, working across frontend, backend, and AI agents\n- Design and implement scalable systems that support complex enterprise workflows\n- Work closely with sales/product to understand problems, prototype solutions, and iterate based on feedback\n- Build and improve AI agents, including tool integrations, evaluations, and production monitoring\n- Leverage AI coding tools to accelerate development and ship high-quality software faster\n- Own features beyond deployment, measuring performance and continuously improving them\n  \n\n  \n\n**Key Qualifications**\n\n  \n\n- 5+ years in software engineering with experience having worked on production systems at scale\n- Bias for action; Able to quickly ship a v1 and iterate from there\n- Strong experience with distributed systems and event-driven architectures\n- Comfortable working across the stack and picking up new technologies as needed\n- Strong product orientation, with the ability to translate business problems into technical solutions\n  \n\n  \n\n**What we look for**\n\n  \n\n- Strong bias for measuring and improving system performance\n- OCD about personal productivity and AI-agent setup\n- Ability to break problems down from first-principles and interest in tackling problems across the stack Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 10.72,
+      "resume_variant": "frontend",
+      "draft_answer": "I’ve owned end-to-end React frontends for enterprise clients, scoping requirements and driving UAT, while simultaneously optimizing backend API performance by 98% and automating reporting for 80+ organizations on cloud platforms. This experience directly translates to designing scalable systems and improving data infrastructure for a voice-first customer engagement platform, particularly in customer journeys involving complex documents.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-24T07:03:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.33,
+            "overlap": 11.26,
+            "combined": 9.21
+          },
+          "backend": {
+            "cosine": 7.4,
+            "overlap": 10.53,
+            "combined": 8.34
+          },
+          "frontend": {
+            "cosine": 9.07,
+            "overlap": 14.56,
+            "combined": 10.71
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 9.07,
+        "keyword_overlap_score": 14.56,
+        "final_score": 10.72,
+        "top_keywords": [
+          {
+            "term": "problems",
+            "weight": 0.1749
+          },
+          {
+            "term": "end",
+            "weight": 0.1426
+          },
+          {
+            "term": "production",
+            "weight": 0.1166
+          },
+          {
+            "term": "improving",
+            "weight": 0.0881
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.0583
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-24T07:04:01+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6d274ff7b4261ec4d3c784597ef61f51",
+      "source": "wellfound",
+      "company": "AviorSwap",
+      "role": "Backend Developer",
+      "url": "https://wellfound.com/jobs/4884740-backend-developer",
+      "jd_text": "Develop and maintain APIs, backend services, and infrastructure that power the platform. Work on performance, security, and scalability. Dubai\nlocationNames: Dubai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T07:03:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a94b2e2d87ef9c5349587df3295768ba",
+      "source": "wellfound",
+      "company": "AviorSwap",
+      "role": "Frontend Developer",
+      "url": "https://wellfound.com/jobs/4884734-frontend-developer",
+      "jd_text": "Build and improve the web interface of the DEX. Focus on clean UX, fast load times, and seamless wallet connections. Experience with React and Web3 libraries is a plus. Dubai\nlocationNames: Dubai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T07:03:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "dc585c7bd92d8eda12a18664dbed9d12",
+      "source": "wellfound",
+      "company": "AviorSwap",
+      "role": "Blockchain Developer",
+      "url": "https://wellfound.com/jobs/4884733-blockchain-developer",
+      "jd_text": "Develop and maintain smart contracts, integrate new blockchain networks, and improve the swap routing and liquidity logic. Experience with Solidity, EVM chains, and DeFi protocols is preferred. Dubai\nlocationNames: Dubai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T07:03:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a693248b67a5b7295e563bdf8b13ec33",
+      "source": "wellfound",
+      "company": "ThermaLabs",
+      "role": "Founding Engineer",
+      "url": "https://wellfound.com/jobs/4872290-founding-engineer",
+      "jd_text": "Apply to be on our founding engineering team. ThermaLabs is a startup founded by an IVY League entrepreneur.\n\nWe're building clothing that keeps people cool while they work in extreme heat. We're looking for the engineers who'll build the first one with us. Applying for the job includes the BREEZE Engineering Challenge, a three-week design competition over the winter break. We don't want to hire anyone off a CV alone, so this is how we get to know you. You can apply on your own or with friends, in a team of up to 8.\n\nYou'll have 3 weeks to design (on paper/computer) a jacket that cools people down in extreme heat. You will have to explain how it works, how it would be built, and prove the maths/physics behind it. How much it would theoretically cost to build does not matter as long as it is realistic.\n\n**Prize:** a $5,000 design prize, and a job on our founding engineering team: **$40 an hour + Equity** for students, **from $90,000 a year + Equity** for graduates.\n\n**Deadline:** 6 December 2026\n\n**Who can apply:** anyone 18 or over, from anywhere apart from countries under sanctions: undergraduates, master's and PhD students, graduates and engineers who already work.\n\n**Where:** remote (ThermaLabs is based in Abu Dhabi, UAE), plus 2 to 4 weeks together in one place in summer\n\n**Hours:** full time for graduates; part time for students, roughly 20 hours a week during term\n\n**Apply:** https://thermalabs.io/challenge/apply/\n\n*Pay and equity will be agreed in writing when we hire. Hires are made through THREE EIGHT SIX, which backs ThermaLabs. Anything you make for the competition is handed over to ThermaLabs when you sign the entry agreement, and if a patent is filed on your idea, you're named on it as an inventor.* Abu Dhabi\nlocationNames: Abu Dhabi\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-24T07:03:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "959369b5daddc365dce1c65c596bae43",
       "source": "wellfound",
