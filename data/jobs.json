@@ -1,15 +1,206 @@
 {
-  "exported_at": "2026-10-26T18:20:51+00:00",
+  "exported_at": "2026-10-26T22:34:39+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1031,
-    "pending_approval": 274,
+    "discovered": 1033,
+    "pending_approval": 275,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "001de1738cc646d9861d15bf0c50706f",
+      "source": "wellfound",
+      "company": "Compuco",
+      "role": "CiviCRM / PHP Engineer (Mid-level to Senior)",
+      "url": "https://wellfound.com/jobs/4895689-civicrm-php-engineer-mid-level-to-senior",
+      "jd_text": "A big hello from the team at Compuco!\n\nAt Compuco we empower socially responsible organisations with the digital tools they need to build a better world.\n\nAs a data driven creative technology agency, we are passionate about helping membership, charitable and cultural organisations to streamline and reimagine the way they work so that they can focus on impact.\n\nWe are looking for an experienced PHP engineer to build and maintain CiviCRM extensions and Drupal modules for not-for-profit clients. You will use AI coding tools every day and care about testing.\n\nCompuco is split into product teams. As a key member of one of these teams, you'll be involved in the entire development process, from the specification phase through to release. Your main focus will be building new functionality as CiviCRM extensions and Drupal modules (Drupal 7 and Drupal 10/11), around finances, payments, memberships and case management. We use AI coding tools every day and have shared playbooks for how to use them. We expect you to use them to work faster, and to check what they produce before it reaches a reviewer.\n\nWe’re a very process-driven team and constantly seek to refine the way we work to ensure that we continue to deliver the highest quality service to our clients and to the sector as a whole.  We’re looking for someone with a “can do” attitude to join our growing team.\n\nAs a distributed company with an HQ in London and team members from all around the world, one of the things that makes working at Compuco special is the chance to meet, mix and learn from people from an amazing array of nationalities and cultures. We’re extremely proud of the way we work and the open culture we’ve developed.\n\n**Key responsibilities:**\n* Build and test CiviCRM extensions and Drupal modules, with unit tests on every change\n* Help write technical specifications before building, and at a senior level lead them\n* Review other people's pull requests and give useful technical feedback\n* Use AI coding tools within our playbooks, and check their output\n* Investigate production issues to the root cause and write up what you found\n* Take part in planning, estimation and retrospectives, and follow actions through\n* Keep documentation up to date: README files, extension metadata, process pages\n* Share knowledge with and support other members of the team\n\n**Experience sought:**\n* At least 3 years of experience in web application development with PHP. For the senior end of the range, we look for 5+ years, including time as a senior or lead.\n* Experience extending a large PHP platform through its hooks, APIs and modules or plugins (Drupal, WordPress, SuiteCRM, Magento or similar). CiviCRM experience is a bonus\n* Daily use of AI coding tools (Claude Code, Codex, Gemini CLI, Cursor or similar) on real projects, and the judgement to spot when their output is wrong\n* Experience writing unit tests and testing processes\n* Excellent database / SQL skills, including performance optimisation and normalisation\n* Be skilled with Git, including rebasing and squashing commits\n* Experience with Docker-based local development environments\n* Experience with Linux and the command line\n* Experience with CI/CD pipelines, ideally GitHub Actions\n\n**Desirable skills:**\n* Writing technical specifications that others can review and estimate\n* CiviCRM extension development\n* Browser testing with Playwright or similar\n* Payment processor integrations and webhooks (Stripe, GoCardless or similar)\n* Drupal module development on 7 and 10/11\n* Front-end JavaScript, including legacy AngularJS\n* Security and data protection awareness\n* Contributing fixes to open-source projects\n\n**What we value in this role:**\n1. Good judgement: knowing when the quick answer is the wrong answer, whether it comes from an AI tool or a person\n2. Following through: a job is done when the fix is merged and the ticket is closed\n3. Clear writing: specifications, PR descriptions and investigation notes that others can act on\n4. Team player: reviews, mentors and shares by default\n\n**Type:** Permanent\n\n**Location:** Hybrid working (office based in Shoreditch, London) or Fully Remote anywhere in the world\n\n**How to apply:**\n\nIf you think this is the role for you, please send your CV through to us with a short covering statement explaining what caught your interest and why you think you'll fit in using [the application form](https://airtable.com/appO7QN3X8PZf7k99/paghPvSAoEbZrIS8k/form?prefill_Roles=rechr0uVrHyqtvuxh&amp;hide_Roles=true&amp;hide_Role=true).\n\n**Salary range:** £25k-£35k\n\n**About Compuco:**\n\nOur mission is to empower socially responsible organisations with the digital tools they need to build a better world. As a data driven creative technology agency, we are passionate about helping membership, charitable and cultural organisations to streamline and reimagine the way they work so that they can focus on impact.\n\nWe’re a distributed team, with staff in over 12 countries and a head office in London. We offer flexible hours and a real “team” mentality, working together to make things better.\n\nUniquely, we base all of our solutions on open source products, helping our work to have the greatest possible impact. We offer a full suite of software options for our clients, but  in particular specialise in CiviCRM, the dedicated nonprofit CRM, the Drupal CMS platform, and we are also the creators of the [CiviPlus platform](https://www.civi.plus/). \n\nOur clients include membership organisations such as the British Toy and Hobby Association, World Heart Federation and Royal Society of Edinburgh, nonprofit organisations such as Wikimedia, Carers UK and Disability Rights UK, and government institutions such as Epping Forest and Police Scotland.\n\n*We are proud to be an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to race, religion, sex, sexual orientation, gender identity, national origin, citizenship or disability.*\n\n**Benefits**\n\nWe have a broad range of benefits including:\n* Paid annual leave\n* Birthday off\n* Volunteering time off\n* Wellness day\n* Medical insurance allowance\n* Paid leave for personal development and learning\n* Remote working London\nlocationNames: London\nremote: true",
+      "match_score": 9.58,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T22:34:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.87,
+            "overlap": 15.89,
+            "combined": 9.58
+          },
+          "backend": {
+            "cosine": 5.85,
+            "overlap": 15.04,
+            "combined": 8.6
+          },
+          "frontend": {
+            "cosine": 5.63,
+            "overlap": 16.99,
+            "combined": 9.04
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.87,
+        "keyword_overlap_score": 15.89,
+        "final_score": 9.58,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1834
+          },
+          {
+            "term": "experience",
+            "weight": 0.1214
+          },
+          {
+            "term": "ai",
+            "weight": 0.0928
+          },
+          {
+            "term": "tools",
+            "weight": 0.0911
+          },
+          {
+            "term": "modules",
+            "weight": 0.0607
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "99c884bc6e047469bcf68285c0974942",
+      "source": "wellfound",
+      "company": "Auto Wisdom",
+      "role": "Software Developer Engineer 2 - Backend",
+      "url": "https://wellfound.com/jobs/4293708-software-developer-engineer-1-backend",
+      "jd_text": "**About Auto Wisdom**\nAuto Wisdom is building high-performance automotive intelligence platforms that simplify car ownership, improve decision-making, and power digital transformation for automotive brands. This is a full-time backend software developer role for early-career engineers.\n\n**Role**\nYou will work on the Auto Wisdom backend stack and ship production APIs, data models, and service workflows used by real customers. The work is hands-on: Go services, REST APIs, PostgreSQL, Redis-backed flows, authentication, integrations, and deployment reliability.\n\n**What You'll Do**\n* Build and maintain backend services in **Go (Golang)**.\n* Develop REST APIs using **Gin** and structured service/DAO patterns.\n* Work with **GORM**, PostgreSQL schemas, indexes, and optimized queries.\n* Implement authentication, authorization, validation, and secure error handling.\n* Use Redis/cache-backed flows where appropriate and design graceful failure behavior.\n* Write maintainable backend code with clear interfaces, logging, and production-ready error handling.\n* Participate in code reviews, debugging, deployment, and reliability improvements.\n* Collaborate closely with product and frontend teams to ship customer-facing features.\n\n**Required Profile**\n* 2022 or 2023 graduate in Computer Science, IT, or a related engineering discipline.\n* 3-4 years of backend/software development experience, including internships, full-time roles, or strong production-grade projects.\n* Strong programming fundamentals and hands-on experience with **Go (Golang)**.\n* Good understanding of REST API design, databases, Git, and backend system design.\n* Comfortable working in a fast-moving startup environment with ownership and accountability.\n\n**Preferred Skills**\n* Gin, GORM, PostgreSQL, Redis, Docker, AWS, CI/CD, GitHub Actions.\n* Experience with JWT/OAuth, role-based access control, background jobs, queues, or distributed systems.\n* Ability to read existing code, follow architecture conventions, and improve quality without unnecessary rewrites.\n\n**Compensation &amp; Work Location**\n* Salary range: **INR 12 LPA to INR 15 LPA**.\n* Location: **Mumbai or Bangalore**.\n* Work policy: **In-office role with work-from-home flexibility**.\n* Candidate should be willing to relocate to Mumbai or Bangalore if not already based there.\n\nApply with your GitHub, portfolio, resume, and 1-2 backend projects that show practical ownership. Mumbai Bangalore Urban\nlocationNames: Mumbai Bangalore Urban",
+      "match_score": 12.23,
+      "resume_variant": "backend",
+      "draft_answer": "As an engineer who has owned production backend modules, from FastAPI development and client requirement scoping to implementing blue-green deployments with zero-downtime rollouts and cutting API latency by 98% with Redis caching, I consistently build for performance and reliability for high-impact platforms. My experience scaling compliance systems for 80+ clients, introducing RabbitMQ for guaranteed data delivery, and implementing secure auth and RBAC demonstrates my capability to contribute immediately to the high-performance automotive intelligence platforms at Auto Wisdom.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-26T22:34:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.57,
+            "overlap": 13.25,
+            "combined": 10.68
+          },
+          "backend": {
+            "cosine": 11.67,
+            "overlap": 13.53,
+            "combined": 12.23
+          },
+          "frontend": {
+            "cosine": 8.03,
+            "overlap": 16.5,
+            "combined": 10.57
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 11.67,
+        "keyword_overlap_score": 13.53,
+        "final_score": 12.23,
+        "top_keywords": [
+          {
+            "term": "backend",
+            "weight": 0.2223
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.1111
+          },
+          {
+            "term": "apis",
+            "weight": 0.0834
+          },
+          {
+            "term": "auto",
+            "weight": 0.0834
+          },
+          {
+            "term": "code",
+            "weight": 0.0834
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-10-26T22:34:37+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8e8f2de42c2f07a2938fbdbfc78b390c",
+      "source": "wellfound",
+      "company": "Obrive Industries",
+      "role": "Full Stack Developer Intern (6 Months – Unpaid)",
+      "url": "https://wellfound.com/jobs/3373192-full-stack-developer-intern-6-months-unpaid",
+      "jd_text": "Company: Obrive Industries Pvt. Ltd.\nLocation: Fully Remote (based on various project requirement)\nDuration: 6 Months (Full-Time Commitment Required)\n\nStart Date: Immediate\n\n**About the Role**\nObrive Industries is building cutting-edge solutions in AR, VR, MR, and spatial computing, including products like OBPARK and OBNEST. We are looking for highly driven B.Tech final-year students who want to gain real-world industrial experience and work on live production-level systems.\n\nThis is not a basic internship — you will be working on real products, real users, and real impact.\n**Key Responsibilities**\nDevelop and maintain scalable full-stack applications\nWork on frontend (React, Next.js, UI/UX integration)\nWork on backend systems (Node.js, APIs, databases)\nCollaborate with design and product teams\nParticipate in building AR/MR-integrated platforms\nWrite clean, efficient, and production-ready code\nTake ownership of modules and deliver independently\n\n**Required Skills**\nStrong understanding of JavaScript, HTML, CSS\nExperience with React.js / Next.js\nBackend knowledge (Node.js / Express / APIs)\nFamiliarity with databases (MongoDB / MySQL / Firebase)\nUnderstanding of Git &amp; version control\nProblem-solving mindset and self-learning ability\n\nPreferred (Bonus) Skills\nExposure to AR/VR, Unity, or Spatial Computing\nExperience with cloud platforms (AWS, GCP, Firebase)\nUI/UX sensitivity and product thinking\n\n**Who Should Apply**\nB.Tech Final Year Students (2026 passing out preferred)\nCandidates serious about building a career in tech/startups\nIndividuals willing to commit full-time for 6 months\nSelf-disciplined, accountable, and growth-driven individuals\n\n**Terms &amp; Conditions (Strict – Read Carefully)**\n1. Commitment\nThis is a 6-month full-time internship (minimum 8 hours/day)\nNo part-time, freelancing, or parallel internships allowed\n2. Compensation\nThis is a strictly unpaid internship\nCompensation is provided in the form of:\nReal-world industry experience\nExposure to startup product building\nWork on live projects\n3. Certification &amp; Recognition\nUpon successful completion:\nExperience Letter from Obrive Industries Pvt. Ltd.\nLetter of Recommendation signed by the CEO\n4. Performance Requirement\nWeekly performance reviews will be conducted\nFailure to meet expectations may lead to termination\n5. Code of Conduct\nProfessional communication and accountability are mandatory\nMissed deadlines or lack of seriousness will not be tolerated\n6. Confidentiality\nAll work, code, and intellectual property belong to Obrive Industries\nNDA compliance is mandatory\n7. Exit Policy\nCandidates leaving before completion will not receive certificates or recommendation letters\n**What You’ll Gain**\nHands-on experience with real startup ecosystems\nExposure to cutting-edge AR/MR products\nOpportunity to build a strong portfolio\nPotential consideration for full-time roles based on performance\nHow to Apply\nApply via Wellfound with:\nResume\nGitHub / Portfolio link\nBrief note on why you want to join Obrive\n\n**Final Note**\nThis opportunity is for serious builders, not casual learners. If you're looking to grow fast, take ownership, and work on real innovation, this is for you. Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T22:34:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "5d184da96a6da920f20570fc4dee36e1",
       "source": "yc",
