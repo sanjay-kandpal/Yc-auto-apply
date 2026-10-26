@@ -1,15 +1,247 @@
 {
-  "exported_at": "2026-10-26T03:22:55+00:00",
+  "exported_at": "2026-10-26T07:37:46+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1003,
-    "pending_approval": 273,
+    "discovered": 1007,
+    "pending_approval": 274,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "7fa3b2db3fdcc11e029b51b1681ff45e",
+      "source": "wellfound",
+      "company": "V2S",
+      "role": "AI / Computer Vision Engineer — ANPR, Video & On-Device AI",
+      "url": "https://wellfound.com/jobs/4884610-ai-computer-vision-engineer-anpr-video-on-device-ai",
+      "jd_text": "Build and improve Shiv’s AI features, including automatic number plate recognition, video/image analysis, fake-image checks, and evidence-quality workflows. You will own dataset preparation, annotation quality, model evaluation, mobile deployment, and integration with backend and Flutter teams.\n\nSkills\n\nPython, OpenCV, NumPy, and Pandas\n\nYOLO, object detection, OCR, and ANPR pipelines\n\nPyTorch or TensorFlow\n\nImage/video preprocessing, tracking, and accuracy evaluation\n\nDataset collection, annotation, validation, and documentation\n\nTensorFlow Lite, ONNX, or mobile-model optimisation\n\nFastAPI or Flask basics for model APIs\n\nAWS S3 and cloud/GPU inference basics\n\nGit, Docker, and reproducible ML workflows\n\nPrivacy-aware handling of face and vehicle data Pune Mumbai\nlocationNames: Pune Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T07:37:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "48d507ed33ba8e6800d7dc0c1cd924ff",
+      "source": "wellfound",
+      "company": "V2S",
+      "role": "Mobile Engineer — Flutter, Android & iOS",
+      "url": "https://wellfound.com/jobs/4884609-mobile-engineer-flutter-android-ios",
+      "jd_text": "Description\nDevelop and maintain the Shiv citizen-reporting app and officer-side mobile workflows. You will build features such as incident reporting, camera and video capture, maps, SOS, notifications, authentication, and backend integration. You should also be able to test APIs, create release builds, and resolve urgent production issues independently.\n\nSkills\n\nFlutter and Dart\n\nAndroid Studio and Xcode basics\n\nState management: Riverpod, Provider, Bloc, or GetX\n\nREST APIs, JSON, authentication, and secure token handling\n\nFirebase: FCM, Crashlytics, Analytics, and Storage\n\nCamera, gallery, video upload, GPS/maps, and push notifications\n\nAndroid APK/AAB and iOS TestFlight/App Store releases\n\nGit/GitHub, debugging, and performance optimisation\n\nBasic Node.js/API understanding and AWS S3 integration\n\nML Kit or TensorFlow Lite experience is a strong advantage Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T07:37:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "aceee281d0e595999752521e0de77501",
+      "source": "wellfound",
+      "company": "V2S",
+      "role": "Full-Stack Engineer — Node.js, Angular & Platform",
+      "url": "https://wellfound.com/jobs/4884607-full-stack-engineer-node-js-angular-platform",
+      "jd_text": "Build, improve, and deploy the Shiv/V2S citizen app platform, police/authority dashboards, APIs, and backend services. This is a hands-on startup role: beyond backend development, you will collaborate on Flutter app integration, AWS deployments, database migrations, urgent bug fixes, and production releases.\n\nSkills\n\nNode.js, TypeScript, Express.js or NestJS\n\nAngular, JavaScript, HTML, CSS\n\nREST APIs, authentication, and role-based access control\n\nPostgreSQL/MySQL, database design, migrations, and backups\n\nAWS basics: EC2, S3, RDS, IAM, CloudWatch\n\nGit/GitHub, CI/CD, Docker basics\n\nFirebase notifications and media/file-upload APIs\n\nFlutter app API integration knowledge\n\nProduction debugging, performance, and security practices Pune\nlocationNames: Pune",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T07:37:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2cb1089ee894f082359c6bcd7ab91e53",
+      "source": "wellfound",
+      "company": "Quantalpha Advisory",
+      "role": "Senior Full Stack Developer – AI & Banking Solutions",
+      "url": "https://wellfound.com/jobs/4894459-senior-full-stack-developer-ai-banking-solutions",
+      "jd_text": "We are looking for a hands-on Full Stack Developer who can transform AI-assisted prototypes (developed using Claude Code / Codex) into secure, scalable, bank-grade software and lead their implementation within financial institutions.\n\nKey Technology &amp; Solution Highlights:\n\nOpen-Weight AI Models: Working with models such as Qwen, Llama and other open-weight LLMs, including local inference, optimization and integration with enterprise applications.\n\nLocal AI Hosting: Deploying AI applications on Apple Silicon (Mac Studio/Mac mini), Linux servers and GPU-based infrastructure, including environments with limited compute resources.\n\nBanking Infrastructure: Building solutions for on-premise, private cloud and air-gapped environments where sensitive banking data must remain within the institution's infrastructure.\n\nFull Stack Engineering: Strong experience with Python, FastAPI, React/Next.js, APIs, databases and enterprise application architecture.\n\nEnterprise Security &amp; Deployment: Authentication, RBAC, encryption, audit trails, Docker, CI/CD, system integrations and production deployment.\n\nBank Implementation: Working directly with banking IT and information security teams to manage installations, integrations, testing, security approvals and go-live. Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 11.05,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience delivering full-stack compliance platforms within client Azure tenants, paired with my work containerizing open-weight LLMs like Phi-4-mini on constrained hardware, directly aligns with building scalable, secure AI-driven solutions for financial institutions. I'm confident in leading implementations within regulated environments, given my success cutting API latency by 98% with Redis caching and introducing blue-green deployments to guarantee zero-downtime rollouts for client organizations.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-26T07:37:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.82,
+            "overlap": 11.59,
+            "combined": 11.05
+          },
+          "backend": {
+            "cosine": 10.42,
+            "overlap": 12.41,
+            "combined": 11.02
+          },
+          "frontend": {
+            "cosine": 6.47,
+            "overlap": 12.14,
+            "combined": 8.17
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.82,
+        "keyword_overlap_score": 11.59,
+        "final_score": 11.05,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.243
+          },
+          {
+            "term": "stack",
+            "weight": 0.1801
+          },
+          {
+            "term": "security",
+            "weight": 0.1458
+          },
+          {
+            "term": "local",
+            "weight": 0.0972
+          },
+          {
+            "term": "open",
+            "weight": 0.0972
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-26T07:37:44+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "4ab0b8b1b2a04d894ca0159decb655d5",
+      "source": "wellfound",
+      "company": "Upstartica",
+      "role": "Software Development Intern (Unpaid)",
+      "url": "https://wellfound.com/jobs/4894435-software-development-intern-unpaid",
+      "jd_text": "### **Upstartica is hiring for Software Development Intern**\n**About the Company**\nUpstartica is offering a remote learning opportunity for an aspiring software developer to gain practical exposure in a collaborative technology environment. The internship is designed for candidates graduating in 2028 onwards who want to build a strong foundation through hands-on development work, structured guidance, and exposure to real-world software practices.\n\n**Responsibilities:**\nAssist with developing, testing, and improving software applications under the guidance of the development team.\nWrite readable, maintainable code and participate in debugging and issue resolution.\nCollaborate remotely with team members to understand requirements, contribute ideas, and complete assigned deliverables.\nDocument technical work and take part in reviews, discussions, and learning activities.\nRequirements\nGraduating batch: 2028,2029 and 2030.\nInterest in software development, programming fundamentals, problem-solving, and learning modern development practices.\nAbility to communicate clearly, manage assignments independently, and work effectively in a remote environment.\nThis is a **three-month, unpaid internship** intended to provide meaningful practical learning and project exposure. Candidates should be committed to consistent participation throughout the internship and enthusiastic about developing their technical capabilities.\n\n### Submit Your Resume here: https://forms.gle/1a13feuKcGN7F7hJ7 Gurgaon\nlocationNames: Gurgaon\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T07:37:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "dd8b63dfdac366b2e27284d0ef8036d3",
       "source": "wellfound",
