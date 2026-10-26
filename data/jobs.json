@@ -1,15 +1,976 @@
 {
-  "exported_at": "2026-10-26T16:42:05+00:00",
+  "exported_at": "2026-10-26T18:20:51+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1013,
+    "discovered": 1031,
     "pending_approval": 274,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "5d184da96a6da920f20570fc4dee36e1",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Forward Deployed Construction Engineer",
+      "url": "https://www.workatastartup.com/jobs/118817",
+      "jd_text": "#### **_Ingénieur Construction déployé chez le client (H/F)_**\n\n#### **_Part-time to start · Remote, France (onboarding in Stockholm) · Construction × AI_**\n\nFluent English is required for this role: it’s our working language across the company. Version française en fin de document.\n\n# About Brickanta\n\nBrickanta is the AI-native agentic platform for construction. Hundreds of AI agents take on the administrative heavy lifting across bidding, procurement, compliance and quality assurance, so builders finish projects on time and on budget.\n\nWe’re backed by Y Combinator, have raised over $8M from Northzone, Anton Osika and Mario Götze, and already work with some of the largest contractors and developers in the industry. We’re an early team and growing fast, operating like an elite sports team: maximum freedom paired with maximum responsibility. You own your work, you document what matters, and you win and lose as a team.\n\nHaving built the platform with builders in the Nordics, we’re now taking it across Europe. France is one of our first markets, and this is one of our first roles on the ground.\n\n# The role\n\nMost enterprise AI dies in the proof of concept. Forward deployed engineering is how we avoid that: you sit inside the customer’s workflow — on site, in the bid room, in the procurement process — and build until the work actually gets done differently.\n\nIn a new market, that also means teaching our agents how construction works here. An answer can look plausible and still be wrong in the way that matters on a real project: a CCAP clause read the wrong way, a quantity that doesn’t match the DPGF, a DTU requirement that gets missed. Your job is to spot that and turn the judgment into evals our systems can measure.\n\nThis is not consulting and it is not a demo role. You ship product: take a real bottleneck at a real contractor, build the agent workflow that removes it, prove the outcome in numbers, and bring what you learned back into the core platform.\n\n# What you’ll own\n\n#### **_Deployments_**\n\nOwn named accounts in France end to end: understand the workflow, configure and extend our agents against their real documents and data, and get them into daily use.\n\n#### **_Evaluation and ground truth_**\n\nRun our agents against real French workflows and judge the outputs on correctness, completeness and practical usefulness, not on whether they sound convincing. Turn edge cases and production failures into repeatable evals: reference outputs, scoring rubrics, failure taxonomies and expert-reviewed datasets.\n\n#### **_Building in the field_**\n\nWrite code. Integrations, data pipelines, prompts, eval harnesses, automated graders and occasionally a whole new feature: whatever it takes to make the workflow work at that customer. Work out what needs human judgment, then engineer the rest away.\n\n#### **_Measurable outcomes_**\n\nDefine what success means before you start, then prove it: hours saved, bids won, risks caught. Measurable results rather than technical milestones.\n\n#### **_Feeding the product_**\n\nCapture what only shows up in production here, from DCEs and DPGFs to how tendering and procurement really run, and turn it into datasets, reusable building blocks and roadmap. Each deployment in France should make the next one faster.\n\n# Who we’re looking for\n\nSome combination of construction depth, technical depth and a liking for customers. The unusual profile matters more than the perfect CV.\n\n#### **_Background_**\n\n* Real exposure to construction in France: site work, works management (conduite de travaux), cost estimating (études de prix), quantity surveying (métrés), procurement or quality.\n* Experience building and shipping software (Python and/or TypeScript, APIs, data pipelines, SQL), or the raw ingredients and the drive to get there quickly.\n* Strong analytical ability and a serious interest in modern AI systems. We operate as an AI-first company.\n* Experience working directly with customers, or a clear appetite for it.\n* Fluent English, since it’s our working language, and native or near-native French. No Swedish needed.\n\n#### **_Mindset_**\n\n* You go to where the work happens — site visits, bid rooms, procurement meetings — instead of guessing from a backlog.\n* Extremely detail-oriented: you work through many cases without letting the quality bar drift.\n* Curious about why systems fail, not just whether they fail.\n* High ownership: you find the problem, build the fix and follow it into production.\n* You write clearly. At Brickanta, writing creates clarity and everything important gets documented, which matters even more when the team is in another country.\n* Comfortable with ambiguity and with being the only engineer in the room.\n\n# Growth path\n\nThis seat is built to grow with the French market. You join part-time about three months into our launch in France, as the first customers go live, with the aim of going full-time as the market grows. From there the role grows with it: running the first deployments yourself, then hiring and leading a forward deployed team in France, and over time owning Brickanta’s technical presence in the country alongside our local commercial lead.\n\nFew people get to build and scale an AI company in a new market from the start, with a funded product and team behind them. That is the opportunity here: take France from first pilots to its leading contractors and developers, with responsibility, compensation and equity that grow as the market does. If you would rather go deep than broad, the path also runs inward to core AI, evals and platform engineering.\n\nSnapshot\n\nLocation\n\nRemote in France, with regular time on site at customers. You start with onboarding at our HQ in Stockholm alongside the team, then come back regularly. Travel and accommodation are covered.\n\nStart\n\nFirst half of 2027, about three months into our launch in France. Part-time to start (or a similar flexible setup), with the aim of going full-time as the market grows.\n\nLevel\n\nMid to senior. We care more about what you’ve built, on site or in code, than about years.\n\nComp\n\nCompetitive salary and equity — you’re early enough for it to matter.\n\n# \n\nIngénieur Construction déployé chez le client (H/F)\n\n#### **_Temps partiel · Télétravail en France (intégration à Stockholm) · Construction × IA_**\n\nCeci est la version française de l’offre. L’anglais est indispensable pour ce poste : c’est notre langue de travail dans toute l’entreprise.\n\n# À propos de Brickanta\n\nBrickanta est la plateforme agentique AI-native dédiée à la construction. Des centaines d’agents IA prennent en charge le gros du travail administratif sur les appels d’offres, les achats, la conformité et la qualité, pour que les entreprises du BTP livrent leurs projets dans les délais et dans le budget.\n\nNous sommes soutenus par Y Combinator, avons levé plus de 8 millions de dollars auprès de Northzone, d’Anton Osika et de Mario Götze, et travaillons déjà avec certaines des plus grandes entreprises de construction et certains des plus grands promoteurs du secteur. Nous sommes une jeune équipe en forte croissance, qui fonctionne comme une équipe sportive de haut niveau : liberté maximale et responsabilité maximale. Chacun est maître de son travail, documente ce qui compte, et l’on gagne et l’on perd en équipe.\n\nAprès avoir construit la plateforme avec des entreprises du BTP des pays nordiques, nous la déployons désormais en Europe. La France fait partie de nos premiers marchés, et ce poste est l’un de nos premiers recrutements sur place.\n\n# Le poste\n\nLa plupart des projets d’IA en entreprise meurent au stade de la preuve de concept. Le forward deployed engineering est notre façon de l’éviter : vous travaillez au cœur des processus du client — sur le chantier, au service études de prix, dans le processus achats — et vous construisez jusqu’à ce que le travail se fasse réellement autrement.\n\nSur un nouveau marché, cela veut aussi dire apprendre à nos agents comment on construit ici. Une réponse peut sembler plausible et pourtant être fausse là où cela compte sur un vrai projet : une clause du CCAP mal interprétée, une quantité qui ne correspond pas à la DPGF, une exigence d’un DTU passée inaperçue. Votre rôle est de le repérer et de transformer ce jugement en évaluations (evals) que nos systèmes peuvent mesurer.\n\nCe n’est pas du conseil, et ce n’est pas un poste de démo. Vous livrez du produit : vous prenez un vrai goulot d’étranglement chez une vraie entreprise de construction, vous construisez le workflow d’agents qui le supprime, vous prouvez le résultat en chiffres et vous rapportez ce que vous avez appris dans la plateforme.\n\n# Vos responsabilités\n\n#### **_Déploiements_**\n\nVous prenez en charge des comptes clients en France de bout en bout : comprendre leur workflow, configurer et étendre nos agents sur leurs vrais documents et données, et les faire entrer dans l’usage quotidien.\n\n#### **_Évaluation et vérité terrain_**\n\nVous testez nos agents sur de vrais workflows français et jugez les résultats sur leur exactitude, leur exhaustivité et leur utilité concrète, pas sur leur capacité à paraître convaincants. Vous transformez les cas limites et les erreurs en production en evals reproductibles : réponses de référence, grilles de notation, taxonomies d’erreurs et jeux de données validés par des experts.\n\n#### **_Construire sur le terrain_**\n\nVous écrivez du code. Intégrations, pipelines de données, prompts, frameworks d’évaluation, évaluateurs automatiques et parfois une fonctionnalité entièrement nouvelle : tout ce qu’il faut pour que le workflow fonctionne chez ce client. Vous identifiez ce qui demande un jugement humain, puis vous automatisez le reste.\n\n#### **_Des résultats mesurables_**\n\nVous définissez ce que signifie le succès avant de commencer, puis vous le prouvez : heures gagnées, appels d’offres remportés, risques détectés. Des résultats mesurables plutôt que des jalons techniques.\n\n#### **_Nourrir le produit_**\n\nVous captez ce qui n’apparaît qu’en production ici, des DCE et des DPGF à la façon dont se passent vraiment les appels d’offres et les achats, et vous le transformez en jeux de données, en briques réutilisables et en roadmap. Chaque déploiement en France doit rendre le suivant plus rapide.\n\n# Le profil recherché\n\nUne combinaison de connaissance du BTP, de profondeur technique et de goût pour le travail avec les clients. Un profil atypique compte plus qu’un CV parfait.\n\n#### **_Parcours_**\n\n* Une vraie expérience du BTP en France : chantier, conduite de travaux, études de prix, métrés, achats ou qualité.\n* De l’expérience dans le développement et la mise en production de logiciels (Python et/ou TypeScript, API, pipelines de données, SQL), ou les bases et l’envie d’y arriver vite.\n* De solides capacités d’analyse et un réel intérêt pour les systèmes d’IA modernes. Nous fonctionnons comme une entreprise AI-first.\n* De l’expérience en relation directe avec des clients, ou une vraie envie de le faire.\n* Anglais courant, car c’est notre langue de travail, et français natif ou équivalent. Le suédois n’est pas nécessaire.\n\n#### **_État d’esprit_**\n\n* Vous allez là où le travail se fait — visites de chantier, services études, réunions achats — au lieu de deviner depuis un backlog.\n* Un grand souci du détail : vous traitez de nombreux cas sans laisser baisser le niveau d’exigence.\n* La curiosité de comprendre pourquoi les systèmes échouent, pas seulement s’ils échouent.\n* Un fort sens des responsabilités : vous trouvez le problème, construisez la solution et la suivez jusqu’en production.\n* Vous écrivez clairement. Chez Brickanta, l’écrit crée de la clarté et tout ce qui est important est documenté, ce qui compte encore plus quand l’équipe est dans un autre pays.\n* À l’aise avec l’ambiguïté et avec le fait d’être la seule personne technique dans la salle.\n\n# Perspectives d’évolution\n\nCe poste est conçu pour grandir avec le marché français. Vous arrivez à temps partiel environ trois mois après le début de notre lancement en France, au moment où les premiers clients démarrent, avec l’objectif de passer à temps plein à mesure que le marché se développe. Le rôle évolue ensuite avec lui : vous menez d’abord vous-même les premiers déploiements, puis vous recrutez et dirigez une équipe forward deployed en France et, à terme, vous portez la présence technique de Brickanta dans le pays avec notre responsable commercial local.\n\nRares sont celles et ceux qui peuvent construire et faire grandir une entreprise d’IA sur un nouveau marché dès le départ, avec un produit financé et une équipe derrière eux. C’est l’opportunité ici : faire passer la France des premiers pilotes aux plus grandes entreprises du BTP et aux principaux promoteurs du pays, avec des responsabilités, une rémunération et une part du capital qui grandissent avec le marché. Si vous préférez la profondeur à l’étendue, le chemin mène aussi vers le cœur du produit : IA, evals et ingénierie de plateforme.\n\nEn bref\n\nLieu\n\nTélétravail depuis la France, avec du temps sur le terrain chez les clients. Vous commencez par une intégration à notre siège de Stockholm aux côtés de l’équipe, puis vous y revenez régulièrement. Voyage et hébergement pris en charge.\n\nDémarrage\n\nPremier semestre 2027, environ trois mois après le début de notre lancement en France. Temps partiel au départ (ou une formule souple équivalente), avec l’objectif de passer à temps plein à mesure que le marché se développe.\n\nNiveau\n\nConfirmé à senior. Ce que vous avez construit, sur le chantier ou dans le code, compte plus que les années d’expérience.\n\nRémunération\n\nSalaire compétitif et participation au capital — vous arrivez assez tôt pour que cela compte. fulltime none\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 6.43,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.94,
+            "overlap": 14.57,
+            "combined": 6.43
+          },
+          "backend": {
+            "cosine": 2.8,
+            "overlap": 15.79,
+            "combined": 6.7
+          },
+          "frontend": {
+            "cosine": 2.7,
+            "overlap": 18.45,
+            "combined": 7.43
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 2.94,
+        "keyword_overlap_score": 14.57,
+        "final_score": 6.43,
+        "top_keywords": [
+          {
+            "term": "agents",
+            "weight": 0.0513
+          },
+          {
+            "term": "ai",
+            "weight": 0.0513
+          },
+          {
+            "term": "team",
+            "weight": 0.0493
+          },
+          {
+            "term": "time",
+            "weight": 0.0373
+          },
+          {
+            "term": "production",
+            "weight": 0.0326
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f5a58aae5b7799e0872133bc3d959b40",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Forward Deployed Construction Engineer",
+      "url": "https://www.workatastartup.com/jobs/118816",
+      "jd_text": "#### **_Ingeniero/a de Construcción desplegado/a en cliente_**\n\n#### **_Part-time to start · Remote, Spain (onboarding in Stockholm) · Construction × AI_**\n\nFluent English is required for this role: it’s our working language across the company. Versión en español al final del documento.\n\n# About Brickanta\n\nBrickanta is the AI-native agentic platform for construction. Hundreds of AI agents take on the administrative heavy lifting across bidding, procurement, compliance and quality assurance, so builders finish projects on time and on budget.\n\nWe’re backed by Y Combinator, have raised over $8M from Northzone, Anton Osika and Mario Götze, and already work with some of the largest contractors and developers in the industry. We’re an early team and growing fast, operating like an elite sports team: maximum freedom paired with maximum responsibility. You own your work, you document what matters, and you win and lose as a team.\n\nHaving built the platform with builders in the Nordics, we’re now taking it across Europe. Spain is one of our first markets, and this is one of our first roles on the ground.\n\n# The role\n\nMost enterprise AI dies in the proof of concept. Forward deployed engineering is how we avoid that: you sit inside the customer’s workflow — on site, in the bid room, in the procurement process — and build until the work actually gets done differently.\n\nIn a new market, that also means teaching our agents how construction works here. An answer can look plausible and still be wrong in the way that matters on a real project: a clause in the tender specifications (pliegos) read the wrong way, a measurement that doesn’t match the budget, a building code (CTE) requirement that gets missed. Your job is to spot that and turn the judgment into evals our systems can measure.\n\nThis is not consulting and it is not a demo role. You ship product: take a real bottleneck at a real contractor, build the agent workflow that removes it, prove the outcome in numbers, and bring what you learned back into the core platform.\n\n# What you’ll own\n\n#### **_Deployments_**\n\nOwn named accounts in Spain end to end: understand the workflow, configure and extend our agents against their real documents and data, and get them into daily use.\n\n#### **_Evaluation and ground truth_**\n\nRun our agents against real Spanish workflows and judge the outputs on correctness, completeness and practical usefulness, not on whether they sound convincing. Turn edge cases and production failures into repeatable evals: reference outputs, scoring rubrics, failure taxonomies and expert-reviewed datasets.\n\n#### **_Building in the field_**\n\nWrite code. Integrations, data pipelines, prompts, eval harnesses, automated graders and occasionally a whole new feature: whatever it takes to make the workflow work at that customer. Work out what needs human judgment, then engineer the rest away.\n\n#### **_Measurable outcomes_**\n\nDefine what success means before you start, then prove it: hours saved, bids won, risks caught. Measurable results rather than technical milestones.\n\n#### **_Feeding the product_**\n\nCapture what only shows up in production here, from pliegos and mediciones to how tendering and procurement really run, and turn it into datasets, reusable building blocks and roadmap. Each deployment in Spain should make the next one faster.\n\n# Who we’re looking for\n\nSome combination of construction depth, technical depth and a liking for customers. The unusual profile matters more than the perfect CV.\n\n#### **_Background_**\n\n* Real exposure to construction in Spain: site work, site management (jefatura de obra), estimating and bids, measurements (mediciones), procurement or quality.\n* Experience building and shipping software (Python and/or TypeScript, APIs, data pipelines, SQL), or the raw ingredients and the drive to get there quickly.\n* Strong analytical ability and a serious interest in modern AI systems. We operate as an AI-first company.\n* Experience working directly with customers, or a clear appetite for it.\n* Fluent English, since it’s our working language, and native or near-native Spanish. No Swedish needed.\n\n#### **_Mindset_**\n\n* You go to where the work happens — site visits, bid rooms, procurement meetings — instead of guessing from a backlog.\n* Extremely detail-oriented: you work through many cases without letting the quality bar drift.\n* Curious about why systems fail, not just whether they fail.\n* High ownership: you find the problem, build the fix and follow it into production.\n* You write clearly. At Brickanta, writing creates clarity and everything important gets documented, which matters even more when the team is in another country.\n* Comfortable with ambiguity and with being the only engineer in the room.\n\n# Growth path\n\nThis seat is built to grow with the Spanish market. You join part-time about three months into our launch in Spain, as the first customers go live, with the aim of going full-time as the market grows. From there the role grows with it: running the first deployments yourself, then hiring and leading a forward deployed team in Spain, and over time owning Brickanta’s technical presence in the country alongside our local commercial lead.\n\nFew people get to build and scale an AI company in a new market from the start, with a funded product and team behind them. That is the opportunity here: take Spain from first pilots to its leading contractors and developers, with responsibility, compensation and equity that grow as the market does. If you would rather go deep than broad, the path also runs inward to core AI, evals and platform engineering.\n\nSnapshot\n\nLocation\n\nRemote in Spain, with regular time on site at customers. You start with onboarding at our HQ in Stockholm alongside the team, then come back regularly. Travel and accommodation are covered.\n\nStart\n\nFirst half of 2027, about three months into our launch in Spain. Part-time to start (or a similar flexible setup), with the aim of going full-time as the market grows.\n\nLevel\n\nMid to senior. We care more about what you’ve built, on site or in code, than about years.\n\nComp\n\nCompetitive salary and equity — you’re early enough for it to matter.\n\n#### **_Tiempo parcial · Remoto en España (incorporación en Estocolmo) · Construcción × IA_**\n\nEsta es la versión en español de la oferta. El inglés es imprescindible para el puesto: es nuestro idioma de trabajo en toda la empresa.\n\n# Sobre Brickanta\n\nBrickanta es la plataforma agéntica nativa en IA para la construcción. Cientos de agentes de IA se encargan del trabajo administrativo más pesado en licitaciones, compras, cumplimiento normativo y control de calidad, para que las constructoras terminen sus obras a tiempo y dentro del presupuesto.\n\nEstamos respaldados por Y Combinator, hemos levantado más de 8 millones de dólares de Northzone, Anton Osika y Mario Götze, y ya trabajamos con algunas de las mayores constructoras y promotoras del sector. Somos un equipo joven que crece rápido y funciona como un equipo deportivo de élite: máxima libertad y máxima responsabilidad. Cada persona es dueña de su trabajo, documenta lo que importa, y ganamos y perdemos como equipo.\n\nTras construir la plataforma con constructoras de los países nórdicos, ahora la llevamos al resto de Europa. España es uno de nuestros primeros mercados, y este es uno de nuestros primeros puestos sobre el terreno.\n\n# El puesto\n\nLa mayoría de los proyectos de IA en empresas mueren en la prueba de concepto. El forward deployed engineering es nuestra forma de evitarlo: trabajas dentro del flujo de trabajo del cliente —en obra, en el departamento de estudios, en el proceso de compras— y construyes hasta que el trabajo de verdad se haga de otra manera.\n\nEn un mercado nuevo, eso también significa enseñar a nuestros agentes cómo se construye aquí. Una respuesta puede parecer plausible y aun así fallar justo en lo que importa en una obra real: una cláusula del pliego mal interpretada, una medición que no cuadra con el presupuesto, un requisito del CTE que se pasa por alto. Tu trabajo es detectarlo y convertir ese criterio en evaluaciones (evals) que nuestros sistemas puedan medir.\n\nEsto no es consultoría ni un puesto de demos. Entregas producto: tomas un cuello de botella real en una constructora real, construyes el flujo de agentes que lo elimina, demuestras el resultado con números y llevas lo aprendido de vuelta a la plataforma.\n\n# De qué te encargarás\n\n#### **_Despliegues_**\n\nTe encargas de cuentas concretas en España de principio a fin: entiendes el flujo de trabajo, configuras y amplías nuestros agentes con sus documentos y datos reales, y consigues que se usen a diario.\n\n#### **_Evaluación y datos de referencia_**\n\nPones a prueba nuestros agentes con flujos de trabajo reales de España y juzgas los resultados por su exactitud, si están completos y su utilidad práctica, no por lo convincentes que suenen. Conviertes casos límite y fallos en producción en evals repetibles: respuestas de referencia, rúbricas de puntuación, taxonomías de fallos y datasets revisados por expertos.\n\n#### **_Construir sobre el terreno_**\n\nEscribes código. Integraciones, pipelines de datos, prompts, entornos de evaluación, evaluadores automáticos y, de vez en cuando, una funcionalidad completamente nueva: lo que haga falta para que el flujo funcione en ese cliente. Entiendes qué necesita criterio humano y automatizas el resto.\n\n#### **_Resultados medibles_**\n\nDefines qué significa el éxito antes de empezar y luego lo demuestras: horas ahorradas, ofertas ganadas, riesgos detectados. Resultados medibles, no hitos técnicos.\n\n#### **_Alimentar el producto_**\n\nRecoges lo que solo aparece en producción aquí, de los pliegos y las mediciones a cómo funcionan de verdad las licitaciones y las compras, y lo conviertes en datasets, componentes reutilizables y roadmap. Cada despliegue en España debería hacer más rápido el siguiente.\n\n# A quién buscamos\n\nUna combinación de conocimiento de construcción, profundidad técnica y gusto por trabajar con clientes. El perfil poco habitual importa más que el currículum perfecto.\n\n#### **_Experiencia_**\n\n* Experiencia real en construcción en España: obra, jefatura de obra, estudios y ofertas, mediciones, compras o calidad.\n* Experiencia desarrollando y poniendo en producción software (Python y/o TypeScript, APIs, pipelines de datos, SQL), o la base y las ganas de llegar ahí rápido.\n* Gran capacidad analítica y un interés serio por los sistemas de IA modernos. Funcionamos como una empresa AI-first.\n* Experiencia trabajando directamente con clientes, o ganas claras de hacerlo.\n* Inglés fluido, porque es nuestro idioma de trabajo, y español nativo o equivalente. No hace falta saber sueco.\n\n#### **_Mentalidad_**\n\n* Vas a donde ocurre el trabajo —visitas a obra, departamentos de estudios, reuniones de compras— en lugar de adivinar desde un backlog.\n* Muy detallista: revisas muchos casos sin que baje el listón de calidad.\n* Te interesa por qué fallan los sistemas, no solo si fallan.\n* Ownership de verdad: encuentras el problema, construyes la solución y la acompañas hasta producción.\n* Escribes con claridad. En Brickanta, escribir aporta claridad y todo lo importante se documenta, algo que pesa todavía más cuando el equipo está en otro país.\n* Te manejas bien con la ambigüedad y con ser la única persona de ingeniería en la sala.\n\n# Desarrollo profesional\n\nEste puesto está pensado para crecer con el mercado español. Te incorporas a tiempo parcial unos tres meses después del arranque de nuestro lanzamiento en España, cuando los primeros clientes empiezan a usar la plataforma, con la idea de pasar a jornada completa a medida que crezca el mercado. A partir de ahí, el puesto crece con él: primero llevas tú los primeros despliegues, después contratas y lideras un equipo forward deployed en España y, con el tiempo, te haces cargo de la presencia técnica de Brickanta en el país junto a nuestro responsable comercial local.\n\nPocas personas tienen la oportunidad de construir y escalar una empresa de IA en un mercado nuevo desde el principio, con un producto financiado y un equipo detrás. Esa es la oportunidad: llevar España de los primeros pilotos a las principales constructoras y promotoras del país, con una responsabilidad, una retribución y un equity que crecen al ritmo del mercado. Si prefieres profundizar en lugar de abarcar más, el camino también lleva hacia dentro: IA, evals e ingeniería de plataforma en el núcleo del producto.\n\n**En resumen**\n\n**Ubicación**\n\nEn remoto desde España, con tiempo en obra con los clientes. Empiezas con una incorporación en nuestra sede de Estocolmo junto al equipo y vuelves con regularidad. Viaje y alojamiento cubiertos.\n\n**Incorporación**\n\nPrimer semestre de 2027, unos tres meses después del arranque en España. A tiempo parcial al principio (o un formato flexible similar), con la idea de pasar a jornada completa a medida que crezca el mercado.\n\n**Nivel**\n\nMedio a sénior. Nos importa más lo que has construido, en obra o en código, que los años.\n\n**Retribución**\n\nSalario competitivo y equity: llegas lo bastante pronto como para que importe. fulltime none\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 6.12,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.06,
+            "overlap": 13.25,
+            "combined": 6.12
+          },
+          "backend": {
+            "cosine": 2.92,
+            "overlap": 13.91,
+            "combined": 6.21
+          },
+          "frontend": {
+            "cosine": 2.89,
+            "overlap": 16.5,
+            "combined": 6.97
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.06,
+        "keyword_overlap_score": 13.25,
+        "final_score": 6.12,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.0614
+          },
+          {
+            "term": "real",
+            "weight": 0.0581
+          },
+          {
+            "term": "ai",
+            "weight": 0.0568
+          },
+          {
+            "term": "time",
+            "weight": 0.0465
+          },
+          {
+            "term": "deployed",
+            "weight": 0.029
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "82307164e4e6c0c1b8f2bbcc22dc51fd",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Forward Deployed Construction Engineer",
+      "url": "https://www.workatastartup.com/jobs/118814",
+      "jd_text": "#### **_Part-time to start · Remote, UK (onboarding in Stockholm) · Construction × AI_**\n\n# About Brickanta\n\nBrickanta is the AI-native agentic platform for construction. Hundreds of AI agents take on the administrative heavy lifting across bidding, procurement, compliance and quality assurance, so builders finish projects on time and on budget.\n\nWe’re backed by Y Combinator, have raised over $8M from Northzone, Anton Osika and Mario Götze, and already work with some of the largest contractors and developers in the industry. We’re an early team and growing fast, operating like an elite sports team: maximum freedom paired with maximum responsibility. You own your work, you document what matters, and you win and lose as a team.\n\nHaving built the platform with builders in the Nordics, we’re now taking it across Europe. The UK is one of our first markets, and this is one of our first roles on the ground.\n\n# The role\n\nMost enterprise AI dies in the proof of concept. Forward deployed engineering is how we avoid that: you sit inside the customer’s workflow — on site, in the bid room, in the procurement process — and build until the work actually gets done differently.\n\nIn a new market, that also means teaching our agents how construction works here. An answer can look plausible and still be wrong in the way that matters on a real project: a JCT or NEC clause read the wrong way, a quantity that doesn’t match the bill of quantities, a requirement that misses the Building Safety Act. Your job is to spot that and turn the judgement into evals our systems can measure.\n\nThis is not consulting and it is not a demo role. You ship product: take a real bottleneck at a real contractor, build the agent workflow that removes it, prove the outcome in numbers, and bring what you learned back into the core platform.\n\n# What you’ll own\n\n#### **_Deployments_**\n\nOwn named UK accounts end to end: understand the workflow, configure and extend our agents against their real documents and data, and get them into daily use.\n\n#### **_Evaluation and ground truth_**\n\nRun our agents against real UK workflows and judge the outputs on correctness, completeness and practical usefulness, not on whether they sound convincing. Turn edge cases and production failures into repeatable evals: reference outputs, scoring rubrics, failure taxonomies and expert-reviewed datasets.\n\n#### **_Building in the field_**\n\nWrite code. Integrations, data pipelines, prompts, eval harnesses, automated graders and occasionally a whole new feature: whatever it takes to make the workflow work at that customer. Work out what needs human judgement, then engineer the rest away.\n\n#### **_Measurable outcomes_**\n\nDefine what success means before you start, then prove it: hours saved, bids won, risks caught. Measurable results rather than technical milestones.\n\n#### **_Feeding the product_**\n\nCapture what only shows up in production here, from contract forms and measurement rules to how tendering and procurement really run, and turn it into datasets, reusable building blocks and roadmap. Each UK deployment should make the next one faster.\n\n# Who we’re looking for\n\nSome combination of construction depth, technical depth and a liking for customers. The unusual profile matters more than the perfect CV.\n\n#### **_Background_**\n\n* Real exposure to UK construction: site, project management, estimating, quantity surveying, bidding or procurement.\n* Experience building and shipping software (Python and/or TypeScript, APIs, data pipelines, SQL), or the raw ingredients and the drive to get there quickly.\n* Strong analytical ability and a serious interest in modern AI systems. We operate as an AI-first company.\n* Experience working directly with customers, or a clear appetite for it.\n* Excellent written and spoken English. No Swedish needed.\n\n#### **_Mindset_**\n\n* You go to where the work happens — site visits, bid rooms, procurement meetings — instead of guessing from a backlog.\n* Extremely detail-oriented: you work through many cases without letting the quality bar drift.\n* Curious about why systems fail, not just whether they fail.\n* High ownership: you find the problem, build the fix and follow it into production.\n* You write clearly. At Brickanta, writing creates clarity and everything important gets documented, which matters even more when the team is in another country.\n* Comfortable with ambiguity and with being the only engineer in the room.\n\n# Growth path\n\nThis seat is built to grow with the UK market. You join part-time about three months into our UK launch, as the first customers go live, with the aim of going full-time as the market grows. From there the role grows with it: running the first deployments yourself, then hiring and leading a UK forward deployed team, and over time owning Brickanta’s technical presence in the country alongside our local commercial lead.\n\nFew people get to build and scale an AI company in a new market from the start, with a funded product and team behind them. That is the opportunity here: take the UK from first pilots to its leading contractors and developers, with responsibility, compensation and equity that grow as the market does. If you would rather go deep than broad, the path also runs inward to core AI, evals and platform engineering.\n\n**Snapshot**\n\n**Location**\n\nRemote in the UK, with regular time on site at customers. You start with onboarding at our HQ in Stockholm alongside the team, then come back regularly. Travel and accommodation are covered.\n\n**Start**\n\nFirst half of 2027, about three months into our UK launch. Part-time to start (or a similar flexible setup), with the aim of going full-time as the market grows.\n\n**Level**\n\nMid to senior. We care more about what you’ve built, on site or in code, than about years.\n\n**Comp**\n\nCompetitive salary and equity — you’re early enough for it to matter. fulltime yes\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 9.25,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.4,
+            "overlap": 13.58,
+            "combined": 9.25
+          },
+          "backend": {
+            "cosine": 6.92,
+            "overlap": 14.29,
+            "combined": 9.13
+          },
+          "frontend": {
+            "cosine": 6.93,
+            "overlap": 16.99,
+            "combined": 9.95
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.4,
+        "keyword_overlap_score": 13.58,
+        "final_score": 9.25,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1703
+          },
+          {
+            "term": "ai",
+            "weight": 0.1379
+          },
+          {
+            "term": "time",
+            "weight": 0.1289
+          },
+          {
+            "term": "real",
+            "weight": 0.0966
+          },
+          {
+            "term": "agents",
+            "weight": 0.0788
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0abd575ccaa722b812bd43387b7f5522",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Forward Deployed Construction Engineer",
+      "url": "https://www.workatastartup.com/jobs/118818",
+      "jd_text": "#### **_Bauingenieur im Kundeneinsatz (m/w/d)_**\n\n#### **_Part-time to start · Remote, Germany (onboarding in Stockholm) · Construction × AI_**\n\nFluent English is required for this role: it’s our working language across the company. Deutsche Fassung am Ende des Dokuments.\n\n# About Brickanta\n\nBrickanta is the AI-native agentic platform for construction. Hundreds of AI agents take on the administrative heavy lifting across bidding, procurement, compliance and quality assurance, so builders finish projects on time and on budget.\n\nWe’re backed by Y Combinator, have raised over $8M from Northzone, Anton Osika and Mario Götze, and already work with some of the largest contractors and developers in the industry. We’re an early team and growing fast, operating like an elite sports team: maximum freedom paired with maximum responsibility. You own your work, you document what matters, and you win and lose as a team.\n\nHaving built the platform with builders in the Nordics, we’re now taking it across Europe. Germany is one of our first markets, and this is one of our first roles on the ground.\n\n# The role\n\nMost enterprise AI dies in the proof of concept. Forward deployed engineering is how we avoid that: you sit inside the customer’s workflow — on site, in the bid room, in the procurement process — and build until the work actually gets done differently.\n\nIn a new market, that also means teaching our agents how construction works here. An answer can look plausible and still be wrong in the way that matters on a real project: a clause read the wrong way under VOB/B, a quantity that doesn’t match the Leistungsverzeichnis, a DIN requirement that gets missed. Your job is to spot that and turn the judgment into evals our systems can measure.\n\nThis is not consulting and it is not a demo role. You ship product: take a real bottleneck at a real contractor, build the agent workflow that removes it, prove the outcome in numbers, and bring what you learned back into the core platform.\n\n# What you’ll own\n\n#### **_Deployments_**\n\nOwn named accounts in Germany end to end: understand the workflow, configure and extend our agents against their real documents and data, and get them into daily use.\n\n#### **_Evaluation and ground truth_**\n\nRun our agents against real German workflows and judge the outputs on correctness, completeness and practical usefulness, not on whether they sound convincing. Turn edge cases and production failures into repeatable evals: reference outputs, scoring rubrics, failure taxonomies and expert-reviewed datasets.\n\n#### **_Building in the field_**\n\nWrite code. Integrations, data pipelines, prompts, eval harnesses, automated graders and occasionally a whole new feature: whatever it takes to make the workflow work at that customer. Work out what needs human judgment, then engineer the rest away.\n\n#### **_Measurable outcomes_**\n\nDefine what success means before you start, then prove it: hours saved, bids won, risks caught. Measurable results rather than technical milestones.\n\n#### **_Feeding the product_**\n\nCapture what only shows up in production here, from Leistungsverzeichnisse and GAEB files to how tendering and procurement really run, and turn it into datasets, reusable building blocks and roadmap. Each deployment in Germany should make the next one faster.\n\n# Who we’re looking for\n\nSome combination of construction depth, technical depth and a liking for customers. The unusual profile matters more than the perfect CV.\n\n#### **_Background_**\n\n* Real exposure to construction in Germany: site work, site management (Bauleitung), estimating (Kalkulation), AVA, procurement or quality assurance.\n* Experience building and shipping software (Python and/or TypeScript, APIs, data pipelines, SQL), or the raw ingredients and the drive to get there quickly.\n* Strong analytical ability and a serious interest in modern AI systems. We operate as an AI-first company.\n* Experience working directly with customers, or a clear appetite for it.\n* Fluent English, since it’s our working language, and native or near-native German. No Swedish needed.\n\n#### **_Mindset_**\n\n* You go to where the work happens — site visits, bid rooms, procurement meetings — instead of guessing from a backlog.\n* Extremely detail-oriented: you work through many cases without letting the quality bar drift.\n* Curious about why systems fail, not just whether they fail.\n* High ownership: you find the problem, build the fix and follow it into production.\n* You write clearly. At Brickanta, writing creates clarity and everything important gets documented, which matters even more when the team is in another country.\n* Comfortable with ambiguity and with being the only engineer in the room.\n\n# Growth path\n\nThis seat is built to grow with the German market. You join part-time about three months into our launch in Germany, as the first customers go live, with the aim of going full-time as the market grows. From there the role grows with it: running the first deployments yourself, then hiring and leading a forward deployed team in Germany, and over time owning Brickanta’s technical presence in the country alongside our local commercial lead.\n\nFew people get to build and scale an AI company in a new market from the start, with a funded product and team behind them. That is the opportunity here: take Germany from first pilots to its leading contractors and developers, with responsibility, compensation and equity that grow as the market does. If you would rather go deep than broad, the path also runs inward to core AI, evals and platform engineering.\n\n**Snapshot**\n\n**Location**\n\nRemote in Germany, with regular time on site at customers. You start with onboarding at our HQ in Stockholm alongside the team, then come back regularly. Travel and accommodation are covered.\n\n**Start**\n\nFirst half of 2027, about three months into our launch in Germany. Part-time to start (or a similar flexible setup), with the aim of going full-time as the market grows.\n\n**Level**\n\nMid to senior. We care more about what you’ve built, on site or in code, than about years.\n\n**Comp**\n\nCompetitive salary and equity — you’re early enough for it to matter.\n\n# \n\nBauingenieur im Kundeneinsatz (m/w/d)\n\n#### **_Teilzeit zum Start · Remote in Deutschland (Onboarding in Stockholm) · Bau × KI_**\n\nDies ist die deutsche Fassung der Stellenanzeige. Englisch ist für die Rolle Voraussetzung, denn es ist unsere Arbeitssprache im ganzen Unternehmen.\n\n# Über Brickanta\n\nBrickanta ist die KI-native Agenten-Plattform für die Bauwirtschaft. Hunderte KI-Agenten übernehmen die administrative Schwerarbeit in Angebotsbearbeitung, Einkauf, Compliance und Qualitätssicherung, damit Bauunternehmen ihre Projekte termin- und budgetgerecht abschließen.\n\nWir werden von Y Combinator unterstützt, haben über 8 Mio. US-Dollar von Northzone, Anton Osika und Mario Götze eingesammelt und arbeiten bereits mit einigen der größten Bauunternehmen und Projektentwickler der Branche. Wir sind ein junges Team, wachsen schnell und arbeiten wie ein Spitzensportteam: maximale Freiheit bei maximaler Verantwortung. Du verantwortest deine Arbeit, dokumentierst, was wichtig ist, und wir gewinnen und verlieren als Team.\n\nNachdem wir die Plattform gemeinsam mit Bauunternehmen in den nordischen Ländern aufgebaut haben, bringen wir sie jetzt nach ganz Europa. Deutschland gehört zu unseren ersten Märkten, und diese Stelle ist eine unserer ersten vor Ort.\n\n# Die Rolle\n\nDie meisten KI-Projekte in Unternehmen scheitern im Proof of Concept. Forward Deployed Engineering ist unser Weg, das zu verhindern: Du arbeitest mitten im Workflow des Kunden – auf der Baustelle, in der Kalkulation, im Einkauf – und baust so lange, bis die Arbeit wirklich anders erledigt wird.\n\nIn einem neuen Markt heißt das auch, unseren Agenten beizubringen, wie hier gebaut wird. Eine Antwort kann plausibel aussehen und trotzdem genau dort falsch sein, wo es in einem echten Projekt darauf ankommt: eine Klausel, die nach VOB/B falsch gelesen wird, eine Menge, die nicht zum Leistungsverzeichnis passt, eine übersehene DIN-Anforderung. Deine Aufgabe ist es, das zu erkennen und dieses Urteil in Evals zu übersetzen, die unsere Systeme messen können.\n\nDas ist keine Beratung und keine Demo-Rolle. Du lieferst Produkt: Du nimmst einen echten Engpass bei einem echten Bauunternehmen, baust den Agenten-Workflow, der ihn beseitigt, belegst das Ergebnis mit Zahlen und bringst das Gelernte zurück in die Plattform.\n\n# Was du verantwortest\n\n#### **_Deployments_**\n\nDu betreust feste Kunden in Deutschland von Anfang bis Ende: Du verstehst den Workflow, konfigurierst und erweiterst unsere Agenten mit ihren echten Dokumenten und Daten und bringst sie in den täglichen Einsatz.\n\n#### **_Evaluation und Ground Truth_**\n\nDu testest unsere Agenten an echten deutschen Workflows und bewertest die Ergebnisse nach Richtigkeit, Vollständigkeit und praktischem Nutzen, nicht danach, wie überzeugend sie klingen. Grenzfälle und Fehler aus dem Produktivbetrieb machst du zu wiederholbaren Evals: Referenzantworten, Bewertungsraster, Fehlertaxonomien und von Fachleuten geprüfte Datensätze.\n\n#### **_Entwickeln vor Ort_**\n\nDu schreibst Code. Integrationen, Datenpipelines, Prompts, Eval-Harnesses, automatisierte Grader und gelegentlich ein ganz neues Feature: alles, was nötig ist, damit der Workflow bei diesem Kunden funktioniert. Du findest heraus, was menschliches Urteil braucht, und automatisierst den Rest.\n\n#### **_Messbare Ergebnisse_**\n\nDu legst vor dem Start fest, was Erfolg bedeutet, und belegst ihn dann: eingesparte Stunden, gewonnene Angebote, erkannte Risiken. Messbare Ergebnisse statt technischer Meilensteine.\n\n#### **_Wissen zurück ins Produkt_**\n\nDu hältst fest, was erst im Produktivbetrieb sichtbar wird, von Leistungsverzeichnissen und GAEB-Dateien bis dazu, wie Ausschreibung, Vergabe und Einkauf wirklich laufen, und machst daraus Datensätze, wiederverwendbare Bausteine und Roadmap. Jedes Deployment in Deutschland soll das nächste schneller machen.\n\n# Wen wir suchen\n\nEine Kombination aus Baukompetenz, technischer Tiefe und Freude an der Arbeit mit Kunden. Das ungewöhnliche Profil zählt mehr als der perfekte Lebenslauf.\n\n#### **_Hintergrund_**\n\n* Echte Erfahrung in der deutschen Bauwirtschaft: Baustelle, Bauleitung, Kalkulation, AVA, Einkauf oder Qualitätssicherung.\n* Erfahrung im Entwickeln und Ausliefern von Software (Python und/oder TypeScript, APIs, Datenpipelines, SQL) oder die Grundlagen und den Antrieb, schnell dorthin zu kommen.\n* Starke analytische Fähigkeiten und echtes Interesse an modernen KI-Systemen. Wir arbeiten als AI-first-Unternehmen.\n* Erfahrung in der direkten Zusammenarbeit mit Kunden oder klare Lust darauf.\n* Fließendes Englisch, denn es ist unsere Arbeitssprache, und Deutsch auf Muttersprachniveau. Schwedisch brauchst du nicht.\n\n#### **_Mindset_**\n\n* Du gehst dorthin, wo die Arbeit passiert – Baustellenbesuche, Kalkulation, Einkaufsrunden –, statt aus einem Backlog heraus zu raten.\n* Extrem detailorientiert: Du arbeitest viele Fälle durch, ohne dass die Messlatte für Qualität sinkt.\n* Neugierig darauf, warum Systeme scheitern, nicht nur ob.\n* Hohe Eigenverantwortung: Du findest das Problem, baust die Lösung und begleitest sie bis in die Produktion.\n* Du schreibst klar. Bei Brickanta schafft Schreiben Klarheit, und alles Wichtige wird dokumentiert, was umso mehr zählt, wenn das Team in einem anderen Land sitzt.\n* Du kommst mit Unklarheit gut zurecht und damit, die einzige Person aus dem Engineering im Raum zu sein.\n\n# Entwicklungsperspektive\n\nDiese Rolle ist darauf ausgelegt, mit dem deutschen Markt zu wachsen. Du steigst etwa drei Monate nach dem Start unseres Markteintritts in Deutschland in Teilzeit ein, wenn die ersten Kunden live gehen, mit dem Ziel, auf Vollzeit aufzustocken, wenn der Markt wächst. Von dort wächst die Rolle mit: Zuerst führst du die ersten Deployments selbst durch, dann baust du ein Forward-Deployed-Team in Deutschland auf und führst es, und mit der Zeit verantwortest du gemeinsam mit unserem Commercial Lead vor Ort die technische Präsenz von Brickanta im Land.\n\nNur wenige bekommen die Chance, ein KI-Unternehmen in einem neuen Markt von Anfang an mit aufzubauen und zu skalieren, mit einem finanzierten Produkt und einem Team im Rücken. Genau das ist hier möglich: Deutschland von den ersten Piloten bis zu den führenden Bauunternehmen und Projektentwicklern des Landes zu bringen, mit Verantwortung, Vergütung und Beteiligung, die mit dem Markt wachsen. Wenn du lieber in die Tiefe als in die Breite gehst, führt der Weg auch nach innen: Core-AI, Evals und Plattform-Engineering.\n\n**Überblick**\n\n**Standort**\n\nRemote in Deutschland, mit regelmäßiger Zeit vor Ort bei Kunden. Du startest mit einem Onboarding im Headquarter in Stockholm, gemeinsam mit dem Team, und kommst danach regelmäßig wieder. Reise und Unterkunft übernehmen wir.\n\n**Start**\n\nErstes Halbjahr 2027, etwa drei Monate nach dem Start in Deutschland. Zunächst in Teilzeit (oder einem ähnlich flexiblen Modell), mit dem Ziel, auf Vollzeit aufzustocken, wenn der Markt wächst.\n\n**Level**\n\nMid bis Senior. Uns ist wichtiger, was du gebaut hast, auf der Baustelle oder im Code, als die Zahl der Jahre.\n\n**Vergütung**\n\nWettbewerbsfähiges Gehalt und Beteiligung – du bist früh genug dabei, dass es zählt. fulltime none\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 6.28,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.15,
+            "overlap": 13.58,
+            "combined": 6.28
+          },
+          "backend": {
+            "cosine": 2.82,
+            "overlap": 14.29,
+            "combined": 6.26
+          },
+          "frontend": {
+            "cosine": 2.67,
+            "overlap": 16.5,
+            "combined": 6.82
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.15,
+        "keyword_overlap_score": 13.58,
+        "final_score": 6.28,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1092
+          },
+          {
+            "term": "ai",
+            "weight": 0.0612
+          },
+          {
+            "term": "time",
+            "weight": 0.0445
+          },
+          {
+            "term": "real",
+            "weight": 0.0334
+          },
+          {
+            "term": "deployed",
+            "weight": 0.0278
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3b24d8b562355493bbfbc0e9de1f6276",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Forward Deployed Construction Engineer",
+      "url": "https://www.workatastartup.com/jobs/118819",
+      "jd_text": "#### **_Inżynier budownictwa ds. wdrożeń u klienta (K/M)_**\n\n#### **_Part-time to start · Remote, Poland (onboarding in Stockholm) · Construction × AI_**\n\nFluent English is required for this role: it’s our working language across the company. Wersja polska na końcu dokumentu.\n\n# About Brickanta\n\nBrickanta is the AI-native agentic platform for construction. Hundreds of AI agents take on the administrative heavy lifting across bidding, procurement, compliance and quality assurance, so builders finish projects on time and on budget.\n\nWe’re backed by Y Combinator, have raised over $8M from Northzone, Anton Osika and Mario Götze, and already work with some of the largest contractors and developers in the industry. We’re an early team and growing fast, operating like an elite sports team: maximum freedom paired with maximum responsibility. You own your work, you document what matters, and you win and lose as a team.\n\nHaving built the platform with builders in the Nordics, we’re now taking it across Europe. Poland is one of our first markets, and this is one of our first roles on the ground.\n\n# The role\n\nMost enterprise AI dies in the proof of concept. Forward deployed engineering is how we avoid that: you sit inside the customer’s workflow — on site, in the bid room, in the procurement process — and build until the work actually gets done differently.\n\nIn a new market, that also means teaching our agents how construction works here. An answer can look plausible and still be wrong in the way that matters on a real project: a FIDIC contract clause read the wrong way, a bill of quantities (przedmiar) that doesn’t match the cost estimate, a requirement in the tender specification (SWZ) that gets missed. Your job is to spot that and turn the judgment into evals our systems can measure.\n\nThis is not consulting and it is not a demo role. You ship product: take a real bottleneck at a real contractor, build the agent workflow that removes it, prove the outcome in numbers, and bring what you learned back into the core platform.\n\n# What you’ll own\n\n#### **_Deployments_**\n\nOwn named accounts in Poland end to end: understand the workflow, configure and extend our agents against their real documents and data, and get them into daily use.\n\n#### **_Evaluation and ground truth_**\n\nRun our agents against real Polish workflows and judge the outputs on correctness, completeness and practical usefulness, not on whether they sound convincing. Turn edge cases and production failures into repeatable evals: reference outputs, scoring rubrics, failure taxonomies and expert-reviewed datasets.\n\n#### **_Building in the field_**\n\nWrite code. Integrations, data pipelines, prompts, eval harnesses, automated graders and occasionally a whole new feature: whatever it takes to make the workflow work at that customer. Work out what needs human judgment, then engineer the rest away.\n\n#### **_Measurable outcomes_**\n\nDefine what success means before you start, then prove it: hours saved, bids won, risks caught. Measurable results rather than technical milestones.\n\n#### **_Feeding the product_**\n\nCapture what only shows up in production here, from SWZ documents and przedmiary to how tendering and procurement really run, and turn it into datasets, reusable building blocks and roadmap. Each deployment in Poland should make the next one faster.\n\n# Who we’re looking for\n\nSome combination of construction depth, technical depth and a liking for customers. The unusual profile matters more than the perfect CV.\n\n#### **_Background_**\n\n* Real exposure to construction in Poland: site work, site or works management, cost estimating (kosztorysowanie), tenders, procurement or quality control.\n* Experience building and shipping software (Python and/or TypeScript, APIs, data pipelines, SQL), or the raw ingredients and the drive to get there quickly.\n* Strong analytical ability and a serious interest in modern AI systems. We operate as an AI-first company.\n* Experience working directly with customers, or a clear appetite for it.\n* Fluent English, since it’s our working language, and native Polish. No Swedish needed.\n\n#### **_Mindset_**\n\n* You go to where the work happens — site visits, bid rooms, procurement meetings — instead of guessing from a backlog.\n* Extremely detail-oriented: you work through many cases without letting the quality bar drift.\n* Curious about why systems fail, not just whether they fail.\n* High ownership: you find the problem, build the fix and follow it into production.\n* You write clearly. At Brickanta, writing creates clarity and everything important gets documented, which matters even more when the team is in another country.\n* Comfortable with ambiguity and with being the only engineer in the room.\n\n# Growth path\n\nThis seat is built to grow with the Polish market. You join part-time about three months into our launch in Poland, as the first customers go live, with the aim of going full-time as the market grows. From there the role grows with it: running the first deployments yourself, then hiring and leading a forward deployed team in Poland, and over time owning Brickanta’s technical presence in the country alongside our local commercial lead.\n\nFew people get to build and scale an AI company in a new market from the start, with a funded product and team behind them. That is the opportunity here: take Poland from first pilots to its leading contractors and developers, with responsibility, compensation and equity that grow as the market does. If you would rather go deep than broad, the path also runs inward to core AI, evals and platform engineering.\n\n**Snapshot**\n\n**Location**\n\nRemote in Poland, with regular time on site at customers. You start with onboarding at our HQ in Stockholm alongside the team, then come back regularly. Travel and accommodation are covered.\n\n**Start**\n\nFirst half of 2027, about three months into our launch in Poland. Part-time to start (or a similar flexible setup), with the aim of going full-time as the market grows.\n\n**Level**\n\nMid to senior. We care more about what you’ve built, on site or in code, than about years.\n\n**Comp**\n\nCompetitive salary and equity — you’re early enough for it to matter.\n\nInżynier budownictwa ds. wdrożeń u klienta (K/M)\n\n#### **_Niepełny etat · Zdalnie z Polski (onboarding w Sztokholmie) · Budownictwo × AI_**\n\nTo polska wersja ogłoszenia. Angielski jest w tej roli niezbędny, bo to nasz język roboczy w całej firmie.\n\n# O firmie Brickanta\n\nBrickanta to agentowa platforma AI-native dla budownictwa. Setki agentów AI przejmują najcięższą część pracy administracyjnej przy ofertowaniu, zakupach, zgodności z przepisami i zapewnianiu jakości, dzięki czemu firmy budowlane kończą projekty na czas i w budżecie.\n\nWspiera nas Y Combinator, pozyskaliśmy ponad 8 mln USD od Northzone, Antona Osiki i Mario Götzego, a już dziś pracujemy z jednymi z największych wykonawców i deweloperów w branży. Jesteśmy młodym, szybko rosnącym zespołem i działamy jak drużyna sportowa na najwyższym poziomie: maksimum swobody i maksimum odpowiedzialności. Każdy odpowiada za swoją pracę, dokumentuje to, co ważne, a wygrywamy i przegrywamy jako zespół.\n\nPo zbudowaniu platformy razem z firmami budowlanymi w krajach nordyckich wprowadzamy ją teraz w całej Europie. Polska jest jednym z naszych pierwszych rynków, a to jedno z pierwszych stanowisk, które obsadzamy na miejscu.\n\n# Rola\n\nWiększość korporacyjnych projektów AI umiera na etapie proof of concept. Forward deployed engineering to nasz sposób, żeby tego uniknąć: pracujesz w samym środku procesów klienta – na budowie, w dziale ofertowania, w procesie zakupowym – i budujesz, dopóki praca naprawdę nie zacznie wyglądać inaczej.\n\nNa nowym rynku oznacza to też uczenie naszych agentów, jak się buduje tutaj. Odpowiedź może wyglądać wiarygodnie, a mimo to być błędna dokładnie tam, gdzie ma to znaczenie w prawdziwym projekcie: źle odczytana klauzula kontraktu FIDIC, przedmiar, który nie zgadza się z kosztorysem, pominięty wymóg z SWZ. Twoim zadaniem jest to wychwycić i zamienić tę ocenę w ewaluacje (evals), które nasze systemy potrafią mierzyć.\n\nTo nie jest doradztwo ani rola od demo. Dostarczasz produkt: bierzesz realne wąskie gardło w realnej firmie budowlanej, budujesz przepływ pracy agentów, który je usuwa, udowadniasz efekt liczbami i przenosisz zdobytą wiedzę z powrotem do platformy.\n\n# Za co odpowiadasz\n\n#### **_Wdrożenia_**\n\nOdpowiadasz za konkretnych klientów w Polsce od początku do końca: rozumiesz ich procesy, konfigurujesz i rozwijasz naszych agentów na ich prawdziwych dokumentach i danych, i sprawiasz, że korzystają z nich na co dzień.\n\n#### **_Ewaluacja i dane referencyjne_**\n\nTestujesz naszych agentów na prawdziwych polskich procesach i oceniasz wyniki pod kątem poprawności, kompletności i praktycznej użyteczności, a nie tego, jak przekonująco brzmią. Przypadki brzegowe i błędy z realnego użycia zamieniasz w powtarzalne evale: odpowiedzi wzorcowe, kryteria oceny, taksonomie błędów i zbiory danych zweryfikowane przez ekspertów.\n\n#### **_Budowanie w terenie_**\n\nPiszesz kod. Integracje, pipeline’y danych, prompty, środowiska ewaluacyjne, automatyczne systemy oceny, a czasem zupełnie nową funkcję – wszystko, czego trzeba, żeby proces działał u danego klienta. Rozumiesz, co wymaga ludzkiej oceny, a resztę automatyzujesz.\n\n#### **_Mierzalne efekty_**\n\nZanim zaczniesz, definiujesz, czym jest sukces, a potem go udowadniasz: zaoszczędzone godziny, wygrane przetargi, wychwycone ryzyka. Mierzalne wyniki zamiast technicznych kamieni milowych.\n\n#### **_Wiedza z powrotem do produktu_**\n\nZbierasz to, co wychodzi dopiero w realnym użyciu tutaj, od SWZ i przedmiarów po to, jak naprawdę wyglądają przetargi i zakupy, i zamieniasz to w zbiory danych, komponenty wielokrotnego użytku i roadmapę. Każde wdrożenie w Polsce powinno przyspieszać kolejne.\n\n# Kogo szukamy\n\nSzukamy połączenia znajomości budownictwa, głębi technicznej i chęci do pracy z klientami. Nietypowy profil liczy się bardziej niż idealne CV.\n\n#### **_Doświadczenie_**\n\n* Realne doświadczenie w budownictwie w Polsce: praca na budowie, kierowanie budową lub robotami, kosztorysowanie, przetargi, zakupy albo kontrola jakości.\n* Doświadczenie w tworzeniu i wdrażaniu oprogramowania (Python i/lub TypeScript, API, pipeline’y danych, SQL) albo solidne podstawy i determinacja, żeby szybko tam dojść.\n* Silne zdolności analityczne i poważne zainteresowanie nowoczesnymi systemami AI. Działamy jako firma AI-first.\n* Doświadczenie w bezpośredniej pracy z klientami albo wyraźna chęć do niej.\n* Biegły angielski, bo to nasz język roboczy, i polski na poziomie natywnym. Szwedzki nie jest potrzebny.\n\n#### **_Nastawienie_**\n\n* Idziesz tam, gdzie dzieje się praca – wizyty na budowie, dział ofert, spotkania zakupowe – zamiast zgadywać na podstawie backlogu.\n* Ogromna dbałość o szczegóły: przerabiasz wiele przypadków, nie obniżając poprzeczki jakości.\n* Ciekawość, dlaczego systemy zawodzą, a nie tylko czy zawodzą.\n* Wysokie poczucie odpowiedzialności: znajdujesz problem, budujesz rozwiązanie i doprowadzasz je do produkcji.\n* Piszesz jasno. W firmie Brickanta pisanie porządkuje myślenie, a wszystko, co ważne, jest dokumentowane, co ma jeszcze większe znaczenie, gdy zespół jest w innym kraju.\n* Dobrze odnajdujesz się w niejasnych sytuacjach i jako jedyna osoba techniczna w pokoju.\n\n# Ścieżka rozwoju\n\nTo stanowisko jest pomyślane tak, żeby rosło razem z polskim rynkiem. Dołączasz na niepełny etat mniej więcej trzy miesiące po starcie naszego wejścia do Polski, gdy pierwsi klienci zaczynają korzystać z platformy, z myślą o przejściu na pełny etat, gdy rynek urośnie. Od tego momentu rola rozwija się razem z nim: najpierw osobiście prowadzisz pierwsze wdrożenia, potem rekrutujesz i prowadzisz polski zespół forward deployed, a z czasem odpowiadasz za techniczną obecność firmy Brickanta w kraju, razem z naszym lokalnym liderem sprzedaży.\n\nNiewielu osobom trafia się okazja, by od początku budować i skalować firmę AI na nowym rynku, z finansowanym produktem i zespołem za plecami. Na tym polega ta szansa: przeprowadzić Polskę od pierwszych pilotaży do największych wykonawców i deweloperów w kraju, z odpowiedzialnością, wynagrodzeniem i udziałami, które rosną razem z rynkiem. Jeśli wolisz iść w głąb niż wszerz, ścieżka prowadzi też do rdzenia produktu: core AI, ewaluacji i inżynierii platformy.\n\n**W skrócie**\n\n**Lokalizacja**\n\nPraca zdalna w Polsce, z regularnym czasem na budowach u klientów. Zaczynasz od onboardingu w naszej centrali w Sztokholmie razem z zespołem, a potem regularnie tam wracasz. Podróż i zakwaterowanie pokrywamy my.\n\n**Start**\n\nPierwsza połowa 2027 roku, około trzech miesięcy po starcie w Polsce. Na początek niepełny etat (lub podobna elastyczna forma), z myślą o przejściu na pełny etat, gdy rynek urośnie.\n\n**Poziom**\n\nMid lub senior. Bardziej niż lata doświadczenia liczy się to, co masz na koncie, na budowie albo w kodzie.\n\n**Wynagrodzenie**\n\nKonkurencyjne wynagrodzenie i udziały (equity) – dołączasz na tyle wcześnie, że to ma znaczenie. fulltime yes\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 7.46,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.83,
+            "overlap": 13.58,
+            "combined": 7.46
+          },
+          "backend": {
+            "cosine": 4.62,
+            "overlap": 14.29,
+            "combined": 7.52
+          },
+          "frontend": {
+            "cosine": 4.05,
+            "overlap": 16.99,
+            "combined": 7.93
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.83,
+        "keyword_overlap_score": 13.58,
+        "final_score": 7.46,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1528
+          },
+          {
+            "term": "team",
+            "weight": 0.0944
+          },
+          {
+            "term": "time",
+            "weight": 0.0714
+          },
+          {
+            "term": "real",
+            "weight": 0.0536
+          },
+          {
+            "term": "deployed",
+            "weight": 0.0446
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9b779cba9cc00c008defea302639e0fa",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Open Application - if you’re a builder, reach out",
+      "url": "https://www.workatastartup.com/jobs/88848",
+      "jd_text": "Some of the best people don’t fit neat job titles and we don’t want to miss them.  We’re building an AI platform that helps construction teams make faster, better decisions from complex project information. If you’re mission-driven, allergic to fluff, and you ship relentlessly, we should talk.  \n\n**What you might do (depends on you)**\n\n* Build product end-to-end - from customer problem to shipped feature \n* Prototype workflows with customers and turn them into something repeatable \n* Create internal leverage: tools, automations, onboarding flows, distribution systems \n* Bring signal back to the product team: what’s breaking, what’s working, what creates ROI \n\n**How to apply**\\\nSend a short note with:\n\n* what you’d build or improve at Brickanta in your first 30 days\n* links to anything you’ve shipped or otherwise built (or a quick write-up if it’s private)\n\n_Keen on doing your life’s work - bringing one of the world’s largest and most impactful industries, the $15 trillion construction industry, into the AI era?_\n\n_Apply directly at [https://www.ycombinator.com/companies/brickanta/jobs/RPicnce-open-application-if-you-re-a-builder-reach-out](https://www.ycombinator.com/companies/brickanta/jobs/RPicnce-open-application-if-you-re-a-builder-reach-out)._ Stockholm, Stockholm County, SE contract none\nlocations: Stockholm, Stockholm County, SE\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e1bd3e623b86388f665027e428bcf80f",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Construction Engineer - Bygg / Entreprenadingenjör (Swedish)",
+      "url": "https://www.workatastartup.com/jobs/88846",
+      "jd_text": "**Note**: This role requires fluency in Swedish, as Sweden is Brickanta's first market.\n\nBrickanta is building an agentic AI platform for the construction industry, focused on the early workflows that usually decide how a project turns out: bid analysis, cost estimation, and procurement. We make it easier to find the discrepancies, risks and gaps in tender documents and to act on them while there's still time.\n\nWe're looking for someone who knows construction and wants to help shape a product that gets used on live projects. You don't need to be an AI expert. Curiosity and pace beat the \"right CV\".\n\n**What you'll do**\n\n* Work closely with the product team and influence direction, priorities and what gets built next\n* Run evals: test AI features against real documents and real ways of working, what holds up, what breaks, what's missing\n* Translate construction logic (AF/AMA, drawings, specifications, variations and claims, requirements and standards) into clear user needs\n* Join customer conversations, spot the friction in bidding, estimation and procurement, and help us fix it\n* Bridge construction language and modern software and AI thinking, without losing touch with how the work actually happens\n\n**You'll probably fit if you**\n\n* Have a background in construction or contracting (estimation, procurement, design, site production, project management, consultancy or contractor side)\n* Are structured and careful with the details, without losing the bigger picture\n* Like a high pace and want real responsibility\n* Want to help bring construction into the AI era\n\n**Why it matters**\n\nMargins in construction are thin and the decisions come early. Catching a single risk, ambiguity or discrepancy in time can be the difference between a good deal and an expensive lesson. We're building the tool that makes that work faster, safer and more proactive.\n\n_Are you keen on doing your life's work, bringing one of the world's largest and most impactful industries, the $15 trillion construction industry, into the AI era?_\n\nA_pply directly at [https://www.ycombinator.com/companies/brickanta/jobs/4o0G3W1-construction-engineer-bygg-entreprenadingenjor-swedish](https://www.ycombinator.com/companies/brickanta/jobs/4o0G3W1-construction-engineer-bygg-entreprenadingenjor-swedish)._ Stockholm, Stockholm County, SE contract none\nlocations: Stockholm, Stockholm County, SE\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "67d20b14e37802255c8d936c32f2e4cf",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Software / AI Engineering",
+      "url": "https://www.workatastartup.com/jobs/88847",
+      "jd_text": "Brickanta is built by an AI-veteran team. We’ve been shipping AI systems since 2018 and have experience building technical products inside some of the world’s biggest brands. We’re building for a domain where reliability matters: high-stakes decisions, messy data, and real-world constraints.  \\\nWe optimize for builders who ship.  \n\n**What you’ll build**\n\n* End-to-end product features across the stack for bid analysis, estimation, and procurement AI systems grounded in real construction inputs: documents, specs, standards, and edge cases \n* Evaluation + reliability tooling: measure quality, reduce failures, improve repeatability \n* Performance + observability: build systems that stay fast and trustworthy as usage scales Integrations and “forward-deployed” problem solving: make it work in the customer’s reality \n\n**How we evaluate**\n\n* Show us what you’ve built (repos, demos, side projects, shipped products) \n* Strong product sense: you reason from user pain → solution → measurable outcome \n* You move fast and you care about craft \n\n**Who this is for** \n\nStudents, new grads, and experienced engineers - we’re opportunistic on talent. If you’re exceptional, we’ll find the right scope.  \n\n_Are you keen on doing your life’s work - bringing one of the world’s largest and most impactful industries, the $15 trillion construction industry, into the AI era?_\n\n_Apply directly at [https://www.ycombinator.com/companies/brickanta/jobs/DKZym3b-software-ai-engineering](https://www.ycombinator.com/companies/brickanta/jobs/DKZym3b-software-ai-engineering)._ Stockholm, Stockholm County, SE contract none\nlocations: Stockholm, Stockholm County, SE\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1f29cc950e923592e9b2f8593bb49a9d",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "GTM Engineer - build the bridge between product and revenue",
+      "url": "https://www.workatastartup.com/jobs/88849",
+      "jd_text": "Construction doesn’t buy “AI”. It buys outcomes: fewer misses, faster decisions, cleaner handovers, less rework. The GTM Engineer role exists to make Brickanta land faster in the real world, by building the bridge between product capability and customer impact.  You’ll work across sales, partnerships, product, and engineering, shipping tools and workflows that accelerate adoption.  \n\n**What you’ll do**\n\n* Build and maintain lightweight tools/scripts that speed up GTM: onboarding, demos, deployments, customer-specific setups \n* Translate customer needs into rapid prototypes, and turn “one-off” wins into repeatable systems \n* Support sales/BD with technical depth (integrations, proof-of-value setups, data connections) \n* Capture product signal from the field and turn it into actionable insights for engineering \n* Improve operational quality: make it easier to show value early (and measure it) \n\n**You might be a fit if**\n\n* You’re a technical generalist who loves practical problems \n* You can talk to customers like a human and still think like an engineer \n* You enjoy revenue-adjacent work while you like to build\n* You like turning chaos into clean systems \n\n_Are you keen on doing your life’s work - bringing one of the world’s largest and most impactful industries, the $15 trillion construction industry, into the AI era? Apply directly at [https://www.ycombinator.com/companies/brickanta/jobs/i9EAeCM-gtm-engineer-build-the-bridge-between-product-and-revenue](https://www.ycombinator.com/companies/brickanta/jobs/i9EAeCM-gtm-engineer-build-the-bridge-between-product-and-revenue)._ Stockholm, Stockholm County, SE contract none\nlocations: Stockholm, Stockholm County, SE\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "61f8a37f3f7815e5b58fd6c9b373ee90",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Brand Marketing Manager",
+      "url": "https://www.workatastartup.com/jobs/110236",
+      "jd_text": "Construction brands have long looked the same. Grey brochures, stock photos of hard hats and generic taglines. We're building a brand (in-house) that people in this industry _want_ to spend time with and will remember for a generation, and you can be a part of shaping how we get there.\n\nMarketing at Brickanta is three people: our Founding Head of Marketing, GTM engineering, and you. It’s a team designed to punch above its weight and you'll work side by side with our Founding Head of Marketing on everything the brand touches: content, social, website, film, events, and much more. You’ll create a lot yourself, so you like the idea of taking ideas from start to finish.\n\nSome weeks you're a web designer, some weeks a copywriter and sometimes a PR wizard.\n\nYou'll get a lot of responsibility from day one and are expected to own tasks end to end.\n\n**Examples of what you'll do**\n\n* Produce our video work, such as; customer stories, product films, and new ideas\n* Write blog posts, social media posts and articles on AI in construction\n* Run our social channels (incl. comms planning, copywriting, asset creation and analysis)\n* Website building, the site is our most-read asset and it always has to be up to date\n* Plan and run the events we show up at and the ones we host: roadshows, breakfast seminars, industry fairs\n* Anything you come up with that moves the brand forward. Your best work here won't be on this list\n\n**You might be a fit if**\n\n* You have one to three years in marketing, agency or in-house\n* You make things yourself. Figma or Adobe are daily tools, not something you brief an agency for. Bonus if you can also handle a camera or a CMS\n* You have ideas and the instinct to act on them. You notice the problem, propose the solution, and make it without waiting to be asked\n* You write well in Swedish and English, and you can tell the difference between AI-slop and real copywriting\n* You move fast with an eye for detail\n* You find the built environment genuinely interesting. No construction background needed, but you'll be writing about this industry every week\n\n**The practical details**\n\nFull-time, broad and hands-on: you will touch every channel we have. A three-person marketing team working daily with sales, product and the founders. Competitive salary and equity - you're early enough for it to matter. Start as soon as you can.\n\nAre you keen on doing your life's work - bringing one of the world's largest and most impactful industries, the $15 trillion construction industry, into the AI era? Apply directly at  .\n\n**About Brickanta**\n\nBrickanta ([Brickanta.com](http://Brickanta.com)) is the AI-native agentic platform for construction bid analysis, cost estimation and procurement. Brickanta's industry know-how AI raises margins and saves time by leveraging historical estimates, tender documents, and project data - so builders can focus on building. The founding team has been building with AI since 2018 and brings deep experience applying AI in construction and industrial sectors. Brickanta has raised over $8M in external funding from leading investors, including Northzone, Anton Osika and Mario Götze. Stockholm, Stockholm County, SE fulltime none\nlocations: Stockholm, Stockholm County, SE\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c37394d6adb3059bc584776b4587cdca",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Business Developer",
+      "url": "https://www.workatastartup.com/jobs/108060",
+      "jd_text": "Construction doesn't buy \"AI\". It buys trust - and in this industry trust is built in person, over months, by someone who understands the work. The Business Developer role exists to open the doors that everything else depends on: finding the enterprise accounts that matter, getting into the room with the people who actually own the problem, and building the qualified pipeline our sales team runs on.\n\nThis is not a seat behind a dialer. You'll be at the fairs, on the sites, in the car on the way back from Borås with our deployment engineers. Closing is the growth step, and the path there is built into the role.\n\n**What you'll do**\n\n* Identify and research target enterprise accounts across construction and real estate - prospecting tools, industry networks, creative research\n* Engage prospects over phone, email, LinkedIn and in person to qualify opportunities and set high-quality meetings\n* Represent Brickanta at industry events, fairs and customer visits - sourcing opportunities and building the brand in the room\n* Travel with deployed engineering and sales as the commercial face on-site\n* Front webinars and digital formats, and build a professional presence that generates inbound\n* Own the follow-up so no conversation dies after the handshake -every account, contact and touchpoint logged in the CRM\n* Jump in wherever the company needs hands: campaigns, customer logistics, event execution\n\n**You might be a fit if**\n\n* You have 1–2 years in B2B sales or BD, or a construction/real estate background with commercial instincts\n* You're fluent in Swedish and English, because most of the work is bilingual\n* You genuinely enjoy being out meeting people\n* You handle rejection without it costing you the afternoon\n* You're curious about technology and can map what AI actually does to a real business process\n* You're comfortable as a generalist and like that the week changes shape\n\n**About Brickanta**\n\nBrickanta ([Brickanta.com](http://Brickanta.com)) is the AI-native agentic platform for construction bid analysis, cost estimation and procurement. Brickanta's industry know-how AI raises margins and saves time by leveraging historical estimates, tender documents, and project data - so builders can focus on building. The founding team has been building with AI since 2018 and brings deep experience applying AI in construction and industrial sectors. Brickanta has raised over $8M in external funding from leading investors, including Northzone, Anton Osika and Mario Götze.\n\nKeen on doing your life's work - bringing one of the world's largest and most impactful industries, the $15 trillion construction industry, into the AI era? Apply directly at  . Stockholm, Stockholm County, SE fulltime none\nlocations: Stockholm, Stockholm County, SE\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "26c30b8c321fa118d3c65ab0c2d3353f",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Forward Deployed Engineer",
+      "url": "https://www.workatastartup.com/jobs/108062",
+      "jd_text": "Most enterprise AI dies in the proof of concept. Forward deployed engineering is how we avoid that: you sit inside the customer's workflow - on site, in the bid room, in the procurement process, and build until the work actually gets done.\n\nYou ship product. You take a real bottleneck at a real contractor, build the agent workflow that removes it, prove the outcome in numbers, and bring what you learned back into the core platform.\n\nYou are the shortest path from a customer problem to working software, and the reason our agents survive contact with the real world.\n\n**What you'll do**\n\n* Own named accounts end to end: understand the workflow, configure and extend our agents against their real documents and data, and get them into daily use\n* Write code; integrations, data pipelines, prompts, evals, and occasionally a whole new feature - whatever it takes to make the workflow work at that customer\n\n**You might be a fit if**\n\n* You have several years building and shipping software, such as; Python and/or TypeScript, APIs, data pipelines, databases and SQL\n* You're comfortable with LLMs and modern AI tooling; we operate as an AI-first company\n* You've worked directly with customers, or you have a clear appetite for it\n* You go to where the work happens - site visits, bid rooms, warehouses\n* You're pragmatic about craft, meaning that you know when to hack and when to build it properly\n* You're comfortable with ambiguity, and with being the only engineer in the room\n* You speak Swedish and English\n\nConstruction, real estate or industrial experience is a strong plus. We're looking for engineers who like customers, and customer-facing people who actually ship. This seat sits close to everything, product, AI engineering and the customer. It can grow toward leading deployments and a team of FDEs, or inward toward core AI and platform engineering, depending on where you become most effective.\n\nMid to senior; we care more about what you've built than about years. On-site as default at Linnégatan 89B, Stockholm, with meaningful time at customers. Competitive salary and equity - you're early enough for it to matter. Start as soon as you can.\n\n**About Brickanta**\n\nBrickanta ([Brickanta.com](http://Brickanta.com)) is the AI-native agentic platform for construction bid analysis, cost estimation and procurement. Brickanta's industry know-how AI raises margins and saves time by leveraging historical estimates, tender documents, and project data - so builders can focus on building. The founding team has been building with AI since 2018 and brings deep experience applying AI in construction and industrial sectors. Brickanta has raised over $8M in external funding from leading investors, including Northzone, Anton Osika and Mario Götze.\n\nAre you keen on doing your life's work - bringing one of the world's largest and most impactful industries, the $15 trillion construction industry, into the AI era? Apply directly at  . Stockholm, Stockholm County, SE fulltime none\nlocations: Stockholm, Stockholm County, SE\nremote: no\nmin_experience: 3",
+      "match_score": 8.71,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.9,
+            "overlap": 9.6,
+            "combined": 8.41
+          },
+          "backend": {
+            "cosine": 7.93,
+            "overlap": 10.53,
+            "combined": 8.71
+          },
+          "frontend": {
+            "cosine": 7.37,
+            "overlap": 12.62,
+            "combined": 8.94
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 7.93,
+        "keyword_overlap_score": 10.53,
+        "final_score": 8.71,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2937
+          },
+          {
+            "term": "real",
+            "weight": 0.1201
+          },
+          {
+            "term": "data",
+            "weight": 0.0961
+          },
+          {
+            "term": "platform",
+            "weight": 0.072
+          },
+          {
+            "term": "agents",
+            "weight": 0.0587
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "102dbc0b64dc866624ea038bd49e5508",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Solution Engineer - Integrations Focus",
+      "url": "https://www.workatastartup.com/jobs/108188",
+      "jd_text": "Brickanta is only as strong as the data it can reach. Our customers run their projects across Autodesk, Dalux, Bidcon, SharePoint, Dropbox, ERPs, and a long tail of customised APIs they built themselves. Your job is to make Brickanta the agentic layer on top of all of it, and to make sure every enterprise customer actually gets there.\n\nThink of it as a forward deployed engineer sitting inside Customer Success. You'll write code, read API docs, map data models and debug auth flows. You'll also run workshops, present to IT security, and sit with a project manager to understand how a change order really moves. Half engineer, half deployment lead, fully accountable for the outcome.\n\nWe optimize for builders who ship, and this role ships with a customer in the room.\n\n**What you'll build**\n\n* Connectors to the systems our customers live in: Autodesk Construction Cloud and BIM 360, Dalux, Bidcon, SharePoint, Dropbox and more\n* The harder integrations - customer-specific APIs, homegrown project databases, document archives and more\n* The technical architecture of enterprise rollouts: discovery, solution design, IT security reviews, SSO, permissions, data residency\n* Playbooks, documentation and reference setups that turn one-off integrations into repeatable product, so the next ten customers onboard without you\n* Adoption in real workflows, such as; tender review, risk analysis, change orders, procurement\n\n  Prototypes directly in Brickanta when that's the fastest way to prove a case to product and engineering\n\n**Who this is for**\n\nSolutions engineers, implementation engineers, and technical people from inside the built environment who can build. You need to have onboarded real customers onto a real product, and you need to build and debug integrations yourself in Python or TypeScript. Bonus if you know how a Swedish entreprenad runs.\n\n**About Brickanta**\n\nBrickanta ([Brickanta.com](http://Brickanta.com)) is the AI-native agentic platform for construction bid analysis, cost estimation and procurement. Brickanta's industry know-how AI raises margins and saves time by leveraging historical estimates, tender documents, and project data - so builders can focus on building. The founding team has been building with AI since 2018 and brings deep experience applying AI in construction and industrial sectors. Brickanta has raised over $8M in external funding from leading investors, including Northzone, Anton Osika and Mario Götze.\n\nAre you keen on doing your life's work - bringing one of the world's largest and most impactful industries, the $15 trillion construction industry, into the AI era? Apply directly at  . Stockholm, Stockholm County, SE fulltime none\nlocations: Stockholm, Stockholm County, SE\nremote: no\nmin_experience: 3",
+      "match_score": 9.94,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.72,
+            "overlap": 12.91,
+            "combined": 9.28
+          },
+          "backend": {
+            "cosine": 8.24,
+            "overlap": 13.91,
+            "combined": 9.94
+          },
+          "frontend": {
+            "cosine": 6.52,
+            "overlap": 16.02,
+            "combined": 9.37
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 8.24,
+        "keyword_overlap_score": 13.91,
+        "final_score": 9.94,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.151
+          },
+          {
+            "term": "data",
+            "weight": 0.0987
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0741
+          },
+          {
+            "term": "real",
+            "weight": 0.0741
+          },
+          {
+            "term": "directly",
+            "weight": 0.0604
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "48c3eee74572f3206a012d85d762d20d",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Business Intern - Summer 2027",
+      "url": "https://www.workatastartup.com/jobs/88845",
+      "jd_text": "Brickanta is building the AI-native operating system for construction and it starts where projects are won or lost: bid analysis, estimation, and procurement. We’re a small, fast team working on real workflows with real customers, turning complex project documentation into faster decisions and more predictable delivery.  \n\nThis is a true generalist internship. You’ll work directly with founders and touch the messy, important parts of building an AI company, with responsibility that grows with your output.  \n\n**What you’ll do**\n\n* Work closely with founders across strategy, ops, finance, partnerships, and go-to-market\n* Turn messy inputs into crisp outputs: notes → decisions, research → actions, chaos → systems \n* Support customer work: prep, follow-ups, lightweight analysis, and coordination \n* Build internal operating cadence: templates, docs, dashboards, simple automations \n* Help keep GTM workflows sharp (CRM hygiene, outreach coordination, pipeline tracking) \n\n**You might be a fit if**\n\n* You’re studying business/entrepreneurship (or you’re just unusually startup-minded) \n* You’re proactive, structured, and comfortable owning outcomes \n* You write clearly and move fast without dropping details \n* You want “learning by doing” to mean building real things \n\n**What you’ll get**\n\n* Founder-level context and a steep learning curve \n* Ownership from day one\n* A front-row seat to how AI products get built and shipped into real industries \n\n_Are you keen on doing your life’s work, bringing one of the world’s largest and most impactful industries, the $15 trillion construction industry, into the AI era?\\\nApply directly at[ https://www.ycombinator.com/companies/brickanta/jobs.](https://www.ycombinator.com/companies/brickanta/jobs.%E2%80%9D)_ Stockholm, Stockholm County, SE contract none\nlocations: Stockholm, Stockholm County, SE\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cb82e3bc71d4c515f279165639241090",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Developer Intern - Summer 2027",
+      "url": "https://www.workatastartup.com/jobs/108065",
+      "jd_text": "As a Developer Intern at Brickanta you'll be embedded directly in our product and engineering team, working alongside engineers, contributing to real product workstreams, and shipping code that reaches customers.\n\nYou'll have ownership, access to context, and the chance to work on projects that matter. \n\n**What you'll do**\n\n* Feature development on existing and upcoming product work-streams\n* Bug fixing, code review participation and testing\n* Integration work; APIs, third-party tools, data pipelines\n* Documentation and technical write-ups\n\n**You might be a fit if**\n\n* You're studying or recently graduated in computer science, software engineering or similar, or you have equivalent experience through projects, self-study or work\n* You're proficient in Python and/or JavaScript/TypeScript\n* You're familiar with RESTful APIs, data pipelines and systems integration\n* You have working knowledge of databases and SQL\n* You're comfortable with Git and modern development workflows\n* You're comfortable with AI tooling like Claude Code and Codex - we operate as an AI-first company\n* You have a builder mentality: you take ownership, move fast and care about craft\n* You write clearly. At Brickanta, writing creates clarity and everything important gets documented\n* You work transparently, sharing context, flag blockers early, and contribute to a shared source of truth\n* You're curious and hungry to learn, and you push to understand how and why things work\n\nFamiliarity with Docker or Kubernetes is a bonus, not a requirement. Background or hands-on experience in construction is a strong plus for at least one of the positions.\n\nWe care more about what you've built than where you studied.\n\n**The practical details**\n\nOn-site in Stockholm at Linnégatan 89B. Compensation is equivalent to a full CSN stipend, so you can focus fully on the internship. Perks include the office, snacks and team summer events.\n\nWork period starts May/June 2027, with the option to begin part-time earlier if you're keen and your schedule allows. Full-time through the summer, finishing in August. High performers may be offered an ongoing full-time or part-time role afterwards.\n\n**About Brickanta**\n\nBrickanta ([Brickanta.com](http://Brickanta.com)) is the AI-native agentic platform for construction bid analysis, cost estimation and procurement. Brickanta's industry know-how AI raises margins and saves time by leveraging historical estimates, tender documents, and project data - so builders can focus on building. The founding team has been building with AI since 2018 and brings deep experience applying AI in construction and industrial sectors. Brickanta has raised over $8M in external funding from leading investors, including Northzone, Anton Osika and Mario Götze.\n\nAre you keen on doing your life's work - bringing one of the world's largest and most impactful industries, the $15 trillion construction industry, into the AI era? Apply directly at  . Stockholm, Stockholm County, SE contract none\nlocations: Stockholm, Stockholm County, SE\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "87b731d990f94c5bfda279606032d417",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Construction Evaluation Engineer - Part-Time",
+      "url": "https://www.workatastartup.com/jobs/108061",
+      "jd_text": "Construction doesn't buy \"AI\". It buys answers it can act on, and an answer can look completely plausible while being wrong in the way that costs money on a real project. The Construction Evaluation Engineer role exists to catch exactly that: to define what great looks like for our agents, find where they fail, and turn that judgment into something our systems can measure.\n\nIt starts hands-on and close to the data, and gets more technical as you grow, from evaluating outputs to owning eval pipelines, graders and datasets. You'll work alongside our forward deployed engineers, design partners and construction experts. Evaluation here happens close to the customer.\n\n**What you'll do**\n\n* Run our agents against real construction workflows and judge the outputs on correctness, completeness and practical usefulness\n* Turn real workflows, edge cases and production failures into repeatable eval cases: reference outputs, scoring rubrics, failure taxonomies and expert-reviewed datasets\n* Grow into the systems around the work - eval harnesses, automated graders, regression tests, model comparisons\n* Work out what genuinely needs human judgment, then engineer the rest away\n* Capture what we learn from customers, experts and agent failures so every deployment improves the underlying system\n\n**You might be a fit if**\n\n* You have real exposure to construction, engineering, project planning, estimating or surveying\n* You're strongly quantitative and analytical, with a serious interest in modern AI systems\n* You're extremely detail-oriented - you can work through hundreds of cases without letting the quality bar drift\n* You're curious about _why_ systems fail, not just whether they fail\n* You have an instinct for automation: understand the manual workflow first, then build the system around it\n* You have high ownership\n* You speak Swedish and English\n\nYou don't need to already be an experienced AI engineer. But you do need the raw ingredients to become one.\n\n**The practical details**\n\nPart-time to start, roughly 15–20 hours per week, flexible on how they're distributed. Hybrid with meaningful time at the office at Linnégatan 89B, Stockholm.\n\n**About Brickanta**\n\nBrickanta ([Brickanta.com](http://Brickanta.com)) is the AI-native agentic platform for construction bid analysis, cost estimation and procurement. Brickanta's industry know-how AI raises margins and saves time by leveraging historical estimates, tender documents, and project data - so builders can focus on building. The founding team has been building with AI since 2018 and brings deep experience applying AI in construction and industrial sectors. Brickanta has raised over $8M in external funding from leading investors, including Northzone, Anton Osika and Mario Götze.\n\nKeen on doing your life's work - bringing one of the world's largest and most impactful industries, the $15 trillion construction industry, into the AI era? Apply directly at  . Stockholm, Stockholm County, SE contract none\nlocations: Stockholm, Stockholm County, SE\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "289cf1497ad0b2d5b266325e60a81a0d",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Account Executive",
+      "url": "https://www.workatastartup.com/jobs/108063",
+      "jd_text": "Construction doesn't buy \"AI\". It has been promised software before and is rightly sceptical, which is why credibility in the room matters here as much as pipeline discipline. The Account Executive owns Brickanta's commercial relationship with the largest contractors, developers and property owners in the Nordics, full cycle, from first conversation to signed contract and expansion.\n\nThis is an early commercial seat. You inherit real customers, real references and a product that measurably works and you build the motion that repeats it.\n\n**What you'll do**\n\n* Build and run your own pipeline: outbound to named accounts, industry events, inbound follow-up and the network you bring with you\n* Navigate multi-stakeholder deals across calculation, procurement, project management, IT and the executive team, qualify hard, map the buying process, drive it to a decision\n* Run pilots designed to convert: agree the success criteria up front, work with our forward deployed engineers through delivery, then close the full rollout\n* Bring objections, competitive signals and unmet needs back into product with enough specificity to act on\n\nThis is the seat the rest of the commercial team gets built around. It can grow toward owning a segment, building and leading the sales team, or a broader go-to-market role as we expand beyond the Nordics.\n\n**You might be a fit if**\n\n* You know how construction and real estate actually buy, either as a seller into the industry, or from inside it (calculation, procurement, project management, development). Industry credibility is not optional in this role\n* You have a track record closing B2B deals with several stakeholders and a real procurement process\n* You're comfortable being the first commercial person in the room and building the process as you go\n* You're a hunter with patience - you can work a long enterprise cycle without letting the top of the funnel go quiet\n* You're honest in the room. You'd rather disqualify early than sell a customer something that won't land\n* You write clearly and keep your pipeline documented.\n* You speak Swedish and English\n\n**The practical details**\n\nOn-site as default at Linnégatan 89B, Stockholm, with travel to customers. Segment is large contractors, developers and property owners across the Nordics. Competitive base plus commission, and equity - you're early enough for it to matter. Start as soon as you can.\n\n**About Brickanta**\n\nBrickanta ([Brickanta.com](http://Brickanta.com)) is the AI-native agentic platform for construction bid analysis, cost estimation and procurement. Brickanta's industry know-how AI raises margins and saves time by leveraging historical estimates, tender documents, and project data - so builders can focus on building. The founding team has been building with AI since 2018 and brings deep experience applying AI in construction and industrial sectors. Brickanta has raised over $8M in external funding from leading investors, including Northzone, Anton Osika and Mario Götze.\n\nAre you keen on doing your life's work - bringing one of the world's largest and most impactful industries, the $15 trillion construction industry, into the AI era? Apply directly at  . Stockholm, Stockholm County, SE fulltime none\nlocations: Stockholm, Stockholm County, SE\nremote: no\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7bc6f54055954f778668770639b444e9",
+      "source": "yc",
+      "company": "Trellis AI",
+      "role": "Sales Development Representative",
+      "url": "https://www.workatastartup.com/jobs/118847",
+      "jd_text": "### **Trellis builds and deploys self-improving agents to get patients access to life-saving medicine.**\n\n**Our AI agents process billions of dollars worth of therapies annually with patients in all fifty states.** We do this by automating document intake, prior authorizations, and appeals at scale to streamline operations and accelerate care. We classify medical referrals, understand chart notes, and automate contract and reimbursement search to provide patients with accurate coverage determinations and cost responsibility. Think of us as the the infrastructure behind how the patients get the medications.\n\nTrellis is a spinout from Stanford AI Lab and is backed by leading investors including YC, General Catalyst, Telesoft Partners, and executives at Google and Salesforce.\n\n## The Role\n\nWe're hiring a Sales Development Representative to start conversations with the healthcare organizations that need Trellis most. You'll be the first voice many prospects hear from us: you'll research accounts, reach out across phone, email, and LinkedIn, and book qualified meetings for our Account Executives.\n\nWe sell to specialty pharmacies, infusion centers, provider groups (oncology, neurology, rheumatology, dermatology), and health systems. You'll learn how specialty medications get approved and paid for, and how to explain why that matters to the people who run these operations. This is a launchpad role with a clear path to Account Executive.\n\n**Compensation:** The pay range listed is on-target earnings (OTE), including base salary and commission.\n\n## What You'll Do\n\n* **Book qualified meetings:** Own a monthly target for meetings held with the right decision-makers in operations, revenue cycle, and pharmacy\n* **Run multi-channel outreach:** Make cold calls, send personalized emails, and engage on LinkedIn, using AI tools to research accounts and tailor your message\n* **Qualify early:** Find out whether a prospect has the problem we solve, what systems they use, and who decides, before handing them to an AE\n* **Work events and inbound:** Follow up fast on conference leads, webinar sign-ups, and inbound interest\n* **Keep HubSpot clean:** Log every touch and meeting so the team has an accurate view of pipeline\n* **Sharpen the playbook:** Share what messaging lands and what doesn't, and help test new segments and talk tracks\n\n## About You\n\nYou're competitive, coachable, and unfazed by hearing \"no.\" You like picking up the phone, you write a sharp email, and you get energy from turning a cold conversation into a real meeting.\n\nYou're early in your career and want to learn sales the right way, at a company where your work shows up directly in revenue and in patients getting care.\n\n## What You'll Bring\n\n* 1+ years in sales, business development, or another customer-facing role; strong new grads also welcome\n* Comfort with high-volume outreach, especially cold calling\n* Clear, confident written and verbal communication\n* Curiosity to learn a complex industry and explain it simply\n* Discipline and organization: you hit your activity goals and follow up relentlessly\n* Interest in AI tools and ways to work smarter, not just harder\n* Healthcare, pharmacy, or B2B SaaS exposure is a plus\n* Ambition to grow into an Account Executive role\n\n## Why Work With Us\n\n* **Clear path to closing:** Learn full-cycle sales alongside our founders and AEs, with a path to an Account Executive role as you prove yourself.\n* **Real impact at massive scale:** We serve patients in all fifty states. Every meeting you book can lead to more patients starting therapy sooner.\n* **Incredible growth and traction:** We've grown revenue 10x in the past few months alone and have XX% market share in the specialty healthcare markets we serve.\n* **AI-native sales team:** Work with modern tools and a GTM Engineer building automation that lets you spend time on conversations, not busywork.\n* **Learn a deep industry fast:** Work alongside healthcare operations leaders who have overseen 50+ locations, and gain expertise that compounds over your career.\n* **World-class team:** Join teammates who have won international physics olympiads, were founding engineers at unicorn startups, and taught AI classes to hundreds of Stanford graduate students. San Francisco, CA, US fulltime yes\nlocations: San Francisco, CA, US\nremote: yes\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-26T18:20:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "a22c580fdc64e36cc1f981b76ce283c9",
       "source": "yc",
