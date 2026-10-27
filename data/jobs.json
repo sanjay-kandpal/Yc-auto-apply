@@ -1,15 +1,434 @@
 {
-  "exported_at": "2026-10-27T09:41:23+00:00",
+  "exported_at": "2026-10-27T15:49:33+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 279,
-    "discovered": 1036,
+    "pending_approval": 281,
+    "discovered": 1040,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "962aed8040dec2d48822e89569924ac1",
+      "source": "wellfound",
+      "company": "Teal India",
+      "role": "Software Engineer - Full Stack",
+      "url": "https://wellfound.com/jobs/4029454-software-engineer-full-stack",
+      "jd_text": "To be considered, please submit your application through our applicant tracking system: [Apply Here](https://hiring.tealindia.in/careers/login?redirect=/careers/software-engineer-full-stack/apply).\n\n**About the job**\n\nWe are a small, fast-paced team of all-rounders who engineer solutions to a diverse set of problems. We build reliable systems that perform various functions across the product surface of our company. We value people who take ownership, navigate ambiguity and care about making real progress.\n\n**About you**\n**As a software engineer you will:**\n\n* Learn and move fast (you’ll have lots of help but we expect initiative)\n* Contribute ideas to improve user experience and product’s performance\n* Work across the stack: backend, frontend, applied AI (our stack includes MongoDB, Node.js, Express.js, and Next.js)\n* Write maintainable, flexible code with empathy for your fellow developers\n* Grow into a self contained powerhouse, who can gather requirements, brainstorm solutions and implement elegant solutions\n\n**What We’re Looking For**\n**You’ll be a good fit if you:**\n\n* Have a strong grasp of software engineering fundamentals\n* Are generally thoughtful and care about doing things well\n* Can gather context on problems quickly\n* Think in terms of both user experience and code\n* Are comfortable with ambiguity and can figure things out\n* Love building things, websites, tools and automations\n* Have hands on experience with LLMs which includes API-based integration\n\n**Bonus**: Experience with JS/TS, React and building servers. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 12.1,
+      "resume_variant": "frontend",
+      "draft_answer": "I’ve driven end-to-end React front-end builds for critical client portals and platforms, significantly improving user experience by cutting API fetch latency 98% (500ms to 10ms) and data load times from 15s to 6s, directly impacting active users. My experience in a fast-paced environment includes owning cloud-native compliance modules, automating 90% of manual workflows, and building solutions across MongoDB, Node.js, Express.js, and Next.js, including leveraging facial analysis for automation.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-27T15:49:01+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.38,
+            "overlap": 10.26,
+            "combined": 10.35
+          },
+          "backend": {
+            "cosine": 8.85,
+            "overlap": 8.65,
+            "combined": 8.79
+          },
+          "frontend": {
+            "cosine": 11.88,
+            "overlap": 12.62,
+            "combined": 12.1
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.88,
+        "keyword_overlap_score": 12.62,
+        "final_score": 12.1,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1546
+          },
+          {
+            "term": "experience",
+            "weight": 0.1546
+          },
+          {
+            "term": "js",
+            "weight": 0.1546
+          },
+          {
+            "term": "solutions",
+            "weight": 0.1159
+          },
+          {
+            "term": "user",
+            "weight": 0.0945
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-27T15:49:14+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a47150832645cf7a8c879f93c8715322",
+      "source": "wellfound",
+      "company": "Teal India",
+      "role": "Data Engineer II",
+      "url": "https://wellfound.com/jobs/4897492-data-engineer-yoe-0-2-clone",
+      "jd_text": "To be considered, please submit your application through our applicant tracking system: [Apply Here](https://hiring.tealindia.in/careers/login?redirect=%2Fcareers%2Fdata-engineer-ii%2Fapply).\n\n**About Us**\n\nWe are a small, fast-paced team of all-rounders who build reliable systems across our product. We value ownership, comfort with ambiguity, and people who care about making real progress.\n\n**The Role**\n\nWe run a large and growing set of scrapers and data pipelines that power our product. Much of that scraper code is written with AI assistance, so the systems around it matter more than any single script. As a Data Engineer II, you'll build and run that layer: how data is sourced, kept fresh, verified, indexed, and served.\n\n**Key Responsibilities**\n\n* Build and operate the infrastructure behind a large fleet of scrapers: scheduling, queueing, retries, proxy and session management\n* Design validation and completeness checks that tell us when data is missing, stale, or wrong, without anyone having to read the scraper\n* Define the testing, review, and deployment practices that make AI-assisted scrapers safe to ship and easy to replace\n* Support on-demand data fetching alongside scheduled ingestion\n* Own indexing and storage decisions for search and analytics at scale\n* Build the alerting and observability that surface failures before users do\n* Evaluate new data sources and decide what's worth building\n* Review code, mentor teammates, and raise the bar\n\n**Required Skills**\n\n* 2–4 years building and running data pipelines or scrapers in production\n* Strong Python\n* Solid grasp of HTTP at depth: sessions, auth patterns, rate limiting, bot protection, proxies\n* Experience with queues and async processing (SQS, RabbitMQ, Kafka), including retries, idempotency, and dead-letter handling\n* SQL and NoSQL fluency, and experience with a search system (Solr, Elasticsearch, OpenSearch)\n* Working knowledge of AWS\n* A habit of instrumenting what you build: metrics, dashboards, alerts\n\n**Nice to Have**\n\n* Headless browser automation at scale\n* OCR and document extraction tooling\n* LLM-based extraction or evaluation pipelines\n* Grafana or similar observability tooling\n\n**What We Value**\n\nYou don't need to have worked in our domain. We care about how you think about failure, data quality, and scale, and whether you can take something ambiguous, break it down, and ship something others can rely on. Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 10.06,
+      "resume_variant": "fullstack",
+      "draft_answer": "I’ve built robust cloud-native systems, like a compliance platform on Azure, reducing data latency by 98% with Redis caching after load-testing, and introduced RabbitMQ to prevent data loss under high load. I’m skilled in defining deployment practices for data systems, having implemented Azure DevOps CI/CD for zero-downtime rollouts, and I've validated LLM tool-calling reliability to build systems around AI-assisted components powering our product.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-27T15:49:01+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.54,
+            "overlap": 11.26,
+            "combined": 10.06
+          },
+          "backend": {
+            "cosine": 9.32,
+            "overlap": 10.53,
+            "combined": 9.68
+          },
+          "frontend": {
+            "cosine": 6.81,
+            "overlap": 12.14,
+            "combined": 8.41
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.54,
+        "keyword_overlap_score": 11.26,
+        "final_score": 10.06,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.2696
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0899
+          },
+          {
+            "term": "pipelines",
+            "weight": 0.0899
+          },
+          {
+            "term": "ai",
+            "weight": 0.0733
+          },
+          {
+            "term": "bangalore",
+            "weight": 0.0599
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-27T15:49:32+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e3737cc53336024c62987aa0497a1ada",
+      "source": "wellfound",
+      "company": "Teal India",
+      "role": "AI/ML Engineer",
+      "url": "https://wellfound.com/jobs/4246041-ai-ml-engineer",
+      "jd_text": "To be considered, please submit your application through our applicant tracking system: [Apply Here](https://hiring.tealindia.in/careers/login?redirect=/careers/ai-ml-engineer/apply).\n\n**About the job**\n\nWe are a small, fast-paced team building AI-first systems for legal-tech, prop-tech, search, and document intelligence workflows.\n\nOur work deals with messy real-world data: scanned files, legal reports, structured and unstructured records, inconsistent names, ambiguous addresses, noisy OCR, incomplete metadata, and complex business rules. The problems are rarely clean, and that is what makes them interesting.\n\nThis role sits across the AI/ML lifecycle: curating data, training and fine-tuning models, evaluating performance, deploying systems, and improving them based on real-world feedback.\n\nWe are looking for someone curious, rigorous, and hands-on. Prior production experience is not mandatory, but strong fundamentals, learning speed, and clear thinking are essential.\n\n**As an AI/ML Engineer, you will:**\n\n* Curate, clean, label, normalize, and structure datasets for AI/ML workflows\n* Build systems for entity resolution, name matching, address matching, text normalization, and information extraction\n* Fine-tune and evaluate models such as BERT-style encoders, seq2seq models, classifiers, embedding models, rerankers, or extraction models\n* Design search and ranking pipelines using keyword search, vector search, reranking, heuristics, and learned models\n* Work on OCR-backed document understanding pipelines for scanned files, PDFs, and semi-structured documents\n* Evaluate performance using metrics such as precision, recall, F1, accuracy, ranking quality, latency, and error distribution\n* Analyze false positives, false negatives, edge cases, and model failure patterns\n* Deploy models and ML-backed services into production workflows\n* Monitor model and pipeline performance over time\n* Work with engineering and product teams to convert ambiguous business problems into datasets, experiments, metrics, and working systems\n\n**You'll be a good fit if you:**\n\n* Have strong programming, data, and machine learning fundamentals\n* Are comfortable working with raw, incomplete, and inconsistent data\n* Can reason about model performance beyond \"the output looks good\"\n* Can discuss trade-offs using metrics, error analysis, confidence thresholds, and evaluation sets\n* Like building systems, not just running notebooks\n* Are interested in NLP, search, ranking, entity resolution, OCR, and document intelligence\n* Can read documentation, papers, model outputs, and logs to figure things out\n* Can move fast without being careless\n\n**Relevant experience**\n\n* You should have hands-on exposure to some of the following:\n* Python for data processing, automation, scraping, ML workflows, or backend services\n* Dataset creation, labeling, cleaning, normalization, or annotation workflows\n* NLP tasks such as entity extraction, entity resolution, text classification, semantic similarity, or text normalization\n* Fine-tuning or evaluating models such as BERT, sentence-transformers, T5, BART, LayoutLM, Donut, or similar architectures\n* Embeddings, vector search, reranking, semantic search, Elasticsearch, OpenSearch, Solr, or similar systems\n* OCR, document parsing, PDFs, scanned image processing, or visual document understanding\n* Model evaluation using precision, recall, F1, ranking metrics, confusion matrices, error analysis, or custom evaluation datasets\n* Deploying ML models or ML-backed APIs using FastAPI, Flask, Docker, or similar tools\n* LLM API integrations for extraction, classification, reasoning, or data enrichment\n\nYou do not need to know everything listed above. We care more about strong fundamentals, learning speed, curiosity, and the ability to build reliable AI/ML systems from messy real-world data.\n\n**What we offer**\n\n* Work on serious AI/ML problems with direct real-world impact\n* Exposure to search, NLP, document intelligence, model evaluation, and production ML workflows\n* A high-ownership environment where good ideas are taken seriously\n* Mentorship from a product and engineering team that values clear thinking\n* The chance to work across the full AI/ML lifecycle, from raw data to deployed systems Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 9.15,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T15:49:01+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.98,
+            "overlap": 12.58,
+            "combined": 8.66
+          },
+          "backend": {
+            "cosine": 7.43,
+            "overlap": 13.16,
+            "combined": 9.15
+          },
+          "frontend": {
+            "cosine": 4.77,
+            "overlap": 15.53,
+            "combined": 8.0
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 7.43,
+        "keyword_overlap_score": 13.16,
+        "final_score": 9.15,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1712
+          },
+          {
+            "term": "data",
+            "weight": 0.1244
+          },
+          {
+            "term": "model",
+            "weight": 0.1141
+          },
+          {
+            "term": "using",
+            "weight": 0.0951
+          },
+          {
+            "term": "workflows",
+            "weight": 0.0933
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7b040378c1d9077e2737249d74be8fff",
+      "source": "wellfound",
+      "company": "Raushang4 Technology",
+      "role": "Shopify Developer",
+      "url": "https://wellfound.com/jobs/4897521-shopify-developer",
+      "jd_text": "Build and customise Shopify stores, themes and apps for Indian D2C brands.\nShip fast, clean storefronts that convert.\n\nResponsibilities\n- Customise Shopify themes with Liquid, JS and CSS\n- Build integrations with payment, COD and shipping apps\n- Improve site speed and Core Web Vitals\n- Set up Shopify Functions, metafields and checkout extensions\n- Debug and support live client stores\n\nRequirements\n- 1+ year building on Shopify\n- Liquid, JavaScript, HTML/CSS\n- Git and basic APIs (REST/GraphQL)\n- Portfolio of live stores\n\nNice to have: Hydrogen/headless, Shopify app development, Next.js\n\nLocation: Remote, India. Contact: raushan@raushang4.tech New Delhi\nlocationNames: New Delhi\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T15:49:01+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8f734695e2a4ada42140037c3165d970",
+      "source": "wellfound",
+      "company": "RevSure.AI",
+      "role": "SE/SSE - Backend (Java) - Oct",
+      "url": "https://wellfound.com/jobs/3608457-se-sse-backend-java-oct",
+      "jd_text": "JAVA: Software Engineer / Senior Software Engineer \n \nJob Overview: \nRevSure.AI is building a world-class team of Engineers with a mandate to architect, design, build, \nscale, and maintain our cutting-edge Revops platform and derive insights from the customer data. \nIf you are a great JavaScript developer (or, for that matter, in any major programming language) \nwith experience in building SaaS web applications and looking for an opportunity to build \nworld-class products using cutting-edge technologies, please read on - \n \n \nResponsibilities: \n●  Contribute to the growth and development of our product by writing and maintaining code, \nfocusing on quality and maintainability. We believe that our teams own the code they build. \n●  Share your knowledge, both inside and outside your own team.  \n●  Design, implement, test, and monitor valuable solutions that achieve the teamʼs goals while \nkeeping a smooth delivery flow and balancing tradeoffs between scope, time, and effort.  \n●  Continuously improve your and your teamʼs way of working, expanding the boundaries of \nyour teamʼs autonomy and self-organisation.  \n \n \nRequirements: \n \nMust-Have: \n●  Good interpersonal and communication skills. An analytical mind and an eye for detail \n●  Experience of 3-5 years in building large applications, preferably from the heavy data \nprocessing &amp; analytics side \n●  Experience in architecting, designing, and building end-to-end System Design of multi tenant \nSAAS applications \n●  Experience architecting interactive configuration experiences around DAGs, \nconfiguration-heavy reporting feature, interactive data pipeline design interfaces, and \ncharting. \n●  Experience in Java, Spring Boot, and GCP \n●  In-depth understanding of design patterns, OOPs, and Functional programming. \n●  Passionate programmer focused on Backend Programming. \n\n \nGood to have: \n●  Working knowledge of GCP managed services like  Kubernetes, PubSub Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 8.85,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T15:49:01+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.96,
+            "overlap": 10.93,
+            "combined": 8.85
+          },
+          "backend": {
+            "cosine": 7.57,
+            "overlap": 10.9,
+            "combined": 8.57
+          },
+          "frontend": {
+            "cosine": 7.89,
+            "overlap": 12.62,
+            "combined": 9.31
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.96,
+        "keyword_overlap_score": 10.93,
+        "final_score": 8.85,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1657
+          },
+          {
+            "term": "team",
+            "weight": 0.1001
+          },
+          {
+            "term": "applications",
+            "weight": 0.0994
+          },
+          {
+            "term": "data",
+            "weight": 0.0994
+          },
+          {
+            "term": "java",
+            "weight": 0.0994
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d0527f2e09920dae054979c0c91ad497",
+      "source": "wellfound",
+      "company": "| Networth Corp |",
+      "role": "Data and AI Fresher",
+      "url": "https://wellfound.com/jobs/4897434-data-and-ai-fresher",
+      "jd_text": "Job description\nNetworth Corp is hiring freshers, students, dropouts for multiple technical disciplines:\n\n* AI Engineering\n* Data Engineering\n\nIf you believe you can make a significant impact when coached, send us your application.\nThe role is fulfilling and offers exponential learning, but the benchmarks are high and it won't be a role that allows you to get comfortable.\nApply only if this excites you. Don't choose to send us your application if speed doesn't thrill you or if you are looking for less responsibility.\n\nPre-requisites:\n\n* Bachelor's degree or equivalent self education in a Quantitative or Technical field (Statistics, Mathematics, Finance, - Computer Science, Engineering, etc.)\n* Capability to learn and work with our technology standards\n* Good at a programming language with past work to show\n* Abstract and Tactical Thinking\n* Logical Reasoning Capability\n* Python based Object Oriented Programming basics\n\n* Planning and time management\n* Demonstrated history of Structure and Discipline\n* Demonstrated history of being a good Team Player\n* Demonstrated history of Self Learning\n* Fluency in written and spoken English\n* Ability to engage in explanatory conversations\n\nIf you apply, you will be tested for the above mentioned skills.\nIf you believe you deserve to be part of a high performing Technology Team, then apply and get ready! Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 6.16,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T15:49:01+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.82,
+            "overlap": 6.95,
+            "combined": 6.16
+          },
+          "backend": {
+            "cosine": 5.12,
+            "overlap": 6.77,
+            "combined": 5.62
+          },
+          "frontend": {
+            "cosine": 3.71,
+            "overlap": 7.77,
+            "combined": 4.93
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.82,
+        "keyword_overlap_score": 6.95,
+        "final_score": 6.16,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1254
+          },
+          {
+            "term": "ai",
+            "weight": 0.1015
+          },
+          {
+            "term": "high",
+            "weight": 0.1015
+          },
+          {
+            "term": "application",
+            "weight": 0.083
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.083
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "96e8692c769a53f3e53ca0f726802c64",
       "source": "wellfound",
