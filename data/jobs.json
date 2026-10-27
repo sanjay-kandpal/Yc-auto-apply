@@ -1,15 +1,473 @@
 {
-  "exported_at": "2026-10-27T03:51:32+00:00",
+  "exported_at": "2026-10-27T07:35:58+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1033,
-    "pending_approval": 275,
+    "pending_approval": 279,
+    "discovered": 1036,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "96e8692c769a53f3e53ca0f726802c64",
+      "source": "wellfound",
+      "company": "GreedyGame",
+      "role": "Fullstack Engineer",
+      "url": "https://wellfound.com/jobs/4897418-fullstack-engineer",
+      "jd_text": "**🏢 About the company**\nGreedyGame, founded in 2013 by Arpit Jain (CEO), is a leading ad-tech company driving app growth and monetization.\nWe’ve built a sustainable, profitable business for over 7 years without chasing vanity metrics. The 0→1 journey is done, and we’re now scaling through the 1→10 phase.\nAs a Google Publishing Partner, we serve 100M+ daily ad impressions and support 5,000+ apps and games worldwide, delivering up to 75% revenue uplift.\nTrusted by Amazon, Dream11, MPL, Sharechat, Treebo, Mobikwik, and 1000+ publishers across 20+ countries.\n\n**📦 The products you’ll own**\n📊 Pubscale: Monetization, user acquisition, revenue uplift, and business-growth analysis in a single place.\n📱 Immersive Ads: Native, non-intrusive ad formats. Smart caching, priority loading, and adaptive refresh deliver better UX and higher monetization without annoying popups.\n🎁 Offerwall: A reward-based engagement layer that monetizes non-paying users through personalized, high-conversion tasks, driving eCPMs up to $1000 in Tier 1 geos and up to 3X more revenue in emerging markets.\n📈 AdX &amp; GROW: Monetization via Google Ad Manager and premium demand partners, plus an AI-driven UA engine (GROW) with free credits and optimization support.\n\n**🎯 What you’ll do**\n* Own product surfaces end to end. Take publisher and internal dashboards (ad unit management, mediation, reporting, monitoring, operational workflows) from a product brief to production. That covers the React screens, the Go APIs, and the data model behind them.\n* Set the frontend bar. Define how we structure components, manage state and server data, handle loading, empty, and error states, and keep data-heavy pages fast, accessible, and responsive.\n* Build and evolve our design system. Grow a shared component library (tables, filters, date-range pickers, charts, forms) so teams ship consistent UI faster.\n* Design the APIs the UI needs. Write and extend Go services, shape response contracts for the client, and make sensible calls on pagination, aggregation, caching, and where computation should live.\n* Work with the data layer. Model and query PostgreSQL, and MongoDB, and work with analytical stores for reporting. Spot slow queries and N+1 patterns before they reach users.\n* Make it reliable. Add monitoring, error tracking, and tests where they matter. Debug production issues across the stack and drive fixes to the root cause.\n* Raise the team’s level. Review code, mentor interns and junior engineers, write clear technical proposals, and explain tradeoffs to product and engineering.\n\n**🔎 What we’re looking for**\n* 4–5 years building production web applications, with most of that time in React.\n* Deep React and TypeScript: hooks, composition, performance profiling, memoization, and when to reach for a state or data-fetching library such as React Query or Redux, and when not to.\n* Strong HTML and CSS fundamentals: layout, responsive design, accessibility (a11y), and attention to visual detail.\n* A track record of shipping complex tables, filters, charts, and dashboards over large datasets, with virtualization, pagination, and efficient re-rendering.\n* Hands-on backend experience in Go (or solid experience in another backend language and a willingness to go deep in Go): REST APIs, concurrency basics, testing.\n* Comfort with relational databases (PostgreSQL) and MongoDB, including schema design, indexing, and query optimization.\n* Experience with the delivery basics: Git workflows, CI/CD, code reviews, and production debugging.\n* Ownership: you scope work, flag risks early, and see features through to adoption.\n\n**✨ Bonus points**\n* Built or maintained a design system or component library.\n* Charting experience (Recharts, ECharts, D3, Highcharts) and data-visualization sense.\n* ClickHouse or BigQuery for analytics and reporting workloads.\n* Ad-tech, analytics, or B2B SaaS dashboard experience.\n* Frontend performance work: bundle splitting, Core Web Vitals, rendering large datasets.\n* Experience building MCP (Model Context Protocol) servers or AI-assisted product features.\n* Startup experience or meaningful freelance or open-source work.\n\n**🤝 What makes you a great fit**\n* You think in screens, flows, and the job a publisher is trying to get done, and you push back when a flow doesn’t serve that job.\n* You write a clean, maintainable React and care about the details users actually notice.\n* You’re as comfortable opening a Go handler or a slow query as you are a component file, and you’ll build the API when the UI needs something that isn’t there yet.\n* You make pragmatic tradeoffs between speed and quality and explain them clearly.\n* You enjoy helping other engineers grow and leave codebases better than you found them.\n\n**🚀 Why GreedyGame**\n* Work on products used by millions, including Pubscale.\n* Real ownership of the screens and services that publishers and internal teams rely on every day.\n* A direct line to the CTO and a seat at the table on technical direction.\n* A learning stipend for books, courses, and conferences (we love curious minds), plus internal blogs.\n* Comprehensive benefits: health insurance, PTO, parental leave, and more.\n* A high-growth, inclusive, engineering-led culture that supports experimentation and impact. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 14.12,
+      "resume_variant": "frontend",
+      "draft_answer": "I've built and owned end-to-end React frontends for reporting portals and compliance platforms, driving client-side UAT and onboarding 80+ client organizations to replace manual workflows. I consistently improved UI responsiveness for data-heavy pages by identifying API bottlenecks, integrating Redis caching to cut fetch latency by 98%, and migrating to Azure Blob Storage to reduce data load times from 15s to 6s.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-27T07:34:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.05,
+            "overlap": 18.21,
+            "combined": 13.2
+          },
+          "backend": {
+            "cosine": 10.12,
+            "overlap": 17.29,
+            "combined": 12.27
+          },
+          "frontend": {
+            "cosine": 11.23,
+            "overlap": 20.87,
+            "combined": 14.12
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.23,
+        "keyword_overlap_score": 20.87,
+        "final_score": 14.12,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1316
+          },
+          {
+            "term": "data",
+            "weight": 0.1128
+          },
+          {
+            "term": "react",
+            "weight": 0.094
+          },
+          {
+            "term": "ui",
+            "weight": 0.0852
+          },
+          {
+            "term": "production",
+            "weight": 0.0752
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-27T07:35:21+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9b2711b737b553f3287a6a18ceef01a6",
+      "source": "wellfound",
+      "company": "transcurators",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/4895702-full-stack-developer",
+      "jd_text": "**ABOUT THE COMPANY** \nWe are building an AI-powered platform that transforms credit origination by automating manual bottlenecks and enabling lenders to process more loans with greater accuracy and lower risk. Our mission is to revolutionize the $3 trillion+ asset-based finance market through advanced AI technology, deep industry expertise, and strategic partnerships. \n\n**THE OPPORTUNITY** \nJoin us at an exciting stage of growth as we build and scale an enterprise-grade financial technology platform. As a Full Stack Engineer, you will play an important role in developing key platform features, including a proprietary decisioning system, robust data security for AI applications, and advanced document-parsing tools. Your work will help automate document verification, data extraction, and decision-support workflows. You will collaborate with experienced engineers in a fast-paced, product-focused environment, working with technologies such as Node.js, PostgreSQL, Python, and React. This is an opportunity to contribute to a high-growth startup, solve real-world financial challenges, and help build scalable AI-powered solutions. \n\n**KEY RESPONSIBILITIES** \n1. Full Stack Development \n● Design, develop, and maintain full-stack web applications using Node.js, Python, PostgreSQL, GraphQL, and React. \n● Build scalable, reliable, and maintainable application features. \n● Develop responsive and efficient user interfaces integrated with robust backend services. \n\n2. AI and Document Processing \n● Build Python-based AI pipelines to automate document processing and underwriting workflows. \n● Contribute to document verification, data extraction, and decision-support capabilities. \n● Support the integration of AI-powered features into the core platform. \n\n3. Collaboration and Product Development \n● Collaborate with product and engineering teams to translate user requirements into scalable, efficient code. \n● Participate in technical discussions and contribute to feature planning and implementation. \n● Work closely with team members to deliver high-quality product features. \n\n4. Performance and Scalability\n● Optimize application performance and ensure efficient data flow and real-time functionality. \n● Identify and resolve technical issues across the application stack. \n● Contribute to architectural decisions that support platform scalability and long-term growth. \n\n5. Code Quality and Deployment \n● Participate in code reviews, testing, debugging, and deployment. \n● Follow software development best practices to ensure code quality, reliability, and maintainability. \n● Contribute to CI/CD pipelines and application deployment processes. \n\n**REQUIRED QUALIFICATIONS** \n● 3+ years of professional experience as a Full Stack Engineer. \n● Strong proficiency in Node.js and PostgreSQL, with experience in Python and hands-on experience with React. \n● Experience developing and maintaining full-stack web applications. \n● Strong understanding of backend development, including RESTful APIs, microservices, and database design. \n● Proficiency in CI/CD pipelines and familiarity with cloud infrastructure. \n● Strong problem-solving and analytical skills. \n● Ability to work independently, take ownership of tasks, and thrive in a dynamic, fast-paced startup environment. \n● Excellent collaboration and communication skills. \n\n**NICE-TO-HAVE SKILLS** \n● Experience with AWS or other cloud platforms. \n● Familiarity with GraphQL and scalable application architectures. \n● Experience integrating AI capabilities into software applications. \n● Exposure to document processing, financial technology, or automated underwriting workflows. \n\n**WHY JOIN US?** \n1. Build Impactful AI Technology Work on an AI-powered platform addressing real-world challenges in financial services and credit origination.\n2. Learn from Experienced Engineers Collaborate with an experienced founding team and engineers with strong technical backgrounds. \n3. Take Ownership and Make an Impact Contribute to important product features and technical decisions while helping build a scalable enterprise platform. \n4. Grow with a High-Growth Startup Work in a collaborative, fast-paced environment that encourages innovation, continuous learning, and professional growth. \n5. Shape the Future of Financial Technology Help transform document processing, underwriting, and credit decisioning through modern software engineering and AI integration. Delhi\nlocationNames: Delhi\nremote: true",
+      "match_score": 13.69,
+      "resume_variant": "fullstack",
+      "draft_answer": "I am a full-stack engineer experienced in delivering FastAPI/React portals and automating 90% of manual reporting workflows, with direct relevance to transcurators' AI-powered platform through my work on facial analysis auto-tagging with AWS Rekognition and containerized LLM tool-calling agents. My proficiency extends to ensuring platform scalability and reliability, evidenced by optimizing API latency by 98% with Redis caching, implementing RabbitMQ for guaranteed delivery under high load, and owning Azure DevOps CI/CD with blue-green releases for zero-downtime rollouts.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-27T07:34:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.32,
+            "overlap": 16.89,
+            "combined": 13.69
+          },
+          "backend": {
+            "cosine": 11.36,
+            "overlap": 16.17,
+            "combined": 12.8
+          },
+          "frontend": {
+            "cosine": 9.37,
+            "overlap": 16.99,
+            "combined": 11.66
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 12.32,
+        "keyword_overlap_score": 16.89,
+        "final_score": 13.69,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2316
+          },
+          {
+            "term": "stack",
+            "weight": 0.1821
+          },
+          {
+            "term": "platform",
+            "weight": 0.1205
+          },
+          {
+            "term": "experience",
+            "weight": 0.1033
+          },
+          {
+            "term": "application",
+            "weight": 0.0861
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-27T07:35:43+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "695b5d9d7f7fc3524a9587133e1f4200",
+      "source": "wellfound",
+      "company": "UniSouk",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/4897424-full-stack-developer",
+      "jd_text": "**Department**: Technology\n**Location**: Surat, Gujarat (on-site)\n**Employment Type**: Full-time, Permanent\n**Experience Required:** 2–4 years\n\n**About UniSouk**\n\nUniSouk is a fast-growing e-commerce technology company building India’s\nnext-generation unified seller platform, integrating major marketplaces,\npayment gateways, logistics systems and analytics tools into a single dashboard.\nWe build scalable SaaS products that simplify digital commerce for small and\nmedium businesses across India.\n\n**Role Overview**\n\nWe are looking for a Full Stack Developer to join our core technology team and\ntake ownership of features end to end — from database and API through to the\ninterfaces our sellers use every day.\nThis is a build role at a product company, not a services or maintenance role.\nYou will work directly on the platform, ship features that go live to real sellers,\nand see the impact of your work in production quickly. The team is small, so the\nscope is wide and the ownership is real.\nWe are specifically looking for someone who wants to build here over several\nyears rather than treat this as a stepping stone. As the platform scales, the people\nwho joined early and understood it deeply will lead the teams that come after\nthem.\nKey Responsibilities\nBackend Development\n●Design, build and maintain backend services, APIs and business logic for\nthe UniSouk platform\n● Build and maintain integrations with marketplaces, payment gateways,\nlogistics providers and analytics tools\n● Design database schemas, write efficient queries and manage data models\nas the platform grows\n● Handle authentication, authorisation and role-based access across the\napplication\n● Write services that handle scale reliably — queues, scheduled jobs, rate\nlimits and third-party API failures\n\n**Frontend Development**\n● Build responsive, performant interfaces for the seller dashboard\n● Translate designs and product requirements into clean, maintainable\ncomponents\n● Manage application state, data fetching and error handling on the client\n● Ensure consistent behaviour across browsers and screen sizes\n\n**Platform &amp; Deployment**\n● Deploy and maintain applications on AWS and CloudFlare.\n● Work with CI/CD pipelines using Git, GitHub and GitHub Actions\n● Monitor application health, investigate production issues and resolve\nthem promptly\n● Contribute to performance optimisation, logging and observability\n\n**Code Quality &amp; Collaboration**\n● Write clean, documented, testable code and participate in code reviews\n● Maintain technical documentation for the systems you build\n● Work with the product and operations teams to translate requirements into\ntechnical solutions\n● Track your work on Zoho Projects, keeping task status and timelines\ncurrent. \nSupport and guide junior developers and interns as the team grows\n\n**Requirements**\n● Bachelor’s degree in Computer Science, Information Technology or a related field\n● 2–4 years of hands-on full stack development experience\n● Strong proficiency in [Node.js /Nest.js] for backend development\n● Strong proficiency in [React.js / Next.js] for frontend development\n● Solid working knowledge of [PostgreSQL / MySQL / MongoDB] including schema design and query optimisation\n● Experience designing and consuming RESTful APIs, and integrating\nthird-party services\n● Working knowledge of Git and collaborative development workflows\n● Familiarity with AWS deployment and cloud infrastructure basics\n● Strong problem-solving ability and willingness to debug unfamiliar\nsystems\n● Able to work on-site in Surat full-time\n\n**Good to Have**\n● Experience building or integrating with e-commerce marketplace APIs (Amazon SP-API, Flipkart, Shopify)\n● Experience with payment gateway or logistics API integrations\n● Exposure to TypeScript, Docker, Redis or message queues\n● Experience in a product or SaaS company rather than services only\n● Prior startup experience, with comfort in a fast-moving, broad-scope\nenvironment\n● Experience integrating AI/LLM APIs and frameworks (e.g., OpenAI,\nAnthropic) into web applications\n\n**Who This Role Suits**\n\nThis role will suit you if you want depth rather than variety — to know one\nproduct thoroughly, own significant parts of it, and grow with it as it scales. It\nwill suit you less if you prefer narrowly defined tickets or want to switch roles\nevery twelve months.\nExpect release periods to be demanding, with occasional availability needed\noutside normal hours when something breaks in production. In return, you get\ngenuine ownership, direct access to the founders, and a say in technical\ndecisions from early on.\n\n**Outstation Candidates**\nWe welcome applications from candidates outside Surat and outside Gujarat.\nPlease note that this is a fully on-site role in Surat.\n-Candidates applying from outside the city should be prepared to relocate independently and join on-site from day one.\nWe would rather be clear about this upfront than have it come up late in the\nprocess.\n\n**What We Offer**\n\n● Direct ownership of product features that reach real users\n● A small, senior team with no layers between you and the decision-makers\n● Clear growth into senior and lead roles as the engineering team expands Surat\nlocationNames: Surat",
+      "match_score": 14.98,
+      "resume_variant": "frontend",
+      "draft_answer": "I’ve built React frontends end-to-end and owned core modules for a cloud-native compliance platform, where I cut reporting API fetch latency by 98% with Redis caching, directly improving perceived UI responsiveness for client organizations. My experience onboarding 80+ client organizations to automated pipelines and optimizing data load times by eliminating API bottlenecks positions me to build scalable SaaS products for a unified seller platform.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-27T07:34:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.6,
+            "overlap": 19.87,
+            "combined": 14.08
+          },
+          "backend": {
+            "cosine": 10.55,
+            "overlap": 18.8,
+            "combined": 13.02
+          },
+          "frontend": {
+            "cosine": 11.62,
+            "overlap": 22.82,
+            "combined": 14.98
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.62,
+        "keyword_overlap_score": 22.82,
+        "final_score": 14.98,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1367
+          },
+          {
+            "term": "platform",
+            "weight": 0.1026
+          },
+          {
+            "term": "api",
+            "weight": 0.0684
+          },
+          {
+            "term": "apis",
+            "weight": 0.0684
+          },
+          {
+            "term": "js",
+            "weight": 0.0684
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-27T07:35:10+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f0bae2ae4307a68bf51a0b39e3caba75",
+      "source": "wellfound",
+      "company": "UniSouk",
+      "role": "IT Security Admin",
+      "url": "https://wellfound.com/jobs/4866997-it-security-admin",
+      "jd_text": "IT Security &amp; Project Management Administrator\n\nCompany: UniSouk\nLocation: India\nDepartment: Technology &amp; Operations\nEmployment Type: Full-Time\nExperience: 3-4 Years\n\nAbout UniSouk\n\nUniSouk is a fast-growing e-commerce technology company building India's next-generation unified\nseller platform that integrates with major marketplaces, payment gateways, logistics systems, and\nanalytics tools — all from a single intuitive dashboard. We are driven by innovation and building\nscalable SaaS products that simplify digital commerce for small and medium businesses across India.\n\nRole Overview\n\n* We are looking for a motivated IT, Security, DevOps &amp; Project Management Administrator with around 2+ years of experience to support UniSouk's internal IT operations and cybersecurity activities, assist with AWS cloud infrastructure and CI/CD workflows, and own the coordination and tracking of projects across the technology and operations teams.\nThis role suits someone who combines hands-on IT administration and security operations with light\nDevOps support and strong organisational skills keeping systems secure and running, supporting\ndeployment pipelines, and keeping projects on schedule using Zoho Projects. It is ideal for a\ndetail-oriented individual who can balance technical support with cross-functional project\ncoordination.\n\nKey Responsibilities\n\nIT &amp; Systems Administration\n\n* Manage day-to-day IT support, user onboarding/offboarding, hardware, software licences, and access provisioning across Google Workspace / Office 365.\n* Administer and maintain endpoints, networking (TCP/IP, DNS, DHCP, VPN), and AWS\n* cloud infrastructure (EC2, S3, IAM, VPC, CloudWatch, RDS).\n* Maintain IT asset inventory, documentation, and SOPs; troubleshoot and escalate complex issues as required.\n\nSecurity Operations\n\n* Implement and monitor security best practices — MFA, SSO, endpoint protection, antivirus, and DLP/EDR tooling.\n* Support monitoring and incident response using SIEM and related tools; maintain access controls and data-protection hygiene.\n* Assist with security audits, policy compliance, and periodic access reviews.\n\nDevOps Support\n\n* Assist with CI/CD workflows using Git, GitHub, and GitHub Actions — supporting builds, deployments, and version control hygiene.\n* Help maintain cloud infrastructure reliability, monitoring, backups, and basic automation scripts.\n* Coordinate with the development team on release schedules and environment management.\n\nProject Management\n\n* Own project planning, tracking, and reporting in Zoho Projects — creating tasks, milestones, timelines, and dashboards.\n* Coordinate across technology, product, and operations teams to ensure deliverables stay on schedule and dependencies are managed.\n* Track progress against plans, flag risks and delays early, and maintain clear status reporting to management.\n* Standardise workflows, templates, and documentation within Zoho Projects to improve team productivity and accountability.\n\nRequired Qualifications\n\n* Bachelor's degree in Computer Science, Information Technology, Cybersecurity, or a related field preferred.\n* Around 2+ years of experience in IT support, system administration, security operations,\n* DevOps support, or a combined IT/project coordination role.\n* Intermediate to expert understanding of:\n* Linux / Windows / macOS operating systems\n* Google Workspace / Office 365\n* Networking fundamentals such as TCP/IP, DNS, DHCP, VPN\n* AWS services such as EC2, S3, IAM, VPC, CloudWatch, RDS\n* Git, GitHub, and GitHub Actions\n* SIEM, SSO, endpoint security, MFA, antivirus, DLP or EDR tools\n* Hands-on experience with a project management tool — experience with Zoho Projects strongly preferred (or a comparable tool such as Jira, Asana, or ClickUp, with willingness to move to Zoho Projects).\n* Strong troubleshooting, documentation, communication, organisation, and problem-solving skills.\n* Willingness to learn advanced IT administration, cybersecurity, DevOps, and project management practices.\n\nIdeal Candidate\n\nThe ideal candidate should have practical hands-on experience, not just theoretical knowledge. They\nshould be able to independently handle routine IT support, assist with AWS and GitHub Actions\nworkflows, apply security best practices, and drive projects to completion through disciplined\ntracking in Zoho Projects coordinating stakeholders, keeping timelines visible, and escalating\ncomplex issues when required. Surat\nlocationNames: Surat",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T07:34:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c07229f4c66eb065a55e8c260f7baee7",
+      "source": "wellfound",
+      "company": "Novyte Materials",
+      "role": "Product Engineer - 2",
+      "url": "https://wellfound.com/jobs/4895626-product-engineer-2",
+      "jd_text": "### Product Engineer\n\n### What [Novyte Materials](https://novyte.ai) does\n* We're building an AI-powered materials discovery platform. Think of it as giving research scientists a copilot that accelerates how new materials are identified, tested, and brought to production.\n* Our stack combines PyTorch Bayesian models, AI agents, LLM toolchains, a FastAPI backend, and a React + Tailwind frontend.\n* We're backed by Theia Ventures, working with real enterprise customers and real scientists, and shipping software that runs on sensitive on-prem GPU infrastructure.\n\n### Why this role exists\n* [Our platform](https://novyte.ai/q) is moving into enterprise deployments, and the product has to keep up. Ideas are coming from everywhere: the AI research team, the design team, our customers, and our own daily use of the product. We need someone who turns those ideas into polished, reliable software.\n* You'll own features end-to-end, from the React UI to the FastAPI endpoint to the database underneath. This isn't a \"maintain what exists\" role. You'll be building from scratch alongside a small, technically sharp team.\n\n### What you'll actually do\n* Ship features across the full product: React/Tailwind frontend, FastAPI backend, and Postgres/MongoDB data layers.\n* Turn research into product. When the AI team has a new Bayesian model, agent workflow, or LLM toolchain, you make it something a scientist can actually use and trust.\n* Work closely with design and implement their vision **exactly**, down to the details that make a tool feel great.\n* Take product ideas from the team, scope them, build them, and improve them after launch.\n* Design clean APIs and data models, and keep queries fast as data and customers grow.\n* Keep our GitHub Actions pipelines healthy and make light infrastructure changes on AWS/GCP when features need them, so the software team ships confidently and often.\n* Build with both deployment modes in mind: cloud and **on-prem/air-gapped installs** where there's no internet to fall back on.\n\n### What we're looking for\n* Someone who loves implementing ideas *perfectly*, with strong instincts for UX, edge cases, and \"this doesn't feel right yet.\"\n* Strong React and modern frontend fundamentals, and comfort with Tailwind.\n* Solid Python/FastAPI experience: you can design and ship backend services, not just call them.\n* Comfortable with PostgreSQL and MongoDB, including schema design and query performance.\n* Working knowledge of GitHub Actions and AWS and/or GCP. You don't need to be an infra expert, just able to keep up.\n* SSH and Linux knowledge is a nice-to-have. The terminal should at least not scare you.\n* You don't need to check every box. We care more about someone who figures things out and takes ownership than someone with a perfect résumé.\n\n### Why join now\n* You'd be early enough to shape the product and the codebase. No legacy systems to inherit.\n* You'll work at the intersection of AI research and product, turning cutting-edge models and agents into software scientists use daily.\n* The team is small, technically strong, and building something with genuine scientific impact.\n* The product is just the start. We have multiple platforms to build, spanning everything from designing perfect polymers to drug discovery to simulating the physics of the chemical world to generate entirely new, undiscovered materials. Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T07:34:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "66989322b9536a89b9b8fad86975ba9c",
+      "source": "wellfound",
+      "company": "Wonder",
+      "role": "Founding AI Engineer | Technical Lead",
+      "url": "https://wellfound.com/jobs/4884661-founding-ai-engineer-technical-lead",
+      "jd_text": "# Founding AI Engineer | Technical Lead\n\n**Company:** WONDER™  \n**Location:** Remote (U.S.) / Dallas, TX preferred  \n**Position:** Founding Team | Pre-Seed  \n***Compensation: Equity-first; salaried compensation anticipated following financing, subject to formal agreement  ***\n**Reports to:** Founder &amp; CEO\n\n***Must be able to start immediately ***\n\n## About WONDER\n\nWONDER is an early-stage AI-native relationship-intelligence company building a new infrastructure for human understanding and connection.\n\nAt the intersection of artificial intelligence, behavioral science, and interpersonal psychology, we're developing systems that help people understand themselves and one another with greater depth, accuracy, and nuance.\n\nOur initial product reimagines dating and relationship formation through multidimensional personal understanding, adaptive AI-driven experiences, and more intentional introductions.\n\nOur longer-term ambition extends beyond dating toward a broader relationship-intelligence ecosystem.\n\nWe have an initial product and early market interest, and are preparing for our first market launch and pre-seed financing.\n\nWe're looking for an exceptional founding technical builder to take ownership of our AI systems, product engineering, and technical execution.\n\n## The Opportunity\n\nThis is a hands-on founding engineering role for someone who wants to build sophisticated AI-native products from the ground up.\n\nWe are not looking for a traditional CTO, engineering manager, technical consultant, or someone whose primary expertise is coordinating development teams.\n\n**We are looking for someone who writes the code, architects the systems, solves the difficult technical problems, and ships the product.**\n\nYou will take ownership of WONDER's technical architecture, AI infrastructure, engineering execution, and production readiness.\n\nYou will work directly with the Founder &amp; CEO to translate ambitious product concepts into reliable, scalable, and commercially viable systems.\n\nThis role offers substantial technical autonomy and the opportunity to shape the foundational architecture of a company at its earliest stage.\n\nYou should be comfortable operating as the primary engineer, making consequential architectural decisions, and executing without an established engineering organization.\n\n## Core Responsibilities\n\n### 1. AI-Native Systems Architecture &amp; Engineering\n\nDesign, build, and maintain the foundational intelligence systems powering WONDER.\n\n- Architect and implement production-grade applications built around large language models and modern AI infrastructure.\n- Develop sophisticated LLM workflows involving structured reasoning, tool use, context management, and multi-stage inference.\n- Build persistent memory and context-retrieval systems that support continuity, personalization, and evolving user understanding.\n- Implement retrieval-augmented generation (RAG), semantic search, embeddings, vector databases, and hybrid retrieval where technically appropriate.\n- Develop structured systems for synthesizing user-provided information into evolving, interpretable representations.\n- Design and implement personalization architectures that adapt to new information, user feedback, and changing preferences.\n- Build reliable orchestration layers for model interactions, background processing, data retrieval, and application logic.\n- Evaluate and integrate appropriate models, APIs, frameworks, and infrastructure providers.\n- Optimize model performance, latency, reliability, and inference costs.\n- Establish evaluation frameworks for output quality, factual grounding, consistency, safety, and system performance.\n\nWe are particularly interested in engineers who understand the distinction between integrating an LLM API and engineering a genuinely AI-native product.\n\n### 2. Behavioral Intelligence &amp; Personalization\n\nDevelop the technical systems that enable WONDER to model, interpret, and respond to complex human information.\n\n- Build architectures for representing multidimensional user characteristics, preferences, interpersonal patterns, and relationship goals.\n- Design structured data models that support nuanced personalization without reducing users to simplistic categories.\n- Develop systems capable of incorporating longitudinal user interactions, reflections, and explicit feedback.\n- Implement mechanisms for updating, correcting, and reconciling user representations as new information becomes available.\n- Translate behavioral-science-informed product requirements into testable computational systems.\n- Develop explainable recommendation and compatibility frameworks that can be evaluated and improved over time.\n- Implement safeguards against unsupported psychological inferences, misleading certainty, and inappropriate use of sensitive personal information.\n- Support user visibility, consent, correction, and control over stored personal information.\n\nThe objective is not to create a system that merely generates convincing psychological language. It is to build an intelligence architecture whose outputs are useful, grounded, testable, and capable of improving through feedback.\n\n### 3. Full-Stack Product Development\n\nOwn end-to-end engineering execution, from product architecture through deployment.\n\n- Evaluate the existing MVP and determine which components should be retained, refactored, extended, or replaced.\n- Build and maintain the frontend, backend, databases, APIs, authentication systems, and integrations necessary to support the product.\n- Implement responsive, performant, and polished consumer-facing interfaces.\n- Develop secure user account systems, onboarding experiences, conversational interfaces, and personalized product features.\n- Design scalable database schemas and application services.\n- Implement analytics, event tracking, monitoring, and error reporting.\n- Establish automated testing, continuous integration, and deployment workflows.\n- Maintain code quality, documentation, version control, and engineering standards.\n- Independently diagnose and resolve technical issues across the application stack.\n\nYou must be capable of shipping complete, functioning products—not just prototypes, model demonstrations, or isolated technical components.\n\n### 4. Production Infrastructure, Security &amp; Reliability\n\nBuild the technical foundation necessary for a real consumer product handling highly personal information.\n\n- Design secure infrastructure for storing and processing sensitive user data.\n- Implement appropriate encryption, authentication, authorization, and access controls.\n- Establish privacy-by-design practices, including data minimization, retention policies, deletion mechanisms, and user consent.\n- Develop reliable logging, monitoring, observability, and incident-response processes.\n- Evaluate third-party model providers and infrastructure dependencies for security, privacy, performance, and cost.\n- Implement safeguards against prompt injection, unauthorized data exposure, and other AI-specific vulnerabilities.\n- Design systems that can support early growth without unnecessary infrastructure complexity.\n- Make pragmatic technical decisions consistent with an early-stage company's financial constraints.\n\n### 5. Product Launch &amp; Technical Ownership\n\nLead the technical execution required to bring WONDER to market.\n\n- Establish and maintain a technical roadmap aligned with launch priorities.\n- Identify the minimum architecture and feature set necessary for a reliable public beta.\n- Convert product specifications into engineering milestones and working releases.\n- Own technical delivery schedules, dependencies, and launch-readiness assessments.\n- Conduct end-to-end testing and resolve critical issues before release.\n- Deploy and maintain production systems.\n- Monitor product performance and rapidly address issues following launch.\n- Use product analytics and user feedback to prioritize technical improvements.\n- Establish a scalable foundation for subsequent product iterations and market expansion.\n\n**You will be accountable for the technical delivery and operation of the product, not simply for advising on how it should be built.**\n\n## Initial 90-Day Expectations\n\nThe successful candidate will establish a mutually agreed technical execution plan with measurable deliverables.\n\n**First 30 Days — Architecture &amp; Assessment**\n\n- Conduct a technical assessment of the existing product and infrastructure.\n- Identify architectural weaknesses, technical debt, security risks, and launch blockers.\n- Produce a prioritized technical roadmap and implementation plan.\n- Establish the development environment, deployment processes, and essential engineering standards.\n- Validate the proposed AI architecture through working technical implementations.\n\n**Days 31–60 — Core Systems Development**\n\n- Build, integrate, or materially improve the priority AI systems.\n- Implement essential personalization, memory, and user-data workflows.\n- Complete the highest-priority application functionality required for beta.\n- Establish automated testing, monitoring, and initial AI evaluation procedures.\n- Demonstrate functioning end-to-end user experiences.\n\n**Days 61–90 — Production Readiness &amp; Launch**\n\n- Complete the agreed beta-critical engineering milestones.\n- Resolve critical reliability, privacy, and security issues.\n- Validate performance, inference costs, and system behavior under realistic usage conditions.\n- Deploy the agreed release to a production or controlled-beta environment.\n- Establish monitoring, incident handling, and a post-launch engineering roadmap.\n\nActual launch timing will depend on product scope, available resources, and technical readiness. Success will be assessed against agreed deliverables, not arbitrary feature counts.\n\n## Required Qualifications\n\nWe care substantially more about what you've built than where you've worked or what degree you hold.\n\n**Technical Experience**\n\n- Demonstrated experience independently building and deploying production software products.\n- Strong hands-on experience developing AI-native applications using modern LLMs and associated infrastructure.\n- Advanced proficiency in Python and/or TypeScript, with the ability to work effectively across the full application stack.\n- Practical experience with LLM APIs, orchestration frameworks, structured outputs, tool calling, and multi-step AI workflows.\n- Experience with embeddings, vector search, retrieval systems, and persistent context or memory architectures.\n- Strong understanding of backend engineering, API design, relational databases, and cloud infrastructure.\n- Experience with production deployment, monitoring, debugging, testing, and performance optimization.\n- Ability to evaluate architectural trade-offs involving latency, inference cost, model capability, privacy, and reliability.\n- Strong software engineering fundamentals and the ability to write maintainable, production-quality code.\n\n**Execution &amp; Ownership**\n\n- Evidence of personally shipping products used by real people.\n- Ability to take an ambiguous product requirement and independently translate it into a working technical implementation.\n- Experience owning systems beyond initial development, including deployment, maintenance, and iteration.\n- Ability to prioritize ruthlessly, work within resource constraints, and distinguish essential engineering from premature complexity.\n- Comfort making technical decisions without relying on a large engineering team.\n- Strong communication skills and the ability to explain technical decisions to a non-engineering founder.\n\n## Particularly Valuable Experience\n\n- Building AI products involving persistent user memory, longitudinal personalization, or adaptive conversational systems.\n- Developing recommendation, matching, ranking, or compatibility systems.\n- Working with structured and unstructured behavioral or conversational data.\n- Experience with model evaluation, fine-tuning, inference optimization, or custom model pipelines.\n- Building consumer AI applications with meaningful engagement and retention.\n- Experience with privacy-sensitive products, consent systems, and secure personal-data infrastructure.\n- Prior founding engineer experience or independently launching a startup.\n- Experience building and shipping mobile applications.\n- Familiarity with behavioral science, psychology, human-computer interaction, or computational social science.\n\nDirect experience training foundation models is not required. However, candidates must understand AI systems deeply enough to make informed architectural decisions beyond basic prompt engineering and API integration.\n\n## Who We're Looking For\n\nYou're a builder before anything else.\n\nYou've probably built products independently, experimented extensively with emerging AI capabilities, and spent considerable time solving engineering problems without being asked.\n\nYou have strong opinions about architecture, but you're pragmatic enough to change your mind when the evidence warrants it.\n\nYou can move between complex AI systems engineering and the practical realities of getting a consumer product into users' hands.\n\nYou're comfortable being the person responsible when something breaks—and capable of fixing it.\n\nYou don't need a large team, elaborate processes, or perfect specifications to make meaningful progress.\n\nYou enjoy the intellectual challenge of turning an unconventional idea into functioning technology.\n\nMost importantly, you're interested in building AI that meaningfully improves human experiences rather than simply automating existing workflows.\n\n## Compensation &amp; Founding Opportunity\n\nWONDER is currently a pre-seed company.\n\nThis is an equity-first opportunity intended for a technically exceptional individual interested in joining at the founding stage.\n\n- Meaningful equity participation, negotiated based on experience, commitment, and scope of responsibility.\n- Equity subject to vesting and definitive agreements.\n- No guaranteed cash compensation is currently available.\n- A salaried arrangement is anticipated following sufficient financing, subject to budget, applicable employment law, and mutually agreed terms.\n- Initial commitment and the potential transition to a full-time role will be discussed before engagement.\n- Upon funding, a competitive market comparable will be offered: $180K-$210K.\n\nThis role involves the financial uncertainty and execution demands associated with building an early-stage venture.\n\nWe are seeking someone interested in meaningful technical ownership and long-term company value creation.\n\n## How to Apply\n\n**Please provide:**\n\n1. **GitHub, portfolio, or shipped products.** Show us something you personally built. Live products and functioning technical systems are strongly preferred.\n2. **Your most technically sophisticated AI project.** Explain its architecture, your individual contribution, the hardest engineering problem, and how you solved it.\n3. **Production experience.** Describe an AI-enabled product you've launched. Include usage, scale, reliability, or other measurable outcomes where available.\n4. **Your approach to AI memory and personalization.** Briefly explain how you would architect a system that develops an evolving understanding of users while preserving privacy, accuracy, and user control.\n5. **Availability and motivation.** Explain your realistic commitment before financing and why an equity-first founding opportunity interests you.\n\nCandidates may be asked to participate in a technical architecture discussion and walkthrough of previously shipped work.\n\n**WONDER™**  \n*There's no greater intimacy than being understood.* Dallas\nlocationNames: Dallas\nremote: true",
+      "match_score": 13.21,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've architected and delivered full-stack, cloud-native platforms end-to-end, including deploying blue-green releases to Azure and optimizing production APIs with Redis and RabbitMQ under high load, directly preparing me to own the technical architecture and production readiness of an AI-native relationship-intelligence product. My experience validating local LLM tool-calling and building secure, real-time multi-device systems for user data will be key to developing the sophisticated LLM workflows and adaptive AI-driven experiences for multidimensional personal understanding.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-27T07:34:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.8,
+            "overlap": 23.51,
+            "combined": 13.22
+          },
+          "backend": {
+            "cosine": 8.2,
+            "overlap": 22.93,
+            "combined": 12.62
+          },
+          "frontend": {
+            "cosine": 7.04,
+            "overlap": 24.76,
+            "combined": 12.36
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.8,
+        "keyword_overlap_score": 23.51,
+        "final_score": 13.21,
+        "top_keywords": [
+          {
+            "term": "technical",
+            "weight": 0.2152
+          },
+          {
+            "term": "ai",
+            "weight": 0.2056
+          },
+          {
+            "term": "user",
+            "weight": 0.1234
+          },
+          {
+            "term": "experience",
+            "weight": 0.1009
+          },
+          {
+            "term": "architecture",
+            "weight": 0.0905
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-27T07:35:54+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "72637b792672a6a7a59bdd33e045ec3b",
+      "source": "wellfound",
+      "company": "Marmeto",
+      "role": "Frontend Developer - Recurpay",
+      "url": "https://wellfound.com/jobs/4372239-frontend-developer-recurpay",
+      "jd_text": "**About Recurpay**\n\nRecurpay powers subscriptions for 7000+ merchants across 98+ countries. We help brands turn one-time buyers into loyal customers through flexible subscriptions.\n\nWe are a small team with high standards. We move fast, challenge assumptions, and care deeply about building solid products.\n\nWe value people who don't wait for instructions, ask the right questions, challenge assumptions and take responsibility for outcomes, not just deliverables. Someone who notices what's broken, asks why things are done a certain way, and takes pride in improving both the product and the way we build it. If you naturally raise standards and make the people around you better, you'll fit right in.\n\n**What you'll own**\n\nYou will own experiences used by thousands of merchants every day, from merchant dashboards and analytics to customer portals and product widgets. You will:\n\n* Develop, optimize, and maintain high-performance UI components across Recurpay product and Shopify widgets.\n* Collaborate with product managers and designers to translate ideas and wireframes\ninto smooth, production-ready features.\n* Challenge requirements instead of blindly implementing them.\n* Integrate with backend APIs and ensure efficient data flows.\n* Partner closely with Product, Design, and Backend teams.\n* Create reusable systems, not one-off solutions. Obsess over performance, edge cases, and delightful UX.\n* Push the team forward through better engineering practices and thoughtful reviews.\n\n**What We're Looking For**\n\nOwnership and Curiosity &gt; Experience\n\nWe are less concerned about years of experience and more interested in how you think.\n\nYou might be a fit if:\n\n* You naturally take responsibility without waiting to be asked.\n* You care about outcomes, not just tickets.\n* You enjoy figuring things out independently.\n* You ask \"Why are we building this?\" before \"How should I build it?\"\n* You sweat details and care about user experience.\n* You continuously learn and experiment.\n* You value speed but never compromise craftsmanship.\n* You enjoy solving problems that nobody has documented yet.\n* You are comfortable with ambiguity and thrive in startup environments.\n* You don't need hand-holding.\n\n**Technical Expectations**\n* Strong understanding of JavaScript, jQuery, React, HTML and CSS.\n* 2-3 years of experience in SaaS, building modern frontend applications.\n* Ability to consume and work with APIs efficiently.\n* Strong debugging and problem-solving skills.\n* Familiarity with Shopify Liquid templates and Storefront APIs\n* Understanding of browser performance and responsive design.\n* Familiarity with Git and modern development workflows. Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 7.12,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T07:34:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.8,
+            "overlap": 8.61,
+            "combined": 5.94
+          },
+          "backend": {
+            "cosine": 4.73,
+            "overlap": 8.27,
+            "combined": 5.8
+          },
+          "frontend": {
+            "cosine": 5.6,
+            "overlap": 10.68,
+            "combined": 7.12
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 5.6,
+        "keyword_overlap_score": 10.68,
+        "final_score": 7.12,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.1144
+          },
+          {
+            "term": "apis",
+            "weight": 0.0858
+          },
+          {
+            "term": "frontend",
+            "weight": 0.07
+          },
+          {
+            "term": "backend",
+            "weight": 0.0572
+          },
+          {
+            "term": "bengaluru",
+            "weight": 0.0572
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "001de1738cc646d9861d15bf0c50706f",
       "source": "wellfound",
