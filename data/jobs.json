@@ -1,15 +1,319 @@
 {
-  "exported_at": "2026-10-27T15:49:33+00:00",
+  "exported_at": "2026-10-27T17:33:47+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 281,
-    "discovered": 1040,
+    "pending_approval": 282,
+    "discovered": 1043,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "e56254dfa9610d3a15600aaf421c4a68",
+      "source": "yc",
+      "company": "Corvera",
+      "role": "Senior Founding Engineer",
+      "url": "https://www.workatastartup.com/jobs/118683",
+      "jd_text": "We're hiring a Founding Engineer to build the agentic platform that runs the next generation of consumer brands.\n\n## 🚀 The Opportunity\n\nCorvera is the AI sales agent for CPG brands.\n\nA brand's next sale might be hiding in an account that stopped ordering, a core SKU missing from shelves, or a distributor running low on stock. The evidence is scattered across distributor feeds, retailer portals, syndicated data and ERPs. Corvera brings it together and identifies what actions the sales team should do next, and soon - executes those actions autonomously.\n\nOur near-term ambition: **enable the next billion-dollar CPG brand to be built by fewer than 10 people**. \n\nThere is serious engineering between here and there. That's the opportunity.\n\n## 📈 Where We Are Now\n\n* Backed by Y Combinator (W26), top 10% of the batch  \n* $0 to $35K MRR in 2 months, with customer demand outpacing capacity. Our plan is to grow 20% MoM all of next year and beyond.  \n* $6.3M raised since October 2025, from leading VCs such as Firstminute Capital, 6 Degrees Capital, 20VC, Rebel Fund, and Y Combinator\n\nWe've proven the urgency. Now we need your help to build the platform that scales it 100x.\n\n## 🧠 The Role\n\nWe’re looking for an experienced engineer who wants to **solve hard problems**, write the code, and help shape both the platform and the company.\n\n**You’ll wear many hats:** architect, product engineer, data engineer, SRE, FDE, AI engineer, and the person who digs into a production failure and fixes it properly. One week you might redesign how we connect a new data source; the next, ship an agent capability or make our infrastructure ready for the next wave of customers. You’ll take work from an ambiguous problem to a solution customers depend on.\n\nAnd **you’ll raise the bar for engineering excellence**. Through the systems you build, the decisions you challenge, and the standards you put into practice, you’ll help us become a team that consistently ships exceptional work. We want your experience, your judgment, and your ambition in the room - and your code in production.\n\n## 🛠 What You'll Actually Build\n\nYou’ll help us solve hard engineering problems including: \n\n* **Enterprise integrations, productized**. NetSuite, Shopify, Xero, Walmart, Target, Amazon, ShipHero, and many more - wrapped behind one provider interface and exposed to the agent through MCP, with in-loop credential refresh.  \n* **Orchestration that never drops the ball**. Schedules, retries, durable execution, full run history, replay, alerts, version control. Every workflow is observable and recoverable - so a Wednesday failure isn't discovered on Friday.  \n* **Ontology -** the brand's business model in writing. A queryable, governed source of truth for what each customer actually means by \"forecast\", \"SKU\", or \"fiscal year-end\". Mappings, calendar rules, metric definitions, constraints, full lineage back to the source file and download time. You'll design the schema and the APIs agents query against it - so business logic stops being re-derived in every spreadsheet.  \n* **The agentic layer.** Build agents that identify sales gaps, make plans, optimize scenarios, and propose actions, eventually executing them too. Make improvement recursive: outcomes and corrections feed evaluations, validated improvements strengthen the next run, and the cycle repeats.  \n* **Observability across the stack**. A turn's full lifecycle inspectable from a single trace ID across Vercel, Render, Daytona/Blaxel, etc.\n\n## 🗓 Your First 90 Days\n\n* **First 30 days:** ship one production integration end to end, behind our provider interface and exposed to the agent through MCP. Learn the stack and our customers' data.  \n* **By day 60:** own orchestration for a customer workflow: retries, run history, replay and alerts, so failures surface the same day.  \n* **By day 90:** ship the first version of the ontology for a live customer (mappings, metric definitions, lineage back to the source file), queried by the agent, with evals in place.\n\n## 🪜 The Stack\n\n* Backend: Python 3.12, FastAPI, React Server Actions, Next.js, MCPs, Eve Agent Harness, vector databases  \n* Frontend: Next.js 16, React 19, Vercel AI SDK, Tailwind, shadcn, Vercel  \n* Data: Supabase / Postgres, Analytical DB agnostic (Snowflake, Bigquery, Redshift, Clickhouse, etc)  \n* Sandboxes: Vercel sandboxes  \n* External: Anthropic, AgentMail  \n* Observability: Grafana  \n* Repo: Turborepo, pnpm, GitHub Actions, isolated PR previews (frontend + backend + DB branch per PR)\n\n## 🧬 What We're Looking For\n\nYou're a great fit if:\n\n* **You've done this before.** You helped take a startup from pre-seed or seed to Series A or B. You personally built the systems that carried it through that growth and can explain where they held up, where they failed, and what you changed.  \n* **You design systems, not just features.** You've given a growing codebase clear module boundaries and small interfaces. You can defend a design against a credible alternative and recognize when the alternative wins.\n\nAnd you have expertise in one or many of these areas:\n\n* **Data modelling and ontologies**. Migrations, schema design, query plans, lock contention. You've modelled domains where business meaning was load-bearing: taxonomies, lineage, versioning, governed terms.  \n* **AI agents.** Agentic harnesses, context management, tools and MCPs, evals, observability, memory and continual learning, search and retrieval, vector databases, knowledge graphs, coding agents and skill generation.   \n* **Software architecture**. You know when to apply architectural patterns including DDD, hexagonal, event-driven, state machines, modular monolith vs services, layered dependencies. SOLID and composition-over-inheritance are muscle memory. Refactors don't scare you.  \n* **Testing and quality**. TDD, integration, canaries, e2e - you know which to reach for.   \n* **SRE and DevOps**. Continuous delivery, blue/green or canary, feature flags, instant rollback. Dashboards, alerts, SLOs, preview envs. You've carried a pager.  \n* **Enterprise integrations.** ERP, 3PL, or retailer portal in your past. NetSuite, Shopify, Xero, SAP, Snowflake -  any is a strong signal.  \n* **Backend in Python**. 4+ years of experience in production. FastAPI / asyncio fluency. You spot event-loop blockers in review.  \n* **Frontend in TypeScript.** 3+ years of experience shipping real Next.js or React.   \n* **Operating velocity.** AI-assisted dev as default - Claude Code, Cursor, Codex. **You dream of building a software factory.**\n\n## 🚫 This role is not for you if\n\n* You need heavy structure or management to be effective.  \n* You want the system settled before you join. It’s your job to build it.  \n* You think \"the agent did it\" is a satisfactory excuse in a post-mortem.\n\n## 🌍 Why Join\n\n* Build from anywhere in LATAM. Work remotely, with regular opportunities to get together in person.  \n* Grow with the company. Join while your decisions can still shape the product, the engineering team, and your own role. Take on bigger challenges as Corvera grows.  \n* Do work that matters to customers. Ship capabilities people use to grow their businesses. See the impact, hear the feedback, and make the next version better.  \n* Help build an exceptional engineering culture. Work with people who care about craft, welcome a challenge, share what they learn, and help each other reach a higher standard.  \n* Have a real stake in what you build. Meaningful equity, a competitive package, and ownership from technical decisions through to production.\n\n## 🥇 Who Are We\n\nWe’re [Christopher Kong](https://www.linkedin.com/in/cwnkong/) (2x founder; ex-CEO of Better Nature; Forbes 30 Under 30), [Dirk Breeuwer](https://www.linkedin.com/in/dirkbreeuwer/) (ex-Google Data & AI Lead), and [Berk Güngör](https://www.linkedin.com/in/berk-g%C3%BCng%C3%B6r-35196a14a/) (Founding Engineer and Head of AI Engineering; 6+ years in applied AI).\n\nChris built and scaled a successful CPG brand, Better Nature, and saw costs rise in step with growth. That's where the vision for an AI-native CPG company came from. Dirk spent 10 years building data infrastructure and AI automation for retail, first at a large multi-Latin conglomerate in Guatemala, then at Google on Pixel. A mutual friend introduced us, and we both knew we were onto something. Dirk quit Google, and within two weeks we'd raised our pre-seed and got into YC.\n\nOur mission: give every CPG sales team an AI agent that finds growth opportunities, builds plans, and turns them into action.\n\nOur ambition: help the next billion-dollar CPG brand get there with fewer than 10 people. We’re building the technology—and the team—to make that possible.\n\n## 📩 Applying\n\nIn your application, include:\n\n1. A link to the most technically ambitious thing you’ve shipped, with one sentence on what made it ambitious.  \n2. One paragraph on the hardest engineering problem you’ve personally solved: the decisions you made, the code you wrote, and what changed because of it.\n jobs_skill 99 PostgreSQL 79 jobs_skill 107 Python 288 jobs_skill 138 TypeScript 45 jobs_skill 224 Data Modeling 2 jobs_skill 331 AI Agents 0 fulltime none\nlocations: \nremote: only\nmin_experience: 4",
+      "match_score": 13.51,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've owned end-to-end delivery of compliance platforms, automating 90% of manual workflows for 80+ client organizations and implementing zero-downtime blue-green deployments with AKS. My experience architecting microservices, optimizing APIs for 98% faster fetch times with Redis, and validating LLM tool-calling reliability directly applies to building the robust agentic platform for consumer brands.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-27T17:33:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.93,
+            "overlap": 19.54,
+            "combined": 13.51
+          },
+          "backend": {
+            "cosine": 10.42,
+            "overlap": 19.17,
+            "combined": 13.05
+          },
+          "frontend": {
+            "cosine": 9.07,
+            "overlap": 18.93,
+            "combined": 12.03
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.93,
+        "keyword_overlap_score": 19.54,
+        "final_score": 13.51,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1833
+          },
+          {
+            "term": "agent",
+            "weight": 0.1222
+          },
+          {
+            "term": "data",
+            "weight": 0.1124
+          },
+          {
+            "term": "team",
+            "weight": 0.0943
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0874
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-10-27T17:33:46+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e11060e9554b56f38fea88b68030be6a",
+      "source": "yc",
+      "company": "IMPACT Drones",
+      "role": "Integration Engineer, Radar and Drone Software (Counter-UAS)",
+      "url": "https://www.workatastartup.com/jobs/114196",
+      "jd_text": "We are Jasper and Alessandro, the founders of Impact Drones (YC S26). Jasper, an aerospace engineer (MSc, TU Delft), has built drones for over a decade, including the Hannover Messe VTOL competition winner, and worked with special forces on the 2025 NATO Summit counter-drone plan; Alessandro (MSc, Columbia) built the pipeline behind our 176M USD in signed LOIs.\n\nWe are hiring an integration engineer for our Warsaw team to connect radars and drones into one system. We do not build radars: we use the best ones, plus whatever a customer already runs, and own the software that turns a radar track into an interceptor launch.\n\nIn March 2026, Iranian drones struck three AWS data centers in the UAE and Bahrain. Fiber-optic FPV drones cannot be jammed. The only thing that stops them is a physical intercept. That is what we build.\n\n**About Impact Drones**\\\nWe sell Air Defense as a Service to civilian critical infrastructure. One container on site senses, decides and launches our interceptors: HUNTER, a kinetic quadcopter in combat in Ukraine against Shahed-class drones; WEAVER, which catches drones intact in a net; and SABLE, our turbojet interceptor.\n\n**What you will own**\n\n* Integrating third-party radars, RF detectors and EO/IR cameras.\n* Fusing their tracks into one air picture.\n* Connecting our drones (PX4, ArduPilot, Betaflight, MAVLink) and customer C2 systems.\n* Test rigs and range tests that prove the chain from detection to launch.\n\n**Your first 3 months**\n\n* Month one: a third-party radar streams live, time-synced tracks into our response software.\n* Month two: radar and camera tracks merge into one air picture that cues a launch, no hand-typed coordinates.\n* Month three: a logged, repeatable detect-to-catch run with WEAVER on the range.\n\n**What you bring**\n\n* You integrated hardware you did not build (a sensor, vehicle or autopilot) and made it work in the field.\n* Strong C++ or Python on Linux.\n* Comfort with networking, time sync, coordinate frames, tracking and sensor fusion.\n\n**Bonus points**\n\n* Counter-UAS, radar or defense work, or ASTERIX, SAPIENT, ONVIF or Remote ID.\n* You fly FPV or build drones.\n\n**Compensation**\n\n* Base salary: PLN 17,000 to 24,000 gross a month, on an employment contract (umowa o pracę).\n* Equity: 0.05% to 0.15% in stock options, 4-year vesting with a 1-year cliff.\n* Start: January 2027, or when your notice ends.\n\n**Where we work**\\\nOn-site in Warsaw with Jasper and the team, plus about one week in four at outdoor ranges in Poland or at customer sites. We work in English; you do not need Polish.\n\n**How to apply**\\\nApply here and answer the one question on the form: which sensor or vehicle you integrated that worked in the field, plus a link if you can. We read every application ourselves.\n\nJasper and Alessandro\n\nYou need the right to work in Poland when you start. Some tasks may need a security check where Polish law requires it.\n\nImpact Drones is an equal opportunity employer. We use your application only for this hiring round, then delete it unless you let us keep it. Warsaw, Masovian Voivodeship, PL jobs_skill 23 C++ 107 jobs_skill 107 Python 288 jobs_skill 135 TCP/IP 17 jobs_skill 171 Linux 14 jobs_skill 215 Embedded Linux 2 jobs_skill 216 Firmware 3 jobs_skill 217 Device Drivers 0 jobs_skill 321 Sensor integration 0 fulltime none\nlocations: Warsaw, Masovian Voivodeship, PL\nremote: no\nmin_experience: 1",
+      "match_score": 4.07,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T17:33:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.55,
+            "overlap": 7.62,
+            "combined": 4.07
+          },
+          "backend": {
+            "cosine": 2.28,
+            "overlap": 7.52,
+            "combined": 3.85
+          },
+          "frontend": {
+            "cosine": 2.43,
+            "overlap": 8.74,
+            "combined": 4.32
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 2.55,
+        "keyword_overlap_score": 7.62,
+        "final_score": 4.07,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.0582
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0578
+          },
+          {
+            "term": "application",
+            "weight": 0.0385
+          },
+          {
+            "term": "built",
+            "weight": 0.0385
+          },
+          {
+            "term": "integrated",
+            "weight": 0.0385
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f7ba314510604a1aaeb6443540161d1e",
+      "source": "yc",
+      "company": "IMPACT Drones",
+      "role": "Senior Software Engineer, Robotics and Flight Software",
+      "url": "https://www.workatastartup.com/jobs/114195",
+      "jd_text": "We are Jasper and Alessandro, the founders of Impact Drones (YC S26). Jasper (TU Delft aerospace MSc) has built drones for over a decade, including the Hannover Messe VTOL competition winner, and worked with special forces on the 2025 NATO Summit counter-drone plan; Alessandro (Columbia MSc) built the pipeline behind our 176M USD in signed LOIs.\n\nWe are hiring one of the first engineers for our Warsaw team, to build the software that decides and launches an interceptor when a hostile drone comes for a data center, an airport or a power grid.\n\nIn March 2026, Iranian drones struck three AWS data centers in the UAE and Bahrain. Fiber-optic FPV drones cannot be jammed. The only thing that stops them is a physical intercept. That is what we build.\n\n**About Impact Drones**\\\nWe sell Air Defense as a Service to civilian critical infrastructure. One container on site senses, decides and launches our interceptors: HUNTER, a kinetic quadcopter in combat in Ukraine against Shahed-class drones; WEAVER, which catches drones intact in a net; and SABLE, our turbojet interceptor.\n\n**What you will own**\n\n* The engagement path in our response software: radar track, operator's release, interceptor in the air.\n* Flight software on WEAVER: launch logic, failsafes and MAVLink to the drone-dock container.\n* Field testing at the range with Jasper, and deciding with him what is ready to fly.\n* Your tools, and a say in who we hire next.\n\n**Your first 3 months**\n\n* Month one: your first flight software change flies on WEAVER.\n* Month two: a live radar track launches WEAVER through your code, on the operator's release.\n* Month three: a full intercept runs on your code: radar track, drone-dock launch, target drone netted.\n\n**What you bring**\n\n* Software you shipped onto real hardware that flew, not only in simulation.\n* Strong C, C++ or Rust on embedded or real-time systems, plus Python.\n* Field tests you ran yourself, and the fixes that came out of them.\n\n**Bonus points**\n\n* You fly FPV or build quads, and have worked in PX4, ArduPilot or Betaflight source.\n* Counter-UAS, defense or aerospace experience.\n\n**Compensation**\n\n* Base salary: PLN 22,000 to 27,000 gross a month, on an employment contract (umowa o pracę).\n* Equity: 0.08% to 0.21% in stock options, 4-year vesting with a 1-year cliff.\n* Start: January 2027, or when your notice ends.\n\n**Where we work**\\\nOn-site in Warsaw with Jasper and the team, plus flight tests at outdoor ranges in Poland. We work in English; you do not need Polish.\n\n**How to apply**\\\nApply here and answer the one question on the form: the hardest thing you built that flew, plus a link if you can share one (repo, video or flight log). We read every application ourselves.\n\nJasper and Alessandro\n\nYou need the right to work in Poland when you start. Some tasks may need a security check where Polish law requires it.\n\nImpact Drones is an equal opportunity employer. We use your application only for this hiring round, then delete it unless you let us keep it. Warsaw, Masovian Voivodeship, PL jobs_skill 20 C 66 jobs_skill 23 C++ 107 jobs_skill 107 Python 288 jobs_skill 118 Rust 17 jobs_skill 215 Embedded Linux 2 jobs_skill 216 Firmware 3 jobs_skill 219 Microcontrollers 3 jobs_skill 321 Sensor integration 0 fulltime none\nlocations: Warsaw, Masovian Voivodeship, PL\nremote: no\nmin_experience: 3",
+      "match_score": 4.68,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T17:33:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.14,
+            "overlap": 8.28,
+            "combined": 4.68
+          },
+          "backend": {
+            "cosine": 2.84,
+            "overlap": 8.27,
+            "combined": 4.47
+          },
+          "frontend": {
+            "cosine": 2.79,
+            "overlap": 8.25,
+            "combined": 4.43
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.14,
+        "keyword_overlap_score": 8.28,
+        "final_score": 4.68,
+        "top_keywords": [
+          {
+            "term": "embedded",
+            "weight": 0.0598
+          },
+          {
+            "term": "team",
+            "weight": 0.0598
+          },
+          {
+            "term": "built",
+            "weight": 0.0593
+          },
+          {
+            "term": "application",
+            "weight": 0.0395
+          },
+          {
+            "term": "code",
+            "weight": 0.0395
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f2f37b924bab16f8b6e08ebefa7dadd3",
+      "source": "yc",
+      "company": "IMPACT Drones",
+      "role": "Autonomy Engineer, Interceptor Drones",
+      "url": "https://www.workatastartup.com/jobs/114197",
+      "jd_text": "We are Jasper and Alessandro, the founders of Impact Drones (YC S26). We are hiring an autonomy engineer for our Warsaw team to make our interceptor drones fly the intercept on their own: from a radar track, to the onboard camera, to a net catch. Jasper (aerospace engineer, MSc, TU Delft) has built drones for over a decade, including the Hannover Messe VTOL competition winner, and worked with special forces on the 2025 NATO Summit counter-drone plan; Alessandro (MSc, Columbia) built the pipeline behind our 176M USD in signed LOIs.\n\nIn March 2026, Iranian drones struck three AWS data centers in the UAE and Bahrain. Fiber-optic FPV drones cannot be jammed. The only thing that stops them is a physical intercept. That is what we build.\n\n**About Impact Drones**\\\nWe sell Air Defense as a Service to civilian critical infrastructure. One container on site senses, decides and launches our interceptors: HUNTER, a kinetic quadcopter in combat in Ukraine against Shahed-class drones; WEAVER, which catches drones intact in a net; and SABLE, our turbojet interceptor.\n\n**What you will own**\n\n* Intercept guidance and control on WEAVER: from a radar cue to the catch.\n* Onboard target detection, tracking and lock-on with EO and thermal cameras.\n* Simulation, bench and flight tests that prove each change.\n\n**Your first 3 months**\n\n* Month one: your first guidance or control change flies on WEAVER at the range.\n* Month two: your onboard tracker locks a target drone in flight and hands it to guidance.\n* Month three: your guidance flies an autonomous intercept from a radar cue, ending in a WEAVER net catch.\n\n**What you bring**\n\n* Guidance, navigation or control code you wrote that flew on a real vehicle.\n* Strong C++ on embedded or real-time systems.\n* Solid GNC and state estimation fundamentals.\n* You debug from flight logs, not only from simulation.\n\n**Bonus points**\n\n* You fly FPV, and have worked in PX4, ArduPilot or Betaflight source.\n* Computer vision on embedded hardware.\n* Interceptor, missile or counter-UAS experience.\n\n**Compensation**\n\n* Base salary: PLN 20,000 to 26,000 gross a month, on an employment contract (umowa o pracę).\n* Equity: 0.08% to 0.20% in stock options, 4-year vesting with a 1-year cliff.\n* Start: January 2027, or when your notice ends.\n\n**Where we work**\\\nOn-site in Warsaw with Jasper and the team, plus flight tests at outdoor ranges in Poland. We work in English; you do not need Polish.\n\n**How to apply**\\\nApply here and answer the one question on the form: the best guidance, control or autonomy result you flew, plus a link if you can share it. We read every application ourselves.\n\nJasper and Alessandro\n\nYou need the right to work in Poland when you start. Some tasks may need a security check where Polish law requires it.\n\nImpact Drones is an equal opportunity employer. We use your application only for this hiring round, then delete it unless you let us keep it. Warsaw, Masovian Voivodeship, PL jobs_skill 20 C 66 jobs_skill 23 C++ 107 jobs_skill 107 Python 288 jobs_skill 211 Computer Vision 5 jobs_skill 215 Embedded Linux 2 jobs_skill 216 Firmware 3 jobs_skill 219 Microcontrollers 3 jobs_skill 321 Sensor integration 0 fulltime none\nlocations: Warsaw, Masovian Voivodeship, PL\nremote: no\nmin_experience: 1",
+      "match_score": 4.19,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T17:33:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.87,
+            "overlap": 7.28,
+            "combined": 4.2
+          },
+          "backend": {
+            "cosine": 2.44,
+            "overlap": 7.52,
+            "combined": 3.96
+          },
+          "frontend": {
+            "cosine": 2.65,
+            "overlap": 8.74,
+            "combined": 4.47
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 2.87,
+        "keyword_overlap_score": 7.28,
+        "final_score": 4.19,
+        "top_keywords": [
+          {
+            "term": "embedded",
+            "weight": 0.0892
+          },
+          {
+            "term": "team",
+            "weight": 0.0594
+          },
+          {
+            "term": "engineer",
+            "weight": 0.059
+          },
+          {
+            "term": "application",
+            "weight": 0.0393
+          },
+          {
+            "term": "built",
+            "weight": 0.0393
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "962aed8040dec2d48822e89569924ac1",
       "source": "wellfound",
