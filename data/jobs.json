@@ -1,15 +1,206 @@
 {
-  "exported_at": "2026-10-27T22:00:13+00:00",
+  "exported_at": "2026-10-27T23:34:06+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 1046,
     "pending_approval": 282,
-    "discovered": 1043,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "6f00e4900a518a77a1653b0e9684fed1",
+      "source": "yc",
+      "company": "Polymath Robotics",
+      "role": "Applications Engineer - San Francisco",
+      "url": "https://www.workatastartup.com/jobs/119086",
+      "jd_text": "### Overview\n\nPolymath builds autonomy software for industrial off-road vehicles — wheel loaders, haul trucks, excavators — deployed at steel mills, mines, and farm. These are different vehicles, in different operational design domains, and different customer environments. That diversity is the challenge: the only way to make bringing up autonomy on vehicle #40 faster than vehicle #4 is to treat autonomy bringup as a system you're continuously improving instead of a checklist re-run by hand every time.\n\nWe're looking for someone who is passionate about automation, treats every manual step as an opportunity to improve the process, and can move fluidly between robotics fundamentals (perception, controls, navigation) and the systems-design thinking that makes those fundamentals scale across vehicle types and environments. Every week, everyone on this team answers — what did you find that was slow, unclear, or manual, and what did you fix or automate. Individually small. Compounded across a team working on many programs, it's the difference between bringup staying a bottleneck or becoming a solved problem.\n\n### Responsibilities\n\n1. **Own vehicle bringup end-to-end** across all three phases — simulation (vehicle model, HAL config, sensor coverage), bench (networking, connectivity, load testing), and on-vehicle (teleop through waypoint autonomy with a safety driver).\n2. **Build and extend automated test suites** — navigation tests, sensor coverage tests, integrator tests — that auto-generate issues on failure instead of requiring manual triage.\n3. **Find the reusable pattern in every one-off.** When a client or integrator asks for something specific, the role requires solving it once and making it available to the next 10 vehicles.\n4. **Support integrators and customers on-site and remotely** during bench and vehicle-testing phases — validate sensor placement against physical reality, debug on the spot or remotely via logs/ROS bags, and document what's on the on-site coverage map.\n5. **Communicate directly with clients and integrators** — Learn about, engage with, and educate customers on various areas of robotics including perception, controls, behavior, path planning, obstacle detection, tracking, and avoidance. Align expectations on what features cover their use case, prepare technical proposals, and explain what we can and can't do today.\n6. **Contribute to our ROS2 architecture** where there is a gap, especially where fixing it once removes a recurring manual step across programs.\n7. **Travel** — is a part of the job, both for sales meetings and onsite technical support, though we try to minimize it as an organization.\n\n### Qualifications\n\n* Strong in one or more of: C++, Python, ROS/ROS2, systems architecture, or test automation frameworks.\n* Prior hands-on experience with robots or autonomous systems — not simulation-only.\n* Evidence you've automated or systematized a manual process before, on any team, in any language. \n* Comfortable being the person who flags a fragile pattern before it becomes a recurring failure.\n* Strong remote debugging skills — able to diagnose issues on a vehicle or integrator setup you can't physically touch, working from logs, ROS bags, and remote sessions, and knowing when an issue genuinely requires being on-site vs. when it doesn't.\n* Comfortable communicating directly with clients and integrators — aligning on requirements, explaining what the system can and can't do today, and translating customer intent into engineering criteria.\n* Excellent written communication — you'll be documenting test coverage, handoff criteria, technical proposals, and integration improvements.\n\n### Why Join Polymath Robotics?\n\n* Collaborative Environment: Work alongside fantastic team members on collaborative projects\n* Hybrid Workplace: Enjoy the flexibility of a hybrid work model, with engineering based in our SF Mission office three days a week, giving a good balance of maker time and synchronization time.\n* Open Source Advocacy: We strongly support open-source robotics efforts, allowing your work to be shareable and publishable whenever possible.\n* Humor &amp; Passion: We might occasionally be a bunch of rosbags, but our passion and humor drive us to accelerate the realization of autonomous vehicles in the industry.\n\n### Application Process:\n\nInterested candidates are invited to submit their resume, and optionally a cover letter detailing their experience and interest in the role, and any relevant portfolio or project links. As part of your application, answer this:\n\n> **Describe a manual or repetitive process you automated or systematized — at any job, on any scale. What was the process before, what did you build, and how did you get the rest of your team to actually adopt it?**\n\nPolymath Robotics is an equal-opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. We don’t look for a “cultural fit”, we look for people who add to the culture. San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 7.86,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T23:34:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.12,
+            "overlap": 14.24,
+            "combined": 7.86
+          },
+          "backend": {
+            "cosine": 4.28,
+            "overlap": 14.29,
+            "combined": 7.28
+          },
+          "frontend": {
+            "cosine": 4.98,
+            "overlap": 16.02,
+            "combined": 8.29
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.12,
+        "keyword_overlap_score": 14.24,
+        "final_score": 7.86,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1417
+          },
+          {
+            "term": "manual",
+            "weight": 0.1126
+          },
+          {
+            "term": "automated",
+            "weight": 0.0563
+          },
+          {
+            "term": "technical",
+            "weight": 0.0563
+          },
+          {
+            "term": "time",
+            "weight": 0.0563
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e6dc9673d03d3b03b970be3e2c0fe5fa",
+      "source": "yc",
+      "company": "Nessie",
+      "role": "Software Engineering Intern",
+      "url": "https://www.workatastartup.com/jobs/118955",
+      "jd_text": "We’re looking for an intern who can build. You’ll work directly with the founders on the shared context layer for recursive companies: a data lake that ingests everything a team produces with AI, an ontology that turns it into trustworthy, typed knowledge, and the loop that lets people and agents improve from it.\n\nThis is not a sandbox project. We’re two people, so you will own a real piece of the product, ship it to real users, and see how they use it. You’ll get a scoped project in week one. By the end, the work you shipped will be live in production.\n\n## What \"build\" means here\n\n* You have shipped something real: a side project, a hackathon build that people actually used, a tool you made for yourself and still use every day. You’ve gone from nothing to working software at least once.\n* You are comfortable learning a new stack quickly. We ship native desktop apps on macOS, Windows, and Linux, a CLI and background daemon, agent integrations, and a cloud backend, across several languages. You don’t need experience in all of these. You do need to pick things up fast.\n* You reach for AI tools instinctively (Claude Code, Cursor, Codex) and you’re faster because of it. If your first instinct under pressure is to stare at the code instead of handing it to an agent, this isn’t the right fit.\n\n## What you might work on\n\nYou’ll own one or two of these, scoped to what you can ship during the internship:\n\n* **Ingestion:** a new source connector, from AI chat apps and coding agents to meeting recorders, notes apps, and email. Cross-provider capture is still the hardest unsolved problem in the space.\n* **Search and retrieval:** making thousands of sessions and documents queryable in milliseconds, across local and cloud.\n* **Self-improving agents:** measuring skill invocations, mining agent traces for failures and repeated workflows, and proposing reviewable edits back to a team’s skills.\n* **Agent-facing surfaces:** our CLI, MCP connector, and plugins, so any AI tool can reach a team’s accumulated context.\n* **Ontology:** derived fields, conflict resolution, and keeping the live state of a company current as new work flows in.\n* **Product polish:** the user experience, from first launch through the features people use every day.\n\n## What you will NOT need\n\n* A specific degree, major, or school\n* A prior internship\n* A perfect resume\n* Permission to try things\n\n## What you will need\n\n* The instinct to ship before it’s perfect\n* Autonomy. You’ll get context, feedback, and fast answers from the founders, but no one will hand you a detailed spec. You get a problem and you figure out how to solve it.\n* Opinions about the products you use. If you’ve never looked at an app and thought “this is wrong and here’s how I’d fix it,” we’re probably not a match.\n* Comfort with ambiguity. The product moves fast, and what matters in week 1 may differ from week 6. That should excite you.\n\n## What we offer\n\n* $4K–$8K per month\n* Expensed meals in office\n* Flight stipend to come to SF\n* Daily work alongside the founders, with code review and mentorship on everything you ship\n* A clear path to a full-time offer for interns who do great work\n\n## About Nessie\n\nKnowledge work is being restructured by AI. Strategy happens in Claude. Research happens in ChatGPT. Building happens in Claude Code and Codex. Meetings get recorded, notes get written, agents run for hours and leave behind traces nobody reads. The people defining the next decade of work are already thinking with AI every day. But none of that thinking compounds. Every session starts from zero. The reasoning behind decisions, the context behind strategies, the evolution of ideas across hundreds of conversations: all of it evaporates.\n\nNessie is the infrastructure that makes it permanent. We auto-sync AI conversations and agent traces across every major provider (ChatGPT, Claude, Gemini, Perplexity, Claude Code, Codex, Cursor, OpenClaw, Hermes, and more) alongside meetings, notes, and email from tools like Granola, Read AI, Plaud, and Obsidian. Everything a team produces with AI flows into one place and compounds over time.\n\nNessie turns that raw, heterogeneous data into an ontology: the live state of a company. Not a static schema but a continuously updated record of what the company knows, what it has decided, who owns what, and how its thinking has evolved, kept current as new work flows in. It is queryable from any agent through our CLI, MCP connector, and plugins, shareable across a team with real permissions, and deployable on-prem for organizations that need it.\n\nThen the loop closes. Once a company’s state is legible to its agents, every agent run becomes training signal: which skills worked, which failed, which workflows keep repeating. Nessie feeds that signal back as reviewable improvements to the skills, prompts, and processes the team runs on. This is what makes a company recursive: its agents get better from its own history, the people working with them get better too, and the compounding never stops.\n\nFounded by two Yale CS grads and former Amazon engineers in San Francisco. Backed by BoxGroup, Pioneer Fund, Y Combinator, Precursor, and more. San Francisco, CA, US intern yes\nlocations: San Francisco, CA, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T23:34:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "db8171b59b681155f56c24c446350a32",
+      "source": "yc",
+      "company": "Circleback",
+      "role": "Growth Engineer",
+      "url": "https://www.workatastartup.com/jobs/119085",
+      "jd_text": "The Role\n\nCircleback grows through the product itself. People get notes from a meeting with someone already using it, like what they see, and try it — then it spreads inside their company.\n\nThis is a growth engineering role for someone who wants to make that loop work better. You'll work closely with our Founding Marketer, who owns channels and brand, while you focus on what happens inside the product. You'll work directly with the founders and ship across the stack as part of a small team.\n\nWhat You'll Do\n\nImprove every step of the product-led loop: the notes a non-user receives after a meeting, signup, onboarding, and activation.\n\nFigure out why Circleback spreads to the whole team at some companies and stays with a few people at others, and build the product changes that close that gap.\n\nBuild and maintain our analytics and experimentation foundation: event instrumentation, attribution, dashboards, and A/B tests the whole team trusts.\n\nImprove retention by learning what keeps people using Circleback long term and getting more people there.\n\nShip in-product growth surfaces like upgrade flows, referral tools, and integrations. You'll work in web (React, Next.js, Prisma, SWR), desktop (Electron, Swift), and mobile (React Native).\n\nWork with the Founding Marketer on what to test, and share what you learn.\n\nYou might be a good fit if\n\nYou've shipped production software, including growth experiments, and you've instrumented a funnel yourself (signup conversion, activation, or retention).\n\nYou're comfortable digging into data yourself, whether that's writing queries or reading a funnel, and you're as happy doing that as shipping a feature.\n\nYou care about users as much as implementation.\n\nYou have strong product judgment and care about experiments that move signup, activation, or retention.\n\nYou're low ego, direct, and comfortable operating without much process.\n\nPeople who've thrived here have often been former founders, early startup engineers, or engineers who've owned features end-to-end. You don't need that exact background—we care much more about how you think and what you've built. San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 3",
+      "match_score": 6.62,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-27T23:34:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.5,
+            "overlap": 7.95,
+            "combined": 5.53
+          },
+          "backend": {
+            "cosine": 3.07,
+            "overlap": 7.14,
+            "combined": 4.29
+          },
+          "frontend": {
+            "cosine": 5.3,
+            "overlap": 9.71,
+            "combined": 6.62
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 5.3,
+        "keyword_overlap_score": 9.71,
+        "final_score": 6.62,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.0664
+          },
+          {
+            "term": "react",
+            "weight": 0.0543
+          },
+          {
+            "term": "directly",
+            "weight": 0.0332
+          },
+          {
+            "term": "user",
+            "weight": 0.0332
+          },
+          {
+            "term": "analytics",
+            "weight": 0.0272
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "e56254dfa9610d3a15600aaf421c4a68",
       "source": "yc",
