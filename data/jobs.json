@@ -1,15 +1,268 @@
 {
-  "exported_at": "2026-10-28T20:51:41+00:00",
+  "exported_at": "2026-10-28T22:25:10+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1049,
+    "discovered": 1054,
     "pending_approval": 283,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "036eb182b69a636c36b940f01b5bb142",
+      "source": "wellfound",
+      "company": "Kawa Space",
+      "role": "Machine Learning Engineer II",
+      "url": "https://wellfound.com/jobs/2999827-machine-learning-engineer-ii",
+      "jd_text": "Delhi Mumbai Bangalore Urban\nlocationNames: Delhi Mumbai Bangalore Urban",
+      "match_score": 1.42,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-28T22:25:07+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.3,
+            "overlap": 0.66,
+            "combined": 1.11
+          },
+          "backend": {
+            "cosine": 1.39,
+            "overlap": 0.75,
+            "combined": 1.2
+          },
+          "frontend": {
+            "cosine": 1.61,
+            "overlap": 0.97,
+            "combined": 1.42
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 1.61,
+        "keyword_overlap_score": 0.97,
+        "final_score": 1.42,
+        "top_keywords": [
+          {
+            "term": "bangalore",
+            "weight": 0.2505
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1252
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2e39ec208f6b76eb30222672ee8d442c",
+      "source": "wellfound",
+      "company": "Solved.Studio",
+      "role": "Builder #1. AI-native.",
+      "url": "https://wellfound.com/jobs/4897585-builder-1-ai-native",
+      "jd_text": "London Oxford\nlocationNames: London Oxford\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-28T22:25:05+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "20474909361c5779294780517c386d0e",
+      "source": "wellfound",
+      "company": "Formi",
+      "role": "Systems AI Engineer",
+      "url": "https://wellfound.com/jobs/4901518-systems-ai-engineer",
+      "jd_text": "Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-28T22:25:01+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d51b7a79278c4e6bc37d732ef9cfe6af",
+      "source": "wellfound",
+      "company": "AuthentiCode",
+      "role": "MERN Stack Developer(Intern)",
+      "url": "https://wellfound.com/jobs/4897577-mern-stack-developer-intern",
+      "jd_text": "Mohali Village\nlocationNames: Mohali Village",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-28T22:24:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "06fcded2a1cc13e0bba36c44e3880aca",
+      "source": "wellfound",
+      "company": "Return Rabbit (By ShipStation Global)",
+      "role": "Software Engineer (Backend - Python + Django)",
+      "url": "https://wellfound.com/jobs/3280557-software-engineer-backend-python-django",
+      "jd_text": "Delhi Gurgaon Mumbai Bangalore Rural Bangalore Urban Gurgoan Gurgaon Gurugram Gurugram Mumbai Mumbai\nlocationNames: Delhi Gurgaon Mumbai Bangalore Rural Bangalore Urban Gurgoan Gurgaon Gurugram Gurugram Mumbai Mumbai\nremote: true",
+      "match_score": 1.81,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-28T22:24:56+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.4,
+            "overlap": 1.32,
+            "combined": 1.38
+          },
+          "backend": {
+            "cosine": 1.95,
+            "overlap": 1.5,
+            "combined": 1.81
+          },
+          "frontend": {
+            "cosine": 1.39,
+            "overlap": 1.94,
+            "combined": 1.55
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 1.95,
+        "keyword_overlap_score": 1.5,
+        "final_score": 1.81,
+        "top_keywords": [
+          {
+            "term": "bangalore",
+            "weight": 0.2151
+          },
+          {
+            "term": "backend",
+            "weight": 0.0538
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0538
+          },
+          {
+            "term": "python",
+            "weight": 0.0538
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "b1661e6b732bd1c2d7582838acaab910",
       "source": "wellfound",
