@@ -1,15 +1,157 @@
 {
-  "exported_at": "2026-10-28T14:56:21+00:00",
+  "exported_at": "2026-10-28T16:32:02+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 1049,
     "pending_approval": 283,
-    "discovered": 1046,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "b1661e6b732bd1c2d7582838acaab910",
+      "source": "wellfound",
+      "company": "Marmeto",
+      "role": "Backend Developer – Integrations & Automation",
+      "url": "https://wellfound.com/jobs/4901481-backend-developer-integrations-automation",
+      "jd_text": "Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 2.33,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-28T16:32:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.61,
+            "overlap": 0.66,
+            "combined": 1.32
+          },
+          "backend": {
+            "cosine": 3.01,
+            "overlap": 0.75,
+            "combined": 2.34
+          },
+          "frontend": {
+            "cosine": 1.5,
+            "overlap": 0.97,
+            "combined": 1.34
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 3.01,
+        "keyword_overlap_score": 0.75,
+        "final_score": 2.33,
+        "top_keywords": [
+          {
+            "term": "bangalore",
+            "weight": 0.3096
+          },
+          {
+            "term": "backend",
+            "weight": 0.1548
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "dace73a0f19fb63b6262b5e8ab6247fd",
+      "source": "wellfound",
+      "company": "FractionAI",
+      "role": "AI Deployment Specialist (DS, DE & SWE)",
+      "url": "https://wellfound.com/jobs/4901453-forward-deployed-engineer-ai-automation-clone",
+      "jd_text": "Bengaluru Delhi Gurgaon Pune Hyderabad Chandigarh Mumbai Kolkata Chennai\nlocationNames: Bengaluru Delhi Gurgaon Pune Hyderabad Chandigarh Mumbai Kolkata Chennai\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-28T16:32:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "45f08f0dc44c3acb6b1d8f91a5895d20",
+      "source": "wellfound",
+      "company": "First Gen Financial",
+      "role": "Business Engineer",
+      "url": "https://wellfound.com/jobs/4452769-business-engineer",
+      "jd_text": "Remote\nlocationNames: Remote\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-28T16:31:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "7ab8cf832203a66b9d382812cd8ca636",
       "source": "wellfound",
