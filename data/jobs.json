@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-28T04:09:15+00:00",
+  "exported_at": "2026-10-28T08:08:15+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "pending_approval": 283,
     "discovered": 1046,
-    "pending_approval": 282,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "7ab8cf832203a66b9d382812cd8ca636",
+      "source": "wellfound",
+      "company": "Onward Assist",
+      "role": "Full Stack Java Developer",
+      "url": "https://wellfound.com/jobs/1664210-full-stack-java-developer",
+      "jd_text": "We are looking for a Java Full Stack developer with **1 - 3 years** of experience with extensive experience in designing, implementing and scaling large scale applications using Java stack. \n\nPlease see the job description below and reach out to us, if you see a fit.\n\n**Job brief**\n\nWe are looking for a Full Stack Developer to produce scalable software solutions. You’ll be part of a cross-functional team that’s responsible for the full software development life cycle, from conception to deployment.\n\nAs a Full Stack Developer, you should be comfortable around both front-end and back-end coding languages, development frameworks and third-party libraries. You should also be a team player with a knack for visual design and utility.\n\nIf you’re also familiar with Agile methodologies, we’d like to meet you.\n\n**Responsibilities**\n\nWork with development teams and product managers to ideate software solutions\nDesign client-side and server-side architecture\nBuild the front-end of applications through appealing visual design\nDevelop and manage well-functioning databases and applications\nWrite effective APIs\nTest software to ensure responsiveness and efficiency\nTroubleshoot, debug and upgrade software\nCreate security and data protection settings\nBuild features and applications with a mobile responsive design\nWrite technical documentation\nWork with data scientists and analysts to improve software\n\n**Requirements**\n\nProven experience as a Full Stack Developer or similar role\nExperience developing desktop and mobile applications\nFamiliarity with common stacks\nKnowledge of multiple front-end languages and libraries (e.g. HTML/ CSS, JavaScript, XML, jQuery\nKnowledge of multiple Java back-end frameworks (e.g. Spring Boot, Play, J2EE) and JavaScript frameworks (e.g. Angular, React, Node.js)\nFamiliarity with databases (e.g. MySQL, MongoDB), web servers (e.g. Apache) and UI/UX design\nExcellent communication and teamwork skills\nGreat attention to detail\nOrganizational skills\nAn analytical mind\nDegree in Computer Science, Statistics or relevant field Hyderabad\nlocationNames: Hyderabad\nremote: true",
+      "match_score": 11.81,
+      "resume_variant": "frontend",
+      "draft_answer": "I have developed and deployed full-stack solutions for large-scale applications, from architecting React frontends for cloud-native platforms that onboarded 80+ client organizations, to scaling backend reporting APIs by 98% through Redis caching, all while continuously honing my Java skills through extensive problem-solving. My work includes cutting data load times by 60% with Azure Blob Storage and streamlining real-time data refresh for active client users, demonstrating my ability to build robust, efficient, and user-centric software solutions.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-10-28T08:07:59+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.72,
+            "overlap": 10.93,
+            "combined": 10.08
+          },
+          "backend": {
+            "cosine": 6.69,
+            "overlap": 10.15,
+            "combined": 7.73
+          },
+          "frontend": {
+            "cosine": 11.47,
+            "overlap": 12.62,
+            "combined": 11.81
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.47,
+        "keyword_overlap_score": 12.62,
+        "final_score": 11.81,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1818
+          },
+          {
+            "term": "applications",
+            "weight": 0.1486
+          },
+          {
+            "term": "experience",
+            "weight": 0.1189
+          },
+          {
+            "term": "java",
+            "weight": 0.1189
+          },
+          {
+            "term": "data",
+            "weight": 0.0595
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-10-28T08:08:14+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "6f00e4900a518a77a1653b0e9684fed1",
       "source": "yc",
