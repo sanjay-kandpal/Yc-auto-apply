@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-10-28T22:25:10+00:00",
+  "exported_at": "2026-10-29T04:32:52+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1054,
+    "discovered": 1055,
     "pending_approval": 283,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "21ef03640c720c4eae846858ceb8f50b",
+      "source": "yc",
+      "company": "Aktoria Robotics",
+      "role": "Forward Deployed Engineer",
+      "url": "https://www.workatastartup.com/jobs/119343",
+      "jd_text": "We're hiring an engineer who enjoys working with customers.\n\n**What you'll do**\n\n\\- Take customer calls and run demos\n\n\\- Set up and support customer deployments\n\n\\- Debug technical issues end to end\n\n\\- Follow up with customers and keep things moving\n\n**What you need**\n\n\\- 1-3 years in an engineering role\n\n\\- Strong Python and Linux skills\n\n\\- Clear, confident communication in English\n\n\\- Ownership from first call to resolution\n\n**Nice to have**\n\n\\- Robotics experience\n\n\\- Customer-facing or startup experience\n\n**Details**\n\n\\- Noida, on-site, full-time\n\n\\- Some evening overlap with US time zones\n\n\\- ₹12-20 LPA Noida, UP, IN Noida, Uttar Pradesh, IN fulltime none\nlocations: Noida, UP, IN Noida, Uttar Pradesh, IN\nremote: no",
+      "match_score": 6.09,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-29T04:32:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.54,
+            "overlap": 3.97,
+            "combined": 3.67
+          },
+          "backend": {
+            "cosine": 2.54,
+            "overlap": 3.76,
+            "combined": 2.91
+          },
+          "frontend": {
+            "cosine": 6.2,
+            "overlap": 5.83,
+            "combined": 6.09
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.2,
+        "keyword_overlap_score": 5.83,
+        "final_score": 6.09,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1315
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1075
+          },
+          {
+            "term": "experience",
+            "weight": 0.1075
+          },
+          {
+            "term": "time",
+            "weight": 0.1075
+          },
+          {
+            "term": "facing",
+            "weight": 0.0812
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "036eb182b69a636c36b940f01b5bb142",
       "source": "wellfound",
