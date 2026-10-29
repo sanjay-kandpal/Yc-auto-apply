@@ -1,15 +1,161 @@
 {
-  "exported_at": "2026-10-29T04:32:52+00:00",
+  "exported_at": "2026-10-29T08:16:25+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1055,
+    "discovered": 1058,
     "pending_approval": 283,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "4067de5abc24d2d9b2f6b2512da95d3d",
+      "source": "wellfound",
+      "company": "Kuku Technologies",
+      "role": "AI Engineer",
+      "url": "https://wellfound.com/jobs/4901349-ai-engineer",
+      "jd_text": "Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-29T08:16:23+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "4d1db652e82cdd9ad1202d87539d0b24",
+      "source": "wellfound",
+      "company": "Loopr AI",
+      "role": "Software Engineer II (Frontend)",
+      "url": "https://wellfound.com/jobs/4897494-software-engineer-ii-frontend-clone",
+      "jd_text": "Pune\nlocationNames: Pune",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-29T08:16:19+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "fb4094d66ec621d475037880519ef9d3",
+      "source": "wellfound",
+      "company": "Scoreify",
+      "role": "Senior Full-Stack Engineer, Server-Side Tracking (Founding Engineer)",
+      "url": "https://wellfound.com/jobs/4903392-senior-full-stack-engineer-server-side-tracking-founding-engineer",
+      "jd_text": "Dubai\nlocationNames: Dubai\nremote: true",
+      "match_score": 2.62,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-29T08:16:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.03,
+            "overlap": 1.66,
+            "combined": 2.62
+          },
+          "backend": {
+            "cosine": 2.28,
+            "overlap": 0.75,
+            "combined": 1.82
+          },
+          "frontend": {
+            "cosine": 1.93,
+            "overlap": 0.97,
+            "combined": 1.64
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.03,
+        "keyword_overlap_score": 1.66,
+        "final_score": 2.62,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.2998
+          },
+          {
+            "term": "stack",
+            "weight": 0.2265
+          },
+          {
+            "term": "server",
+            "weight": 0.1834
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "21ef03640c720c4eae846858ceb8f50b",
       "source": "yc",
