@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-10-30T08:23:30+00:00",
+  "exported_at": "2026-10-30T14:54:40+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1066,
+    "discovered": 1067,
     "pending_approval": 283,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "aecb0f0c517f1e37b57a77a8cd6b1ae4",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Staff Software Engineer (Bangalore, India)",
+      "url": "https://www.workatastartup.com/jobs/119543",
+      "jd_text": "## **About AiPrise**\n\nAiPrise is a global compliance orchestration platform helping fintechs, marketplaces, and payment companies verify and onboard customers worldwide. We integrate with 80+ identity and compliance vendors to deliver a holistic view of risk. We're now building AI-powered compliance agents to revolutionize KYB, AML, sanctions screening, and risk scoring — enabling our customers to onboard faster, reduce manual reviews, and prevent financial crime.\n\n## **Role Overview**\n\nWe're hiring a Staff Software Engineer in Bangalore to set the technical direction for the core platform behind AiPrise's compliance orchestration and AI agent systems.\n\nThis is our most senior individual-contributor role. You will own the architecture of a major part of the platform, lead the hardest multi-quarter technical initiatives across teams, and raise the engineering bar for a team that is growing fast. You'll work directly with the head of engineering, engineering managers, product managers, FDEs, etc. to turn customer and regulatory needs into technical strategy, and then ship it.\n\nWe process verification requests for financial institutions in a regulated environment, so reliability, security, and data integrity are not afterthoughts. If you want a role where your judgment shapes how the platform scales for the next several years, and where you still write code, this is it.\n\n&nbsp;\n\n## **What You'll Do**\n\n### Set technical direction\n\n- Own the architecture and multi-quarter technical roadmap for a core area of the platform: vendor orchestration, case management, platform, or the AI agents\n\n- Lead our largest and most ambiguous technical initiatives end to end: framing the problem, design, sequencing across teams, delivery, and rollout or migration\n\n- Author and review RFCs, run design reviews, and make the hard calls on build vs. buy, consistency vs. speed, and when to pay down debt\n\n- Set the standard for reliability, security, and data integrity in a regulated environment: SLOs, incident response, change management, and audit-readiness\n\n### Scale the platform\n\n- Evolve the orchestration layer to handle 10x verification volume across 80+ vendors: throughput, latency, failover, and cost\n\n- Shape the developer platform (service boundaries, shared libraries, CI/CD, observability) so a fast-growing team can ship safely and often\n\n- Take our AI agent systems from promising to production-grade: evaluation, guardrails, human-in-the-loop workflows, and the data pipelines behind them\n\n- Stay hands-on: prototype the risky parts, unblock critical paths, and ship code that others build on\n\n### Multiply the team\n\n- Act as technical lead and mentor to senior engineers; grow the next generation of tech leads\n\n- Partner with the founders, engineering managers, product, and compliance experts on the roadmap; translate customer and regulatory needs into technical strategy\n\n- Represent engineering with enterprise customers on architecture, security reviews, and integration design\n\n- Help us hire: design interviews, calibrate the bar, and close senior candidates\n\n## What We're Looking For\n\n### Must-have\n\n- 9+ years building and operating production systems, with at least 2 years at Staff-level scope: setting technical direction for multiple teams or a major system\n\n- A track record of leading cross-team technical initiatives from an ambiguous problem to a shipped, adopted result\n\n- Deep expertise in distributed systems and backend architecture: service design, data modeling, API design, event-driven systems, consistency trade-offs, and failure modes\n\n- You have designed, scaled, and operated high-throughput, high-reliability systems, and carried the pager for them\n\n- Strong in at least one of Python, Go, or TypeScript/Node.js; comfortable working across the stack when the problem calls for it\n\n- Writing that changes decisions: RFCs, design docs, and postmortems that a team can act on\n\n- Experience mentoring senior engineers and measurably raising an organization's engineering standards\n\n- Judgment about when to be pragmatic and when to insist, and the credibility to carry either call with founders and peers\n\n### Nice-to-have\n\n- Experience in FinTech, RegTech, payments, identity verification, or fraud/risk detection, and working knowledge of KYC/KYB, AML, and sanctions screening\n\n- Built or operated a platform that integrates dozens of third-party vendors: response normalization, failover, rate limits, and vendor observability\n\n- Shipped production LLM or ML systems: evaluation, guardrails, cost and latency management, document intelligence\n\n- Security and compliance engineering: SOC 2 or ISO 27001, data residency, encryption, audit trails\n\n- Helped an engineering team grow several-fold while keeping quality and velocity up\n\n- Frontend experience (React, TypeScript) for internal tools and case management UI\n\n## Success in This Role Looks Like\n\n- **In 1 month:** You understand the platform end to end, have shipped a meaningful improvement to a critical path, and have published an RFC with a clear point of view on our highest-leverage technical problem. You've taken on technical leadership of a core area.\n\n- **In 3 months:** You're leading a cross-team initiative with a defined roadmap and visible progress. Design reviews and RFCs are a working habit across the team, not a ritual. At least one reliability or velocity metric has moved because of your work.\n\n- **In 3 months:** The architecture for the platform's next phase is defined and delivered. Senior engineers you've mentored are leading their own initiatives. The founders and engineering managers treat you as the technical counterpart for the hardest calls.\n\n## Why AiPrise\n\n- **Direct impact:** Your decisions shape infrastructure that processes millions of verifications and fights financial crime for leading financial institutions\n\n- **Hard problems:** Compliance, AI, fraud detection, and distributed systems, across data from 200+ countries and 80+ vendors\n\n- **Real ownership:** Set technical direction for the platform at the stage where it matters most\n\n- **Fast loop:** Your code reaches production in days, not months\n\n- **The team:** Work in person with a mission-driven team in Bangalore, alongside the founders\n\n- **Compensation:** Competitive salary, meaningful equity, and comprehensive benefits\n\n&nbsp;\n\n# **About the interview**\n\n1. Remote: Exploratory DSA Round\n\n2. In-office\n\n3. Remote: Behavioural (Head of Engineering)\n\n4. Remote: Compensation Discussion\n\n Bengaluru fulltime yes\nlocations: Bengaluru\nremote: no\nmin_experience: 8",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-30T14:54:33+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "844feab80b8e088525881f52ff2e63fe",
       "source": "wellfound",
