@@ -1,15 +1,268 @@
 {
-  "exported_at": "2026-10-30T04:32:19+00:00",
+  "exported_at": "2026-10-30T08:23:30+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1061,
+    "discovered": 1066,
     "pending_approval": 283,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "844feab80b8e088525881f52ff2e63fe",
+      "source": "wellfound",
+      "company": "LearnTube.ai (backed by Google)",
+      "role": "Senior Backend Engineer - FastAPI",
+      "url": "https://wellfound.com/jobs/3301948-senior-backend-engineer-fastapi",
+      "jd_text": "Mumbai\nlocationNames: Mumbai\nremote: true",
+      "match_score": 3.42,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-30T08:23:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.74,
+            "overlap": 0.99,
+            "combined": 2.22
+          },
+          "backend": {
+            "cosine": 4.4,
+            "overlap": 1.13,
+            "combined": 3.42
+          },
+          "frontend": {
+            "cosine": 2.27,
+            "overlap": 1.46,
+            "combined": 2.02
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 4.4,
+        "keyword_overlap_score": 1.13,
+        "final_score": 3.42,
+        "top_keywords": [
+          {
+            "term": "backend",
+            "weight": 0.1757
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1757
+          },
+          {
+            "term": "fastapi",
+            "weight": 0.1757
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1231e90ee222106424b3d5a6483f18b7",
+      "source": "wellfound",
+      "company": "Medicare Pal",
+      "role": "Software Deloper",
+      "url": "https://wellfound.com/jobs/4903568-software-deloper",
+      "jd_text": "Remote\nlocationNames: Remote\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-30T08:23:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0c02e989d2eca7a99a1fbe66a35d4a1a",
+      "source": "wellfound",
+      "company": "IUNGO Technology",
+      "role": "Senior AI Integration Engineer",
+      "url": "https://wellfound.com/jobs/4901608-senior-ai-integration-engineer",
+      "jd_text": "Texas\nlocationNames: Texas\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-30T08:23:21+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "10c463ea08d3642536d71e0a8d884d09",
+      "source": "wellfound",
+      "company": "Avacasa",
+      "role": "Founders Office - Tech - Equity",
+      "url": "https://wellfound.com/jobs/4938717-founders-office-tech-equity",
+      "jd_text": "Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-30T08:23:18+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3194b5591038859ca6693a8a45958deb",
+      "source": "wellfound",
+      "company": "Nova Legal Funding",
+      "role": "Full-Stack Developer: help ship a real CRM built with AI (Next.js + Supabase)",
+      "url": "https://wellfound.com/jobs/4903378-full-stack-developer-help-ship-a-real-crm-built-with-ai-next-js-supabase",
+      "jd_text": "Los Angeles\nlocationNames: Los Angeles\nremote: true",
+      "match_score": 4.87,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-30T08:23:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.61,
+            "overlap": 1.99,
+            "combined": 4.52
+          },
+          "backend": {
+            "cosine": 4.84,
+            "overlap": 1.5,
+            "combined": 3.84
+          },
+          "frontend": {
+            "cosine": 6.12,
+            "overlap": 1.94,
+            "combined": 4.87
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.12,
+        "keyword_overlap_score": 1.94,
+        "final_score": 4.87,
+        "top_keywords": [
+          {
+            "term": "built",
+            "weight": 0.1235
+          },
+          {
+            "term": "js",
+            "weight": 0.1235
+          },
+          {
+            "term": "real",
+            "weight": 0.1235
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "0b046dd89f866c5d4e561b5fda26f5c2",
       "source": "wellfound",
