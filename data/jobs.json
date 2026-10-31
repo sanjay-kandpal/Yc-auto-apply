@@ -1,15 +1,412 @@
 {
-  "exported_at": "2026-10-31T04:13:07+00:00",
+  "exported_at": "2026-10-31T08:13:45+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1068,
+    "discovered": 1077,
     "pending_approval": 283,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "b11e4458c82593c54ad2c2fa9ab86c2c",
+      "source": "wellfound",
+      "company": "Infocusp Innovations",
+      "role": "Sr LLM Engineer",
+      "url": "https://wellfound.com/jobs/4938783-senior-llm-engineer-3-years-clone",
+      "jd_text": "Pune Ahmedabad\nlocationNames: Pune Ahmedabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-31T08:13:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7cd2c8c74917cc76552453e039bd6f73",
+      "source": "wellfound",
+      "company": "Octasence OÜ",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/4939358-full-stack-developer",
+      "jd_text": "Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 2.79,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-31T08:13:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.56,
+            "overlap": 0.99,
+            "combined": 2.79
+          },
+          "backend": {
+            "cosine": 2.42,
+            "overlap": 0.38,
+            "combined": 1.81
+          },
+          "frontend": {
+            "cosine": 2.81,
+            "overlap": 0.49,
+            "combined": 2.11
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.56,
+        "keyword_overlap_score": 0.99,
+        "final_score": 2.79,
+        "top_keywords": [
+          {
+            "term": "bengaluru",
+            "weight": 0.4367
+          },
+          {
+            "term": "stack",
+            "weight": 0.3299
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6bc25d6d56ed6e16a364d4033c9abd1d",
+      "source": "wellfound",
+      "company": "EveoAI",
+      "role": "AGI Model -ML DL Researcher",
+      "url": "https://wellfound.com/jobs/4889872-ai-ml-engineer-clone",
+      "jd_text": "India Delhi Pune Hyderabad Rajkot Ahmedabad Surat Mumbai Gujarat Thane Bangalore Rural Bangalore Urban Pune Surat Ahmedabad Mumbai\nlocationNames: India Delhi Pune Hyderabad Rajkot Ahmedabad Surat Mumbai Gujarat Thane Bangalore Rural Bangalore Urban Pune Surat Ahmedabad Mumbai\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-31T08:13:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "6d78fcbf7da7a49641f2232b60439ede",
+      "source": "wellfound",
+      "company": "EveoAI",
+      "role": "NLP Engineer",
+      "url": "https://wellfound.com/jobs/2859940-nlp-engineer",
+      "jd_text": "India Pune Jaipur Rajkot Ahmedabad Surat Indore Vadodara Mumbai Udaipur Rajasthan Gujarat Assam Ahmedabad\nlocationNames: India Pune Jaipur Rajkot Ahmedabad Surat Indore Vadodara Mumbai Udaipur Rajasthan Gujarat Assam Ahmedabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-31T08:13:40+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "00b95ed2efa8b8e1f9257bfc6654ef12",
+      "source": "wellfound",
+      "company": "Tealbite",
+      "role": "Software Developer (Full-Time, Remote – Canada)",
+      "url": "https://wellfound.com/jobs/4943338-software-developer-full-time-remote-canada",
+      "jd_text": "Toronto\nlocationNames: Toronto\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-31T08:13:37+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "180953877c33cd2c2c4230dd9ea8572b",
+      "source": "wellfound",
+      "company": "EAG Softwares",
+      "role": "Job Description: Salesforce Developer | Bangalore | Immediate Joiners",
+      "url": "https://wellfound.com/jobs/4943161-job-description-salesforce-developer-bangalore-immediate-joiners",
+      "jd_text": "Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-31T08:13:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "073e21a1a40561345fc234fd3ddba997",
+      "source": "wellfound",
+      "company": "Round Robin Solutions",
+      "role": "Full Stack Developer",
+      "url": "https://wellfound.com/jobs/4943155-full-stack-developer",
+      "jd_text": "New Delhi\nlocationNames: New Delhi\nremote: true",
+      "match_score": 0.81,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-31T08:13:31+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.87,
+            "overlap": 0.66,
+            "combined": 0.81
+          },
+          "backend": {
+            "cosine": 0.0,
+            "overlap": 0.0,
+            "combined": 0.0
+          },
+          "frontend": {
+            "cosine": 0.0,
+            "overlap": 0.0,
+            "combined": 0.0
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 0.87,
+        "keyword_overlap_score": 0.66,
+        "final_score": 0.81,
+        "top_keywords": [
+          {
+            "term": "stack",
+            "weight": 0.2219
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3d9d63c6fa299fae780ca11c376175ed",
+      "source": "wellfound",
+      "company": "Round Robin Solutions",
+      "role": "AI Engineer",
+      "url": "https://wellfound.com/jobs/4943157-ai-engineer",
+      "jd_text": "New Delhi\nlocationNames: New Delhi\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-31T08:13:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7550a839cd42a2099f849e16cd409058",
+      "source": "wellfound",
+      "company": "OtterChain",
+      "role": "Software and AI engineer",
+      "url": "https://wellfound.com/jobs/4943287-software-and-ai-engineer",
+      "jd_text": "United Kingdom\nlocationNames: United Kingdom\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-10-31T08:13:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "8463c6a0ed326308715992c21d49a807",
       "source": "wellfound",
