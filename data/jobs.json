@@ -1,15 +1,260 @@
 {
-  "exported_at": "2026-11-02T17:53:55+00:00",
+  "exported_at": "2026-11-02T20:08:39+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1090,
+    "discovered": 1095,
     "pending_approval": 283,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "09f02c4acaaff04f872de2defb5c1c71",
+      "source": "wellfound",
+      "company": "Gyrus.AI",
+      "role": "AI/ML Engineer",
+      "url": "https://wellfound.com/jobs/447840-ai-ml-engineer",
+      "jd_text": "Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 4.92,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-02T20:08:37+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.28,
+            "overlap": 0.66,
+            "combined": 4.6
+          },
+          "backend": {
+            "cosine": 6.71,
+            "overlap": 0.75,
+            "combined": 4.92
+          },
+          "frontend": {
+            "cosine": 5.2,
+            "overlap": 0.97,
+            "combined": 3.93
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 6.71,
+        "keyword_overlap_score": 0.75,
+        "final_score": 4.92,
+        "top_keywords": [
+          {
+            "term": "bengaluru",
+            "weight": 0.5376
+          },
+          {
+            "term": "ai",
+            "weight": 0.3288
+          },
+          {
+            "term": "engineer",
+            "weight": 0.2688
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "943588427717675f6bcd4dceddae9f5d",
+      "source": "wellfound",
+      "company": "Gyrus.AI",
+      "role": "Computer Vision Engineer",
+      "url": "https://wellfound.com/jobs/2360186-computer-vision-engineer",
+      "jd_text": "Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-02T20:08:34+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ae4a24876f1c7384e052bfbdb050d7ef",
+      "source": "wellfound",
+      "company": "Hexon Data Sdn Bhd",
+      "role": "Backend Software Engineer (Node.js)",
+      "url": "https://wellfound.com/jobs/4965688-backend-software-engineer-node-js",
+      "jd_text": "Petaling Jaya\nlocationNames: Petaling Jaya",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-02T20:08:31+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e76405356bc87a2f54143525f49cad72",
+      "source": "wellfound",
+      "company": "SquareYards",
+      "role": "Full Stack Engineer | NodeJS / ExpressJS / ReactJS / MySQL | Mumbai (In-Office) | 1 Year Experience",
+      "url": "https://wellfound.com/jobs/4129463-full-stack-engineer-nodejs-expressjs-reactjs-mysql-mumbai-in-office-1-year-experience",
+      "jd_text": "Mumbai\nlocationNames: Mumbai",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-02T20:08:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d7315410e7c9a5d8874a6298e3487b33",
+      "source": "wellfound",
+      "company": "xloop digital",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4965695-software-engineer",
+      "jd_text": "California\nlocationNames: California\nremote: true",
+      "match_score": 0.97,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-02T20:08:25+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.94,
+            "overlap": 0.33,
+            "combined": 0.76
+          },
+          "backend": {
+            "cosine": 1.0,
+            "overlap": 0.38,
+            "combined": 0.82
+          },
+          "frontend": {
+            "cosine": 1.17,
+            "overlap": 0.49,
+            "combined": 0.96
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 1.17,
+        "keyword_overlap_score": 0.49,
+        "final_score": 0.97,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1814
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "7f6fb0c32c22f19916582f54519d56fb",
       "source": "yc",
