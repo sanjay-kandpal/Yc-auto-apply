@@ -1,15 +1,282 @@
 {
-  "exported_at": "2026-11-03T17:39:56+00:00",
+  "exported_at": "2026-11-03T19:08:51+00:00",
   "daily_cap": 5,
   "submitted_today": 1,
   "counts": {
-    "discovered": 1103,
+    "pending_approval": 284,
+    "discovered": 1106,
     "submitted": 10,
-    "pending_approval": 283,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "a005c1f4471ae071e701e90ef05a3a14",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Senior Engineer, Data Model & Agent first building",
+      "url": "https://www.workatastartup.com/jobs/120233",
+      "jd_text": "# The role\n\nYou own the ontology at the heart of Brickanta: how we structure data, how it gets in, and how the codebase is built around it. You are also a central part in how we prove changes to the codebase, so that us as a fast moving AI enabled team can move even faster without slop clean up and reviewing becomes the bottleneck.\n\nBrickanta is the agentic platform for construction. Agents read tender documents, extract requirements, check them against what a contractor knows about itself, and draft bids, reviews and change orders. Every answer is only as good as the data that is available to the agents.\n\nThat model is hard to get right. Tenders arrive as bundles of PDFs, drawings and spreadsheets, revised mid-process. The same requirement appears in several documents in different words. Customers are groups with dozens of subsidiaries. Turning that into clean, versioned objects takes real skill and experience.\n\n# What you'll own\n\n**1. The ontology**\n\n* The objects everything rests on: organisations and subsidiaries, projects, documents and versions, requirements (krav), company facts, standards, bids and their answers. How they relate, version and carry provenance, so every agent answer traces to a document, page and fact.\n* The pipelines that fill it: parsing, extraction, entity resolution and backfills that turn raw documents into those objects and rerun cleanly when the model changes.\n* Permissions and tenant isolation across groups with dozens of subsidiaries.\n* How the codebase is structured around it: schema, migrations that ship daily without breaking what's live, and the typed tools agents use to read and write it.\n\n**2. Shipping at agent speed**\n\n* Evals and verification by default: every change to the ontology, a pipeline or a prompt comes with evidence it works.\n* Rules and playbooks for the repo: how code is structured, tested and shipped, so engineers and coding agents build the same way.\n* The systems that take review off the critical path: automated checks and small, verifiable changes, so reviewers judge decisions instead of reading every diff.\n\n**First 90 days**\n\n**Day 30**\n\nUnderstand where we stand with the current data model. Improvements to the existing data structures shipped to production.\n\n**Day 60**\n\n3 more concepts modelled and integrated into the product. Map out and experiment with how we can improve our codebase to enable us to run event faster with agents.\n\n**Day 90**\n\nEntire product team is shipping on top of your data model and we as a team are moving faster than ever.\n\n# How we build\n\nAgents write most of our code (Cursor, Claude Code, Devin). Writing code is no longer the slow part. Judgement and proof are: the model, the interfaces, and knowing a change works without someone reading every line.\n\nWe like how Lauren Tan (poteto) at Cursor frames it in [pstack](https://github.com/cursor/plugins/tree/main/pstack): don't let agents just write more code. Go deep and get it right first, leave verifiable evidence, and only then run agents in parallel. Few teams have made that work across many engineers. You'll help us do it.\n\n# Must-haves\n\n* You have designed and owned the data model of a product customers depend on, and evolved it through migrations and backfills.\n* You have built pipelines that turn messy, unstructured documents into structured data people trust.\n* Strong in TypeScript and/or Python, with relational and reactive databases.\n* You have built LLM features in production: tool use, retrieval, structured output, evals.\n* You ship with coding agents daily and know how to verify their work without reading every line.\n* You write clearly. Decisions and interfaces get written down.\n* Fluent English.\n\n# Nice-to-haves\n\n* Document-heavy domains: legal, construction, procurement, compliance.\n* Ontology, knowledge-graph or entity-resolution work.\n* Convex or Cloudflare Workers.\n* You have built eval harnesses, CI checks or MCP servers other engineers rely on.\n* Swedish.\n\n# Practical\n\n**Team**\n\nProduct &amp; Engineering, reporting to Linus Bein Fahlander (CTO &amp; co-founder), working daily with CJ (Engineering Team Lead)\n\n**Location**\n\nOn-site by default, Linnégatan 89B, Stockholm\n\n**Level**\n\nSenior. What you've built matters more than years\n\n**Comp**\n\nCompetitive salary and equity\n\nBrickanta is backed by Northzone and Y Combinator and works with some of the largest contractors in the Nordics. Stockholm, Stockholm County, SE fulltime yes\nlocations: Stockholm, Stockholm County, SE\nremote: no\nmin_experience: 3",
+      "match_score": 10.03,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've designed and owned core data models for compliance platforms, architecting pipelines that transform complex manual reporting into structured data while managing multi-tenant access for 80+ client organizations. My experience optimizing performance with Redis caching (98% faster fetch latency) and implementing blue-green CI/CD with Azure DevOps, alongside validating LLM tool-calling reliability, aligns with building and verifying the underlying data model for the agentic platform for construction.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-03T19:08:32+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.94,
+            "overlap": 12.58,
+            "combined": 10.03
+          },
+          "backend": {
+            "cosine": 8.82,
+            "overlap": 13.16,
+            "combined": 10.12
+          },
+          "frontend": {
+            "cosine": 6.61,
+            "overlap": 14.56,
+            "combined": 9.0
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.94,
+        "keyword_overlap_score": 12.58,
+        "final_score": 10.03,
+        "top_keywords": [
+          {
+            "term": "agents",
+            "weight": 0.2182
+          },
+          {
+            "term": "model",
+            "weight": 0.1697
+          },
+          {
+            "term": "data",
+            "weight": 0.1586
+          },
+          {
+            "term": "team",
+            "weight": 0.1497
+          },
+          {
+            "term": "built",
+            "weight": 0.0991
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-11-03T19:08:49+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9523ae2975add18cfdd7e7f8ccf09352",
+      "source": "yc",
+      "company": "AIOS",
+      "role": "Product Expansion Lead at AIOS — Remote, $200k–$400k/yr + 0.15%–0.50% equity",
+      "url": "https://www.workatastartup.com/jobs/120272",
+      "jd_text": "# About AIOS\n\n**AIOS is building the world’s first full-stack AI doctor.**\n\nWe’re at $450M ARR, growing from $7M/yr in April 2025. We’re faithfully serving 200k/mo patients via Bolt Pharmacy, our main UK brand. We’ve just launched Bolt Med, our international brand. We’re profitable.\n\nOur strategy exists at the intersection of two strong theses:\n\n1. The AI doctor that wins will get to escape velocity using GLP-1s, the fastest growing consumer product in history.\n\n2. The $2T European healthcare market is overlooked by the most talented builders.\n\nOur master plan:\n\n- **Step 0 → $100M/yr by end of 2025** : We went from $10M to $100M in 6 months serving the UK GLP-1 market.\n\n- **Step 1 → $1B ARR by end of 2026** : Since April 2025 we've grown from 3k to 200k UK active GLP-1 patients. We’ll continue this growth curve to hit $1B ARR.\n\n- **Step 2 → $10B ARR by end of 2028** : Blitzscale Europe. We’ll be Europe’s largest GLP-1 provider.\n\n- **Step 3 → $100B/yr by end of 2030** : Get regulatory approval across Europe for our Full Autonomous Prescribing (FAP) system. Win contracts at scale with European payers to mass replace human labor. We’ll be the dominant full-stack AI doctor in Europe.\n\n- **Step 4 → $1T/yr by end of 2035** : With one line of code and zero human time, you can use AIOS to treat any patient globally with any medication.\n\nIn so doing, we’ll become the world’s first trillion-dollar healthcare company.\n\nWe’re a young, founder-led company. This is still Day 1 and all our work is ahead of us.\n\nYou can read more about working with us here: [Working at AIOS](https://app.notion.com/p/Working-at-AIOS-5b5c0a584af44de78ac7fb9b2cf8d993?pvs=21)\n\n## Being the Product Expansion Lead at AIOS\n\nWe’re building a world-class team.\n\nAs Product Expansion Lead at AIOS, your fundamental role is to drive new category growth.\n\nThe rest of the org will stay maniacal about their One Thing (global GLP-1 uptake), while your One Thing will be launching and scaling non-GLP-1 products. We’re currently live with 0 non-GLP-1 products, so this is very much a builder role.\n\nIf it’s not a GLP-1, you’ll stay the overall DRI in perpetuity: from TOF acquisition through to retention, and everything in-between. You’ll build a lean, killer team under you as the function grows, but to start with it’ll be on you to run the entire motion.\n\nYou’ll:\n\n- Analyze the market to identify which products to launch\n\n- Own the growth strategy: Creative, Performance, Funnel work, organic, and lifecycle\n\n- Work across Clinical, Product, and Ops teams to make sure protocols, supply chains, and productization are in place for every new category\n\nGreat performance in this role means average order value (AOV), incremental LTV, and cross-sell rate all improve, starting with our UK business. If you really nail the role, you’ll be a leading candidate for future senior growth roles (VP Growth, CGO).\n\n**This is a full-time, fully remote role** , and you’ll work async in the timezone of your choice — as long as you’re around until midday Pacific Time for calls as needed.\n\nYou’ll report directly to me, [Richie](https://www.linkedin.com/in/richard-cartwright/) (our CEO). I’m intense, so you’ll also be intense. You’ll work long days and regularly weekends.\n\nYou’ll also work closely with:\n\n- [Dave Lane](https://www.linkedin.com/in/digital-dl/) (Head of Performance)\n\n- [Michael McCann](https://www.linkedin.com/in/michael-m-33b79642/) (Head of CRO)\n\n## Key responsibilities\n\n- `Analysis`: Maintain a deep understanding of the consumer health market, and use false-door tests, surveys, competitor analysis, and customer data to build conviction before committing to a launch.\n\n- `Launches`: Take new categories from 0→1. Own the launch plan end-to-end, coordinating Clinical, Product, Ops, and Growth so products go live quickly and cleanly.\n\n- `Growth`: Build the growth strategy for each vertical, from cold acquisition through retention, and everything in-between. You won’t execute every channel yourself, but you’ll remain overall DRI.\n\n- `Cross-sell`: Deftly weave cross-sells into the existing GLP-1 patient journey without adding CVR%-killing friction.\n\n- `Economics`: Own the unit economics of every vertical. Understand CAC, gross margin, attach rate, cross-sell rate, AOV, retention, payback, and incremental LTV. Rapidly iterate based on the numbers.\n\n- `Retention`: Ensure each vertical has a reason to exist beyond the first transaction. Build the product, lifecycle, and customer journey required to drive repeat usage and long-term customer value.\n\n- `Team`: Build a lean, high-performing team as the function scales. Until then, operate as the overall DRI to ensure expansion isn’t blocked.\n\n## KPIs\n\n- `AOV`: Average order value across the UK business. Baseline: \\ . Target: \\ .\n\n- `Incremental LTV`: LTV added per customer by non-GLP-1 products. Baseline: \\ . Target: \\ .\n\n- `Cross-sell rate`: % of customers buying more than one product line. Baseline: \\ . Target: \\ .\n\n## Need to have\n\n- `Category Expansion`: You have 3+ years taking an established D2C brand into a category its customers had never bought from it before.\n\n- `Consumer`: You possess deep consumer knowledge, and have worked in international D2C before. You understand the scary pace required at a high-growth consumer start-up.\n\n- `Growth`: You understand customer acquisition well enough to build the growth strategy for a new category, including when to press on the gas and when to block launching.\n\n- `Commercials`: You can evaluate a market quickly, form a strong thesis, and test demand before committing loads of resource. If something’s not working you don’t fall victim to the sunk-cost fallacy — you kill it.\n\n- `Unit economics`: You are fluent in CAC, cross-sell rate, gross margin, AOV, attach rate, retention, payback, and LTV. You lean on your metrics to decide whether a vertical deserves more investment.\n\n- `Execution`: You have led launches that required tight coordination across Product, Ops, Growth, Supply Chain, and other specialist teams without losing pace or ownership.\n\n- `Builder`: You are comfortable being the sole DRI before there is a team. You will fill gaps, mow down blockers, build scrappy solutions, and get the first version live yourself alongside a designer and an engineer.\n\n- `Pace`: You operate with urgency, make high-quality decisions with incomplete information, and are comfortable running multiple workstreams in parallel.\n\n## Nice to have\n\n- `Regulatory`: You’ve brought a regulated consumer product to market and worked through what you could sell, what you could claim, and what evidence you needed to launch.\n\n- `Evaluation`: You’ve weighed building a product in-house against partnering, licensing, or acquiring it.\n\n- `AI-Native`: You use AI as a force-multiplier and can construct agentic workflows yourself.\n\n- `Talent`: You’ve hired and managed a lean team to grow a new category before. You know which first hire to make and what to keep owning yourself.\n\n- `Founder`: You’ve founded something, however small, or joined early enough that getting the first paying customer was partly your problem.\n\n- `Figure It Out`: You’re the person we could drop into an unfamiliar category on Monday. By Friday you’d have spoken to customers, found the people who know the business inside out, and lined up a v1 launch plan.\n\n## Our cultural standards\n\nWe aim to make this your life's work. This should be the most challenging, most rewarding role of your life. Accordingly, these are the core cultural standards to which we hold ourselves & our team-members:\n\n1. `Belief in the mission`: We will have served 100 million patients by the end of 2030 and we transform the life of most patients who join. We have a lot of work to do. We are obsessed with our patients and are dedicated to the mission.\n\n2. `Unwavering integrity`: We are at the frontier, so we often live in ambiguity with no trodden path. When we can't look to others for guidance, we must maintain impeccable ethics and unwavering integrity.\n\n3. `Only the paranoid survive`: Bad sh\\*t is coming. By joining us, you're choosing to sail straight towards the storms with unhesitating conviction. However much we've already done, however far we've already come, it's still Day 1 and all our work is ahead of us.\n\n4. `If we're average we fail`: We are only interested in \"insanely great\", a focus on the quality of our execution that in everyday life would be considered pathological. We have a dedication to excellence and reject incompetence.\n\n5. `Commitment to candor`: That which can be destroyed by the truth should be. You get full transparency from the company and the company expects full transparency from you. We never say anything about someone that we wouldn't say to them directly. We give feedback with love and do not need to protect people from fleeting physical sensations.\n\n6. `A maniacal sense of urgency`: We execute at an intensity that most people think is impossible. Speed is critical and we need things done yesterday. We all work very hard and in such a competitive world there really is no other way to win.\n\n7. `Enduring frugality`: We are frugal. We hate being wasteful and we are anti-luxury. A culture of cheapness keeps us young. We spend our cash wisely & carefully, in a way that would make our grandmas proud.\n\n8. `Bulldozing barriers`: The world is malleable and we shape it. We truly believe this and act accordingly. We are relentlessly resourceful and are at the mercy of no-one but ourselves. You'll be shocked how capable you are and how much you can achieve.\n\n9. `Keep your head down`: We're boring people doing exciting work. We don't chase short-term status. We ignore short-term dopamine hits and focus on what matters. Outsiders will underestimate us and we revel in that.\n\n10. `The power of focus`: We live in a world of power laws and we cannot overestimate the unimportance of practically everything. Know your One Thing, and nail it.\n\n_\"You just build a f\\_\\*ing amazing experience. Make each step amazing. Make every decision in the long term interest of the customer. Give the customer massively more value than you take.\"\n\n## Compensation & Benefits\n\nYou get paid above market salary and you get early stage equity, so you get really rich if we nail this.\n\n- _Compensation_: $200k–$400k/yr + 0.15%–0.50% equity\n\n### Benefits\n\nThe stuff below is cool as well.\n\n- _Healthcare_: comprehensive medical insurance (if appropriate).\n\n- _Remote_: our team is fully distributed across the world and functions fully remotely.\n\n- _Vacation_: PTO with a yearly minimum (≥2wks/yr + local national holidays).\n\n- _Personal development_: budget for books, courses, coaching ($1,200/yr).\n\n- _Personal wellness_: budget for gym, health apps ($1,200/yr).\n\n- _GLP-1s_: free membership with a clinic offering GLP-1s.\n\n- _Health coaching_: free biweekly health coaching so you stay healthy.\n\n- _Work coaching_: free biweekly work coaching so you stay sharp + calm.\n\n- _Equipment_: Macbook & work-from-home equipment provided as needed.\n\n- **What are we missing?** We're still early so you get to shape our culture.\n\n## How to apply\n\n1. Apply on Ashby\n\n Remote (US hours) fulltime yes\nlocations: Remote (US hours)\nremote: only\nmin_experience: 5",
+      "match_score": 6.48,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-03T19:08:32+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.94,
+            "overlap": 12.58,
+            "combined": 6.53
+          },
+          "backend": {
+            "cosine": 2.49,
+            "overlap": 10.9,
+            "combined": 5.02
+          },
+          "frontend": {
+            "cosine": 4.05,
+            "overlap": 12.14,
+            "combined": 6.48
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 4.05,
+        "keyword_overlap_score": 12.14,
+        "final_score": 6.48,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.0899
+          },
+          {
+            "term": "com",
+            "weight": 0.0367
+          },
+          {
+            "term": "2025",
+            "weight": 0.0276
+          },
+          {
+            "term": "focus",
+            "weight": 0.0276
+          },
+          {
+            "term": "linkedin",
+            "weight": 0.0276
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "68a715462fe810d2b1bcb8379686fb6b",
+      "source": "yc",
+      "company": "Corgi",
+      "role": "(London) Account Executive",
+      "url": "https://www.workatastartup.com/jobs/120310",
+      "jd_text": "We’re rebuilding the insurance industry from the ground up—and we’re looking for early-career sales reps who can sell water to a pond. If you’re willing to work harder than you ever have before, want to do sales in person, and thrive in an always-on environment, this is a ground-floor opportunity to help build what we believe will be a $100B+ company.\n\n**The Role**\n\nThis is a role for our new product lines. You’re not inheriting a script or a mature process; you’re helping build the outbound motion from scratch.\n\nYour job is simple but demanding: generate a pipeline. You’ll be on the phones, testing messaging, booking meetings, and feeding real market feedback back into the product and sales motion.\n\nWe are in-person only and full-time in London. This is your chance to be part of the founding team to launch and scale new products for Corgi.\n\n**Why Corgi**\n\n* IC or Leadership, the path is yours to choose and quick.\n* We want people who are obsessed with progression, we need results and fast.\n* We’re building $100b company, and we need ambitious minds to do it.\n* Ownership over pipeline and progression from day 1.\n\n**£45k Base + 30k OTE**\n\n### **About the interview**\n\n\\>Interview\n\n\\>Work Trial\n\n\\>Offer London, England, GB fulltime yes\nlocations: London, England, GB\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-03T19:08:32+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "198d9527e402cef8ecb4251126293cb2",
+      "source": "yc",
+      "company": "David AI",
+      "role": "Audio Engineer",
+      "url": "https://www.workatastartup.com/jobs/120267",
+      "jd_text": "## **About David AI**\n\nDavid AI builds and licenses high-quality voice and audio datasets to the world's leading AI labs. We're a ~50-person Series B team running data collection across ~20 language markets, spanning conversational, expressive/emotional TTS, and transcription data.\n\n**The Role**\n\nYou'll be David AI's in-house audio expert. When a contributor's recordings sound off, a program needs a recording spec, or we're setting up a studio session, you're the person who knows exactly what's wrong and how to fix it. You'll set the audio standards everyone else works from, help contributors and vendors get their setups right, and run the hardware and studio side of our in-person recording work. You'll report to the Head of Operations.\n\n## **What you'll do**\n\n- Be the go-to audio authority for Ops, Engineering, and ML, answering the \"why does this sound wrong?\" questions that nobody else can\n\n- Define audio quality standards and recording specs (noise floor, clipping, reverb, levels, mic placement, sample rate/format) for each program\n\n- Help contributors diagnose and fix their home recording setups, including mic choice, placement, gain staging, room treatment, and interface/software settings\n\n- Write clear setup guides, onboarding checks, and troubleshooting docs that non-experts can follow in any of our ~20 language markets\n\n- Lead a team and calibrate them to the company's audio standards. Listen to problem batches, identify root causes (environment, hardware, settings, processing), and recommend fixes\n\n- Define acoustic targets for processed, synthetic, or AI-generated audio, and judge whether output meets them\n\n## **In this role, you will:**\n\n- Work with ML researchers to identify and define audio events and acoustic quality issues (What counts as “muffled” audio? How do we define “robotic artifacts”?).\n\n- Turn these definitions into actionable guidelines for our expert audio QAs to label internal audio data.\n\n- Manage the QA team in a rapid iteration loop of labeling audio samples, getting feedback from ML researchers, and refining the annotation process to deliver high-quality training and eval sets.\n\n- Conduct quality audits on annotation and post-processing models before they land in production.\n\n## **What we're looking for**\n\n- 7+ years in audio engineering, recording, or production (studio, broadcast, podcast, post, or voice work)\n\n- A highly trained ear for subtle differences across voices, mics, rooms, and signal chains\n\n- Deep hands-on knowledge of mics, interfaces, preamps, acoustics, and room treatment\n\n- Strong DAW skills and fluency with loudness/metering, EQ, dynamics, noise reduction, and restoration tools (e.g., iZotope RX)\n\n- Ability to troubleshoot remotely and explain fixes clearly to non-technical people\n\n- Comfortable in a fast-moving startup: ambiguous problems, shifting priorities, high ownership  \n\n**Nice to have**\n\n- Experience with speech or voice data for AI (TTS, ASR, SFT projects) at a lab or data vendor\n\n- Experience recording voice actors or directing dialogue sessions\n\n- Experience supporting remote or distributed recording at scale\n\n- Scripting basics (Python, ffmpeg, SoX) for batch checks or processing\n\n- Multilingual\n\n San Francisco fulltime yes\nlocations: San Francisco\nremote: no",
+      "match_score": 5.87,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-03T19:08:32+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.7,
+            "overlap": 8.61,
+            "combined": 5.87
+          },
+          "backend": {
+            "cosine": 3.98,
+            "overlap": 7.14,
+            "combined": 4.93
+          },
+          "frontend": {
+            "cosine": 2.24,
+            "overlap": 8.74,
+            "combined": 4.19
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.7,
+        "keyword_overlap_score": 8.61,
+        "final_score": 5.87,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1427
+          },
+          {
+            "term": "data",
+            "weight": 0.0973
+          },
+          {
+            "term": "team",
+            "weight": 0.0882
+          },
+          {
+            "term": "high",
+            "weight": 0.0714
+          },
+          {
+            "term": "placement",
+            "weight": 0.0588
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "e9c3b98ba721110903df34fe467e3d0a",
       "source": "wellfound",
