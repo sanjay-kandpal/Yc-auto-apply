@@ -1,11 +1,11 @@
 {
-  "exported_at": "2026-11-03T11:42:41+00:00",
+  "exported_at": "2026-11-03T11:44:45+00:00",
   "daily_cap": 5,
-  "submitted_today": 0,
+  "submitted_today": 1,
   "counts": {
     "discovered": 1101,
-    "pending_approval": 284,
-    "submitted": 9,
+    "submitted": 10,
+    "pending_approval": 283,
     "failed": 9,
     "rejected": 3
   },
@@ -96,12 +96,12 @@
       "match_score": 10.14,
       "resume_variant": "backend",
       "draft_answer": "I've built and validated LLM tool-calling reliability for an AI agent on constrained hardware and owned production backend modules, including diagnosing and resolving concurrency risks to guarantee delivery and prevent data loss under high load. My hands-on experience scaling a cloud-native compliance platform for 80+ client organizations by cutting fetch latency 98% with Redis and introducing zero-downtime Kubernetes deployments directly supports building your large-scale data pipelines and reliable AI agents.\nGitHub: https://github.com/sanjay-kandpal",
-      "status": "pending_approval",
+      "status": "submitted",
       "discovered_at": "2026-11-03T11:42:14+00:00",
-      "decided_at": null,
-      "submitted_at": null,
+      "decided_at": "2026-11-03T11:44:44+00:00",
+      "submitted_at": "2026-11-03T11:44:44+00:00",
       "error_message": null,
-      "sent_message": null,
+      "sent_message": "I've built and validated LLM tool-calling reliability for an AI agent on constrained hardware and owned production backend modules, including diagnosing and resolving concurrency risks to guarantee delivery and prevent data loss under high load. My hands-on experience scaling a cloud-native compliance platform for 80+ client organizations by cutting fetch latency 98% with Redis and introducing zero-downtime Kubernetes deployments directly supports building your large-scale data pipelines and reliable AI agents.\nGitHub: https://github.com/sanjay-kandpal",
       "match_breakdown": {
         "weights_version": "v1",
         "hard_filters": {
@@ -158,8 +158,12 @@
       },
       "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
       "drafted_at": "2026-11-03T11:42:39+00:00",
-      "confirmation_signal": null,
-      "github_run_id": null,
+      "confirmation_signal": {
+        "ok": true,
+        "url": "https://www.workatastartup.com/jobs/120102",
+        "text": "Companies & Jobs Inbox Education Market Resume review My profile sanjay Companies / InferEdge (W22) / Software Engineer - AI Platform InferEdge · W22 Software Engineer - AI Platform Agentic AI for buy-side firms Applied Save Location Mumbai"
+      },
+      "github_run_id": "41629884782",
       "apply_kind": null
     },
     {
