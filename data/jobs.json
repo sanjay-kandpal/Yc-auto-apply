@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-11-03T09:15:38+00:00",
+  "exported_at": "2026-11-03T11:42:41+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1100,
-    "pending_approval": 283,
+    "discovered": 1101,
+    "pending_approval": 284,
     "submitted": 9,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "a67ed315d77e8f36e3054ec4b658bcfc",
+      "source": "yc",
+      "company": "erad",
+      "role": "Cybersecurity Engineer (Cloud & IT) - Remote",
+      "url": "https://www.workatastartup.com/jobs/120168",
+      "jd_text": "## About the Role\n\nerad is a Sharia-compliant fintech providing SME financing in Saudi Arabia and the UAE, licensed by the CMA in KSA and the DFSA in the UAE. We are hiring a Cybersecurity Engineer to own the security of our platform, our people and our devices. You will report to the CTO and work with a fully distributed engineering team that ships with AI-assisted tooling every day. We especially want to hear from penetration testers and security auditors who are ready to move from finding the issues to owning the fixes.\n\n## What You'll Do\n\n**Security engineering and testing**\n\n- Own the security posture of our cloud environment: identity and access, network exposure, host hardening and patching, secrets, and logging coverage.\n- Test our own products the way an attacker would: regular internal pentests of our web apps and APIs, plus scoping and retests with external testers.\n- Build and run vulnerability management across code, dependencies, hosts and third-party software, with remediation SLAs tracked to closure.\n- Review designs and pull requests with engineers, and build security into our delivery pipeline.\n\n**Detection and response**\n\n- Own security alerting and keep it useful rather than noisy.\n- Lead incident response end to end: triage, containment, investigation, root cause and the write-up for management and regulators.\n- Run phishing awareness, tabletop exercises and restore tests.\n\n**Governance and compliance**\n\n- Run our ISMS: control evidence, risk register, policies, vendor security reviews, access reviews and audit support.\n- Turn regulatory requirements (CMA, DFSA, and KSA and UAE data protection law) into practical controls and evidence.\n\n**IT (around 20% of your time)**\n\n- Run joiner, mover and leaver access: accounts, SSO, app roles, offboarding and data handover.\n- Manage company laptops through MDM: enrolment, configuration, encryption and app deployment.\n- Administer our identity and collaboration tools, the company password manager and MFA.\n- Automate the repetitive parts so IT stays a small slice of the job.\n\n## Qualifications & Experience\n\n- 3+ years in security, ideally including time as a penetration tester or security auditor at a pentest firm, security consultancy or compliance platform.\n- Hands-on web application, API and cloud penetration testing: you can find and exploit real vulnerabilities, write them up clearly, and work with engineers on the fix.\n- Practical security experience on at least one major cloud provider: IAM, network controls and logging.\n- Experience with WAF and zero-trust access tooling.\n- Strong Linux and networking fundamentals: SSH, TLS, DNS, firewalls and VPNs.\n- Comfortable writing automation in Python or Bash, and reviewing application code for security issues (OWASP Top 10).\n- Incident response experience, including investigating from raw logs.\n- Familiarity with ISO 27001 or SOC 2 controls and producing audit evidence.\n- Some experience administering an identity provider and managing devices with an MDM.\n- Uses AI tools to work faster and checks their output critically.\n- Fluent English, written and spoken.\n\n## Skills (Nice-to-Haves)\n\n- Experience in fintech, banking or other regulated financial services, ideally with GCC regulators.\n- Certifications such as OSCP, OSWE, CREST, CISSP, CCSP, a cloud provider security certification, or ISO 27001 Lead Implementer or Lead Auditor.\n- Container security, infrastructure as code and CI/CD security.\n- Knowledge of the Saudi and UAE personal data protection laws.\n- Red-team experience, published CVEs, bug bounty findings or CTF results.\n- Experience as the first or only security engineer at a startup.\n- Arabic is a plus. jobs_skill 107 Python 288 jobs_skill 171 Linux 14 jobs_skill 203 Information Security 3 jobs_skill 204 Software Security 4 fulltime none\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 9.55,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-03T11:42:14+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.4,
+            "overlap": 12.25,
+            "combined": 9.56
+          },
+          "backend": {
+            "cosine": 8.25,
+            "overlap": 12.78,
+            "combined": 9.61
+          },
+          "frontend": {
+            "cosine": 6.76,
+            "overlap": 13.11,
+            "combined": 8.67
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.4,
+        "keyword_overlap_score": 12.25,
+        "final_score": 9.55,
+        "top_keywords": [
+          {
+            "term": "security",
+            "weight": 0.455
+          },
+          {
+            "term": "experience",
+            "weight": 0.1653
+          },
+          {
+            "term": "cloud",
+            "weight": 0.1033
+          },
+          {
+            "term": "access",
+            "weight": 0.0827
+          },
+          {
+            "term": "team",
+            "weight": 0.0624
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "919d63d5289b7aeed2e3c3c7ee3ba213",
+      "source": "yc",
+      "company": "InferEdge",
+      "role": "Software Engineer - AI Platform",
+      "url": "https://www.workatastartup.com/jobs/120102",
+      "jd_text": "### **About InferEdge**\n\nInferEdge builds AI agents that do the work of research analysts, portfolio managers, risk managers and product analysts at investment firms. Funds managing billions of dollars run them in production and pay us for the results.\n\n* Founded in 2025, with 15 customers in India and Singapore, including Temasek and Mahindra Manulife Mutual Fund\n* Backed by Y Combinator, with a $5 mn round raised\n* Founders with finance and tech backgrounds (Goldman Sachs, Tata Capital, a US hedge fund); engineers from Amazon Alexa, Wells Fargo, Deutsche Bank and SAP\n\n### **How we deliver**\n\nA client gives us work their team does by hand today. We build an AI agent that does it, and the client pays for the result. The agent has to be right on their real data, every month.\n\nEverything we deliver runs on four foundational capabilities: agents, plugins, data pipelines and an evaluation framework. You will be responsible for building foundational capabilities and strengthening existing ones.\n\n### **What you'll build**\n\nYou'll go deep on at least one of these systems and work across the rest.\n\n* **Agents.** They do analyst work on financial data. Making them reliable is the hard part.\n* **Plugins.** MCP tools and specialised skills that give an LLM access to market data and knowledge.\n* **Data pipelines.** 100+ sources, 1M new data points a day and 5M+ documents.\n* **Evaluation framework.** Finds agent failures, tracks performance and uses past failures to improve the agent.\n\nStack: Python, Postgres, Airflow, AWS and Kubernetes.\n\n### **Why this role**\n\n* You take a system from design to production. There are no handoffs.\n* You work on large systems early: 100+ data sources, millions of documents, and agents used by funds that manage billions of dollars.\n* What you build goes live in days and is used by real clients.\n* We are AI-first in how we build. Coding agents are part of everyday work here, and you'll be expected to use them well.\n\n### **What we're looking for**\n\n* 2+ years building backend systems, ideally at a startup\n* Strong system design: you can plan data models, think through what can fail, and explain your trade-offs\n* Ownership: you take a vague problem to production and keep it running\n* Comfort with large codebases and many moving parts\n* Python, SQL, and experience with AI-first development, or a strong interest in it\n\n### **Location and compensation**\n\n* Location: Mumbai, work from the office\n* Compensation: cash and ESOPs, based on experience Mumbai, MH, IN jobs_skill 70 Kubernetes 19 jobs_skill 99 PostgreSQL 79 jobs_skill 107 Python 288 jobs_skill 149 SQL 12 jobs_skill 369 Airflow 0 fulltime none\nlocations: Mumbai, MH, IN\nremote: no\nmin_experience: 2",
+      "match_score": 10.14,
+      "resume_variant": "backend",
+      "draft_answer": "I've built and validated LLM tool-calling reliability for an AI agent on constrained hardware and owned production backend modules, including diagnosing and resolving concurrency risks to guarantee delivery and prevent data loss under high load. My hands-on experience scaling a cloud-native compliance platform for 80+ client organizations by cutting fetch latency 98% with Redis and introducing zero-downtime Kubernetes deployments directly supports building your large-scale data pipelines and reliable AI agents.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-03T11:42:14+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.13,
+            "overlap": 10.6,
+            "combined": 10.27
+          },
+          "backend": {
+            "cosine": 10.14,
+            "overlap": 10.15,
+            "combined": 10.15
+          },
+          "frontend": {
+            "cosine": 6.53,
+            "overlap": 12.62,
+            "combined": 8.36
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 10.14,
+        "keyword_overlap_score": 10.15,
+        "final_score": 10.14,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.206
+          },
+          {
+            "term": "agents",
+            "weight": 0.1575
+          },
+          {
+            "term": "ai",
+            "weight": 0.1575
+          },
+          {
+            "term": "agent",
+            "weight": 0.126
+          },
+          {
+            "term": "production",
+            "weight": 0.0772
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-11-03T11:42:39+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "29549bb2d94bb371eb32e28e22ff2ef7",
       "source": "wellfound",
