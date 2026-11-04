@@ -1,15 +1,328 @@
 {
-  "exported_at": "2026-11-04T11:56:27+00:00",
+  "exported_at": "2026-11-04T17:53:22+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1107,
+    "discovered": 1113,
     "pending_approval": 284,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "720f8081d6acdd0a101db22b67967c10",
+      "source": "wellfound",
+      "company": "Vana",
+      "role": "Developer Advocate",
+      "url": "https://wellfound.com/jobs/4970291-developer-advocate",
+      "jd_text": "Abu Dhabi\nlocationNames: Abu Dhabi\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-04T17:53:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "419b904b04ea4e8f09417b7300834b87",
+      "source": "wellfound",
+      "company": "Eduflute Academy",
+      "role": "Coding Teacher (Python, C, C++) – Remote, All India",
+      "url": "https://wellfound.com/jobs/3178739-coding-teacher-python-c-c-remote-all-india",
+      "jd_text": "Delhi Gurgaon Faridabad Rajasthan Kerala Bangalore Urban\nlocationNames: Delhi Gurgaon Faridabad Rajasthan Kerala Bangalore Urban\nremote: true",
+      "match_score": 0.92,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-04T17:53:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.92,
+            "overlap": 0.99,
+            "combined": 0.94
+          },
+          "backend": {
+            "cosine": 0.99,
+            "overlap": 0.75,
+            "combined": 0.92
+          },
+          "frontend": {
+            "cosine": 0.86,
+            "overlap": 0.97,
+            "combined": 0.89
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 0.99,
+        "keyword_overlap_score": 0.75,
+        "final_score": 0.92,
+        "top_keywords": [
+          {
+            "term": "bangalore",
+            "weight": 0.178
+          },
+          {
+            "term": "python",
+            "weight": 0.089
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cd55725bacb271b134d81476b00fbc03",
+      "source": "wellfound",
+      "company": "Springboard",
+      "role": "Product Engineer (Full Stack, IC) - India",
+      "url": "https://wellfound.com/jobs/4982389-product-engineer-full-stack-ic-india",
+      "jd_text": "Bangalore Urban\nlocationNames: Bangalore Urban\nremote: true",
+      "match_score": 2.12,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-04T17:53:16+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.46,
+            "overlap": 1.32,
+            "combined": 2.12
+          },
+          "backend": {
+            "cosine": 1.67,
+            "overlap": 0.75,
+            "combined": 1.39
+          },
+          "frontend": {
+            "cosine": 1.94,
+            "overlap": 0.97,
+            "combined": 1.65
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 2.46,
+        "keyword_overlap_score": 1.32,
+        "final_score": 2.12,
+        "top_keywords": [
+          {
+            "term": "bangalore",
+            "weight": 0.3015
+          },
+          {
+            "term": "stack",
+            "weight": 0.2278
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1507
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e105539c64ca197432950c65af150b71",
+      "source": "wellfound",
+      "company": "Agentic Universe",
+      "role": "Software Development Engineer Interns",
+      "url": "https://wellfound.com/jobs/4985505-software-development-engineer-interns",
+      "jd_text": "Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-04T17:53:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "bcace6244c49feb1c1ce92f5b7320094",
+      "source": "wellfound",
+      "company": "BITFLEX Strategy & Technology Partners",
+      "role": "Junior Full Stack Developer - Java",
+      "url": "https://wellfound.com/jobs/822258-junior-full-stack-developer-java",
+      "jd_text": "Bapatla\nlocationNames: Bapatla",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-04T17:53:09+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c091e8c5be3661c606ca5d1f9419e77f",
+      "source": "wellfound",
+      "company": "Abstrabit Technologies",
+      "role": "Senior Software Engineer (SDE-2)",
+      "url": "https://wellfound.com/jobs/4985576-senior-software-engineer-sde-2",
+      "jd_text": "Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 3.34,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-04T17:53:06+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.51,
+            "overlap": 0.66,
+            "combined": 2.66
+          },
+          "backend": {
+            "cosine": 3.75,
+            "overlap": 0.75,
+            "combined": 2.85
+          },
+          "frontend": {
+            "cosine": 4.36,
+            "overlap": 0.97,
+            "combined": 3.34
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 4.36,
+        "keyword_overlap_score": 0.97,
+        "final_score": 3.34,
+        "top_keywords": [
+          {
+            "term": "bengaluru",
+            "weight": 0.4507
+          },
+          {
+            "term": "engineer",
+            "weight": 0.2254
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "930b1ccd41b5bdf8799f5fd0a21c0e22",
       "source": "wellfound",
