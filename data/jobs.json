@@ -1,15 +1,208 @@
 {
-  "exported_at": "2026-11-04T17:53:22+00:00",
+  "exported_at": "2026-11-04T19:27:37+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1113,
-    "pending_approval": 284,
+    "discovered": 1116,
+    "pending_approval": 285,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "e034ff341288e5556e6b3dee53b4e3a3",
+      "source": "yc",
+      "company": "Corgi",
+      "role": "VP, Operations",
+      "url": "https://www.workatastartup.com/jobs/120497",
+      "jd_text": "**About Corgi Transportation**\n\nCorgi Transportation provides insurance for trucking and business auto through a network of retail brokers, wholesalers, and MGAs. We are building a business where strong underwriting, proprietary technology, and exceptional service work together to make insurance faster and easier for our partners and insureds.\n\n**The Role**\n\nWe are hiring a Vice President of Operations to own the operational execution of Corgi Transportation and build the infrastructure to support our next stage of growth. You will turn business priorities into clear processes, accountable teams, and measurable results across policy administration, partner onboarding, servicing, and operational controls.\n\nThis is a hands-on executive role. You should be comfortable setting the operating plan, hiring leaders, investigating a policy issue, and working with engineers to fix the process that caused it. You will partner closely with the Co-CEOs and leaders across Underwriting, Engineering, Sales, Finance, Compliance, and Claims.\n\n**What You Will Own**\n\n* **Daily operations.** Lead the workflows supporting submissions, binding, policy issuance, endorsements, renewals, cancellations, and reinstatements. Establish clear ownership, service standards, escalation paths, and quality checks across the policy lifecycle.\n* **Partner and insured experience.** Build reliable onboarding and servicing for MGAs, wholesalers, and retail brokers. Resolve complex operational escalations, improve communication, and eliminate recurring friction.\n* **Team and capacity.** Hire, develop, and manage the operations team. Establish training, performance expectations, staffing plans, and operating budgets that support growth while improving productivity and cost to serve.\n* **Systems and automation.** Translate operational needs into requirements for Engineering. Prioritize improvements based on business impact, lead user testing and rollout, and ensure system migrations and product launches are operationally ready.\n* **Controls and financial accuracy.** Work with Finance and Compliance to maintain accurate policy data, billing, premium collection, commissions, refunds, and required filings. Build documented procedures, reconciliation workflows, and audit trails; investigate and resolve exceptions.\n* **Performance and execution.** Create dashboards and a weekly operating cadence covering turnaround times, backlogs, errors, service levels, productivity, and costs. Identify root causes, assign corrective actions, and follow through until problems are resolved.\n\n**What You Bring**\n\n* Significant experience leading operations at a property and casualty insurer, MGA, or insurance technology company, with a record of building and scaling teams.\n* Strong knowledge of commercial insurance operations and the connections between underwriting, distribution, policy administration, billing, and compliance. Commercial auto or trucking experience is strongly preferred.\n* Demonstrated success improving service levels, reducing errors, and increasing capacity through better processes and technology.\n* Experience implementing or improving policy administration systems and working directly with technical teams.\n* Strong analytical and financial judgment, including the ability to manage budgets, forecast staffing needs, and evaluate operational tradeoffs.\n* Clear communication, sound judgment under pressure, and a willingness to take ownership of difficult problems across departmental boundaries.\n\n**What Success Looks Like**\n\nPartners receive fast, accurate, and predictable service. Teams know what they own and are accountable for results. Leaders can see performance and emerging problems in reliable data. New products and distribution relationships launch with the systems and processes they need. The business handles more volume with fewer errors and less manual work per policy.\n\n**Why Join**\n\nYou will work directly with the Co-CEOs and have the opportunity to shape how Corgi Transportation operates as it grows. The decisions you make about people, systems, and execution will directly influence our ability to serve partners, support underwriting discipline, and build a durable insurance business.\n\nThe pay range is representative of on-target earnings (OTE). Boston, MA, US Atlanta, GA, US San Francisco, CA, US fulltime yes\nlocations: Boston, MA, US Atlanta, GA, US San Francisco, CA, US\nremote: no\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-04T19:27:19+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0f8a78e207e0f3c62f21b5d6ac1fda98",
+      "source": "yc",
+      "company": "Corgi",
+      "role": "Systems Analyst – Outgoing & Financial Flows",
+      "url": "https://www.workatastartup.com/jobs/120499",
+      "jd_text": "**About the role**\n\nWe’re hiring an entry-level Systems Analyst to own the processes that deliver reports, bills, and other account information from IOS, Beagle’s internal operations platform, to customers.\n\nYou’ll manage outgoing workflows, run bill sends, and make sure required information reaches the right recipients on schedule. You’ll establish and enforce clear requirements and handoff standards for Account Managers, who manage customer relationships, and other internal teams that contribute to these processes.\n\nThis role combines systems thinking, problem-solving, and communication. You should enjoy understanding how a process works, identifying where it breaks down, and improving it so outgoing information moves consistently and efficiently.\n\n**What you’ll do**\n\n• Own the workflows that deliver customer reports, bills, and other account information from IOS.\n\n• Run scheduled bill sends and report deliveries, ensuring required checks are complete and tracking successful delivery.\n\n• Set and enforce clear requirements, timelines, and handoff standards for internal teams.\n\n• Troubleshoot blockers and failed sends, coordinating solutions with Account Managers, operations, and engineering.\n\n• Improve processes, documentation, and automation to reduce manual work and recurring issues.\n\n**What we’re looking for**\n\n• 0–1 years of experience and a background in Accounting, Finance, Business Systems, or a related field.\n\n• Strong communication skills and the confidence to enforce standards and follow through.\n\n• A process-oriented mindset with strong problem-solving and organizational skills.\n\n• Comfort using spreadsheets and business software.\n\nHelpful, but not required\n\n• Internship or project experience involving process improvement, business systems, software implementation, or operations.\n\n• Comfortable working with large datasets, identifying patterns, and working to improve processes.\n\n• Exposure to insurance or property management software.\n\n**What success looks like**\n\nCustomers receive the right information on time. Bill sends and report deliveries follow dependable processes, internal teams meet clear standards, and issues are resolved promptly. Process improvements reduce manual work, missed deliveries, and repeat problems. Dallas, TX, US fulltime yes\nlocations: Dallas, TX, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-04T19:27:19+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e95c66f121b3cf4fa728ee2e60920ed9",
+      "source": "yc",
+      "company": "Corgi",
+      "role": "Systems Analyst",
+      "url": "https://www.workatastartup.com/jobs/120498",
+      "jd_text": "**About the role**\n\nWe’re hiring an entry-level Systems Analyst to own the processes that get new customer account data into IOS, Beagle’s internal operations platform, and ready for launch.\n\nYou’ll manage the final stage of onboarding: making sure the right information moves through the right steps, system requirements are met, and issues get resolved. You’ll establish and enforce clear workflows and handoff standards for Account Managers, who manage customer relationships, and Onboarding Specialists, who coordinate customer launches.\n\nThis role combines systems thinking, problem-solving, and communication. You should enjoy understanding how a process works, identifying where it breaks down, and improving it so accounts move through onboarding consistently and efficiently.\n\n**What you’ll do**\n\n\\- Own the workflow that moves customer account data into IOS and gets accounts ready for launch.\n\n\\- Set and enforce clear requirements and handoff standards for the onboarding team.\n\n\\- Troubleshoot blockers and coordinate solutions with Account Managers, Onboarding Specialists, and engineering.\n\n\\- Improve processes, documentation, and automation to reduce manual work and recurring issues.\n\n**What we’re looking for**\n\n\\- 0–1 years of experience and a background in Information Systems, Data Analytics, Management Science, or a related field.\n\n\\- Strong communication skills and the confidence to enforce standards and follow through.\n\n\\- A process-oriented mindset with strong problem-solving and organizational skills.\n\n\\- Comfort using spreadsheets and business software.\n\n**Helpful, but not required**\n\n\\- Internship or project experience involving process improvement, business systems, software implementation, or operations.\n\n\\- Comfortable working with large datasets, identifying patterns, and working to improve processes.\n\n\\- Exposure to insurance or property management software.\n\n**What success looks like**\n\nAccounts move through the final stage of onboarding predictably and efficiently. Account Managers and Onboarding Specialists follow clear standards, blockers are resolved promptly, and process improvements reduce manual work and repeat issues. Dallas, TX, US fulltime yes\nlocations: Dallas, TX, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-04T19:27:19+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "87cb8cf5f2dcba3d054bcd3d727d2e3e",
+      "source": "yc",
+      "company": "David AI",
+      "role": "Data Scientist",
+      "url": "https://www.workatastartup.com/jobs/120469",
+      "jd_text": "## **About David AI**\n\nDavid AI is the first audio data research company. We bring an R&D approach to data–developing datasets with the same rigor AI labs bring to models. Our mission is to bring AI into the real world, and we believe audio is the gateway. Speech is versatile, accessible, and human—it fits naturally into everyday life. As audio AI advances and new use cases emerge, high-quality training data is the bottleneck. This is where David AI comes in.\n\n&nbsp;\n\nDavid AI was founded in 2024 by a team of former Scale AI engineers and operators. In less than a year, we’ve brought on most FAANG companies and AI labs as customers. We recently raised a $50M Series B from Meritech, NVIDIA, Jack Altman (Alt Capital), Amplify Partners, First Round Capital and other Tier 1 investors.\n\n&nbsp;\n\nOur team is sharp, humble, ambitious, and tight-knit. We’re looking for the best research, engineering, product, and operations minds to join us on our mission to push the frontier of audio AI.\n\n##   \nAbout our Data Science team\n\nOur Data Science team turns the activity across our business into the insights, metrics, and data foundations that guide how we grow. We move fast, own our work end-to-end, and partner closely with product, engineering, research, operations, and go-to-market to make sure the company is working on the right problems, measuring what matters, and drawing data backed conclusions.\n\n## \n\n## About this role\n\nAs a Data Scientist at David AI, you'll turn our data into decisions. You'll help figure out what we should be building, measure whether it's working, and lay the foundation for how the company defines, stores, and trusts its data.\n\n## \n\n## In this role, you will\n\n- Work cross-functionally to identify the highest-leverage business problems and drive them to resolution.\n\n- Form and advocate your own point of view on what you and the broader team should prioritize, using data to shape the roadmap.\n\n- Define core metrics that measure the health of our business, products, and operations, and own the data dictionary that keeps them consistent across the company.\n\n- Own A/B experimentation end-to-end, from hypothesis and test design to analysis and ship decision.\n\n- Design and build reliable ETL pipelines and data models that make our data trustworthy, well-documented, and easy to use.\n\n- Work across the full range of data science, including experimentation, deep-dive analysis, forecasting, dashboards, and modeling.\n\n## \n\n## Your background looks like\n\n- 3+ years of experience working on a cross-functional team as a product Data Scientist.\n\n- Experience turning ambiguous problems into clear recommendations.\n\n- Experience working in a fast paced environment where you owned your work end-to-end.\n\n- Proficiency with AI coding tools and agentic workflows, grounded in the SQL and Python skills needed to validate their output.\n\n## Bonus points if you have\n\n- Hands-on experience building and maintaining ETL pipelines and data models (e.g., dbt, Airflow, Dagster).\n\n- Experience defining company-wide metrics, building a data dictionary, or setting up analytics governance.\n\n- Experience with audio data, data research companies, or LALM evaluations.\n\n San Francisco New York City fulltime yes\nlocations: San Francisco New York City\nremote: no",
+      "match_score": 11.25,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've consistently driven data-backed decisions from scoping client requirements for reporting portals to tracing p95 degradation with Locust and implementing Redis caching to cut fetch latency by 98%. My experience owning cloud-native compliance platform modules, ensuring ACID-compliant transactions with RabbitMQ, and validating LLM tool-calling reliability demonstrates my capacity to build trustworthy data foundations and leverage AI.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-04T19:27:19+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 12.24,
+            "overlap": 8.94,
+            "combined": 11.25
+          },
+          "backend": {
+            "cosine": 11.02,
+            "overlap": 8.27,
+            "combined": 10.2
+          },
+          "frontend": {
+            "cosine": 9.42,
+            "overlap": 10.68,
+            "combined": 9.79
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 12.24,
+        "keyword_overlap_score": 8.94,
+        "final_score": 11.25,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.4206
+          },
+          {
+            "term": "ai",
+            "weight": 0.294
+          },
+          {
+            "term": "team",
+            "weight": 0.1816
+          },
+          {
+            "term": "end",
+            "weight": 0.147
+          },
+          {
+            "term": "experience",
+            "weight": 0.1202
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-11-04T19:27:36+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "720f8081d6acdd0a101db22b67967c10",
       "source": "wellfound",
