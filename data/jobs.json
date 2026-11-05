@@ -1,15 +1,323 @@
 {
-  "exported_at": "2026-11-05T17:56:09+00:00",
+  "exported_at": "2026-11-05T19:35:06+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "pending_approval": 286,
-    "discovered": 1120,
+    "discovered": 1125,
+    "pending_approval": 287,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "aee87eb389e94226314491aada305afa",
+      "source": "yc",
+      "company": "Solve Intelligence",
+      "role": "US Infrastructure Engineer",
+      "url": "https://www.workatastartup.com/jobs/120731",
+      "jd_text": "**Founding Infrastructure Engineer (New York)**\n\nAt Solve Intelligence, we’re building AI for the global IP industry. We’re now building our first engineering team in New York.\n\n**The Role**\n\nYou’ll be our first engineer in New York, working closely with our London infrastructure team. You’ll own how Solve is deployed, secured and run for our largest customers in the US. Many of them need fully isolated environments that meet strict security requirements.\n\nThis isn’t a ticket queue. You’ll make architectural decisions, write a lot of Terraform, and work directly with the founders and with customers’ security teams.\n\n**What you’ll own**\n\n- **Repeatable enterprise deployments:** Turn our infrastructure into a repeatable process for single-tenant, isolated and air-gapped customer environments.\n\n- **Secure cloud architecture:** Design and run our AWS environments with Terraform, including regulated and government-grade environments.\n\n- **Security and compliance engineering:** Build controls into the infrastructure itself (IAM, network segmentation, encryption, logging and audit trails). Be the technical owner when customers review our security posture.\n\n- **Reliability and observability:** Instrument the stack (OpenTelemetry, Datadog) so we find issues before customers do, and own incident response for US environments.\n\n- **Developer velocity:** Improve CI/CD (GitHub Actions, Docker) so the whole team can ship quickly and safely.\n\n**What you’ll work on first**\n\n- Make our custom enterprise deployment process repeatable across customers and environments.\n\n- Harden and document security controls for our US regulated environments.\n\n- Set up on-call, monitoring and runbooks for US customers.\n\n**What You Bring**\n\n**Must-haves:**\n\n- **Terraform expertise:** You use it every day and it’s your default tool for infrastructure.\n\n- **Production infrastructure experience:** You’ve owned production cloud infrastructure, ideally on AWS, beyond configuring it.\n\n- **CI/CD and containers:** Kubernetes or ECS, and deployment pipelines you’ve built yourself.\n\n- **Security fundamentals:** IAM, cloud networking, secrets management and least-privilege design.\n\n- **Software engineering ability:** Strong Python, and comfortable building backend services and wiring infrastructure into the product.\n\n- **US work authorization:** You’re authorized to work in the US.\n\n**Nice-to-haves:**\n\n- Experience with FedRAMP, NIST 800-53, SOC 2 or ISO 27001 environments\n\n- Early-engineer experience at a startup, or infrastructure work at a hedge fund or quant firm\n\n- Distributed task queues (Celery/SQS), OpenSearch, or AI/ML infrastructure\n\n- DevSecOps experience\n\nWe care about what you’ve built more than certificates. Tell us about the hardest infrastructure problem you’ve owned.\n\n**About Solve Intelligence**\n\n- **Traction:** 20–30% month-on-month revenue growth, selling to more than 700 IP teams worldwide, including leading US law firms.\n\n- **Proven value:** Users report 50–90% efficiency gains.\n\n- **Backing:** $55M raised to date, including a $40M Series B, from investors including Y Combinator, 20VC and Visionaries.\n\n**Your Team**\n\nYou’ll work directly with our founding team:\n\n- **Chris** (CEO): PhD in AI (UCL), ex-Dyson and the Alan Turing Institute.\n\n- **Angus** (CTO): MEng Computer Science, ex-Qualcomm and Coremont (Brevan Howard).\n\n- **Sanj** (CRO): PhD in AI (Gatsby Unit, UCL), ex-Huawei R&D.\n\n**What We Offer**\n\n- **Salary:** Competitive base, plus significant equity.\n\n- **Founding impact:** You’ll shape our US engineering team and infrastructure from day one.\n\n- **Benefits:** Comprehensive health, dental and vision cover, a 401(k), enhanced parental leave and meals in the office.\n\n- **Location:** In person in New York, 5 days a week.\n\n&nbsp;\n\n&nbsp;\n\n&nbsp;\n New York fulltime yes\nlocations: New York\nremote: no",
+      "match_score": 7.42,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-05T19:34:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.77,
+            "overlap": 11.26,
+            "combined": 7.41
+          },
+          "backend": {
+            "cosine": 5.45,
+            "overlap": 11.65,
+            "combined": 7.31
+          },
+          "frontend": {
+            "cosine": 4.2,
+            "overlap": 13.11,
+            "combined": 6.87
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.77,
+        "keyword_overlap_score": 11.26,
+        "final_score": 7.42,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1617
+          },
+          {
+            "term": "security",
+            "weight": 0.1309
+          },
+          {
+            "term": "ai",
+            "weight": 0.0873
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0714
+          },
+          {
+            "term": "experience",
+            "weight": 0.0714
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "eee59fe20287324e971d4719c7bf8bb8",
+      "source": "yc",
+      "company": "Garage",
+      "role": "Founding Legal Counsel & Strategic Operations",
+      "url": "https://www.workatastartup.com/jobs/120764",
+      "jd_text": "# **About Us**\n\nOur vision is to become the marketplace for everything expensive, specialized, and difficult to move. We’re building the infrastructure that powers the procurement and disposition of assets across America’s essential industries, automating everything from discovery and payments to freight, warranty, and financing. Today, Garage operates in cities and towns across all 50 states and has surpassed $100M+ in annualized transaction volume on the platform.\n\nOur mission is to save local governments and essential services businesses time and money. We started with fire departments two years ago and have since expanded into EMS and heavy-duty, launching new verticals while growing revenue \\>10x last year.\n\nIf you move fast, hold a high bar, and want meaningful ownership in building a category-defining company, Garage is the place to do it.\n\n## **About the Role**\n\nWe're looking for an exceptional lawyer to join Garage as our first in-house legal hire, partnering with leadership on commercial, corporate, regulatory, and operational matters.\n\nYou'll be involved in some of the most consequential decisions at Garage—from structuring financing transactions and evaluating acquisitions to negotiating strategic partnerships and significant agreements. You’ll shape the legal frameworks and policies governing our marketplace and oversee corporate governance, board matters, equity administration, and compliance, while building the legal infrastructure to support our growth.\n\n## **What You’ll Do**\n\n- Serve as Garage's primary internal legal advisor, partnering with leadership across commercial, corporate, regulatory, and operational matters.\n\n- Draft, negotiate, and manage commercial agreements, including customer, vendor, and strategic partnership contracts.\n\n- Own the legal frameworks governing our marketplace.\n\n- Manage corporate governance, board matters, equity administration, and compliance.\n\n- Advise and oversee outside counsel across specialized legal matters, including litigation, regulatory issues, employment, intellectual property, and complex corporate transactions.\n\n- Structure and negotiate significant commercial partnership agreements\n\n## **Who You Are**\n\n- Must be licensed to practice law in at least one jurisdiction.\n\n- A JD from a top law school and a minimum of 4 years of legal experience, ideally with top-tier law firm training and/or in-house experience at a high-growth company.\n\n- Demonstrated experience independently managing and closing commercial agreements, with strong legal and business judgment.\n\n- Ability to navigate a broad range of legal matters, work through ambiguity, and balance legal considerations with business objectives.\n\n- Strong organizational skills and the ability to build scalable processes and systems from the ground up.\n\n## **Our Values**\n\n- **Take Big Swings.** We are here to transform an overlooked industry—not make small improvements around the edges. We set ambitious goals, take calculated risks, and push through setbacks. We never trade lasting impact for short-term comfort.\n\n- **Customers Come First.** Our customers operate in an industry burdened by slow, expensive, and outdated processes. We attack the problems that cost them the most and measure our success by the time and money we give back to them.\n\n- **Play For the Front of the Jersey.** We put the mission ahead of ourselves. We challenge each other directly, support each other relentlessly, and step up whenever the team needs us. We win together, and we have fun doing it.\n\n- **All Gas, No Ego.** Building something that matters takes relentless effort. We move fast, take ownership, and see hard problems through. When we fall short, we own it, learn quickly, and come back stronger.\n\n## **Why Join Garage?**\n\n- **Do work that matters.** Our platform helps people buy the assets that local communities rely on to keep their communities safe, clean, and operating every day.\n\n- **Help shape the company.** Join as one of our first 50 employees and work directly alongside the founders.\n\n- **Make an outsized impact.** You’ll join a talent-dense, high-performance team where every person moves the company forward.\n\n- **Build from a strong foundation.** We’ve raised $18M, including a $13.5M Series A, from Y Combinator, Initialized Capital, Infinity Ventures, FJ Labs, and other leading investors.\n\n## **What we offer**\n\n- Competitive salary and stock options\n\n- 100% medical, dental and vision insurance coverage\n\n- Unlimited PTO (in addition to company observed holidays)\n\n- Daily lunch & dinner (for employees based in NYC)\n\n- $100/month wellness stipend\n\n- 401(k) w/ employer match\n\n- Pre-tax commuter benefits\n\n- Annual team offsite\n\n- Relocation assistance\n\n_We realize applying for jobs can feel daunting at times. We don’t expect you to check all the qualification boxes and encourage you to apply if you have experience in some of the areas._\n\n**Equal Opportunity**\n\nAs an equal-opportunity employer, we are committed to building an inclusive environment where you can be you. We work hard to evaluate all employees and job applicants consistently, without regard to race, color, religion, gender, natural origin, age, disability, pregnancy, gender expression or identity, sexual orientation, or any other legally protected class.\n\n New York City fulltime yes\nlocations: New York City\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-05T19:34:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c79405679567e21921d99beecbe5e7bf",
+      "source": "yc",
+      "company": "Garage",
+      "role": "Growth Marketing Lead",
+      "url": "https://www.workatastartup.com/jobs/120763",
+      "jd_text": "# **About Us**\n\nOur vision is to become the marketplace for everything expensive, specialized, and difficult to move. We’re building the infrastructure that powers the procurement and disposition of assets across America’s essential industries, automating everything from discovery and payments to freight, warranty, and financing. Today, Garage operates in cities and towns across all 50 states and has surpassed $100M+ in annualized transaction volume on the platform.\n\nOur mission is to save local governments and essential services businesses time and money. We started with fire departments two years ago and have since expanded into EMS and heavy-duty, launching new verticals while growing revenue \\>10x last year.\n\nIf you move fast, hold a high bar, and want meaningful ownership in building a category-defining company, Garage is the place to do it.\n\n## **About the Role**\n\nAs Growth Marketing Lead at Garage, you'll play a critical role in driving our next phase of growth by testing and scaling new acquisition channels and building the growth marketing function. You'll own initiatives across partnerships, lifecycle, and more, building creative, scalable systems to acquire customers, grow our audience, and expand our marketplace.\n\nWe're looking for a resourceful, entrepreneurial marketer who knows how to turn creative ideas into measurable growth. You'll work closely with the founders and marketing team to build new growth engines from the ground up, experiment with unconventional strategies, and develop repeatable systems that scale with the business.\n\n## **What You'll Do**\n\n- Experiment with new channels and creative growth strategies, collaborating across teams to build repeatable, cost-efficient acquisition engines.\n\n- Build strategic partnerships, creator programs, and customer advocacy initiatives that expand our reach and turn audiences into customers.\n\n- Own and scale organic growth channels, developing compelling content and strategies that drive customer acquisition.\n\n## **Who You Are**\n\n- 5+ years of experience in growth marketing at a high-growth company, with a proven track record of building and scaling acquisition channels.\n\n- You're a creative, analytical marketer with deep expertise in organic growth and a generalist mindset, capable of turning creative ideas into measurable results.\n\n- You're entrepreneurial, resourceful, and action-oriented, with a strong sense of ownership and a willingness to roll up your sleeves in a fast-moving environment.\n\n## **Our Values**\n\n- **Take Big Swings.** We are here to transform an overlooked industry—not make small improvements around the edges. We set ambitious goals, take calculated risks, and push through setbacks. We never trade lasting impact for short-term comfort.\n\n- **Customers Come First.** Our customers operate in an industry burdened by slow, expensive, and outdated processes. We attack the problems that cost them the most and measure our success by the time and money we give back to them.\n\n- **Play For the Front of the Jersey.** We put the mission ahead of ourselves. We challenge each other directly, support each other relentlessly, and step up whenever the team needs us. We win together, and we have fun doing it.\n\n- **All Gas, No Ego.** Building something that matters takes relentless effort. We move fast, take ownership, and see hard problems through. When we fall short, we own it, learn quickly, and come back stronger.\n\n## **Why Join Garage?**\n\n- **Do work that matters.** Our platform helps people buy the assets that local communities rely on to keep their communities safe, clean, and operating every day.\n\n- **Help shape the company.** Join as one of our first 50 employees and work directly alongside the founders.\n\n- **Make an outsized impact.** You’ll join a talent-dense, high-performance team where every person moves the company forward.\n\n- **Build from a strong foundation.** We’ve raised $18M, including a $13.5M Series A, from Y Combinator, Initialized Capital, Infinity Ventures, FJ Labs, and other leading investors.\n\n## **What we offer**\n\n- Competitive salary and stock options\n\n- 100% medical, dental and vision insurance coverage\n\n- Unlimited PTO (in addition to company observed holidays)\n\n- Daily lunch & dinner (for employees based in NYC)\n\n- $100/month wellness stipend\n\n- 401(k) w/ employer match\n\n- Pre-tax commuter benefits\n\n- Annual team offsite\n\n- Relocation assistance\n\n_We realize applying for jobs can feel daunting at times. We don’t expect you to check all the qualification boxes and encourage you to apply if you have experience in some of the areas._\n\n**Equal Opportunity**\n\nAs an equal-opportunity employer, we are committed to building an inclusive environment where you can be you. We work hard to evaluate all employees and job applicants consistently, without regard to race, color, religion, gender, natural origin, age, disability, pregnancy, gender expression or identity, sexual orientation, or any other legally protected class.\n\n New York City fulltime yes\nlocations: New York City\nremote: no\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-05T19:34:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "97aa567887b00b2aad81032a38200946",
+      "source": "yc",
+      "company": "Garage",
+      "role": "Business Operations",
+      "url": "https://www.workatastartup.com/jobs/120762",
+      "jd_text": "# **About Us**\n\nOur vision is to become the marketplace for everything expensive, specialized, and difficult to move. We’re building the infrastructure that powers the procurement and disposition of assets across America’s essential industries, automating everything from discovery and payments to freight, warranty, and financing. Today, Garage operates in cities and towns across all 50 states and has surpassed $100M+ in annualized transaction volume on the platform.\n\nOur mission is to save local governments and essential services businesses time and money. We started with fire departments two years ago and have since expanded into EMS and heavy-duty, launching new verticals while growing revenue \\>10x last year.\n\nIf you move fast, hold a high bar, and want meaningful ownership in building a category-defining company, Garage is the place to do it.\n\n## **About the Role**\n\nAs a Business Operations Associate, you’ll help make Garage run. You’ll work across nearly every part of the company, jumping in wherever there is an important problem to solve, process to build, or initiative that needs an owner.\n\nThis is a true operator role. You’ll build processes from scratch, fix things that aren’t working, coordinate across teams, and own the many things required to keep a fast-growing startup moving. Some projects will be highly visible; others will happen behind the scenes but be just as critical to the company’s success.\n\nAlong the way, you’ll get unusual exposure to how a startup operates — from People and Finance to GTM, Product, company planning, and leadership decision-making. As you build context and earn trust, you’ll take on increasingly strategic projects, making this an ideal role for someone who wants to learn how to run a company from the inside out and ultimately grow into a startup leader or Chief of Staff.\n\n## **What we’re looking for**\n\n- Own the systems, processes, and recurring workstreams that keep Garage running smoothly, including core internal operations like People Ops, benefits, compliance, and insurance.\n\n- Step into ambiguous problems without clear owners, create structure, and drive them from open question to completed outcome.\n\n- Identify inefficiencies and build scalable, repeatable processes that make the company faster and more effective.\n\n- Work cross-functionally to coordinate priorities, unblock execution, and drive important company-wide initiatives forward.  \n\n## **What you need**\n\n- Bachelor’s degree from an accredited university\n\n- 2+ years of experience at a startup in an execution-focused role, investment banking, consulting, ex-Founders, working at a startup, business development, or related roles\n\n- A natural operator mindset with a strong bias toward action — you see something that needs to get done and take ownership of figuring it out\n\n- A willingness to roll up your sleeves and do whatever the company needs, from building a new process to handling the small but important details that keep things running\n\n- Exceptional organization and reliability, with the ability to manage multiple priorities without letting things fall through the cracks\n\n- Comfort with ambiguity, a steep learning curve, and the ability to bring structure to problems you may have never encountered before\n\n- Intellectual curiosity and strategic thinking, paired with a strong desire to turn ideas into action and make the people around you more effective\n\n## **Our Values**\n\n- **Take Big Swings.** We are here to transform an overlooked industry—not make small improvements around the edges. We set ambitious goals, take calculated risks, and push through setbacks. We never trade lasting impact for short-term comfort.\n\n- **Customers Come First.** Our customers operate in an industry burdened by slow, expensive, and outdated processes. We attack the problems that cost them the most and measure our success by the time and money we give back to them.\n\n- **Play For the Front of the Jersey.** We put the mission ahead of ourselves. We challenge each other directly, support each other relentlessly, and step up whenever the team needs us. We win together, and we have fun doing it.\n\n- **All Gas, No Ego.** Building something that matters takes relentless effort. We move fast, take ownership, and see hard problems through. When we fall short, we own it, learn quickly, and come back stronger.\n\n## **Why Join Garage?**\n\n- **Do work that matters.** Our platform helps people buy the assets that local communities rely on to keep their communities safe, clean, and operating every day.\n\n- **Help shape the company.** Join as one of our first 45 employees and work directly alongside the founders.\n\n- **Make an outsized impact.** You’ll join a talent-dense, high-performance team where every person moves the company forward.\n\n- **Build from a strong foundation.** We’ve raised $18M, including a $13.5M Series A, from Y Combinator, Initialized Capital, Infinity Ventures, FJ Labs, and other leading investors.\n\n## **What we offer**\n\n- Competitive salary and stock options\n\n- 100% medical, dental and vision insurance coverage\n\n- Unlimited PTO (in addition to company observed holidays)\n\n- Daily lunch & dinner (for employees based in NYC)\n\n- $100/month wellness stipend\n\n- 401(k) w/ employer match\n\n- Pre-tax commuter benefits\n\n- Annual team offsite\n\n- Relocation assistance\n\n_We realize applying for jobs can feel daunting at times. We don’t expect you to check all the qualification boxes and encourage you to apply if you have experience in some of the areas._\n\n**Equal Opportunity**\n\nAs an equal-opportunity employer, we are committed to building an inclusive environment where you can be you. We work hard to evaluate all employees and job applicants consistently, without regard to race, color, religion, gender, natural origin, age, disability, pregnancy, gender expression or identity, sexual orientation, or any other legally protected class.\n\n New York City fulltime yes\nlocations: New York City\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-05T19:34:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "76cb72fb41c6fc589f8a52065b13ed7e",
+      "source": "yc",
+      "company": "Garage",
+      "role": "Customer Experience Operations",
+      "url": "https://www.workatastartup.com/jobs/120761",
+      "jd_text": "# **About Us**\n\nOur vision is to become the marketplace for everything expensive, specialized, and difficult to move. We’re building the infrastructure that powers the procurement and disposition of assets across America’s essential industries, automating everything from discovery and payments to freight, warranty, and financing. Today, Garage operates in cities and towns across all 50 states and has surpassed $100M+ in annualized transaction volume on the platform.\n\nOur mission is to save local governments and essential services businesses time and money. We started with fire departments two years ago and have since expanded into EMS and heavy-duty, launching new verticals while growing revenue \\>10x last year.\n\nIf you move fast, hold a high bar, and want meaningful ownership in building a category-defining company, Garage is the place to do it.\n\n## **In this role, you will**\n\n- **Own operational initiatives and special projects** — take initiative on projects that improve workflows, strengthen operations, and help the team scale.\n\n- **Maintain operational accuracy and visibility** — update and manage trackers and internal systems to ensure deal status, documentation, and timelines are always current.\n\n- **Problem-solve and exercise judgment** — identify issues, gather missing information, resolve straightforward requests efficiently, and escalate when needed to keep deals moving.\n\n- **Internal Collaboration** — own the operational coordination between clients, Sales, Engineering, and other internal teams to ensure issues are resolved efficiently and accurately, while surfacing opportunities to improve the customer experience.\n\n- **Operate with speed and precision** — manage multiple active transactions at once while maintaining high attention to detail in a fast-moving environment.\n\n- **Support users in navigating the product** — help buyers and sellers understand how to use the Garage platform and complete required actions smoothly, and identify ways to improve the user experience.\n\n## **We’re looking for someone who**\n\n- Takes ownership, works effectively with a high degree of autonomy, and is proactive about identifying and driving solutions.\n\n- Is comfortable working in a fast-paced, dynamic environment while maintaining attention to detail.\n\n- Is skilled at engaging with customers and building trust through clarity, responsiveness, and professionalism.\n\n- Is able to prioritize and manage multiple active requests and deadlines efficiently.\n\n- Is confident navigating spreadsheets, trackers, and multiple data sources, with the ability to interpret and communicate insights clearly.  \n\n## **Qualifications**\n\n- Bachelor’s degree from an accredited university.\n\n- 3+ years of experience in operations, customer-facing, or analytical roles.\n\n- Strong organizational skills with exceptional attention to detail.\n\n- Demonstrated ability to communicate effectively with stakeholders at all levels, from frontline operators to CEOs, via phone and email.\n\n## **Nice to have**\n\n- Experience operating in an early-stage or high-growth startup environment.\n\n- Proficient with ticketing and project management tools (e.g., Notion, Jira, Linear) to manage tasks, workflows, and client requests\n\n- A curious, proactive mindset, with a willingness to contribute new ideas \n\n- Low ego and willing to roll up their sleeves—taking ownership of projects and doing whatever it takes to move the work forward\n\n## **Our Values**\n\n- **Take Big Swings.** We are here to transform an overlooked industry—not make small improvements around the edges. We set ambitious goals, take calculated risks, and push through setbacks. We never trade lasting impact for short-term comfort.\n\n- **Customers Come First.** Our customers operate in an industry burdened by slow, expensive, and outdated processes. We attack the problems that cost them the most and measure our success by the time and money we give back to them.\n\n- **Play For the Front of the Jersey.** We put the mission ahead of ourselves. We challenge each other directly, support each other relentlessly, and step up whenever the team needs us. We win together, and we have fun doing it.\n\n- **All Gas, No Ego.** Building something that matters takes relentless effort. We move fast, take ownership, and see hard problems through. When we fall short, we own it, learn quickly, and come back stronger.\n\n## **Why Join Garage?**\n\n- **Do work that matters.** Our platform helps people buy the assets that local communities rely on to keep their communities safe, clean, and operating every day.\n\n- **Help shape the company.** Join as one of our first 40 employees and work directly alongside the founders.\n\n- **Make an outsized impact.** You’ll join a talent-dense, high-performance team where every person moves the company forward.\n\n- **Build from a strong foundation.** We’ve raised $18M, including a $13.5M Series A, from Y Combinator, Initialized Capital, Infinity Ventures, FJ Labs, and other leading investors.\n\n## **What we offer**\n\n- Competitive salary and stock options\n\n- 100% medical, dental and vision insurance coverage\n\n- Unlimited PTO (in addition to company observed holidays)\n\n- Daily lunch & dinner (for employees based in NYC)\n\n- $100/month wellness stipend\n\n- 401(k) w/ employer match\n\n- Pre-tax commuter benefits\n\n- Annual team offsite\n\n- Relocation assistance\n\n_We realize applying for jobs can feel daunting at times. We don’t expect you to check all the qualification boxes and encourage you to apply if you have experience in some of the areas._\n\n**Equal Opportunity**\n\nAs an equal-opportunity employer, we are committed to building an inclusive environment where you can be you. We work hard to evaluate all employees and job applicants consistently, without regard to race, color, religion, gender, natural origin, age, disability, pregnancy, gender expression or identity, sexual orientation, or any other legally protected class.\n\n New York City fulltime yes\nlocations: New York City\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-05T19:34:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "fbc7bc4deb47bec2f4a00e11235063c8",
+      "source": "yc",
+      "company": "Agave",
+      "role": "Engineering Manager",
+      "url": "https://www.workatastartup.com/jobs/120794",
+      "jd_text": "## **About the role**\n\ntl;dr: Fresh off a $15M Series A led by Accel (total funding now $20M+), Agave is experiencing hockey-stick growth. We’re looking for a world-class engineering manager who still loves to build. You’ll lead a team of strong full-stack engineers shipping AI and agent products on top of IC work yourself.\n\n**In-person:** This role is in-person from our office in San Francisco 5 days per week.\n\n## **What is Agave?**\n\nAgave builds applied AI for construction, a $12T global industry run on financial software built 20-50 years ago, much of it on-premise with no APIs and no documentation.\n\nWe spent 4 years building proprietary rails that read and write across those systems. Our AI agents run on those rails and take over the back-office work contractors still do by hand: invoice matching, expenses, compliance, billing, and financial reporting. Contractors keep the systems they already use; our agents work across them.\n\n550+ contractors run on Agave, including teams building hyperscaler data centers, mass transit systems, and other critical infrastructure. We're backed by Accel and Y Combinator, who both reinvested in our $15M Series A, plus execs from Procore, Autodesk, PlanGrid, and Plaid.\n\n## **Why join us?**\n\n**Early-stage, yet de-risked:** we are a rare combo of being early stage (high upside) but lower risk (thousands of contractors using us, hockey-stick growth). You get the benefits of an early stage startup without the risk you'll have at almost any other startup. You'll have a ton of impact, work directly with our customers, and get to work on interesting technical challenges you won't see at bigger companies. Although we're early stage, we've eliminated key strategic risks you'll face at other startups, like an unproven product, lack of market validation, lack of revenue, or co-founder disputes. We're all young and hungry. Most of us moved to SF from far away (Canada, SoCal, Texas, Virginia) specifically to build Agave from the ground up.\n\n**Team is technical and diverse:** you'll work with a formidable founding team that's experienced, intense, and ambitious. The cofounders worked together for 10+ years, first at a startup that Amazon acquired, then at Amazon, and now at Agave. You'll learn a ton while having outsized ownership. You'll have a front-row seat to the good and bad of building a company from the ground up.\n\n**Huge opportunity without direct competition:** startups are incredibly hard, so you want to join one that has a unique advantage. You don't want to spend years of your life on a company in a saturated market with tons of competition. We're seizing an opportunity that's massive (Construction is the world's third-largest industry) but also overlooked by most people in startup land. Most who can solve this problem aren't aware it exists or are too distracted by tech trends to notice. As a result, we have a multi-year head start against potential competitors, increasing our odds of success significantly. We're also backed by world-class investors (Accel, YC) and Construction insiders (Procore and Autodesk executives, founders of the largest construction tech companies like PlanGrid).\n\n**Momentum is accelerating:** our AI products are the fastest-growing part of the business, with a third of new deals now including one. Channel partnerships are fueling that growth too: we signed 8 new ones in the last month alone.\n\n## **Requirements**\n\n* 4+ years as a back-end/full-stack engineer, including 1+ years managing or leading engineers (as a manager, or as a tech lead with mentoring responsibility).\n* A strong IC who wants to stay one: you’ve designed and built production systems yourself, with real experience in cloud infrastructure (e.g. AWS) and distributed systems.\n* Has debugged hard production issues end-to-end: DB performance, memory, concurrency, third-party API failures.\n* Has led projects with other engineers: scoped the work, split it across the team, and delivered it.\n* Has mentored engineers and given direct feedback, including the hard conversations.\n* Can explain tradeoffs to founders and customers, not just engineers.\n* Self-motivated, high ownership, low ego; desire to work on a fast-paced, intense, fun team. Passion for building a world-class engineering culture.\n* If in Bay Area: pumped to work in-person with us in SF 5 days/week. This role is remote optional for candidates outside of the Bay Area.\n* No need to have: prior experience with our tech stack or with construction.\n\n**What we expect from you**\n\n* Spend 50-60% of your time as an IC: shipping code and owning the hardest technical problems on your team.\n* Lead a team of 4-6 engineers: 1:1s, feedback, performance, and career growth.\n* Own delivery for your team’s area: scope the work, sequence it, and ship on the commitments we make to customers.\n* Set the technical bar through design reviews, code reviews, and pairing.\n* Help interview and onboard new engineers as the team grows.\n\n## **Interesting technical challenges?**\n\n**AI &amp; agents:** this is where most of our new product work is. We're building agents that read, reconcile, and act on construction financial data (invoices, change orders, pay apps, budgets) inside systems that were never designed to be queried. The hard parts are grounding, getting an agent to be right about a customer's actual numbers, evaluating quality when the correct answer lives in a 30-year-old ERP, designing tools over our own APIs, and deciding what should be a deterministic pipeline versus what to leave to a model.\n\n**Unification:** we unify dozens-to-hundreds of fragmented systems under a single standard that we define: data objects, data models, authentication, account-linking UX, and features like filters and pagination. It's the foundation the AI products sit on, and every new feature has to be designed generically across every system we support and plan to support.\n\n**On-prem:** we're connecting with many types of on-prem systems (SQL-based, DLL-based, API-based), many built 20-40 years ago. We provide tremendous value to customers allowing them to interface with these systems in a secure, fast, reliable way, as if they're modern, cloud-based products. We need to support real-time communication and webhooks when they don't exist (e.g., using web-sockets).\n\n**Scale &amp; speed:** we're handling millions of API requests per day, and growing daily. For our products that we power with our own API (e.g. Analytics), we need to store and retrieve large amounts of data in an efficient way, building elegant caching layers to reduce latency. We ship code daily and iterate quickly based on actual feedback from paying customers (they share tons!).\n\n## **Tech stack?**\n\nTypeScript, React, Redis, Postgres, AWS - CDK, EC2\n\n## **Benefits**\n\n**_Compensation_**\n\n* **Equity:** competitive equity, so you share in the upside you’re helping create.\n* **Performance Bonuses:** we offer annual performance bonuses when we hit company growth goals. For 2026, the bonus is 15% of your base salary or OTE. We've had these bonuses for the last 3 years, and expect to continue to have them in subsequent years.\n* **401(k):** we match 100% of your contributions, up to 4% of your annual salary.\n\n**_Health &amp; family_**\n\n* **Healthcare:** we cover 90% of your healthcare costs, with several plan options. We also cover a healthy portion of dependent costs.\n* **HSA:** a $100/month company contribution to your HSA.\n* **Parental leave:** up to 12 weeks of paid leave for all new parents, including adoptive and foster parents\n\n**_Where you work_**\n\n* **Relocation:** a sizable bonus if you’re moving to the Bay Area, plus an extra bonus for anyone (even current Bay Area residents) who moves within a 15-minute walk of our office.\n* **Commuter benefits:** pre-tax contributions toward commuting costs, and we cover the full cost of a Muni pass if you take public transit.\n* **Office visits:** company-sponsored trips to our SF HQ at least every other month. For remote teammates, we schedule trips to overlap during “remote visit” weeks so you get real time with the team.\n* **Visa sponsorship:** we sponsor visas (H1B, TN, etc.) for candidates who are a good fit.\n\n**_Perks_**\n\n* **Food:** breakfast and dinner stipends through DoorDash, plus a kitchen stocked with coffee, snacks, and drinks.\n* **Gym:** on-site gym with Peloton, squat rack, Tempo, Yoga setup, and more.\n\n   \n\n## **Our Office**\n\nWe've built Agave in-person since day 1, and will maintain an in-person culture in San Francisco going forward for candidates in the Bay Area. We also will provide a significant relocation bonus for candidates who want to move to the Bay Area.\n\nOur office is at 101 New Montgomery Street, San Francisco, right near Salesforce Park, coffee shops &amp; restaurants, and a bustling downtown. We believe building in-person is a huge strategic advantage, and we hope you'll join us.\n\n## **About the interview process**\n\nAt each stage, we decide within 24hrs and update you shortly after.\n\n**Intro (20min):** informal chat for you to learn more about the role. We’ll ask for details on past projects. We want to know that you can speak about your work clearly. You’re welcome to ask lots of questions about whether working at Agave makes sense for you.\n\n**Customer Needs Problem (50min):** we’ll ask you to design a feature to meet a customer need based on one of our actual application components. You’ll do the work to understand the requirements, translate those to specs, and iterate on the solution as you learn more about the customer’s needs. This will intentionally have more ambiguity than a typical coding-style question.\n\n**Coaching Problem (50min):** you’ll do a coaching roleplay with one of our team members, working through a realistic situation with an engineer on your team. We want to see how you listen, give direct feedback, and help someone grow.\n\n**On-site (60min x 5, all 1:1 interviews) \\[In-Person in SF, we pay for the trip\\]:** you’ll interview with each co-founder and engineering managers This will be a deeper dive into your technical abilities and overall fit. Each interview is 1hr, 45min for our questions and 15min for yours. San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 6",
+      "match_score": 10.49,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've driven full-stack solutions end-to-end for critical enterprise systems, from scoping complex client requirements and validating LLM tool-calling reliability against model APIs, to owning AKS deployments with blue-green releases and debugging production concurrency risks with message brokers. My proven track record in onboarding 80+ client organizations by automating 90% of manual workflows and cutting API fetch latency by 98% with Redis caching, directly informs building scalable and efficient applied AI agents that operate across diverse financial systems.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-05T19:34:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.04,
+            "overlap": 18.54,
+            "combined": 10.49
+          },
+          "backend": {
+            "cosine": 5.8,
+            "overlap": 18.8,
+            "combined": 9.7
+          },
+          "frontend": {
+            "cosine": 5.37,
+            "overlap": 19.9,
+            "combined": 9.73
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.04,
+        "keyword_overlap_score": 18.54,
+        "final_score": 10.49,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1867
+          },
+          {
+            "term": "ai",
+            "weight": 0.0756
+          },
+          {
+            "term": "based",
+            "weight": 0.0756
+          },
+          {
+            "term": "stack",
+            "weight": 0.0622
+          },
+          {
+            "term": "technical",
+            "weight": 0.0618
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-11-05T19:35:04+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "5c5ac3ef3a4baf06aaff3551cdb6c6cc",
       "source": "yc",
