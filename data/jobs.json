@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-11-05T09:14:47+00:00",
+  "exported_at": "2026-11-05T11:56:48+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "pending_approval": 286,
     "discovered": 1120,
-    "pending_approval": 285,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "5c5ac3ef3a4baf06aaff3551cdb6c6cc",
+      "source": "yc",
+      "company": "Third Chair",
+      "role": "Senior Software Engineer (Data Platform)",
+      "url": "https://www.workatastartup.com/jobs/120662",
+      "jd_text": "**About the role:**\n\nThird Chair monitors social and ad platforms for unlicensed commercial use of music on behalf of record labels and publishers. Our backend scans, ingests and processes tens of millions of posts every month and turns them into cases our customers act on. You'll work across the backend, with a particular focus on how data comes into the system.\n\n**What you'll do:**\n\n- Design, build and own production backend services and APIs end-to-end.\n- Improve our data ingestion layer: crawlers, third-party data providers, and the pipelines that load into our databases.\n- Make data collection reliable and cost-efficient, including proxy strategy, rate limits, retries, and evaluating and selecting vendors.\n- Work on high-throughput systems: queues, consumers, large datasets and observability.\n- Ship product features with the team from API to production.\n\n**What makes you a good fit:**\n\n- 4+ years of professional work experience building production backends in Go, Node.js, Python or similar.\n- Strong experience with databases like PostgreSQL, ClickHouse and others, and AWS services such as ECS, RDS, Lambda and CloudWatch.\n- Experience building data ingestion or crawling systems at scale, and comfortable dealing with unreliable external sources.\n- Strong understanding of system design principles for production-grade systems.\n- Well integrated with AI coding tools like Claude, Codex etc.\n- Comfortable with US timezones.\n\n**What makes you a great fit:**\n\n- Experience with web scraping, proxies (residential/mobile) or headless browsers in production.\n- Proven experience with very large datasets and analytical (OLAP) workloads.\n- Strong sense of cost optimization and build-vs-buy judgment when choosing vendors.\n- Experience building with LLM APIs or agents.\n\n**Benefits:**\n\n- Work from anywhere - We're a distributed team across multiple timezones with a focus on outputs instead of location or working hours.\n- Generous PTO policy.\n- Competitive pay bracket.\n- Equity at a fast growing YC backed co in a disruptive market.\n\n**Please read before applying:**\n\n- Please include a note where you answer in not more than 100 words: 'What is the most complex data ingestion or backend system you've built where you were the sole or primary developer? Mention the technical details, scale, and the hardest failure you had to handle.'\n- Applications that don't include the note or meet the minimum requirements will not be considered.\n- We review every application and have not more than 4 rounds in the process with a decision within 14 days of applying. jobs_skill 5 Amazon Web Services (AWS) 125 jobs_skill 49 Go 50 jobs_skill 90 Node.js 144 jobs_skill 99 PostgreSQL 79 jobs_skill 107 Python 288 jobs_skill 402 ClickHouse 0 fulltime none\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 11.67,
+      "resume_variant": "backend",
+      "draft_answer": "I've consistently built and scaled high-throughput backend services handling millions of data points, leveraging RabbitMQ for guaranteed ingestion under load and Redis to cut data fetch latency by 98%, which directly applies to ensuring reliable data collection from social and ad platforms. I also own end-to-end production backend deployments, including blue-green CI/CD for zero-downtime rollouts, and have experience with LLM agents, ensuring I can deliver robust and extensible data ingestion systems for monitoring content.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-05T11:56:30+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 11.03,
+            "overlap": 11.26,
+            "combined": 11.1
+          },
+          "backend": {
+            "cosine": 11.68,
+            "overlap": 11.65,
+            "combined": 11.67
+          },
+          "frontend": {
+            "cosine": 10.59,
+            "overlap": 15.05,
+            "combined": 11.93
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 11.68,
+        "keyword_overlap_score": 11.65,
+        "final_score": 11.67,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.1889
+          },
+          {
+            "term": "experience",
+            "weight": 0.1619
+          },
+          {
+            "term": "production",
+            "weight": 0.1349
+          },
+          {
+            "term": "backend",
+            "weight": 0.108
+          },
+          {
+            "term": "apis",
+            "weight": 0.054
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": "2026-11-05T11:56:46+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "b37b703ad53da77cc2bd6510ee7a8052",
       "source": "wellfound",
