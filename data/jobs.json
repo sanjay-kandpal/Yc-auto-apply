@@ -1,15 +1,143 @@
 {
-  "exported_at": "2026-11-06T11:55:31+00:00",
+  "exported_at": "2026-11-06T17:17:48+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 1147,
     "pending_approval": 292,
-    "discovered": 1145,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "f0376e8ef7376b3079c53da7bbb894ac",
+      "source": "wellfound",
+      "company": "OCTAVOLAB",
+      "role": "Full Stack Engineer – OctavoLab",
+      "url": "https://wellfound.com/jobs/5008585-full-stack-engineer-octavolab",
+      "jd_text": "Hyderabad\nlocationNames: Hyderabad\nremote: true",
+      "match_score": 1.65,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T17:17:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.94,
+            "overlap": 0.99,
+            "combined": 1.66
+          },
+          "backend": {
+            "cosine": 0.97,
+            "overlap": 0.38,
+            "combined": 0.79
+          },
+          "frontend": {
+            "cosine": 1.13,
+            "overlap": 0.49,
+            "combined": 0.93
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 1.94,
+        "keyword_overlap_score": 0.99,
+        "final_score": 1.65,
+        "top_keywords": [
+          {
+            "term": "stack",
+            "weight": 0.2644
+          },
+          {
+            "term": "engineer",
+            "weight": 0.175
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0685b292e77e869b84ac7227080507c2",
+      "source": "wellfound",
+      "company": "OCTAVOLAB",
+      "role": "Frontend Engineer - OctavoLab",
+      "url": "https://wellfound.com/jobs/5008587-frontend-engineer-octavolab",
+      "jd_text": "Hyderabad\nlocationNames: Hyderabad\nremote: true",
+      "match_score": 2.29,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T17:17:43+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.61,
+            "overlap": 0.66,
+            "combined": 1.32
+          },
+          "backend": {
+            "cosine": 0.98,
+            "overlap": 0.38,
+            "combined": 0.8
+          },
+          "frontend": {
+            "cosine": 2.85,
+            "overlap": 0.97,
+            "combined": 2.29
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 2.85,
+        "keyword_overlap_score": 0.97,
+        "final_score": 2.29,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.2167
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1771
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "8d545c92e3a1f195d011e822580c68a9",
       "source": "yc",
