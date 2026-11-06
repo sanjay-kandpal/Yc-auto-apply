@@ -1,15 +1,818 @@
 {
-  "exported_at": "2026-11-06T09:07:26+00:00",
+  "exported_at": "2026-11-06T11:55:31+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1137,
-    "pending_approval": 287,
+    "pending_approval": 292,
+    "discovered": 1145,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "8d545c92e3a1f195d011e822580c68a9",
+      "source": "yc",
+      "company": "Adalat AI",
+      "role": "Forward-Deployed Engineer (Africa)",
+      "url": "https://www.workatastartup.com/jobs/118253",
+      "jd_text": "### About the Company\n\nAdalat AI builds technology to reduce judicial delays and improve access to justice. We work with courts to turn complex, often manual processes into reliable digital workflows, giving judges and court staff more time for the work that needs their judgment.\n\nWe are looking for an experienced full-stack engineer based in Kenya to help adapt JUDA for African judicial systems. You will work directly with courts and closely with our engineering team in India, turning what you learn on the ground into production software.\n\n### Role Overview\n\nYou will be a core member of a fully remote engineering team, with ownership across discovery, technical design, implementation, deployment, and iteration. Your work will connect two perspectives: how courts actually operate and how we build a maintainable product that serves different jurisdictions.\n\nThat means spending time with court users, understanding their workflows and constraints, and writing the code that makes JUDA useful in their setting. You will contribute to the shared product and codebase as well as country-specific workflows and integrations.\n\nThe role is based in Kenya and includes travel to court partners as projects require. You should enjoy moving between focused engineering work and practical, in-person problem-solving.\n\n### Key Responsibilities\n\n* **Understand court workflows.** Work with judges, registries, court staff, and technical teams to understand daily operations, existing systems, and deployment constraints. Turn observations into clear requirements and practical engineering decisions.\n* **Build across the stack.** Design and ship user interfaces, backend services, APIs, and data models. Own features from early prototypes through testing, release, and production use.\n* **Adapt JUDA to local settings.** Translate differences in procedures, terminology, roles, permissions, and document workflows into usable product capabilities, while keeping the underlying product coherent.\n* **Integrate with existing systems.** Build and maintain integrations with court systems and partner services, with careful attention to data integrity, access controls, and failure handling.\n* **Make deployments dependable.** Work with platform and infrastructure engineers and local technical counterparts on deployment, monitoring, troubleshooting, backups, and recovery. Help resolve production issues and address their underlying causes.\n* **Protect sensitive court information.** Build secure workflows and follow agreed access, handling, and deployment requirements in collaboration with security and legal colleagues.\n* **Bring learning into the core product.** Identify patterns across deployments and contribute reusable components, configuration, documentation, and product improvements that make subsequent implementations easier.\n* **Work closely with India-based colleagues.** Participate in technical design, code reviews, planning, and shared problem-solving with engineering, product, design, and ML colleagues. Communicate progress, trade-offs, and blockers clearly across the distributed team.\n\n### Qualifications\n\n* **5+ years of professional software engineering experience**, with substantial hands-on full-stack development and ownership of production systems.\n* Strong frontend and backend fundamentals: building usable interfaces, designing APIs and data models, integrating systems, and debugging across the stack.\n* Depth in relevant technologies and the ability to learn others quickly. Our engineering stack includes **TypeScript, Next.js, Node.js, Go, Python, and PostgreSQL**; you do not need expertise in every part.\n* Experience writing maintainable, tested code and making sound trade-offs around performance, reliability, security, and delivery.\n* The ability to work directly with non-technical stakeholders, ask good questions, explain technical choices clearly, and turn incomplete requirements into workable solutions.\n* Independent ownership and good judgment: you can make progress through ambiguity, seek help when needed, and follow through after release.\n* Clear written and spoken English and effective collaboration in a remote team.\n* A base in Kenya and willingness to travel for court discovery, implementation, and deployment work.\n\n**Bonus**\n\n* Government, justice, legal-tech, civic-tech, or other complex institutional environments.\n* Customer-facing engineering or delivery across different countries and operating contexts.\n* Self-hosted or resource-constrained deployments, sensitive-data systems, or unreliable connectivity.\n* Workflow-heavy applications, document systems, or integrating AI capabilities into production products.\n\n### What You Will Achieve in a Year\n\nCourt users have software that fits their work. Deployments are reliable and maintainable. Local requirements become well-designed features, and lessons from each implementation strengthen JUDA for the next.\n\nYou will have meaningful ownership of both the software and how it works in practice, alongside an engineering team building toward more timely, accessible justice.\n\n### Join our team!\n\n\\\nIf you're driven by meaningful work and want to build technology that changes how justice is delivered — we'd love to hear from you. Apply now and be part of a team that ships fast, thinks deeply, and works on problems that matter.\n\n👉 [Apply here](https://www.adalat.ai/careers/forward-deployed-engineer) fulltime none\nlocations: \nremote: only\nmin_experience: 6",
+      "match_score": 11.42,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've worked embedded with government clients to scope requirements, deliver full-stack systems (FastAPI/React), and drive UAT, transforming complex manual processes into reliable digital workflows for 80+ organizations. I also own secure blue-green deployments within client Azure tenants, addressing production concurrency and latency risks with RabbitMQ and Redis caching to ensure dependable systems, while contributing to core product adaptation and integrations.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.94,
+            "overlap": 17.22,
+            "combined": 11.42
+          },
+          "backend": {
+            "cosine": 8.17,
+            "overlap": 16.92,
+            "combined": 10.8
+          },
+          "frontend": {
+            "cosine": 6.64,
+            "overlap": 18.93,
+            "combined": 10.33
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.94,
+        "keyword_overlap_score": 17.22,
+        "final_score": 11.42,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1631
+          },
+          {
+            "term": "stack",
+            "weight": 0.1165
+          },
+          {
+            "term": "technical",
+            "weight": 0.0925
+          },
+          {
+            "term": "workflows",
+            "weight": 0.0925
+          },
+          {
+            "term": "deployment",
+            "weight": 0.0771
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-11-06T11:55:29+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "79ed56e46ba5c3bc6f6418d965376e63",
+      "source": "yc",
+      "company": "Adalat AI",
+      "role": "Product Analyst  - Data & Analytics",
+      "url": "https://www.workatastartup.com/jobs/113100",
+      "jd_text": "### About the Company\n\nAdalat AI is building an end-to-end justice tech stack that automates manual and clerical pain points in courtrooms, giving judges back time to focus on what matters most: decision-making and delivering justice. Our solutions — from AI-powered transcription in Indian languages to case-flow management, document navigation, and the Paperless Courts platform — are now deployed across 10 states, covering nearly 25% of India's judiciary. Backed by leading technology companies and funders, and incubated at MIT and Oxford, Adalat AI is working to eliminate judicial delays and expand access to timely justice. Founded by a team with backgrounds in law, technology, and economics from Harvard, Oxford, MIT, and IIIT Hyderabad, we are scaling rapidly across India and the Global South.\n\n### Role Overview\n\nWe are hiring a Product Analyst to own the truth of what happens inside our products.\n\nEvery dictation, template, and error in a courtroom is a data point. Today those data points are not trustworthy enough to decide with. Teams add instrumentation without telling anyone. The result is that the company is making decisions on numbers nobody has verified.\n\nYou will fix that, and then build on top of it. You own the data going in — the taxonomy, the review gate, and the migration off Mixpanel onto analytics infrastructure we run ourselves. You also own the answers coming out — feature-level usage across states, the recurring report leadership plans around, and the analysis that settles arguments.\n\nOne thing to be upfront about: we are not moving from one SaaS analytics tool to another. Because we work with judicial data, our replacement for Mixpanel has to run on our own infrastructure, under our own control. That means this role sits closer to the metal than a typical product analyst job. You will help shape the event schema the new platform is built around, run the dual-send validation, migrate two and a half years of history, and reconcile the numbers on the other side. You do not need to be an infrastructure engineer, and you will not be on call. You do need to be the kind of person who is curious rather than alarmed when the answer lives one layer below the dashboard.\n\nWe have a preference (not a requirement) for people who have been the first analytics hire somewhere, with no standards to inherit. Our analytics function is young. We are not looking for someone to maintain a mature stack; we are looking for someone to build the thing that everyone else will later take for granted.\n\n### Key Responsibilities\n\n* **Own data correctness** — rebuild and document the event taxonomy, kill duplicates, and be the review gate through which every new event any team adds must pass\n* **Catch drift before it ships** — build alerting that detects new or changed events at the point of development, so we are never relying on teams to self-report\n* **Own the migration off Mixpanel** — design the target event schema, run dual-send validation, export and dedupe two and a half years of history, load it into the warehouse, and reconcile the numbers until we can retire the old system with confidence\n* **Be the product voice on the platform build** — we are standing up self-hosted analytics infrastructure alongside this hire. You will not own the servers, but you will own what goes into them: the schema, the PII handling, the data model the rest of the company queries\n* **Build feature-level visibility** — which feature, which state, which user type, trending which way, at a granularity that survives a CXO's follow-up question\n* **Own the recurring reporting** — the bi-weekly feature analytics report for leadership, and the state-level and feature-level reporting inside the partnership portal\n* **Answer the questions that matter** — correlation work against partnership OKRs across states, and one-off investigations where the answer changes a decision\n* **Make the company self-serve** — open up warehouse querying to other teams so routine questions stop routing through you\n* **Treat privacy as part of correctness** — our users are judges and court staff, and some of our existing data captures more about them than it should. Fixing that, and keeping it fixed, is part of owning the taxonomy\n\n### About You\n\nYou do not trust a number until you have checked how it was made. When someone shows you a chart, your first instinct is to ask what was filtered out. You have been burned before by a silent join, and you have not forgotten it.\n\nYou are fast with SQL and comfortable in Python, but you do not confuse tooling with the job. The job is that someone made a better decision because of you. A perfect query nobody acts on is a failure.\n\nYou write. Every number you produce comes with a sentence explaining what it means and, when it applies, a caveat you volunteer before anyone asks. You would rather say \"I don't know yet, here is how I'd find out\" to a CXO than guess confidently.\n\nYou are comfortable being the person who says no. Teams will want to ship events without review and pull numbers without context. Holding that line politely, every time, is a real part of this role.\n\nYou are not put off by an unfinished stack. Some of what you need in your first months will not exist yet, and you will be helping decide what it looks like rather than inheriting it. If you would rather join somewhere the pipes already work, that is a completely reasonable preference and this is the wrong role.\n\n### Qualifications\n\n* 1–3 years working with product or business data with real ownership\n* Strong SQL — you write window functions without looking them up, and you notice when a join changes your row count\n* Working Python or equivalent for cleaning, reconciliation, and one-off analysis\n* Hands-on with a product analytics tool — Mixpanel, Amplitude, PostHog, GA4 or similar — and a real understanding of event, property, and user schemas. Comfort with open-source or self-hosted tooling is a plus\n* Ability to build a dashboard that someone other than you actually uses\n* Clear, tight writing — memos and caveats people can act on\n* Genuine interest in AI and legal-tech, and in how Indian courts take up technology\n\n##### **Especially valuable**\n\n* Warehouse experience (Azure, BigQuery, Snowflake, Redshift) and a transformation layer such as dbt\n* Having run a platform migration or a taxonomy cleanup before, and being able to describe what went wrong\n* Comfortable around Docker and a Linux box — you do not need to be an SRE, but a terminal should not slow you down\n* Exposure to a columnar analytics store such as ClickHouse, DuckDB, BigQuery or Redshift, and a feel for why they are fast\n* Having worked somewhere data could not leave the building, and understanding what that constraint changes\n* Using LLM tooling for analysis; we are scoping an analytics agent\n* Experience in government, legal, public infrastructure, or other privacy-sensitive environments\n\n### What You Will Achieve in a Year\n\n* You will have made the event data trustworthy — documented, deduplicated, and gated, so no team adds instrumentation without review\n* You will have completed the migration onto infrastructure we run ourselves, with two and a half years of history carried across, the numbers reconciled, and Mixpanel retired\n* You will own the clearest read of product usage in the company, and leadership and partnership will plan around your reporting\n* You will have opened the warehouse to other teams, so the routine questions no longer come to you and you are free to work on the hard ones\n\n### **Join Our Team**\n\nIf you're driven by meaningful work and want to build technology that changes how justice is delivered — we'd love to hear from you. Apply now and be part of a team that ships fast, thinks deeply, and works on problems that matter.\n\n👉 [Apply here](https://www.adalat.ai/careers/product-analyst-data-analytics) fulltime yes\nlocations: \nremote: only\nmin_experience: 1",
+      "match_score": 11.96,
+      "resume_variant": "fullstack",
+      "draft_answer": "My experience delivering full-stack reporting portals end-to-end, coupled with a track record of implementing ACID-compliant transactions and optimizing data pipelines by diagnosing concurrency risks and integrating caching, has instilled in me a deep commitment to data integrity and a systems-level approach to correctness. I'm eager to leverage my experience owning deployments inside client Azure tenants, migrating data sources, and driving UAT across user groups to design your target event schema, lead the migration off the current product analytics tool, and establish a self-hosted data foundation that ensures every number is verified.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.7,
+            "overlap": 17.22,
+            "combined": 11.96
+          },
+          "backend": {
+            "cosine": 8.84,
+            "overlap": 16.54,
+            "combined": 11.15
+          },
+          "frontend": {
+            "cosine": 7.15,
+            "overlap": 17.96,
+            "combined": 10.39
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.7,
+        "keyword_overlap_score": 17.22,
+        "final_score": 11.96,
+        "top_keywords": [
+          {
+            "term": "data",
+            "weight": 0.1694
+          },
+          {
+            "term": "analytics",
+            "weight": 0.1553
+          },
+          {
+            "term": "team",
+            "weight": 0.1066
+          },
+          {
+            "term": "ai",
+            "weight": 0.0863
+          },
+          {
+            "term": "stack",
+            "weight": 0.064
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-11-06T11:55:20+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ac44d4663014d0fdc058e02d85ea09ad",
+      "source": "yc",
+      "company": "Adalat AI",
+      "role": "Lead Product Designer",
+      "url": "https://www.workatastartup.com/jobs/113094",
+      "jd_text": "### About the Company\n\nAdalat AI is building an end-to-end justice tech stack that automates manual and clerical pain points in courtrooms, giving judges back time to focus on what matters most: decision-making and delivering justice. Our solutions - from AI-powered transcription in Indian languages to case-flow management and document navigation - are now deployed across 9 states, covering nearly 20% of India’s judiciary. Backed by leading technology companies and funders, and incubated at MIT and Oxford, Adalat AI is working to eliminate judicial delays and expand access to timely justice. Founded by a team with backgrounds in law, technology, and economics from Harvard, Oxford, MIT, and IIIT Hyderabad, we are scaling rapidly across India and the Global South.\n\n### Role Overview\n\nAs **Lead Product Designer**, you will own design for **Adalat AI’s flagship product** and help define the design vision across our growing product suite. This is a hands-on leadership role for someone who has led small to mid-sized design teams in fast-moving environments and enjoys **product ownership.**\n\nYou’ll work closely with the founders to define product vision, and with our on-ground legal partnerships team to embed **user-first, research-driven practices** across the design process.\n\nThis role is less about pixel-perfect mobile UI and more about **systems thinking, product strategy, team leadership, and taste**.\n\n### Key Responsibilities\n\n### Product Leadership &amp; Ownership\n\n* Own problem definition and solution design for Adalat AI’s core product areas\n* Partner with founders to shape roadmap decisions, trade-offs, and long-term product and design vision\n* Lead major feature revamps and workflow improvements\n* Design for unique constraints of Indian Judiciary: multilingual usage, varying digital literacy, legacy legal processes\n\n### Design &amp; Team Leadership\n\n* Design **with and for AI** with focus on human-in-the-loop workflows, explainability, and trust in AI-assisted features\n* Lead, mentor and hire junior designers for our growing design team\n* Set a high bar for craft, critique, and user-first decision-making\n* Establish scalable design processes while staying lightweight and execution-focused\n\n### Systems, Research &amp; Scale\n\n* Spearhead Adalat AI’s **design system**\n* Lead **AI-assisted design initiatives** to improve velocity and consistency\n* Build a **strong user research and voice of customer pipeline** with the partnerships team to ground decisions in real courtroom insights\n\n### Qualifications\n\n* 8-10 years of product design experience, with 2-3 years leading a team\n* Experience owning complex B2B or workflow-heavy products\n* Strong systems thinking and experience building or scaling design systems\n* Comfortable working directly with founders and senior stakeholders\n* Portfolio showing product thinking, shipped work, and leadership impact\n\n**Nice to have:** Familiarity with legal-tech or gov-tech, experience with AI-driven audio-first products\n\n### What You Will Achieve in a Year\n\n* Launch multiple text-based AI-powered tools for judiciary\n* Build and scale our design system to serve thousands of judges and law staff\n* Design for one of India’s most complex and impactful systems: the judiciary\n* Shape both our flagship product and the design culture behind it\n* High ownership, real-world impact, and room to define how design operates at scale\n\n### **Join Our Team**\n\nIf you're driven by meaningful work and want to build technology that changes how justice is delivered — we'd love to hear from you. Apply now and be part of a team that ships fast, thinks deeply, and works on problems that matter.\n\n👉 [Apply here](https://www.adalat.ai/careers/lead-product-designer) fulltime none\nlocations: \nremote: only\nmin_experience: 6",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "50b60e904f631bb808aafd7b093e6b0e",
+      "source": "yc",
+      "company": "Adalat AI",
+      "role": "ML Engineer - Product",
+      "url": "https://www.workatastartup.com/jobs/113097",
+      "jd_text": "### About the Company\n\nAdalat AI is building an end-to-end justice tech stack that automates manual and clerical pain points in courtrooms, giving judges back time to focus on what matters most: decision-making and delivering justice. Our solutions - from AI-powered transcription in Indian languages to case-flow management and document navigation - are now deployed across 9 states, covering nearly 20% of India’s judiciary. Backed by leading technology companies and funders, and incubated at MIT and Oxford, Adalat AI is working to eliminate judicial delays and expand access to timely justice. Founded by a team with backgrounds in law, technology, and economics from Harvard, Oxford, MIT, and IIIT Hyderabad, we are scaling rapidly across India and the Global South.\n\n### Role Overview\n\nAdalat AI's ML models don't run in a research lab — they run in courtrooms, for judges who need them to work. A model that achieves strong benchmark numbers is not the same as a model that earns a judge's trust during a seven-hour sitting. The gap between those two things is what you will close.\n\nIn this role, you'll own the product-facing ML systems that make our research-grade models useful in practice. That means retrieval pipelines, search agents, legal reasoning systems, and feedback infrastructure — built to work reliably across noisy, multilingual, multi-document workflows. You'll come in with a specialisation in either Text or Speech, or as a generalist who can work across both. Either works. What the role really asks is that you care about whether the system works for real users, and that you have the engineering depth to find out.\n\n**Text-side:** retrieval and search agents for multimodal, multi-document, and multilingual legal workflows; legal reasoning over court documents and case history; translation and summarisation for judges and stenographers.\n\n**Speech-side:** production transcription pipelines, diarization, and voice-to-action — turning spoken courtroom interactions into structured, actionable outputs.\n\n### Key Responsibilities\n\n#### **1. Build and own product-facing ML systems**\n\n* Build retrieval and search agents that work across multilingual, multi-document legal corpora.\n* Develop legal reasoning pipelines that help judges and lawyers navigate case history, orders, and filings.\n* Build production speech systems: transcription, diarization, and voice-to-action workflows for live courtroom use.\n* Own translation and summarisation pipelines for legal proceedings across Indian languages.\n\n#### **2. Build and maintain evaluation infrastructure**\n\n* Design eval harnesses that go beyond standard metrics and measure what actually matters in a courtroom context.\n* Build feedback pipelines that surface real-world model failures back to the research team.\n* Own the question: \"Does this model work for the people using it?\" — and have the infrastructure to answer it.\n\n#### **3. Drive domain adaptation**\n\n* Translate raw courtroom data — audio, transcripts, documents — into training signal for model improvement.\n* Identify and close the gap between how models behave in development and how they perform in the field.\n* Work with the Data Operations team to design annotation pipelines that generate targeted supervision.\n\n#### **4. Bridge research and product**\n\n* Take what researchers build and make it shippable; translate production failure modes back into concrete research directions.\n* Surface distribution shifts and edge cases from the field before they become incidents.\n* Be the person the product team trusts to know what the ML stack can do, and the person researchers trust to know what the product actually needs.\n\n### Qualifications\n\n#### **Must have**\n\n* 2–6 years building ML systems in production.\n* Strong Python and comfort with the modern ML stack (PyTorch, HuggingFace, and relevant tooling).\n* Hands-on experience with at least one of: LLM fine-tuning and deployment, ASR/speech pipelines, RAG and retrieval systems, or NLP information extraction.\n* Experience designing and running model evaluations — deciding what to measure, not just running benchmarks.\n* Comfort shipping and maintaining production code, not just prototypes.\n\n#### **Strong plus**\n\n* Deep specialisation in Speech (ASR, diarization, multilingual audio) or Text (LLMs, retrieval, legal NLP).\n* Experience with Indic languages.\n* Prior work in legal, healthcare, government, or civic tech.\n* Publications at ML venues.\n\n### What You Will Achieve in a Year\n\nYou'll have built models for legal QnA, search, summarisation, and translation that work on real Indian legal documents — and you'll have the eval methodology to prove it. You'll have made meaningful progress on document intelligence: OCR and structured extraction from the kinds of scanned, degraded documents that existing tools give up on. You'll have at least one paper submission in progress. And the benchmarks you defined will be the ones the team uses to evaluate everything that comes after.\n\n### **Join Our Team**\n\nIf you're driven by meaningful work and want to build technology that changes how justice is delivered — we'd love to hear from you. Apply now and be part of a team that ships fast, thinks deeply, and works on problems that matter.\n\n👉 [Apply here](https://www.adalat.ai/careers/ml-engineer---product) fulltime yes\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 8.59,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.03,
+            "overlap": 14.57,
+            "combined": 8.59
+          },
+          "backend": {
+            "cosine": 4.91,
+            "overlap": 13.91,
+            "combined": 7.61
+          },
+          "frontend": {
+            "cosine": 5.3,
+            "overlap": 17.96,
+            "combined": 9.1
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 6.03,
+        "keyword_overlap_score": 14.57,
+        "final_score": 8.59,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1584
+          },
+          {
+            "term": "model",
+            "weight": 0.1099
+          },
+          {
+            "term": "pipelines",
+            "weight": 0.1048
+          },
+          {
+            "term": "ai",
+            "weight": 0.0916
+          },
+          {
+            "term": "production",
+            "weight": 0.0749
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "5f0c18965d2bfefebf4f5b2d9ff0f3b5",
+      "source": "yc",
+      "company": "Adalat AI",
+      "role": "ML Engineer - Runtime",
+      "url": "https://www.workatastartup.com/jobs/113096",
+      "jd_text": "### About the Company\n\nAdalat AI is building an end-to-end justice tech stack that automates manual and clerical pain points in courtrooms, giving judges back time to focus on what matters most: decision-making and delivering justice. Our solutions - from AI-powered transcription in Indian languages to case-flow management and document navigation - are now deployed across 9 states, covering nearly 20% of India’s judiciary. Backed by leading technology companies and funders, and incubated at MIT and Oxford, Adalat AI is working to eliminate judicial delays and expand access to timely justice. Founded by a team with backgrounds in law, technology, and economics from Harvard, Oxford, MIT, and IIIT Hyderabad, we are scaling rapidly across India and the Global South.\n\n### Role Overview\n\nMost ML systems are built for controlled environments. Adalat's are not. Our models run across 5,000+ courtrooms — from the Supreme Court to remote district courts with unreliable connectivity — processing 8–12 hours of live audio every day. A model that works in a data centre has to survive rooms with ceiling fans, simultaneous speakers in three languages, and hardware that hasn't been refreshed in a decade. That gap between the lab and the courtroom is what this role owns.\n\nIn this role, you'll be responsible for making our speech and language models fast, cost-effective, and deployable at scale on real-world hardware. You'll work at the intersection of model architecture and systems engineering — applying compression techniques, building compiler-aware inference pipelines, and designing serving infrastructure that holds up under the most demanding conditions in Indian legal AI. This is not model-agnostic infrastructure work: you'll collaborate closely with our Speech and NLP researchers to understand what each model does and find the optimisations that preserve what matters while cutting what doesn't.\n\n### Key Responsibilities\n\n#### **1. Optimise inference pipelines**\n\n* Apply quantisation (PTQ, QAT), pruning, and distillation to reduce model size and latency without meaningful quality loss.\n* Build compiler-aware workflows using MLIR, LLVM, or ONNX to squeeze performance from diverse CPU and GPU targets.\n* Profile, benchmark, and continuously improve throughput across the full ML stack.\n\n#### **2. Build and maintain scalable serving infrastructure**\n\n* Design async batching, concurrency, and load-balancing strategies for high-throughput, real-time audio processing.\n* Architect deployment pipelines that span cloud and edge environments — including constrained, low-bandwidth courtroom settings.\n* Own cost efficiency: understanding exactly where compute is being spent and driving it down without degrading output quality.\n\n#### **3. Debug and harden production systems**\n\n* Stress-test inference across thousands of hours of real courtroom audio and documents.\n* Build diagnostic tooling for runtime failures — latency spikes, memory pressure, model drift in noisy acoustic environments.\n* Create monitoring and alerting infrastructure that catches regressions before users do.\n\n#### **4. Partner with Research and Product**\n\n* Translate system constraints back into model architecture recommendations for Speech and NLP researchers.\n* Work with the Product ML team to define latency and cost targets that are both technically achievable and user-meaningful.\n* Contribute to model design decisions early — before a model is trained in a way that makes efficient deployment impossible.\n\n### Qualifications\n\n### **Must have**\n\n* 3–6 years in ML optimisation, inference engineering, model compression, or compiler development.\n* Strong Python and C/C++ programming.\n* Hands-on experience with quantisation, distillation, or pruning in production.\n* Proficiency with deep learning frameworks (PyTorch or TensorFlow) and at least one compiler framework (LLVM, MLIR, ONNX, TensorRT).\n* Experience deploying ML models in resource-constrained or latency-sensitive environments.\n\n### **Strong plus**\n\n* Experience with advanced LLM serving strategies (vLLM, continuous batching, speculative decoding).\n* Prior work with speech pipelines (ASR, diarization) at the systems level.\n* Experience on edge or embedded hardware targets.\n* Publications at systems or ML venues (MLSys, OSDI, NeurIPS, ICML, Interspeech, or similar).\n\n### What You Will Achieve in a Year\n\nYou'll have built models for legal QnA, search, summarisation, and translation that work on real Indian legal documents — and you'll have the eval methodology to prove it. You'll have made meaningful progress on document intelligence: OCR and structured extraction from the kinds of scanned, degraded documents that existing tools give up on. You'll have at least one paper submission in progress. And the benchmarks you defined will be the ones the team uses to evaluate everything that comes after.\n\n### **Join Our Team**\n\nIf you're driven by meaningful work and want to build technology that changes how justice is delivered — we'd love to hear from you. Apply now and be part of a team that ships fast, thinks deeply, and works on problems that matter.\n\n👉 [Apply here](https://www.adalat.ai/careers/ml-engineer-runtime) fulltime yes\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 9.72,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.07,
+            "overlap": 15.89,
+            "combined": 9.72
+          },
+          "backend": {
+            "cosine": 6.01,
+            "overlap": 14.66,
+            "combined": 8.61
+          },
+          "frontend": {
+            "cosine": 5.32,
+            "overlap": 16.5,
+            "combined": 8.67
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.07,
+        "keyword_overlap_score": 15.89,
+        "final_score": 9.72,
+        "top_keywords": [
+          {
+            "term": "model",
+            "weight": 0.2106
+          },
+          {
+            "term": "team",
+            "weight": 0.1301
+          },
+          {
+            "term": "ai",
+            "weight": 0.1053
+          },
+          {
+            "term": "experience",
+            "weight": 0.0689
+          },
+          {
+            "term": "latency",
+            "weight": 0.0689
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "400eee4e67d2a717ec17df315c965225",
+      "source": "yc",
+      "company": "Adalat AI",
+      "role": "ML Researcher - NLP",
+      "url": "https://www.workatastartup.com/jobs/113095",
+      "jd_text": "### About the Company\n\nAdalat AI is building an end-to-end justice tech stack that automates manual and clerical pain points in courtrooms, giving judges back time to focus on what matters most: decision-making and delivering justice. Our solutions - from AI-powered transcription in Indian languages to case-flow management and document navigation - are now deployed across 9 states, covering nearly 20% of India’s judiciary. Backed by leading technology companies and funders, and incubated at MIT and Oxford, Adalat AI is working to eliminate judicial delays and expand access to timely justice. Founded by a team with backgrounds in law, technology, and economics from Harvard, Oxford, MIT, and IIIT Hyderabad, we are scaling rapidly across India and the Global South.\n\n### Role Overview\n\nIndian legal language is genuinely hard. Proceedings mix formal legal English with regional languages mid-sentence. Judges dictate orders in code-switched prose. Legal documents are often scanned, hand-annotated PDFs from district courts that no OCR system handles well. There are no usable benchmarks for most of these tasks. If you want to work on NLP problems that haven't been solved yet, this is a good place to be.\n\nIn this role, you'll own the language and document understanding research agenda at Adalat. The scope runs from classical NLP problems — QnA, search, summarisation, and translation — to document intelligence and multimodal tasks that extend into OCR and vision. You'll design the experiments, define the benchmarks, curate the datasets, and get your hands dirty building models that work on problems the field hasn't caught up to yet.\n\nThis is a Research Scientist role. Your primary output is modelling judgment, experimental insight, and reproducible work. You'll work closely with engineers who take your models and make them deployable in real courtroom workflows.\n\n### Key Responsibilities\n\n#### **1. Language understanding and reasoning**\n\n* Build and fine-tune models for legal QnA and search — systems that can answer questions over case history, statutes, and filings accurately and with citations.\n* Develop legal reasoning and agent capabilities: models that can navigate multi-step document workflows, identify relevant precedents, and surface what a judge needs.\n* Own multilingual summarisation and translation for legal proceedings across 10+ Indian languages.\n\n#### **2. Document intelligence and multimodal understanding**\n\n* Develop OCR and document parsing capabilities for scanned legal filings, orders, and exhibits — the messy, handwritten, low-quality documents that existing tools fail on.\n* Extend language understanding into vision: document layout understanding, table extraction, and multimodal reasoning over legal exhibits and evidence.\n* Build structured information extraction pipelines from unstructured legal text and documents.\n\n#### **3. Evaluation methodology and benchmarking**\n\n* Design task sets and benchmarks for Indian legal NLP where none exist.\n* Define metrics that capture what matters in a legal context — not just F1, but what a judge actually needs from a summary, a QnA answer, or an extracted clause.\n* Conduct rigorous ablations and failure analyses that produce insight, not just numbers.\n\n#### **4. Data curation and research dissemination**\n\n* Build training corpora from courtroom documents, judgements, and proceedings across languages and court tiers.\n* Design annotation schemes for legal NLP and vision tasks that produce consistent, high-quality supervision at scale.\n* Maintain reproducible, publication-ready experiment logs and actively submit to venues like ACL, EMNLP, or ICLR. This is original research — treat it as such.\n\n### Qualifications\n\n#### **Must have**\n\n* 2–6 years in NLP or ML research, in industry or graduate school.\n* Fluency in PyTorch and HuggingFace Transformers.\n* Hands-on experience fine-tuning large language models (SFT, LoRA, RLHF, or DPO).\n* Experience designing evaluation methodology — not just running benchmarks, but deciding what to measure and why.\n* Clear technical writing; comfortable documenting and communicating research.\n\n#### **Strong plus**\n\n* Publications at ACL, EMNLP, NAACL, ICLR, NeurIPS, or comparable venues — a strong signal.\n* Experience with OCR, document understanding, or vision-language models.\n* Prior work with Indic languages or low-resource / cross-lingual NLP.\n* Experience in legal, clinical, or other high-stakes text domains.\n\n### What You Will Achieve in a Year\n\nYou'll have built models for legal QnA, search, summarisation, and translation that work on real Indian legal documents — and you'll have the eval methodology to prove it. You'll have made meaningful progress on document intelligence: OCR and structured extraction from the kinds of scanned, degraded documents that existing tools give up on. You'll have at least one paper submission in progress. And the benchmarks you defined will be the ones the team uses to evaluate everything that comes after.\n\n### **Join Our Team**\n\nIf you're driven by meaningful work and want to build technology that changes how justice is delivered — we'd love to hear from you. Apply now and be part of a team that ships fast, thinks deeply, and works on problems that matter.\n\n👉 [**Apply here**](https://www.adalat.ai/careers/ml-researcher-nlp) fulltime yes\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "56e34fd256bc99f50033cce08187e6ad",
+      "source": "yc",
+      "company": "Adalat AI",
+      "role": "User Researcher",
+      "url": "https://www.workatastartup.com/jobs/113093",
+      "jd_text": "### About the Company\n\nAdalat AI is building an end-to-end justice tech stack that automates manual and clerical pain points in courtrooms, giving judges back time to focus on what matters most: decision-making and delivering justice. Our solutions, from AI-powered transcription in Indian languages to case-flow management and document navigation, are now deployed across 9 states, covering nearly 20% of India's judiciary.\n\nBacked by leading technology companies and funders, and incubated at MIT and Oxford, Adalat AI is working to eliminate judicial delays and expand access to timely justice. Founded by a team with backgrounds in law, technology, and economics from Harvard, Oxford, MIT, and IIIT Hyderabad, we are scaling rapidly across India and the Global South. We're also the first nonprofit YC has backed in nearly five years, and the first Indian-founded nonprofits in its history.\n\n### Role Overview\n\nAs our **first User Researcher**, you will be the voice of one of India's most complex and underserved user bases: judges, court staff, and legal professionals navigating a system built on decades of legacy process. Understanding them, and earning their trust, requires patience, curiosity, and a genuine interest in how institutions work at the ground level.\n\nAdalat AI has lawyer-led state teams on the ground in our partner states to support user research. They know the courts, the people, and the terrain. They will support your access and logistics so you can focus on research, not navigation.\n\nYou'll sit within the design team and have direct influence over product direction. Your research will shape what gets built, what gets dropped, and what gets prioritised next.\n\n### Key Responsibilities\n\n#### Field Research and User Engagement\n\n* Travel pan-India (about 50% of your time) to conduct contextual observation, interviews, and usability sessions with judges, clerks, and stenographers\n* Work alongside Adalat AI's lawyer state leads in partner states who will facilitate access, provide legal and cultural context, and help you build rapport with judicial stakeholders faster\n* Surface pain points, workarounds, and latent needs that don't show up in feedback forms, support tickets or mixpanel data\n\n#### Research Design and Execution\n\n* Plan and run end-to-end studies: screeners, discussion guides, facilitation, synthesis\n* Choose the right method for the constraint. Contextual inquiry and shadowing in-field v/s remote interviews from base\n* Build and own Adalat AI's research ops practice\n* Build our quantitative research pipeline from the ground up, establishing how we survey users, instrument the product and close loop on adoption and task success alongside our existing qualitative sources\n* Triangulate qualitative and quantitative evidence so recommendations carry both depth and scale\n\n#### Insight to Impact\n\n* Translate research into clear, actionable briefs that directly inform feature prioritisation, product direction, and design decisions\n* Partner with designers to ensure UX decisions are grounded in real courtroom context\n* Collaborate with the legal partnerships and operations team to embed research touchpoints within deployment cycles\n\n#### Cross-functional Influence\n\n* Represent the user in design reviews and product planning as a decision-making voice, not just a reporting function\n* Help product and engineering internalise nuanced user contexts: varying digital literacy, multilingual usage, and the weight of institutional process\n* Champion a culture of continuous discovery across the team\n\n### Qualifications\n\n* 5 to 7 years of experience in user research\n* Proven ability to independently design and run qualitative research studies\n* Strong primary field research instincts, comfortable in unfamiliar environments with non-tech-savvy users\n* Ability to synthesise ambiguous, messy data into clear product recommendations\n* Willingness and genuine enthusiasm to travel up to 50% across India\n* Experience building a research practice in an early-stage or 0-to-1 environment\n\n##### **Nice to have:**\n\n* Exposure to legal, government, or civic-tech contexts\n* Proficiency in additional Indian languages, a real advantage given the diversity of our user base\n* Familiarity with research tools like Mixpanel, Maze, or equivalent\n\n### What You Will Achieve in a Year\n\n* Build Adalat AI's user research practice from zero: methods, templates, and a living insight repository\n* Establish sustained access and trust with judicial users across multiple states\n* Deliver research that directly shapes the roadmap for our flagship products\n* Help design tools that are actually used, and trusted, inside India's courtrooms\n\n### **Join Our Team**\n\nIf you're driven by meaningful work and want to build technology that changes how justice is delivered — we'd love to hear from you. Apply now and be part of a team that ships fast, thinks deeply, and works on problems that matter.\n\n👉 [**Apply here**](https://www.adalat.ai/careers/user-researcher) fulltime none\nlocations: \nremote: only\nmin_experience: 6",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2065a1d3aa1a427d8c3c2ee4860a2eb7",
+      "source": "yc",
+      "company": "Adalat AI",
+      "role": "Full Stack Engineer",
+      "url": "https://www.workatastartup.com/jobs/113091",
+      "jd_text": "### About the Company\n\nAdalat AI is building an end-to-end justice tech stack that automates manual and clerical pain points in courtrooms, giving judges back time to focus on what matters most: decision-making and delivering justice. Our solutions — from AI-powered transcription in Indian languages to case-flow management and document navigation — are now deployed across 11 states, covering 23% of India's judiciary. Backed by leading technology companies and funders, incubated at MIT and Oxford, and now part of YCombinator, Adalat AI is working to eliminate judicial delays and expand access to timely justice. Founded by a team with backgrounds in law, technology, and economics from Harvard, Oxford, MIT, and IIIT Hyderabad, we are scaling rapidly across India and the Global South.\n\n### Role Overview\n\nWe're hiring a Full stack Developer to own and deliver end-to-end features for our courtroom transcription platform. You'll be working across the stack on real-time audio playback, backend services, database design, to deliver beautiful UX for busy judges. You'll also help shape our design system and collaborate with a small team of elite builders shipping impactful features fast.\n\n### Key Responsibilities\n\n* Build and maintain production-grade frontends using Next.js, TypeScript, and TailwindCSS.\n* Work with backend services written in Go and databases in Postgres.\n* Collaborate closely with design and legal teams to ship end-to-end features.\n* Take ownership of full features — from database schema design to React components.\n* Uphold high standards with extensive unit tests, linters and end-to-end tests in both frontend and backend.\n* Proactively suggest and prototype new ideas to improve the product.\n\n### Qualifications\n\n* Minimum 5 years of experience working on production JavaScript/TypeScript codebases.\n* Proven experience shipping complex UIs and building reusable React components.\n* Familiarity with Go backend services and Postgres database design.\n* Strong focus on reducing user pain and improving speed and accessibility.\n\n  _Bonus: Experience working with audio APIs and GraphQL._\n\n### What You Will Achieve in a Year\n\n* Developed expertise in audio processing and playback on the web.\n* Helped build a design system that's accessible and loved by real-world users.\n* Contributed meaningfully to improving access to justice at scale.\n\n### **Join Our Team**\n\nIf you're driven by meaningful work and want to build technology that changes how justice is delivered — we'd love to hear from you. Apply now and be part of a team that ships fast, thinks deeply, and works on problems that matter.\n\n**👉 [Apply here](https://www.adalat.ai/careers/full-stack)** fulltime yes\nlocations: \nremote: only\nmin_experience: 6",
+      "match_score": 12.75,
+      "resume_variant": "frontend",
+      "draft_answer": "My experience building and owning React/Next.js front ends for occupational hygiene and compliance platforms, including scoping requirements and driving UAT with diverse user groups, has consistently focused on shipping complex UIs and improving user experience. I'm keen to apply my full-stack ownership and performance optimization skills—like cutting API fetch latency by 98% and automating 90% of manual reporting workflows—to help busy judges using your courtroom transcription platform focus on decision-making and delivering justice.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.29,
+            "overlap": 12.25,
+            "combined": 10.18
+          },
+          "backend": {
+            "cosine": 6.28,
+            "overlap": 10.53,
+            "combined": 7.55
+          },
+          "frontend": {
+            "cosine": 11.97,
+            "overlap": 14.56,
+            "combined": 12.75
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.97,
+        "keyword_overlap_score": 14.56,
+        "final_score": 12.75,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.2471
+          },
+          {
+            "term": "backend",
+            "weight": 0.101
+          },
+          {
+            "term": "improving",
+            "weight": 0.0763
+          },
+          {
+            "term": "experience",
+            "weight": 0.0757
+          },
+          {
+            "term": "access",
+            "weight": 0.0505
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-11-06T11:55:03+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "eb92505da26d2131c699552871c39a59",
+      "source": "yc",
+      "company": "Adalat AI",
+      "role": "Head of Data and Analytics",
+      "url": "https://www.workatastartup.com/jobs/113099",
+      "jd_text": "### About the Company\n\nAdalat AI is building an end-to-end justice tech stack that automates manual and clerical pain points in courtrooms, giving judges back time to focus on what matters most: decision-making and delivering justice. Our solutions — from AI-powered transcription in Indian languages to case-flow management, document navigation, and the Paperless Courts platform — are now deployed across 10 states, covering nearly 25% of India's judiciary. Backed by leading technology companies and funders, and incubated at MIT and Oxford, Adalat AI is working to eliminate judicial delays and expand access to timely justice. Founded by a team with backgrounds in law, technology, and economics from Harvard, Oxford, MIT, and IIIT Hyderabad, we are scaling rapidly across India and the Global South.\n\n### Role Overview\n\nWe are hiring a Head of Data &amp; Analytics to make this company's numbers trustworthy, and then to make them decisive.\n\nWe are deployed in courtrooms across 10 states. Every dictation, cause list, template and error is a data point, and we have years of them. What we do not yet have is a data function.\n\nThis is the role that fixes current analytics/data \"fires\" and then builds the thing that should have existed from the start: a defensible event taxonomy, instrumentation that engineering cannot bypass, a warehouse that other teams can query themselves, and a reporting layer that leadership, partnership teams and our government stakeholders plan around.\n\nYou will own the function end to end — the standards, the pipeline, the people, and the answers. You will work alongside the Product function, and your numbers and their evidence are expected to be checked against each other rather than published side by side.\n\nWe have a preference, not a requirement, for people who have built a data function from nothing rather than inherited a mature one. There is no data contract here, no naming convention, no verified event and no versioned mapping table. You will write the first version of all of them.\n\n### Key Responsibilities\n\n* Own the data contract — a naming convention, a verified-event register, and a review gate that no team ships instrumentation around\n* Fix the foundations — backfill and consolidate the properties the company already reports on, kill duplicate and free-text fields, and remove personally identifiable data sitting in analytics properties\n* Own the migration — the move to the new analytics platform and the warehousing solution\n* Set instrumentation requirements before schema changes ship — court establishment and hall context, versioned mapping tables with effective-from and effective-to dates, IDs rather than display labels as keys\n* Own the reporting layer — the bi-weekly feature report for leadership, state and feature reporting in the partnership portal, and the numbers that go to government stakeholders\n* Make the company self-serve — a modelled, documented warehouse other teams query themselves, so routine questions stop routing through your team\n* Lead the analysis that changes decisions — adoption and correlation work against partnership OKRs, and the investigations where the answer settles an argument\n* Build and run the team\n* Hold the line on what leaves the building — no number goes to a partner state or a CXO deck without a stated basis, a caveat where one is due, and a named owner\n\n### About You\n\nYou have cleaned up someone's analytics before and you are not romantic about it. You know the first ninety days are unglamorous — reading event definitions, finding out that two teams count the same thing differently, telling a CXO that a number in last quarter's deck was wrong. You are willing to do that work yourself rather than delegate it on day one.\n\nYou do not trust a number until you know how it was made. Your first question about a chart is what was filtered out. You have been caught by a silent join or a null-heavy property before, and it changed how you work.\n\nYou think in contracts, not dashboards. When engineering proposes a schema change, you can tell within a day which existing reports it breaks and what three properties need to ride along with it. You ask for those before the release, not after, and you ask in a way that does not block the release.\n\nYou can say no to senior people without making an enemy. Teams will want to ship events without review, pull numbers without context, and quote state-level figures you know are unsound. Holding that line politely, repeatedly, in writing, is a real part of this job.\n\nYou manage by raising the standard, not by taking the work. You review your analyst's SQL, you write the convention they follow, and you give them the visible deliverable rather than keeping it.\n\nYou write. Every number you publish arrives with a sentence saying what it means and a caveat you volunteered before anyone asked for it.\n\n### Qualifications\n\n* 8+ years in analytics, data or business intelligence, with at least 2 years owning a function or leading analysts — title matters less than whether the standards were yours to set\n* Expert SQL — window functions, CTEs, incremental models; you review other people's queries and catch the join that silently changed the row count\n* Python or equivalent for reconciliation, cleanup and one-off analysis at a scale spreadsheets cannot hold\n* Deep hands-on ownership of a product analytics tool — Mixpanel, Amplitude, PostHog, GA4 or similar — at the schema level: events, properties, identity, lookup tables, not just the reporting UI\n* Warehouse and modelling experience — BigQuery, Snowflake, Redshift, Databricks or Azure — with a transformation layer such as dbt, and an opinion about how dimensions that change over time should be handled\n* You have designed an event taxonomy and an instrumentation review process that survived contact with a shipping engineering team\n* You have run at least one analytics platform migration or major cleanup end to end, and can describe what went wrong in it\n* You have presented numbers to executives and to external stakeholders, and have had to defend a methodology in the room\n* Clear, short writing — memos, definitions and caveats that non-technical people act on\n* Genuine interest in AI and legal-tech, and in how Indian courts take up technology\n\n**Especially valuable**\n\n* Experience where analytics data is also training or evaluation data — ASR, ML or model quality correlation\n* Having built a metrics layer or semantic layer that other teams query without asking you\n* Government, judicial, healthcare or other regulated, privacy-sensitive environments, including handling PII inside analytics systems\n* Experience reporting to external or government partners on usage and outcomes\n* Using LLM tooling in the analytics workflow; we are scoping an analytics agent\n* Regional language ability — Telugu, Malayalam, Kannada or Hindi — given where we are deployed\n\n### What You Will Achieve in a Year\n\n* Every number this company quotes has a definition, an owner and a known level of confidence — and the ones that were quietly wrong have been found, corrected and communicated\n* The migration is complete and reconciled, the old stack is switched off, and nobody is maintaining two sources of truth\n* Instrumentation is gated: no product schema change ships without the analytics properties it needs, because you are in that conversation before the release, not after\n* State, court and establishment reporting is defensible at district level, not just High Court level, and partnership teams use it with government stakeholders without a caveat from you\n* Other teams query the warehouse themselves for routine questions, and your team spends its time on the questions that change decisions\n* You have a team of two or three with a clear bar, and at least one person visibly better at their job than when they joined\n\n### **Join Our Team**\n\nIf you're driven by meaningful work and want to build technology that changes how justice is delivered — we'd love to hear from you. Apply now and be part of a team that ships fast, thinks deeply, and works on problems that matter.\n\n👉 [Apply here](https://www.adalat.ai/careers/head-of-data-analytics) fulltime yes\nlocations: \nremote: only\nmin_experience: 6",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "17f1bb7c0ea4f8ff6e35c25c8ca926eb",
+      "source": "yc",
+      "company": "Adalat AI",
+      "role": "Associate, CTO's Office",
+      "url": "https://www.workatastartup.com/jobs/113098",
+      "jd_text": "### About the Company\n\nAdalat AI is building an end-to-end justice tech stack that automates manual and clerical pain points in courtrooms, giving judges back time to focus on what matters most: decision-making and delivering justice. Our solutions - from AI-powered transcription in Indian languages to case-flow management and document navigation - are now deployed across 9 states, covering nearly 20% of India’s judiciary. Backed by leading technology companies and funders, and incubated at MIT and Oxford, Adalat AI is working to eliminate judicial delays and expand access to timely justice. Founded by a team with backgrounds in law, technology, and economics from Harvard, Oxford, MIT, and IIIT Hyderabad, we are scaling rapidly across India and the Global South.\n\n### Role Overview\n\nWe are hiring an Associate in the CTO’s Office — the operational and technical right hand to the CTO as he builds out the technology org.\n\nThis is not a rotational generalist slot and it is not a traditional chief-of-staff role. It is a **hybrid engineer-operator role** for someone who can write software, read a codebase, reason about a product, and still happily spend a Tuesday afternoon cleaning up a deployment tracker or coordinating an onboarding schedule. You will sit close enough to the CTO to absorb how a technology org actually runs — from architecture reviews to hiring loops to partner escalations — and you will ship real tools, not just manage spreadsheets.\n\nThe best version of this person is a strong early-career software engineer who is bored of pure feature work and wants breadth, context, and proximity to decision-making — the kind of person who will learn more in a year here than they would in three years on a product team elsewhere. If you want to eventually start a company, lead engineering, or become a CTO yourself, this is a front-row seat.\n\n### Key Responsibilities\n\n* **Build internal software and automations.** You will ship real tools — not just “vibe code.” Internal dashboards that unify Airtable, partner data, and deployment telemetry. Scripts that pull from Slack, Gmail, Granola, and Linear and route the important bits to the right person. Lightweight services that automate onboarding, partner health checks, and weekly reporting. You will use AI-assisted tooling (Cursor, Claude Code, v0, Replit) aggressively, but you will also read your own diffs and understand what you shipped.\n* **Develop a deep working understanding of the product.** Transcription pipelines, courtroom deployments, model training, the data privacy envelope, the court tech stack itself. You will sit in architecture reviews, read PRs and design docs, and be expected to hold an informed conversation about any part of the system within a few months. You do not need to write production code in the core stack — but you should be able to follow it, contribute small patches, and ask good questions.\n* **Own partnerships data infrastructure.** Deployment trackers, court onboarding pipelines, partner health dashboards, adoption metrics. You will design the data models (Airtable + Excel + Python when needed), keep them clean, and build the reporting that the leadership team runs on.\n* **Run tech-team HR operations.** Hiring pipelines, onboarding schedules, performance review logistics, team rituals. You will build the systems that make these things run on rails, then automate the parts that can be automated.\n* **Be the bridge between technology and partnerships.** Deployment requirements flow one way; ground-level feedback flows the other. You are the person who makes sure nothing gets lost in translation.\n* **Maintain the CTO’s Office knowledge base.** Decision logs, roadmap trackers, meeting notes, internal documentation. The org’s institutional memory lives with you.\n* **Hunt for inefficiencies and ship fixes.** Spot a broken workflow, propose an AI-powered or tool-built solution, get buy-in, ship it. Measure whether it actually saved time.\n* **Prepare briefs and data summaries** for leadership, board, and stakeholder conversations. Clear writing, real data, sharp framing.\n\n### About You\n\nYou are intellectually serious. You read. You build things for fun. You have strong opinions about tools and product and are happy to defend them, and happier still to change your mind when shown something better. You enjoy hard problems and you do not need a playbook — you write one.\n\nYou have real software engineering ability, even if your title has never said “engineer.” You have shipped production code, internal tools, or non-trivial side projects. You can read a TypeScript or Python codebase without panic. You know what a pull request is, you understand git, you have used an API, and you can reason about why a piece of software is slow or broken. You are not allergic to the terminal.\n\nYou have been living at the edge of AI-assisted development — not passively following news, but actively building. You have opinions on Cursor vs. Claude Code, on when to use an agent vs. a script, on what vibe coding gets right and where it breaks down. You can show us things you have built.\n\nYou are also good at the operational craft — Excel, Airtable, Notion, structured thinking about messy problems. You respect the boring work because you know that deployment trackers are how courtrooms actually get live.\n\nYou are drawn to the mission. Building secure AI for public-justice systems is not a neutral career move — you either find this meaningful or you do not. We are looking for people who do.\n\n### Qualifications\n\n* 0–3 years of experience, ideally with some exposure to engineering, a fast-growing startup, or a high-intensity consulting / analyst role. Fresh graduates with strong proof-of-work are welcome.\n* A computer science, engineering, math, physics, or equivalent technical background is a plus, but not a hard requirement. What matters is whether you can write software and reason about systems.\n* **Demonstrable code.** A GitHub profile, a deployed side project, a meaningful open-source contribution, or a portfolio of internal tools / automations you have built. We will read it. Generic resumes with no artifacts will not make the cut.\n* Working knowledge of at least one general-purpose programming language (Python, TypeScript/JavaScript, or Go preferred). You should be able to write a small service, wire up an API integration, or build a dashboard end-to-end.\n* Fluency with modern AI dev tooling — Claude, Cursor, Claude Code, ChatGPT, v0, Replit, and similar. You have built things with them, not just chatted.\n* Strong Excel / Google Sheets and Airtable — you can model data, build pivots, and construct structured trackers without supervision.\n* Excellent written communication. A tight email, a clear Slack message, a well-structured brief. Writing is thinking.\n* Comfort with ambiguity and context-switching. You move between a data cleanup, a hiring brief, and a new internal tool in the same morning without losing the thread.\n\n### What You Will Achieve in a Year\n\n* You will have shipped a handful of internal tools and automations that the team actually uses every week — and you will be able to measure the hours saved.\n* You will have deep working understanding of the Adalat product, the model training pipeline, and the court deployment architecture.\n* You will own the partnerships data infrastructure — trackers, dashboards, reporting — that leadership runs on.\n* You will have designed and run structured HR and operational processes for the tech team that did not exist before you joined.\n* You will have earned the trust to represent the CTO’s Office independently in cross-functional and stakeholder conversations.\n* You will be a significantly better engineer, operator, and thinker than when you started — because you will have had a year of direct exposure to how a deep-tech nonprofit actually gets built.\n\n### **Join Our Team**\n\nIf you're driven by meaningful work and want to build technology that changes how justice is delivered — we'd love to hear from you. Apply now and be part of a team that ships fast, thinks deeply, and works on problems that matter.\n\n👉 [Apply here](https://www.adalat.ai/careers/associate-cto-office) fulltime yes\nlocations: \nremote: only\nmin_experience: 1",
+      "match_score": 12.91,
+      "resume_variant": "fullstack",
+      "draft_answer": "I’ve built and shipped end-to-end reporting portals, automating 90% of manual reporting for 80+ client organizations and improving system reliability by diagnosing production concurrency risks with message brokers and cutting API latency by 98% through caching. My experience extends to owning deployment pipelines with blue-green releases, reducing real-time data refresh delays, and containerizing LLM agents for local execution, demonstrating a blend of operational excellence and AI-driven development.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.92,
+            "overlap": 19.87,
+            "combined": 12.91
+          },
+          "backend": {
+            "cosine": 8.79,
+            "overlap": 19.17,
+            "combined": 11.91
+          },
+          "frontend": {
+            "cosine": 7.88,
+            "overlap": 21.36,
+            "combined": 11.93
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.92,
+        "keyword_overlap_score": 19.87,
+        "final_score": 12.91,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1769
+          },
+          {
+            "term": "ai",
+            "weight": 0.1432
+          },
+          {
+            "term": "data",
+            "weight": 0.1171
+          },
+          {
+            "term": "code",
+            "weight": 0.0911
+          },
+          {
+            "term": "deployment",
+            "weight": 0.0781
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-11-06T11:54:41+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2bab463a2c7670a2391073e35d35fb20",
+      "source": "yc",
+      "company": "Adalat AI",
+      "role": "Senior Full Stack Engineer",
+      "url": "https://www.workatastartup.com/jobs/113087",
+      "jd_text": "### About the Company\n\nAdalat AI is building an end-to-end justice tech stack that automates manual and clerical pain points in courtrooms, giving judges back time to focus on what matters most: decision-making and delivering justice. Our solutions - from AI-powered transcription in Indian languages to case-flow management and document navigation - are now deployed across 9 states, covering nearly 20% of India’s judiciary. Backed by leading technology companies and funders, and incubated at MIT and Oxford, Adalat AI is working to eliminate judicial delays and expand access to timely justice. Founded by a team with backgrounds in law, technology, and economics from Harvard, Oxford, MIT, and IIIT Hyderabad, we are scaling rapidly across India and the Global South.\n\n### Role Overview\n\nWe're hiring a Senior Fullstack Developer to lead and deliver end-to-end features at Adalat AI. You'll work across the stack on building frontends with modular state management, backend services, and database design — while setting the technical direction for how we build. You'll mentor engineers, drive architectural decisions, and raise the bar for quality and speed across a small team of elite builders shipping impactful features fast.\n\n### Key Responsibilities\n\n* Lead the design and delivery of complex, production-grade features spanning Next.js, TypeScript, TailwindCSS, Go, and Postgres.\n* Own architectural decisions — from database schema design to React component APIs — with a focus on long-term maintainability.\n* Mentor junior and mid-level engineers through code reviews, pairing sessions, and design discussions.\n* Collaborate closely with design, legal, and product teams to translate ambiguous requirements into polished, reliable features.\n* Set and uphold engineering standards: unit tests, linters, end-to-end tests, performance benchmarks, and accessibility.\n* Proactively identify technical debt, prototype improvements, and champion initiatives that make the platform faster and more resilient.\n\n### Qualifications\n\n* 10+ years of experience working on production JavaScript/TypeScript codebases.\n* Demonstrated track record of leading and shipping complex features end-to-end, including driving alignment across teams.\n* Deep expertise in React and modern frontend architecture; experience building and evolving design systems.\n* Strong proficiency with Go backend services and Postgres, including schema design, query optimisation, and migrations.\n* Experience mentoring engineers and raising team-wide engineering quality.\n* Sharp instinct for reducing user pain and improving speed and accessibility in high-stakes, real-world environments.\n\n**Bonus**\n\n* Familiarity with GraphQL or other API design patterns at scale.\n* Prior experience working in a legal domain.\n\n### What You Will Achieve in a Year\n\n* Led and shipped multiple high-impact platform features with measurable improvements to courtroom workflows.\n* Established architectural patterns and engineering norms that the wider team builds on.\n* Meaningfully levelled up the engineers around you through mentorship and technical leadership.\n* Contributed to improving access to justice at scale — for real users, in real courtrooms.\n\n### Join our team!\n\n\\\nIf you're driven by meaningful work and want to build technology that changes how justice is delivered — we'd love to hear from you. Apply now and be part of a team that ships fast, thinks deeply, and works on problems that matter.\n\n👉 [Apply here](https://www.adalat.ai/careers/senior-full-stack) jobs_skill 49 Go 50 jobs_skill 52 GraphQL 26 jobs_skill 99 PostgreSQL 79 jobs_skill 111 React 174 jobs_skill 138 TypeScript 45 jobs_skill 311 Next.js 0 jobs_skill 312 Tailwind 0 fulltime none\nlocations: \nremote: only\nmin_experience: 11",
+      "match_score": 13.4,
+      "resume_variant": "frontend",
+      "draft_answer": "I've consistently delivered end-to-end React front ends for compliance and reporting platforms, owning complex client-facing modules, driving UAT, and making architectural decisions like integrating Redis caching to cut fetch latency by 98%, directly improving perceived UI responsiveness. My experience in replacing manual reporting workflows with automated pipelines aligns with scaling impactful features that reduce manual pain points and expand access to justice.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.22,
+            "overlap": 14.9,
+            "combined": 10.92
+          },
+          "backend": {
+            "cosine": 6.25,
+            "overlap": 13.16,
+            "combined": 8.32
+          },
+          "frontend": {
+            "cosine": 11.65,
+            "overlap": 17.48,
+            "combined": 13.4
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.65,
+        "keyword_overlap_score": 17.48,
+        "final_score": 13.4,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1974
+          },
+          {
+            "term": "experience",
+            "weight": 0.0807
+          },
+          {
+            "term": "improving",
+            "weight": 0.061
+          },
+          {
+            "term": "react",
+            "weight": 0.0605
+          },
+          {
+            "term": "real",
+            "weight": 0.0605
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-11-06T11:54:26+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0fea821ff2d3c3d7e361fda94ff5be90",
+      "source": "yc",
+      "company": "Pharos",
+      "role": "Physician AI Researcher",
+      "url": "https://www.workatastartup.com/jobs/120895",
+      "jd_text": "## **Company Overview**\n\nPharos is an early-stage startup dedicated to improving patient safety in hospitals through advanced AI-powered reporting and analytics. Our mission is to make healthcare safer by automating hospital quality reporting and helping staff prevent the root causes of avoidable harm. Our vision is an AI system reviewing every chart at scale, identifying patterns and giving clinicians the insights they need to prevent the 100k avoidable deaths that occur in U.S. hospitals every year. \n\nAfter YC, we raised a $5M Seed from Felicis, General Catalyst and Moxxie Ventures. Our models are currently deployed at 2 of the largest Academic Medical Centers in the country as well as a 90 hospital IDN.\n\n## **About the Role**\n\nThis is a pivotal role as a **founding member** of the clinical AI research team at Pharos. As a Physician AI Researcher, you will bridge the critical gap between clinical expertise and AI development, ensuring our technology is both technically sophisticated and clinically sound. You will work in close partnership with the engineering team, bringing essential clinical perspective to every stage of product development.\n\nThe scope of this role is intentionally broad - you will be an integral part of the founding team, working at the intersection of clinical medicine, AI research, and product development. You'll be defining clinical requirements, curating datasets, developing and evaluating AI models, validating outputs for clinical accuracy, and helping translate complex medical knowledge into systems that work in real-world hospital settings. Your work will directly contribute to Pharos's core mission: improving patient safety and ultimately saving lives by making healthcare safer.\n\n## **What You'll Do**\n\n* **Clinical-AI Bridge:** Serve as the essential clinical voice in technical discussions, product decisions, and model development, ensuring clinical validity and real-world applicability of all our systems.\n* **Model Development:** Design, prototype, implement, and evaluate AI/ML models for healthcare quality reporting, patient safety monitoring, and clinical decision support.\n* **Data Curation &amp; Annotation:** Define clinical data requirements, create annotation schemas, curate training datasets, and ensure data quality for model development.\n* **Clinical Validation:** Rigorously evaluate model outputs for clinical accuracy, safety, and utility. Identify edge cases, failure modes, and potential patient safety concerns.\n* **Domain Expertise:** Provide deep clinical knowledge about hospital workflows, quality metrics, safety events, medical terminology and clinical documentation.\n* **Research &amp; Literature:** Stay current with clinical AI research, healthcare quality literature, and patient safety frameworks. Apply evidence-based approaches to our work.\n* **Context Engineering &amp; LLM Development:** Design, test, and optimize prompts and workflows for large language models applied to clinical text and medical records.\n* **Product Collaboration:** Work closely with the product and engineering teams to translate clinical needs into technical requirements and user-facing features.\n* **Hospital Engagement:** Participate in conversations with hospital partners to understand their workflows, pain points, and requirements.\n* **Documentation:** Create clinical documentation, model cards, validation reports, and materials for regulatory submissions.\n\n## **What We're Looking For**\n\n**Required:**\n\n* **Medical Training:** Medical degree (MD, MBBS, MBChB, MB BChir, or equivalent) with active or recent clinical practice experience.\n* **Hospital Knowledge:** Deep understanding of hospital workflows, quality processes, patient safety frameworks, and clinical operations.\n* **Coding Proficiency:** Strong programming skills in Python, including experience with data analysis libraries.\n* **Analytical Thinking:** Ability to approach problems systematically, think critically about data and models, and identify potential issues before they occur.\n* **Communication:** Excellent ability to communicate complex clinical and technical concepts to diverse audiences including clinicians, engineers, and business stakeholders.\n\n**Strongly Preferred:**\n\n* **AI/ML Development:** Hands-on experience developing or evaluating AI/ML models, especially in healthcare applications.\n* **NLP Experience:** Experience with natural language processing (NLP) or large language models (LLMs) applied to clinical text.\n* **Quality/Safety Background:** Background in quality improvement, patient safety, clinical research, or healthcare administration.\n* **Healthcare Informatics:** Deep understanding of healthcare data, electronic health records (EHRs), medical terminology, clinical documentation, and hospital quality processes.\n* **Interoperability Standards:** Experience working with healthcare interoperability standards such as FHIR and HL7, including parsing FHIR resources, working with FHIR APIs, processing HL7 messages, and understanding healthcare data exchange challenges.\n\n**Personal Attributes:**\n\n* **High agency:** You’re excited by the opportunity to take ambiguous clinical and technical challenges, and drive them from idea to execution without waiting for direction.\n* **Motivated by impact:** You’re energized to work hard as part of a high-performing team - holding a meaningful equity stake in a company with the real potential to save thousands of lives.\n* **Ownership mindset:** You take pride in acting like an owner, taking full responsibility for the quality and outcomes of your work.\n* **Comfortable with ambiguity:** You thrive in an early-stage startup environment where there’s no rigid hierarchy, everyone wears many hats, and you have real power to influence the path of the company.\n\n## **What We Offer**\n\n* **Foundational Impact:** A rare chance to build a category-defining healthcare AI company from the ground up and directly improve patient outcomes at scale.\n* **Clinical + Technical Growth:** Unique opportunity to develop expertise at the intersection of clinical medicine and cutting-edge AI research.\n* **Ownership and Autonomy:** Take ownership of critical clinical AI systems and have autonomy in your research approach.\n* **Significant Outcome Potential:** Meaningful equity stake as a founding team member.\n* **Mission-Driven Work:** Every day, work on technology that has the potential to prevent avoidable patient harm and save lives.\n* **Culture Creation:** Actively shape a positive, collaborative, innovative, and mission-driven culture that values both clinical excellence and technical rigor. San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: no\nmin_experience: 1",
+      "match_score": 7.21,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.48,
+            "overlap": 11.26,
+            "combined": 7.21
+          },
+          "backend": {
+            "cosine": 5.39,
+            "overlap": 10.9,
+            "combined": 7.04
+          },
+          "frontend": {
+            "cosine": 3.64,
+            "overlap": 13.11,
+            "combined": 6.48
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.48,
+        "keyword_overlap_score": 11.26,
+        "final_score": 7.21,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2024
+          },
+          {
+            "term": "safety",
+            "weight": 0.1034
+          },
+          {
+            "term": "team",
+            "weight": 0.0781
+          },
+          {
+            "term": "data",
+            "weight": 0.0724
+          },
+          {
+            "term": "model",
+            "weight": 0.0633
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a8f9dbb69c968ed90d35ee20b7f5b6a6",
+      "source": "yc",
+      "company": "Aktoria Robotics",
+      "role": "Robotics Operations Lead",
+      "url": "https://www.workatastartup.com/jobs/105824",
+      "jd_text": "We need someone to lead our entire India Ops. \n\nHelp us set up an office, procure and import robots and equipment. Run the fit-out: power and network; hire the team: supervisors, technicians, quality, and a large floor of operators across multiple shifts.\n\n**Then run it.** Throughput, quality, uptime, retention, and the site P&amp;L. You report to the founders directly. DL, IN Delhi, IN fulltime none\nlocations: DL, IN Delhi, IN\nremote: no\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T11:53:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "53dd7d06a799b47324555150fa389097",
       "source": "wellfound",
