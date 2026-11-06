@@ -1,15 +1,373 @@
 {
-  "exported_at": "2026-11-06T00:49:42+00:00",
+  "exported_at": "2026-11-06T09:07:26+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1129,
+    "discovered": 1137,
     "pending_approval": 287,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "53dd7d06a799b47324555150fa389097",
+      "source": "wellfound",
+      "company": "Marvedge",
+      "role": "Full Stack Developer Intern",
+      "url": "https://wellfound.com/jobs/4995303-full-stack-developer-intern",
+      "jd_text": "Bhubaneswar\nlocationNames: Bhubaneswar\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T09:07:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "837bdd326fabab795ea8bd6a1915c072",
+      "source": "wellfound",
+      "company": "Steinn Labs",
+      "role": "AI PLATFORM ENGINEER",
+      "url": "https://wellfound.com/jobs/4688429-ai-platform-engineer",
+      "jd_text": "Pune\nlocationNames: Pune",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T09:07:21+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f43925ae54346db37490ff94658553ac",
+      "source": "wellfound",
+      "company": "Steinn Labs",
+      "role": "Answer Engine Optimization (AEO)",
+      "url": "https://wellfound.com/jobs/4967203-answer-engine-optimization-aeo",
+      "jd_text": "Pune Dubai\nlocationNames: Pune Dubai\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T09:07:18+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e9fba01b7f5e36a61888b5e08b3a1f95",
+      "source": "wellfound",
+      "company": "ValarDigital",
+      "role": "Full Stack Developer — MERN Stack",
+      "url": "https://wellfound.com/jobs/4995189-full-stack-developer-mern-stack",
+      "jd_text": "Pune\nlocationNames: Pune",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T09:07:15+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7eb32903eeef6e72c50c4496f9d027fa",
+      "source": "wellfound",
+      "company": "Superclaims",
+      "role": "Senior Software Engineer - Applied AI",
+      "url": "https://wellfound.com/jobs/4995496-senior-software-engineer-applied-ai",
+      "jd_text": "Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T09:07:12+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cf48393b15c4e96e5229fb191f67c303",
+      "source": "wellfound",
+      "company": "StockSightFinance",
+      "role": "Lead/Senior Frontend Software Engineer",
+      "url": "https://wellfound.com/jobs/4995259-lead-senior-frontend-software-engineer",
+      "jd_text": "San Francisco Ireland\nlocationNames: San Francisco Ireland\nremote: true",
+      "match_score": 1.65,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T09:07:08+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.1,
+            "overlap": 0.66,
+            "combined": 0.97
+          },
+          "backend": {
+            "cosine": 0.67,
+            "overlap": 0.38,
+            "combined": 0.58
+          },
+          "frontend": {
+            "cosine": 1.94,
+            "overlap": 0.97,
+            "combined": 1.65
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 1.94,
+        "keyword_overlap_score": 0.97,
+        "final_score": 1.65,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.1477
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1207
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "42a947d77a32aec1bc6894c3d7d19b64",
+      "source": "wellfound",
+      "company": "FAAV",
+      "role": "Software Engineer and Programmer",
+      "url": "https://wellfound.com/jobs/4995318-software-engineer-and-programmer",
+      "jd_text": "London\nlocationNames: London\nremote: true",
+      "match_score": 1.06,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T09:07:05+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.89,
+            "overlap": 0.66,
+            "combined": 0.82
+          },
+          "backend": {
+            "cosine": 0.95,
+            "overlap": 0.75,
+            "combined": 0.89
+          },
+          "frontend": {
+            "cosine": 1.1,
+            "overlap": 0.97,
+            "combined": 1.06
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 1.1,
+        "keyword_overlap_score": 0.97,
+        "final_score": 1.06,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1714
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "83be4e9f9a14f7fab68e8726ecdd7d5a",
+      "source": "wellfound",
+      "company": "Rayon Insurance",
+      "role": "Founding Simulation & Risk Modeling Engineer (Robotics)",
+      "url": "https://wellfound.com/jobs/4995297-founding-simulation-risk-modeling-engineer-robotics",
+      "jd_text": "San Francisco Bay Area\nlocationNames: San Francisco Bay Area\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-06T09:07:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "326e39117ffa9b9124fbd6a2a7318ce8",
       "source": "yc",
