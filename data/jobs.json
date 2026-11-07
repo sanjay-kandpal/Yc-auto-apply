@@ -1,15 +1,87 @@
 {
-  "exported_at": "2026-11-07T05:26:16+00:00",
+  "exported_at": "2026-11-07T08:34:22+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1153,
+    "discovered": 1154,
     "pending_approval": 292,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "1245c5ae5ec6bb1ecef2a68ece3af533",
+      "source": "wellfound",
+      "company": "BIZTELAI TECHNOLOGIES",
+      "role": "Junior Software Engineer – Full Stack / AI",
+      "url": "https://wellfound.com/jobs/5014381-junior-software-engineer-full-stack-ai",
+      "jd_text": "Bengaluru Chennai\nlocationNames: Bengaluru Chennai",
+      "match_score": 3.89,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-07T08:34:20+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.99,
+            "overlap": 1.32,
+            "combined": 3.89
+          },
+          "backend": {
+            "cosine": 4.25,
+            "overlap": 0.75,
+            "combined": 3.2
+          },
+          "frontend": {
+            "cosine": 3.29,
+            "overlap": 0.97,
+            "combined": 2.6
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.99,
+        "keyword_overlap_score": 1.32,
+        "final_score": 3.89,
+        "top_keywords": [
+          {
+            "term": "bengaluru",
+            "weight": 0.3406
+          },
+          {
+            "term": "stack",
+            "weight": 0.2573
+          },
+          {
+            "term": "ai",
+            "weight": 0.2083
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1703
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "494cc592bb6922823c902b1398d89dba",
       "source": "yc",
