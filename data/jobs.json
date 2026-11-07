@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-11-06T22:55:21+00:00",
+  "exported_at": "2026-11-07T00:01:50+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1152,
+    "discovered": 1153,
     "pending_approval": 292,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "494cc592bb6922823c902b1398d89dba",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Senior Hardware Robotics Engineer",
+      "url": "https://www.workatastartup.com/jobs/121058",
+      "jd_text": "## About the role\n\n**Requirements/Qualifications**\n\n* Has a degree in Computer Science, Robotics, Electrical Engineering, Mechanical Engineering, Robotics Engineering, or a related field.\n* 3+ years of experience in hardware engineering, robotics, mechatronics, or a related field.\n* Has experience leading engineering projects or small technical teams.\n* Has U.S. citizenship or otherwise does not require immigration or visa sponsorship.\n* Full-time role.\n\n**What You’ll Do**\n\n* Lead the design, development, and integration of electrical and mechanical systems for humanoid robots.\n* Own hardware projects from initial concept and prototyping through testing, manufacturing, and real-world deployment.\n* Develop new robot form factors and hardware solutions for various applications.\n* Rapidly prototype, test, and iterate on hardware designs based on changing requirements and deployment feedback.\n* Lead and mentor other hardware engineers, providing technical guidance, design reviews, and troubleshooting support.\n* Manage hardware project timelines, establish milestones, and ensure engineering deliverables are completed on schedule.\n* Work closely with the operations team to coordinate hardware requirements, deployment schedules, and project deliverables.\n* Collaborate with software, robotics, and operations teams to ensure successful system integration and deployment.\n* Identify technical risks, resolve hardware issues, and remove blockers to keep projects moving forward.\n* Work with vendors and manufacturers to source components, manage lead times, and ensure parts are available to meet project deadlines.\n* Develop testing, validation, and documentation processes to improve hardware reliability and repeatability.\n* Improve existing robot designs for manufacturability, serviceability, cost, and performance.\n\n**What We’re Looking For**\n\n* Strong experience designing and integrating complex electromechanical systems or robotic platforms.\n* Excellent knowledge of electrical engineering, including power distribution, circuit design, PCB development, and system integration.\n* Experience taking hardware products from early prototypes through manufacturing, testing, and deployment. \n* Experience working at a startup or an established deep-tech or robotics company, preferably with experience owning projects or leading technical initiatives.\n* Experience leading engineering projects, coordinating technical teams, and managing multiple priorities. \n* Proven ability to manage project timelines, meet deadlines, and deliver functional hardware on schedule. \n* Experience working cross-functionally with operations teams to coordinate hardware deliverables and deployment readiness. \n* Strong hands-on engineering and troubleshooting ability for both electrical and mechanical systems.\n* Experience with hand tools and disassembly, assembly, testing, and documentation of systems.\n* Experience with Linux-based operating systems (ROS 2 especially).\n* Experience with computer assembly and bandwidth architecture (USB and PCIe standards).\n* Strong skills in CAD, embedded systems, and hardware integration.\n* Experience with 3D CAD software (SolidWorks, Fusion 360, Onshape, or similar).\n* Experience with ECAD software (Altium Designer, KiCad, or similar).\n* Experience with typical humanoid systems (BLDC actuators, CAN bus, lithium-based batteries, motor controllers, and sensors).\n* Experience with embedded communication protocols (CAN, SPI, I2C, UART, Ethernet).\n* Understanding of power electronics, battery management systems, and electrical safety.\n* Experience with mechanical design, tolerance analysis, and GD&amp;T.\n* Understanding of design for manufacturing and assembly (DFM/DFA), including machining, 3D printing, and fabrication processes.\n* Understanding of industrial requirements (IP ratings, MTBF, reliability, and environmental testing).\n* Strong understanding of hardware regulations, industry standards, and compliance requirements, with the ability to design, test, and validate robotic systems to meet applicable safety and regulatory standards.\n* Experience developing hardware validation plans, conducting failure analysis, and improving system reliability.\n* Experience with component sourcing, vendor management, and manufacturing coordination. \n* Ability to create and maintain engineering documentation, including BOMs, assembly instructions, wiring diagrams, and technical drawings.\n* Strong problem-solving skills and ability to make practical engineering decisions under tight timelines. \n* Ability to balance hands-on engineering work with technical leadership and project ownership.\n\n**Why This Role**\n\n* Direct impact on company results.\n* Creating cutting edge robots for real deployments.\n\n## About Yondu\n\nYondu is creating the robotic workforce of the future starting with logistics automation. We're deploying humanoid robots in the first flexible, drop-in picking automation solution designed for 3PLs. Our approach is building robot foundation models to enable off the shelf robots to do these tasks autonomously. To train these models, we're building our own teleoperation system in house. Finally, there's a whole stack of classical robotics and integration work to make our systems work in the real world . Learning constantly and keeping up with SOTA research is one of the pillars of our company's culture. The company was founded by MIT students and has raised seed funding after graduating from the YC W24 batch. Join us in shaping the way the world works. Gardena, CA, US fulltime yes\nlocations: Gardena, CA, US\nremote: no\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-07T00:01:48+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "cbba2378bbef44235c6d62f00412c951",
       "source": "yc",
