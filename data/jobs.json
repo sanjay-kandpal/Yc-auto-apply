@@ -1,15 +1,182 @@
 {
-  "exported_at": "2026-11-08T04:36:00+00:00",
+  "exported_at": "2026-11-08T08:47:46+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1162,
+    "discovered": 1165,
     "pending_approval": 292,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "5d088eff8611cc8b7d443f9f5932ca62",
+      "source": "wellfound",
+      "company": "RapidData",
+      "role": "Full Stack Application Developer",
+      "url": "https://wellfound.com/jobs/3528383-full-stack-application-developer",
+      "jd_text": "Charlotte New Delhi\nlocationNames: Charlotte New Delhi\nremote: true",
+      "match_score": 1.05,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-08T08:47:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.08,
+            "overlap": 0.99,
+            "combined": 1.05
+          },
+          "backend": {
+            "cosine": 0.35,
+            "overlap": 0.38,
+            "combined": 0.36
+          },
+          "frontend": {
+            "cosine": 0.41,
+            "overlap": 0.49,
+            "combined": 0.43
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 1.08,
+        "keyword_overlap_score": 0.99,
+        "final_score": 1.05,
+        "top_keywords": [
+          {
+            "term": "stack",
+            "weight": 0.1918
+          },
+          {
+            "term": "application",
+            "weight": 0.127
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "59cdfccc7199382d150284cf206c835b",
+      "source": "wellfound",
+      "company": "RapidData",
+      "role": "AI Backend Developer",
+      "url": "https://wellfound.com/jobs/4970040-ai-backend-developer",
+      "jd_text": "New Delhi\nlocationNames: New Delhi\nremote: true",
+      "match_score": 2.4,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-08T08:47:41+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.9,
+            "overlap": 0.33,
+            "combined": 1.43
+          },
+          "backend": {
+            "cosine": 3.26,
+            "overlap": 0.38,
+            "combined": 2.4
+          },
+          "frontend": {
+            "cosine": 0.47,
+            "overlap": 0.49,
+            "combined": 0.48
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 3.26,
+        "keyword_overlap_score": 0.38,
+        "final_score": 2.4,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1793
+          },
+          {
+            "term": "backend",
+            "weight": 0.1465
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0983dc3a3430897809715e4165a4cfba",
+      "source": "wellfound",
+      "company": "ParentVeda",
+      "role": "Junior Full-Stack Developer",
+      "url": "https://wellfound.com/jobs/5016001-content-writer-pregnancy-and-parenting-clone",
+      "jd_text": "New Delhi\nlocationNames: New Delhi",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-08T08:47:38+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "78a953568e313ddf20b1f1178fdbd713",
       "source": "wellfound",
