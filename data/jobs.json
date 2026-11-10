@@ -1,15 +1,365 @@
 {
-  "exported_at": "2026-11-10T21:43:18+00:00",
+  "exported_at": "2026-11-10T23:03:00+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 1184,
     "pending_approval": 293,
-    "discovered": 1178,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "bbdda75b02545432a8daa9214b909296",
+      "source": "wellfound",
+      "company": "ZYAKU",
+      "role": "Mobile Engineer (React Native / Expo)",
+      "url": "https://wellfound.com/jobs/5031255-mobile-engineer-react-native-expo",
+      "jd_text": "San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 2.99,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-10T23:02:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.56,
+            "overlap": 0.99,
+            "combined": 2.09
+          },
+          "backend": {
+            "cosine": 1.95,
+            "overlap": 1.13,
+            "combined": 1.7
+          },
+          "frontend": {
+            "cosine": 3.64,
+            "overlap": 1.46,
+            "combined": 2.99
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 3.64,
+        "keyword_overlap_score": 1.46,
+        "final_score": 2.99,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1404
+          },
+          {
+            "term": "native",
+            "weight": 0.1404
+          },
+          {
+            "term": "react",
+            "weight": 0.1404
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "953f78d49944a7927437e67ed8a226c4",
+      "source": "wellfound",
+      "company": "ZYAKU",
+      "role": "Backend Engineer (Node.js / Postgres)",
+      "url": "https://wellfound.com/jobs/5031256-mobile-engineer-react-native-expo-clone",
+      "jd_text": "San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 5.09,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-10T23:02:54+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.3,
+            "overlap": 0.99,
+            "combined": 4.01
+          },
+          "backend": {
+            "cosine": 6.49,
+            "overlap": 1.13,
+            "combined": 4.88
+          },
+          "frontend": {
+            "cosine": 6.65,
+            "overlap": 1.46,
+            "combined": 5.09
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 6.65,
+        "keyword_overlap_score": 1.46,
+        "final_score": 5.09,
+        "top_keywords": [
+          {
+            "term": "backend",
+            "weight": 0.1442
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1442
+          },
+          {
+            "term": "js",
+            "weight": 0.1442
+          },
+          {
+            "term": "node",
+            "weight": 0.1442
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3096dba47658134cc6218feb6e79b0e6",
+      "source": "wellfound",
+      "company": "ZYAKU",
+      "role": "AI/ML Engineer",
+      "url": "https://wellfound.com/jobs/5031258-backend-engineer-node-js-postgres-clone",
+      "jd_text": "San Francisco\nlocationNames: San Francisco\nremote: true",
+      "match_score": 1.53,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-10T23:02:51+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.9,
+            "overlap": 0.33,
+            "combined": 1.43
+          },
+          "backend": {
+            "cosine": 2.03,
+            "overlap": 0.38,
+            "combined": 1.53
+          },
+          "frontend": {
+            "cosine": 0.94,
+            "overlap": 0.49,
+            "combined": 0.81
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 2.03,
+        "keyword_overlap_score": 0.38,
+        "final_score": 1.53,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1793
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1465
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "11b560bf00382b395725923373f86b67",
+      "source": "wellfound",
+      "company": "Adosx Tech",
+      "role": "Intern - Full-Stack Tech",
+      "url": "https://wellfound.com/jobs/4491600-intern-full-stack-tech",
+      "jd_text": "Hyderabad\nlocationNames: Hyderabad",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-10T23:02:49+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3ddccfa98f49f7976e26ea7fddfdc5ad",
+      "source": "wellfound",
+      "company": "LearnTube.ai (backed by Google)",
+      "role": "Senior Golang Developer (Go) - Remote",
+      "url": "https://wellfound.com/jobs/5034675-senior-golang-developer-go-remote",
+      "jd_text": "Bengaluru Hyderabad Mumbai Delhi\nlocationNames: Bengaluru Hyderabad Mumbai Delhi\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-10T23:02:49+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a66383cd3b282a25af62fbf5767e9d02",
+      "source": "wellfound",
+      "company": "LearnTube.ai (backed by Google)",
+      "role": "Senior Rust Engineer (Backend / Systems) - Remote",
+      "url": "https://wellfound.com/jobs/4803168-senior-rust-engineer-backend-systems-remote",
+      "jd_text": "Delhi Pune Hyderabad Ahmedabad Mumbai Bangalore Urban Kolkata\nlocationNames: Delhi Pune Hyderabad Ahmedabad Mumbai Bangalore Urban Kolkata\nremote: true",
+      "match_score": 1.81,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-10T23:02:49+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 1.31,
+            "overlap": 0.99,
+            "combined": 1.21
+          },
+          "backend": {
+            "cosine": 2.1,
+            "overlap": 1.13,
+            "combined": 1.81
+          },
+          "frontend": {
+            "cosine": 1.35,
+            "overlap": 1.46,
+            "combined": 1.38
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 2.1,
+        "keyword_overlap_score": 1.13,
+        "final_score": 1.81,
+        "top_keywords": [
+          {
+            "term": "bangalore",
+            "weight": 0.1679
+          },
+          {
+            "term": "backend",
+            "weight": 0.084
+          },
+          {
+            "term": "engineer",
+            "weight": 0.084
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "57b3445f7dd527237a19249dd9abdbec",
       "source": "yc",
