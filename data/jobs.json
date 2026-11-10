@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-11-10T17:37:07+00:00",
+  "exported_at": "2026-11-10T21:43:18+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "pending_approval": 293,
     "discovered": 1178,
-    "pending_approval": 292,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "57b3445f7dd527237a19249dd9abdbec",
+      "source": "yc",
+      "company": "David AI",
+      "role": "Forward Deployed Engineer, Production",
+      "url": "https://www.workatastartup.com/jobs/121784",
+      "jd_text": "## **About David AI**\n\nDavid AI is the first audio data research company. We bring an R&D approach to data–developing datasets with the same rigor AI labs bring to models. Our mission is to bring AI into the real world, and we believe audio is the gateway. Speech is versatile, accessible, and human—it fits naturally into everyday life. As audio AI advances and new use cases emerge, high-quality training data is the bottleneck. This is where David AI comes in.\n\nDavid AI was founded in 2024 by a team of former Scale AI engineers and operators. In less than a year, we've brought on most FAANG companies and AI labs as customers. We recently raised a $50M Series B from Meritech, NVIDIA, Jack Altman (Alt Capital), Amplify Partners, First Round Capital and other Tier 1 investors.\n\nOur team is sharp, humble, ambitious, and tight-knit. We're looking for the best research, engineering, product, and operations minds to join us on our mission to push the frontier of audio AI.\n\n## **About our Engineering team**\n\nAt David AI, our engineers build the pipelines, platforms, and models that transform raw audio into high-signal data for leading AI labs and enterprises. We're a tight-knit team of product engineers, infrastructure specialists, and machine learning experts focused on building the world's first audio data research company.\n\nWe move fast, own our work end-to-end, and ship to production daily. Our team designs real-time pipelines handling terabytes of speech data and deploys cutting-edge generative audio models.\n\n## **About this role**\n\nWe generate audio data for the world’s leading speech and audio labs. Data only matters if it makes a customer’s model measurably better, and finding out whether it does is your job. As a Forward Deployed Engineer, Production, you’ll own the loop between a customer’s model, our research team, and our data production. In a typical week you’ll run an ablation on Monday, see a signal on Tuesday, change how we collect data on Wednesday, and ship a recommendation that makes it to the customer by Friday. You’ll be shipping something on the order of days, not weeks.\n\nThis role is for someone who is equally comfortable in a codebase, translating customer requirements into how we produce data, and in the details of how we ship product features to yield data that improves our customers’ models. You’ll care about why a model regressed, and also about which recording setup, product experience, or automated QA step caused it.\n\n## **In this role, you will**\n\n- **Run the daily experiment loop.** Turn customer questions into fast, rigorous experiments, get results in days, and iterate until the answer is clear enough to act on.\n\n- **Design ablations and benchmarks that change decisions.** Work with our research engineers to isolate what drives model behavior. Then translate the results into concrete changes in what we collect, how we collect it, and how we filter and weight it.\n\n- **Develop operational intuition for data quality.** Get close to how our data is produced, including recording conditions, contributor pools, annotation, and QA, so you can trace model outcomes back to operational causes and fix them at the source.\n\n- **Build the tooling that makes speed possible.** Ship the eval harnesses, pipelines, and analysis tools that make the next experiment faster than the last, across every customer.\n\n- **Close the loop with the model improvement lifecycle.** Make sure what you learn changes what we produce, so our data keeps improving the models that depend on it.\n\n- **Shape how we work.** Help define our experimentation practices, engineering culture, and roadmap as the team grows.\n\n## **Your background looks like**\n\n- AI-native coding experience with a track record of fast, impact-driven experiments and product features across the stack.\n\n- Strong problem-solving skills and the ability to work independently or as part of a collaborative team.\n\n- Ability to translate open-ended research questions into concrete experiments and clear recommendations.\n\n- Excellent communication skills, with the ability to explain technical findings to both researchers and non-technical stakeholders.\n\n- Desire to thrive in a fast-paced, dynamic environment and adapt quickly as the audio AI field evolves.\n\n- Excited to join our team in-person in San Francisco.\n\n## **Bonus points if you have**\n\n- At least 3 years of relevant engineering or product experience (product engineering, ML engineering, or applied research)\n\n- Degree in computer science, electrical engineering, or a related technical field, or equivalent practical experience.\n\n- Experience working with audio or speech models, or with audio/signal data more broadly.\n\n- Familiarity with machine learning research workflows — training, fine-tuning, evaluation, and metrics.\n\n- Experience working directly with technical or enterprise customers.\n\n## **Benefits**\n\n- Unlimited PTO.\n\n- Top-notch health, dental, and vision coverage with 100% coverage for most plans.\n\n- FSA & HSA access.\n\n- 401k access.\n\n- Meals 2x daily through DoorDash + snacks and beverages available at the office.\n\n- Unlimited company-sponsored Barry's classes.\n\n## **Visas**\n\nWe sponsor international candidates across a range of visa types, including H-1B transfers, H-1B1, O-1, E-3, and TN, and we support STEM OPT. While we can’t guarantee any individual outcome, we’ve successfully sponsored teammates from all over the world.\n\n San Francisco fulltime yes\nlocations: San Francisco\nremote: no",
+      "match_score": 10.49,
+      "resume_variant": "fullstack",
+      "draft_answer": "I've regularly diagnosed production risks and performance bottlenecks with tools like Locust, translating observed issues (like p95 degradation or tight coupling) into concrete changes like Redis caching or RabbitMQ to ensure reliable data delivery and 98% faster fetch latency for clients. My experience building full-stack platforms from client requirements to UAT and owning cloud deployments with CI/CD for zero-downtime blue-green releases, alongside automating 90% of manual reporting workflows and validating LLM tool-calling locally, directly prepares me to iterate quickly and improve the high-signal audio data our customers' models depend on.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-10T21:43:01+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.59,
+            "overlap": 12.58,
+            "combined": 10.49
+          },
+          "backend": {
+            "cosine": 8.98,
+            "overlap": 13.53,
+            "combined": 10.34
+          },
+          "frontend": {
+            "cosine": 6.17,
+            "overlap": 14.08,
+            "combined": 8.54
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 9.59,
+        "keyword_overlap_score": 12.58,
+        "final_score": 10.49,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2509
+          },
+          {
+            "term": "data",
+            "weight": 0.2344
+          },
+          {
+            "term": "team",
+            "weight": 0.1992
+          },
+          {
+            "term": "model",
+            "weight": 0.1075
+          },
+          {
+            "term": "experience",
+            "weight": 0.0879
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-11-10T21:43:17+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "cb36a35dcff4f54c31b24041b9f0740c",
       "source": "wellfound",
