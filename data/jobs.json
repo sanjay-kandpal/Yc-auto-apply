@@ -1,15 +1,746 @@
 {
-  "exported_at": "2026-11-10T23:03:00+00:00",
+  "exported_at": "2026-11-11T04:51:30+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1184,
+    "discovered": 1198,
     "pending_approval": 293,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "0fac99d9734c57e601f2446d1dc0ded9",
+      "source": "yc",
+      "company": "Openbenchmarks",
+      "role": "Benchmarks Storyteller",
+      "url": "https://www.workatastartup.com/jobs/121685",
+      "jd_text": "**About Openbenchmarks**\n\nAgents are becoming first-class users of the internet. They research, compare tools and increasingly make build-versus-buy decisions on behalf of people. Every company will need its product picked by agents, and agents prefer open, independent, grounded benchmarks to make that call.\n\nOpenbenchmarks is the evaluation infrastructure for agents: domain-specific, reproducible evaluations that help agents and people pick tools with confidence. Our mission is to be the trusted evaluation layer for agents.\n\nFounders previously led AI research and infra teams at Oracle and Appfolio. We're a small team of researchers and engineers working with fast-growing AI-first companies like Parallel, Firecrawl, Telnyx, TinyFish and more.\n\n**About the role**\n\nEvery benchmark we run produces a lot of data: accuracy, latency, cost, failure modes, and how results change between versions. You make sure what we publish is correct, clear and convincing, and you communicate it. That means rigorous statistics, graphs that show the real trade-off at a glance, and technical writing that holds up, from reports to posts.\n\nThe bar is a benchmark report a skeptical researcher can't poke holes in. Every number has an error bar, every comparison is controlled, and every claim is backed by a test.\n\n**What you'll work on**\n\n**_Technical writing_** - Write up each benchmark: methodology, results, limitations, and enough detail for anyone to reproduce our work. Technical reports by default, research papers when the work warrants it.\n\n**_Statistics_** - Standard errors and confidence intervals on every result, stated sample sizes, and proper tests (e.g. mixed-effects models with per-task effects) before we call one tool better than another. Explain the outliers, don't hide them.\n\n**_Methodology_** - Design controlled comparisons: isolate one variable, hold the rest fixed, and write up the grading rules and judge setup so anyone can reproduce the result.\n\n**_Graphs_** - Score vs. cost with Pareto frontiers, cost broken into components, latency and cost distributions, and per-category results with error bars. Built in code, clear before pretty.\n\n**_Communicating results_** - Turn each benchmark into reports, launch posts and threads for X, LinkedIn, Reddit and HN. Lead with one sharp finding and one graph.\n\n**_Finding the story_** - Work with our researchers on the raw results. Dig into individual failures, spot what changed between runs, and decide what's worth saying.\n\n**You might be a fit if**\n\n* You have a strong background in statistics: regression, mixed-effects models, significance testing, and you know when a result isn't significant\n* You've designed or run evals (ML or LLM evaluation) and know where they go wrong\n* You write clear technical prose: methodology, results and limitations that a skeptical reader trusts\n* You've made graphs that changed how people saw a result, and can show them\n\n**Nice to have**\n\n* You've written research papers (published or not)\n* Familiarity with existing benchmarks (SWE-bench, Terminal-bench, BrowseComp) and how vendors cite them\n* An audience on X, LinkedIn or a blog US jobs_skill 107 Python 288 jobs_skill 149 SQL 12 jobs_skill 183 Machine Learning 16 jobs_skill 359 Pandas 0 fulltime none\nlocations: US\nremote: no",
+      "match_score": 5.54,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.84,
+            "overlap": 8.94,
+            "combined": 5.37
+          },
+          "backend": {
+            "cosine": 3.89,
+            "overlap": 9.4,
+            "combined": 5.54
+          },
+          "frontend": {
+            "cosine": 2.27,
+            "overlap": 9.71,
+            "combined": 4.5
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 3.89,
+        "keyword_overlap_score": 9.4,
+        "final_score": 5.54,
+        "top_keywords": [
+          {
+            "term": "agents",
+            "weight": 0.1746
+          },
+          {
+            "term": "technical",
+            "weight": 0.0714
+          },
+          {
+            "term": "ai",
+            "weight": 0.0582
+          },
+          {
+            "term": "error",
+            "weight": 0.0582
+          },
+          {
+            "term": "latency",
+            "weight": 0.0476
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7e4d556dbc119d70b9a8227a5e0af65d",
+      "source": "yc",
+      "company": "Openbenchmarks",
+      "role": "Benchmarks Storyteller",
+      "url": "https://www.workatastartup.com/jobs/121898",
+      "jd_text": "**About Openbenchmarks**\n\nAgents are becoming first-class users of the internet. They research, compare tools and increasingly make build-versus-buy decisions on behalf of people. Every company will need its product picked by agents, and agents prefer open, independent, grounded benchmarks to make that call.\n\nOpenbenchmarks is the evaluation infrastructure for agents: domain-specific, reproducible evaluations that help agents and people pick tools with confidence. Our mission is to be the trusted evaluation layer for agents.\n\nFounders previously led AI research and infra teams at Oracle and Appfolio. We're a small team of researchers and engineers working with fast-growing AI-first companies like Parallel, Firecrawl, Telnyx, TinyFish and more.\n\n**About the role**\n\nEvery benchmark we run produces a lot of data: accuracy, latency, cost, failure modes, and how results change between versions. You make sure what we publish is correct, clear and convincing, and you communicate it. That means rigorous statistics, graphs that show the real trade-off at a glance, and technical writing that holds up, from reports to posts.\n\nThe bar is a benchmark report a skeptical researcher can't poke holes in. Every number has an error bar, every comparison is controlled, and every claim is backed by a test.\n\n**What you'll work on**\n\n**_Technical writing_** - Write up each benchmark: methodology, results, limitations, and enough detail for anyone to reproduce our work. Technical reports by default, research papers when the work warrants it.\n\n**_Statistics_** - Standard errors and confidence intervals on every result, stated sample sizes, and proper tests (e.g. mixed-effects models with per-task effects) before we call one tool better than another. Explain the outliers, don't hide them.\n\n**_Methodology_** - Design controlled comparisons: isolate one variable, hold the rest fixed, and write up the grading rules and judge setup so anyone can reproduce the result.\n\n**_Graphs_** - Score vs. cost with Pareto frontiers, cost broken into components, latency and cost distributions, and per-category results with error bars. Built in code, clear before pretty.\n\n**_Communicating results_** - Turn each benchmark into reports, launch posts and threads for X, LinkedIn, Reddit and HN. Lead with one sharp finding and one graph.\n\n**_Finding the story_** - Work with our researchers on the raw results. Dig into individual failures, spot what changed between runs, and decide what's worth saying.\n\n**You might be a fit if**\n\n* You have a strong background in statistics: regression, mixed-effects models, significance testing, and you know when a result isn't significant\n* You've designed or run evals (ML or LLM evaluation) and know where they go wrong\n* You write clear technical prose: methodology, results and limitations that a skeptical reader trusts\n* You've made graphs that changed how people saw a result, and can show them\n\n**Nice to have**\n\n* You've written research papers (published or not)\n* Familiarity with existing benchmarks (SWE-bench, Terminal-bench, BrowseComp) and how vendors cite them\n* An audience on X, LinkedIn or a blog jobs_skill 107 Python 288 jobs_skill 149 SQL 12 jobs_skill 183 Machine Learning 16 jobs_skill 359 Pandas 0 fulltime none\nlocations: \nremote: only",
+      "match_score": 5.54,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.84,
+            "overlap": 8.94,
+            "combined": 5.37
+          },
+          "backend": {
+            "cosine": 3.89,
+            "overlap": 9.4,
+            "combined": 5.54
+          },
+          "frontend": {
+            "cosine": 2.27,
+            "overlap": 9.71,
+            "combined": 4.5
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 3.89,
+        "keyword_overlap_score": 9.4,
+        "final_score": 5.54,
+        "top_keywords": [
+          {
+            "term": "agents",
+            "weight": 0.1746
+          },
+          {
+            "term": "technical",
+            "weight": 0.0714
+          },
+          {
+            "term": "ai",
+            "weight": 0.0582
+          },
+          {
+            "term": "error",
+            "weight": 0.0582
+          },
+          {
+            "term": "latency",
+            "weight": 0.0476
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "fd0be45f76c5f28fa4a826e7f39ccb12",
+      "source": "yc",
+      "company": "Openbenchmarks",
+      "role": "Founding Engineer (AI + Backend)",
+      "url": "https://www.workatastartup.com/jobs/95455",
+      "jd_text": "**Founding Engineer (AI + Backend)**\n\n**About OpenBenchmarks**\n\nAgents are becoming first-class users and consumers of the internet. They research, evaluate, compare tools and increasingly make build-versus-buy decisions on behalf of people. Every company will need to get their products picked and used by agents.\n\nAgents increasingly prefer open, independent and grounded benchmarks to make decisions.\n\nOpenbenchmarks is the evaluation infrastructure for agents - domain-specific, reproducible evaluations that help agents pick tools with confidence.\n\nOur mission is to be the trusted evaluation layer for agents.\n\nFounders previously led AI research and Infra teams at Oracle and Appfolio;\n\nWe started Openbenchmarks as an output of our research in the field of model behavior and how agents actually chose between different tools.\n\nWe're a team of researchers, engineers and work with the fastest growing AI first companies like Parallel, Firecrawl, Telnyx, TinyFish and more.\n\n**About the role**\n\nWe're a team of researchers, engineers and theorists, in person in SF. You'll be building the benchmarks and the systems that run them.\n\nHere are the broad themes that you’ll be working on\n\n**Benchmarks and evals design** - designing domain-specific benchmarks from scratch: what to measure, how to ground it, and what makes a benchmark that an agent will continuously trust and pick from.\n\n**Continuously running large-scale autonomous eval systems** - infrastructure that runs without a human in the loop: vendor APIs at scale, LLM-as-judge pipelines, scoring and metric computation, drift detection as models and products change underneath.\n\n**Research - understanding model behavior** - why agents choose what they choose, and what survives their scrutiny. Adjacent to this you'll work on synthetic data generation, and problems like self-improvement code/software.\n\nYou'll build benchmarks &amp; evals that the fastest-growing AI-first companies pay close attention to and produce continuous evals that their engineering teams care about.\n\nIf you want to do your life's work, reach out. San Francisco, CA, US fulltime possible\nlocations: San Francisco, CA, US\nremote: no",
+      "match_score": 6.04,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.08,
+            "overlap": 7.28,
+            "combined": 5.74
+          },
+          "backend": {
+            "cosine": 5.4,
+            "overlap": 7.52,
+            "combined": 6.04
+          },
+          "frontend": {
+            "cosine": 2.05,
+            "overlap": 7.28,
+            "combined": 3.62
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 5.4,
+        "keyword_overlap_score": 7.52,
+        "final_score": 6.04,
+        "top_keywords": [
+          {
+            "term": "agents",
+            "weight": 0.2802
+          },
+          {
+            "term": "ai",
+            "weight": 0.1751
+          },
+          {
+            "term": "tools",
+            "weight": 0.0859
+          },
+          {
+            "term": "model",
+            "weight": 0.07
+          },
+          {
+            "term": "backend",
+            "weight": 0.0573
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3f83093ae5bc5fcde02ccdcfcf4c51d9",
+      "source": "yc",
+      "company": "Openbenchmarks",
+      "role": "Founding GTM",
+      "url": "https://www.workatastartup.com/jobs/109689",
+      "jd_text": "**About OpenBenchmarks**\n\nAgents are becoming first-class users and consumers of the internet. They research, evaluate, compare tools and increasingly make build-versus-buy decisions on behalf of people. Every company will need to get their products picked and used by agents.\n\nAgents increasingly prefer open, independent and grounded benchmarks to make decisions.\n\nOpenbenchmarks is the evaluation infrastructure for agents - domain-specific, reproducible evaluations that help agents pick tools with confidence.\n\nOur mission is to be the trusted evaluation layer for agents.\n\nFounders previously led AI research and Infra teams at Oracle and Appfolio; we started Openbenchmarks as an output of our research in the field of model behavior and how agents actually chose between different tools.\n\nWe're a team of researchers, engineers and work with the fastest growing AI first companies like Parallel, Firecrawl, Telnyx, TinyFish and more.\n\n**About the role**\n\nBenchmarks are how companies market their products to agents. We build those benchmarks.\n\nThere's a lot of nuance in every benchmark - what gets evaluated, which metrics matter, release cycles, data refreshes. A benchmark isn't static, and a changing benchmark constantly surfaces new insight into how the tools on it actually perform. Turning that into content - posts, graphs, chart is super important to communicate the nuance of the benchmark in the most clear way possible.\n\nThat's your job.\n\nHere are the broad themes that you'll be working on\n\n**_Content from benchmarks_** - You'll run benchmarks, query the data, and dig into individual failures to find what's actually there - where a vendor is strong and why, what the failure mode of the field is, what the trade-off costs. You use that to create content: the finding, graphs and more, and what we're changing in v2. Doing the digging deeply yourself is what makes the writing credible.\n\n**_Data visualization and Graphs_** - the graphs &amp; charts are how the trade-offs are shown. Precision against latency, F1 against cost etc. You'll design and build these yourself using Claude Code, Claude Design.\n\n**_Distribution to people and agents_** - We have two audiences. \n\nPeople on LinkedIn, X, and HN. And the agents that read, index, and cite it when someone asks which tool to pick. You'll own how the work gets found by both - which means the writing has to be genuinely , because slop doesn't survive either audience.\n\n**_Knowing &amp; being updated on the benchmark landscape_** - you know what benchmarks already exist - SWE-bench, Terminal-bench, BrowseComp, continuously understand the leaderboards vendors cite in their launch posts - and be able to say precisely where they're saturated, where they're gamed, and where the gap is that we should fill. You'll bring proposals for what we benchmark next, and the case for why it matters.\n\n**Preferred** \n\n* Background in Statistics, Engineering or Data Science\n* Working Knowledge of Search Engine Optimization\n* Have taste and opinions on great design vs bad design.\n* Working Knowledge of Claude Code, Claude Design or creating data visualizations that stand out. US fulltime possible\nlocations: US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2a5df78656aba8610bbd5bacdc12724f",
+      "source": "yc",
+      "company": "Openbenchmarks",
+      "role": "Founding GTM",
+      "url": "https://www.workatastartup.com/jobs/108191",
+      "jd_text": "**About OpenBenchmarks**\n\nAgents are becoming first-class users and consumers of the internet. They research, evaluate, compare tools and increasingly make build-versus-buy decisions on behalf of people. Every company will need to get their products picked and used by agents.\n\nAgents increasingly prefer open, independent and grounded benchmarks to make decisions.\n\nOpenbenchmarks is the evaluation infrastructure for agents - domain-specific, reproducible evaluations that help agents pick tools with confidence.\n\nOur mission is to be the trusted evaluation layer for agents.\n\nFounders previously led AI research and Infra teams at Oracle and Appfolio; we started Openbenchmarks as an output of our research in the field of model behavior and how agents actually chose between different tools.\n\nWe're a team of researchers, engineers and work with the fastest growing AI first companies like Parallel, Firecrawl, Telnyx, TinyFish and more.\n\n**About the role**\n\nBenchmarks are how companies market their products to agents. We build those benchmarks.\n\nThere's a lot of nuance in every benchmark - what gets evaluated, which metrics matter, release cycles, data refreshes. A benchmark isn't static, and a changing benchmark constantly surfaces new insight into how the tools on it actually perform. Turning that into content - posts, graphs, chart is super important to communicate the nuance of the benchmark in the most clear way possible.\n\nThat's your job.\n\nHere are the broad themes that you'll be working on\n\n**_Content from benchmarks_** - You'll run benchmarks, query the data, and dig into individual failures to find what's actually there - where a vendor is strong and why, what the failure mode of the field is, what the trade-off costs. You use that to create content: the finding, graphs and more, and what we're changing in v2. Doing the digging deeply yourself is what makes the writing credible.\n\n**_Data visualization and Graphs_** - the graphs &amp; charts are how the trade-offs are shown. Precision against latency, F1 against cost etc. You'll design and build these yourself using Claude Code, Claude Design.\n\n**_Distribution to people and agents_** - We have two audiences. \n\nPeople on LinkedIn, X, and HN. And the agents that read, index, and cite it when someone asks which tool to pick. You'll own how the work gets found by both - which means the writing has to be genuinely , because slop doesn't survive either audience.\n\n**_Knowing &amp; being updated on the benchmark landscape_** - you know what benchmarks already exist - SWE-bench, Terminal-bench, BrowseComp, continuously understand the leaderboards vendors cite in their launch posts - and be able to say precisely where they're saturated, where they're gamed, and where the gap is that we should fill. You'll bring proposals for what we benchmark next, and the case for why it matters.\n\n**Preferred** \n\n* Background in Statistics, Engineering or Data Science\n* Working Knowledge of Search Engine Optimization\n* Have taste and opinions on great design vs bad design.\n* Working Knowledge of Claude Code, Claude Design or creating data visualizations that stand out. fulltime none\nlocations: \nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9a5fa5559812f8a92c47fc6e50e9be01",
+      "source": "yc",
+      "company": "Asha Health",
+      "role": "Senior Software Engineer, AI",
+      "url": "https://www.workatastartup.com/jobs/121900",
+      "jd_text": "### **About Asha Health**\n\nAsha Health is building an AI OS for outpatient care. It’s the year of AI agents, and startups selling AI agents to healthcare organizations will do great in this wave. While we’re rooting for them, we’re building **what comes after**. We're backed by Y Combinator, General Catalyst, 186 Ventures, Reach Capital and many more. We raised an oversubscribed seed round from some of the best investors in Silicon Valley. Our team includes AI product leaders from companies like Google, physician executives from major health systems, and more.\n\n### **About the Role**\n\nWe're looking for a **Senior Software Engineer, AI** to lead our currently (and hopefully always) small AI engineering team. The twist: you’ll also be coding &amp; building every day. Let us explain \\~\n\n* As AI models evolve, engineering, product management, and design are all changing. We believe old job descriptions should be completely tossed out the door. The future belongs to “builders”: people that are strong engineers, but essentially act as their own PM’s, designers, and user researchers. They talk to customers, decide what to build, how to build it, and have the highest bar for product &amp; UX “taste”.\n* As a Member of Technical Staff, AI **you will call the shots** - talk to customers, decide what we build, why we build it, and how we build it. You will lead an engineering team (of both humans &amp; agents). However, you will also be an IC **building** a lot yourself. Why? \n  * Now, more so than ever, it is impossible to be good at product without being deep, hands on building AI products using AI products every day. You have to be deep in the weeds if you want to call the shots.\n  * The era of middle management is gone. With the power of AI, the next generation of product leaders will drive impact through both people and agents, master both breadth &amp; depth over vast amounts of product surface area, and earn their influence through not just their ideas but what they build.\n\n### **Requirements**\n\n* Graduated with a bachelors in computer science or related degree.\n* Strong engineering experience AND PM experience.\n* Confident as an engineer: you feel like you can build anything you put your mind to. You spent a few years being an eng IC.\n* Confident as a PM: you’ve led the product roadmap for high impact products.\n* Must be ready to work in person in Manhattan, New York 5 days per week in person but 6 days per week total.\n\n### **Is this role for you?**\n\n* **We want to take a bet.** We’re not looking for seasoned product leaders with 10+ YOE. We’re looking for someone incredibly ambitious, who has maybe never even led a team before but for that very reason is ready to give it their all to step up to the challenge.\n* **You’d be the 5th member of the product &amp; engineering team.** You’d be both an IC and a team lead and work directly with our CEO, CTO, and CMO every day. Lot of ownership; potentially rapid career growth. Think you could be our Tibo?\n* **The math:** cash comp on par with growth-stage companies, but equity substantially higher. Does the upside justify the risk for you?\n* **Passion matters.** Healthcare isn’t just inefficient; it’s a catastrophe. Think you got a bone to pick with it?\n* **We're building a moonshot.** Most AI healthcare startups are taking strategic, measured approaches. We’re rooting for them and think they'll do great in this wave. We're building what comes after. Does that scare you or excite you?\n* **At Asha, engineering is the #1 lever.** We can’t keep up with sales, and we have contracted ARR piling up. Unlike most of the healthcare market, product &amp; engineering (not sales/gtm) is the biggest lever to pull. New York, NY, US fulltime possible\nlocations: New York, NY, US\nremote: no\nmin_experience: 3",
+      "match_score": 4.9,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.02,
+            "overlap": 6.95,
+            "combined": 4.9
+          },
+          "backend": {
+            "cosine": 3.48,
+            "overlap": 7.14,
+            "combined": 4.58
+          },
+          "frontend": {
+            "cosine": 1.6,
+            "overlap": 8.25,
+            "combined": 3.6
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.02,
+        "keyword_overlap_score": 6.95,
+        "final_score": 4.9,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2931
+          },
+          {
+            "term": "team",
+            "weight": 0.1671
+          },
+          {
+            "term": "agents",
+            "weight": 0.0902
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0553
+          },
+          {
+            "term": "experience",
+            "weight": 0.0369
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "780f7afa93bd3b86694cf483989f9b52",
+      "source": "yc",
+      "company": "Flick",
+      "role": "Reddit Growth Intern",
+      "url": "https://www.workatastartup.com/jobs/117890",
+      "jd_text": "### **About Flick**\n\n[**Flick**](https://flick.art/) is defining the future interface for professional AI-native filmmaking.\n\n* Founded by an engineer who helped build Instagram Stories and an award-winning filmmaker, Flick brings technology and artistry together.\n* We are well funded by leading investors, including True Ventures, GV, Lightspeed, and other top-tier VCs.\n* Checkout our [**launch video**](https://x.com/flickartHQ/status/2054951575492378672?s=20)\n* Award-winning [**AI films**](https://flick.art/tv) created using Flick\n\n### **What you’ll do**\n\n**Reddit Community &amp; Growth**\n\n* Identify and engage with relevant subreddits in AI, filmmaking, and creative technology.\n* Build Flick's presence through authentic conversations and valuable contributions.\n* Drive organic traffic, signups, and user acquisition from Reddit.\n\n**Content &amp; Distribution**\n\n* Create engaging, Reddit-native posts and discussions.\n* Repurpose Flick's tutorials, filmmaking workflows, and creator content for Reddit.\n* Experiment with content strategies to maximize reach and engagement.\n\n**Growth &amp; Insights**\n\n* Track traffic, signups, and conversions to measure impact.\n* Monitor trends, competitor discussions, and user feedback to identify growth opportunities.\n\n### **What we’re looking for**\n\n* An **active Reddit user** with a strong understanding of subreddit culture, community dynamics, and what makes content resonate.\n* Experience growing Reddit accounts, communities, or driving organic traffic through Reddit.\n* Creative, resourceful, and comfortable experimenting with unconventional growth strategies.\n* Data-driven mindset with an interest in measuring engagement, traffic, and conversions.\n* Familiarity with AI tools, filmmaking, content creation, or creative technology is a plus.\n* **Please share examples of Reddit posts, accounts, or communities you've grown, along with any measurable results.**\n\n### **Why Join Flick?**\n\n* **Real ownership:** Take ownership of Flick's Reddit growth strategy and build a new acquisition channel from the ground up.\n* **Creative freedom:** Experiment with your own ideas and discover what resonates with different communities.\n* **Direct impact:** Help filmmakers and creators around the world discover new ways to bring their stories to life.\n* **Future of filmmaking:** Be part of a team building the next generation of AI filmmaking tools.\n\n### **How We Work**\n\n* **Ownership** is key, real responsibility, and autonomy\n* Remote, flexible, async-friendly\n* We value **responsiveness and communication matter** intern none\nlocations: \nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2ede659375fd153796b36fc09b3035be",
+      "source": "yc",
+      "company": "Flick",
+      "role": "Senior Full-stack Engineer",
+      "url": "https://www.workatastartup.com/jobs/94208",
+      "jd_text": "## The Role\n\nAs a founding full stack engineer at Flick, you’ll build the core infrastructure powering AI-native filmmaking — from media generation interface to scalable backend systems. You will work directly with the founders, and have the opportunity to shape the future interface for AI visual storytelling.\n\n### **What you’ll do**\n\n* Design and build scalable backend systems for media generation, storage, and delivery.\n* Architect APIs and services that power real-time, stateful creative workflows.\n* Own end-to-end features across frontend, backend, and infrastructure.\n* Ensure high performance and reliability across complex, async-heavy systems.\n* Build and maintain integrations with AI model providers and compute platforms.\n* Establish strong engineering practices: testing, observability, CI/CD, and code quality.\n* Work closely with product and frontend teams to ship cohesive experiences.\n\n### **Requirements**\n\n* Strong experience in **system design and backend architecture** at scale.\n* Proficiency across the stack (e.g. TypeScript/Node, Python, modern web frameworks).\n* Experience building and maintaining **production-grade APIs and distributed systems**.\n* Deep understanding of performance, concurrency, and reliability.\n* **High standards for code quality, testing, and maintainability**.\n* Ability to take ambiguous problems and turn them into clean, scalable systems.\n* Startup mindset: ownership, speed, and pragmatism.\n\n### **Nice-to-have**\n\n* Love films and art.\n* Have been a filmmaker, animator, video editor, game developer before\n* Have experience in AI video generation.\n* Have contributed in open-source projects, and coding for fun outside of regular work. fulltime possible\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 9.69,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.62,
+            "overlap": 11.26,
+            "combined": 9.41
+          },
+          "backend": {
+            "cosine": 9.01,
+            "overlap": 11.28,
+            "combined": 9.69
+          },
+          "frontend": {
+            "cosine": 7.17,
+            "overlap": 11.65,
+            "combined": 8.52
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 9.01,
+        "keyword_overlap_score": 11.28,
+        "final_score": 9.69,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1746
+          },
+          {
+            "term": "backend",
+            "weight": 0.1427
+          },
+          {
+            "term": "experience",
+            "weight": 0.1071
+          },
+          {
+            "term": "high",
+            "weight": 0.0873
+          },
+          {
+            "term": "reliability",
+            "weight": 0.0873
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "aa2df23ebd89a01c252b2b92260802fd",
+      "source": "yc",
+      "company": "Flick",
+      "role": "Senior/Staff Frontend Engineer",
+      "url": "https://www.workatastartup.com/jobs/86525",
+      "jd_text": "## The Role\n\nAs our founding front-end engineer, you’ll lead the development of the core experience of Flick — our canvas, timeline, and creative tooling. You will work directly with the founders, and have the opportunity to shape the future interface for AI visual storytelling.\n\n### **What you’ll do**\n\n* Lead the architecture and development of our editor UI from the ground up (canvas, timeline, node graph, playback).\n* Rapidly prototype and iterate on new creative workflows to validate ideas and user experience.\n* Establish best practices for code quality, performance, testing, and maintainability.\n* Collaborate closely with design, product, and AI backend teams to shape the end-to-end user experience.\n* Drive key technical and product decisions as part of the founding engineering team.\n\n### Requirements\n\n* Experience owning and leading technical initiatives on high-performance web applications.\n* Strong expertise with modern front-end tooling (React, TypeScript, build systems, CI/CD).\n* Deep experience optimizing **complex UX interactions**, especially in editors, canvases, visual builders, or multimedia tools.\n* Ability to design scalable UI architectures and manage large, dynamic client-side state.\n* A passion for creating fast, intuitive, and beautiful creative interfaces.\n* Startup mindset: you thrive in fast-moving environments, take ownership, and solve ambiguous problems at scale.\n\n### Nice-to-have\n\n* Experience with video editors, creative canvas, animation/keyframe systems, design tools, node-graph editors, or similar.\n* Love films and art.\n* Have contributed in open-source projects, and coding for fun outside of regular work. jobs_skill 111 React 174 jobs_skill 138 TypeScript 45 fulltime possible\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c1b786251573e114f6e1731ba2f8859e",
+      "source": "yc",
+      "company": "Flick",
+      "role": "Video Editing Intern",
+      "url": "https://www.workatastartup.com/jobs/111594",
+      "jd_text": "As a **Video Editing Intern**, you’ll help shape Flick’s YouTube channel, working with our creative team to turn tutorials into engaging long-form videos and compelling short-form clips.\n\n### What You’ll Do\n\n* Edit long-form YouTube videos with strong structure, storytelling, and pacing.\n* Make AI filmmaking workflows easy to follow through graphics, screen recordings, and sound design.\n* Turn long-form videos into standalone short clips with strong hooks.\n* Collaborate with our creative and product teams to refine scripts and communicate key ideas.\n\n### What We’re Looking For\n\n* A strong portfolio of long-form video editing, ideally tutorials or educational content.\n* Proficiency in Premiere Pro, DaVinci Resolve, Final Cut Pro, or similar tools.\n* Strong editorial judgment: you know what to cut, clarify, and emphasize to keep viewers engaged.\n* An interest in filmmaking and AI creative tools.\n* Bonus: Experience growing a YouTube channel.\n\n### **How We Work**\n\n* **Ownership** is key, real responsibility, and autonomy\n* Remote, flexible, async-friendly\n* Self-motivated, resourceful, and comfortable experimenting without detailed instructions.\n* We value **responsiveness** — **speed and communication matter** intern none\nlocations: \nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "8c766dac9d67ebf6b43a8b66c5d230e2",
+      "source": "yc",
+      "company": "Flick",
+      "role": "Social Media Intern",
+      "url": "https://www.workatastartup.com/jobs/118156",
+      "jd_text": "As a **Social Media Intern**, you’ll shape Flick’s social voice and reach filmmakers around the world.\n\n### What You’ll Do\n\n* Find compelling content angles across product feature, internet culture, and AI filmmaking.\n* Turn trends, new model capabilities, and Flick features into timely posts and short-form videos.\n* Own content from idea and hook to production and publishing.\n* Track what resonates, test new formats, and engage with our creator community.\n\n### Who You Are\n\n* You love film and are bullish on AI filmmaking.\n* You understand internet culture, what audiences care about, and how to craft a strong hook.\n* You keep up with AI models, creative tools, and product updates.\n* You already create online, **show us your work** when you reach out.\n\n### What You Get\n\n* **Work directly with the founders** and help shape Flick's social media voice.\n* **Creative freedom and ownership**, bring your ideas to life, experiment, and see their impact.\n* Help shape the **future of AI filmmaking**. Your work will reach real creators making real films.\n* **Create with Flick** (credits included) and experiment with cutting-edge AI creative tools.\n\n### How We Work\n\n* **Ownership is key** — real responsibility, creative freedom, and autonomy.\n* **Remote, flexible, async-friendly.**\n* We value **responsiveness** — speed and clear communication matter.\n* **Experiment fast, learn fast.** We encourage bold ideas, rapid iteration, and trying things that haven't been done before. intern none\nlocations: \nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0f01de0c191124dd2a57b94e9eb0cb99",
+      "source": "yc",
+      "company": "Flick",
+      "role": "Brand & Motion Design Intern",
+      "url": "https://www.workatastartup.com/jobs/117133",
+      "jd_text": "### **Why You’re Here**\n\nAs a **Brand &amp; Motion Design Intern**, you’ll help shape Flick’s brand positioning through campaign visuals, product announcements, brand assets, and short-form motion pieces that express Flick’s identity.\n\n### **What You’ll Do**\n\n* Create brand visuals for campaigns and product launches\n* Produce short-form videos and animations using Flick\n* Develop visual systems and templates that shape Flick’s identity\n* Collaborate with creative and product teams to explore new visual ideas\n\n### Must-have\n\n* A **Portfolio** that shows motion work and strong typography. This matters more to us than any degree\n* Solid fundamentals: type, layout, color, hierarchy\n* Self-driven, organized, and good with direct feedback\n\n### Nice-to-have\n\n* Blender, or any other 3D tools\n* Video editing and post-production for short-form social\n* Illustration, photography or film background\n* You love films and are bullish on AI filmmaking\n\n### How We Work\n\n* **Ownership is key** — real responsibility, creative freedom, and autonomy.\n* **Remote, flexible, async-friendly.**\n* We value **responsiveness** — speed and clear communication matter.\n* **Experiment fast, learn fast.** We encourage bold ideas, rapid iteration, and trying things that haven't been done before. jobs_skill 296 Figma 0 jobs_skill 304 Blender 0 intern none\nlocations: \nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "20d0f5e41c75d2b969befb349fbe2635",
+      "source": "yc",
+      "company": "Flick",
+      "role": "GTM Intern",
+      "url": "https://www.workatastartup.com/jobs/93376",
+      "jd_text": "We’re looking for a **GTM (Go-To-Market) Intern** to help us bring Flick to filmmakers, creators, and the next generation of storytellers.\n\n### What you’ll do\n\n* Support and execute **campaigns, and major announcements**\n* Work on **distribution strategy** across platforms (TikTok, Instagram, Discord, communities)\n* Collaborate with creators, partners, and communities to drive **adoption**\n* Turn product features into **clear narratives and positioning**\n* Help shape how Flick enters new markets (e.g. filmmakers, AI creators, global communities)\n\n### **What you get**\n\n* Work directly with founders\n* Help shape the future of AI filmmaking. Your work will impact real creators making real films\n* Create with Flick (credits included)\n* **Potential to convert to full-time**\n\n### Who you are\n\n* You’re both strategic and scrappy — you think clearly and execute fast.\n* You’re deeply plugged into **AI creator ecosystems**\n* Strong sense of taste — you know what feels **generic vs. culturally relevant**\n* Bonus: experience in startups, creator economy, or building communities\n\n### **How We Work**\n\n* **Ownership** is key, real responsibility, and autonomy\n* Remote, flexible, async-friendly\n* We value **responsiveness** — **speed and communication matter** intern yes\nlocations: \nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b1877e197f3257d74959d603800a4029",
+      "source": "yc",
+      "company": "Flick",
+      "role": "AI Filmmaking YouTuber & Educator (Youtube)",
+      "url": "https://www.workatastartup.com/jobs/111492",
+      "jd_text": "### About Us\n\n[Flick](https://flick.art) is defining the future interface for professional AI-native filmmaking.\n\n* Founded by an engineer who helped build Instagram Stories and an award-winning filmmaker, Flick brings technology and artistry together.\n* We are well funded by leading investors, including True Ventures, GV, Lightspeed, and other top-tier VCs.\n* Checkout our[ ](https://youtu.be/K1GgsSnwfow?si=taFwiulaMSu3kPNV)[launch video](https://x.com/flickartHQ/status/2054951575492378672?s=20)\n* Award-winning [AI films](https://flick.art/tv) created using Flick\n\n### About the Role\n\nWe’re looking for an **AI-native creator who is already deeply immersed in AI filmmaking** and can turn that expertise into great educational content.\\\n\\\nYou’ll help build Flick’s YouTube and creator content from the ground up, discovering interesting workflows, testing new models and tools, teaching filmmakers how to use them, and creating videos that people genuinely want to watch.\\\n\\\nThis is not a traditional Creative Director role. We care much more about whether you are already a **power user and creator in AI video** than your years of industry experience.\n\n### What You’ll Do\n\n* Create high-quality YouTube videos about AI filmmaking, workflows, techniques, and creative experiments end to end  (Strong editing skills)\n* Continuously test new AI video/image models and develop practical filmmaking workflows.\n* Turn complex techniques into clear, engaging, and useful educational content.\n* Own videos end-to-end: topic selection, research, scripting, recording, and editing.\n* Study YouTube performance and audience feedback to decide what we should create next.\n* Use Flick deeply and provide product feedback from the perspective of a professional creator.\n* Help develop Flick’s voice and presence within the AI filmmaking community.\n\n### What We’re Looking For\n\n* You are already a **power user of AI filmmaking tools**.\n* You actively create AI videos, films, or visual experiments on your own.\n* Strong creative taste and curiosity about filmmaking, storytelling, and emerging AI workflows.\n* Able to explain technical or creative concepts clearly and engagingly.\n* Comfortable editing videos and taking a piece of content from idea to published video.\n* Strong ownership and ability to independently identify what is worth making.\n* You move quickly, experiment constantly, and stay deeply up to date with the AI video ecosystem.\n\n### Nice-to-have\n\n* Existing YouTube, X, TikTok, or other creator presence.\n* Experience making tutorials, educational content, or creator-focused videos.\n* Strong understanding of YouTube analytics, thumbnails, titles, retention, and channel growth.\n* Experience with Premiere, DaVinci Resolve, Final Cut, After Effects, or similar tools.\n* Experience with filmmaking, cinematography, VFX, animation, or creative technology.\n* You spend too much time experimenting with new AI models before anyone asks you to. fulltime yes\nlocations: \nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T04:51:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "bbdda75b02545432a8daa9214b909296",
       "source": "wellfound",
