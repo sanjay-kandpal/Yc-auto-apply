@@ -1,15 +1,360 @@
 {
-  "exported_at": "2026-11-11T17:47:44+00:00",
+  "exported_at": "2026-11-11T22:34:35+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1202,
-    "pending_approval": 293,
+    "discovered": 1206,
+    "pending_approval": 295,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "f3588652f0311135250091b78e88872c",
+      "source": "yc",
+      "company": "Omnistrate",
+      "role": "Demand Generation and Marketing Ops Specialist",
+      "url": "https://www.workatastartup.com/jobs/122015",
+      "jd_text": "[Omnistrate](https://omnistrate.com/) helps software and AI companies deliver their products as enterprise-grade, fully managed services across public clouds, private clouds, and customer VPCs—without the complexity of building and operating the underlying infrastructure themselves.\n\n**Our vision:** We help modern software and AI companies deliver their products across public cloud, private cloud, customer VPCs, and increasingly complex enterprise environments without having to build and maintain the underlying deployment and operations infrastructure themselves.\n\nFounded by [Kamal Gupta](https://www.linkedin.com/in/kkgupta2/) and [Alok Nikhil](https://www.linkedin.com/in/nikhilalok/), who previously built and led large-scale cloud infrastructure, Omnistrate was born from firsthand experience with the challenges of deploying and operating software in customer-controlled environments. Our mission is to help the next generation of software and AI companies build the next MongoDB Atlas, Snowflake, and Databricks by handling the infrastructure complexity behind the scenes.\n\nWe're a small, highly technical team entering our next stage of growth, where every hire has a meaningful impact on the company's trajectory. Joining Omnistrate means working directly with the founders and sales leadership to shape our positioning, identify the strongest markets, and build a repeatable enterprise go-to-market motion from the ground up.\n\n\\\nWe’re a fully remote company with a global team and a startup mindset. We value ownership, creativity, and adaptability — and we're looking for someone who thrives in a fast-moving, high-impact environment.\n\n### **Role Overview**\n\nWe’re looking for a detail-oriented and motivated **Demand Generation &amp; Marketing Operations Specialist** to support multi-channel campaign execution and marketing automation under the guidance of the Head of Marketing.\n\nIn this role, you’ll help plan and run campaigns across paid, organic, and event-based channels — including LinkedIn, YouTube, and weekly webinars. You’ll manage HubSpot workflows, and use AI tools to streamline and improve campaign performance.\n\nThe ideal candidate has hands-on experience in B2B SaaS marketing, is comfortable working across platforms like HubSpot, GA4, and LinkedIn Campaign Manager, and enjoys blending creativity with operational precision. You’ll collaborate closely with Content, Product Marketing, and Sales to help drive engagement and qualified pipeline.\n\n### **Key Responsibilities**\n\n### **What You Will Do**\n\n#### Campaign Management:\\\n**Manage, execute, and monitor multi-channel campaigns across Google, LinkedIn, YouTube, and events. Launch, test, and optimize campaigns with clear performance goals and consistent experimentation.**\n\n#### **Webinars &amp; Event Campaigns:\\\n**Own the end-to-end process for weekly live webinars — from scheduling and promotion to post-event follow-up. Run event campaigns and integrate them into the broader demand generation calendar.\n\n#### **Content &amp; Social Activation:\\\n**Create and repurpose content into social media posts, video shorts, and snippets for distribution on LinkedIn, YouTube, and other channels. Coordinate with the designers and other team members to amplify visibility and engagement.\n\n#### **Landing Page Development:\\\n**Build and maintain high-performance landing pages and forms via Hubspot, prioritizing fast load times, strong CTAs, and mobile optimization.\n\n#### **Copywriting &amp; A/B Testing:\\\n**Develop compelling ad copy, social captions, and landing page variants. Continuously test and refine two to three versions to drive improved conversions in partnership with content marketing.\n\n#### **Performance Reporting / Conversion Tagging:\\\n**Deliver concise weekly reports highlighting campaign performance, key learnings, and next-step optimizations.Configure and maintain analytics systems including GA4 and Google Tag Manager, ensuring accurate event tagging and conversion tracking across all touchpoints. \n\n#### **Sales Collaboration:\\\n**Work with the Sales team to refine offers, improve meeting quality, and tighten follow-up processes for marketing-sourced leads.\n\n#### **AI &amp; Automation:\\\n**Leverage AI tools to automate workflows across channels — from lead routing and follow-ups to campaign optimization and creative iteration. Use AI responsibly for research, content drafts, and data analysis while maintaining human oversight.\n\n\\\n**What You Bring**\n\n* 3+ years of experience in demand gen /digital marketing or performance marketing in a **B2B SaaS or tech startup**\n* Prior experience running **multi-channel marketing campaigns** and coordinating campaigns for **events/webinars**\n* Solid understanding of digital channels and content distribution for **brand visibility**\n* Experience with Hubspot, LinkedIn Campaign Manager, Google Analytics and YouTube is a must;\n* Strong communication and coordination skills, especially in **remote and cross-time-zone** environments\n* Proven ability to work in fast-paced, ambiguous environments and get things done\n* **MBA or equivalent** in Marketing, Strategy, or Communications is nice to have jobs_skill 294 Marketing design 0 fulltime yes\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T22:33:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ccdb262b9daca0335e8ef74abb6a4d29",
+      "source": "yc",
+      "company": "Omnistrate",
+      "role": "Platform Software Engineer [US]",
+      "url": "https://www.workatastartup.com/jobs/56594",
+      "jd_text": "### About Omnistrate \r\n\r\nOmnistrate is pioneering a fundamentally new category of defining next-gen abstractions for building and operating in the Cloud.\r\nAs we all know, an increasing number of organizations are adopting the cloud with more and more service offerings moving to Cloud at scale. At Omnistrate, we believe that the complexity of the underlying cloud platform is growing with the increasing number of cloud offerings, multi/poly cloud strategies, regulatory requirements, globalization, and so on.\r\nAt Omnistrate, we’re redefining the abstractions of Cloud Computing. Our cloud-native offering is designed to abstract away all the complexities making it simple, fast, and cost-effective to build and operate services in the cloud. With Omnistrate, organizations can create build and manage services and run everywhere in minutes.\r\nWe are building a team of self-motivated people who crave a challenge and feel energized to roll up their sleeves and help realize Omnistrate’s enormous potential. Chart your own path and take healthy risks as we solve big problems together. We value having diverse teams and want you to grow as we grow—whether you’re just starting out in your career or managing a large team, you’ll be amazed at the magnitude of your impact.\r\n\r\n###  About Role\r\n\r\nWe’re looking for a tech lead to help build the Omnistrate platform. As a tech lead at Omnistrate, you will be a pragmatic visionary taking on Omnistrate's most challenging problems, someone who can translate both immediate and strategic needs into workable technology solutions. You will be a leader in the organization, a highly visible example of engineering and architectural excellence, who will establish technical standards to move the organization forward, who will be a key driver of Omnistrate engineering values across the team, and who will identify and help mentor future technical leaders in the organization. You will be a leader outside of the organization in technical communities bringing a strong following and technical network and be an external face of Omnistrate Engineering in the industry.\r\nFor this specific role, we are looking for an experienced engineer, who will define the software architecture, and influence the solution and business strategy to build a next-generation Cloud Platform for the industry.\r\n\r\n### Required skills and experience\r\n\r\n* Experience building services in the cloud\r\n* In-depth understanding of cloud networking, cloud security, cloud compute (k8s) services, and concepts\r\n* Proficiency in any object-oriented programming language. Familiarity with Go is preferable\r\n* 5+ years of experience building and designing new service\r\n* Experience operating large-scale systems\r\n* Strong fundamentals in distributed systems design and development\r\n* Experience in leading and mentoring junior team members.\r\n* Able to adapt, fast learner, effective collaborator\r\n* Excellent problem-solving and logical reasoning skills\r\n* Humble and empathetic\r\n* Self-starter with excellent communication skills\r\n* Min. Bachelors in computer science or related field\r\n\r\n### The ideal candidate\r\n\r\nWriting structured, maintainable, optimal, and reusable code is your mojo. While writing such code, you never lose sight of the big picture in terms of design, architecture, scale, and performance. You are the go-to person when a team member is stuck with an issue or a bug that doesn't seem to have any known reason/pattern. With your excellent logical reasoning and problem-solving skills, you love to debug/troubleshoot those problems together. You are a lifelong learner and look forward to learning something new every day. You don't like the status quo and keep challenging and questioning it. You have a strong work ethic and you set a high bar for yourself as well as for your team and you lead by example. You are not afraid of taking risks and trying out new approaches while designing and building systems. You make independent decisions with confidence and at the same time, you are open to constructive criticism.\r\n  jobs_skill 49 Go 50 jobs_skill 70 Kubernetes 19 jobs_skill 182 Distributed Systems 3 fulltime possible\nlocations: \nremote: only\nmin_experience: 6",
+      "match_score": 6.46,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T22:33:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.26,
+            "overlap": 9.27,
+            "combined": 6.46
+          },
+          "backend": {
+            "cosine": 4.65,
+            "overlap": 9.4,
+            "combined": 6.08
+          },
+          "frontend": {
+            "cosine": 5.16,
+            "overlap": 10.68,
+            "combined": 6.82
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.26,
+        "keyword_overlap_score": 9.27,
+        "final_score": 6.46,
+        "top_keywords": [
+          {
+            "term": "cloud",
+            "weight": 0.2756
+          },
+          {
+            "term": "team",
+            "weight": 0.1785
+          },
+          {
+            "term": "experience",
+            "weight": 0.0984
+          },
+          {
+            "term": "platform",
+            "weight": 0.0788
+          },
+          {
+            "term": "skills",
+            "weight": 0.0788
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a50cb131d0ecd9796b2b2a54bda56f6d",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "HR Manager - Bangalore",
+      "url": "https://www.workatastartup.com/jobs/122057",
+      "jd_text": "## About AiPrise\n\nAiPrise is a YC-backed, Series A company building the global compliance infrastructure for financial services. We help banks, fintechs, cross-border payment providers, stablecoin and crypto companies, and marketplaces get a 360° view of every business they onboard, anywhere in the world.\n\nThrough a single integration, we connect 800+ data sources and 80+ verification partners across 200+ countries, powering KYB, KYC, AML, sanctions screening, and ongoing monitoring for companies like Meta, Airwallex, Fireblocks, and Bridge. Our AI Agents help compliance teams resolve more cases, catch more fraud, and scale without scaling headcount.\n\nWe're about 60 people across San Jose and Bangalore, and growing fast. Borders shouldn't be blockers.\n\n## About the role\n\nWe're hiring our first HR Manager in India to own people operations and the workplace for our Bangalore team. You'll be the senior people leader on the ground: the person employees, managers, and candidates trust to get things right.\n\nThis is a builder role. You'll run India payroll with our vendor, keep us compliant with Indian labour law, lead onboarding and recruiting, and shape our next Bangalore office from the ground up. You'll partner closely with our US HR Manager and India leadership, and you'll have real ownership, not just tasks.\n\nThe role is in office 4 days a week at HSR Layout. Being present matters here: you'll be the face of HR and the office for a team that's growing quickly.\n\n## What you'll do\n\n**HR operations and compliance**\n\n- Own HR for AiPrise India Private Limited: policies, employee records, letters, and the full employee lifecycle\n\n- Keep us compliant with Indian labour law, including the four Labour Codes and Karnataka state rules, Shops and Establishments registration, and statutory registers\n\n- Run our POSH program: Internal Committee, annual training, and required filings\n\n- Be the go-to advisor for managers on performance, employee relations, and sensitive conversations, and lead investigations and exits with care\n\n- Maintain clean data in Rippling (our HRIS) and support audit and SOC 2 evidence requests\n\n**Payroll and benefits**\n\n- Manage monthly India payroll with our payroll vendor: inputs, joiners and leavers, variable pay, reimbursements, and final settlements\n\n- Review payroll outputs for accuracy before approval and resolve employee pay questions quickly\n\n- Own statutory compliance in partnership with the vendor: PF, ESI, Professional Tax, TDS, gratuity, and timely filings\n\n- Administer India benefits such as group health insurance, and help employees understand them\n\n**Onboarding and recruiting**\n\n- Own onboarding for every Bangalore hire, from offer acceptance and background checks through day one and the first 90 days\n\n- Partner with hiring managers to plan headcount, run interview processes, and keep a great candidate experience\n\n- Manage candidates and pipeline in Ashby, prepare offer letters, and keep offers consistent and confidential\n\n- Coordinate with recruiting agencies and build our employer brand in Bangalore\n\n**Office build-out and facilities**\n\n- Lead our move into a new Bangalore office: space planning, vendor selection, fit-out timelines, budget tracking, and move day\n\n- Own day-to-day office operations: building management, maintenance, access, IT equipment logistics, and supplies\n\n- Manage facilities vendors (cleaning, pantry, courier, security) and their contracts and spend\n\n- Plan in-office culture: team events, visits from the US team, and offsite logistics  \n\n Bengaluru fulltime yes\nlocations: Bengaluru\nremote: no\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T22:33:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "ed69c29d48ad2f89e58357c266991fc2",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Software Engineer I, Full Stack (Frontend Focused) (Bangalore, India)",
+      "url": "https://www.workatastartup.com/jobs/122058",
+      "jd_text": "# About AiPrise\n\nAiPrise is a global compliance orchestration platform helping fintechs, marketplaces, and payment companies verify and onboard customers worldwide. We integrate with 80+ identity and compliance vendors to deliver a holistic view of risk. We're now building AI-powered compliance agents to revolutionize KYB, AML, sanctions screening, and risk scoring, enabling our customers to onboard faster, reduce manual reviews, and prevent financial crime.\n\n&nbsp;\n\n## Role Overview\n\nWe're hiring a frontend-focused Full Stack Software Engineer I: strong on the frontend and comfortable across the stack.\n\nThis is a build it, ship it, own it role. You'll take features end to end, from design to code to deploy to iterate. Most of your work will be on what our customers and their users see: the onboarding flow end users go through, our Web, Flutter and React Native SDKs, and the case management product compliance teams use every day. You'll also build the APIs and backend changes these features need.\n\nYou'll work closely with founders, product and design, turning messy real world compliance problems into simple, reliable products.\n\n&nbsp;\n\n## **What You'll Do**\n\n### Build & Own Features End-to-End\n\n- Design, build, and ship product features across the stack, with a focus on the frontend\n\n- Own features from requirements → implementation → deployment → monitoring\n\n- Build onboarding flows for KYC and KYB, including forms, document upload, ID capture, selfie and liveness\n\n- Make these flows work well on all kinds of phones and browsers, and inside customer apps through our SDKs\n\n- Build the backend APIs and data changes your features need\n\n### Drive Technical Excellence\n\n- Write clean, maintainable, well-tested code\n\n- Keep the product fast and stable, including on low-end devices and slow networks\n\n- Debug production issues with urgency; own them until they're fixed\n\n- Participate in code reviews and help improve how we build and release\n\n### Collaborate\n\n- Work cross-functionally with product, design, compliance and customer success teams\n\n- Think about the full user journey, and suggest better ways to solve a problem, not just build what is asked\n\n- Contribute to technical decision-making and help shape engineering culture as the team scales\n\n&nbsp;\n\n## What We're Looking For\n\n### Must-Have:\n\n- **0-2 years** of professional experience building and shipping production software\n\n- Strong **TypeScript and React** , including performance and state management\n\n- Good **HTML and CSS** , with responsive, mobile-first layouts\n\n- Experience building **REST APIs** in a backend language like Python or Node.js, and working with **relational databases**\n\n- Good product and UX sense\n\n- Strong debugging and problem-solving skills; comfortable working in unfamiliar codebases\n\n- Clear communication\n\n### Nice-to-Have:\n\n- Experience with **mobile web, camera or media APIs** , and cross-browser issues\n\n- **Flutter or React Native** experience, or experience building SDKs and libraries\n\n- Experience with web performance and frontend testing tools\n\n- Experience in **FinTech, RegTech, payments or identity verification**\n\n- Hands-on experience with AWS, CI/CD and Docker\n\n&nbsp;\n\n## **Why AiPrise**\n\n- Build **mission-critical software** that directly fights financial crime and fraud for companies like Meta and leading fintechs\n\n- Work with users and data from 200+ countries\n\n- Join a **fast-moving YC-backed startup** where your work has immediate customer impact\n\n- **Ship quickly**. Your code will reach production in days, not months\n\n- **Collaborate in-person** with a talented, mission-driven team in Bengaluru\n\n- Competitive compensation\n\n&nbsp;\n\n# **About the interview**\n\n1. Remote: Frontend Fundamentals (a technical discussion that may include a short coding exercise)\n\n2. In-office\n\n3. Frontend System Design\n\n4. Behavioural\n\n5. Remote: Compensation Discussion\n\n Bengaluru fulltime yes\nlocations: Bengaluru\nremote: no",
+      "match_score": 15.24,
+      "resume_variant": "frontend",
+      "draft_answer": "I have built React front ends for compliance platforms end-to-end, owning features from requirements through client UAT and deployment, including onboarding 80+ client organizations while improving UI responsiveness by cutting API latency 98%. My experience developing secure Next.js clients with real-time sync, building REST APIs, and leveraging Docker for faster deployment aligns directly with creating the robust, performant onboarding flows and case management products at AiPrise.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-11T22:33:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.51,
+            "overlap": 17.55,
+            "combined": 12.62
+          },
+          "backend": {
+            "cosine": 8.04,
+            "overlap": 16.17,
+            "combined": 10.48
+          },
+          "frontend": {
+            "cosine": 12.83,
+            "overlap": 20.87,
+            "combined": 15.24
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 12.83,
+        "keyword_overlap_score": 20.87,
+        "final_score": 15.24,
+        "top_keywords": [
+          {
+            "term": "frontend",
+            "weight": 0.1631
+          },
+          {
+            "term": "experience",
+            "weight": 0.1523
+          },
+          {
+            "term": "end",
+            "weight": 0.1398
+          },
+          {
+            "term": "compliance",
+            "weight": 0.1143
+          },
+          {
+            "term": "apis",
+            "weight": 0.0762
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-11-11T22:34:12+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "443bae3daeb3692b751690b506271011",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Software Engineer I, Frontend (Bangalore, India)",
+      "url": "https://www.workatastartup.com/jobs/122056",
+      "jd_text": "# About AiPrise\n\nAiPrise is a global compliance orchestration platform helping fintechs, marketplaces, and payment companies verify and onboard customers worldwide. We integrate with 80+ identity and compliance vendors to deliver a holistic view of risk. We're now building AI-powered compliance agents to revolutionize KYB, AML, sanctions screening, and risk scoring, enabling our customers to onboard faster, reduce manual reviews, and prevent financial crime.\n\n&nbsp;\n\n## Role Overview\n\nWe're hiring a Software Engineer I, Frontend to own the onboarding flow, the part of AiPrise that end users actually see.\n\nUsers enter their details, scan an ID, take a selfie and upload documents. The flow is a React app, and customers embed it in their own products through our Web, Flutter and React Native SDKs. Every customer configures their own steps, theme and language, so one codebase has to work well for many setups, on every kind of phone and browser.\n\nThis is a build it, ship it, own it role. It's a small team, and you'll own large parts of the flow from day one.\n\n&nbsp;\n\n## **What You'll Do**\n\n### Build & Own the Onboarding Flow\n\n- Build and improve onboarding screens for individuals (KYC) and businesses (KYB)\n\n- Build camera features like ID capture, selfie and liveness, and make them reliable on iPhones, low-end Android phones and inside mobile apps\n\n- Maintain and improve our Web, Flutter and React Native SDKs so the flow feels native inside customer apps\n\n### Drive Technical Excellence\n\n- Keep the flow fast and stable, including on low-end devices and slow networks\n\n- Use data to find and fix where users drop off\n\n- Write clean, well-tested code and take part in code reviews\n\n- Debug production issues with urgency; own them until they're fixed\n\n### Collaborate\n\n- Work closely with product, design and backend engineers\n\n- Pick up backend work (Python) when a feature needs it\n\n&nbsp;\n\n## What We're Looking For\n\n### Must-Have:\n\n- **0-2 years** of building and shipping web products in production\n\n- Strong **JavaScript, TypeScript and React** , including performance and state management\n\n- Good **HTML and CSS** , with mobile-first, responsive layouts\n\n- Good understanding of **how browsers work on mobile** , including camera access, permissions and cross-browser issues\n\n- Solid **problem-solving and DSA** fundamentals\n\n- You care about user experience and notice when a flow feels off\n\n### Nice-to-Have:\n\n- **Flutter or React Native** experience\n\n- Experience building an **SDK or library** that other developers use\n\n- Experience with **camera, video or document scanning** features\n\n- Some backend experience in Python or Node.js\n\n- Background in **FinTech or identity verification**\n\n&nbsp;\n\n## **Why AiPrise**\n\n- Build **mission-critical software** that directly fights financial crime and fraud for companies like Meta and leading fintechs\n\n- Work with users and data from 200+ countries\n\n- Join a **fast-moving YC-backed startup** where your work has immediate customer impact\n\n- **Ship quickly**. Your code will reach production in days, not months\n\n- **Collaborate in-person** with a talented, mission-driven team in Bengaluru\n\n- Competitive compensation\n\n&nbsp;\n\n# **About the interview**\n\n1. Remote: Frontend Fundamentals (a technical discussion that may include a short coding exercise)\n\n2. In-office\n\n3. Frontend System Design\n\n4. Behavioural\n\n5. Remote: Compensation Discussion\n\n Bengaluru fulltime yes\nlocations: Bengaluru\nremote: no",
+      "match_score": 12.74,
+      "resume_variant": "frontend",
+      "draft_answer": "I've built end-to-end React frontends, like a government compliance portal, improving perceived UI responsiveness by cutting fetch latency 98% and driving client UAT across diverse user groups. My experience with facial-analysis auto-tagging, eliminating API bottlenecks to cut data load times by 60%, and Python backend skills, directly applies to building your fast, stable, and embedded onboarding flow.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-11T22:33:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.64,
+            "overlap": 13.25,
+            "combined": 10.02
+          },
+          "backend": {
+            "cosine": 7.02,
+            "overlap": 12.78,
+            "combined": 8.75
+          },
+          "frontend": {
+            "cosine": 11.13,
+            "overlap": 16.5,
+            "combined": 12.74
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.13,
+        "keyword_overlap_score": 16.5,
+        "final_score": 12.74,
+        "top_keywords": [
+          {
+            "term": "experience",
+            "weight": 0.109
+          },
+          {
+            "term": "react",
+            "weight": 0.109
+          },
+          {
+            "term": "frontend",
+            "weight": 0.1067
+          },
+          {
+            "term": "native",
+            "weight": 0.0872
+          },
+          {
+            "term": "users",
+            "weight": 0.0872
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": "2026-11-11T22:34:32+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3fffc658ee1631cee9ee25642d888887",
+      "source": "yc",
+      "company": "AiPrise",
+      "role": "Senior Events & Community Manager",
+      "url": "https://www.workatastartup.com/jobs/122055",
+      "jd_text": "## About AiPrise\n\nAiPrise is the global compliance platform for companies that operate across borders. We cover the full KYB lifecycle in a single API, with AI agents handling the case work that used to eat analyst hours. Customers include Meta, Bridge (a Stripe company), Airwallex, Fireblocks, and Nivoda. We're a YC company (S22), Series A backed by Headline, and growing fast.\n\n## About this role\n\nWe're looking for a Senior Events & Community Manager to own how compliance leaders meet AiPrise in person.\n\nEvents are one of our strongest channels. We show up at the conferences where compliance, risk, and fraud leaders gather, and we host our own dinners and roundtables around them. Today that work is spread across the team. It needs an owner.\n\nOur audience is compliance leaders at fintech, payments, stablecoin, and marketplace companies. It's a small, tight-knit world. People know each other, they talk, and they remember who wasted their time. The events that win with them are small, well-curated, and useful. That's the bar.\n\nYou'll work directly with our founders, sales, and marketing teams. You report to the Head of Marketing.\n\n## What you'll own\n\n- The conference calendar. Which shows we attend, sponsor, or skip, and why. Budget, booth, logistics, staffing, and meeting targets for each one.\n\n- Pipeline from every event. Pre-event outreach and meeting booking with sales, on-site execution, and follow-up within 48 hours. Every event gets judged on meetings, SQLs, and pipeline, not badge scans.\n\n- Our own events. Executive dinners, invite-only roundtables for heads of compliance, customer events, and side events around major conferences.\n\n- Webinars and virtual panels with customers and industry experts.\n\n- Community. A real network of compliance, risk, and fraud leaders who show up, introduce each other, and think of AiPrise first. Online and in person.\n\n- Partnerships with conference organizers, industry associations, and co-hosts, including speaking slots for our founders and customers.\n\n- Vendors and budget. Venues, booth builds, swag, travel, and agencies, with every dollar tracked.\n\n- Reporting. A clear readout after every event: what we spent, who we met, what it produced, and what we'd change.\n\n## Who you are\n\n- 6+ years in B2B event marketing, field marketing, or community, ideally at a startup selling to enterprise buyers.\n\n- You've run a full conference calendar end to end and can show the pipeline it produced.\n\n- You've hosted executive dinners and roundtables that senior people actually wanted to attend.\n\n- You've built a community from scratch, not just managed one.\n\n- Organized to a fault. You can run three events in three cities in the same month without dropping anything.\n\n- You think in meetings and pipeline, not attendance. Comfortable in HubSpot or an equivalent CRM.\n\n- A strong writer. Invitations, follow-ups, and recaps that people actually read.\n\n- Happy to travel often, including internationally.\n\n- You treat accuracy as non-negotiable. Every number you report is sourced and reproducible. This is a hard requirement, not a preference.\n\n- High ownership, high autonomy, fast pace, and real care about the quality of what ships.\n\n## Nice to have\n\n- Experience in compliance, fintech, payments, crypto, or another regulated industry.\n\n- An existing network in the compliance, risk, or fraud community.\n\n- Experience running events in Europe, Asia, or Latin America.\n\n- Fluency with AI tools for event ops, attendee research, and personalized outreach.\n\n## Why this role matters\n\nOur buyers decide who to trust based on who they've met. This role decides where we show up, who we meet, and what it turns into.\n\nThis role is in person in our San Jose office, with frequent travel.\n\n San Jose, CA fulltime yes\nlocations: San Jose, CA\nremote: no\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-11T22:33:46+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "88d6e160faa65506b061ef6d25fe8883",
       "source": "wellfound",
