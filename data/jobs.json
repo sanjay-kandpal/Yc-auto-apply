@@ -1,15 +1,245 @@
 {
-  "exported_at": "2026-11-12T09:33:03+00:00",
+  "exported_at": "2026-11-12T16:39:22+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1211,
+    "discovered": 1215,
     "pending_approval": 295,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "ed47a57765411520db566165bb190656",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Forward Deployed Construction Engineer (Netherlands)",
+      "url": "https://www.workatastartup.com/jobs/122347",
+      "jd_text": "#### **_Part-time to start · Remote, Netherlands (onboarding in Stockholm) · Construction × AI_**\n\nFluent English is required for this role: it’s our working language across the company. Dutch version below.\n\n# About Brickanta\n\nBrickanta is the AI-native agentic platform for construction. Hundreds of AI agents take on the administrative heavy lifting across bidding, procurement, compliance and quality assurance, so builders finish projects on time and on budget.\n\nWe’re backed by Y Combinator, have raised over $8M from Northzone, Anton Osika and Mario Götze, and already work with some of the largest contractors and developers in the industry. We’re an early team and growing fast, operating like an elite sports team: maximum freedom paired with maximum responsibility. You own your work, you document what matters, and you win and lose as a team.\n\nHaving built the platform with builders in the Nordics, we’re now taking it across Europe. The Netherlands and the wider Benelux are among our first markets, and this is one of our first roles on the ground.\n\n# The role\n\nMost enterprise AI dies in the proof of concept. Forward deployed engineering is how we avoid that: you sit inside the customer’s workflow — on site, in the bid room, in the procurement process — and build until the work actually gets done differently.\n\nIn a new market, that also means teaching our agents how construction works here. An answer can look plausible and still be wrong in the way that matters on a real project: a UAV 2012 or UAV-GC clause read the wrong way, a quantity that doesn’t match the RAW or STABU specification, a requirement in the Bbl or the Wkb that gets missed. Your job is to spot that and turn the judgment into evals our systems can measure.\n\nThis is not consulting and it is not a demo role. You ship product: take a real bottleneck at a real contractor, build the agent workflow that removes it, prove the outcome in numbers, and bring what you learned back into the core platform.\n\n# What you’ll own\n\n#### **_Deployments_**\n\nOwn named accounts in the Netherlands end to end: understand the workflow, configure and extend our agents against their real documents and data, and get them into daily use. Define success up front and prove it in numbers: hours saved, bids won, risks caught.\n\n#### **_Evaluation and ground truth_**\n\nRun our agents against real Dutch workflows and judge the outputs on correctness, completeness and practical usefulness, not on whether they sound convincing. Turn edge cases and production failures into repeatable evals: reference outputs, scoring rubrics, failure taxonomies and expert-reviewed datasets.\n\n#### **_Building in the field_**\n\nWrite code. Integrations, data pipelines, prompts, eval harnesses, automated graders and occasionally a whole new feature: whatever it takes to make the workflow work at that customer. Work out what needs human judgment, then engineer the rest away.\n\n#### **_Feeding the product_**\n\nTurn what you learn in the field into datasets and reusable building blocks, so each deployment makes the next one faster, in the Netherlands and across Benelux.\n\n# Who we’re looking for\n\nSome combination of construction depth, technical depth and a liking for customers. The unusual profile matters more than the perfect CV.\n\n#### **_Background_**\n\n* Real exposure to construction in the Netherlands: site management (uitvoerder), work preparation (werkvoorbereider), estimating (calculator), project management, tendering, procurement or quality.\n* Familiarity with the Dutch framework: the Aanbestedingswet 2012 and ARW 2016, UAV 2012 and UAV-GC 2005 contracts, RAW and STABU specifications, BPKV award criteria and TenderNed, and building rules under the Omgevingswet, the Bbl and the Wkb.\n* Experience building and shipping software (Python and/or TypeScript, APIs, data pipelines, SQL), or the raw ingredients and the drive to get there quickly.\n* Strong analytical ability and a serious interest in modern AI systems. We operate as an AI-first company.\n* Experience working directly with customers, or a clear appetite for it.\n* Fluent English, since it’s our working language, and native or near-native Dutch. German or French is a bonus. No Swedish needed.\n\n#### **_Mindset_**\n\n* You go to where the work happens — site visits, bid rooms, procurement meetings — instead of guessing from a backlog.\n* Detail-oriented with high ownership: you keep the quality bar through many cases, find the problem, build the fix and follow it into production.\n* You write clearly. At Brickanta, writing creates clarity and everything important gets documented, which matters even more when the team is in another country.\n* Comfortable with ambiguity and with being the only engineer in the room.\n\n# Growth path\n\nThis seat is built to grow with the Dutch market and the wider Benelux. You start by running the first deployments yourself, then hiring and leading a forward deployed team in the Netherlands, and over time owning Brickanta’s technical presence in the Netherlands and across Benelux alongside our local commercial lead. Your scope, compensation and equity grow with the market. If you would rather go deep than broad, the path also runs inward to core AI, evals and platform engineering.\n\n# Snapshot\n\n* **Location:** Remote in the Netherlands, with regular time on site at customers. You start with onboarding at our HQ in Stockholm alongside the team, then come back regularly. Travel and accommodation are covered.\n* **Start:** First half of 2027. Part-time to start (or a similar flexible setup), with the aim of going full-time as the market grows.\n* **Level:** Mid to senior. We care more about what you’ve built, on site or in code, than about years.\n* **Comp:** Competitive salary and equity — you’re early enough for it to matter.\n\n# Forward Deployed Construction Engineer (Nederlands)\n\n#### **_Parttime · Remote in Nederland (onboarding in Stockholm) · Bouw × AI_**\n\nDit is de Nederlandse versie van de vacature. Vloeiend Engels is een vereiste voor deze functie: het is onze werktaal in het hele bedrijf.\n\n# Over Brickanta\n\nBrickanta is het AI-native agentplatform voor de bouw. Honderden AI-agents nemen het zware administratieve werk over bij aanbestedingen, inkoop, compliance en kwaliteitsborging, zodat bouwbedrijven hun projecten op tijd en binnen budget opleveren.\n\nWe worden gesteund door Y Combinator, haalden meer dan 8 miljoen dollar op bij Northzone, Anton Osika en Mario Götze, en werken nu al met enkele van de grootste bouwbedrijven en projectontwikkelaars in de sector. We zijn een jong team dat snel groeit en we werken als een topsportteam: maximale vrijheid, gekoppeld aan maximale verantwoordelijkheid. Je bent eigenaar van je werk, je documenteert wat belangrijk is, en we winnen en verliezen als team.\n\nNadat we het platform samen met bouwbedrijven in de Noordse landen hebben gebouwd, brengen we het nu naar de rest van Europa. Nederland en de bredere Benelux behoren tot onze eerste markten, en dit is een van onze eerste functies ter plaatse.\n\n# De functie\n\nDe meeste AI-projecten in bedrijven stranden in de proof of concept. Forward deployed engineering is hoe wij dat voorkomen: je werkt midden in de werkprocessen van de klant — op de bouwplaats, bij de calculatie, in het inkoopproces — en je bouwt tot het werk echt anders verloopt.\n\nIn een nieuwe markt betekent dat ook dat je onze agents leert hoe er hier gebouwd wordt. Een antwoord kan plausibel lijken en toch fout zijn op het punt dat telt in een echt project: een UAV 2012- of UAV-GC-bepaling die verkeerd gelezen wordt, een hoeveelheid die niet klopt met het RAW- of STABU-bestek, een eis uit het Bbl of de Wkb die over het hoofd gezien wordt. Jouw taak is om dat te zien en dat oordeel om te zetten in evaluaties (evals) die onze systemen kunnen meten.\n\nDit is geen consultancy en geen demofunctie. Je levert product: je pakt een echt knelpunt aan bij een echt bouwbedrijf, bouwt de agentworkflow die het wegneemt, bewijst het resultaat met cijfers en brengt wat je leerde terug naar het platform.\n\n# Waarvoor je verantwoordelijk bent\n\n#### **_Implementaties_**\n\nJe bent van begin tot eind verantwoordelijk voor vaste klanten in Nederland: je begrijpt hun workflow, configureert en breidt onze agents uit op hun echte documenten en data, en zorgt dat ze dagelijks gebruikt worden. Je bepaalt vooraf wat succes is en bewijst het met cijfers: uren bespaard, aanbestedingen gewonnen, risico’s tijdig gezien.\n\n#### **_Evaluatie en ground truth_**\n\nJe test onze agents op echte Nederlandse workflows en beoordeelt de resultaten op juistheid, volledigheid en praktisch nut, niet op hoe overtuigend ze klinken. Randgevallen en fouten uit productie zet je om in herhaalbare evals: referentieantwoorden, beoordelingsrubrieken, fouttaxonomieën en door experts gecontroleerde datasets.\n\n#### **_Bouwen in het veld_**\n\nJe schrijft code. Integraties, datapipelines, prompts, evaluatieomgevingen, geautomatiseerde beoordelaars en af en toe een volledig nieuwe feature: alles wat nodig is om de workflow bij die klant te laten werken. Je zoekt uit wat menselijk oordeel vraagt en automatiseert de rest.\n\n#### **_Kennis terug naar het product_**\n\nWat je in het veld leert, zet je om in datasets en herbruikbare bouwstenen, zodat elke implementatie de volgende sneller maakt, in Nederland en in de rest van de Benelux.\n\n# Wie we zoeken\n\nEen combinatie van bouwkennis, technische diepgang en plezier in het werken met klanten. Een ongewoon profiel telt meer dan het perfecte cv.\n\n#### **_Achtergrond_**\n\n* Echte ervaring in de Nederlandse bouw: als uitvoerder, werkvoorbereider, calculator of projectleider, of in aanbestedingen, inkoop of kwaliteit.\n* Bekend met het Nederlandse kader: de Aanbestedingswet 2012 en het ARW 2016, UAV 2012- en UAV-GC 2005-contracten, RAW- en STABU-bestekken, BPKV-gunning en TenderNed, en bouwregels onder de Omgevingswet, het Bbl en de Wkb.\n* Ervaring met het bouwen en in productie brengen van software (Python en/of TypeScript, API’s, datapipelines, SQL), of de basis en de drive om daar snel te komen.\n* Sterk analytisch vermogen en een serieuze interesse in moderne AI-systemen. We werken als een AI-first bedrijf.\n* Ervaring in direct contact met klanten, of er duidelijk zin in.\n* Vloeiend Engels, want dat is onze werktaal, en Nederlands op moedertaalniveau of vergelijkbaar. Duits of Frans is een pluspunt. Zweeds is niet nodig.\n\n#### **_Mindset_**\n\n* Je gaat naar waar het werk gebeurt — bouwplaatsbezoeken, calculatieafdelingen, inkoopoverleggen — in plaats van te gokken vanuit een backlog.\n* Detailgericht, met veel eigenaarschap: je houdt de kwaliteitslat hoog over veel gevallen heen, vindt het probleem, bouwt de oplossing en begeleidt die tot in productie.\n* Je schrijft helder. Bij Brickanta zorgt schrijven voor duidelijkheid en wordt alles wat belangrijk is gedocumenteerd, wat nog meer telt wanneer het team in een ander land zit.\n* Je voelt je goed bij onduidelijkheid en bij het idee de enige engineer in de ruimte te zijn.\n\n# Groeipad\n\nDeze functie is gemaakt om mee te groeien met de Nederlandse markt en de bredere Benelux. Eerst voer je de eerste implementaties zelf uit, daarna bouw je een forward deployed team in Nederland op en leid je het, en na verloop van tijd ben je samen met onze lokale commercial lead verantwoordelijk voor de technische aanwezigheid van Brickanta in Nederland en de Benelux. Je rol, beloning en aandelen groeien mee met de markt. Ga je liever de diepte in dan de breedte, dan loopt het pad ook naar de kern van het product: core AI, evals en platform engineering.\n\n# In het kort\n\n* **Locatie:** Remote in Nederland, met regelmatig tijd op de bouwplaats bij klanten. Je start met een onboarding op ons hoofdkantoor in Stockholm, samen met het team, en komt daarna regelmatig terug. Reis- en verblijfkosten worden vergoed.\n* **Start:** Eerste helft van 2027. Parttime om te beginnen (of een vergelijkbare flexibele vorm), met als doel fulltime te gaan naarmate de markt groeit.\n* **Niveau:** Medior tot senior. Wat je gebouwd hebt, op de bouwplaats of in code, telt voor ons meer dan het aantal jaren.\n* **Beloning:** Competitief salaris en aandelen — je komt vroeg genoeg aan boord om daar echt iets aan te hebben. fulltime none\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 6.7,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-12T16:39:19+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.33,
+            "overlap": 14.57,
+            "combined": 6.7
+          },
+          "backend": {
+            "cosine": 3.09,
+            "overlap": 15.41,
+            "combined": 6.78
+          },
+          "frontend": {
+            "cosine": 2.7,
+            "overlap": 17.96,
+            "combined": 7.28
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.33,
+        "keyword_overlap_score": 14.57,
+        "final_score": 6.7,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.0885
+          },
+          {
+            "term": "ai",
+            "weight": 0.0782
+          },
+          {
+            "term": "agents",
+            "weight": 0.0521
+          },
+          {
+            "term": "platform",
+            "weight": 0.0373
+          },
+          {
+            "term": "deployed",
+            "weight": 0.032
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "786032dcd28f859d8e4e53a0d6a699a9",
+      "source": "yc",
+      "company": "Brickanta",
+      "role": "Forward Deployed Construction Engineer (Belgium)",
+      "url": "https://www.workatastartup.com/jobs/122346",
+      "jd_text": "#### **_Part-time to start · Remote, Belgium (onboarding in Stockholm) · Construction × AI_**\n\nFluent English is required for this role: it’s our working language across the company. Dutch and French versions below.\n\n# About Brickanta\n\nBrickanta is the AI-native agentic platform for construction. Hundreds of AI agents take on the administrative heavy lifting across bidding, procurement, compliance and quality assurance, so builders finish projects on time and on budget.\n\nWe’re backed by Y Combinator, have raised over $8M from Northzone, Anton Osika and Mario Götze, and already work with some of the largest contractors and developers in the industry. We’re an early team and growing fast, operating like an elite sports team: maximum freedom paired with maximum responsibility. You own your work, you document what matters, and you win and lose as a team.\n\nHaving built the platform with builders in the Nordics, we’re now taking it across Europe. Belgium and the wider Benelux are among our first markets, and this is one of our first roles on the ground.\n\n# The role\n\nMost enterprise AI dies in the proof of concept. Forward deployed engineering is how we avoid that: you sit inside the customer’s workflow — on site, in the bid room, in the procurement process — and build until the work actually gets done differently.\n\nIn a new market, that also means teaching our agents how construction works here. Belgium makes that harder than most: tender documents come in Dutch or French depending on the region, and practice differs between Flanders, Brussels and Wallonia. An answer can look plausible and still be wrong in the way that matters on a real project: a clause in the bestek or cahier spécial des charges read the wrong way, a quantity that doesn’t match the meetstaat or métré, a requirement in the general execution rules for public works that gets missed. Your job is to spot that and turn the judgment into evals our systems can measure.\n\nThis is not consulting and it is not a demo role. You ship product: take a real bottleneck at a real contractor, build the agent workflow that removes it, prove the outcome in numbers, and bring what you learned back into the core platform.\n\n# What you’ll own\n\n#### **_Deployments_**\n\nOwn named accounts in Belgium end to end: understand the workflow, configure and extend our agents against their real documents and data, and get them into daily use. Define success up front and prove it in numbers: hours saved, bids won, risks caught.\n\n#### **_Evaluation and ground truth_**\n\nRun our agents against real Belgian workflows, in Dutch and French, and judge the outputs on correctness, completeness and practical usefulness, not on whether they sound convincing. Turn edge cases and production failures into repeatable evals: reference outputs, scoring rubrics, failure taxonomies and expert-reviewed datasets.\n\n#### **_Building in the field_**\n\nWrite code. Integrations, data pipelines, prompts, eval harnesses, automated graders and occasionally a whole new feature: whatever it takes to make the workflow work at that customer. Work out what needs human judgment, then engineer the rest away.\n\n#### **_Feeding the product_**\n\nTurn what you learn in the field into datasets and reusable building blocks, so each deployment makes the next one faster, in Belgium and across Benelux.\n\n# Who we’re looking for\n\nSome combination of construction depth, technical depth and a liking for customers. The unusual profile matters more than the perfect CV.\n\n#### **_Background_**\n\n* Real exposure to construction in Belgium: site work, site or project management (werfleider, conducteur de travaux), estimating and quantity surveying (calculatie, métré), tendering, procurement or quality.\n* Familiarity with the Belgian framework: the public procurement law of 17 June 2016 and the general execution rules (KB/AR of 14 January 2013), bestek and cahier spécial des charges, meetstaat and métré récapitulatif, contractor accreditation, and how practice differs between Flanders, Brussels and Wallonia.\n* Experience building and shipping software (Python and/or TypeScript, APIs, data pipelines, SQL), or the raw ingredients and the drive to get there quickly.\n* Strong analytical ability and a serious interest in modern AI systems. We operate as an AI-first company.\n* Experience working directly with customers, or a clear appetite for it.\n* Fluent English, since it’s our working language, plus professional Dutch and/or French. Both languages are a big plus, and German is a bonus. No Swedish needed.\n\n#### **_Mindset_**\n\n* You go to where the work happens — site visits, bid rooms, procurement meetings — instead of guessing from a backlog.\n* Detail-oriented with high ownership: you keep the quality bar through many cases, find the problem, build the fix and follow it into production.\n* You write clearly. At Brickanta, writing creates clarity and everything important gets documented, which matters even more when the team is in another country.\n* Comfortable with ambiguity and with being the only engineer in the room.\n\n# Growth path\n\nThis seat is built to grow with Belgium and the wider Benelux. You start by running the first deployments yourself, then hiring and leading a forward deployed team for Belgium, and over time owning Brickanta’s technical presence in Belgium and across Benelux alongside our local commercial lead. Your scope, compensation and equity grow with the market. If you would rather go deep than broad, the path also runs inward to core AI, evals and platform engineering.\n\n# Snapshot\n\n* **Location:** Remote in Belgium, with regular time on site at customers in Flanders, Brussels and Wallonia. You start with onboarding at our HQ in Stockholm alongside the team, then come back regularly. Travel and accommodation are covered.\n* **Start:** First half of 2027. Part-time to start (or a similar flexible setup), with the aim of going full-time as the market grows.\n* **Level:** Mid to senior. We care more about what you’ve built, on site or in code, than about years.\n* **Comp:** Competitive salary and equity — you’re early enough for it to matter.\n\n# Forward Deployed Construction Engineer (Nederlands)\n\n#### **_Deeltijds · Telewerk in België (onboarding in Stockholm) · Bouw × AI_**\n\nDit is de Nederlandstalige versie van de vacature. Vloeiend Engels is een vereiste voor deze functie: het is onze werktaal in het hele bedrijf.\n\n# Over Brickanta\n\nBrickanta is het AI-native agentplatform voor de bouw. Honderden AI-agents nemen het zware administratieve werk over bij aanbestedingen, aankoop, compliance en kwaliteitszorg, zodat aannemers hun projecten op tijd en binnen budget opleveren.\n\nWe worden gesteund door Y Combinator, haalden meer dan 8 miljoen dollar op bij Northzone, Anton Osika en Mario Götze, en werken nu al met enkele van de grootste aannemers en projectontwikkelaars in de sector. We zijn een jong team dat snel groeit en we werken als een topsportteam: maximale vrijheid, gekoppeld aan maximale verantwoordelijkheid. Je bent eigenaar van je werk, je documenteert wat belangrijk is, en we winnen en verliezen als team.\n\nNa het platform samen met aannemers in de Noordse landen te hebben gebouwd, brengen we het nu naar de rest van Europa. België en de bredere Benelux behoren tot onze eerste markten, en dit is een van onze eerste functies ter plaatse.\n\n# De functie\n\nDe meeste AI-projecten in bedrijven sneuvelen in de proof of concept. Forward deployed engineering is hoe wij dat vermijden: je werkt midden in de werkprocessen van de klant — op de werf, bij de calculatie, in het aankoopproces — en je bouwt tot het werk echt anders verloopt.\n\nIn een nieuwe markt betekent dat ook dat je onze agents leert hoe er hier gebouwd wordt. In België is dat extra uitdagend: aanbestedingsdocumenten zijn naargelang het gewest in het Nederlands of het Frans opgesteld, en de praktijk verschilt tussen Vlaanderen, Brussel en Wallonië. Een antwoord kan plausibel lijken en toch fout zijn op het punt dat telt in een echt project: een clausule uit het bestek die verkeerd gelezen wordt, een hoeveelheid die niet klopt met de meetstaat, een vereiste uit de algemene uitvoeringsregels die over het hoofd gezien wordt. Jouw taak is om dat te zien en dat oordeel om te zetten in evaluaties (evals) die onze systemen kunnen meten.\n\nDit is geen consultancy en geen demofunctie. Je levert product: je pakt een echt knelpunt aan bij een echte aannemer, bouwt de agentworkflow die het wegneemt, bewijst het resultaat met cijfers en brengt wat je leerde terug naar het platform.\n\n# Waarvoor je verantwoordelijk bent\n\n#### **_Implementaties_**\n\nJe neemt vaste klanten in België van begin tot eind voor je rekening: je begrijpt hun workflow, configureert en breidt onze agents uit op hun echte documenten en data, en zorgt dat ze dagelijks gebruikt worden. Je bepaalt vooraf wat succes is en bewijst het met cijfers: uren bespaard, aanbestedingen gewonnen, risico’s tijdig gezien.\n\n#### **_Evaluatie en ground truth_**\n\nJe test onze agents op echte Belgische workflows, in het Nederlands en het Frans, en beoordeelt de resultaten op juistheid, volledigheid en praktisch nut, niet op hoe overtuigend ze klinken. Randgevallen en fouten uit productie zet je om in herhaalbare evals: referentieantwoorden, beoordelingsrubrieken, fouttaxonomieën en door experts gecontroleerde datasets.\n\n#### **_Bouwen in het veld_**\n\nJe schrijft code. Integraties, datapipelines, prompts, evaluatieomgevingen, geautomatiseerde beoordelaars en af en toe een volledig nieuwe feature: alles wat nodig is om de workflow bij die klant te laten werken. Je zoekt uit wat menselijk oordeel vraagt en automatiseert de rest.\n\n#### **_Kennis terug naar het product_**\n\nWat je in het veld leert, zet je om in datasets en herbruikbare bouwstenen, zodat elke implementatie de volgende sneller maakt, in België en in de rest van de Benelux.\n\n# Wie we zoeken\n\nEen combinatie van bouwkennis, technische diepgang en plezier in het werken met klanten. Een ongewoon profiel telt meer dan het perfecte cv.\n\n#### **_Achtergrond_**\n\n* Echte ervaring in de Belgische bouw: op de werf, als werfleider of projectleider, in calculatie en meetstaten, aanbestedingen, aankoop of kwaliteit.\n* Vertrouwd met het Belgische kader: de wet overheidsopdrachten van 17 juni 2016 en de algemene uitvoeringsregels (KB van 14 januari 2013), bestekken en meetstaten, de erkenning van aannemers en de verschillen in praktijk tussen Vlaanderen, Brussel en Wallonië.\n* Ervaring met het bouwen en in productie brengen van software (Python en/of TypeScript, API’s, datapipelines, SQL), of de basis en de drive om daar snel te geraken.\n* Sterk analytisch vermogen en een serieuze interesse in moderne AI-systemen. We werken als een AI-first bedrijf.\n* Ervaring in rechtstreeks contact met klanten, of er duidelijk zin in.\n* Vloeiend Engels, want dat is onze werktaal, en Nederlands en/of Frans op professioneel niveau. Beide talen zijn een grote troef, Duits is een bonus. Zweeds is niet nodig.\n\n#### **_Mindset_**\n\n* Je gaat naar waar het werk gebeurt — werfbezoeken, calculatieafdelingen, aankoopvergaderingen — in plaats van te gokken vanuit een backlog.\n* Detailgericht, met veel eigenaarschap: je houdt de kwaliteitslat hoog over veel gevallen heen, vindt het probleem, bouwt de oplossing en volgt die op tot in productie.\n* Je schrijft helder. Bij Brickanta zorgt schrijven voor duidelijkheid en wordt alles wat belangrijk is gedocumenteerd, wat nog meer telt wanneer het team in een ander land zit.\n* Je voelt je goed bij onduidelijkheid en bij het idee de enige engineer in de ruimte te zijn.\n\n# Groeipad\n\nDeze functie is gemaakt om mee te groeien met België en de bredere Benelux. Eerst voer je de eerste implementaties zelf uit, daarna bouw je een forward deployed team voor België uit en leid je het, en na verloop van tijd ben je samen met onze lokale commercial lead verantwoordelijk voor de technische aanwezigheid van Brickanta in België en de Benelux. Je rol, verloning en aandelen groeien mee met de markt. Ga je liever de diepte in dan de breedte, dan loopt het pad ook naar de kern van het product: core AI, evals en platform engineering.\n\n# In het kort\n\n* **Locatie:** Telewerk in België, met regelmatig tijd op de werf bij klanten in Vlaanderen, Brussel en Wallonië. Je start met een onboarding op ons hoofdkantoor in Stockholm, samen met het team, en komt daarna regelmatig terug. Reis- en verblijfkosten worden vergoed.\n* **Start:** Eerste helft van 2027. Deeltijds om te beginnen (of een vergelijkbare flexibele formule), met de bedoeling voltijds te gaan naarmate de markt groeit.\n* **Niveau:** Medior tot senior. Wat je gebouwd hebt, op de werf of in code, telt voor ons meer dan het aantal jaren.\n* **Verloning:** Competitief loon en aandelen — je komt vroeg genoeg aan boord om daar echt iets aan te hebben.\n\n# Forward Deployed Construction Engineer (Français)\n\n#### **_Temps partiel · Télétravail en Belgique (intégration à Stockholm) · Construction × IA_**\n\nCeci est la version française de l’offre. L’anglais est indispensable pour ce poste : c’est notre langue de travail dans toute l’entreprise.\n\n# À propos de Brickanta\n\nBrickanta est la plateforme agentique AI-native dédiée à la construction. Des centaines d’agents IA prennent en charge le gros du travail administratif sur les appels d’offres, les achats, la conformité et la qualité, pour que les entrepreneurs livrent leurs projets dans les délais et dans le budget.\n\nNous sommes soutenus par Y Combinator, avons levé plus de 8 millions de dollars auprès de Northzone, d’Anton Osika et de Mario Götze, et travaillons déjà avec certaines des plus grandes entreprises de construction et certains des plus grands promoteurs du secteur. Nous sommes une jeune équipe en forte croissance, qui fonctionne comme une équipe sportive de haut niveau : liberté maximale et responsabilité maximale. Chacun est maître de son travail, documente ce qui compte, et l’on gagne et l’on perd en équipe.\n\nAprès avoir construit la plateforme avec des entreprises de construction des pays nordiques, nous la déployons désormais en Europe. La Belgique et le reste du Benelux font partie de nos premiers marchés, et ce poste est l’un de nos premiers recrutements sur place.\n\n# Le poste\n\nLa plupart des projets d’IA en entreprise meurent au stade de la preuve de concept. Le forward deployed engineering est notre façon de l’éviter : vous travaillez au cœur des processus du client — sur le chantier, au service métré et calcul, dans le processus achats — et vous construisez jusqu’à ce que le travail se fasse réellement autrement.\n\nSur un nouveau marché, cela veut aussi dire apprendre à nos agents comment on construit ici. En Belgique, c’est d’autant plus exigeant : les documents d’appel d’offres sont rédigés en français ou en néerlandais selon la région, et les pratiques diffèrent entre la Flandre, Bruxelles et la Wallonie. Une réponse peut sembler plausible et pourtant être fausse là où cela compte sur un vrai projet : une clause du cahier spécial des charges mal interprétée, une quantité qui ne correspond pas au métré récapitulatif, une exigence des règles générales d’exécution passée inaperçue. Votre rôle est de le repérer et de transformer ce jugement en évaluations (evals) que nos systèmes peuvent mesurer.\n\nCe n’est pas du conseil, et ce n’est pas un poste de démo. Vous livrez du produit : vous prenez un vrai goulot d’étranglement chez un vrai entrepreneur, vous construisez le workflow d’agents qui le supprime, vous prouvez le résultat en chiffres et vous rapportez ce que vous avez appris dans la plateforme.\n\n# Vos responsabilités\n\n#### **_Déploiements_**\n\nVous prenez en charge des comptes clients en Belgique de bout en bout : comprendre leur workflow, configurer et étendre nos agents sur leurs vrais documents et données, et les faire entrer dans l’usage quotidien. Vous définissez le succès dès le départ et le prouvez en chiffres : heures gagnées, appels d’offres remportés, risques détectés.\n\n#### **_Évaluation et vérité terrain_**\n\nVous testez nos agents sur de vrais workflows belges, en français et en néerlandais, et jugez les résultats sur leur exactitude, leur exhaustivité et leur utilité concrète, pas sur leur capacité à paraître convaincants. Vous transformez les cas limites et les erreurs en production en evals reproductibles : réponses de référence, grilles de notation, taxonomies d’erreurs et jeux de données validés par des experts.\n\n#### **_Construire sur le terrain_**\n\nVous écrivez du code. Intégrations, pipelines de données, prompts, frameworks d’évaluation, évaluateurs automatiques et parfois une fonctionnalité entièrement nouvelle : tout ce qu’il faut pour que le workflow fonctionne chez ce client. Vous identifiez ce qui demande un jugement humain, puis vous automatisez le reste.\n\n#### **_Nourrir le produit_**\n\nVous transformez ce que vous apprenez sur le terrain en jeux de données et en briques réutilisables, pour que chaque déploiement rende le suivant plus rapide, en Belgique comme dans le reste du Benelux.\n\n# Le profil recherché\n\nUne combinaison de connaissance de la construction, de profondeur technique et de goût pour le travail avec les clients. Un profil atypique compte plus qu’un CV parfait.\n\n#### **_Parcours_**\n\n* Une vraie expérience de la construction en Belgique : chantier, conduite de travaux, métré et calcul (métreur-deviseur), marchés publics, achats ou qualité.\n* Une bonne connaissance du cadre belge : la loi du 17 juin 2016 relative aux marchés publics et les règles générales d’exécution (AR du 14 janvier 2013), le cahier spécial des charges et le bestek, le métré récapitulatif et la meetstaat, l’agréation des entrepreneurs et les différences de pratique entre la Flandre, Bruxelles et la Wallonie.\n* De l’expérience dans le développement et la mise en production de logiciels (Python et/ou TypeScript, API, pipelines de données, SQL), ou les bases et l’envie d’y arriver vite.\n* De solides capacités d’analyse et un réel intérêt pour les systèmes d’IA modernes. Nous fonctionnons comme une entreprise AI-first.\n* De l’expérience en relation directe avec des clients, ou une vraie envie de le faire.\n* Anglais courant, car c’est notre langue de travail, et français et/ou néerlandais à un niveau professionnel. Les deux langues sont un gros atout, l’allemand un bonus. Le suédois n’est pas nécessaire.\n\n#### **_État d’esprit_**\n\n* Vous allez là où le travail se fait — visites de chantier, services métré et calcul, réunions achats — au lieu de deviner depuis un backlog.\n* Un grand souci du détail et un fort sens des responsabilités : vous gardez le niveau d’exigence sur de nombreux cas, trouvez le problème, construisez la solution et la suivez jusqu’en production.\n* Vous écrivez clairement. Chez Brickanta, l’écrit crée de la clarté et tout ce qui est important est documenté, ce qui compte encore plus quand l’équipe est dans un autre pays.\n* À l’aise avec l’ambiguïté et avec le fait d’être la seule personne technique dans la salle.\n\n# Perspectives d’évolution\n\nCe poste est conçu pour grandir avec la Belgique et le reste du Benelux. Vous menez d’abord vous-même les premiers déploiements, puis vous recrutez et dirigez une équipe forward deployed pour la Belgique et, à terme, vous portez la présence technique de Brickanta en Belgique et dans le Benelux avec notre responsable commercial local. Votre périmètre, votre rémunération et votre part du capital grandissent avec le marché. Si vous préférez la profondeur à l’étendue, le chemin mène aussi vers le cœur du produit : IA, evals et ingénierie de plateforme.\n\n# En bref\n\n* **Lieu :** Télétravail depuis la Belgique, avec du temps sur chantier chez les clients en Flandre, à Bruxelles et en Wallonie. Vous commencez par une intégration à notre siège de Stockholm aux côtés de l’équipe, puis vous y revenez régulièrement. Voyage et hébergement pris en charge.\n* **Démarrage :** Premier semestre 2027. Temps partiel au départ (ou une formule souple équivalente), avec l’objectif de passer à temps plein à mesure que le marché se développe.\n* **Niveau :** Confirmé à senior. Ce que vous avez construit, sur le chantier ou dans le code, compte plus que les années d’expérience.\n* **Rémunération :** Salaire compétitif et participation au capital — vous arrivez assez tôt pour que cela compte. fulltime none\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 6.46,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-12T16:39:19+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.42,
+            "overlap": 15.89,
+            "combined": 6.46
+          },
+          "backend": {
+            "cosine": 2.29,
+            "overlap": 17.29,
+            "combined": 6.79
+          },
+          "frontend": {
+            "cosine": 1.95,
+            "overlap": 19.9,
+            "combined": 7.34
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 2.42,
+        "keyword_overlap_score": 15.89,
+        "final_score": 6.46,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.0547
+          },
+          {
+            "term": "team",
+            "weight": 0.0531
+          },
+          {
+            "term": "agents",
+            "weight": 0.0508
+          },
+          {
+            "term": "deployed",
+            "weight": 0.0288
+          },
+          {
+            "term": "platform",
+            "weight": 0.0224
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cafb31833599198a50580871285cc7d5",
+      "source": "yc",
+      "company": "Cekura",
+      "role": "Member of Technical Staff, Cekura (Bangalore, In-Person)",
+      "url": "https://www.workatastartup.com/jobs/122345",
+      "jd_text": "## Read This First\n\nWe work with unusual intensity: in-person in Bangalore, six days a week, long days, most weekends. That's how we've chosen to build, because in our market speed decides who wins. We say this up front because we want people who feel pulled in, not talked into it. If you want a 9-to-5 (no judgment), this isn't your role.\n\nWhat you get in exchange:\n\n* **Top-of-market cash.** Extraordinary hours deserve more than an average salary.\n* **Meaningful equity.** Significant grants, employee-friendly terms, and liquidity opportunities as we raise.\n* **No commute tax.** Support to live near the office, plus dinner there every night.\n* **Founders in the trenches.** We work the same schedule we ask of you.\n* **A decade of growth in two years.** You'll ship more and own more than anywhere else.\n\n## About Cekura\n\nCekura (YC F24) builds evals and improvement for voice AI, covering both voice agents and the speech-to-speech models behind them.\n\n* **Voice agents.** Teams test before launch, monitor production calls, and improve continuously. When something fails, Cekura reproduces it in simulation, fixes it, tests the fix, and raises a PR. The platform covers simulation, LLM evaluation, red-teaming, drift monitoring, and benchmarking across Vapi, Retell, Pipecat, LiveKit, ElevenLabs and more.\n* **Speech-to-speech models.** We give labs benchmarks, data, and RL environments to improve turn-taking, interruptions, naturalness, and tool use in live conversations.\n\nCustomers include Five9, HighLevel, Twin Health, PwC, Deloitte, Jobber, and Jotform. HIPAA, SOC 2, and GDPR are defaults. We're growing fast and backed by top investors.\n\n## About the Role\n\nYou'll build the core of Cekura: simulation engines, evaluation systems, benchmarks, RL environments, self-improvement loops, and observability pipelines. We don't split \"software engineer\" from \"AI engineer.\" The best problems sit where real-time voice infrastructure, LLM evaluation, RL training, and speech analysis meet.\n\n## What You'll Do\n\n* **Simulation engine.** Simulate thousands of realistic conversations across voice, chat, and phone, with control over personas, interruptions, noise, and edge cases.\n* **Agent evaluation.** Build LLM evaluators, metrics, red-teaming, drift detection, and the autonomous loop that detects, reproduces, fixes, tests, and ships a PR.\n* **Speech-to-speech research.** Work with labs to find where models fall short of human conversation, then build the benchmarks, datasets, reward signals, and RL environments that close the gap.\n* **Applied audio.** Turn the paralinguistic layer (emotion, tone, silences, hesitations, overlaps) into structured signals, so models are judged on how things are said, not just what.\n* **Real-time voice infra.** SIP, WebRTC, STT/TTS, Twilio, Vapi, Retell, LiveKit, Pipecat. Latency and barge-in are first-class problems.\n* **Ship end-to-end and shape the team.** Own what you build from design to production, and set the standards a growing team inherits.\n\n## About You\n\n* A strong generalist who wants to work across systems and AI, not stay in one lane.\n* A strong coder in Python, TypeScript, or Go, with experience in distributed systems, real-time infra, LLM products, or model training and evaluation.\n* You've run production systems and care about reliability, latency, and correctness.\n* Sharp instincts about where LLMs and speech models fail, and how to build reliable systems on them.\n* You like ambiguity, move fast, communicate clearly, and raise the bar around you.\n* You read the first section twice and you're still here.\n* **Bonus:** ex-founder or aspiring one.\n\n## Nice to Have\n\n* LLM evals, agent frameworks, or AI observability.\n* Voice AI stack experience (Twilio, SIP, WebRTC, Vapi, Retell, LiveKit, Pipecat, STT/TTS).\n* RL for language or speech models, benchmark building, or speech-to-speech models.\n* Early-stage startup experience or open-source work.\n\n## This Is Not for You If\n\n* You want a narrow role, a fixed stack, or to work only on models or only on infra.\n* You need rigid process or heavy structure.\n* You're optimizing for work-life balance right now.\n* You don't want to work in-person in Bangalore.\n\n## Why Cekura\n\n* The hardest problems in voice AI, worked on alongside the labs building the models.\n* A 12-person engineering team post-seed: early enough to matter, funded enough to move fast.\n* Direct work with founders and a highly technical team.\n* Top-of-market pay, meaningful equity, all meals at the office, and relocation support. Bengaluru, KA, IN Bengaluru, Karnataka, IN fulltime none\nlocations: Bengaluru, KA, IN Bengaluru, Karnataka, IN\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-12T16:39:19+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0077c597d1ea767c487c92fc927a1a69",
+      "source": "yc",
+      "company": "David AI",
+      "role": "Head of Legal",
+      "url": "https://www.workatastartup.com/jobs/122379",
+      "jd_text": "## **About David AI**\n\nAt David AI, our vision is to bring impactful AI into billions of lives through voice. Our mission is to help the world's leading AI companies build better voice models and agents. We're building the data and evaluation infrastructure behind those models.\n\nFounded in 2024, we're a fast-growing Series B company backed by NVIDIA, Meritech, First Round, YC, and others, with ~70 people across San Francisco and New York City.\n\n## \n\n## **About this role**\n\nWe're hiring a **Head of Legal** , our founding legal hire, working closely with our executive team.\n\nGiven the nature of our business, we view legal as a strategic function that can help us build a stronger competitive moat and accelerate our growth, not just a back-office function. You'll have broad ownership across the company, navigating complex legal questions at the frontier of AI while building our legal function from the ground up.\n\n## **In this role, you will**\n\n- Lead legal strategy across the business, serving as a strategic partner to the CEO and executive team.\n\n- Navigate complex AI, data, and privacy questions related to data acquisition, AI model training, and evaluation.\n\n- Own commercial and transactional legal work, including negotiating agreements with the world's leading AI labs.\n\n- Advise across a broad range of corporate, regulatory, and legal matters, working with external counsel where appropriate.\n\n- Build and scale our legal function, including its processes, infrastructure, and eventually, team.\n\n## **Your background looks like**\n\n- **5–12 years of post-JD experience** , including experience at an elite law firm.\n\n- Exceptional intellectual horsepower, attention to detail, and legal judgment.\n\n- Demonstrated versatility across legal disciplines, with the ability to quickly develop expertise in unfamiliar areas.\n\n- Experience with AI, data, or privacy matters, and strong commercial or transactional experience.\n\n- A bias for action, comfort operating in ambiguity, and the ability to move quickly without sacrificing rigor.\n\n- A business-oriented mindset and genuine excitement about helping build a fast-growing AI company.\n\n## **Bonus points if you have**\n\n- Experience working in-house at a technology company, including through a secondment.\n\n- Exposure to litigation, disputes, or complex regulatory matters.\n\n## **Benefits**\n\n- Competitive compensation and meaningful equity.\n\n- Unlimited PTO.\n\n- Top-notch health, dental, and vision coverage, with 100% coverage for most plans.\n\n- FSA, HSA, and 401(k) access.\n\n- Daily meals, snacks, and beverages at the office.\n\n- Unlimited company-sponsored Barry's classes.\n\n## **Visas**\n\nWe sponsor international candidates across a range of visa types, including H-1B transfers, H-1B1, O-1, E-3, and TN, and we support STEM OPT. While we can’t guarantee any individual outcome, we’ve successfully sponsored teammates from all over the world.\n\n San Francisco fulltime yes\nlocations: San Francisco\nremote: no\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-12T16:39:19+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "6c045f4e86794b41d0cfcbd59688a84b",
       "source": "wellfound",
