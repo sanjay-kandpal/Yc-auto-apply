@@ -1,15 +1,157 @@
 {
-  "exported_at": "2026-11-13T11:56:59+00:00",
+  "exported_at": "2026-11-13T17:36:25+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1224,
+    "discovered": 1227,
     "pending_approval": 295,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "7a215bb21aa8251c3312174c8ef57554",
+      "source": "wellfound",
+      "company": "RentOk",
+      "role": "Fullstack Engineer",
+      "url": "https://wellfound.com/jobs/5067313-fullstack-engineer",
+      "jd_text": "Gurgaon\nlocationNames: Gurgaon",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-13T17:36:24+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a62cea169bead7d017bef0c174885605",
+      "source": "wellfound",
+      "company": "Songbird Fusion Labs",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/5067375-software-engineer",
+      "jd_text": "Bengaluru\nlocationNames: Bengaluru\nremote: true",
+      "match_score": 3.34,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-13T17:36:21+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.51,
+            "overlap": 0.66,
+            "combined": 2.66
+          },
+          "backend": {
+            "cosine": 3.75,
+            "overlap": 0.75,
+            "combined": 2.85
+          },
+          "frontend": {
+            "cosine": 4.36,
+            "overlap": 0.97,
+            "combined": 3.34
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 4.36,
+        "keyword_overlap_score": 0.97,
+        "final_score": 3.34,
+        "top_keywords": [
+          {
+            "term": "bengaluru",
+            "weight": 0.4507
+          },
+          {
+            "term": "engineer",
+            "weight": 0.2254
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9a8ee0a73554c464497c8838348debed",
+      "source": "wellfound",
+      "company": "Lynky AI",
+      "role": "Full Stack Mobile Application Developer",
+      "url": "https://wellfound.com/jobs/5067370-full-stack-mobile-application-developer",
+      "jd_text": "Coimbatore\nlocationNames: Coimbatore",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-13T17:36:18+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "dc4dcdb74d869f0e448fba2e66a7c3e7",
       "source": "wellfound",
