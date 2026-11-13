@@ -1,15 +1,130 @@
 {
-  "exported_at": "2026-11-13T17:36:25+00:00",
+  "exported_at": "2026-11-13T19:18:08+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1227,
+    "discovered": 1229,
     "pending_approval": 295,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "70a6dd5d662fa0a7660f1167708bb512",
+      "source": "yc",
+      "company": "David AI",
+      "role": "General Manager, Data Operations",
+      "url": "https://www.workatastartup.com/jobs/122581",
+      "jd_text": "## **About David AI**\n\nDavid AI is the first audio data research company. We bring an R&D approach to data–developing datasets with the same rigor AI labs bring to models. Our mission is to bring AI into the real world, and we believe audio is the gateway. Speech is versatile, accessible, and human—it fits naturally into everyday life. As audio AI advances and new use cases emerge, high-quality training data is the bottleneck. This is where David AI comes in.\n\nDavid AI was founded in 2024 by a team of former Scale AI engineers and operators. In less than a year, we’ve brought on most FAANG companies and AI labs as customers. We recently raised a $50M Series B from Meritech, NVIDIA, Jack Altman (Alt Capital), Amplify Partners, First Round Capital and other Tier 1 investors.\n\nOur team is sharp, humble, ambitious, and tight-knit. We’re looking for the best research, engineering, product, and operations minds to join us on our mission to push the frontier of audio AI.\n\n## **About our Data Operations team**\n\nOur Data Operations team powers David AI's Data Factory, transforming raw audio into high-quality training datasets for leading AI labs. Our mandate is to spin up new data pipelines and run them at a massive scale.\n\nThis means starting from a model capability we want a model to unlock, experimenting with different shapes of data and collection strategies, and validating them with researchers. Once an approach works, we industrialize it, building pipelines that can process audio with reliability, quality, and efficiency. We are relentless operators who thrive in ambiguity, equally comfortable prototyping novel workflows as we are managing large-scale production systems.\n\n## **About this role**\n\nAs General Manager of Data Operations, you will lead one of the most critical functions at David AI. You’ll own a major slice of our Data Factory: the engine that powers high-quality, scalable data production. You’ll lead the team responsible for building and scaling pipelines, from 0→1 experiments that unlock new model capabilities to 1→N industrialization that processes data reliably and efficiently.\n\n## **In this role, you will**\n\n- Build and lead a team of Data Product Operations Leads, to spin up and scale data pipelines, from early experiments to production systems that generate high-quality audio data at scale.\n\n- Act as a thought partner to executive leadership on how we can evolve and scale delivery capabilities in service of customer needs.\n\n- Continuously monitor and improve pipeline health, spotting issues in sourcing, quality, or process early and owning solutions end-to-end.\n\n- Use metrics to drive decisions, tracking throughput, quality, and cost to guide prioritization and identify where to scale or invest next.\n\n- Work with researchers at leading AI labs to identify new model capabilities and turn them into concrete data workflows and project plans.\n\n- Partner with our internal research team to design and test new data shapes that unlock frontier model capabilities.\n\n- Own outcomes across functions, designing systems, managing execution, unblocking bottlenecks, and ensuring delivery at both prototype and production scale.\n\n## **Your background looks like**\n\n- 5–10 years of experience in high-ownership roles (e.g., founder, GM, COO, or strategy/ops at a venture-backed startup).\n\n- Prior experience scaling large-scale operational efforts at high-growth startups or fast-paced companies.\n\n- Technical fluency with data and operations; SQL proficiency required.\n\n- Prior experience designing and scaling systems, processes, and teams across different customer segments and product lines.\n\n- A relentless operator with high standards, bias to action, and strong attention to detail.\n\n- Comfortable with ambiguity and rapid pace; thrives in a “build while flying” environment.\n\n- Low-ego, collaborative, and mission-driven, focused on team and company success.\n\n## **Bonus points if you have**\n\n- Experience in data, ML, or large-scale operations.\n\n- Background in CS, industrial engineering, or similar.\n\n## **Benefits**\n\n- Unlimited PTO.\n\n- Top-notch health, dental, and vision coverage with 100% coverage for most plans.\n\n- FSA & HSA access.\n\n- 401k access.\n\n- Meals 2x daily through DoorDash + snacks and beverages available at the office.\n\n- Unlimited company-sponsored Barry’s classes.\n\n## **Visas**\n\nWe sponsor international candidates across several visa types, including H-1B _transfers_, H-1B1, O-1, E-3, and TN. We also hire candidates on STEM OPT. If you’re on OPT, we’ll want to confirm you have a path to one of the visas listed above before your OPT ends. While we can’t guarantee any individual outcome, we’ve successfully sponsored teammates from all over the world.\n\n San Francisco New York City fulltime yes\nlocations: San Francisco New York City\nremote: no\nmin_experience: 5",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-13T19:18:05+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "128dec2f52753038473d953ea511f4f8",
+      "source": "yc",
+      "company": "David AI",
+      "role": "Senior Technical Recruiter",
+      "url": "https://www.workatastartup.com/jobs/122580",
+      "jd_text": "**About David AI**\n\nDavid AI is the first audio data research company. We bring an R&D approach to data–developing datasets with the same rigor AI labs bring to models. Our mission is to bring AI into the real world, and we believe audio is the gateway. Speech is versatile, accessible, and human— it fits naturally into everyday life. As audio AI advances and new use cases emerge, high-quality training data is the bottleneck. This is where David AI comes in.\n\nDavid AI was founded in 2024 by a team of former Scale AI engineers and operators. In less than a year, we've brought on most FAANG companies and AI labs as customers. We recently raised a $50M Series B from Meritech, NVIDIA, Jack Altman (Alt Capital), Amplify Partners, First Round Capital and other Tier 1 investors.\n\nOur team is sharp, humble, ambitious, and tight-knit. We're looking for the best research, engineering, product, and operations minds to join us on our mission to push the frontier of audio AI.\n\n**About the Talent team**\n\nThe Talent team is responsible for building David AI's internal team, the people behind our mission. This includes identifying, engaging, and closing exceptional talent across technical, product, and business functions so we can scale the org as fast as the business demands.\n\n**About the role**\n\nAs a Senior Technical Recruiter, you’ll own full-cycle hiring for our most critical technical roles across engineering, research, and technical product. You’ll partner directly with our CTO and engineering leaders to define what great looks like, design hiring processes that assess for it, and close candidates who have plenty of other options. You’ll be a trusted advisor to hiring managers and a key driver of how we scale our technical team.\n\n**In this role, you will**\n\n- Own full-cycle recruiting for engineering and other technical roles, from intake and role scoping through sourcing, screening, interview management, and offer close.\n\n- Partner closely with the CTO and engineering hiring managers to define role requirements, calibrate on candidate profiles, and design structured interview processes that assess for the right signal.\n\n- Drive candidate engagement and closing, including compensation conversations, offer negotiation, and competing-offer strategy.\n\n- Build and run proactive outreach to passive candidates, using boolean search, talent mapping, and personalized messaging to reach top engineers who aren’t actively looking.\n\n- Deliver an excellent candidate experience at every stage, acting as the primary point of contact and an authentic ambassador for David AI.\n\n- Maintain clean pipelines in Ashby and use funnel data to identify bottlenecks, improve conversion, and keep hiring managers informed.\n\n- Stay ahead of the technical talent market, including comp benchmarks, competitor talent movement, and hiring trends across AI/ML and infrastructure.\n\n- Contribute to recruiting operations, such as interview training, scorecards, and process improvements that help the team scale.\n\n**Your background looks like**\n\n- 5+ years of full-cycle technical recruiting experience, with meaningful time spent at a high-growth startup.\n\n- A track record of hiring senior engineers in a competitive market and closing candidates weighing multiple offers.\n\n- Experience partnering directly with engineering leadership as a trusted advisor, not just an order-taker.\n\n- Strong command of offer negotiation, compensation structures (including equity), and closing strategy.\n\n- Comfort sourcing your own pipeline with boolean search and tools like LinkedIn Recruiter, Juicebox, and Ashby or a similar ATS.\n\n**Bonus points if you have**\n\n- Experience recruiting for AI/ML, research, or data-focused companies.\n\n- Experience recruiting for ML engineers, research engineers, or infrastructure/platform engineers.\n\n- Experience designing or improving interview processes from scratch at an early-stage company.\n\n- Familiarity with market mapping and competitive talent intelligence.\n\n**Benefits**\n\n- Unlimited PTO.\n\n- Top-notch health, dental, and vision coverage with 100% coverage for most plans.\n\n- FSA & HSA access.\n\n- 401k access.\n\n- Meals 2x daily through DoorDash + snacks and beverages available at the office.\n\n- Unlimited company-sponsored Barry's classes.\n\n## **Visas**\n\nWe sponsor international candidates across several visa types, including H-1B _transfers_, H-1B1, O-1, E-3, and TN. We also hire candidates on STEM OPT. If you’re on OPT, we’ll want to confirm you have a path to one of the visas listed above before your OPT ends. While we can’t guarantee any individual outcome, we’ve successfully sponsored teammates from all over the world.\n\n San Francisco New York City fulltime yes\nlocations: San Francisco New York City\nremote: no\nmin_experience: 5",
+      "match_score": 6.62,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-13T19:18:05+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.63,
+            "overlap": 8.94,
+            "combined": 6.63
+          },
+          "backend": {
+            "cosine": 5.28,
+            "overlap": 8.65,
+            "combined": 6.29
+          },
+          "frontend": {
+            "cosine": 3.45,
+            "overlap": 9.71,
+            "combined": 5.33
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.63,
+        "keyword_overlap_score": 8.94,
+        "final_score": 6.62,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2754
+          },
+          {
+            "term": "team",
+            "weight": 0.1701
+          },
+          {
+            "term": "technical",
+            "weight": 0.1447
+          },
+          {
+            "term": "experience",
+            "weight": 0.0965
+          },
+          {
+            "term": "data",
+            "weight": 0.0804
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "7a215bb21aa8251c3312174c8ef57554",
       "source": "wellfound",
