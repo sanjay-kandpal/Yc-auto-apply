@@ -1,15 +1,75 @@
 {
-  "exported_at": "2026-11-13T00:58:06+00:00",
+  "exported_at": "2026-11-13T09:19:34+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1223,
+    "discovered": 1224,
     "pending_approval": 295,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "dc4dcdb74d869f0e448fba2e66a7c3e7",
+      "source": "wellfound",
+      "company": "Opland Technologies",
+      "role": "Software Engineer",
+      "url": "https://wellfound.com/jobs/5061221-software-engineer",
+      "jd_text": "Hyderabad\nlocationNames: Hyderabad\nremote: true",
+      "match_score": 0.97,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-13T09:19:31+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.94,
+            "overlap": 0.33,
+            "combined": 0.76
+          },
+          "backend": {
+            "cosine": 1.0,
+            "overlap": 0.38,
+            "combined": 0.82
+          },
+          "frontend": {
+            "cosine": 1.17,
+            "overlap": 0.49,
+            "combined": 0.96
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 1.17,
+        "keyword_overlap_score": 0.49,
+        "final_score": 0.97,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1814
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "ccab51701e80c443d92387c228cb2e0d",
       "source": "wellfound",
