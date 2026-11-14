@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-11-14T11:17:14+00:00",
+  "exported_at": "2026-11-14T16:28:31+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1235,
+    "discovered": 1236,
     "pending_approval": 295,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "9ce53eccb09bb7ff1dc242a274433be9",
+      "source": "wellfound",
+      "company": "Rover",
+      "role": "Solutions Engineer  (Full-Time)",
+      "url": "https://wellfound.com/jobs/5077436-solutions-engineer-full-time",
+      "jd_text": "Pune Pune University Pune Pune Pune\nlocationNames: Pune Pune University Pune Pune Pune",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-14T16:28:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "fc1e2c24a1cc7e95272ad519e5ef1af0",
       "source": "wellfound",
