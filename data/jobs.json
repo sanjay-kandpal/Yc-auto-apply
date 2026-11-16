@@ -1,15 +1,549 @@
 {
-  "exported_at": "2026-11-16T09:18:14+00:00",
+  "exported_at": "2026-11-16T18:01:15+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1250,
+    "discovered": 1258,
     "pending_approval": 295,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "8c340eb10658139b814318f0ba96879b",
+      "source": "yc",
+      "company": "Laurence",
+      "role": "Quantitative Researcher",
+      "url": "https://www.workatastartup.com/jobs/122979",
+      "jd_text": "Laurence (YC W26) is the frontier operating system for marketers. We run brands’ advertising with quantitative models and AI, with profit at the center. Brands with $10M to $100M in annual revenue, including Pit Viper, Fi, and SPYLT, trust Laurence with their advertising, and customers typically increase profit by 15% to 40%.\n\nUnder the product is a research problem: what is the next click, the next creative, or the next dollar of budget actually worth to this business? We answer it with models that treat every estimate as a probability distribution, so risk is priced into every decision, every hour.\n\nWe’re building our research team in Zurich.\n\n## The team\n\nOur CEO, Matthew, was a machine learning engineer at Meta and Google. Our co-founder, Leo, was a quant at Jump Trading and a high-stakes poker professional. Our early team includes IMO and IOI medalists and people from Jane Street, Five Rings, BCG, and Salesforce.\n\nEveryone here works on the hardest problem in front of them, and you’ll learn faster here than anywhere else you could go.\n\nIn Zurich, you’ll work directly with Leo and our research team on the models that move our customers’ money.\n\n## The role\n\nYour models decide where real money goes. In practice, that means:\n\n* **Own the models that set every bid.** Conversion-rate estimation, bidding policies, budget allocation, and the signals that feed them, running live across our customers’ Amazon accounts.\n* **Take the models to new channels.** Extend what works on Amazon to Meta, where creative and audiences matter as much as bids.\n* **Model consumers before they act.** Help build Laurence Simulations, which predicts how customers will react to products, creative, and copy before anything goes live.\n* **Test on live auctions.** Design experiments where real spend is the readout, and simulations that test a policy before it touches customer money.\n* **Ship your own research.** Research here ends in production, not in a notebook: the system reprices every keyword hourly, and your models drive it.\n\n## What you bring\n\n* Depth in probability and statistics; Bayesian modeling is a working tool for you, not just a course you took.\n* You can tell a real effect from noise, and you design experiments that settle the question.\n* You write production-quality Python and are comfortable owning a model from data to deployment.\n* Taste for the simplest model that is correct, and honesty about uncertainty.\n* High agency and learning speed; comfortable with direct critique and an intense pace.\n\nExperience with auctions, advertising, reinforcement learning, or LLM-based simulation is useful but not required. A PhD is welcome; what matters is research you have taken all the way to a decision.\n\n## How we work\n\nWe care more about the truth than who is right. If you think a founder’s assumption is wrong, say so and show your reasoning. Expect the same openness when someone challenges yours.\n\nWe move quickly and take responsibility seriously. Grit shows up in the follow-up, the second investigation, and the difficult conversation you don’t put off. Agency means taking a useful first step and asking for help before you get stuck.\n\nWe’re honest with each other, own our mistakes, and help each other improve. We care about the people relying on our work.\n\n## Our values\n\n* **Relentless truth-seeking.** We are approaching this problem in a way nobody has before: there is no playbook, and there is no beaten path. We need to iterate toward the truth, both actively accepting uncomfortable realities and readily rejecting simple fictions.\n* **Strong beliefs weakly held.** Be intensely convicted while also being eager to be convinced. Innovation is earned: 90% of our ideas will turn out to be wrong and few will turn out to be right, but we need to execute with 100% dedication to tell which is which.\n* **Devotion to one another.** People fall; pick each other up. At the same time, be the best version of yourself: not just in terms of your individual actions, but how you exist and interact with a world of other similarly driven people.\n* **Default to “yes”.** If in doubt, believe your teammate until proven wrong. At worst, you’ll end up being right and your teammate learned something new. At best, you’ll have learned and we will all be better for it.\n* **Commitment to growth.** At every point in time, we exist as the worst versions of ourselves compared to all future selves. This is a blessing: try something new, take a risk, push yourself and take a shot in the dark. Inaction is the thief of betterment: treat every day as an opportunity to grow, and seize all the opportunities you get. Zürich, ZH, CH fulltime none\nlocations: Zürich, ZH, CH\nremote: no\nmin_experience: 1",
+      "match_score": 5.45,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-16T18:01:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.95,
+            "overlap": 8.94,
+            "combined": 5.45
+          },
+          "backend": {
+            "cosine": 3.39,
+            "overlap": 8.65,
+            "combined": 4.97
+          },
+          "frontend": {
+            "cosine": 2.99,
+            "overlap": 9.22,
+            "combined": 4.86
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.95,
+        "keyword_overlap_score": 8.94,
+        "final_score": 5.45,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1241
+          },
+          {
+            "term": "model",
+            "weight": 0.0754
+          },
+          {
+            "term": "real",
+            "weight": 0.0616
+          },
+          {
+            "term": "high",
+            "weight": 0.0502
+          },
+          {
+            "term": "risk",
+            "weight": 0.0502
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0e15236e62e3d0ac90a5fe507501d471",
+      "source": "yc",
+      "company": "Laurence",
+      "role": "Growth",
+      "url": "https://www.workatastartup.com/jobs/122978",
+      "jd_text": "Marketing is spreading across more channels every year: Amazon, Meta, retail marketplaces, delivery apps, and soon the AI assistants people shop through.\n\nLaurence (YC W26) is the frontier operating system for marketers. We run brands’ advertising with quantitative models and AI, with profit at the center. We started with Amazon, we’re expanding to Meta, and Laurence Simulations lets brands see how customers will react to their products, creative, and copy before anything goes live.\n\nBrands with $10M to $100M in annual revenue, including Pit Viper, Fi, and SPYLT, trust Laurence with their advertising. Customers typically increase profit by 15% to 40%.\n\nWe’re hiring someone in Growth to turn a product customers love into a pipeline that fills itself, across every product we build.\n\n## The team\n\nOur CEO, Matthew, was a machine learning engineer at Meta and Google. Our co-founder, Leo, was a quant at Jump Trading and a high-stakes poker professional. Our early team includes IMO and IOI medalists and people from Jane Street, Five Rings, BCG, and Salesforce.\n\nEveryone here works on the hardest problem in front of them, and you’ll learn faster here than anywhere else you could go.\n\nIn New York, you’ll work directly with Matthew and our Founding Growth lead.\n\n## The role\n\nToday our growth runs by hand: outbound from our own LinkedIn accounts, launch videos, landing pages, and the occasional article. It works, and it doesn’t scale. You’ll work directly with our CEO and our Founding Growth lead to build the engine that does. In practice, that means:\n\n* **Position and launch new products.** Help decide how each product we build is named, explained, priced, and launched, from Laurence Insights to Meta ads to Simulations, then write the pages, posts, and videos that introduce it.\n* **Run the self-serve funnel.** Laurence Insights starts at $99 a month with a two-week trial. Own the path from first visit to paid account to a conversation about Laurence Ads, and measure every step.\n* **Grow across channels.** Founder-led video, creator content, paid social, partnerships with the operators and newsletters our customers follow, and outbound. Find the channels that work for each product and audience, and scale them one at a time.\n* **Write what AI assistants and search engines read.** Comparison pages, explainers, and guides that answer the questions brands ask before they buy.\n* **Know what every channel costs.** Track the cost and payback of each one, double down on what works, and stop what doesn’t.\n\nYour work will show up in revenue within weeks, and you’ll shape how the market understands a new kind of marketing company.\n\n## What you bring\n\nYou likely have 1 to 4 years in growth, marketing, or content at a startup, or proof that you’ve grown something yourself: an audience, a newsletter, a product, or a side business. We’re especially interested in what you’ve personally made happen:\n\n* You’ve grown a channel and can show the numbers.\n* You write clearly and quickly, and can make a short video people watch to the end.\n* You’re comfortable with funnels, acquisition cost, and payback in a spreadsheet or SQL.\n* You run experiments every week and drop the ones that lose.\n* You use AI tools every day to do more on your own.\n\nExperience with ecommerce, Amazon, Meta ads, or B2B software marketing is useful. If you’re finishing school and have already grown something real, we want to hear from you.\n\n## How we work\n\nWe care more about the truth than who is right. If you think a founder’s assumption is wrong, say so and show your reasoning. Expect the same openness when someone challenges yours.\n\nWe move quickly and take responsibility seriously. Grit shows up in the follow-up, the second investigation, and the difficult conversation you don’t put off. Agency means taking a useful first step and asking for help before you get stuck.\n\nWe’re honest with each other, own our mistakes, and help each other improve. We care about the people relying on our work.\n\n## Our values\n\n* **Relentless truth-seeking.** We are approaching this problem in a way nobody has before: there is no playbook, and there is no beaten path. We need to iterate toward the truth, both actively accepting uncomfortable realities and readily rejecting simple fictions.\n* **Strong beliefs weakly held.** Be intensely convicted while also being eager to be convinced. Innovation is earned: 90% of our ideas will turn out to be wrong and few will turn out to be right, but we need to execute with 100% dedication to tell which is which.\n* **Devotion to one another.** People fall; pick each other up. At the same time, be the best version of yourself: not just in terms of your individual actions, but how you exist and interact with a world of other similarly driven people.\n* **Default to “yes”.** If in doubt, believe your teammate until proven wrong. At worst, you’ll end up being right and your teammate learned something new. At best, you’ll have learned and we will all be better for it.\n* **Commitment to growth.** At every point in time, we exist as the worst versions of ourselves compared to all future selves. This is a blessing: try something new, take a risk, push yourself and take a shot in the dark. Inaction is the thief of betterment: treat every day as an opportunity to grow, and seize all the opportunities you get. New York, NY, US fulltime yes\nlocations: New York, NY, US\nremote: no\nmin_experience: 1",
+      "match_score": 4.71,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-16T18:01:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.57,
+            "overlap": 7.62,
+            "combined": 4.08
+          },
+          "backend": {
+            "cosine": 2.28,
+            "overlap": 7.14,
+            "combined": 3.74
+          },
+          "frontend": {
+            "cosine": 2.78,
+            "overlap": 9.22,
+            "combined": 4.71
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 2.78,
+        "keyword_overlap_score": 9.22,
+        "final_score": 4.71,
+        "top_keywords": [
+          {
+            "term": "time",
+            "weight": 0.0515
+          },
+          {
+            "term": "directly",
+            "weight": 0.042
+          },
+          {
+            "term": "end",
+            "weight": 0.042
+          },
+          {
+            "term": "40",
+            "weight": 0.0172
+          },
+          {
+            "term": "90",
+            "weight": 0.0172
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2a3164f68d96f5e850e1057a85f71d3a",
+      "source": "yc",
+      "company": "Laurence",
+      "role": "Founder’s Associate",
+      "url": "https://www.workatastartup.com/jobs/122982",
+      "jd_text": "Laurence (YC W26) is the frontier operating system for marketers. We run brands’ advertising with quantitative models and AI, with profit at the center. Brands with $10M to $100M in annual revenue, including Pit Viper, Fi, and SPYLT, trust Laurence with their advertising, and customers typically increase profit by 15% to 40%.\n\nWe’re growing a team across New York and Zurich, and every hour a founder spends on paperwork is an hour not spent on customers, research, or the next product. We’re hiring a Founder’s Associate to take that work off our plate and run it better than we do.\n\n## The team\n\nOur CEO, Matthew, was a machine learning engineer at Meta and Google. Our co-founder, Leo, was a quant at Jump Trading and a high-stakes poker professional. Our early team includes IMO and IOI medalists and people from Jane Street, Five Rings, BCG, and Salesforce.\n\nEveryone here works on the hardest problem in front of them, and you’ll learn faster here than anywhere else you could go.\n\nYou’ll work directly with one of our founders: Leo in Zurich or Matt in New York.\n\n## The role\n\nYou’ll own everything that keeps the company running so the founders can focus on what only they can do. In practice, that means:\n\n* **Run the company’s operations.** Employment contracts, lawyers, accountants, banking, insurance, and the Swiss and US paperwork that comes with a company growing in two countries. Make each of them work the first time.\n* **Run hiring end to end.** Source candidates, schedule interviews, run assessments and work trials, send offers, and onboard every new person so they’re productive on day one.\n* **Run the founders’ week.** Calendars, meeting prep, follow-ups, and the commitments that slip through the cracks. Nothing waits on a founder that doesn’t need one.\n* **Support our biggest deals.** Prepare contracts, pricing paperwork, and materials for enterprise customers and investors, and keep every deal moving.\n* **Automate what you can.** Use AI agents to make the work you do this month take half the time next month.\n* **Take on whatever matters most.** Office setup, special projects, research for a founder’s decision. The scope grows as fast as you do.\n\nYou’ll see how a fast-growing company is built from the inside, sit in on the decisions that shape it, and earn more responsibility as quickly as you can take it.\n\n## What you bring\n\n* You’re extremely organized, and things you own get done the same day.\n* High agency: when something is blocked, you find another way or hand it off with a clear ask, instead of losing a day.\n* You write clearly and handle lawyers, accountants, candidates, and customers with the same care.\n* You use AI tools every day and like turning repeated work into systems.\n* Discretion with contracts, compensation, and company information.\n\nYou might be early in your career, coming from consulting, banking, operations, or a founder’s office, or you might have run something yourself. High-agency college dropouts who are hustlers are encouraged to apply. German, French, or Italian is useful for Swiss paperwork, but not required. In person in Zurich or New York.\n\n## How we work\n\nWe care more about the truth than who is right. If you think a founder’s assumption is wrong, say so and show your reasoning. Expect the same openness when someone challenges yours.\n\nWe move quickly and take responsibility seriously. Grit shows up in the follow-up, the second investigation, and the difficult conversation you don’t put off. Agency means taking a useful first step and asking for help before you get stuck.\n\nWe’re honest with each other, own our mistakes, and help each other improve. We care about the people relying on our work.\n\n## Our values\n\n* **Relentless truth-seeking.** We are approaching this problem in a way nobody has before: there is no playbook, and there is no beaten path. We need to iterate toward the truth, both actively accepting uncomfortable realities and readily rejecting simple fictions.\n* **Strong beliefs weakly held.** Be intensely convicted while also being eager to be convinced. Innovation is earned: 90% of our ideas will turn out to be wrong and few will turn out to be right, but we need to execute with 100% dedication to tell which is which.\n* **Devotion to one another.** People fall; pick each other up. At the same time, be the best version of yourself: not just in terms of your individual actions, but how you exist and interact with a world of other similarly driven people.\n* **Default to “yes”.** If in doubt, believe your teammate until proven wrong. At worst, you’ll end up being right and your teammate learned something new. At best, you’ll have learned and we will all be better for it.\n* **Commitment to growth.** At every point in time, we exist as the worst versions of ourselves compared to all future selves. This is a blessing: try something new, take a risk, push yourself and take a shot in the dark. Inaction is the thief of betterment: treat every day as an opportunity to grow, and seize all the opportunities you get. New York, NY, US Zürich, ZH, CH fulltime yes\nlocations: New York, NY, US Zürich, ZH, CH\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-16T18:01:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "5143b1442a6a21ce4e77d192d7b4a542",
+      "source": "yc",
+      "company": "Laurence",
+      "role": "Deployment Strategist",
+      "url": "https://www.workatastartup.com/jobs/108692",
+      "jd_text": "The biggest brands in the world still don’t know exactly where to put their marketing spend.\n\nLaurence (YC W26) is the frontier operating system for marketers. We’re replacing legacy rules of thumb with quantitative models and AI that decide where, when, and how much brands spend, with profit at the center.\n\nBrands with $10M to $100M in annual revenue, including Pit Viper, Fi, and SPYLT, trust Laurence with their advertising. Customers typically increase profit by 15% to 40%. Laurence is growing at blistering speed.\n\nWe’re hiring a Deployment Strategist to help turn that early traction into a company that serves the world’s leading consumer brands.\n\n## The team\n\nOur CEO, Matthew, was a machine learning engineer at Meta and Google. Our co-founder, Leo, was a quant at Jump Trading and a high-stakes poker professional. Our early team includes IMO and IOI medalists and people from Jane Street, Five Rings, BCG, and Salesforce.\n\nEveryone here works on the hardest problem in front of them, and you’ll learn faster here than anywhere else you could go.\n\nIn New York, you’ll work directly with the founders and our engineers on the accounts you own.\n\n## The role\n\nA CMO will ask why revenue is up but profit is down. You investigate what changed, separate what you know from what you need to learn, and bring the right problem to our engineers. You explain the plan to the customer and stay involved until you know whether it worked.\n\nThat’s the kind of responsibility this role carries. You need to understand the business, get into the numbers, and earn trust through honest conversations.\n\nYou’ll own a portfolio of accounts from onboarding through renewal and expansion. In practice, that means:\n\n* **Get brands off to a great start.** Understand their economics, agree on what success means, and lead onboarding with clear responsibilities and deadlines.\n* **Understand performance.** Investigate changes, challenge assumptions, and tell customers what you recommend and why.\n* **Turn customer problems into product improvements.** Give engineers the evidence and business context to solve problems across accounts. Help validate the result. Engineers own building and shipping the changes.\n* **Make the next account easier.** Build the reporting, onboarding, and escalation processes you wish had existed when you started.\n* **Earn the next commitment.** Make Laurence’s value clear, address renewal risks, and identify where a customer can achieve more with us.\n\nYou’ll work directly with founders, engineers, and brand leaders. You’ll learn to translate business needs into product decisions, understand what makes customers stay, and build the systems that let a company scale. The decisions you help make will show up in both our product and our customers’ businesses.\n\n## What you bring\n\nYou likely have 1 to 4 years in account management, customer success, strategy consulting, implementation, or startup operations. We’re especially interested in what you’ve personally made happen:\n\n* You’ve owned a customer relationship or important client deliverable and can explain the result you achieved.\n* You can take messy data into Excel or Google Sheets, check your assumptions, and explain how revenue, spend, and margins affect profit.\n* You’ve presented a recommendation to customers or senior stakeholders, handled pushback, and secured agreement on what happens next.\n* You learn unfamiliar software quickly and can investigate an issue well enough to give an engineer useful evidence.\n* You’ve delivered work involving competing deadlines and people across teams.\n\nExperience with technical products, Amazon advertising, performance marketing, or ecommerce is useful. We welcome exceptional candidates with less experience who can demonstrate these abilities.\n\n## How we work\n\nWe care more about the truth than who is right. If you think a founder’s assumption is wrong, say so and show your reasoning. Expect the same openness when someone challenges yours.\n\nWe move quickly and take responsibility seriously. Grit shows up in the follow-up, the second investigation, and the difficult conversation you don’t put off. Agency means taking a useful first step and asking for help before you get stuck.\n\nWe’re honest with each other, own our mistakes, and help each other improve. We care about the people relying on our work.\n\n## Our values\n\n* **Relentless truth-seeking.** We are approaching this problem in a way nobody has before: there is no playbook, and there is no beaten path. We need to iterate toward the truth, both actively accepting uncomfortable realities and readily rejecting simple fictions.\n* **Strong beliefs weakly held.** Be intensely convicted while also being eager to be convinced. Innovation is earned: 90% of our ideas will turn out to be wrong and few will turn out to be right, but we need to execute with 100% dedication to tell which is which.\n* **Devotion to one another.** People fall; pick each other up. At the same time, be the best version of yourself: not just in terms of your individual actions, but how you exist and interact with a world of other similarly driven people.\n* **Default to “yes”.** If in doubt, believe your teammate until proven wrong. At worst, you’ll end up being right and your teammate learned something new. At best, you’ll have learned and we will all be better for it.\n* **Commitment to growth.** At every point in time, we exist as the worst versions of ourselves compared to all future selves. This is a blessing: try something new, take a risk, push yourself and take a shot in the dark. Inaction is the thief of betterment: treat every day as an opportunity to grow, and seize all the opportunities you get. New York, NY, US fulltime yes\nlocations: New York, NY, US\nremote: no\nmin_experience: 1",
+      "match_score": 5.49,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-16T18:01:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.99,
+            "overlap": 8.61,
+            "combined": 4.67
+          },
+          "backend": {
+            "cosine": 2.76,
+            "overlap": 8.27,
+            "combined": 4.41
+          },
+          "frontend": {
+            "cosine": 3.06,
+            "overlap": 11.17,
+            "combined": 5.49
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 3.06,
+        "keyword_overlap_score": 11.17,
+        "final_score": 5.49,
+        "top_keywords": [
+          {
+            "term": "directly",
+            "weight": 0.0418
+          },
+          {
+            "term": "deployment",
+            "weight": 0.0342
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0342
+          },
+          {
+            "term": "experience",
+            "weight": 0.0342
+          },
+          {
+            "term": "problems",
+            "weight": 0.0342
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d62493829e9ed300f679acf43a8c4b8d",
+      "source": "yc",
+      "company": "Laurence",
+      "role": "Software Engineer, Product & Growth",
+      "url": "https://www.workatastartup.com/jobs/122981",
+      "jd_text": "Laurence (YC W26) is the frontier operating system for marketers. We run brands’ advertising with quantitative models and AI, with profit at the center. We started with Amazon, we’re expanding to Meta, and Laurence Simulations lets brands see how customers will react to their products, creative, and copy before anything goes live.\n\nBrands with $10M to $100M in annual revenue, including Pit Viper, Fi, and SPYLT, trust Laurence with their advertising. Customers typically increase profit by 15% to 40%.\n\n## The team\n\nOur CEO, Matthew, was a machine learning engineer at Meta and Google. Our co-founder, Leo, was a quant at Jump Trading and a high-stakes poker professional. Our early team includes IMO and IOI medalists and people from Jane Street, Five Rings, BCG, and Salesforce.\n\nEveryone here works on the hardest problem in front of them, and you’ll learn faster here than anywhere else you could go.\n\nIn New York, you’ll work directly with Matthew, building the product brands run their marketing on and the systems that bring them in.\n\n## The role\n\nYou’ll own what customers see and use, from the first visit to the daily workflow. In practice, that means:\n\n* **Build the platform marketers run their business on.** The product customers open every day to see what’s working, why, and what Laurence is doing about it.\n* **Build the agentic layer.** The agents that answer customers’ questions and run accounts, our MCP server, and the internal tools that give our team outsized leverage.\n* **Own self-serve growth.** Onboarding, trials, billing, and the path from a first visit to a paying customer, measured at every step.\n* **Launch new products.** Ship Meta, Laurence Simulations, and whatever we build next, from first prototype to the launch page.\n* **Work close to customers.** Join calls, watch how brands use what you built, and fix what slows them down that week.\n\n## What you bring\n\n* Strong full-stack fundamentals and product taste; you’ve shipped things people use and can explain why they work.\n* You already build with AI agents every day, and you’re excited by what they can do inside a product.\n* You care about growth numbers as much as code: signups, activation, retention.\n* You ship quickly and own what you ship, from design to production to the follow-up.\n* High agency and learning speed; comfortable with ambiguity, direct critique, and an intense pace.\n\nOur stack is TypeScript and Next.js, Python and FastAPI, ClickHouse, and Postgres. No specific degree, employer, or Amazon experience is required.\n\n## How we work\n\nWe care more about the truth than who is right. If you think a founder’s assumption is wrong, say so and show your reasoning. Expect the same openness when someone challenges yours.\n\nWe move quickly and take responsibility seriously. Grit shows up in the follow-up, the second investigation, and the difficult conversation you don’t put off. Agency means taking a useful first step and asking for help before you get stuck.\n\nWe’re honest with each other, own our mistakes, and help each other improve. We care about the people relying on our work.\n\n## Our values\n\n* **Relentless truth-seeking.** We are approaching this problem in a way nobody has before: there is no playbook, and there is no beaten path. We need to iterate toward the truth, both actively accepting uncomfortable realities and readily rejecting simple fictions.\n* **Strong beliefs weakly held.** Be intensely convicted while also being eager to be convinced. Innovation is earned: 90% of our ideas will turn out to be wrong and few will turn out to be right, but we need to execute with 100% dedication to tell which is which.\n* **Devotion to one another.** People fall; pick each other up. At the same time, be the best version of yourself: not just in terms of your individual actions, but how you exist and interact with a world of other similarly driven people.\n* **Default to “yes”.** If in doubt, believe your teammate until proven wrong. At worst, you’ll end up being right and your teammate learned something new. At best, you’ll have learned and we will all be better for it.\n* **Commitment to growth.** At every point in time, we exist as the worst versions of ourselves compared to all future selves. This is a blessing: try something new, take a risk, push yourself and take a shot in the dark. Inaction is the thief of betterment: treat every day as an opportunity to grow, and seize all the opportunities you get. New York, NY, US fulltime yes\nlocations: New York, NY, US\nremote: no\nmin_experience: 1",
+      "match_score": 5.76,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-16T18:01:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.83,
+            "overlap": 10.26,
+            "combined": 5.76
+          },
+          "backend": {
+            "cosine": 3.18,
+            "overlap": 10.15,
+            "combined": 5.27
+          },
+          "frontend": {
+            "cosine": 3.45,
+            "overlap": 10.19,
+            "combined": 5.47
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 3.83,
+        "keyword_overlap_score": 10.26,
+        "final_score": 5.76,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.0895
+          },
+          {
+            "term": "stack",
+            "weight": 0.0597
+          },
+          {
+            "term": "agents",
+            "weight": 0.0483
+          },
+          {
+            "term": "ai",
+            "weight": 0.0483
+          },
+          {
+            "term": "high",
+            "weight": 0.0483
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3f8ee0e9673caa463d86e9d01c0cbdfd",
+      "source": "yc",
+      "company": "Laurence",
+      "role": "Software Engineer, Research",
+      "url": "https://www.workatastartup.com/jobs/122980",
+      "jd_text": "Laurence (YC W26) is the frontier operating system for marketers. We run brands’ advertising with quantitative models and AI, with profit at the center. Brands with $10M to $100M in annual revenue, including Pit Viper, Fi, and SPYLT, trust Laurence with their advertising, and customers typically increase profit by 15% to 40%.\n\nOur models decide, every hour, where real money goes across our customers’ ad accounts. We’re building the research team behind them in Zurich.\n\n## The team\n\nOur CEO, Matthew, was a machine learning engineer at Meta and Google. Our co-founder, Leo, was a quant at Jump Trading and a high-stakes poker professional. Our early team includes IMO and IOI medalists and people from Jane Street, Five Rings, BCG, and Salesforce.\n\nEveryone here works on the hardest problem in front of them, and you’ll learn faster here than anywhere else you could go.\n\nIn Zurich, you’ll work directly with Leo and our research team, building the systems that turn research into decisions on live ad accounts.\n\n## The role\n\nOur researchers build models that decide where real money goes. You’ll build everything those models stand on. In practice, that means:\n\n* **Run the decision engine.** Own the pipeline that reprices every keyword every hour across our customers’ accounts. Make it fast, correct, and safe to change.\n* **Build the data the models learn from.** Ingest ad, sales, and marketplace data at scale, and keep the warehouse that holds every click, order, and dollar trustworthy.\n* **Make research fast.** Build the compute, experiment tooling, and dry runs that let a researcher go from an idea to a tested policy in days, not weeks.\n* **Take the engine to new channels.** Extend the systems behind Amazon to Meta, and build the infrastructure behind Laurence Simulations.\n* **Ship research to production.** Work side by side with researchers to turn a model into a system that runs on its own every hour.\n\n## What you bring\n\n* Strong backend, data, and distributed systems fundamentals; you have built real systems and can reason about them from first principles.\n* Comfort with numbers: you can read a model, question its outputs, and spot when data is wrong.\n* You already build with AI agents every day.\n* You ship quickly and own what you ship, from design to production to the follow-up.\n* High agency and learning speed; comfortable with direct critique and an intense pace.\n\nOur stack is Python, ClickHouse, Postgres, and cloud compute for model fitting. Experience with quantitative or trading systems is useful, but no specific degree, employer, or Amazon experience is required.\n\n## How we work\n\nWe care more about the truth than who is right. If you think a founder’s assumption is wrong, say so and show your reasoning. Expect the same openness when someone challenges yours.\n\nWe move quickly and take responsibility seriously. Grit shows up in the follow-up, the second investigation, and the difficult conversation you don’t put off. Agency means taking a useful first step and asking for help before you get stuck.\n\nWe’re honest with each other, own our mistakes, and help each other improve. We care about the people relying on our work.\n\n## Our values\n\n* **Relentless truth-seeking.** We are approaching this problem in a way nobody has before: there is no playbook, and there is no beaten path. We need to iterate toward the truth, both actively accepting uncomfortable realities and readily rejecting simple fictions.\n* **Strong beliefs weakly held.** Be intensely convicted while also being eager to be convinced. Innovation is earned: 90% of our ideas will turn out to be wrong and few will turn out to be right, but we need to execute with 100% dedication to tell which is which.\n* **Devotion to one another.** People fall; pick each other up. At the same time, be the best version of yourself: not just in terms of your individual actions, but how you exist and interact with a world of other similarly driven people.\n* **Default to “yes”.** If in doubt, believe your teammate until proven wrong. At worst, you’ll end up being right and your teammate learned something new. At best, you’ll have learned and we will all be better for it.\n* **Commitment to growth.** At every point in time, we exist as the worst versions of ourselves compared to all future selves. This is a blessing: try something new, take a risk, push yourself and take a shot in the dark. Inaction is the thief of betterment: treat every day as an opportunity to grow, and seize all the opportunities you get. Zürich, ZH, CH fulltime none\nlocations: Zürich, ZH, CH\nremote: no\nmin_experience: 1",
+      "match_score": 6.87,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-16T18:01:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.27,
+            "overlap": 10.6,
+            "combined": 6.87
+          },
+          "backend": {
+            "cosine": 5.09,
+            "overlap": 10.15,
+            "combined": 6.61
+          },
+          "frontend": {
+            "cosine": 3.87,
+            "overlap": 11.65,
+            "combined": 6.2
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.27,
+        "keyword_overlap_score": 10.6,
+        "final_score": 6.87,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1208
+          },
+          {
+            "term": "data",
+            "weight": 0.08
+          },
+          {
+            "term": "ad",
+            "weight": 0.0734
+          },
+          {
+            "term": "model",
+            "weight": 0.0734
+          },
+          {
+            "term": "real",
+            "weight": 0.06
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cf4de8662d97c5d9f6ac5755e2f0b7bb",
+      "source": "yc",
+      "company": "SureBright",
+      "role": "Software Engineer, Founder’s Office",
+      "url": "https://www.workatastartup.com/jobs/95252",
+      "jd_text": "**Location: Gurgaon, India (in-person)\\\nType: Full-time**\n\nSureBright is building the world’s first AI-native, agentic warranty company. In line with that, we’re looking for a high-agency software engineer to work directly with the founders on fast-moving experiments, internal tools, prototypes, growth automations, and website/product initiatives. This is not a traditional engineering role where you only pick up tickets from a roadmap. You’ll help identify opportunities, build scrappy first versions, automate workflows, launch experiments quickly, and turn winning ideas into reliable systems.\n\n**What you’ll do**\n\n* Create automations for sales, marketing, GTM, and ops workflows\n* Build and maintain websites, landing pages, forms, and conversion flows\n* Build small experiments, prototypes, and internal tools at high speed\n* Work on integrations with CRMs, analytics tools, marketing tools, and internal systems\n* Use AI coding tools, especially Claude Code, to accelerate development and shipping velocity\n* Help team test new ideas quickly before they are scaled into core product\n* Improve internal workflows through scripts, dashboards, lightweight apps, and agentic automations\n* Own projects end-to-end: scoping, building, shipping, measuring results, and iterating\n\n**Examples of projects you may work on**\n\n* Build a prototype for a new D2C purchase or claims experience\n* Launch a landing page experiment tied to paid campaigns or outbound sales\n* Create internal tools to automate lead enrichment, outreach workflows, or reporting\n* Build AI-powered workflows for support, GTM, or internal research\n* Maintain and improve company websites and growth-focused product surfaces\n* Connect tools like HubSpot, analytics platforms, email systems, and internal databases\n\n**Who you are**\n\n* You are highly technical, fast, and resourceful\n* You enjoy ambiguity and can turn rough ideas into working software quickly\n* You care about business outcomes, not just code quality in isolation\n* You are comfortable jumping between product, growth, ops, and engineering tasks\n* You like building from 0 to 1 and can ship without heavy process\n* You use modern AI coding tools fluently and know how to get real leverage from them\n\n**Requirements**\n\n* Strong software engineering fundamentals\n* Strong proficiency with Claude Code and AI-assisted development workflows\n* Experience building web apps, scripts, automations, and integrations end-to-end\n* Comfortable working across frontend, backend\n* Ability to ship prototypes fast without losing good engineering judgment\n* Strong problem-solving and communication skills\n* Comfortable working directly with founders and non-technical stakeholders\n\n**Strong preference for**\n\n* Experience in startup environments or founder’s office / special projects roles\n* Experience with growth engineering, GTM engineering, marketing automations, or internal tools\n* Experience building and maintaining websites and landing pages\n* Familiarity with modern JavaScript/TypeScript stacks, Python, APIs, automation tools, and cloud deployment\n* Experience integrating AI/LLM workflows into real business processes\n\n**What success looks like**\n\n* You ship fast and create measurable business impact\n* Experiments go live quickly and are instrumented properly\n* Internal teams become faster because of the tools and automations you build\n* You are trusted by the team to take rough ideas and turn them into useful systems without heavy oversight\n\n**Why this role is exciting**\n\n* Very high ownership and direct founder access\n* Broad scope across growth, sales, marketing, GTM, operations, and product\n* Opportunity to work on real AI-native workflows, not just traditional software features\n* Chance to help build a category-defining company in a massive industry\n* Your work will directly influence revenue, efficiency, and product direction\n\n**How to Apply**\n\n* Please ensure your profile is up to date and includes a link to your LinkedIn.\n* Answer application questions. Gurugram, HR, IN Gurugram, Haryana, IN DL, IN Delhi, IN jobs_skill 63 JavaScript 314 jobs_skill 107 Python 288 jobs_skill 324 LLMs 0 jobs_skill 331 AI Agents 0 fulltime none\nlocations: Gurugram, HR, IN Gurugram, Haryana, IN DL, IN Delhi, IN\nremote: no\nmin_experience: 1",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-16T18:01:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "31867d361d7c8f45fb3e57abea8b5c21",
+      "source": "yc",
+      "company": "Solve Intelligence",
+      "role": "Talent Acquisition Partner",
+      "url": "https://www.workatastartup.com/jobs/123007",
+      "jd_text": "# **Talent Acquisition Partner**\n\nHelp take Solve Intelligence 3x in a single year. We’re looking for a recruiter with strong engineering hiring experience who wants to recruit across the business and help build our talent function.\n\n## **🏗️ About the role**\n\nYou’ll be an early hire in our talent team, owning searches from first outreach through to signed offer. Engineering recruitment will be a core part of your remit, alongside GTM, legal, operations and other functions as the business grows. You’ll need to enjoy that breadth and get to grips with unfamiliar roles quickly.\n\nYou’ll be responsible for:\n\n- Running multiple searches across engineering, AI research, GTM, legal and operations, from understanding the requirements to closing the offer.\n\n- Building pipelines through direct sourcing, using targeted outreach and newer AI sourcing tools to find candidates beyond inbound applications and agencies.\n\n- Deciding which searches need your attention most, understanding the business priorities behind them, and flagging risks early.\n\n- Working with hiring managers to define what each role requires and design assessments that help us make hiring decisions. You’ll need enough technical understanding to assess engineering candidates and discuss your judgement with the team.\n\n- Improving hiring quality and offer acceptance by understanding candidates’ motivations early and closing people with competing offers.\n\n- Keeping candidates informed throughout the process, with thoughtful outreach, timely updates and honest communication.\n\n- Helping build the talent function: keeping Ashby accurate, improving workflows and contributing to projects beyond your own searches.\n\n**🚀 Who you are**\n\nYou’ve hired frontend, backend, full-stack and AI engineers, and you understand the differences between those searches. You can read a technical CV critically and hold a substantive first conversation with an engineer.\n\nYour recent experience is either in-house at an early-stage startup or at a recruitment firm working with technical companies that set a high hiring bar. You’re comfortable working with limited support and deciding what needs your attention without waiting for direction.\n\nYou care about how recruitment is run. That shows in the outreach you send and the assessment notes hiring managers use to make decisions. You keep Ashby up to date, and candidates know where they stand.\n\n## **🛠️ What you bring**\n\n## Must haves\n\n- Direct experience hiring frontend, backend, full-stack and AI engineers.\n\n- Recent success in an in-house talent role at an early-stage startup, ideally VC-backed, with minimal support; or at a recruitment firm working with technical companies with a high hiring bar.\n\n- Experience using Ashby, ideally including improving how it is configured or used.\n\n- Hands-on sourcing experience and the ability to build a pipeline from scratch.\n\n- Fluency with newer AI sourcing tools, beyond LinkedIn Recruiter.\n\n- Strong written communication. Your outreach and candidate updates should be good enough to share as examples.\n\n- Demonstrated ability to close candidates with competing offers.\n\n- The ability to pick up new roles, understand requirements quickly and build processes from scratch.\n\n## Nice to haves\n\n- An agency or search firm background earlier in your career.\n\n- Experience building AI-powered recruiting workflows.\n\n- Experience hiring across multiple countries.\n\n## **🎁 What we offer**\n\n- £70,000 – £110,000 base salary depending on experience\n\n- Significant equity; we want you to take real ownership in Solve Intelligence\n\n- Full visa sponsorship\n\n- Opportunity to help build the talent function of a generational AI company\n\n- Private medical insurance\n\n- Free meals\n\n## **🚀 About Solve Intelligence**\n\nSolve Intelligence is the fastest-growing startup transforming the IP landscape. Solve's AI platform manages everything from invention harvesting and patent generation through to litigation and licensing.\n\n**Growth:** 20–30% MoM revenue growth; selling to 700+ global IP teams across 6 continents (DLA Piper, tech giants, boutiques, etc); 8 figures of ARR — all just ~2 years since we started.\n\n**Backing:** $55M backing from YC, 20VC, Microsoft, Thomson Reuters, and the founders of top companies like Stripe, Perplexity, Tinder, Deel, Hugging Face, and Canva.\n\n**Impact:** 50–90% efficiency and quality improvements.\n\nSee[ our latest Series B announcement ](https://www.solveintelligence.com/blog/post/solve-intelligence-raises-40m-series-b-to-build-ai-for-patents-and-launches-charts).\n\nWe're on a high-growth trajectory, and we're looking for people who want to join us on the journey to building a generational AI company.\n\nCome join the rocket ship 🚀\n\n## **👥 Meet the founders**\n\n**Sanj (Chief Research Officer and Co-Founder):** Sanj did his MSci in Physics at the University of Cambridge and his PhD in AI at the Gatsby Unit, UCL. He won awards at top AI conferences, worked on the R&D team at Huawei, and received widespread attention for his contributions to open-source LLM projects on GitHub. He joined Magic Carpet AI as employee #4, where he developed AI strategies for trading, before the company was acquired.\n\n**Chris (Chief Executive Officer and Co-Founder):** Chris did his undergrad at Imperial College London, his masters at the University of Cambridge, and his PhD in machine learning at UCL, during which he published 10+ papers and won awards at top AI conferences and journals. Prior to founding Solve, Chris worked at The Alan Turing Institute, InstaDeep, and Dyson.\n\n**Angus (Chief Technology Officer and Co-Founder):** Angus holds an MEng in Computer Science. He led trade platform development at Coremont after roles at GCHQ and Qualcomm.\n\n London fulltime yes\nlocations: London\nremote: no",
+      "match_score": 7.3,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-16T18:01:13+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.6,
+            "overlap": 11.26,
+            "combined": 7.3
+          },
+          "backend": {
+            "cosine": 4.92,
+            "overlap": 9.77,
+            "combined": 6.37
+          },
+          "frontend": {
+            "cosine": 3.94,
+            "overlap": 12.14,
+            "combined": 6.4
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.6,
+        "keyword_overlap_score": 11.26,
+        "final_score": 7.3,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2737
+          },
+          {
+            "term": "experience",
+            "weight": 0.1194
+          },
+          {
+            "term": "recruitment",
+            "weight": 0.0902
+          },
+          {
+            "term": "team",
+            "weight": 0.0676
+          },
+          {
+            "term": "technical",
+            "weight": 0.0597
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "4ae121ebdbbdc142d368c794d4958c2f",
       "source": "wellfound",
