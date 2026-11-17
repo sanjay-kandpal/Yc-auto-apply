@@ -1,15 +1,206 @@
 {
-  "exported_at": "2026-11-17T12:51:14+00:00",
+  "exported_at": "2026-11-17T23:24:42+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1266,
+    "discovered": 1269,
     "pending_approval": 295,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "8a7f7a91c1791e7eeddaef7c50eebc67",
+      "source": "yc",
+      "company": "GoGoGrandparent",
+      "role": "Field Marketing Manager",
+      "url": "https://www.workatastartup.com/jobs/123286",
+      "jd_text": "### **Company Background**\n\nGoGoGrandparent’s (GoGo’s) mission is to help older adults live independently in their home for as long as possible. We do that by tailoring existing on demand applications like Uber and DoorDash to the needs of people living with mobility, visual, cognitive and dexterity impairments. Our service is a virtual caregiver that monitors the instrumental activities of daily living (mobility, meals, groceries, medication delivery &amp; home management) for tens of thousands of older adults around the United States. Our team of 600 is operating profitably &amp; has not raised venture capital financing to date. The company was started in 2016 and inspired by the cofounder’s grandmother, who still uses us to this day.\n\n### **Job Summary**\n\nAs our Local Field Marketing Manager, you'll be responsible for growing GoGoGrandparent's presence and customer base throughout the Dallas-Fort Worth area.\n\nThis is a highly hands-on role for someone who’s a self-starter and enjoys being out in the field building strong relationships with local networks and turning ideas into action. You'll have significant flexibility to experiment with different marketing channels and tactics, from traditional media and local partnerships to community events and grassroots marketing.\n\nYou'll work closely with our broader growth team to identify opportunities, understand the local market, develop campaigns, and execute initiatives that drive awareness, customer acquisition, and ultimately membership growth.\n\nNo two days will necessarily look the same. One day you might be coordinating a local media campaign, the next attending a senior community event, interviewing customers to better understand their needs, or brainstorming a new way to get GoGo in front of potential members.\n\n**This is a fully remote position but must be based in the USA.**\n\n### **Responsibilities**\n\n* **Own local growth:** Develop and execute marketing initiatives that increase GoGoGrandparent's awareness, customer acquisition, and membership throughout Dallas-Fort Worth.\n* **Build community relationships:** Develop relationships with senior living communities, local organizations, healthcare providers, community groups, and other potential referral partners.\n* **Get out in the field:** Represent GoGoGrandparent at local events, community gatherings, and other opportunities to engage directly with potential customers.\n* **Talk to customers:** Conduct customer interviews, gather feedback, understand barriers to adoption, and identify opportunities to improve our marketing and customer experience.\n* **Explore new marketing channels:** Identify and test opportunities across traditional and nontraditional marketing, including TV, radio, print, direct mail, out-of-home (OOH), events, community outreach, and local partnerships.\n* **Partner with the digital marketing team:** Collaborate with our internal digital team to grow GoGo's presence across paid search, paid social, and other digital channels in the DFW market. Help identify local opportunities, develop market-specific strategies, coordinate campaigns, and ensure our digital and offline marketing efforts work together.\n* **Execute campaigns:** Coordinate everything from initial brainstorming and planning to vendor outreach, creative development, logistics, launch, and performance measurement.\n* **Experiment and learn:** Test new ideas, measure results, identify what's working, and quickly adjust when something isn't.\n* **Collaborate across teams:** Work closely with the broader growth, digital, operations, and customer experience teams to share insights and turn local opportunities into scalable initiatives.\n* **Manage the details:** Keep projects, budgets, timelines, vendors, and campaign performance organized and moving forward.\n\n### **Skills &amp; Qualifications**\n\n* Bachelor’s degree, preferably in marketing, business administration, or related fields.\n* 4-7 Years of experience in marketing, with strong emphasis on  field marketing, local marketing, brand marketing, or an agency environment to drive growth.\n* A highly organized individual who can manage multiple projects, prioritize effectively, and follow through on details.\n* Someone who is scrappy, resourceful, and comfortable figuring things out without a playbook.\n* Strong communication and interpersonal skills with a high comfort level talking to older adults, interviewing customers, networking with community organizations, and representing a brand in person.\n* A self-starter who takes ownership and proactively identifies opportunities rather than waiting for direction.\n* A collaborative team player who enjoys working with people across different functions.\n* Creative problem-solving skills and a willingness to try things that haven't been done before.\n* Comfortable working across a variety of marketing channels. Experience with traditional media, events, print, radio, TV, OOH, or local partnerships is a plus, but a willingness and ability to learn quickly is equally important.\n* An analytical mindset and an interest in understanding which activities actually drive results.\n* Familiarity with the Dallas-Fort Worth senior &amp; healthcare provider communities is a plus.\n\n### **Benefits**\n\n* Healthcare Insurance (Medical, Dental, Vision)\n* 8 Paid company holidays + 4 Cultural days\n* Personal Time-off of 15 days\n* 401k Plan\n* Parental leave\n* $200 monthly rides credit  fulltime yes\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-17T23:24:39+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "270404b4ecb9c9be31cb40bc01d31356",
+      "source": "yc",
+      "company": "Evidence",
+      "role": "Founding GTM Lead",
+      "url": "https://www.workatastartup.com/jobs/123109",
+      "jd_text": "# Founding GTM Lead\n\nEvidence is building the new standard for business intelligence, designed for a world where humans and AI agents work together on analytics.\n\nAt the foundation is Evidence Core, our open source framework for building reports and data products as code. On top of it, we're building Evidence Studio: a complete enterprise business intelligence platform combining an AI analytics agent with access control, enterprise security, and governance.\n\nThousands of organizations use Evidence, from startups to Fortune 100 companies. We've built a product people love, a substantial open source community, and a growing enterprise business.\n\nWe're now looking for someone to help us bring Evidence to a much larger audience.\n\n## What you'll do\n\nYou'll work directly with our cofounder and CEO to build Evidence's growth engine. We're a small team, and you'll have enormous ownership over how we reach new customers.\n\nOur goal is to build repeatable systems that consistently generate qualified opportunities for our team.\n\nThere's a lot to work with. Our large open source community (7,000+ GitHub stars) and growing customer base give you a head start: an established audience, a steady stream of new product capabilities, and interesting customer stories waiting to be told.\n\nSome of the things you'll work on:\n\n* **Writing and content:** Create excellent technical articles, product explainers, emails, videos, and other content that helps people understand what Evidence can do.\n* **Product marketing:** Turn new features and product releases into compelling announcements, landing pages, and campaigns that drive adoption and demand.\n* **Web and landing pages:** Build and iterate on marketing pages, product pages, and campaign landing pages using AI coding tools, without depending on engineering for every change.\n* **Customer stories:** Work with our customers and sales team to turn interesting use cases into case studies, articles, and other marketing materials.\n* **Distribution and growth:** Find creative ways to reach new audiences through social media, email, communities, events, and other channels, turning attention into qualified opportunities.\n* **Marketing infrastructure:** Build and improve the systems we use to understand our audience, track engagement, run campaigns, and measure results, using AI and automation to work more effectively.\n\nYou'll be encouraged to experiment, measure results, and double down on what works. We care much more about generating real customer interest than producing perfect strategies.\n\n## Your first 30 days\n\nWe move quickly, and you'll start making an impact right away.\n\n* **First week:** Get familiar with Evidence, meet some of our customers, and build something with our product. Publish your first piece of content.\n* **First two weeks:** Ship your first product announcement or feature page, and start experimenting with distribution.\n* **First month:** Launch your first end-to-end marketing campaign, from identifying an audience and crafting a message to distribution and measuring results.\n\nBy the end of your first month, you'll have shipped real work, learned from the results, and started building repeatable processes for reaching new customers.\n\n## The kind of person we're looking for\n\n* **You're a great writer.** You can explain technical ideas clearly, make them interesting, and persuade without resorting to marketing jargon. You have strong editorial judgment, care deeply about the quality of your work, and enjoy writing.\n* **You're technically inclined.** You don't need to be a software engineer, but you're comfortable using AI tools to build web pages and ship things yourself.\n* **You have a bias toward getting things done.** You'd rather build and ship something than spend weeks planning it.\n* **You're analytical and commercially minded.** You want to understand what drives customer acquisition, measure the results of your work, and continuously improve.\n* **You're excited about the capabilities of AI** and are constantly experimenting with new ways to move faster, without compromising on quality.\n* **You're serious about building a career in marketing or GTM.** You want to become exceptional at your craft, take on increasingly challenging work, and grow into greater ownership and responsibility. You're excited by the opportunity to help build a marketing function from the ground up.\n* You probably have 1–3 years of experience in marketing, ideally at a technical startup. But we care much more about your rate of learning, judgment, and what you can do than how long you've been doing it.\n\nThis is an opportunity to build a growth function from the ground up, working directly with the founders of a growing software company.\n\nIf this sounds like you, we'd like to hear from you.\n\n## About Evidence\n\nEvidence is the leading BI-as-code platform and the best way to run business intelligence with AI agents.\n\nEvidence Core is the most popular framework for building reports, decision support tools, and dashboards with code. It powers analytics at thousands of organizations, including several Fortune 100 companies.\n\nEvidence Studio is a complete enterprise business intelligence platform built around Evidence Core, combining an AI analytics agent with access control, enterprise security, and governance. Evidence Studio powers analytics at hundreds of organizations.\n\nEvidence was founded in 2021 by Sean Hughes and Adam McAskill. Prior to founding Evidence, Sean and Adam built the data science team at Canada's leading private equity fund.\n\nEvidence is venture-backed, with support from leading institutions and angels, including Y Combinator, SV Angel, A Capital, Tristan Handy (founder of dbt), and Andrew Miklas (founder of PagerDuty and YC partner). Toronto, ON, CA Toronto, Ontario, CA fulltime none\nlocations: Toronto, ON, CA Toronto, Ontario, CA\nremote: no\nmin_experience: 1",
+      "match_score": 6.55,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-17T23:24:39+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.67,
+            "overlap": 10.93,
+            "combined": 6.54
+          },
+          "backend": {
+            "cosine": 4.3,
+            "overlap": 11.65,
+            "combined": 6.51
+          },
+          "frontend": {
+            "cosine": 4.13,
+            "overlap": 11.65,
+            "combined": 6.39
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.67,
+        "keyword_overlap_score": 10.93,
+        "final_score": 6.55,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.1276
+          },
+          {
+            "term": "team",
+            "weight": 0.0788
+          },
+          {
+            "term": "analytics",
+            "weight": 0.0652
+          },
+          {
+            "term": "end",
+            "weight": 0.0478
+          },
+          {
+            "term": "open",
+            "weight": 0.0478
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "637e9c18edbf171128beefe53ef60e99",
+      "source": "yc",
+      "company": "Corgi",
+      "role": "Financial Operations Associate",
+      "url": "https://www.workatastartup.com/jobs/95667",
+      "jd_text": "£80,000 - £150,000 | Equity Options\n\nLocations: London, UK.\n\n## **About Corgi**\n\nCorgi is a full-stack insurance carrier building better, faster insurance products for startups. We underwrite and issue policies directly, with fewer handoffs and less friction. Cutting out intermediaries lets us tailor coverage to how companies actually operate and price risk more efficiently.\n\nWe form and operate insurance companies from the ground up, using AI and software to automate the workflows traditionally handled by large teams of brokers, underwriters, TPAs, accountants, and operations staff. Our goal is not to incrementally improve insurance, it is to rebuild the industry infrastructure itself.\n\nWe move quickly, care deeply about talent density, and hire people who want to solve difficult problems with unusually high ownership.\n\n## **The Role**\n\nWe’re hiring a **Financial Operations Associate** to help build and scale the financial backbone of Corgi.\n\nThis role sits at the intersection of finance, accounting, and operations. You’ll help ensure money moves correctly, systems work cleanly, and financial processes scale with the business. This is not a purely administrative role— we want someone who enjoys bringing order to complexity, improving systems, and taking ownership of important operational workflows.\n\nYou’ll work closely with finance, accounting, and leadership teams to help keep the company running smoothly.\n\n## **What You'll Do**\n\n* Support day-to-day financial operations across the business.\n* Manage and track payments, vendor relationships, and financial workflows.\n* Assist with reconciliations, reporting, and month-end processes.\n* Help oversee payroll funding and internal financial transfers.\n* Maintain accurate financial records and operational documentation.\n* Identify inefficiencies and help improve financial systems and processes.\n* Coordinate across teams to ensure financial information is accurate and timely.\n* Support audits, compliance, and operational finance projects as needed.\n* Take ownership of special projects and operational problem-solving.\n\n## **What We're Looking For**\n\n* 3-5 years of experience in finance, accounting, operations, bookkeeping, AP/AR, or related roles.\n* Highly organized with strong attention to detail.\n* Comfortable working with spreadsheets and financial systems.\n* Reliable and able to manage multiple moving pieces at once.\n* Strong follow-through and ownership mentality.\n* Comfortable in a fast-moving environment with evolving processes.\n* Clear communicator who works well cross-functionally.\n* Experience with payroll, accounting software, or financial systems is a plus but not required.\n\n## **You Might Be a Fit If You...**\n\n* Like making messy processes run smoothly.\n* Notice details that other people miss.\n* Enjoy building systems and improving workflows.\n* Want meaningful ownership and broad exposure.\n* Take pride in keeping important operations running well.\n\n## **Why Join Corgi**\n\n* High ownership and meaningful responsibility.\n* Opportunity to help build finance and operations from the ground up.\n* Smart, curious, and collaborative team.\n* Competitive compensation and benefits.\n* A chance to help reinvent insurance. London, England, GB fulltime yes\nlocations: London, England, GB\nremote: no\nmin_experience: 3",
+      "match_score": 4.38,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-17T23:24:39+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.05,
+            "overlap": 7.95,
+            "combined": 3.82
+          },
+          "backend": {
+            "cosine": 1.63,
+            "overlap": 7.14,
+            "combined": 3.28
+          },
+          "frontend": {
+            "cosine": 2.51,
+            "overlap": 8.74,
+            "combined": 4.38
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 2.51,
+        "keyword_overlap_score": 8.74,
+        "final_score": 4.38,
+        "top_keywords": [
+          {
+            "term": "workflows",
+            "weight": 0.0754
+          },
+          {
+            "term": "improving",
+            "weight": 0.0569
+          },
+          {
+            "term": "associate",
+            "weight": 0.0377
+          },
+          {
+            "term": "experience",
+            "weight": 0.0377
+          },
+          {
+            "term": "projects",
+            "weight": 0.0377
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "e4444a59ee1cb560f40e7738f757eec3",
       "source": "yc",
