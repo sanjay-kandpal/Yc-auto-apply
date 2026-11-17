@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-11-16T20:09:41+00:00",
+  "exported_at": "2026-11-17T02:51:08+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1259,
+    "discovered": 1260,
     "pending_approval": 295,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "8d593ffde18188c6d8070d8f96bd113c",
+      "source": "yc",
+      "company": "GoGoGrandparent",
+      "role": "Senior Product Manager",
+      "url": "https://www.workatastartup.com/jobs/123111",
+      "jd_text": "### **About the Company**\n\nGoGoGrandparent’s (GoGo’s) mission is to help older adults live independently in their home for as long as possible. We do that by tailoring existing on demand apps to the needs of people living with mobility, visual, cognitive and dexterity impairments and letting older adults use them by making a phone call. After ordering, our service becomes a virtual caregiver that monitors the instrumental activities of daily living (mobility, meals, groceries, medication delivery &amp; home management) for tens of thousands of older adults around the United States. We’re profitable, have been around since 2016 &amp; haven’t raised any venture capital financing to date. The company was inspired by the cofounder’s grandmother, who still uses us to this day (she’s turning 95 in March)!\n\n**This is a fully remote position located in the United States**\n\n### Job Summary\n\nThe Senior Product Manager will have broad autonomy to design and build solutions across multiple areas of the business, with a focus on improving customer experience, operational efficiency, and profitability.\n\nThe role is responsible for leading product initiatives across multiple business lines from identifying problems and designing solutions through development, launch, and iteration. It involves developing automated solutions, improving internal tools and customer-facing experiences, and identifying opportunities for measurable business impact. This includes working closely with operational teams, designing intuitive user experiences, analyzing data, and running rigorous A/B tests.\n\n### Responsibilities:\n\n* Work closely with Customer Service Representatives and operational teams to understand existing workflows, identify friction points, and develop practical solutions.\n* Design and build automated solutions that streamline operational workflows, reduce manual work, and improve efficiency.\n* Improve internal tools and proprietary dashboards to streamline complex workflows for faster and more efficient performance.\n* Design intuitive customer-facing and internal user experiences by applying strong UI/UX principles to build wireframes that improves usability and performance.\n* Improve customer acquisition, engagement, and profitability through product enhancements and CRM initiatives.\n* Conduct user research and analyze customer behavior to inform product decisions.\n* Collaborate with engineering, operations, marketing, and QA to deliver high-quality product improvements.\n* Design, run, and analyze A/B tests to measure the impact of product changes on conversion, efficiency, and profitability.\n* Define, own, and track performance metrics to evaluate product success and drive measurable improvements.\n* Build an intuitive cost model that takes in inputs (i.e. % of automation) and can produce an estimated average cost per service. \n* Identify and prioritize high-impact product opportunities based on business needs, customer insights, and data.\n* Own and maintain a prioritized product roadmap, ensuring successful execution and continuous iteration.\n\n### Skills &amp; Qualifications\n\n* Bachelor's degree.\n* 6+ years of experience in full-cycle product development in a non-managerial role.\n* Strong UI/UX skills with experience designing &amp; modeling intuitive interfaces.\n* Experience building automation solutions, internal tools, or products that improve operational efficiency.\n* Ability to translate business requirements and operational challenges into clear product specifications, user flows, and wireframes.\n* Highly competent in writing SQL queries to generate and explore data.\n* Strong data analysis skills, including the ability to independently analyze business performance and measure product impact.\n* Skilled in designing, running, and analyzing A/B tests.\n* Strong business judgment and ability to evaluate product decisions based on customer experience, operational costs, and profitability.\n* Comfortable working across multiple product areas, managing competing priorities, and operating with significant autonomy.\n* Keen attention to detail, ability to multitask, and ability to work well under pressure.\n* Superior project management and interpersonal skills.\n* Excellent verbal and written communication skills.\n\n### Benefits\n\n* Healthcare Insurance (Medical, Dental, Vision)\n* 8 Paid company holidays + 4 Cultural days\n* Personal Time-off of 15 days at start\n* 401k Plan\n* Parental leave jobs_skill 288 Wireframing 0 fulltime yes\nlocations: \nremote: only\nmin_experience: 6",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-17T02:51:05+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "8120ad7e31fe348981f24fcac63a931a",
       "source": "wellfound",
