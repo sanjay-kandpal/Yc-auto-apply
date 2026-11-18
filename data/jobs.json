@@ -1,15 +1,547 @@
 {
-  "exported_at": "2026-11-17T23:24:42+00:00",
+  "exported_at": "2026-11-18T00:48:08+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1269,
+    "discovered": 1280,
     "pending_approval": 295,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "aab46528daf0d5de5e7725a9878fce09",
+      "source": "wellfound",
+      "company": "Uservox",
+      "role": "Prompt Engineer for Voice AI",
+      "url": "https://wellfound.com/jobs/3541996-prompt-engineer-for-voice-ai",
+      "jd_text": "Delhi\nlocationNames: Delhi\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-18T00:48:06+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c8b4d48b1be6fdc38af39d0353ff7001",
+      "source": "wellfound",
+      "company": "Elvoro",
+      "role": "Figma Web Designer – Elvoro Ltd",
+      "url": "https://wellfound.com/jobs/4491711-figma-web-designer-elvoro-ltd",
+      "jd_text": "Miami Munich\nlocationNames: Miami Munich",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-18T00:48:03+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "b05af82e89d101a4d04f44e1dd8ac912",
+      "source": "wellfound",
+      "company": "Elvoro",
+      "role": "AI Creative Engineer (Social Media)",
+      "url": "https://wellfound.com/jobs/5094966",
+      "jd_text": "Miami Munich NewTag Python 14775 python NewTag Social Media Marketing 17587 social-media-marketing-1 NewTag Content Strategy 24112 content-strategy NewTag Content Creation 33354 content-creation NewTag Social Media Strategy 48539 social-media-strategy NewTag REST APIs 81741 rest-apis NewTag Git & Github 147158 git-github NewTag Google Cloud Storage (GCS) 887870 google-cloud-storage-gcs\nlocationNames: Miami Munich\nremote: true",
+      "match_score": 3.08,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-18T00:48:03+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 3.06,
+            "overlap": 2.32,
+            "combined": 2.84
+          },
+          "backend": {
+            "cosine": 3.27,
+            "overlap": 2.63,
+            "combined": 3.08
+          },
+          "frontend": {
+            "cosine": 2.69,
+            "overlap": 3.4,
+            "combined": 2.9
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 3.27,
+        "keyword_overlap_score": 2.63,
+        "final_score": 3.08,
+        "top_keywords": [
+          {
+            "term": "apis",
+            "weight": 0.0757
+          },
+          {
+            "term": "cloud",
+            "weight": 0.0757
+          },
+          {
+            "term": "git",
+            "weight": 0.0757
+          },
+          {
+            "term": "github",
+            "weight": 0.0757
+          },
+          {
+            "term": "python",
+            "weight": 0.0757
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7c1d9378fe7278ba6cd3c6cd30a322e8",
+      "source": "wellfound",
+      "company": "LearnTube.ai (backed by Google)",
+      "role": "Senior Mobile Developer - Flutter / React Native / iOS / Android",
+      "url": "https://wellfound.com/jobs/5094820-senior-golang-developer-go-remote-clone",
+      "jd_text": "Bengaluru Hyderabad Mumbai Delhi\nlocationNames: Bengaluru Hyderabad Mumbai Delhi\nremote: true",
+      "match_score": 2.93,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-18T00:48:03+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.57,
+            "overlap": 0.99,
+            "combined": 2.1
+          },
+          "backend": {
+            "cosine": 2.13,
+            "overlap": 1.13,
+            "combined": 1.83
+          },
+          "frontend": {
+            "cosine": 3.56,
+            "overlap": 1.46,
+            "combined": 2.93
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 3.56,
+        "keyword_overlap_score": 1.46,
+        "final_score": 2.93,
+        "top_keywords": [
+          {
+            "term": "bengaluru",
+            "weight": 0.2194
+          },
+          {
+            "term": "native",
+            "weight": 0.1097
+          },
+          {
+            "term": "react",
+            "weight": 0.1097
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "26553247021f394afd2e802681cda57b",
+      "source": "wellfound",
+      "company": "LearnTube.ai (backed by Google)",
+      "role": "Senior Ruby on Rails Developer - Remote",
+      "url": "https://wellfound.com/jobs/5094819-senior-hpc-engineer-fortran-c-remote-clone",
+      "jd_text": "Bengaluru Delhi Hyderabad Ahmedabad Mumbai\nlocationNames: Bengaluru Delhi Hyderabad Ahmedabad Mumbai\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-18T00:48:03+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "30ee76761bade894af68011c290198c1",
+      "source": "wellfound",
+      "company": "LearnTube.ai (backed by Google)",
+      "role": "Senior HPC Engineer (Fortran / C++) - Remote",
+      "url": "https://wellfound.com/jobs/5094818-senior-mainframe-developer-cobol-remote-clone",
+      "jd_text": "Bengaluru Delhi Hyderabad Ahmedabad Mumbai\nlocationNames: Bengaluru Delhi Hyderabad Ahmedabad Mumbai\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-18T00:48:03+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "bb2bb9a82937dcfd7084451fc4896c81",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Mentor - Competitive Programming | CipherSchools",
+      "url": "https://wellfound.com/jobs/5077921-mentor-competitive-programming-cipherschools",
+      "jd_text": "Bengaluru Delhi Gurgaon Hyderabad Chandigarh Noida\nlocationNames: Bengaluru Delhi Gurgaon Hyderabad Chandigarh Noida",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-18T00:48:03+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c31e82fdc7383b856702e69598fffc28",
+      "source": "wellfound",
+      "company": "Elvoro",
+      "role": "Full-Stack Web Developer (Next.js) – Elvoro Ltd",
+      "url": "https://wellfound.com/jobs/4491712-full-stack-web-developer-next-js-elvoro-ltd",
+      "jd_text": "Miami Munich\nlocationNames: Miami Munich",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-18T00:47:59+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "c17fae0f00811d5f5f17d0cbe70000e9",
+      "source": "wellfound",
+      "company": "Elvoro",
+      "role": "AI Creative Engineer (Social Media)",
+      "url": "https://wellfound.com/jobs/5094966-ai-creative-engineer-social-media",
+      "jd_text": "## Python AI Creative Engineer (Social Media) – Elvoro Ltd\n  \n\n  \n\n**Engagement:** Project-based contract with planned expansion to Full-time  \n**Location:** Remote, Worldwide   \n**Compensation:** To be agreed\n\n  \n\n  \n\n### **About &amp; Mission**\n  \n\nElvoro is a founder-led AI social media marketing and advertising company. We are on an important mission to deliver the world’s best AI-native marketing solutions to our clients for remarkable business growth (without AI slop). The AI revolution has changed what’s possible and our proprietary system, built around 100+ API’s, makes it work. We are now looking for an **expert engineer with exceptional creative taste** to lead this system.\n\n  \n\n  \n\n### **Responsibilities**\n  \n\n- Lead the codebase and creative output of Elvoro’s proprietary social media engine\n- Turn client briefs into large-scale short-form videos, carousels, static posts and ads\n- Use your exceptional creative taste, knowledge on what type of content goes viral and converts well on social media, and large amounts of performance data to continuously, independently refine and improve the codebase to produce better content output.\n- Schedule-post our high-quality content across numerous accounts using social media APIs\n- Capture performance data via official APIs and use your creative taste and content conversion knowledge to refine content quality and test new creatives\n- Maintain and extend the production codebase. Integrate numerous media and publishing APIs, test changes and monitor failures and cost per approved post\n- Fix weak creative hooks, ai slop and pacing and product inaccuracies. Turn successful results into reusable yet unique systems\n- Refine, manage and improve our code pipelines that produce thousands of different social media posts using unique processes\n  \n\n  \n\n### **Tech Stack Qualifications**\n  \n\n- Professional software engineering experience building and maintaining large production codebases.\n- Advanced **Python**\n- REST API integrations OAuth 2.0 (eg: Anthropic, Runway, SpaceXSI, Instagram, ...)\n- Video, audio and image processing (FFmpeg, MoviePy, Pillow, ...)\n- Google Cloud Storage (GCS)\n- Git, GitHub, GitHub Actions\n- Preferred: SQL, HTML/CSS, JavaScript (React)\n  \n\n  \n\n### **AI-Native Workflow Qualifications**\n  \n\n- Strong prompt engineering skills. Proactively using AI for efficiency, speed, and quality. Agents such as: Claude Code, Cursor/xAI, Codex, etc.\n- Judgment to manually review AI output and full accountability for all AI-generated code.\n  \n\n  \n\n### **Benefits**\n  \n\nYou get to lead Elvoro’s proprietary AI marketing engine and shape its technical and creative direction alongside the founder. An engineer previously working with Elvoro's founder has now gained a high-level job at Meta. Build a track record leading both engineering and creative production. You’ll lead campaigns for many established consumer brands and learn firsthand which creative decisions build brand awareness with hundreds of millions of views across social media and what turns attention into conversions such as sales and signups. The advantages of an ambitious, early stage startup: Work remotely from anywhere, at any time, on your own terms. Join a straightforward, no-nonsense environment focused on efficiency and results. Impact the world of marketing, get things done with the founder as your only approval point and see your ideas positively impact client campaigns. The codebase you are leading in this job has been built by engineers from TikTok and Stanford.  Python AI Creative Engineer (Social Media) – Elvoro Ltd \n  Engagement:  Project-based contract with planned expansion to Full-time  \n Location:  Remote, Worldwide  \n Compensation:  To be agreed \n  About &amp; Mission  \n Elvoro is a founder-led AI social media marketing and advertising company. We are on an important mission to deliver the world’s best AI-native marketing solutions to our clients for remarkable business growth (without AI slop). The AI revolution has changed what’s possible and our proprietary system, built around 100+ API’s, makes it work. We are now looking for an  expert engineer with exceptional creative taste  to lead this system. \n  Responsibilities  \n \n Lead the codebase and creative output of Elvoro’s proprietary social media engine \n Turn client briefs into large-scale short-form videos, carousels, static posts and ads \n Use your exceptional creative taste, knowledge on what type of content goes viral and converts well on social media, and large amounts of performance data to continuously, independently refine and improve the codebase to produce better content output. \n Schedule-post our high-quality content across numerous accounts using social media APIs \n Capture performance data via official APIs and use your creative taste and content conversion knowledge to refine content quality and test new creatives \n Maintain and extend the production codebase. Integrate numerous media and publishing APIs, test changes and monitor failures and cost per approved post \n Fix weak creative hooks, ai slop and pacing and product inaccuracies. Turn successful results into reusable yet unique systems \n Refine, manage and improve our code pipelines that produce thousands of different social media posts using unique processes \n \n  Tech Stack Qualifications  \n \n Professional software engineering experience building and maintaining large production codebases. \n Advanced  Python  \n REST API integrations OAuth 2.0 (eg: Anthropic, Runway, SpaceXSI, Instagram, ...) \n Video, audio and image processing (FFmpeg, MoviePy, Pillow, ...) \n Google Cloud Storage (GCS) \n Git, GitHub, GitHub Actions \n Preferred: SQL, HTML/CSS, JavaScript (React) \n \n  AI-Native Workflow Qualifications  \n \n Strong prompt engineering skills. Proactively using AI for efficiency, speed, and quality. Agents such as: Claude Code, Cursor/xAI, Codex, etc. \n Judgment to manually review AI output and full accountability for all AI-generated code. \n \n  Benefits  \n You get to lead Elvoro’s proprietary AI marketing engine and shape its technical and creative direction alongside the founder. An engineer previously working with Elvoro&#39;s founder has now gained a high-level job at Meta. Build a track record leading both engineering and creative production. You’ll lead campaigns for many established consumer brands and learn firsthand which creative decisions build brand awareness with hundreds of millions of views across social media and what turns attention into conversions such as sales and signups. The advantages of an ambitious, early stage startup: Work remotely from anywhere, at any time, on your own terms. Join a straightforward, no-nonsense environment focused on efficiency and results. Impact the world of marketing, get things done with the founder as your only approval point and see your ideas positively impact client campaigns. The codebase you are leading in this job has been built by engineers from TikTok and Stanford. \n Miami Munich NewTag Python 14775 python NewTag Social Media Marketing 17587 social-media-marketing-1 NewTag Content Strategy 24112 content-strategy NewTag Content Creation 33354 content-creation NewTag Social Media Strategy 48539 social-media-strategy NewTag REST APIs 81741 rest-apis NewTag Git & Github 147158 git-github NewTag Google Cloud Storage (GCS) 887870 google-cloud-storage-gcs\nlocationNames: Miami Munich\nremote: true",
+      "match_score": 9.89,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-18T00:47:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.6,
+            "overlap": 15.23,
+            "combined": 9.89
+          },
+          "backend": {
+            "cosine": 7.48,
+            "overlap": 14.66,
+            "combined": 9.63
+          },
+          "frontend": {
+            "cosine": 5.54,
+            "overlap": 16.99,
+            "combined": 8.98
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.6,
+        "keyword_overlap_score": 15.23,
+        "final_score": 9.89,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.247
+          },
+          {
+            "term": "apis",
+            "weight": 0.0703
+          },
+          {
+            "term": "using",
+            "weight": 0.0644
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0615
+          },
+          {
+            "term": "code",
+            "weight": 0.0527
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e9dfa5af68fcf37af4369b548d444be6",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "MERN Stack Development | Mentor | CipherSchools",
+      "url": "https://wellfound.com/jobs/5094766-mern-stack-development-teaching-clone",
+      "jd_text": "India Delhi Gurgaon Chandigarh Noida Noida Extension Delhi Gurgaon Gurugram Gurugram\nlocationNames: India Delhi Gurgaon Chandigarh Noida Noida Extension Delhi Gurgaon Gurugram Gurugram",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-18T00:47:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "fe84d05e1f65d684d47c440c9086f754",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Mentor - Competitive Programming | CipherSchools",
+      "url": "https://wellfound.com/jobs/5094729-mentor-competitive-programming-cipherschools-clone",
+      "jd_text": "Bengaluru Delhi Gurgaon Hyderabad Chandigarh Noida\nlocationNames: Bengaluru Delhi Gurgaon Hyderabad Chandigarh Noida",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-18T00:47:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "8a7f7a91c1791e7eeddaef7c50eebc67",
       "source": "yc",
