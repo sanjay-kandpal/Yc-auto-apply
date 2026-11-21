@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-11-21T09:27:55+00:00",
+  "exported_at": "2026-11-21T12:11:31+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1329,
+    "discovered": 1330,
     "pending_approval": 297,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "d4e3843a03e68cba9934e53613bc8d33",
+      "source": "yc",
+      "company": "Yondu",
+      "role": "Technical Recruiter",
+      "url": "https://www.workatastartup.com/jobs/124193",
+      "jd_text": "## **About Yondu**\n\nYondu AI, backed by Y Combinator, puts humanoid robots to work in warehouses. Our robots pick, sort and move goods at live customer sites today, driven by a mix of teleoperation and our own AI stack, with autonomy handling a growing share of the work.\n\nWe are a small team in the Los Angeles area. Engineers here work across hardware, robot software, AI and deployments, and much of the team spends time on site with customers. We have multiple live deployments, more in progress, and new robots arriving.\n\n## **The role**\n\nYou will be our first in-house recruiter, and you will own hiring end to end. Today, hiring is shared across the team alongside other responsibilities. A dedicated recruiter will let us hire faster and keep our engineers focused on building and deploying.\n\nWe plan to grow the team substantially over the coming year: technicians, hardware and software engineers at every level, and a few business hires. We expect hiring to remain a priority well beyond that. We want one person on the team who builds the pipeline, runs the process, and knows what we are building well enough to explain it to a strong robotics engineer.\n\n## **What you'll do**\n\n* Source and reach out to candidates beyond our current channels, with outreach that shows what we are actually building.\n* Run first-round screens and report back to the hiring team the same day.\n* Set up an applicant tracking system (ATS), refine our jobs page as needed, and bring our existing candidates into it.\n* Work with engineering leads to tighten each role and job description, so we know exactly who we are looking for.\n* Coordinate the interview loop: scheduling, interviewer prep, organized notes and transcripts, and candidate debriefs.\n* Provide a responsive, respectful candidate experience at every stage, including for candidates we do not move forward.\n* Build our employer brand across the jobs page, LinkedIn and outreach, so candidates get a clear picture of what we are building.\n* Document and standardize the hiring process so it runs consistently as we scale.\n\n## **What we're looking for**\n\n* 4+ years of full-cycle technical recruiting experience, ideally including time at a fast-growing startup.\n* A track record hiring hardware, robotics or embedded engineers. These roles are specialized, and direct experience with them matters.\n* Experience building or rebuilding a hiring process, including the ATS, sourcing pipeline and interview loop.\n* The ability to learn our technical domain well enough to assess robotics candidates accurately at the screening stage.\n* Clear, proactive communication with hiring managers, including flagging early when a search needs a different approach.\n* Comfort working as the sole recruiter and establishing the function from the ground up.\n\n**Nice to have**\n\n* A network in robotics, autonomy or hardware.\n* Experience hiring technicians and field or deployment roles alongside engineers.\n\n## **Your first 90 days**\n\n* Take ownership of the pipeline for every open role, with time to fill trending down.\n* Run first-round screens so interview time goes to well-qualified candidates and engineering time spent on hiring drops.\n* Have an ATS in place, with every candidate, note and decision in one system. Gardena, CA, US fulltime yes\nlocations: Gardena, CA, US\nremote: no\nmin_experience: 3",
+      "match_score": 5.4,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-21T12:11:27+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.59,
+            "overlap": 7.28,
+            "combined": 5.4
+          },
+          "backend": {
+            "cosine": 3.04,
+            "overlap": 5.64,
+            "combined": 3.82
+          },
+          "frontend": {
+            "cosine": 3.63,
+            "overlap": 6.8,
+            "combined": 4.58
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 4.59,
+        "keyword_overlap_score": 7.28,
+        "final_score": 5.4,
+        "top_keywords": [
+          {
+            "term": "team",
+            "weight": 0.1922
+          },
+          {
+            "term": "experience",
+            "weight": 0.106
+          },
+          {
+            "term": "time",
+            "weight": 0.106
+          },
+          {
+            "term": "hardware",
+            "weight": 0.1038
+          },
+          {
+            "term": "ai",
+            "weight": 0.0778
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "396f01fff35b94a1501239e703157303",
       "source": "wellfound",
