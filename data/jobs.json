@@ -1,15 +1,75 @@
 {
-  "exported_at": "2026-11-22T05:14:39+00:00",
+  "exported_at": "2026-11-22T09:33:47+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1337,
+    "discovered": 1338,
     "pending_approval": 297,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "7669cbfa3bd88bea56d590a9632fef16",
+      "source": "wellfound",
+      "company": "SwapLearn",
+      "role": "Junior Software Engineer ( Fresher India Only)",
+      "url": "https://wellfound.com/jobs/5133192-junior-software-engineer-fresher-india-only",
+      "jd_text": "India Gate\nlocationNames: India Gate\nremote: true",
+      "match_score": 0.69,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-22T09:33:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.62,
+            "overlap": 0.33,
+            "combined": 0.53
+          },
+          "backend": {
+            "cosine": 0.66,
+            "overlap": 0.38,
+            "combined": 0.57
+          },
+          "frontend": {
+            "cosine": 0.77,
+            "overlap": 0.49,
+            "combined": 0.68
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 0.77,
+        "keyword_overlap_score": 0.49,
+        "final_score": 0.69,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.1189
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "115bbb2fa1664421e8abb409228f54fa",
       "source": "wellfound",
