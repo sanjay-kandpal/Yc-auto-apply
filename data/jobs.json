@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-11-23T10:35:37+00:00",
+  "exported_at": "2026-11-23T19:56:33+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1347,
+    "discovered": 1349,
     "pending_approval": 297,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "27b4c8bc5beb55b593eef48f57d8db44",
+      "source": "yc",
+      "company": "Junction",
+      "role": "Customer Success Manager",
+      "url": "https://www.workatastartup.com/jobs/124655",
+      "jd_text": "Healthcare is getting more expensive, but the experience of getting care isn’t improving fast enough. Gaps between what a patient needs and what actually happens — booking a test, getting collected, receiving a result — can derail the entire process. They’re also some of the biggest opportunities to make healthcare better.\\\n\\\nJunction connects labs and devices into a single infrastructure layer for diagnostic healthcare. Our mission is to build the infrastructure that makes predictive, personalized care possible. Our vision is to predict and diagnose disease 10 years earlier and 100x cheaper.\\\n\\\nIf you’re passionate about how technology can supercharge healthcare, you’ll fit right in.\\\n\\\nBacked by **Creandum, Point Nine, 20VC, YC**, and leading angels, we’re working to solve one of the biggest challenges of our time: making healthcare predictive, personalized, and affordable. We’re already connecting millions and scaling fast.\n\n**_Read this first:_** _This is a proactive posting. We aren’t hiring for this role right now, but at the rate we’re growing, we expect to be soon. We’d rather meet great people before we need them than scramble once we do. Apply and we’ll review your application when the role opens up, and reach out if it looks like a fit._\n\n**Short on time? TL;DR**\n\n**You:** A high-agency CSM who makes things happen without being asked, is comfortable in commercial conversations, and gets genuinely energized by a technically complex product in a mission-driven space\n\n**Us:** A CS team of 5 managing \\~40 accounts each, scaling into new segments and raising the bar on how we serve customers\n\n**Salary:** $120,000 – $150,000 base + bonus + equity\n\n**Location:** Fully remote (US EST timezone required)\n\n**Why we need you**\n\nOur customer base spans digital health platforms, wearable companies, and health systems – and we’re growing fast in all three. Our CS team is great, but we’re stretched - so we’re on the path to make shifts. The reactive work gets done — onboarding questions, troubleshooting, support coordination. The proactive work is where we’re falling behind: running useful QBRs, spotting expansion opportunities, and catching churn risks early.\n\nThis hire is about adding someone with real horsepower. You’ll own a focused book of business – primarily in our digital health segment – from onboarding all the way through renewal and expansion. You’re comfortable in commercial conversations: talking about pricing, pushing on upsell opportunities, and making the case for value when a customer is on the fence. You adapt your approach depending on who you’re talking to – a technical founder needs a completely different conversation than a head of ops, and you can tell the difference quickly.\n\nYou’ll also need to genuinely enjoy learning how things work. Junction’s product is technical – APIs, data integrations, health data workflows – and the best person for this role is curious about that, not intimidated by it. You’ll work closely with our CS Leader and feed directly into product and engineering with what you’re hearing from customers.\n\n**What you’ll be doing day to day**\n\n* Own a portfolio of 25–40 accounts across our digital health and mid-market segment\n* Run onboarding for new customers and get them to their first meaningful milestone as quickly as possible\n* Conduct quarterly business reviews that are actually useful – not just status updates, but conversations that move things forward\n* Proactively identify upsell and cross-sell opportunities and work with our sales team to close them\n* Build a real pulse on account health – usage data, engagement signals, renewal risk – and get ahead of problems before they become urgent\n* Be the voice of your customers internally. Bring patterns, feedback, and frustrations to product and engineering in a way they can act on\n* Help define what great CS looks like for wearable and digital health customers – this is still evolving and you’ll have a real hand in shaping it\n* Bring a point of view on how AI tools can make CS work faster and smarter - we have budget and appetite to build this into how the team operates\n\n**How we measure success**\n\nThe metrics that matter most for this role:\n\n* Renewal rate across your book of business\n* Expansion revenue from upsells and cross-sells\n* Time-to-value (TTV) for new customers – how quickly they hit their first milestone\n* Customer satisfaction (NPS/CSAT) across your accounts\n\n**What we’re looking for**\n\n* **High agency:** You don’t wait to be told what needs doing. You spot problems, form a view, and act. You have examples of things you went after in a previous role that nobody asked you to do.\n* **Commercial confidence:** You’re comfortable having pricing and renewal conversations directly. You know how to make the case for value, push on upsell opportunities, and hold a number without hiding behind ‘I’ll loop in sales.’\n* **Adaptability:** You read the room quickly and flex your approach. A technical founder and a VP of operations need completely different conversations, and you know how to have both.\n* **Technical curiosity:** You’ve worked with a technical product – APIs, developer tools, data platforms, or similar – and you actually enjoyed getting into how it works. You have a method for learning things you don’t understand yet.\n* **CS experience:** 3–6 years owning accounts end-to-end. You’ve managed 20–50 accounts at a time and know how to stay on top of them without things slipping.\n* **Early-stage background:** You’ve worked at a Seed through Series C company. Things were ambiguous, processes were still being built, and that energized you rather than frustrated you.\n* Bring a point of view on how AI tools can make CS work faster and smarter — we have budget and appetite to build this into how the team operates.\n\n_You don’t need to tick every box to fit in here. If the problems we’re solving genuinely interest you and you know you can contribute, we’d love to talk._\n\n**What this role isn’t**\n\n* You want a fully defined playbook from day one – we’re still building ours and you’ll have a hand in writing it\n* You prefer reactive CS – most of the value in this role comes from going out and making things happen, not responding to inbound\n* You’re not comfortable owning commercial conversations – renewals, upsells, and pricing discussions are part of the job, not something to escalate away\n* You want to specialize – you’ll touch onboarding, retention, expansion, and internal feedback loops, often in the same week\n* Technical products make you uncomfortable – Junction’s API-first platform requires genuine curiosity about how things work, not just a surface-level understanding\n\n**Our benefits:**\n\n* Your salary is dependent on your location and experience level\n* Equity (extended exercise post 2 years of employment)\n* Company and team offsites\n* Monthly learning budget of $150 for personal development and productivity\n* $100 monthly wellness budget\n* Flexible, remote-first working, including $1K for home office equipment\n* Coworking budget\n* 36 days paid time off (including bank holidays)\n* Premium healthcare coverage\n* 4% monthly contribution to pension/401k\n* Yearly blood test on us\n* Enhanced parental, foster, and adoption leave\n\n**Important details before applying:**\n\n* We only hire folks physically based in GMT and EST timezones\n* We do not sponsor visas right now given our stage fulltime yes\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 6.63,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-23T19:56:30+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.06,
+            "overlap": 9.27,
+            "combined": 5.62
+          },
+          "backend": {
+            "cosine": 3.47,
+            "overlap": 8.65,
+            "combined": 5.02
+          },
+          "frontend": {
+            "cosine": 4.27,
+            "overlap": 12.14,
+            "combined": 6.63
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 4.27,
+        "keyword_overlap_score": 12.14,
+        "final_score": 6.63,
+        "top_keywords": [
+          {
+            "term": "technical",
+            "weight": 0.0764
+          },
+          {
+            "term": "time",
+            "weight": 0.0637
+          },
+          {
+            "term": "data",
+            "weight": 0.0509
+          },
+          {
+            "term": "experience",
+            "weight": 0.0382
+          },
+          {
+            "term": "problems",
+            "weight": 0.0382
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a00e2ee526b1b5306f8c40e649c94aac",
+      "source": "yc",
+      "company": "Corgi",
+      "role": "Design Engineer",
+      "url": "https://www.workatastartup.com/jobs/124589",
+      "jd_text": "**About Corgi**\n\nCorgi is vertically integrating the entire insurance industry. We design, underwrite, price, and issue insurance directly: no brokers, no third-party administrators. Insurance is the largest unautomated industry in financial services, and we're rebuilding it from the ground up using AI. We've raised $350M+ from Kindred, TCV, and others to do so.\n\nBuilding something great requires working hard. We are in the office 7 days a week. We are meritocratic with very high standards. If you don't meet them, you'll get cut. But if you deliver, you have unlimited scope to grow.\n\n**About the Role**\n\nWe're hiring a Design Engineer for the Operations Team to design and ship the interfaces our operations and customers use.\n\nInsurance is an operations problem. Quoting, underwriting, binding, claims, renewals, every one of those still happens in tools that are slow or ugly. Your job is to make those tools sharp: design the interface, then build it. You'll work on the internal tooling our underwriting, claims, and policy admin teams live in, and the customer-facing platform our policyholders log into. This is not a handoff role. You don't throw mockups over the wall.\n\nThis role is based in our London office.\n\n**What You'll Do**\n\n- Ship interface work to production in your first week.\n- Design and build the tools that remove hours of manual work from real people's days.\n- Own the experience end to end: understand a workflow, design the interface, implement it, and ship it.\n- Raise the quality of everything we put in front of operators and customers, from dense internal screens to the policyholder product.\n- Use AI to move faster than a team our size should be able to.\n\n**Who You Are**\n\n- Strong design and front-end engineering fundamentals.\n- High ownership and relentless execution. You get things done.\n- Product and business intuition.\n- You have taste in interfaces. You can look at a screen and tell that it's wrong, then design and ship the fix.\n\n**Preferred Qualifications**\n\n- 2+ years designing and building product interfaces.\n- Experienced in Figma plus TypeScript, React, and modern front-end tooling.\n- Comfortable going from a blank canvas to production code, rather than specialised into only design or only engineering.\n- Very fluent with AI design and development tooling.\n- Built personal, startup, or professional projects you can show.\n- Experience in fintech, insurance and workflow automation is helpful but not required.\n\n**About the interview**\n\n- Step 1: 15-minute intro call with the hiring manager.\n- Step 2: Take-home task.\n- Step 3: 48-hour work trial, either remote or in person at our London office. London, England, GB jobs_skill 111 React 174 jobs_skill 138 TypeScript 45 jobs_skill 296 Figma 0 fulltime possible\nlocations: London, England, GB\nremote: no\nmin_experience: 1",
+      "match_score": 7.07,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-23T19:56:30+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 4.3,
+            "overlap": 7.62,
+            "combined": 5.3
+          },
+          "backend": {
+            "cosine": 3.1,
+            "overlap": 7.52,
+            "combined": 4.43
+          },
+          "frontend": {
+            "cosine": 5.74,
+            "overlap": 10.19,
+            "combined": 7.08
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 5.74,
+        "keyword_overlap_score": 10.19,
+        "final_score": 7.07,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1133
+          },
+          {
+            "term": "tools",
+            "weight": 0.0694
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0463
+          },
+          {
+            "term": "experience",
+            "weight": 0.0463
+          },
+          {
+            "term": "production",
+            "weight": 0.0463
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "c310a1e40b039c0a545515721852407e",
       "source": "wellfound",
