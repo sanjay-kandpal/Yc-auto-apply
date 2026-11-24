@@ -1,15 +1,54 @@
 {
-  "exported_at": "2026-11-24T03:55:05+00:00",
+  "exported_at": "2026-11-24T04:41:06+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1351,
+    "discovered": 1352,
     "pending_approval": 297,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "e0b474061e6e5a5d7918a8f22d9fb927",
+      "source": "yc",
+      "company": "Nessie",
+      "role": "Founding GTM",
+      "url": "https://www.workatastartup.com/jobs/124689",
+      "jd_text": "# Founding GTM\n\nNessie is shared context for all of your AI tools. It automatically syncs conversations and agent sessions from ChatGPT, Claude, Claude Code, Codex, Cursor, and 20+ other tools into one place, so teams and their agents build on everything they've already worked through with AI, and leaders can see which AI workflows actually work.\n\nWe've reached six-figure ARR without spending a dollar on growth, serving individuals, smaller teams, and larger rollouts across organizations. We're now hiring our first full-time GTM to work closely with the founders and scale growth both ways: top-down through org-wide rollouts, and bottom-up as individuals bring Nessie to their teams.\n\n## What you'll do\n\nYou'll work directly with our co-founders to build Nessie's growth engine. We're a small team, and you'll have enormous ownership over how Nessie reaches and wins customers, from one person trying it out to an organization rolling it out company-wide.\n\nOur goal is to turn strong early demand into a repeatable path from first conversation to paying team.\n\nYou'll also be the bridge between our customers and the people building Nessie, making sure what we hear in the market shapes what we build next.\n\nThere's a lot to work with: a product people already pay for, a growing base of individuals and teams, and customers who already champion Nessie inside their own companies.\n\nSome of the things you'll work on:\n\n- **Writing and content:** Write sharp articles, product explainers, emails, posts, and videos that help people understand what Nessie can do and why it matters.\n- **Selling to teams:** Find the right teams, run discovery and demos, run pilots, and close.\n- **Pipeline:** Build it from outbound, warm intros, events, and the communities where AI-native teams spend time. Know what's in it and why deals move or stall.\n- **The product feedback loop:** Write up what customers need, where deals get stuck, and what we should build next. Bring it to our founders and engineers with a point of view, and push back when you disagree.\n- **Onboarding and expansion:** Get new teams live and getting value fast, then grow one team into the whole company.\n- **Customer stories and distribution:** Turn customer wins into case studies and launches into campaigns, and find creative ways to reach new audiences through social, email, communities, and events.\n- **GTM systems:** Set up the CRM, sequences, and reporting we run on, using AI agents (and Nessie itself) to do the work of a much bigger team.\n\n## The kind of person we're looking for\n\n- **You're a great writer.** You can explain a new kind of product clearly, make it interesting, and persuade without resorting to jargon. You have strong editorial judgment, care deeply about the quality of your work, and enjoy writing.\n- **You're chronically online about AI.** You follow the labs, the launches, and the arguments, and you're constantly trying new tools. You don't need to be an engineer, but you're comfortable using AI to build pages, demos, and workflows yourself.\n- **You're great with people.** You communicate clearly with demanding clients and senior stakeholders, earn trust quickly, and can turn what a customer says into something our engineers can act on.\n- **You think from first principles.** When a tactic works somewhere else, you ask why, and whether that reason holds for Nessie. You question default playbooks, test your assumptions, and change your mind when the evidence does.\n- **You have a bias toward getting things done.** There's no playbook yet. You'd rather ship something and learn from it than spend weeks planning.\n- **You're analytical and commercially minded.** You want to understand why people buy, measure the results of your work, and continuously improve.\n- **You're serious about building a career in GTM.** You want to become exceptional at your craft, take on increasingly challenging work, and grow into greater ownership. You're excited to build the function from the ground up.\n\n## What you will NOT need\n\n- A sales or GTM title. Client-facing work in finance, consulting, investing, or starting something of your own counts.\n- A technical degree\n\n## What you will need\n\n- Ideally 2+ years in a role where you owned outcomes with demanding clients or stakeholders. Exceptional new grads with that kind of track record, from internships or something you started, are welcome too.\n- Evidence you're deep in AI: things you've built, written, or used seriously, not just read about.\n\n## Logistics\n\n- San Francisco, in person.\n- Must be authorized to work in the US.\n\n## What we offer\n\n- $100K-130K salary, 0.25%-0.5% equity.\n- Medical, dental, and vision insurance.\n- Three to four weeks of PTO per year.\n- Daily meal allowance.\n- Commuter benefits to get you to and from the office.\n- Relocation support if you're moving to SF.\n- Founders who work alongside you every day and treat building the team as the job, not a side task.\n San Francisco, CA, US fulltime yes\nlocations: San Francisco, CA, US\nremote: no",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-24T04:41:03+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "aacea7bd926720b14e3591e54e4721e5",
       "source": "wellfound",
