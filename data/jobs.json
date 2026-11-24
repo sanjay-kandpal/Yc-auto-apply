@@ -1,15 +1,169 @@
 {
-  "exported_at": "2026-11-24T04:41:06+00:00",
+  "exported_at": "2026-11-24T19:25:05+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1352,
-    "pending_approval": 297,
+    "pending_approval": 298,
+    "discovered": 1354,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "47b1f67a761c89bc3ae8171864308252",
+      "source": "yc",
+      "company": "Storylane",
+      "role": "Senior Devops Engineer",
+      "url": "https://www.workatastartup.com/jobs/124787",
+      "jd_text": "**About Storylane**\\\nStorylane helps go-to-market teams show their product instead of just talking about it. We launched in 2021 and have grown fast since, **3.5x in 2023 and 2.5x in 2024**, scaling to **$10M+ ARR and 4,000+ customers**, including **Gong, Amazon, Microsoft, and NASDAQ**. Much of that growth came from a product people love and spread on their own. We’ve since added **RepX**, our AI agent that qualifies website visitors and brings them into a live, clickable demo, and we have more products launching fast.\n\n**The role**\\\nAs devops engineer, you'll work with other engineering team members to manage their infrastructure and deploy applications at scale. You will be the primary go-to-person for all things infrastructure with Storylane - and so your goal will be to make sure Storylane platform is well architected and monitored.\n\n**Qualifications**\n\n* BS/MS in Computer Science or a related field, with 4–5+ years of hands-on DevOps or infrastructure experience\n* Production experience with AWS: EKS, EC2, IAM (including IRSA and OIDC), RDS, ElastiCache, S3, SQS, Lambda and VPC design\n* Production Kubernetes experience, including zero-downtime version upgrades, node group management, scheduling, HPA/KEDA and Helm\n* Strong networking fundamentals: TCP/IP, DNS, TLS, HTTP, L4/L7 load balancing, ingress and VPN\n* Infrastructure as code at scale with Pulumi or Terraform; Go strongly preferred\n* Scripting in Bash plus Python or JavaScript\n* Hands-on SOC 2 and GDPR compliance work, penetration test support and security incident response\n* Self-organized owner who communicates clearly in English\n\n**Responsibilities**\n\n* Design and operate multi-AZ VPCs, ALBs, WAF, TLS certificates and Client VPN\n* Own EKS across Graviton, x86 and GPU node groups, including upgrades and autoscaling\n* Extend our Pulumi (Go) codebase and keep code and live state in sync\n* Maintain \\~90 Helm charts, Jenkins pipelines, Argo Rollouts blue-green releases and Slack-triggered deploys\n* Run observability with Prometheus, Grafana, Alertmanager, OpenTelemetry, New Relic, CloudWatch and Fluent Bit to OpenSearch\n* Operate data services: RDS PostgreSQL, ElastiCache Redis, ClickHouse and Temporal\n* Enforce least-privilege IAM, manage secrets and act on GuardDuty and Inspector findings\n* Own the infrastructure side of SOC 2 and GDPR, including EU data residency, audits and access reviews\n* Coordinate penetration tests and drive remediation to closure\n* Maintain the disaster-recovery and EU stacks, test failover and lead incident response\n* Report monthly infrastructure spend and right-size resources to control cost\n* Support engineers with infrastructure for new services, preview environments and internal tools fulltime none\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 10.14,
+      "resume_variant": "fullstack",
+      "draft_answer": "I owned deployment of a cloud-native compliance platform, managing AKS with ingress-nginx for automated TLS and implementing Azure DevOps CI/CD with blue-green releases for zero-downtime rollout and safe rollback. To support scaling to $10M+ ARR and products like the \"RepX\" AI agent, I've optimized production systems by load-testing with Locust, integrating Redis caching to cut latency 98%, and introducing RabbitMQ to guarantee delivery under high load.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-24T19:24:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 8.1,
+            "overlap": 14.9,
+            "combined": 10.14
+          },
+          "backend": {
+            "cosine": 7.78,
+            "overlap": 14.66,
+            "combined": 9.85
+          },
+          "frontend": {
+            "cosine": 5.67,
+            "overlap": 15.05,
+            "combined": 8.49
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 8.1,
+        "keyword_overlap_score": 14.9,
+        "final_score": 10.14,
+        "top_keywords": [
+          {
+            "term": "devops",
+            "weight": 0.0798
+          },
+          {
+            "term": "experience",
+            "weight": 0.0798
+          },
+          {
+            "term": "tls",
+            "weight": 0.0651
+          },
+          {
+            "term": "code",
+            "weight": 0.0532
+          },
+          {
+            "term": "data",
+            "weight": 0.0532
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-11-24T19:25:04+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "58a732779d008fd9a11eb4b7d4025353",
+      "source": "yc",
+      "company": "Storylane",
+      "role": "Sales Development Representative (SDR) - Only India",
+      "url": "https://www.workatastartup.com/jobs/95720",
+      "jd_text": "Storylane is a demo automation software used by 5,000+ companies. We've grown from $0 to well past $10M ARR with a lean team and 97% inbound pipeline in 4 years. We're now scaling toward $20M ARR.\n\n### **The Role**\n\nWe have released additional product “RepX chat” recently with lot of traction and launching another one this year. We are moving upmarket and looking for SDR who is hungry to grow.\n\nYou’ll spend most of your day calling and connecting with our existing customers in both sales and marketing. You’ll work directly with the founder to test messaging, identify what gets buyers to engage, and turn outbound into a repeatable expansion engine.\n\n**What You’ll Do**\n\n* Drive pipeline through calls, emails, and LinkedIn messages.\n* Use calls, email, LinkedIn, Apollo, HubSpot, and other outbound tools\n* Test scripts, openers, objections, and account lists every week\n* Track your numbers: dials, connects, conversations, meetings booked, show rate, and qualified held demos\n* Surface market feedback from every conversation\n* Help build the outbound playbook for future SDRs\n\n### **What Success Looks Like**\n\nIn your first 7 days, you’ll learn Storylane, our call scripts, and our target account list. You’ll start making daily calls and booking your first qualified meetings.\n\nBy day 30, you will be an expert and having real buyer conversations.\n\n### **Who We’re Looking For**\n\nYou are hungry, competitive, and comfortable getting rejected all day.\n\nYou should have:\n\n* 0-1 years of outbound sales, cold calling, recruiting, door-to-door, fundraising, or other high-rejection experience\n* A willingness to make 200+ dials per day\n* Strong verbal communication skills\n* High energy and high urgency\n* The ability to follow a process, track numbers, and improve every week\n* Role is based in India \n* Bonus: if you have called B2B software, to sales or marketing leaders, or used tools like Apollo, HubSpot, Clay, Orum, Nooks, or LinkedIn Sales Navigator.\n\n### **This Role Is Not For You If**\n\n* You do not want to cold call\n* You need heavy oversight to stay focused\n* You prefer a structured corporate sales program\n* You are uncomfortable with rejection fulltime none\nlocations: \nremote: only",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-24T19:24:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3db418dcc52b5f37763665fd4a8ece0c",
+      "source": "yc",
+      "company": "Storylane",
+      "role": "Head of Customer Success (US, Remote)",
+      "url": "https://www.workatastartup.com/jobs/120365",
+      "jd_text": "**About Storylane**\n\nStorylane helps go-to-market teams show their product instead of just talking about it. We launched in 2021 and have grown fast since, **3.5x in 2023 and 2.5x in 2024**, scaling to **$10M+ ARR and 4,000+ customers**, including **Gong, Amazon, Microsoft, and NASDAQ**. Much of that growth came from a product people love and spread on their own. We’ve since added **RepX**, our AI agent that qualifies website visitors and brings them into a live, clickable demo, and we have more products launching fast.\n\n**The role**\n\nOur customer base has grown fast, and Customer Success owns what happens next: **onboarding new customers onto all three products** (Demos, Hubs, and RepX), driving adoption, and keeping them for the long run.\\\n\\\nWe’re hiring a Head of Customer Success to own gross revenue retention (GRR) and lead the full CS org: **CSMs, support, and integrations**.\n\nThis is more than people management. You’ll run **three teams with three different jobs**: CSMs who onboard, renew, and expand accounts; support that keeps customers unblocked; and an integrations team that connects customers to the right platforms so they see ROI. The team spans the **US and India** and runs on **US hours**. You set the strategy, the targets, and the playbooks, and you step in when a key account needs you.\n\nWe’re a fast-moving startup, so you’ll shape how CS runs and scales, not inherit a finished machine.\n\n**What you’ll do**\n\n* Lead **three teams, 15 people total**, across the US and India on US hours: CSMs (onboarding, renewals, expansion), support, and integrations (connecting customers to the right platforms so they see ROI).\n* Own **GRR** across the book of business, set retention targets by segment, and hit them.\n* Own **onboarding and adoption across all three products** so customers reach measurable ROI fast.\n* Run our **two-track CSM model**: an enterprise track for premium accounts and a growth track for the rest, each with its own motion.\n* **Hire, coach, and develop** the team; set goals, run 1:1s, and build a culture that holds across both regions.\n* Own **playbooks and enablement** for onboarding, adoption, renewals, expansion, and saves, plus mock calls, training, and the annual CS offsite.\n* Catch **churn risk early** from CRM, usage, support, and call data, and lead saves and win-backs on key accounts.\n* Own and extend the team’s **Claude automations and AI workflows**, and keep raising the bar on what CS automates.\n* Partner with **Sales, Product, Marketing, Engineering, and Finance**, and report on retention and team health to the founders.\n\n**What we’re looking for**\n\n* **5+ years** in B2B SaaS Customer Success, with **3+ years leading teams** of managers and ICs.\n* Experience working closely with **marketing and sales teams**, who are the buyers and users of our product.\n* Experience leading **more than one function at once** (CS, support, and a technical or integrations team), ideally across time zones.\n* Owns **GRR** as the headline metric and can show how they moved it.\n* Has led CS **across multiple products** on a fast-expanding product line.\n* **Data-driven and tool-fluent**: pulls account context from CRM, call intelligence, support, and usage to catch risk early. \n* Very comfortable with **AI and automation**. We run a lot of CS on Claude automations, and you’ll own and extend them.\n* A **player-coach** and strong executive communicator who jumps on a save call or into the data when it matters.\n* Resourceful and hands-on, happy to **build the process, not just run it**.\n\n**Nice to have**\n\n* **Technical fluency**: comfortable in the data and able to build or guide lightweight tooling (automations, scripts, Chrome extensions, small internal apps) that makes the team faster.\n* Hands-on experience with **AI workflows and agents**, including prompt design.\n* A background in **go-to-market tech** (demo automation, sales enablement, martech).\n* Experience onboarding customers through real **integration and setup work**.\n* Has **scaled a CS function** at a fast-growing startup, not just run a mature one.\n\n**Why join**\n\n* Our CS team is **built to improve its own work**. People here rebuild processes rather than just run them, and several are technical enough to ship a Chrome extension, an automation, or a small internal app.\n* The team is **strong on both sides**: soft skills with customers, hard skills in data, tooling, and the product.\n* CS knows the product deeply and works **shoulder to shoulder with Product, Sales, Marketing, and Engineering**. Your feedback shapes the roadmap.\n* **New products ship fast** (RepX and more), so there’s always something new to bring to customers.\n* You’ll **own how CS runs and scales**, with the autonomy to change what isn’t working. fulltime yes\nlocations: \nremote: only\nmin_experience: 3",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-24T19:24:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "e0b474061e6e5a5d7918a8f22d9fb927",
       "source": "yc",
