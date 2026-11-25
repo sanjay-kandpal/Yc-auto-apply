@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-11-25T11:02:04+00:00",
+  "exported_at": "2026-11-25T13:58:04+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1365,
-    "pending_approval": 298,
+    "pending_approval": 299,
+    "discovered": 1366,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "6ed972290478161ade564b71373a4ac4",
+      "source": "yc",
+      "company": "SuperKalam",
+      "role": "Senior Backend Engineer (Fullstack)",
+      "url": "https://www.workatastartup.com/jobs/66031",
+      "jd_text": "This is a high impact role. We are eager to talk to you if you have an amazing sense of quality in **engineering and product** and wants to work in an environment with lot of **ownership**\\\n\\\n**Application form: [https://forms.gle/7sR6UkrwHyWThraT9](https://forms.gle/7sR6UkrwHyWThraT9)**\n\n**Requirements:**\n\n* Experience in building using NodeJS (2 - 4 yrs)\n* Loves writing quality code and scalable architectures.\n* Worked on Elastic search and queues\n* Fundamental software engineering -\n  * Relational DBs - PostgreSQL, MySQL\n  * Rate limiting, Scaling\n  * Basics of security\n* Worked with cloud stack - AWS/Azure/GCP.\n* Understanding of frontend stack - React/React-Native stack\n* **Bonus -** Have worked in Python before\n* **Bonus** - Worked on personalisation features\n* **Preferred -** Worked/familiarity in AI/ML tech (RAGs/Training/LLMs)\n* **Preferred** - Can work on multiple stack(web/mobile) - our entire team is Fullstack :)\n\n**Note _-_** If you are primarily an AI/ML engineer with overlap in backend skills, we have another opening for [**AI engineers.**](https://www.ycombinator.com/companies/superkalam/jobs/wACjD2w-ai-ml-engineer-with-backend-skills)\n\n\\\n**Responsibilities:**\n\n* Core initiatives and features in backend\n* Set up tooling, pipelines and running experiments related AI\n* Pushing tech quotient of team - keep self updated with evolving technology and AI based tooling\n* Take decisions driven by speed to production + quality for today\n* We thrive on **smooth communication**, ownership and agility. It’s a must.\n\n**Puzzle fit for us:**\n\nWe are _an early-stage_ startup, where we have a good product with solid roadmap, lot of users, an impactful vision and a good runway.\n\n\\\nIf you are someone who is = **UNION**(High learning agility, Strong ownership, a long term player, Outcome oriented, High degree of candour), you are a 🧩 for us. And ofcourse, wants to make an impact worth remembering in the world.\\\n\\\n\\\n**Compensation:** Experience + skills Bengaluru, KA, IN jobs_skill 5 Amazon Web Services (AWS) 125 jobs_skill 90 Node.js 144 jobs_skill 99 PostgreSQL 79 jobs_skill 107 Python 288 jobs_skill 161 Elasticsearch 4 fulltime none\nlocations: Bengaluru, KA, IN\nremote: yes\nmin_experience: 1",
+      "match_score": 10.62,
+      "resume_variant": "fullstack",
+      "draft_answer": "I consistently drive end-to-end delivery of full-stack systems, from scoping requirements and building FastAPI/React portals to deploying on Azure with blue-green releases, automating 90% of manual workflows, and cutting fetch latency by 98% using Redis and RabbitMQ. My experience further encompasses Node.js microservices in projects, cloud-native deployments on AWS/Azure, and practical familiarity with LLM tool-calling and agents, reflecting my approach to scalable, quality engineering across multiple stacks.\nGitHub: https://github.com/sanjay-kandpal",
+      "status": "pending_approval",
+      "discovered_at": "2026-11-25T13:57:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 10.34,
+            "overlap": 11.26,
+            "combined": 10.61
+          },
+          "backend": {
+            "cosine": 9.67,
+            "overlap": 10.53,
+            "combined": 9.93
+          },
+          "frontend": {
+            "cosine": 7.86,
+            "overlap": 12.62,
+            "combined": 9.29
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 10.34,
+        "keyword_overlap_score": 11.26,
+        "final_score": 10.62,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2138
+          },
+          {
+            "term": "stack",
+            "weight": 0.176
+          },
+          {
+            "term": "backend",
+            "weight": 0.1165
+          },
+          {
+            "term": "high",
+            "weight": 0.1069
+          },
+          {
+            "term": "team",
+            "weight": 0.088
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": "2026-11-25T13:58:03+00:00",
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "cb97339350ac3b1e9c0b3f8a72de6c2e",
+      "source": "yc",
+      "company": "SuperKalam",
+      "role": "AI/ML engineer (with Backend skills)",
+      "url": "https://www.workatastartup.com/jobs/64552",
+      "jd_text": "This is a key position with us for someone who has strong engineering fundamentals, wish to build along with us in a fast-pace environment and has worked in AI.\\\r\n\\\r\nThis role is for a **AI/ML engineer** who has worked on Backend previously.\\\r\n\\\r\n**Application form:** [**https://forms.gle/5c99AR1RFVNxz9WS9**](https://forms.gle/5c99AR1RFVNxz9WS9)\r\n\r\n**Requirements:**\r\n\r\n* Background in AI/ML\r\n* 1\\.5+ yrs of experience in AI/ML and built related tech (Python/NodeJS)\r\n* Working knowledge on - LLMs, RAG, vector DBs, etc.\r\n* Understand quality implementations\r\n  * Eg - improving retrieval in RAG, differences in training techniques likes QLoRA vs QA-LoRA..\r\n* 1+ yr of experience in Backend engineering\r\n  * Experience with a relational database - PostgreSQL/MySQL\r\n  * Worked on NodeJS/NestJS/Django building an application/product\r\n  * Understanding of rate limiting, scale, basics of security\r\n\r\n**Responsibilities:**\r\n\r\n* Leading some core initiatives at SuperKalam\r\n* Building custom LLM models - fine tuning, RLHF, RLAIF\r\n* Running AI experiments and set up pipelines\r\n* Research and implement appropriate approaches and tools.\r\n* Keep self updated with evolving technology - say, actively following hugging face, training techniques models, tooling?\r\n* We thrive on smooth communication, ownership and agility. It’s a must.\r\n\r\n\\\r\n**Puzzle fit:**\r\n\r\nWe are _an early-stage_ startup, where we have a good product with solid roadmap, lot of users, an impactful vision and a good runway.\r\n\r\nIf you are someone who is = **UNION**(High learning agility, Strong ownership, a long term player, Outcome oriented, High degree of candour), you are a 🧩 for us. And ofcourse, wants to make an impact worth remembering in the world. Bengaluru, KA, IN jobs_skill 90 Node.js 144 jobs_skill 99 PostgreSQL 79 jobs_skill 107 Python 288 jobs_skill 183 Machine Learning 16 jobs_skill 188 Natural Language Processing 3 fulltime none\nlocations: Bengaluru, KA, IN\nremote: yes\nmin_experience: 1",
+      "match_score": 8.12,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-25T13:57:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.26,
+            "overlap": 8.61,
+            "combined": 7.66
+          },
+          "backend": {
+            "cosine": 7.89,
+            "overlap": 8.65,
+            "combined": 8.12
+          },
+          "frontend": {
+            "cosine": 5.77,
+            "overlap": 9.71,
+            "combined": 6.95
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 7.89,
+        "keyword_overlap_score": 8.65,
+        "final_score": 8.12,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2361
+          },
+          {
+            "term": "backend",
+            "weight": 0.0965
+          },
+          {
+            "term": "experience",
+            "weight": 0.0965
+          },
+          {
+            "term": "high",
+            "weight": 0.0787
+          },
+          {
+            "term": "rag",
+            "weight": 0.0787
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "b425c8fb2090194edf619455b29f6bd3",
       "source": "wellfound",
