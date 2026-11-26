@@ -1,15 +1,91 @@
 {
-  "exported_at": "2026-11-26T10:40:55+00:00",
+  "exported_at": "2026-11-26T18:24:32+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1384,
+    "discovered": 1385,
     "pending_approval": 299,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "ceab346a9a6001962ddd6065ddce4c5f",
+      "source": "yc",
+      "company": "Zeit AI",
+      "role": "Product Engineer",
+      "url": "https://www.workatastartup.com/jobs/125414",
+      "jd_text": "Our vision is that every business decision in an enterprise runs through Zeitmind.\n\nFrom logistics and manufacturing to energy operations and healthcare: We're building the platform companies use to operate, with AI agents working alongside their teams on day-to-day operations.\n\nWe're early on agent workflows. That means iterating fast, building end to end, shipping, and measuring real-world impact.\n\nWe're looking for builders who want to ship ambitious things. We don't expect you to know everything, and learning is a big part of the job. If our mission excites you, you should apply.\n\n## What you'll do\n\n- Own what you build: scope the problem, ship it, and measure what worked\n- Build agent workflows that push the state of the art in how agents and people work together\n- Work directly with customers to understand what they actually need\n- Work with our Forward Deployed Engineers to get fast signal from the field\n\n## What we're looking for\n\n- 2+ years of experience building software\n- Full-stack, comfortable across frontend and backend\n- A builder at heart, focused on real-world impact\n- Comfortable with ambiguity and quick iterations\n- Excited to figure out what the future of agentic workflows looks like\n- Professional working proficiency in English\n\n## Our tech stack\n\n- TypeScript end to end\n- Backend: Bun, tRPC, Postgres via Supabase\n- Frontend: React, Mantine, TanStack Query\n- Docker for deployment\n London, England, GB Munich fulltime none\nlocations: London, England, GB Munich\nremote: no\nmin_experience: 2",
+      "match_score": 8.59,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T18:24:28+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 6.19,
+            "overlap": 7.62,
+            "combined": 6.62
+          },
+          "backend": {
+            "cosine": 4.82,
+            "overlap": 6.77,
+            "combined": 5.4
+          },
+          "frontend": {
+            "cosine": 8.32,
+            "overlap": 9.22,
+            "combined": 8.59
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 8.32,
+        "keyword_overlap_score": 9.22,
+        "final_score": 8.59,
+        "top_keywords": [
+          {
+            "term": "end",
+            "weight": 0.1925
+          },
+          {
+            "term": "workflows",
+            "weight": 0.1181
+          },
+          {
+            "term": "frontend",
+            "weight": 0.0963
+          },
+          {
+            "term": "backend",
+            "weight": 0.0787
+          },
+          {
+            "term": "real",
+            "weight": 0.0787
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "803f18d8a490b1d7097c0b32133d6080",
       "source": "wellfound",
