@@ -1,15 +1,605 @@
 {
-  "exported_at": "2026-11-26T00:03:32+00:00",
+  "exported_at": "2026-11-26T01:43:05+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1368,
+    "discovered": 1381,
     "pending_approval": 299,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "ce337fd00f5c33fa7de90bb5fc16c615",
+      "source": "wellfound",
+      "company": "Arkscale Ventures",
+      "role": "Bug bounty hunters: $1,000 a month from day one + 40% of the bounties you find",
+      "url": "https://wellfound.com/jobs/5137703-bug-bounty-hunters-1-000-a-month-from-day-one-40-of-the-bounties-you-find",
+      "jd_text": "London\nlocationNames: London\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:43:03+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "89d84adeb3cc43bc4f18dee7d933e135",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Learn & Grow",
+      "url": "https://wellfound.com/jobs/62354",
+      "jd_text": "Upskill and stay relevant.",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:43:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "aa596dcd1e3160699eac81848c4dafa6",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Work from anywhere",
+      "url": "https://wellfound.com/jobs/62355",
+      "jd_text": "The best thing we really feel proud of is being able to work from anywhere we want.",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:43:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "9df92fd847d2e76df21c732187f1b579",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "MERN Stack Development | Mentor | CipherSchools",
+      "url": "https://wellfound.com/jobs/5094766",
+      "jd_text": "India Delhi Gurgaon Chandigarh Noida Noida Extension Delhi Gurgaon Gurugram Gurugram NewTag Javascript 14781 javascript NewTag CSS 15593 css NewTag MongoDB 16999 mongodb-6 NewTag Node.js 17000 node-js NewTag HTML/CSS/Javascript 81368 html-css-javascript NewTag Express.js 88522 express-js NewTag JSON / XML / HTML / Javascript / JQuery 117364 json-xml-html-javascript-jquery NewTag React.js 139914 react-js NewTag React Native 206637 react-native NewTag Cascading Style Sheet (CSS) 285642 cascading-style-sheet-css NewTag NodeJS 327792 nodejs-1 NewTag Full-Stack Web Development (Node/Redux/React) 331119 full-stack-web-development-node-redux-react NewTag NodeJS ExpressJS 344048 nodejs-expressjs NewTag MERN Stack 527608 mern-stack NewTag JavaScript (ES5/ES6) / TypeScript 607059 javascript-es5-es6-typescript NewTag ReactJS 607181 reactjs-1 NewTag MERN Stack - Javascript (ES5 & ES6), MongoDB, Express.Js, React, Node.Js 754623 mern-stack-javascript-es5-es6-mongodb-express-js-react-node-js\nlocationNames: India Delhi Gurgaon Chandigarh Noida Noida Extension Delhi Gurgaon Gurugram Gurugram",
+      "match_score": 9.15,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:43:00+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 9.48,
+            "overlap": 2.65,
+            "combined": 7.43
+          },
+          "backend": {
+            "cosine": 7.74,
+            "overlap": 2.26,
+            "combined": 6.09
+          },
+          "frontend": {
+            "cosine": 11.83,
+            "overlap": 2.91,
+            "combined": 9.15
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 11.83,
+        "keyword_overlap_score": 2.91,
+        "final_score": 9.15,
+        "top_keywords": [
+          {
+            "term": "javascript",
+            "weight": 0.1994
+          },
+          {
+            "term": "js",
+            "weight": 0.1994
+          },
+          {
+            "term": "react",
+            "weight": 0.1595
+          },
+          {
+            "term": "node",
+            "weight": 0.1196
+          },
+          {
+            "term": "express",
+            "weight": 0.0798
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "eb99df5085ddc3a33cbdcec9e6900e06",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Ownership",
+      "url": "https://wellfound.com/jobs/62353",
+      "jd_text": "Opportunity to ownership.",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:42:58+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "7e5f79543e427552ca1e32e68859d363",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Medical Insurance",
+      "url": "https://wellfound.com/jobs/62352",
+      "jd_text": "Get a 25 lakh medical insurance cover.",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:42:57+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "d1c5ad6f0b1c74668d9207c5d147a101",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Business Development Executive Intern",
+      "url": "https://wellfound.com/jobs/4779216-business-development-executive-intern-clone",
+      "jd_text": "Pune Maharashtra\nlocationNames: Pune Maharashtra\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:42:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "5c40a862d9eb6aba658428e2b0f054de",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Founder's Office Intern",
+      "url": "https://wellfound.com/jobs/4779153-founder-s-office-intern",
+      "jd_text": "Chandigarh Noida Punjab Gurugram\nlocationNames: Chandigarh Noida Punjab Gurugram",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:42:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "1410b215f073f54f6338f99013b771f3",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Business Development Executive Intern",
+      "url": "https://wellfound.com/jobs/4779218-business-development-executive-intern-clone",
+      "jd_text": "Coimbatore Tamil Nadu\nlocationNames: Coimbatore Tamil Nadu\nremote: true",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:42:53+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "55ef5408615c5ddeba8d599fc375a057",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "SEO, AEO and GEO Specialist",
+      "url": "https://wellfound.com/jobs/4781520-seo-aeo-and-geo-specialist",
+      "jd_text": "Delhi Chandigarh Noida Gurugram\nlocationNames: Delhi Chandigarh Noida Gurugram",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:42:50+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "79fc9ac2efa4774882ccc8960cdbc977",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Marketing Intern",
+      "url": "https://wellfound.com/jobs/4803692-marketing-intern",
+      "jd_text": "Chandigarh\nlocationNames: Chandigarh",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:42:47+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": false,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "skip_keyword",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3204ac0ee706b5a7fe5e9c5fd7fd7231",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Mentor & Software Engineer | CipherSchools",
+      "url": "https://wellfound.com/jobs/3703545-mentor-software-engineer-cipherschools",
+      "jd_text": "India Delhi Gurgaon Chandigarh Noida Noida Extension Chandigarh Delhi Gurgaon Gurugram Gurugram\nlocationNames: India Delhi Gurgaon Chandigarh Noida Noida Extension Chandigarh Delhi Gurgaon Gurugram Gurugram",
+      "match_score": 0.39,
+      "resume_variant": "frontend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:42:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.28,
+            "overlap": 0.33,
+            "combined": 0.3
+          },
+          "backend": {
+            "cosine": 0.3,
+            "overlap": 0.38,
+            "combined": 0.32
+          },
+          "frontend": {
+            "cosine": 0.35,
+            "overlap": 0.49,
+            "combined": 0.39
+          }
+        },
+        "winning_variant": "frontend",
+        "cosine_score": 0.35,
+        "keyword_overlap_score": 0.49,
+        "final_score": 0.39,
+        "top_keywords": [
+          {
+            "term": "engineer",
+            "weight": 0.0543
+          }
+        ]
+      },
+      "resume_version_hash": "27638897d7cfa72605efa3b49b363875dbe3abf7b11dd2830141ccc147a42188",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "53f5200e9252560d9037821fdd257c7e",
+      "source": "wellfound",
+      "company": "CipherSchools",
+      "role": "Java Full Stack Development Teaching",
+      "url": "https://wellfound.com/jobs/3709503-java-full-stack-development-teaching",
+      "jd_text": "India Delhi Gurgaon Chandigarh Noida Noida Extension Delhi Gurgaon Gurugram Gurugram\nlocationNames: India Delhi Gurgaon Chandigarh Noida Noida Extension Delhi Gurgaon Gurugram Gurugram",
+      "match_score": 0.75,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T01:42:44+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 0.65,
+            "overlap": 0.99,
+            "combined": 0.75
+          },
+          "backend": {
+            "cosine": 0.32,
+            "overlap": 0.38,
+            "combined": 0.34
+          },
+          "frontend": {
+            "cosine": 0.38,
+            "overlap": 0.49,
+            "combined": 0.41
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 0.65,
+        "keyword_overlap_score": 0.99,
+        "final_score": 0.75,
+        "top_keywords": [
+          {
+            "term": "stack",
+            "weight": 0.0882
+          },
+          {
+            "term": "java",
+            "weight": 0.0584
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "6ef4b3ca7f453f9588807fd796cc8941",
       "source": "yc",
