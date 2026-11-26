@@ -1,15 +1,167 @@
 {
-  "exported_at": "2026-11-25T13:58:04+00:00",
+  "exported_at": "2026-11-26T00:03:32+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
+    "discovered": 1368,
     "pending_approval": 299,
-    "discovered": 1366,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "6ef4b3ca7f453f9588807fd796cc8941",
+      "source": "yc",
+      "company": "AIOS",
+      "role": "Video Editor at AIOS — Remote, $1,500-$2,000/month (contract)",
+      "url": "https://www.workatastartup.com/jobs/125260",
+      "jd_text": "# About AIOS\n\n**AIOS is building the world’s first full-stack AI doctor.**\n\nWe’re at $450M ARR, growing from $7M/yr in April 2025. We’re faithfully serving 200k/mo patients via Bolt Pharmacy, our main UK brand. We’ve just launched Bolt Med, our international brand. We’re profitable.\n\nOur strategy exists at the intersection of two strong theses:\n\n1. The AI doctor that wins will get to escape velocity using GLP-1s, the fastest growing consumer product in history.\n\n2. The $2T European healthcare market is overlooked by the most talented builders.\n\nOur master plan:\n\n- **Step 0 → $100M/yr by end of 2025** : We went from $10M to $100M in 6 months serving the UK GLP-1 market.\n\n- **Step 1 → $1B ARR by end of 2026** : Since April 2025 we've grown from 3k to 200k UK active GLP-1 patients. We’ll continue this growth curve to hit $1B ARR.\n\n- **Step 2 → $10B ARR by end of 2028** : Blitzscale Europe. We’ll be Europe’s largest GLP-1 provider.\n\n- **Step 3 → $100B/yr by end of 2030** : Get regulatory approval across Europe for our Full Autonomous Prescribing (FAP) system. Win contracts at scale with European payers to mass replace human labor. We’ll be the dominant full-stack AI doctor in Europe.\n\n- **Step 4 → $1T/yr by end of 2035** : With one line of code and zero human time, you can use AIOS to treat any patient globally with any medication.\n\nIn so doing, we’ll become the world’s first trillion-dollar healthcare company.\n\nWe’re a young, founder-led company. This is still Day 1 and all our work is ahead of us.\n\nYou can read more about working with us here: [Working at AIOS](https://app.notion.com/p/Working-at-AIOS-5b5c0a584af44de78ac7fb9b2cf8d993?pvs=21)\n\n## The opportunity as Video Editor at AIOS\n\nWe are building a world-class team.\n\nAs Video Editor at AIOS, your fundamental role is to **turn sharp creative briefs into scroll-stopping ads, fast, so our best ideas hit the market while they're still fresh.**\n\nYou're an AI-native editor. Tools like Higgsfield are part of your editing suite: you orchestrate AI-generated clips, voiceover, captions and sound into polished direct-response ads, and you only cut by hand where the machine falls short.\n\nYou work straight from our strategists' briefs: a reference ad, a visual hook direction, a script and the nuances that make it land. You execute precisely, turn concepts around in 24–48 hours and handle revisions the same day. You know what a winning DR ad looks like, from the first three seconds through to the CTA.\n\nYou'll work across our brands in the UK and US, starting with our UK launch, and across formats: UGC-style, talking head with b-roll, AI-generated video, animation and whatever's working next.\n\nYou'll:\n\n- ship multiple finished ad concepts every week\n\n- spin out hook variations and format iterations on our winning ads\n\n- build AI editing workflows the rest of the editor pool can use\n\n- keep quality high at volume: clean captions, synced sound, no visible AI artifacts\n\nGreat performance in this role means our strategists never wait on production, and every winner gets iterated before it fatigues.\n\n**This is a full-time, fully remote contract role** , and you’ll work async, ideally on US Eastern Time hours so brief handoffs and same-day revisions move fast.\n\nYou’ll report directly to our Head of Growth, [David Charles](https://www.linkedin.com/in/david-charles-mood/).\n\nYou’ll also work most closely with:\n\n- [Jake Antifaev](https://www.linkedin.com/in/jakeantifaev/)\n\n- our creative strategists\n\n## Key Responsibilities\n\n- `Brief to finished ad`: You turn strategist briefs into finished direct-response ads, following the reference, hook direction and script precisely. Every brief has nuances that matter, and you catch them.\n\n- `AI production`: You generate and assemble AI video assets with tools like Higgsfield, then finish them with captions, music, sound effects and text overlays. Most of your time goes into orchestrating AI, not cutting frame by frame.\n\n- `Iterations on winners`: You produce hook variations and format iterations on ads that are already working, so proven concepts keep compounding.\n\n- `Speed`: You deliver multiple concepts a week on 24–48 hour turnarounds and turn revisions around the same day.\n\n- `Platform-ready exports`: You export in the right aspect ratios and specs for Meta, TikTok and other placements, every time.\n\n- `Quality at volume`: Captions are spelled right, music is synced, transitions are clean and AI artifacts are minimised. You check your own work before anyone else has to.\n\n- `Workflow building`: You document the prompts, templates and workflows that work, so the editor pool gets faster as it grows.\n\n## Need to Have\n\n- `Proven DR ad work`: You've edited ecommerce or DTC ads that actually ran on Meta or TikTok, and you can show them. A general video portfolio isn't enough.\n\n- `AI-native`: You use AI video tools (e.g. Higgsfield) every day. You know how to prompt, generate and integrate the outputs into a final edit.\n\n- `DR structure`: You understand hook, body and CTA, and you know why the first three seconds matter more than anything else.\n\n- `Animation + multi-format`: You've made Pixar-style, cartoon or claymation-style ads that performed, and you're just as strong across other formats: UGC-style, talking head with b-roll and AI-generated video.\n\n- `Fast turnaround`: You can deliver a polished concept within 24–48 hours and turn revisions around the same day.\n\n- `Brief execution`: You follow detailed briefs precisely without needing to be walked through them.\n\n- `Attention to detail`: Captions, sync, transitions and AI artifacts are clean before you hand anything over.\n\n- `Reliable`: You hit every deadline without being chased.\n\n- `Clear written English`: You communicate clearly and quickly on Slack.\n\n‼️\n\n**NOT THE RIGHT FIT IF:** you can't show ads you edited that ran on Meta or TikTok, or you'd rather craft slow, polished brand films than ship a high volume of direct-response tests.\n\n## Nice to Have\n\n- `Cracked AI workflow`: You've built an AI editing workflow that lets you ship far more than a traditional editor, and you can walk us through it.\n\n- `Hard-core DR brands`: You've edited for DR brands that broke out recently (e.g. Resilia, Bioroot Labs, Elare) and know what's working right now.\n\n- `Trust-building categories`: Health, supplements, telehealth or other categories where trust carries the sale.\n\n- `Strategist instincts`: You can suggest a sharper hook or a better cut, not just execute the brief.\n\n- `Lead editor potential`: You've QA'd or led other editors' work and could step up to lead editor as the pool grows.\n\n## Our cultural standards\n\nWe aim to make this your life's work. This should be the most challenging, most rewarding role of your life. Accordingly, these are the core cultural standards to which we hold ourselves & our team-members:\n\n1. `Belief in the mission`: We will have served 100 million patients by the end of 2030 and we transform the life of most patients who join. We have a lot of work to do. We are obsessed with our patients and are dedicated to the mission.\n\n2. `Unwavering integrity`: We are at the frontier, so we often live in ambiguity with no trodden path. When we can't look to others for guidance, we must maintain impeccable ethics and unwavering integrity.\n\n3. `Only the paranoid survive`: Bad sh\\*t is coming. By joining us, you're choosing to sail straight towards the storms with unhesitating conviction. However much we've already done, however far we've already come, it's still Day 1 and all our work is ahead of us.\n\n4. `If we're average we fail`: We are only interested in \"insanely great\", a focus on the quality of our execution that in everyday life would be considered pathological. We have a dedication to excellence and reject incompetence.\n\n5. `Commitment to candor`: That which can be destroyed by the truth should be. You get full transparency from the company and the company expects full transparency from you. We never say anything about someone that we wouldn't say to them directly. We give feedback with love and do not need to protect people from fleeting physical sensations.\n\n6. `A maniacal sense of urgency`: We execute at an intensity that most people think is impossible. Speed is critical and we need things done yesterday. We all work very hard and in such a competitive world there really is no other way to win.\n\n7. `Enduring frugality`: We are frugal. We hate being wasteful and we are anti-luxury. A culture of cheapness keeps us young. We spend our cash wisely & carefully, in a way that would make our grandmas proud.\n\n8. `Bulldozing barriers`: The world is malleable and we shape it. We truly believe this and act accordingly. We are relentlessly resourceful and are at the mercy of no-one but ourselves. You'll be shocked how capable you are and how much you can achieve.\n\n9. `Keep your head down`: We're boring people doing exciting work. We don't chase short-term status. We ignore short-term dopamine hits and focus on what matters. Outsiders will underestimate us and we revel in that.\n\n10. `The power of focus`: We live in a world of power laws and we cannot overestimate the unimportance of practically everything. Know your One Thing, and nail it.\n\n_\"You just build a f_\\*ing amazing experience. Make each step amazing. Make every decision in the long term interest of the customer. Give the customer massively more value than you take.\"\n\n## Compensation & Benefits\n\n- _Compensation_: $1,500–$2,000/month, contractor. Paid per brief during a first-month trial, then the monthly rate.\n\n- _Healthcare_: comprehensive medical insurance (if appropriate)\n\n- _Vacation_: PTO with a yearly minimum (≥2wks/yr + local national holidays)\n\n- _Remote_: our team is fully distributed across the world and functions fully remotely\n\n- _Personal development_: budget for books, courses, coaching ($1200/yr)\n\n- _Personal wellness_: budget for gym, health apps ($1200/yr)\n\n- _Coaching_: free biweekly health coaching\n\n- _Equipment_: Macbook & work-from-home equipment provided as needed\n\n- **What are we missing?** We're still early so you get to shape our culture.\n\n Remote (UK hours) fulltime yes\nlocations: Remote (UK hours)\nremote: only",
+      "match_score": 7.31,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T00:03:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 5.05,
+            "overlap": 12.58,
+            "combined": 7.31
+          },
+          "backend": {
+            "cosine": 4.38,
+            "overlap": 11.28,
+            "combined": 6.45
+          },
+          "frontend": {
+            "cosine": 4.36,
+            "overlap": 13.11,
+            "combined": 6.99
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 5.05,
+        "keyword_overlap_score": 12.58,
+        "final_score": 7.31,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.2211
+          },
+          {
+            "term": "end",
+            "weight": 0.0737
+          },
+          {
+            "term": "ad",
+            "weight": 0.0614
+          },
+          {
+            "term": "time",
+            "weight": 0.0502
+          },
+          {
+            "term": "team",
+            "weight": 0.0455
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "a78494dff19f0ada54fd84731b9a60e9",
+      "source": "yc",
+      "company": "David AI",
+      "role": "Forward Deployed Engineer, Evals",
+      "url": "https://www.workatastartup.com/jobs/125261",
+      "jd_text": "## **About David AI**\n\nAt David AI, our vision is to bring impactful AI into billions of lives through voice. Our mission is to help the world's leading AI companies build better voice models and agents. We're building the data and evaluation infrastructure behind those models.\n\nFounded in 2024, we're a fast-growing Series B company backed by NVIDIA, Meritech, First Round, YC, and others, with ~70 people across San Francisco and New York City.\n\n## **About this role**\n\nWe're building David AI's first **Forward Deployed Evals** team. Voice models can only improve on what someone can measure, and most of what matters in voice has never been measured well. This team finds those gaps with our customers and builds the evals to close them.\n\nAs a **Forward Deployed Engineer, Evals** , you'll be the primary partner to a set of customers' research teams. In a typical week, you might spot a regression in the latest model checkpoint and design a targeted eval for it, build it end-to-end, calibrate findings against human ratings, and follow through to ensure the model improves.\n\nThis is a builder role that is intentionally cross-functional, requiring you to be capable across GTM, Ops, Product, Research, and Engineering to deliver on outcomes.\n\n## **In this role, you will**\n\n- Be the evaluation partner to research teams at the world's leading AI labs: learn what they're trying to fix in their voice models, and find what they haven't thought to measure yet.\n\n- Dig into human and automated eval results, pin down exactly where and why a model fails, and decide which failures deserve a dedicated eval.\n\n- Go from idea to working eval in days, independently building whatever the problem calls for: human data pipelines, detectors trained on human labels, or synthetic test harnesses.\n\n- Make every number defensible: an eval you ship should track what people actually hear, and it should hold up when a senior researcher pushes on it.\n\n- Tell research leads what to focus on in their next checkpoint and why, with the data to back it up.\n\n- Productize what works, or turn it into a playbook the team can repeat.\n\n- Shape how forward deployed evals work at David AI as one of the first people on the team.\n\n## **Your background looks like**\n\n- 2-7+ years of experience as a technical builder across engineering, product, operations, and research (we're hiring at multiple levels); this might have been as a forward deployed engineer, applied data scientist, ML engineer, product manager, management consultant, or something else entirely.\n\n- You're exceptional at building with AI agents, and you've personally built at least one ambitious thing you can walk us through in detail.\n\n- You move fast. You solve problems in days that might take someone else a month, and you own ambiguous, high-stakes work end to end.\n\n- Strong, demonstrated analytical chops: experiment design, statistics, and knowing whether a metric actually captures what you care about.\n\n- Strong customer presence: you have the credibility and clear communication to earn the trust of technical customers and senior stakeholders.\n\n- Excited to work in person in San Francisco or New York.\n\n## **Bonus points if you have**\n\n- Been a founder, or founding engineer/PM/etc. at a startup.\n\n- Experience with speech, audio, or voice models.\n\n- Built or published a benchmark you can share with us.\n\n- Experience working with human raters, annotation, or data-labeling workflows.\n\n- Worked at an AI data or evals company.\n\n## **Benefits**\n\n- Unlimited PTO.\n\n- Top-notch health, dental, and vision coverage with 100% coverage for most plans.\n\n- FSA & HSA access.\n\n- 401k access.\n\n- Meals 2x daily through DoorDash + snacks and beverages available at the office.\n\n- Unlimited company-sponsored Barry's classes.\n\n## **Visas**\n\nWe sponsor international candidates across several visa types, including H-1B _transfers_, H-1B1, O-1, E-3, and TN. We also hire candidates on STEM OPT. If you’re on STEM OPT, we’ll want to confirm you have a path to one of the visas listed above before your OPT ends. While we can’t guarantee any individual outcome, we’ve successfully sponsored teammates from all over the world.\n\n San Francisco New York City fulltime yes\nlocations: San Francisco New York City\nremote: no",
+      "match_score": 7.9,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-26T00:03:29+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.03,
+            "overlap": 9.93,
+            "combined": 7.9
+          },
+          "backend": {
+            "cosine": 5.94,
+            "overlap": 9.02,
+            "combined": 6.87
+          },
+          "frontend": {
+            "cosine": 5.73,
+            "overlap": 9.22,
+            "combined": 6.78
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 7.03,
+        "keyword_overlap_score": 9.93,
+        "final_score": 7.9,
+        "top_keywords": [
+          {
+            "term": "ai",
+            "weight": 0.21
+          },
+          {
+            "term": "team",
+            "weight": 0.1153
+          },
+          {
+            "term": "data",
+            "weight": 0.1144
+          },
+          {
+            "term": "deployed",
+            "weight": 0.0954
+          },
+          {
+            "term": "engineer",
+            "weight": 0.0954
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "6ed972290478161ade564b71373a4ac4",
       "source": "yc",
