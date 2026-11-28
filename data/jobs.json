@@ -1,15 +1,311 @@
 {
-  "exported_at": "2026-11-27T23:58:45+00:00",
+  "exported_at": "2026-11-28T01:17:09+00:00",
   "daily_cap": 5,
   "submitted_today": 0,
   "counts": {
-    "discovered": 1395,
+    "discovered": 1401,
     "pending_approval": 299,
     "submitted": 10,
     "failed": 9,
     "rejected": 3
   },
   "jobs": [
+    {
+      "id": "072a0588b0445a89dafdd02dc1a20d9a",
+      "source": "wellfound",
+      "company": "Sixphrase",
+      "role": "Assistant professor - Computer Science M.E/MTech only",
+      "url": "https://wellfound.com/jobs/5137368-assistant-professor-computer-science-m-e-mtech-only",
+      "jd_text": "Coimbatore\nlocationNames: Coimbatore",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-28T01:17:07+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "e69229e633017845bfe2ee3f66eb7bc2",
+      "source": "wellfound",
+      "company": "MANTRA4CHANGE SERVICES",
+      "role": "SPL: Full-Stack Product Engineer",
+      "url": "https://wellfound.com/jobs/4572623-spl-full-stack-developer",
+      "jd_text": "Bangalore Urban\nlocationNames: Bangalore Urban",
+      "match_score": 2.38,
+      "resume_variant": "fullstack",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-28T01:17:05+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 2.84,
+            "overlap": 1.32,
+            "combined": 2.38
+          },
+          "backend": {
+            "cosine": 1.93,
+            "overlap": 0.75,
+            "combined": 1.58
+          },
+          "frontend": {
+            "cosine": 2.24,
+            "overlap": 0.97,
+            "combined": 1.86
+          }
+        },
+        "winning_variant": "fullstack",
+        "cosine_score": 2.84,
+        "keyword_overlap_score": 1.32,
+        "final_score": 2.38,
+        "top_keywords": [
+          {
+            "term": "bangalore",
+            "weight": 0.3482
+          },
+          {
+            "term": "stack",
+            "weight": 0.263
+          },
+          {
+            "term": "engineer",
+            "weight": 0.1741
+          }
+        ]
+      },
+      "resume_version_hash": "78b603f9ca251aa726cfef637ce7c8e538a59d5be254b2f54389ba72c7ceb41c",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "2b3c265ddcbd5423a10f547d0e9e38a8",
+      "source": "wellfound",
+      "company": "ethereal labs",
+      "role": "Generative AI Developer",
+      "url": "https://wellfound.com/jobs/5137373-generative-ai-developer",
+      "jd_text": "Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-28T01:17:02+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "f52e09ef4a72524fb9696462c9da7554",
+      "source": "wellfound",
+      "company": "Innovalq Technologies",
+      "role": "Web developer",
+      "url": "https://wellfound.com/jobs/5138017-web-developer",
+      "jd_text": "Tamil Nadu\nlocationNames: Tamil Nadu",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-28T01:16:59+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": false,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "not_remote_or_india",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "3d43afc2f6abf5b8972bcfbd10ad8283",
+      "source": "wellfound",
+      "company": "Hiresense.ai",
+      "role": "Agentic AI Backend Engineer",
+      "url": "https://wellfound.com/jobs/5137627-agentic-ai-backend-engineer",
+      "jd_text": "Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 7.43,
+      "resume_variant": "backend",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-28T01:16:55+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": true,
+          "eligibility": true,
+          "passed": true
+        },
+        "filter_reason": null,
+        "variant_scores": {
+          "fullstack": {
+            "cosine": 7.42,
+            "overlap": 0.99,
+            "combined": 5.49
+          },
+          "backend": {
+            "cosine": 10.13,
+            "overlap": 1.13,
+            "combined": 7.43
+          },
+          "frontend": {
+            "cosine": 5.86,
+            "overlap": 1.46,
+            "combined": 4.54
+          }
+        },
+        "winning_variant": "backend",
+        "cosine_score": 10.13,
+        "keyword_overlap_score": 1.13,
+        "final_score": 7.43,
+        "top_keywords": [
+          {
+            "term": "bengaluru",
+            "weight": 0.5192
+          },
+          {
+            "term": "ai",
+            "weight": 0.3175
+          },
+          {
+            "term": "backend",
+            "weight": 0.2596
+          },
+          {
+            "term": "engineer",
+            "weight": 0.2596
+          }
+        ]
+      },
+      "resume_version_hash": "0b0de51f834d6e3eda5622609212652ec7b5000a0000f77e073d0f44f433fd47",
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
+    {
+      "id": "0fe36eb4053fbfeec434ba0bc7f2f88b",
+      "source": "wellfound",
+      "company": "Procedure Tech",
+      "role": "Senior Java / Golang Engineer",
+      "url": "https://wellfound.com/jobs/5138093-senior-java-golang-engineer",
+      "jd_text": "Bengaluru\nlocationNames: Bengaluru",
+      "match_score": 0.0,
+      "resume_variant": "",
+      "draft_answer": null,
+      "status": "discovered",
+      "discovered_at": "2026-11-28T01:16:52+00:00",
+      "decided_at": null,
+      "submitted_at": null,
+      "error_message": null,
+      "sent_message": null,
+      "match_breakdown": {
+        "weights_version": "v1",
+        "hard_filters": {
+          "skip_keyword": true,
+          "remote_or_india": true,
+          "role_keyword": false,
+          "eligibility": true,
+          "passed": false
+        },
+        "filter_reason": "role_mismatch",
+        "variant_scores": {},
+        "winning_variant": "",
+        "cosine_score": 0.0,
+        "keyword_overlap_score": 0.0,
+        "final_score": 0.0,
+        "top_keywords": []
+      },
+      "resume_version_hash": null,
+      "drafted_at": null,
+      "confirmation_signal": null,
+      "github_run_id": null,
+      "apply_kind": null
+    },
     {
       "id": "7c7b7866bba64f17510f7b48a40dfa4b",
       "source": "yc",
